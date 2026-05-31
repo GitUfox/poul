@@ -34,6 +34,41 @@
       "location": "New York",
       "emoji": "🏖️",
       "cardCount": 20
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "location": "France",
+      "emoji": "🗼",
+      "cardCount": 20
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "location": "Norway",
+      "emoji": "🏔️",
+      "cardCount": 20
+    },
+    {
+      "id": "baltimore",
+      "name": "Baltimore",
+      "location": "Maryland",
+      "emoji": "🦀",
+      "cardCount": 20
+    },
+    {
+      "id": "ocean-city",
+      "name": "Ocean City",
+      "location": "Maryland",
+      "emoji": "🌊",
+      "cardCount": 20
+    },
+    {
+      "id": "dc",
+      "name": "Washington, DC",
+      "location": "District of Columbia",
+      "emoji": "🏛️",
+      "cardCount": 20
     }
   ]
 }
