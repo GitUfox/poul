@@ -329,13 +329,37 @@
     border-color: var(--felt-mid);
     transform: translateY(-2px);
   }
+  .cat-btn:hover .cat-icon, .cat-btn:active .cat-icon { color: var(--text); }
 
-  .cat-btn.selected {
-    background: var(--felt-dim);
-    border-color: var(--felt-bright);
+  /* Base selected */
+  .cat-btn.selected { transform: translateY(-1px); }
+
+  /* Per-category selected: border + glow + icon color */
+  .cat-btn[data-category="adventure"].selected { border-color: var(--adventure); background: rgba(232,105,77,0.1); box-shadow: 0 0 18px rgba(232,105,77,0.2); }
+  .cat-btn[data-category="adventure"].selected .cat-icon { color: var(--adventure); }
+
+  .cat-btn[data-category="foodie"].selected { border-color: var(--foodie); background: rgba(232,168,77,0.1); box-shadow: 0 0 18px rgba(232,168,77,0.2); }
+  .cat-btn[data-category="foodie"].selected .cat-icon { color: var(--foodie); }
+
+  .cat-btn[data-category="chill"].selected { border-color: var(--chill); background: rgba(77,200,200,0.1); box-shadow: 0 0 18px rgba(77,200,200,0.2); }
+  .cat-btn[data-category="chill"].selected .cat-icon { color: var(--chill); }
+
+  .cat-btn[data-category="social"].selected { border-color: var(--social); background: rgba(168,77,232,0.1); box-shadow: 0 0 18px rgba(168,77,232,0.2); }
+  .cat-btn[data-category="social"].selected .cat-icon { color: var(--social); }
+
+  .cat-btn[data-category="active"].selected { border-color: var(--active); background: rgba(77,143,232,0.1); box-shadow: 0 0 18px rgba(77,143,232,0.2); }
+  .cat-btn[data-category="active"].selected .cat-icon { color: var(--active); }
+
+  .cat-btn[data-category="8ball"].selected { border-color: var(--ivory); background: rgba(240,230,204,0.08); box-shadow: 0 0 18px rgba(240,230,204,0.15); }
+  .cat-btn[data-category="8ball"].selected .cat-icon { color: var(--ivory); }
+
+  .cat-icon {
+    width: 22px; height: 22px;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text-mid);
+    transition: color 0.2s ease;
   }
-
-  .cat-icon { font-size: 20px; }
+  .cat-icon svg { display: block; }
 
   .cat-name {
     font-size: 10px;
@@ -346,13 +370,19 @@
     text-align: center;
   }
 
-  /* 8-ball special button */
+  /* 8-ball: ivory name + idle pulse */
+  @keyframes ball-pulse {
+    0%, 100% { box-shadow: 0 0 6px rgba(240,230,204,0.06); }
+    50%       { box-shadow: 0 0 16px rgba(240,230,204,0.18); }
+  }
   .cat-btn.eightball {
     border-color: rgba(240,230,204,0.2);
+    animation: ball-pulse 3s ease-in-out infinite;
   }
-
   .cat-btn.eightball .cat-name { color: var(--ivory); }
+  .cat-btn.eightball .cat-icon { color: var(--ivory); opacity: 0.7; }
   .cat-btn.eightball:hover { border-color: var(--ivory); background: var(--ivory-dim); }
+  .cat-btn.eightball:hover .cat-icon { color: var(--ivory); opacity: 1; }
 
   /* The draw button */
   .draw-section {
@@ -1959,27 +1989,27 @@
   <div style="height:14px;"></div>
   <div class="category-grid">
     <button class="cat-btn" data-category="adventure" onclick="selectCategory('adventure')">
-      <span class="cat-icon">🔥</span>
+      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18 L8.5 6 L13 12.5 L16 8 L20 18"/><line x1="2" y1="18" x2="20" y2="18"/></svg></span>
       <span class="cat-name">Adventure</span>
     </button>
     <button class="cat-btn" data-category="foodie" onclick="selectCategory('foodie')">
-      <span class="cat-icon">🍜</span>
+      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 2 L7 8.5"/><path d="M5 2 L5 6 Q5 8.5 7 8.5 Q9 8.5 9 6 L9 2"/><line x1="7" y1="8.5" x2="7" y2="20"/><path d="M15 2 C15 2 17.5 5 17.5 9 L15.5 9 L15.5 20"/></svg></span>
       <span class="cat-name">Foodie</span>
     </button>
     <button class="cat-btn" data-category="chill" onclick="selectCategory('chill')">
-      <span class="cat-icon">🧘</span>
+      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 13 A7 7 0 1 1 9 4 A5.5 5.5 0 0 0 17 13 Z"/></svg></span>
       <span class="cat-name">Chill</span>
     </button>
     <button class="cat-btn" data-category="social" onclick="selectCategory('social')">
-      <span class="cat-icon">🎉</span>
+      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="6" r="3"/><path d="M2 20 C2 15.5 4.5 13 8 13 C11.5 13 14 15.5 14 20"/><circle cx="16" cy="7.5" r="2.5"/><path d="M14 20 C14.5 17 15.5 15 16 15 C17.5 15 19.5 16.5 20 20"/></svg></span>
       <span class="cat-name">Social</span>
     </button>
     <button class="cat-btn" data-category="active" onclick="selectCategory('active')">
-      <span class="cat-icon">💪</span>
+      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 L5 13 L11 13 L9 20 L17 9 L11 9 Z"/></svg></span>
       <span class="cat-name">Active</span>
     </button>
     <button class="cat-btn eightball" data-category="8ball" onclick="selectCategory('8ball')">
-      <span class="cat-icon">🎱</span>
+      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="11" cy="10.5" r="4" fill="none" stroke="currentColor" stroke-width="1"/><text x="11" y="14" text-anchor="middle" font-family="Manrope,sans-serif" font-size="7" font-weight="800" fill="currentColor">8</text></svg></span>
       <span class="cat-name">8-Ball</span>
     </button>
   </div>
@@ -2419,13 +2449,31 @@ const CAT_COLORS = {
 };
 
 const CAT_LABELS = {
-  adventure: '🔥 Adventure',
-  foodie: '🍜 Foodie',
-  chill: '🧘 Chill',
-  social: '🎉 Social',
-  active: '💪 Active',
-  '8ball': '🎱 The 8-Ball'
+  adventure: 'Adventure',
+  foodie: 'Foodie',
+  chill: 'Chill',
+  social: 'Social',
+  active: 'Active',
+  '8ball': 'The 8-Ball'
 };
+
+// ──────────────────────────────────────────
+// COUNTER ANIMATION
+// ──────────────────────────────────────────
+function animateCounter(el, to) {
+  const from = parseInt(el.textContent, 10) || 0;
+  if (from === to) return;
+  const duration = Math.min(700, Math.abs(to - from) * 25 + 200);
+  const start = performance.now();
+  function step(now) {
+    const p = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - p, 3);
+    el.textContent = Math.round(from + (to - from) * eased);
+    if (p < 1) requestAnimationFrame(step);
+    else el.textContent = to;
+  }
+  requestAnimationFrame(step);
+}
 
 const RARITY_COLORS = {
   Common: 'var(--text-dim)',
@@ -2437,9 +2485,9 @@ const RARITY_COLORS = {
 // UI UPDATES
 // ──────────────────────────────────────────
 function updateHomeUI() {
-  // Spark score
+  // Spark score (animated counter)
   const scoreEl = document.getElementById('spark-score-display');
-  scoreEl.textContent = state.sparkScore;
+  animateCounter(scoreEl, state.sparkScore);
 
   // Poul type
   const type = getPoulType();
@@ -2510,12 +2558,12 @@ function updateHomeUI() {
       poolLabel.textContent = '0 cards available';
       poolLabel.className = 'pool-size-label thin';
     } else if (poolSize <= 2) {
-      btn.textContent = 'Draw Your Card →';
+      btn.textContent = 'Draw ' + CAT_LABELS[state.selectedCategory] + ' →';
       btn.classList.remove('disabled');
       poolLabel.textContent = `Only ${poolSize} card${poolSize > 1 ? 's' : ''} — loosen filters?`;
       poolLabel.className = 'pool-size-label thin';
     } else {
-      btn.textContent = 'Draw Your Card →';
+      btn.textContent = 'Draw ' + CAT_LABELS[state.selectedCategory] + ' →';
       btn.classList.remove('disabled');
       if (activeCount > 0) {
         poolLabel.textContent = `${poolSize} cards in pool`;

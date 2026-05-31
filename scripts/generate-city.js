@@ -33,6 +33,9 @@ Card rules:
 - Spark: Common=15, Rare=25, Legendary=40
 - Season: use specific months when seasonal (e.g. "Apr–Oct"), otherwise "Year Round"
 - Maps URL: a valid Google Maps search URL for the specific venue
+- Longevity: strongly prefer venues established 20+ years (institutions, historic cafes, museums, parks,
+  long-standing restaurants). Newer spots are OK when genuinely exceptional but should be no more than
+  30% of cards. Public parks, trails, and cultural institutions are always preferred over trendy new venues.
 
 Return ONLY a valid JSON array — no markdown, no commentary, no code fences.
 
