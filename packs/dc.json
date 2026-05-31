@@ -1,8 +1,8 @@
 {
   "id": "dc",
-  "name": "dc",
-  "location": "",
-  "emoji": "📍",
+  "name": "Washington, DC",
+  "location": "District of Columbia",
+  "emoji": "🏛️",
   "isDefault": false,
   "cards": {
     "active": [

@@ -19,12 +19,21 @@ const DB_ID    = '68dabc44-f31e-48d9-9dac-2a6d6edb4414';
 const PACKS_DIR = path.join(__dirname, '..', 'packs');
 
 // Pack metadata — name, location, emoji, whether it's the default home deck
+// IMPORTANT: every pack id that exists in Notion must have an entry here.
+// Missing entries fall back to { name: packId, location: '', emoji: '📍' },
+// which produces broken display names in the app.
 const PACK_META = {
-  'phoenix':  { name: 'Phoenix · Scottsdale', location: 'Arizona',               emoji: '🌵', isDefault: true  },
-  'nyc-fifa': { name: 'FIFA World Cup',        location: 'New York · New Jersey',  emoji: '⚽', isDefault: false },
-  'paris':    { name: 'Paris',                 location: 'France',                emoji: '🇫🇷', isDefault: false },
-  'oslo':     { name: 'Oslo',                  location: 'Norway',                emoji: '🇳🇴', isDefault: false },
-  'istanbul': { name: 'Istanbul',              location: 'Turkey',                emoji: '🇹🇷', isDefault: false },
+  'phoenix':    { name: 'Phoenix · Scottsdale', location: 'Arizona',                emoji: '🌵', isDefault: true  },
+  'nyc':        { name: 'New York City',         location: 'New York · New Jersey',  emoji: '🗽', isDefault: false },
+  'nyc-fifa':   { name: 'FIFA World Cup',        location: 'New York · New Jersey',  emoji: '⚽', isDefault: false },
+  'istanbul':   { name: 'Istanbul',              location: 'Turkey',                 emoji: '🕌', isDefault: false },
+  'brussels':   { name: 'Brussels',              location: 'Belgium',                emoji: '🍺', isDefault: false },
+  'hamptons':   { name: 'The Hamptons',          location: 'New York',               emoji: '🏖️', isDefault: false },
+  'paris':      { name: 'Paris',                 location: 'France',                 emoji: '🗼', isDefault: false },
+  'oslo':       { name: 'Oslo',                  location: 'Norway',                 emoji: '🏔️', isDefault: false },
+  'baltimore':  { name: 'Baltimore',             location: 'Maryland',               emoji: '🦀', isDefault: false },
+  'ocean-city': { name: 'Ocean City',            location: 'Maryland',               emoji: '🌊', isDefault: false },
+  'dc':         { name: 'Washington, DC',        location: 'District of Columbia',   emoji: '🏛️', isDefault: false },
 };
 
 // ── Notion helpers ─────────────────────────────────────────────────────────

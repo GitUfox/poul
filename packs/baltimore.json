@@ -1,8 +1,8 @@
 {
   "id": "baltimore",
-  "name": "baltimore",
-  "location": "",
-  "emoji": "📍",
+  "name": "Baltimore",
+  "location": "Maryland",
+  "emoji": "🦀",
   "isDefault": false,
   "cards": {
     "active": [

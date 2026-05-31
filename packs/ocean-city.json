@@ -1,8 +1,8 @@
 {
   "id": "ocean-city",
-  "name": "ocean-city",
-  "location": "",
-  "emoji": "📍",
+  "name": "Ocean City",
+  "location": "Maryland",
+  "emoji": "🌊",
   "isDefault": false,
   "cards": {
     "active": [
