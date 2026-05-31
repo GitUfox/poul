@@ -1,13 +1,25 @@
-const CACHE = 'poul-v1';
-const ASSETS = [
+const CACHE = 'poul-v2';
+
+// App shell — cache-first, never stale
+const SHELL = [
   './poul-v1.5.html',
   './poul-icon.svg',
-  './manifest.json'
+  './manifest.json',
+];
+
+// Pack data — pre-cached, stale-while-revalidate
+const PACKS = [
+  './packs/index.json',
+  './packs/phoenix.json',
+  './packs/nyc.json',
+  './packs/istanbul.json',
+  './packs/brussels.json',
+  './packs/hamptons.json',
 ];
 
 self.addEventListener('install', e => {
   e.waitUntil(
-    caches.open(CACHE).then(cache => cache.addAll(ASSETS))
+    caches.open(CACHE).then(cache => cache.addAll([...SHELL, ...PACKS]))
   );
   self.skipWaiting();
 });
@@ -22,19 +34,36 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
-  // Only handle same-origin requests
   if (!e.request.url.startsWith(self.location.origin)) return;
 
+  const url = new URL(e.request.url);
+
+  // Stale-while-revalidate for pack JSON files
+  // Serve cached version immediately, update cache in background for next visit
+  if (url.pathname.includes('/packs/')) {
+    e.respondWith(
+      caches.open(CACHE).then(cache =>
+        cache.match(e.request).then(cached => {
+          const network = fetch(e.request).then(res => {
+            if (res.ok) cache.put(e.request, res.clone());
+            return res;
+          }).catch(() => null);
+          return cached || network;
+        })
+      )
+    );
+    return;
+  }
+
+  // Cache-first for app shell
   e.respondWith(
     caches.match(e.request).then(cached => {
       if (cached) return cached;
-      return fetch(e.request).then(response => {
-        // Cache successful GET responses for app assets
-        if (e.request.method === 'GET' && response.ok) {
-          const clone = response.clone();
-          caches.open(CACHE).then(cache => cache.put(e.request, clone));
+      return fetch(e.request).then(res => {
+        if (e.request.method === 'GET' && res.ok) {
+          caches.open(CACHE).then(cache => cache.put(e.request, res.clone()));
         }
-        return response;
+        return res;
       });
     }).catch(() => caches.match('./poul-v1.5.html'))
   );
