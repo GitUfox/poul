@@ -26,7 +26,7 @@ const PACK_META = {
   'phoenix':    { name: 'Phoenix · Scottsdale', location: 'Arizona',                emoji: '🌵', isDefault: true  },
   'nyc':        { name: 'New York City',         location: 'New York · New Jersey',  emoji: '🗽', isDefault: false },
   'nyc-fifa':   { name: 'FIFA World Cup',        location: 'New York · New Jersey',  emoji: '⚽', isDefault: false },
-  'istanbul':   { name: 'Istanbul',              location: 'Turkey',                 emoji: '🕌', isDefault: false },
+  'istanbul':   { name: 'Istanbul',              location: 'Türkiye',                emoji: '🕌', isDefault: false },
   'brussels':   { name: 'Brussels',              location: 'Belgium',                emoji: '🍺', isDefault: false },
   'hamptons':   { name: 'The Hamptons',          location: 'New York',               emoji: '🏖️', isDefault: false },
   'paris':      { name: 'Paris',                 location: 'France',                 emoji: '🗼', isDefault: false },

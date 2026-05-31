@@ -1,7 +1,7 @@
 {
   "id": "istanbul",
   "name": "Istanbul",
-  "location": "Turkey",
+  "location": "Türkiye",
   "emoji": "🕌",
   "isDefault": false,
   "cards": {
@@ -18,7 +18,7 @@
         "season": "Year Round",
         "spark": 15,
         "bonus": "Time yourself from the tower base to the ferry terminal pier — beat twelve minutes.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Galata+Tower+Istanbul"
       },
       {
@@ -33,7 +33,7 @@
         "season": "Apr–Oct",
         "spark": 15,
         "bonus": "Paddle close enough to touch the base of the Ayvansaray sea walls without grounding the kayak.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Ayvansaray+Golden+Horn+Istanbul"
       },
       {
@@ -48,7 +48,7 @@
         "season": "Apr–Nov",
         "spark": 25,
         "bonus": "Stop exactly at the bridge midpoint, straddle the continental divide marker, and do ten jumping jacks over two continents.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Bosphorus+Bridge+Istanbul"
       }
     ],
@@ -65,7 +65,7 @@
         "season": "Apr–Oct",
         "spark": 15,
         "bonus": "Point out and name every landmark visible from the terrace to whoever you're with — Google nothing.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/360+Istanbul+Rooftop+Bar"
       },
       {
@@ -80,7 +80,7 @@
         "season": "Year Round",
         "spark": 15,
         "bonus": "Challenge someone to a game using only hand gestures — no translation apps allowed.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Kıraathane+Fatih+Istanbul"
       },
       {
@@ -95,7 +95,7 @@
         "season": "Aug–May",
         "spark": 40,
         "bonus": "Learn the main Çarşı chant phonetically before kick-off and sing it in the stands — loudly, from the first minute.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Vodafone+Park+Beşiktaş+Istanbul"
       },
       {
@@ -110,7 +110,7 @@
         "season": "Year Round",
         "spark": 25,
         "bonus": "Introduce yourself to the table next to you within the first twenty minutes and get a restaurant recommendation from them before you leave.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Münferit+Beyoğlu+Istanbul"
       }
     ],
@@ -127,7 +127,7 @@
         "season": "Year Round",
         "spark": 15,
         "bonus": "Order five different varieties and rank them — tell the staff your winner and see if they agree.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Karaköy+Güllüoğlu+Istanbul"
       },
       {
@@ -142,7 +142,7 @@
         "season": "Apr–Nov",
         "spark": 15,
         "bonus": "Climb to the highest accessible tower and stay until the first star appears — name it.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Yedikule+Fortress+Istanbul"
       },
       {
@@ -157,7 +157,7 @@
         "season": "Year Round",
         "spark": 15,
         "bonus": "Take the cable car up and walk the cemetery path down through the Ottoman tombstones — read one inscription aloud.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Pierre+Loti+Cafe+Eyüp+Istanbul"
       },
       {
@@ -172,7 +172,7 @@
         "season": "Year Round",
         "spark": 25,
         "bonus": "Request the full kese scrub and kil soap massage — don't flinch when the tellak wrings the foam sack over your face.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Çemberlitaş+Hamamı+Istanbul"
       }
     ],
@@ -189,7 +189,7 @@
         "season": "Year Round",
         "spark": 25,
         "bonus": "Hit at least three different meyhanes and order rakı with a meze at each — finish every glass.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Nevizade+Sokak+Beyoğlu+Istanbul"
       },
       {
@@ -204,7 +204,7 @@
         "season": "Year Round",
         "spark": 15,
         "bonus": "Order a double portion and eat it without asking what's in it until you've finished.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Kadıköy+Çarşı+Market+Istanbul"
       },
       {
@@ -219,7 +219,7 @@
         "season": "Year Round",
         "spark": 40,
         "bonus": "Ask the sommelier to pair each course with only Turkish wine — no exceptions, even if they push back.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Mikla+Restaurant+Istanbul"
       },
       {
@@ -234,7 +234,7 @@
         "season": "Year Round",
         "spark": 15,
         "bonus": "Eat it standing on the bridge while a fisherman casts directly beside you — don't move for the whole sandwich.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Balık+Ekmek+Galata+Bridge+Istanbul"
       },
       {
@@ -249,7 +249,7 @@
         "season": "Year Round",
         "spark": 25,
         "bonus": "Order çay refills until the waiter stops counting — try to hit seven glasses in one sitting.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Van+Kahvaltı+Evi+Cihangir+Istanbul"
       }
     ],
@@ -266,7 +266,7 @@
         "season": "Year Round",
         "spark": 15,
         "bonus": "Find the two Medusa head column bases and press your forehead against the stone for ten full seconds.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Basilica+Cistern+Yerebatan+Istanbul"
       },
       {
@@ -281,7 +281,7 @@
         "season": "Year Round",
         "spark": 15,
         "bonus": "Stand at the very bow of the upper deck and don't hold the railing for the full crossing.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Eminönü+Ferry+Terminal+Istanbul"
       },
       {
@@ -296,7 +296,7 @@
         "season": "Apr–Oct",
         "spark": 25,
         "bonus": "Ask the pilot to fly you directly over the Greek Orthodox Orphanage ruins and take one photo mid-flight.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Büyükada+Princes+Islands+Istanbul"
       },
       {
@@ -311,7 +311,7 @@
         "season": "Jul–Sep",
         "spark": 40,
         "bonus": "Touch the Asian shore and the European shore on the same day — document both with a wet hand on the wall.",
-        "city": "Istanbul, Turkey",
+        "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Kız+Kulesi+Istanbul"
       }
     ]
