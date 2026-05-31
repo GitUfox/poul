@@ -12,7 +12,7 @@
  * Env: NOTION_API_KEY (in ../.env)
  */
 
-require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), override: true });
 const { Client } = require('@notionhq/client');
 const fs   = require('fs');
 const path = require('path');

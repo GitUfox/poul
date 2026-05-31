@@ -11,7 +11,7 @@
  * Env: ANTHROPIC_API_KEY, NOTION_API_KEY (in ../.env)
  */
 
-require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), override: true });
 const Anthropic = require('@anthropic-ai/sdk');
 const { Client } = require('@notionhq/client');
 
@@ -75,7 +75,7 @@ Make the bonus challenges doable and daring, not vague.`;
   console.log(`Generating ${count} cards for ${city} (pack: ${pack})...`);
 
   const msg = await anthropic.messages.create({
-    model: 'claude-sonnet-4-5',
+    model: 'claude-sonnet-4-6',
     max_tokens: 8192,
     system: SYSTEM,
     messages: [{ role: 'user', content: userMsg }],

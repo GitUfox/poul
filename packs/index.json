@@ -1,6 +1,13 @@
 {
   "packs": [
     {
+      "id": "phoenix",
+      "name": "Phoenix · Scottsdale",
+      "location": "Arizona",
+      "emoji": "🌵",
+      "cardCount": 80
+    },
+    {
       "id": "nyc",
       "name": "New York City",
       "location": "New York · New Jersey",
@@ -8,11 +15,25 @@
       "cardCount": 20
     },
     {
-      "id": "phoenix",
-      "name": "Phoenix · Scottsdale",
-      "location": "Arizona",
-      "emoji": "🌵",
-      "cardCount": 80
+      "id": "istanbul",
+      "name": "Istanbul",
+      "location": "Turkey",
+      "emoji": "🕌",
+      "cardCount": 20
+    },
+    {
+      "id": "brussels",
+      "name": "Brussels",
+      "location": "Belgium",
+      "emoji": "🍺",
+      "cardCount": 20
+    },
+    {
+      "id": "hamptons",
+      "name": "The Hamptons",
+      "location": "New York",
+      "emoji": "🏖️",
+      "cardCount": 20
     }
   ]
 }
