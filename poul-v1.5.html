@@ -1706,6 +1706,52 @@
     flex-shrink: 0;
   }
 
+  .pack-search-wrap {
+    position: relative;
+    margin-bottom: 14px;
+  }
+
+  .pack-search-wrap::before {
+    content: '';
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%235a6458' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='8.5' cy='8.5' r='5.5'/%3E%3Cline x1='13' y1='13' x2='18' y2='18'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+  }
+
+  #pack-search {
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 11px 14px 11px 38px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.15s ease;
+    -webkit-appearance: none;
+  }
+
+  #pack-search::placeholder { color: var(--text-dim); }
+  #pack-search:focus { border-color: var(--border2); }
+
+  .pack-no-results {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 28px 0 12px;
+  }
+
   .pack-coming-soon {
     font-size: 11px;
     font-weight: 600;
@@ -2165,6 +2211,10 @@
   <div class="sheet-header">
     <div class="sheet-title">Choose Your Pack</div>
     <button class="btn-sheet-close" onclick="closePackSheet()">Done</button>
+  </div>
+
+  <div class="pack-search-wrap">
+    <input id="pack-search" type="search" placeholder="Search cities…" oninput="filterPacks(this.value)" autocomplete="off" autocorrect="off" spellcheck="false">
   </div>
 
   <div id="pack-options"></div>
@@ -3048,11 +3098,45 @@ function openPackSheet() {
   renderPackOptions();
   document.getElementById('pack-overlay').classList.add('open');
   document.getElementById('pack-sheet').classList.add('open');
+  // Small delay so the sheet finishes animating before focusing
+  setTimeout(() => {
+    const s = document.getElementById('pack-search');
+    if (s) { s.value = ''; filterPacks(''); }
+  }, 200);
 }
 
 function closePackSheet() {
   document.getElementById('pack-overlay').classList.remove('open');
   document.getElementById('pack-sheet').classList.remove('open');
+  const s = document.getElementById('pack-search');
+  if (s) s.value = '';
+}
+
+function filterPacks(query) {
+  const q = query.trim().toLowerCase();
+  const container = document.getElementById('pack-options');
+  const options = container.querySelectorAll('.pack-option');
+  let visible = 0;
+  options.forEach(el => {
+    const name = (el.dataset.name || '').toLowerCase();
+    const loc  = (el.dataset.location || '').toLowerCase();
+    const match = !q || name.includes(q) || loc.includes(q);
+    el.style.display = match ? '' : 'none';
+    if (match) visible++;
+  });
+  // Show / hide empty state
+  let empty = container.querySelector('.pack-no-results');
+  if (!visible && q) {
+    if (!empty) {
+      empty = document.createElement('div');
+      empty.className = 'pack-no-results';
+      container.appendChild(empty);
+    }
+    empty.textContent = `No packs match "${query}"`;
+    empty.style.display = '';
+  } else if (empty) {
+    empty.style.display = 'none';
+  }
 }
 
 function renderPackOptions() {
@@ -3068,7 +3152,7 @@ function renderPackOptions() {
   ];
 
   container.innerHTML = allPacks.map(p => `
-    <div class="pack-option${state.activePack === p.id ? ' active' : ''}" onclick="selectPack('${p.id}')">
+    <div class="pack-option${state.activePack === p.id ? ' active' : ''}" onclick="selectPack('${p.id}')" data-name="${p.name}" data-location="${p.location}">
       <div class="pack-option-emoji">${p.emoji}</div>
       <div class="pack-option-info">
         <div class="pack-option-name">${p.name}</div>
