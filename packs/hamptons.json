@@ -1,8 +1,8 @@
 {
   "id": "hamptons",
-  "name": "hamptons",
-  "location": "",
-  "emoji": "📍",
+  "name": "The Hamptons",
+  "location": "New York",
+  "emoji": "🏖️",
   "isDefault": false,
   "cards": {
     "active": [
@@ -87,13 +87,13 @@
         "id": "HAMP-S-02",
         "title": "Sunday Brunch at Tutto Il Giorno",
         "description": "Sag Harbor's waterfront Italian brings a downtown Manhattan crowd to a Peconic Bay terrace where the people-watching is as good as the tagliolini.",
-        "rarity": "Common",
+        "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
         "durationMins": 150,
         "time": "Morning",
         "season": "May–Oct",
-        "spark": 15,
+        "spark": 25,
         "bonus": "Start a conversation with the table next to you by asking them to recommend one dish — stay in conversation long enough to actually order it.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Tutto+Il+Giorno+Sag+Harbor+NY"
@@ -203,7 +203,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Identify one genuinely famous person in the room — then send them a drink without revealing who it's from.",
+        "bonus": "Order whatever the table next to you is having for their main. No deliberating — just match them.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Nick+and+Tonis+East+Hampton+NY"
       },

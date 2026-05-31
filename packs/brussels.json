@@ -1,8 +1,8 @@
 {
   "id": "brussels",
-  "name": "brussels",
-  "location": "",
-  "emoji": "📍",
+  "name": "Brussels",
+  "location": "Belgium",
+  "emoji": "🍺",
   "isDefault": false,
   "cards": {
     "active": [

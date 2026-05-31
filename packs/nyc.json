@@ -1,8 +1,8 @@
 {
-  "id": "fifa-nyc",
-  "name": "fifa-nyc",
-  "location": "",
-  "emoji": "📍",
+  "id": "nyc",
+  "name": "New York City",
+  "location": "New York",
+  "emoji": "🗽",
   "isDefault": false,
   "cards": {
     "active": [
