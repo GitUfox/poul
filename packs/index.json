@@ -1,0 +1,18 @@
+{
+  "packs": [
+    {
+      "id": "fifa-nyc",
+      "name": "fifa-nyc",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 20
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix · Scottsdale",
+      "location": "Arizona",
+      "emoji": "🌵",
+      "cardCount": 80
+    }
+  ]
+}

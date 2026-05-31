@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0c0a" rx="96"/>
+  <circle cx="256" cy="256" r="188" fill="#0d0d0d" stroke="rgba(255,255,255,0.08)" stroke-width="4"/>
+  <!-- specular highlight -->
+  <ellipse cx="206" cy="202" rx="56" ry="40" fill="rgba(255,255,255,0.05)" transform="rotate(-20,206,202)"/>
+  <!-- inner white circle -->
+  <circle cx="256" cy="256" r="76" fill="white"/>
+  <!-- 8 text -->
+  <text x="256" y="298" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="100" font-weight="900" fill="#0a0c0a">8</text>
+  <!-- felt-color glow ring -->
+  <circle cx="256" cy="256" r="188" fill="none" stroke="#1e5c3a" stroke-width="6" opacity="0.4"/>
+</svg>

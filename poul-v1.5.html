@@ -1,0 +1,3955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>POUL</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0a0c0a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Poul">
+<link rel="apple-touch-icon" href="poul-icon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0c0a;
+    --surface: #131613;
+    --surface2: #1a1f1a;
+    --surface3: #212621;
+    --border: #252d25;
+    --border2: #2e382e;
+    --felt: #1e5c3a;
+    --felt-mid: #2d7a50;
+    --felt-bright: #3d9970;
+    --felt-glow: rgba(61,153,112,0.15);
+    --felt-dim: rgba(30,92,58,0.2);
+    --ivory: #f0e6cc;
+    --ivory-dim: rgba(240,230,204,0.07);
+    --success: #4dd87f;
+    --danger: #e05570;
+    --text: #eeeee8;
+    --text-mid: #a0a898;
+    --text-dim: #5a6458;
+    --adventure: #e8694d;
+    --foodie: #e8a84d;
+    --chill: #4dc8c8;
+    --social: #a84de8;
+    --active: #4d8fe8;
+    --wild: #f0e6cc;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Manrope', sans-serif;
+  }
+
+  /* ── SCREENS ── */
+  .screen {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .screen.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  /* ── NOISE OVERLAY ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* ────────────────────────────────
+     SCREEN 1 — HOME
+  ──────────────────────────────── */
+  #screen-home {
+    padding: 24px;
+    gap: 0;
+  }
+
+  .home-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .home-wordmark {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 1;
+    color: var(--text);
+    position: relative;
+    user-select: none;
+  }
+
+  .wordmark-dot {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    background: radial-gradient(circle at 38% 35%, #2a2a2a 0%, #000 70%);
+    border-radius: 50%;
+    border: 2.5px solid rgba(255,255,255,0.12);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.8), inset 0 1px 0 rgba(255,255,255,0.08);
+    position: relative;
+    bottom: 6px;
+    margin-left: 3px;
+    vertical-align: bottom;
+    flex-shrink: 0;
+  }
+
+  .wordmark-dot-inner {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .wordmark-dot-inner::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 50%;
+    top: -2px;
+    left: -2px;
+    z-index: 3;
+  }
+
+  .wordmark-dot-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 900;
+    color: #000;
+    line-height: 1;
+    position: relative;
+    z-index: 4;
+    top: 0px;
+  }
+
+  .home-sub {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-top: 10px;
+  }
+
+  /* Spark display on home */
+  .spark-display {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 28px;
+    padding: 16px 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .spark-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spark-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 3px;
+  }
+
+  .spark-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--felt-bright);
+    line-height: 1;
+  }
+
+  .spark-streak-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .streak-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ivory);
+    line-height: 1;
+  }
+
+  .streak-value.active {
+    color: #f28c28;
+  }
+
+  .spark-type {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .spark-type-tappable {
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+
+  .spark-type-tappable:hover {
+    background: var(--surface2);
+  }
+
+  .spark-type-tappable:active {
+    background: var(--surface3);
+  }
+
+  .spark-type-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 3px;
+  }
+
+  .spark-type-value {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .token-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .token-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--felt-bright);
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+
+  .token-dot.used {
+    background: var(--border2);
+    opacity: 0.4;
+  }
+
+  .token-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+  }
+
+  /* Category grid */
+  .category-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-top: 28px;
+    margin-bottom: 14px;
+    align-self: flex-start;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .cat-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .cat-btn:hover, .cat-btn:active {
+    background: var(--surface2);
+    border-color: var(--felt-mid);
+    transform: translateY(-2px);
+  }
+
+  .cat-btn.selected {
+    background: var(--felt-dim);
+    border-color: var(--felt-bright);
+  }
+
+  .cat-icon { font-size: 20px; }
+
+  .cat-name {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-mid);
+    text-align: center;
+  }
+
+  /* 8-ball special button */
+  .cat-btn.eightball {
+    border-color: rgba(240,230,204,0.2);
+  }
+
+  .cat-btn.eightball .cat-name { color: var(--ivory); }
+  .cat-btn.eightball:hover { border-color: var(--ivory); background: var(--ivory-dim); }
+
+  /* The draw button */
+  .draw-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .draw-btn {
+    width: 100%;
+    background: var(--felt);
+    border: none;
+    border-radius: 14px;
+    padding: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .draw-btn::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .draw-btn:hover {
+    background: var(--felt-mid);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 32px rgba(30,92,58,0.5);
+  }
+
+  .draw-btn:active { transform: translateY(1px); }
+
+  .draw-btn.disabled {
+    background: var(--surface2);
+    color: var(--text-dim);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .collection-link {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 8px;
+    text-decoration: none;
+  }
+
+  .collection-link:hover { color: var(--felt-bright); }
+
+  /* ────────────────────────────────
+     SCREEN 2 — DRAW ANIMATION
+  ──────────────────────────────── */
+  #screen-draw {
+    background: var(--bg);
+  }
+
+  .draw-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .draw-category-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  /* The 8-ball */
+  .ball-container {
+    position: relative;
+    width: 160px;
+    height: 160px;
+  }
+
+  .ball {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 38% 32%, #2e2e2e 0%, #111 40%, #000 100%);
+    border: 2px solid rgba(255,255,255,0.08);
+    box-shadow:
+      0 0 0 1px rgba(0,0,0,0.8),
+      0 30px 80px rgba(0,0,0,0.9),
+      inset 0 2px 0 rgba(255,255,255,0.07);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    transition: box-shadow 0.3s;
+  }
+
+  .ball.drawing {
+    animation: ballShake 0.6s ease-in-out;
+    box-shadow:
+      0 0 0 1px rgba(0,0,0,0.8),
+      0 30px 80px rgba(0,0,0,0.9),
+      0 0 60px rgba(61,153,112,0.5),
+      inset 0 2px 0 rgba(255,255,255,0.07);
+  }
+
+  @keyframes ballShake {
+    0%, 100% { transform: rotate(0deg) scale(1); }
+    15% { transform: rotate(-8deg) scale(1.05); }
+    30% { transform: rotate(6deg) scale(1.08); }
+    45% { transform: rotate(-5deg) scale(1.05); }
+    60% { transform: rotate(4deg) scale(1.03); }
+    75% { transform: rotate(-2deg) scale(1.01); }
+  }
+
+  .ball-inner {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ball-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 900;
+    color: #000;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+  }
+
+  .ball-glow {
+    position: absolute;
+    inset: -20px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(61,153,112,0.2) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+  }
+
+  .ball.drawing .ball-glow { opacity: 1; }
+
+  .draw-instruction {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+
+  /* ────────────────────────────────
+     SCREEN 3 — CARD REVEAL
+  ──────────────────────────────── */
+  #screen-card {
+    padding: 24px;
+    justify-content: flex-start;
+    padding-top: 48px;
+  }
+
+  .card-wrapper {
+    width: 100%;
+    max-width: 380px;
+    perspective: 1000px;
+  }
+
+  .card {
+    background: var(--surface2);
+    border-radius: 20px;
+    border: 1px solid var(--border2);
+    overflow: hidden;
+    box-shadow:
+      0 24px 80px rgba(0,0,0,0.7),
+      0 0 0 1px rgba(255,255,255,0.03);
+    transform: translateY(30px);
+    opacity: 0;
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease;
+  }
+
+  .card.revealed {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .card-stripe {
+    height: 3px;
+    width: 100%;
+  }
+
+  .card-header {
+    padding: 20px 22px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .card-rarity-badge {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .rarity-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+
+  .card-city-tag {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .card-body {
+    padding: 14px 22px 18px;
+  }
+
+  .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--text);
+    margin-bottom: 10px;
+    letter-spacing: -0.3px;
+  }
+
+  .card-description {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--text-mid);
+    margin-bottom: 16px;
+  }
+
+  .card-meta-row {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+
+  .meta-chip {
+    font-size: 11px;
+    font-weight: 600;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text-mid);
+    padding: 4px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+
+  .card-bonus {
+    background: var(--felt-dim);
+    border: 1px solid rgba(61,153,112,0.3);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 0;
+  }
+
+  .bonus-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--felt-bright);
+    margin-bottom: 5px;
+    opacity: 0.8;
+  }
+
+  .bonus-text {
+    font-size: 12.5px;
+    color: var(--felt-bright);
+    line-height: 1.5;
+  }
+
+  /* Card actions */
+  .card-actions {
+    display: flex;
+    gap: 10px;
+    padding: 0 22px 22px;
+  }
+
+  .btn-commit, .btn-decline {
+    flex: 1;
+    border-radius: 11px;
+    padding: 15px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-commit {
+    background: var(--success);
+    color: #04160b;
+  }
+
+  .btn-commit:hover {
+    background: #5fe88a;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(77,216,127,0.4);
+  }
+
+  .btn-decline {
+    background: transparent;
+    color: var(--danger);
+    border: 1px solid var(--danger);
+  }
+
+  .btn-decline:hover {
+    background: rgba(224,85,112,0.1);
+    transform: translateY(-1px);
+  }
+
+  .btn-commit:active, .btn-decline:active { transform: translateY(1px); }
+
+  /* Redraw section */
+  .redraw-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 22px 18px;
+  }
+
+  .btn-redraw {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .btn-redraw:hover {
+    border-color: var(--felt-bright);
+    color: var(--felt-bright);
+  }
+
+  .redraw-cost {
+    font-size: 10px;
+    color: var(--text-dim);
+    font-weight: 600;
+  }
+
+  /* ────────────────────────────────
+     SCREEN 4 — DECISION RESULT
+  ──────────────────────────────── */
+  #screen-result {
+    padding: 24px;
+    gap: 20px;
+  }
+
+  .result-icon {
+    font-size: 64px;
+    animation: resultPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+
+  @keyframes resultPop {
+    from { transform: scale(0); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+
+  .result-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-align: center;
+    animation: fadeUp 0.4s 0.1s ease both;
+  }
+
+  .result-title.commit { color: var(--success); }
+  .result-title.decline { color: var(--danger); }
+
+  .result-activity {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-mid);
+    text-align: center;
+    font-style: italic;
+    animation: fadeUp 0.4s 0.15s ease both;
+    max-width: 300px;
+  }
+
+  .result-spark {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    animation: fadeUp 0.4s 0.2s ease both;
+  }
+
+  .result-spark-delta {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .result-spark-delta.pos { color: var(--success); }
+  .result-spark-delta.neg { color: var(--danger); }
+
+  .result-spark-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .result-message {
+    font-size: 14px;
+    color: var(--text-mid);
+    text-align: center;
+    max-width: 280px;
+    line-height: 1.6;
+    animation: fadeUp 0.4s 0.25s ease both;
+  }
+
+  .btn-continue {
+    width: 100%;
+    max-width: 320px;
+    background: var(--felt);
+    border: none;
+    border-radius: 12px;
+    padding: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.2s;
+    animation: fadeUp 0.4s 0.3s ease both;
+  }
+
+  .btn-continue:hover {
+    background: var(--felt-mid);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(30,92,58,0.4);
+  }
+
+  /* ────────────────────────────────
+     SCREEN 5 — YOUR POOL (Collection)
+  ──────────────────────────────── */
+  #screen-pool {
+    justify-content: flex-start;
+    padding: 0;
+    overflow-y: auto;
+  }
+
+  .pool-header {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 48px 24px 20px;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--border);
+    z-index: 10;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .pool-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  .pool-count {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--felt-bright);
+  }
+
+  .btn-back {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-back:hover {
+    border-color: var(--felt-bright);
+    color: var(--felt-bright);
+  }
+
+  .pool-content {
+    padding: 20px 24px 48px;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .pool-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 60px 24px;
+    text-align: center;
+  }
+
+  .pool-empty-ball {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 38% 32%, #1a1a1a, #000);
+    border: 2px solid rgba(255,255,255,0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.4;
+  }
+
+  .pool-empty-ball span {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+    opacity: 0.5;
+  }
+
+  .pool-empty-text {
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.6;
+    max-width: 220px;
+  }
+
+  .pool-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .pool-card:hover {
+    border-color: var(--border2);
+    transform: translateY(-1px);
+  }
+
+  .pool-card-top-stripe {
+    height: 3px;
+    width: 100%;
+  }
+
+  .pool-card-inner {
+    padding: 18px 20px 16px;
+  }
+
+  .pool-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+
+  .pool-card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.15;
+    letter-spacing: -0.2px;
+  }
+
+  .pool-card-spark {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--felt-bright);
+    flex-shrink: 0;
+    line-height: 1;
+    padding-top: 2px;
+  }
+
+  .pool-card-badges {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .pool-card-rarity {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .pool-card-date {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+  }
+
+  .pool-card-cat {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-dim);
+  }
+
+  .pool-card-sep {
+    font-size: 10px;
+    color: var(--border2);
+  }
+
+  .pool-card-description {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text-mid);
+    margin-bottom: 12px;
+  }
+
+  .pool-card-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+
+  .pool-card-chip {
+    font-size: 10px;
+    font-weight: 600;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 3px 9px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+
+  .pool-card-bonus {
+    background: var(--felt-dim);
+    border: 1px solid rgba(61,153,112,0.25);
+    border-radius: 8px;
+    padding: 10px 13px;
+  }
+
+  .pool-card-bonus-label {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--felt-bright);
+    opacity: 0.75;
+    margin-bottom: 4px;
+  }
+
+  .pool-card-bonus-text {
+    font-size: 12px;
+    color: var(--felt-bright);
+    line-height: 1.5;
+  }
+
+  /* ────────────────────────────────
+     POUL TYPE BADGE
+  ──────────────────────────────── */
+  .type-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: var(--felt-dim);
+    border: 1px solid rgba(61,153,112,0.25);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+  }
+
+  .type-badge-icon { font-size: 18px; }
+
+  .type-badge-text {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--felt-bright);
+    letter-spacing: 0.05em;
+  }
+
+  .type-badge-sub {
+    font-size: 10px;
+    color: var(--text-dim);
+    font-weight: 500;
+    margin-top: 1px;
+  }
+
+  /* ────────────────────────────────
+     TOAST NOTIFICATION
+  ──────────────────────────────── */
+  .toast {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%) translateY(80px);
+    background: var(--surface3);
+    border: 1px solid var(--border2);
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    z-index: 1000;
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  .toast.show {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  /* ────────────────────────────────
+     ANIMATIONS
+  ──────────────────────────────── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes sparkPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+  }
+
+  /* Spark update flash */
+  .spark-flash {
+    animation: sparkFlash 0.6s ease;
+  }
+
+  @keyframes sparkFlash {
+    0%, 100% { color: var(--felt-bright); }
+    50% { color: white; }
+  }
+
+  /* ── FILTER BUTTON ── */
+  .filter-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .btn-filter {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-filter:hover { border-color: var(--felt-bright); color: var(--felt-bright); }
+  .btn-filter.active { border-color: var(--felt-bright); color: var(--felt-bright); background: var(--felt-dim); }
+
+  .filter-badge {
+    display: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--felt-bright);
+    color: #04160b;
+    font-size: 9px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filter-badge.visible { display: flex; }
+
+  .pool-size-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+  }
+
+  .pool-size-label.thin { color: var(--danger); }
+
+  /* ── BOTTOM SHEET ── */
+  .sheet-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .sheet-overlay.open { opacity: 1; pointer-events: all; }
+
+  .bottom-sheet {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--surface2);
+    border-top: 1px solid var(--border2);
+    border-radius: 20px 20px 0 0;
+    z-index: 101;
+    transform: translateY(100%);
+    transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+    padding: 0 24px 40px;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+
+  .bottom-sheet.open { transform: translateY(0); }
+
+  .sheet-handle {
+    width: 36px;
+    height: 4px;
+    background: var(--border2);
+    border-radius: 2px;
+    margin: 14px auto 0;
+  }
+
+  .sheet-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 6px;
+  }
+
+  .sheet-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+
+  .btn-sheet-close {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-dim);
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  .btn-sheet-close:hover { border-color: var(--felt-bright); color: var(--felt-bright); }
+
+  .sheet-section-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 22px 0 10px;
+  }
+
+  .filter-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .filter-chip {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-mid);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+  }
+
+  .filter-chip:hover { border-color: var(--felt-mid); }
+  .filter-chip.selected { background: var(--felt-dim); border-color: var(--felt-bright); color: var(--felt-bright); }
+
+  .sheet-actions { display: flex; gap: 10px; margin-top: 28px; }
+
+  .btn-clear-filters {
+    flex: 1;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-clear-filters:hover { border-color: var(--danger); color: var(--danger); }
+
+  .btn-apply-filters {
+    flex: 2;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    background: var(--felt);
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-apply-filters:hover { background: var(--felt-mid); }
+
+  .card-maps-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--felt-bright);
+    text-decoration: none;
+    padding: 8px 0 4px;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+  }
+
+  .card-maps-link:hover { opacity: 1; }
+
+  .pool-card-maps-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--felt-bright);
+    text-decoration: none;
+    margin-top: 12px;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+  }
+
+  .pool-card-maps-link:hover { opacity: 1; }
+
+  /* ── RARITY COLORS ── */
+  .rarity-common { color: var(--text-dim); }
+  .rarity-rare { color: #7eb8e8; }
+  .rarity-legendary { color: var(--ivory); }
+
+  .dot-common { background: var(--text-dim); }
+  .dot-rare { background: #7eb8e8; }
+  .dot-legendary { background: var(--ivory); }
+
+  /* ── CATEGORY STRIPE COLORS ── */
+  .stripe-adventure { background: var(--adventure); }
+  .stripe-foodie { background: var(--foodie); }
+  .stripe-chill { background: var(--chill); }
+  .stripe-social { background: var(--social); }
+  .stripe-active { background: var(--active); }
+  .stripe-8ball { background: var(--ivory); }
+
+  /* ────────────────────────────────
+     SHARE CARD OVERLAY
+  ──────────────────────────────── */
+  .share-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(8px);
+  }
+
+  .share-overlay.open {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .share-card {
+    width: 100%;
+    max-width: 340px;
+    background: var(--surface);
+    border: 1px solid var(--border2);
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    transform: translateY(20px);
+    transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .share-overlay.open .share-card {
+    transform: translateY(0);
+  }
+
+  .share-card-felt-bar {
+    height: 5px;
+    background: linear-gradient(90deg, var(--felt) 0%, var(--felt-bright) 100%);
+    width: 100%;
+  }
+
+  .share-card-body {
+    padding: 32px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .share-card-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+
+  .share-card-emoji {
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .share-card-type-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--text);
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+  }
+
+  .share-card-type-sub {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-mid);
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 32px;
+  }
+
+  .share-card-divider {
+    width: 100%;
+    height: 1px;
+    background: var(--border);
+    margin-bottom: 24px;
+  }
+
+  .share-card-stats {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 32px;
+  }
+
+  .share-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .share-stat-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--felt-bright);
+    line-height: 1;
+  }
+
+  .share-stat-value.streak-stat {
+    color: #f28c28;
+  }
+
+  .share-stat-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .share-card-tagline {
+    font-size: 11px;
+    font-style: italic;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+    margin-bottom: 28px;
+  }
+
+  .share-card-actions {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .btn-share {
+    flex: 1;
+    background: var(--felt);
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-share:hover {
+    background: var(--felt-mid);
+    transform: translateY(-1px);
+  }
+
+  .btn-share-close {
+    flex: 0 0 auto;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-mid);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-share-close:hover {
+    background: var(--surface3);
+    color: var(--text);
+  }
+
+  .share-card-unlock-note {
+    font-size: 10px;
+    color: var(--text-dim);
+    text-align: center;
+    margin-top: 14px;
+    padding: 0 8px;
+    line-height: 1.5;
+  }
+
+  /* ── PACK SELECTOR ── */
+  .pack-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .pack-indicator:hover { border-color: var(--border2); background: var(--surface2); }
+  .pack-indicator:active { background: var(--surface3); }
+
+  #pack-indicator-text {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-mid);
+    letter-spacing: 0.04em;
+  }
+
+  .pack-switch-hint {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  /* Pack sheet */
+  .pack-option {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .pack-option:hover { border-color: var(--border2); }
+  .pack-option:active { transform: scale(0.99); }
+
+  .pack-option.active {
+    background: var(--felt-dim);
+    border-color: var(--felt-bright);
+  }
+
+  .pack-option-emoji { font-size: 30px; flex-shrink: 0; }
+
+  .pack-option-info { flex: 1; }
+
+  .pack-option-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 3px;
+  }
+
+  .pack-option-location {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-dim);
+    letter-spacing: 0.03em;
+  }
+
+  .pack-option-badge {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--felt-bright);
+    background: var(--felt-dim);
+    border: 1px solid rgba(61,153,112,0.3);
+    border-radius: 5px;
+    padding: 4px 9px;
+    flex-shrink: 0;
+  }
+
+  .pack-coming-soon {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-align: center;
+    padding: 16px 0 4px;
+    letter-spacing: 0.05em;
+  }
+
+  /* ── SEASON INDICATOR ── */
+  .season-line {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    margin-top: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  /* ── PROOF / PHOTO UPLOAD ── */
+  .proof-section {
+    width: 100%;
+    max-width: 320px;
+    animation: fadeUp 0.4s 0.35s ease both;
+  }
+
+  .proof-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .proof-area {
+    width: 100%;
+    border-radius: 12px;
+    border: 1.5px dashed var(--felt-mid);
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    min-height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--felt-dim);
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .proof-area:hover { border-color: var(--felt-bright); }
+  .proof-area:active { opacity: 0.8; }
+
+  .proof-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 22px;
+    pointer-events: none;
+  }
+
+  .proof-placeholder-icon { font-size: 26px; opacity: 0.7; }
+
+  .proof-placeholder-text {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--felt-bright);
+    opacity: 0.8;
+  }
+
+  .proof-img {
+    width: 100%;
+    display: block;
+    max-height: 220px;
+    object-fit: cover;
+  }
+
+  .proof-retake {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0,0,0,0.65);
+    border: none;
+    border-radius: 6px;
+    padding: 5px 9px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: white;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    backdrop-filter: blur(4px);
+  }
+
+  /* ── CARD RATING ── */
+  .pool-card-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+
+  .pool-card-rating-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-left: auto;
+  }
+
+  .btn-rate {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    -webkit-tap-highlight-color: transparent;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+
+  .btn-rate:hover { border-color: var(--border2); background: var(--surface3); }
+  .btn-rate:active { transform: scale(0.88); }
+
+  .btn-rate.up.active {
+    background: rgba(77,216,127,0.12);
+    border-color: var(--success);
+  }
+
+  .btn-rate.down.active {
+    background: rgba(224,85,112,0.1);
+    border-color: var(--danger);
+  }
+
+  /* Pool photo strip */
+  .pool-card-photo {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ── INSTALL PROMPT ── */
+  .install-prompt {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--surface2);
+    border-top: 1px solid var(--border2);
+    padding: 14px 18px 28px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 500;
+    transform: translateY(100%);
+    transition: transform 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+    box-shadow: 0 -8px 40px rgba(0,0,0,0.6);
+  }
+
+  .install-prompt.show { transform: translateY(0); }
+
+  .install-prompt-icon {
+    font-size: 28px;
+    flex-shrink: 0;
+  }
+
+  .install-prompt-text { flex: 1; min-width: 0; }
+
+  .install-prompt-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 2px;
+  }
+
+  .install-prompt-sub {
+    font-size: 11px;
+    color: var(--text-dim);
+    line-height: 1.4;
+  }
+
+  .btn-install {
+    background: var(--felt);
+    border: none;
+    border-radius: 8px;
+    padding: 9px 14px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    color: var(--text);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+
+  .btn-install:hover { background: var(--felt-mid); }
+
+  .btn-install-dismiss {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 2px 4px;
+    flex-shrink: 0;
+    line-height: 1;
+    transition: color 0.2s;
+  }
+
+  .btn-install-dismiss:hover { color: var(--text); }
+</style>
+</head>
+<body>
+
+<!-- ── SCREEN 1: HOME ── -->
+<div id="screen-home" class="screen active">
+  <div class="home-top">
+    <div class="home-wordmark">
+      POUL<span class="wordmark-dot"><span class="wordmark-dot-inner"><span class="wordmark-dot-number">8</span></span></span>
+    </div>
+    <div class="home-sub">Luck favors the spontaneous</div>
+  </div>
+
+  <div class="spark-display">
+    <div class="spark-info">
+      <div class="spark-label">Spark Score</div>
+      <div class="spark-value" id="spark-score-display">0</div>
+    </div>
+    <div class="spark-streak-col">
+      <div class="spark-label">Streak</div>
+      <div class="streak-value" id="streak-value-display">—</div>
+    </div>
+    <div class="spark-type spark-type-tappable" onclick="openShareCard()">
+      <div class="spark-type-label">Your Type ↗</div>
+      <div class="spark-type-value" id="poul-type-display">—</div>
+    </div>
+  </div>
+
+  <div class="pack-indicator" onclick="openPackSheet()">
+    <span id="pack-indicator-text">🌵 Phoenix · Scottsdale</span>
+    <span class="pack-switch-hint">Switch ›</span>
+  </div>
+
+  <div class="token-row">
+    <div class="token-label">Redraws</div>
+    <div id="token-dots"></div>
+    <div class="token-label" id="token-count-label">5</div>
+  </div>
+
+  <div class="season-line" id="season-line"></div>
+
+  <div class="filter-row">
+    <div class="category-label" style="margin-top:28px;margin-bottom:0;">Choose Your Draw</div>
+    <button class="btn-filter" id="filter-btn" onclick="openFilters()" style="margin-top:28px;">
+      ⚙ Poul Filter
+      <span class="filter-badge" id="filter-badge"></span>
+    </button>
+  </div>
+
+  <div style="height:14px;"></div>
+  <div class="category-grid">
+    <button class="cat-btn" data-category="adventure" onclick="selectCategory('adventure')">
+      <span class="cat-icon">🔥</span>
+      <span class="cat-name">Adventure</span>
+    </button>
+    <button class="cat-btn" data-category="foodie" onclick="selectCategory('foodie')">
+      <span class="cat-icon">🍜</span>
+      <span class="cat-name">Foodie</span>
+    </button>
+    <button class="cat-btn" data-category="chill" onclick="selectCategory('chill')">
+      <span class="cat-icon">🧘</span>
+      <span class="cat-name">Chill</span>
+    </button>
+    <button class="cat-btn" data-category="social" onclick="selectCategory('social')">
+      <span class="cat-icon">🎉</span>
+      <span class="cat-name">Social</span>
+    </button>
+    <button class="cat-btn" data-category="active" onclick="selectCategory('active')">
+      <span class="cat-icon">💪</span>
+      <span class="cat-name">Active</span>
+    </button>
+    <button class="cat-btn eightball" data-category="8ball" onclick="selectCategory('8ball')">
+      <span class="cat-icon">🎱</span>
+      <span class="cat-name">8-Ball</span>
+    </button>
+  </div>
+
+  <div class="draw-section">
+    <button class="draw-btn disabled" id="draw-btn" onclick="startDraw()">
+      Select a Category
+    </button>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
+      <a class="collection-link" onclick="showScreen('pool')">Your Pool →</a>
+      <span class="pool-size-label" id="pool-size-label"></span>
+    </div>
+  </div>
+</div>
+
+<!-- ── SCREEN 2: DRAW ANIMATION ── -->
+<div id="screen-draw" class="screen">
+  <div class="draw-stage">
+    <div class="draw-category-label" id="draw-category-label">Adventure</div>
+    <div class="ball-container">
+      <div class="ball" id="draw-ball" onclick="revealCard()">
+        <div class="ball-glow"></div>
+        <div class="ball-inner">
+          <div class="ball-number">8</div>
+        </div>
+      </div>
+    </div>
+    <div class="draw-instruction">Tap the ball to reveal your draw</div>
+  </div>
+</div>
+
+<!-- ── SCREEN 3: CARD REVEAL ── -->
+<div id="screen-card" class="screen">
+  <div class="card-wrapper">
+    <div class="card" id="active-card">
+      <div class="card-stripe" id="card-stripe"></div>
+      <div class="card-header">
+        <div class="card-rarity-badge">
+          <div class="rarity-dot" id="rarity-dot"></div>
+          <span id="rarity-label"></span>
+        </div>
+        <div class="card-city-tag" id="card-city-tag">📍 Phoenix, AZ</div>
+      </div>
+      <div class="card-body">
+        <div class="card-title" id="card-title"></div>
+        <div class="card-description" id="card-description"></div>
+        <div class="card-meta-row" id="card-meta"></div>
+        <div class="card-bonus">
+          <div class="bonus-label">Bonus Challenge</div>
+          <div class="bonus-text" id="card-bonus"></div>
+        </div>
+        <a class="card-maps-link" id="card-maps-link" href="#" target="_blank" rel="noopener" style="display:none;">
+          📍 Open in Maps
+        </a>
+      </div>
+      <div class="redraw-row">
+        <button class="btn-redraw" id="redraw-btn" onclick="redrawCard()">↺ Redraw</button>
+        <span class="redraw-cost" id="redraw-cost-label">−2 Spark · 1 Token</span>
+      </div>
+      <div class="card-actions">
+        <button class="btn-commit" onclick="commitCard()">I'm In ↑</button>
+        <button class="btn-decline" onclick="declineCard()">Pass −5</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── SCREEN 4: RESULT ── -->
+<div id="screen-result" class="screen">
+  <div class="result-icon" id="result-icon"></div>
+  <div class="result-title" id="result-title"></div>
+  <div class="result-activity" id="result-activity"></div>
+  <div class="result-spark">
+    <div class="result-spark-delta" id="result-spark-delta"></div>
+    <div class="result-spark-label">Spark</div>
+  </div>
+  <div class="result-message" id="result-message"></div>
+  <div class="proof-section" id="proof-section" style="display:none;">
+    <div class="proof-label">Proof of completion</div>
+    <input type="file" id="proof-input" accept="image/*" capture="environment" style="display:none;" onchange="handlePhotoUpload(event)">
+    <div class="proof-area" id="proof-area" onclick="document.getElementById('proof-input').click()">
+      <div class="proof-placeholder" id="proof-placeholder">
+        <div class="proof-placeholder-icon">📸</div>
+        <div class="proof-placeholder-text">Tap to add photo</div>
+      </div>
+      <img class="proof-img" id="proof-img" style="display:none;" alt="Proof photo">
+      <button class="proof-retake" id="proof-retake" style="display:none;" onclick="event.stopPropagation();document.getElementById('proof-input').click()">Retake</button>
+    </div>
+  </div>
+  <button class="btn-continue" onclick="returnHome()">Draw Again</button>
+</div>
+
+<!-- ── SCREEN 5: YOUR POOL ── -->
+<div id="screen-pool" class="screen">
+  <div class="pool-header">
+    <div>
+      <div class="pool-title">Your Pool</div>
+      <div class="pool-count" id="pool-count-label">0 completed</div>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;">
+      <button class="btn-back" onclick="confirmReset()" style="color:var(--text-dim);border-color:var(--border);">Reset</button>
+      <button class="btn-back" onclick="showScreen('home')">← Back</button>
+    </div>
+  </div>
+  <div class="pool-content" id="pool-content"></div>
+</div>
+
+<!-- ── FILTER BOTTOM SHEET ── -->
+<div class="sheet-overlay" id="sheet-overlay" onclick="closeFilters()"></div>
+<div class="bottom-sheet" id="filter-sheet">
+  <div class="sheet-handle"></div>
+  <div class="sheet-header">
+    <div class="sheet-title">Poul Filter</div>
+    <button class="btn-sheet-close" onclick="closeFilters()">Done</button>
+  </div>
+
+  <div class="sheet-section-label">Cost</div>
+  <div class="filter-chips" id="chips-cost">
+    <div class="filter-chip" data-group="cost" data-value="$" onclick="toggleChip(this)">$ Free–$15</div>
+    <div class="filter-chip" data-group="cost" data-value="$$" onclick="toggleChip(this)">$$ $15–$50</div>
+    <div class="filter-chip" data-group="cost" data-value="$$$" onclick="toggleChip(this)">$$$ $50+</div>
+  </div>
+
+  <div class="sheet-section-label">Time of Day</div>
+  <div class="filter-chips" id="chips-time">
+    <div class="filter-chip" data-group="time" data-value="Morning" onclick="toggleChip(this)">Morning</div>
+    <div class="filter-chip" data-group="time" data-value="Afternoon" onclick="toggleChip(this)">Afternoon</div>
+    <div class="filter-chip" data-group="time" data-value="Evening" onclick="toggleChip(this)">Evening</div>
+    <div class="filter-chip" data-group="time" data-value="Any" onclick="toggleChip(this)">Flexible</div>
+  </div>
+
+  <div class="sheet-section-label">Duration</div>
+  <div class="filter-chips" id="chips-duration">
+    <div class="filter-chip" data-group="duration" data-value="60" onclick="toggleChip(this)">Under 1 hr</div>
+    <div class="filter-chip" data-group="duration" data-value="120" onclick="toggleChip(this)">1–2 hrs</div>
+    <div class="filter-chip" data-group="duration" data-value="240" onclick="toggleChip(this)">2–4 hrs</div>
+    <div class="filter-chip" data-group="duration" data-value="999" onclick="toggleChip(this)">Half day+</div>
+  </div>
+
+  <div class="sheet-actions">
+    <button class="btn-clear-filters" onclick="clearFilters()">Clear All</button>
+    <button class="btn-apply-filters" onclick="applyFilters()">Apply Filters</button>
+  </div>
+</div>
+
+<!-- ── TOAST ── -->
+<div class="toast" id="toast"></div>
+
+<!-- ── PACK SHEET ── -->
+<div class="sheet-overlay" id="pack-overlay" onclick="closePackSheet()"></div>
+<div class="bottom-sheet" id="pack-sheet">
+  <div class="sheet-handle"></div>
+  <div class="sheet-header">
+    <div class="sheet-title">Choose Your Pack</div>
+    <button class="btn-sheet-close" onclick="closePackSheet()">Done</button>
+  </div>
+
+  <div id="pack-options"></div>
+
+  <div class="pack-coming-soon">🇫🇷 France · 🇳🇴 Norway · 🇹🇷 Turkey · 🏆 More coming</div>
+</div>
+
+<!-- ── INSTALL PROMPT ── -->
+<div class="install-prompt" id="install-prompt">
+  <div class="install-prompt-icon">🎱</div>
+  <div class="install-prompt-text">
+    <div class="install-prompt-title" id="install-prompt-title">Add Poul to Home Screen</div>
+    <div class="install-prompt-sub" id="install-prompt-sub">Play offline, anytime.</div>
+  </div>
+  <button class="btn-install" id="btn-install" onclick="triggerInstall()">Install</button>
+  <button class="btn-install-dismiss" onclick="dismissInstall()" aria-label="Dismiss">×</button>
+</div>
+
+<script>
+// ──────────────────────────────────────────
+// CARD DATA — All 40 Phoenix Cards
+// ──────────────────────────────────────────
+let CARDS = {
+  adventure: [
+    {
+      id: 'A-01', title: 'Climb Camelback at First Light',
+      description: 'Summit Echo Canyon before the crowds arrive and watch Phoenix wake up from 2,700 feet.',
+      rarity: 'Common', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Summit without checking your phone once. Full blackout from trailhead to peak.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Echo+Canyon+Trailhead+Camelback+Mountain+Phoenix+AZ'
+    },
+    {
+      id: 'A-02', title: 'Night Hike the Superstitions',
+      description: 'Follow the Peralta Trail after dark when the Sonoran Desert belongs entirely to you and whatever\'s out there.',
+      rarity: 'Rare', cost: '$', duration: '3–4 hrs', durationMins: 210, time: 'Evening', season: 'Oct–Apr',
+      bonus: 'No flashlights for the first mile. Eyes adjust. Trust them.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Peralta+Trailhead+Superstition+Wilderness+AZ'
+    },
+    {
+      id: 'A-03', title: 'Hot Air Balloon Over the Sonoran',
+      description: 'Drift over saguaro forests at dawn in the most cinematic 90 minutes the desert offers.',
+      rarity: 'Legendary', cost: '$$$', duration: '3–4 hrs', durationMins: 210, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Bring someone who\'s never been in a balloon. Their face on launch is worth more than any photo.',
+      spark: 40, mapsUrl: 'https://maps.google.com/?q=Hot+Air+Expeditions+Phoenix+AZ'
+    },
+    {
+      id: 'A-04', title: 'Hole-in-the-Rock at Sunset',
+      description: 'Scramble up Papago Park\'s signature sandstone formation and watch the desert turn every shade of orange it knows.',
+      rarity: 'Common', cost: '$', duration: '1–2 hrs', durationMins: 90, time: 'Evening', season: 'Year Round',
+      bonus: 'No phones for the first 20 minutes on top. Just be there.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Hole+in+the+Rock+Papago+Park+Phoenix+AZ'
+    },
+    {
+      id: 'A-05', title: 'Kayak the Lower Salt River',
+      description: 'Paddle through a desert canyon with wild horses on the banks and saguaros on the ridgeline above you.',
+      rarity: 'Rare', cost: '$$', duration: '3–5 hrs', durationMins: 240, time: 'Morning', season: 'Oct–May',
+      bonus: 'Spot at least three wild horses. Count them out loud.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Lower+Salt+River+Mesa+AZ'
+    },
+    {
+      id: 'A-06', title: 'Skydive Over the East Valley',
+      description: '13,000 feet above the desert grid, free-falling at 120mph — the Phoenix sprawl becomes abstract art on the way down.',
+      rarity: 'Legendary', cost: '$$$', duration: '3–4 hrs', durationMins: 210, time: 'Morning', season: 'Year Round',
+      bonus: 'Go first in your group. No watching someone else and backing out.',
+      spark: 40, mapsUrl: 'https://maps.google.com/?q=Skydive+Phoenix+Eloy+AZ'
+    },
+    {
+      id: 'A-07', title: 'Explore the Mystery Castle',
+      description: 'A Depression-era eccentric spent 15 years building an 18-room castle from desert junk at the foot of South Mountain.',
+      rarity: 'Common', cost: '$', duration: '1–2 hrs', durationMins: 90, time: 'Afternoon', season: 'Oct–May',
+      bonus: 'Ask the guide the weirdest question you can think of. They\'ve heard everything — try to surprise them.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Mystery+Castle+Phoenix+AZ'
+    },
+    {
+      id: 'A-08', title: 'Rappel into a Desert Canyon',
+      description: 'Book a guided rappelling session in the Superstition Wilderness — vertical sandstone walls, no experience required, full commitment needed.',
+      rarity: 'Rare', cost: '$$', duration: '3–4 hrs', durationMins: 210, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Go off the edge first. Don\'t wait for someone else to show you it\'s survivable.',
+      spark: 30, mapsUrl: 'https://maps.google.com/?q=Superstition+Wilderness+Apache+Junction+AZ'
+    },
+    {
+      id: 'A-09', title: 'Shoot at Rio Salado Sportsman\'s Club',
+      description: 'Phoenix\'s oldest shooting range — rent a lane, try a caliber you\'ve never fired, and learn something about control under pressure.',
+      rarity: 'Common', cost: '$', duration: '1.5–2 hrs', durationMins: 105, time: 'Afternoon', season: 'Year Round',
+      bonus: 'Shoot your worst target first and your best last. End on improvement.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Rio+Salado+Sportsmans+Club+Phoenix+AZ'
+    },
+    {
+      id: 'A-10', title: 'Paragliding Tandem Flight Over the Valley',
+      description: 'Launch from a ridge north of Phoenix and hang suspended over the Sonoran Desert with a certified pilot and a view you\'ll reconstruct for years.',
+      rarity: 'Legendary', cost: '$$$', duration: '2–3 hrs', durationMins: 150, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Don\'t look at the ground until you\'re fully airborne. Trust the launch.',
+      spark: 40, mapsUrl: 'https://maps.google.com/?q=Lookout+Mountain+Phoenix+AZ'
+    },
+    // ── Scottsdale Pack ──
+    {
+      id: 'SC-A-01', title: "Tom's Thumb at First Light",
+      description: "A 2,300-foot summit in the McDowell Sonoran Preserve with a technical granite scramble at the top and a view that earns itself before 8am.",
+      rarity: 'Rare', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Morning', season: 'Oct–Apr',
+      bonus: "Don't look back at the city until you're standing on the summit. Earn the view.",
+      spark: 25, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Tom's+Thumb+Trailhead+McDowell+Sonoran+Preserve+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-A-02', title: "Horseback Ride Through the McDowells",
+      description: "Saddle up at MacDonald's Ranch and follow a guide into Sonoran terrain that hasn't changed in a hundred years — saguaros, silence, and no agenda.",
+      rarity: 'Rare', cost: '$$', duration: '1.5–2 hrs', durationMins: 105, time: 'Morning', season: 'Oct–Apr',
+      bonus: "Tell your horse something you haven't said out loud to anyone else this week.",
+      spark: 25, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=MacDonald's+Ranch+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-A-03', title: "Barrett-Jackson Day Pass",
+      description: "The world's greatest collector car auction happens every January at WestWorld — floor access, nine-figure sales, and an energy unlike anything else in the Valley.",
+      rarity: 'Legendary', cost: '$$$', duration: '4–6 hrs', durationMins: 300, time: 'Afternoon', season: 'Jan only',
+      bonus: "Find one car that stops you completely. Stand in front of it until you know exactly why.",
+      spark: 40, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=WestWorld+of+Scottsdale+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-A-04', title: "Pinnacle Peak at Sunrise",
+      description: "A short, sharp scramble in North Scottsdale with granite formations and saguaro forest — the 360-degree view from the top is yours alone before 7am.",
+      rarity: 'Common', cost: '$', duration: '1–2 hrs', durationMins: 75, time: 'Morning', season: 'Oct–Apr',
+      bonus: "Sit at the summit for 10 full minutes before touching your phone. Watch the light shift.",
+      spark: 15, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Pinnacle+Peak+Park+Scottsdale+AZ"
+    }
+  ],
+  foodie: [
+    {
+      id: 'F-01', title: 'Breakfast at Matt\'s Big Breakfast',
+      description: 'The best diner in Phoenix with a line to prove it — farm-sourced, perfectly executed, worth every minute of the wait.',
+      rarity: 'Common', cost: '$', duration: '1–2 hrs', durationMins: 90, time: 'Morning', season: 'Year Round',
+      bonus: 'Order something you\'ve never had for breakfast. Commit to it, no swaps.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Matt\'s+Big+Breakfast+Phoenix+AZ'
+    },
+    {
+      id: 'F-02', title: 'Tacos at Tacos Chiwas',
+      description: 'A tiny counter-service spot in Garfield doing Chihuahua-style tacos that most Phoenix residents don\'t know exist.',
+      rarity: 'Common', cost: '$', duration: '45 min', durationMins: 45, time: 'Afternoon', season: 'Year Round',
+      bonus: 'Order in Spanish, start to finish, regardless of how it goes.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Tacos+Chiwas+Phoenix+AZ'
+    },
+    {
+      id: 'F-03', title: 'Omakase at Nobuo at Teeter House',
+      description: 'James Beard Award-winning chef Nobuo Fukuda runs an intimate Japanese restaurant in a historic downtown Phoenix house — reserve the chef\'s counter and surrender the menu entirely.',
+      rarity: 'Legendary', cost: '$$$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Year Round',
+      bonus: 'Eat every course. No "I don\'t eat that." This is omakase.',
+      spark: 40, mapsUrl: 'https://maps.google.com/?q=Nobuo+at+Teeter+House+Phoenix+AZ'
+    },
+    {
+      id: 'F-04', title: 'Food Truck Crawl on Roosevelt Row',
+      description: 'Park once, walk the Row, eat at three different trucks in one session — no planning, just whatever looks good.',
+      rarity: 'Common', cost: '$$', duration: '1.5–2 hrs', durationMins: 105, time: 'Evening', season: 'Oct–Apr',
+      bonus: 'Talk to one of the truck owners. Ask them what they eat when they\'re off the clock.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Roosevelt+Row+Phoenix+AZ'
+    },
+    {
+      id: 'F-05', title: 'Dinner at Bacanora',
+      description: 'A small, wood-fired Sonoran kitchen in a converted house — the kind of restaurant that makes you feel like you found something.',
+      rarity: 'Rare', cost: '$$', duration: '2 hrs', durationMins: 120, time: 'Evening', season: 'Year Round',
+      bonus: 'Order the most unfamiliar thing on the menu. Ask the server to explain it before you commit.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Bacanora+Phoenix+AZ'
+    },
+    {
+      id: 'F-06', title: 'Late Night at Chino Bandido',
+      description: 'A legendary Phoenix institution serving Chinese-Mexican fusion that shouldn\'t work and absolutely does.',
+      rarity: 'Rare', cost: '$', duration: '45 min', durationMins: 45, time: 'Evening', season: 'Year Round',
+      bonus: 'Bring someone who\'s never heard of it. Watch their face when you explain what it is.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Chino+Bandido+Phoenix+AZ'
+    },
+    {
+      id: 'F-07', title: 'Cooking Class at Kai',
+      description: 'The only AAA Five Diamond restaurant in Arizona — Southwestern ingredients, Pima culinary traditions, world-class technique.',
+      rarity: 'Legendary', cost: '$$$', duration: '3–4 hrs', durationMins: 210, time: 'Evening', season: 'Year Round',
+      bonus: 'Cook one dish entirely from memory the following week. No recipe.',
+      spark: 40, mapsUrl: 'https://maps.google.com/?q=Kai+Restaurant+Sheraton+Wild+Horse+Pass+Chandler+AZ'
+    },
+    {
+      id: 'F-08', title: 'Brunch at Postino Arcadia',
+      description: 'The definitive Phoenix brunch spot — bruschetta boards, bottomless mimosas, and a patio that makes a weekend morning feel like a vacation.',
+      rarity: 'Common', cost: '$', duration: '1.5–2 hrs', durationMins: 105, time: 'Morning', season: 'Year Round',
+      bonus: 'Order one bruschetta you\'d normally skip. Commit to the weird one.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Postino+Arcadia+Phoenix+AZ'
+    },
+    {
+      id: 'F-09', title: 'Ramen at Clever Koi',
+      description: 'An Asian gastropub in central Phoenix doing inventive ramen and small plates in a space that rewards a slow, multiple-round approach.',
+      rarity: 'Rare', cost: '$$', duration: '1.5–2 hrs', durationMins: 105, time: 'Evening', season: 'Year Round',
+      bonus: 'Order a dish off the menu you genuinely don\'t understand. Ask no questions first.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Clever+Koi+Phoenix+AZ'
+    },
+    {
+      id: 'F-10', title: 'Dim Sum at Lily\'s of London',
+      description: 'One of the Valley\'s most consistent dim sum kitchens in Chandler — cart service on weekends, arrive early, eat things before you know what they are.',
+      rarity: 'Common', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Morning', season: 'Year Round',
+      bonus: 'Say yes to every cart that stops at your table. No vetoes for the first 30 minutes.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Lily\'s+of+London+Chandler+AZ'
+    },
+    // ── Scottsdale Pack ──
+    {
+      id: 'SC-F-01', title: "Dinner at FnB Restaurant",
+      description: "Charleen Badman's James Beard Award-winning farm kitchen in Old Town — what's on the plate depends entirely on what arrived from the farm that morning.",
+      rarity: 'Legendary', cost: '$$$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Year Round',
+      bonus: "Ask your server what Charleen is proudest of this week. Order exactly that.",
+      spark: 40, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=FnB+Restaurant+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-F-02', title: "Sunday Brunch at El Chorro",
+      description: "A Scottsdale institution since 1937 — mountain-view patio, bottomless mimosas, and sticky buns so good they justified the trip before the menu arrived.",
+      rarity: 'Rare', cost: '$$', duration: '1.5–2 hrs', durationMins: 105, time: 'Morning', season: 'Oct–Apr',
+      bonus: "Order the sticky buns even if you're not a pastry person. This is not negotiable.",
+      spark: 25, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=El+Chorro+Lodge+Paradise+Valley+AZ"
+    },
+    {
+      id: 'SC-F-03', title: "Brunch at Hash Kitchen",
+      description: "North Scottsdale's most committed brunch spot — a 50-ingredient Bloody Mary bar, obscene plates, and a crowd that showed up dressed for the occasion.",
+      rarity: 'Common', cost: '$$', duration: '1.5 hrs', durationMins: 90, time: 'Morning', season: 'Year Round',
+      bonus: "Build a Bloody Mary with at least five toppings you've never combined before. Commit to the creation.",
+      spark: 15, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Hash+Kitchen+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-F-04', title: "The IDGAF at Maple & Ash",
+      description: "A wood-fire steakhouse in Old Town with a menu option where you hand total control to the kitchen — they pick everything. You show up and trust them.",
+      rarity: 'Rare', cost: '$$$', duration: '2 hrs', durationMins: 120, time: 'Evening', season: 'Year Round',
+      bonus: "Order the 'I Don't Give a F***' option. No substitutions, no questions — surrender the meal completely.",
+      spark: 25, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Maple+and+Ash+Scottsdale+AZ"
+    }
+  ],
+  chill: [
+    {
+      id: 'C-01', title: 'Wander the Desert Botanical Garden',
+      description: '140 acres of curated desert — the saguaros alone are worth the trip, and the light at golden hour makes a photographer of everyone.',
+      rarity: 'Common', cost: '$', duration: '1.5–2.5 hrs', durationMins: 120, time: 'Evening', season: 'Year Round',
+      bonus: 'Find one plant you\'ve never seen before. Look it up. Learn its name.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Desert+Botanical+Garden+Phoenix+AZ'
+    },
+    {
+      id: 'C-02', title: 'Bookstore Crawl: Changing Hands to The Poisoned Pen',
+      description: 'Two of the best independent bookstores in America happen to be in the same city — give yourself two hours and no agenda.',
+      rarity: 'Common', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Afternoon', season: 'Year Round',
+      bonus: 'Buy a book recommended by a staff member without reading the back cover first.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Changing+Hands+Bookstore+Phoenix+AZ'
+    },
+    {
+      id: 'C-03', title: 'Sunrise at South Mountain',
+      description: '16,000 acres of preserved desert at the edge of the city — arrive before dawn and watch Phoenix emerge from darkness below you.',
+      rarity: 'Rare', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Morning', season: 'Year Round',
+      bonus: 'Bring coffee in a thermos. Drink it at the summit in silence.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=South+Mountain+Park+Phoenix+AZ'
+    },
+    {
+      id: 'C-04', title: 'Afternoon at the Heard Museum',
+      description: 'The finest collection of Native American art and history in the Southwest — thoughtfully curated, genuinely moving, criminally undervisited by locals.',
+      rarity: 'Common', cost: '$', duration: '1.5–2.5 hrs', durationMins: 120, time: 'Afternoon', season: 'Year Round',
+      bonus: 'Spend at least 10 minutes with one piece. Not glancing — actually sitting with it.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Heard+Museum+Phoenix+AZ'
+    },
+    {
+      id: 'C-05', title: 'Float the Verde River',
+      description: 'Rent a tube, find a slow bend in the river north of Phoenix, and do absolutely nothing productive for three hours.',
+      rarity: 'Rare', cost: '$', duration: '3–4 hrs', durationMins: 210, time: 'Afternoon', season: 'May–Sep',
+      bonus: 'No music, no podcasts. Just the river.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Verde+River+Tubing+Camp+Verde+AZ'
+    },
+    {
+      id: 'C-06', title: 'Goldfield Ghost Town at Dusk',
+      description: 'A restored 1890s mining town at the base of the Superstitions — equal parts history, kitsch, and genuine desert atmosphere.',
+      rarity: 'Common', cost: '$', duration: '1.5–2 hrs', durationMins: 105, time: 'Evening', season: 'Oct–Apr',
+      bonus: 'Talk to at least one stranger there. Ask them why they came.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Goldfield+Ghost+Town+Apache+Junction+AZ'
+    },
+    {
+      id: 'C-07', title: 'Spend a Morning at Taliesin West',
+      description: 'Frank Lloyd Wright\'s desert camp in Scottsdale — still an active architecture school, still one of the most quietly extraordinary places in the state.',
+      rarity: 'Rare', cost: '$', duration: '1.5–2 hrs', durationMins: 105, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Pick one architectural detail and spend five full minutes just looking at it.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Taliesin+West+Scottsdale+AZ'
+    },
+    {
+      id: 'C-08', title: 'Drive the Apache Trail at Golden Hour',
+      description: 'A 40-mile stretch of unpaved desert highway through the Superstitions — canyon walls, reservoir views, and zero cell signal. Start before sunset.',
+      rarity: 'Rare', cost: '$', duration: '3–4 hrs', durationMins: 210, time: 'Evening', season: 'Oct–Apr',
+      bonus: 'Pull over somewhere with no plan. Sit outside for 10 minutes before driving on.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Apache+Trail+AZ+88+Arizona'
+    },
+    {
+      id: 'C-09', title: 'Gallery Hop in Old Town Scottsdale',
+      description: 'Old Town Scottsdale has more galleries per block than almost anywhere in the Southwest — pick a direction and let the art find you.',
+      rarity: 'Common', cost: '$', duration: '1.5–2.5 hrs', durationMins: 120, time: 'Afternoon', season: 'Year Round',
+      bonus: 'Find one piece you\'d actually hang in your home. Remember the artist\'s name.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Old+Town+Scottsdale+AZ+galleries'
+    },
+    {
+      id: 'C-10', title: 'Coffee and a Book at Cartel Roasting Co.',
+      description: 'Phoenix\'s best specialty roaster, in a space designed for staying — order something you\'ve never tried from the brew bar and disappear into a book for two hours.',
+      rarity: 'Common', cost: '$', duration: '2 hrs', durationMins: 120, time: 'Morning', season: 'Year Round',
+      bonus: 'Leave your phone in your bag the entire time. Not face-down — in your bag.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Cartel+Coffee+Lab+Phoenix+AZ'
+    },
+    // ── Scottsdale Pack ──
+    {
+      id: 'SC-C-01', title: "SMoCA on a Free Thursday Night",
+      description: "The Scottsdale Museum of Contemporary Art opens free every Thursday evening — a small museum that punches well above its weight, with a rooftop terrace nobody talks about.",
+      rarity: 'Common', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Evening', season: 'Year Round',
+      bonus: "Find one piece that genuinely unsettles you. Stay with it long enough to figure out why.",
+      spark: 15, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Scottsdale+Museum+of+Contemporary+Art+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-C-02', title: "Old Town Scottsdale ArtWalk",
+      description: "Every Thursday evening, galleries along Marshall Way and Main Street open late — a self-guided walk through Southwestern art, sculpture, and cowboy modernism.",
+      rarity: 'Rare', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Oct–May',
+      bonus: "Walk into every open gallery — not just the ones that look interesting from outside. Reserve judgment until you're in.",
+      spark: 25, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Marshall+Way+Arts+District+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-C-03', title: "McCormick-Stillman Railroad Park",
+      description: "A working 1:5-scale railroad in the middle of North Scottsdale, a vintage carousel, and a crowd that genuinely doesn't care how old you are — ride the train.",
+      rarity: 'Common', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Afternoon', season: 'Oct–Apr',
+      bonus: "Ride the train twice. First ride: observer. Second ride: fully present. It's different.",
+      spark: 15, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=McCormick-Stillman+Railroad+Park+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-C-04', title: "Scottsdale Civic Center Sculpture Walk",
+      description: "An outdoor public art collection winding through the civic campus — better than most museums, free, and completely empty on a weeknight.",
+      rarity: 'Common', cost: '$', duration: '1 hr', durationMins: 60, time: 'Evening', season: 'Year Round',
+      bonus: "Find the piece that irritates you most. Spend five minutes figuring out why it bothers you.",
+      spark: 15, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Scottsdale+Civic+Center+Mall+Scottsdale+AZ"
+    }
+  ],
+  social: [
+    {
+      id: 'S-01', title: 'Trivia Night at Crescent Ballroom',
+      description: 'One of the best music venues in Phoenix runs a weekly trivia night that draws a genuinely competitive crowd.',
+      rarity: 'Common', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Year Round',
+      bonus: 'Your team name has to be a pun. Non-negotiable.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Crescent+Ballroom+Phoenix+AZ'
+    },
+    {
+      id: 'S-02', title: 'Rooftop Happy Hour at Skyline at 1 Hotel',
+      description: 'The rooftop pool bar at 1 Hotel Scottsdale — desert views, craft cocktails, and a crowd that arrived with the same intention you did.',
+      rarity: 'Common', cost: '$$', duration: '2 hrs', durationMins: 120, time: 'Evening', season: 'Oct–Apr',
+      bonus: 'Talk to someone you didn\'t arrive with. Get one interesting fact about them.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=1+Hotel+Scottsdale+AZ'
+    },
+    {
+      id: 'S-03', title: 'Night Out at Cobra Arcade Bar',
+      description: 'A bar stocked wall-to-wall with classic arcade games in central Phoenix — put quarters in machines you haven\'t touched since childhood and stay far too late.',
+      rarity: 'Common', cost: '$$', duration: '2 hrs', durationMins: 120, time: 'Evening', season: 'Year Round',
+      bonus: 'Challenge a stranger to a head-to-head game on any machine. Loser buys a round.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Cobra+Arcade+Bar+Phoenix+AZ'
+    },
+    {
+      id: 'S-04', title: 'First Friday on Roosevelt Row',
+      description: 'The first Friday of every month, Roosevelt Row becomes an open-air gallery walk with artist studios, street food, and live music.',
+      rarity: 'Rare', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Oct–Apr',
+      bonus: 'Buy something from a local artist. Under $30. Don\'t overthink it.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Roosevelt+Row+Arts+District+Phoenix+AZ'
+    },
+    {
+      id: 'S-05', title: 'Comedy Night at Stand Up Live',
+      description: 'Phoenix\'s premier comedy club books national touring acts weekly — arrive before showtime, stay for the set, leave with sore cheeks.',
+      rarity: 'Rare', cost: '$$', duration: '2 hrs', durationMins: 120, time: 'Evening', season: 'Year Round',
+      bonus: 'Sit in the first three rows. Own the risk.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Stand+Up+Live+Phoenix+AZ'
+    },
+    {
+      id: 'S-06', title: 'Suns Game at Footprint Center',
+      description: 'One of the most electric home crowds in the NBA in an arena that was built for noise.',
+      rarity: 'Rare', cost: '$$', duration: '3 hrs', durationMins: 180, time: 'Evening', season: 'Oct–Apr',
+      bonus: 'Learn one player\'s full backstory before the game. Be their unofficial spokesperson all night.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Footprint+Center+Phoenix+AZ'
+    },
+    {
+      id: 'S-07', title: 'Dig Through Vinyl at Zia Records',
+      description: 'Show up on a weeknight when the crowds are thin and let a two-hour session become four.',
+      rarity: 'Common', cost: '$', duration: '1.5–2 hrs', durationMins: 105, time: 'Evening', season: 'Year Round',
+      bonus: 'Buy a record you\'ve never heard, based entirely on cover art. Play it when you get home.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Zia+Records+Phoenix+AZ'
+    },
+    {
+      id: 'S-08', title: 'Diamondbacks Game at Chase Field',
+      description: 'The only MLB park with a retractable roof and a pool in the outfield — show up for the game, stay for the atmosphere, and order the churro dog at least once.',
+      rarity: 'Rare', cost: '$$', duration: '3–4 hrs', durationMins: 210, time: 'Evening', season: 'Apr–Oct',
+      bonus: 'Learn one player\'s batting average before first pitch. Be annoyingly knowledgeable about exactly one person.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Chase+Field+Phoenix+AZ'
+    },
+    {
+      id: 'S-09', title: 'Improv Night at Torch Theatre',
+      description: 'Phoenix\'s dedicated improv comedy theatre — shows run Thursday through Saturday and every set is genuinely unrepeatable.',
+      rarity: 'Common', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Evening', season: 'Year Round',
+      bonus: 'Volunteer if they ask for audience participation. Don\'t think — just go.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Torch+Theatre+Phoenix+AZ'
+    },
+    {
+      id: 'S-10', title: 'Sunset Drinks at Santisi Brothers Rooftop',
+      description: 'Old Town Scottsdale\'s rooftop bar scene at its most low-key — open air, solid cocktails, and a view of the McDowell Mountains going pink at dusk.',
+      rarity: 'Common', cost: '$$', duration: '2 hrs', durationMins: 120, time: 'Evening', season: 'Oct–Apr',
+      bonus: 'Start a conversation with the group next to you. Find out one interesting thing about someone new.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Santisi+Brothers+Scottsdale+AZ'
+    },
+    // ── Scottsdale Pack ──
+    {
+      id: 'SC-S-01', title: "Whiskey Row in Old Town",
+      description: "A strip of bars built for a crowd that came to be out — pick one end of Scottsdale Road, work toward the other, and decide nothing in advance.",
+      rarity: 'Common', cost: '$$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Year Round',
+      bonus: "Have one real conversation with a stranger at every stop. Not small talk — something real.",
+      spark: 15, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Whiskey+Row+Old+Town+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-S-02', title: "Rooftop Night at the W Scottsdale",
+      description: "The W's rooftop pool deck is one of the most polished nightlife setups in the Valley — arrive early enough to watch the city lights come up.",
+      rarity: 'Rare', cost: '$$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Oct–Apr',
+      bonus: "Talk to someone from out of town. Ask what brought them to Scottsdale. Actually listen to the whole answer.",
+      spark: 25, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=W+Scottsdale+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-S-03', title: "Poker Night at Casino Arizona",
+      description: "The closest card room to Scottsdale — sit-and-go tables run all night, the competition ranges from tourist to dangerous, and the stakes are yours to set.",
+      rarity: 'Rare', cost: '$$', duration: '2–4 hrs', durationMins: 180, time: 'Evening', season: 'Year Round',
+      bonus: "Set a hard stop time before you sit. Play until exactly then — win or lose, that's the session.",
+      spark: 25, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Casino+Arizona+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-S-04', title: "Spring Training at Salt River Fields",
+      description: "The Rockies and D-backs share the best spring training facility in baseball — 12,000 seats, short lines, and players close enough to hear warming up.",
+      rarity: 'Rare', cost: '$$', duration: '3 hrs', durationMins: 180, time: 'Afternoon', season: 'Feb–Mar',
+      bonus: "Pick one player on each team to follow the entire game. Know their name, position, and at-bats.",
+      spark: 25, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Salt+River+Fields+Scottsdale+AZ"
+    }
+  ],
+  active: [
+    {
+      id: 'AC-01', title: 'Drop-In Muay Thai',
+      description: 'Show up for an open class, get worked, leave with the particular satisfaction of doing something your body wasn\'t planning on today.',
+      rarity: 'Common', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Morning', season: 'Year Round',
+      bonus: 'Introduce yourself to someone in class. Stay for five minutes of conversation after.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Muay+Thai+gym+Phoenix+AZ'
+    },
+    {
+      id: 'AC-02', title: 'Bouldering at Climbmax Climbing Center',
+      description: 'One of Phoenix\'s best dedicated climbing gyms — no gear or partner required, just rent shoes and work the problems until your forearms give out.',
+      rarity: 'Common', cost: '$', duration: '1.5–2 hrs', durationMins: 105, time: 'Afternoon', season: 'Year Round',
+      bonus: 'Complete a route rated harder than you think you can do. Attempt it at least five times.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Climbmax+Climbing+Center+Phoenix+AZ'
+    },
+    {
+      id: 'AC-03', title: 'Trail Run: National Trail, South Mountain',
+      description: '14 miles of rocky, technical singletrack at the southern edge of the city — run what you can, hike the rest, never think about email.',
+      rarity: 'Rare', cost: '$', duration: '2–4 hrs', durationMins: 180, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'No headphones. The desert has its own soundtrack.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=National+Trail+South+Mountain+Park+Phoenix+AZ'
+    },
+    {
+      id: 'AC-04', title: 'Pickup Basketball at Kiwanis Park',
+      description: 'The best outdoor pickup runs in the Valley — show up, get in line, play until your legs have something to say about it.',
+      rarity: 'Common', cost: '$', duration: '1.5–2.5 hrs', durationMins: 120, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Pass first every possession for the first game. Be the guy who makes everyone else better.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Kiwanis+Park+Tempe+AZ'
+    },
+    {
+      id: 'AC-05', title: 'Sunrise Yoga at Papago Park',
+      description: 'Bring a mat, find flat rock at the base of the buttes, and do your practice while the desert warms up around you.',
+      rarity: 'Common', cost: '$', duration: '1 hr', durationMins: 60, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Stay for 10 minutes of stillness after you finish. No phone, no music.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Papago+Park+Phoenix+AZ'
+    },
+    {
+      id: 'AC-06', title: 'Outdoor Strength Session at Tempe Town Lake',
+      description: 'Take your training outside — run a full bodyweight circuit along the lake path, then walk the 2-mile loop to cool down.',
+      rarity: 'Rare', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Document the session. One photo at the start, one at the end. No skipping the last set.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Tempe+Town+Lake+Tempe+AZ'
+    },
+    {
+      id: 'AC-07', title: 'Canal Path Run: Scottsdale to Central',
+      description: 'The Arizona Canal path cuts 15 miles through the city in a way no road does — flat, early, and yours alone at 6am.',
+      rarity: 'Rare', cost: '$', duration: '2–4 hrs', durationMins: 180, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Don\'t stop moving for the full route. No breaks, no phone.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Arizona+Canal+Trail+Scottsdale+AZ'
+    },
+    {
+      id: 'AC-08', title: 'Swim at Saguaro Lake',
+      description: 'A reservoir 30 miles east of Phoenix with cliff jumps, clear water, and rental kayaks — drive out early before the boat traffic starts.',
+      rarity: 'Rare', cost: '$', duration: '3–5 hrs', durationMins: 240, time: 'Morning', season: 'May–Sep',
+      bonus: 'Jump from the highest point you feel comfortable with. Then go one level higher.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Saguaro+Lake+Mesa+AZ'
+    },
+    {
+      id: 'AC-09', title: 'Cycling the Desert Classic Trail',
+      description: 'A mountain bike loop in South Mountain Park — 17 miles of technical desert singletrack with enough elevation to make you earn the descent.',
+      rarity: 'Rare', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Morning', season: 'Oct–Apr',
+      bonus: 'Ride the hardest section twice. First time to survive it, second time to own it.',
+      spark: 25, mapsUrl: 'https://maps.google.com/?q=Desert+Classic+Trail+South+Mountain+Phoenix+AZ'
+    },
+    {
+      id: 'AC-10', title: 'Swim at Saguaro Lake Marina',
+      description: 'Drive 30 miles east of Phoenix to one of the clearest reservoirs in the state — cliff jumps, sandy entry points, and water cold enough to remind you you\'re alive.',
+      rarity: 'Common', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Morning', season: 'Apr–Oct',
+      bonus: 'Jump from the highest point you\'re comfortable with. Then go one level higher.',
+      spark: 15, mapsUrl: 'https://maps.google.com/?q=Saguaro+Lake+Marina+Mesa+AZ'
+    },
+    // ── Scottsdale Pack ──
+    {
+      id: 'SC-AC-01', title: "Mountain Bike the Pemberton Trail",
+      description: "20+ miles of technical desert singletrack at McDowell Mountain Regional Park — rent a hardtail, commit to the loop, and earn every descent.",
+      rarity: 'Rare', cost: '$$', duration: '2–3 hrs', durationMins: 150, time: 'Morning', season: 'Oct–Apr',
+      bonus: "Ride the hardest section twice. First time to survive it, second time to own it.",
+      spark: 25, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=McDowell+Mountain+Regional+Park+Fountain+Hills+AZ"
+    },
+    {
+      id: 'SC-AC-02', title: "Sunrise Run: Pinnacle Peak Loop",
+      description: "A 3.5-mile trail circling the base of Pinnacle Peak through pristine Sonoran Desert — the city disappears completely and the mountain turns gold above you.",
+      rarity: 'Common', cost: '$', duration: '1 hr', durationMins: 60, time: 'Morning', season: 'Oct–Apr',
+      bonus: "Run it without headphones. Let the desert fill the silence.",
+      spark: 15, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Pinnacle+Peak+Park+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-AC-03', title: "Pickleball at Scottsdale Ranch Park",
+      description: "Eight dedicated courts in North Scottsdale with drop-in play every morning — the regulars will make you better faster than any lesson.",
+      rarity: 'Common', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Morning', season: 'Year Round',
+      bonus: "Introduce yourself to whoever's warming up on the next court. Play at least one set against them.",
+      spark: 15, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Scottsdale+Ranch+Park+Scottsdale+AZ"
+    },
+    {
+      id: 'SC-AC-04', title: "Early Lanes at Scottsdale Aquatic Center",
+      description: "A world-class 50-meter public pool with open lanes every morning — show up, swim hard, and leave before most people have made coffee.",
+      rarity: 'Common', cost: '$', duration: '1 hr', durationMins: 60, time: 'Morning', season: 'Year Round',
+      bonus: "Set a distance goal before you get in. Don't get out until you hit it — no negotiating mid-swim.",
+      spark: 15, city: 'Scottsdale, AZ', mapsUrl: "https://maps.google.com/?q=Scottsdale+Aquatic+Center+Scottsdale+AZ"
+    }
+  ],
+  '8ball': [
+    {
+      id: '8-01', title: 'Say Yes to the Next Thing Someone Asks',
+      description: 'Someone in your life has asked you to do something you haven\'t responded to yet. That\'s your activity. Go.',
+      rarity: 'Common', cost: '$', duration: 'Varies', durationMins: 120, time: 'Any', season: 'Year Round',
+      bonus: 'Don\'t tell them an app made you say yes.', filterExempt: true,
+      spark: 25
+    },
+    {
+      id: '8-02', title: 'Drive Until You\'re Somewhere New',
+      description: 'Pick a direction you don\'t normally go and drive until something makes you stop. No GPS destination allowed.',
+      rarity: 'Rare', cost: '$', duration: '2–4 hrs', durationMins: 180, time: 'Morning', season: 'Year Round',
+      bonus: 'Eat at whatever restaurant is closest to where you stop. No reviews.',
+      spark: 30
+    },
+    {
+      id: '8-03', title: 'Learn Something Physical Today',
+      description: 'Find a class — any class — starting within the next 6 hours and show up. Pottery, boxing, salsa, archery. Whatever\'s available.',
+      rarity: 'Rare', cost: '$$', duration: '1.5–2 hrs', durationMins: 105, time: 'Any', season: 'Year Round',
+      bonus: 'Book a second session before you leave.',
+      spark: 30
+    },
+    {
+      id: '8-04', title: 'Find a View You\'ve Never Seen',
+      description: 'Not Camelback. Not South Mountain. Search, ask a local, dig — find a viewpoint you didn\'t know existed and get there before dark.',
+      rarity: 'Rare', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Year Round',
+      bonus: 'Don\'t post it. Keep one thing for yourself.',
+      spark: 30
+    },
+    {
+      id: '8-05', title: 'Call the Person You\'ve Been Meaning to Call',
+      description: 'There\'s someone. There\'s always someone. You know who it is. Give them two hours today.',
+      rarity: 'Common', cost: '$', duration: '2 hrs', durationMins: 120, time: 'Any', season: 'Year Round',
+      bonus: 'Don\'t bring your phone into the conversation.', filterExempt: true,
+      spark: 25
+    },
+    {
+      id: '8-06', title: 'Spend $50 on an Experience You\'ve Never Had',
+      description: '$50, today, on something you\'ve genuinely never done. Enough to do something real, not enough to overthink it.',
+      rarity: 'Legendary', cost: '$$', duration: 'Open-ended', durationMins: 180, time: 'Any', season: 'Year Round',
+      bonus: 'You have 30 minutes to decide what it is. Clock starts now.', filterExempt: true,
+      spark: 40
+    },
+    {
+      id: '8-07', title: 'Go to the Next Event You See Advertised',
+      description: 'The next flyer, Instagram post, or roadside sign for a local event — that\'s where you\'re going. No vetting, no research, just show up.',
+      rarity: 'Common', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Any', season: 'Year Round',
+      bonus: 'Stay for the whole thing. No early exits.',
+      spark: 25
+    },
+    {
+      id: '8-08', title: 'Eat Alone at a Restaurant You\'ve Never Tried',
+      description: 'No phone on the table. No book. Sit at the bar or a window seat, order something you wouldn\'t normally order, and be present in the room.',
+      rarity: 'Rare', cost: '$$', duration: '1–1.5 hrs', durationMins: 75, time: 'Evening', season: 'Year Round',
+      bonus: 'Talk to the bartender or server like they have a life outside this shift. Because they do.',
+      spark: 30
+    },
+    {
+      id: '8-09', title: 'Take a Class in Something You\'ve Always Dismissed',
+      description: 'Pottery, salsa dancing, watercolor, improv, archery — whatever you\'ve written off as "not for me." One session. Go find out.',
+      rarity: 'Rare', cost: '$$', duration: '1.5–2 hrs', durationMins: 105, time: 'Any', season: 'Year Round',
+      bonus: 'Don\'t tell anyone beforehand. Just go. Tell them after.',
+      spark: 30
+    },
+    {
+      id: '8-10', title: 'Wake Up and Leave Before You Make a Plan',
+      description: 'Set an alarm for 6am. Get dressed. Get in the car. Make zero decisions about where you\'re going until you\'re already moving.',
+      rarity: 'Legendary', cost: '$', duration: 'Open-ended', durationMins: 240, time: 'Morning', season: 'Year Round',
+      bonus: 'Don\'t come home until you\'ve done at least two things you didn\'t plan to do.', filterExempt: true,
+      spark: 40
+    }
+  ]
+};
+
+// ──────────────────────────────────────────
+// TRAVEL PACKS
+// ──────────────────────────────────────────
+let TRAVEL_PACKS = {
+  'fifa-nyc': {
+    id: 'fifa-nyc',
+    name: 'FIFA World Cup',
+    location: 'New York · New Jersey',
+    emoji: '⚽',
+    cards: {
+      adventure: [
+        {
+          id: 'FIFA-A-01', title: 'Brooklyn Bridge at Sunrise',
+          description: 'Walk the bridge from Brooklyn to Manhattan in the first hour of light — the pedestrian lane floats above traffic, the skyline waking up ahead of you.',
+          rarity: 'Common', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Morning', season: 'Year Round',
+          bonus: "Don't stop mid-bridge for photos. Walk the whole span first, then turn back and take your time.",
+          spark: 15, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Brooklyn+Bridge+Pedestrian+Walkway+New+York+NY'
+        },
+        {
+          id: 'FIFA-A-02', title: 'Edge Observation Deck',
+          description: 'The highest outdoor sky deck in the Western Hemisphere at Hudson Yards — 1,100 feet with a glass-floor section that tests what you think you can handle.',
+          rarity: 'Rare', cost: '$$$', duration: '1.5 hrs', durationMins: 90, time: 'Any', season: 'Year Round',
+          bonus: 'Stand on the glass floor. Look straight down. Stay there for 60 full seconds before stepping off.',
+          spark: 25, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Edge+Hudson+Yards+New+York+NY'
+        },
+        {
+          id: 'FIFA-A-03', title: 'Governors Island by Ferry',
+          description: 'A 172-acre island 800 yards off the tip of Manhattan — car-free, with fort ruins, hammock groves, and a skyline view that feels impossible from that angle.',
+          rarity: 'Rare', cost: '$', duration: '3–4 hrs', durationMins: 210, time: 'Afternoon', season: 'May–Sep',
+          bonus: 'Rent a bike on the island. Ride the full perimeter without stopping. Then do whatever you want.',
+          spark: 25, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Governors+Island+New+York+NY'
+        },
+        {
+          id: 'FIFA-A-04', title: 'Midnight Photography Walk',
+          description: 'Nikon out, no destination — walk from Midtown south through SoHo to the Financial District after midnight when the city is still alive but the crowds are gone.',
+          rarity: 'Common', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Year Round',
+          bonus: 'Shoot only what stops you cold. No tourist landmarks — only moments.',
+          spark: 15, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=SoHo+Manhattan+New+York+NY'
+        }
+      ],
+      foodie: [
+        {
+          id: 'FIFA-F-01', title: 'New York Bagel Pilgrimage',
+          description: "Start at Russ & Daughters or Ess-a-Bagel — order with lox, eat it standing at the counter the way it was meant to be consumed.",
+          rarity: 'Common', cost: '$', duration: '1 hr', durationMins: 60, time: 'Morning', season: 'Year Round',
+          bonus: 'Order what the person in front of you ordered. No deliberating — just match them.',
+          spark: 15, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Russ+and+Daughters+New+York+NY'
+        },
+        {
+          id: 'FIFA-F-02', title: 'Dinner at Carbone',
+          description: 'The most theatrical Italian-American dinner in New York — red sauce classics executed with total commitment in a room that makes you feel like someone important.',
+          rarity: 'Legendary', cost: '$$$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Year Round',
+          bonus: 'Order the spicy rigatoni vodka. Non-negotiable. Let the waiter upsell you on one thing.',
+          spark: 40, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Carbone+New+York+NY'
+        },
+        {
+          id: 'FIFA-F-03', title: 'NYC Pizza Crawl',
+          description: "Di Fara in Brooklyn for a classic slice, then L'Industrie in Williamsburg for fresh mozzarella — two stops, one borough, the full argument settled.",
+          rarity: 'Rare', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Afternoon', season: 'Year Round',
+          bonus: 'Plain slice only at each stop. Judge on the fundamentals, nothing else.',
+          spark: 25, city: 'New York, NY', mapsUrl: "https://maps.google.com/?q=Di+Fara+Pizza+Brooklyn+NY"
+        },
+        {
+          id: 'FIFA-F-04', title: 'Chelsea Market Deep Dive',
+          description: "A former Nabisco factory turned indoor food hall — walk the entire length before committing to anything, then circle back to the two things you couldn't stop thinking about.",
+          rarity: 'Common', cost: '$$', duration: '1.5 hrs', durationMins: 90, time: 'Afternoon', season: 'Year Round',
+          bonus: "Try one thing you can't identify. No Googling until after you've eaten it.",
+          spark: 15, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Chelsea+Market+New+York+NY'
+        }
+      ],
+      chill: [
+        {
+          id: 'FIFA-C-01', title: 'The Met on a Friday Night',
+          description: 'The Metropolitan Museum stays open until 9pm on Fridays — the crowds thin after 6 and the galleries feel like yours.',
+          rarity: 'Common', cost: '$', duration: '2–3 hrs', durationMins: 150, time: 'Evening', season: 'Year Round',
+          bonus: "Pick one wing you've never been to and spend your whole visit there. Don't default to the Egyptian wing.",
+          spark: 15, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Metropolitan+Museum+of+Art+New+York+NY'
+        },
+        {
+          id: 'FIFA-C-02', title: 'Walk the High Line',
+          description: 'A 1.45-mile elevated park built on a former freight rail line — start at Gansevoort Street, walk north, stop whenever the view or the art demands it.',
+          rarity: 'Common', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Morning', season: 'Year Round',
+          bonus: "Walk it twice. Once fast for the layout, once slow to actually see what's there.",
+          spark: 15, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=High+Line+Park+New+York+NY'
+        },
+        {
+          id: 'FIFA-C-03', title: 'The Strand: 18 Miles of Books',
+          description: 'The best bookstore in New York — four floors, 18 miles of shelving, and a rare book room upstairs that most visitors never find.',
+          rarity: 'Common', cost: '$', duration: '1.5–2 hrs', durationMins: 105, time: 'Afternoon', season: 'Year Round',
+          bonus: "Find the rare book room on the third floor. Ask a staff member what they'd rescue in a fire.",
+          spark: 15, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=The+Strand+Bookstore+New+York+NY'
+        },
+        {
+          id: 'FIFA-C-04', title: 'Brooklyn Botanic Garden',
+          description: '52 acres of curated gardens in the middle of Brooklyn — the Japanese Hill-and-Pond Garden is one of the oldest Japanese-inspired gardens in America.',
+          rarity: 'Rare', cost: '$', duration: '2 hrs', durationMins: 120, time: 'Morning', season: 'Year Round',
+          bonus: 'Find the oldest living thing in the garden. Ask a staff member if you have to. Learn its story.',
+          spark: 25, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Brooklyn+Botanic+Garden+New+York+NY'
+        }
+      ],
+      social: [
+        {
+          id: 'FIFA-S-01', title: 'FIFA Fan Festival',
+          description: 'The official free fan zone in Manhattan — live match screenings, international food, street performers, and a crowd from every country in the world converging on one place.',
+          rarity: 'Legendary', cost: '$', duration: '3–5 hrs', durationMins: 240, time: 'Afternoon', season: 'Jun–Jul',
+          bonus: 'Find a fan group from a country you know nothing about. Learn one thing about their team before you leave.',
+          spark: 40, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=FIFA+Fan+Festival+New+York+NY'
+        },
+        {
+          id: 'FIFA-S-02', title: 'World Cup Watch Party',
+          description: 'Find a Manhattan bar packed for the match — the atmosphere at a good New York bar during the World Cup is a different kind of alive than anywhere else.',
+          rarity: 'Common', cost: '$$', duration: '2–3 hrs', durationMins: 150, time: 'Any', season: 'Jun–Jul',
+          bonus: 'Talk to someone supporting the opposite team. Find out where they came from.',
+          spark: 15, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=sports+bars+Manhattan+New+York+NY'
+        },
+        {
+          id: 'FIFA-S-03', title: 'Late Night at Comedy Cellar',
+          description: 'The most famous comedy club in America — a basement room in the Village where working comics test material and legends occasionally drop in unannounced.',
+          rarity: 'Rare', cost: '$$', duration: '2 hrs', durationMins: 120, time: 'Evening', season: 'Year Round',
+          bonus: 'Sit as close to the stage as possible. The first two rows own the room.',
+          spark: 25, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Comedy+Cellar+New+York+NY'
+        },
+        {
+          id: 'FIFA-S-04', title: 'Rooftop at 230 Fifth',
+          description: 'The most famous rooftop bar in New York — an open-air terrace with an unobstructed view of the Empire State Building. Go at dusk when the lights come on.',
+          rarity: 'Rare', cost: '$$', duration: '2 hrs', durationMins: 120, time: 'Evening', season: 'Year Round',
+          bonus: "Find someone from another country and ask what brought them to New York. Actually listen to the whole answer.",
+          spark: 25, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=230+Fifth+Rooftop+Bar+New+York+NY'
+        }
+      ],
+      active: [
+        {
+          id: 'FIFA-AC-01', title: 'Run the Central Park Loop',
+          description: "The full 6.1-mile loop around the park — run it early before the bike traffic builds and the city's noise hasn't caught up with the morning yet.",
+          rarity: 'Common', cost: '$', duration: '1–1.5 hrs', durationMins: 75, time: 'Morning', season: 'Year Round',
+          bonus: 'No headphones. The park sounds completely different than you expect.',
+          spark: 15, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Central+Park+Running+Loop+New+York+NY'
+        },
+        {
+          id: 'FIFA-AC-02', title: 'Citi Bike the Brooklyn Bridge',
+          description: 'Rent a Citi Bike in Manhattan, ride across the Brooklyn Bridge, continue through DUMBO to the waterfront, and take the ferry back — wheel one way, water the other.',
+          rarity: 'Rare', cost: '$', duration: '2 hrs', durationMins: 120, time: 'Morning', season: 'Year Round',
+          bonus: 'Be on the bridge before 8am. The tourist crowd arrives at 9 — be long gone.',
+          spark: 25, city: 'New York, NY', mapsUrl: 'https://maps.google.com/?q=Citi+Bike+New+York+NY'
+        },
+        {
+          id: 'FIFA-AC-03', title: 'Pickup Soccer in Astoria Park',
+          description: "Queens' biggest park sits on the East River with views of the Hell Gate Bridge — pickup games run on the grass fields most mornings during the Cup. Show up and find one.",
+          rarity: 'Common', cost: '$', duration: '1.5 hrs', durationMins: 90, time: 'Morning', season: 'Year Round',
+          bonus: 'Introduce yourself to every player before the game starts. Names before the ball drops.',
+          spark: 15, city: 'Queens, NY', mapsUrl: 'https://maps.google.com/?q=Astoria+Park+Queens+NY'
+        },
+        {
+          id: 'FIFA-AC-04', title: 'Swim at Astoria Pool',
+          description: 'One of the largest public outdoor pools in the US — Olympic-size, built in 1936, open all summer in the middle of Queens. Arrive before 10am for a lane.',
+          rarity: 'Common', cost: '$', duration: '1 hr', durationMins: 60, time: 'Morning', season: 'May–Sep',
+          bonus: 'Swim 20 laps before getting out. No resting at the wall — just turn and keep going.',
+          spark: 15, city: 'Queens, NY', mapsUrl: 'https://maps.google.com/?q=Astoria+Pool+Queens+NY'
+        }
+      ]
+    }
+  }
+};
+
+// ──────────────────────────────────────────
+// FILTER STATE
+// ──────────────────────────────────────────
+let filters = {
+  cost: [],       // e.g. ['$', '$$']
+  time: [],       // e.g. ['Morning', 'Evening']
+  duration: []    // max minutes buckets: 60, 120, 240, 999
+};
+
+// Pending selections (inside sheet before Apply)
+let pendingFilters = { cost: [], time: [], duration: [] };
+
+// ──────────────────────────────────────────
+// FILTER HELPERS
+// ──────────────────────────────────────────
+function cardPassesFilters(card) {
+  // filterExempt cards (8-ball wildcards) always pass all filters
+  if (card.filterExempt) return true;
+
+  // Seasonal filter — automatic, not user-controlled
+  if (!isCardInSeason(card)) return false;
+
+  // Cost filter: if any cost selections active, card must match one
+  if (filters.cost.length > 0 && !filters.cost.includes(card.cost)) return false;
+
+  // Time filter: 'Any' cards pass all time filters
+  if (filters.time.length > 0 && card.time !== 'Any' && !filters.time.includes(card.time)) return false;
+
+  // Duration filter: find the selected bucket and check card fits within it
+  if (filters.duration.length > 0) {
+    const maxAllowed = Math.max(...filters.duration.map(Number));
+    if (card.durationMins > maxAllowed) return false;
+  }
+
+  return true;
+}
+
+function getActiveDeck() {
+  if (state.activePack === 'phoenix') return CARDS;
+  const pack = TRAVEL_PACKS[state.activePack];
+  if (!pack) return CARDS;
+  // Travel packs use the universal 8-ball pool
+  return { ...pack.cards, '8ball': CARDS['8ball'] };
+}
+
+function getFilteredPool(category) {
+  return (getActiveDeck()[category] || []).filter(cardPassesFilters);
+}
+
+function countActiveFilters() {
+  return filters.cost.length + filters.time.length + filters.duration.length;
+}
+
+// ──────────────────────────────────────────
+// SEASONAL LOGIC
+// ──────────────────────────────────────────
+function isCardInSeason(card) {
+  const s = card.season;
+  if (!s || s === 'Year Round') return true;
+  const m = new Date().getMonth(); // 0 = Jan, 11 = Dec
+  if (s === 'Jan only')  return m === 0;
+  if (s === 'Feb–Mar')   return m === 1 || m === 2;
+  if (s === 'Apr–Oct')   return m >= 3 && m <= 9;
+  if (s === 'May–Sep')   return m >= 4 && m <= 8;
+  if (s === 'Jun–Jul')   return m === 5 || m === 6;
+  if (s === 'Oct–Apr')   return m >= 9 || m <= 3;
+  if (s === 'Oct–May')   return m >= 9 || m <= 4;
+  return true;
+}
+
+function getSeasonInfo() {
+  const m = new Date().getMonth();
+  if (m >= 5 && m <= 8) return { emoji: '🌵', label: 'Summer' };
+  if (m === 4)           return { emoji: '☀️', label: 'Late Spring' };
+  if (m === 9)           return { emoji: '🍂', label: 'Fall' };
+  return { emoji: '❄️', label: 'Cool Season' };
+}
+
+// ──────────────────────────────────────────
+// FILTER SHEET CONTROLS
+// ──────────────────────────────────────────
+function openFilters() {
+  // Sync pending to current
+  pendingFilters = {
+    cost: [...filters.cost],
+    time: [...filters.time],
+    duration: [...filters.duration]
+  };
+  syncChipsToState();
+  document.getElementById('sheet-overlay').classList.add('open');
+  document.getElementById('filter-sheet').classList.add('open');
+}
+
+function closeFilters() {
+  document.getElementById('sheet-overlay').classList.remove('open');
+  document.getElementById('filter-sheet').classList.remove('open');
+}
+
+function toggleChip(el) {
+  const group = el.dataset.group;
+  const value = el.dataset.value;
+  const arr = pendingFilters[group];
+  const idx = arr.indexOf(value);
+  if (idx > -1) {
+    arr.splice(idx, 1);
+    el.classList.remove('selected');
+  } else {
+    arr.push(value);
+    el.classList.add('selected');
+  }
+}
+
+function syncChipsToState() {
+  document.querySelectorAll('.filter-chip').forEach(chip => {
+    const group = chip.dataset.group;
+    const value = chip.dataset.value;
+    chip.classList.toggle('selected', pendingFilters[group].includes(value));
+  });
+}
+
+function applyFilters() {
+  filters = {
+    cost: [...pendingFilters.cost],
+    time: [...pendingFilters.time],
+    duration: [...pendingFilters.duration]
+  };
+  closeFilters();
+  updateHomeUI();
+
+  const count = countActiveFilters();
+  if (count > 0) showToast(`${count} filter${count > 1 ? 's' : ''} active`);
+}
+
+function clearFilters() {
+  pendingFilters = { cost: [], time: [], duration: [] };
+  filters = { cost: [], time: [], duration: [] };
+  syncChipsToState();
+  closeFilters();
+  updateHomeUI();
+  showToast('Filters cleared');
+}
+
+
+const RARITY_WEIGHTS = { Common: 6, Rare: 3, Legendary: 1 };
+
+// ──────────────────────────────────────────
+// POUL TYPES
+// ──────────────────────────────────────────
+const POUL_TYPES = [
+  { min: 200, emoji: '🔥', name: 'The Igniter', sub: 'Always says yes' },
+  { min: 100, emoji: '🌊', name: 'The Drifter', sub: 'Goes with the flow' },
+  { min: 50,  emoji: '🎲', name: 'The Wildcard', sub: 'Impossible to predict' },
+  { min: 20,  emoji: '🗺️', name: 'The Planner in Disguise', sub: 'Selective spontaneity' },
+  { min: 0,   emoji: '🧊', name: 'The Ice Block', sub: 'The pool has receipts' },
+];
+
+// ──────────────────────────────────────────
+// RESULT MESSAGES
+// ──────────────────────────────────────────
+const COMMIT_MESSAGES = [
+  "That's how it's done. Now actually go.",
+  "Called your shot. Now pocket it.",
+  "The pool rewards the spontaneous.",
+  "Luck favors the ones who move.",
+  "That's a yes. No backing out."
+];
+
+const DECLINE_MESSAGES = [
+  "The pool remembers everything.",
+  "Noted. Your score reflects your choices.",
+  "Another pass. The Ice Block awaits.",
+  "At least you're honest about it.",
+  "The card will still be here. You won't get younger."
+];
+
+// ──────────────────────────────────────────
+// GAME STATE
+// ──────────────────────────────────────────
+// ──────────────────────────────────────────
+// PERSISTENCE — localStorage
+// ──────────────────────────────────────────
+const STATE_KEY = 'poul_state_v1';
+
+function saveState() {
+  try {
+    const toSave = {
+      sparkScore: state.sparkScore,
+      tokens: state.tokens,
+      maxTokens: state.maxTokens,
+      drawCount: state.drawCount,
+      completedCards: state.completedCards,
+      streak: state.streak,
+      bestStreak: state.bestStreak,
+      lastCommitDate: state.lastCommitDate,
+      activePack: state.activePack
+    };
+    localStorage.setItem(STATE_KEY, JSON.stringify(toSave));
+  } catch(e) {
+    console.warn('Poul: could not save state', e);
+  }
+}
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STATE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch(e) {
+    console.warn('Poul: could not load state', e);
+    return null;
+  }
+}
+
+const _saved = loadState();
+
+let state = {
+  sparkScore: _saved ? _saved.sparkScore : 0,
+  tokens: _saved ? _saved.tokens : 5,
+  maxTokens: _saved ? _saved.maxTokens : 5,
+  drawCount: _saved ? _saved.drawCount : 0,
+  completedCards: _saved ? _saved.completedCards : [],
+  streak: _saved ? (_saved.streak || 0) : 0,
+  bestStreak: _saved ? (_saved.bestStreak || 0) : 0,
+  lastCommitDate: _saved ? (_saved.lastCommitDate || null) : null,
+  activePack: _saved ? (_saved.activePack || 'phoenix') : 'phoenix',
+  selectedCategory: null,
+  currentCard: null
+};
+
+// ──────────────────────────────────────────
+// UTILITY: WEIGHTED RANDOM DRAW
+// ──────────────────────────────────────────
+function drawCard(category) {
+  const pool = getFilteredPool(category);
+  if (pool.length === 0) return null;
+  const weighted = [];
+  pool.forEach(card => {
+    const w = RARITY_WEIGHTS[card.rarity] || 1;
+    for (let i = 0; i < w; i++) weighted.push(card);
+  });
+  return weighted[Math.floor(Math.random() * weighted.length)];
+}
+
+// ──────────────────────────────────────────
+// CATEGORY COLORS
+// ──────────────────────────────────────────
+const CAT_COLORS = {
+  adventure: 'var(--adventure)',
+  foodie: 'var(--foodie)',
+  chill: 'var(--chill)',
+  social: 'var(--social)',
+  active: 'var(--active)',
+  '8ball': 'var(--ivory)'
+};
+
+const CAT_LABELS = {
+  adventure: '🔥 Adventure',
+  foodie: '🍜 Foodie',
+  chill: '🧘 Chill',
+  social: '🎉 Social',
+  active: '💪 Active',
+  '8ball': '🎱 The 8-Ball'
+};
+
+const RARITY_COLORS = {
+  Common: 'var(--text-dim)',
+  Rare: '#7eb8e8',
+  Legendary: 'var(--ivory)'
+};
+
+// ──────────────────────────────────────────
+// UI UPDATES
+// ──────────────────────────────────────────
+function updateHomeUI() {
+  // Spark score
+  const scoreEl = document.getElementById('spark-score-display');
+  scoreEl.textContent = state.sparkScore;
+
+  // Poul type
+  const type = getPoulType();
+  document.getElementById('poul-type-display').textContent = type ? type.emoji + ' ' + type.name : '—';
+
+  // Streak
+  const streakEl = document.getElementById('streak-value-display');
+  if (state.streak > 0) {
+    streakEl.textContent = '🔥' + state.streak;
+    streakEl.classList.add('active');
+  } else {
+    streakEl.textContent = '—';
+    streakEl.classList.remove('active');
+  }
+
+  // Tokens
+  const dotsEl = document.getElementById('token-dots');
+  dotsEl.innerHTML = '';
+  for (let i = 0; i < state.maxTokens; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'token-dot' + (i >= state.tokens ? ' used' : '');
+    dotsEl.appendChild(dot);
+  }
+  document.getElementById('token-count-label').textContent = state.tokens + ' left';
+
+  // Pack indicator
+  const packEl = document.getElementById('pack-indicator-text');
+  if (state.activePack === 'phoenix') {
+    packEl.textContent = '🌵 Phoenix · Scottsdale';
+  } else {
+    const p = TRAVEL_PACKS[state.activePack];
+    packEl.textContent = p ? p.emoji + ' ' + p.name + ' · ' + p.location : '🌵 Phoenix';
+  }
+
+  // Season line
+  const season = getSeasonInfo();
+  const deck = getActiveDeck();
+  const deckCards = Object.values(deck).flat().filter(c => !c.filterExempt);
+  const totalInSeason = deckCards.filter(isCardInSeason).length;
+  const totalCards    = deckCards.length;
+  const seasonEl = document.getElementById('season-line');
+  if (totalInSeason < totalCards) {
+    seasonEl.textContent = season.emoji + ' ' + season.label + ' · ' + totalInSeason + ' of ' + totalCards + ' cards active';
+  } else {
+    seasonEl.textContent = season.emoji + ' ' + season.label;
+  }
+
+  // Filter badge
+  const activeCount = countActiveFilters();
+  const badge = document.getElementById('filter-badge');
+  const filterBtn = document.getElementById('filter-btn');
+  badge.textContent = activeCount;
+  badge.classList.toggle('visible', activeCount > 0);
+  filterBtn.classList.toggle('active', activeCount > 0);
+
+  // Pool size label + draw button
+  const btn = document.getElementById('draw-btn');
+  const poolLabel = document.getElementById('pool-size-label');
+
+  if (state.selectedCategory) {
+    const poolSize = getFilteredPool(state.selectedCategory).length;
+    const rawSize  = (getActiveDeck()[state.selectedCategory] || []).filter(c => c.filterExempt || isCardInSeason(c)).length;
+    const seasonFiltered = rawSize - poolSize;
+
+    if (poolSize === 0) {
+      btn.textContent = 'No Cards Match — Adjust Filter';
+      btn.classList.add('disabled');
+      poolLabel.textContent = '0 cards available';
+      poolLabel.className = 'pool-size-label thin';
+    } else if (poolSize <= 2) {
+      btn.textContent = 'Draw Your Card →';
+      btn.classList.remove('disabled');
+      poolLabel.textContent = `Only ${poolSize} card${poolSize > 1 ? 's' : ''} — loosen filters?`;
+      poolLabel.className = 'pool-size-label thin';
+    } else {
+      btn.textContent = 'Draw Your Card →';
+      btn.classList.remove('disabled');
+      if (activeCount > 0) {
+        poolLabel.textContent = `${poolSize} cards in pool`;
+      } else if (seasonFiltered > 0) {
+        poolLabel.textContent = `${season.emoji} ${poolSize} in season`;
+      } else {
+        poolLabel.textContent = '';
+      }
+      poolLabel.className = 'pool-size-label';
+    }
+  } else {
+    btn.textContent = 'Select a Category';
+    btn.classList.add('disabled');
+    poolLabel.textContent = '';
+  }
+}
+
+function getPoulType() {
+  for (const type of POUL_TYPES) {
+    if (state.sparkScore >= type.min) return type;
+  }
+  return POUL_TYPES[POUL_TYPES.length - 1];
+}
+
+function selectCategory(cat) {
+  state.selectedCategory = cat;
+  document.querySelectorAll('.cat-btn').forEach(b => {
+    b.classList.toggle('selected', b.dataset.category === cat);
+  });
+  updateHomeUI();
+}
+
+// ──────────────────────────────────────────
+// SCREEN NAVIGATION
+// ──────────────────────────────────────────
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+
+  if (id === 'pool') renderPool();
+}
+
+// ──────────────────────────────────────────
+// DRAW FLOW
+// ──────────────────────────────────────────
+function startDraw() {
+  if (!state.selectedCategory) return;
+
+  const card = drawCard(state.selectedCategory);
+  if (!card) {
+    showToast('No cards match your filters. Adjust the Poul Filter.');
+    return;
+  }
+
+  state.currentCard = card;
+  document.getElementById('draw-category-label').textContent = CAT_LABELS[state.selectedCategory];
+  showScreen('draw');
+
+  setTimeout(() => {
+    const ball = document.getElementById('draw-ball');
+    ball.classList.add('drawing');
+    setTimeout(() => ball.classList.remove('drawing'), 700);
+  }, 300);
+}
+
+function revealCard() {
+  const card = state.currentCard;
+  if (!card) return;
+
+  // Populate card
+  const color = CAT_COLORS[state.selectedCategory];
+  document.getElementById('card-stripe').style.background = color;
+  document.getElementById('rarity-dot').style.background = RARITY_COLORS[card.rarity];
+  document.getElementById('rarity-label').textContent = card.rarity;
+  document.getElementById('rarity-label').style.color = RARITY_COLORS[card.rarity];
+  document.getElementById('card-city-tag').textContent = '📍 ' + (card.city || 'Phoenix, AZ');
+  document.getElementById('card-title').textContent = card.title;
+  document.getElementById('card-description').textContent = card.description;
+  document.getElementById('card-bonus').textContent = card.bonus;
+
+  // Maps link
+  const mapsLink = document.getElementById('card-maps-link');
+  if (card.mapsUrl) {
+    mapsLink.href = card.mapsUrl;
+    mapsLink.style.display = 'inline-flex';
+  } else {
+    mapsLink.style.display = 'none';
+  }
+
+  // Meta chips
+  const metaRow = document.getElementById('card-meta');
+  metaRow.innerHTML = '';
+  [card.cost, card.duration, card.time, card.season].forEach(val => {
+    const chip = document.createElement('div');
+    chip.className = 'meta-chip';
+    chip.textContent = val;
+    metaRow.appendChild(chip);
+  });
+
+  // Update decline button with correct penalty
+  const declineBtn = document.querySelector('.btn-decline');
+  declineBtn.textContent = 'Pass −5';
+
+  // Update commit button with spark reward indicator
+  const commitBtn = document.querySelector('.btn-commit');
+  commitBtn.textContent = `I'm In +${card.spark}`;
+
+  showScreen('card');
+
+  // Trigger reveal animation
+  setTimeout(() => {
+    document.getElementById('active-card').classList.add('revealed');
+  }, 50);
+}
+
+// ──────────────────────────────────────────
+// REDRAW
+// ──────────────────────────────────────────
+function redrawCard() {
+  if (state.tokens <= 0) {
+    showToast('No tokens left. Commit or pass.');
+    return;
+  }
+
+  const card = drawCard(state.selectedCategory);
+  if (!card) {
+    showToast('No cards match your filters.');
+    return;
+  }
+
+  state.tokens--;
+  state.sparkScore = Math.max(0, state.sparkScore - 2);
+  state.currentCard = card;
+
+  saveState();
+
+  const cardEl = document.getElementById('active-card');
+  cardEl.classList.remove('revealed');
+
+  setTimeout(() => { revealCard(); }, 100);
+
+  updateHomeUI();
+  showToast('Redrawn. −2 Spark.');
+}
+
+// ──────────────────────────────────────────
+// COMMIT
+// ──────────────────────────────────────────
+function commitCard() {
+  const card = state.currentCard;
+  if (!card) return;
+
+  state.sparkScore += card.spark;
+  state.drawCount++;
+
+  // ── STREAK LOGIC ──
+  const todayStr = new Date().toISOString().split('T')[0];
+  let streakMilestone = null;
+
+  if (state.lastCommitDate) {
+    const lastDate = new Date(state.lastCommitDate);
+    const todayDate = new Date(todayStr);
+    const diffDays = Math.round((todayDate - lastDate) / (1000 * 60 * 60 * 24));
+
+    if (diffDays === 0) {
+      // Same day — streak holds, no change
+    } else if (diffDays === 1) {
+      // Consecutive day — streak grows
+      state.streak++;
+      if (state.streak > state.bestStreak) state.bestStreak = state.streak;
+      if ([3, 7, 30].includes(state.streak)) streakMilestone = state.streak;
+      state.lastCommitDate = todayStr;
+    } else {
+      // Gap — streak broken
+      state.streak = 1;
+      state.lastCommitDate = todayStr;
+    }
+  } else {
+    // First commit ever
+    state.streak = 1;
+    state.bestStreak = 1;
+    state.lastCommitDate = todayStr;
+  }
+
+  // ── MILESTONE REWARDS ──
+  const STREAK_REWARDS = { 3: 25, 7: 50, 30: 100 };
+  const STREAK_MESSAGES = {
+    3: '🔥 3-Day Streak! +25 Spark bonus.',
+    7: '🔥 7 days. Hidden Gem tier unlocked. +50 Spark.',
+    30: '🔥 30 days. Legendary. +100 Spark. The pool bows.'
+  };
+  if (streakMilestone) {
+    state.sparkScore += STREAK_REWARDS[streakMilestone];
+    setTimeout(() => showToast(STREAK_MESSAGES[streakMilestone]), 1800);
+  }
+
+  state.completedCards.unshift({
+    ...card,
+    category: state.selectedCategory,
+    completedAt: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+  });
+
+  saveState();
+  showResult(true, card);
+  updateHomeUI();
+}
+
+// ──────────────────────────────────────────
+// DECLINE
+// ──────────────────────────────────────────
+function declineCard() {
+  const card = state.currentCard;
+  if (!card) return;
+
+  const penalty = 5;
+  state.sparkScore = Math.max(0, state.sparkScore - penalty);
+  state.drawCount++;
+
+  saveState();
+  showResult(false, card);
+  updateHomeUI();
+}
+
+// ──────────────────────────────────────────
+// SHOW RESULT
+// ──────────────────────────────────────────
+function showResult(committed, card) {
+  showScreen('result');
+
+  const icon = document.getElementById('result-icon');
+  const title = document.getElementById('result-title');
+  const activity = document.getElementById('result-activity');
+  const delta = document.getElementById('result-spark-delta');
+  const message = document.getElementById('result-message');
+
+  if (committed) {
+    icon.textContent = '✓';
+    title.textContent = 'You\'re In.';
+    title.className = 'result-title commit';
+    delta.textContent = '+' + card.spark;
+    delta.className = 'result-spark-delta pos';
+    message.textContent = COMMIT_MESSAGES[Math.floor(Math.random() * COMMIT_MESSAGES.length)];
+  } else {
+    icon.textContent = '✕';
+    title.textContent = 'Passed.';
+    title.className = 'result-title decline';
+    delta.textContent = '−5';
+    delta.className = 'result-spark-delta neg';
+    message.textContent = DECLINE_MESSAGES[Math.floor(Math.random() * DECLINE_MESSAGES.length)];
+  }
+
+  activity.textContent = '"' + card.title + '"';
+
+  // Show proof upload only on commit, reset to empty state
+  const proofSection = document.getElementById('proof-section');
+  proofSection.style.display = committed ? 'block' : 'none';
+  if (committed) {
+    document.getElementById('proof-placeholder').style.display = 'flex';
+    document.getElementById('proof-img').style.display = 'none';
+    document.getElementById('proof-retake').style.display = 'none';
+    document.getElementById('proof-input').value = '';
+  }
+}
+
+// ──────────────────────────────────────────
+// RETURN HOME
+// ──────────────────────────────────────────
+function returnHome() {
+  state.selectedCategory = null;
+  state.currentCard = null;
+
+  // Reset category buttons
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
+
+  // Reset card animation state
+  document.getElementById('active-card').classList.remove('revealed');
+
+  updateHomeUI();
+  showScreen('home');
+}
+
+// ──────────────────────────────────────────
+// RENDER POOL (Collection)
+// ──────────────────────────────────────────
+function renderPool() {
+  const content = document.getElementById('pool-content');
+  const countLabel = document.getElementById('pool-count-label');
+
+  countLabel.textContent = state.completedCards.length + ' completed';
+
+  if (state.completedCards.length === 0) {
+    content.innerHTML = `
+      <div class="pool-empty">
+        <div class="pool-empty-ball"><span>8</span></div>
+        <div class="pool-empty-text">Your pool is empty.<br>Draw a card and commit to start building your collection.</div>
+      </div>
+    `;
+    return;
+  }
+
+  const rarityColors = {
+    Common: 'var(--text-dim)',
+    Rare: '#7eb8e8',
+    Legendary: 'var(--ivory)'
+  };
+
+  content.innerHTML = state.completedCards.map((card, idx) => `
+    <div class="pool-card">
+      <div class="pool-card-top-stripe" style="background:${CAT_COLORS[card.category]}"></div>
+      <div class="pool-card-inner">
+
+        <div class="pool-card-header">
+          <div class="pool-card-title">${card.title}</div>
+          <div class="pool-card-spark">+${card.spark}</div>
+        </div>
+
+        <div class="pool-card-badges">
+          <span class="pool-card-cat">${CAT_LABELS[card.category]}</span>
+          <span class="pool-card-sep">·</span>
+          <span class="pool-card-rarity" style="color:${rarityColors[card.rarity]}">${card.rarity}</span>
+          <span class="pool-card-sep">·</span>
+          <span class="pool-card-date">${card.completedAt}</span>
+        </div>
+
+        <div class="pool-card-description">${card.description}</div>
+
+        ${card.photoDataUrl ? `<img class="pool-card-photo" src="${card.photoDataUrl}" alt="Proof photo">` : ''}
+
+        <div class="pool-card-chips">
+          <span class="pool-card-chip">${card.cost}</span>
+          <span class="pool-card-chip">${card.duration}</span>
+          <span class="pool-card-chip">${card.time}</span>
+          <span class="pool-card-chip">${card.season}</span>
+        </div>
+
+        <div class="pool-card-bonus">
+          <div class="pool-card-bonus-label">Bonus Challenge</div>
+          <div class="pool-card-bonus-text">${card.bonus}</div>
+        </div>
+
+        ${card.mapsUrl ? `<a class="pool-card-maps-link" href="${card.mapsUrl}" target="_blank" rel="noopener">📍 Open in Maps</a>` : ''}
+
+        <div class="pool-card-rating" id="pool-rating-${idx}">
+          ${ratingButtonsHTML(idx, card.rating)}
+        </div>
+
+      </div>
+    </div>
+  `).join('');
+}
+
+// ──────────────────────────────────────────
+// CARD RATING
+// ──────────────────────────────────────────
+function ratingButtonsHTML(idx, rating) {
+  const upActive   = rating === 'up'   ? ' active' : '';
+  const downActive = rating === 'down' ? ' active' : '';
+  const label = rating === 'up'   ? 'Loved it'
+              : rating === 'down' ? 'Skip next time'
+              : 'Rate this';
+  return `
+    <button class="btn-rate up${upActive}"   onclick="rateCard(${idx},'up')"   aria-label="Loved it">👍</button>
+    <button class="btn-rate down${downActive}" onclick="rateCard(${idx},'down')" aria-label="Skip next time">👎</button>
+    <span class="pool-card-rating-label">${label}</span>
+  `;
+}
+
+function rateCard(idx, direction) {
+  const card = state.completedCards[idx];
+  if (!card) return;
+  // Toggle: tapping the active rating removes it
+  card.rating = card.rating === direction ? null : direction;
+  saveState();
+  // Update just this card's rating row — preserves scroll position
+  const el = document.getElementById('pool-rating-' + idx);
+  if (el) el.innerHTML = ratingButtonsHTML(idx, card.rating);
+  const msg = card.rating === 'up' ? '👍 Logged.' : card.rating === 'down' ? '👎 Noted.' : 'Rating cleared.';
+  showToast(msg);
+}
+
+// ──────────────────────────────────────────
+// TOAST
+// ──────────────────────────────────────────
+let toastTimeout;
+function showToast(msg) {
+  const toast = document.getElementById('toast');
+  toast.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => toast.classList.remove('show'), 2500);
+}
+
+// ──────────────────────────────────────────
+// RESET
+// ──────────────────────────────────────────
+function confirmReset() {
+  if (!confirm('Reset your Spark Score and Your Pool? This cannot be undone.')) return;
+  localStorage.removeItem(STATE_KEY);
+  state.sparkScore = 0;
+  state.tokens = 5;
+  state.drawCount = 0;
+  state.completedCards = [];
+  state.streak = 0;
+  state.bestStreak = 0;
+  state.lastCommitDate = null;
+  state.selectedCategory = null;
+  state.currentCard = null;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
+  updateHomeUI();
+  showScreen('home');
+  showToast('Pool reset. Fresh start.');
+}
+
+// ──────────────────────────────────────────
+// SHARE CARD
+// ──────────────────────────────────────────
+function openShareCard() {
+  const overlay = document.getElementById('share-overlay');
+  renderShareCard();
+  overlay.classList.add('open');
+}
+
+function closeShareCard() {
+  document.getElementById('share-overlay').classList.remove('open');
+}
+
+function renderShareCard() {
+  const type = getPoulType();
+  if (!type) return;
+
+  document.getElementById('sc-emoji').textContent = type.emoji;
+  document.getElementById('sc-type-name').textContent = type.name;
+  document.getElementById('sc-type-sub').textContent = type.sub;
+  document.getElementById('sc-spark').textContent = state.sparkScore;
+  document.getElementById('sc-completed').textContent = state.completedCards.length;
+
+  const streakEl = document.getElementById('sc-streak');
+  if (state.streak > 0) {
+    streakEl.textContent = '🔥' + state.streak;
+    streakEl.classList.add('streak-stat');
+  } else {
+    streakEl.textContent = '—';
+    streakEl.classList.remove('streak-stat');
+  }
+
+  // Show unlock note if type is based on draw threshold
+  const noteEl = document.getElementById('sc-unlock-note');
+  if (state.drawCount < 20) {
+    noteEl.textContent = `Type locks in after 20 draws · ${20 - state.drawCount} to go`;
+    noteEl.style.display = 'block';
+  } else {
+    noteEl.style.display = 'none';
+  }
+}
+
+function shareCard() {
+  const type = getPoulType();
+  const streak = state.streak > 0 ? ` · 🔥${state.streak} streak` : '';
+  const text = `I'm ${type.emoji} ${type.name} on POUL — ${state.sparkScore} Spark · ${state.completedCards.length} completed${streak}\n\nLuck favors the spontaneous.`;
+
+  if (navigator.share) {
+    navigator.share({ text }).catch(() => copyShareText(text));
+  } else {
+    copyShareText(text);
+  }
+}
+
+function copyShareText(text) {
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(() => {
+      showToast('Copied. Paste it anywhere.');
+    }).catch(() => showToast('Share text ready — paste it!'));
+  } else {
+    showToast('Share: ' + text.slice(0, 60) + '…');
+  }
+}
+
+// ──────────────────────────────────────────
+// PACK SELECTOR
+// ──────────────────────────────────────────
+function openPackSheet() {
+  renderPackOptions();
+  document.getElementById('pack-overlay').classList.add('open');
+  document.getElementById('pack-sheet').classList.add('open');
+}
+
+function closePackSheet() {
+  document.getElementById('pack-overlay').classList.remove('open');
+  document.getElementById('pack-sheet').classList.remove('open');
+}
+
+function renderPackOptions() {
+  const container = document.getElementById('pack-options');
+
+  const allPacks = [
+    { id: 'phoenix', name: 'Phoenix · Scottsdale', location: 'Arizona', emoji: '🌵',
+      count: Object.values(CARDS).flat().filter(c => !c.filterExempt).length },
+    ...Object.values(TRAVEL_PACKS).map(p => ({
+      id: p.id, name: p.name, location: p.location, emoji: p.emoji,
+      count: Object.values(p.cards).flat().length
+    }))
+  ];
+
+  container.innerHTML = allPacks.map(p => `
+    <div class="pack-option${state.activePack === p.id ? ' active' : ''}" onclick="selectPack('${p.id}')">
+      <div class="pack-option-emoji">${p.emoji}</div>
+      <div class="pack-option-info">
+        <div class="pack-option-name">${p.name}</div>
+        <div class="pack-option-location">${p.location} · ${p.count} cards</div>
+      </div>
+      ${state.activePack === p.id ? '<span class="pack-option-badge">Active</span>' : ''}
+    </div>
+  `).join('');
+}
+
+function selectPack(packId) {
+  state.activePack = packId;
+  state.selectedCategory = null;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
+  saveState();
+  closePackSheet();
+  updateHomeUI();
+  const label = packId === 'phoenix' ? 'Phoenix · Scottsdale'
+    : (TRAVEL_PACKS[packId]?.name || packId);
+  showToast('Pack switched to ' + label);
+}
+
+// ──────────────────────────────────────────
+// PHOTO UPLOAD — PROOF OF COMPLETION
+// ──────────────────────────────────────────
+function handlePhotoUpload(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = e => {
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement('canvas');
+      const MAX = 480;
+      const ratio = Math.min(MAX / img.width, MAX / img.height, 1);
+      canvas.width = Math.round(img.width * ratio);
+      canvas.height = Math.round(img.height * ratio);
+      canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+      const dataUrl = canvas.toDataURL('image/jpeg', 0.65);
+
+      // Show preview
+      const proofImg = document.getElementById('proof-img');
+      proofImg.src = dataUrl;
+      proofImg.style.display = 'block';
+      document.getElementById('proof-placeholder').style.display = 'none';
+      document.getElementById('proof-retake').style.display = 'block';
+
+      // Attach to most recently committed card and persist
+      if (state.completedCards.length > 0) {
+        state.completedCards[0].photoDataUrl = dataUrl;
+        saveState();
+        showToast('Proof saved. 📸');
+      }
+    };
+    img.src = e.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+
+// ──────────────────────────────────────────
+// SERVICE WORKER + INSTALL PROMPT
+// ──────────────────────────────────────────
+const INSTALL_KEY = 'poul_install_dismissed';
+let deferredInstallPrompt = null;
+
+function isIOS() {
+  return /iphone|ipad|ipod/i.test(navigator.userAgent);
+}
+
+function isInStandaloneMode() {
+  return window.navigator.standalone === true ||
+    window.matchMedia('(display-mode: standalone)').matches;
+}
+
+function showInstallPrompt(isIos) {
+  if (localStorage.getItem(INSTALL_KEY)) return;
+  const prompt = document.getElementById('install-prompt');
+  if (isIos) {
+    document.getElementById('install-prompt-sub').textContent = 'Tap Share → Add to Home Screen';
+    document.getElementById('btn-install').style.display = 'none';
+  }
+  setTimeout(() => prompt.classList.add('show'), 1500);
+}
+
+function triggerInstall() {
+  if (!deferredInstallPrompt) return;
+  deferredInstallPrompt.prompt();
+  deferredInstallPrompt.userChoice.then(result => {
+    if (result.outcome === 'accepted') dismissInstall();
+    deferredInstallPrompt = null;
+  });
+}
+
+function dismissInstall() {
+  document.getElementById('install-prompt').classList.remove('show');
+  localStorage.setItem(INSTALL_KEY, '1');
+}
+
+// Android/Chrome: capture install event
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  deferredInstallPrompt = e;
+  if (!isInStandaloneMode()) showInstallPrompt(false);
+});
+
+// iOS: show instruction banner
+if (isIOS() && !isInStandaloneMode()) {
+  showInstallPrompt(true);
+}
+
+// Register service worker (only works when served over http/https)
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').catch(() => {});
+}
+
+// ──────────────────────────────────────────
+// EXTERNAL PACK LOADER
+// Progressive enhancement — when served over HTTP(S), loads packs/*.json
+// and merges them over the bundled data. Falls back silently on file://.
+// ──────────────────────────────────────────
+async function loadExternalPacks() {
+  try {
+    const res = await fetch('./packs/index.json');
+    if (!res.ok) return;
+    const { packs } = await res.json();
+    if (!Array.isArray(packs) || !packs.length) return;
+
+    for (const meta of packs) {
+      try {
+        const pr = await fetch(`./packs/${meta.id}.json`);
+        if (!pr.ok) continue;
+        const pack = await pr.json();
+
+        if (pack.isDefault) {
+          // Replace the bundled Phoenix deck
+          CARDS = pack.cards;
+        } else {
+          TRAVEL_PACKS[pack.id] = pack;
+        }
+      } catch (_) { /* skip bad pack */ }
+    }
+
+    // Re-render with fresh data
+    updateHomeUI();
+    console.log('Poul: external packs loaded (' + packs.length + ')');
+  } catch (_) {
+    // file:// or offline — bundled data is already in place, nothing to do
+  }
+}
+
+// ──────────────────────────────────────────
+// INIT
+// ──────────────────────────────────────────
+updateHomeUI();
+loadExternalPacks(); // async, updates UI when complete
+</script>
+
+<!-- ── SHARE CARD OVERLAY ── -->
+<div id="share-overlay" class="share-overlay" onclick="if(event.target===this)closeShareCard()">
+  <div class="share-card">
+    <div class="share-card-felt-bar"></div>
+    <div class="share-card-body">
+      <div class="share-card-logo">POUL</div>
+      <div class="share-card-emoji" id="sc-emoji">🧊</div>
+      <div class="share-card-type-name" id="sc-type-name">The Ice Block</div>
+      <div class="share-card-type-sub" id="sc-type-sub">The pool has receipts</div>
+      <div class="share-card-divider"></div>
+      <div class="share-card-stats">
+        <div class="share-stat">
+          <div class="share-stat-value" id="sc-spark">0</div>
+          <div class="share-stat-label">Spark</div>
+        </div>
+        <div class="share-stat">
+          <div class="share-stat-value" id="sc-completed">0</div>
+          <div class="share-stat-label">Completed</div>
+        </div>
+        <div class="share-stat">
+          <div class="share-stat-value" id="sc-streak">—</div>
+          <div class="share-stat-label">Streak</div>
+        </div>
+      </div>
+      <div class="share-card-tagline">Luck favors the spontaneous.</div>
+      <div class="share-card-actions">
+        <button class="btn-share" onclick="shareCard()">Share Your Type</button>
+        <button class="btn-share-close" onclick="closeShareCard()">✕</button>
+      </div>
+      <div class="share-card-unlock-note" id="sc-unlock-note" style="display:none;"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
