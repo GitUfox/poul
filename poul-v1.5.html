@@ -87,6 +87,7 @@
   #screen-home {
     padding: 24px;
     gap: 0;
+    position: relative;
   }
 
   .home-top {
@@ -1977,12 +1978,255 @@
   }
 
   .btn-install-dismiss:hover { color: var(--text); }
+
+  /* ── HOW TO PLAY ── */
+  .btn-rules {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--border2);
+    background: var(--surface2);
+    color: var(--text-dim);
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 10;
+  }
+  .btn-rules:hover { border-color: var(--felt-bright); color: var(--felt-bright); }
+
+  .rules-body {
+    padding-bottom: 40px;
+  }
+
+  .rules-section {
+    margin-bottom: 28px;
+  }
+
+  .rules-section-title {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--felt-bright);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .rules-section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .rules-text {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-dim);
+    line-height: 1.65;
+  }
+  .rules-text strong { color: var(--text); font-weight: 700; }
+
+  .rules-loop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: 14px 0 6px;
+  }
+  .rules-loop-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+  }
+  .rules-loop-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .rules-loop-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+  .rules-loop-arrow {
+    color: var(--text-dim);
+    font-size: 12px;
+    margin: 0 2px;
+    padding-bottom: 18px;
+    flex-shrink: 0;
+  }
+
+  .rules-cat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 4px;
+  }
+  .rules-cat-row {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 11px;
+    background: var(--surface2);
+    border-radius: 9px;
+    border: 1px solid var(--border);
+  }
+  .rules-cat-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .rules-cat-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text);
+    white-space: nowrap;
+  }
+
+  .rules-rarity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 4px;
+  }
+  .rules-rarity-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    background: var(--surface2);
+    border-radius: 9px;
+    border: 1px solid var(--border);
+  }
+  .rules-rarity-badge {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    min-width: 74px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .rules-rarity-odds {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-dim);
+    flex: 1;
+  }
+  .rules-rarity-spark {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .rules-type-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 4px;
+  }
+  .rules-type-row {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 9px 12px;
+    background: var(--surface2);
+    border-radius: 9px;
+    border: 1px solid var(--border);
+  }
+  .rules-type-emoji { font-size: 18px; flex-shrink: 0; }
+  .rules-type-info { flex: 1; }
+  .rules-type-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .rules-type-sub {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-dim);
+  }
+  .rules-type-threshold {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-dim);
+    flex-shrink: 0;
+  }
+
+  .rules-milestone-list {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+  }
+  .rules-milestone {
+    flex: 1;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 10px 8px;
+    text-align: center;
+  }
+  .rules-milestone-days {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1;
+  }
+  .rules-milestone-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 3px 0;
+  }
+  .rules-milestone-reward {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--felt-bright);
+  }
+
+  .rules-footer {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: var(--text-dim);
+    padding: 10px 0 8px;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
+  }
 </style>
 </head>
 <body>
 
 <!-- ── SCREEN 1: HOME ── -->
 <div id="screen-home" class="screen active">
+  <button class="btn-rules" onclick="openRulesSheet()" aria-label="How to play">?</button>
   <div class="home-top">
     <div class="home-wordmark">
       POUL<span class="wordmark-dot"><span class="wordmark-dot-inner"><span class="wordmark-dot-number">8</span></span></span>
@@ -2214,6 +2458,214 @@
   <div id="pack-options"></div>
 
 
+</div>
+
+<!-- ── HOW TO PLAY SHEET ── -->
+<div class="sheet-overlay" id="rules-overlay" onclick="closeRulesSheet()"></div>
+<div class="bottom-sheet" id="rules-sheet">
+  <div class="sheet-handle"></div>
+  <div class="sheet-header">
+    <div class="sheet-title">How to Play</div>
+    <button class="btn-sheet-close" onclick="closeRulesSheet()">Done</button>
+  </div>
+
+  <div class="rules-body">
+
+    <!-- THE GAME -->
+    <div class="rules-section">
+      <div class="rules-section-title">The Game</div>
+      <div class="rules-loop">
+        <div class="rules-loop-step">
+          <div class="rules-loop-icon">🎱</div>
+          <div class="rules-loop-label">Draw</div>
+        </div>
+        <div class="rules-loop-arrow">›</div>
+        <div class="rules-loop-step">
+          <div class="rules-loop-icon">✅</div>
+          <div class="rules-loop-label">Commit</div>
+        </div>
+        <div class="rules-loop-arrow">›</div>
+        <div class="rules-loop-step">
+          <div class="rules-loop-icon">⚡</div>
+          <div class="rules-loop-label">Spark</div>
+        </div>
+      </div>
+      <div class="rules-text" style="margin-top:12px;">
+        Pick a category, draw a card, then <strong>Call Your Shot</strong> — Commit or Pass.
+        Committing earns Spark and builds your streak. Passing costs nothing, but the card goes back in the pool.
+      </div>
+    </div>
+
+    <!-- CATEGORIES -->
+    <div class="rules-section">
+      <div class="rules-section-title">Categories</div>
+      <div class="rules-cat-grid">
+        <div class="rules-cat-row">
+          <div class="rules-cat-dot" style="background:#e8694d;"></div>
+          <div class="rules-cat-name">Adventure</div>
+        </div>
+        <div class="rules-cat-row">
+          <div class="rules-cat-dot" style="background:#e8a84d;"></div>
+          <div class="rules-cat-name">Foodie</div>
+        </div>
+        <div class="rules-cat-row">
+          <div class="rules-cat-dot" style="background:#4dc8c8;"></div>
+          <div class="rules-cat-name">Chill</div>
+        </div>
+        <div class="rules-cat-row">
+          <div class="rules-cat-dot" style="background:#a84de8;"></div>
+          <div class="rules-cat-name">Social</div>
+        </div>
+        <div class="rules-cat-row">
+          <div class="rules-cat-dot" style="background:#4d8fe8;"></div>
+          <div class="rules-cat-name">Active</div>
+        </div>
+        <div class="rules-cat-row">
+          <div class="rules-cat-dot" style="background:#f0e6cc;"></div>
+          <div class="rules-cat-name">8-Ball</div>
+        </div>
+      </div>
+      <div class="rules-text" style="margin-top:10px;">
+        The <strong>8-Ball</strong> is the wild draw — it ignores your Poul Filter and pulls from any category. Use it when you want the pool to decide everything.
+      </div>
+    </div>
+
+    <!-- RARITY -->
+    <div class="rules-section">
+      <div class="rules-section-title">Rarity &amp; Reward</div>
+      <div class="rules-rarity-list">
+        <div class="rules-rarity-row">
+          <div class="rules-rarity-badge" style="background:rgba(61,153,112,0.15);color:#3d9970;border:1px solid rgba(61,153,112,0.3);">Common</div>
+          <div class="rules-rarity-odds">6× draw odds</div>
+          <div class="rules-rarity-spark">+15 ⚡</div>
+        </div>
+        <div class="rules-rarity-row">
+          <div class="rules-rarity-badge" style="background:rgba(232,168,77,0.15);color:#e8a84d;border:1px solid rgba(232,168,77,0.3);">Rare</div>
+          <div class="rules-rarity-odds">3× draw odds</div>
+          <div class="rules-rarity-spark">+25 ⚡</div>
+        </div>
+        <div class="rules-rarity-row">
+          <div class="rules-rarity-badge" style="background:rgba(240,230,204,0.12);color:#f0e6cc;border:1px solid rgba(240,230,204,0.25);">Legendary</div>
+          <div class="rules-rarity-odds">1× draw odds</div>
+          <div class="rules-rarity-spark">+40 ⚡</div>
+        </div>
+      </div>
+      <div class="rules-text" style="margin-top:10px;">
+        The deck is weighted toward Common. Legendary draws are rare by design — when one shows up, you'll know. The higher the rarity, the more memorable (and usually more expensive) the card.
+      </div>
+    </div>
+
+    <!-- REDRAW TOKENS -->
+    <div class="rules-section">
+      <div class="rules-section-title">Redraw Tokens</div>
+      <div class="rules-text">
+        You start with <strong>5 tokens</strong>. Each redraw spends 1 token and costs <strong>−2 Spark</strong>.
+        The penalty is intentional — it makes you think twice before passing on a card. Tokens replenish daily.
+      </div>
+    </div>
+
+    <!-- SPARK & POUL TYPES -->
+    <div class="rules-section">
+      <div class="rules-section-title">Spark Score &amp; Your Type</div>
+      <div class="rules-text" style="margin-bottom:10px;">Your accumulated Spark determines your <strong>Poul Type</strong> — an honest read on how spontaneous you actually are.</div>
+      <div class="rules-type-list">
+        <div class="rules-type-row">
+          <div class="rules-type-emoji">🔥</div>
+          <div class="rules-type-info">
+            <div class="rules-type-name">The Igniter</div>
+            <div class="rules-type-sub">Always says yes</div>
+          </div>
+          <div class="rules-type-threshold">200+ ⚡</div>
+        </div>
+        <div class="rules-type-row">
+          <div class="rules-type-emoji">🌊</div>
+          <div class="rules-type-info">
+            <div class="rules-type-name">The Drifter</div>
+            <div class="rules-type-sub">Goes with the flow</div>
+          </div>
+          <div class="rules-type-threshold">100+ ⚡</div>
+        </div>
+        <div class="rules-type-row">
+          <div class="rules-type-emoji">🎲</div>
+          <div class="rules-type-info">
+            <div class="rules-type-name">The Wildcard</div>
+            <div class="rules-type-sub">Impossible to predict</div>
+          </div>
+          <div class="rules-type-threshold">50+ ⚡</div>
+        </div>
+        <div class="rules-type-row">
+          <div class="rules-type-emoji">🗺️</div>
+          <div class="rules-type-info">
+            <div class="rules-type-name">The Planner in Disguise</div>
+            <div class="rules-type-sub">Selective spontaneity</div>
+          </div>
+          <div class="rules-type-threshold">20+ ⚡</div>
+        </div>
+        <div class="rules-type-row">
+          <div class="rules-type-emoji">🧊</div>
+          <div class="rules-type-info">
+            <div class="rules-type-name">The Ice Block</div>
+            <div class="rules-type-sub">The pool has receipts</div>
+          </div>
+          <div class="rules-type-threshold">0+ ⚡</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STREAKS -->
+    <div class="rules-section">
+      <div class="rules-section-title">Streaks</div>
+      <div class="rules-text" style="margin-bottom:10px;">Commit at least one card per day to keep your streak alive. Miss a day and it resets. Milestones earn bonus Spark.</div>
+      <div class="rules-milestone-list">
+        <div class="rules-milestone">
+          <div class="rules-milestone-days">3</div>
+          <div class="rules-milestone-label">Days</div>
+          <div class="rules-milestone-reward">+25 ⚡</div>
+        </div>
+        <div class="rules-milestone">
+          <div class="rules-milestone-days">7</div>
+          <div class="rules-milestone-label">Days</div>
+          <div class="rules-milestone-reward">+50 ⚡</div>
+        </div>
+        <div class="rules-milestone">
+          <div class="rules-milestone-days">30</div>
+          <div class="rules-milestone-label">Days</div>
+          <div class="rules-milestone-reward">+100 ⚡</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- POUL FILTER -->
+    <div class="rules-section">
+      <div class="rules-section-title">Poul Filter</div>
+      <div class="rules-text">
+        Not cheating — scoping. Before you draw, filter by <strong>cost</strong>, <strong>time of day</strong>, or <strong>duration</strong>.
+        Cards outside your filter stay in the deck for later. The 8-Ball always ignores the filter.
+      </div>
+    </div>
+
+    <!-- THE BONUS -->
+    <div class="rules-section">
+      <div class="rules-section-title">The Bonus Challenge</div>
+      <div class="rules-text">
+        Every card has a micro-dare — something extra to do while you're there. It's optional.
+        But that's where the best stories come from.
+      </div>
+    </div>
+
+    <!-- CITY PACKS -->
+    <div class="rules-section">
+      <div class="rules-section-title">City Packs</div>
+      <div class="rules-text">
+        Your active pack is your card pool. Switch packs to explore a different city, or load one up before a trip.
+        Tap <strong>Switch ›</strong> on the home screen to change it.
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="rules-footer">Luck favors the spontaneous.</div>
+
+  </div>
 </div>
 
 <!-- ── INSTALL PROMPT ── -->
@@ -3100,6 +3552,30 @@ function copyShareText(text) {
 }
 
 // ──────────────────────────────────────────
+// HOW TO PLAY
+// ──────────────────────────────────────────
+const RULES_SEEN_KEY = 'poul_rules_seen';
+
+function openRulesSheet() {
+  document.getElementById('rules-overlay').classList.add('open');
+  document.getElementById('rules-sheet').classList.add('open');
+}
+
+function closeRulesSheet() {
+  document.getElementById('rules-overlay').classList.remove('open');
+  document.getElementById('rules-sheet').classList.remove('open');
+  try { localStorage.setItem(RULES_SEEN_KEY, '1'); } catch(e) { /* non-critical */ }
+}
+
+function maybeShowRulesOnFirstLaunch() {
+  try {
+    if (!localStorage.getItem(RULES_SEEN_KEY)) {
+      setTimeout(openRulesSheet, 1200);
+    }
+  } catch(e) { /* localStorage unavailable */ }
+}
+
+// ──────────────────────────────────────────
 // PACK SELECTOR
 // ──────────────────────────────────────────
 function openPackSheet() {
@@ -3321,6 +3797,7 @@ document.getElementById('season-line').textContent = '⌛ Loading your pool...';
 document.getElementById('draw-btn').textContent    = 'Loading Deck...';
 document.getElementById('draw-btn').classList.add('disabled');
 loadExternalPacks(); // parallel fetch, calls updateHomeUI() when done
+maybeShowRulesOnFirstLaunch();
 </script>
 
 <!-- ── SHARE CARD OVERLAY ── -->
