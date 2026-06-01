@@ -10,6 +10,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Poul">
 <link rel="apple-touch-icon" href="poul-icon.svg">
+<meta http-equiv="Content-Security-Policy"
+  content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://maps.googleapis.com; connect-src 'self'">
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -2433,7 +2435,21 @@ function saveState() {
     };
     localStorage.setItem(STATE_KEY, JSON.stringify(toSave));
   } catch(e) {
-    console.warn('Poul: could not save state', e);
+    if (e.name === 'QuotaExceededError') {
+      // Storage full — retry without photo data to preserve game state
+      try {
+        const stripped = { ...toSave,
+          completedCards: toSave.completedCards.map(c => { const {photoDataUrl, ...rest} = c; return rest; })
+        };
+        localStorage.setItem(STATE_KEY, JSON.stringify(stripped));
+        showToast('Storage full — proof photos cleared to save your progress.');
+      } catch(e2) {
+        console.warn('Poul: storage full, could not save state', e2);
+        showToast('Storage full. Some progress may not be saved.');
+      }
+    } else {
+      console.warn('Poul: could not save state', e);
+    }
   }
 }
 
@@ -2689,7 +2705,7 @@ function revealCard() {
   // Maps link
   const mapsLink = document.getElementById('card-maps-link');
   if (card.mapsUrl) {
-    mapsLink.href = card.mapsUrl;
+    mapsLink.href = /^https?:\/\//i.test(card.mapsUrl) ? card.mapsUrl : '#';
     mapsLink.style.display = 'inline-flex';
   } else {
     mapsLink.style.display = 'none';
@@ -3241,7 +3257,7 @@ function triggerInstall() {
 
 function dismissInstall() {
   document.getElementById('install-prompt').classList.remove('show');
-  localStorage.setItem(INSTALL_KEY, '1');
+  try { localStorage.setItem(INSTALL_KEY, '1'); } catch(e) { /* non-critical */ }
 }
 
 // Android/Chrome: capture install event
