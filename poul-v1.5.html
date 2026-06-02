@@ -51,6 +51,19 @@
     font-family: 'Manrope', sans-serif;
   }
 
+  /* ── SCROLLBARS ── */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #212621 transparent;
+  }
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: #212621;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--felt-bright); }
+
   /* ── SCREENS ── */
   .screen {
     position: fixed;
