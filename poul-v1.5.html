@@ -75,6 +75,16 @@
   body::before {
     content: '';
     position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--felt) 0%, var(--felt-bright) 100%);
+    pointer-events: none;
+    z-index: 10000;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
     inset: 0;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
     pointer-events: none;
@@ -105,60 +115,17 @@
     letter-spacing: -3px;
     line-height: 1;
     color: var(--text);
-    position: relative;
+    display: inline-flex;
+    align-items: flex-end;
     user-select: none;
   }
 
-  .wordmark-dot {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 58px;
-    height: 58px;
-    background: radial-gradient(circle at 38% 35%, #2a2a2a 0%, #000 70%);
-    border-radius: 50%;
-    border: 2.5px solid rgba(255,255,255,0.12);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.8), inset 0 1px 0 rgba(255,255,255,0.08);
-    position: relative;
-    bottom: 6px;
-    margin-left: 3px;
-    vertical-align: bottom;
+  .wordmark-ball {
+    display: block;
     flex-shrink: 0;
-  }
-
-  .wordmark-dot-inner {
-    width: 26px;
-    height: 26px;
-    border-radius: 50%;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 2;
-  }
-
-  .wordmark-dot-inner::after {
-    content: '';
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background: rgba(255,255,255,0.7);
-    border-radius: 50%;
-    top: -2px;
-    left: -2px;
-    z-index: 3;
-  }
-
-  .wordmark-dot-number {
-    font-family: 'Playfair Display', serif;
-    font-size: 17px;
-    font-weight: 900;
-    color: #000;
-    line-height: 1;
-    position: relative;
-    z-index: 4;
-    top: 0px;
+    margin: 0 1px 7px;
+    /* placeholder selector — sizing is on the SVG element itself */
+    dummy: none;
   }
 
   .home-sub {
@@ -325,17 +292,46 @@
     cursor: pointer;
     transition: all 0.2s ease;
     -webkit-tap-highlight-color: transparent;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* 3px category-color top bar */
+  .cat-btn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--cc, var(--felt-bright));
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  /* Radial corner glow */
+  .cat-btn::after {
+    content: '';
+    position: absolute;
+    top: -50px; left: -50px;
+    width: 160px; height: 160px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--cc, var(--felt-bright)) 0%, transparent 70%);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
   }
 
   .cat-btn:hover, .cat-btn:active {
     background: var(--surface2);
-    border-color: var(--felt-mid);
+    border-color: var(--cc, var(--felt-mid));
     transform: translateY(-2px);
   }
-  .cat-btn:hover .cat-icon, .cat-btn:active .cat-icon { color: var(--text); }
+  .cat-btn:hover::before { opacity: 1; }
+  .cat-btn:hover::after  { opacity: 0.06; }
 
   /* Base selected */
   .cat-btn.selected { transform: translateY(-1px); }
+  .cat-btn.selected::before { opacity: 1; }
+  .cat-btn.selected::after  { opacity: 0.09; }
 
   /* Per-category selected: border + glow + icon color */
   .cat-btn[data-category="adventure"].selected { border-color: var(--adventure); background: rgba(232,105,77,0.1); box-shadow: 0 0 18px rgba(232,105,77,0.2); }
@@ -357,20 +353,22 @@
   .cat-btn[data-category="8ball"].selected .cat-icon { color: var(--ivory); }
 
   .cat-icon {
-    width: 22px; height: 22px;
+    width: 28px; height: 28px;
     display: flex; align-items: center; justify-content: center;
-    color: var(--text-mid);
+    color: var(--cc, var(--text-mid));
     transition: color 0.2s ease;
+    position: relative; z-index: 1;
   }
   .cat-icon svg { display: block; }
 
   .cat-name {
     font-size: 10px;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--text-mid);
+    color: var(--cc, var(--text-mid));
     text-align: center;
+    position: relative; z-index: 1;
   }
 
   /* 8-ball: ivory name + idle pulse */
@@ -488,18 +486,30 @@
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    background: radial-gradient(circle at 38% 32%, #2e2e2e 0%, #111 40%, #000 100%);
-    border: 2px solid rgba(255,255,255,0.08);
+    background: radial-gradient(circle at 40% 33%, #1e2c20 0%, #0d120d 60%, #040607 100%);
+    border: 2px solid rgba(255,255,255,0.07);
     box-shadow:
       0 0 0 1px rgba(0,0,0,0.8),
       0 30px 80px rgba(0,0,0,0.9),
-      inset 0 2px 0 rgba(255,255,255,0.07);
+      inset 0 2px 0 rgba(255,255,255,0.06);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     position: relative;
+    overflow: hidden;
     transition: box-shadow 0.3s;
+  }
+
+  .ball::after {
+    content: '';
+    position: absolute;
+    width: 54px; height: 36px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.11);
+    top: 22px; left: 28px;
+    transform: rotate(-20deg);
+    pointer-events: none;
   }
 
   .ball.drawing {
@@ -524,18 +534,19 @@
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    background: white;
+    background: #f0e6cc;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    z-index: 1;
   }
 
   .ball-number {
     font-family: 'Playfair Display', serif;
     font-size: 34px;
     font-weight: 900;
-    color: #000;
+    color: #0d120d;
     line-height: 1;
     position: relative;
     z-index: 1;
@@ -607,20 +618,28 @@
   }
 
   .card-rarity-badge {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 7px;
+    padding: 5px 14px 5px 5px;
+    border-radius: 100px;
     font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.2em;
+    font-weight: 800;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
+    width: fit-content;
   }
 
   .rarity-dot {
-    width: 6px;
-    height: 6px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
+    flex-shrink: 0;
   }
+
+  .card-rarity-badge.badge-common   { background: rgba(30,92,58,0.25);    border: 1px solid rgba(77,216,127,0.22);  color: #4dd87f; }
+  .card-rarity-badge.badge-rare     { background: rgba(232,168,77,0.18);   border: 1px solid rgba(232,168,77,0.28);  color: #e8a84d; }
+  .card-rarity-badge.badge-legendary{ background: rgba(240,230,204,0.12);  border: 1px solid rgba(240,230,204,0.32); color: #f0e6cc; }
 
   .card-city-tag {
     font-size: 10px;
@@ -2229,7 +2248,7 @@
   <button class="btn-rules" onclick="openRulesSheet()" aria-label="How to play">?</button>
   <div class="home-top">
     <div class="home-wordmark">
-      POUL<span class="wordmark-dot"><span class="wordmark-dot-inner"><span class="wordmark-dot-number">8</span></span></span>
+      P<svg class="wordmark-ball" viewBox="0 0 100 100" width="54" height="54" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="wbg" cx="40%" cy="33%" r="70%"><stop offset="0%" stop-color="#1e2c20"/><stop offset="60%" stop-color="#0d120d"/><stop offset="100%" stop-color="#040607"/></radialGradient></defs><circle cx="50" cy="50" r="47" fill="url(#wbg)"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg>UL
     </div>
     <div class="home-sub">Luck favors the spontaneous</div>
   </div>
@@ -2272,28 +2291,28 @@
 
   <div style="height:14px;"></div>
   <div class="category-grid">
-    <button class="cat-btn" data-category="adventure" onclick="selectCategory('adventure')">
-      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18 L8.5 6 L13 12.5 L16 8 L20 18"/><line x1="2" y1="18" x2="20" y2="18"/></svg></span>
+    <button class="cat-btn" data-category="adventure" style="--cc:#e8694d" onclick="selectCategory('adventure')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 40 L17 8 L26 24 L32 15 L41 40 Z" fill="#e8694d" fill-opacity=".18"/><path d="M3 40 L17 8 L26 24 L32 15 L41 40" stroke="#e8694d" stroke-width="2.2" stroke-linejoin="round" fill="none"/><path d="M17 8 L20.5 14" stroke="#e8694d" stroke-width="2.2" stroke-linecap="round"/></svg></span>
       <span class="cat-name">Adventure</span>
     </button>
-    <button class="cat-btn" data-category="foodie" onclick="selectCategory('foodie')">
-      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 2 L7 8.5"/><path d="M5 2 L5 6 Q5 8.5 7 8.5 Q9 8.5 9 6 L9 2"/><line x1="7" y1="8.5" x2="7" y2="20"/><path d="M15 2 C15 2 17.5 5 17.5 9 L15.5 9 L15.5 20"/></svg></span>
+    <button class="cat-btn" data-category="foodie" style="--cc:#e8a84d" onclick="selectCategory('foodie')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="14" y1="7" x2="14" y2="21" stroke="#e8a84d" stroke-width="2.3" stroke-linecap="round"/><line x1="22" y1="7" x2="22" y2="21" stroke="#e8a84d" stroke-width="2.3" stroke-linecap="round"/><line x1="30" y1="7" x2="30" y2="21" stroke="#e8a84d" stroke-width="2.3" stroke-linecap="round"/><path d="M14 21 Q14 30 22 32 Q30 30 30 21" stroke="#e8a84d" stroke-width="2.3" fill="none" stroke-linecap="round"/><line x1="22" y1="32" x2="22" y2="40" stroke="#e8a84d" stroke-width="2.3" stroke-linecap="round"/></svg></span>
       <span class="cat-name">Foodie</span>
     </button>
-    <button class="cat-btn" data-category="chill" onclick="selectCategory('chill')">
-      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 13 A7 7 0 1 1 9 4 A5.5 5.5 0 0 0 17 13 Z"/></svg></span>
+    <button class="cat-btn" data-category="chill" style="--cc:#4dc8c8" onclick="selectCategory('chill')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="24" r="14" fill="#4dc8c8"/><circle cx="27" cy="17" r="13" fill="#131613"/><circle cx="35" cy="10" r="2.2" fill="#4dc8c8" fill-opacity=".7"/><circle cx="39" cy="20" r="1.4" fill="#4dc8c8" fill-opacity=".45"/><circle cx="33" cy="24" r="1" fill="#4dc8c8" fill-opacity=".3"/></svg></span>
       <span class="cat-name">Chill</span>
     </button>
-    <button class="cat-btn" data-category="social" onclick="selectCategory('social')">
-      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="6" r="3"/><path d="M2 20 C2 15.5 4.5 13 8 13 C11.5 13 14 15.5 14 20"/><circle cx="16" cy="7.5" r="2.5"/><path d="M14 20 C14.5 17 15.5 15 16 15 C17.5 15 19.5 16.5 20 20"/></svg></span>
+    <button class="cat-btn" data-category="social" style="--cc:#a84de8" onclick="selectCategory('social')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 10 Q6 6 10 6 L34 6 Q38 6 38 10 L38 27 Q38 31 34 31 L24 31 L14 39 L16 31 Q6 31 6 27 Z" stroke="#a84de8" stroke-width="2.2" stroke-linejoin="round"/><line x1="14" y1="17" x2="30" y2="17" stroke="#a84de8" stroke-width="2" stroke-linecap="round" stroke-opacity=".5"/><line x1="14" y1="23" x2="24" y2="23" stroke="#a84de8" stroke-width="2" stroke-linecap="round" stroke-opacity=".5"/></svg></span>
       <span class="cat-name">Social</span>
     </button>
-    <button class="cat-btn" data-category="active" onclick="selectCategory('active')">
-      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 L5 13 L11 13 L9 20 L17 9 L11 9 Z"/></svg></span>
+    <button class="cat-btn" data-category="active" style="--cc:#4d8fe8" onclick="selectCategory('active')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><path d="M26 4 L11 25 L20 25 L16 42 L34 21 L25 21 Z" fill="#4d8fe8"/></svg></span>
       <span class="cat-name">Active</span>
     </button>
-    <button class="cat-btn eightball" data-category="8ball" onclick="selectCategory('8ball')">
-      <span class="cat-icon"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.5"/><circle cx="11" cy="10.5" r="4.25" stroke="currentColor" stroke-width="1"/><path d="M9.4 9.2 C9.4 8.3 10.1 7.7 11 7.7 C11.9 7.7 12.6 8.3 12.6 9.2 C12.6 9.8 12.2 10.2 11.7 10.5 C12.3 10.8 12.8 11.3 12.8 12.1 C12.8 13.1 12 13.8 11 13.8 C10 13.8 9.2 13.1 9.2 12.1 C9.2 11.3 9.7 10.8 10.3 10.5 C9.8 10.2 9.4 9.8 9.4 9.2 Z" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <button class="cat-btn eightball" data-category="8ball" style="--cc:#f0e6cc" onclick="selectCategory('8ball')">
+      <span class="cat-icon"><svg viewBox="0 0 100 100" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="cbg" cx="40%" cy="33%" r="70%"><stop offset="0%" stop-color="#1e2c20"/><stop offset="60%" stop-color="#0d120d"/><stop offset="100%" stop-color="#040607"/></radialGradient></defs><circle cx="50" cy="50" r="47" fill="url(#cbg)"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></span>
       <span class="cat-name">8-Ball</span>
     </button>
   </div>
@@ -2986,9 +3005,9 @@ function animateCounter(el, to) {
 }
 
 const RARITY_COLORS = {
-  Common: 'var(--text-dim)',
-  Rare: '#7eb8e8',
-  Legendary: 'var(--ivory)'
+  Common:    '#4dd87f',
+  Rare:      '#e8a84d',
+  Legendary: '#f0e6cc'
 };
 
 // ──────────────────────────────────────────
@@ -3146,9 +3165,10 @@ function revealCard() {
   // Populate card
   const color = CAT_COLORS[state.selectedCategory];
   document.getElementById('card-stripe').style.background = color;
+  const rarityBadge = document.querySelector('.card-rarity-badge');
+  rarityBadge.className = 'card-rarity-badge badge-' + card.rarity.toLowerCase();
   document.getElementById('rarity-dot').style.background = RARITY_COLORS[card.rarity];
   document.getElementById('rarity-label').textContent = card.rarity;
-  document.getElementById('rarity-label').style.color = RARITY_COLORS[card.rarity];
   document.getElementById('card-city-tag').textContent = '📍 ' + (card.city || 'Phoenix, AZ');
   document.getElementById('card-title').textContent = card.title;
   document.getElementById('card-description').textContent = card.description;
