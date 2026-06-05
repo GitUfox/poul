@@ -54,12 +54,12 @@
   /* ── SCROLLBARS ── */
   * {
     scrollbar-width: thin;
-    scrollbar-color: #212621 transparent;
+    scrollbar-color: var(--surface3) transparent;
   }
   ::-webkit-scrollbar { width: 4px; height: 4px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb {
-    background: #212621;
+    background: var(--surface3);
     border-radius: 4px;
   }
   ::-webkit-scrollbar-thumb:hover { background: var(--felt-bright); }
@@ -138,7 +138,6 @@
     flex-shrink: 0;
     margin: 0 1px 7px;
     /* placeholder selector — sizing is on the SVG element itself */
-    dummy: none;
   }
 
   .home-sub {
@@ -2592,7 +2591,7 @@
       <div class="rules-section-title">Redraw Tokens</div>
       <div class="rules-text">
         You start with <strong>5 tokens</strong>. Each redraw spends 1 token and costs <strong>−2 Spark</strong>.
-        The penalty is intentional — it makes you think twice before passing on a card. Tokens replenish daily.
+        The penalty is intentional — it makes you think twice before passing on a card. Use them wisely — tokens don't refill automatically.
       </div>
     </div>
 
@@ -2905,18 +2904,18 @@ const DECLINE_MESSAGES = [
 const STATE_KEY = 'poul_state_v1';
 
 function saveState() {
+  const toSave = {
+    sparkScore: state.sparkScore,
+    tokens: state.tokens,
+    maxTokens: state.maxTokens,
+    drawCount: state.drawCount,
+    completedCards: state.completedCards,
+    streak: state.streak,
+    bestStreak: state.bestStreak,
+    lastCommitDate: state.lastCommitDate,
+    activePack: state.activePack
+  };
   try {
-    const toSave = {
-      sparkScore: state.sparkScore,
-      tokens: state.tokens,
-      maxTokens: state.maxTokens,
-      drawCount: state.drawCount,
-      completedCards: state.completedCards,
-      streak: state.streak,
-      bestStreak: state.bestStreak,
-      lastCommitDate: state.lastCommitDate,
-      activePack: state.activePack
-    };
     localStorage.setItem(STATE_KEY, JSON.stringify(toSave));
   } catch(e) {
     if (e.name === 'QuotaExceededError') {
@@ -3022,6 +3021,23 @@ const RARITY_COLORS = {
   Rare:      '#e8a84d',
   Legendary: '#f0e6cc'
 };
+
+// Pool view uses muted tones — intentionally different from the card-reveal accent colors above
+const POOL_RARITY_COLORS = {
+  Common:    'var(--text-dim)',
+  Rare:      '#7eb8e8',
+  Legendary: 'var(--ivory)'
+};
+
+function escHtml(str) {
+  if (str == null) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
 
 // ──────────────────────────────────────────
 // UI UPDATES
@@ -3179,7 +3195,7 @@ function revealCard() {
   const color = CAT_COLORS[state.selectedCategory];
   document.getElementById('card-stripe').style.background = color;
   const rarityBadge = document.querySelector('.card-rarity-badge');
-  rarityBadge.className = 'card-rarity-badge badge-' + card.rarity.toLowerCase();
+  rarityBadge.className = 'card-rarity-badge badge-' + (card.rarity || 'Common').toLowerCase();
   document.getElementById('rarity-dot').style.background = RARITY_COLORS[card.rarity];
   document.getElementById('rarity-label').textContent = card.rarity;
   document.getElementById('card-city-tag').textContent = '📍 ' + (card.city || 'Phoenix, AZ');
@@ -3407,47 +3423,41 @@ function renderPool() {
     return;
   }
 
-  const rarityColors = {
-    Common: 'var(--text-dim)',
-    Rare: '#7eb8e8',
-    Legendary: 'var(--ivory)'
-  };
-
   content.innerHTML = state.completedCards.map((card, idx) => `
     <div class="pool-card">
       <div class="pool-card-top-stripe" style="background:${CAT_COLORS[card.category]}"></div>
       <div class="pool-card-inner">
 
         <div class="pool-card-header">
-          <div class="pool-card-title">${card.title}</div>
+          <div class="pool-card-title">${escHtml(card.title)}</div>
           <div class="pool-card-spark">+${card.spark}</div>
         </div>
 
         <div class="pool-card-badges">
           <span class="pool-card-cat">${CAT_LABELS[card.category]}</span>
           <span class="pool-card-sep">·</span>
-          <span class="pool-card-rarity" style="color:${rarityColors[card.rarity]}">${card.rarity}</span>
+          <span class="pool-card-rarity" style="color:${POOL_RARITY_COLORS[card.rarity] || POOL_RARITY_COLORS.Common}">${escHtml(card.rarity)}</span>
           <span class="pool-card-sep">·</span>
-          <span class="pool-card-date">${card.completedAt}</span>
+          <span class="pool-card-date">${escHtml(card.completedAt)}</span>
         </div>
 
-        <div class="pool-card-description">${card.description}</div>
+        <div class="pool-card-description">${escHtml(card.description)}</div>
 
         ${card.photoDataUrl ? `<img class="pool-card-photo" src="${card.photoDataUrl}" alt="Proof photo">` : ''}
 
         <div class="pool-card-chips">
-          <span class="pool-card-chip">${card.cost}</span>
-          <span class="pool-card-chip">${card.duration}</span>
-          <span class="pool-card-chip">${card.time}</span>
-          <span class="pool-card-chip">${card.season}</span>
+          <span class="pool-card-chip">${escHtml(card.cost)}</span>
+          <span class="pool-card-chip">${escHtml(card.duration)}</span>
+          <span class="pool-card-chip">${escHtml(card.time)}</span>
+          <span class="pool-card-chip">${escHtml(card.season)}</span>
         </div>
 
         <div class="pool-card-bonus">
           <div class="pool-card-bonus-label">Bonus Challenge</div>
-          <div class="pool-card-bonus-text">${card.bonus}</div>
+          <div class="pool-card-bonus-text">${escHtml(card.bonus)}</div>
         </div>
 
-        ${card.mapsUrl ? `<a class="pool-card-maps-link" href="${card.mapsUrl}" target="_blank" rel="noopener">📍 Open in Maps</a>` : ''}
+        ${card.mapsUrl && /^https?:\/\//i.test(card.mapsUrl) ? `<a class="pool-card-maps-link" href="${card.mapsUrl}" target="_blank" rel="noopener">📍 Open in Maps</a>` : ''}
 
         <div class="pool-card-rating" id="pool-rating-${idx}">
           ${ratingButtonsHTML(idx, card.rating)}
@@ -3669,11 +3679,11 @@ function renderPackOptions() {
   ];
 
   container.innerHTML = allPacks.map(p => `
-    <div class="pack-option${state.activePack === p.id ? ' active' : ''}" onclick="selectPack('${p.id}')" data-name="${p.name}" data-location="${p.location}">
+    <div class="pack-option${state.activePack === p.id ? ' active' : ''}" onclick="selectPack('${encodeURIComponent(p.id)}')" data-name="${escHtml(p.name)}" data-location="${escHtml(p.location)}">
       <div class="pack-option-emoji">${p.emoji}</div>
       <div class="pack-option-info">
-        <div class="pack-option-name">${p.name}</div>
-        <div class="pack-option-location">${p.location} · ${p.count} cards</div>
+        <div class="pack-option-name">${escHtml(p.name)}</div>
+        <div class="pack-option-location">${escHtml(p.location)} · ${p.count} cards</div>
       </div>
       ${state.activePack === p.id ? '<span class="pack-option-badge">Active</span>' : ''}
     </div>
@@ -3681,6 +3691,7 @@ function renderPackOptions() {
 }
 
 function selectPack(packId) {
+  packId = decodeURIComponent(packId);
   state.activePack = packId;
   state.selectedCategory = null;
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
