@@ -69,6 +69,20 @@
       "location": "District of Columbia",
       "emoji": "🏛️",
       "cardCount": 20
+    },
+    {
+      "id": "thousand-islands",
+      "name": "Thousand Islands",
+      "location": "New York",
+      "emoji": "⛵",
+      "cardCount": 20
+    },
+    {
+      "id": "belleville",
+      "name": "Belleville · Prince Edward County",
+      "location": "Ontario, Canada",
+      "emoji": "🍷",
+      "cardCount": 20
     }
   ]
 }

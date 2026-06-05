@@ -1,4 +1,4 @@
-const CACHE = 'poul-v13';
+const CACHE = 'poul-v14';
 
 // App shell — cache-first, never stale
 const SHELL = [
@@ -20,6 +20,8 @@ const PACKS = [
   './packs/baltimore.json',
   './packs/ocean-city.json',
   './packs/dc.json',
+  './packs/thousand-islands.json',
+  './packs/belleville.json',
 ];
 
 self.addEventListener('install', e => {
