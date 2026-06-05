@@ -1309,7 +1309,13 @@
     background: var(--border2);
     border-radius: 2px;
     margin: 14px auto 0;
+    cursor: grab;
+    touch-action: none;
+    /* Expand tap target without changing visual size */
+    padding: 10px 24px;
+    box-sizing: content-box;
   }
+  .sheet-handle:active { cursor: grabbing; }
 
   .sheet-header {
     display: flex;
@@ -3835,6 +3841,71 @@ async function loadExternalPacks() {
 // ──────────────────────────────────────────
 // INIT
 // ──────────────────────────────────────────
+// ──────────────────────────────────────────
+// BOTTOM SHEET DRAG-TO-DISMISS
+// ──────────────────────────────────────────
+function initSheetDrag(sheetId, closeFunc) {
+  const sheet = document.getElementById(sheetId);
+  if (!sheet) return;
+  const handle = sheet.querySelector('.sheet-handle');
+  if (!handle) return;
+
+  let startY = 0, lastY = 0, isDragging = false, startTime = 0;
+
+  function onStart(e) {
+    isDragging = true;
+    startY = lastY = e.touches ? e.touches[0].clientY : e.clientY;
+    startTime = Date.now();
+    sheet.style.transition = 'none';
+    e.preventDefault();
+  }
+
+  function onMove(e) {
+    if (!isDragging) return;
+    lastY = e.touches ? e.touches[0].clientY : e.clientY;
+    const delta = Math.max(0, lastY - startY); // only downward
+    sheet.style.transform = `translateY(${delta}px)`;
+    if (e.cancelable) e.preventDefault();
+  }
+
+  function onEnd() {
+    if (!isDragging) return;
+    isDragging = false;
+    sheet.style.transition = '';
+
+    const delta = Math.max(0, lastY - startY);
+    const velocity = Date.now() - startTime > 0 ? delta / (Date.now() - startTime) : 0;
+
+    if (delta > sheet.offsetHeight * 0.3 || velocity > 0.5) {
+      // Fling or drag past threshold — dismiss
+      sheet.style.transform = 'translateY(100%)';
+      setTimeout(() => { sheet.style.transform = ''; closeFunc(); }, 320);
+    } else {
+      // Didn't reach threshold — snap back
+      sheet.style.transform = '';
+    }
+  }
+
+  // Touch
+  handle.addEventListener('touchstart', onStart, { passive: false });
+  handle.addEventListener('touchmove',  onMove,  { passive: false });
+  handle.addEventListener('touchend',   onEnd);
+  handle.addEventListener('touchcancel', onEnd);
+
+  // Mouse (desktop preview / dev)
+  handle.addEventListener('mousedown', function(e) {
+    onStart(e);
+    function mmove(e) { onMove(e); }
+    function mup()   { onEnd(); window.removeEventListener('mousemove', mmove); window.removeEventListener('mouseup', mup); }
+    window.addEventListener('mousemove', mmove);
+    window.addEventListener('mouseup',   mup);
+  });
+}
+
+initSheetDrag('filter-sheet', closeFilters);
+initSheetDrag('pack-sheet',   closePackSheet);
+initSheetDrag('rules-sheet',  closeRulesSheet);
+
 // Show spark/streak from localStorage immediately, indicate packs loading
 updateHomeUI();
 document.getElementById('season-line').textContent = '⌛ Loading your pool...';
