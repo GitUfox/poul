@@ -83,6 +83,13 @@
       "location": "Ontario, Canada",
       "emoji": "🍷",
       "cardCount": 20
+    },
+    {
+      "id": "world-cup-2026",
+      "name": "FIFA World Cup 2026",
+      "location": "New York · New Jersey",
+      "emoji": "⚽",
+      "cardCount": 20
     }
   ]
 }
