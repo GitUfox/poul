@@ -2372,7 +2372,7 @@
           <div class="rarity-dot" id="rarity-dot"></div>
           <span id="rarity-label"></span>
         </div>
-        <div class="card-city-tag" id="card-city-tag">📍 Phoenix, AZ</div>
+        <div class="card-city-tag" id="card-city-tag" style="display:none;"></div>
       </div>
       <div class="card-body">
         <div class="card-title" id="card-title"></div>
@@ -3204,7 +3204,14 @@ function revealCard() {
   rarityBadge.className = 'card-rarity-badge badge-' + (card.rarity || 'Common').toLowerCase();
   document.getElementById('rarity-dot').style.background = RARITY_COLORS[card.rarity];
   document.getElementById('rarity-label').textContent = card.rarity;
-  document.getElementById('card-city-tag').textContent = '📍 ' + (card.city || 'Phoenix, AZ');
+  const cityTag = document.getElementById('card-city-tag');
+  if (card.city) {
+    cityTag.textContent = '📍 ' + card.city;
+    cityTag.style.display = '';
+  } else {
+    cityTag.textContent = '';
+    cityTag.style.display = 'none';
+  }
   document.getElementById('card-title').textContent = card.title;
   document.getElementById('card-description').textContent = card.description;
   document.getElementById('card-bonus').textContent = card.bonus;

@@ -1,4 +1,4 @@
-const CACHE = 'poul-v14';
+const CACHE = 'poul-v15';
 
 // App shell — cache-first, never stale
 const SHELL = [
