@@ -69,31 +69,16 @@
         "mapsUrl": "https://www.google.com/maps/search/Surf+Lodge+Montauk+NY"
       },
       {
-        "id": "HAMP-S-03",
-        "title": "Happy Hour on the Dock at The Harbor Bar at Baron's Cove",
-        "description": "Sag Harbor's most social dock bar puts you directly over the water at golden hour with the entire marina as your backdrop.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "May–Oct",
-        "spark": 15,
-        "bonus": "Challenge a stranger at the bar to a game of liar's dice — loser buys the next round.",
-        "city": "The Hamptons, New York",
-        "mapsUrl": "https://www.google.com/maps/search/Barons+Cove+Sag+Harbor+NY"
-      },
-      {
         "id": "HAMP-S-02",
         "title": "Sunday Brunch at Tutto Il Giorno",
         "description": "Sag Harbor's waterfront Italian brings a downtown Manhattan crowd to a Peconic Bay terrace where the people-watching is as good as the tagliolini.",
-        "rarity": "Rare",
+        "rarity": "Common",
         "cost": "$$$",
         "duration": "2–3 hrs",
         "durationMins": 150,
         "time": "Morning",
         "season": "May–Oct",
-        "spark": 25,
+        "spark": 15,
         "bonus": "Start a conversation with the table next to you by asking them to recommend one dish — stay in conversation long enough to actually order it.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Tutto+Il+Giorno+Sag+Harbor+NY"
@@ -203,7 +188,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order whatever the table next to you is having for their main. No deliberating — just match them.",
+        "bonus": "Identify one genuinely famous person in the room — then send them a drink without revealing who it's from.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Nick+and+Tonis+East+Hampton+NY"
       },

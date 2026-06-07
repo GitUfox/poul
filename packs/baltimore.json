@@ -99,21 +99,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Camden+Yards+Baltimore+MD"
       },
       {
-        "id": "BALT-S-02",
-        "title": "Live Music at Rams Head Live",
-        "description": "Rams Head Live is Baltimore's mid-size venue that actually books well — the sightlines are great, the sound is honest, and the crowd always knows why they're there.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Move to the front third of the floor by the second song regardless of where you started the night.",
-        "city": "Baltimore, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Rams+Head+Live+Baltimore+MD"
-      },
-      {
         "id": "BALT-S-01",
         "title": "Happy Hour at Mount Royal Tavern",
         "description": "Mount Royal Tavern in Bolton Hill has been pouring cheap drinks to artists, students, and neighborhood regulars since 1966 — unpretentious, loud, and exactly right.",

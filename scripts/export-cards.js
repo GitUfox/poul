@@ -34,6 +34,8 @@ const PACK_META = {
   'baltimore':  { name: 'Baltimore',             location: 'Maryland',               emoji: '🦀', isDefault: false },
   'ocean-city': { name: 'Ocean City',            location: 'Maryland',               emoji: '🌊', isDefault: false },
   'dc':         { name: 'Washington, DC',        location: 'District of Columbia',   emoji: '🏛️', isDefault: false },
+  'tokyo':      { name: 'Tokyo',                 location: 'Japan',                  emoji: '🌸', isDefault: false },
+  'bangkok':    { name: 'Bangkok',               location: 'Thailand',               emoji: '🛕', isDefault: false },
 };
 
 // ── Notion helpers ─────────────────────────────────────────────────────────

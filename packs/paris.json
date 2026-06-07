@@ -2,7 +2,7 @@
   "id": "paris",
   "name": "Paris",
   "location": "France",
-  "emoji": "🇫🇷",
+  "emoji": "🗼",
   "isDefault": false,
   "cards": {
     "active": [
@@ -20,21 +20,6 @@
         "bonus": "Borrow a skater's board for one run across the esplanade — negotiate it yourself, no money involved.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trocadéro+Esplanade+Paris"
-      },
-      {
-        "id": "PARI_AC_03",
-        "title": "Swim at Piscine Joséphine Baker",
-        "description": "This floating pool on a barge moored on the Seine at Quai François Mauriac has a retractable roof, a sun deck, and actual river views from the lane ropes.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "May–Sep",
-        "spark": 15,
-        "bonus": "Complete 20 consecutive laps without stopping, then spend the recovery time flat on the sun deck watching barges pass.",
-        "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Piscine+Joséphine+Baker+Paris"
       },
       {
         "id": "PARI_AC_02",

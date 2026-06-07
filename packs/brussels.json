@@ -84,21 +84,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Théâtre+National+Wallonie-Bruxelles"
       },
       {
-        "id": "BRUS-S-02",
-        "title": "Karaoke at Le You Club",
-        "description": "Le You is Brussels' most committed late-night karaoke bar — deep Ixelles, a crowd that treats every song like a finale, and enough Belgian beer to get you on stage.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–4 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Sing an entire song in French even if you don't speak a word of it.",
-        "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Le+You+Club+Brussels+karaoke"
-      },
-      {
         "id": "BRUS-S-01",
         "title": "Late Night at Delirium Café",
         "description": "Delirium holds a Guinness record for beer selection — 2,000+ labels — and its labyrinthine basement fills nightly with an international crowd that actually knows what they're ordering.",

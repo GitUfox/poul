@@ -99,21 +99,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Hirshhorn+Museum+Washington+DC"
       },
       {
-        "id": "DC_S_02",
-        "title": "Sunday Jazz at Bohemian Caverns Tribute, Twins Jazz",
-        "description": "Twins Jazz on U Street carries the legacy of DC's jazz corridor in a low-lit room where the music is live, local, and never background noise.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Buy a drink for the musician who impresses you most during the set — then tell them exactly which moment got you.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Twins+Jazz+Washington+DC"
-      },
-      {
         "id": "DC_S_01",
         "title": "Bar Night at Round Robin Bar, Willard Hotel",
         "description": "The circular bar inside the Willard InterContinental has been mixing drinks for senators and presidents since 1850 — order the Mint Julep and let the room do the work.",
