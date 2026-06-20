@@ -1660,8 +1660,9 @@
   /* ── PACK SELECTOR ── */
   .pack-indicator {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
     width: 100%;
     max-width: 400px;
     margin-top: 12px;
@@ -1677,6 +1678,21 @@
   .pack-indicator:hover { border-color: var(--border2); background: var(--surface2); }
   .pack-indicator:active { background: var(--surface3); }
 
+  .pack-indicator-section-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .pack-indicator-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
   #pack-indicator-text {
     font-size: 12px;
     font-weight: 700;
@@ -1690,6 +1706,12 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--text-dim);
+  }
+
+  .token-dots-chip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
   /* Pack sheet */
@@ -1795,7 +1817,7 @@
 
   /* ── SEASON INDICATOR ── */
   .season-line {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.08em;
     color: var(--text-dim);
@@ -2266,7 +2288,7 @@
   <button class="btn-rules" onclick="openRulesSheet()" aria-label="How to play">?</button>
   <div class="home-top">
     <div class="home-wordmark">
-      P<svg class="wordmark-ball" viewBox="0 0 100 100" width="54" height="54" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="wbg" cx="40%" cy="33%" r="70%"><stop offset="0%" stop-color="#1e2c20"/><stop offset="60%" stop-color="#0d120d"/><stop offset="100%" stop-color="#040607"/></radialGradient></defs><circle cx="50" cy="50" r="47" fill="url(#wbg)"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg>UL
+      P<svg class="wordmark-ball" viewBox="0 0 100 100" width="54" height="54" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="wbg" cx="40%" cy="33%" r="70%"><stop offset="0%" stop-color="#1e2c20"/><stop offset="60%" stop-color="#0d120d"/><stop offset="100%" stop-color="#040607"/></radialGradient></defs><circle cx="50" cy="50" r="45" fill="url(#wbg)" stroke="#3d9970" stroke-width="3.5"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg>UL
     </div>
     <div class="home-sub">Luck favors the spontaneous</div>
   </div>
@@ -2287,15 +2309,16 @@
   </div>
 
   <div class="pack-indicator" onclick="openPackSheet()">
-    <span id="pack-indicator-text">🌵 Phoenix · Scottsdale</span>
-    <span class="pack-switch-hint">Switch ›</span>
+    <div class="pack-indicator-section-label">Poul Table</div>
+    <div class="pack-indicator-inner">
+      <span id="pack-indicator-text">🌵 Phoenix · Scottsdale</span>
+      <div class="token-dots-chip">
+        <div id="token-dots" style="display:flex;gap:4px;"></div>
+        <span class="pack-switch-hint">Switch ›</span>
+      </div>
+    </div>
   </div>
-
-  <div class="token-row">
-    <div class="token-label">Redraws</div>
-    <div id="token-dots"></div>
-    <div class="token-label" id="token-count-label">5</div>
-  </div>
+  <div id="token-count-label" style="display:none;"></div>
 
   <div class="season-line" id="season-line"></div>
 
@@ -2798,7 +2821,7 @@ function isCardInSeason(card) {
 
 function getSeasonInfo() {
   const m = new Date().getMonth();
-  if (m >= 5 && m <= 8) return { emoji: '🌵', label: 'Summer' };
+  if (m >= 5 && m <= 8) return { emoji: '☀️', label: 'Summer' };
   if (m === 4)           return { emoji: '☀️', label: 'Late Spring' };
   if (m === 9)           return { emoji: '🍂', label: 'Fall' };
   return { emoji: '❄️', label: 'Cool Season' };
