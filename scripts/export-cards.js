@@ -33,8 +33,9 @@ const PACK_META = {
   'oslo':       { name: 'Oslo',                  location: 'Norway',                 emoji: '🏔️', isDefault: false },
   'baltimore':  { name: 'Baltimore',             location: 'Maryland',               emoji: '🦀', isDefault: false },
   'ocean-city': { name: 'Ocean City',            location: 'Maryland',               emoji: '🌊', isDefault: false },
-  'dc':         { name: 'Washington, DC',        location: 'District of Columbia',   emoji: '🏛️', isDefault: false },
-  'tokyo':      { name: 'Tokyo',                 location: 'Japan',                  emoji: '🌸', isDefault: false },
+  'dc':               { name: 'Washington, DC',    location: 'District of Columbia',   emoji: '🏛️', isDefault: false },
+  'thousand-islands': { name: 'Thousand Islands', location: 'New York',               emoji: '⛵', isDefault: false },
+  'tokyo':            { name: 'Tokyo',             location: 'Japan',                  emoji: '🌸', isDefault: false },
   'bangkok':    { name: 'Bangkok',               location: 'Thailand',               emoji: '🛕', isDefault: false },
 };
 

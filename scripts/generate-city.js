@@ -117,7 +117,7 @@ async function writeToNotion(cards, packId) {
         'Bonus':          { rich_text: [{ text: { content: c.bonus         } }] },
         'Maps URL':       c.mapsUrl ? { url: c.mapsUrl } : { url: null       },
         'Filter Exempt':  { checkbox:  false                                  },
-        'Active':         { checkbox:  true                                   },
+        'Active':         { checkbox:  false                                  },
       },
     });
     process.stdout.write('.');
