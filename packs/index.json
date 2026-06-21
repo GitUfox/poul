@@ -19,14 +19,14 @@
       "name": "Istanbul",
       "location": "Türkiye",
       "emoji": "🕌",
-      "cardCount": 19
+      "cardCount": 60
     },
     {
       "id": "brussels",
       "name": "Brussels",
       "location": "Belgium",
       "emoji": "🍺",
-      "cardCount": 19
+      "cardCount": 60
     },
     {
       "id": "hamptons",
@@ -40,14 +40,14 @@
       "name": "Paris",
       "location": "France",
       "emoji": "🗼",
-      "cardCount": 19
+      "cardCount": 60
     },
     {
       "id": "oslo",
       "name": "Oslo",
       "location": "Norway",
       "emoji": "🏔️",
-      "cardCount": 20
+      "cardCount": 60
     },
     {
       "id": "baltimore",
@@ -96,14 +96,14 @@
       "name": "Tokyo",
       "location": "Japan",
       "emoji": "🌸",
-      "cardCount": 20
+      "cardCount": 80
     },
     {
       "id": "bangkok",
       "name": "Bangkok",
       "location": "Thailand",
       "emoji": "🛕",
-      "cardCount": 20
+      "cardCount": 80
     }
   ]
 }
