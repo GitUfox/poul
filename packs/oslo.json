@@ -37,21 +37,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Mathallen+Oslo+food+hall"
       },
       {
-        "id": "OSL-S-03",
-        "title": "Open-mic night at a café in Grønland",
-        "description": "Grønland is Oslo's most ethnically diverse neighbourhood and its arts cafe scene is genuinely original — find an open-mic and sit in the front row.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Sign up and perform if there's a slot. Just one.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/open+mic+café+Grønland+Oslo"
-      },
-      {
         "id": "OSL-S-02",
         "title": "Sauna and cold-plunge social at Sørenga Badehus",
         "description": "Oslo's floating outdoor sauna complex at Sørenga has public sauna sessions — heat to 90°C, cold-plunge into the fjord, repeat until your brain resets.",
@@ -67,38 +52,8 @@
         "mapsUrl": "https://www.google.com/maps/search/Sørenga+Badehus+sauna+Oslo+fjord"
       },
       {
-        "id": "OSL-S-08",
-        "title": "Live folk music at a traditional Oslo speakeasy",
-        "description": "Oslo has a handful of underground folk and roots music venues that don't advertise online — find one by asking at a record shop, then go wherever they tell you.",
-        "rarity": "Legendary",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 40,
-        "bonus": "Don't look up the venue beforehand. Let the directions be the adventure.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/folk+music+venue+Oslo"
-      },
-      {
-        "id": "OSL-S-07",
-        "title": "Street art walk around Grønland neighbourhood",
-        "description": "Grønland's walls are covered in large-scale murals from Nordic and international artists — the self-guided walk takes an hour and ends at a good café.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pick a favorite and photograph only that one.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/street+art+Grønland+Oslo"
-      },
-      {
         "id": "OSL-S-01",
-        "title": "Pub crawl through the Grünerløkka bar scene",
+        "title": "Bar hop starting at Crowbar, Torggata",
         "description": "Grünerløkka is Oslo's Brooklyn — vintage shops, record bars, craft beer, and a young crowd that stays late in small loud rooms.",
         "rarity": "Common",
         "cost": "$$",
@@ -110,21 +65,6 @@
         "bonus": "Hit at least four bars. Order the local craft at every one.",
         "city": "Oslo, Norway",
         "mapsUrl": "https://www.google.com/maps/search/bar+Grünerløkka+Oslo"
-      },
-      {
-        "id": "OSL-S-04",
-        "title": "Board games at a cozy kafé in Bislett",
-        "description": "Oslo's neighbourhood kafés stock board games and operate on a different clock than everywhere else — go in for two hours and discover you've been there for four.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pick a game nobody's played. Learn it together.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/kafé+board+games+Bislett+Oslo"
       },
       {
         "id": "OSLO_S_04",
@@ -279,21 +219,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Deichman+Bjørvika+library+Oslo"
       },
       {
-        "id": "OSL-CH-05",
-        "title": "Hot cocoa and a book in an Aker Brygge café",
-        "description": "The waterfront promenade at Aker Brygge has a string of indoor cafés where you can watch the fjord traffic while wrapped in a blanket — Oslo's version of hygge.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Leave your phone in your coat pocket the whole time.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/café+Aker+Brygge+Oslo"
-      },
-      {
         "id": "OSL-CH-04",
         "title": "Wander Vigeland Sculpture Park at dawn",
         "description": "212 bronze and granite figures by Gustav Vigeland fill this enormous free park in Frogner — before 8am it's completely empty and the sculptures belong to you.",
@@ -384,21 +309,6 @@
         "bonus": "Run the outer perimeter first, then the inner loop past the Monolith.",
         "city": "Oslo, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Frogner+Park+run+Oslo"
-      },
-      {
-        "id": "OSL-AC-05",
-        "title": "Paddleboard in the Oslo Fjord at sunrise",
-        "description": "The inner Oslo Fjord is calm and clean in the early morning before the ferries start — SUP rentals at Aker Brygge let you paddle out before 7am.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "May–Sep",
-        "spark": 25,
-        "bonus": "Get far enough from shore that you can see Bygdøy and the city at the same time.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/SUP+paddleboard+Oslo+Fjord+rental"
       },
       {
         "id": "OSL-AC-07",
@@ -554,7 +464,7 @@
     "foodie": [
       {
         "id": "OSL-F-10",
-        "title": "Seven-course meal at a Michelin-starred Oslo restaurant",
+        "title": "Dinner at Statholdergaarden, Rådhusgate",
         "description": "Oslo punches above its weight at the top — Maaemo, Kontrast, Re-Naa — find a reservation and understand what New Nordic cooking actually means at its ceiling.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -569,7 +479,7 @@
       },
       {
         "id": "OSL-F-05",
-        "title": "Craft beer flight at a Vulkan microbrewery",
+        "title": "Craft beer at Schouskjelleren Mikrobryggeri, Grünerløkka",
         "description": "The Vulkan food and culture district runs along the Akerselva river and has concentrated a serious craft beer scene — do a tasting flight at the taproom.",
         "rarity": "Common",
         "cost": "$$",
@@ -584,7 +494,7 @@
       },
       {
         "id": "OSL-F-02",
-        "title": "Cinnamon roll from a konditori in Grünerløkka",
+        "title": "Cinnamon roll at Åpent Bakeri, Grünerløkka",
         "description": "The Norwegian kanelbolle is thicker and more cardamom-forward than its Swedish cousin — Grünerløkka has the best concentration of konditoris in Oslo.",
         "rarity": "Common",
         "cost": "$",
@@ -599,7 +509,7 @@
       },
       {
         "id": "OSL-F-03",
-        "title": "Viking-inspired tasting menu at a New Nordic restaurant",
+        "title": "Tasting menu at Kontrast, Vulkan",
         "description": "Oslo's New Nordic movement — foraged, fermented, preserved — produces some of the most distinctive tasting menus in Europe; find a modern Norwegian kitchen and surrender the evening.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -614,7 +524,7 @@
       },
       {
         "id": "OSL-F-01",
-        "title": "Open-faced smørrebrød at a koldtbord lunch",
+        "title": "Lunch at Engebret Café, Bankplassen",
         "description": "Norway's open-faced rye bread sandwich topped with cured fish, pickled vegetables, and egg is deceptively serious — find a proper koldtbord restaurant and work through five variations.",
         "rarity": "Common",
         "cost": "$$",
@@ -629,7 +539,7 @@
       },
       {
         "id": "OSL-F-08",
-        "title": "Waffles with sour cream and jam at a waterfront café",
+        "title": "Waffles at Kaffistova, Rosenkrantz gate",
         "description": "Norwegian heart-shaped waffles topped with rømme and strawberry jam are an entire national tradition — eat them on an Aker Brygge terrace while the fjord does the rest.",
         "rarity": "Common",
         "cost": "$",
@@ -659,7 +569,7 @@
       },
       {
         "id": "OSL-F-09",
-        "title": "Aquavit tasting at a spirits bar in Tjuvholmen",
+        "title": "Aquavit tasting at Himkok, Stortingsgata",
         "description": "Norway's caraway-and-dill distillate comes young and raw or barrel-aged and complex — the Tjuvholmen arts district has bars that treat it like whisky.",
         "rarity": "Rare",
         "cost": "$$",
@@ -674,7 +584,7 @@
       },
       {
         "id": "OSL-F-06",
-        "title": "Bacalao at a Bergen-style bistro",
+        "title": "Norwegian fish at Lofoten Fiskerestaurant, Aker Brygge",
         "description": "Dried and salted cod is Norway's oldest export and one of its best dishes when done properly — find an Oslo restaurant that treats it with the respect it deserves.",
         "rarity": "Rare",
         "cost": "$$",
@@ -689,7 +599,7 @@
       },
       {
         "id": "OSL-F-07",
-        "title": "Reindeer steak at a game restaurant",
+        "title": "Reindeer steak at Engebret Café, Bankplassen",
         "description": "Reindeer is leaner and richer than beef, eaten with lingonberries and root vegetable purée — it's one of the most Nordic meals you can have and Oslo does it seriously.",
         "rarity": "Rare",
         "cost": "$$$",

@@ -1,8 +1,8 @@
 {
   "id": "thousand-islands",
-  "name": "thousand-islands",
-  "location": "",
-  "emoji": "📍",
+  "name": "Thousand Islands",
+  "location": "New York",
+  "emoji": "⛵",
   "isDefault": false,
   "cards": {
     "adventure": [

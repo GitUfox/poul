@@ -53,7 +53,7 @@
       },
       {
         "id": "PAR-CH-03",
-        "title": "Sit at a corner café and watch the world go by",
+        "title": "Espresso at Café Procope, Saint-Germain-des-Prés",
         "description": "A Parisian café table is not for rushing — order a café crème, get the corner chair facing the street, and don't look at your phone for an hour.",
         "rarity": "Common",
         "cost": "$",
@@ -190,7 +190,7 @@
     "foodie": [
       {
         "id": "PAR-F-04",
-        "title": "French onion soup at a brasserie near Les Halles",
+        "title": "French onion soup at Au Pied de Cochon, Les Halles",
         "description": "Gratinated, dark, deeply savory — Paris onion soup at a late-night brasserie is one of the great cheap meals in any city in the world.",
         "rarity": "Common",
         "cost": "$",
@@ -205,7 +205,7 @@
       },
       {
         "id": "PAR-F-01",
-        "title": "Croissant benchmark: three boulangeries, one winner",
+        "title": "Croissant at Du Pain et des Idées, Canal Saint-Martin",
         "description": "Buy a plain butter croissant from three different boulangeries in the same arrondissement and decide, with evidence, which one wins.",
         "rarity": "Common",
         "cost": "$",
@@ -220,7 +220,7 @@
       },
       {
         "id": "PAR-F-03",
-        "title": "Natural wine and charcuterie at a cave à manger in Oberkampf",
+        "title": "Natural wine at La Cave de Belleville",
         "description": "The wine bars of Oberkampf pour minimal-intervention wines by the glass with serious charcuterie — taste five things you've never heard of and be changed.",
         "rarity": "Rare",
         "cost": "$$",
@@ -235,7 +235,7 @@
       },
       {
         "id": "PAR-F-09",
-        "title": "Neo-bistro lunch in the 10th arrondissement",
+        "title": "Lunch at Frenchie, Rue du Nil, 2nd",
         "description": "The 10th is the engine room of Paris’ bistronomie movement — young chefs doing serious cooking at lunch prices — book the menu dégustation and give the afternoon to it.",
         "rarity": "Rare",
         "cost": "$$",
@@ -250,7 +250,7 @@
       },
       {
         "id": "PAR-F-05",
-        "title": "Pâtisserie crawl through the Marais",
+        "title": "Pâtisserie at Jacques Genin, Le Marais",
         "description": "The Marais is home to the most concentrated run of serious pâtisseries in Paris — do a focused tasting crawl: one éclair, one tarte, one mille-feuille.",
         "rarity": "Rare",
         "cost": "$$",
@@ -265,7 +265,7 @@
       },
       {
         "id": "PAR-F-02",
-        "title": "Steak-frites at a zinc-bar bistro in the 11th",
+        "title": "Steak-frites at Bistrot Paul Bert, 11th",
         "description": "The 11th arrondissement has a cluster of old-school zinc-bar bistros where steak-frites is still a serious act — sit at the bar and order it saignant.",
         "rarity": "Common",
         "cost": "$$",
@@ -280,7 +280,7 @@
       },
       {
         "id": "PAR-F-10",
-        "title": "Tasting menu at a starred restaurant in the 6th",
+        "title": "Tasting menu at Guy Savoy, Monnaie de Paris",
         "description": "The 6th arrondissement holds some of Paris’s most important addresses — book the tasting menu, turn off your phone, and give the table the attention it deserves.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -310,7 +310,7 @@
       },
       {
         "id": "PAR-F-07",
-        "title": "Ramen in the Japanese quarter of the 1st",
+        "title": "Ramen at Kodawari Ramen, Rue Monsieur-le-Prince",
         "description": "The Rue Sainte-Anne corridor is Paris's Japan Town — dense with ramen counters, izakayas, and soba shops that rival what you'd find in Tokyo.",
         "rarity": "Common",
         "cost": "$$",
@@ -325,7 +325,7 @@
       },
       {
         "id": "PAR-F-08",
-        "title": "Street crêpes from a cart near Notre-Dame",
+        "title": "Crêpes at Breizh Café, Le Marais",
         "description": "A good street crêpe with butter and sugar is the best €3 in any European city — eat it walking the quai along the Seine.",
         "rarity": "Common",
         "cost": "$",
@@ -417,7 +417,7 @@
       },
       {
         "id": "PAR-A-06",
-        "title": "Secret rooftop bar access in the 9th",
+        "title": "Rooftop drinks at Le Perchoir Ménilmontant",
         "description": "Paris has several rooftop bars that require codes, passes, or knowing someone who knows someone — find one open to the public tonight and make it there.",
         "rarity": "Rare",
         "cost": "$$",
@@ -658,21 +658,6 @@
         "mapsUrl": "https://www.google.com/maps/search/cycling+Paris+Versailles+greenway+Vélo+Vert"
       },
       {
-        "id": "PAR-AC-04",
-        "title": "Parkour tour of Belleville with a local guide",
-        "description": "Paris is the birthplace of parkour — Belleville is where the founders trained — and legitimate guided sessions still exist in the district that invented the discipline.",
-        "rarity": "Legendary",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 40,
-        "bonus": "Get over something that looks impossible from the ground.",
-        "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/parkour+tour+Belleville+Paris"
-      },
-      {
         "id": "PARI_AC_04",
         "title": "Skate the Trocadéro Esplanade",
         "description": "The marble esplanade in front of the Trocadéro with the Eiffel Tower dead ahead is where Paris's skate scene has held court for decades — bladers, skaters, and onlookers all day long.",
@@ -766,7 +751,7 @@
       },
       {
         "id": "PAR-S-07",
-        "title": "Cinema night on the Grands Boulevards",
+        "title": "Film at Le Grand Rex, Grands Boulevards",
         "description": "The Grands Boulevards district has the most beautiful old movie palaces in Europe — find a showing at Le Grand Rex or Max Linder and see something with the lights all the way up.",
         "rarity": "Common",
         "cost": "$",
@@ -781,7 +766,7 @@
       },
       {
         "id": "PAR-S-06",
-        "title": "Street-art walking tour in Belleville",
+        "title": "Street-art walk with a guide in Belleville",
         "description": "Belleville is the nerve center of Paris street art — self-guided or with a Visite Atelier guide, the murals range from political to absurd to enormous.",
         "rarity": "Common",
         "cost": "$",
@@ -811,7 +796,7 @@
       },
       {
         "id": "PAR-S-02",
-        "title": "Jazz night at a cave club in Saint-Germain",
+        "title": "Jazz at New Morning, Rue des Petites-Écuries",
         "description": "Saint-Germain's underground jazz caves are 70 years old and still going — Caves de la Huchette or Le Caveau de la Bollee for live jazz in a low-ceiling vault.",
         "rarity": "Rare",
         "cost": "$$",
@@ -841,7 +826,7 @@
       },
       {
         "id": "PAR-S-05",
-        "title": "Rooftop cocktails with Sacré-Cœur view in Montmartre",
+        "title": "Cocktails at Terrass Hotel rooftop, Montmartre",
         "description": "Montmartre's rooftop bars at sunset — Sacré-Cœur glowing above and all of Paris below — are one of the great city-view experiences in the world.",
         "rarity": "Rare",
         "cost": "$$",
