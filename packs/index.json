@@ -1,6 +1,27 @@
 {
   "packs": [
     {
+      "id": "nyc",
+      "name": "New York City",
+      "location": "New York · New Jersey",
+      "emoji": "🗽",
+      "cardCount": 60
+    },
+    {
+      "id": "thousand-islands",
+      "name": "Thousand Islands",
+      "location": "New York",
+      "emoji": "⛵",
+      "cardCount": 60
+    },
+    {
+      "id": "hamptons",
+      "name": "The Hamptons",
+      "location": "New York",
+      "emoji": "🏖️",
+      "cardCount": 80
+    },
+    {
       "id": "tokyo",
       "name": "Tokyo",
       "location": "Japan",
@@ -43,20 +64,6 @@
       "cardCount": 54
     },
     {
-      "id": "thousand-islands",
-      "name": "Thousand Islands",
-      "location": "New York",
-      "emoji": "⛵",
-      "cardCount": 40
-    },
-    {
-      "id": "hamptons",
-      "name": "The Hamptons",
-      "location": "New York",
-      "emoji": "🏖️",
-      "cardCount": 60
-    },
-    {
       "id": "ocean-city",
       "name": "Ocean City",
       "location": "Maryland",
@@ -76,13 +83,6 @@
       "location": "District of Columbia",
       "emoji": "🏛️",
       "cardCount": 60
-    },
-    {
-      "id": "nyc",
-      "name": "New York City",
-      "location": "New York · New Jersey",
-      "emoji": "🗽",
-      "cardCount": 40
     },
     {
       "id": "phoenix",
