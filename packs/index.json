@@ -1,6 +1,20 @@
 {
   "packs": [
     {
+      "id": "sedona",
+      "name": "Sedona",
+      "location": "Arizona",
+      "emoji": "🏜️",
+      "cardCount": 40
+    },
+    {
+      "id": "flagstaff",
+      "name": "Flagstaff",
+      "location": "Arizona",
+      "emoji": "🌲",
+      "cardCount": 40
+    },
+    {
       "id": "nyc",
       "name": "New York City",
       "location": "New York · New Jersey",
