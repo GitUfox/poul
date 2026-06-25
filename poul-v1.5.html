@@ -3564,18 +3564,46 @@ function showResult(committed, card) {
 // ──────────────────────────────────────────
 // BOOKING / AFFILIATE CTA
 // Category-aware deep links to a booking surface for the committed venue.
-// Affiliate IDs can be appended to these URLs later — structure is ready.
+//
+// AFFILIATE ACTIVATION — these IDs live in public URLs (NOT secrets, do not put
+// in .env). To start earning commission, enrol in each program, then fill in
+// below and flip `mode` from 'none'. Links keep working as plain search while
+// mode === 'none'. See AFFILIATES.md for signup links + exactly what to paste.
+//   - 'param' : append query params to the destination URL  (Viator)
+//   - 'wrap'  : prefix a network redirect that encodes the destination (OpenTable, Ticketmaster via CJ/Impact)
 // ──────────────────────────────────────────
+const AFFILIATE = {
+  viator:       { mode: 'none', params: { pid: '', mcid: '42383', medium: 'link' } },
+  opentable:    { mode: 'none', wrap: '' },
+  ticketmaster: { mode: 'none', wrap: '' },
+};
+
+function affiliate(partner, url) {
+  const cfg = AFFILIATE[partner];
+  if (!cfg || cfg.mode === 'none') return url;
+  try {
+    if (cfg.mode === 'param') {
+      const u = new URL(url);
+      Object.entries(cfg.params || {}).forEach(([k, v]) => { if (v) u.searchParams.set(k, v); });
+      return u.toString();
+    }
+    if (cfg.mode === 'wrap' && cfg.wrap) {
+      return cfg.wrap + encodeURIComponent(url);
+    }
+  } catch (e) { /* malformed config — fall back to the plain link */ }
+  return url;
+}
+
 function bookingLinksFor(card, category) {
   const q = encodeURIComponent([card.title, card.city].filter(Boolean).join(' '));
   const google = 'https://www.google.com/search?q=' + q;
   const links = [];
   if (category === 'foodie') {
-    links.push({ label: 'Reserve a table', icon: '🍽', url: 'https://www.opentable.com/s?term=' + q, primary: true });
+    links.push({ label: 'Reserve a table', icon: '🍽', url: affiliate('opentable', 'https://www.opentable.com/s?term=' + q), primary: true });
   } else if (category === 'adventure' || category === 'active') {
-    links.push({ label: 'Book it', icon: '🎟', url: 'https://www.viator.com/search/' + q, primary: true });
+    links.push({ label: 'Book it', icon: '🎟', url: affiliate('viator', 'https://www.viator.com/search/' + q), primary: true });
   } else if (category === 'social') {
-    links.push({ label: 'Find tickets', icon: '🎟', url: 'https://www.ticketmaster.com/search?q=' + q, primary: true });
+    links.push({ label: 'Find tickets', icon: '🎟', url: affiliate('ticketmaster', 'https://www.ticketmaster.com/search?q=' + q), primary: true });
   }
   links.push({ label: 'Look it up', icon: '🔎', url: google, primary: links.length === 0 });
   return links;
