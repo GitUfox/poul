@@ -2283,6 +2283,39 @@
 </head>
 <body>
 
+<style id="v16-additions">
+  /* Themed filter packs (quick vibes) */
+  .vibe-row{display:flex;gap:8px;overflow-x:auto;margin:14px 0 2px;padding-bottom:2px;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+  .vibe-row::-webkit-scrollbar{display:none;}
+  .vibe-chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;padding:7px 13px;border-radius:999px;border:1px solid #2a2f2a;background:#1a1f1a;color:#a0a898;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s,background .15s;}
+  .vibe-chip.active{border-color:#3d9970;color:#f0e6cc;background:rgba(61,153,112,.14);}
+  /* Collector / limited cards */
+  .limited-badge{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;border:1px solid rgba(240,230,204,.55);background:rgba(240,230,204,.12);color:#f0e6cc;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;}
+  .card.limited{box-shadow:0 0 0 1px rgba(240,230,204,.45),0 0 22px rgba(240,230,204,.10);}
+  .pool-card.limited{box-shadow:inset 0 0 0 1px rgba(240,230,204,.35);}
+  .pool-card-limited{margin:2px 0 8px;}
+  /* Booking CTA */
+  .booking-cta{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0 4px;}
+  .booking-cta-label{flex:0 0 100%;text-align:center;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#5a6458;margin-bottom:2px;}
+  .booking-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 15px;border-radius:12px;border:1px solid #2a2f2a;background:#1a1f1a;color:#eeeee8;font-size:13px;font-weight:600;text-decoration:none;transition:border-color .15s,background .15s;}
+  .booking-btn:hover{border-color:#3d9970;background:#212621;}
+  .booking-btn.primary{border-color:#3d9970;color:#f0e6cc;background:rgba(61,153,112,.12);}
+  /* Pack selector V2 */
+  .pack-search-row{display:flex;gap:8px;align-items:stretch;}
+  .pack-search-row .pack-search-wrap{flex:1;}
+  #nearby-btn{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;padding:0 13px;border-radius:10px;border:1px solid #2a2f2a;background:#1a1f1a;color:#a0a898;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s;}
+  #nearby-btn.active{border-color:#3d9970;color:#f0e6cc;}
+  #nearby-btn:disabled{opacity:.6;cursor:default;}
+  .pack-group{margin-bottom:4px;}
+  .pack-group-header{display:flex;align-items:center;justify-content:space-between;padding:11px 4px 7px;cursor:pointer;user-select:none;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#8a948a;}
+  .pack-group-header .pg-left{display:flex;align-items:center;gap:7px;}
+  .pack-group-header .pg-chev{display:inline-block;transition:transform .2s;font-size:10px;color:#5a6458;}
+  .pack-group-count{color:#5a6458;font-weight:600;letter-spacing:0;}
+  .pack-group.collapsed .pack-group-body{display:none;}
+  .pack-group.collapsed .pg-chev{transform:rotate(-90deg);}
+  #pack-options.searching .pack-group-body{display:block;}
+  #pack-options.searching .pack-group-header{display:none;}
+</style>
 <!-- ── SCREEN 1: HOME ── -->
 <div id="screen-home" class="screen active">
   <button class="btn-rules" onclick="openRulesSheet()" aria-label="How to play">?</button>
@@ -2321,6 +2354,8 @@
   <div id="token-count-label" style="display:none;"></div>
 
   <div class="season-line" id="season-line"></div>
+
+  <div class="vibe-row" id="vibe-row"></div>
 
   <div class="filter-row">
     <div class="category-label" style="margin-top:28px;margin-bottom:0;">Choose Your Draw</div>
@@ -2395,6 +2430,7 @@
           <div class="rarity-dot" id="rarity-dot"></div>
           <span id="rarity-label"></span>
         </div>
+        <div class="limited-badge" id="limited-badge" style="display:none;"></div>
         <div class="card-city-tag" id="card-city-tag" style="display:none;"></div>
       </div>
       <div class="card-body">
@@ -2443,6 +2479,7 @@
       <button class="proof-retake" id="proof-retake" style="display:none;" onclick="event.stopPropagation();document.getElementById('proof-input').click()">Retake</button>
     </div>
   </div>
+  <div class="booking-cta" id="booking-cta" style="display:none;"></div>
   <button class="btn-continue" onclick="returnHome()">Draw Again</button>
 </div>
 
@@ -2511,8 +2548,11 @@
     <button class="btn-sheet-close" onclick="closePackSheet()">Done</button>
   </div>
 
-  <div class="pack-search-wrap">
-    <input id="pack-search" type="search" placeholder="Search cities…" oninput="filterPacks(this.value)" autocomplete="off" autocorrect="off" spellcheck="false">
+  <div class="pack-search-row">
+    <div class="pack-search-wrap">
+      <input id="pack-search" type="search" placeholder="Search cities…" oninput="filterPacks(this.value)" autocomplete="off" autocorrect="off" spellcheck="false">
+    </div>
+    <button id="nearby-btn" onclick="findNearby()">📍 Nearby</button>
   </div>
 
   <div id="pack-options"></div>
@@ -2828,6 +2868,38 @@ function getSeasonInfo() {
 }
 
 // ──────────────────────────────────────────
+// COLLECTOR / LIMITED CARDS
+// A Legendary tied to a finite, event-style window (or an explicit limited:true
+// flag) is a collector drop — gold treatment + a closing-window countdown.
+// ──────────────────────────────────────────
+const LIMITED_WINDOWS = {
+  'Jan only': { label: 'January only', endMonth: 0,  endDay: 31 },
+  'Feb–Mar':  { label: 'Feb–Mar',      endMonth: 2,  endDay: 31 },
+  'Apr–Oct':  { label: 'Apr–Oct',      endMonth: 9,  endDay: 31 },
+  'May–Sep':  { label: 'May–Sep',      endMonth: 8,  endDay: 30 },
+  'Jun–Jul':  { label: 'Jun–Jul',      endMonth: 6,  endDay: 31 },
+  'Oct–Apr':  { label: 'Oct–Apr',      endMonth: 3,  endDay: 30 },
+  'Oct–May':  { label: 'Oct–May',      endMonth: 4,  endDay: 31 },
+};
+
+function isLimitedCard(card) {
+  if (!card) return false;
+  if (card.limited === true) return true;
+  return card.rarity === 'Legendary' && !!LIMITED_WINDOWS[card.season];
+}
+
+function limitedLabel(card) {
+  const w = LIMITED_WINDOWS[card.season];
+  if (!w) return 'Limited';
+  const now = new Date();
+  let end = new Date(now.getFullYear(), w.endMonth, w.endDay, 23, 59, 59);
+  if (end < now) end = new Date(now.getFullYear() + 1, w.endMonth, w.endDay, 23, 59, 59);
+  const days = Math.ceil((end - now) / (1000 * 60 * 60 * 24));
+  if (isCardInSeason(card) && days <= 45) return 'Limited · ' + days + (days === 1 ? ' day left' : ' days left');
+  return 'Limited · ' + w.label;
+}
+
+// ──────────────────────────────────────────
 // FILTER SHEET CONTROLS
 // ──────────────────────────────────────────
 function openFilters() {
@@ -2891,6 +2963,46 @@ function clearFilters() {
   showToast('Filters cleared');
 }
 
+// ──────────────────────────────────────────
+// THEMED FILTER PACKS ("Quick vibes")
+// One-tap overlays that map onto the existing cost/time/duration filters.
+// ──────────────────────────────────────────
+const VIBES = {
+  date:  { label: 'Date Night', icon: '🌙', f: { cost: ['$$', '$$$'], time: ['Evening'], duration: [] } },
+  cheap: { label: 'Under $20',  icon: '💸', f: { cost: ['$'],         time: [],          duration: [] } },
+  quick: { label: 'Quick Hit',  icon: '⚡', f: { cost: [],            time: [],          duration: ['60'] } },
+  big:   { label: 'Big Day',    icon: '🥾', f: { cost: [],            time: [],          duration: ['999'] } },
+};
+
+function vibeMatches(v) {
+  const norm = o => JSON.stringify({ cost: [...o.cost].sort(), time: [...o.time].sort(), duration: [...o.duration].sort() });
+  return norm(filters) === norm(v.f);
+}
+
+function applyVibe(key) {
+  const v = VIBES[key];
+  if (!v) return;
+  if (vibeMatches(v)) {
+    filters = { cost: [], time: [], duration: [] };
+    showToast('Vibe cleared');
+  } else {
+    filters = { cost: [...v.f.cost], time: [...v.f.time], duration: [...v.f.duration] };
+    showToast(v.icon + ' ' + v.label + ' vibe');
+  }
+  pendingFilters = { cost: [...filters.cost], time: [...filters.time], duration: [...filters.duration] };
+  updateHomeUI();
+}
+
+function renderVibes() {
+  const row = document.getElementById('vibe-row');
+  if (!row) return;
+  row.innerHTML = Object.keys(VIBES).map(k => {
+    const v = VIBES[k];
+    const active = countActiveFilters() > 0 && vibeMatches(v);
+    return `<button class="vibe-chip${active ? ' active' : ''}" onclick="applyVibe('${k}')">${v.icon} ${v.label}</button>`;
+  }).join('');
+}
+
 
 const RARITY_WEIGHTS = { Common: 6, Rare: 3, Legendary: 1 };
 
@@ -2904,6 +3016,9 @@ const POUL_TYPES = [
   { min: 20,  emoji: '🗺️', name: 'The Planner in Disguise', sub: 'Selective spontaneity' },
   { min: 0,   emoji: '🧊', name: 'The Ice Block', sub: 'The pool has receipts' },
 ];
+
+// Behavior-based type (not a Spark threshold): plays plenty but rarely commits.
+const GHOST_TYPE = { emoji: '👻', name: 'The Ghost', sub: 'Joins sessions, never commits' };
 
 // ──────────────────────────────────────────
 // RESULT MESSAGES
@@ -3130,6 +3245,9 @@ function updateHomeUI() {
   badge.classList.toggle('visible', activeCount > 0);
   filterBtn.classList.toggle('active', activeCount > 0);
 
+  // Quick-vibe preset chips
+  renderVibes();
+
   // Pool size label + draw button
   const btn = document.getElementById('draw-btn');
   const poolLabel = document.getElementById('pool-size-label');
@@ -3169,6 +3287,11 @@ function updateHomeUI() {
 }
 
 function getPoulType() {
+  // Ghost overrides the Spark tiers: 20+ draws but committing to almost none.
+  if (state.drawCount >= 20) {
+    const commitRate = state.completedCards.length / state.drawCount;
+    if (commitRate < 0.15) return GHOST_TYPE;
+  }
   for (const type of POUL_TYPES) {
     if (state.sparkScore >= type.min) return type;
   }
@@ -3235,6 +3358,18 @@ function revealCard() {
     cityTag.textContent = '';
     cityTag.style.display = 'none';
   }
+  // Limited / collector treatment
+  const limEl = document.getElementById('limited-badge');
+  const cardEl0 = document.getElementById('active-card');
+  if (isLimitedCard(card)) {
+    limEl.textContent = '★ ' + limitedLabel(card);
+    limEl.style.display = '';
+    cardEl0.classList.add('limited');
+  } else {
+    limEl.style.display = 'none';
+    cardEl0.classList.remove('limited');
+  }
+
   document.getElementById('card-title').textContent = card.title;
   document.getElementById('card-description').textContent = card.description;
   document.getElementById('card-bonus').textContent = card.bonus;
@@ -3421,6 +3556,39 @@ function showResult(committed, card) {
     document.getElementById('proof-retake').style.display = 'none';
     document.getElementById('proof-input').value = '';
   }
+
+  // Booking / affiliate CTA — only after a commit
+  renderBookingCTA(committed ? card : null);
+}
+
+// ──────────────────────────────────────────
+// BOOKING / AFFILIATE CTA
+// Category-aware deep links to a booking surface for the committed venue.
+// Affiliate IDs can be appended to these URLs later — structure is ready.
+// ──────────────────────────────────────────
+function bookingLinksFor(card, category) {
+  const q = encodeURIComponent([card.title, card.city].filter(Boolean).join(' '));
+  const google = 'https://www.google.com/search?q=' + q;
+  const links = [];
+  if (category === 'foodie') {
+    links.push({ label: 'Reserve a table', icon: '🍽', url: 'https://www.opentable.com/s?term=' + q, primary: true });
+  } else if (category === 'adventure' || category === 'active') {
+    links.push({ label: 'Book it', icon: '🎟', url: 'https://www.viator.com/search/' + q, primary: true });
+  } else if (category === 'social') {
+    links.push({ label: 'Find tickets', icon: '🎟', url: 'https://www.ticketmaster.com/search?q=' + q, primary: true });
+  }
+  links.push({ label: 'Look it up', icon: '🔎', url: google, primary: links.length === 0 });
+  return links;
+}
+
+function renderBookingCTA(card) {
+  const el = document.getElementById('booking-cta');
+  if (!card) { el.style.display = 'none'; el.innerHTML = ''; return; }
+  const links = bookingLinksFor(card, state.selectedCategory);
+  el.innerHTML = '<div class="booking-cta-label">Make it happen</div>' + links.map(l =>
+    `<a class="booking-btn${l.primary ? ' primary' : ''}" href="${l.url}" target="_blank" rel="noopener">${l.icon} ${escHtml(l.label)}</a>`
+  ).join('');
+  el.style.display = 'flex';
 }
 
 // ──────────────────────────────────────────
@@ -3460,9 +3628,11 @@ function renderPool() {
   }
 
   content.innerHTML = state.completedCards.map((card, idx) => `
-    <div class="pool-card">
+    <div class="pool-card${isLimitedCard(card) ? ' limited' : ''}">
       <div class="pool-card-top-stripe" style="background:${CAT_COLORS[card.category]}"></div>
       <div class="pool-card-inner">
+
+        ${isLimitedCard(card) ? `<div class="pool-card-limited"><span class="limited-badge">★ ${escHtml(limitedLabel(card))}</span></div>` : ''}
 
         <div class="pool-card-header">
           <div class="pool-card-title">${escHtml(card.title)}</div>
@@ -3678,6 +3848,7 @@ function closePackSheet() {
 function filterPacks(query) {
   const q = query.trim().toLowerCase();
   const container = document.getElementById('pack-options');
+  container.classList.toggle('searching', !!q);
   const options = container.querySelectorAll('.pack-option');
   let visible = 0;
   options.forEach(el => {
@@ -3686,6 +3857,11 @@ function filterPacks(query) {
     const match = !q || name.includes(q) || loc.includes(q);
     el.style.display = match ? '' : 'none';
     if (match) visible++;
+  });
+  // While searching, hide region groups that have no matches
+  container.querySelectorAll('.pack-group').forEach(g => {
+    const anyVisible = Array.from(g.querySelectorAll('.pack-option')).some(o => o.style.display !== 'none');
+    g.style.display = (q && !anyVisible) ? 'none' : '';
   });
   // Show / hide empty state
   let empty = container.querySelector('.pack-no-results');
@@ -3702,10 +3878,30 @@ function filterPacks(query) {
   }
 }
 
-function renderPackOptions() {
-  const container = document.getElementById('pack-options');
+// ──────────────────────────────────────────
+// PACK SELECTOR V2 — region grouping + nearby
+// ──────────────────────────────────────────
+const PACK_REGIONS = {
+  phoenix: 'Arizona', flagstaff: 'Arizona', sedona: 'Arizona',
+  nyc: 'New York', hamptons: 'New York', 'thousand-islands': 'New York',
+  baltimore: 'Mid-Atlantic', 'ocean-city': 'Mid-Atlantic', dc: 'Mid-Atlantic',
+  brussels: 'Europe', paris: 'Europe', oslo: 'Europe', istanbul: 'Europe', norway: 'Europe', turkey: 'Europe',
+  tokyo: 'Asia', bangkok: 'Asia',
+  'nyc-fifa': 'Events', 'fifa-nyc': 'Events',
+};
+const REGION_ORDER = ['Arizona', 'New York', 'Mid-Atlantic', 'Europe', 'Asia', 'Events', 'More'];
+const PACK_COORDS = {
+  phoenix: [33.45, -112.07], flagstaff: [35.20, -111.65], sedona: [34.87, -111.76],
+  nyc: [40.71, -74.01], hamptons: [40.96, -72.18], 'thousand-islands': [44.33, -75.92],
+  baltimore: [39.29, -76.61], 'ocean-city': [38.34, -75.08], dc: [38.90, -77.04],
+  brussels: [50.85, 4.35], paris: [48.86, 2.35], oslo: [59.91, 10.75], istanbul: [41.01, 28.98],
+  tokyo: [35.68, 139.69], bangkok: [13.76, 100.50], turkey: [39.0, 35.0], norway: [60.5, 8.5],
+  'nyc-fifa': [40.71, -74.01], 'fifa-nyc': [40.71, -74.01],
+};
+let _userCoords = null;
 
-  const allPacks = [
+function allPacksList() {
+  return [
     { id: 'phoenix', name: 'Phoenix · Scottsdale', location: 'Arizona', emoji: '🌵',
       count: Object.values(CARDS).flat().filter(c => !c.filterExempt).length },
     ...Object.values(TRAVEL_PACKS).map(p => ({
@@ -3713,17 +3909,94 @@ function renderPackOptions() {
       count: Object.values(p.cards).flat().length
     }))
   ];
+}
 
-  container.innerHTML = allPacks.map(p => `
-    <div class="pack-option${state.activePack === p.id ? ' active' : ''}" onclick="selectPack('${encodeURIComponent(p.id)}')" data-name="${escHtml(p.name)}" data-location="${escHtml(p.location)}">
+function packOptionHTML(p) {
+  return `<div class="pack-option${state.activePack === p.id ? ' active' : ''}" onclick="selectPack('${encodeURIComponent(p.id)}')" data-name="${escHtml(p.name)}" data-location="${escHtml(p.location)}">
       <div class="pack-option-emoji">${p.emoji}</div>
       <div class="pack-option-info">
         <div class="pack-option-name">${escHtml(p.name)}</div>
         <div class="pack-option-location">${escHtml(p.location)} · ${p.count} cards</div>
       </div>
       ${state.activePack === p.id ? '<span class="pack-option-badge">Active</span>' : ''}
-    </div>
-  `).join('');
+    </div>`;
+}
+
+function packGroupHTML(label, packs, collapsed) {
+  const body = packs.map(packOptionHTML).join('');
+  return `<div class="pack-group${collapsed ? ' collapsed' : ''}" data-region="${escHtml(label)}">
+      <div class="pack-group-header" onclick="togglePackGroup(this)">
+        <span class="pg-left"><span class="pg-chev">▾</span>${escHtml(label)}</span>
+        <span class="pack-group-count">${packs.length}</span>
+      </div>
+      <div class="pack-group-body">${body}</div>
+    </div>`;
+}
+
+function togglePackGroup(headerEl) {
+  headerEl.parentElement.classList.toggle('collapsed');
+}
+
+function haversine(a, b) {
+  const R = 6371, toR = d => d * Math.PI / 180;
+  const dLat = toR(b[0] - a[0]), dLng = toR(b[1] - a[1]);
+  const x = Math.sin(dLat / 2) ** 2 + Math.cos(toR(a[0])) * Math.cos(toR(b[0])) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(x));
+}
+
+function renderPackOptions() {
+  const container = document.getElementById('pack-options');
+  const packs = allPacksList();
+
+  const groups = {};
+  packs.forEach(p => {
+    const r = PACK_REGIONS[p.id] || 'More';
+    (groups[r] = groups[r] || []).push(p);
+  });
+  const regions = REGION_ORDER.filter(r => groups[r]);
+  Object.keys(groups).forEach(r => { if (!regions.includes(r)) regions.push(r); });
+
+  const activeRegion = PACK_REGIONS[state.activePack] || 'More';
+  let html = '';
+
+  // Nearby group (only once a location has been resolved this session)
+  if (_userCoords) {
+    const nearby = packs.filter(p => PACK_COORDS[p.id])
+      .map(p => ({ p, d: haversine(_userCoords, PACK_COORDS[p.id]) }))
+      .sort((a, b) => a.d - b.d)
+      .slice(0, 3)
+      .map(x => x.p);
+    if (nearby.length) html += packGroupHTML('📍 Nearby', nearby, false);
+  }
+
+  // Region groups — expand the active pack's region, collapse the rest
+  html += regions.map(r => packGroupHTML(r, groups[r], r !== activeRegion)).join('');
+  container.innerHTML = html;
+}
+
+function findNearby() {
+  const btn = document.getElementById('nearby-btn');
+  if (!navigator.geolocation) { showToast("Location isn't available on this device."); return; }
+  btn.disabled = true;
+  btn.textContent = '📍 Locating…';
+  navigator.geolocation.getCurrentPosition(
+    pos => {
+      _userCoords = [pos.coords.latitude, pos.coords.longitude];
+      btn.disabled = false;
+      btn.textContent = '📍 Nearby';
+      btn.classList.add('active');
+      renderPackOptions();
+      const opts = document.getElementById('pack-options');
+      if (opts) opts.scrollTop = 0;
+      showToast('Showing packs nearest you');
+    },
+    () => {
+      btn.disabled = false;
+      btn.textContent = '📍 Nearby';
+      showToast("Couldn't get your location.");
+    },
+    { timeout: 8000, maximumAge: 600000 }
+  );
 }
 
 function selectPack(packId) {
