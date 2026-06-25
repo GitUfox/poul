@@ -2967,11 +2967,16 @@ function clearFilters() {
 // THEMED FILTER PACKS ("Quick vibes")
 // One-tap overlays that map onto the existing cost/time/duration filters.
 // ──────────────────────────────────────────
+// Presets are calibrated to the real deck: cards skew 90+ min and seasonal
+// filtering thins the pool, so a ≤60min "Quick Hit" came up empty and a ≤999min
+// "Big Day" was a no-op (the duration filter is a max, so ≤999 = everything).
+// These four each return cards across all packs in-season; the only intentional
+// dead-end is Date Night on workout/outdoor categories (no evening cards there).
 const VIBES = {
-  date:  { label: 'Date Night', icon: '🌙', f: { cost: ['$$', '$$$'], time: ['Evening'], duration: [] } },
-  cheap: { label: 'Under $20',  icon: '💸', f: { cost: ['$'],         time: [],          duration: [] } },
-  quick: { label: 'Quick Hit',  icon: '⚡', f: { cost: [],            time: [],          duration: ['60'] } },
-  big:   { label: 'Big Day',    icon: '🥾', f: { cost: [],            time: [],          duration: ['999'] } },
+  date:  { label: 'Date Night', icon: '🌙', f: { cost: [],    time: ['Evening'],               duration: [] } },
+  cheap: { label: 'Under $20',  icon: '💸', f: { cost: ['$'], time: [],                        duration: [] } },
+  quick: { label: 'Quick Hit',  icon: '⚡', f: { cost: [],    time: [],                        duration: ['120'] } },
+  day:   { label: 'Day Out',    icon: '☀️', f: { cost: [],    time: ['Morning', 'Afternoon'],  duration: [] } },
 };
 
 function vibeMatches(v) {
