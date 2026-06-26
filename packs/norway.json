@@ -1,8 +1,8 @@
 {
   "id": "norway",
-  "name": "norway",
-  "location": "",
-  "emoji": "📍",
+  "name": "Bergen & Voss",
+  "location": "Norway",
+  "emoji": "🏔️",
   "isDefault": false,
   "cards": {
     "chill": [

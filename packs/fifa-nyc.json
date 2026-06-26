@@ -1,8 +1,8 @@
 {
   "id": "fifa-nyc",
-  "name": "fifa-nyc",
-  "location": "",
-  "emoji": "📍",
+  "name": "FIFA World Cup 2026",
+  "location": "New York · New Jersey",
+  "emoji": "⚽",
   "isDefault": false,
   "cards": {
     "active": [
