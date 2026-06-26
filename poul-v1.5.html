@@ -4134,9 +4134,26 @@ if (isIOS() && !isInStandaloneMode()) {
   showInstallPrompt(true);
 }
 
-// Register service worker (only works when served over http/https)
+// Register service worker (only works when served over http/https).
+// The SW calls skipWaiting()+clients.claim(), so a freshly deployed version
+// activates and takes control immediately — but the already-rendered page keeps
+// showing the OLD html until something reloads it. Without the listener below,
+// users sat on a stale build for releases (seeing bugs already fixed). When a
+// new SW takes control we reload once so the latest version is shown right away.
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').catch(() => {});
+  let refreshing = false;
+  const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    // Don't reload on the very first install (no prior controller) — only on updates.
+    if (refreshing || !hadController) return;
+    refreshing = true;
+    window.location.reload();
+  });
+  navigator.serviceWorker.register('./sw.js').then(reg => {
+    // Proactively check for a new version on load and hourly while open.
+    reg.update().catch(() => {});
+    setInterval(() => reg.update().catch(() => {}), 60 * 60 * 1000);
+  }).catch(() => {});
 }
 
 // ──────────────────────────────────────────

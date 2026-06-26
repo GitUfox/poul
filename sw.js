@@ -1,37 +1,40 @@
-const CACHE = 'poul-v27';
+const CACHE = 'poul-v28';
 
-// App shell — cache-first, never stale
+// App shell. Only the HTML is a hard requirement; the rest is best-effort.
 const SHELL = [
   './poul-v1.5.html',
   './poul-icon.svg',
   './manifest.json',
 ];
 
-// Pack data — pre-cached, stale-while-revalidate
-const PACKS = [
-  './packs/index.json',
-  './packs/phoenix.json',
-  './packs/nyc.json',
-  './packs/istanbul.json',
-  './packs/brussels.json',
-  './packs/hamptons.json',
-  './packs/paris.json',
-  './packs/oslo.json',
-  './packs/baltimore.json',
-  './packs/ocean-city.json',
-  './packs/dc.json',
-  './packs/thousand-islands.json',
-  './packs/belleville.json',
-  './packs/world-cup-2026.json',
-  './packs/tokyo.json',
-  './packs/bangkok.json',
-];
-
 self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(CACHE).then(cache => cache.addAll([...SHELL, ...PACKS]))
-  );
-  self.skipWaiting();
+  e.waitUntil((async () => {
+    const cache = await caches.open(CACHE);
+
+    // The HTML is the one file the app cannot run without — cache it first.
+    await cache.add('./poul-v1.5.html');
+
+    // EVERYTHING ELSE IS BEST-EFFORT. cache.addAll() is atomic: a single 404
+    // (e.g. a pack that was renamed or removed) rejects the whole install, the
+    // new service worker never activates, and the app silently freezes on a
+    // stale version. That bug stranded users for several releases. Never again:
+    // each non-critical asset is added independently with allSettled.
+    await Promise.allSettled(
+      SHELL.filter(u => u !== './poul-v1.5.html').map(u => cache.add(u))
+    );
+
+    // Pre-cache packs from index.json so the list stays self-maintaining — no
+    // hardcoded pack array to drift out of sync with what actually ships.
+    try {
+      await cache.add('./packs/index.json');
+      const idx = await (await fetch('./packs/index.json', { cache: 'no-store' })).json();
+      if (idx && Array.isArray(idx.packs)) {
+        await Promise.allSettled(idx.packs.map(p => cache.add('./packs/' + p.id + '.json')));
+      }
+    } catch (_) { /* offline / no index — packs still load via runtime fetch + SWR */ }
+
+    await self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', e => {
