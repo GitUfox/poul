@@ -26,7 +26,7 @@
       "name": "New York City",
       "location": "New York · New Jersey",
       "emoji": "🗽",
-      "cardCount": 60
+      "cardCount": 69
     },
     {
       "id": "thousand-islands",
@@ -96,7 +96,7 @@
       "name": "Istanbul",
       "location": "Türkiye",
       "emoji": "🕌",
-      "cardCount": 54
+      "cardCount": 47
     },
     {
       "id": "turkey",
@@ -124,7 +124,7 @@
       "name": "FIFA World Cup 2026",
       "location": "New York · New Jersey",
       "emoji": "⚽",
-      "cardCount": 20
+      "cardCount": 10
     }
   ]
 }
