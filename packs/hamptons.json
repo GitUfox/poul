@@ -294,21 +294,6 @@
         "mapsUrl": "https://maps.google.com/?q=Montauk+Brewing+Company+NY"
       },
       {
-        "id": "HAM-S-106",
-        "title": "Harbor Bar Sag Harbor Waterfront",
-        "description": "The outdoor bar on the Sag Harbor waterfront that catches the marina crowd as the boats come in — the whole village walks by eventually, and the sunset over the harbor is free.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Summer",
-        "spark": 15,
-        "bonus": "Arrive when a boat is docking and strike up a conversation with whoever steps off.",
-        "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=Sag+Harbor+Waterfront+NY"
-      },
-      {
         "id": "HAM-S-104",
         "title": "Gurney's Montauk Pool Bar Day",
         "description": "The Gurney's resort sits on the Montauk bluffs with an oceanfront pool and a bar that charges resort prices for the view — one day pass, one afternoon, worth every dollar of it.",
@@ -337,21 +322,6 @@
         "bonus": "Get as close to the stage as possible and don't move.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Stephen+Talkhouse+Amagansett+NY"
-      },
-      {
-        "id": "HAM-S-102",
-        "title": "Surf Lodge Montauk Concert Night",
-        "description": "The hotel on Fort Pond in Montauk runs a summer concert series on the lake dock — the crowd is beautiful, the music is good, and the sunset over the water halfway through the set is the whole thing.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Get there early enough to get a seat on the dock.",
-        "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=The+Surf+Lodge+Montauk+NY"
       },
       {
         "id": "HAM-S-103",
@@ -412,21 +382,6 @@
         "bonus": "Start a conversation with the table next to you by asking them to recommend one dish — stay in conversation long enough to actually order it.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Tutto+Il+Giorno+Sag+Harbor+NY"
-      },
-      {
-        "id": "HAMP-S-01",
-        "title": "Friday Night at The Stephen Talkhouse",
-        "description": "Amagansett's legendary roadhouse has hosted everyone from Billy Joel to Iggy Pop in a room with no bad spots — show up at 10pm and see who's on.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2–4 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Get to the front of the crowd within three songs of the headliner starting — no shoving, just timing.",
-        "city": "The Hamptons, New York",
-        "mapsUrl": "https://www.google.com/maps/search/The+Stephen+Talkhouse+Amagansett+NY"
       }
     ],
     "active": [
@@ -716,21 +671,6 @@
         "bonus": "Walk the full pond loop without checking your phone once.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://www.google.com/maps/search/Quogue%20Wildlife%20Refuge%20Quogue%20NY"
-      },
-      {
-        "id": "HAM-C-102",
-        "title": "Parrish Art Museum, Water Mill",
-        "description": "The Herzog & de Meuron-designed barn museum on Montauk Highway focuses on artists who lived and worked on Long Island's East End — de Kooning, Pollock, Fairfield Porter, all represented.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find one work by an artist you don't recognize and read everything on the wall about them.",
-        "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=Parrish+Art+Museum+Water+Mill+NY"
       },
       {
         "id": "HAM-C-103",
@@ -1080,21 +1020,6 @@
         "mapsUrl": "https://maps.google.com/?q=Sen+Restaurant+Southampton+NY"
       },
       {
-        "id": "HAM-F-106",
-        "title": "Wölffer Estate Vineyard Evening",
-        "description": "The Sagaponack vineyard's summer evening tastings on the patio overlooking the vines — the rosé is the reason everyone's drinking rosé in the Hamptons, and the vineyard proves it.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Stay for the full sunset over the vineyard without looking at your phone.",
-        "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=W%C3%B6lffer+Estate+Vineyard+Sagaponack+NY"
-      },
-      {
         "id": "HAM-F-109",
         "title": "Scoop du Jour Ice Cream, Southampton",
         "description": "The small-batch ice cream shop on Hampton Road has been the after-dinner tradition for Southampton locals for years — the seasonal flavors change weekly and the waffle cone is mandatory.",
@@ -1155,21 +1080,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Candy+Kitchen+Bridgehampton+NY"
       },
       {
-        "id": "HAMP-F-04",
-        "title": "Dinner at Nick & Toni's",
-        "description": "East Hampton's most enduring power-dinner room serves wood-roasted everything to a crowd that has been coming here for decades — and looks like it.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Identify one genuinely famous person in the room — then send them a drink without revealing who it's from.",
-        "city": "The Hamptons, New York",
-        "mapsUrl": "https://www.google.com/maps/search/Nick+and+Tonis+East+Hampton+NY"
-      },
-      {
         "id": "HAMP-F-03",
         "title": "Farm Stand Crawl on Sagg Main Street",
         "description": "Sagaponack's single-lane farm road is lined with honor-system stands selling just-picked corn, tomatoes, and flowers that redefine what produce should taste like.",
@@ -1198,21 +1108,6 @@
         "bonus": "Order a dish entirely in Greek — ask your server what it's called and pronounce it back to them before they put in the order.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Calissa+Water+Mill+NY"
-      },
-      {
-        "id": "HAMP-F-01",
-        "title": "Lunch at The Lobster Roll (LUNCH)",
-        "description": "A Route 27 institution since 1965, the cold mayo lobster roll here is the definitive Hamptons summer meal — order it at the window, eat at a picnic table.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Afternoon",
-        "season": "May–Oct",
-        "spark": 15,
-        "bonus": "Order the lobster roll with no modifications and eat it before you sit down — standing at the counter is how regulars do it.",
-        "city": "The Hamptons, New York",
-        "mapsUrl": "https://www.google.com/maps/search/The+Lobster+Roll+Amagansett+NY"
       }
     ]
   }

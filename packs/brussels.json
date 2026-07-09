@@ -22,21 +22,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Pierre+Marcolini+chocolate+Brussels"
       },
       {
-        "id": "BRU-F-04",
-        "title": "Frites from Maison Antoine at Place Jourdan",
-        "description": "The most famous friterie in Brussels operates out of a corner street van — order a cornet, choose your sauce, and eat on the square.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "30 min",
-        "durationMins": 30,
-        "time": "Any",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Order the andalouse sauce. It's the one the locals get.",
-        "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Maison+Antoine+frites+Place+Jourdan+Brussels"
-      },
-      {
         "id": "BRU-F-05",
         "title": "Belgian beer flight at a brown café in the Pentagone",
         "description": "Old Brussels cafés with dark wood, tiled floors, and a 200-beer menu are a category unto themselves — drink chronologically from blond to tripel to Gueuze.",
@@ -716,39 +701,9 @@
         "bonus": "Leave whatever book or magazine you brought on the table for the next person when you leave.",
         "city": "Brussels, Belgium",
         "mapsUrl": "https://www.google.com/maps/search/Café+Walvis+Molenbeek+Brussels"
-      },
-      {
-        "id": "BRUS-C-01",
-        "title": "Afternoon at Musée Magritte",
-        "description": "The world's largest Magritte collection sits in a neoclassical mansion on Place Royale — three floors of surrealism that you absorb at whatever pace your brain allows.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the painting that unsettles you most and spend ten uninterrupted minutes sitting in front of it.",
-        "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Musée+Magritte+Brussels"
       }
     ],
     "adventure": [
-      {
-        "id": "BRU-A-03",
-        "title": "Climb the Atomium and see the whole city",
-        "description": "The 1958 World's Fair atom sculpture stands 102 meters tall with escalators through its spheres and a panoramic restaurant at the top — it's weirder and better than it sounds.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the Mini-Europe park below and spot a city you've been to.",
-        "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Atomium+Brussels"
-      },
       {
         "id": "BRU-A-05",
         "title": "Ardennes forest day trip hike",

@@ -416,21 +416,6 @@
         "mapsUrl": "https://maps.google.com/?q=National+Mall+Washington+DC"
       },
       {
-        "id": "DC-AC-107",
-        "title": "Rock Creek Park Trail System",
-        "description": "30 miles of hiking and running trails through 1,754 acres of urban forest in the middle of DC — enter from Beach Drive when it closes to cars on weekends.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find Pulpit Rock or Boundary Bridge and take a photo from that exact spot.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Rock+Creek+Park+Washington+DC"
-      },
-      {
         "id": "DC-AC-108",
         "title": "Eastern Market Flea + Neighborhood Loop",
         "description": "Start at the weekend flea market outside Eastern Market, walk the Capitol Hill rowhouse blocks east, grab a Blue Bench crepe inside, and loop back through Lincoln Park.",
@@ -701,21 +686,6 @@
         "bonus": "Walk at least 3 miles to Great Falls — the first lock keeper's house is still standing. Touch the original stonework.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/C%26O+Canal+Towpath+Georgetown+Washington+DC"
-      },
-      {
-        "id": "DC_A_02",
-        "title": "Kayak the Potomac from Thompson Boat Center",
-        "description": "Paddling past the Kennedy Center and under the Key Bridge with the Georgetown skyline behind you is the city view no tourist bus ever shows you.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Apr–Oct",
-        "spark": 15,
-        "bonus": "Paddle far enough upriver to touch the Virginia bank — then race back against the current.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Thompson+Boat+Center+Washington+DC"
       },
       {
         "id": "DC_A_01",

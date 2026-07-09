@@ -37,21 +37,6 @@
         "mapsUrl": "https://maps.google.com/?q=The+Wharf+Rat+Fells+Point+Baltimore"
       },
       {
-        "id": "BAL-S-105",
-        "title": "Camden Yards Orioles Game",
-        "description": "The park that changed stadium design forever — the B&O Warehouse in right field, the sight lines from the upper deck, and a city that actually loves its team.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "4 hrs",
-        "durationMins": 240,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Get the Boog's BBQ pulled pork in left field — it's the only right call.",
-        "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Camden+Yards+Baltimore"
-      },
-      {
         "id": "BAL-S-108",
         "title": "Peabody Library Reading Room",
         "description": "The George Peabody Library has a five-story atrium of cast iron balconies and 300,000 books — one of the most beautiful rooms in America, free to visit, consistently undervisited.",
@@ -279,21 +264,6 @@
         "mapsUrl": "https://maps.google.com/?q=Fort+McHenry+Baltimore"
       },
       {
-        "id": "BALT-A-04",
-        "title": "Explore Fort McHenry at Dawn",
-        "description": "Walk the star-shaped fort that inspired the national anthem at sunrise before the tour groups arrive and the flag ceremony hits different.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Stand at the exact spot where Francis Scott Key's view of the flag would have been and photograph the sunrise over the water.",
-        "city": "Baltimore, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Fort+McHenry+Baltimore+MD"
-      },
-      {
         "id": "BALT-A-03",
         "title": "Climb at Earth Treks Rockville — Baltimore's Home Wall",
         "description": "Baltimore's climbers cut their teeth at Earth Treks, one of the best urban climbing gyms on the East Coast with walls that humble every ego.",
@@ -414,51 +384,6 @@
         "bonus": "Climb the Washington Monument column to the top — it's open on weekends for $6.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Mount+Vernon+Place+Baltimore"
-      },
-      {
-        "id": "BAL-C-103",
-        "title": "Walters Art Museum — Ancient to Medieval",
-        "description": "Free always, the Walters has Byzantine icons, medieval manuscripts, ancient Egyptian sarcophagi, and armor — four floors of human civilization in a Mt. Vernon palazzo.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the oldest object in the collection and just sit with it for a while.",
-        "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Walters+Art+Museum+Baltimore"
-      },
-      {
-        "id": "BAL-C-107",
-        "title": "Enoch Pratt Central Library",
-        "description": "The 1933 Carnegie-funded central branch on Cathedral Street with a reading room that still operates on the honor of the institution — free, open, genuinely welcoming.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find a book you know nothing about in a section you've never visited and read 20 pages.",
-        "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Enoch+Pratt+Free+Library+Baltimore"
-      },
-      {
-        "id": "BAL-C-105",
-        "title": "Patterson Park Chinese Pagoda Hill",
-        "description": "The Southeast Baltimore park's small observation pagoda sits on a hill with views over rowhome blocks toward downtown — quiet on weekdays, the park regulars have been coming for decades.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Walk the full perimeter of the park before climbing the hill.",
-        "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Patterson+Park+Baltimore"
       },
       {
         "id": "BALT-C-04",
@@ -611,21 +536,6 @@
         "bonus": "Eat the entire dozen without using any tools — hands only.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Nick%27s+Fish+House+Baltimore"
-      },
-      {
-        "id": "BAL-F-102",
-        "title": "LP Steamers Blue Crab Feast",
-        "description": "The Locust Point crab house dumps Old Bay-dusted blue crabs on newspaper-covered tables — bring a mallet, no instructions needed, bring cash and patience.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Pick your own crabs from the bushel basket — no pre-cracked ones.",
-        "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=LP+Steamers+Baltimore"
       },
       {
         "id": "BAL-F-109",

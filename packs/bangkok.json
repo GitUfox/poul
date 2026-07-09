@@ -125,51 +125,6 @@
         "bonus": "Ask the driver to kill the engine for 60 seconds and sit in the silence of the klong.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Thonburi+canal+long+tail+boat+Bangkok"
-      },
-      {
-        "id": "BKK-A-02",
-        "title": "Sunrise at Wat Arun",
-        "description": "The Temple of Dawn's 82-metre prangs glow terracotta in the first light — cross from Tha Tien pier before 6am and you'll have the entire riverside terrace to yourself.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Climb to the highest accessible level of the central prang before the tour groups arrive at 7am.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Wat+Arun+Bangkok+Thailand"
-      },
-      {
-        "id": "BKK-A-01",
-        "title": "Long-tail Boat Through the Thonburi Khlongs",
-        "description": "Hire a private longtail for an hour and head west into the canal network that Bangkok was built on — stilted wooden houses, orchid farms, and a city that exists entirely off the tourist map.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Ask the driver to cut the engine at least once and just drift. Don't talk.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Tha+Chang+Pier+Bangkok+Thailand"
-      },
-      {
-        "id": "BKK-A-03",
-        "title": "Motorcycle Taxi Through the Old City Backstreets",
-        "description": "Flag a motorbike taxi in an orange vest on any major road and negotiate a 30-minute tour through the alleyways of Rattanakosin Island — five times faster and a hundred times more interesting than a tuk-tuk.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "45 min",
-        "durationMins": 45,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "No GPS. Let the driver decide the route. Your job is to hold on and pay attention.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Rattanakosin+Island+Bangkok+Thailand"
       }
     ],
     "social": [
@@ -294,51 +249,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Teen+Tae+Bar+Ari+Bangkok"
       },
       {
-        "id": "BKK-S-01",
-        "title": "Muay Thai Fight Night at Rajadamnern Stadium",
-        "description": "The older and more authentic of Bangkok's two major stadiums runs fights every Monday, Wednesday, Thursday and Sunday — ringside seats, real fighters, and a crowd that actually cares about the sport.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Pick a fighter to support before the night starts. Shout their name. Commit to them.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Rajadamnern+Stadium+Bangkok+Thailand"
-      },
-      {
-        "id": "BKK-S-04",
-        "title": "Sunset Cocktails at Sky Bar, Lebua",
-        "description": "The circular open-air bar on the 63rd floor of the State Tower has no railing between you and the Bangkok skyline — known worldwide from The Hangover II, still the most spectacular place in the city for one drink.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Don't look down for the first five minutes. Then look down.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Sky+Bar+Lebua+State+Tower+Bangkok+Thailand"
-      },
-      {
-        "id": "BKK-S-03",
-        "title": "Chatuchak Weekend Market on a Saturday Morning",
-        "description": "15,000 stalls across 35 acres organized by goods — vintage, plants, art, antiques, ceramics, street food — the largest weekend market on earth, best entered at Gate 1 before 10am.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Morning",
-        "season": "Year Round (Weekends only)",
-        "spark": 15,
-        "bonus": "Get deliberately lost and buy only things you cannot identify but find beautiful.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Chatuchak+Weekend+Market+Bangkok+Thailand"
-      },
-      {
         "id": "BKK-S-02",
         "title": "Asiatique Riverfront Night Market",
         "description": "A converted 1900s French-colonial warehouse on the Chao Phraya that transforms after dark into Bangkok's best open-air night market — riverside tables, a Ferris wheel, live theater, and a thousand stalls.",
@@ -401,21 +311,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Wat+Pho+meditation+Bangkok"
       },
       {
-        "id": "BKK-CH-02",
-        "title": "Thai massage at Wat Pho School, Rattanakosin",
-        "description": "A two-hour Thai massage at a Wat Pho-trained shophouse costs less than a coffee in New York and completely rearranges your spine.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Book the 2-hour session. The last 30 minutes is when it gets serious.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Thai+massage+Wat+Pho+Old+City+Bangkok"
-      },
-      {
         "id": "BKK-CH-04",
         "title": "Afternoon at Phra Athit Road riverside cafés",
         "description": "Bangkok's klhong-side cafés in Phra Nakhon and Thonburi offer hammocks over the water, slow WiFi, and the kind of afternoon that makes you miss your flight.",
@@ -429,21 +324,6 @@
         "bonus": "Don't set an alarm. See how long you actually stay.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/canal+café+hammock+Bangkok+khlong"
-      },
-      {
-        "id": "BKK-CH-07",
-        "title": "Jim Thompson House museum afternoon",
-        "description": "The six traditional Thai houses assembled by the American silk magnate who disappeared in 1967 hold an extraordinary collection of Asian art in a canal-side garden.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Ask the guide what they think happened to Jim Thompson. Everyone has a theory.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Jim+Thompson+House+museum+Bangkok"
       },
       {
         "id": "BKK-CH-08",
@@ -643,21 +523,6 @@
         "mapsUrl": "https://www.google.com/maps/search/beef+noodle+soup+24+hour+Silom+Bangkok"
       },
       {
-        "id": "BKK-F-05",
-        "title": "Street food crawl through Yaowarat after dark",
-        "description": "Bangkok's Chinatown becomes an open-air food festival after 6pm — roast duck, oyster omelettes, grilled squid, and shark fin soup on tables that spill into traffic.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Eat standing up at every stall. Don't sit until you've tried five things.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Yaowarat+Chinatown+street+food+Bangkok+night"
-      },
-      {
         "id": "BKK-F-06",
         "title": "Som tam at Somtum Der, Saladaeng",
         "description": "The northeastern Thai food of Isan — green papaya salad and minced meat salad with fish sauce and toasted rice — is Bangkok's most honest and punishing food.",
@@ -763,51 +628,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Yaowarat+Road+Chinatown+Bangkok"
       },
       {
-        "id": "BANG_F_01",
-        "title": "Boat Noodles at Bang Pho Floating Market",
-        "description": "Tiny bowls of rich, blood-thickened boat noodles served from narrow shophouses along the canal — order ten and lose count.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–1.5 hrs",
-        "durationMins": 75,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Stack your empty bowls in a tower and photograph them — beat 10 bowls minimum.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Bang+Pho+boat+noodles+Bangkok"
-      },
-      {
-        "id": "BKK-F-06",
-        "title": "Yaowarat Chinatown Street Food Walk",
-        "description": "Bangkok's Chinatown corridor on Yaowarat Road comes alive after dark with roasted duck stalls, seafood towers, and vendors who've been working the same spot for decades.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find the vendor with the longest queue of Thai people (not tourists) and order whatever they're ordering.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Yaowarat+Road+Chinatown+Bangkok+Thailand"
-      },
-      {
-        "id": "BKK-F-03",
-        "title": "Rot Fai Ratchada Night Market Food Crawl",
-        "description": "Bangkok's iconic train night market — vintage clothing, neon signs, and 200-baht plates of everything from grilled squid to mango sticky rice spread across a sprawling open-air corridor.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Eat at five stalls from five different food traditions at the market — no repeats.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Rot+Fai+Market+Ratchada+Bangkok+Thailand"
-      },
-      {
         "id": "BKK-F-01",
         "title": "Street Pad Thai at Thip Samai",
         "description": "Bangkok's most famous pad thai kitchen wraps each plate in a paper-thin egg crepe — the line on Maha Chai Road moves fast and the result is worth every minute of the wait.",
@@ -836,21 +656,6 @@
         "bonus": "Order five small bowls instead of one large — that's how locals eat them.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://maps.google.com/maps/search/Wang+Lang+Market+Bangkok+Thailand"
-      },
-      {
-        "id": "BKK-F-02",
-        "title": "Dinner at Jay Fai",
-        "description": "A 70-something cook in ski goggles runs the most decorated street food stall in Asia — her crab omelette and drunken noodles earned a Michelin star she couldn't care less about.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 40,
-        "bonus": "Stay until the kitchen closes and watch her cook the last order of the night.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Jay+Fai+Bangkok+Thailand"
       },
       {
         "id": "BKK-F-04",
@@ -945,21 +750,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Evolve+MMA+Bangkok+Sukhumvit"
       },
       {
-        "id": "BANG_AC_02",
-        "title": "Cycle the Bang Krachao Green Lung",
-        "description": "Rent a bicycle from the pier at Klong Toey and cross into Bang Krachao — a car-free peninsula of jungle paths, orchid farms, and wooden villages 15 minutes from downtown.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Morning",
-        "season": "Oct–Mar",
-        "spark": 25,
-        "bonus": "Find the Sri Nakhon Khuean Khan Park botanical garden inside and sit completely still for five minutes.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Bang+Krachao+Bangkok+cycling"
-      },
-      {
         "id": "BANG_AC_01",
         "title": "Run Lumphini Park at Dawn",
         "description": "Bangkok's 142-acre green lung fills before 7am with runners, tai chi groups, and monitor lizards making Lumphini the city's most democratic public space.",
@@ -988,21 +778,6 @@
         "bonus": "Finish every round. Don't tap out early — the trainers respect the ones who last.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://maps.google.com/maps/search/Sor+Vorapin+Gym+Bangkok+Thailand"
-      },
-      {
-        "id": "BKK-AC-02",
-        "title": "Cycling the Bang Krachao Green Lung",
-        "description": "A forested peninsula surrounded by a loop of the Chao Phraya river — accessible by a 5-baht ferry from Klong Toey — rent a local bike and spend the morning on quiet paths through orchid gardens and mangrove boardwalks.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the Sri Nakhon Khuean Khan Park at the center and sit at the water's edge for ten uninterrupted minutes.",
-        "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Bang+Krachao+Green+Lung+Bangkok+Thailand"
       },
       {
         "id": "BKK-AC-03",

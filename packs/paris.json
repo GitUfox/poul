@@ -82,21 +82,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Jardin+des+Tuileries+Paris"
       },
       {
-        "id": "PAR-CH-04",
-        "title": "Stroll through Père Lachaise cemetery at dusk",
-        "description": "The world's most famous cemetery is also one of Paris's most atmospheric parks — 110 acres of paths, monuments, and a cast of permanent residents including Proust, Piaf, and Morrison.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find a grave of someone you actually know the work of.",
-        "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/Père+Lachaise+cemetery+Paris"
-      },
-      {
         "id": "PAR-CH-08",
         "title": "Wander the covered passages of the 2nd arrondissement",
         "description": "The 19th-century glass-roofed galeries — Vivénne, Colbert, Véro-Dodat — are intact shopping arcades preserved like time capsules from another Paris.",
@@ -431,21 +416,6 @@
         "mapsUrl": "https://www.google.com/maps/search/rooftop+bar+9th+arrondissement+Paris"
       },
       {
-        "id": "PAR-A-02",
-        "title": "Climb the Eiffel Tower stairs",
-        "description": "The staircase is open to the second floor and it's 674 steps of wrought iron with Paris getting smaller below you — skip the elevator queue and earn the view.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Count every step. Do not estimate.",
-        "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/Eiffel+Tower+stairs+Paris"
-      },
-      {
         "id": "PAR-A-05",
         "title": "Vélib cycle across all 20 arrondissements",
         "description": "Paris is technically compact enough to cycle end-to-end in two hours on a Vélib — route yourself through all 20 arrondissements and touch a landmark in each.",
@@ -534,21 +504,6 @@
         "bonus": "Spot the Eiffel Tower, Sacré-Cœur, and the Pompidou from the same standing spot — snap them in one panoramic sweep.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Galeries+Lafayette+Paris+Haussmann+rooftop"
-      },
-      {
-        "id": "PARI_A_01",
-        "title": "Catacombs of Paris",
-        "description": "Six million Parisians rest in these subterranean ossuary tunnels beneath the 14th arrondissement — and the silence down here is unlike anything above ground.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find the inscription 'Arrête, c'est ici l'empire de la Mort' and stand under it in silence for a full minute.",
-        "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Catacombes+de+Paris"
       }
     ],
     "active": [
@@ -673,21 +628,6 @@
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trocadéro+Esplanade+Paris"
       },
       {
-        "id": "PARI_AC_03",
-        "title": "Swim at Piscine Joséphine Baker",
-        "description": "This floating pool on a barge moored on the Seine at Quai François Mauriac has a retractable roof, a sun deck, and actual river views from the lane ropes.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "May–Sep",
-        "spark": 15,
-        "bonus": "Complete 20 consecutive laps without stopping, then spend the recovery time flat on the sun deck watching barges pass.",
-        "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Piscine+Joséphine+Baker+Paris"
-      },
-      {
         "id": "PARI_AC_02",
         "title": "Climb to the Summit of the Eiffel Tower on Foot",
         "description": "Taking the stairs to the second floor — and pushing on to the summit by lift — makes the Eiffel Tower a physical event, not a passive one.",
@@ -719,21 +659,6 @@
       }
     ],
     "social": [
-      {
-        "id": "PAR-S-03",
-        "title": "Apéritif on the Canal Saint-Martin with rosé",
-        "description": "The canal banks fill up from 6pm onward with wine-drinking Parisians — buy a bottle from a nearby cave, find a spot on the iron footbridge, and join in.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Talk to the group next to you before the bottle is empty.",
-        "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/Canal+Saint-Martin+aperitif+Paris"
-      },
       {
         "id": "PAR-S-01",
         "title": "Pétanque in the Jardins du Palais Royal",
