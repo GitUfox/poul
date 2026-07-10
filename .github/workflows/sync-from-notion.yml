@@ -1,0 +1,64 @@
+name: Sync cards from Notion
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack:
+        description: 'Pack ID to export (leave blank for all packs)'
+        required: false
+        default: ''
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install script dependencies
+        working-directory: scripts
+        run: npm ci
+
+      - name: Export cards from Notion
+        working-directory: scripts
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+        run: node export-cards.js ${{ inputs.pack }}
+
+      - name: Check for pack changes
+        id: diff
+        run: |
+          git diff --quiet packs/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Bump service worker cache version
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          CURRENT=$(grep -o 'poul-v[0-9]*' sw.js | head -1 | grep -o '[0-9]*$')
+          NEXT=$((CURRENT + 1))
+          sed -i "s/poul-v${CURRENT}/poul-v${NEXT}/g" sw.js
+          echo "SW cache: poul-v${CURRENT} → poul-v${NEXT}"
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add packs/ sw.js
+          PACK="${{ inputs.pack }}"
+          if [ -z "$PACK" ]; then
+            MSG="Sync all packs from Notion"
+          else
+            MSG="Sync ${PACK} pack from Notion"
+          fi
+          git commit -m "$MSG"
+          git push
+
+      - name: No changes
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "✓ No changes — packs already match Notion."
