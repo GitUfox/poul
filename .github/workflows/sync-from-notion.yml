@@ -29,7 +29,8 @@ jobs:
         working-directory: scripts
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-        run: node export-cards.js ${{ inputs.pack }}
+          PACK: ${{ inputs.pack }}
+        run: node export-cards.js "$PACK"
 
       - name: Check for pack changes
         id: diff
@@ -46,11 +47,12 @@ jobs:
 
       - name: Commit and push
         if: steps.diff.outputs.changed == 'true'
+        env:
+          PACK: ${{ inputs.pack }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add packs/ sw.js
-          PACK="${{ inputs.pack }}"
           if [ -z "$PACK" ]; then
             MSG="Sync all packs from Notion"
           else
