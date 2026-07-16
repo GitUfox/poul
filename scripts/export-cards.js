@@ -25,8 +25,6 @@ const PACKS_DIR = path.join(__dirname, '..', 'packs');
 const PACK_META = {
   'phoenix':    { name: 'Phoenix · Scottsdale', location: 'Arizona',                emoji: '🌵', isDefault: true  },
   'nyc':        { name: 'New York City',         location: 'New York · New Jersey',  emoji: '🗽', isDefault: false },
-  'nyc-fifa':   { name: 'FIFA World Cup',        location: 'New York · New Jersey',  emoji: '⚽', isDefault: false },
-  'fifa-nyc':   { name: 'FIFA World Cup 2026',   location: 'New York · New Jersey',  emoji: '⚽', isDefault: false },
   'norway':     { name: 'Bergen & Voss',          location: 'Norway',                 emoji: '🏔️', isDefault: false },
   'turkey':     { name: 'Cappadocia',             location: 'Türkiye',                emoji: '🎈', isDefault: false },
   'istanbul':   { name: 'Istanbul',              location: 'Türkiye',                emoji: '🕌', isDefault: false },
