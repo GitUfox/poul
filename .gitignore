@@ -16,3 +16,7 @@ node_modules/
 # Editor
 .vscode/
 *.swp
+
+# Service map — security posture, never commit (public repo)
+SERVICE_MAP.md
+SESSION_HANDOFF.md
