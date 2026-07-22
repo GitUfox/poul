@@ -68,7 +68,7 @@
       "name": "Istanbul",
       "location": "Türkiye",
       "emoji": "🕌",
-      "cardCount": 54
+      "cardCount": 47
     },
     {
       "id": "brussels",
@@ -104,13 +104,6 @@
       "location": "Arizona",
       "emoji": "🌵",
       "cardCount": 86
-    },
-    {
-      "id": "nyc-fifa",
-      "name": "nyc-fifa",
-      "location": "",
-      "emoji": "📍",
-      "cardCount": 19
     },
     {
       "id": "turkey",
