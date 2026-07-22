@@ -16,28 +16,16 @@ const DB_ID   = '68dabc44-f31e-48d9-9dac-2a6d6edb4414';
 // Cards to deactivate: { pack, id, title } where title is used for disambiguation
 // when two Notion pages share the same Card ID (Bangkok collision cases).
 const TARGETS = [
-  // ── 2026-07-21 audit batch: 5 unreviewed AI packs (paris/oslo/baltimore/ocean-city/dc)
-  // Previous dedup batches (2026-07-15) removed — already inactive in Notion.
-
-  // ── Paris (2) ─────────────────────────────────────────────────────────────
-  { pack: 'paris',      id: 'PAR-A-03',   title: 'Kayak the Seine from Île Saint-Louis' },        // paddling central Seine prohibited
-  { pack: 'paris',      id: 'PAR-CH-05',  title: 'Two hours in Shakespeare and Company bookshop' }, // dup of PAR-S-04
-
-  // ── Oslo (5) ──────────────────────────────────────────────────────────────
-  { pack: 'oslo',       id: 'OSL-CH-06',  title: 'Viking Ship Museum at Byg døy' },               // closed for rebuild until ~2027
-  { pack: 'oslo',       id: 'OSLO_F_03',  title: 'Saturday Market at Mathallen Oslo' },           // dup of OSL-S-06
-  { pack: 'oslo',       id: 'OSL-F-01',   title: 'Lunch at Engebret Café, Bankplassen' },         // dup venue of OSL-F-07
-  { pack: 'oslo',       id: 'OSL-AC-03',  title: 'Swim at Sørenga Seawater Pool in the Oslo Fjord' }, // 3rd Sørenga card
-  { pack: 'oslo',       id: 'OSL-F-04',   title: 'Fish soup at the Aker Brygge fish market' },    // no such market; Fiskeriet=Youngstorget
-
-  // ── Ocean City (3) ────────────────────────────────────────────────────────
-  { pack: 'ocean-city', id: 'OC-A-104',   title: 'Whale Watch Cruise — Ocean City Offshore' },    // no established operator
-  { pack: 'ocean-city', id: 'OCEA_F_03',  title: "Raw Bar at Hooper's Crab House" },            // dup of OC-F-107
-  { pack: 'ocean-city', id: 'OCEA_F_04',  title: 'Dinner at the Lighthouse Club Hotel Restaurant' }, // same venue as OC-S-101 (Fager's)
-
-  // ── DC (2) ────────────────────────────────────────────────────────────────
-  { pack: 'dc',         id: 'DC_A_03',    title: 'Explore the Georgetown Waterfront Tunnel System' }, // invented; C&O covered twice already
-  { pack: 'dc',         id: 'DC_AC_01',   title: 'Run the Mall Loop at Sunset' },                 // dup of DC-AC-103
+  // ── 2026-07-21 batch 2: istanbul zombies — culled locally in 7facaa4 but never
+  // deactivated in Notion, so the full-pack sync resurrected them. This makes the
+  // cull permanent. (Batch 1, the 12-card audit, ran earlier today — see 7f389e4.)
+  { pack: 'istanbul', id: 'IST-CH-02',  title: 'Hammam session at Çemberlitaş Hamamı' },
+  { pack: 'istanbul', id: 'IST-CH-08',  title: 'Sunset at Eyüp Sultan Hill with tea' },
+  { pack: 'istanbul', id: 'ISTA-C-04',  title: 'Afternoon at Karaköy Güllüoğlu with Baklava' },
+  { pack: 'istanbul', id: 'ISTA-A-04',  title: 'Underground Cistern Spelunking at Basilica Cistern' },
+  { pack: 'istanbul', id: 'IST-F-04',   title: 'Fresh balık ekmek on the Galata Bridge' },
+  { pack: 'istanbul', id: 'ISTA-F-04',  title: 'Kokoreç at Şaşkınbakkal Market, Kadıköy' },
+  { pack: 'istanbul', id: 'IST-AC-01',  title: 'Run the Bosphorus Bridge path at dawn' },
 ];
 
 // ── Notion helpers ─────────────────────────────────────────────────────────
