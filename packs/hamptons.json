@@ -189,21 +189,6 @@
     ],
     "social": [
       {
-        "id": "HAMW-S-04",
-        "title": "Tide Runners, Hampton Bays",
-        "description": "The waterfront bar and grill on the Shinnecock Canal where boats pull straight up to the dock for a drink — pure summer canal scene.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Get a dock table and watch at least three boats tie up for dinner.",
-        "city": "The Hamptons, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Tide%20Runners%20Hampton%20Bays%20NY"
-      },
-      {
         "id": "HAMW-S-03",
         "title": "Canoe Place Inn, Hampton Bays",
         "description": "The historic 1920s roadhouse on the canal, reborn as a waterfront inn and event venue — the western gateway to the Hamptons since the steamship era.",
@@ -217,36 +202,6 @@
         "bonus": "Have a cocktail on the canal-side terrace and find out what the building used to be.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://www.google.com/maps/search/Canoe%20Place%20Inn%20Hampton%20Bays%20NY"
-      },
-      {
-        "id": "HAMW-S-02",
-        "title": "Neptune Beach Club, Hampton Bays",
-        "description": "The Dune Road beach club that runs from daytime bottle-service sand straight into a packed night party on Shinnecock Bay.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Stay through the daytime-to-nighttime flip without leaving the property.",
-        "city": "The Hamptons, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Neptune%20Beach%20Club%20Hampton%20Bays%20NY"
-      },
-      {
-        "id": "HAMW-S-01",
-        "title": "The Boardy Barn, Hampton Bays",
-        "description": "The legendary Sunday-only afternoon party in Hampton Bays — happy-sticker chaos, a brass band, and an institution since 1969. Summer Sundays only.",
-        "rarity": "Legendary",
-        "cost": "$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 40,
-        "bonus": "Earn a happy-face sticker from a stranger before you earn your first beer.",
-        "city": "The Hamptons, NY",
-        "mapsUrl": "https://www.google.com/maps/search/The%20Boardy%20Barn%20Hampton%20Bays%20NY"
       },
       {
         "id": "HAM-S-107",
@@ -352,21 +307,6 @@
         "bonus": "Dance on the sand directly in front of the stage for at least one full song — no phone out, no self-consciousness, all in.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Surf+Lodge+Montauk+NY"
-      },
-      {
-        "id": "HAMP-S-03",
-        "title": "Happy Hour on the Dock at The Harbor Bar at Baron's Cove",
-        "description": "Sag Harbor's most social dock bar puts you directly over the water at golden hour with the entire marina as your backdrop.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "May–Oct",
-        "spark": 15,
-        "bonus": "Challenge a stranger at the bar to a game of liar's dice — loser buys the next round.",
-        "city": "The Hamptons, New York",
-        "mapsUrl": "https://www.google.com/maps/search/Barons+Cove+Sag+Harbor+NY"
       },
       {
         "id": "HAMP-S-02",
@@ -885,21 +825,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Cowfish%20Hampton%20Bays%20NY"
       },
       {
-        "id": "HAMW-F-03",
-        "title": "Eckart's Luncheonette, Quogue",
-        "description": "The tiny Quogue breakfast counter that locals have been crowding into for generations — eggs, pancakes, zero pretension, cash-friendly.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "45 min",
-        "durationMins": 45,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Sit at the counter and order whatever the regular next to you is having.",
-        "city": "The Hamptons, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Eckart's%20Luncheonette%20Quogue%20NY"
-      },
-      {
         "id": "HAMW-F-02",
         "title": "Dockers Waterside, East Quogue",
         "description": "The Shinnecock Bay waterfront restaurant where the entire western Hamptons turns up for the sunset — get there before the sun drops or you'll miss the whole point.",
@@ -913,21 +838,6 @@
         "bonus": "Be seated on the deck a full hour before sunset and order the raw bar while you wait.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://www.google.com/maps/search/Dockers%20Waterside%20East%20Quogue%20NY"
-      },
-      {
-        "id": "HAMW-F-01",
-        "title": "Starr Boggs, Westhampton Beach",
-        "description": "The white-tablecloth seafood room that has defined Westhampton Beach dining for decades — local fish, a famous Thursday lobster bake, and a garden out back.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "2.5 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Summer",
-        "spark": 40,
-        "bonus": "Order the whole local fish of the day and let the table split it family-style.",
-        "city": "The Hamptons, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Starr%20Boggs%20Westhampton%20Beach%20NY"
       },
       {
         "id": "HAM-F-104",

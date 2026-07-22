@@ -22,21 +22,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Cedar%20Point%20State%20Park%20Clayton%20NY"
       },
       {
-        "id": "TIUS-AD-02",
-        "title": "Horne’s Ferry to Wolfe Island",
-        "description": "The seasonal car ferry from Cape Vincent across to Wolfe Island, Ontario — the only US-to-Canada ferry on the river. Bring your passport.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Cross to Canada and back on the same afternoon, passport stamp optional.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Horne's%20Ferry%20Cape%20Vincent%20NY"
-      },
-      {
         "id": "TIUS-AD-01",
         "title": "Salmon Charter, Henderson Harbor",
         "description": "Henderson Harbor is the storied Lake Ontario fishing port south of Sackets — book a charter at dawn for trophy salmon, trout and bass.",
@@ -675,21 +660,6 @@
     ],
     "foodie": [
       {
-        "id": "TIUS-F-06",
-        "title": "Aubrey's Inn, Cape Vincent",
-        "description": "The longtime Cape Vincent restaurant near the lighthouse end of the river — hearty plates in the village where Lake Ontario becomes the St. Lawrence.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Evening",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Eat here, then drive five minutes to Tibbetts Point for the sunset.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Aubrey's%20Inn%20Cape%20Vincent%20NY"
-      },
-      {
         "id": "TIUS-F-05",
         "title": "Lyric Coffee House & Bistro, Clayton",
         "description": "Clayton's Riverside Drive coffee house — proper espresso, fresh pastries, and a window onto the St. Lawrence to start the day.",
@@ -703,21 +673,6 @@
         "bonus": "Take your coffee across the street and drink it watching the river traffic.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://www.google.com/maps/search/Lyric%20Coffee%20House%20Clayton%20NY"
-      },
-      {
-        "id": "TIUS-F-04",
-        "title": "Maggie’s on the River, Watertown",
-        "description": "Watertown's riverside deck restaurant perched right over the Black River rapids — the roar of the whitewater is the soundtrack to dinner.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Get a railing seat over the rapids and time a course to the loudest stretch of water.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Maggie's%20on%20the%20River%20Watertown%20NY"
       },
       {
         "id": "TIUS-F-03",
@@ -853,21 +808,6 @@
         "bonus": "Buy a bottle of the ice wine and drink it that night watching the river.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Winery+Cape+Vincent+NY"
-      },
-      {
-        "id": "TI-F-102",
-        "title": "The Original Thousand Island Dressing Location",
-        "description": "The dressing was created in the early 1900s by Sophie Lalonde, a fishing guide's wife on the river, and served at the Boldt Hotel on Wellesley Island — order it at any local restaurant and tell the story.",
-        "rarity": "Legendary",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 40,
-        "bonus": "Order it on something that doesn't normally come with dressing.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+NY"
       },
       {
         "id": "TI-F-110",

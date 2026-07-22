@@ -64,7 +64,7 @@
         "spark": 15,
         "bonus": "Hit at least four bars. Order the local craft at every one.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/bar+Grünerløkka+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Crowbar%20Torggata%20Oslo"
       },
       {
         "id": "OSLO_S_04",
@@ -129,21 +129,6 @@
     ],
     "chill": [
       {
-        "id": "OSL-CH-06",
-        "title": "Viking Ship Museum at Byg døy",
-        "description": "Three fully preserved 9th-century Viking ships in a white hall — they're enormous, beautiful, and completely unexpected even when you know what you're walking into.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Read the burial details for each ship. The Oseberg burial especially.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Viking+Ship+Museum+Byg døy+Oslo"
-      },
-      {
         "id": "OSL-CH-02",
         "title": "Munch Museum morning before the crowds",
         "description": "The 2021 MUNCH in Bjørvika holds 28,000 works by Edvard Munch across 13 floors — arrive at 10am, find The Scream, then explore the 95% of the collection nobody queues for.",
@@ -160,8 +145,8 @@
       },
       {
         "id": "OSL-CH-03",
-        "title": "Midnight sun from Ekeberg Hill (summer)",
-        "description": "In June and July, Oslo's sun barely sets — hike up Ekeberg Hill, open a thermos, and watch the sky stay bright at midnight above a glowing fjord.",
+        "title": "Midsummer light from Ekeberg Hill",
+        "description": "Oslo's June sky never goes properly dark — hike up Ekeberg with a thermos near midnight and watch the fjord hold a glow that passes for daylight.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2 hrs",
@@ -171,7 +156,7 @@
         "spark": 40,
         "bonus": "Stay until 1am. The light will still be there.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Ekeberg+Hill+Oslo+midnight+sun"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ekebergparken%20Oslo"
       },
       {
         "id": "OSL-CH-07",
@@ -190,7 +175,7 @@
       },
       {
         "id": "OSL-CH-08",
-        "title": "Fjord kayak near Byg døy peninsula",
+        "title": "Fjord kayak off the Bygdøy peninsula",
         "description": "The Bygdøy peninsula has calm fjord water with museum ships, royal estates, and forested shoreline — kayak rentals give you a 2-hour window in one of the world's most beautiful urban waterways.",
         "rarity": "Rare",
         "cost": "$$",
@@ -201,7 +186,7 @@
         "spark": 25,
         "bonus": "Paddle around the entire peninsula. Touch all three shores.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/kayak+rental+Byg døy+fjord+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bygd%C3%B8y%20peninsula%20Oslo"
       },
       {
         "id": "OSL-CH-01",
@@ -371,21 +356,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Nordmarka+cross+country+skiing+Oslo"
       },
       {
-        "id": "OSL-AC-03",
-        "title": "Swim at Sørenga Seawater Pool in the Oslo Fjord",
-        "description": "The outdoor seawater pool at Sørenga is fed directly from the clean Oslo Fjord — lap swim in saltwater with the opera house visible from the far end of the lane.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Afternoon",
-        "season": "May–Sep",
-        "spark": 15,
-        "bonus": "Do 20 laps then jump off the diving platform. In that order.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Sørenga+outdoor+pool+Oslo+fjord"
-      },
-      {
         "id": "OSLO_AC_04",
         "title": "Climb at Kolsåstoppen",
         "description": "The exposed quartzite slabs of Kolsåstoppen west of the city are a 45-minute metro ride from the center and offer route climbing with fjord views that feel completely out of proportion to the effort.",
@@ -464,8 +434,8 @@
       },
       {
         "id": "OSL-A-05",
-        "title": "Kayak around Oscarborg Fortress at dusk",
-        "description": "The 19th-century island fortress in the Oslofjord that sank a German warship in 1940 is accessible only by water — kayak around its walls at golden hour.",
+        "title": "Kayak around Oscarsborg Fortress at dusk",
+        "description": "The 19th-century island fortress in the Oslofjord that sank the cruiser Blücher in 1940 is reached only by water — paddle its walls at golden hour from Drøbak.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -475,7 +445,7 @@
         "spark": 25,
         "bonus": "Read about the Blücher before you go. The history makes the trip.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Oscarborg+Fortress+Oslofjord+kayak"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oscarsborg%20Fortress%20Norway"
       },
       {
         "id": "OSL-A-03",
@@ -587,7 +557,7 @@
       {
         "id": "OSL-F-05",
         "title": "Craft beer at Schouskjelleren Mikrobryggeri, Grünerløkka",
-        "description": "The Vulkan food and culture district runs along the Akerselva river and has concentrated a serious craft beer scene — do a tasting flight at the taproom.",
+        "description": "The vaulted brick cellar of the 1820s Schous brewery pours house-brewed ales metres from the tanks — candlelit, loud, and the most atmospheric pint in Oslo.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -597,12 +567,12 @@
         "spark": 15,
         "bonus": "Order the darkest beer on the menu last.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/craft+beer+microbrewery+Vulkan+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Schouskjelleren%20Mikrobryggeri%20Oslo"
       },
       {
         "id": "OSL-F-02",
-        "title": "Cinnamon roll at Åpent Bakeri, Grünerløkka",
-        "description": "The Norwegian kanelbolle is thicker and more cardamom-forward than its Swedish cousin — Grünerløkka has the best concentration of konditoris in Oslo.",
+        "title": "Cinnamon roll at Åpent Bakeri",
+        "description": "The Norwegian kanelbolle is thicker and more cardamom-forward than its Swedish cousin — Åpent Bakeri's version sells out by mid-afternoon for a reason.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -612,12 +582,12 @@
         "spark": 15,
         "bonus": "Eat it warm from the oven. Don't let it cool.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/konditori+cinnamon+roll+Grünerløkka+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%85pent%20Bakeri%20Oslo"
       },
       {
         "id": "OSL-F-03",
         "title": "Tasting menu at Kontrast, Vulkan",
-        "description": "Oslo's New Nordic movement — foraged, fermented, preserved — produces some of the most distinctive tasting menus in Europe; find a modern Norwegian kitchen and surrender the evening.",
+        "description": "Kontrast's Michelin-starred kitchen at Vulkan turns foraged, fermented, and preserved Norwegian produce into one of the most distinctive tasting menus in the Nordics — surrender the evening.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -627,27 +597,12 @@
         "spark": 40,
         "bonus": "Ask what's foraged locally this week. Let that steer the order.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/New+Nordic+restaurant+Oslo+tasting+menu"
-      },
-      {
-        "id": "OSL-F-01",
-        "title": "Lunch at Engebret Café, Bankplassen",
-        "description": "Norway's open-faced rye bread sandwich topped with cured fish, pickled vegetables, and egg is deceptively serious — find a proper koldtbord restaurant and work through five variations.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Try the pickled herring even if you're certain you won't like it.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/smørrebrød+koldtbord+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kontrast%20Restaurant%20Oslo"
       },
       {
         "id": "OSL-F-08",
         "title": "Waffles at Kaffistova, Rosenkrantz gate",
-        "description": "Norwegian heart-shaped waffles topped with rømme and strawberry jam are an entire national tradition — eat them on an Aker Brygge terrace while the fjord does the rest.",
+        "description": "Kaffistova has served heart-shaped waffles with rømme and jam in the same Rosenkrantz gate dining room since 1901 — traditional Norwegian comfort food with zero irony.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -657,27 +612,12 @@
         "spark": 15,
         "bonus": "Order a second portion before the first is half done.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Norwegian+waffles+waterfront+café+Oslo"
-      },
-      {
-        "id": "OSL-F-04",
-        "title": "Fish soup at the Aker Brygge fish market",
-        "description": "The Aker Brygge waterfront market sells fish fresh off the boats — the prawn sandwich and fish soup are both superlative and both cheap by Oslo standards.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Eat the prawn sandwich standing at the water with the shrimp dripping. The mess is the point.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/fish+market+Aker+Brygge+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaffistova%20Oslo"
       },
       {
         "id": "OSL-F-09",
-        "title": "Aquavit tasting at Himkok, Stortingsgata",
-        "description": "Norway's caraway-and-dill distillate comes young and raw or barrel-aged and complex — the Tjuvholmen arts district has bars that treat it like whisky.",
+        "title": "Aquavit tasting at Himkok, Storgata",
+        "description": "Behind an unmarked Storgata door, Himkok distils its own aquavit and gin on site and is a fixture on the World's 50 Best Bars list — order the aquavit flight.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1 hr",
@@ -687,12 +627,12 @@
         "spark": 25,
         "bonus": "Find the expression aged in sherry cask. Start there.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/aquavit+bar+Tjuvholmen+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Himkok%20Oslo"
       },
       {
         "id": "OSL-F-06",
         "title": "Norwegian fish at Lofoten Fiskerestaurant, Aker Brygge",
-        "description": "Dried and salted cod is Norway's oldest export and one of its best dishes when done properly — find an Oslo restaurant that treats it with the respect it deserves.",
+        "description": "Aker Brygge's harbourside fish house treats Norwegian cod — dried, salted, or straight off the boat — with the respect the national dish deserves; book the terrace at sunset.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -702,7 +642,7 @@
         "spark": 25,
         "bonus": "Order it without knowing what it comes with. Trust the kitchen.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/bacalao+salt+cod+restaurant+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lofoten%20Fiskerestaurant%20Oslo"
       },
       {
         "id": "OSL-F-07",
@@ -717,7 +657,7 @@
         "spark": 25,
         "bonus": "Compare it to the elk if they have it. Pick a winner.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/reindeer+steak+game+restaurant+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Engebret%20Caf%C3%A9%20Oslo"
       },
       {
         "id": "OSLO_F_04",
@@ -733,21 +673,6 @@
         "bonus": "Request a table by the window and stay for a full hour after dessert — just looking at the city.",
         "city": "Oslo, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Ekeberg+Restaurant+Oslo"
-      },
-      {
-        "id": "OSLO_F_03",
-        "title": "Saturday Market at Mathallen Oslo",
-        "description": "Norway's finest food hall in Vulkan draws serious producers and serious eaters every weekend, making it the most honest cross-section of what Oslo actually eats now.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Spend your entire food budget on one thing from one stall — commit fully.",
-        "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Mathallen+Oslo"
       },
       {
         "id": "OSLO_F_02",

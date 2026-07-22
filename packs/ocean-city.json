@@ -294,36 +294,6 @@
         "mapsUrl": "https://maps.google.com/?q=Fractured+Prune+Ocean+City+MD"
       },
       {
-        "id": "OCEA_F_04",
-        "title": "Dinner at the Lighthouse Club Hotel Restaurant",
-        "description": "Perched on a private island in the Isle of Wight Bay, the Fager's Island restaurant serves serious seafood at sunset with a crowd that actually dresses up — a rare Ocean City move.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Apr–Oct",
-        "spark": 25,
-        "bonus": "Stay for the Tchaikovsky 1812 Overture cannon-fire sunset tradition — don't flinch.",
-        "city": "Ocean City, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Fager%27s+Island+Ocean+City+Maryland"
-      },
-      {
-        "id": "OCEA_F_03",
-        "title": "Raw Bar at Hooper's Crab House",
-        "description": "Hooper's at the West OC marina is a no-frills raw bar institution where the oysters are local, the corn is buttery, and the plastic trays are a feature, not a bug.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "1–2 hrs",
-        "durationMins": 75,
-        "time": "Evening",
-        "season": "Apr–Oct",
-        "spark": 15,
-        "bonus": "Eat a raw oyster straight from the shell with zero condiments and actually taste it.",
-        "city": "Ocean City, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Hooper%27s+Crab+House+Ocean+City+Maryland"
-      },
-      {
         "id": "OCEA_F_01",
         "title": "Steamed Crabs at Crab Alley",
         "description": "Crab Alley in West Ocean City has been slinging Old Bay-crusted steamed crabs on brown paper since 1985 — the kind of messy, mallet-pounding meal that defines the Chesapeake summer.",
@@ -506,21 +476,6 @@
         "bonus": "Drive to the farthest accessible point and set up a beach camp — no one else will be there.",
         "city": "Ocean City, MD",
         "mapsUrl": "https://maps.google.com/?q=Assateague+Island+ORV+Zone+Maryland"
-      },
-      {
-        "id": "OC-A-104",
-        "title": "Whale Watch Cruise — Ocean City Offshore",
-        "description": "Humpback and fin whale sightings from the OC inlet boats happen more than the tourism bureau admits — the offshore trip also passes through the Baltimore Canyon where the shelf drops to 2,000 feet.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "5 hrs",
-        "durationMins": 300,
-        "time": "Morning",
-        "season": "Summer",
-        "spark": 40,
-        "bonus": "Bring binoculars and scan 360 degrees constantly — sightings happen when you're looking the wrong way.",
-        "city": "Ocean City, MD",
-        "mapsUrl": "https://maps.google.com/?q=Whale+Watch+Ocean+City+MD+Inlet"
       },
       {
         "id": "OC-A-106",

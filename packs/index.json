@@ -15,53 +15,60 @@
       "cardCount": 40
     },
     {
-      "id": "phoenix",
-      "name": "Phoenix · Scottsdale",
-      "location": "Arizona",
-      "emoji": "🌵",
-      "cardCount": 86
-    },
-    {
       "id": "nyc",
       "name": "New York City",
       "location": "New York · New Jersey",
       "emoji": "🗽",
-      "cardCount": 69
+      "cardCount": 59
     },
     {
       "id": "thousand-islands",
       "name": "Thousand Islands",
       "location": "New York",
       "emoji": "⛵",
-      "cardCount": 60
+      "cardCount": 56
     },
     {
       "id": "hamptons",
       "name": "The Hamptons",
       "location": "New York",
       "emoji": "🏖️",
-      "cardCount": 73
+      "cardCount": 67
     },
     {
-      "id": "dc",
-      "name": "Washington, DC",
-      "location": "District of Columbia",
-      "emoji": "🏛️",
-      "cardCount": 58
-    },
-    {
-      "id": "baltimore",
-      "name": "Baltimore",
-      "location": "Maryland",
-      "emoji": "🦀",
+      "id": "tokyo",
+      "name": "Tokyo",
+      "location": "Japan",
+      "emoji": "🌸",
       "cardCount": 54
     },
     {
-      "id": "ocean-city",
-      "name": "Ocean City",
-      "location": "Maryland",
-      "emoji": "🌊",
-      "cardCount": 48
+      "id": "bangkok",
+      "name": "Bangkok",
+      "location": "Thailand",
+      "emoji": "🛕",
+      "cardCount": 52
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "location": "Norway",
+      "emoji": "🏔️",
+      "cardCount": 46
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "location": "France",
+      "emoji": "🗼",
+      "cardCount": 52
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "location": "Türkiye",
+      "emoji": "🕌",
+      "cardCount": 54
     },
     {
       "id": "brussels",
@@ -71,32 +78,39 @@
       "cardCount": 51
     },
     {
-      "id": "paris",
-      "name": "Paris",
-      "location": "France",
-      "emoji": "🗼",
-      "cardCount": 54
+      "id": "ocean-city",
+      "name": "Ocean City",
+      "location": "Maryland",
+      "emoji": "🌊",
+      "cardCount": 45
     },
     {
-      "id": "oslo",
-      "name": "Oslo",
-      "location": "Norway",
-      "emoji": "🏔️",
-      "cardCount": 51
+      "id": "baltimore",
+      "name": "Baltimore",
+      "location": "Maryland",
+      "emoji": "🦀",
+      "cardCount": 53
     },
     {
-      "id": "norway",
-      "name": "Bergen & Voss",
-      "location": "Norway",
-      "emoji": "🏔️",
-      "cardCount": 18
+      "id": "dc",
+      "name": "Washington, DC",
+      "location": "District of Columbia",
+      "emoji": "🏛️",
+      "cardCount": 50
     },
     {
-      "id": "istanbul",
-      "name": "Istanbul",
-      "location": "Türkiye",
-      "emoji": "🕌",
-      "cardCount": 47
+      "id": "phoenix",
+      "name": "Phoenix · Scottsdale",
+      "location": "Arizona",
+      "emoji": "🌵",
+      "cardCount": 86
+    },
+    {
+      "id": "nyc-fifa",
+      "name": "nyc-fifa",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 19
     },
     {
       "id": "turkey",
@@ -106,18 +120,11 @@
       "cardCount": 19
     },
     {
-      "id": "tokyo",
-      "name": "Tokyo",
-      "location": "Japan",
-      "emoji": "🌸",
-      "cardCount": 56
-    },
-    {
-      "id": "bangkok",
-      "name": "Bangkok",
-      "location": "Thailand",
-      "emoji": "🛕",
-      "cardCount": 52
+      "id": "norway",
+      "name": "Bergen & Voss",
+      "location": "Norway",
+      "emoji": "🏔️",
+      "cardCount": 18
     }
   ]
 }

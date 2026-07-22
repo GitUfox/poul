@@ -142,21 +142,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Camden+Yards+Baltimore+MD"
       },
       {
-        "id": "BALT-S-02",
-        "title": "Live Music at Rams Head Live",
-        "description": "Rams Head Live is Baltimore's mid-size venue that actually books well — the sightlines are great, the sound is honest, and the crowd always knows why they're there.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Move to the front third of the floor by the second song regardless of where you started the night.",
-        "city": "Baltimore, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Rams+Head+Live+Baltimore+MD"
-      },
-      {
         "id": "BALT-S-01",
         "title": "Happy Hour at Mount Royal Tavern",
         "description": "Mount Royal Tavern in Bolton Hill has been pouring cheap drinks to artists, students, and neighborhood regulars since 1966 — unpretentious, loud, and exactly right.",
@@ -265,8 +250,8 @@
       },
       {
         "id": "BALT-A-03",
-        "title": "Climb at Earth Treks Rockville — Baltimore's Home Wall",
-        "description": "Baltimore's climbers cut their teeth at Earth Treks, one of the best urban climbing gyms on the East Coast with walls that humble every ego.",
+        "title": "Climb at Movement Timonium — Baltimore's Home Wall",
+        "description": "Baltimore climbers have cut their teeth on these walls since 2002, when it opened as Earth Treks — now Movement, still the region's proving ground.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -276,7 +261,7 @@
         "spark": 15,
         "bonus": "Ask a stranger to belay you on a route one grade above your limit and actually attempt it.",
         "city": "Baltimore, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Earth+Treks+Columbia+Maryland"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Movement%20Timonium%20Maryland"
       },
       {
         "id": "BALT-A-02",

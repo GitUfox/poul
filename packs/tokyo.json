@@ -219,21 +219,6 @@
         "mapsUrl": "https://www.google.com/maps/search/nightclub+Shibuya+Tokyo"
       },
       {
-        "id": "TOK-S-05",
-        "title": "Jazz at DUG Bar, Shinjuku",
-        "description": "Tokyo's kissa jazz cafés — where you listen in silence on high-end speakers while the master plays vinyl — are a specific and vanishing institution worth visiting twice.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Don't talk. Listen like you paid for every note.",
-        "city": "Tokyo, Japan",
-        "mapsUrl": "https://www.google.com/maps/search/jazz+kissa+café+Shinjuku+Tokyo"
-      },
-      {
         "id": "TOKY-S-04",
         "title": "Jazz Night at Shinjuku Pit Inn",
         "description": "Open since 1965, Pit Inn is Tokyo's most serious jazz room — a basement box where world-class musicians play two feet from your face.",
@@ -262,21 +247,6 @@
         "bonus": "Bow respectfully at the entrance, stay completely silent, and make eye contact with a wrestler — hold it without flinching.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Tomozuna+Stable+Ryogoku+Tokyo"
-      },
-      {
-        "id": "TOKY-S-01",
-        "title": "Karaoke Private Box at Shidax, Shibuya",
-        "description": "Book a private room at Shidax, order unlimited drinks, and discover which song you were actually born to perform.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Sing one song in a language you don't speak — full commitment, no laughing until it's over.",
-        "city": "Tokyo, Japan",
-        "mapsUrl": "https://www.google.com/maps/search/Shidax+Shibuya+Tokyo+karaoke"
       },
       {
         "id": "TKY-S-04",

@@ -67,6 +67,36 @@
         "mapsUrl": "https://www.google.com/maps/search/Büyükada+Princes+Islands+Istanbul+ferry"
       },
       {
+        "id": "IST-CH-02",
+        "title": "Hammam session at Çemberlitaş Hamamı",
+        "description": "A 17th-century Ottoman hammam built by Sinan — lie on the warm marble slab, get scrubbed hard, and leave feeling like a new human.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Don't talk to anyone the whole time. Let it be a silence.",
+        "city": "Istanbul, Turkey",
+        "mapsUrl": "https://www.google.com/maps/search/Çemberlitaş+Hamamı+Istanbul"
+      },
+      {
+        "id": "IST-CH-08",
+        "title": "Sunset at Eyüp Sultan Hill with tea",
+        "description": "Take the cable car up Pierre Loti Hill, drink tea in the café named after the French novelist, and watch the Golden Horn go dark below.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Arrive 30 minutes before sunset and stay 30 minutes after.",
+        "city": "Istanbul, Turkey",
+        "mapsUrl": "https://www.google.com/maps/search/Pierre+Loti+Hill+Eyüp+Istanbul"
+      },
+      {
         "id": "IST-CH-04",
         "title": "Wander the painted houses of Balat",
         "description": "Balat's cobblestone streets and faded Ottoman townhouses are one of Istanbul's great free pleasures — just walk without a map.",
@@ -95,6 +125,21 @@
         "bonus": "Leave with something you didn't expect to buy.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Sahaflar+Book+Bazaar+Istanbul"
+      },
+      {
+        "id": "ISTA-C-04",
+        "title": "Afternoon at Karaköy Güllüoğlu with Baklava",
+        "description": "The flagship Güllüoğlu shop in Karaköy has been layering pistachio baklava since 1949 — sit at the counter and eat slowly while Istanbul rushes past the window.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30–60 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order five different varieties and rank them — tell the staff your winner and see if they agree.",
+        "city": "Istanbul, Turkey",
+        "mapsUrl": "https://www.google.com/maps/search/Karaköy+Güllüoğlu+Istanbul"
       },
       {
         "id": "ISTA-C-03",
@@ -234,6 +279,21 @@
         "mapsUrl": "https://www.google.com/maps/search/Kadıköy+ferry+Istanbul"
       },
       {
+        "id": "ISTA-A-04",
+        "title": "Underground Cistern Spelunking at Basilica Cistern",
+        "description": "Six hundred years of Byzantine engineering drips around you in the Yerebatan Sarnıcı, lit just enough to feel genuinely ancient.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the two Medusa head column bases and press your forehead against the stone for ten full seconds.",
+        "city": "Istanbul, Turkey",
+        "mapsUrl": "https://www.google.com/maps/search/Basilica+Cistern+Yerebatan+Istanbul"
+      },
+      {
         "id": "ISTA-A-03",
         "title": "Night Ferry to Kadıköy Alone",
         "description": "The late Şehir Hatları ferry crosses the Bosphorus after midnight when the city lights smear on the water and the deck is yours.",
@@ -341,6 +401,21 @@
         "mapsUrl": "https://www.google.com/maps/search/kokoreç+Beşiktaş+Istanbul"
       },
       {
+        "id": "IST-F-04",
+        "title": "Fresh balık ekmek on the Galata Bridge",
+        "description": "Watch fishermen dangle lines above while you eat a grilled mackerel sandwich off the boats moored below the bridge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30–60 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Chat with one of the fishermen on the bridge before you eat.",
+        "city": "Istanbul, Turkey",
+        "mapsUrl": "https://www.google.com/maps/search/balık+ekmek+Galata+Bridge+Istanbul"
+      },
+      {
         "id": "IST-F-09",
         "title": "Stuffed mussels from the midyecis of Rüstempaşa, Eminönü",
         "description": "Midye dolma vendors haul trays of stuffed mussels along the waterfront — eat them one after another until you run out of lemon.",
@@ -384,6 +459,21 @@
         "bonus": "Hit at least three different meyhanes and order rakı with a meze at each — finish every glass.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Nevizade+Sokak+Beyoğlu+Istanbul"
+      },
+      {
+        "id": "ISTA-F-04",
+        "title": "Kokoreç at Şaşkınbakkal Market, Kadıköy",
+        "description": "Kadıköy's market stalls serve lamb intestine kokoreç from wood-fired rotisseries that have been running since before you were born — order it spicy.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45–60 mins",
+        "durationMins": 52,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order a double portion and eat it without asking what's in it until you've finished.",
+        "city": "Istanbul, Turkey",
+        "mapsUrl": "https://www.google.com/maps/search/Kadıköy+Çarşı+Market+Istanbul"
       },
       {
         "id": "ISTA-F-03",
@@ -432,6 +522,21 @@
       }
     ],
     "active": [
+      {
+        "id": "IST-AC-01",
+        "title": "Run the Bosphorus Bridge path at dawn",
+        "description": "The bridge is open to runners only on designated days — crossing from Europe to Asia on foot while the city wakes below you is genuinely life-sized.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Pause in the middle above the water. Both continents are equidistant.",
+        "city": "Istanbul, Turkey",
+        "mapsUrl": "https://www.google.com/maps/search/Bosphorus+Bridge+run+Istanbul"
+      },
       {
         "id": "IST-AC-06",
         "title": "Stand-up paddleboard on Büyükçekmece Lake",
