@@ -11,7 +11,7 @@
 <meta name="apple-mobile-web-app-title" content="Poul">
 <link rel="apple-touch-icon" href="poul-icon.svg">
 <meta http-equiv="Content-Security-Policy"
-  content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://maps.googleapis.com; connect-src 'self'">
+  content="default-src 'self'; script-src 'self' 'unsafe-inline' https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://us.i.posthog.com https://us-assets.i.posthog.com">
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -3334,6 +3334,7 @@ function startDraw() {
   }
 
   state.currentCard = card;
+  track('card_drawn', cardProps(card));
   document.getElementById('draw-category-label').textContent = CAT_LABELS[state.selectedCategory];
   showScreen('draw');
 
@@ -3434,6 +3435,7 @@ function redrawCard() {
   state.currentCard = card;
 
   saveState();
+  track('card_redrawn', { ...cardProps(card), tokens_left: state.tokens });
 
   const cardEl = document.getElementById('active-card');
   cardEl.classList.remove('revealed');
@@ -3502,6 +3504,8 @@ function commitCard() {
   });
 
   saveState();
+  track('card_committed', { ...cardProps(card), spark_earned: card.spark, streak: state.streak });
+  if (streakMilestone) track('streak_milestone', { days: streakMilestone });
   showResult(true, card);
   updateHomeUI();
 }
@@ -3518,6 +3522,7 @@ function declineCard() {
   state.drawCount++;
 
   saveState();
+  track('card_declined', cardProps(card));
   showResult(false, card);
   updateHomeUI();
 }
@@ -3565,6 +3570,70 @@ function showResult(committed, card) {
   // Booking / affiliate CTA — only after a commit
   renderBookingCTA(committed ? card : null);
 }
+
+// ──────────────────────────────────────────
+// ANALYTICS — PostHog
+// Same dormant-until-activated pattern as AFFILIATE below. The project API key
+// (phc_…) is PUBLIC by design — it only ingests events, it cannot read data.
+// It belongs here, NOT in .env. To activate: create the PostHog project, paste
+// the key into POSTHOG.key, bump the SW cache version. See ANALYTICS.md.
+// While key === '' nothing loads and track() is a silent no-op.
+//
+// Privacy posture (deliberate): no autocapture, no session recording, no
+// cookies (localStorage persistence), anonymous-only profiles, DNT respected.
+// ──────────────────────────────────────────
+const POSTHOG = {
+  key: '',                                      // phc_… project API key — paste to activate
+  host: 'https://us.i.posthog.com',             // US cloud ingestion
+  assets: 'https://us-assets.i.posthog.com',    // CDN for array.js
+};
+
+// Events fired before the script finishes loading buffer here, then flush.
+// Capped so an offline PWA session can't grow it unbounded.
+const _phQueue = [];
+const _PH_QUEUE_MAX = 100;
+
+function track(event, props) {
+  if (!POSTHOG.key) return;                     // dormant — no key, no events
+  try {
+    if (window.posthog && posthog.capture) posthog.capture(event, props);
+    else if (_phQueue.length < _PH_QUEUE_MAX) _phQueue.push([event, props]);
+  } catch (e) { /* analytics must never break the app */ }
+}
+
+// Shared property block so every card event slices the same way in PostHog.
+function cardProps(card) {
+  return {
+    card_id: card.id,
+    card_title: card.title,
+    pack: state.activePack,
+    category: state.selectedCategory,
+    rarity: card.rarity,
+    cost: card.cost,
+  };
+}
+
+function initAnalytics() {
+  if (!POSTHOG.key) return;
+  const s = document.createElement('script');
+  s.src = POSTHOG.assets + '/static/array.js';
+  s.async = true;
+  s.onload = () => {
+    if (!window.posthog) return;
+    posthog.init(POSTHOG.key, {
+      api_host: POSTHOG.host,
+      person_profiles: 'identified_only',       // anonymous events only (no accounts in V1)
+      autocapture: false,                       // explicit events only — see ANALYTICS.md schema
+      capture_pageview: true,
+      disable_session_recording: true,
+      persistence: 'localStorage',              // no cookies
+      respect_dnt: true,
+    });
+    _phQueue.splice(0).forEach(([e, p]) => posthog.capture(e, p));
+  };
+  document.head.appendChild(s);
+}
+initAnalytics();
 
 // ──────────────────────────────────────────
 // BOOKING / AFFILIATE CTA
@@ -3619,7 +3688,7 @@ function renderBookingCTA(card) {
   if (!card) { el.style.display = 'none'; el.innerHTML = ''; return; }
   const links = bookingLinksFor(card, state.selectedCategory);
   el.innerHTML = '<div class="booking-cta-label">Make it happen</div>' + links.map(l =>
-    `<a class="booking-btn${l.primary ? ' primary' : ''}" href="${l.url}" target="_blank" rel="noopener">${l.icon} ${escHtml(l.label)}</a>`
+    `<a class="booking-btn${l.primary ? ' primary' : ''}" href="${l.url}" target="_blank" rel="noopener" onclick="track('booking_link_tapped',{label:'${l.label}',card_id:'${card.id}',pack:state.activePack})">${l.icon} ${escHtml(l.label)}</a>`
   ).join('');
   el.style.display = 'flex';
 }
@@ -4037,6 +4106,7 @@ function selectPack(packId) {
   state.selectedCategory = null;
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
   saveState();
+  track('pack_selected', { pack: packId });
   closePackSheet();
   updateHomeUI();
   const label = packId === 'phoenix' ? 'Phoenix · Scottsdale'
