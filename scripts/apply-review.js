@@ -48,6 +48,11 @@ async function main() {
     if (f.desc) props['Description'] = { rich_text: [{ text: { content: f.desc } }] };
     if (f.maps) props['Maps URL'] = { url: f.maps };
     if (f.season) props['Season'] = { rich_text: [{ text: { content: f.season } }] };
+    if (f.city) props['City'] = { rich_text: [{ text: { content: f.city } }] };
+    if (f.cost) props['Cost'] = { select: { name: f.cost } };
+    if (f.bonus) props['Bonus'] = { rich_text: [{ text: { content: f.bonus } }] };
+    if (f.rarity) props['Rarity'] = { select: { name: f.rarity } };
+    if (f.spark) props['Spark'] = { number: f.spark };
     await notion.pages.update({ page_id: pageId, properties: props });
     fixed++; process.stdout.write('+'); await pause();
   }
