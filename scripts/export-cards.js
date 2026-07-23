@@ -124,6 +124,19 @@ async function exportPack(notion, packId) {
 
   const total = Object.values(cards).flat().length;
   console.log(`  ✓ ${total} cards → packs/${packId}.json`);
+  return total;
+}
+
+// Single-pack export: keep index.json's cardCount in sync without a full export
+function patchIndexCount(packId, cardCount) {
+  const indexPath = path.join(PACKS_DIR, 'index.json');
+  if (!fs.existsSync(indexPath)) return;
+  const idx = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+  const entry = idx.packs.find(p => p.id === packId);
+  if (!entry || entry.cardCount === cardCount) return;
+  entry.cardCount = cardCount;
+  fs.writeFileSync(indexPath, JSON.stringify(idx, null, 2));
+  console.log(`  ✓ index.json: ${packId} cardCount → ${cardCount}`);
 }
 
 async function exportIndex(notion) {
@@ -150,7 +163,8 @@ async function main() {
   const targetPack = process.argv[2];
 
   if (targetPack) {
-    await exportPack(notion, targetPack);
+    const total = await exportPack(notion, targetPack);
+    if (total) patchIndexCount(targetPack, total);
   } else {
     const allActive = await queryAll(notion, { property: 'Active', checkbox: { equals: true } });
     const packIds   = [...new Set(allActive.map(p => prop(p, 'Pack', 'select')).filter(Boolean))];
