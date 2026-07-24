@@ -153,6 +153,13 @@
       "location": "California",
       "emoji": "🌉",
       "cardCount": 60
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "location": "Washington",
+      "emoji": "☕",
+      "cardCount": 60
     }
   ]
 }
