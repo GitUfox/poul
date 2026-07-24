@@ -146,6 +146,13 @@
       "location": "Florida",
       "emoji": "🦩",
       "cardCount": 60
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "location": "California",
+      "emoji": "🌉",
+      "cardCount": 60
     }
   ]
 }
