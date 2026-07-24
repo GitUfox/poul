@@ -139,6 +139,13 @@
       "location": "Nevada",
       "emoji": "🎰",
       "cardCount": 60
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "location": "Florida",
+      "emoji": "🦩",
+      "cardCount": 60
     }
   ]
 }
