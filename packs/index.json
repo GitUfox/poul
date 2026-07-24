@@ -167,6 +167,13 @@
       "location": "Colorado",
       "emoji": "⛰️",
       "cardCount": 61
+    },
+    {
+      "id": "austin",
+      "name": "Austin",
+      "location": "Texas",
+      "emoji": "🦇",
+      "cardCount": 60
     }
   ]
 }
