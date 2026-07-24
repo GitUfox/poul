@@ -132,6 +132,13 @@
       "location": "Illinois",
       "emoji": "🌭",
       "cardCount": 60
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "location": "Nevada",
+      "emoji": "🎰",
+      "cardCount": 60
     }
   ]
 }
