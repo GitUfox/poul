@@ -1,4 +1,4 @@
-const CACHE = 'poul-v35';
+const CACHE = 'poul-v36';
 
 // App shell. Only the HTML is a hard requirement; the rest is best-effort.
 const SHELL = [
@@ -23,15 +23,15 @@ self.addEventListener('install', e => {
       SHELL.filter(u => u !== './poul-v1.5.html').map(u => cache.add(u))
     );
 
-    // Pre-cache packs from index.json so the list stays self-maintaining — no
-    // hardcoded pack array to drift out of sync with what actually ships.
-    try {
-      await cache.add('./packs/index.json');
-      const idx = await (await fetch('./packs/index.json', { cache: 'no-store' })).json();
-      if (idx && Array.isArray(idx.packs)) {
-        await Promise.allSettled(idx.packs.map(p => cache.add('./packs/' + p.id + '.json')));
-      }
-    } catch (_) { /* offline / no index — packs still load via runtime fetch + SWR */ }
+    // LAZY PACK CACHING: pre-cache only the pack index and the default deck.
+    // Every other pack is cached on first fetch by the stale-while-revalidate
+    // handler below. Pre-caching all packs stopped scaling — at 60 cards per
+    // pack and dozens of packs, install-time downloads run into megabytes for
+    // decks most users never open.
+    await Promise.allSettled([
+      cache.add('./packs/index.json'),
+      cache.add('./packs/phoenix.json'),   // default deck — must work offline
+    ]);
 
     await self.skipWaiting();
   })());

@@ -40,6 +40,19 @@ const PACK_META = {
   'sedona':           { name: 'Sedona',            location: 'Arizona',                emoji: '🏜️', isDefault: false },
   'tokyo':            { name: 'Tokyo',             location: 'Japan',                  emoji: '🌸', isDefault: false },
   'bangkok':    { name: 'Bangkok',               location: 'Thailand',               emoji: '🛕', isDefault: false },
+  // Wave 1 — North America ≥1M metros
+  'los-angeles':  { name: 'Los Angeles',   location: 'California',     emoji: '🌴', isDefault: false },
+  'chicago':      { name: 'Chicago',       location: 'Illinois',       emoji: '🌭', isDefault: false },
+  'las-vegas':    { name: 'Las Vegas',     location: 'Nevada',         emoji: '🎰', isDefault: false },
+  'miami':        { name: 'Miami',         location: 'Florida',        emoji: '🦩', isDefault: false },
+  'san-francisco':{ name: 'San Francisco', location: 'California',     emoji: '🌉', isDefault: false },
+  'seattle':      { name: 'Seattle',       location: 'Washington',     emoji: '☕', isDefault: false },
+  'denver':       { name: 'Denver',        location: 'Colorado',       emoji: '⛰️', isDefault: false },
+  'austin':       { name: 'Austin',        location: 'Texas',          emoji: '🦇', isDefault: false },
+  'nashville':    { name: 'Nashville',     location: 'Tennessee',      emoji: '🎸', isDefault: false },
+  'san-diego':    { name: 'San Diego',     location: 'California',     emoji: '🏄', isDefault: false },
+  'new-orleans':  { name: 'New Orleans',   location: 'Louisiana',      emoji: '⚜️', isDefault: false },
+  'boston':       { name: 'Boston',        location: 'Massachusetts',  emoji: '🦞', isDefault: false },
 };
 
 // ── Notion helpers ─────────────────────────────────────────────────────────
@@ -132,8 +145,14 @@ function patchIndexCount(packId, cardCount) {
   const indexPath = path.join(PACKS_DIR, 'index.json');
   if (!fs.existsSync(indexPath)) return;
   const idx = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
-  const entry = idx.packs.find(p => p.id === packId);
-  if (!entry || entry.cardCount === cardCount) return;
+  let entry = idx.packs.find(p => p.id === packId);
+  if (entry && entry.cardCount === cardCount) return;
+  if (!entry) {
+    const m = PACK_META[packId] || { name: packId, location: '', emoji: '📍' };
+    entry = { id: packId, name: m.name, location: m.location, emoji: m.emoji, cardCount };
+    idx.packs.push(entry);
+    console.log(`  ✓ index.json: added new pack ${packId}`);
+  }
   entry.cardCount = cardCount;
   fs.writeFileSync(indexPath, JSON.stringify(idx, null, 2));
   console.log(`  ✓ index.json: ${packId} cardCount → ${cardCount}`);
