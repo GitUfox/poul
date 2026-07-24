@@ -125,6 +125,13 @@
       "location": "California",
       "emoji": "🌴",
       "cardCount": 60
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "location": "Illinois",
+      "emoji": "🌭",
+      "cardCount": 60
     }
   ]
 }
