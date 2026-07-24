@@ -118,6 +118,13 @@
       "location": "Norway",
       "emoji": "🏔️",
       "cardCount": 60
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "location": "California",
+      "emoji": "🌴",
+      "cardCount": 60
     }
   ]
 }

@@ -54,6 +54,7 @@ async function main() {
     if (f.rarity) props['Rarity'] = { select: { name: f.rarity } };
     if (f.spark) props['Spark'] = { number: f.spark };
     if (f.time) props['Time'] = { select: { name: f.time } };
+    if (f.category) props['Category'] = { select: { name: f.category } };
     await notion.pages.update({ page_id: pageId, properties: props });
     fixed++; process.stdout.write('+'); await pause();
   }
