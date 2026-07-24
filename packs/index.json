@@ -160,6 +160,13 @@
       "location": "Washington",
       "emoji": "☕",
       "cardCount": 60
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "location": "Colorado",
+      "emoji": "⛰️",
+      "cardCount": 61
     }
   ]
 }
