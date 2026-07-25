@@ -2316,6 +2316,30 @@
   #pack-options.searching .pack-group-body{display:block;}
   #pack-options.searching .pack-group-header{display:none;}
 </style>
+<style id="v17-icons">
+  /* Icon system — every glyph is an inline SVG (class .pi), no emoji in UI chrome */
+  .pi{display:inline-block;vertical-align:-0.18em;flex-shrink:0;}
+  .rules-loop-icon .pi,.rules-type-emoji .pi,.pack-option-emoji .pi,.proof-placeholder-icon .pi,
+  .install-prompt-icon .pi,.result-icon .pi,.share-card-emoji .pi{display:block;vertical-align:0;}
+  .pack-option-emoji,.rules-type-emoji,.proof-placeholder-icon,.install-prompt-icon{display:flex;align-items:center;justify-content:center;}
+  .share-card-emoji{display:flex;align-items:center;justify-content:center;}
+  #pack-indicator-text{display:inline-flex;align-items:center;gap:6px;}
+  .season-line{display:flex;align-items:center;gap:6px;}
+  .streak-value{display:flex;align-items:center;gap:3px;}
+  .spark-type-value{display:flex;align-items:center;gap:5px;justify-content:flex-end;}
+  .card-city-tag{display:inline-flex;align-items:center;gap:4px;}
+  .rules-rarity-spark,.rules-type-threshold,.rules-milestone-reward{white-space:nowrap;}
+</style>
+<!-- Shared SVG defs — the pool-ball radial gradient, referenced document-wide by url(#pbg) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <radialGradient id="pbg" cx="40%" cy="33%" r="70%">
+      <stop offset="0%" stop-color="#1e2c20"/>
+      <stop offset="60%" stop-color="#0d120d"/>
+      <stop offset="100%" stop-color="#040607"/>
+    </radialGradient>
+  </defs>
+</svg>
 <!-- ── SCREEN 1: HOME ── -->
 <div id="screen-home" class="screen active">
   <button class="btn-rules" onclick="openRulesSheet()" aria-label="How to play">?</button>
@@ -2344,7 +2368,7 @@
   <div class="pack-indicator" onclick="openPackSheet()">
     <div class="pack-indicator-section-label">Poul Table</div>
     <div class="pack-indicator-inner">
-      <span id="pack-indicator-text">🌵 Phoenix · Scottsdale</span>
+      <span id="pack-indicator-text">Phoenix · Scottsdale</span>
       <div class="token-dots-chip">
         <div id="token-dots" style="display:flex;gap:4px;"></div>
         <span class="pack-switch-hint">Switch ›</span>
@@ -2360,7 +2384,7 @@
   <div class="filter-row">
     <div class="category-label" style="margin-top:28px;margin-bottom:0;">Choose Your Draw</div>
     <button class="btn-filter" id="filter-btn" onclick="openFilters()" style="margin-top:28px;">
-      ⚙ Poul Filter
+      <svg class="pi" width="13" height="13" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="12" x2="38" y2="12"/><line x1="6" y1="22" x2="38" y2="22"/><line x1="6" y1="32" x2="38" y2="32"/><circle cx="16" cy="12" r="4" fill="#131613"/><circle cx="28" cy="22" r="4" fill="#131613"/><circle cx="20" cy="32" r="4" fill="#131613"/></svg> Poul Filter
       <span class="filter-badge" id="filter-badge"></span>
     </button>
   </div>
@@ -2442,11 +2466,11 @@
           <div class="bonus-text" id="card-bonus"></div>
         </div>
         <a class="card-maps-link" id="card-maps-link" href="#" target="_blank" rel="noopener" style="display:none;">
-          📍 Open in Maps
+          <svg class="pi" width="12" height="12" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z" fill="currentColor" fill-opacity=".13"/><path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z"/><circle cx="22" cy="17.5" r="5"/></svg> Open in Maps
         </a>
       </div>
       <div class="redraw-row">
-        <button class="btn-redraw" id="redraw-btn" onclick="redrawCard()">↺ Redraw</button>
+        <button class="btn-redraw" id="redraw-btn" onclick="redrawCard()"><svg class="pi" width="12" height="12" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 10 L9 19 L18 19" fill="none"/><path d="M10 18 C13 11 21 7 28.5 9.5 C36.5 12.2 40.5 21 37.8 29 C35.1 37 26.3 41 18.3 38.3 C13.5 36.7 10.2 33 9 28.5" fill="none"/></svg> Redraw</button>
         <span class="redraw-cost" id="redraw-cost-label">−2 Spark · 1 Token</span>
       </div>
       <div class="card-actions">
@@ -2472,7 +2496,7 @@
     <input type="file" id="proof-input" accept="image/*" capture="environment" style="display:none;" onchange="handlePhotoUpload(event)">
     <div class="proof-area" id="proof-area" onclick="document.getElementById('proof-input').click()">
       <div class="proof-placeholder" id="proof-placeholder">
-        <div class="proof-placeholder-icon">📸</div>
+        <div class="proof-placeholder-icon"><svg class="pi" width="26" height="26" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14 Q4 10 8 10 L14 10 L17 5 L27 5 L30 10 L36 10 Q40 10 40 14 L40 33 Q40 37 36 37 L8 37 Q4 37 4 33 Z" fill="currentColor" fill-opacity=".12"/><path d="M4 14 Q4 10 8 10 L14 10 L17 5 L27 5 L30 10 L36 10 Q40 10 40 14 L40 33 Q40 37 36 37 L8 37 Q4 37 4 33 Z"/><circle cx="22" cy="23" r="8"/></svg></div>
         <div class="proof-placeholder-text">Tap to add photo</div>
       </div>
       <img class="proof-img" id="proof-img" style="display:none;" alt="Proof photo">
@@ -2552,7 +2576,7 @@
     <div class="pack-search-wrap">
       <input id="pack-search" type="search" placeholder="Search cities…" oninput="filterPacks(this.value)" autocomplete="off" autocorrect="off" spellcheck="false">
     </div>
-    <button id="nearby-btn" onclick="findNearby()">📍 Nearby</button>
+    <button id="nearby-btn" onclick="findNearby()"><svg class="pi" width="12" height="12" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z" fill="currentColor" fill-opacity=".13"/><path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z"/><circle cx="22" cy="17.5" r="5"/></svg> Nearby</button>
   </div>
 
   <div id="pack-options"></div>
@@ -2576,17 +2600,17 @@
       <div class="rules-section-title">The Game</div>
       <div class="rules-loop">
         <div class="rules-loop-step">
-          <div class="rules-loop-icon">🎱</div>
+          <div class="rules-loop-icon"><svg class="pi" width="22" height="22" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></div>
           <div class="rules-loop-label">Draw</div>
         </div>
         <div class="rules-loop-arrow">›</div>
         <div class="rules-loop-step">
-          <div class="rules-loop-icon">✅</div>
+          <div class="rules-loop-icon" style="color:#4dd87f;"><svg class="pi" width="18" height="18" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 24 L18 34 L36 11"/></svg></div>
           <div class="rules-loop-label">Commit</div>
         </div>
         <div class="rules-loop-arrow">›</div>
         <div class="rules-loop-step">
-          <div class="rules-loop-icon">⚡</div>
+          <div class="rules-loop-icon" style="color:#f0e6cc;"><svg class="pi" width="18" height="18" viewBox="0 0 44 44" fill="none" aria-hidden="true"><path d="M22 3 C24.2 14.5 29.5 19.8 41 22 C29.5 24.2 24.2 29.5 22 41 C19.8 29.5 14.5 24.2 3 22 C14.5 19.8 19.8 14.5 22 3 Z" fill="currentColor"/><circle cx="35.5" cy="8.5" r="2.6" fill="currentColor"/></svg></div>
           <div class="rules-loop-label">Spark</div>
         </div>
       </div>
@@ -2637,17 +2661,17 @@
         <div class="rules-rarity-row">
           <div class="rules-rarity-badge" style="background:rgba(61,153,112,0.15);color:#3d9970;border:1px solid rgba(61,153,112,0.3);">Common</div>
           <div class="rules-rarity-odds">6× draw odds</div>
-          <div class="rules-rarity-spark">+15 ⚡</div>
+          <div class="rules-rarity-spark">+15 <span class="spark-glyph"></span></div>
         </div>
         <div class="rules-rarity-row">
           <div class="rules-rarity-badge" style="background:rgba(232,168,77,0.15);color:#e8a84d;border:1px solid rgba(232,168,77,0.3);">Rare</div>
           <div class="rules-rarity-odds">3× draw odds</div>
-          <div class="rules-rarity-spark">+25 ⚡</div>
+          <div class="rules-rarity-spark">+25 <span class="spark-glyph"></span></div>
         </div>
         <div class="rules-rarity-row">
           <div class="rules-rarity-badge" style="background:rgba(240,230,204,0.12);color:#f0e6cc;border:1px solid rgba(240,230,204,0.25);">Legendary</div>
           <div class="rules-rarity-odds">1× draw odds</div>
-          <div class="rules-rarity-spark">+40 ⚡</div>
+          <div class="rules-rarity-spark">+40 <span class="spark-glyph"></span></div>
         </div>
       </div>
       <div class="rules-text" style="margin-top:10px;">
@@ -2670,44 +2694,44 @@
       <div class="rules-text" style="margin-bottom:10px;">Your accumulated Spark determines your <strong>Poul Type</strong> — an honest read on how spontaneous you actually are.</div>
       <div class="rules-type-list">
         <div class="rules-type-row">
-          <div class="rules-type-emoji">🔥</div>
+          <div class="rules-type-emoji" data-type="igniter"></div>
           <div class="rules-type-info">
             <div class="rules-type-name">The Igniter</div>
             <div class="rules-type-sub">Always says yes</div>
           </div>
-          <div class="rules-type-threshold">200+ ⚡</div>
+          <div class="rules-type-threshold">200+ <span class="spark-glyph"></span></div>
         </div>
         <div class="rules-type-row">
-          <div class="rules-type-emoji">🌊</div>
+          <div class="rules-type-emoji" data-type="drifter"></div>
           <div class="rules-type-info">
             <div class="rules-type-name">The Drifter</div>
             <div class="rules-type-sub">Goes with the flow</div>
           </div>
-          <div class="rules-type-threshold">100+ ⚡</div>
+          <div class="rules-type-threshold">100+ <span class="spark-glyph"></span></div>
         </div>
         <div class="rules-type-row">
-          <div class="rules-type-emoji">🎲</div>
+          <div class="rules-type-emoji" data-type="wildcard"></div>
           <div class="rules-type-info">
             <div class="rules-type-name">The Wildcard</div>
             <div class="rules-type-sub">Impossible to predict</div>
           </div>
-          <div class="rules-type-threshold">50+ ⚡</div>
+          <div class="rules-type-threshold">50+ <span class="spark-glyph"></span></div>
         </div>
         <div class="rules-type-row">
-          <div class="rules-type-emoji">🗺️</div>
+          <div class="rules-type-emoji" data-type="planner"></div>
           <div class="rules-type-info">
             <div class="rules-type-name">The Planner in Disguise</div>
             <div class="rules-type-sub">Selective spontaneity</div>
           </div>
-          <div class="rules-type-threshold">20+ ⚡</div>
+          <div class="rules-type-threshold">20+ <span class="spark-glyph"></span></div>
         </div>
         <div class="rules-type-row">
-          <div class="rules-type-emoji">🧊</div>
+          <div class="rules-type-emoji" data-type="iceblock"></div>
           <div class="rules-type-info">
             <div class="rules-type-name">The Ice Block</div>
             <div class="rules-type-sub">The pool has receipts</div>
           </div>
-          <div class="rules-type-threshold">0+ ⚡</div>
+          <div class="rules-type-threshold">0+ <span class="spark-glyph"></span></div>
         </div>
       </div>
     </div>
@@ -2720,17 +2744,17 @@
         <div class="rules-milestone">
           <div class="rules-milestone-days">3</div>
           <div class="rules-milestone-label">Days</div>
-          <div class="rules-milestone-reward">+25 ⚡</div>
+          <div class="rules-milestone-reward">+25 <span class="spark-glyph"></span></div>
         </div>
         <div class="rules-milestone">
           <div class="rules-milestone-days">7</div>
           <div class="rules-milestone-label">Days</div>
-          <div class="rules-milestone-reward">+50 ⚡</div>
+          <div class="rules-milestone-reward">+50 <span class="spark-glyph"></span></div>
         </div>
         <div class="rules-milestone">
           <div class="rules-milestone-days">30</div>
           <div class="rules-milestone-label">Days</div>
-          <div class="rules-milestone-reward">+100 ⚡</div>
+          <div class="rules-milestone-reward">+100 <span class="spark-glyph"></span></div>
         </div>
       </div>
     </div>
@@ -2770,7 +2794,7 @@
 
 <!-- ── INSTALL PROMPT ── -->
 <div class="install-prompt" id="install-prompt">
-  <div class="install-prompt-icon">🎱</div>
+  <div class="install-prompt-icon"><svg class="pi" width="30" height="30" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></div>
   <div class="install-prompt-text">
     <div class="install-prompt-title" id="install-prompt-title">Add Poul to Home Screen</div>
     <div class="install-prompt-sub" id="install-prompt-sub">Play offline, anytime.</div>
@@ -2861,10 +2885,10 @@ function isCardInSeason(card) {
 
 function getSeasonInfo() {
   const m = new Date().getMonth();
-  if (m >= 5 && m <= 8) return { emoji: '☀️', label: 'Summer' };
-  if (m === 4)           return { emoji: '☀️', label: 'Late Spring' };
-  if (m === 9)           return { emoji: '🍂', label: 'Fall' };
-  return { emoji: '❄️', label: 'Cool Season' };
+  if (m >= 5 && m <= 8) return { icon: 'sun', label: 'Summer' };
+  if (m === 4)           return { icon: 'sun', label: 'Late Spring' };
+  if (m === 9)           return { icon: 'leaf', label: 'Fall' };
+  return { icon: 'snow', label: 'Cool Season' };
 }
 
 // ──────────────────────────────────────────
@@ -2973,10 +2997,10 @@ function clearFilters() {
 // These four each return cards across all packs in-season; the only intentional
 // dead-end is Date Night on workout/outdoor categories (no evening cards there).
 const VIBES = {
-  date:  { label: 'Date Night', icon: '🌙', f: { cost: [],    time: ['Evening'],               duration: [] } },
-  cheap: { label: 'Under $20',  icon: '💸', f: { cost: ['$'], time: [],                        duration: [] } },
-  quick: { label: 'Quick Hit',  icon: '⚡', f: { cost: [],    time: [],                        duration: ['120'] } },
-  day:   { label: 'Day Out',    icon: '☀️', f: { cost: [],    time: ['Morning', 'Afternoon'],  duration: [] } },
+  date:  { label: 'Date Night', icon: 'moon', f: { cost: [],    time: ['Evening'],               duration: [] } },
+  cheap: { label: 'Under $20',  icon: 'tag',  f: { cost: ['$'], time: [],                        duration: [] } },
+  quick: { label: 'Quick Hit',  icon: 'bolt', f: { cost: [],    time: [],                        duration: ['120'] } },
+  day:   { label: 'Day Out',    icon: 'sun',  f: { cost: [],    time: ['Morning', 'Afternoon'],  duration: [] } },
 };
 
 function vibeMatches(v) {
@@ -2992,7 +3016,7 @@ function applyVibe(key) {
     showToast('Vibe cleared');
   } else {
     filters = { cost: [...v.f.cost], time: [...v.f.time], duration: [...v.f.duration] };
-    showToast(v.icon + ' ' + v.label + ' vibe');
+    showToast(v.label + ' vibe on');
   }
   pendingFilters = { cost: [...filters.cost], time: [...filters.time], duration: [...filters.duration] };
   updateHomeUI();
@@ -3004,7 +3028,7 @@ function renderVibes() {
   row.innerHTML = Object.keys(VIBES).map(k => {
     const v = VIBES[k];
     const active = countActiveFilters() > 0 && vibeMatches(v);
-    return `<button class="vibe-chip${active ? ' active' : ''}" onclick="applyVibe('${k}')">${v.icon} ${v.label}</button>`;
+    return `<button class="vibe-chip${active ? ' active' : ''}" onclick="applyVibe('${k}')">${icon(v.icon, '12px')} ${v.label}</button>`;
   }).join('');
 }
 
@@ -3014,16 +3038,18 @@ const RARITY_WEIGHTS = { Common: 6, Rare: 3, Legendary: 1 };
 // ──────────────────────────────────────────
 // POUL TYPES
 // ──────────────────────────────────────────
+// `key` drives the SVG emblem (TYPE_EMBLEMS); `emoji` survives ONLY for the
+// plain-text Web Share / clipboard string — never rendered in the UI.
 const POUL_TYPES = [
-  { min: 200, emoji: '🔥', name: 'The Igniter', sub: 'Always says yes' },
-  { min: 100, emoji: '🌊', name: 'The Drifter', sub: 'Goes with the flow' },
-  { min: 50,  emoji: '🎲', name: 'The Wildcard', sub: 'Impossible to predict' },
-  { min: 20,  emoji: '🗺️', name: 'The Planner in Disguise', sub: 'Selective spontaneity' },
-  { min: 0,   emoji: '🧊', name: 'The Ice Block', sub: 'The pool has receipts' },
+  { min: 200, key: 'igniter',  emoji: '🔥', name: 'The Igniter', sub: 'Always says yes' },
+  { min: 100, key: 'drifter',  emoji: '🌊', name: 'The Drifter', sub: 'Goes with the flow' },
+  { min: 50,  key: 'wildcard', emoji: '🎲', name: 'The Wildcard', sub: 'Impossible to predict' },
+  { min: 20,  key: 'planner',  emoji: '🗺️', name: 'The Planner in Disguise', sub: 'Selective spontaneity' },
+  { min: 0,   key: 'iceblock', emoji: '🧊', name: 'The Ice Block', sub: 'The pool has receipts' },
 ];
 
 // Behavior-based type (not a Spark threshold): plays plenty but rarely commits.
-const GHOST_TYPE = { emoji: '👻', name: 'The Ghost', sub: 'Joins sessions, never commits' };
+const GHOST_TYPE = { key: 'ghost', emoji: '👻', name: 'The Ghost', sub: 'Joins sessions, never commits' };
 
 // ──────────────────────────────────────────
 // RESULT MESSAGES
@@ -3189,6 +3215,109 @@ function escHtml(str) {
 }
 
 // ──────────────────────────────────────────
+// ICON SYSTEM
+// All UI glyphs are inline SVG on a 44×44 grid — duotone language: rounded
+// strokes + faint currentColor fills. Everything inherits color from its
+// container (currentColor), so existing CSS color rules keep working.
+// Emoji survive ONLY in plain-text contexts (Web Share / clipboard text).
+// ──────────────────────────────────────────
+const ICONS = {
+  pin: '<path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z" fill="currentColor" fill-opacity=".13"/><path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z"/><circle cx="22" cy="17.5" r="5"/>',
+  camera: '<path d="M4 14 Q4 10 8 10 L14 10 L17 5 L27 5 L30 10 L36 10 Q40 10 40 14 L40 33 Q40 37 36 37 L8 37 Q4 37 4 33 Z" fill="currentColor" fill-opacity=".12"/><path d="M4 14 Q4 10 8 10 L14 10 L17 5 L27 5 L30 10 L36 10 Q40 10 40 14 L40 33 Q40 37 36 37 L8 37 Q4 37 4 33 Z"/><circle cx="22" cy="23" r="8"/>',
+  sliders: '<line x1="6" y1="12" x2="38" y2="12"/><line x1="6" y1="22" x2="38" y2="22"/><line x1="6" y1="32" x2="38" y2="32"/><circle cx="16" cy="12" r="4" fill="#131613"/><circle cx="28" cy="22" r="4" fill="#131613"/><circle cx="20" cy="32" r="4" fill="#131613"/>',
+  search: '<circle cx="19" cy="19" r="12" fill="currentColor" fill-opacity=".1"/><circle cx="19" cy="19" r="12"/><line x1="28.5" y1="28.5" x2="39" y2="39"/>',
+  fork: '<line x1="13" y1="5" x2="13" y2="18"/><line x1="20" y1="5" x2="20" y2="18"/><line x1="27" y1="5" x2="27" y2="18"/><path d="M13 18 Q13 25 20 26 Q27 25 27 18" fill="none"/><line x1="20" y1="26" x2="20" y2="39"/>',
+  ticket: '<path d="M5 14 Q5 11 8 11 L36 11 Q39 11 39 14 L39 18 Q35 19 35 22 Q35 25 39 26 L39 30 Q39 33 36 33 L8 33 Q5 33 5 30 L5 26 Q9 25 9 22 Q9 19 5 18 Z" fill="currentColor" fill-opacity=".12"/><path d="M5 14 Q5 11 8 11 L36 11 Q39 11 39 14 L39 18 Q35 19 35 22 Q35 25 39 26 L39 30 Q39 33 36 33 L8 33 Q5 33 5 30 L5 26 Q9 25 9 22 Q9 19 5 18 Z"/><line x1="17" y1="15" x2="17" y2="17"/><line x1="17" y1="21" x2="17" y2="23"/><line x1="17" y1="27" x2="17" y2="29"/>',
+  thumbup: '<path d="M13 20 L20 6 Q24 6 24 11 L23 17 L34 17 Q38 17 37 21 L34 34 Q33 37 30 37 L13 37 Z" fill="currentColor" fill-opacity=".12"/><path d="M13 20 L20 6 Q24 6 24 11 L23 17 L34 17 Q38 17 37 21 L34 34 Q33 37 30 37 L13 37 Z"/><line x1="13" y1="20" x2="7" y2="20"/><line x1="7" y1="20" x2="7" y2="37"/><line x1="7" y1="37" x2="13" y2="37"/>',
+  thumbdown: '<path d="M31 24 L24 38 Q20 38 20 33 L21 27 L10 27 Q6 27 7 23 L10 10 Q11 7 14 7 L31 7 Z" fill="currentColor" fill-opacity=".12"/><path d="M31 24 L24 38 Q20 38 20 33 L21 27 L10 27 Q6 27 7 23 L10 10 Q11 7 14 7 L31 7 Z"/><line x1="31" y1="24" x2="37" y2="24"/><line x1="37" y1="24" x2="37" y2="7"/><line x1="37" y1="7" x2="31" y2="7"/>',
+  check: '<path d="M8 24 L18 34 L36 11"/>',
+  xmark: '<line x1="11" y1="11" x2="33" y2="33"/><line x1="33" y1="11" x2="11" y2="33"/>',
+  star: '<path d="M22 4 L27.2 15.6 L39.8 17 L30.4 25.6 L33 38 L22 31.6 L11 38 L13.6 25.6 L4.2 17 L16.8 15.6 Z" fill="currentColor" stroke="none"/>',
+  spark: '<path d="M22 3 C24.2 14.5 29.5 19.8 41 22 C29.5 24.2 24.2 29.5 22 41 C19.8 29.5 14.5 24.2 3 22 C14.5 19.8 19.8 14.5 22 3 Z" fill="currentColor" stroke="none"/><circle cx="35.5" cy="8.5" r="2.6" fill="currentColor" stroke="none"/>',
+  flame: '<path d="M22 3 C23 11 30 14.5 33 21 C36 27.5 34 36 26.5 39.5 C28 36 27 32.5 24.5 30.5 C25 34 23 36.5 20 38 C13 41 6.5 34 8 26 C9 20.5 13.5 17.5 15.5 12.5 C17 15.5 16.5 18 15.5 20.5 C19.5 18 22.5 11 22 3 Z" fill="currentColor" stroke="none"/>',
+  moon: '<path d="M36 27 C33 28.5 29 28.5 25.5 26.5 C19.5 23 17.5 15.5 21 9.5 C22 7.8 23.3 6.4 24.8 5.4 C17 5 9.5 10.6 8.2 18.8 C6.8 27.7 12.9 36 21.8 37.4 C28 38.4 33.9 35.6 37.2 30.8 Z" fill="currentColor" fill-opacity=".13"/><path d="M36 27 C33 28.5 29 28.5 25.5 26.5 C19.5 23 17.5 15.5 21 9.5 C22 7.8 23.3 6.4 24.8 5.4 C17 5 9.5 10.6 8.2 18.8 C6.8 27.7 12.9 36 21.8 37.4 C28 38.4 33.9 35.6 37.2 30.8 Z"/>',
+  tag: '<path d="M22.5 5 L37 5 Q39 5 39 7 L39 21.5 L22.5 38 Q21 39.5 19.5 38 L6 24.5 Q4.5 23 6 21.5 Z" fill="currentColor" fill-opacity=".12"/><path d="M22.5 5 L37 5 Q39 5 39 7 L39 21.5 L22.5 38 Q21 39.5 19.5 38 L6 24.5 Q4.5 23 6 21.5 Z"/><circle cx="31" cy="13" r="3"/>',
+  bolt: '<path d="M26 4 L11 25 L20 25 L16 40 L34 19 L25 19 Z" fill="currentColor" fill-opacity=".13"/><path d="M26 4 L11 25 L20 25 L16 40 L34 19 L25 19 Z"/>',
+  sun: '<circle cx="22" cy="22" r="9" fill="currentColor" fill-opacity=".15"/><circle cx="22" cy="22" r="9"/><line x1="22" y1="3" x2="22" y2="8"/><line x1="22" y1="36" x2="22" y2="41"/><line x1="3" y1="22" x2="8" y2="22"/><line x1="36" y1="22" x2="41" y2="22"/><line x1="8.6" y1="8.6" x2="12.1" y2="12.1"/><line x1="31.9" y1="31.9" x2="35.4" y2="35.4"/><line x1="8.6" y1="35.4" x2="12.1" y2="31.9"/><line x1="31.9" y1="12.1" x2="35.4" y2="8.6"/>',
+  leaf: '<path d="M37 7 C22 7 9 13 8 28 C7.6 34 10 37 10 37 C10 37 11.5 31 17 27 C14 32 14.5 36.5 14.5 36.5 C25 38 36 30 37 7 Z" fill="currentColor" fill-opacity=".13"/><path d="M37 7 C22 7 9 13 8 28 C7.6 34 10 37 10 37 C10 37 11.5 31 17 27 C14 32 14.5 36.5 14.5 36.5 C25 38 36 30 37 7 Z"/><path d="M13 32 C19 24 27 17 33 12" stroke-opacity=".55" stroke-width="2"/>',
+  snow: '<line x1="22" y1="4" x2="22" y2="40"/><line x1="6.4" y1="13" x2="37.6" y2="31"/><line x1="6.4" y1="31" x2="37.6" y2="13"/><path d="M17 7 L22 11 L27 7" fill="none"/><path d="M17 37 L22 33 L27 37" fill="none"/><path d="M8 19.5 L13.5 18 L14.5 12" fill="none" stroke-opacity=".7"/><path d="M36 24.5 L30.5 26 L29.5 32" fill="none" stroke-opacity=".7"/>',
+  rotate: '<path d="M9 10 L9 19 L18 19" fill="none"/><path d="M10 18 C13 11 21 7 28.5 9.5 C36.5 12.2 40.5 21 37.8 29 C35.1 37 26.3 41 18.3 38.3 C13.5 36.7 10.2 33 9 28.5" fill="none"/>',
+};
+
+function icon(name, size, style) {
+  return '<svg class="pi" width="' + (size || '1em') + '" height="' + (size || '1em') + '" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"' + (style ? ' style="' + style + '"' : '') + '>' + (ICONS[name] || '') + '</svg>';
+}
+
+// Mini pool ball — shares the document-wide #pbg gradient
+function ballIcon(size) {
+  return '<svg class="pi" width="' + size + '" height="' + size + '" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="\'Playfair Display\', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg>';
+}
+
+// ── PACK LANDMARK MARKS ──
+// One hand-drawn mark per city pack, all in felt green so every deck reads
+// as part of the same table. New pack → add a mark here (falls back to a pin).
+const PACK_MARKS = {
+  phoenix: '<path d="M22 40 L22 12 Q22 6 17.5 6 Q13 6 13 12 L13 14" fill="none"/><path d="M22 26 L28 26 Q31 26 31 22 L31 18" fill="none"/><path d="M22 32 L16 32 Q13 32 13 28 L13 26" fill="none"/><path d="M9 40 L35 40" stroke-opacity=".5"/>',
+  nyc: '<path d="M22 4 C24 8 27 9.5 27 13 A5 5 0 0 1 17 13 C17 9.5 20 8 22 4 Z" fill="currentColor" fill-opacity=".18"/><path d="M22 4 C24 8 27 9.5 27 13 A5 5 0 0 1 17 13 C17 9.5 20 8 22 4 Z"/><path d="M15 20 Q22 17 29 20" fill="none"/><path d="M18 20 L18 36 Q18 40 22 40 Q26 40 26 36 L26 20" fill="none"/><line x1="14" y1="40" x2="30" y2="40" stroke-opacity=".5"/>',
+  istanbul: '<path d="M10 24 Q10 15 19 12 Q28 15 28 24 Z" fill="currentColor" fill-opacity=".15"/><path d="M10 24 Q10 15 19 12 Q28 15 28 24" fill="none"/><line x1="19" y1="12" x2="19" y2="8"/><circle cx="19" cy="6.5" r="1.4" fill="currentColor" stroke="none"/><line x1="7" y1="24" x2="31" y2="24"/><path d="M36 40 L36 12 L34 8 L38 8 Z" fill="currentColor" fill-opacity=".15"/><path d="M36 40 L36 12 M34 8 L36 4 L38 8 L36 12 L34 8" fill="none" stroke-width="2.2"/><line x1="8" y1="40" x2="31" y2="40" stroke-opacity=".5"/><path d="M10 24 L10 40 M28 24 L28 40" fill="none" stroke-opacity=".7"/>',
+  brussels: '<path d="M11 10 L29 10 L27 40 L13 40 Z" fill="currentColor" fill-opacity=".13"/><path d="M11 10 L29 10 L27 40 L13 40 Z" fill="none"/><path d="M29 14 L34 14 Q37 14 37 18 L37 24 Q37 28 34 28 L28 28" fill="none" stroke-width="2.4"/><path d="M9 10 Q9 5.5 14 6.5 Q15 3.5 19 4.5 Q21 2 24.5 3.5 Q28 3 28.5 6 Q32 6.5 31 10" fill="currentColor" fill-opacity=".3"/><path d="M9 10 Q9 5.5 14 6.5 Q15 3.5 19 4.5 Q21 2 24.5 3.5 Q28 3 28.5 6 Q32 6.5 31 10" fill="none"/><line x1="15" y1="16" x2="15.7" y2="34" stroke-opacity=".45" stroke-width="2.2"/>',
+  hamptons: '<path d="M22 6 C10 6 5 16 5 24 Q13 18 22 24 Q31 18 39 24 C39 16 34 6 22 6 Z" fill="currentColor" fill-opacity=".15"/><path d="M22 6 C10 6 5 16 5 24 Q13 18 22 24 Q31 18 39 24 C39 16 34 6 22 6 Z"/><line x1="22" y1="6" x2="22" y2="24"/><line x1="22" y1="24" x2="22" y2="38"/><path d="M22 38 Q26 38 27 34" fill="none"/>',
+  paris: '<path d="M22 4 C24 14 27 22 34 32 L30 32 C27 24 24 20 22 20 C20 20 17 24 14 32 L10 32 C17 22 20 14 22 4 Z" fill="currentColor" fill-opacity=".14"/><path d="M22 4 C24 14 27 22 34 32 L30 32 C27 24 24 20 22 20 C20 20 17 24 14 32 L10 32 C17 22 20 14 22 4 Z"/><path d="M12 38 Q22 30 32 38" fill="none"/><line x1="17" y1="26" x2="27" y2="26" stroke-opacity=".6" stroke-width="2.2"/>',
+  oslo: '<path d="M4 34 L14 12 L21 24 L27 15 L40 34 Z" fill="currentColor" fill-opacity=".14"/><path d="M4 34 L14 12 L21 24 L27 15 L40 34" fill="none"/><path d="M14 12 L16.5 16.5 M27 15 L29.5 19.5" stroke-opacity=".6" stroke-width="2.2"/><path d="M6 40 Q11 37.5 16 40 Q21 42.5 26 40 Q31 37.5 36 40" fill="none" stroke-opacity=".7"/>',
+  baltimore: '<ellipse cx="22" cy="27" rx="11" ry="8" fill="currentColor" fill-opacity=".15"/><ellipse cx="22" cy="27" rx="11" ry="8"/><path d="M14 21 Q9 17 10 11 Q15 12 17 17" fill="none"/><path d="M30 21 Q35 17 34 11 Q29 12 27 17" fill="none"/><path d="M12 31 L6 34 M13.5 34.5 L9 39 M32 31 L38 34 M30.5 34.5 L35 39" stroke-width="2.2"/><circle cx="18" cy="25" r="1.5" fill="currentColor" stroke="none"/><circle cx="26" cy="25" r="1.5" fill="currentColor" stroke="none"/>',
+  'ocean-city': '<path d="M6 34 C10 30 10 22 7 18 C16 18 20 24 20 30 C22 20 18 10 10 6 C24 7 32 17 30 30 Q35 27 38 22 C39 31 33 38 24 38 L6 38 Z" fill="currentColor" fill-opacity=".15"/><path d="M6 34 C10 30 10 22 7 18 C16 18 20 24 20 30 C22 20 18 10 10 6 C24 7 32 17 30 30 Q35 27 38 22 C39 31 33 38 24 38 L6 38 Z"/>',
+  dc: '<path d="M19 36 L20 10 L22 4 L24 10 L25 36 Z" fill="currentColor" fill-opacity=".15"/><path d="M19 36 L20 10 L22 4 L24 10 L25 36 Z"/><line x1="12" y1="36" x2="32" y2="36"/><line x1="14" y1="40" x2="30" y2="40" stroke-opacity=".5"/>',
+  'thousand-islands': '<path d="M21 6 L21 26 M21 8 L33 26 L21 26 M21 12 L11 26 L21 26" fill="none"/><path d="M21 8 L33 26 L21 26 Z" fill="currentColor" fill-opacity=".15"/><path d="M7 32 L37 32 L33 38 L11 38 Z" fill="currentColor" fill-opacity=".15"/><path d="M7 32 L37 32 L33 38 L11 38 Z"/>',
+  belleville: '<path d="M13 5 L31 5 C31 14 28 19 24 20.5 L24 32 L30 36 L30 38 L14 38 L14 36 L20 32 L20 20.5 C16 19 13 14 13 5 Z" fill="currentColor" fill-opacity=".13"/><path d="M13 5 L31 5 C31 14 28 19 24 20.5 L24 32 L30 36 L30 38 L14 38 L14 36 L20 32 L20 20.5 C16 19 13 14 13 5 Z"/><path d="M14 11 Q22 15 30 11" fill="none" stroke-opacity=".6" stroke-width="2.2"/>',
+  'world-cup-2026': '<circle cx="22" cy="22" r="17" fill="currentColor" fill-opacity=".1"/><circle cx="22" cy="22" r="17"/><path d="M22 14 L28.5 18.5 L26 26 L18 26 L15.5 18.5 Z" fill="currentColor" fill-opacity=".35"/><path d="M22 14 L28.5 18.5 L26 26 L18 26 L15.5 18.5 Z"/><path d="M22 14 L22 5.5 M28.5 18.5 L36.5 15.5 M26 26 L31 33 M18 26 L13 33 M15.5 18.5 L7.5 15.5" stroke-width="2.2"/>',
+  sedona: '<path d="M4 36 L4 30 L9 30 L9 24 L16 24 L16 16 L21 12 L26 16 L26 24 L33 24 L33 29 L40 29 L40 36 Z" fill="currentColor" fill-opacity=".15"/><path d="M4 36 L4 30 L9 30 L9 24 L16 24 L16 16 L21 12 L26 16 L26 24 L33 24 L33 29 L40 29 L40 36 Z"/><line x1="4" y1="40" x2="40" y2="40" stroke-opacity=".5"/>',
+  flagstaff: '<path d="M22 4 L31 16 L27 16 L34 26 L29 26 L37 37 L7 37 L15 26 L10 26 L17 16 L13 16 Z" fill="currentColor" fill-opacity=".15"/><path d="M22 4 L31 16 L27 16 L34 26 L29 26 L37 37 L7 37 L15 26 L10 26 L17 16 L13 16 Z"/><line x1="22" y1="37" x2="22" y2="41"/>',
+  tokyo: '<path d="M6 12 Q22 8 38 12 M9 12 L9 8 M35 12 L35 8" fill="none"/><line x1="12" y1="12" x2="13" y2="38"/><line x1="32" y1="12" x2="31" y2="38"/><line x1="10.5" y1="22" x2="33.5" y2="22"/><path d="M6 12 Q22 8.5 38 12 L38 9 Q22 5.5 6 9 Z" fill="currentColor" fill-opacity=".2"/>',
+  bangkok: '<path d="M22 3 L23.5 10 L20.5 10 Z" fill="currentColor"/><path d="M20 10 L24 10 L26 18 L18 18 Z" fill="currentColor" fill-opacity=".2"/><path d="M20 10 L24 10 L26 18 L18 18 Z"/><path d="M16 18 L28 18 L31 30 L13 30 Z" fill="currentColor" fill-opacity=".15"/><path d="M16 18 L28 18 L31 30 L13 30 Z"/><path d="M9 36 L35 36 M11 30 L11 36 M33 30 L33 36 M22 30 L22 36" stroke-opacity=".7" stroke-width="2.2"/>',
+  turkey: '<path d="M22 4 C31 4 36 10.5 36 17.5 C36 25 29 29 25.5 32 L18.5 32 C15 29 8 25 8 17.5 C8 10.5 13 4 22 4 Z" fill="currentColor" fill-opacity=".14"/><path d="M22 4 C31 4 36 10.5 36 17.5 C36 25 29 29 25.5 32 L18.5 32 C15 29 8 25 8 17.5 C8 10.5 13 4 22 4 Z"/><path d="M17 33 L27 33 L25.5 39 L18.5 39 Z" fill="currentColor" fill-opacity=".3"/><path d="M17 33 L27 33 L25.5 39 L18.5 39 Z"/><path d="M15 5.5 C13 12 13 24 16.5 31.5 M29 5.5 C31 12 31 24 27.5 31.5" fill="none" stroke-opacity=".55" stroke-width="2"/>',
+  norway: '<path d="M5 10 L13 10 L13 26 Q13 34 22 34 Q31 34 31 26 L31 10 L39 10" fill="none"/><path d="M13 10 L13 26 Q13 34 22 34 Q31 34 31 26 L31 10" fill="currentColor" fill-opacity=".12"/><path d="M6 40 Q11 37.5 16 40 Q21 42.5 26 40 Q31 37.5 36 40" fill="none" stroke-opacity=".7"/>',
+  'los-angeles': '<path d="M22 5 L26.3 15.4 L37.5 16.3 L29 23.7 L31.6 34.7 L22 28.8 L12.4 34.7 L15 23.7 L6.5 16.3 L17.7 15.4 Z" fill="currentColor" fill-opacity=".16"/><path d="M22 5 L26.3 15.4 L37.5 16.3 L29 23.7 L31.6 34.7 L22 28.8 L12.4 34.7 L15 23.7 L6.5 16.3 L17.7 15.4 Z"/><line x1="8" y1="40" x2="36" y2="40" stroke-opacity=".5"/>',
+  chicago: '<path d="M16 40 L16 10 L28 10 L28 40" fill="currentColor" fill-opacity=".12"/><path d="M16 40 L16 10 L28 10 L28 40" fill="none"/><path d="M12 40 L12 20 L16 20 M28 20 L32 20 L32 40" fill="none"/><line x1="19.5" y1="10" x2="19.5" y2="4"/><line x1="24.5" y1="10" x2="24.5" y2="4"/><line x1="8" y1="40" x2="36" y2="40" stroke-opacity=".5"/><path d="M18.5 16 L25.5 16 M18.5 22 L25.5 22 M18.5 28 L25.5 28 M18.5 34 L25.5 34" stroke-opacity=".45" stroke-width="1.8"/>',
+  'las-vegas': '<rect x="10" y="10" width="24" height="24" rx="6" transform="rotate(-8 22 22)" fill="currentColor" fill-opacity=".13"/><rect x="10" y="10" width="24" height="24" rx="6" transform="rotate(-8 22 22)"/><circle cx="15.5" cy="17.5" r="2.4" fill="currentColor" stroke="none" transform="rotate(-8 22 22)"/><circle cx="22" cy="22" r="2.4" fill="currentColor" stroke="none" transform="rotate(-8 22 22)"/><circle cx="28.5" cy="26.5" r="2.4" fill="currentColor" stroke="none" transform="rotate(-8 22 22)"/><path d="M36 4 L37.2 7 L40 8 L37.2 9 L36 12 L34.8 9 L32 8 L34.8 7 Z" fill="currentColor" stroke="none"/>',
+  miami: '<path d="M19 40 C21 30 22 22 21 15" fill="none" stroke-width="3"/><path d="M21 15 C16 9 10 8 5 11 C10 13 15 14 21 15 Z" fill="currentColor" fill-opacity=".2"/><path d="M21 15 C16 9 10 8 5 11 C10 13 15 14 21 15 Z"/><path d="M21 15 C20 8 16 4 10 3 C13 7 16 11 21 15 Z" fill="currentColor" fill-opacity=".2"/><path d="M21 15 C20 8 16 4 10 3 C13 7 16 11 21 15 Z"/><path d="M21 15 C24 8 29 5 35 5 C31 9 26 13 21 15 Z" fill="currentColor" fill-opacity=".2"/><path d="M21 15 C24 8 29 5 35 5 C31 9 26 13 21 15 Z"/><path d="M21 15 C27 12 33 13 38 17 C32 18 26 17 21 15 Z" fill="currentColor" fill-opacity=".2"/><path d="M21 15 C27 12 33 13 38 17 C32 18 26 17 21 15 Z"/><circle cx="18" cy="18" r="1.6" fill="currentColor" stroke="none"/><line x1="8" y1="40" x2="34" y2="40" stroke-opacity=".5"/>',
+  'san-francisco': '<path d="M4 20 L40 20" stroke-opacity=".9"/><path d="M11 32 L11 8 M33 32 L33 8" fill="none"/><path d="M4 14 Q11 6 22 14 M22 14 Q33 6 40 14" fill="none" stroke-opacity="0"/><path d="M11 10 Q22 20 33 10" fill="none"/><path d="M4 12 L11 10 M33 10 L40 12" fill="none"/><path d="M17 20 L17 16.5 M22 20 L22 15 M27 20 L27 16.5" stroke-opacity=".6" stroke-width="2"/><path d="M4 38 Q13 35 22 38 Q31 41 40 38" fill="none" stroke-opacity=".6"/>',
+  seattle: '<path d="M22 4 L22 10" /><path d="M10 16 Q22 8 34 16 L28 20 L16 20 Z" fill="currentColor" fill-opacity=".18"/><path d="M10 16 Q22 8 34 16 L28 20 L16 20 Z"/><path d="M19 20 L17 40 M25 20 L27 40 M17.8 32 L26.2 32" fill="none"/><line x1="10" y1="40" x2="34" y2="40" stroke-opacity=".5"/>',
+  denver: '<path d="M4 34 L15 12 L22 24 L28 14 L40 34 Z" fill="currentColor" fill-opacity=".13"/><path d="M4 34 L15 12 L22 24 L28 14 L40 34" fill="none"/><path d="M12.2 17.5 L15 12 L17.8 17 L15.5 19.5 L13.8 17.8 Z" fill="currentColor" fill-opacity=".5"/><path d="M25.5 18 L28 14 L30.5 18.2 L28.2 20.5 Z" fill="currentColor" fill-opacity=".5"/>',
+  austin: '<path d="M22 8 C20 12 16 13 12 12 C14 15 14 18 12 21 C16 20 19 22 20 26 L24 26 C25 22 28 20 32 21 C30 18 30 15 32 12 C28 13 24 12 22 8 Z" fill="currentColor" fill-opacity=".16"/><path d="M22 8 C20 12 16 13 12 12 C14 15 14 18 12 21 C16 20 19 22 20 26 L24 26 C25 22 28 20 32 21 C30 18 30 15 32 12 C28 13 24 12 22 8 Z"/><path d="M20 26 L20 32 Q20 35 22 35 Q24 35 24 32 L24 26" fill="none" stroke-width="2.2"/><circle cx="18.5" cy="16" r="1.3" fill="currentColor" stroke="none"/><circle cx="25.5" cy="16" r="1.3" fill="currentColor" stroke="none"/>',
+  nashville: '<circle cx="16" cy="30" r="9" fill="currentColor" fill-opacity=".14"/><circle cx="16" cy="30" r="9"/><circle cx="16" cy="30" r="3.2" fill="none" stroke-width="2"/><path d="M22.5 23.5 L36 8" stroke-width="3.4"/><path d="M34 5 L39 10 M36.5 3.5 L40.5 7.5" stroke-width="2.2"/>',
+  'san-diego': '<path d="M22 3 C29 8 31 18 29.5 27 C28.5 33 25.5 38 22 41 C18.5 38 15.5 33 14.5 27 C13 18 15 8 22 3 Z" fill="currentColor" fill-opacity=".13"/><path d="M22 3 C29 8 31 18 29.5 27 C28.5 33 25.5 38 22 41 C18.5 38 15.5 33 14.5 27 C13 18 15 8 22 3 Z"/><line x1="22" y1="9" x2="22" y2="35" stroke-opacity=".5" stroke-width="2"/>',
+  'new-orleans': '<path d="M22 3 C25.5 8 26.5 14 23.5 20 L20.5 20 C17.5 14 18.5 8 22 3 Z" fill="currentColor" fill-opacity=".2"/><path d="M22 3 C25.5 8 26.5 14 23.5 20 L20.5 20 C17.5 14 18.5 8 22 3 Z"/><path d="M17.5 20 C11.5 19.5 7.5 14.5 8.5 9.5 C13.5 11.5 16.5 15 18.5 19.5 Z" fill="currentColor" fill-opacity=".2"/><path d="M17.5 20 C11.5 19.5 7.5 14.5 8.5 9.5 C13.5 11.5 16.5 15 18.5 19.5 Z"/><path d="M26.5 20 C32.5 19.5 36.5 14.5 35.5 9.5 C30.5 11.5 27.5 15 25.5 19.5 Z" fill="currentColor" fill-opacity=".2"/><path d="M26.5 20 C32.5 19.5 36.5 14.5 35.5 9.5 C30.5 11.5 27.5 15 25.5 19.5 Z"/><line x1="13" y1="24" x2="31" y2="24"/><path d="M19.5 27 C19.5 32 18 35.5 15.5 38 M24.5 27 C24.5 32 26 35.5 28.5 38 M22 27 L22 39" fill="none" stroke-width="2.4"/>',
+  _default: '<path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z" fill="currentColor" fill-opacity=".13"/><path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z"/><circle cx="22" cy="17.5" r="5"/>',
+};
+
+function packMark(id, size) {
+  return '<svg class="pi" width="' + size + '" height="' + size + '" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="color:#3d9970" aria-hidden="true">' + (PACK_MARKS[id] || PACK_MARKS._default) + '</svg>';
+}
+
+// ── POUL TYPE EMBLEMS ──
+// Collectible pool-hall medallions: dark sphere (shared #pbg gradient),
+// accent ring, type art, ivory-style highlight — echoes the 8-ball.
+const TYPE_EMBLEMS = {
+  igniter:  { c: '#e8694d', art: '<path d="M50 26 C52 36 62 41 65 51 C68.5 62 62 74 50 76 C38 74 31.5 62 35 51 C37 44.5 42 41 44 34 C46 38.5 45.5 42 44 46 C49 43 51 35 50 26 Z" fill="#e8694d" fill-opacity=".2"/><path d="M50 26 C52 36 62 41 65 51 C68.5 62 62 74 50 76 C38 74 31.5 62 35 51 C37 44.5 42 41 44 34 C46 38.5 45.5 42 44 46 C49 43 51 35 50 26 Z" stroke="#e8694d" stroke-width="4" stroke-linejoin="round" fill="none"/><path d="M50 76 C44 74 41 68 43.5 62.5 C45 59 48 57.5 50 54 C52 57.5 55 59 56.5 62.5 C59 68 56 74 50 76 Z" fill="#e8694d" fill-opacity=".55"/>' },
+  drifter:  { c: '#4dc8c8', art: '<path d="M28 46 Q35 36 43 44 Q51 52 58 44 Q64 37 72 43" fill="none" stroke="#4dc8c8" stroke-width="4.5" stroke-linecap="round"/><path d="M28 60 Q35 50 43 58 Q51 66 58 58 Q64 51 72 57" fill="none" stroke="#4dc8c8" stroke-width="4.5" stroke-linecap="round" stroke-opacity=".55"/>' },
+  wildcard: { c: '#a84de8', art: '<rect x="31" y="33" width="38" height="38" rx="9" fill="#a84de8" fill-opacity=".14" stroke="#a84de8" stroke-width="4"/><circle cx="41" cy="43" r="3.6" fill="#a84de8"/><circle cx="59" cy="43" r="3.6" fill="#a84de8"/><circle cx="50" cy="52" r="3.6" fill="#a84de8"/><circle cx="41" cy="61" r="3.6" fill="#a84de8"/><circle cx="59" cy="61" r="3.6" fill="#a84de8"/>' },
+  planner:  { c: '#e8a84d', art: '<circle cx="50" cy="52" r="23" fill="#e8a84d" fill-opacity=".1" stroke="#e8a84d" stroke-width="4"/><path d="M60 42 L54 56 L40 62 L46 48 Z" fill="#e8a84d" fill-opacity=".3" stroke="#e8a84d" stroke-width="3" stroke-linejoin="round"/><circle cx="50" cy="52" r="3" fill="#e8a84d"/>' },
+  iceblock: { c: '#7db8e8', art: '<path d="M50 28 L70 39 L70 61 L50 72 L30 61 L30 39 Z" fill="#7db8e8" fill-opacity=".12" stroke="#7db8e8" stroke-width="4" stroke-linejoin="round"/><path d="M30 39 L50 50 L70 39 M50 50 L50 72" fill="none" stroke="#7db8e8" stroke-width="3.2" stroke-linejoin="round"/><path d="M36 43.5 L44 48" stroke="#7db8e8" stroke-width="2.4" stroke-opacity=".6" stroke-linecap="round"/>' },
+  ghost:    { c: '#a0a898', art: '<path d="M50 27 C61 27 68 35.5 68 46 L68 70 L62 65 L56 71 L50 66 L44 71 L38 65 L32 70 L32 46 C32 35.5 39 27 50 27 Z" fill="#a0a898" fill-opacity=".14" stroke="#a0a898" stroke-width="4" stroke-linejoin="round"/><circle cx="43.5" cy="46" r="3.4" fill="#a0a898"/><circle cx="56.5" cy="46" r="3.4" fill="#a0a898"/>' },
+};
+
+function typeEmblem(key, size) {
+  const e = TYPE_EMBLEMS[key] || TYPE_EMBLEMS.iceblock;
+  return '<svg class="pi" width="' + size + '" height="' + size + '" viewBox="0 0 100 100" fill="none" aria-hidden="true">'
+    + '<circle cx="50" cy="50" r="47" fill="url(#pbg)"/>'
+    + '<circle cx="50" cy="50" r="47" stroke="' + e.c + '" stroke-width="3.5" stroke-opacity=".9"/>'
+    + '<circle cx="50" cy="50" r="40.5" stroke="' + e.c + '" stroke-width="1.5" stroke-opacity=".28"/>'
+    + e.art
+    + '<ellipse cx="33" cy="25" rx="10" ry="6" fill="rgba(255,255,255,0.09)" transform="rotate(-20,33,25)"/>'
+    + '</svg>';
+}
+
+// ──────────────────────────────────────────
 // UI UPDATES
 // ──────────────────────────────────────────
 function updateHomeUI() {
@@ -3198,12 +3327,14 @@ function updateHomeUI() {
 
   // Poul type
   const type = getPoulType();
-  document.getElementById('poul-type-display').textContent = type ? type.emoji + ' ' + type.name : '—';
+  document.getElementById('poul-type-display').innerHTML = type
+    ? typeEmblem(type.key, 17) + ' ' + escHtml(type.name)
+    : '—';
 
   // Streak
   const streakEl = document.getElementById('streak-value-display');
   if (state.streak > 0) {
-    streakEl.textContent = '🔥' + state.streak;
+    streakEl.innerHTML = icon('flame', '17px') + state.streak;
     streakEl.classList.add('active');
   } else {
     streakEl.textContent = '—';
@@ -3223,10 +3354,12 @@ function updateHomeUI() {
   // Pack indicator
   const packEl = document.getElementById('pack-indicator-text');
   if (state.activePack === 'phoenix') {
-    packEl.textContent = '🌵 Phoenix · Scottsdale';
+    packEl.innerHTML = packMark('phoenix', 15) + 'Phoenix · Scottsdale';
   } else {
     const p = TRAVEL_PACKS[state.activePack];
-    packEl.textContent = p ? p.emoji + ' ' + p.name + ' · ' + p.location : '🌵 Phoenix';
+    packEl.innerHTML = p
+      ? packMark(p.id, 15) + escHtml(p.name + ' · ' + p.location)
+      : packMark('phoenix', 15) + 'Phoenix';
   }
 
   // Season line
@@ -3237,9 +3370,9 @@ function updateHomeUI() {
   const totalCards    = deckCards.length;
   const seasonEl = document.getElementById('season-line');
   if (totalInSeason < totalCards) {
-    seasonEl.textContent = season.emoji + ' ' + season.label + ' · ' + totalInSeason + ' of ' + totalCards + ' cards active';
+    seasonEl.innerHTML = icon(season.icon, '13px') + season.label + ' · ' + totalInSeason + ' of ' + totalCards + ' cards active';
   } else {
-    seasonEl.textContent = season.emoji + ' ' + season.label;
+    seasonEl.innerHTML = icon(season.icon, '13px') + season.label;
   }
 
   // Filter badge
@@ -3278,7 +3411,7 @@ function updateHomeUI() {
       if (activeCount > 0) {
         poolLabel.textContent = `${poolSize} cards in pool`;
       } else if (seasonFiltered > 0) {
-        poolLabel.textContent = `${season.emoji} ${poolSize} in season`;
+        poolLabel.innerHTML = `${icon(season.icon, '11px')} ${poolSize} in season`;
       } else {
         poolLabel.textContent = '';
       }
@@ -3358,7 +3491,7 @@ function revealCard() {
   document.getElementById('rarity-label').textContent = card.rarity;
   const cityTag = document.getElementById('card-city-tag');
   if (card.city) {
-    cityTag.textContent = '📍 ' + card.city;
+    cityTag.innerHTML = icon('pin', '11px') + ' ' + escHtml(card.city);
     cityTag.style.display = '';
   } else {
     cityTag.textContent = '';
@@ -3368,7 +3501,7 @@ function revealCard() {
   const limEl = document.getElementById('limited-badge');
   const cardEl0 = document.getElementById('active-card');
   if (isLimitedCard(card)) {
-    limEl.textContent = '★ ' + limitedLabel(card);
+    limEl.innerHTML = icon('star', '10px') + ' ' + escHtml(limitedLabel(card));
     limEl.style.display = '';
     cardEl0.classList.add('limited');
   } else {
@@ -3488,9 +3621,9 @@ function commitCard() {
   // ── MILESTONE REWARDS ──
   const STREAK_REWARDS = { 3: 25, 7: 50, 30: 100 };
   const STREAK_MESSAGES = {
-    3: '🔥 3-Day Streak! +25 Spark bonus.',
-    7: '🔥 7 days. Hidden Gem tier unlocked. +50 Spark.',
-    30: '🔥 30 days. Legendary. +100 Spark. The pool bows.'
+    3: '3-day streak! +25 Spark bonus.',
+    7: '7 days. Hidden Gem tier unlocked. +50 Spark.',
+    30: '30 days. Legendary. +100 Spark. The pool bows.'
   };
   if (streakMilestone) {
     state.sparkScore += STREAK_REWARDS[streakMilestone];
@@ -3540,14 +3673,14 @@ function showResult(committed, card) {
   const message = document.getElementById('result-message');
 
   if (committed) {
-    icon.textContent = '✓';
+    icon.innerHTML = '<svg class="pi" width="64" height="64" viewBox="0 0 44 44" fill="none" stroke="var(--success)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 24 L18 34 L36 11"/></svg>';
     title.textContent = 'You\'re In.';
     title.className = 'result-title commit';
     delta.textContent = '+' + card.spark;
     delta.className = 'result-spark-delta pos';
     message.textContent = COMMIT_MESSAGES[Math.floor(Math.random() * COMMIT_MESSAGES.length)];
   } else {
-    icon.textContent = '✕';
+    icon.innerHTML = '<svg class="pi" width="58" height="58" viewBox="0 0 44 44" fill="none" stroke="var(--danger)" stroke-width="3.6" stroke-linecap="round" aria-hidden="true"><line x1="11" y1="11" x2="33" y2="33"/><line x1="33" y1="11" x2="11" y2="33"/></svg>';
     title.textContent = 'Passed.';
     title.className = 'result-title decline';
     delta.textContent = '−5';
@@ -3673,13 +3806,13 @@ function bookingLinksFor(card, category) {
   const google = 'https://www.google.com/search?q=' + q;
   const links = [];
   if (category === 'foodie') {
-    links.push({ label: 'Reserve a table', icon: '🍽', url: affiliate('opentable', 'https://www.opentable.com/s?term=' + q), primary: true });
+    links.push({ label: 'Reserve a table', icon: 'fork', url: affiliate('opentable', 'https://www.opentable.com/s?term=' + q), primary: true });
   } else if (category === 'adventure' || category === 'active') {
-    links.push({ label: 'Book it', icon: '🎟', url: affiliate('viator', 'https://www.viator.com/search/' + q), primary: true });
+    links.push({ label: 'Book it', icon: 'ticket', url: affiliate('viator', 'https://www.viator.com/search/' + q), primary: true });
   } else if (category === 'social') {
-    links.push({ label: 'Find tickets', icon: '🎟', url: affiliate('ticketmaster', 'https://www.ticketmaster.com/search?q=' + q), primary: true });
+    links.push({ label: 'Find tickets', icon: 'ticket', url: affiliate('ticketmaster', 'https://www.ticketmaster.com/search?q=' + q), primary: true });
   }
-  links.push({ label: 'Look it up', icon: '🔎', url: google, primary: links.length === 0 });
+  links.push({ label: 'Look it up', icon: 'search', url: google, primary: links.length === 0 });
   return links;
 }
 
@@ -3688,7 +3821,7 @@ function renderBookingCTA(card) {
   if (!card) { el.style.display = 'none'; el.innerHTML = ''; return; }
   const links = bookingLinksFor(card, state.selectedCategory);
   el.innerHTML = '<div class="booking-cta-label">Make it happen</div>' + links.map(l =>
-    `<a class="booking-btn${l.primary ? ' primary' : ''}" href="${l.url}" target="_blank" rel="noopener" onclick="track('booking_link_tapped',{label:'${l.label}',card_id:'${card.id}',pack:state.activePack})">${l.icon} ${escHtml(l.label)}</a>`
+    `<a class="booking-btn${l.primary ? ' primary' : ''}" href="${l.url}" target="_blank" rel="noopener" onclick="track('booking_link_tapped',{label:'${l.label}',card_id:'${card.id}',pack:state.activePack})">${icon(l.icon, '14px')} ${escHtml(l.label)}</a>`
   ).join('');
   el.style.display = 'flex';
 }
@@ -3734,7 +3867,7 @@ function renderPool() {
       <div class="pool-card-top-stripe" style="background:${CAT_COLORS[card.category]}"></div>
       <div class="pool-card-inner">
 
-        ${isLimitedCard(card) ? `<div class="pool-card-limited"><span class="limited-badge">★ ${escHtml(limitedLabel(card))}</span></div>` : ''}
+        ${isLimitedCard(card) ? `<div class="pool-card-limited"><span class="limited-badge">${icon('star', '10px')} ${escHtml(limitedLabel(card))}</span></div>` : ''}
 
         <div class="pool-card-header">
           <div class="pool-card-title">${escHtml(card.title)}</div>
@@ -3765,7 +3898,7 @@ function renderPool() {
           <div class="pool-card-bonus-text">${escHtml(card.bonus)}</div>
         </div>
 
-        ${card.mapsUrl && /^https?:\/\//i.test(card.mapsUrl) ? `<a class="pool-card-maps-link" href="${card.mapsUrl}" target="_blank" rel="noopener">📍 Open in Maps</a>` : ''}
+        ${card.mapsUrl && /^https?:\/\//i.test(card.mapsUrl) ? `<a class="pool-card-maps-link" href="${card.mapsUrl}" target="_blank" rel="noopener">${icon('pin', '11px')} Open in Maps</a>` : ''}
 
         <div class="pool-card-rating" id="pool-rating-${idx}">
           ${ratingButtonsHTML(idx, card.rating)}
@@ -3786,8 +3919,8 @@ function ratingButtonsHTML(idx, rating) {
               : rating === 'down' ? 'Skip next time'
               : 'Rate this';
   return `
-    <button class="btn-rate up${upActive}"   onclick="rateCard(${idx},'up')"   aria-label="Loved it">👍</button>
-    <button class="btn-rate down${downActive}" onclick="rateCard(${idx},'down')" aria-label="Skip next time">👎</button>
+    <button class="btn-rate up${upActive}"   onclick="rateCard(${idx},'up')"   aria-label="Loved it">${icon('thumbup', '17px')}</button>
+    <button class="btn-rate down${downActive}" onclick="rateCard(${idx},'down')" aria-label="Skip next time">${icon('thumbdown', '17px')}</button>
     <span class="pool-card-rating-label">${label}</span>
   `;
 }
@@ -3801,7 +3934,7 @@ function rateCard(idx, direction) {
   // Update just this card's rating row — preserves scroll position
   const el = document.getElementById('pool-rating-' + idx);
   if (el) el.innerHTML = ratingButtonsHTML(idx, card.rating);
-  const msg = card.rating === 'up' ? '👍 Logged.' : card.rating === 'down' ? '👎 Noted.' : 'Rating cleared.';
+  const msg = card.rating === 'up' ? 'Loved it — logged.' : card.rating === 'down' ? 'Noted. Fewer like this.' : 'Rating cleared.';
   showToast(msg);
 }
 
@@ -3855,7 +3988,7 @@ function renderShareCard() {
   const type = getPoulType();
   if (!type) return;
 
-  document.getElementById('sc-emoji').textContent = type.emoji;
+  document.getElementById('sc-emoji').innerHTML = typeEmblem(type.key, 96);
   document.getElementById('sc-type-name').textContent = type.name;
   document.getElementById('sc-type-sub').textContent = type.sub;
   document.getElementById('sc-spark').textContent = state.sparkScore;
@@ -3863,7 +3996,7 @@ function renderShareCard() {
 
   const streakEl = document.getElementById('sc-streak');
   if (state.streak > 0) {
-    streakEl.textContent = '🔥' + state.streak;
+    streakEl.innerHTML = icon('flame', '0.8em') + state.streak;
     streakEl.classList.add('streak-stat');
   } else {
     streakEl.textContent = '—';
@@ -4014,7 +4147,7 @@ function allPacksList() {
 
 function packOptionHTML(p) {
   return `<div class="pack-option${state.activePack === p.id ? ' active' : ''}" onclick="selectPack('${encodeURIComponent(p.id)}')" data-name="${escHtml(p.name)}" data-location="${escHtml(p.location)}">
-      <div class="pack-option-emoji">${p.emoji}</div>
+      <div class="pack-option-emoji">${packMark(p.id, 28)}</div>
       <div class="pack-option-info">
         <div class="pack-option-name">${escHtml(p.name)}</div>
         <div class="pack-option-location">${escHtml(p.location)} · ${p.count} cards</div>
@@ -4067,7 +4200,7 @@ function renderPackOptions() {
       .sort((a, b) => a.d - b.d)
       .slice(0, 3)
       .map(x => x.p);
-    if (nearby.length) html += packGroupHTML('📍 Nearby', nearby, false);
+    if (nearby.length) html += packGroupHTML('Nearby', nearby, false);
   }
 
   // Region groups — expand the active pack's region, collapse the rest
@@ -4079,12 +4212,12 @@ function findNearby() {
   const btn = document.getElementById('nearby-btn');
   if (!navigator.geolocation) { showToast("Location isn't available on this device."); return; }
   btn.disabled = true;
-  btn.textContent = '📍 Locating…';
+  btn.innerHTML = icon('pin', '12px') + ' Locating…';
   navigator.geolocation.getCurrentPosition(
     pos => {
       _userCoords = [pos.coords.latitude, pos.coords.longitude];
       btn.disabled = false;
-      btn.textContent = '📍 Nearby';
+      btn.innerHTML = icon('pin', '12px') + ' Nearby';
       btn.classList.add('active');
       renderPackOptions();
       const opts = document.getElementById('pack-options');
@@ -4093,7 +4226,7 @@ function findNearby() {
     },
     () => {
       btn.disabled = false;
-      btn.textContent = '📍 Nearby';
+      btn.innerHTML = icon('pin', '12px') + ' Nearby';
       showToast("Couldn't get your location.");
     },
     { timeout: 8000, maximumAge: 600000 }
@@ -4144,7 +4277,7 @@ function handlePhotoUpload(event) {
       if (state.completedCards.length > 0) {
         state.completedCards[0].photoDataUrl = dataUrl;
         saveState();
-        showToast('Proof saved. 📸');
+        showToast('Proof saved.');
       }
     };
     img.src = e.target.result;
@@ -4328,9 +4461,13 @@ initSheetDrag('filter-sheet', closeFilters);
 initSheetDrag('pack-sheet',   closePackSheet);
 initSheetDrag('rules-sheet',  closeRulesSheet);
 
+// Fill static icon slots (rules sheet) — single source of truth in ICONS/TYPE_EMBLEMS
+document.querySelectorAll('.spark-glyph').forEach(el => { el.innerHTML = icon('spark', '0.8em'); });
+document.querySelectorAll('.rules-type-emoji[data-type]').forEach(el => { el.innerHTML = typeEmblem(el.dataset.type, 30); });
+
 // Show spark/streak from localStorage immediately, indicate packs loading
 updateHomeUI();
-document.getElementById('season-line').textContent = '⌛ Loading your pool...';
+document.getElementById('season-line').textContent = 'Loading your pool…';
 document.getElementById('draw-btn').textContent    = 'Loading Deck...';
 document.getElementById('draw-btn').classList.add('disabled');
 loadExternalPacks(); // parallel fetch, calls updateHomeUI() when done
@@ -4343,7 +4480,7 @@ maybeShowRulesOnFirstLaunch();
     <div class="share-card-felt-bar"></div>
     <div class="share-card-body">
       <div class="share-card-logo">POUL</div>
-      <div class="share-card-emoji" id="sc-emoji">🧊</div>
+      <div class="share-card-emoji" id="sc-emoji"></div>
       <div class="share-card-type-name" id="sc-type-name">The Ice Block</div>
       <div class="share-card-type-sub" id="sc-type-sub">The pool has receipts</div>
       <div class="share-card-divider"></div>
@@ -4364,7 +4501,7 @@ maybeShowRulesOnFirstLaunch();
       <div class="share-card-tagline">Luck favors the spontaneous.</div>
       <div class="share-card-actions">
         <button class="btn-share" onclick="shareCard()">Share Your Type</button>
-        <button class="btn-share-close" onclick="closeShareCard()">✕</button>
+        <button class="btn-share-close" onclick="closeShareCard()" aria-label="Close"><svg class="pi" width="13" height="13" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" aria-hidden="true"><line x1="11" y1="11" x2="33" y2="33"/><line x1="33" y1="11" x2="11" y2="33"/></svg></button>
       </div>
       <div class="share-card-unlock-note" id="sc-unlock-note" style="display:none;"></div>
     </div>
