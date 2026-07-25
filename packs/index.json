@@ -181,6 +181,13 @@
       "location": "Tennessee",
       "emoji": "🎸",
       "cardCount": 60
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "location": "California",
+      "emoji": "🏄",
+      "cardCount": 60
     }
   ]
 }
