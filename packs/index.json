@@ -188,6 +188,13 @@
       "location": "California",
       "emoji": "🏄",
       "cardCount": 60
+    },
+    {
+      "id": "new-orleans",
+      "name": "New Orleans",
+      "location": "Louisiana",
+      "emoji": "⚜️",
+      "cardCount": 60
     }
   ]
 }
