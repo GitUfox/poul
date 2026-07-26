@@ -4,7 +4,9 @@
   "description": "Card seeding, export, and generation scripts for Poul",
   "scripts": {
     "export": "node export-cards.js",
-    "generate": "node generate-city.js"
+    "generate": "node generate-city.js",
+    "verify": "node verify-cards.js",
+    "test": "node --test"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.105.0",

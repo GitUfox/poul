@@ -23,3 +23,7 @@ SESSION_HANDOFF.md
 
 # Expansion planning — internal, never commit (public repo)
 EXPANSION_PLAN.md
+
+# Card verification — local working files, not build output
+scripts/.places-cache.json
+*-verified.json
