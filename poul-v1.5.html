@@ -25,6 +25,7 @@
     --felt-mid: #2d7a50;
     --felt-bright: #3d9970;
     --felt-glow: rgba(61,153,112,0.15);
+    --sage: #7ec9a3;
     --felt-dim: rgba(30,92,58,0.2);
     --ivory: #f0e6cc;
     --ivory-dim: rgba(240,230,204,0.07);
@@ -108,7 +109,7 @@
      SCREEN 1 — HOME
   ──────────────────────────────── */
   #screen-home {
-    padding: 24px;
+    padding: 44px 24px 24px;
     gap: 0;
     position: relative;
   }
@@ -173,7 +174,7 @@
     font-weight: 700;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: var(--text-dim);
+    color: var(--sage);
     margin-bottom: 3px;
     white-space: nowrap;
   }
@@ -229,7 +230,7 @@
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--text-dim);
+    color: var(--sage);
     margin-bottom: 3px;
   }
 
@@ -273,11 +274,11 @@
 
   /* Category grid */
   .category-label {
-    font-size: 11px;
+    font-size: 12.5px;
     font-weight: 700;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color: var(--text-dim);
+    color: var(--sage);
     margin-top: 28px;
     margin-bottom: 14px;
     align-self: flex-start;
@@ -452,11 +453,11 @@
   }
 
   .collection-link {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--text-dim);
+    color: var(--sage);
     cursor: pointer;
     transition: color 0.2s;
     padding: 8px;
@@ -933,9 +934,10 @@
 
   .pool-title {
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
+    font-size: 27px;
     font-weight: 700;
     letter-spacing: -1px;
+    white-space: nowrap;
   }
 
   .pool-count {
@@ -1684,7 +1686,7 @@
     font-weight: 700;
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    color: var(--text-dim);
+    color: var(--sage);
   }
 
   .pack-indicator-inner {
@@ -1706,7 +1708,7 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--text-dim);
+    color: var(--sage);
   }
 
   .token-dots-chip {
@@ -1818,10 +1820,10 @@
 
   /* ── SEASON INDICATOR ── */
   .season-line {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
     letter-spacing: 0.08em;
-    color: var(--text-dim);
+    color: var(--sage);
     margin-top: 12px;
     width: 100%;
     max-width: 400px;
@@ -2423,7 +2425,7 @@
       Select a Category
     </button>
     <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
-      <a class="collection-link" onclick="showScreen('pool')">Your Pool →</a>
+      <a class="collection-link" onclick="showScreen('pool')">Your Poul Table →</a>
       <span class="pool-size-label" id="pool-size-label"></span>
     </div>
   </div>
@@ -2512,7 +2514,7 @@
 <div id="screen-pool" class="screen">
   <div class="pool-header">
     <div>
-      <div class="pool-title">Your Pool</div>
+      <div class="pool-title">Your Poul Table</div>
       <div class="pool-count" id="pool-count-label">0 pocketed</div>
     </div>
     <div style="display:flex;gap:8px;align-items:center;">
@@ -3372,9 +3374,9 @@ function updateHomeUI() {
   const totalCards    = deckCards.length;
   const seasonEl = document.getElementById('season-line');
   if (totalInSeason < totalCards) {
-    seasonEl.innerHTML = icon(season.icon, '13px') + season.label + ' · ' + totalInSeason + ' of ' + totalCards + ' cards active';
+    seasonEl.innerHTML = icon(season.icon, '15px') + season.label + ' · ' + totalInSeason + ' of ' + totalCards + ' cards active';
   } else {
-    seasonEl.innerHTML = icon(season.icon, '13px') + season.label;
+    seasonEl.innerHTML = icon(season.icon, '15px') + season.label;
   }
 
   // Filter badge
@@ -3956,7 +3958,7 @@ function showToast(msg) {
 // RESET
 // ──────────────────────────────────────────
 function confirmReset() {
-  if (!confirm('Reset your Pocket Score and Your Pool? This cannot be undone.')) return;
+  if (!confirm('Reset your Pocket Score and Your Poul Table? This cannot be undone.')) return;
   localStorage.removeItem(STATE_KEY);
   state.sparkScore = 0;
   state.tokens = 5;
