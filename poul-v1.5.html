@@ -2427,7 +2427,7 @@
       Select a Category
     </button>
     <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
-      <a class="collection-link" onclick="showScreen('pool')">Your Poul Table →</a>
+      <a class="collection-link" onclick="showScreen('pool')">The Trophy Room →</a>
       <span class="pool-size-label" id="pool-size-label"></span>
     </div>
   </div>
@@ -2516,7 +2516,7 @@
 <div id="screen-pool" class="screen">
   <div class="pool-header">
     <div>
-      <div class="pool-title">Your Poul Table</div>
+      <div class="pool-title">The Trophy Room</div>
       <div class="pool-count" id="pool-count-label">0 pocketed</div>
     </div>
     <div style="display:flex;gap:8px;align-items:center;">
@@ -3862,7 +3862,7 @@ function renderPool() {
     content.innerHTML = `
       <div class="pool-empty">
         <div class="pool-empty-ball"><span>8</span></div>
-        <div class="pool-empty-text">Your pool is empty.<br>Draw a card and pocket it to start building your collection.</div>
+        <div class="pool-empty-text">Your trophy room is empty.<br>Draw a card, pocket it, and go earn your first trophy.</div>
       </div>
     `;
     return;
@@ -3960,7 +3960,7 @@ function showToast(msg) {
 // RESET
 // ──────────────────────────────────────────
 function confirmReset() {
-  if (!confirm('Reset your Pocket Score and Your Poul Table? This cannot be undone.')) return;
+  if (!confirm('Reset your Pocket Score and Trophy Room? This cannot be undone.')) return;
   localStorage.removeItem(STATE_KEY);
   state.sparkScore = 0;
   state.tokens = 5;
@@ -3974,7 +3974,7 @@ function confirmReset() {
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
   updateHomeUI();
   showScreen('home');
-  showToast('Pool reset. Fresh start.');
+  showToast('Fresh rack. Everything reset.');
 }
 
 // ──────────────────────────────────────────
