@@ -2335,6 +2335,26 @@
   .card-city-tag{display:inline-flex;align-items:center;gap:4px;}
   .rules-rarity-spark,.rules-type-threshold,.rules-milestone-reward{white-space:nowrap;}
 </style>
+<style id="v18-tabletools">
+  /* Trophy case */
+  .pool-section-label{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--sage);margin:6px 0 12px;}
+  .trophy-shelf{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:22px;}
+  .trophy{display:flex;flex-direction:column;align-items:center;gap:7px;padding:14px 6px 11px;background:var(--surface);border:1px solid var(--border);border-radius:12px;}
+  .trophy .t-name{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#e8a84d;text-align:center;line-height:1.2;}
+  .trophy .t-req{font-size:12px;color:var(--text-dim);text-align:center;line-height:1.25;}
+  .trophy.locked{opacity:.38;}
+  .trophy.locked svg{filter:grayscale(1);}
+  .trophy.locked .t-name{color:var(--text-mid,#a0a898);}
+  .pool-card.gold-glass{border:1px solid rgba(232,168,77,.45);box-shadow:inset 0 0 26px rgba(232,168,77,.07);}
+  /* House Rules */
+  .hr-row{display:flex;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--border);cursor:pointer;-webkit-tap-highlight-color:transparent;}
+  .hr-check{width:20px;height:20px;border-radius:6px;border:1.5px solid var(--border2);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:transparent;}
+  .hr-row.sel .hr-check{background:var(--felt-bright);border-color:var(--felt-bright);color:#04160b;}
+  .hr-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+  .hr-title{font-size:13px;font-weight:600;color:var(--text);}
+  .hr-cat-label{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--sage);margin:18px 0 4px;}
+  #house-list{max-height:46vh;overflow-y:auto;-webkit-overflow-scrolling:touch;margin:0 -4px;padding:0 4px;}
+</style>
 <!-- Shared SVG defs — the pool-ball radial gradient, referenced document-wide by url(#pbg) -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <defs>
@@ -2559,6 +2579,10 @@
     <div class="filter-chip" data-group="duration" data-value="999" onclick="toggleChip(this)">Half day+</div>
   </div>
 
+  <div class="sheet-section-label" style="margin-top:18px;">House Rules</div>
+  <div class="rules-text" style="font-size:12.5px;margin-bottom:10px;">Hosting the night? Hand-pick a custom rack — the table draws only from your picks.</div>
+  <button class="btn-clear-filters" style="width:100%;margin-bottom:4px;" onclick="closeFilters();openHouseSheet();">Build Tonight's Rack</button>
+
   <div class="sheet-actions">
     <button class="btn-clear-filters" onclick="clearFilters()">Clear All</button>
     <button class="btn-apply-filters" onclick="applyFilters()">Apply Filters</button>
@@ -2587,6 +2611,22 @@
   <div id="pack-options"></div>
 
 
+</div>
+
+<!-- ── HOUSE RULES SHEET ── -->
+<div class="sheet-overlay" id="house-overlay" onclick="closeHouseSheet()"></div>
+<div class="bottom-sheet" id="house-sheet">
+  <div class="sheet-handle"></div>
+  <div class="sheet-header">
+    <div class="sheet-title">House Rules</div>
+    <button class="btn-sheet-close" onclick="closeHouseSheet()">Done</button>
+  </div>
+  <div class="rules-text" style="margin-bottom:10px;">Hand-pick tonight's rack. While House Rules are on, the table draws only from your picks — filters and season step aside.</div>
+  <div id="house-list"></div>
+  <div class="sheet-actions">
+    <button class="btn-clear-filters" onclick="clearHouseRules(); closeHouseSheet();">Clear Rack</button>
+    <button class="btn-apply-filters" id="house-save" onclick="saveHouseRules()">Rack 'em</button>
+  </div>
 </div>
 
 <!-- ── HOW TO PLAY SHEET ── -->
@@ -2689,7 +2729,7 @@
       <div class="rules-section-title">Chalk</div>
       <div class="rules-text">
         You start with <strong>5 chalk cubes</strong>. Each redraw chalks up: 1 cube, <strong>−2 off your Pocket Score</strong>.
-        The penalty is intentional — it makes you think twice before waving off a card. Use them wisely — chalk doesn't refill automatically.
+        The penalty is intentional — it makes you think twice before waving off a card. You chalk up <strong>+1 cube</strong> on your first visit each day (max 5).
       </div>
     </div>
 
@@ -2770,6 +2810,15 @@
       <div class="rules-text">
         Not cheating — scoping. Before you draw, filter by <strong>cost</strong>, <strong>time of day</strong>, or <strong>duration</strong>.
         Cards outside your filter stay in the deck for later. The 8-Ball always ignores the filter.
+      </div>
+    </div>
+
+    <!-- HOUSE RULES -->
+    <div class="rules-section">
+      <div class="rules-section-title">House Rules</div>
+      <div class="rules-text">
+        Hosting the night? Build a custom rack — hand-pick cards and the table draws only from those.
+        Set it inside the <strong>Poul Filter</strong> sheet. Switching packs clears it.
       </div>
     </div>
 
@@ -2864,7 +2913,12 @@ function getActiveDeck() {
 }
 
 function getFilteredPool(category) {
-  return (getActiveDeck()[category] || []).filter(cardPassesFilters);
+  const deck = getActiveDeck()[category] || [];
+  // House Rules: an explicit hand-picked rack overrides filters AND season
+  if (state.houseRules && state.houseRules.active) {
+    return deck.filter(c => state.houseRules.ids.includes(c.id));
+  }
+  return deck.filter(cardPassesFilters);
 }
 
 function countActiveFilters() {
@@ -3030,7 +3084,10 @@ function applyVibe(key) {
 function renderVibes() {
   const row = document.getElementById('vibe-row');
   if (!row) return;
-  row.innerHTML = Object.keys(VIBES).map(k => {
+  const hrChip = state.houseRules.active
+    ? '<button class="vibe-chip active" onclick="clearHouseRules()">House Rules · ' + state.houseRules.ids.length + ' ✕</button>'
+    : '';
+  row.innerHTML = hrChip + Object.keys(VIBES).map(k => {
     const v = VIBES[k];
     const active = countActiveFilters() > 0 && vibeMatches(v);
     return `<button class="vibe-chip${active ? ' active' : ''}" onclick="applyVibe('${k}')">${icon(v.icon, '12px')} ${v.label}</button>`;
@@ -3055,6 +3112,37 @@ const POUL_TYPES = [
 
 // Behavior-based type (not a Spark threshold): plays plenty but rarely commits.
 const GHOST_TYPE = { key: 'ghost', emoji: '👻', name: 'The Ghost', sub: 'Draws plenty, never pockets' };
+
+// ──────────────────────────────────────────
+// TROPHY CASE
+// Earned checks read state directly; art is gold duotone on the 44 grid.
+// ──────────────────────────────────────────
+const TROPHY_ART = {
+  break: '<circle cx="22" cy="15" r="9.5" fill="currentColor" fill-opacity=".14"/><circle cx="22" cy="15" r="9.5"/><circle cx="22" cy="13" r="3.4" fill="currentColor" stroke="none"/><path d="M14 30 L30 30 L28 26 L16 26 Z" fill="currentColor" fill-opacity=".2"/><path d="M14 30 L30 30 L28 26 L16 26 Z"/><line x1="10" y1="34" x2="34" y2="34"/>',
+  rack: '<path d="M22 8 L36 32 L8 32 Z" fill="currentColor" fill-opacity=".12"/><path d="M22 8 L36 32 L8 32 Z"/><circle cx="22" cy="17.5" r="3" fill="currentColor" stroke="none"/><circle cx="17.5" cy="25.5" r="3" fill="currentColor" stroke="none"/><circle cx="26.5" cy="25.5" r="3" fill="currentColor" stroke="none"/><line x1="12" y1="37" x2="32" y2="37"/>',
+  legend: '<path d="M22 4 L26.3 13.8 L37 15 L29 22.2 L31.3 32.8 L22 27.3 L12.7 32.8 L15 22.2 L7 15 L17.7 13.8 Z" fill="currentColor" fill-opacity=".18"/><path d="M22 4 L26.3 13.8 L37 15 L29 22.2 L31.3 32.8 L22 27.3 L12.7 32.8 L15 22.2 L7 15 L17.7 13.8 Z"/><line x1="14" y1="38" x2="30" y2="38"/>',
+  run3: '<path d="M13 6 L31 6 L30 17 A8.5 8.5 0 0 1 14 17 Z" fill="currentColor" fill-opacity=".15"/><path d="M13 6 L31 6 L30 17 A8.5 8.5 0 0 1 14 17 Z"/><path d="M13 8 Q6 9 8.5 15 Q10 18.5 14.5 19 M31 8 Q38 9 35.5 15 Q34 18.5 29.5 19" fill="none" stroke-width="2"/><line x1="22" y1="24" x2="22" y2="31"/><path d="M15 35 L29 35 L27 31 L17 31 Z" fill="currentColor" fill-opacity=".2"/><path d="M15 35 L29 35 L27 31 L17 31 Z"/>',
+  run7: '<line x1="9" y1="38" x2="33" y2="6"/><line x1="11" y1="6" x2="35" y2="38"/><circle cx="33.8" cy="5" r="2" fill="currentColor" stroke="none"/><circle cx="10.2" cy="5" r="2" fill="currentColor" stroke="none"/><path d="M18 22 L26 22" stroke-opacity=".5" stroke-width="2"/>',
+  run30: '<rect x="7" y="9" width="30" height="26" rx="3.5" fill="currentColor" fill-opacity=".1"/><rect x="7" y="9" width="30" height="26" rx="3.5"/><rect x="12" y="14" width="20" height="16" rx="2" stroke-width="2" stroke-opacity=".55"/><circle cx="22" cy="22" r="4" fill="currentColor" stroke="none"/>',
+};
+const TROPHIES = [
+  { id: 'break',  name: 'Break Shot',  req: 'Pocket your first card',   earned: () => state.completedCards.length >= 1 },
+  { id: 'rack',   name: 'Full Rack',   req: 'Pocket 10 cards',          earned: () => state.completedCards.length >= 10 },
+  { id: 'legend', name: 'Table Legend', req: 'Pocket a Legendary',      earned: () => state.completedCards.some(c => c.rarity === 'Legendary') },
+  { id: 'run3',   name: '3-Day Cup',   req: 'Keep a 3-day Run',         earned: () => state.bestStreak >= 3 },
+  { id: 'run7',   name: '7-Day Cues',  req: 'Keep a 7-day Run',         earned: () => state.bestStreak >= 7 },
+  { id: 'run30',  name: 'House Plaque', req: 'Keep a 30-day Run',       earned: () => state.bestStreak >= 30 },
+];
+function trophyShelfHTML() {
+  return '<div class="pool-section-label">The Shelf</div><div class="trophy-shelf">' + TROPHIES.map(t => {
+    const on = t.earned();
+    return '<div class="trophy' + (on ? '' : ' locked') + '">'
+      + '<svg width="34" height="34" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="color:#e8a84d" aria-hidden="true">' + TROPHY_ART[t.id] + '</svg>'
+      + '<div class="t-name">' + t.name + '</div>'
+      + '<div class="t-req">' + (on ? 'Earned' : t.req) + '</div>'
+      + '</div>';
+  }).join('') + '</div>';
+}
 
 // ──────────────────────────────────────────
 // RESULT MESSAGES
@@ -3093,7 +3181,9 @@ function saveState() {
     streak: state.streak,
     bestStreak: state.bestStreak,
     lastCommitDate: state.lastCommitDate,
-    activePack: state.activePack
+    activePack: state.activePack,
+    lastChalkDate: state.lastChalkDate,
+    houseRules: state.houseRules
   };
   try {
     localStorage.setItem(STATE_KEY, JSON.stringify(toSave));
@@ -3139,6 +3229,8 @@ let state = {
   bestStreak: _saved ? (_saved.bestStreak || 0) : 0,
   lastCommitDate: _saved ? (_saved.lastCommitDate || null) : null,
   activePack: _saved ? (_saved.activePack || 'phoenix') : 'phoenix',
+  lastChalkDate: _saved ? (_saved.lastChalkDate || null) : null,
+  houseRules: _saved && _saved.houseRules ? _saved.houseRules : { active: false, ids: [] },
   selectedCategory: null,
   currentCard: null
 };
@@ -3859,7 +3951,7 @@ function renderPool() {
   countLabel.textContent = state.completedCards.length + ' pocketed';
 
   if (state.completedCards.length === 0) {
-    content.innerHTML = `
+    content.innerHTML = trophyShelfHTML() + `
       <div class="pool-empty">
         <div class="pool-empty-ball"><span>8</span></div>
         <div class="pool-empty-text">Your trophy room is empty.<br>Draw a card, pocket it, and go earn your first trophy.</div>
@@ -3868,8 +3960,8 @@ function renderPool() {
     return;
   }
 
-  content.innerHTML = state.completedCards.map((card, idx) => `
-    <div class="pool-card${isLimitedCard(card) ? ' limited' : ''}">
+  content.innerHTML = trophyShelfHTML() + '<div class="pool-section-label">Pocketed Cards</div>' + state.completedCards.map((card, idx) => `
+    <div class="pool-card${isLimitedCard(card) ? ' limited' : ''}${card.rarity === 'Legendary' ? ' gold-glass' : ''}">
       <div class="pool-card-top-stripe" style="background:${CAT_COLORS[card.category]}"></div>
       <div class="pool-card-inner">
 
@@ -4241,6 +4333,8 @@ function findNearby() {
 
 function selectPack(packId) {
   packId = decodeURIComponent(packId);
+  const hadHouseRules = state.houseRules.active;
+  if (hadHouseRules) state.houseRules = { active: false, ids: [] };
   state.activePack = packId;
   state.selectedCategory = null;
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
@@ -4250,7 +4344,74 @@ function selectPack(packId) {
   updateHomeUI();
   const label = packId === 'phoenix' ? 'Phoenix · Scottsdale'
     : (TRAVEL_PACKS[packId]?.name || packId);
-  showToast('Pack switched to ' + label);
+  showToast('Pack switched to ' + label + (hadHouseRules ? ' · House Rules cleared' : ''));
+}
+
+// ──────────────────────────────────────────
+// HOUSE RULES — hand-picked rack for the night
+// ──────────────────────────────────────────
+let pendingHouse = new Set();
+
+function openHouseSheet() {
+  pendingHouse = new Set(state.houseRules.ids);
+  renderHouseList();
+  document.getElementById('house-overlay').classList.add('open');
+  document.getElementById('house-sheet').classList.add('open');
+}
+
+function closeHouseSheet() {
+  document.getElementById('house-overlay').classList.remove('open');
+  document.getElementById('house-sheet').classList.remove('open');
+}
+
+function renderHouseList() {
+  const deck = getActiveDeck();
+  const cats = ['adventure', 'foodie', 'chill', 'social', 'active', '8ball'];
+  let html = '';
+  cats.forEach(cat => {
+    const cards = deck[cat] || [];
+    if (!cards.length) return;
+    html += '<div class="hr-cat-label">' + CAT_LABELS[cat] + '</div>';
+    html += cards.map(c => {
+      const sel = pendingHouse.has(c.id);
+      return '<div class="hr-row' + (sel ? ' sel' : '') + '" onclick="toggleHouseCard(decodeURIComponent(\'' + encodeURIComponent(c.id) + '\'), this)">'
+        + '<span class="hr-check"><svg width="12" height="12" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 24 L18 34 L36 11"/></svg></span>'
+        + '<span class="hr-dot" style="background:' + (RARITY_COLORS[c.rarity] || RARITY_COLORS.Common) + '"></span>'
+        + '<span class="hr-title">' + escHtml(c.title) + '</span>'
+        + '</div>';
+    }).join('');
+  });
+  document.getElementById('house-list').innerHTML = html;
+  updateHouseSaveLabel();
+}
+
+function toggleHouseCard(id, rowEl) {
+  if (pendingHouse.has(id)) pendingHouse.delete(id); else pendingHouse.add(id);
+  if (rowEl) rowEl.classList.toggle('sel', pendingHouse.has(id));
+  updateHouseSaveLabel();
+}
+
+function updateHouseSaveLabel() {
+  const btn = document.getElementById('house-save');
+  if (btn) btn.textContent = pendingHouse.size ? 'Rack \u2019em \u00B7 ' + pendingHouse.size : 'Rack \u2019em';
+}
+
+function saveHouseRules() {
+  if (pendingHouse.size < 3) { showToast('Pick at least 3 cards for a rack.'); return; }
+  state.houseRules = { active: true, ids: [...pendingHouse] };
+  saveState();
+  track('house_rules_set', { count: pendingHouse.size, pack: state.activePack });
+  closeHouseSheet();
+  updateHomeUI();
+  showToast('House Rules on \u2014 ' + pendingHouse.size + ' cards in the rack.');
+}
+
+function clearHouseRules() {
+  if (!state.houseRules.active && !state.houseRules.ids.length) return;
+  state.houseRules = { active: false, ids: [] };
+  saveState();
+  updateHomeUI();
+  showToast('House Rules off. Full deck back on the table.');
 }
 
 // ──────────────────────────────────────────
@@ -4463,9 +4624,23 @@ function initSheetDrag(sheetId, closeFunc) {
   });
 }
 
+initSheetDrag('house-sheet',  closeHouseSheet);
 initSheetDrag('filter-sheet', closeFilters);
 initSheetDrag('pack-sheet',   closePackSheet);
 initSheetDrag('rules-sheet',  closeRulesSheet);
+
+// Daily chalk-up: +1 cube on the first visit of each day (cap maxTokens)
+(function dailyChalkUp() {
+  const today = new Date().toISOString().split('T')[0];
+  if (state.lastChalkDate === today) return;
+  state.lastChalkDate = today;
+  if (state.tokens < state.maxTokens) {
+    state.tokens++;
+    setTimeout(() => showToast('Daily chalk-up. +1 chalk cube.'), 1600);
+    track('daily_chalk', { tokens: state.tokens });
+  }
+  saveState();
+})();
 
 // Fill static icon slots (rules sheet) — single source of truth in ICONS/TYPE_EMBLEMS
 document.querySelectorAll('.spark-glyph').forEach(el => { el.innerHTML = icon('spark', '0.8em'); });
