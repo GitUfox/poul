@@ -903,6 +903,38 @@
     animation: fadeUp 0.4s 0.3s ease both;
   }
 
+  .result-share-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 12px;
+    animation: fadeUp 0.4s 0.25s ease both;
+  }
+
+  .result-share-btn {
+    flex: 1;
+    background: none;
+    border: 1px solid var(--felt-mid);
+    border-radius: 12px;
+    padding: 13px 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sage);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.2s;
+  }
+
+  .result-share-btn:hover { background: var(--felt-dim); }
+
+  .result-share-btn.gold { border-color: rgba(232,168,77,0.45); color: #e8a84d; }
+
+  .result-share-btn.gold:hover { background: rgba(232,168,77,0.08); }
+
   .btn-continue:hover {
     background: var(--felt-mid);
     transform: translateY(-1px);
@@ -2529,6 +2561,10 @@
     </div>
   </div>
   <div class="booking-cta" id="booking-cta" style="display:none;"></div>
+  <div class="result-share-row" id="result-share-row" style="display:none;">
+    <button class="result-share-btn" id="btn-share-pull" onclick="sharePull()">Share the Pull</button>
+    <button class="result-share-btn gold" id="btn-share-trophy" style="display:none;" onclick="shareTrophyUnlock()">Share the Trophy</button>
+  </div>
   <button class="btn-continue" onclick="returnHome()">Draw Again</button>
 </div>
 
@@ -3684,6 +3720,9 @@ function commitCard() {
   const card = state.currentCard;
   if (!card) return;
 
+  // Trophy snapshot — so fresh unlocks from THIS commit can be announced + shared
+  const trophiesBefore = new Set(TROPHIES.filter(t => t.earned()).map(t => t.id));
+
   state.sparkScore += card.spark;
   state.drawCount++;
 
@@ -3737,6 +3776,18 @@ function commitCard() {
   saveState();
   track('card_committed', { ...cardProps(card), spark_earned: card.spark, streak: state.streak });
   if (streakMilestone) track('streak_milestone', { days: streakMilestone });
+
+  // Share-image capture + fresh trophy detection (design pick A · pocket + trophy)
+  _lastPull = {
+    card: { ...card, category: state.selectedCategory },
+    packId: state.activePack,
+    packName: activePackLabel()
+  };
+  _newTrophies = TROPHIES.filter(t => !trophiesBefore.has(t.id) && t.earned());
+  if (_newTrophies.length) {
+    setTimeout(() => showToast('Trophy earned: ' + _newTrophies[0].name + '.'), streakMilestone ? 3400 : 1600);
+  }
+
   showResult(true, card);
   updateHomeUI();
 }
@@ -3796,6 +3847,12 @@ function showResult(committed, card) {
     document.getElementById('proof-img').style.display = 'none';
     document.getElementById('proof-retake').style.display = 'none';
     document.getElementById('proof-input').value = '';
+  }
+
+  // Share row — the pull always shares after a commit, the trophy only on a fresh unlock
+  document.getElementById('result-share-row').style.display = committed ? 'flex' : 'none';
+  if (committed) {
+    document.getElementById('btn-share-trophy').style.display = _newTrophies.length ? '' : 'none';
   }
 
   // Booking / affiliate CTA — only after a commit
@@ -4131,6 +4188,396 @@ function copyShareText(text) {
   } else {
     showToast('Share: ' + text.slice(0, 60) + '…');
   }
+}
+
+// ──────────────────────────────────────────
+// SHARE IMAGE — canvas-rendered 4:5 PNG (design pick A · 4:5 · pocket + trophy)
+// One renderer, two layouts: "The Pull" (the card just pocketed, on the felt)
+// and "The Plaque" (a freshly earned trophy, gold-glass). Reuses the app's
+// SVG glyph strings and CSS tokens directly — no second copy of either.
+// Falls back to the plain-text share if anything in the pipeline fails.
+// ──────────────────────────────────────────
+const SHARE_W = 1080, SHARE_H = 1350;
+let _lastPull = null;     // { card, packId, packName } — captured at commit, never persisted
+let _newTrophies = [];    // trophies unlocked by the latest commit
+
+function cssTok(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+
+function catHex(cat) {
+  const m = (CAT_COLORS[cat] || '').match(/--[\w-]+/);
+  return m ? cssTok(m[0]) : cssTok('--ivory');
+}
+
+function hexA(hex, a) {
+  const n = parseInt(hex.slice(1), 16);
+  return 'rgba(' + ((n >> 16) & 255) + ',' + ((n >> 8) & 255) + ',' + (n & 255) + ',' + a + ')';
+}
+
+function activePackLabel() {
+  return state.activePack === 'phoenix' ? 'Phoenix · Scottsdale'
+    : (TRAVEL_PACKS[state.activePack]?.name || 'Phoenix');
+}
+
+function rrPath(ctx, x, y, w, h, r) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.arcTo(x + w, y, x + w, y + h, r);
+  ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r);
+  ctx.arcTo(x, y, x + w, y, r);
+  ctx.closePath();
+}
+
+// Paint one of the app's 44-grid glyph strings (PACK_MARKS / TROPHY_ART / ICONS)
+// onto a canvas with the same duotone rules as the <svg> wrapper: children
+// stroke in `color` at 2.6 unless they opt out, fills only where declared.
+function drawGlyph(ctx, svgStr, x, y, size, color) {
+  const s = size / 44;
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.scale(s, s);
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+  const tags = svgStr.match(/<(path|circle|line|rect|ellipse)[^>]*>/g) || [];
+  for (const tag of tags) {
+    const attr = n => { const m = tag.match(new RegExp('[\\s<]' + n + '="([^"]*)"')); return m ? m[1] : null; };
+    const num = (n, d) => { const v = attr(n); return v === null ? d : parseFloat(v); };
+    ctx.save();
+    const tf = attr('transform');
+    if (tf) {
+      const r = tf.match(/rotate\(\s*(-?[\d.]+)[ ,]+([\d.]+)[ ,]+([\d.]+)/);
+      if (r) { ctx.translate(+r[2], +r[3]); ctx.rotate(+r[1] * Math.PI / 180); ctx.translate(-r[2], -r[3]); }
+    }
+    const kind = tag.match(/<(\w+)/)[1];
+    const p = new Path2D();
+    if (kind === 'path') p.addPath(new Path2D(attr('d') || ''));
+    else if (kind === 'circle') p.arc(num('cx', 0), num('cy', 0), num('r', 0), 0, Math.PI * 2);
+    else if (kind === 'ellipse') p.ellipse(num('cx', 0), num('cy', 0), num('rx', 0), num('ry', 0), 0, 0, Math.PI * 2);
+    else if (kind === 'line') { p.moveTo(num('x1', 0), num('y1', 0)); p.lineTo(num('x2', 0), num('y2', 0)); }
+    else if (kind === 'rect') {
+      const X = num('x', 0), Y = num('y', 0), W = num('width', 0), H = num('height', 0), rx = num('rx', 0);
+      if (rx) {
+        p.moveTo(X + rx, Y);
+        p.arcTo(X + W, Y, X + W, Y + H, rx);
+        p.arcTo(X + W, Y + H, X, Y + H, rx);
+        p.arcTo(X, Y + H, X, Y, rx);
+        p.arcTo(X, Y, X + W, Y, rx);
+        p.closePath();
+      } else p.rect(X, Y, W, H);
+    }
+    const fill = attr('fill');
+    if (fill && fill !== 'none') {
+      ctx.globalAlpha = num('fill-opacity', 1);
+      ctx.fillStyle = color;
+      ctx.fill(p);
+    }
+    if (attr('stroke') !== 'none') {
+      ctx.globalAlpha = num('stroke-opacity', 1);
+      ctx.strokeStyle = color;
+      ctx.lineWidth = num('stroke-width', 2.6);
+      ctx.stroke(p);
+    }
+    ctx.restore();
+  }
+  ctx.restore();
+}
+
+// Centred text with manual letter-tracking (canvas letterSpacing isn't universal)
+function drawTracked(ctx, text, cx, y, tracking) {
+  const chars = [...text];
+  let w = -tracking;
+  for (const ch of chars) w += ctx.measureText(ch).width + tracking;
+  let x = cx - w / 2;
+  for (const ch of chars) {
+    ctx.fillText(ch, x, y);
+    x += ctx.measureText(ch).width + tracking;
+  }
+}
+
+function wrapLines(ctx, text, maxW, maxLines) {
+  const words = String(text || '').split(/\s+/);
+  const lines = [];
+  let line = '';
+  for (const word of words) {
+    const t = line ? line + ' ' + word : word;
+    if (line && ctx.measureText(t).width > maxW) { lines.push(line); line = word; }
+    else line = t;
+  }
+  if (line) lines.push(line);
+  if (lines.length > maxLines) {
+    const cut = lines.slice(0, maxLines);
+    let last = cut[maxLines - 1];
+    while (last && ctx.measureText(last + '…').width > maxW) last = last.replace(/\s*\S+$/, '');
+    cut[maxLines - 1] = last + '…';
+    return cut;
+  }
+  return lines;
+}
+
+function renderShareCanvas(ctx, payload) {
+  const SERIF = '"Playfair Display", Georgia, serif';
+  const SANS = 'Manrope, sans-serif';
+  const GOLD = '#e8a84d';
+  const ivory = cssTok('--ivory'), sage = cssTok('--sage'), textMid = cssTok('--text-mid'),
+        textDim = cssTok('--text-dim'), lineCol = cssTok('--border'), surface = cssTok('--surface');
+  const trophy = payload.kind === 'trophy';
+  const packShort = (payload.packName || 'Phoenix').split('·')[0].trim();
+
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
+
+  // Ground — pool-table lamp for a pull, gold haze for a trophy
+  ctx.fillStyle = cssTok('--bg') || '#0a0c0a';
+  ctx.fillRect(0, 0, SHARE_W, SHARE_H);
+  const g = ctx.createRadialGradient(540, -140, 0, 540, -140, 1500);
+  if (trophy) {
+    g.addColorStop(0, 'rgba(232,168,77,0.16)');
+    g.addColorStop(0.6, 'rgba(232,168,77,0.04)');
+    g.addColorStop(1, 'rgba(232,168,77,0)');
+  } else {
+    g.addColorStop(0, cssTok('--felt-mid') || '#2d7a50');
+    g.addColorStop(0.45, '#143622');
+    g.addColorStop(1, '#0a0c0a');
+  }
+  ctx.fillStyle = g;
+  ctx.fillRect(0, 0, SHARE_W, SHARE_H);
+
+  // Header
+  ctx.font = '800 30px ' + SANS;
+  if (trophy) {
+    ctx.fillStyle = GOLD;
+    drawTracked(ctx, 'TROPHY EARNED', 540, 166, 9);
+  } else {
+    ctx.fillStyle = sage;
+    const header = 'POCKETED · ' + packShort.toUpperCase();
+    const tracking = 7;
+    let tw = -tracking;
+    for (const ch of header) tw += ctx.measureText(ch).width + tracking;
+    const glyphSize = 54, gap = 22;
+    const left = 540 - (glyphSize + gap + tw) / 2;
+    drawGlyph(ctx, PACK_MARKS[payload.packId] || PACK_MARKS._default, left, 128, glyphSize, sage);
+    let x = left + glyphSize + gap;
+    for (const ch of header) { ctx.fillText(ch, x, 174); x += ctx.measureText(ch).width + tracking; }
+  }
+
+  if (!trophy) {
+    // ── THE PULL — the pocketed card on the felt ──
+    const card = payload.card;
+    const px = 110, pw = 860, ix = px + 56, iw = pw - 112;
+    const catColor = catHex(card.category);
+    const legendary = card.rarity === 'Legendary';
+
+    ctx.font = '700 60px ' + SERIF;
+    const titleLines = wrapLines(ctx, card.title, iw, 2);
+    ctx.font = '400 30px ' + SANS;
+    const descLines = wrapLines(ctx, card.description, iw, 3);
+    const chips = [card.rarity, card.cost, card.duration].filter(Boolean);
+
+    const ph = 64 + 26 + 26 + titleLines.length * 72 + 16 + descLines.length * 46
+             + 38 + 56 + 42 + 2 + 40 + 36 + 56;
+    const py = 240 + Math.max(0, (900 - ph) / 2);
+
+    rrPath(ctx, px, py, pw, ph, 40);
+    ctx.fillStyle = surface;
+    ctx.fill();
+    ctx.strokeStyle = legendary ? hexA(GOLD, 0.45) : lineCol;
+    ctx.lineWidth = legendary ? 3 : 2;
+    ctx.stroke();
+
+    // Category strip (top edge) + gold-glass wash on a Legendary
+    ctx.save();
+    rrPath(ctx, px, py, pw, ph, 40);
+    ctx.clip();
+    ctx.fillStyle = catColor;
+    ctx.fillRect(px, py, pw, 10);
+    if (legendary) {
+      const lg = ctx.createLinearGradient(0, py, 0, py + 320);
+      lg.addColorStop(0, 'rgba(232,168,77,0.07)');
+      lg.addColorStop(1, 'rgba(232,168,77,0)');
+      ctx.fillStyle = lg;
+      ctx.fillRect(px, py, pw, 320);
+    }
+    ctx.restore();
+
+    let cy = py + 64;
+    cy += 26;
+    ctx.font = '800 26px ' + SANS;
+    ctx.fillStyle = catColor;
+    let cx2 = ix;
+    for (const ch of CAT_LABELS[card.category] ? CAT_LABELS[card.category].toUpperCase() : '') {
+      ctx.fillText(ch, cx2, cy);
+      cx2 += ctx.measureText(ch).width + 5;
+    }
+
+    cy += 26;
+    ctx.font = '700 60px ' + SERIF;
+    ctx.fillStyle = ivory;
+    for (const line of titleLines) { cy += 72; ctx.fillText(line, ix, cy); }
+
+    cy += 16;
+    ctx.font = '400 30px ' + SANS;
+    ctx.fillStyle = textMid;
+    for (const line of descLines) { cy += 46; ctx.fillText(line, ix, cy); }
+
+    cy += 38;
+    ctx.font = '700 26px ' + SANS;
+    let chipX = ix;
+    for (const label of chips) {
+      const isRarity = label === card.rarity;
+      const c = isRarity ? (RARITY_COLORS[card.rarity] || ivory) : null;
+      const tw2 = ctx.measureText(label).width;
+      rrPath(ctx, chipX, cy, tw2 + 48, 56, 28);
+      if (isRarity) { ctx.fillStyle = hexA(c, 0.13); ctx.fill(); }
+      ctx.strokeStyle = isRarity ? hexA(c, 0.4) : lineCol;
+      ctx.lineWidth = 2;
+      ctx.stroke();
+      ctx.fillStyle = isRarity ? c : textMid;
+      ctx.fillText(label, chipX + 24, cy + 38);
+      chipX += tw2 + 48 + 14;
+    }
+    cy += 56;
+
+    cy += 42;
+    ctx.strokeStyle = lineCol;
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(ix, cy);
+    ctx.lineTo(ix + iw, cy);
+    ctx.stroke();
+
+    cy += 40;
+    drawGlyph(ctx, ICONS.spark, ix, cy - 4, 36, sage);
+    ctx.font = '800 32px ' + SANS;
+    ctx.fillStyle = sage;
+    ctx.fillText('+' + card.spark + ' Pocket Score', ix + 52, cy + 24);
+  } else {
+    // ── THE PLAQUE — gold-glass trophy unlock ──
+    const t = payload.trophy;
+    const pw2 = 700, px2 = 190;
+    const ph2 = 84 + 250 + 70 + 34 + 36 + 34 + 30 + 12 + 26 + 84;
+    const py2 = 240 + (900 - ph2) / 2;
+
+    rrPath(ctx, px2, py2, pw2, ph2, 36);
+    ctx.fillStyle = surface;
+    ctx.fill();
+    ctx.strokeStyle = hexA(GOLD, 0.45);
+    ctx.lineWidth = 3;
+    ctx.stroke();
+    ctx.save();
+    rrPath(ctx, px2, py2, pw2, ph2, 36);
+    ctx.clip();
+    const gg = ctx.createRadialGradient(540, py2, 0, 540, py2, 520);
+    gg.addColorStop(0, 'rgba(232,168,77,0.08)');
+    gg.addColorStop(1, 'rgba(232,168,77,0)');
+    ctx.fillStyle = gg;
+    ctx.fillRect(px2, py2, pw2, ph2);
+    ctx.restore();
+
+    let cy = py2 + 84;
+    drawGlyph(ctx, TROPHY_ART[t.id], 540 - 125, cy, 250, GOLD);
+    cy += 250 + 70;
+    ctx.textAlign = 'center';
+    ctx.font = '700 66px ' + SERIF;
+    ctx.fillStyle = ivory;
+    ctx.fillText(t.name, 540, cy);
+    cy += 34;
+    ctx.fillStyle = hexA(GOLD, 0.45);
+    ctx.fillRect(540 - 45, cy, 90, 2);
+    cy += 36 + 34;
+    ctx.font = '400 30px ' + SANS;
+    ctx.fillStyle = textMid;
+    ctx.fillText(t.req.replace(/^Pocket\b/, 'Pocketed').replace(/^Keep\b/, 'Kept'), 540, cy);
+    cy += 12 + 26;
+    ctx.font = '400 26px ' + SANS;
+    ctx.fillStyle = textDim;
+    const dateStr = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    ctx.fillText(dateStr + ' · ' + packShort, 540, cy);
+    ctx.textAlign = 'left';
+  }
+
+  // Footer — the house signature
+  ctx.fillStyle = ivory;
+  ctx.font = '900 52px ' + SERIF;
+  drawTracked(ctx, 'POUL', 540, 1252, 24);
+  ctx.font = 'italic 700 27px ' + SERIF;
+  ctx.fillStyle = textMid;
+  ctx.textAlign = 'center';
+  ctx.fillText('Luck favors the spontaneous.', 540, 1302);
+  ctx.textAlign = 'left';
+}
+
+async function shareImage(payload, plainText, trackProps) {
+  try {
+    try {
+      await Promise.all([
+        document.fonts.load('700 60px "Playfair Display"'),
+        document.fonts.load('900 52px "Playfair Display"'),
+        document.fonts.load('italic 700 27px "Playfair Display"'),
+        document.fonts.load('800 30px Manrope'),
+        document.fonts.load('700 26px Manrope'),
+        document.fonts.load('400 30px Manrope'),
+      ]);
+    } catch (e) { /* offline first run — canvas falls back to system faces */ }
+
+    const canvas = document.createElement('canvas');
+    canvas.width = SHARE_W;
+    canvas.height = SHARE_H;
+    renderShareCanvas(canvas.getContext('2d'), payload);
+    const blob = await new Promise(res => canvas.toBlob(res, 'image/png'));
+    if (!blob) throw new Error('render failed');
+    track('share_image', trackProps);
+
+    const file = new File([blob], 'poul-' + payload.kind + '.png', { type: 'image/png' });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], text: plainText });
+        return;
+      } catch (e) { if (e && e.name === 'AbortError') return; }
+    }
+    if (navigator.clipboard && window.ClipboardItem) {
+      try {
+        await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+        showToast('Card image copied. Paste it anywhere.');
+        return;
+      } catch (e) { /* clipboard denied — fall through to download */ }
+    }
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'poul-' + payload.kind + '.png';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 4000);
+    showToast('Card image saved to your downloads.');
+  } catch (e) {
+    copyShareText(plainText);   // worst case, the words still travel
+  }
+}
+
+function sharePull() {
+  if (!_lastPull) return;
+  const c = _lastPull.card;
+  const text = 'Pocketed "' + c.title + '" on POUL — +' + c.spark + ' Pocket Score\n\nLuck favors the spontaneous.';
+  shareImage(
+    { kind: 'card', card: c, packId: _lastPull.packId, packName: _lastPull.packName },
+    text,
+    { share_kind: 'pull', card_id: c.id, pack: _lastPull.packId }
+  );
+}
+
+function shareTrophyUnlock() {
+  if (!_newTrophies.length) return;
+  const t = _newTrophies[0];
+  const done = t.req.replace(/^Pocket\b/, 'Pocketed').replace(/^Keep\b/, 'Kept');
+  const text = 'Trophy earned on POUL — ' + t.name + '. ' + done + '.\n\nLuck favors the spontaneous.';
+  shareImage(
+    { kind: 'trophy', trophy: t, packName: _lastPull ? _lastPull.packName : activePackLabel() },
+    text,
+    { share_kind: 'trophy', trophy_id: t.id }
+  );
 }
 
 // ──────────────────────────────────────────

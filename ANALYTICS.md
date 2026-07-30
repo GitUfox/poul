@@ -37,7 +37,10 @@ While `key === ''`: no script loads, no network requests, `track()` is a silent 
 | `card_declined` | declineCard() | cardProps |
 | `streak_milestone` | streak hits 3 / 7 / 30 | days |
 | `pack_selected` | selectPack() | pack |
+| `daily_chalk` | daily chalk-up claimed | tokens |
+| `house_rules_set` | House Rules rack saved | count, pack |
 | `booking_link_tapped` | booking CTA link clicked | label, card_id, pack |
+| `share_image` | sharePull() / shareTrophyUnlock() render a share PNG | share_kind (pull/trophy), card_id or trophy_id, pack |
 | `$pageview` | app open (built-in) | — |
 
 `cardProps()` in the HTML is the single source for the shared property block —
