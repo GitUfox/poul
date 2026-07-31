@@ -237,6 +237,13 @@
       "location": "Jalisco · Mexico",
       "emoji": "🎺",
       "cardCount": 60
+    },
+    {
+      "id": "cancun",
+      "name": "Cancún",
+      "location": "Quintana Roo · Mexico",
+      "emoji": "🏝️",
+      "cardCount": 26
     }
   ]
 }
