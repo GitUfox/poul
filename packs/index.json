@@ -251,6 +251,13 @@
       "location": "Georgia",
       "emoji": "🍑",
       "cardCount": 60
+    },
+    {
+      "id": "dallas",
+      "name": "Dallas",
+      "location": "Texas",
+      "emoji": "🤠",
+      "cardCount": 60
     }
   ]
 }
