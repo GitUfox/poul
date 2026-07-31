@@ -223,6 +223,13 @@
       "location": "British Columbia",
       "emoji": "🌲",
       "cardCount": 60
+    },
+    {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "location": "Mexico",
+      "emoji": "🦅",
+      "cardCount": 60
     }
   ]
 }
