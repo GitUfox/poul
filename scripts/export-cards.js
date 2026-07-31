@@ -53,6 +53,17 @@ const PACK_META = {
   'san-diego':    { name: 'San Diego',     location: 'California',     emoji: '🏄', isDefault: false },
   'new-orleans':  { name: 'New Orleans',   location: 'Louisiana',      emoji: '⚜️', isDefault: false },
   'boston':       { name: 'Boston',        location: 'Massachusetts',  emoji: '🦞', isDefault: false },
+  // Wave 2 — Canada · Mexico · US round-out
+  'toronto':      { name: 'Toronto',       location: 'Ontario',          emoji: '🍁', isDefault: false },
+  'montreal':     { name: 'Montréal',      location: 'Québec',           emoji: '🥐', isDefault: false },
+  'vancouver':    { name: 'Vancouver',     location: 'British Columbia', emoji: '🌲', isDefault: false },
+  'mexico-city':  { name: 'Mexico City',   location: 'Mexico',           emoji: '🦅', isDefault: false },
+  'guadalajara':  { name: 'Guadalajara',   location: 'Jalisco · Mexico', emoji: '🎺', isDefault: false },
+  'cancun':       { name: 'Cancún',        location: 'Quintana Roo · Mexico', emoji: '🏝️', isDefault: false },
+  'atlanta':      { name: 'Atlanta',       location: 'Georgia',          emoji: '🍑', isDefault: false },
+  'dallas':       { name: 'Dallas',        location: 'Texas',            emoji: '🤠', isDefault: false },
+  'houston':      { name: 'Houston',       location: 'Texas',            emoji: '🚀', isDefault: false },
+  'philadelphia': { name: 'Philadelphia',  location: 'Pennsylvania',     emoji: '🔔', isDefault: false },
 };
 
 // ── Notion helpers ─────────────────────────────────────────────────────────
