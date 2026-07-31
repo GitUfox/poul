@@ -244,6 +244,13 @@
       "location": "Quintana Roo · Mexico",
       "emoji": "🏝️",
       "cardCount": 60
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "location": "Georgia",
+      "emoji": "🍑",
+      "cardCount": 60
     }
   ]
 }
