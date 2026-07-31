@@ -230,6 +230,13 @@
       "location": "Mexico",
       "emoji": "🦅",
       "cardCount": 60
+    },
+    {
+      "id": "guadalajara",
+      "name": "Guadalajara",
+      "location": "Jalisco · Mexico",
+      "emoji": "🎺",
+      "cardCount": 60
     }
   ]
 }
