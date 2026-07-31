@@ -216,6 +216,13 @@
       "location": "Québec",
       "emoji": "🥐",
       "cardCount": 60
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver",
+      "location": "British Columbia",
+      "emoji": "🌲",
+      "cardCount": 60
     }
   ]
 }
