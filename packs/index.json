@@ -265,6 +265,13 @@
       "location": "Texas",
       "emoji": "🚀",
       "cardCount": 60
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "location": "Pennsylvania",
+      "emoji": "🔔",
+      "cardCount": 60
     }
   ]
 }
