@@ -209,6 +209,13 @@
       "location": "Ontario",
       "emoji": "🍁",
       "cardCount": 60
+    },
+    {
+      "id": "montreal",
+      "name": "Montréal",
+      "location": "Québec",
+      "emoji": "🥐",
+      "cardCount": 60
     }
   ]
 }
