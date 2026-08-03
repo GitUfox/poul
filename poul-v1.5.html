@@ -51,6 +51,25 @@
     --social: #a84de8;
     --active: #4d8fe8;
     --wild: #f0e6cc;
+
+    /* ── TYPE SCALE ──
+       Was 22 ad-hoc sizes (10 → 72px) with seven one-off strays: nobody chose
+       12.5 over 13, it drifted there. Now one ramp, named by role. The 12/12.5
+       pair is deliberate and kept: caps at 12 read optically smaller than
+       lowercase at 12.5, so they are different roles, not a duplicate.
+       12px is the floor — the standing legibility rule. */
+    --fs-micro:     12px;    /* uppercase micro-labels */
+    --fs-small:     12.5px;  /* small reading text */
+    --fs-body:      13px;
+    --fs-base:      14px;
+    --fs-md:        16px;
+    --fs-lg:        18px;
+    --fs-xl:        22px;
+    --fs-2xl:       28px;
+    --fs-3xl:       36px;
+    --fs-display-1: 56px;
+    --fs-display-2: 64px;
+    --fs-display-3: 72px;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -152,7 +171,7 @@
 
   .home-wordmark {
     font-family: 'Playfair Display', serif;
-    font-size: 72px;
+    font-size: var(--fs-display-3);
     font-weight: 900;
     letter-spacing: -3px;
     line-height: 1;
@@ -170,7 +189,7 @@
   }
 
   .home-sub {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 600;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -198,7 +217,7 @@
   }
 
   .spark-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -209,7 +228,7 @@
 
   .spark-value {
     font-family: 'Playfair Display', serif;
-    font-size: 28px;
+    font-size: var(--fs-2xl);
     font-weight: 700;
     color: var(--felt-bright);
     line-height: 1;
@@ -223,7 +242,7 @@
 
   .streak-value {
     font-family: 'Playfair Display', serif;
-    font-size: 22px;
+    font-size: var(--fs-xl);
     font-weight: 700;
     color: var(--ivory);
     line-height: 1;
@@ -255,7 +274,7 @@
 
   .spark-type-label {
     white-space: nowrap;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -264,7 +283,7 @@
   }
 
   .spark-type-value {
-    font-size: 14px;
+    font-size: var(--fs-base);
     font-weight: 700;
     color: var(--text);
   }
@@ -294,7 +313,7 @@
   }
 
   .token-label {
-    font-size: 10px;
+    font-size: var(--fs-micro);
     font-weight: 600;
     letter-spacing: 0.15em;
     color: var(--text-dim);
@@ -303,7 +322,7 @@
 
   /* Category grid */
   .category-label {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 700;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -405,7 +424,7 @@
   .cat-icon svg { display: block; }
 
   .cat-name {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -446,7 +465,7 @@
     border-radius: 14px;
     padding: 18px;
     font-family: 'Manrope', sans-serif;
-    font-size: 15px;
+    font-size: var(--fs-base);
     font-weight: 800;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -482,7 +501,7 @@
   }
 
   .collection-link {
-    font-size: 14px;
+    font-size: var(--fs-base);
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -511,7 +530,7 @@
   }
 
   .draw-category-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -587,7 +606,7 @@
 
   .ball-number {
     font-family: 'Playfair Display', serif;
-    font-size: 34px;
+    font-size: var(--fs-3xl);
     font-weight: 900;
     color: #0d120d;
     line-height: 1;
@@ -608,7 +627,7 @@
   .ball.drawing .ball-glow { opacity: 1; }
 
   .draw-instruction {
-    font-size: 13px;
+    font-size: var(--fs-body);
     font-weight: 500;
     color: var(--text-dim);
     letter-spacing: 0.05em;
@@ -666,7 +685,7 @@
     gap: 7px;
     padding: 5px 14px 5px 5px;
     border-radius: 100px;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 800;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -685,7 +704,7 @@
   .card-rarity-badge.badge-legendary{ background: rgba(240,230,204,0.12);  border: 1px solid rgba(240,230,204,0.32); color: #f0e6cc; }
 
   .card-city-tag {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -698,7 +717,7 @@
 
   .card-title {
     font-family: 'Playfair Display', serif;
-    font-size: 26px;
+    font-size: var(--fs-2xl);
     font-weight: 700;
     line-height: 1.1;
     color: var(--text);
@@ -707,7 +726,7 @@
   }
 
   .card-description {
-    font-size: 13.5px;
+    font-size: var(--fs-body);
     line-height: 1.6;
     color: var(--text-mid);
     margin-bottom: 16px;
@@ -721,7 +740,7 @@
   }
 
   .meta-chip {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 600;
     background: var(--surface);
     border: 1px solid var(--border);
@@ -740,7 +759,7 @@
   }
 
   .bonus-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -750,7 +769,7 @@
   }
 
   .bonus-text {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     color: var(--felt-bright);
     line-height: 1.5;
   }
@@ -767,7 +786,7 @@
     border-radius: 11px;
     padding: 15px;
     font-family: 'Manrope', sans-serif;
-    font-size: 13px;
+    font-size: var(--fs-body);
     font-weight: 800;
     letter-spacing: 0.06em;
     cursor: pointer;
@@ -811,7 +830,7 @@
   }
 
   .btn-redraw {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -831,7 +850,7 @@
   }
 
   .redraw-cost {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     color: var(--text-dim);
     font-weight: 600;
   }
@@ -845,7 +864,7 @@
   }
 
   .result-icon {
-    font-size: 64px;
+    font-size: var(--fs-display-2);
     animation: resultPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
   }
 
@@ -856,7 +875,7 @@
 
   .result-title {
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
+    font-size: var(--fs-3xl);
     font-weight: 900;
     letter-spacing: -1px;
     text-align: center;
@@ -867,7 +886,7 @@
   .result-title.decline { color: var(--danger); }
 
   .result-activity {
-    font-size: 18px;
+    font-size: var(--fs-lg);
     font-weight: 600;
     color: var(--text-mid);
     text-align: center;
@@ -889,7 +908,7 @@
 
   .result-spark-delta {
     font-family: 'Playfair Display', serif;
-    font-size: 28px;
+    font-size: var(--fs-2xl);
     font-weight: 700;
   }
 
@@ -897,7 +916,7 @@
   .result-spark-delta.neg { color: var(--danger); }
 
   .result-spark-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -905,7 +924,7 @@
   }
 
   .result-message {
-    font-size: 14px;
+    font-size: var(--fs-base);
     color: var(--text-mid);
     text-align: center;
     max-width: 280px;
@@ -921,7 +940,7 @@
     border-radius: 12px;
     padding: 16px;
     font-family: 'Manrope', sans-serif;
-    font-size: 13px;
+    font-size: var(--fs-body);
     font-weight: 800;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -947,7 +966,7 @@
     border-radius: 12px;
     padding: 13px 10px;
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 800;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -995,14 +1014,14 @@
 
   .pool-title {
     font-family: 'Playfair Display', serif;
-    font-size: 27px;
+    font-size: var(--fs-2xl);
     font-weight: 700;
     letter-spacing: -1px;
     white-space: nowrap;
   }
 
   .pool-count {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -1015,7 +1034,7 @@
     border-radius: 8px;
     padding: 8px 14px;
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1059,14 +1078,14 @@
 
   .pool-empty-ball span {
     font-family: 'Playfair Display', serif;
-    font-size: 28px;
+    font-size: var(--fs-2xl);
     font-weight: 900;
     color: white;
     opacity: 0.5;
   }
 
   .pool-empty-text {
-    font-size: 14px;
+    font-size: var(--fs-base);
     color: var(--text-dim);
     line-height: 1.6;
     max-width: 220px;
@@ -1105,7 +1124,7 @@
 
   .pool-card-title {
     font-family: 'Playfair Display', serif;
-    font-size: 19px;
+    font-size: var(--fs-lg);
     font-weight: 700;
     color: var(--text);
     line-height: 1.15;
@@ -1114,7 +1133,7 @@
 
   .pool-card-spark {
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
+    font-size: var(--fs-xl);
     font-weight: 700;
     color: var(--felt-bright);
     flex-shrink: 0;
@@ -1130,32 +1149,32 @@
   }
 
   .pool-card-rarity {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
   }
 
   .pool-card-date {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 600;
     color: var(--text-dim);
     letter-spacing: 0.05em;
   }
 
   .pool-card-cat {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 600;
     color: var(--text-dim);
   }
 
   .pool-card-sep {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     color: var(--border2);
   }
 
   .pool-card-description {
-    font-size: 13px;
+    font-size: var(--fs-body);
     line-height: 1.6;
     color: var(--text-mid);
     margin-bottom: 12px;
@@ -1169,7 +1188,7 @@
   }
 
   .pool-card-chip {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 600;
     background: var(--surface2);
     border: 1px solid var(--border);
@@ -1187,7 +1206,7 @@
   }
 
   .pool-card-bonus-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -1197,7 +1216,7 @@
   }
 
   .pool-card-bonus-text {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     color: var(--felt-bright);
     line-height: 1.5;
   }
@@ -1218,17 +1237,17 @@
     margin-top: 10px;
   }
 
-  .type-badge-icon { font-size: 18px; }
+  .type-badge-icon { font-size: var(--fs-lg); }
 
   .type-badge-text {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 700;
     color: var(--felt-bright);
     letter-spacing: 0.05em;
   }
 
   .type-badge-sub {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     color: var(--text-dim);
     font-weight: 500;
     margin-top: 1px;
@@ -1246,7 +1265,7 @@
     border: 1px solid var(--border2);
     border-radius: 10px;
     padding: 12px 20px;
-    font-size: 13px;
+    font-size: var(--fs-body);
     font-weight: 600;
     color: var(--text);
     z-index: 1000;
@@ -1300,7 +1319,7 @@
     border-radius: 8px;
     padding: 6px 12px;
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -1319,7 +1338,7 @@
     border-radius: 50%;
     background: var(--felt-bright);
     color: #04160b;
-    font-size: 10px;
+    font-size: var(--fs-micro);
     font-weight: 800;
     align-items: center;
     justify-content: center;
@@ -1328,7 +1347,7 @@
   .filter-badge.visible { display: flex; }
 
   .pool-size-label {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 600;
     color: var(--text-dim);
     letter-spacing: 0.05em;
@@ -1394,7 +1413,7 @@
 
   .sheet-title {
     font-family: 'Playfair Display', serif;
-    font-size: 22px;
+    font-size: var(--fs-xl);
     font-weight: 700;
     letter-spacing: -0.3px;
   }
@@ -1405,7 +1424,7 @@
     border-radius: 8px;
     padding: 6px 12px;
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     color: var(--text-dim);
     cursor: pointer;
@@ -1417,7 +1436,7 @@
   .btn-sheet-close:hover { border-color: var(--felt-bright); color: var(--felt-bright); }
 
   .sheet-section-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -1433,7 +1452,7 @@
     border: 1px solid var(--border);
     background: var(--surface);
     font-family: 'Manrope', sans-serif;
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 700;
     color: var(--text-mid);
     cursor: pointer;
@@ -1453,7 +1472,7 @@
     border: 1px solid var(--border);
     background: none;
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -1471,7 +1490,7 @@
     border: none;
     background: var(--felt);
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 800;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -1486,7 +1505,7 @@
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -1503,7 +1522,7 @@
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -1588,7 +1607,7 @@
 
   .share-card-logo {
     font-family: 'Playfair Display', serif;
-    font-size: 13px;
+    font-size: var(--fs-body);
     font-weight: 900;
     letter-spacing: 0.3em;
     color: var(--text-dim);
@@ -1597,14 +1616,14 @@
   }
 
   .share-card-emoji {
-    font-size: 56px;
+    font-size: var(--fs-display-1);
     line-height: 1;
     margin-bottom: 16px;
   }
 
   .share-card-type-name {
     font-family: 'Playfair Display', serif;
-    font-size: 26px;
+    font-size: var(--fs-2xl);
     font-weight: 700;
     color: var(--text);
     text-align: center;
@@ -1613,7 +1632,7 @@
   }
 
   .share-card-type-sub {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 500;
     color: var(--text-mid);
     text-align: center;
@@ -1644,7 +1663,7 @@
 
   .share-stat-value {
     font-family: 'Playfair Display', serif;
-    font-size: 28px;
+    font-size: var(--fs-2xl);
     font-weight: 700;
     color: var(--felt-bright);
     line-height: 1;
@@ -1655,7 +1674,7 @@
   }
 
   .share-stat-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -1663,7 +1682,7 @@
   }
 
   .share-card-tagline {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-style: italic;
     color: var(--text-dim);
     letter-spacing: 0.05em;
@@ -1683,7 +1702,7 @@
     border-radius: 10px;
     padding: 14px;
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 800;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1704,7 +1723,7 @@
     border-radius: 10px;
     padding: 14px 18px;
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     color: var(--text-mid);
     cursor: pointer;
@@ -1717,7 +1736,7 @@
   }
 
   .share-card-unlock-note {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     color: var(--text-dim);
     text-align: center;
     margin-top: 14px;
@@ -1747,7 +1766,7 @@
   .pack-indicator:active { background: var(--surface3); }
 
   .pack-indicator-section-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -1762,7 +1781,7 @@
   }
 
   #pack-indicator-text {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 700;
     color: var(--text-mid);
     letter-spacing: 0.04em;
@@ -1770,7 +1789,7 @@
 
   .pack-switch-hint {
     white-space: nowrap;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1806,26 +1825,26 @@
     border-color: var(--felt-bright);
   }
 
-  .pack-option-emoji { font-size: 30px; flex-shrink: 0; }
+  .pack-option-emoji { font-size: var(--fs-2xl); flex-shrink: 0; }
 
   .pack-option-info { flex: 1; }
 
   .pack-option-name {
-    font-size: 15px;
+    font-size: var(--fs-base);
     font-weight: 700;
     color: var(--text);
     margin-bottom: 3px;
   }
 
   .pack-option-location {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 600;
     color: var(--text-dim);
     letter-spacing: 0.03em;
   }
 
   .pack-option-badge {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -1864,7 +1883,7 @@
     border-radius: 10px;
     padding: 11px 14px 11px 38px;
     font-family: 'Manrope', sans-serif;
-    font-size: 14px;
+    font-size: var(--fs-base);
     font-weight: 500;
     color: var(--text);
     outline: none;
@@ -1878,7 +1897,7 @@
   .pack-no-results {
     text-align: center;
     color: var(--text-dim);
-    font-size: 13px;
+    font-size: var(--fs-body);
     font-weight: 500;
     padding: 28px 0 12px;
   }
@@ -1886,7 +1905,7 @@
 
   /* ── SEASON INDICATOR ── */
   .season-line {
-    font-size: 14px;
+    font-size: var(--fs-base);
     font-weight: 700;
     letter-spacing: 0.08em;
     color: var(--sage);
@@ -1904,7 +1923,7 @@
   }
 
   .proof-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -1941,10 +1960,10 @@
     pointer-events: none;
   }
 
-  .proof-placeholder-icon { font-size: 26px; opacity: 0.7; }
+  .proof-placeholder-icon { font-size: var(--fs-2xl); opacity: 0.7; }
 
   .proof-placeholder-text {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1967,7 +1986,7 @@
     border: none;
     border-radius: 6px;
     padding: 5px 9px;
-    font-size: 11px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.05em;
     color: white;
@@ -1987,7 +2006,7 @@
   }
 
   .pool-card-rating-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -2004,7 +2023,7 @@
     background: var(--surface2);
     border: 1px solid var(--border);
     border-radius: 8px;
-    font-size: 17px;
+    font-size: var(--fs-md);
     cursor: pointer;
     transition: all 0.18s ease;
     -webkit-tap-highlight-color: transparent;
@@ -2056,21 +2075,21 @@
   .install-prompt.show { transform: translateY(0); }
 
   .install-prompt-icon {
-    font-size: 28px;
+    font-size: var(--fs-2xl);
     flex-shrink: 0;
   }
 
   .install-prompt-text { flex: 1; min-width: 0; }
 
   .install-prompt-title {
-    font-size: 13px;
+    font-size: var(--fs-body);
     font-weight: 700;
     color: var(--text);
     margin-bottom: 2px;
   }
 
   .install-prompt-sub {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     color: var(--text-dim);
     line-height: 1.4;
   }
@@ -2081,7 +2100,7 @@
     border-radius: 8px;
     padding: 9px 14px;
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 800;
     letter-spacing: 0.06em;
     color: var(--text);
@@ -2097,7 +2116,7 @@
     background: none;
     border: none;
     color: var(--text-dim);
-    font-size: 20px;
+    font-size: var(--fs-xl);
     cursor: pointer;
     padding: 2px 4px;
     flex-shrink: 0;
@@ -2119,7 +2138,7 @@
     background: var(--surface2);
     color: var(--text-dim);
     font-family: 'Manrope', sans-serif;
-    font-size: 14px;
+    font-size: var(--fs-base);
     font-weight: 700;
     cursor: pointer;
     display: flex;
@@ -2140,7 +2159,7 @@
   }
 
   .rules-section-title {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -2158,7 +2177,7 @@
   }
 
   .rules-text {
-    font-size: 13px;
+    font-size: var(--fs-body);
     font-weight: 500;
     color: var(--text-dim);
     line-height: 1.65;
@@ -2188,10 +2207,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: var(--fs-lg);
   }
   .rules-loop-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -2199,7 +2218,7 @@
   }
   .rules-loop-arrow {
     color: var(--text-dim);
-    font-size: 12px;
+    font-size: var(--fs-micro);
     margin: 0 2px;
     padding-bottom: 18px;
     flex-shrink: 0;
@@ -2227,7 +2246,7 @@
     flex-shrink: 0;
   }
   .rules-cat-name {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 700;
     color: var(--text);
     white-space: nowrap;
@@ -2249,7 +2268,7 @@
     border: 1px solid var(--border);
   }
   .rules-rarity-badge {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -2260,13 +2279,13 @@
     flex-shrink: 0;
   }
   .rules-rarity-odds {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 600;
     color: var(--text-dim);
     flex: 1;
   }
   .rules-rarity-spark {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     color: var(--text);
   }
@@ -2286,20 +2305,20 @@
     border-radius: 9px;
     border: 1px solid var(--border);
   }
-  .rules-type-emoji { font-size: 18px; flex-shrink: 0; }
+  .rules-type-emoji { font-size: var(--fs-lg); flex-shrink: 0; }
   .rules-type-info { flex: 1; }
   .rules-type-name {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 700;
     color: var(--text);
   }
   .rules-type-sub {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 500;
     color: var(--text-dim);
   }
   .rules-type-threshold {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 700;
     color: var(--text-dim);
     flex-shrink: 0;
@@ -2319,13 +2338,13 @@
     text-align: center;
   }
   .rules-milestone-days {
-    font-size: 18px;
+    font-size: var(--fs-lg);
     font-weight: 800;
     color: var(--text);
     line-height: 1;
   }
   .rules-milestone-label {
-    font-size: 12px;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -2333,7 +2352,7 @@
     margin: 3px 0;
   }
   .rules-milestone-reward {
-    font-size: 12.5px;
+    font-size: var(--fs-small);
     font-weight: 700;
     color: var(--felt-bright);
   }
@@ -2342,7 +2361,7 @@
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    font-size: 15px;
+    font-size: var(--fs-base);
     color: var(--text-dim);
     padding: 10px 0 8px;
     border-top: 1px solid var(--border);
@@ -2356,29 +2375,29 @@
   /* Themed filter packs (quick vibes) */
   .vibe-row{display:flex;gap:8px;overflow-x:auto;margin:12px 0 2px;padding-bottom:2px;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
   .vibe-row::-webkit-scrollbar{display:none;}
-  .vibe-chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;padding:7px 13px;border-radius:999px;border:1px solid #2a2f2a;background:#1a1f1a;color:#a0a898;font-size:12.5px;font-weight:600;cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s,background .15s;}
+  .vibe-chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;padding:7px 13px;border-radius:999px;border:1px solid #2a2f2a;background:#1a1f1a;color:#a0a898;font-size: var(--fs-small);font-weight:600;cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s,background .15s;}
   .vibe-chip.active{border-color:#3d9970;color:#f0e6cc;background:rgba(61,153,112,.14);}
   /* Collector / limited cards */
-  .limited-badge{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;border:1px solid rgba(240,230,204,.55);background:rgba(240,230,204,.12);color:#f0e6cc;font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;}
+  .limited-badge{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;border:1px solid rgba(240,230,204,.55);background:rgba(240,230,204,.12);color:#f0e6cc;font-size: var(--fs-micro);font-weight:700;letter-spacing:.09em;text-transform:uppercase;}
   .card.limited{box-shadow:0 0 0 1px rgba(240,230,204,.45),0 0 22px rgba(240,230,204,.10);}
   .pool-card.limited{box-shadow:inset 0 0 0 1px rgba(240,230,204,.35);}
   .pool-card-limited{margin:2px 0 8px;}
   /* Booking CTA */
   .booking-cta{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0 4px;}
-  .booking-cta-label{flex:0 0 100%;text-align:center;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5a6458;margin-bottom:2px;}
-  .booking-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 15px;border-radius:12px;border:1px solid #2a2f2a;background:#1a1f1a;color:#eeeee8;font-size:13px;font-weight:600;text-decoration:none;transition:border-color .15s,background .15s;}
+  .booking-cta-label{flex:0 0 100%;text-align:center;font-size: var(--fs-micro);letter-spacing:.06em;text-transform:uppercase;color:#5a6458;margin-bottom:2px;}
+  .booking-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 15px;border-radius:12px;border:1px solid #2a2f2a;background:#1a1f1a;color:#eeeee8;font-size: var(--fs-body);font-weight:600;text-decoration:none;transition:border-color .15s,background .15s;}
   .booking-btn:hover{border-color:#3d9970;background:#212621;}
   .booking-btn.primary{border-color:#3d9970;color:#f0e6cc;background:rgba(61,153,112,.12);}
   /* Pack selector V2 */
   .pack-search-row{display:flex;gap:8px;align-items:stretch;}
   .pack-search-row .pack-search-wrap{flex:1;}
-  #nearby-btn{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;padding:0 13px;border-radius:10px;border:1px solid #2a2f2a;background:#1a1f1a;color:#a0a898;font-size:12.5px;font-weight:600;cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s;}
+  #nearby-btn{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;padding:0 13px;border-radius:10px;border:1px solid #2a2f2a;background:#1a1f1a;color:#a0a898;font-size: var(--fs-small);font-weight:600;cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s;}
   #nearby-btn.active{border-color:#3d9970;color:#f0e6cc;}
   #nearby-btn:disabled{opacity:.6;cursor:default;}
   .pack-group{margin-bottom:4px;}
-  .pack-group-header{display:flex;align-items:center;justify-content:space-between;padding:11px 4px 7px;cursor:pointer;user-select:none;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#8a948a;}
+  .pack-group-header{display:flex;align-items:center;justify-content:space-between;padding:11px 4px 7px;cursor:pointer;user-select:none;font-size: var(--fs-micro);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#8a948a;}
   .pack-group-header .pg-left{display:flex;align-items:center;gap:7px;}
-  .pack-group-header .pg-chev{display:inline-block;transition:transform .2s;font-size:10px;color:#5a6458;}
+  .pack-group-header .pg-chev{display:inline-block;transition:transform .2s;font-size: var(--fs-micro);color:#5a6458;}
   .pack-group-count{color:#5a6458;font-weight:600;letter-spacing:0;}
   .pack-group.collapsed .pack-group-body{display:none;}
   .pack-group.collapsed .pg-chev{transform:rotate(-90deg);}
@@ -2401,11 +2420,11 @@
 </style>
 <style id="v18-tabletools">
   /* Trophy case */
-  .pool-section-label{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--sage);margin:6px 0 12px;}
+  .pool-section-label{font-size: var(--fs-micro);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--sage);margin:6px 0 12px;}
   .trophy-shelf{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:22px;}
   .trophy{display:flex;flex-direction:column;align-items:center;gap:7px;padding:14px 6px 11px;background:var(--surface);border:1px solid var(--border);border-radius:12px;}
-  .trophy .t-name{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#e8a84d;text-align:center;line-height:1.2;}
-  .trophy .t-req{font-size:12px;color:var(--text-dim);text-align:center;line-height:1.25;}
+  .trophy .t-name{font-size: var(--fs-micro);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#e8a84d;text-align:center;line-height:1.2;}
+  .trophy .t-req{font-size: var(--fs-micro);color:var(--text-dim);text-align:center;line-height:1.25;}
   .trophy.locked{opacity:.38;}
   .trophy.locked svg{filter:grayscale(1);}
   .trophy.locked .t-name{color:var(--text-mid,#a0a898);}
@@ -2415,8 +2434,8 @@
   .hr-check{width:20px;height:20px;border-radius:6px;border:1.5px solid var(--border2);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:transparent;}
   .hr-row.sel .hr-check{background:var(--felt-bright);border-color:var(--felt-bright);color:#04160b;}
   .hr-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
-  .hr-title{font-size:13px;font-weight:600;color:var(--text);}
-  .hr-cat-label{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--sage);margin:18px 0 4px;}
+  .hr-title{font-size: var(--fs-body);font-weight:600;color:var(--text);}
+  .hr-cat-label{font-size: var(--fs-micro);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--sage);margin:18px 0 4px;}
   #house-list{max-height:46vh;overflow-y:auto;-webkit-overflow-scrolling:touch;margin:0 -4px;padding:0 4px;}
 </style>
 <!-- Shared SVG defs — the pool-ball radial gradient, referenced document-wide by url(#pbg) -->
