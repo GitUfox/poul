@@ -1,9 +1,12 @@
-const CACHE = 'poul-v46';
+const CACHE = 'poul-v47';
 
 // App shell. Only the HTML is a hard requirement; the rest is best-effort.
 const SHELL = [
   './poul-v1.5.html',
   './poul-icon.svg',
+  './icon-180.png',      // apple-touch-icon — iOS ignores SVG here
+  './icon-192.png',
+  './icon-512.png',      // serves both `any` and `maskable`
   './manifest.json',
 ];
 

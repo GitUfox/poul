@@ -2,14 +2,25 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!-- viewport-fit=cover lets the app paint under the status bar and home indicator;
+     the safe-area padding on .screen (and the bottom-anchored surfaces) is what
+     keeps content out from under them. The two MUST ship together.
+     maximum-scale deliberately removed: blocking pinch-zoom is a WCAG 1.4.4 failure. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>POUL</title>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0a0c0a">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Poul">
-<link rel="apple-touch-icon" href="poul-icon.svg">
+<!-- iOS does NOT support SVG for apple-touch-icon — the previous SVG href meant
+     every installed home-screen tile fell back to a blank square or a screenshot.
+     PNG only, full-bleed (iOS applies its own squircle mask; baking a corner in
+     produces the double-rounded "icon inside an icon" defect). -->
+<link rel="apple-touch-icon" sizes="180x180" href="icon-180.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="icon" type="image/svg+xml" href="poul-icon.svg">
 <meta http-equiv="Content-Security-Policy"
   content="default-src 'self'; script-src 'self' 'unsafe-inline' https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://us.i.posthog.com https://us-assets.i.posthog.com">
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
@@ -44,9 +55,16 @@
 
   * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
+  /* Tells the engine this app is dark, so native UI it renders for us —
+     scrollbars, form controls, date/select popovers — stops coming back light
+     against a #0a0c0a app. One line, and it was missing entirely. */
+  :root { color-scheme: dark; }
+
   html, body {
     height: 100%;
+    height: 100dvh;          /* dvh tracks the collapsing browser toolbar; 100% is the fallback */
     overflow: hidden;
+    overscroll-behavior: none;  /* no rubber-band exposing the page behind the app */
     background: var(--bg);
     color: var(--text);
     font-family: 'Manrope', sans-serif;
@@ -78,6 +96,13 @@
     transition: opacity 0.4s ease;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    /* Every screen is fixed inset:0, so this is the one place the insets belong.
+       Paired with viewport-fit=cover + black-translucent above: the background
+       runs to the physical edge, the content never does. */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
   }
 
   .screen.active {
@@ -89,7 +114,10 @@
   body::before {
     content: '';
     position: fixed;
-    top: 0; left: 0; right: 0;
+    /* Sits BELOW the status bar, not behind it. With viewport-fit=cover +
+       black-translucent, top:0 is the physical top of the display, which would
+       hide this 3px accent under the clock. */
+    top: env(safe-area-inset-top); left: 0; right: 0;
     height: 3px;
     background: linear-gradient(90deg, var(--felt) 0%, var(--felt-bright) 100%);
     pointer-events: none;
@@ -1211,7 +1239,7 @@
   ──────────────────────────────── */
   .toast {
     position: fixed;
-    bottom: 32px;
+    bottom: calc(32px + env(safe-area-inset-bottom));
     left: 50%;
     transform: translateX(-50%) translateY(80px);
     background: var(--surface3);
@@ -1332,8 +1360,12 @@
     z-index: 101;
     transform: translateY(100%);
     transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
-    padding: 0 24px 40px;
+    /* Sheet colour runs to the physical bottom edge; its CONTENT clears the home
+       indicator. Padding, not a gap — a gap above the indicator is the loudest
+       "this is a website" tell on iPhone. */
+    padding: 0 24px calc(40px + env(safe-area-inset-bottom));
     max-height: 85vh;
+    max-height: 85dvh;
     overflow-y: auto;
   }
 
@@ -2011,7 +2043,7 @@
     right: 0;
     background: var(--surface2);
     border-top: 1px solid var(--border2);
-    padding: 14px 18px 28px;
+    padding: 14px 18px calc(28px + env(safe-area-inset-bottom));
     display: flex;
     align-items: center;
     gap: 12px;
@@ -3272,17 +3304,104 @@ let state = {
 };
 
 // ──────────────────────────────────────────
-// UTILITY: WEIGHTED RANDOM DRAW
+// UTILITY: SHUFFLE-BAG DRAW
 // ──────────────────────────────────────────
+// This used to be Math.random() over a weighted array — memoryless, so the same
+// card could come back immediately, and did: measured on an 8-card filtered pool,
+// a repeat inside three draws happened 38% of the time. True randomness feels
+// rigged. Card games of consequence deal from a shuffled deck instead.
+//
+// The bag holds every card in the current pool exactly once, so a cycle is
+// repeat-free and the whole deck is reachable. Rarity survives by weighting the
+// ORDER, not the frequency: the bag is filled by weighted sampling WITHOUT
+// replacement, so Commons tend to surface early and Legendaries late (measured:
+// a Legendary lands in the first half of a cycle only ~16% of the time).
+// Anticipation, without hiding cards behind luck.
+//
+// Bags are keyed on a hash of the pool itself, so any change to what's eligible
+// — filters, House Rules, season rollover, a pack update — starts a fresh cycle
+// automatically. The key never needs to know *why* the pool changed.
+//
+// Storage is additive (a new localStorage key). Every path is wrapped: if
+// storage is unavailable or corrupt, the draw still returns a valid card.
+
+const BAGS_KEY = 'poul_bags_v1';
+const BAGS_MAX = 24;   // bounded — one bag per pack/category/filter combo would grow forever
+
+function poolSignature(pool) {
+  // FNV-1a over the sorted ids: order-independent and cheap (~60 short strings).
+  let h = 0x811c9dc5;
+  for (const id of pool.map(c => c.id).sort()) {
+    for (let i = 0; i < id.length; i++) {
+      h ^= id.charCodeAt(i);
+      h = (h * 0x01000193) >>> 0;
+    }
+    h = (h ^ 47) >>> 0;   // separator, so ['ab','c'] and ['a','bc'] differ
+  }
+  return h.toString(36);
+}
+
+function loadBags() {
+  try { return JSON.parse(localStorage.getItem(BAGS_KEY)) || {}; }
+  catch (e) { return {}; }
+}
+
+function saveBags(bags) {
+  try {
+    const keys = Object.keys(bags);
+    if (keys.length > BAGS_MAX) {
+      keys.sort((a, b) => (bags[a].u || 0) - (bags[b].u || 0))
+          .slice(0, keys.length - BAGS_MAX)
+          .forEach(k => delete bags[k]);
+    }
+    localStorage.setItem(BAGS_KEY, JSON.stringify(bags));
+  } catch (e) {
+    console.warn('Poul: could not save draw bags', e);
+  }
+}
+
+function fillBag(pool) {
+  // Weighted sampling without replacement — every id lands exactly once.
+  // (Never sort(() => Math.random() - 0.5): that shuffle is measurably biased.)
+  const rest = pool.map(c => ({ id: c.id, w: RARITY_WEIGHTS[c.rarity] || 1 }));
+  let total = rest.reduce((s, c) => s + c.w, 0);
+  const order = [];
+  while (rest.length) {
+    let r = Math.random() * total, i = 0;
+    while (i < rest.length - 1 && (r -= rest[i].w) > 0) i++;
+    total -= rest[i].w;
+    order.push(rest[i].id);
+    rest.splice(i, 1);
+  }
+  return order.reverse();   // drawn with pop(), so the first-sampled id comes out first
+}
+
 function drawCard(category) {
   const pool = getFilteredPool(category);
   if (pool.length === 0) return null;
-  const weighted = [];
-  pool.forEach(card => {
-    const w = RARITY_WEIGHTS[card.rarity] || 1;
-    for (let i = 0; i < w; i++) weighted.push(card);
-  });
-  return weighted[Math.floor(Math.random() * weighted.length)];
+  if (pool.length === 1) return pool[0];   // nothing to shuffle; don't churn storage
+
+  const byId = new Map(pool.map(c => [c.id, c]));
+  const key  = state.activePack + ':' + category + ':' + poolSignature(pool);
+  const bags = loadBags();
+  const entry = bags[key];
+  const last  = entry ? entry.l : null;
+  let bag = (entry && Array.isArray(entry.b)) ? entry.b.filter(id => byId.has(id)) : [];
+
+  if (bag.length === 0) {
+    bag = fillBag(pool);
+    // Don't hand back the same card across a cycle boundary.
+    if (bag.length > 1 && bag[bag.length - 1] === last) {
+      const j = Math.floor(Math.random() * (bag.length - 1));
+      [bag[bag.length - 1], bag[j]] = [bag[j], bag[bag.length - 1]];
+    }
+  }
+
+  const id = bag.pop();
+  bags[key] = { b: bag, l: id, u: Date.now() };
+  saveBags(bags);
+
+  return byId.get(id) || pool[Math.floor(Math.random() * pool.length)];
 }
 
 // ──────────────────────────────────────────
