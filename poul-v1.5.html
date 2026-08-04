@@ -52,6 +52,37 @@
     --active: #71a0e5;
     --wild: var(--ivory);   /* dead token — aliased, never referenced */
 
+    /* ── ONE LAMP OVERHEAD ──
+       Before this, Poul had TWO contradictory light sources: every character
+       highlight (.draw-btn::after at 135deg, .cat-btn::after from the top-left,
+       the .ball radial at 40%/33%) implied a lamp over your left shoulder,
+       while every cast shadow (0 24px 80px, 0 8px 32px) implied one straight
+       overhead. Nothing agreed, which is why the app read as decorated rather
+       than lit.
+
+       There is now ONE fixture. Every rim reads --lamp; every cast shadow and
+       specular reads --cast-x/--cast-y; the ambient pool on <body> reads
+       --lamp-x/--lamp-y. All four derive from --lamp-angle. Change that single
+       value and the whole app re-lights in one repaint.
+
+       0deg = 12 o'clock, measured clockwise. 315deg is over your left shoulder,
+       which is where the hand-tuned highlights already were. */
+    --lamp-angle: 315deg;         /* THE one value */
+    --lamp: var(--lamp-angle);    /* what surfaces read — :active flips this, not the fixture */
+    --lamp-hue: 240, 230, 204;    /* --ivory as channels. The bulb is warm, not white. */
+    --lamp-dark: 0, 0, 0;         /* the shadow side, as channels */
+    --rim-w: 1px;                 /* rim thickness = the transparent border width */
+    --rim-gain: 1;                /* rim contrast multiplier; filled buttons raise it */
+    --rim-base: var(--border);    /* flat edge colour UNDER the conic — per-surface override */
+
+    /* Frozen 315deg values, used where sin()/cos() are unavailable
+       (iOS Safari < 15.4). The rim itself always follows --lamp-angle, because
+       conic-gradient takes the angle directly; only these offsets freeze. */
+    --lamp-x: 15%;
+    --lamp-y: 15%;
+    --cast-x: 0.707;              /* unit vector pointing AWAY from the lamp */
+    --cast-y: 0.707;
+
     /* Delta-chip fills, derived from --success and --danger so the chip can
        never drift from the colours the rest of the app already uses. */
     --success-dim:  rgba(77,216,127,0.10);
@@ -139,6 +170,81 @@
      against a #0a0c0a app. One line, and it was missing entirely. */
   :root { color-scheme: dark; }
 
+  /* Derive the pool position and the cast direction from the one angle.
+     Guarded because trig in calc() is iOS Safari 15.4+; below that the frozen
+     315deg values above stand in, and the rim still follows --lamp-angle. */
+  @supports (width: calc(1px * sin(45deg))) {
+    :root {
+      --lamp-x: calc(50% + 50% * sin(var(--lamp-angle)));
+      --lamp-y: calc(50% - 50% * cos(var(--lamp-angle)));
+      --cast-x: calc(-1 * sin(var(--lamp-angle)));
+      --cast-y: calc(cos(var(--lamp-angle)));
+    }
+  }
+
+  /* Registering these makes the press FLIP sweep through the transitions
+     already on .draw-btn / .cat-btn instead of snapping — the lamp travels
+     around the perimeter. Safari 16.4+, Chrome 85+. Where @property is
+     unsupported the at-rule is ignored and the flip is instantaneous, which
+     is a correct fallback rather than a broken one. */
+  @property --lamp {
+    syntax: '<angle>';
+    inherits: true;
+    initial-value: 315deg;
+  }
+  @property --rim-gain {
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 1;
+  }
+
+  /* ── THE LIT LIST ──
+     Everything that is an OBJECT gets a rim. Chips, dots, ghost buttons and
+     stripes deliberately do not. Adding a selector here is how a surface
+     becomes lit; there is no other switch.
+
+     ⚠️ --rim-conic MUST be declared HERE and never on :root. Unregistered
+     custom properties substitute their var()s at the element where they are
+     DECLARED, so a :root-level --rim-conic would bake in 315deg once and
+     inherit down already resolved — the :active flip would silently do
+     nothing. Declared here, it re-resolves against each element's own --lamp.
+
+     Brightness peaks at the lamp, falls through neutral, and bottoms out in a
+     shadowed lobe 180deg opposite. That is the point: not a uniform 1px decal. */
+  .card, .pool-card, .spark-display, .pack-indicator, .cat-btn, .draw-btn,
+  .btn-commit, .btn-continue, .btn-apply-filters, .btn-share,
+  .bottom-sheet, .share-card, .trophy {
+    --rim-conic: conic-gradient(from var(--lamp),
+      rgba(var(--lamp-hue),  calc(0.26 * var(--rim-gain)))   0deg,
+      rgba(var(--lamp-hue),  calc(0.16 * var(--rim-gain)))  42deg,
+      rgba(var(--lamp-hue),  calc(0.05 * var(--rim-gain)))  98deg,
+      rgba(var(--lamp-dark), calc(0.26 * var(--rim-gain))) 152deg,
+      rgba(var(--lamp-dark), calc(0.40 * var(--rim-gain))) 180deg,
+      rgba(var(--lamp-dark), calc(0.26 * var(--rim-gain))) 208deg,
+      rgba(var(--lamp-hue),  calc(0.05 * var(--rim-gain))) 262deg,
+      rgba(var(--lamp-hue),  calc(0.16 * var(--rim-gain))) 318deg,
+      rgba(var(--lamp-hue),  calc(0.26 * var(--rim-gain))) 360deg);
+  }
+
+  /* The opt-out. Nulls the conic so only the flat --rim-base layer survives —
+     i.e. exactly the pre-lamp 1px border. A dead control receives no light. */
+  .lit-free, .draw-btn.disabled {
+    --rim-conic: linear-gradient(rgba(var(--lamp-dark), 0), rgba(var(--lamp-dark), 0));
+    box-shadow: none;
+  }
+
+  /* The shared rim application: fill on padding-box, conic on border-box,
+     flat base underneath, and a transparent border for the conic to show
+     through. No pseudo-element, no mask-composite, no stacking context —
+     so the fixed bottom sheets and the .screen cross-fade are untouched. */
+  .spark-display, .pack-indicator, .trophy {
+    background:
+      linear-gradient(var(--surface), var(--surface)) padding-box,
+      var(--rim-conic) border-box,
+      linear-gradient(var(--rim-base), var(--rim-base)) border-box;
+    border: var(--rim-w) solid transparent;
+  }
+
   html, body {
     height: 100%;
     height: 100dvh;          /* dvh tracks the collapsing browser toolbar; 100% is the fallback */
@@ -147,6 +253,21 @@
     background: var(--bg);
     color: var(--text);
     font-family: 'Manrope', sans-serif;
+  }
+
+  /* THE AMBIENT POOL — same fixture as the rims, positioned from --lamp-angle,
+     so the light on the page and the light on the objects are one thing.
+     Deliberately not background-attachment: fixed — html/body already have
+     overflow:hidden (the .screen elements scroll internally), so it would buy
+     nothing and reintroduce the iOS Safari attachment bug. */
+  body {
+    background:
+      radial-gradient(115% 85% at var(--lamp-x) var(--lamp-y),
+        rgba(var(--lamp-hue), 0.055)  0%,
+        rgba(var(--lamp-hue), 0.022) 26%,
+        rgba(var(--lamp-hue), 0.000) 62%),
+      var(--bg);
+    background-repeat: no-repeat;
   }
 
   /* ── SCROLLBARS ── */
@@ -264,8 +385,6 @@
     gap: var(--sp-20);
     margin-top: var(--sp-24);
     padding: var(--sp-16) var(--sp-24);
-    background: var(--surface);
-    border: 1px solid var(--border);
     border-radius: 16px;
     width: 100%;
     max-width: 400px;
@@ -403,8 +522,14 @@
   }
 
   .cat-btn {
-    background: var(--surface);
-    border: 1px solid var(--border);
+    /* --surf is the indirection that lets every state rule below stay a single
+       line while the rim survives the state change. */
+    --surf: var(--surface);
+    background:
+      linear-gradient(var(--surf), var(--surf)) padding-box,
+      var(--rim-conic) border-box,
+      linear-gradient(var(--rim-base), var(--rim-base)) border-box;
+    border: var(--rim-w) solid transparent;
     border-radius: 12px;
     padding: var(--sp-12) var(--sp-10);
     display: flex;
@@ -442,9 +567,11 @@
     transition: opacity 0.2s ease;
   }
 
-  .cat-btn:hover, .cat-btn:active {
-    background: var(--surface2);
-    border-color: var(--cc, var(--felt-mid));
+  .cat-btn:hover {
+    /* Through --surf, not `background`: a plain background here would replace
+       the whole layered stack and wipe the rim. */
+    --surf: var(--surface2);
+    --rim-base: var(--cc, var(--felt-mid));
     transform: translateY(-2px);
   }
   .cat-btn:hover::before { opacity: 1; }
@@ -456,22 +583,26 @@
   .cat-btn.selected::after  { opacity: 0.09; }
 
   /* Per-category selected: border + glow + icon color */
-  .cat-btn[data-category="adventure"].selected { border-color: var(--adventure); background: rgba(221,130,115,0.1); box-shadow: 0 0 18px rgba(221,130,115,0.2); }
+  /* Selected state goes through --surf / --rim-base, never `background` or
+     `border-color`: either would replace the layered stack and erase the rim.
+     The category halo (box-shadow) is deliberately kept — it is chroma, not
+     light, and the lamp does not own it. */
+  .cat-btn[data-category="adventure"].selected { --surf: rgba(221,130,115,0.1); --rim-base: var(--adventure); box-shadow: 0 0 18px rgba(221,130,115,0.2); }
   .cat-btn[data-category="adventure"].selected .cat-icon { color: var(--adventure); }
 
-  .cat-btn[data-category="foodie"].selected { border-color: var(--foodie); background: rgba(196,150,66,0.1); box-shadow: 0 0 18px rgba(196,150,66,0.2); }
+  .cat-btn[data-category="foodie"].selected { --surf: rgba(196,150,66,0.1); --rim-base: var(--foodie); box-shadow: 0 0 18px rgba(196,150,66,0.2); }
   .cat-btn[data-category="foodie"].selected .cat-icon { color: var(--foodie); }
 
-  .cat-btn[data-category="chill"].selected { border-color: var(--chill); background: rgba(29,180,180,0.1); box-shadow: 0 0 18px rgba(29,180,180,0.2); }
+  .cat-btn[data-category="chill"].selected { --surf: rgba(29,180,180,0.1); --rim-base: var(--chill); box-shadow: 0 0 18px rgba(29,180,180,0.2); }
   .cat-btn[data-category="chill"].selected .cat-icon { color: var(--chill); }
 
-  .cat-btn[data-category="social"].selected { border-color: var(--social); background: rgba(197,132,195,0.1); box-shadow: 0 0 18px rgba(197,132,195,0.2); }
+  .cat-btn[data-category="social"].selected { --surf: rgba(197,132,195,0.1); --rim-base: var(--social); box-shadow: 0 0 18px rgba(197,132,195,0.2); }
   .cat-btn[data-category="social"].selected .cat-icon { color: var(--social); }
 
-  .cat-btn[data-category="active"].selected { border-color: var(--active); background: rgba(113,160,229,0.1); box-shadow: 0 0 18px rgba(113,160,229,0.2); }
+  .cat-btn[data-category="active"].selected { --surf: rgba(113,160,229,0.1); --rim-base: var(--active); box-shadow: 0 0 18px rgba(113,160,229,0.2); }
   .cat-btn[data-category="active"].selected .cat-icon { color: var(--active); }
 
-  .cat-btn[data-category="8ball"].selected { border-color: var(--ivory); background: rgba(240,230,204,0.08); box-shadow: 0 0 18px rgba(240,230,204,0.15); }
+  .cat-btn[data-category="8ball"].selected { --surf: rgba(240,230,204,0.08); --rim-base: var(--ivory); box-shadow: 0 0 18px rgba(240,230,204,0.15); }
   .cat-btn[data-category="8ball"].selected .cat-icon { color: var(--ivory); }
 
   .cat-icon {
@@ -520,8 +651,14 @@
 
   .draw-btn {
     width: 100%;
-    background: var(--felt);
-    border: none;
+    --surf: var(--felt);
+    --rim-base: var(--felt);
+    --rim-gain: 1.6;   /* a filled surface needs more contrast to read a rim */
+    background:
+      linear-gradient(var(--surf), var(--surf)) padding-box,
+      var(--rim-conic) border-box,
+      linear-gradient(var(--rim-base), var(--rim-base)) border-box;
+    border: var(--rim-w) solid transparent;
     border-radius: 14px;
     padding: var(--sp-16);
     font-family: 'Manrope', sans-serif;
@@ -578,7 +715,7 @@
      SCREEN 2 — DRAW ANIMATION
   ──────────────────────────────── */
   #screen-draw {
-    background: var(--bg);
+    background: transparent;   /* was var(--bg) — it covered the ambient pool */
   }
 
   .draw-stage {
@@ -710,13 +847,21 @@
   }
 
   .card {
-    background: var(--surface2);
+    --rim-base: var(--border2);
+    background:
+      linear-gradient(var(--surface2), var(--surface2)) padding-box,
+      var(--rim-conic) border-box,
+      linear-gradient(var(--rim-base), var(--rim-base)) border-box;
     border-radius: 20px;
-    border: 1px solid var(--border2);
+    border: var(--rim-w) solid transparent;
     overflow: hidden;
+    /* REPLACES `0 24px 80px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.03)`.
+       The second layer was the uniform 1px white ring this whole area exists to
+       kill; the first was a straight-down cast from a lamp that is not at 0deg.
+       Now the drop falls AWAY from --lamp-angle like everything else. */
     box-shadow:
-      0 24px 80px rgba(0,0,0,0.7),
-      0 0 0 1px rgba(255,255,255,0.03);
+      calc(var(--cast-x) * 4px)  calc(var(--cast-y) * 4px)  12px rgba(var(--lamp-dark), 0.45),
+      calc(var(--cast-x) * 18px) calc(var(--cast-y) * 18px) 56px rgba(var(--lamp-dark), 0.62);
     /* The old curve's 1.56 control point overshot ~3px past target before
        settling — the exact bounce this removes. Travel drops 30px → 22px
        because a zero-overshoot curve reads LONGER at the same distance.
@@ -1522,8 +1667,13 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--surface2);
-    border-top: 1px solid var(--border2);
+    --rim-base: var(--border2);
+    background:
+      linear-gradient(var(--surface2), var(--surface2)) padding-box,
+      var(--rim-conic) border-box,
+      linear-gradient(var(--rim-base), var(--rim-base)) border-box;
+    border: var(--rim-w) solid transparent;
+    border-bottom: 0;
     border-radius: 20px 20px 0 0;
     z-index: 101;
     transform: translateY(100%);
@@ -1875,6 +2025,32 @@
     transform: translateY(-1px);
   }
 
+  /* ── THE PRESS FLIPS THE LAMP ──
+     Not the fixture — the fixture never moves. Rotating --lamp by 180deg puts
+     the bright arc on the FAR rim and the shadow lobe on the NEAR rim, which
+     is exactly what light does to a surface pushed INTO a panel. Paired with
+     an inset socket replacing the drop shadow, a press reads as lit rather
+     than as slid down a pixel.
+
+     Placed after every :hover rule above deliberately: equal specificity, so
+     source order decides, and a press must beat a hover. */
+  .draw-btn:not(.disabled):active,
+  .btn-commit:active, .btn-continue:active,
+  .btn-apply-filters:active, .btn-share:active {
+    --lamp: calc(var(--lamp-angle) + 180deg);
+    --rim-gain: 2;
+    box-shadow:
+      inset calc(var(--cast-x) * -3px) calc(var(--cast-y) * -3px) 8px rgba(var(--lamp-dark), 0.5);
+  }
+
+  .cat-btn:active, .pack-indicator:active, .pool-card:active {
+    --lamp: calc(var(--lamp-angle) + 180deg);
+    --rim-gain: 1.35;
+    transform: translateY(0);
+    box-shadow:
+      inset calc(var(--cast-x) * -2px) calc(var(--cast-y) * -2px) 6px rgba(var(--lamp-dark), 0.42);
+  }
+
   .btn-share-close {
     flex: 0 0 auto;
     background: var(--surface2);
@@ -1913,8 +2089,6 @@
     max-width: 400px;
     margin-top: var(--sp-12);
     padding: var(--sp-10) var(--sp-12);
-    background: var(--surface);
-    border: 1px solid var(--border);
     border-radius: 10px;
     cursor: pointer;
     transition: border-color 0.2s, background 0.2s;
