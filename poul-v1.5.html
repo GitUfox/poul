@@ -52,6 +52,13 @@
     --active: #71a0e5;
     --wild: var(--ivory);   /* dead token — aliased, never referenced */
 
+    /* Delta-chip fills, derived from --success and --danger so the chip can
+       never drift from the colours the rest of the app already uses. */
+    --success-dim:  rgba(77,216,127,0.10);
+    --success-edge: rgba(77,216,127,0.28);
+    --danger-dim:   rgba(224,85,112,0.10);
+    --danger-edge:  rgba(224,85,112,0.30);
+
     /* ── TYPE SCALE ──
        Was 22 ad-hoc sizes (10 → 72px) with seven one-off strays: nobody chose
        12.5 over 13, it drifted there. Now one ramp, named by role. The 12/12.5
@@ -2541,6 +2548,38 @@
      sliding when the streak crosses 9 -> 10, and the em-dash placeholder sits
      in exactly the same space as a number. */
   .streak-value { justify-content: center; min-width: calc(17px + var(--sp-2) + 1.24em); }
+
+  /* ── THE DELTA CHIP ──
+     The receipt for your last resolved draw, shown at rest. Until now the
+     +15 existed only on the result screen and was thrown away the moment
+     you left it — the score told you where you stood but never what just
+     happened. The chip is a pure read of state.lastDelta; it never derives
+     a value of its own, so there is exactly one place the number is decided.
+
+     Reserved for "+140", the true maximum (Legendary 40 + 30-day Run 100):
+     0.5715em for the sign + 3 x 0.620em = 2.44em, plus padding and the
+     hairline, since box-sizing is border-box app-wide. The whole row then
+     costs 101.4px inside the 112.3px the "POCKET SCORE" label already
+     claims — so .spark-display's geometry does not change at all. */
+  .spark-value-row { display: flex; align-items: baseline; gap: var(--sp-6); }
+
+  .spark-delta {
+    display: none;
+    min-width: calc(2.44em + var(--sp-6) * 2 + 2px);
+    padding: var(--sp-2) var(--sp-6);
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font-size: var(--fs-micro);
+    font-weight: 800;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+  }
+  .spark-delta.on  { display: inline-block; }
+  .spark-delta.pos { color: var(--success); background: var(--success-dim); border-color: var(--success-edge); }
+  .spark-delta.neg { color: var(--danger);  background: var(--danger-dim);  border-color: var(--danger-edge); }
 </style>
 <!-- Shared SVG defs — the pool-ball radial gradient, referenced document-wide by url(#pbg) -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -2565,7 +2604,13 @@
   <div class="spark-display">
     <div class="spark-info">
       <div class="spark-label">Pocket Score</div>
-      <div class="spark-value" id="spark-score-display">0</div>
+      <!-- The chip is a SIBLING of #spark-score-display, never a child:
+           animateCounter() does parseInt(el.textContent) to find its start
+           value, and a nested chip would make that read "247+15". -->
+      <div class="spark-value-row">
+        <div class="spark-value" id="spark-score-display">0</div>
+        <span class="spark-delta" id="spark-delta-chip"></span>
+      </div>
     </div>
     <div class="spark-streak-col">
       <div class="spark-label">Run</div>
@@ -3374,6 +3419,8 @@ function saveState() {
     lastCommitDate: state.lastCommitDate,
     activePack: state.activePack,
     lastChalkDate: state.lastChalkDate,
+    lastDelta: state.lastDelta,
+    lastDeltaDate: state.lastDeltaDate,
     houseRules: state.houseRules
   };
   try {
@@ -3421,6 +3468,12 @@ let state = {
   lastCommitDate: _saved ? (_saved.lastCommitDate || null) : null,
   activePack: _saved ? (_saved.activePack || 'phoenix') : 'phoenix',
   lastChalkDate: _saved ? (_saved.lastChalkDate || null) : null,
+  // Last resolved draw's net Pocket Score change — powers the home delta chip.
+  // Same-day only: yesterday's +40 greeting you this morning would be a lie.
+  // Additive keys, so older poul_state_v1 payloads simply fall through to 0.
+  lastDelta: (_saved && _saved.lastDeltaDate === new Date().toISOString().split('T')[0])
+    ? (_saved.lastDelta || 0) : 0,
+  lastDeltaDate: _saved ? (_saved.lastDeltaDate || null) : null,
   houseRules: _saved && _saved.houseRules ? _saved.houseRules : { active: false, ids: [] },
   selectedCategory: null,
   currentCard: null
@@ -3745,6 +3798,19 @@ function updateHomeUI() {
   const scoreEl = document.getElementById('spark-score-display');
   animateCounter(scoreEl, state.sparkScore);
 
+  // Delta chip — a PURE read of state.lastDelta. It never derives a value of
+  // its own, so there is exactly one place the number is decided.
+  // U+2212 MINUS, matching the Scratch −5 copy elsewhere.
+  const deltaEl = document.getElementById('spark-delta-chip');
+  const d = state.lastDelta || 0;
+  if (d === 0) {
+    deltaEl.textContent = '';
+    deltaEl.className = 'spark-delta';
+  } else {
+    deltaEl.textContent = (d > 0 ? '+' : '−') + Math.abs(d);
+    deltaEl.className = 'spark-delta on ' + (d > 0 ? 'pos' : 'neg');
+  }
+
   // Poul type
   const type = getPoulType();
   document.getElementById('poul-type-display').innerHTML = type
@@ -3887,6 +3953,11 @@ function startDraw() {
   }
 
   state.currentCard = card;
+  // A new card retires the last receipt — the chip describes the draw you
+  // just resolved, not the one you are about to.
+  state.lastDelta = 0;
+  state.lastDeltaDate = null;
+  saveState();
   track('card_drawn', cardProps(card));
   document.getElementById('draw-category-label').textContent = CAT_LABELS[state.selectedCategory];
   showScreen('draw');
@@ -3986,6 +4057,10 @@ function redrawCard() {
   state.tokens--;
   state.sparkScore = Math.max(0, state.sparkScore - 2);
   state.currentCard = card;
+  // Same rule as startDraw: a redraw is a new card, so the receipt clears.
+  // The −2 chalk cost is not a resolved draw; the toast reports it instead.
+  state.lastDelta = 0;
+  state.lastDeltaDate = null;
 
   saveState();
   track('card_redrawn', { ...cardProps(card), tokens_left: state.tokens });
@@ -4053,6 +4128,11 @@ function commitCard() {
     setTimeout(() => showToast(STREAK_MESSAGES[streakMilestone]), 1800);
   }
 
+  // Receipt for the home chip — the WHOLE move, card plus any Run bonus,
+  // matching what actually landed on sparkScore just above.
+  state.lastDelta = card.spark + (streakMilestone ? STREAK_REWARDS[streakMilestone] : 0);
+  state.lastDeltaDate = todayStr;
+
   state.completedCards.unshift({
     ...card,
     category: state.selectedCategory,
@@ -4086,7 +4166,13 @@ function declineCard() {
   if (!card) return;
 
   const penalty = 5;
-  state.sparkScore = Math.max(0, state.sparkScore - penalty);
+  const scoreBefore = state.sparkScore;
+  state.sparkScore = Math.max(0, scoreBefore - penalty);
+  // Record what was actually charged, not what was nominally charged: the
+  // clamp is real, so at a score of 3 a scratch costs 3, not 5. An
+  // instrument shows what happened.
+  state.lastDelta = state.sparkScore - scoreBefore;
+  state.lastDeltaDate = new Date().toISOString().split('T')[0];
   state.drawCount++;
 
   saveState();
@@ -4404,6 +4490,10 @@ function confirmReset() {
   state.streak = 0;
   state.bestStreak = 0;
   state.lastCommitDate = null;
+  // Without this the chip survives the reset in-session and reads "+40"
+  // next to a score of 0. removeItem handles the next load; this handles now.
+  state.lastDelta = 0;
+  state.lastDeltaDate = null;
   state.selectedCategory = null;
   state.currentCard = null;
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
