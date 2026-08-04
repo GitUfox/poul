@@ -45,12 +45,12 @@
     --text: #eeeee8;
     --text-mid: #a0a898;
     --text-dim: #5a6458;
-    --adventure: #e8694d;
-    --foodie: #e8a84d;
-    --chill: #4dc8c8;
-    --social: #a84de8;
-    --active: #4d8fe8;
-    --wild: #f0e6cc;
+    --adventure: #dd8273;
+    --foodie: #c49642;
+    --chill: #1db4b4;
+    --social: #c584c3;
+    --active: #71a0e5;
+    --wild: var(--ivory);   /* dead token — aliased, never referenced */
 
     /* ── TYPE SCALE ──
        Was 22 ad-hoc sizes (10 → 72px) with seven one-off strays: nobody chose
@@ -415,19 +415,19 @@
   .cat-btn.selected::after  { opacity: 0.09; }
 
   /* Per-category selected: border + glow + icon color */
-  .cat-btn[data-category="adventure"].selected { border-color: var(--adventure); background: rgba(232,105,77,0.1); box-shadow: 0 0 18px rgba(232,105,77,0.2); }
+  .cat-btn[data-category="adventure"].selected { border-color: var(--adventure); background: rgba(221,130,115,0.1); box-shadow: 0 0 18px rgba(221,130,115,0.2); }
   .cat-btn[data-category="adventure"].selected .cat-icon { color: var(--adventure); }
 
-  .cat-btn[data-category="foodie"].selected { border-color: var(--foodie); background: rgba(232,168,77,0.1); box-shadow: 0 0 18px rgba(232,168,77,0.2); }
+  .cat-btn[data-category="foodie"].selected { border-color: var(--foodie); background: rgba(196,150,66,0.1); box-shadow: 0 0 18px rgba(196,150,66,0.2); }
   .cat-btn[data-category="foodie"].selected .cat-icon { color: var(--foodie); }
 
-  .cat-btn[data-category="chill"].selected { border-color: var(--chill); background: rgba(77,200,200,0.1); box-shadow: 0 0 18px rgba(77,200,200,0.2); }
+  .cat-btn[data-category="chill"].selected { border-color: var(--chill); background: rgba(29,180,180,0.1); box-shadow: 0 0 18px rgba(29,180,180,0.2); }
   .cat-btn[data-category="chill"].selected .cat-icon { color: var(--chill); }
 
-  .cat-btn[data-category="social"].selected { border-color: var(--social); background: rgba(168,77,232,0.1); box-shadow: 0 0 18px rgba(168,77,232,0.2); }
+  .cat-btn[data-category="social"].selected { border-color: var(--social); background: rgba(197,132,195,0.1); box-shadow: 0 0 18px rgba(197,132,195,0.2); }
   .cat-btn[data-category="social"].selected .cat-icon { color: var(--social); }
 
-  .cat-btn[data-category="active"].selected { border-color: var(--active); background: rgba(77,143,232,0.1); box-shadow: 0 0 18px rgba(77,143,232,0.2); }
+  .cat-btn[data-category="active"].selected { border-color: var(--active); background: rgba(113,160,229,0.1); box-shadow: 0 0 18px rgba(113,160,229,0.2); }
   .cat-btn[data-category="active"].selected .cat-icon { color: var(--active); }
 
   .cat-btn[data-category="8ball"].selected { border-color: var(--ivory); background: rgba(240,230,204,0.08); box-shadow: 0 0 18px rgba(240,230,204,0.15); }
@@ -2536,24 +2536,24 @@
 
   <div style="height:16px;"></div>
   <div class="category-grid">
-    <button class="cat-btn" data-category="adventure" style="--cc:#e8694d" onclick="selectCategory('adventure')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 40 L17 8 L26 24 L32 15 L41 40 Z" fill="#e8694d" fill-opacity=".18"/><path d="M3 40 L17 8 L26 24 L32 15 L41 40" stroke="#e8694d" stroke-width="2.2" stroke-linejoin="round" fill="none"/><path d="M17 8 L20.5 14" stroke="#e8694d" stroke-width="2.2" stroke-linecap="round"/></svg></span>
+    <button class="cat-btn" data-category="adventure" style="--cc:#dd8273" onclick="selectCategory('adventure')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 40 L17 8 L26 24 L32 15 L41 40 Z" fill="#dd8273" fill-opacity=".18"/><path d="M3 40 L17 8 L26 24 L32 15 L41 40" stroke="#dd8273" stroke-width="2.2" stroke-linejoin="round" fill="none"/><path d="M17 8 L20.5 14" stroke="#dd8273" stroke-width="2.2" stroke-linecap="round"/></svg></span>
       <span class="cat-name">Adventure</span>
     </button>
-    <button class="cat-btn" data-category="foodie" style="--cc:#e8a84d" onclick="selectCategory('foodie')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="14" y1="7" x2="14" y2="21" stroke="#e8a84d" stroke-width="2.3" stroke-linecap="round"/><line x1="22" y1="7" x2="22" y2="21" stroke="#e8a84d" stroke-width="2.3" stroke-linecap="round"/><line x1="30" y1="7" x2="30" y2="21" stroke="#e8a84d" stroke-width="2.3" stroke-linecap="round"/><path d="M14 21 Q14 30 22 32 Q30 30 30 21" stroke="#e8a84d" stroke-width="2.3" fill="none" stroke-linecap="round"/><line x1="22" y1="32" x2="22" y2="40" stroke="#e8a84d" stroke-width="2.3" stroke-linecap="round"/></svg></span>
+    <button class="cat-btn" data-category="foodie" style="--cc:#c49642" onclick="selectCategory('foodie')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="14" y1="7" x2="14" y2="21" stroke="#c49642" stroke-width="2.3" stroke-linecap="round"/><line x1="22" y1="7" x2="22" y2="21" stroke="#c49642" stroke-width="2.3" stroke-linecap="round"/><line x1="30" y1="7" x2="30" y2="21" stroke="#c49642" stroke-width="2.3" stroke-linecap="round"/><path d="M14 21 Q14 30 22 32 Q30 30 30 21" stroke="#c49642" stroke-width="2.3" fill="none" stroke-linecap="round"/><line x1="22" y1="32" x2="22" y2="40" stroke="#c49642" stroke-width="2.3" stroke-linecap="round"/></svg></span>
       <span class="cat-name">Foodie</span>
     </button>
-    <button class="cat-btn" data-category="chill" style="--cc:#4dc8c8" onclick="selectCategory('chill')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="24" r="14" fill="#4dc8c8"/><circle cx="27" cy="17" r="13" fill="#131613"/><circle cx="35" cy="10" r="2.2" fill="#4dc8c8" fill-opacity=".7"/><circle cx="39" cy="20" r="1.4" fill="#4dc8c8" fill-opacity=".45"/><circle cx="33" cy="24" r="1" fill="#4dc8c8" fill-opacity=".3"/></svg></span>
+    <button class="cat-btn" data-category="chill" style="--cc:#1db4b4" onclick="selectCategory('chill')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="24" r="14" fill="#1db4b4"/><circle cx="27" cy="17" r="13" fill="#131613"/><circle cx="35" cy="10" r="2.2" fill="#1db4b4" fill-opacity=".7"/><circle cx="39" cy="20" r="1.4" fill="#1db4b4" fill-opacity=".45"/><circle cx="33" cy="24" r="1" fill="#1db4b4" fill-opacity=".3"/></svg></span>
       <span class="cat-name">Chill</span>
     </button>
-    <button class="cat-btn" data-category="social" style="--cc:#a84de8" onclick="selectCategory('social')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 10 Q6 6 10 6 L34 6 Q38 6 38 10 L38 27 Q38 31 34 31 L24 31 L14 39 L16 31 Q6 31 6 27 Z" stroke="#a84de8" stroke-width="2.2" stroke-linejoin="round"/><line x1="14" y1="17" x2="30" y2="17" stroke="#a84de8" stroke-width="2" stroke-linecap="round" stroke-opacity=".5"/><line x1="14" y1="23" x2="24" y2="23" stroke="#a84de8" stroke-width="2" stroke-linecap="round" stroke-opacity=".5"/></svg></span>
+    <button class="cat-btn" data-category="social" style="--cc:#c584c3" onclick="selectCategory('social')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 10 Q6 6 10 6 L34 6 Q38 6 38 10 L38 27 Q38 31 34 31 L24 31 L14 39 L16 31 Q6 31 6 27 Z" stroke="#c584c3" stroke-width="2.2" stroke-linejoin="round"/><line x1="14" y1="17" x2="30" y2="17" stroke="#c584c3" stroke-width="2" stroke-linecap="round" stroke-opacity=".5"/><line x1="14" y1="23" x2="24" y2="23" stroke="#c584c3" stroke-width="2" stroke-linecap="round" stroke-opacity=".5"/></svg></span>
       <span class="cat-name">Social</span>
     </button>
-    <button class="cat-btn" data-category="active" style="--cc:#4d8fe8" onclick="selectCategory('active')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><path d="M26 4 L11 25 L20 25 L16 42 L34 21 L25 21 Z" fill="#4d8fe8"/></svg></span>
+    <button class="cat-btn" data-category="active" style="--cc:#71a0e5" onclick="selectCategory('active')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><path d="M26 4 L11 25 L20 25 L16 42 L34 21 L25 21 Z" fill="#71a0e5"/></svg></span>
       <span class="cat-name">Active</span>
     </button>
     <button class="cat-btn eightball" data-category="8ball" style="--cc:#f0e6cc" onclick="selectCategory('8ball')">
@@ -2794,23 +2794,23 @@
       <div class="rules-section-title">Categories</div>
       <div class="rules-cat-grid">
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:#e8694d;"></div>
+          <div class="rules-cat-dot" style="background:#dd8273;"></div>
           <div class="rules-cat-name">Adventure</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:#e8a84d;"></div>
+          <div class="rules-cat-dot" style="background:#c49642;"></div>
           <div class="rules-cat-name">Foodie</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:#4dc8c8;"></div>
+          <div class="rules-cat-dot" style="background:#1db4b4;"></div>
           <div class="rules-cat-name">Chill</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:#a84de8;"></div>
+          <div class="rules-cat-dot" style="background:#c584c3;"></div>
           <div class="rules-cat-name">Social</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:#4d8fe8;"></div>
+          <div class="rules-cat-dot" style="background:#71a0e5;"></div>
           <div class="rules-cat-name">Active</div>
         </div>
         <div class="rules-cat-row">
@@ -3651,10 +3651,10 @@ function packMark(id, size) {
 // Collectible pool-hall medallions: dark sphere (shared #pbg gradient),
 // accent ring, type art, ivory-style highlight — echoes the 8-ball.
 const TYPE_EMBLEMS = {
-  igniter:  { c: '#e8694d', art: '<path d="M50 26 C52 36 62 41 65 51 C68.5 62 62 74 50 76 C38 74 31.5 62 35 51 C37 44.5 42 41 44 34 C46 38.5 45.5 42 44 46 C49 43 51 35 50 26 Z" fill="#e8694d" fill-opacity=".2"/><path d="M50 26 C52 36 62 41 65 51 C68.5 62 62 74 50 76 C38 74 31.5 62 35 51 C37 44.5 42 41 44 34 C46 38.5 45.5 42 44 46 C49 43 51 35 50 26 Z" stroke="#e8694d" stroke-width="4" stroke-linejoin="round" fill="none"/><path d="M50 76 C44 74 41 68 43.5 62.5 C45 59 48 57.5 50 54 C52 57.5 55 59 56.5 62.5 C59 68 56 74 50 76 Z" fill="#e8694d" fill-opacity=".55"/>' },
-  drifter:  { c: '#4dc8c8', art: '<path d="M28 46 Q35 36 43 44 Q51 52 58 44 Q64 37 72 43" fill="none" stroke="#4dc8c8" stroke-width="4.5" stroke-linecap="round"/><path d="M28 60 Q35 50 43 58 Q51 66 58 58 Q64 51 72 57" fill="none" stroke="#4dc8c8" stroke-width="4.5" stroke-linecap="round" stroke-opacity=".55"/>' },
-  wildcard: { c: '#a84de8', art: '<rect x="31" y="33" width="38" height="38" rx="9" fill="#a84de8" fill-opacity=".14" stroke="#a84de8" stroke-width="4"/><circle cx="41" cy="43" r="3.6" fill="#a84de8"/><circle cx="59" cy="43" r="3.6" fill="#a84de8"/><circle cx="50" cy="52" r="3.6" fill="#a84de8"/><circle cx="41" cy="61" r="3.6" fill="#a84de8"/><circle cx="59" cy="61" r="3.6" fill="#a84de8"/>' },
-  planner:  { c: '#e8a84d', art: '<circle cx="50" cy="52" r="23" fill="#e8a84d" fill-opacity=".1" stroke="#e8a84d" stroke-width="4"/><path d="M60 42 L54 56 L40 62 L46 48 Z" fill="#e8a84d" fill-opacity=".3" stroke="#e8a84d" stroke-width="3" stroke-linejoin="round"/><circle cx="50" cy="52" r="3" fill="#e8a84d"/>' },
+  igniter:  { c: '#dd8273', art: '<path d="M50 26 C52 36 62 41 65 51 C68.5 62 62 74 50 76 C38 74 31.5 62 35 51 C37 44.5 42 41 44 34 C46 38.5 45.5 42 44 46 C49 43 51 35 50 26 Z" fill="#dd8273" fill-opacity=".2"/><path d="M50 26 C52 36 62 41 65 51 C68.5 62 62 74 50 76 C38 74 31.5 62 35 51 C37 44.5 42 41 44 34 C46 38.5 45.5 42 44 46 C49 43 51 35 50 26 Z" stroke="#dd8273" stroke-width="4" stroke-linejoin="round" fill="none"/><path d="M50 76 C44 74 41 68 43.5 62.5 C45 59 48 57.5 50 54 C52 57.5 55 59 56.5 62.5 C59 68 56 74 50 76 Z" fill="#dd8273" fill-opacity=".55"/>' },
+  drifter:  { c: '#1db4b4', art: '<path d="M28 46 Q35 36 43 44 Q51 52 58 44 Q64 37 72 43" fill="none" stroke="#1db4b4" stroke-width="4.5" stroke-linecap="round"/><path d="M28 60 Q35 50 43 58 Q51 66 58 58 Q64 51 72 57" fill="none" stroke="#1db4b4" stroke-width="4.5" stroke-linecap="round" stroke-opacity=".55"/>' },
+  wildcard: { c: '#c584c3', art: '<rect x="31" y="33" width="38" height="38" rx="9" fill="#c584c3" fill-opacity=".14" stroke="#c584c3" stroke-width="4"/><circle cx="41" cy="43" r="3.6" fill="#c584c3"/><circle cx="59" cy="43" r="3.6" fill="#c584c3"/><circle cx="50" cy="52" r="3.6" fill="#c584c3"/><circle cx="41" cy="61" r="3.6" fill="#c584c3"/><circle cx="59" cy="61" r="3.6" fill="#c584c3"/>' },
+  planner:  { c: '#c49642', art: '<circle cx="50" cy="52" r="23" fill="#c49642" fill-opacity=".1" stroke="#c49642" stroke-width="4"/><path d="M60 42 L54 56 L40 62 L46 48 Z" fill="#c49642" fill-opacity=".3" stroke="#c49642" stroke-width="3" stroke-linejoin="round"/><circle cx="50" cy="52" r="3" fill="#c49642"/>' },
   iceblock: { c: '#7db8e8', art: '<path d="M50 28 L70 39 L70 61 L50 72 L30 61 L30 39 Z" fill="#7db8e8" fill-opacity=".12" stroke="#7db8e8" stroke-width="4" stroke-linejoin="round"/><path d="M30 39 L50 50 L70 39 M50 50 L50 72" fill="none" stroke="#7db8e8" stroke-width="3.2" stroke-linejoin="round"/><path d="M36 43.5 L44 48" stroke="#7db8e8" stroke-width="2.4" stroke-opacity=".6" stroke-linecap="round"/>' },
   ghost:    { c: '#a0a898', art: '<path d="M50 27 C61 27 68 35.5 68 46 L68 70 L62 65 L56 71 L50 66 L44 71 L38 65 L32 70 L32 46 C32 35.5 39 27 50 27 Z" fill="#a0a898" fill-opacity=".14" stroke="#a0a898" stroke-width="4" stroke-linejoin="round"/><circle cx="43.5" cy="46" r="3.4" fill="#a0a898"/><circle cx="56.5" cy="46" r="3.4" fill="#a0a898"/>' },
 };
