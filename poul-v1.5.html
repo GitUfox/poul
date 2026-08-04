@@ -2475,6 +2475,73 @@
   .hr-cat-label{font-size: var(--fs-micro);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--sage);margin: var(--sp-16) 0 var(--sp-4);}
   #house-list{max-height:46vh;overflow-y:auto;-webkit-overflow-scrolling:touch;margin: 0 calc(var(--sp-4) * -1);padding: 0 var(--sp-4);}
 </style>
+<style id="v19-numerals">
+  /* ── NUMERALS AS AN INSTRUMENT ──
+     This app keeps score, so its digits are data, not decoration. They were
+     set in Playfair Display, and reading the woff2 Google actually serves
+     (playfairdisplay v40) rather than the docs turns up two problems:
+
+       1. Playfair has NO tnum and NO pnum. Its entire GSUB feature set is
+          calt ccmp dnom frac liga lnum locl numr rlig. `font-variant-numeric:
+          tabular-nums` on a Playfair element is a SILENT NO-OP — the property
+          looks right in the diff and changes nothing on screen. Measured in
+          the browser: "1" and "0" render 15.69px and 27.01px with and without
+          it, identically. A 72% width swing per digit is why the score row
+          twitched on every commit.
+       2. Playfair's default figures are OLD-STYLE, not lining. 3 4 5 7 9
+          descend below the baseline. In .share-stat-value — line-height:1 with
+          a 4px gap above its label — those descenders were already colliding.
+
+     Manrope does have tnum (verified: every digit renders 24.8px at 40px with
+     it on, vs 18.17-26.96px without). So the changing numerals move to Manrope
+     and get real tabular figures; Playfair keeps every other display role.
+
+     Widths are reserved in em, not ch: `ch` is the advance of the DEFAULT "0",
+     which in Manrope is 0.658em — 6% wider than the 0.620em tabular "0" that
+     actually renders — and engines disagree on whether font-variant-numeric
+     feeds back into ch. em is deterministic. */
+
+  .spark-value,
+  .streak-value,
+  .result-spark-delta,
+  .share-stat-value,
+  .pool-card-spark {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+  }
+
+  /* Already Manrope — these only needed the figures switching to tabular. */
+  .pool-count,
+  .pool-size-label,
+  .pool-card-date,
+  .rules-rarity-spark,
+  .rules-milestone-days,
+  .rules-milestone-reward,
+  .btn-commit,
+  .btn-decline {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+  }
+
+  /* 3 digits x 0.620em = 1.86em. The row is now identical at 0 and at 999. */
+  .spark-value { min-width: 1.86em; }
+
+  /* sign + 2 digits = 0.5715em + 1.24em = 1.82em. line-height pins the chip
+     height: Playfair's normal line-height is 1.333em against Manrope's 1.366em,
+     which would otherwise nudge .result-spark's box by ~0.9px at 28px. */
+  .result-spark-delta { min-width: 1.82em; text-align: center; line-height: 1; }
+
+  /* Right-aligned so the +15/+25/+40 column has one true right edge down the
+     Trophy Room list. */
+  .pool-card-spark { min-width: 1.82em; text-align: right; }
+
+  /* The Run: flame icon + digits. Reserving the box means the flame stops
+     sliding when the streak crosses 9 -> 10, and the em-dash placeholder sits
+     in exactly the same space as a number. */
+  .streak-value { justify-content: center; min-width: calc(17px + var(--sp-2) + 1.24em); }
+</style>
 <!-- Shared SVG defs — the pool-ball radial gradient, referenced document-wide by url(#pbg) -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <defs>
