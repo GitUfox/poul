@@ -96,6 +96,40 @@
     --sp-40: 40px;
     --sp-48: 48px;
     --sp-60: 60px;
+
+    /* ── CLOTH FRICTION ──
+       The one bespoke curve in this app, spent on exactly two moments: a card
+       landing, and a trophy lifting off the shelf. Everything else keeps its
+       stock easing — the value here comes from reservation, not from easing
+       everything.
+
+       A ball released onto cloth decelerates in two phases: sliding friction
+       (steep) handing over to rolling friction (shallow, long).
+         f(t) = 0.55(1 − e^−9t) + 0.45(1 − e^−2.6t),  normalised so f(1) = 1
+       It is a positively-weighted sum of saturating exponentials, so it is
+       strictly monotone and provably cannot pass 1. No overshoot here is a
+       property of the maths, not a number somebody nudged until it looked ok.
+       Felt does not bounce.
+
+       Declared as the cubic-bezier FIT first and upgraded under @supports
+       below. If linear() were the base value, Safari < 17.2 would accept the
+       raw tokens into the custom property and then fail at var() substitution
+       — which resolves to `ease`, NOT to a previous declaration. @supports
+       moves that failure to parse time, where it falls back correctly. */
+    --ease-cloth: cubic-bezier(0.13, 0.81, 0.32, 0.93);
+  }
+
+  @supports (transition-timing-function: linear(0, 1)) {
+    /* 17 stops, densest where the curve bends hardest. Max deviation from the
+       analytic curve: 0.0025. Safari 17.2+, Chrome 113+, Firefox 112+. */
+    :root {
+      --ease-cloth: linear(
+        0,         0.117 2%,  0.218 4%,  0.305 6%,  0.380 8%,
+        0.444 10%, 0.526 13%, 0.593 16%, 0.664 20%, 0.732 25%,
+        0.783 30%, 0.830 36%, 0.876 44%, 0.919 55%, 0.958 70%,
+        0.983 85%, 1
+      );
+    }
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -683,14 +717,95 @@
     box-shadow:
       0 24px 80px rgba(0,0,0,0.7),
       0 0 0 1px rgba(255,255,255,0.03);
-    transform: translateY(30px);
+    /* The old curve's 1.56 control point overshot ~3px past target before
+       settling — the exact bounce this removes. Travel drops 30px → 22px
+       because a zero-overshoot curve reads LONGER at the same distance.
+       This duration is the EXIT (140ms); the reveal duration lives on
+       .card.revealed, so removing .revealed resets the card almost instantly
+       behind the 0.4s screen fade rather than replaying the stagger backwards. */
+    transform: translateY(22px) scale(0.985);
     opacity: 0;
-    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease;
+    transition: transform 140ms var(--ease-cloth), opacity 140ms linear;
   }
 
   .card.revealed {
+    /* Explicit matched transform function list on both ends rather than
+       `none` — same result, cheapest possible interpolation. Opacity finishes
+       at 260ms, ahead of the 420ms slide, so the slab is solid while it is
+       still travelling instead of fading in as it arrives. */
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    transition: transform 420ms var(--ease-cloth), opacity 260ms linear;
+  }
+
+  /* ── THE DRAW: one orchestrated moment ──────────────────────────────────
+     Four beats, ~600ms end to end, and then it is over. Poul is a card game;
+     the card arriving is the only event that earns choreography.
+
+       0ms    the slab lands             .card          420ms   22px + 1.5% scale
+       60ms   the category stripe wipes  .card-stripe   520ms   scaleX 0 → 1
+       90ms   the header settles         .card-header   300ms   10px
+       150ms  the body settles           .card-body     300ms   10px
+       210ms  the controls settle        .redraw-row +
+                                         .card-actions  300ms   10px
+
+     The stagger is applied to WRAPPERS, never to the buttons themselves —
+     .btn-commit / .btn-decline / .btn-redraw carry their own transitions and
+     would fight this one. Transform and opacity only, so every beat is
+     compositor-only and nothing triggers layout. */
+  #active-card .card-stripe,
+  #active-card .card-header,
+  #active-card .card-body,
+  #active-card .redraw-row,
+  #active-card .card-actions {
+    opacity: 0;
+  }
+  #active-card .card-stripe {
+    transform: scaleX(0);
+    transform-origin: left center;
+  }
+  #active-card .card-header,
+  #active-card .card-body,
+  #active-card .redraw-row,
+  #active-card .card-actions {
+    transform: translateY(10px);
+  }
+
+  #active-card.revealed .card-stripe {
+    transform: scaleX(1);
+    opacity: 1;
+    transition: transform 520ms var(--ease-cloth) 60ms, opacity 200ms linear 60ms;
+  }
+  #active-card.revealed .card-header {
     transform: translateY(0);
     opacity: 1;
+    transition: transform 300ms var(--ease-cloth) 90ms, opacity 220ms linear 90ms;
+  }
+  #active-card.revealed .card-body {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 300ms var(--ease-cloth) 150ms, opacity 220ms linear 150ms;
+  }
+  #active-card.revealed .redraw-row,
+  #active-card.revealed .card-actions {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 300ms var(--ease-cloth) 210ms, opacity 220ms linear 210ms;
+  }
+
+  /* The app's first reduced-motion block. The state change stays legible —
+     everything still ARRIVES, it just arrives at once and without travel. */
+  @media (prefers-reduced-motion: reduce) {
+    .card,
+    #active-card .card-stripe,
+    #active-card .card-header,
+    #active-card .card-body,
+    #active-card .redraw-row,
+    #active-card .card-actions {
+      transform: none;
+      transition-duration: 1ms;
+      transition-delay: 0ms;
+    }
   }
 
   .card-stripe {
