@@ -1289,7 +1289,15 @@
     color: var(--text);
     z-index: 1000;
     transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-    white-space: nowrap;
+    /* Was `white-space: nowrap` with no max-width, so any toast longer than the
+       viewport ran off both edges — the storage-full message did exactly that at
+       390px. max-content keeps short toasts hugging their text, so nothing that
+       fits today changes shape. */
+    white-space: normal;
+    width: max-content;
+    max-width: calc(100vw - var(--sp-40));
+    text-align: center;
+    line-height: 1.35;
     pointer-events: none;
   }
 
@@ -2556,7 +2564,7 @@
 
   <div class="draw-section">
     <button class="draw-btn disabled" id="draw-btn" onclick="startDraw()">
-      Select a Category
+      Pick a Category
     </button>
     <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
       <a class="collection-link" onclick="showScreen('pool')">The Trophy Room →</a>
@@ -2577,7 +2585,7 @@
         </div>
       </div>
     </div>
-    <div class="draw-instruction">Tap the ball to reveal your draw</div>
+    <div class="draw-instruction">Tap the ball to break</div>
   </div>
 </div>
 
@@ -2611,7 +2619,7 @@
         <span class="redraw-cost" id="redraw-cost-label">−2 <span class="spark-glyph"></span> · 1 Chalk</span>
       </div>
       <div class="card-actions">
-        <button class="btn-commit" onclick="commitCard()">Pocket It ↑</button>
+        <button class="btn-commit" onclick="commitCard()">Pocket It</button>
         <button class="btn-decline" onclick="declineCard()">Scratch −5</button>
       </div>
     </div>
@@ -2629,7 +2637,7 @@
   </div>
   <div class="result-message" id="result-message"></div>
   <div class="proof-section" id="proof-section" style="display:none;">
-    <div class="proof-label">Proof of completion</div>
+    <div class="proof-label">Proof you went</div>
     <input type="file" id="proof-input" accept="image/*" capture="environment" style="display:none;" onchange="handlePhotoUpload(event)">
     <div class="proof-area" id="proof-area" onclick="document.getElementById('proof-input').click()">
       <div class="proof-placeholder" id="proof-placeholder">
@@ -2700,7 +2708,7 @@
   <button class="btn-clear-filters" style="width:100%;margin-bottom:4px;" onclick="closeFilters();openHouseSheet();">Build Tonight's Rack</button>
 
   <div class="sheet-actions">
-    <button class="btn-clear-filters" onclick="clearFilters()">Clear All</button>
+    <button class="btn-clear-filters" onclick="clearFilters()">Clear Filters</button>
     <button class="btn-apply-filters" onclick="applyFilters()">Apply Filters</button>
   </div>
 </div>
@@ -2952,7 +2960,7 @@
       <div class="rules-section-title">City Packs</div>
       <div class="rules-text">
         Your active pack is your card pool. Switch packs to explore a different city, or load one up before a trip.
-        Tap <strong>Switch ›</strong> on the home screen to change it.
+        Tap <strong>Switch City ›</strong> on the home screen to change it.
       </div>
     </div>
 
@@ -2967,10 +2975,10 @@
   <div class="install-prompt-icon"><svg class="pi" width="30" height="30" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></div>
   <div class="install-prompt-text">
     <div class="install-prompt-title" id="install-prompt-title">Add Poul to Home Screen</div>
-    <div class="install-prompt-sub" id="install-prompt-sub">Play offline, anytime.</div>
+    <div class="install-prompt-sub" id="install-prompt-sub">Runs offline. No account.</div>
   </div>
   <button class="btn-install" id="btn-install" onclick="triggerInstall()">Install</button>
-  <button class="btn-install-dismiss" onclick="dismissInstall()" aria-label="Dismiss">×</button>
+  <button class="btn-install-dismiss" onclick="dismissInstall()" aria-label="Dismiss install prompt">×</button>
 </div>
 
 <script>
@@ -3150,7 +3158,7 @@ function applyFilters() {
   updateHomeUI();
 
   const count = countActiveFilters();
-  if (count > 0) showToast(`${count} filter${count > 1 ? 's' : ''} active`);
+  if (count > 0) showToast(`${count} filter${count > 1 ? 's' : ''} on.`);
 }
 
 function clearFilters() {
@@ -3159,7 +3167,7 @@ function clearFilters() {
   syncChipsToState();
   closeFilters();
   updateHomeUI();
-  showToast('Filters cleared');
+  showToast('Filter cleared. Full deck in play.');
 }
 
 // ──────────────────────────────────────────
@@ -3188,10 +3196,10 @@ function applyVibe(key) {
   if (!v) return;
   if (vibeMatches(v)) {
     filters = { cost: [], time: [], duration: [] };
-    showToast('Vibe cleared');
+    showToast('Vibe off. Full deck in play.');
   } else {
     filters = { cost: [...v.f.cost], time: [...v.f.time], duration: [...v.f.duration] };
-    showToast(v.label + ' vibe on');
+    showToast(v.label + '. Deck narrowed.');
   }
   pendingFilters = { cost: [...filters.cost], time: [...filters.time], duration: [...filters.duration] };
   updateHomeUI();
@@ -3311,10 +3319,10 @@ function saveState() {
           completedCards: toSave.completedCards.map(c => { const {photoDataUrl, ...rest} = c; return rest; })
         };
         localStorage.setItem(STATE_KEY, JSON.stringify(stripped));
-        showToast('Storage full — proof photos cleared to save your progress.');
+        showToast('Out of room. Proof photos dropped, score kept.');
       } catch(e2) {
         console.warn('Poul: storage full, could not save state', e2);
-        showToast('Storage full. Some progress may not be saved.');
+        showToast("Out of room. Free up space or draws won't save.");
       }
     } else {
       console.warn('Poul: could not save state', e);
@@ -3741,20 +3749,20 @@ function updateHomeUI() {
     const seasonFiltered = rawSize - poolSize;
 
     if (poolSize === 0) {
-      btn.textContent = 'No Cards Match — Adjust Filter';
+      btn.textContent = "Table's Empty — Loosen Filter";
       btn.classList.add('disabled');
-      poolLabel.textContent = '0 cards available';
+      poolLabel.textContent = 'Nothing in the pool';
       poolLabel.className = 'pool-size-label thin';
     } else if (poolSize <= 2) {
       btn.textContent = 'Draw ' + CAT_LABELS[state.selectedCategory] + ' →';
       btn.classList.remove('disabled');
-      poolLabel.textContent = `Only ${poolSize} card${poolSize > 1 ? 's' : ''} — loosen filters?`;
+      poolLabel.textContent = `Only ${poolSize} card${poolSize > 1 ? 's' : ''} left — loosen the filter?`;
       poolLabel.className = 'pool-size-label thin';
     } else {
       btn.textContent = 'Draw ' + CAT_LABELS[state.selectedCategory] + ' →';
       btn.classList.remove('disabled');
       if (activeCount > 0) {
-        poolLabel.textContent = `${poolSize} cards in pool`;
+        poolLabel.textContent = `${poolSize} in the pool`;
       } else if (seasonFiltered > 0) {
         poolLabel.innerHTML = `${icon(season.icon, '11px')} ${poolSize} in season`;
       } else {
@@ -3763,7 +3771,7 @@ function updateHomeUI() {
       poolLabel.className = 'pool-size-label';
     }
   } else {
-    btn.textContent = 'Select a Category';
+    btn.textContent = 'Pick a Category';
     btn.classList.add('disabled');
     poolLabel.textContent = '';
   }
@@ -3807,7 +3815,7 @@ function startDraw() {
 
   const card = drawCard(state.selectedCategory);
   if (!card) {
-    showToast('No cards match your filters. Adjust the Poul Filter.');
+    showToast('Nothing in that pocket. Loosen the Poul Filter.');
     return;
   }
 
@@ -3904,7 +3912,7 @@ function redrawCard() {
 
   const card = drawCard(state.selectedCategory);
   if (!card) {
-    showToast('No cards match your filters.');
+    showToast('Nothing else in the pool. Pocket it or scratch.');
     return;
   }
 
@@ -3921,7 +3929,7 @@ function redrawCard() {
   setTimeout(() => { revealCard(); }, 100);
 
   updateHomeUI();
-  showToast('Chalked up. −2 off your Pocket Score.');
+  showToast('Chalked up. One cube, −2 off the score.');
 }
 
 // ──────────────────────────────────────────
@@ -3969,9 +3977,9 @@ function commitCard() {
   // ── MILESTONE REWARDS ──
   const STREAK_REWARDS = { 3: 25, 7: 50, 30: 100 };
   const STREAK_MESSAGES = {
-    3: '3-day Run! +25 bonus.',
-    7: '7-day Run. The table respects you. +50.',
-    30: '30-day Run. Legendary. +100. The pool bows.'
+    3: '3-day Run. +25.',
+    7: '7-day Run. +50. The table noticed.',
+    30: '30-day Run. +100. Nobody runs thirty.'
   };
   if (streakMilestone) {
     state.sparkScore += STREAK_REWARDS[streakMilestone];
@@ -3996,7 +4004,7 @@ function commitCard() {
   };
   _newTrophies = TROPHIES.filter(t => !trophiesBefore.has(t.id) && t.earned());
   if (_newTrophies.length) {
-    setTimeout(() => showToast('Trophy earned: ' + _newTrophies[0].name + '.'), streakMilestone ? 3400 : 1600);
+    setTimeout(() => showToast('Trophy on the shelf: ' + _newTrophies[0].name + '.'), streakMilestone ? 3400 : 1600);
   }
 
   showResult(true, card);
@@ -4172,7 +4180,7 @@ function bookingLinksFor(card, category) {
   const google = 'https://www.google.com/search?q=' + q;
   const links = [];
   if (category === 'foodie') {
-    links.push({ label: 'Reserve a table', icon: 'fork', url: affiliate('opentable', 'https://www.opentable.com/s?term=' + q), primary: true });
+    links.push({ label: 'Reserve it', icon: 'fork', url: affiliate('opentable', 'https://www.opentable.com/s?term=' + q), primary: true });
   } else if (category === 'adventure' || category === 'active') {
     links.push({ label: 'Book it', icon: 'ticket', url: affiliate('viator', 'https://www.viator.com/search/' + q), primary: true });
   } else if (category === 'social') {
@@ -4186,7 +4194,7 @@ function renderBookingCTA(card) {
   const el = document.getElementById('booking-cta');
   if (!card) { el.style.display = 'none'; el.innerHTML = ''; return; }
   const links = bookingLinksFor(card, state.selectedCategory);
-  el.innerHTML = '<div class="booking-cta-label">Make it happen</div>' + links.map(l =>
+  el.innerHTML = '<div class="booking-cta-label">Line it up</div>' + links.map(l =>
     `<a class="booking-btn${l.primary ? ' primary' : ''}" href="${l.url}" target="_blank" rel="noopener" onclick="track('booking_link_tapped',{label:'${l.label}',card_id:'${card.id}',pack:state.activePack})">${icon(l.icon, '14px')} ${escHtml(l.label)}</a>`
   ).join('');
   el.style.display = 'flex';
@@ -4222,7 +4230,7 @@ function renderPool() {
     content.innerHTML = trophyShelfHTML() + `
       <div class="pool-empty">
         <div class="pool-empty-ball"><span>8</span></div>
-        <div class="pool-empty-text">Your trophy room is empty.<br>Draw a card, pocket it, and go earn your first trophy.</div>
+        <div class="pool-empty-text">Nothing on the shelf yet.<br>Draw a card, pocket it, and go do it.</div>
       </div>
     `;
     return;
@@ -4300,7 +4308,7 @@ function rateCard(idx, direction) {
   // Update just this card's rating row — preserves scroll position
   const el = document.getElementById('pool-rating-' + idx);
   if (el) el.innerHTML = ratingButtonsHTML(idx, card.rating);
-  const msg = card.rating === 'up' ? 'Loved it — logged.' : card.rating === 'down' ? 'Noted. Fewer like this.' : 'Rating cleared.';
+  const msg = card.rating === 'up' ? 'Logged. More like this.' : card.rating === 'down' ? 'Noted. Fewer like this.' : 'Rating cleared.';
   showToast(msg);
 }
 
@@ -4320,7 +4328,7 @@ function showToast(msg) {
 // RESET
 // ──────────────────────────────────────────
 function confirmReset() {
-  if (!confirm('Reset your Pocket Score and Trophy Room? This cannot be undone.')) return;
+  if (!confirm('Wipe the table? Your Pocket Score, every pocketed card, your proof photos and your Run all go. This cannot be undone.')) return;
   localStorage.removeItem(STATE_KEY);
   state.sparkScore = 0;
   state.tokens = 5;
@@ -4334,7 +4342,7 @@ function confirmReset() {
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
   updateHomeUI();
   showScreen('home');
-  showToast('Fresh rack. Everything reset.');
+  showToast('Table wiped. Back to zero.');
 }
 
 // ──────────────────────────────────────────
@@ -4369,10 +4377,13 @@ function renderShareCard() {
     streakEl.classList.remove('streak-stat');
   }
 
-  // Show unlock note if type is based on draw threshold
+  // Show unlock note if type is based on draw threshold.
+  // NB: nothing "locks" at 20 — getPoulType() recomputes from sparkScore on
+  // every call. What 20 draws enables is the Ghost override, i.e. one MORE way
+  // the type can move. The old copy promised a mechanic the app doesn't have.
   const noteEl = document.getElementById('sc-unlock-note');
   if (state.drawCount < 20) {
-    noteEl.textContent = `Type locks in after 20 draws · ${20 - state.drawCount} to go`;
+    noteEl.textContent = `Still reading you · ${20 - state.drawCount} draws to a full read`;
     noteEl.style.display = 'block';
   } else {
     noteEl.style.display = 'none';
@@ -4395,9 +4406,12 @@ function copyShareText(text) {
   if (navigator.clipboard) {
     navigator.clipboard.writeText(text).then(() => {
       showToast('Copied. Paste it anywhere.');
-    }).catch(() => showToast('Share text ready — paste it!'));
+    }).catch(() => showToast('Clipboard blocked. Screenshot it instead.'));
   } else {
-    showToast('Share: ' + text.slice(0, 60) + '…');
+    // Was a 60-character truncation of the payload, which is neither a message
+    // nor usable text. Neither Web Share nor the clipboard exists here, so say
+    // so plainly rather than dumping a fragment.
+    showToast('No sharing here. Screenshot it instead.');
   }
 }
 
@@ -4862,7 +4876,7 @@ function filterPacks(query) {
       empty.className = 'pack-no-results';
       container.appendChild(empty);
     }
-    empty.textContent = `No packs match "${query}"`;
+    empty.textContent = `No pack for "${query}" yet. Try a nearby city.`;
     empty.style.display = '';
   } else if (empty) {
     empty.style.display = 'none';
@@ -4908,7 +4922,7 @@ function packOptionHTML(p) {
         <div class="pack-option-name">${escHtml(p.name)}</div>
         <div class="pack-option-location">${escHtml(p.location)} · ${p.count} cards</div>
       </div>
-      ${state.activePack === p.id ? '<span class="pack-option-badge">Active</span>' : ''}
+      ${state.activePack === p.id ? '<span class="pack-option-badge">In play</span>' : ''}
     </div>`;
 }
 
@@ -4978,12 +4992,12 @@ function findNearby() {
       renderPackOptions();
       const opts = document.getElementById('pack-options');
       if (opts) opts.scrollTop = 0;
-      showToast('Showing packs nearest you');
+      showToast('Closest packs up top.');
     },
     () => {
       btn.disabled = false;
       btn.innerHTML = icon('pin', '12px') + ' Nearby';
-      showToast("Couldn't get your location.");
+      showToast("Couldn't get your location. Search instead.");
     },
     { timeout: 8000, maximumAge: 600000 }
   );
@@ -5002,7 +5016,7 @@ function selectPack(packId) {
   updateHomeUI();
   const label = packId === 'phoenix' ? 'Phoenix · Scottsdale'
     : (TRAVEL_PACKS[packId]?.name || packId);
-  showToast('Pack switched to ' + label + (hadHouseRules ? ' · House Rules cleared' : ''));
+  showToast('Now on the table: ' + label + '.' + (hadHouseRules ? ' House Rules cleared.' : ''));
 }
 
 // ──────────────────────────────────────────
@@ -5055,7 +5069,7 @@ function updateHouseSaveLabel() {
 }
 
 function saveHouseRules() {
-  if (pendingHouse.size < 3) { showToast('Pick at least 3 cards for a rack.'); return; }
+  if (pendingHouse.size < 3) { showToast('A rack needs at least 3 cards.'); return; }
   state.houseRules = { active: true, ids: [...pendingHouse] };
   saveState();
   track('house_rules_set', { count: pendingHouse.size, pack: state.activePack });
@@ -5102,7 +5116,7 @@ function handlePhotoUpload(event) {
       if (state.completedCards.length > 0) {
         state.completedCards[0].photoDataUrl = dataUrl;
         saveState();
-        showToast('Proof saved.');
+        showToast('Proof saved to the card.');
       }
     };
     img.src = e.target.result;
@@ -5210,9 +5224,13 @@ async function loadExternalPacks() {
 
     console.log('Poul: packs loaded (' + packs.length + ')');
   } catch (_) {
-    // file:// or network offline — cards stay empty, show warning
+    // Fires on file:// AND on a real network failure, so this string reaches
+    // players, not only whoever opened the file locally. It used to print a
+    // shell command (`npx serve .`) straight into the UI. The dev hint now
+    // lives in the console, where the only person who needs it will look.
+    console.warn('Poul: packs not reachable — serve over http(s), e.g. `npx serve .`');
     document.getElementById('season-line').textContent =
-      '⚠ Serve locally with: npx serve .';
+      "Deck didn't load. Check your connection and reload.";
   } finally {
     updateHomeUI();
   }
@@ -5294,7 +5312,7 @@ initSheetDrag('rules-sheet',  closeRulesSheet);
   state.lastChalkDate = today;
   if (state.tokens < state.maxTokens) {
     state.tokens++;
-    setTimeout(() => showToast('Daily chalk-up. +1 chalk cube.'), 1600);
+    setTimeout(() => showToast('Daily chalk. +1 cube.'), 1600);
     track('daily_chalk', { tokens: state.tokens });
   }
   saveState();
@@ -5306,8 +5324,8 @@ document.querySelectorAll('.rules-type-emoji[data-type]').forEach(el => { el.inn
 
 // Show spark/streak from localStorage immediately, indicate packs loading
 updateHomeUI();
-document.getElementById('season-line').textContent = 'Loading your pool…';
-document.getElementById('draw-btn').textContent    = 'Loading Deck...';
+document.getElementById('season-line').textContent = 'Setting the table…';
+document.getElementById('draw-btn').textContent    = 'Racking the Deck…';
 document.getElementById('draw-btn').classList.add('disabled');
 loadExternalPacks(); // parallel fetch, calls updateHomeUI() when done
 maybeShowRulesOnFirstLaunch();
@@ -5340,7 +5358,7 @@ maybeShowRulesOnFirstLaunch();
       <div class="share-card-tagline">Luck favors the spontaneous.</div>
       <div class="share-card-actions">
         <button class="btn-share" onclick="shareCard()">Share Your Type</button>
-        <button class="btn-share-close" onclick="closeShareCard()" aria-label="Close"><svg class="pi" width="13" height="13" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="4.46" stroke-linecap="round" aria-hidden="true"><line x1="11" y1="11" x2="33" y2="33"/><line x1="33" y1="11" x2="11" y2="33"/></svg></button>
+        <button class="btn-share-close" onclick="closeShareCard()" aria-label="Close share card"><svg class="pi" width="13" height="13" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="4.46" stroke-linecap="round" aria-hidden="true"><line x1="11" y1="11" x2="33" y2="33"/><line x1="33" y1="11" x2="11" y2="33"/></svg></button>
       </div>
       <div class="share-card-unlock-note" id="sc-unlock-note" style="display:none;"></div>
     </div>
