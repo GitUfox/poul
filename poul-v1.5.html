@@ -4769,9 +4769,41 @@ function showToast(msg) {
 // ──────────────────────────────────────────
 // RESET
 // ──────────────────────────────────────────
+// Keys that must SURVIVE a reset. Empty today, and that is a decision, not an
+// oversight — "Wipe the table" is meant to leave the device looking like a
+// fresh install.
+//
+// ⚠️ If you add a poul_ key that must outlive a reset — a privacy opt-out, a
+// consent flag, an accessibility preference — put it here. Do NOT leave it to
+// the prefix sweep below to decide: the sweep will wipe it, and the user will
+// silently re-consent to something they had already declined.
+const KEEP_ON_RESET = [];
+
+// Clears everything this app owns. Prefix-based on purpose, so a key added
+// later is cleared automatically instead of being quietly left behind — which
+// is exactly how poul_bags_v1 came to survive a reset in the first place.
+//
+// PostHog's own keys are NOT poul_-prefixed and are deliberately untouched:
+// resetting your score should not mint a new analytics identity.
+function clearAllAppData() {
+  const doomed = [];
+  try {
+    // Snapshot first. localStorage.key(i) is a LIVE index — deleting while
+    // walking it renumbers the remaining keys and silently skips every other one.
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && k.startsWith('poul_') && !KEEP_ON_RESET.includes(k)) doomed.push(k);
+    }
+    doomed.forEach(k => localStorage.removeItem(k));
+  } catch (e) {
+    console.warn('Poul: could not clear stored data', e);
+  }
+  return doomed.length;
+}
+
 function confirmReset() {
   if (!confirm('Wipe the table? Your Pocket Score, every pocketed card, your proof photos and your Run all go. This cannot be undone.')) return;
-  localStorage.removeItem(STATE_KEY);
+  clearAllAppData();
   state.sparkScore = 0;
   state.tokens = 5;
   state.drawCount = 0;
