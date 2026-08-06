@@ -20,8 +20,10 @@ const path = require('path');
 
 const html = fs.readFileSync(path.join(__dirname, '..', 'poul-v1.5.html'), 'utf8');
 
-const START = 'const KEEP_ON_RESET = [];';
-const s = html.indexOf(START);
+// Anchor on the DECLARATION, never on its value — pinning to `= []` meant
+// editing the exception list broke the extraction rather than the assertion,
+// which hides the real failure behind a loader crash.
+const s = html.indexOf('const KEEP_ON_RESET');
 assert.ok(s > -1, 'KEEP_ON_RESET not found in poul-v1.5.html');
 const e = html.indexOf('function confirmReset()', s);
 assert.ok(e > s, 'confirmReset not found after KEEP_ON_RESET');
@@ -50,14 +52,14 @@ function load(storage) {
 }
 
 describe('reset — clears everything the app owns', () => {
-  test('removes every poul_ key', () => {
+  test('removes the progress keys', () => {
     const store = makeStorage({
       poul_state_v1: '{}', poul_bags_v1: '{}',
       poul_rules_seen: '1', poul_install_dismissed: '1',
     });
     const n = load(store).clearAllAppData();
-    assert.strictEqual(n, 4);
-    assert.deepStrictEqual(store._keys(), []);
+    assert.strictEqual(n, 3);
+    assert.deepStrictEqual(store._keys(), ['poul_rules_seen']);
   });
 
   test('the live-index trap: an odd number of keys is fully cleared', () => {
@@ -99,10 +101,19 @@ describe('reset — leaves everything else alone', () => {
     assert.deepStrictEqual(store._keys().sort(), ['notpoul_state', 'x_poul_y']);
   });
 
-  test('KEEP_ON_RESET is empty today — and that is a deliberate decision', () => {
-    // If this fails, someone added an exception. Good — but confirm the reset
+  test('the rules-seen flag survives a reset', () => {
+    // A reset wipes what you EARNED, not what you have already SEEN. Being
+    // taught the game again because you cleared your score is a tutorial
+    // nagging you, not a fresh start.
+    const store = makeStorage({ poul_state_v1: '{}', poul_rules_seen: '1' });
+    load(store).clearAllAppData();
+    assert.deepStrictEqual(store._keys(), ['poul_rules_seen']);
+  });
+
+  test('KEEP_ON_RESET holds exactly the seen-flags, not progress', () => {
+    // If this fails, someone changed the exception list. Confirm the reset
     // dialog's wording still matches what actually gets deleted.
-    assert.deepStrictEqual(load(makeStorage({})).KEEP_ON_RESET, []);
+    assert.deepStrictEqual(load(makeStorage({})).KEEP_ON_RESET, ['poul_rules_seen']);
   });
 });
 

@@ -4769,15 +4769,19 @@ function showToast(msg) {
 // ──────────────────────────────────────────
 // RESET
 // ──────────────────────────────────────────
-// Keys that must SURVIVE a reset. Empty today, and that is a decision, not an
-// oversight — "Wipe the table" is meant to leave the device looking like a
-// fresh install.
+// Keys that must SURVIVE a reset.
+//
+// The line: a reset wipes what you EARNED, not what you have already SEEN.
+// Score, pocketed cards, proof photos, the Run and the draw bags are progress
+// and all go. "You have read the rules" is not progress — being taught the game
+// again because you cleared your score is a tutorial nagging you, not a fresh
+// start.
 //
 // ⚠️ If you add a poul_ key that must outlive a reset — a privacy opt-out, a
 // consent flag, an accessibility preference — put it here. Do NOT leave it to
 // the prefix sweep below to decide: the sweep will wipe it, and the user will
 // silently re-consent to something they had already declined.
-const KEEP_ON_RESET = [];
+const KEEP_ON_RESET = ['poul_rules_seen'];
 
 // Clears everything this app owns. Prefix-based on purpose, so a key added
 // later is cleared automatically instead of being quietly left behind — which

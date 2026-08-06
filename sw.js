@@ -1,4 +1,4 @@
-const CACHE = 'poul-v58';
+const CACHE = 'poul-v59';
 
 // App shell. Only the HTML is a hard requirement; the rest is best-effort.
 const SHELL = [
