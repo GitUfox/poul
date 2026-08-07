@@ -3465,11 +3465,26 @@ function getActiveDeck() {
   return { ...pack.cards, '8ball': CARDS['8ball'] };
 }
 
+// The deck for one category tile. The 8-ball is a TRUE wild (2026-08-07):
+// it racks EVERY category on the table plus the universal dares — the rules
+// sheet always promised "pulls from any category"; now the code agrees.
+function getCategoryDeck(category) {
+  const deckObj = getActiveDeck();
+  if (category === '8ball') return Object.values(deckObj).flat();
+  return deckObj[category] || [];
+}
+
 function getFilteredPool(category) {
-  const deck = getActiveDeck()[category] || [];
+  const deck = getCategoryDeck(category);
   // House Rules: an explicit hand-picked rack overrides filters AND season
   if (state.houseRules && state.houseRules.active) {
     return deck.filter(c => state.houseRules.ids.includes(c.id));
+  }
+  // The 8-ball also ignores the Poul Filter (per the rules sheet) — season
+  // still applies, because a snowed-out trail is closed no matter how wild
+  // the draw is.
+  if (category === '8ball') {
+    return deck.filter(c => c.filterExempt || isCardInSeason(c));
   }
   return deck.filter(cardPassesFilters);
 }
@@ -4195,7 +4210,7 @@ function updateHomeUI() {
 
   if (state.selectedCategory) {
     const poolSize = getFilteredPool(state.selectedCategory).length;
-    const rawSize  = (getActiveDeck()[state.selectedCategory] || []).filter(c => c.filterExempt || isCardInSeason(c)).length;
+    const rawSize  = getCategoryDeck(state.selectedCategory).filter(c => c.filterExempt || isCardInSeason(c)).length;
     const seasonFiltered = rawSize - poolSize;
 
     if (poolSize === 0) {
