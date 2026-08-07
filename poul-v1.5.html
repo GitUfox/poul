@@ -1657,8 +1657,13 @@
 
   .filter-badge {
     display: none;
+    /* flex: none — as a shrinkable flex item the 16px width squeezed under
+       row pressure while height held, rendering a tall oval (Kraig's device
+       pass, 2026-08-07). A count badge never gives up its circle. */
+    flex: 0 0 auto;
     width: 16px;
     height: 16px;
+    line-height: 1;
     border-radius: 50%;
     background: var(--felt-bright);
     color: #04160b;
