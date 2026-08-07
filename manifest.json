@@ -7,8 +7,8 @@
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
   "orientation": "portrait",
-  "theme_color": "#0a0c0a",
-  "background_color": "#0a0c0a",
+  "theme_color": "#070907",
+  "background_color": "#070907",
   "categories": ["lifestyle", "entertainment"],
   "icons": [
     {

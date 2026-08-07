@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>POUL</title>
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#0a0c0a">
+<meta name="theme-color" content="#070907">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Poul">
@@ -26,7 +26,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0a0c0a;
+    --bg: #070907;   /* deepened from #0a0c0a (2026-08-06 "lamp up") — more separation under the lit surfaces */
     --surface: #131613;
     --surface2: #1a1f1a;
     --surface3: #212621;
@@ -167,7 +167,7 @@
 
   /* Tells the engine this app is dark, so native UI it renders for us —
      scrollbars, form controls, date/select popovers — stops coming back light
-     against a #0a0c0a app. One line, and it was missing entirely. */
+     against a near-black app. One line, and it was missing entirely. */
   :root { color-scheme: dark; }
 
   /* Derive the pool position and the cast direction from the one angle.
@@ -211,7 +211,7 @@
 
      Brightness peaks at the lamp, falls through neutral, and bottoms out in a
      shadowed lobe 180deg opposite. That is the point: not a uniform 1px decal. */
-  .card, .pool-card, .spark-display, .pack-indicator, .cat-btn, .draw-btn,
+  .card, .pool-card, .spark-display, .cat-btn, .draw-btn,
   .btn-commit, .btn-continue, .btn-apply-filters, .btn-share,
   .bottom-sheet, .share-card, .trophy {
     --rim-conic: conic-gradient(from var(--lamp),
@@ -237,7 +237,7 @@
      flat base underneath, and a transparent border for the conic to show
      through. No pseudo-element, no mask-composite, no stacking context —
      so the fixed bottom sheets and the .screen cross-fade are untouched. */
-  .spark-display, .pack-indicator, .trophy {
+  .spark-display, .trophy {
     background:
       linear-gradient(var(--surface), var(--surface)) padding-box,
       var(--rim-conic) border-box,
@@ -378,17 +378,29 @@
     margin-top: var(--sp-10);
   }
 
-  /* Spark display on home */
+  /* The HUD — one rail (2026-08-06). Stats row + hairline + table row live in
+     ONE lit surface; the old stacked .pack-indicator box is now an inner row.
+     .hud-stats keeps the exact flex geometry the old .spark-display had, so
+     the delta-chip width budget (see THE DELTA CHIP) is untouched. */
   .spark-display {
     display: flex;
-    align-items: center;
-    gap: var(--sp-20);
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--sp-12);
     margin-top: var(--sp-24);
     padding: var(--sp-16) var(--sp-24);
     border-radius: 16px;
     width: 100%;
     max-width: 400px;
   }
+
+  .hud-stats {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-20);
+  }
+
+  .hud-divider { border-top: 1px solid var(--border); }
 
   .spark-info {
     display: flex;
@@ -523,9 +535,17 @@
 
   .cat-btn {
     /* --surf is the indirection that lets every state rule below stay a single
-       line while the rim survives the state change. */
+       line while the rim survives the state change.
+       --tint is the state wash ABOVE it. It exists because --surf must stay
+       OPAQUE: the border-box layers below paint across the whole box, and the
+       padding-box surface is what occludes them everywhere but the 1px ring.
+       A translucent --surf lets the solid --rim-base through and the tile
+       renders as a flat colour slab — the shipped selected-state bug this
+       layer fixes (found 2026-08-06). */
     --surf: var(--surface);
+    --tint: rgba(0,0,0,0);
     background:
+      linear-gradient(var(--tint), var(--tint)) padding-box,
       linear-gradient(var(--surf), var(--surf)) padding-box,
       var(--rim-conic) border-box,
       linear-gradient(var(--rim-base), var(--rim-base)) border-box;
@@ -583,26 +603,29 @@
   .cat-btn.selected::after  { opacity: 0.09; }
 
   /* Per-category selected: border + glow + icon color */
-  /* Selected state goes through --surf / --rim-base, never `background` or
+  /* Selected state goes through --tint / --rim-base, never `background` or
      `border-color`: either would replace the layered stack and erase the rim.
+     The wash is --tint (above the OPAQUE surface layer), never a translucent
+     --surf — a see-through surf exposes the solid rim-base across the whole
+     box and the tile renders as a flat colour slab.
      The category halo (box-shadow) is deliberately kept — it is chroma, not
      light, and the lamp does not own it. */
-  .cat-btn[data-category="adventure"].selected { --surf: rgba(221,130,115,0.1); --rim-base: var(--adventure); box-shadow: 0 0 18px rgba(221,130,115,0.2); }
+  .cat-btn[data-category="adventure"].selected { --tint: rgba(221,130,115,0.1); --rim-base: var(--adventure); box-shadow: 0 0 18px rgba(221,130,115,0.2); }
   .cat-btn[data-category="adventure"].selected .cat-icon { color: var(--adventure); }
 
-  .cat-btn[data-category="foodie"].selected { --surf: rgba(196,150,66,0.1); --rim-base: var(--foodie); box-shadow: 0 0 18px rgba(196,150,66,0.2); }
+  .cat-btn[data-category="foodie"].selected { --tint: rgba(196,150,66,0.1); --rim-base: var(--foodie); box-shadow: 0 0 18px rgba(196,150,66,0.2); }
   .cat-btn[data-category="foodie"].selected .cat-icon { color: var(--foodie); }
 
-  .cat-btn[data-category="chill"].selected { --surf: rgba(29,180,180,0.1); --rim-base: var(--chill); box-shadow: 0 0 18px rgba(29,180,180,0.2); }
+  .cat-btn[data-category="chill"].selected { --tint: rgba(29,180,180,0.1); --rim-base: var(--chill); box-shadow: 0 0 18px rgba(29,180,180,0.2); }
   .cat-btn[data-category="chill"].selected .cat-icon { color: var(--chill); }
 
-  .cat-btn[data-category="social"].selected { --surf: rgba(197,132,195,0.1); --rim-base: var(--social); box-shadow: 0 0 18px rgba(197,132,195,0.2); }
+  .cat-btn[data-category="social"].selected { --tint: rgba(197,132,195,0.1); --rim-base: var(--social); box-shadow: 0 0 18px rgba(197,132,195,0.2); }
   .cat-btn[data-category="social"].selected .cat-icon { color: var(--social); }
 
-  .cat-btn[data-category="active"].selected { --surf: rgba(113,160,229,0.1); --rim-base: var(--active); box-shadow: 0 0 18px rgba(113,160,229,0.2); }
+  .cat-btn[data-category="active"].selected { --tint: rgba(113,160,229,0.1); --rim-base: var(--active); box-shadow: 0 0 18px rgba(113,160,229,0.2); }
   .cat-btn[data-category="active"].selected .cat-icon { color: var(--active); }
 
-  .cat-btn[data-category="8ball"].selected { --surf: rgba(240,230,204,0.08); --rim-base: var(--ivory); box-shadow: 0 0 18px rgba(240,230,204,0.15); }
+  .cat-btn[data-category="8ball"].selected { --tint: rgba(240,230,204,0.08); --rim-base: var(--ivory); box-shadow: 0 0 18px rgba(240,230,204,0.15); }
   .cat-btn[data-category="8ball"].selected .cat-icon { color: var(--ivory); }
 
   .cat-icon {
@@ -635,7 +658,7 @@
   }
   .cat-btn.eightball .cat-name { color: var(--ivory); }
   .cat-btn.eightball .cat-icon { color: var(--ivory); opacity: 0.7; }
-  .cat-btn.eightball:hover { border-color: var(--ivory); background: var(--ivory-dim); }
+  .cat-btn.eightball:hover { border-color: var(--ivory); --tint: var(--ivory-dim); }
   .cat-btn.eightball:hover .cat-icon { color: var(--ivory); opacity: 1; }
 
   /* The draw button */
@@ -681,10 +704,17 @@
     pointer-events: none;
   }
 
+  /* The glow pool — the lamp catches the felt when the table is ready to
+     play. Gated by :not(.disabled): a dead button gets no light, same rule
+     as .lit-free. Colours are --felt-bright's channels. */
+  .draw-btn:not(.disabled) {
+    box-shadow: 0 0 24px rgba(61,153,112,0.22), 0 0 72px 10px rgba(61,153,112,0.15);
+  }
+
   .draw-btn:hover {
-    background: var(--felt-mid);
+    --surf: var(--felt-mid);   /* through --surf, not `background` — a raw background erases the rim */
     transform: translateY(-1px);
-    box-shadow: 0 8px 32px rgba(30,92,58,0.5);
+    box-shadow: 0 8px 32px rgba(30,92,58,0.5), 0 0 72px 10px rgba(61,153,112,0.15);
   }
 
   .draw-btn:active { transform: translateY(1px); }
@@ -2080,31 +2110,24 @@
   }
 
   /* ── PACK SELECTOR ── */
+  /* Inner row of the HUD since the one-rail merge — no rim of its own (the
+     rail's rim is the box), just a hover/press wash. Negative margins let the
+     tap area breathe past the text without moving the layout. */
   .pack-indicator {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: var(--sp-6);
-    width: 100%;
-    max-width: 400px;
-    margin-top: var(--sp-12);
-    padding: var(--sp-10) var(--sp-12);
+    align-items: stretch;
+    gap: var(--sp-4);
+    margin: calc(-1 * var(--sp-6)) calc(-1 * var(--sp-8));
+    padding: var(--sp-6) var(--sp-8);
     border-radius: 10px;
     cursor: pointer;
-    transition: border-color 0.2s, background 0.2s;
+    transition: background 0.2s;
     -webkit-tap-highlight-color: transparent;
   }
 
-  .pack-indicator:hover { border-color: var(--border2); background: var(--surface2); }
+  .pack-indicator:hover { background: var(--surface2); }
   .pack-indicator:active { background: var(--surface3); }
-
-  .pack-indicator-section-label {
-    font-size: var(--fs-micro);
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--sage);
-  }
 
   .pack-indicator-inner {
     display: flex;
@@ -2237,15 +2260,13 @@
 
 
   /* ── SEASON INDICATOR ── */
+  /* Lives inside the HUD table row since the one-rail merge — a quiet
+     sub-line, not a standalone banner. */
   .season-line {
-    font-size: var(--fs-base);
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    color: var(--sage);
-    margin-top: var(--sp-24);
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
+    font-size: var(--fs-micro);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--text-dim);
   }
 
   /* ── PROOF / PHOTO UPLOAD ── */
@@ -2708,8 +2729,10 @@
   /* Themed filter packs (quick vibes) */
   .vibe-row{display:flex;gap: var(--sp-8);overflow-x:auto;margin: var(--sp-12) 0 var(--sp-2);padding-bottom: var(--sp-2);-webkit-overflow-scrolling:touch;scrollbar-width:none;}
   .vibe-row::-webkit-scrollbar{display:none;}
-  .vibe-chip{flex:0 0 auto;display:inline-flex;align-items:center;gap: var(--sp-4);padding: var(--sp-6) var(--sp-12);border-radius:999px;border:1px solid #2a2f2a;background:#1a1f1a;color:#a0a898;font-size: var(--fs-small);font-weight:600;cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s,background .15s;}
-  .vibe-chip.active{border-color:#3d9970;color:#f0e6cc;background:rgba(61,153,112,.14);}
+  /* Squircle badges since 2026-08-06 — was the last component with hardcoded
+     hex + 999px stadium pills. Translucent warm fill, tight radius. */
+  .vibe-chip{flex:0 0 auto;display:inline-flex;align-items:center;gap: var(--sp-4);padding: var(--sp-6) var(--sp-12);border-radius:8px;border:1px solid var(--border2);background: var(--ivory-dim);color: var(--text-mid);font-size: var(--fs-small);font-weight:600;cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s,background .15s;}
+  .vibe-chip.active{border-color: var(--felt-bright);color: var(--ivory);background: var(--felt-glow);}
   /* Collector / limited cards */
   .limited-badge{display:inline-flex;align-items:center;gap: var(--sp-4);padding: var(--sp-2) var(--sp-8);border-radius:999px;border:1px solid rgba(240,230,204,.55);background:rgba(240,230,204,.12);color:#f0e6cc;font-size: var(--fs-micro);font-weight:700;letter-spacing:.09em;text-transform:uppercase;}
   .card.limited{box-shadow:0 0 0 1px rgba(240,230,204,.45),0 0 22px rgba(240,230,204,.10);}
@@ -2891,39 +2914,39 @@
   </div>
 
   <div class="spark-display">
-    <div class="spark-info">
-      <div class="spark-label">Pocket Score</div>
-      <!-- The chip is a SIBLING of #spark-score-display, never a child:
-           animateCounter() does parseInt(el.textContent) to find its start
-           value, and a nested chip would make that read "247+15". -->
-      <div class="spark-value-row">
-        <div class="spark-value" id="spark-score-display">0</div>
-        <span class="spark-delta" id="spark-delta-chip"></span>
+    <div class="hud-stats">
+      <div class="spark-info">
+        <div class="spark-label">Pocket Score</div>
+        <!-- The chip is a SIBLING of #spark-score-display, never a child:
+             animateCounter() does parseInt(el.textContent) to find its start
+             value, and a nested chip would make that read "247+15". -->
+        <div class="spark-value-row">
+          <div class="spark-value" id="spark-score-display">0</div>
+          <span class="spark-delta" id="spark-delta-chip"></span>
+        </div>
+      </div>
+      <div class="spark-streak-col">
+        <div class="spark-label">Run</div>
+        <div class="streak-value" id="streak-value-display">—</div>
+      </div>
+      <div class="spark-type spark-type-tappable" onclick="openShareCard()">
+        <div class="spark-type-label">Your Type ↗</div>
+        <div class="spark-type-value" id="poul-type-display">—</div>
       </div>
     </div>
-    <div class="spark-streak-col">
-      <div class="spark-label">Run</div>
-      <div class="streak-value" id="streak-value-display">—</div>
-    </div>
-    <div class="spark-type spark-type-tappable" onclick="openShareCard()">
-      <div class="spark-type-label">Your Type ↗</div>
-      <div class="spark-type-value" id="poul-type-display">—</div>
-    </div>
-  </div>
-
-  <div class="pack-indicator" onclick="openPackSheet()">
-    <div class="pack-indicator-section-label">Poul Table</div>
-    <div class="pack-indicator-inner">
-      <span id="pack-indicator-text">Phoenix · Scottsdale</span>
-      <div class="token-dots-chip">
-        <div id="token-dots" style="display:flex;gap:4px;"></div>
-        <span class="pack-switch-hint">Switch City ›</span>
+    <div class="hud-divider"></div>
+    <div class="pack-indicator" onclick="openPackSheet()">
+      <div class="pack-indicator-inner">
+        <span id="pack-indicator-text">Phoenix · Scottsdale</span>
+        <div class="token-dots-chip">
+          <div id="token-dots" style="display:flex;gap:4px;"></div>
+          <span class="pack-switch-hint">Switch City ›</span>
+        </div>
       </div>
+      <div class="season-line" id="season-line"></div>
     </div>
   </div>
   <div id="token-count-label" style="display:none;"></div>
-
-  <div class="season-line" id="season-line"></div>
 
   <div class="vibe-row" id="vibe-row"></div>
 
@@ -5049,7 +5072,7 @@ function renderShareCanvas(ctx, payload) {
   } else {
     g.addColorStop(0, cssTok('--felt-mid') || '#2d7a50');
     g.addColorStop(0.45, '#143622');
-    g.addColorStop(1, '#0a0c0a');
+    g.addColorStop(1, cssTok('--bg') || '#070907');
   }
   ctx.fillStyle = g;
   ctx.fillRect(0, 0, SHARE_W, SHARE_H);
