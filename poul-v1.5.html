@@ -213,7 +213,7 @@
      shadowed lobe 180deg opposite. That is the point: not a uniform 1px decal. */
   .card, .pool-card, .spark-display, .cat-btn, .draw-btn,
   .btn-commit, .btn-continue, .btn-apply-filters, .btn-share,
-  .bottom-sheet, .share-card, .trophy {
+  .bottom-sheet, .share-card, .trophy, .trophy-peek {
     --rim-conic: conic-gradient(from var(--lamp),
       rgba(var(--lamp-hue),  calc(0.26 * var(--rim-gain)))   0deg,
       rgba(var(--lamp-hue),  calc(0.16 * var(--rim-gain)))  42deg,
@@ -237,7 +237,7 @@
      flat base underneath, and a transparent border for the conic to show
      through. No pseudo-element, no mask-composite, no stacking context —
      so the fixed bottom sheets and the .screen cross-fade are untouched. */
-  .spark-display, .trophy {
+  .spark-display, .trophy, .trophy-peek {
     background:
       linear-gradient(var(--surface), var(--surface)) padding-box,
       var(--rim-conic) border-box,
@@ -740,6 +740,108 @@
   }
 
   .collection-link:hover { color: var(--felt-bright); }
+
+  .pool-size-row { width: 100%; text-align: center; }
+
+  /* ── THE SHELF PEEK ──
+     The Trophy Room's home-page front porch: your six trophies, earned in
+     gold, unearned as dark silhouettes doing the goading. Gold is the
+     trophy gold (#e8a84d) — the same hue the 7 existing gold sites use. */
+  .trophy-peek {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 14px;
+    padding: var(--sp-12) var(--sp-16) var(--sp-10);
+    margin-top: var(--sp-12);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 0.2s ease;
+  }
+
+  .trophy-peek:hover { transform: translateY(-1px); }
+
+  .tp-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: var(--sp-10);
+  }
+
+  .tp-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: var(--fs-md);
+    color: #e8a84d;
+  }
+
+  .tp-count {
+    font-size: var(--fs-micro);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--sage);
+  }
+
+  .tp-shelf {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--sp-6);
+  }
+
+  .tp-slot {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+  }
+
+  .tp-slot.on {
+    background: radial-gradient(circle at 40% 30%, rgba(232,168,77,0.26), rgba(232,168,77,0.08));
+    border-color: rgba(232,168,77,0.5);
+    color: #e8a84d;
+    box-shadow: 0 0 12px rgba(232,168,77,0.18);
+  }
+
+  .tp-ledge {
+    height: 3px;
+    border-radius: 2px;
+    margin-top: var(--sp-8);
+    background: linear-gradient(180deg, rgba(232,168,77,0.30), rgba(232,168,77,0.05));
+  }
+
+  /* Live match count on a category tile while a filter is on (filter-review
+     fix #1, 2026-08-07): see the consequence BEFORE tapping into an empty
+     table. Absent when no filter is active — zero ambient noise. */
+  .cat-count {
+    position: absolute;
+    top: var(--sp-6);
+    right: var(--sp-6);
+    min-width: 18px;
+    height: 18px;
+    padding: 0 var(--sp-4);
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-micro);
+    font-weight: 800;
+    line-height: 1;
+    background: var(--felt-dim);
+    color: var(--sage);
+    border: 1px solid var(--border2);
+  }
+
+  .cat-count.zero {
+    background: var(--danger-dim);
+    color: var(--danger);
+    border-color: var(--danger-edge);
+  }
 
   /* ────────────────────────────────
      SCREEN 2 — DRAW ANIMATION
@@ -2078,7 +2180,7 @@
       inset calc(var(--cast-x) * -3px) calc(var(--cast-y) * -3px) 8px rgba(var(--lamp-dark), 0.5);
   }
 
-  .cat-btn:active, .pack-indicator:active, .pool-card:active {
+  .cat-btn:active, .pack-indicator:active, .pool-card:active, .trophy-peek:active {
     --lamp: calc(var(--lamp-angle) + 180deg);
     --rim-gain: 1.35;
     transform: translateY(0);
@@ -2995,9 +3097,18 @@
     <button class="draw-btn disabled" id="draw-btn" onclick="startDraw()">
       Pick a Category
     </button>
-    <div style="display:flex;align-items:center;justify-content:space-between;width:100%;">
-      <a class="collection-link" onclick="showScreen('pool')">The Trophy Room →</a>
-      <span class="pool-size-label" id="pool-size-label"></span>
+    <div class="pool-size-row"><span class="pool-size-label" id="pool-size-label"></span></div>
+    <!-- The shelf peek (design pick B, 2026-08-07): the user's actual trophies
+         on the home page — earned in gold, unearned as silhouettes. -->
+    <div class="trophy-peek" id="trophy-peek" role="button" tabindex="0"
+         onclick="showScreen('pool')"
+         onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showScreen('pool');}">
+      <div class="tp-head">
+        <span class="tp-title">The Trophy Room</span>
+        <span class="tp-count" id="tp-count"></span>
+      </div>
+      <div class="tp-shelf" id="tp-shelf"></div>
+      <div class="tp-ledge"></div>
     </div>
   </div>
 </div>
@@ -3130,6 +3241,18 @@
     <div class="filter-chip" data-group="duration" data-value="120" onclick="toggleChip(this)">1–2 hrs</div>
     <div class="filter-chip" data-group="duration" data-value="240" onclick="toggleChip(this)">2–4 hrs</div>
     <div class="filter-chip" data-group="duration" data-value="999" onclick="toggleChip(this)">Half day+</div>
+  </div>
+
+  <div class="sheet-section-label">Company</div>
+  <div class="filter-chips" id="chips-company">
+    <div class="filter-chip" data-group="company" data-value="solo" onclick="toggleChip(this)">Solo</div>
+    <div class="filter-chip" data-group="company" data-value="couple" onclick="toggleChip(this)">Couple</div>
+    <div class="filter-chip" data-group="company" data-value="group" onclick="toggleChip(this)">Group</div>
+  </div>
+
+  <div class="sheet-section-label">Scene</div>
+  <div class="filter-chips" id="chips-adult">
+    <div class="filter-chip" data-group="adult" data-value="21" onclick="toggleChip(this)">21+ · bars &amp; nightlife</div>
   </div>
 
   <div class="sheet-section-label" style="margin-top:18px;">House Rules</div>
@@ -3426,11 +3549,15 @@ let TRAVEL_PACKS = {};
 let filters = {
   cost: [],       // e.g. ['$', '$$']
   time: [],       // e.g. ['Morning', 'Evening']
-  duration: []    // max minutes buckets: 60, 120, 240, 999
+  duration: [],   // max minutes buckets: 60, 120, 240, 999
+  company: [],    // e.g. ['couple'] — a tag means "works especially well for";
+                  // untagged cards are 'any' and pass every company filter
+  adult: []       // ['21'] = 21+ scene only. An array so toggleChip/sync stay
+                  // generic — it is a preference filter, NOT age verification
 };
 
 // Pending selections (inside sheet before Apply)
-let pendingFilters = { cost: [], time: [], duration: [] };
+let pendingFilters = { cost: [], time: [], duration: [], company: [], adult: [] };
 
 // ──────────────────────────────────────────
 // FILTER HELPERS
@@ -3453,6 +3580,14 @@ function cardPassesFilters(card) {
     const maxAllowed = Math.max(...filters.duration.map(Number));
     if (card.durationMins > maxAllowed) return false;
   }
+
+  // Company: tagged = "works especially well for" — a card tagged for someone
+  // else fails, but an UNTAGGED card is 'any' and always passes.
+  if (filters.company.length > 0 && card.company
+      && !card.company.some(c => filters.company.includes(c))) return false;
+
+  // 21+ scene: explicit opt-in — only flagged cards qualify.
+  if (filters.adult.length > 0 && !card.adult) return false;
 
   return true;
 }
@@ -3490,7 +3625,8 @@ function getFilteredPool(category) {
 }
 
 function countActiveFilters() {
-  return filters.cost.length + filters.time.length + filters.duration.length;
+  return filters.cost.length + filters.time.length + filters.duration.length
+       + filters.company.length + filters.adult.length;
 }
 
 // ──────────────────────────────────────────
@@ -3558,7 +3694,9 @@ function openFilters() {
   pendingFilters = {
     cost: [...filters.cost],
     time: [...filters.time],
-    duration: [...filters.duration]
+    duration: [...filters.duration],
+    company: [...filters.company],
+    adult: [...filters.adult]
   };
   syncChipsToState();
   document.getElementById('sheet-overlay').classList.add('open');
@@ -3596,7 +3734,9 @@ function applyFilters() {
   filters = {
     cost: [...pendingFilters.cost],
     time: [...pendingFilters.time],
-    duration: [...pendingFilters.duration]
+    duration: [...pendingFilters.duration],
+    company: [...pendingFilters.company],
+    adult: [...pendingFilters.adult]
   };
   closeFilters();
   updateHomeUI();
@@ -3606,8 +3746,8 @@ function applyFilters() {
 }
 
 function clearFilters() {
-  pendingFilters = { cost: [], time: [], duration: [] };
-  filters = { cost: [], time: [], duration: [] };
+  pendingFilters = { cost: [], time: [], duration: [], company: [], adult: [] };
+  filters = { cost: [], time: [], duration: [], company: [], adult: [] };
   syncChipsToState();
   closeFilters();
   updateHomeUI();
@@ -3623,15 +3763,18 @@ function clearFilters() {
 // "Big Day" was a no-op (the duration filter is a max, so ≤999 = everything).
 // These four each return cards across all packs in-season; the only intentional
 // dead-end is Date Night on workout/outdoor categories (no evening cards there).
+// Date Night finally means it (2026-08-07): Evening + couple-tagged cards,
+// not just a clock. Untagged cards still pass the company facet, so the vibe
+// degrades gracefully wherever tagging is sparse.
 const VIBES = {
-  date:  { label: 'Date Night', icon: 'moon', f: { cost: [],    time: ['Evening'],               duration: [] } },
-  cheap: { label: 'Under $20',  icon: 'tag',  f: { cost: ['$'], time: [],                        duration: [] } },
-  quick: { label: 'Quick Hit',  icon: 'bolt', f: { cost: [],    time: [],                        duration: ['120'] } },
-  day:   { label: 'Day Out',    icon: 'sun',  f: { cost: [],    time: ['Morning', 'Afternoon'],  duration: [] } },
+  date:  { label: 'Date Night', icon: 'moon', f: { cost: [],    time: ['Evening'],               duration: [],      company: ['couple'], adult: [] } },
+  cheap: { label: 'Under $20',  icon: 'tag',  f: { cost: ['$'], time: [],                        duration: [],      company: [],         adult: [] } },
+  quick: { label: 'Quick Hit',  icon: 'bolt', f: { cost: [],    time: [],                        duration: ['120'], company: [],         adult: [] } },
+  day:   { label: 'Day Out',    icon: 'sun',  f: { cost: [],    time: ['Morning', 'Afternoon'],  duration: [],      company: [],         adult: [] } },
 };
 
 function vibeMatches(v) {
-  const norm = o => JSON.stringify({ cost: [...o.cost].sort(), time: [...o.time].sort(), duration: [...o.duration].sort() });
+  const norm = o => JSON.stringify({ cost: [...o.cost].sort(), time: [...o.time].sort(), duration: [...o.duration].sort(), company: [...o.company].sort(), adult: [...o.adult].sort() });
   return norm(filters) === norm(v.f);
 }
 
@@ -3639,13 +3782,13 @@ function applyVibe(key) {
   const v = VIBES[key];
   if (!v) return;
   if (vibeMatches(v)) {
-    filters = { cost: [], time: [], duration: [] };
+    filters = { cost: [], time: [], duration: [], company: [], adult: [] };
     showToast('Vibe off. Full deck in play.');
   } else {
-    filters = { cost: [...v.f.cost], time: [...v.f.time], duration: [...v.f.duration] };
+    filters = { cost: [...v.f.cost], time: [...v.f.time], duration: [...v.f.duration], company: [...v.f.company], adult: [...v.f.adult] };
     showToast(v.label + '. Deck narrowed.');
   }
-  pendingFilters = { cost: [...filters.cost], time: [...filters.time], duration: [...filters.duration] };
+  pendingFilters = { cost: [...filters.cost], time: [...filters.time], duration: [...filters.duration], company: [...filters.company], adult: [...filters.adult] };
   updateHomeUI();
 }
 
@@ -4125,7 +4268,45 @@ function typeEmblem(key, size) {
 // ──────────────────────────────────────────
 // UI UPDATES
 // ──────────────────────────────────────────
+// The shelf peek — the Trophy Room's home-page front porch. Reuses the real
+// TROPHY_ART glyphs through the icon system; never a second copy of the art.
+function renderTrophyPeek() {
+  const shelf = document.getElementById('tp-shelf');
+  if (!shelf) return;
+  const n = state.completedCards.length;
+  document.getElementById('tp-count').textContent =
+    n === 0 ? 'The shelf is waiting ›' : n + ' pocketed ›';
+  shelf.innerHTML = TROPHIES.map(t => {
+    const on = t.earned();
+    return '<span class="tp-slot' + (on ? ' on' : '') + '" title="' + t.name + '">'
+      + '<svg class="pi" width="22" height="22" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="' + opticalStroke(22, 44).toFixed(2) + '" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + scaleGlyphStrokes(TROPHY_ART[t.id], 2.6, opticalStroke(22, 44)) + '</svg>'
+      + '</span>';
+  }).join('');
+}
+
+// Filter-review fix #1 (2026-08-07): with a filter on, every tile shows its
+// filtered pool size BEFORE you tap into an empty table. No filter = no chip.
+// The 8-ball's count is the wild pool — it ignores filters, and the contrast
+// (full wild vs thin categories) is the point.
+function renderTileCounts() {
+  const active = countActiveFilters() > 0;
+  document.querySelectorAll('.cat-btn').forEach(btn => {
+    let chip = btn.querySelector('.cat-count');
+    if (!active) { if (chip) chip.remove(); return; }
+    const n = getFilteredPool(btn.dataset.category).length;
+    if (!chip) {
+      chip = document.createElement('span');
+      chip.className = 'cat-count';
+      btn.appendChild(chip);
+    }
+    chip.textContent = n;
+    chip.classList.toggle('zero', n === 0);
+  });
+}
+
 function updateHomeUI() {
+  renderTrophyPeek();
+  renderTileCounts();
   // Spark score (animated counter)
   const scoreEl = document.getElementById('spark-score-display');
   animateCounter(scoreEl, state.sparkScore);
