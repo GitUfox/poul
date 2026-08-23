@@ -34,7 +34,10 @@
         "spark": 25,
         "bonus": "Get a peacock to approach within arm's reach — no food as bait, patience only.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Mayfield+Park+and+Preserve+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Mayfield+Park+and+Preserve+Austin+TX",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "AUS-C-10",
@@ -49,7 +52,10 @@
         "spark": 15,
         "bonus": "Find LBJ's actual Oval Office replica and sit in his chair — if a docent stops you, start a debate about the Civil Rights Act.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/LBJ+Presidential+Library+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/LBJ+Presidential+Library+Austin+TX",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "AUS-C-9",
@@ -64,7 +70,10 @@
         "spark": 15,
         "bonus": "Stay long enough to watch the sky go fully dark and identify three constellations before heading down.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Mount+Bonnell+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Mount+Bonnell+Austin+TX",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "AUS-C-8",
@@ -79,7 +88,10 @@
         "spark": 15,
         "bonus": "Ask a staff member for the book they most want to talk about right now, then buy it on the spot.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/BookPeople+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/BookPeople+Austin+TX",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "AUS-C-7",
@@ -169,7 +181,10 @@
         "spark": 15,
         "bonus": "Sit alone in the Ellsworth Kelly chapel for a full ten minutes in total silence.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Blanton+Museum+of+Art+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Blanton+Museum+of+Art+Austin+TX",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "AUS-C-04",
@@ -201,7 +216,8 @@
         "spark": 15,
         "bonus": "Challenge a stranger to a head-to-head tournament on any machine — loser buys the next round.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Cidercade+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Cidercade+Austin+TX",
+        "adult": true
       },
       {
         "id": "AUS-S-9",
@@ -216,7 +232,11 @@
         "spark": 15,
         "bonus": "Get into a conversation at every single bar you enter — no phone allowed until you leave each one.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Rainey+Street+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Rainey+Street+Austin+TX",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "AUS-S-8",
@@ -261,7 +281,11 @@
         "spark": 15,
         "bonus": "Convince a table of strangers to merge with your team — and win.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/The+Highball+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/The+Highball+Austin+TX",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "AUS-S-4",
@@ -276,7 +300,8 @@
         "spark": 15,
         "bonus": "Buy a round for the band after the set and tell them which song was your favorite.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Hole+in+the+Wall+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Hole+in+the+Wall+Austin+TX",
+        "adult": true
       },
       {
         "id": "AUS-S-3",
@@ -291,7 +316,8 @@
         "spark": 25,
         "bonus": "Tell the bartender your mood instead of a drink preference, and order whatever they recommend without negotiating.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Midnight+Cowboy+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Midnight+Cowboy+Austin+TX",
+        "adult": true
       },
       {
         "id": "AUS-S-2",
@@ -321,7 +347,10 @@
         "spark": 15,
         "bonus": "Dance with a stranger at every bar you enter — no sitting out allowed.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Continental+Club+South+Congress+Austin"
+        "mapsUrl": "https://www.google.com/maps/search/Continental+Club+South+Congress+Austin",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "AUS-S-03",
@@ -336,7 +365,8 @@
         "spark": 12,
         "bonus": "Loser buys the next round of cocktails.",
         "city": "Austin, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Whislers+Austin"
+        "mapsUrl": "https://maps.google.com/maps/search/Whislers+Austin",
+        "adult": true
       },
       {
         "id": "AUS-S-01",
@@ -351,7 +381,11 @@
         "spark": 15,
         "bonus": "Recruit one stranger at the bar onto your team.",
         "city": "Austin, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Buzz+Mill+Austin"
+        "mapsUrl": "https://maps.google.com/maps/search/Buzz+Mill+Austin",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "AUS-S-04",
@@ -366,7 +400,11 @@
         "spark": 15,
         "bonus": "Pick the song you'd never admit to loving.",
         "city": "Austin, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Egos+Lounge+Austin"
+        "mapsUrl": "https://maps.google.com/maps/search/Egos+Lounge+Austin",
+        "company": [
+          "group"
+        ],
+        "adult": true
       }
     ],
     "active": [
@@ -518,7 +556,10 @@
         "spark": 15,
         "bonus": "Walk the full Town Lake Trail loop from the bridge without stopping to check your phone once.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Pfluger+Pedestrian+Bridge+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Pfluger+Pedestrian+Bridge+Austin+TX",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "AUS-AC-1",
@@ -580,7 +621,8 @@
         "spark": 40,
         "bonus": "Ask the bartender for the most unusual agave varietal they have and drink it neat — no orange, no sal de gusano unless offered.",
         "city": "Austin, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Mezcaleria+Tobala+Austin+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Mezcaleria+Tobala+Austin+TX",
+        "adult": true
       },
       {
         "id": "AUS-F-10",

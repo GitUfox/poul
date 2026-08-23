@@ -19,7 +19,8 @@
         "spark": 15,
         "bonus": "Order a beer you cannot pronounce, ask the bartender to say it correctly, then repeat it back until you get it right.",
         "city": "New York City, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Vol+de+Nuit+West+4th+Street+NYC"
+        "mapsUrl": "https://www.google.com/maps/search/Vol+de+Nuit+West+4th+Street+NYC",
+        "adult": true
       },
       {
         "id": "NYC2-S-04",
@@ -49,7 +50,8 @@
         "spark": 25,
         "bonus": "Sit close to the band and stay for a full set without talking.",
         "city": "New York City, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Birdland%20Jazz%20Club%20New%20York%20NY"
+        "mapsUrl": "https://www.google.com/maps/search/Birdland%20Jazz%20Club%20New%20York%20NY",
+        "adult": true
       },
       {
         "id": "NYC2-S-02",
@@ -79,7 +81,8 @@
         "spark": 25,
         "bonus": "Order the only way you can here: light or dark, by the pair.",
         "city": "New York City, NY",
-        "mapsUrl": "https://www.google.com/maps/search/McSorley's%20Old%20Ale%20House%20New%20York%20NY"
+        "mapsUrl": "https://www.google.com/maps/search/McSorley's%20Old%20Ale%20House%20New%20York%20NY",
+        "adult": true
       },
       {
         "id": "NYC-S-104",
@@ -109,7 +112,8 @@
         "spark": 25,
         "bonus": "Get there before midnight and stay until after 2am — the room changes completely.",
         "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=Employees+Only+New+York"
+        "mapsUrl": "https://maps.google.com/?q=Employees+Only+New+York",
+        "adult": true
       },
       {
         "id": "NYC-S-101",
@@ -124,7 +128,8 @@
         "spark": 40,
         "bonus": "Order something not on the menu by describing your mood to the bartender.",
         "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=PDT+Please+Don%27t+Tell+New+York"
+        "mapsUrl": "https://maps.google.com/?q=PDT+Please+Don%27t+Tell+New+York",
+        "adult": true
       },
       {
         "id": "NYC-S-108",
@@ -139,7 +144,8 @@
         "spark": 25,
         "bonus": "Ask the bartender to recommend something that's not on the menu.",
         "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=The+Dead+Rabbit+New+York"
+        "mapsUrl": "https://maps.google.com/?q=The+Dead+Rabbit+New+York",
+        "adult": true
       },
       {
         "id": "NYC-S-103",
@@ -154,7 +160,10 @@
         "spark": 15,
         "bonus": "Everyone has to sing one song they've never sung before.",
         "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=Koreatown+32nd+Street+New+York"
+        "mapsUrl": "https://maps.google.com/?q=Koreatown+32nd+Street+New+York",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "NYC-S-106",
@@ -184,7 +193,8 @@
         "spark": 15,
         "bonus": "Whoever scores lowest on pinball buys the next round.",
         "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=Blue+%26+Gold+Tavern+New+York"
+        "mapsUrl": "https://maps.google.com/?q=Blue+%26+Gold+Tavern+New+York",
+        "adult": true
       }
     ],
     "adventure": [
@@ -366,7 +376,10 @@
         "spark": 25,
         "bonus": "Identify five landmarks on all four sides without using the interactive displays.",
         "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=One+World+Observatory+New+York"
+        "mapsUrl": "https://maps.google.com/?q=One+World+Observatory+New+York",
+        "company": [
+          "couple"
+        ]
       }
     ],
     "active": [
@@ -383,7 +396,10 @@
         "spark": 15,
         "bonus": "Watch a full game courtside, or sub in if anyone will have you.",
         "city": "New York City, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Rucker%20Park%20Harlem%20New%20York%20NY"
+        "mapsUrl": "https://www.google.com/maps/search/Rucker%20Park%20Harlem%20New%20York%20NY",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "NYC2-A-03",
@@ -580,7 +596,10 @@
         "spark": 15,
         "bonus": "Stand at the stern westbound and watch the skyline light up, then ride right back.",
         "city": "New York City, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Staten%20Island%20Ferry%20Whitehall%20Terminal%20New%20York%20NY"
+        "mapsUrl": "https://www.google.com/maps/search/Staten%20Island%20Ferry%20Whitehall%20Terminal%20New%20York%20NY",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "NYC2-C-02",
@@ -700,7 +719,10 @@
         "spark": 15,
         "bonus": "Bring a film camera — no phone photos.",
         "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=Brooklyn+Heights+Promenade+New+York"
+        "mapsUrl": "https://maps.google.com/?q=Brooklyn+Heights+Promenade+New+York",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "NYC-C-101",

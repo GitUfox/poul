@@ -261,7 +261,10 @@
         "spark": 15,
         "bonus": "Add the seasoned egg, bamboo, and extra chashu — then slurp loudly and unapologetically.",
         "city": "Denver, CO",
-        "mapsUrl": "https://www.google.com/maps/search/Uncle+ramen+LoHi+Denver"
+        "mapsUrl": "https://www.google.com/maps/search/Uncle+ramen+LoHi+Denver",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "DEN-F-7",
@@ -383,7 +386,10 @@
         "spark": 15,
         "bonus": "Rotate into a game of strangers and stay for three sets minimum.",
         "city": "Denver, CO",
-        "mapsUrl": "https://www.google.com/maps/search/Washington+Park+volleyball+Denver"
+        "mapsUrl": "https://www.google.com/maps/search/Washington+Park+volleyball+Denver",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "DEN-AC-13",
@@ -625,7 +631,8 @@
         "spark": 15,
         "bonus": "Challenge a group of strangers to cornhole — loser buys the next round.",
         "city": "Denver, CO",
-        "mapsUrl": "https://www.google.com/maps/search/Breckenridge+Brewery+Farmhouse+Littleton+Colorado"
+        "mapsUrl": "https://www.google.com/maps/search/Breckenridge+Brewery+Farmhouse+Littleton+Colorado",
+        "adult": true
       },
       {
         "id": "DEN-S-8",
@@ -655,7 +662,8 @@
         "spark": 15,
         "bonus": "Win a game of pool against a stranger and buy them a beer if you lose.",
         "city": "Denver, CO",
-        "mapsUrl": "https://www.google.com/maps/search/Wynkoop+Brewing+Company+Denver+CO"
+        "mapsUrl": "https://www.google.com/maps/search/Wynkoop+Brewing+Company+Denver+CO",
+        "adult": true
       },
       {
         "id": "DEN-S-6",
@@ -670,7 +678,8 @@
         "spark": 25,
         "bonus": "Go alone, sit at the bar, and talk to the person next to you for at least one full set.",
         "city": "Denver, CO",
-        "mapsUrl": "https://www.google.com/maps/search/Dazzle+Denver+Performing+Arts+Complex"
+        "mapsUrl": "https://www.google.com/maps/search/Dazzle+Denver+Performing+Arts+Complex",
+        "adult": true
       },
       {
         "id": "DEN-S-5",
@@ -685,7 +694,8 @@
         "spark": 25,
         "bonus": "Tell the bartender your mood, not your order — accept whatever they make without asking what's in it.",
         "city": "Denver, CO",
-        "mapsUrl": "https://www.google.com/maps/search/Williams+and+Graham+Denver+CO"
+        "mapsUrl": "https://www.google.com/maps/search/Williams+and+Graham+Denver+CO",
+        "adult": true
       },
       {
         "id": "DEN-S-4",
@@ -762,7 +772,10 @@
         "spark": 15,
         "bonus": "Read the first chapter of something in an armchair before deciding — that's what they're for.",
         "city": "Denver, CO",
-        "mapsUrl": "https://www.google.com/maps/search/Tattered+Cover+Colfax+Denver"
+        "mapsUrl": "https://www.google.com/maps/search/Tattered+Cover+Colfax+Denver",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "DEN-C-12",
@@ -792,7 +805,10 @@
         "spark": 15,
         "bonus": "Find the largest single gemstone in the mineral hall and spend five full minutes with it — no phone.",
         "city": "Denver, CO",
-        "mapsUrl": "https://www.google.com/maps/search/Denver+Museum+of+Nature+and+Science"
+        "mapsUrl": "https://www.google.com/maps/search/Denver+Museum+of+Nature+and+Science",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "DEN-C-9",
@@ -807,7 +823,8 @@
         "spark": 15,
         "bonus": "Order the Yeti on nitro if it's available, then work through at least two more styles you've never tried before leaving.",
         "city": "Denver, CO",
-        "mapsUrl": "https://www.google.com/maps/search/Great+Divide+Brewing+Denver+CO"
+        "mapsUrl": "https://www.google.com/maps/search/Great+Divide+Brewing+Denver+CO",
+        "adult": true
       },
       {
         "id": "DEN-C-8",

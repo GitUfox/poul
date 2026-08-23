@@ -79,7 +79,10 @@
         "spark": 15,
         "bonus": "Win three sets in a row against people you've never met before.",
         "city": "Ocean City, MD",
-        "mapsUrl": "https://maps.google.com/?q=9th+Street+Beach+Ocean+City+MD"
+        "mapsUrl": "https://maps.google.com/?q=9th+Street+Beach+Ocean+City+MD",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "OC-AC-105",
@@ -154,7 +157,10 @@
         "spark": 15,
         "bonus": "Challenge the winning team directly and win at least one set.",
         "city": "Ocean City, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/3rd+Street+Volleyball+Courts+Ocean+City+Maryland"
+        "mapsUrl": "https://www.google.com/maps/search/3rd+Street+Volleyball+Courts+Ocean+City+Maryland",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "OCEA_AC_03",
@@ -366,7 +372,10 @@
         "spark": 15,
         "bonus": "Climb out to the farthest dry rock on the jetty and watch the sun drop below the bay side.",
         "city": "Ocean City, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Ocean+City+Inlet+Jetty+Maryland"
+        "mapsUrl": "https://www.google.com/maps/search/Ocean+City+Inlet+Jetty+Maryland",
+        "company": [
+          "couple"
+        ]
       }
     ],
     "adventure": [
@@ -580,7 +589,10 @@
         "spark": 15,
         "bonus": "Challenge a stranger to a best-of-three match and actually follow through.",
         "city": "Ocean City, MD",
-        "mapsUrl": "https://www.google.com/maps/search/Marty%27s+Playland+Ocean+City+MD+Boardwalk"
+        "mapsUrl": "https://www.google.com/maps/search/Marty%27s+Playland+Ocean+City+MD+Boardwalk",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "OC-S-104",
@@ -595,7 +607,8 @@
         "spark": 15,
         "bonus": "Stay for two sets of live music without checking your phone once.",
         "city": "Ocean City, MD",
-        "mapsUrl": "https://maps.google.com/?q=Fish+Tales+Ocean+City+MD"
+        "mapsUrl": "https://maps.google.com/?q=Fish+Tales+Ocean+City+MD",
+        "adult": true
       },
       {
         "id": "OC-S-106",
@@ -610,7 +623,8 @@
         "spark": 25,
         "bonus": "Ask the oldest-looking regular at the bar when they first started coming here.",
         "city": "Ocean City, MD",
-        "mapsUrl": "https://maps.google.com/?q=Brass+Rail+Bar+Ocean+City+MD"
+        "mapsUrl": "https://maps.google.com/?q=Brass+Rail+Bar+Ocean+City+MD",
+        "adult": true
       },
       {
         "id": "OC-S-102",
@@ -625,7 +639,8 @@
         "spark": 25,
         "bonus": "Get in the water at least once before leaving — from the dock, not the pool.",
         "city": "Ocean City, MD",
-        "mapsUrl": "https://maps.google.com/?q=Seacrets+Ocean+City+MD"
+        "mapsUrl": "https://maps.google.com/?q=Seacrets+Ocean+City+MD",
+        "adult": true
       },
       {
         "id": "OC-S-107",
@@ -670,7 +685,8 @@
         "spark": 15,
         "bonus": "Pick a game you have no rooting interest in and commit to one team for the full game.",
         "city": "Ocean City, MD",
-        "mapsUrl": "https://maps.google.com/?q=Greene+Turtle+Ocean+City+MD"
+        "mapsUrl": "https://maps.google.com/?q=Greene+Turtle+Ocean+City+MD",
+        "adult": true
       },
       {
         "id": "OC-S-101",
@@ -685,7 +701,10 @@
         "spark": 40,
         "bonus": "Ring the bell. Don't be the one person who thinks they're above ringing the bell.",
         "city": "Ocean City, MD",
-        "mapsUrl": "https://maps.google.com/?q=Fager%27s+Island+Ocean+City+MD"
+        "mapsUrl": "https://maps.google.com/?q=Fager%27s+Island+Ocean+City+MD",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "OCEA_S_04",
@@ -715,7 +734,8 @@
         "spark": 25,
         "bonus": "Request a song from the band between sets and don't let them talk you out of it.",
         "city": "Ocean City, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Purple+Moose+Saloon+Ocean+City+Maryland"
+        "mapsUrl": "https://www.google.com/maps/search/Purple+Moose+Saloon+Ocean+City+Maryland",
+        "adult": true
       },
       {
         "id": "OCEA_S_02",
@@ -730,7 +750,8 @@
         "spark": 15,
         "bonus": "Buy a round for the two people nearest you before the second set starts.",
         "city": "Ocean City, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Shenanigan%27s+Irish+Pub+Ocean+City+Maryland"
+        "mapsUrl": "https://www.google.com/maps/search/Shenanigan%27s+Irish+Pub+Ocean+City+Maryland",
+        "adult": true
       }
     ],
     "foodie": [

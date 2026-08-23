@@ -34,7 +34,10 @@
         "spark": 25,
         "bonus": "Find the most obscure corner of the building and sit in silence there for five minutes before leaving.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Callanwolde+Fine+Arts+Center+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Callanwolde+Fine+Arts+Center+Atlanta+GA",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "ATL-C-10",
@@ -49,7 +52,10 @@
         "spark": 15,
         "bonus": "Sit on a bench, put your phone face-down, and stay completely still for ten full minutes.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Jimmy+Carter+Presidential+Library+Garden+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Jimmy+Carter+Presidential+Library+Garden+Atlanta+GA",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "ATL-C-9",
@@ -64,7 +70,10 @@
         "spark": 25,
         "bonus": "Stay on the summit until you can see the first city lights switch on across the skyline before heading down.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Kennesaw+Mountain+National+Battlefield+Park+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Kennesaw+Mountain+National+Battlefield+Park+GA",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "ATL-C-8",
@@ -109,7 +118,10 @@
         "spark": 15,
         "bonus": "Buy one book chosen entirely by the staff — no peeking at reviews first.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Charis+Books+and+More+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Charis+Books+and+More+Atlanta+GA",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "ATL-C-2",
@@ -139,7 +151,10 @@
         "spark": 20,
         "bonus": "Stay until the skyline lights actually turn on",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://maps.google.com/maps/search/Skyline+Park+Ponce+City+Market+Atlanta"
+        "mapsUrl": "https://maps.google.com/maps/search/Skyline+Park+Ponce+City+Market+Atlanta",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "ATL-C-02",
@@ -231,7 +246,8 @@
         "spark": 15,
         "bonus": "Order the most unusual thing on the board — no settling for the easy IPA.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Monday+Night+Garage+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Monday+Night+Garage+Atlanta+GA",
+        "adult": true
       },
       {
         "id": "ATL-S-8",
@@ -261,7 +277,8 @@
         "spark": 15,
         "bonus": "Challenge a stranger to best-of-three on any machine — loser buys the next round.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Joystick+Gamebar+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Joystick+Gamebar+Atlanta+GA",
+        "adult": true
       },
       {
         "id": "ATL-S-6",
@@ -276,7 +293,8 @@
         "spark": 15,
         "bonus": "Stay until 2am without checking your phone — no excuses, no peeking.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/MJQ+Concourse+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/MJQ+Concourse+Atlanta+GA",
+        "adult": true
       },
       {
         "id": "ATL-S-5",
@@ -291,7 +309,8 @@
         "spark": 25,
         "bonus": "Order blind — ask the bartender to make you something they're personally proud of, no parameters.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Ticonderoga+Club+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Ticonderoga+Club+Atlanta+GA",
+        "adult": true
       },
       {
         "id": "ATL-S-3",
@@ -306,7 +325,8 @@
         "spark": 25,
         "bonus": "Find the most irreverent piece of art on the wall, photograph it, and send it to someone religious in your contacts.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Sister+Louisa%27s+Church+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Sister+Louisa%27s+Church+Atlanta+GA",
+        "adult": true
       },
       {
         "id": "ATL-S-1",
@@ -336,7 +356,8 @@
         "spark": 40,
         "bonus": "Buy Blondie a beer, tip heavy, and stay for at least two of her sets — no phones.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Clermont+Lounge+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Clermont+Lounge+Atlanta+GA",
+        "adult": true
       },
       {
         "id": "ATL-S-04",
@@ -351,7 +372,8 @@
         "spark": 16,
         "bonus": "Sit in the first three rows instead of hiding in the back",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://maps.google.com/maps/search/The+Punchline+Comedy+Club+Atlanta"
+        "mapsUrl": "https://maps.google.com/maps/search/The+Punchline+Comedy+Club+Atlanta",
+        "adult": true
       },
       {
         "id": "ATL-S-01",
@@ -366,7 +388,10 @@
         "spark": 15,
         "bonus": "Let the least confident person on your team answer the final question",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://maps.google.com/maps/search/Woods+Chapel+BBQ+Atlanta"
+        "mapsUrl": "https://maps.google.com/maps/search/Woods+Chapel+BBQ+Atlanta",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "ATL-S-03",
@@ -396,7 +421,10 @@
         "spark": 12,
         "bonus": "Invite one person you haven't hung out with one-on-one before",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://maps.google.com/maps/search/Atlanta+Beltline+Eastside+Trail"
+        "mapsUrl": "https://maps.google.com/maps/search/Atlanta+Beltline+Eastside+Trail",
+        "company": [
+          "group"
+        ]
       }
     ],
     "active": [
@@ -533,7 +561,10 @@
         "spark": 13,
         "bonus": "Play a game with whoever's next in line instead of your own group",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://maps.google.com/maps/search/Piedmont+Park+Atlanta"
+        "mapsUrl": "https://maps.google.com/maps/search/Piedmont+Park+Atlanta",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "ATL-AC-02",
@@ -580,7 +611,8 @@
         "spark": 25,
         "bonus": "Tell the bartender your mood in one word and let them build you something off-menu.",
         "city": "Atlanta, GA",
-        "mapsUrl": "https://www.google.com/maps/search/Paper+Crane+Atlanta+GA"
+        "mapsUrl": "https://www.google.com/maps/search/Paper+Crane+Atlanta+GA",
+        "adult": true
       },
       {
         "id": "ATL-F-10",

@@ -94,7 +94,8 @@
         "spark": 25,
         "bonus": "Order a mezcal negroni and convince a stranger at the bar to point out one thing on the skyline you hadn't noticed.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Hotel+Downtown+Mexico+Centro+Historico"
+        "mapsUrl": "https://www.google.com/maps/search/Hotel+Downtown+Mexico+Centro+Historico",
+        "adult": true
       },
       {
         "id": "MEX-S-9",
@@ -109,7 +110,8 @@
         "spark": 15,
         "bonus": "Stay for three rounds without looking at your phone once — talk only to whoever is at the bar.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Cantina+El+Centenario+Coyoacan+Mexico+City"
+        "mapsUrl": "https://www.google.com/maps/search/Cantina+El+Centenario+Coyoacan+Mexico+City",
+        "adult": true
       },
       {
         "id": "MEX-S-8",
@@ -139,7 +141,8 @@
         "spark": 15,
         "bonus": "Ask the barman to point out the exact bullet hole, then convince your group on the spot whether it's real or a myth.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Bar+La+Opera+Centro+Historico+Mexico+City"
+        "mapsUrl": "https://www.google.com/maps/search/Bar+La+Opera+Centro+Historico+Mexico+City",
+        "adult": true
       },
       {
         "id": "MEX-S-5",
@@ -169,7 +172,8 @@
         "spark": 25,
         "bonus": "Strike up a conversation with the person next to you at the bar before the first set ends — make sure they're a stranger.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Zinco+Jazz+Club+Centro+Historico+Mexico+City"
+        "mapsUrl": "https://www.google.com/maps/search/Zinco+Jazz+Club+Centro+Historico+Mexico+City",
+        "adult": true
       },
       {
         "id": "MEX-S-3",
@@ -184,7 +188,8 @@
         "spark": 25,
         "bonus": "Ask the barman for a curado de apio — celery-cured pulque — and finish it before anyone at your table can try it.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/La+Hija+de+los+Apaches+pulqueria+Guerrero+Mexico+City"
+        "mapsUrl": "https://www.google.com/maps/search/La+Hija+de+los+Apaches+pulqueria+Guerrero+Mexico+City",
+        "adult": true
       },
       {
         "id": "MEX-S-2",
@@ -214,7 +219,11 @@
         "spark": 25,
         "bonus": "At your second bar, ask the mezcalero to pour you something they personally love that isn't on the menu.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/mezcal+bars+Roma+Norte+Mexico+City"
+        "mapsUrl": "https://www.google.com/maps/search/mezcal+bars+Roma+Norte+Mexico+City",
+        "company": [
+          "group"
+        ],
+        "adult": true
       }
     ],
     "foodie": [
@@ -473,7 +482,10 @@
         "spark": 15,
         "bonus": "Find the Olmec colossal head in the Gulf Coast Hall and sketch its face in your phone notes using only emoji.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Museo+Nacional+de+Antropologia+Chapultepec+Mexico+City"
+        "mapsUrl": "https://www.google.com/maps/search/Museo+Nacional+de+Antropologia+Chapultepec+Mexico+City",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "MEX-C-9",
@@ -488,7 +500,10 @@
         "spark": 15,
         "bonus": "Walk the full hill circuit, stop at every chapel en route, and light a candle at the oldest one you can find.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Cerro+del+Tepeyac+mirador+Mexico+City"
+        "mapsUrl": "https://www.google.com/maps/search/Cerro+del+Tepeyac+mirador+Mexico+City",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "MEX-C-8",
@@ -533,7 +548,10 @@
         "spark": 15,
         "bonus": "Time your visit to arrive exactly at sunset and stay up top until you can count five visible light clusters of distinct neighborhoods in the darkness.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Torre+Latinoamericana+Mexico+City"
+        "mapsUrl": "https://www.google.com/maps/search/Torre+Latinoamericana+Mexico+City",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "MEX-C-5",
@@ -640,7 +658,10 @@
         "spark": 15,
         "bonus": "Accept the first dance invitation you get.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Plaza+de+la+Ciudadela+Mexico+City"
+        "mapsUrl": "https://maps.google.com/maps/search/Plaza+de+la+Ciudadela+Mexico+City",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "MEX-AC-103",
@@ -807,7 +828,10 @@
         "spark": 25,
         "bonus": "Buy a song from a passing mariachi boat — full volume, no shame.",
         "city": "Mexico City, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Embarcadero+Nuevo+Nativitas+Xochimilco"
+        "mapsUrl": "https://maps.google.com/maps/search/Embarcadero+Nuevo+Nativitas+Xochimilco",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "MEX-A-12",

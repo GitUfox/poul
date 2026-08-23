@@ -201,7 +201,8 @@
         "spark": 15,
         "bonus": "Play a stranger for the table — winner buys the round.",
         "city": "Flagstaff, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Uptown+Pubhouse+Flagstaff"
+        "mapsUrl": "https://www.google.com/maps/search/Uptown+Pubhouse+Flagstaff",
+        "adult": true
       },
       {
         "id": "FLG-S-103",
@@ -261,7 +262,8 @@
         "spark": 25,
         "bonus": "Let the bartender pour you a wine by the glass you would never have picked.",
         "city": "Flagstaff, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/State%20Bar%20Flagstaff%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/State%20Bar%20Flagstaff%20AZ",
+        "adult": true
       },
       {
         "id": "FLG-S-07",
@@ -276,7 +278,8 @@
         "spark": 25,
         "bonus": "Have a drink and ask the bartender which room is supposed to be haunted.",
         "city": "Flagstaff, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Hotel%20Monte%20Vista%20Flagstaff%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Hotel%20Monte%20Vista%20Flagstaff%20AZ",
+        "adult": true
       },
       {
         "id": "FLG-S-06",
@@ -306,7 +309,8 @@
         "spark": 15,
         "bonus": "Try a tap from an Arizona brewery you have never heard of.",
         "city": "Flagstaff, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Hops%20on%20Birch%20Flagstaff%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Hops%20on%20Birch%20Flagstaff%20AZ",
+        "adult": true
       },
       {
         "id": "FLG-S-04",
@@ -321,7 +325,8 @@
         "spark": 15,
         "bonus": "Grab a seat by the windows and watch a freight train roll past mid-pint.",
         "city": "Flagstaff, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Lumberyard%20Brewing%20Flagstaff%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Lumberyard%20Brewing%20Flagstaff%20AZ",
+        "adult": true
       },
       {
         "id": "FLG-S-03",
@@ -336,7 +341,8 @@
         "spark": 25,
         "bonus": "Order the strangest beer on the board and commit to a full pour.",
         "city": "Flagstaff, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Dark%20Sky%20Brewing%20Flagstaff%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Dark%20Sky%20Brewing%20Flagstaff%20AZ",
+        "adult": true
       },
       {
         "id": "FLG-S-02",
@@ -351,7 +357,8 @@
         "spark": 15,
         "bonus": "Split a brewhouse pizza and a sampler flight with whoever you came with.",
         "city": "Flagstaff, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Beaver%20Street%20Brewery%20Flagstaff%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Beaver%20Street%20Brewery%20Flagstaff%20AZ",
+        "adult": true
       },
       {
         "id": "FLG-S-01",
@@ -366,7 +373,8 @@
         "spark": 25,
         "bonus": "Order the Tower Station IPA and find someone who just came off a peak hike.",
         "city": "Flagstaff, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Mother%20Road%20Brewing%20Flagstaff%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Mother%20Road%20Brewing%20Flagstaff%20AZ",
+        "adult": true
       }
     ],
     "foodie": [

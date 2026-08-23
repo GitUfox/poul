@@ -79,7 +79,10 @@
         "spark": 15,
         "bonus": "Identify and photograph three different active dovecote entrances — look for the whitewash splash patterns beneath the holes.",
         "city": "Çavuşin, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Meskendir+Valley+Cappadocia"
+        "mapsUrl": "https://www.google.com/maps/search/Meskendir+Valley+Cappadocia",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "TUR-AC-105",
@@ -139,7 +142,10 @@
         "spark": 25,
         "bonus": "Tell your horse something you haven’t said out loud to anyone else this week.",
         "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Dalton+Brothers+Ranch+horse+riding+G%C3%B6reme+Cappadocia"
+        "mapsUrl": "https://www.google.com/maps/search/Dalton+Brothers+Ranch+horse+riding+G%C3%B6reme+Cappadocia",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "TUR-AC-04",
@@ -201,7 +207,8 @@
         "spark": 15,
         "bonus": "Have the owner pick a bottle for someone back home — write down the story that comes with it.",
         "city": "Ürgüp, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Efendi+Şarapevi+Ürgüp"
+        "mapsUrl": "https://www.google.com/maps/search/Efendi+Şarapevi+Ürgüp",
+        "adult": true
       },
       {
         "id": "TUR-S-501",
@@ -231,7 +238,8 @@
         "spark": 15,
         "bonus": "Find a balloon pilot at the bar and ask what the wind will do tomorrow — and whether they'd fly in it.",
         "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Fat+Boys+Bar+Göreme"
+        "mapsUrl": "https://www.google.com/maps/search/Fat+Boys+Bar+Göreme",
+        "adult": true
       },
       {
         "id": "TUR-S-108",
@@ -246,7 +254,8 @@
         "spark": 25,
         "bonus": "Ask the cellar master to pour you something not on the tasting menu — the older the better.",
         "city": "Ürgüp, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Turasan+Winery+Ürgüp+Cappadocia"
+        "mapsUrl": "https://www.google.com/maps/search/Turasan+Winery+Ürgüp+Cappadocia",
+        "adult": true
       },
       {
         "id": "TUR-S-107",
@@ -276,7 +285,11 @@
         "spark": 25,
         "bonus": "Strike up a conversation with a stranger at the terrace and find out one thing about Cappadocia you didn't know.",
         "city": "Uçhisar, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Lil'a+Restaurant+Museum+Hotel+Uçhisar"
+        "mapsUrl": "https://www.google.com/maps/search/Lil'a+Restaurant+Museum+Hotel+Uçhisar",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "TUR-S-102",
@@ -321,7 +334,8 @@
         "spark": 25,
         "bonus": "Talk to someone from a country you've never visited. Get one real piece of information about how they live.",
         "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Sultan+Cave+Suites+G%C3%B6reme+Cappadocia"
+        "mapsUrl": "https://www.google.com/maps/search/Sultan+Cave+Suites+G%C3%B6reme+Cappadocia",
+        "adult": true
       },
       {
         "id": "TUR-S-02",
@@ -351,7 +365,8 @@
         "spark": 25,
         "bonus": "Order something from the local wine list you’ve never heard of. Ask the server to explain what you’re drinking.",
         "city": "ÜRGÜP, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Karma+Sarap+Evi+Urgup+Cappadocia+Turkey"
+        "mapsUrl": "https://www.google.com/maps/search/Karma+Sarap+Evi+Urgup+Cappadocia+Turkey",
+        "adult": true
       },
       {
         "id": "TUR-S-04",
@@ -458,7 +473,10 @@
         "spark": 15,
         "bonus": "Find the old flour mill room and turn your phone light off for sixty seconds — complete darkness.",
         "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Zelve+Open+Air+Museum+Cappadocia"
+        "mapsUrl": "https://www.google.com/maps/search/Zelve+Open+Air+Museum+Cappadocia",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "TUR-A-103",
@@ -503,7 +521,10 @@
         "spark": 15,
         "bonus": "Climb to the very top. Don't stop at the first good view.",
         "city": "Uçhisar, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/U%C3%A7hisar+Castle+Cappadocia+Turkey"
+        "mapsUrl": "https://www.google.com/maps/search/U%C3%A7hisar+Castle+Cappadocia+Turkey",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "TUR-A-01",
@@ -565,7 +586,10 @@
         "spark": 15,
         "bonus": "Stay until the last light is completely gone — most people leave ten minutes too early.",
         "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Sunset+Point+Aşıklar+Tepesi+Göreme"
+        "mapsUrl": "https://www.google.com/maps/search/Sunset+Point+Aşıklar+Tepesi+Göreme",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "TUR-C-108",
@@ -625,7 +649,10 @@
         "spark": 15,
         "bonus": "Arrive 30 minutes early and claim the furthest rock ledge — sit in complete silence until the last light fades.",
         "city": "Çavuşin, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Kızılçukur+Red+Valley+viewpoint+Cappadocia"
+        "mapsUrl": "https://www.google.com/maps/search/Kızılçukur+Red+Valley+viewpoint+Cappadocia",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "TUR-C-104",
@@ -655,7 +682,10 @@
         "spark": 15,
         "bonus": "Walk the entire floor trail without looking at your phone once — full sensory surrender.",
         "city": "Uçhisar, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Pigeon+Valley+floor+trail+Uçhisar+Cappadocia"
+        "mapsUrl": "https://www.google.com/maps/search/Pigeon+Valley+floor+trail+Uçhisar+Cappadocia",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "TUR-C-102",
@@ -700,7 +730,10 @@
         "spark": 15,
         "bonus": "Name three formations before looking up what locals call them. Your names will be better.",
         "city": "Avanos, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Devrent+Valley+Cappadocia+Turkey"
+        "mapsUrl": "https://www.google.com/maps/search/Devrent+Valley+Cappadocia+Turkey",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "TUR-C-02",
@@ -807,7 +840,8 @@
         "spark": 25,
         "bonus": "Ask the sommelier to pour you something made from Emir grape — then argue about whether it beats Burgundy.",
         "city": "Ürgüp, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Mahzen+Wine+House+Ürgüp"
+        "mapsUrl": "https://www.google.com/maps/search/Mahzen+Wine+House+Ürgüp",
+        "adult": true
       },
       {
         "id": "TUR-F-105",
@@ -822,7 +856,10 @@
         "spark": 15,
         "bonus": "Challenge the kitchen: ask for extra chili butter and finish the whole bowl without water.",
         "city": "Ürgüp, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Ziggy+Cafe+Ürgüp"
+        "mapsUrl": "https://www.google.com/maps/search/Ziggy+Cafe+Ürgüp",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "TUR-F-104",
@@ -897,7 +934,8 @@
         "spark": 25,
         "bonus": "Bring a bottle home. Open it at the exact right moment.",
         "city": "ÜRGÜP, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Kocaba%C4%9F+Winery+Urgup+Cappadocia+Turkey"
+        "mapsUrl": "https://www.google.com/maps/search/Kocaba%C4%9F+Winery+Urgup+Cappadocia+Turkey",
+        "adult": true
       },
       {
         "id": "TUR-F-01",

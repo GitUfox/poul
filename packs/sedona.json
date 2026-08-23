@@ -109,7 +109,10 @@
         "spark": 15,
         "bonus": "Claim a rock ledge thirty minutes before sunset and stay until the color fades.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Airport%20Mesa%20Overlook%20Sedona%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Airport%20Mesa%20Overlook%20Sedona%20AZ",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "SED-C-05",
@@ -124,7 +127,10 @@
         "spark": 15,
         "bonus": "Find the classic Cathedral Rock reflection in the creek and just sit with it.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Crescent%20Moon%20Picnic%20Site%20Red%20Rock%20Crossing%20Sedona%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Crescent%20Moon%20Picnic%20Site%20Red%20Rock%20Crossing%20Sedona%20AZ",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "SED-C-04",
@@ -201,7 +207,11 @@
         "spark": 15,
         "bonus": "Time your toast to a landing — glasses up as the wheels touch.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Mesa+Grill+Sedona+Airport"
+        "mapsUrl": "https://www.google.com/maps/search/Mesa+Grill+Sedona+Airport",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "SED-S-104",
@@ -261,7 +271,8 @@
         "spark": 25,
         "bonus": "Do an Arizona-only flight and see if local wine surprises you.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Art%20of%20Wine%20Sedona%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Art%20of%20Wine%20Sedona%20AZ",
+        "adult": true
       },
       {
         "id": "SED-S-07",
@@ -276,7 +287,8 @@
         "spark": 15,
         "bonus": "Order a Guinness and settle in for whatever conversation finds you.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Mooney's%20Irish%20Pub%20Sedona%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Mooney's%20Irish%20Pub%20Sedona%20AZ",
+        "adult": true
       },
       {
         "id": "SED-S-06",
@@ -306,7 +318,8 @@
         "spark": 15,
         "bonus": "Get a patio seat timed to sunset and watch the rocks turn red.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Sedona%20Beer%20Company%20Sedona%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Sedona%20Beer%20Company%20Sedona%20AZ",
+        "adult": true
       },
       {
         "id": "SED-S-04",
@@ -336,7 +349,8 @@
         "spark": 15,
         "bonus": "Catch whoever is playing live and stay for a full set.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Vino%20di%20Sedona%20Sedona%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Vino%20di%20Sedona%20Sedona%20AZ",
+        "adult": true
       },
       {
         "id": "SED-S-02",
@@ -351,7 +365,8 @@
         "spark": 25,
         "bonus": "Taste the Rhône reds and find the one you would ship a case of home.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Page%20Springs%20Cellars%20Cornville%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Page%20Springs%20Cellars%20Cornville%20AZ",
+        "adult": true
       },
       {
         "id": "SED-S-01",
@@ -366,7 +381,8 @@
         "spark": 25,
         "bonus": "Order a sampler flight and rank the beers before the food arrives.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Oak%20Creek%20Brewery%20Grill%20Sedona%20AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Oak%20Creek%20Brewery%20Grill%20Sedona%20AZ",
+        "adult": true
       }
     ],
     "adventure": [
@@ -762,7 +778,10 @@
         "spark": 25,
         "bonus": "Order the nightly off-menu pasta special and ask your server what wine they'd personally pair with it — then order that bottle.",
         "city": "Sedona, AZ",
-        "mapsUrl": "https://www.google.com/maps/search/Dahl+and+DiLuca+Ristorante+Sedona+AZ"
+        "mapsUrl": "https://www.google.com/maps/search/Dahl+and+DiLuca+Ristorante+Sedona+AZ",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "SED-F-10",

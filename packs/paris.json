@@ -19,7 +19,8 @@
         "spark": 25,
         "bonus": "Dance at least once with someone you didn't arrive with.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/Chez+Gégène+Joinville-le-Pont"
+        "mapsUrl": "https://www.google.com/maps/search/Chez+Gégène+Joinville-le-Pont",
+        "adult": true
       },
       {
         "id": "PAR-S-01",
@@ -79,7 +80,11 @@
         "spark": 40,
         "bonus": "Visit at least five bars. Order the house thing at each one.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/bar+crawl+Pigalle+SoPi+Paris"
+        "mapsUrl": "https://www.google.com/maps/search/bar+crawl+Pigalle+SoPi+Paris",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "PAR-S-02",
@@ -109,7 +114,10 @@
         "spark": 15,
         "bonus": "Buy one book you didn't come in for.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/Shakespeare+and+Company+Paris"
+        "mapsUrl": "https://www.google.com/maps/search/Shakespeare+and+Company+Paris",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "PAR-S-05",
@@ -124,7 +132,11 @@
         "spark": 25,
         "bonus": "Stay for the second cocktail. The light is better by then.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Terrass%20Hotel%20Paris"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Terrass%20Hotel%20Paris",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "PARI_S_04",
@@ -139,7 +151,8 @@
         "spark": 15,
         "bonus": "Challenge a strangers' pétanque team to a game — loser buys a round.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rosa+Bonheur+Buttes-Chaumont+Paris"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rosa+Bonheur+Buttes-Chaumont+Paris",
+        "adult": true
       },
       {
         "id": "PARI_S_03",
@@ -154,7 +167,8 @@
         "spark": 25,
         "bonus": "Order whatever the bartender is personally drinking tonight — then actually finish it.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Syndicat+Paris"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Syndicat+Paris",
+        "adult": true
       },
       {
         "id": "PARI_S_02",
@@ -184,7 +198,8 @@
         "spark": 15,
         "bonus": "Strike up a conversation with the group next to you — in French — and get at least one local restaurant recommendation out of it.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Canal+Saint-Martin+Paris"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Canal+Saint-Martin+Paris",
+        "adult": true
       }
     ],
     "adventure": [
@@ -291,7 +306,8 @@
         "spark": 25,
         "bonus": "Tell no one where it is. Earn it.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Perchoir%20M%C3%A9nilmontant%20Paris"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Perchoir%20M%C3%A9nilmontant%20Paris",
+        "adult": true
       },
       {
         "id": "PAR-A-05",
@@ -625,7 +641,10 @@
         "spark": 25,
         "bonus": "Stay until the Eiffel Tower sparkle display goes off.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/Seine+quay+picnic+Paris+sunset"
+        "mapsUrl": "https://www.google.com/maps/search/Seine+quay+picnic+Paris+sunset",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "PAR-CH-03",
@@ -685,7 +704,10 @@
         "spark": 15,
         "bonus": "Don't pull out your phone for the first 10 minutes after sitting down — just watch the city change color.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sacré-Cœur+Montmartre+Paris"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sacré-Cœur+Montmartre+Paris",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "PARI_C_03",
@@ -777,7 +799,8 @@
         "spark": 25,
         "bonus": "Ask the sommelier to pick everything. No input from you.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Cave%20de%20Belleville%20Paris"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Cave%20de%20Belleville%20Paris",
+        "adult": true
       },
       {
         "id": "PAR-F-09",
@@ -852,7 +875,10 @@
         "spark": 15,
         "bonus": "Don't bring plates. Eat off the paper.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/Canal+Saint-Martin+picnic+Paris"
+        "mapsUrl": "https://www.google.com/maps/search/Canal+Saint-Martin+picnic+Paris",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "PAR-F-07",
@@ -897,7 +923,8 @@
         "spark": 25,
         "bonus": "Pick a bottle blind from the back shelf — price under €30 — and commit to finishing it without checking the label first.",
         "city": "Paris, France",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Verre+Volé+Paris"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Verre+Volé+Paris",
+        "adult": true
       },
       {
         "id": "PARI_F_03",

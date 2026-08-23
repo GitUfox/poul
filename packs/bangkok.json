@@ -201,7 +201,8 @@
         "spark": 25,
         "bonus": "Order the ya dong tasting set and rank all three out loud with whoever's next to you.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Tep+Bar+Soi+Nana+Chinatown+Bangkok"
+        "mapsUrl": "https://www.google.com/maps/search/Tep+Bar+Soi+Nana+Chinatown+Bangkok",
+        "adult": true
       },
       {
         "id": "BKK-S-102",
@@ -216,7 +217,8 @@
         "spark": 25,
         "bonus": "Request a song from the band and stay until they play it — don't leave a tip until they do.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Bamboo+Bar+Mandarin+Oriental+Bangkok"
+        "mapsUrl": "https://www.google.com/maps/search/Bamboo+Bar+Mandarin+Oriental+Bangkok",
+        "adult": true
       },
       {
         "id": "BKK-S-101",
@@ -231,7 +233,11 @@
         "spark": 15,
         "bonus": "Talk to a stranger at every bar and get their honest one-sentence review of Bangkok before moving on.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Sukhumvit+Soi+11+Bangkok"
+        "mapsUrl": "https://www.google.com/maps/search/Sukhumvit+Soi+11+Bangkok",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "BKK-S-01",
@@ -246,7 +252,11 @@
         "spark": 15,
         "bonus": "Stay for the first lights of the city coming on. That's the real view.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/rooftop+bar+sunset+Bangkok+skyline"
+        "mapsUrl": "https://www.google.com/maps/search/rooftop+bar+sunset+Bangkok+skyline",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "BKK-S-03",
@@ -276,7 +286,8 @@
         "spark": 25,
         "bonus": "Let the bartender make you something off-menu. Tell them your last favorite drink.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/speakeasy+bar+Sukhumvit+Bangkok"
+        "mapsUrl": "https://www.google.com/maps/search/speakeasy+bar+Sukhumvit+Bangkok",
+        "adult": true
       },
       {
         "id": "BKK-S-08",
@@ -321,7 +332,8 @@
         "spark": 25,
         "bonus": "Sit at the bar, order whatever the bartender is personally proud of, and stay for two sets of live music.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Maggie+Choo's+Bangkok+Silom"
+        "mapsUrl": "https://www.google.com/maps/search/Maggie+Choo's+Bangkok+Silom",
+        "adult": true
       },
       {
         "id": "BANG_S_02",
@@ -351,7 +363,8 @@
         "spark": 15,
         "bonus": "Buy a round for the table nearest you and ask them to recommend somewhere to go next.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Teen+Tae+Bar+Ari+Bangkok"
+        "mapsUrl": "https://www.google.com/maps/search/Teen+Tae+Bar+Ari+Bangkok",
+        "adult": true
       },
       {
         "id": "BKK-S-02",
@@ -655,7 +668,8 @@
         "spark": 25,
         "bonus": "Arrive exactly at sunset and don't check your phone until the temple lights come on.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/Sala+Rattanakosin+Bangkok+rooftop"
+        "mapsUrl": "https://www.google.com/maps/search/Sala+Rattanakosin+Bangkok+rooftop",
+        "adult": true
       },
       {
         "id": "BANG_C_03",
@@ -730,7 +744,11 @@
         "spark": 25,
         "bonus": "Order a drink with kaffir lime or lemongrass. Pick the cocktail with the most Thai ingredients on the menu.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://maps.google.com/maps/search/Octave+Rooftop+Lounge+Marriott+Sukhumvit+Bangkok"
+        "mapsUrl": "https://maps.google.com/maps/search/Octave+Rooftop+Lounge+Marriott+Sukhumvit+Bangkok",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "BKK-C-04",
@@ -867,7 +885,11 @@
         "spark": 25,
         "bonus": "Order the tasting menu of oysters. Rank them east to west by ocean.",
         "city": "Bangkok, Thailand",
-        "mapsUrl": "https://www.google.com/maps/search/rooftop+bar+cocktails+oysters+Silom+Bangkok"
+        "mapsUrl": "https://www.google.com/maps/search/rooftop+bar+cocktails+oysters+Silom+Bangkok",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "BANG_F_04",

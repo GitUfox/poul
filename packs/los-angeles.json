@@ -34,7 +34,10 @@
         "spark": 25,
         "bonus": "No phone on the ridgeline stretch — the skyline at dusk from a saddle deserves your full attention.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Sunset+Ranch+Hollywood"
+        "mapsUrl": "https://www.google.com/maps/search/Sunset+Ranch+Hollywood",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "LAX-A-202",
@@ -64,7 +67,10 @@
         "spark": 25,
         "bonus": "Check the tide chart yourself before you go — getting it right is part of the assignment.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/El+Matador+State+Beach+Malibu"
+        "mapsUrl": "https://www.google.com/maps/search/El+Matador+State+Beach+Malibu",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "LAX-A-11",
@@ -201,7 +207,10 @@
         "spark": 25,
         "bonus": "Stay on the court for at least two games — win or run it back.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Venice+Beach+Basketball+Courts"
+        "mapsUrl": "https://www.google.com/maps/search/Venice+Beach+Basketball+Courts",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "LAX-AC-12",
@@ -443,7 +452,10 @@
         "spark": 15,
         "bonus": "Stay until the first city lights flicker on and identify three landmarks by name before you leave.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Angels+Point+Elysian+Park+Los+Angeles"
+        "mapsUrl": "https://www.google.com/maps/search/Angels+Point+Elysian+Park+Los+Angeles",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "LAX-C-6",
@@ -488,7 +500,10 @@
         "spark": 15,
         "bonus": "Buy a book chosen entirely by its cover — read the first chapter before you leave the building.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/The+Last+Bookstore+Los+Angeles"
+        "mapsUrl": "https://www.google.com/maps/search/The+Last+Bookstore+Los+Angeles",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "LAX-C-3",
@@ -503,7 +518,10 @@
         "spark": 25,
         "bonus": "Find the Desert Garden and spend fifteen minutes sitting still enough that a bird lands near you.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Huntington+Library+Art+Museum+Botanical+Gardens+San+Marino+CA"
+        "mapsUrl": "https://www.google.com/maps/search/Huntington+Library+Art+Museum+Botanical+Gardens+San+Marino+CA",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "LAX-C-2",
@@ -518,7 +536,10 @@
         "spark": 25,
         "bonus": "Stay until the last sliver of sun disappears and don't look at your phone once during the whole show.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Point+Dume+State+Preserve+Malibu+Los+Angeles"
+        "mapsUrl": "https://www.google.com/maps/search/Point+Dume+State+Preserve+Malibu+Los+Angeles",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "LAX-C-1",
@@ -548,7 +569,10 @@
         "spark": 25,
         "bonus": "Drift under every bridge on the canal loop without using your paddle once.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Venice+Canals+Los+Angeles"
+        "mapsUrl": "https://www.google.com/maps/search/Venice+Canals+Los+Angeles",
+        "company": [
+          "couple"
+        ]
       }
     ],
     "social": [
@@ -580,7 +604,11 @@
         "spark": 15,
         "bonus": "Sing a song solo in front of the full bar — no duet safety net.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Brass+Monkey+karaoke+Koreatown+Los+Angeles"
+        "mapsUrl": "https://www.google.com/maps/search/Brass+Monkey+karaoke+Koreatown+Los+Angeles",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "LAX-S-11",
@@ -610,7 +638,8 @@
         "spark": 15,
         "bonus": "Stay until you can see both the city lights fully lit and the last traces of sunset — don't leave early.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Perch+rooftop+bar+Downtown+Los+Angeles"
+        "mapsUrl": "https://www.google.com/maps/search/Perch+rooftop+bar+Downtown+Los+Angeles",
+        "adult": true
       },
       {
         "id": "LAX-S-7",
@@ -625,7 +654,8 @@
         "spark": 15,
         "bonus": "Identify three celebrity photos on the wall and name the film that made each of them famous.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Formosa+Cafe+West+Hollywood+Los+Angeles"
+        "mapsUrl": "https://www.google.com/maps/search/Formosa+Cafe+West+Hollywood+Los+Angeles",
+        "adult": true
       },
       {
         "id": "LAX-S-6",
@@ -685,7 +715,8 @@
         "spark": 15,
         "bonus": "Recruit a stranger to join your team and let them answer one question without consulting you.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/The+Dresden+Restaurant+Los+Feliz+Los+Angeles"
+        "mapsUrl": "https://www.google.com/maps/search/The+Dresden+Restaurant+Los+Feliz+Los+Angeles",
+        "adult": true
       },
       {
         "id": "LAX-S-2",
@@ -700,7 +731,8 @@
         "spark": 25,
         "bonus": "Let the bartender pick your drink both rounds — no vetoes, no substitutions.",
         "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Tiki+Ti+Sunset+Boulevard+Los+Angeles"
+        "mapsUrl": "https://www.google.com/maps/search/Tiki+Ti+Sunset+Boulevard+Los+Angeles",
+        "adult": true
       },
       {
         "id": "LAX-S-1",

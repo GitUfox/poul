@@ -49,7 +49,8 @@
         "spark": 25,
         "bonus": "Request a standard from the bandleader between sets — make it something obscure and see if they know it.",
         "city": "Houston, TX",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cezanne+Jazz+Bar+Houston+Montrose+TX"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cezanne+Jazz+Bar+Houston+Montrose+TX",
+        "adult": true
       },
       {
         "id": "IAH-C-9",
@@ -94,7 +95,10 @@
         "spark": 15,
         "bonus": "Order a glass of wine instead of coffee after 9pm, claim an outdoor table, and stay for two full hours without opening your laptop.",
         "city": "Houston, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Agora+Westheimer+Houston+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Agora+Westheimer+Houston+TX",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "IAH-C-6",
@@ -109,7 +113,10 @@
         "spark": 15,
         "bonus": "Find the largest single gem specimen on display, take a photo with your hand next to it for scale, and send it to someone without context.",
         "city": "Houston, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Houston+Museum+of+Natural+Science"
+        "mapsUrl": "https://www.google.com/maps/search/Houston+Museum+of+Natural+Science",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "IAH-C-4",
@@ -154,7 +161,10 @@
         "spark": 15,
         "bonus": "Buy a book solely based on the first sentence — read nothing else before committing.",
         "city": "Houston, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Brazos+Bookstore+Houston+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Brazos+Bookstore+Houston+TX",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "IAH-C-1",
@@ -246,7 +256,8 @@
         "spark": 25,
         "bonus": "Ask the bartender to make you something off-menu based on three ingredients you name — drink whatever they build.",
         "city": "Houston, TX",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anvil+Bar+and+Refuge+Houston+Westheimer+TX"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anvil+Bar+and+Refuge+Houston+Westheimer+TX",
+        "adult": true
       },
       {
         "id": "IAH-S-11",
@@ -261,7 +272,8 @@
         "spark": 25,
         "bonus": "Sit in the front three rows and make genuine eye contact with the opener — see if it lands you a bit.",
         "city": "Houston, TX",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Improv+Houston+Greenway+Plaza+TX"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Improv+Houston+Greenway+Plaza+TX",
+        "adult": true
       },
       {
         "id": "IAH-S-10",
@@ -276,7 +288,11 @@
         "spark": 15,
         "bonus": "Recruit a stranger at the bar to round out your team and let them answer the final question solo.",
         "city": "Houston, TX",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Axelrad+Beer+Garden+Houston+TX"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Axelrad+Beer+Garden+Houston+TX",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "IAH-S-9",
@@ -336,7 +352,8 @@
         "spark": 15,
         "bonus": "Strike up a conversation with a stranger about Houston — keep it going for at least five minutes.",
         "city": "Houston, TX",
-        "mapsUrl": "https://www.google.com/maps/search/8th+Wonder+Brewery+Houston+TX"
+        "mapsUrl": "https://www.google.com/maps/search/8th+Wonder+Brewery+Houston+TX",
+        "adult": true
       },
       {
         "id": "HOU-S-02",
@@ -351,7 +368,11 @@
         "spark": 12,
         "bonus": "Team up with a table of strangers instead of your usual crew",
         "city": "Houston, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Axelrad+Beer+Garden+Houston+TX"
+        "mapsUrl": "https://maps.google.com/maps/search/Axelrad+Beer+Garden+Houston+TX",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "HOU-S-04",
@@ -366,7 +387,8 @@
         "spark": 15,
         "bonus": "Challenge a stranger to a round of Street Fighter",
         "city": "Houston, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Cidercade+Houston+TX"
+        "mapsUrl": "https://maps.google.com/maps/search/Cidercade+Houston+TX",
+        "adult": true
       },
       {
         "id": "HOU-S-01",
@@ -398,7 +420,10 @@
         "spark": 25,
         "bonus": "Paddle to the far cypress grove and sit in silence for five full minutes before heading back.",
         "city": "Houston, TX",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Houston+Wilderness+Park+TX"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Houston+Wilderness+Park+TX",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "IAH-AC-7",
@@ -912,7 +937,10 @@
         "spark": 24,
         "bonus": "Snap a photo of the skyline reflected in the water",
         "city": "Houston, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Buffalo+Bayou+Park+Houston+TX"
+        "mapsUrl": "https://maps.google.com/maps/search/Buffalo+Bayou+Park+Houston+TX",
+        "company": [
+          "couple"
+        ]
       }
     ]
   }

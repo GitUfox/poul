@@ -34,7 +34,8 @@
         "spark": 25,
         "bonus": "Name all the botanicals in the gin from smell alone — ask the guide to verify your list.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Bluecoat+American+Craft+Gin+Philadelphia+Distilling"
+        "mapsUrl": "https://www.google.com/maps/search/Bluecoat+American+Craft+Gin+Philadelphia+Distilling",
+        "adult": true
       },
       {
         "id": "PHL-S-9",
@@ -49,7 +50,8 @@
         "spark": 15,
         "bonus": "Stay until the back room opens up and be one of the first five people on the dance floor.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Silk+City+Diner+Bar+Philadelphia"
+        "mapsUrl": "https://www.google.com/maps/search/Silk+City+Diner+Bar+Philadelphia",
+        "adult": true
       },
       {
         "id": "PHL-S-8",
@@ -64,7 +66,8 @@
         "spark": 15,
         "bonus": "Find and read every piece of old memorabilia on the walls — quiz the bartender on one item you can't figure out.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/McGillin's+Olde+Ale+House+Philadelphia"
+        "mapsUrl": "https://www.google.com/maps/search/McGillin's+Olde+Ale+House+Philadelphia",
+        "adult": true
       },
       {
         "id": "PHL-S-7",
@@ -109,7 +112,8 @@
         "spark": 25,
         "bonus": "Talk to the band after the set — ask where they're from and where they're playing next.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Kung+Fu+Necktie+Fishtown+Philadelphia"
+        "mapsUrl": "https://www.google.com/maps/search/Kung+Fu+Necktie+Fishtown+Philadelphia",
+        "adult": true
       },
       {
         "id": "PHL-S-3",
@@ -124,7 +128,11 @@
         "spark": 15,
         "bonus": "Join a team of strangers rather than forming your own — introduce yourself as a ringer.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Fergie%27s+Pub+Philadelphia"
+        "mapsUrl": "https://www.google.com/maps/search/Fergie%27s+Pub+Philadelphia",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "PHL-A-10",
@@ -139,7 +147,8 @@
         "spark": 15,
         "bonus": "Wait until exactly blue hour, order one drink, and take a panorama photo — then put your phone away for the rest of the visit.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Assembly+Rooftop+Lounge+Logan+Hotel+Philadelphia+PA"
+        "mapsUrl": "https://www.google.com/maps/search/Assembly+Rooftop+Lounge+Logan+Hotel+Philadelphia+PA",
+        "adult": true
       },
       {
         "id": "PHL-A-9",
@@ -154,7 +163,8 @@
         "spark": 15,
         "bonus": "Order the Philly Special and strike up a conversation with whoever is sitting at the bar alone — this crowd has stories.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Bob+and+Barbara's+Lounge+Philadelphia+PA"
+        "mapsUrl": "https://www.google.com/maps/search/Bob+and+Barbara's+Lounge+Philadelphia+PA",
+        "adult": true
       },
       {
         "id": "PHL-S-2",
@@ -169,7 +179,8 @@
         "spark": 25,
         "bonus": "Stay for the second set, order a drink from the bar without looking at the menu, and introduce yourself to a musician on their break.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Ortlieb's+Jazz+Club+Philadelphia+PA"
+        "mapsUrl": "https://www.google.com/maps/search/Ortlieb's+Jazz+Club+Philadelphia+PA",
+        "adult": true
       },
       {
         "id": "PHL-S-1",
@@ -199,7 +210,8 @@
         "spark": 22,
         "bonus": "Strike up a conversation with someone at the bar",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://maps.google.com/maps/search/Bok+Bar+Philadelphia"
+        "mapsUrl": "https://maps.google.com/maps/search/Bok+Bar+Philadelphia",
+        "adult": true
       },
       {
         "id": "PHL-S-04",
@@ -214,7 +226,8 @@
         "spark": 28,
         "bonus": "Follow every house rule without asking why",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://maps.google.com/maps/search/Hop+Sing+Laundromat+Philadelphia"
+        "mapsUrl": "https://maps.google.com/maps/search/Hop+Sing+Laundromat+Philadelphia",
+        "adult": true
       },
       {
         "id": "PHL-S-02",
@@ -244,7 +257,11 @@
         "spark": 15,
         "bonus": "Team up with the table next to you",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://maps.google.com/maps/search/Evil+Genius+Beer+Company+Philadelphia"
+        "mapsUrl": "https://maps.google.com/maps/search/Evil+Genius+Beer+Company+Philadelphia",
+        "company": [
+          "group"
+        ],
+        "adult": true
       }
     ],
     "chill": [
@@ -261,7 +278,10 @@
         "spark": 25,
         "bonus": "Ask the curator to show you one item from the vault that isn't on public display — most days they say yes.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Rosenbach+Museum+Library+Philadelphia"
+        "mapsUrl": "https://www.google.com/maps/search/Rosenbach+Museum+Library+Philadelphia",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "PHL-C-11",
@@ -291,7 +311,10 @@
         "spark": 25,
         "bonus": "Ask a librarian to recommend one book about Philadelphia history and read the first chapter before you leave.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Free+Library+of+Philadelphia+Parkway+Central"
+        "mapsUrl": "https://www.google.com/maps/search/Free+Library+of+Philadelphia+Parkway+Central",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "PHL-C-8",
@@ -336,7 +359,10 @@
         "spark": 25,
         "bonus": "Stay until the first star appears — no phone, no music, just the river.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Penn+Treaty+Park+Fishtown+Philadelphia"
+        "mapsUrl": "https://www.google.com/maps/search/Penn+Treaty+Park+Fishtown+Philadelphia",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "PHL-C-5",
@@ -441,7 +467,10 @@
         "spark": 12,
         "bonus": "Nap in one of the floating hammocks",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://maps.google.com/maps/search/Spruce+Street+Harbor+Park+Philadelphia"
+        "mapsUrl": "https://maps.google.com/maps/search/Spruce+Street+Harbor+Park+Philadelphia",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "PHL-C-03",
@@ -533,7 +562,8 @@
         "spark": 15,
         "bonus": "Ask the bartender to pick your beer completely blind — describe only your current mood.",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://www.google.com/maps/search/Monk%27s+Cafe+Philadelphia"
+        "mapsUrl": "https://www.google.com/maps/search/Monk%27s+Cafe+Philadelphia",
+        "adult": true
       },
       {
         "id": "PHL-F-8",
@@ -897,7 +927,10 @@
         "spark": 25,
         "bonus": "Escape with zero hints used",
         "city": "Philadelphia, PA",
-        "mapsUrl": "https://maps.google.com/maps/search/Escape+Philadelphia+Philadelphia"
+        "mapsUrl": "https://maps.google.com/maps/search/Escape+Philadelphia+Philadelphia",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "PHL-A-04",

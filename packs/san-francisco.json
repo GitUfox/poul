@@ -565,7 +565,8 @@
         "spark": 25,
         "bonus": "Sit close enough to be crowd-worked and take it with grace.",
         "city": "San Francisco, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Punch+Line+Comedy+Club+San+Francisco"
+        "mapsUrl": "https://www.google.com/maps/search/Punch+Line+Comedy+Club+San+Francisco",
+        "adult": true
       },
       {
         "id": "SFO-S-201",
@@ -625,7 +626,8 @@
         "spark": 15,
         "bonus": "Challenge a regular to a game of pool for the next round.",
         "city": "San Francisco, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Shotwell's+Bar+Mission+San+Francisco"
+        "mapsUrl": "https://www.google.com/maps/search/Shotwell's+Bar+Mission+San+Francisco",
+        "adult": true
       },
       {
         "id": "SFO-S-9",
@@ -640,7 +642,10 @@
         "spark": 15,
         "bonus": "Buy the author's book and get it signed — ask them one question that isn't about the book.",
         "city": "San Francisco, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Green+Apple+Books+Inner+Richmond+San+Francisco"
+        "mapsUrl": "https://www.google.com/maps/search/Green+Apple+Books+Inner+Richmond+San+Francisco",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "SFO-S-7",
@@ -655,7 +660,8 @@
         "spark": 25,
         "bonus": "Order blind — tell the bartender your mood in one word and accept whatever arrives.",
         "city": "San Francisco, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Trick+Dog+Bar+Mission+San+Francisco"
+        "mapsUrl": "https://www.google.com/maps/search/Trick+Dog+Bar+Mission+San+Francisco",
+        "adult": true
       },
       {
         "id": "SFO-S-6",
@@ -670,7 +676,8 @@
         "spark": 15,
         "bonus": "Strike up a conversation with the person next to you and find out what they're writing, building, or running from.",
         "city": "San Francisco, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Vesuvio+Cafe+North+Beach+San+Francisco"
+        "mapsUrl": "https://www.google.com/maps/search/Vesuvio+Cafe+North+Beach+San+Francisco",
+        "adult": true
       },
       {
         "id": "SFO-S-4",
@@ -685,7 +692,11 @@
         "spark": 25,
         "bonus": "Sign up for a song before you've had your first drink — commit to it stone cold sober.",
         "city": "San Francisco, CA",
-        "mapsUrl": "https://www.google.com/maps/search/The+Mint+Karaoke+San+Francisco"
+        "mapsUrl": "https://www.google.com/maps/search/The+Mint+Karaoke+San+Francisco",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "SFO-S-3",
@@ -700,7 +711,8 @@
         "spark": 15,
         "bonus": "Ask the bartender for whatever they're personally most excited about right now — no arguing with the answer.",
         "city": "San Francisco, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Toronado+Bar+Haight+San+Francisco"
+        "mapsUrl": "https://www.google.com/maps/search/Toronado+Bar+Haight+San+Francisco",
+        "adult": true
       },
       {
         "id": "SFO-S-2",
@@ -730,7 +742,11 @@
         "spark": 15,
         "bonus": "Buy a round for the strangers at the bar at your second stop — no explanation required.",
         "city": "San Francisco, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Larkin+Street+Tenderloin+bars+San+Francisco"
+        "mapsUrl": "https://www.google.com/maps/search/Larkin+Street+Tenderloin+bars+San+Francisco",
+        "company": [
+          "group"
+        ],
+        "adult": true
       }
     ],
     "chill": [
@@ -837,7 +853,10 @@
         "spark": 15,
         "bonus": "Buy one book based solely on the first sentence — no reviews, no covers, no author recognition.",
         "city": "San Francisco, CA",
-        "mapsUrl": "https://www.google.com/maps/search/City+Lights+Bookstore+San+Francisco"
+        "mapsUrl": "https://www.google.com/maps/search/City+Lights+Bookstore+San+Francisco",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "SFO-C-5",

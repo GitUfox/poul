@@ -169,7 +169,10 @@
         "spark": 15,
         "bonus": "Pick a book completely at random from the stacks — spine out, no reading the cover first — and read 20 pages.",
         "city": "Toronto, ON",
-        "mapsUrl": "https://www.google.com/maps/search/Toronto+Reference+Library"
+        "mapsUrl": "https://www.google.com/maps/search/Toronto+Reference+Library",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "TOR-C-01",
@@ -246,7 +249,8 @@
         "spark": 25,
         "bonus": "Order a glass blind — tell them your budget and let the staff choose without giving them a single preference.",
         "city": "Toronto, ON",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grape+Witches+Toronto"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grape+Witches+Toronto",
+        "adult": true
       },
       {
         "id": "YYZ-S-10",
@@ -261,7 +265,11 @@
         "spark": 25,
         "bonus": "Stay until the room is fully peak — after 2 AM — and dance to at least three consecutive tracks without leaving the floor.",
         "city": "Toronto, ON",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Coda+Nightclub+Toronto"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Coda+Nightclub+Toronto",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "YYZ-S-9",
@@ -291,7 +299,8 @@
         "spark": 15,
         "bonus": "Order a beer you've never heard of and finish the whole pint before explaining what it tastes like.",
         "city": "Toronto, ON",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=C%27est+What+Toronto"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=C%27est+What+Toronto",
+        "adult": true
       },
       {
         "id": "YYZ-S-7",
@@ -336,7 +345,8 @@
         "spark": 15,
         "bonus": "Beat whoever you came with at two different arcade games before the second round arrives.",
         "city": "Toronto, ON",
-        "mapsUrl": "https://maps.google.com/maps/search/Get+Well+1181+Dundas+St+W+Toronto"
+        "mapsUrl": "https://maps.google.com/maps/search/Get+Well+1181+Dundas+St+W+Toronto",
+        "adult": true
       },
       {
         "id": "YYZ-S-4",
@@ -351,7 +361,8 @@
         "spark": 25,
         "bonus": "Buy the musicians a round between sets and introduce yourself when they come to the bar.",
         "city": "Toronto, ON",
-        "mapsUrl": "https://www.google.com/maps/search/The+Rex+Hotel+Jazz+Bar+Queen+West+Toronto"
+        "mapsUrl": "https://www.google.com/maps/search/The+Rex+Hotel+Jazz+Bar+Queen+West+Toronto",
+        "adult": true
       },
       {
         "id": "YYZ-S-1",
@@ -366,7 +377,8 @@
         "spark": 15,
         "bonus": "Buy a drink for a stranger at the bar and find out one interesting thing about them.",
         "city": "Toronto, ON",
-        "mapsUrl": "https://maps.google.com/maps/search/Sweaty+Bettys+13+Ossington+Ave+Toronto"
+        "mapsUrl": "https://maps.google.com/maps/search/Sweaty+Bettys+13+Ossington+Ave+Toronto",
+        "adult": true
       },
       {
         "id": "TOR-S-02",
@@ -396,7 +408,8 @@
         "spark": 22,
         "bonus": "Introduce yourself to one new person",
         "city": "Toronto, ON",
-        "mapsUrl": "https://maps.google.com/maps/search/Lavelle+Toronto"
+        "mapsUrl": "https://maps.google.com/maps/search/Lavelle+Toronto",
+        "adult": true
       },
       {
         "id": "TOR-S-04",
@@ -443,7 +456,10 @@
         "spark": 15,
         "bonus": "Call for the ball, take a contested mid-range, and make it in front of strangers.",
         "city": "Toronto, ON",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dufferin+Grove+Park+Toronto"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dufferin+Grove+Park+Toronto",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "YYZ-AC-9",
@@ -625,7 +641,8 @@
         "spark": 25,
         "bonus": "Order the entire pintxos lineup in one round and share it with a stranger at the bar.",
         "city": "Toronto, ON",
-        "mapsUrl": "https://www.google.com/maps/search/Bar+Raval+College+Street+Toronto"
+        "mapsUrl": "https://www.google.com/maps/search/Bar+Raval+College+Street+Toronto",
+        "adult": true
       },
       {
         "id": "YYZ-F-8",

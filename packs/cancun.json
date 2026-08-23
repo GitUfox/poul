@@ -49,7 +49,10 @@
         "spark": 25,
         "bonus": "Join the singing by song two, not song ten.",
         "city": "Cancún, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Xoximilco+Cancun"
+        "mapsUrl": "https://maps.google.com/maps/search/Xoximilco+Cancun",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "CUN-S-202",
@@ -64,7 +67,8 @@
         "spark": 15,
         "bonus": "Order the michelada preparada and commit to it.",
         "city": "Cancún, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/La+Choperia+Cancun"
+        "mapsUrl": "https://maps.google.com/maps/search/La+Choperia+Cancun",
+        "adult": true
       },
       {
         "id": "CUN-S-201",
@@ -94,7 +98,11 @@
         "spark": 15,
         "bonus": "Jump off the boat at the snorkel stop last — make it a moment, not a splash.",
         "city": "Cancún, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/catamaran+tour+Isla+Mujeres+Cancun+Mexico"
+        "mapsUrl": "https://www.google.com/maps/search/catamaran+tour+Isla+Mujeres+Cancun+Mexico",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "CUN-S-7",
@@ -124,7 +132,11 @@
         "spark": 15,
         "bonus": "Order whatever the person next to you is drinking at every stop — no questions asked.",
         "city": "Cancún, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Avenida+Yaxchilan+Cancun+Mexico"
+        "mapsUrl": "https://www.google.com/maps/search/Avenida+Yaxchilan+Cancun+Mexico",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "CUN-S-5",
@@ -139,7 +151,11 @@
         "spark": 15,
         "bonus": "Strike up a conversation with someone from a country you've never met anyone from before.",
         "city": "Cancún, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Coco+Bongo+Cancun+Mexico"
+        "mapsUrl": "https://www.google.com/maps/search/Coco+Bongo+Cancun+Mexico",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "CUN-S-3",
@@ -154,7 +170,8 @@
         "spark": 15,
         "bonus": "Buy a round for the table next to you and join them for the rest of the night.",
         "city": "Cancún, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Nomads+Hostel+Cancun+rooftop+bar"
+        "mapsUrl": "https://www.google.com/maps/search/Nomads+Hostel+Cancun+rooftop+bar",
+        "adult": true
       },
       {
         "id": "CUN-S-1",
@@ -428,7 +445,10 @@
         "spark": 15,
         "bonus": "Spot a crocodile eye from a safe, dry distance.",
         "city": "Cancún, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Malecon+Tajamar+Cancun"
+        "mapsUrl": "https://maps.google.com/maps/search/Malecon+Tajamar+Cancun",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "CUN-C-201",
@@ -473,7 +493,10 @@
         "spark": 25,
         "bonus": "Arrive before the sun and stay without taking a single photograph — just watch.",
         "city": "Cancún, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Punta+Cancun+lookout"
+        "mapsUrl": "https://www.google.com/maps/search/Punta+Cancun+lookout",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "CUN-C-4",
@@ -533,7 +556,10 @@
         "spark": 15,
         "bonus": "Leave your phone in your bag for the entire golden hour — no photos, just the actual sunset.",
         "city": "Cancún, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Playa+Delfines+Cancun"
+        "mapsUrl": "https://www.google.com/maps/search/Playa+Delfines+Cancun",
+        "company": [
+          "couple"
+        ]
       }
     ],
     "active": [

@@ -1,0 +1,1839 @@
+{
+ "atlanta:ATL-C-11": {
+  "company": [
+   "solo"
+  ]
+ },
+ "atlanta:ATL-C-10": {
+  "company": [
+   "solo"
+  ]
+ },
+ "atlanta:ATL-C-9": {
+  "company": [
+   "couple"
+  ]
+ },
+ "atlanta:ATL-C-4": {
+  "company": [
+   "solo"
+  ]
+ },
+ "atlanta:ATL-C-03": {
+  "company": [
+   "couple"
+  ]
+ },
+ "atlanta:ATL-S-9": {
+  "adult": true
+ },
+ "atlanta:ATL-S-7": {
+  "adult": true
+ },
+ "atlanta:ATL-S-6": {
+  "adult": true
+ },
+ "atlanta:ATL-S-5": {
+  "adult": true
+ },
+ "atlanta:ATL-S-3": {
+  "adult": true
+ },
+ "atlanta:ATL-F-3": {
+  "adult": true
+ },
+ "atlanta:ATL-S-04": {
+  "adult": true
+ },
+ "atlanta:ATL-S-01": {
+  "company": [
+   "group"
+  ]
+ },
+ "atlanta:ATL-S-02": {
+  "company": [
+   "group"
+  ]
+ },
+ "atlanta:ATL-AC-04": {
+  "company": [
+   "group"
+  ]
+ },
+ "atlanta:ATL-F-11": {
+  "adult": true
+ },
+ "austin:AUS-C-12": {
+  "company": [
+   "couple"
+  ]
+ },
+ "austin:AUS-C-10": {
+  "company": [
+   "solo"
+  ]
+ },
+ "austin:AUS-C-9": {
+  "company": [
+   "couple"
+  ]
+ },
+ "austin:AUS-C-8": {
+  "company": [
+   "solo"
+  ]
+ },
+ "austin:AUS-C-1": {
+  "company": [
+   "solo"
+  ]
+ },
+ "austin:AUS-S-10": {
+  "adult": true
+ },
+ "austin:AUS-S-9": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "austin:AUS-S-5": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "austin:AUS-S-4": {
+  "adult": true
+ },
+ "austin:AUS-S-3": {
+  "adult": true
+ },
+ "austin:AUS-S-1": {
+  "company": [
+   "group"
+  ]
+ },
+ "austin:AUS-S-03": {
+  "adult": true
+ },
+ "austin:AUS-S-01": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "austin:AUS-S-04": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "austin:AUS-AC-2": {
+  "company": [
+   "couple"
+  ]
+ },
+ "austin:AUS-F-11": {
+  "adult": true
+ },
+ "baltimore:BAL-C-202": {
+  "company": [
+   "solo"
+  ]
+ },
+ "baltimore:BAL-C-104": {
+  "company": [
+   "couple"
+  ]
+ },
+ "baltimore:BAL-C-102": {
+  "company": [
+   "solo"
+  ]
+ },
+ "baltimore:BALT-C-01": {
+  "company": [
+   "solo"
+  ]
+ },
+ "baltimore:BAL-S-106": {
+  "adult": true
+ },
+ "baltimore:BAL-S-108": {
+  "company": [
+   "solo"
+  ]
+ },
+ "baltimore:BAL-S-102": {
+  "adult": true
+ },
+ "baltimore:BAL-S-101": {
+  "adult": true
+ },
+ "baltimore:BAL-S-104": {
+  "adult": true
+ },
+ "baltimore:BAL-S-107": {
+  "adult": true
+ },
+ "baltimore:BALT-S-04": {
+  "adult": true
+ },
+ "baltimore:BALT-S-01": {
+  "adult": true
+ },
+ "baltimore:BAL-F-109": {
+  "adult": true
+ },
+ "bangkok:BKK-S-201": {
+  "adult": true
+ },
+ "bangkok:BKK-S-102": {
+  "adult": true
+ },
+ "bangkok:BKK-S-101": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "bangkok:BKK-S-01": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "bangkok:BKK-S-04": {
+  "adult": true
+ },
+ "bangkok:BANG_S_03": {
+  "adult": true
+ },
+ "bangkok:BANG_S_01": {
+  "adult": true
+ },
+ "bangkok:BANG_C_04": {
+  "adult": true
+ },
+ "bangkok:BKK-C-03": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "bangkok:BKK-F-08": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "boston:BOS-F-12": {
+  "adult": true
+ },
+ "boston:BOS-C-9": {
+  "company": [
+   "solo"
+  ]
+ },
+ "boston:BOS-C-8": {
+  "company": [
+   "couple"
+  ]
+ },
+ "boston:BOS-C-7": {
+  "company": [
+   "solo"
+  ]
+ },
+ "boston:BOS-C-6": {
+  "company": [
+   "solo"
+  ]
+ },
+ "boston:BOS-C-1": {
+  "company": [
+   "couple"
+  ]
+ },
+ "boston:BOS-S-12": {
+  "adult": true
+ },
+ "boston:BOS-S-7": {
+  "adult": true
+ },
+ "boston:BOS-S-6": {
+  "adult": true
+ },
+ "boston:BOS-S-5": {
+  "adult": true
+ },
+ "boston:BOS-S-3": {
+  "company": [
+   "group"
+  ]
+ },
+ "boston:BOS-S-2": {
+  "adult": true
+ },
+ "boston:BOS-S-1": {
+  "adult": true
+ },
+ "boston:BOS-AC-8": {
+  "company": [
+   "group"
+  ]
+ },
+ "boston:BOS-A-11": {
+  "company": [
+   "couple"
+  ]
+ },
+ "boston:BOS-A-10": {
+  "company": [
+   "group"
+  ]
+ },
+ "brussels:BRU-S-101": {
+  "company": [
+   "group"
+  ]
+ },
+ "brussels:BRU-S-08": {
+  "adult": true
+ },
+ "brussels:BRU-S-03": {
+  "adult": true
+ },
+ "brussels:BRUS-S-04": {
+  "adult": true
+ },
+ "brussels:BRUS-S-02": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "brussels:BRUS-S-01": {
+  "adult": true
+ },
+ "brussels:BRU-F-05": {
+  "adult": true
+ },
+ "brussels:BRU-F-09": {
+  "adult": true
+ },
+ "brussels:BRUS-F-03": {
+  "adult": true
+ },
+ "cancun:CUN-S-203": {
+  "company": [
+   "group"
+  ]
+ },
+ "cancun:CUN-S-202": {
+  "adult": true
+ },
+ "cancun:CUN-S-10": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "cancun:CUN-S-6": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "cancun:CUN-S-5": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "cancun:CUN-S-3": {
+  "adult": true
+ },
+ "cancun:CUN-C-202": {
+  "company": [
+   "couple"
+  ]
+ },
+ "cancun:CUN-C-9": {
+  "company": [
+   "solo"
+  ]
+ },
+ "cancun:CUN-C-1": {
+  "company": [
+   "couple"
+  ]
+ },
+ "chicago:ORD-A-12": {
+  "adult": true
+ },
+ "chicago:ORD-AC-201": {
+  "company": [
+   "group"
+  ]
+ },
+ "chicago:ORD-AC-3": {
+  "company": [
+   "group"
+  ]
+ },
+ "chicago:ORD-C-6": {
+  "company": [
+   "solo"
+  ]
+ },
+ "chicago:ORD-C-2": {
+  "company": [
+   "solo"
+  ]
+ },
+ "chicago:ORD-S-9": {
+  "adult": true
+ },
+ "chicago:ORD-S-7": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "chicago:ORD-S-4": {
+  "adult": true
+ },
+ "chicago:ORD-S-1": {
+  "adult": true
+ },
+ "chicago:CHI-S-01": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "chicago:ORD-F-11": {
+  "adult": true
+ },
+ "dallas:DAL-C-04": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "dallas:DFW-AC-8": {
+  "company": [
+   "solo"
+  ]
+ },
+ "dallas:DAL-AC-04": {
+  "company": [
+   "group"
+  ]
+ },
+ "dallas:DFW-S-10": {
+  "adult": true
+ },
+ "dallas:DFW-S-9": {
+  "adult": true
+ },
+ "dallas:DFW-S-8": {
+  "adult": true
+ },
+ "dallas:DFW-S-7": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "dallas:DFW-S-5": {
+  "adult": true
+ },
+ "dallas:DFW-S-4": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "dallas:DFW-S-1": {
+  "adult": true
+ },
+ "dallas:DAL-S-01": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "dallas:DAL-S-02": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "dallas:DAL-S-04": {
+  "adult": true
+ },
+ "dallas:DFW-F-8": {
+  "adult": true
+ },
+ "dc:DC-S-301": {
+  "adult": true
+ },
+ "dc:DC-S-203": {
+  "adult": true
+ },
+ "dc:DC-S-202": {
+  "adult": true
+ },
+ "dc:DC-S-105": {
+  "company": [
+   "solo"
+  ],
+  "adult": true
+ },
+ "dc:DC-S-104": {
+  "adult": true
+ },
+ "dc:DC-S-101": {
+  "adult": true
+ },
+ "dc:DC_S_03": {
+  "company": [
+   "solo"
+  ]
+ },
+ "dc:DC_S_01": {
+  "adult": true
+ },
+ "dc:DC-A-203": {
+  "company": [
+   "couple"
+  ]
+ },
+ "dc:DC-A-106": {
+  "company": [
+   "solo"
+  ]
+ },
+ "dc:DC-C-104": {
+  "company": [
+   "couple"
+  ]
+ },
+ "dc:DC_C_01": {
+  "company": [
+   "solo"
+  ]
+ },
+ "denver:DEN-F-9": {
+  "company": [
+   "solo"
+  ]
+ },
+ "denver:DEN-AC-201": {
+  "company": [
+   "group"
+  ]
+ },
+ "denver:DEN-S-9": {
+  "adult": true
+ },
+ "denver:DEN-S-7": {
+  "adult": true
+ },
+ "denver:DEN-S-6": {
+  "adult": true
+ },
+ "denver:DEN-S-5": {
+  "adult": true
+ },
+ "denver:DEN-C-201": {
+  "company": [
+   "solo"
+  ]
+ },
+ "denver:DEN-C-10": {
+  "company": [
+   "solo"
+  ]
+ },
+ "denver:DEN-C-9": {
+  "adult": true
+ },
+ "flagstaff:FLG-S-201": {
+  "adult": true
+ },
+ "flagstaff:FLG-S-08": {
+  "adult": true
+ },
+ "flagstaff:FLG-S-07": {
+  "adult": true
+ },
+ "flagstaff:FLG-S-05": {
+  "adult": true
+ },
+ "flagstaff:FLG-S-04": {
+  "adult": true
+ },
+ "flagstaff:FLG-S-03": {
+  "adult": true
+ },
+ "flagstaff:FLG-S-02": {
+  "adult": true
+ },
+ "flagstaff:FLG-S-01": {
+  "adult": true
+ },
+ "guadalajara:GDL-S-302": {
+  "company": [
+   "group"
+  ]
+ },
+ "guadalajara:GDL-S-5": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "guadalajara:GDL-S-4": {
+  "adult": true
+ },
+ "guadalajara:GDL-S-1": {
+  "adult": true
+ },
+ "guadalajara:GDL-F-2": {
+  "adult": true
+ },
+ "guadalajara:GDL-C-301": {
+  "company": [
+   "solo"
+  ]
+ },
+ "guadalajara:GDL-C-4": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "guadalajara:GDL-A-4": {
+  "adult": true
+ },
+ "guadalajara:GDL-AC-2": {
+  "company": [
+   "couple"
+  ]
+ },
+ "hamptons:HAM-A-106": {
+  "adult": true
+ },
+ "hamptons:HAM-A-105": {
+  "company": [
+   "couple"
+  ]
+ },
+ "hamptons:HAM-S-105": {
+  "adult": true
+ },
+ "hamptons:HAM-S-104": {
+  "adult": true
+ },
+ "hamptons:HAM-S-103": {
+  "adult": true
+ },
+ "hamptons:HAM-C-106": {
+  "company": [
+   "couple"
+  ]
+ },
+ "hamptons:HAMP-C-04": {
+  "adult": true
+ },
+ "hamptons:HAMP-C-02": {
+  "company": [
+   "couple"
+  ]
+ },
+ "hamptons:HAMP-C-01": {
+  "company": [
+   "solo"
+  ]
+ },
+ "hamptons:HAM-F-101": {
+  "company": [
+   "couple"
+  ]
+ },
+ "hamptons:HAM-F-110": {
+  "company": [
+   "couple"
+  ]
+ },
+ "houston:IAH-C-10": {
+  "adult": true
+ },
+ "houston:IAH-C-7": {
+  "company": [
+   "solo"
+  ]
+ },
+ "houston:IAH-C-6": {
+  "company": [
+   "solo"
+  ]
+ },
+ "houston:IAH-C-2": {
+  "company": [
+   "solo"
+  ]
+ },
+ "houston:IAH-S-12": {
+  "adult": true
+ },
+ "houston:IAH-S-11": {
+  "adult": true
+ },
+ "houston:IAH-S-10": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "houston:IAH-S-1": {
+  "adult": true
+ },
+ "houston:HOU-S-02": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "houston:HOU-S-04": {
+  "adult": true
+ },
+ "houston:IAH-AC-8": {
+  "company": [
+   "couple"
+  ]
+ },
+ "houston:HOU-A-01": {
+  "company": [
+   "couple"
+  ]
+ },
+ "istanbul:ISTA-A-03": {
+  "company": [
+   "solo"
+  ]
+ },
+ "istanbul:IST-S-101": {
+  "adult": true
+ },
+ "istanbul:IST-S-04": {
+  "adult": true
+ },
+ "istanbul:ISTA-S-04": {
+  "adult": true
+ },
+ "istanbul:ISTA-F-05": {
+  "company": [
+   "group"
+  ]
+ },
+ "istanbul:ISTA-C-03": {
+  "company": [
+   "couple"
+  ]
+ },
+ "las-vegas:LAS-F-201": {
+  "adult": true
+ },
+ "las-vegas:LAS-F-10": {
+  "adult": true
+ },
+ "las-vegas:LAS-S-202": {
+  "adult": true
+ },
+ "las-vegas:LAS-S-201": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "las-vegas:LAS-S-11": {
+  "adult": true
+ },
+ "las-vegas:LAS-S-9": {
+  "adult": true
+ },
+ "las-vegas:LAS-S-8": {
+  "company": [
+   "group"
+  ]
+ },
+ "las-vegas:LAS-S-7": {
+  "adult": true
+ },
+ "las-vegas:LAS-S-1": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "las-vegas:LAS-C-11": {
+  "adult": true
+ },
+ "las-vegas:LAS-C-10": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "las-vegas:LAS-C-7": {
+  "adult": true
+ },
+ "las-vegas:LAS-C-2": {
+  "company": [
+   "solo"
+  ]
+ },
+ "las-vegas:LAS-A-10": {
+  "adult": true
+ },
+ "los-angeles:LAX-A-203": {
+  "company": [
+   "couple"
+  ]
+ },
+ "los-angeles:LAX-A-201": {
+  "company": [
+   "couple"
+  ]
+ },
+ "los-angeles:LAX-AC-201": {
+  "company": [
+   "group"
+  ]
+ },
+ "los-angeles:LAX-C-7": {
+  "company": [
+   "couple"
+  ]
+ },
+ "los-angeles:LAX-C-4": {
+  "company": [
+   "solo"
+  ]
+ },
+ "los-angeles:LAX-C-3": {
+  "company": [
+   "solo"
+  ]
+ },
+ "los-angeles:LAX-C-2": {
+  "company": [
+   "couple"
+  ]
+ },
+ "los-angeles:LAX-A-2": {
+  "company": [
+   "couple"
+  ]
+ },
+ "los-angeles:LAX-S-12": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "los-angeles:LAX-S-10": {
+  "adult": true
+ },
+ "los-angeles:LAX-S-7": {
+  "adult": true
+ },
+ "los-angeles:LAX-S-3": {
+  "adult": true
+ },
+ "los-angeles:LAX-S-2": {
+  "adult": true
+ },
+ "mexico-city:MEX-S-10": {
+  "adult": true
+ },
+ "mexico-city:MEX-S-9": {
+  "adult": true
+ },
+ "mexico-city:MEX-S-6": {
+  "adult": true
+ },
+ "mexico-city:MEX-S-4": {
+  "adult": true
+ },
+ "mexico-city:MEX-S-3": {
+  "adult": true
+ },
+ "mexico-city:MEX-S-1": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "mexico-city:MEX-C-10": {
+  "company": [
+   "solo"
+  ]
+ },
+ "mexico-city:MEX-C-9": {
+  "company": [
+   "couple"
+  ]
+ },
+ "mexico-city:MEX-C-6": {
+  "company": [
+   "couple"
+  ]
+ },
+ "mexico-city:MEX-AC-201": {
+  "company": [
+   "couple"
+  ]
+ },
+ "mexico-city:MEX-A-201": {
+  "company": [
+   "group"
+  ]
+ },
+ "miami:MIA-AC-202": {
+  "company": [
+   "group"
+  ]
+ },
+ "miami:MIA-AC-8": {
+  "company": [
+   "group"
+  ]
+ },
+ "miami:MIA-S-203": {
+  "adult": true
+ },
+ "miami:MIA-S-202": {
+  "adult": true
+ },
+ "miami:MIA-S-12": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "miami:MIA-S-8": {
+  "adult": true
+ },
+ "miami:MIA-S-7": {
+  "adult": true
+ },
+ "miami:MIA-S-3": {
+  "adult": true
+ },
+ "miami:MIA-S-1": {
+  "adult": true
+ },
+ "miami:MIA-C-9": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "miami:MIA-C-6": {
+  "company": [
+   "couple"
+  ]
+ },
+ "miami:MIA-C-2": {
+  "company": [
+   "couple"
+  ]
+ },
+ "montreal:YUL-S-101": {
+  "adult": true
+ },
+ "montreal:YUL-A-106": {
+  "adult": true
+ },
+ "montreal:YUL-S-9": {
+  "adult": true
+ },
+ "montreal:YUL-S-7": {
+  "adult": true
+ },
+ "montreal:MTL-S-04": {
+  "adult": true
+ },
+ "montreal:MTL-S-02": {
+  "adult": true
+ },
+ "montreal:YUL-C-12": {
+  "adult": true
+ },
+ "montreal:YUL-C-9": {
+  "company": [
+   "couple"
+  ]
+ },
+ "montreal:YUL-C-8": {
+  "company": [
+   "solo"
+  ]
+ },
+ "montreal:MTL-C-01": {
+  "company": [
+   "couple"
+  ]
+ },
+ "nashville:BNA-A-1": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "nashville:BNA-F-11": {
+  "adult": true
+ },
+ "nashville:BNA-AC-3": {
+  "company": [
+   "group"
+  ]
+ },
+ "nashville:BNA-S-201": {
+  "adult": true
+ },
+ "nashville:BNA-S-12": {
+  "adult": true
+ },
+ "nashville:BNA-S-8": {
+  "adult": true
+ },
+ "nashville:BNA-S-6": {
+  "adult": true
+ },
+ "nashville:BNA-S-4": {
+  "company": [
+   "group"
+  ]
+ },
+ "nashville:BNA-S-2": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "nashville:BNA-S-1": {
+  "adult": true
+ },
+ "nashville:BNA-C-9": {
+  "adult": true
+ },
+ "nashville:BNA-C-6": {
+  "company": [
+   "couple"
+  ]
+ },
+ "nashville:BNA-C-2": {
+  "adult": true
+ },
+ "new-orleans:MSY-A-10": {
+  "company": [
+   "solo"
+  ]
+ },
+ "new-orleans:MSY-AC-202": {
+  "company": [
+   "group"
+  ]
+ },
+ "new-orleans:MSY-AC-11": {
+  "company": [
+   "couple"
+  ]
+ },
+ "new-orleans:MSY-C-10": {
+  "adult": true
+ },
+ "new-orleans:MSY-C-7": {
+  "adult": true
+ },
+ "new-orleans:MSY-S-5": {
+  "adult": true
+ },
+ "new-orleans:MSY-S-4": {
+  "adult": true
+ },
+ "new-orleans:MSY-S-2": {
+  "adult": true
+ },
+ "new-orleans:MSY-S-1": {
+  "adult": true
+ },
+ "new-orleans:MSY-F-10": {
+  "adult": true
+ },
+ "norway:NOR-S-105": {
+  "adult": true
+ },
+ "norway:NOR-S-104": {
+  "adult": true
+ },
+ "norway:NOR-S-102": {
+  "adult": true
+ },
+ "norway:NOR-S-01": {
+  "adult": true
+ },
+ "norway:NOR-S-03": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "norway:NOR-F-108": {
+  "company": [
+   "couple"
+  ]
+ },
+ "norway:NOR-C-108": {
+  "company": [
+   "couple"
+  ]
+ },
+ "nyc:NYC-S-201": {
+  "adult": true
+ },
+ "nyc:NYC2-S-03": {
+  "adult": true
+ },
+ "nyc:NYC2-S-01": {
+  "adult": true
+ },
+ "nyc:NYC-S-102": {
+  "adult": true
+ },
+ "nyc:NYC-S-101": {
+  "adult": true
+ },
+ "nyc:NYC-S-108": {
+  "adult": true
+ },
+ "nyc:NYC-S-103": {
+  "company": [
+   "group"
+  ]
+ },
+ "nyc:NYC-S-105": {
+  "adult": true
+ },
+ "nyc:NYC-A-106": {
+  "company": [
+   "couple"
+  ]
+ },
+ "nyc:NYC2-A-04": {
+  "company": [
+   "group"
+  ]
+ },
+ "nyc:NYC2-C-03": {
+  "company": [
+   "couple"
+  ]
+ },
+ "nyc:NYC-C-104": {
+  "company": [
+   "couple"
+  ]
+ },
+ "ocean-city:OC-AC-106": {
+  "company": [
+   "group"
+  ]
+ },
+ "ocean-city:OCEA_AC_04": {
+  "company": [
+   "group"
+  ]
+ },
+ "ocean-city:OCEA_C_02": {
+  "company": [
+   "couple"
+  ]
+ },
+ "ocean-city:OC-S-201": {
+  "company": [
+   "group"
+  ]
+ },
+ "ocean-city:OC-S-104": {
+  "adult": true
+ },
+ "ocean-city:OC-S-106": {
+  "adult": true
+ },
+ "ocean-city:OC-S-102": {
+  "adult": true
+ },
+ "ocean-city:OC-S-105": {
+  "adult": true
+ },
+ "ocean-city:OC-S-101": {
+  "company": [
+   "couple"
+  ]
+ },
+ "ocean-city:OCEA_S_03": {
+  "adult": true
+ },
+ "ocean-city:OCEA_S_02": {
+  "adult": true
+ },
+ "oslo:OSL-S-201": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "oslo:OSL-S-102": {
+  "adult": true
+ },
+ "oslo:OSL-S-101": {
+  "adult": true
+ },
+ "oslo:OSL-S-01": {
+  "adult": true
+ },
+ "oslo:OSLO_S_02": {
+  "adult": true
+ },
+ "oslo:OSLO_S_01": {
+  "adult": true
+ },
+ "oslo:OSL-CH-01": {
+  "company": [
+   "solo"
+  ]
+ },
+ "oslo:OSLO_C_04": {
+  "company": [
+   "solo"
+  ]
+ },
+ "oslo:OSL-F-101": {
+  "adult": true
+ },
+ "oslo:OSL-F-05": {
+  "adult": true
+ },
+ "oslo:OSL-F-09": {
+  "adult": true
+ },
+ "oslo:OSL-F-06": {
+  "company": [
+   "couple"
+  ]
+ },
+ "paris:PAR-S-201": {
+  "adult": true
+ },
+ "paris:PAR-S-08": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "paris:PAR-S-04": {
+  "company": [
+   "solo"
+  ]
+ },
+ "paris:PAR-S-05": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "paris:PARI_S_04": {
+  "adult": true
+ },
+ "paris:PARI_S_03": {
+  "adult": true
+ },
+ "paris:PARI_S_01": {
+  "adult": true
+ },
+ "paris:PAR-A-06": {
+  "adult": true
+ },
+ "paris:PAR-CH-07": {
+  "company": [
+   "couple"
+  ]
+ },
+ "paris:PARI_C_04": {
+  "company": [
+   "couple"
+  ]
+ },
+ "paris:PAR-F-03": {
+  "adult": true
+ },
+ "paris:PAR-F-06": {
+  "company": [
+   "couple"
+  ]
+ },
+ "paris:PARI_F_04": {
+  "adult": true
+ },
+ "philadelphia:PHL-S-11": {
+  "adult": true
+ },
+ "philadelphia:PHL-S-9": {
+  "adult": true
+ },
+ "philadelphia:PHL-S-8": {
+  "adult": true
+ },
+ "philadelphia:PHL-S-4": {
+  "adult": true
+ },
+ "philadelphia:PHL-S-3": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "philadelphia:PHL-A-10": {
+  "adult": true
+ },
+ "philadelphia:PHL-A-9": {
+  "adult": true
+ },
+ "philadelphia:PHL-S-2": {
+  "adult": true
+ },
+ "philadelphia:PHL-S-03": {
+  "adult": true
+ },
+ "philadelphia:PHL-S-04": {
+  "adult": true
+ },
+ "philadelphia:PHL-S-01": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "philadelphia:PHL-C-12": {
+  "company": [
+   "solo"
+  ]
+ },
+ "philadelphia:PHL-C-9": {
+  "company": [
+   "solo"
+  ]
+ },
+ "philadelphia:PHL-C-6": {
+  "company": [
+   "couple"
+  ]
+ },
+ "philadelphia:PHL-C-01": {
+  "company": [
+   "couple"
+  ]
+ },
+ "philadelphia:PHL-F-9": {
+  "adult": true
+ },
+ "philadelphia:PHL-A-03": {
+  "company": [
+   "group"
+  ]
+ },
+ "phoenix:PHX-S-401": {
+  "adult": true
+ },
+ "phoenix:SC-S-03": {
+  "adult": true
+ },
+ "phoenix:SC-S-02": {
+  "adult": true
+ },
+ "phoenix:SC-S-01": {
+  "adult": true
+ },
+ "phoenix:S-10": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "phoenix:S-05": {
+  "adult": true
+ },
+ "phoenix:S-03": {
+  "adult": true
+ },
+ "phoenix:S-02": {
+  "adult": true
+ },
+ "phoenix:S-01": {
+  "company": [
+   "group"
+  ]
+ },
+ "phoenix:A-04": {
+  "company": [
+   "couple"
+  ]
+ },
+ "phoenix:AC-07": {
+  "company": [
+   "solo"
+  ]
+ },
+ "phoenix:AC-04": {
+  "company": [
+   "group"
+  ]
+ },
+ "phoenix:8-08": {
+  "company": [
+   "solo"
+  ]
+ },
+ "phoenix:C-08": {
+  "company": [
+   "couple"
+  ]
+ },
+ "phoenix:C-02": {
+  "company": [
+   "solo"
+  ]
+ },
+ "phoenix:C-01": {
+  "company": [
+   "solo"
+  ]
+ },
+ "san-diego:SAN-F-12": {
+  "company": [
+   "couple"
+  ]
+ },
+ "san-diego:SAN-F-3": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "san-diego:SAN-AC-7": {
+  "company": [
+   "group"
+  ]
+ },
+ "san-diego:SAN-S-202": {
+  "adult": true
+ },
+ "san-diego:SAN-S-201": {
+  "adult": true
+ },
+ "san-diego:SAN-S-7": {
+  "adult": true
+ },
+ "san-diego:SAN-S-6": {
+  "adult": true
+ },
+ "san-diego:SAN-S-4": {
+  "adult": true
+ },
+ "san-diego:SAN-S-3": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "san-diego:SAN-S-2": {
+  "adult": true
+ },
+ "san-diego:SAN-C-6": {
+  "company": [
+   "couple"
+  ]
+ },
+ "san-diego:SAN-C-1": {
+  "company": [
+   "couple"
+  ]
+ },
+ "san-francisco:SFO-S-202": {
+  "adult": true
+ },
+ "san-francisco:SFO-S-10": {
+  "adult": true
+ },
+ "san-francisco:SFO-S-9": {
+  "company": [
+   "solo"
+  ]
+ },
+ "san-francisco:SFO-S-7": {
+  "adult": true
+ },
+ "san-francisco:SFO-S-6": {
+  "adult": true
+ },
+ "san-francisco:SFO-S-4": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "san-francisco:SFO-S-3": {
+  "adult": true
+ },
+ "san-francisco:SFO-S-1": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "san-francisco:SFO-C-6": {
+  "company": [
+   "solo"
+  ]
+ },
+ "seattle:SEA-A-3": {
+  "company": [
+   "couple"
+  ]
+ },
+ "seattle:SEA-AC-202": {
+  "company": [
+   "group"
+  ]
+ },
+ "seattle:SEA-AC-201": {
+  "company": [
+   "group"
+  ]
+ },
+ "seattle:SEA-S-202": {
+  "adult": true
+ },
+ "seattle:SEA-S-201": {
+  "company": [
+   "group"
+  ]
+ },
+ "seattle:SEA-S-9": {
+  "adult": true
+ },
+ "seattle:SEA-S-6": {
+  "adult": true
+ },
+ "seattle:SEA-C-4": {
+  "company": [
+   "solo"
+  ]
+ },
+ "seattle:SEA-C-2": {
+  "company": [
+   "couple"
+  ]
+ },
+ "seattle:SEA-F-11": {
+  "adult": true
+ },
+ "sedona:SED-C-06": {
+  "company": [
+   "couple"
+  ]
+ },
+ "sedona:SED-C-05": {
+  "company": [
+   "couple"
+  ]
+ },
+ "sedona:SED-S-201": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "sedona:SED-S-08": {
+  "adult": true
+ },
+ "sedona:SED-S-07": {
+  "adult": true
+ },
+ "sedona:SED-S-05": {
+  "adult": true
+ },
+ "sedona:SED-S-03": {
+  "adult": true
+ },
+ "sedona:SED-S-02": {
+  "adult": true
+ },
+ "sedona:SED-S-01": {
+  "adult": true
+ },
+ "sedona:SED-F-101": {
+  "company": [
+   "couple"
+  ]
+ },
+ "thousand-islands:TIUS-S-04": {
+  "adult": true
+ },
+ "thousand-islands:TIUS-S-02": {
+  "adult": true
+ },
+ "thousand-islands:TIUS-S-01": {
+  "adult": true
+ },
+ "thousand-islands:TI-S-107": {
+  "adult": true
+ },
+ "thousand-islands:TI-S-103": {
+  "adult": true
+ },
+ "thousand-islands:TI-S-102": {
+  "company": [
+   "couple"
+  ]
+ },
+ "thousand-islands:TI-S-104": {
+  "adult": true
+ },
+ "thousand-islands:TI-S-106": {
+  "adult": true
+ },
+ "thousand-islands:TI-S-105": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "thousand-islands:TIUS-C-03": {
+  "company": [
+   "solo"
+  ]
+ },
+ "thousand-islands:TIUS-C-01": {
+  "company": [
+   "couple"
+  ]
+ },
+ "thousand-islands:TI-C-106": {
+  "company": [
+   "couple"
+  ]
+ },
+ "thousand-islands:TI-F-103": {
+  "adult": true
+ },
+ "tokyo:TOK-S-101": {
+  "company": [
+   "group"
+  ]
+ },
+ "tokyo:TOK-S-01": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "tokyo:TOK-S-07": {
+  "adult": true
+ },
+ "tokyo:TKY-S-01": {
+  "company": [
+   "group"
+  ]
+ },
+ "tokyo:TKY-S-03": {
+  "adult": true
+ },
+ "tokyo:TKY-F-01": {
+  "company": [
+   "solo"
+  ]
+ },
+ "tokyo:TKY-F-04": {
+  "adult": true
+ },
+ "toronto:YYZ-C-1": {
+  "company": [
+   "solo"
+  ]
+ },
+ "toronto:YYZ-S-12": {
+  "adult": true
+ },
+ "toronto:YYZ-S-10": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "toronto:YYZ-S-8": {
+  "adult": true
+ },
+ "toronto:YYZ-S-5": {
+  "adult": true
+ },
+ "toronto:YYZ-S-4": {
+  "adult": true
+ },
+ "toronto:YYZ-S-1": {
+  "adult": true
+ },
+ "toronto:TOR-S-03": {
+  "adult": true
+ },
+ "toronto:YYZ-AC-10": {
+  "company": [
+   "group"
+  ]
+ },
+ "toronto:YYZ-F-9": {
+  "adult": true
+ },
+ "turkey:TUR-AC-106": {
+  "company": [
+   "solo"
+  ]
+ },
+ "turkey:TUR-AC-02": {
+  "company": [
+   "couple"
+  ]
+ },
+ "turkey:TUR-S-502": {
+  "adult": true
+ },
+ "turkey:TUR-S-301": {
+  "adult": true
+ },
+ "turkey:TUR-S-108": {
+  "adult": true
+ },
+ "turkey:TUR-S-105": {
+  "company": [
+   "couple"
+  ],
+  "adult": true
+ },
+ "turkey:TUR-S-01": {
+  "adult": true
+ },
+ "turkey:TUR-S-03": {
+  "adult": true
+ },
+ "turkey:TUR-A-104": {
+  "company": [
+   "solo"
+  ]
+ },
+ "turkey:TUR-A-04": {
+  "company": [
+   "couple"
+  ]
+ },
+ "turkey:TUR-C-301": {
+  "company": [
+   "couple"
+  ]
+ },
+ "turkey:TUR-C-105": {
+  "company": [
+   "couple"
+  ]
+ },
+ "turkey:TUR-C-103": {
+  "company": [
+   "solo"
+  ]
+ },
+ "turkey:TUR-C-04": {
+  "company": [
+   "couple"
+  ]
+ },
+ "turkey:TUR-F-106": {
+  "adult": true
+ },
+ "turkey:TUR-F-105": {
+  "company": [
+   "couple"
+  ]
+ },
+ "turkey:TUR-F-02": {
+  "adult": true
+ },
+ "vancouver:YVR-S-11": {
+  "adult": true
+ },
+ "vancouver:YVR-S-8": {
+  "adult": true
+ },
+ "vancouver:YVR-S-4": {
+  "adult": true
+ },
+ "vancouver:YVR-S-2": {
+  "company": [
+   "group"
+  ],
+  "adult": true
+ },
+ "vancouver:VAN-S-04": {
+  "adult": true
+ },
+ "vancouver:VAN-S-01": {
+  "adult": true
+ },
+ "vancouver:YVR-C-2": {
+  "company": [
+   "couple"
+  ]
+ },
+ "vancouver:YVR-C-1": {
+  "company": [
+   "solo"
+  ]
+ },
+ "vancouver:VAN-C-01": {
+  "company": [
+   "couple"
+  ]
+ },
+ "vancouver:VAN-C-04": {
+  "company": [
+   "couple"
+  ]
+ },
+ "vancouver:VAN-AC-02": {
+  "company": [
+   "couple"
+  ]
+ },
+ "vancouver:YVR-F-12": {
+  "adult": true
+ },
+ "vancouver:YVR-F-8": {
+  "adult": true
+ }
+}

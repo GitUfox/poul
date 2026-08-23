@@ -201,7 +201,8 @@
         "spark": 25,
         "bonus": "Sit at the fire pit, not the dining room — and stay past the point that feels reasonable.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Peppermill+Fireside+Lounge+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/Peppermill+Fireside+Lounge+Las+Vegas",
+        "adult": true
       },
       {
         "id": "LAS-F-12",
@@ -246,7 +247,8 @@
         "spark": 25,
         "bonus": "Tell the bartender your mood in three words and order whatever they build — no veto.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Herbs+and+Rye+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/Herbs+and+Rye+Las+Vegas",
+        "adult": true
       },
       {
         "id": "LAS-F-9",
@@ -565,7 +567,8 @@
         "spark": 15,
         "bonus": "Order the Ass Juice. Ask zero questions first.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Double+Down+Saloon+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/Double+Down+Saloon+Las+Vegas",
+        "adult": true
       },
       {
         "id": "LAS-S-201",
@@ -580,7 +583,11 @@
         "spark": 25,
         "bonus": "Sing something. Not maybe. The room respects attempts, not perfection.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Dino's+Lounge+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/Dino's+Lounge+Las+Vegas",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "LAS-S-12",
@@ -610,7 +617,8 @@
         "spark": 25,
         "bonus": "Set a strict $50 buy-in limit and walk the moment you double it — no exceptions, no 'just one more hand.'",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/El+Cortez+Hotel+Casino+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/El+Cortez+Hotel+Casino+Las+Vegas",
+        "adult": true
       },
       {
         "id": "LAS-S-10",
@@ -640,7 +648,8 @@
         "spark": 40,
         "bonus": "Tell the bartender your drink preferences but no spirit — let them build you something completely blind and drink all of it.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/The+Laundry+Room+Bar+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/The+Laundry+Room+Bar+Las+Vegas",
+        "adult": true
       },
       {
         "id": "LAS-S-8",
@@ -655,7 +664,10 @@
         "spark": 15,
         "bonus": "Learn one Rebel's name before tip-off and root for only that player — loudly — the entire game.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Thomas+Mack+Center+UNLV+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/Thomas+Mack+Center+UNLV+Las+Vegas",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "LAS-S-7",
@@ -670,7 +682,8 @@
         "spark": 15,
         "bonus": "Move between all three levels — ground bar, mezzanine, rooftop — and order a different drink on each one.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Commonwealth+Bar+Fremont+East+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/Commonwealth+Bar+Fremont+East+Las+Vegas",
+        "adult": true
       },
       {
         "id": "LAS-S-5",
@@ -730,7 +743,11 @@
         "spark": 15,
         "bonus": "Buy a round for a group of strangers, introduce yourself, and stay with them for at least one full hour.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Fremont+East+Entertainment+District+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/Fremont+East+Entertainment+District+Las+Vegas",
+        "company": [
+          "group"
+        ],
+        "adult": true
       }
     ],
     "chill": [
@@ -762,7 +779,8 @@
         "spark": 15,
         "bonus": "Sit at the outdoor patio, leave your phone in your bag, and write down three observations about the people who walk by.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Velveteen+Rabbit+Bar+Las+Vegas+Arts+District"
+        "mapsUrl": "https://www.google.com/maps/search/Velveteen+Rabbit+Bar+Las+Vegas+Arts+District",
+        "adult": true
       },
       {
         "id": "LAS-C-10",
@@ -777,7 +795,11 @@
         "spark": 25,
         "bonus": "Get there 20 minutes before sunset, claim a rail spot, and don't touch your phone until the sun fully disappears.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/VooDoo+Rooftop+Lounge+Rio+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/VooDoo+Rooftop+Lounge+Rio+Las+Vegas",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "LAS-C-9",
@@ -822,7 +844,8 @@
         "spark": 25,
         "bonus": "Set a $20 limit at each stop — when it's gone, walk to the next one immediately.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Boulder+Highway+Casinos+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/Boulder+Highway+Casinos+Las+Vegas",
+        "adult": true
       },
       {
         "id": "LAS-C-6",
@@ -882,7 +905,10 @@
         "spark": 15,
         "bonus": "Strike up a genuine conversation with a local who's also reading and find out one thing about Las Vegas that doesn't appear in any guidebook.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/Clark+County+Library+Flamingo+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/Clark+County+Library+Flamingo+Las+Vegas",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "LAS-C-1",
@@ -912,7 +938,8 @@
         "spark": 25,
         "bonus": "Spend two uninterrupted minutes alone in the courtroom where the 1950 Kefauver hearings were held with the lights off.",
         "city": "Las Vegas, NV",
-        "mapsUrl": "https://www.google.com/maps/search/The+Mob+Museum+Las+Vegas"
+        "mapsUrl": "https://www.google.com/maps/search/The+Mob+Museum+Las+Vegas",
+        "adult": true
       }
     ]
   }

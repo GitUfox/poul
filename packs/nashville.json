@@ -184,7 +184,11 @@
         "spark": 15,
         "bonus": "Buy a stranger a beer and make them teach you a two-step before midnight.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Robert%27s+Western+World+Nashville"
+        "mapsUrl": "https://www.google.com/maps/search/Robert%27s+Western+World+Nashville",
+        "company": [
+          "group"
+        ],
+        "adult": true
       }
     ],
     "foodie": [
@@ -216,7 +220,8 @@
         "spark": 25,
         "bonus": "Buy a bottle of whichever expression you'd never normally choose and gift it to the next person you meet.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Corsair+Distillery+Nashville+TN"
+        "mapsUrl": "https://www.google.com/maps/search/Corsair+Distillery+Nashville+TN",
+        "adult": true
       },
       {
         "id": "BNA-F-10",
@@ -518,7 +523,10 @@
         "spark": 25,
         "bonus": "Show up solo, introduce yourself to the first group you see, and get on the next game — no excuses.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Elmington+Park+Nashville+TN"
+        "mapsUrl": "https://www.google.com/maps/search/Elmington+Park+Nashville+TN",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "BNA-AC-2",
@@ -565,7 +573,8 @@
         "spark": 25,
         "bonus": "Tip the band and request a Loretta Lynn song — this room will deliver it right.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Dee's+Country+Cocktail+Lounge+Madison+TN"
+        "mapsUrl": "https://www.google.com/maps/search/Dee's+Country+Cocktail+Lounge+Madison+TN",
+        "adult": true
       },
       {
         "id": "BNA-S-12",
@@ -580,7 +589,8 @@
         "spark": 15,
         "bonus": "Strike up a real conversation with someone at the bar and get them to tell you one song they wrote or wish they had.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Tootsie's+Orchid+Lounge+Nashville+TN"
+        "mapsUrl": "https://www.google.com/maps/search/Tootsie's+Orchid+Lounge+Nashville+TN",
+        "adult": true
       },
       {
         "id": "BNA-S-11",
@@ -640,7 +650,8 @@
         "spark": 15,
         "bonus": "Win three consecutive games of pool without putting down your cue — if you lose, buy the table.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Springwater+Supper+Club+Nashville+TN"
+        "mapsUrl": "https://www.google.com/maps/search/Springwater+Supper+Club+Nashville+TN",
+        "adult": true
       },
       {
         "id": "BNA-S-6",
@@ -655,7 +666,8 @@
         "spark": 25,
         "bonus": "Request a song from the pianist and tip $20 — stay for the set that follows.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Skull's+Rainbow+Room+Nashville+TN"
+        "mapsUrl": "https://www.google.com/maps/search/Skull's+Rainbow+Room+Nashville+TN",
+        "adult": true
       },
       {
         "id": "BNA-S-5",
@@ -685,7 +697,10 @@
         "spark": 15,
         "bonus": "Join a team of strangers instead of playing with people you know.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/The+5+Spot+Nashville+TN"
+        "mapsUrl": "https://www.google.com/maps/search/The+5+Spot+Nashville+TN",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "BNA-S-3",
@@ -715,7 +730,11 @@
         "spark": 25,
         "bonus": "When you win — or when someone near you wins — buy the table a round before the next card starts.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Santa%27s+Pub+Nashville"
+        "mapsUrl": "https://www.google.com/maps/search/Santa%27s+Pub+Nashville",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "BNA-S-1",
@@ -730,7 +749,8 @@
         "spark": 15,
         "bonus": "Get every stranger on the street to wave back at your group before the tour ends.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Nashville+Pedal+Tavern+Germantown"
+        "mapsUrl": "https://www.google.com/maps/search/Nashville+Pedal+Tavern+Germantown",
+        "adult": true
       }
     ],
     "chill": [
@@ -792,7 +812,8 @@
         "spark": 25,
         "bonus": "Ask a Nelson family member — they're often on site — to tell you the part of the story they never get tired of.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Nelson's+Green+Brier+Distillery+Nashville+TN"
+        "mapsUrl": "https://www.google.com/maps/search/Nelson's+Green+Brier+Distillery+Nashville+TN",
+        "adult": true
       },
       {
         "id": "BNA-C-8",
@@ -837,7 +858,10 @@
         "spark": 15,
         "bonus": "Leave your phone in your bag for the entire time you're on the riverbank.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/Shelby+Park+Nashville+TN"
+        "mapsUrl": "https://www.google.com/maps/search/Shelby+Park+Nashville+TN",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "BNA-C-5",
@@ -897,7 +921,8 @@
         "spark": 15,
         "bonus": "Identify every Nashville landmark on the skyline — no Google, locals only.",
         "city": "Nashville, TN",
-        "mapsUrl": "https://www.google.com/maps/search/L.A.+Jackson+Rooftop+Bar+Nashville"
+        "mapsUrl": "https://www.google.com/maps/search/L.A.+Jackson+Rooftop+Bar+Nashville",
+        "adult": true
       },
       {
         "id": "BNA-C-1",

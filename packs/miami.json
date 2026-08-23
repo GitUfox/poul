@@ -413,7 +413,10 @@
         "spark": 15,
         "bonus": "Join a game of strangers and learn everyone's name by the second set.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Lummus+Park+volleyball+Miami+Beach"
+        "mapsUrl": "https://www.google.com/maps/search/Lummus+Park+volleyball+Miami+Beach",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "MIA-AC-201",
@@ -458,7 +461,10 @@
         "spark": 15,
         "bonus": "Hit a game-winning shot, then walk off the court without saying a word.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Flamingo+Park+Basketball+Courts+Miami+Beach"
+        "mapsUrl": "https://www.google.com/maps/search/Flamingo+Park+Basketball+Courts+Miami+Beach",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "MIA-AC-6",
@@ -565,7 +571,8 @@
         "spark": 25,
         "bonus": "Order the bartender's choice and guess three ingredients before they tell you.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Sweet+Liberty+Miami+Beach"
+        "mapsUrl": "https://www.google.com/maps/search/Sweet+Liberty+Miami+Beach",
+        "adult": true
       },
       {
         "id": "MIA-S-202",
@@ -580,7 +587,8 @@
         "spark": 15,
         "bonus": "Play a game of pool with whoever has the table — house rules apply.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Mac's+Club+Deuce+Miami+Beach"
+        "mapsUrl": "https://www.google.com/maps/search/Mac's+Club+Deuce+Miami+Beach",
+        "adult": true
       },
       {
         "id": "MIA-S-201",
@@ -625,7 +633,11 @@
         "spark": 25,
         "bonus": "Order your mojito in Spanish at every stop — no English allowed.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Calle+Ocho+SW+8th+Street+Little+Havana+Miami"
+        "mapsUrl": "https://www.google.com/maps/search/Calle+Ocho+SW+8th+Street+Little+Havana+Miami",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "MIA-S-9",
@@ -655,7 +667,8 @@
         "spark": 25,
         "bonus": "Order the most obscure cocktail on the menu and make someone at the bar guess what's in it.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Sugar+Rooftop+Bar+EAST+Miami+Brickell"
+        "mapsUrl": "https://www.google.com/maps/search/Sugar+Rooftop+Bar+EAST+Miami+Brickell",
+        "adult": true
       },
       {
         "id": "MIA-S-7",
@@ -670,7 +683,8 @@
         "spark": 15,
         "bonus": "Strike up a conversation with the couple next to you and get a wine recommendation you've never heard of.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Lagniappe+Miami+Edgewater"
+        "mapsUrl": "https://www.google.com/maps/search/Lagniappe+Miami+Edgewater",
+        "adult": true
       },
       {
         "id": "MIA-S-5",
@@ -700,7 +714,8 @@
         "spark": 25,
         "bonus": "Ask someone sitting alone to dance — one song minimum.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Ball+and+Chain+Little+Havana+Miami"
+        "mapsUrl": "https://www.google.com/maps/search/Ball+and+Chain+Little+Havana+Miami",
+        "adult": true
       },
       {
         "id": "MIA-S-2",
@@ -730,7 +745,8 @@
         "spark": 25,
         "bonus": "Stay until sunrise and watch the rooftop terrace transform from night crowd to morning ravers without leaving.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Club+Space+Miami+FL"
+        "mapsUrl": "https://www.google.com/maps/search/Club+Space+Miami+FL",
+        "adult": true
       }
     ],
     "chill": [
@@ -792,7 +808,11 @@
         "spark": 15,
         "bonus": "Walk inside and spend five minutes alone with a single piece of art before heading back out.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Perez+Art+Museum+Miami+PAMM"
+        "mapsUrl": "https://www.google.com/maps/search/Perez+Art+Museum+Miami+PAMM",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "MIA-C-8",
@@ -837,7 +857,10 @@
         "spark": 15,
         "bonus": "Wade into the atoll pool at exactly the moment the sun hits the water.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Matheson+Hammock+Park+Miami"
+        "mapsUrl": "https://www.google.com/maps/search/Matheson+Hammock+Park+Miami",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "MIA-C-5",
@@ -897,7 +920,10 @@
         "spark": 15,
         "bonus": "Climb the Cape Florida Lighthouse and watch the sunset from the top lantern deck.",
         "city": "Miami, FL",
-        "mapsUrl": "https://www.google.com/maps/search/Bill+Baggs+Cape+Florida+State+Park+Key+Biscayne+FL"
+        "mapsUrl": "https://www.google.com/maps/search/Bill+Baggs+Cape+Florida+State+Park+Key+Biscayne+FL",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "MIA-C-1",

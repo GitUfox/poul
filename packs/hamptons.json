@@ -64,7 +64,8 @@
         "spark": 25,
         "bonus": "Pick three wineries max and spend a full hour at each one.",
         "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=North+Fork+Wine+Trail+Long+Island+NY"
+        "mapsUrl": "https://maps.google.com/?q=North+Fork+Wine+Trail+Long+Island+NY",
+        "adult": true
       },
       {
         "id": "HAM-A-101",
@@ -124,7 +125,10 @@
         "spark": 25,
         "bonus": "Paddle to the ocean-side beach access and watch the surf from the dune top.",
         "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=Georgica+Pond+East+Hampton+NY"
+        "mapsUrl": "https://maps.google.com/?q=Georgica+Pond+East+Hampton+NY",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "HAMP-A-04",
@@ -246,7 +250,8 @@
         "spark": 15,
         "bonus": "Order a flight of everything on tap before picking a pint.",
         "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=Montauk+Brewing+Company+NY"
+        "mapsUrl": "https://maps.google.com/?q=Montauk+Brewing+Company+NY",
+        "adult": true
       },
       {
         "id": "HAM-S-104",
@@ -261,7 +266,8 @@
         "spark": 25,
         "bonus": "Book a beach chair at the water's edge and stay until the bar closes.",
         "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=Gurney%27s+Montauk+Resort+NY"
+        "mapsUrl": "https://maps.google.com/?q=Gurney%27s+Montauk+Resort+NY",
+        "adult": true
       },
       {
         "id": "HAM-S-101",
@@ -291,7 +297,8 @@
         "spark": 25,
         "bonus": "Order a bottle from the cellar, not the by-the-glass list — the cellar is the real reason to come.",
         "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=American+Hotel+Sag+Harbor+NY"
+        "mapsUrl": "https://maps.google.com/?q=American+Hotel+Sag+Harbor+NY",
+        "adult": true
       },
       {
         "id": "HAMP-S-04",
@@ -670,7 +677,10 @@
         "spark": 25,
         "bonus": "Bring a bottle of Wölffer rosé on board — most cruises allow it.",
         "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=Peconic+Bay+Greenport+NY"
+        "mapsUrl": "https://maps.google.com/?q=Peconic+Bay+Greenport+NY",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "HAM-C-104",
@@ -730,7 +740,8 @@
         "spark": 40,
         "bonus": "Ask the sommelier to pour you something you can't pronounce — then guess the grape variety before they tell you.",
         "city": "The Hamptons, New York",
-        "mapsUrl": "https://www.google.com/maps/search/Wolffer+Estate+Vineyard+Sagaponack+NY"
+        "mapsUrl": "https://www.google.com/maps/search/Wolffer+Estate+Vineyard+Sagaponack+NY",
+        "adult": true
       },
       {
         "id": "HAMP-C-03",
@@ -760,7 +771,10 @@
         "spark": 15,
         "bonus": "Put your phone away for the entire duration of sunset — not airplane mode, fully in your bag — and just watch it go down.",
         "city": "The Hamptons, New York",
-        "mapsUrl": "https://www.google.com/maps/search/Camp+Hero+State+Park+Montauk+NY"
+        "mapsUrl": "https://www.google.com/maps/search/Camp+Hero+State+Park+Montauk+NY",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "HAMP-C-01",
@@ -775,7 +789,10 @@
         "spark": 15,
         "bonus": "Pick a book off the shelf you know nothing about, sit in the garden, and commit to reading the first 50 pages before you leave.",
         "city": "The Hamptons, New York",
-        "mapsUrl": "https://www.google.com/maps/search/East+Hampton+Library+NY"
+        "mapsUrl": "https://www.google.com/maps/search/East+Hampton+Library+NY",
+        "company": [
+          "solo"
+        ]
       }
     ],
     "foodie": [
@@ -897,7 +914,10 @@
         "spark": 40,
         "bonus": "Order the full lobster, not the roll — crack it yourself.",
         "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=Duryea%27s+Lobster+Deck+Montauk+NY"
+        "mapsUrl": "https://maps.google.com/?q=Duryea%27s+Lobster+Deck+Montauk+NY",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "HAM-F-105",
@@ -957,7 +977,10 @@
         "spark": 15,
         "bonus": "Buy enough for two people even if you're alone.",
         "city": "The Hamptons, NY",
-        "mapsUrl": "https://maps.google.com/?q=Sag+Harbor+Provisions+NY"
+        "mapsUrl": "https://maps.google.com/?q=Sag+Harbor+Provisions+NY",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "HAM-F-103",

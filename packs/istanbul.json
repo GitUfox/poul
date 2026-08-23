@@ -154,7 +154,10 @@
         "spark": 15,
         "bonus": "Stand at the very bow of the upper deck and don't hold the railing for the full crossing.",
         "city": "Istanbul, Turkey",
-        "mapsUrl": "https://www.google.com/maps/search/Eminönü+Ferry+Terminal+Istanbul"
+        "mapsUrl": "https://www.google.com/maps/search/Eminönü+Ferry+Terminal+Istanbul",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "ISTA-A-02",
@@ -216,7 +219,8 @@
         "spark": 25,
         "bonus": "Introduce yourself to the person sitting alone nearest the stage before the first set starts.",
         "city": "Istanbul, Türkiye",
-        "mapsUrl": "https://www.google.com/maps/search/Nardis+Jazz+Club+Galata+Istanbul"
+        "mapsUrl": "https://www.google.com/maps/search/Nardis+Jazz+Club+Galata+Istanbul",
+        "adult": true
       },
       {
         "id": "IST-S-07",
@@ -246,7 +250,8 @@
         "spark": 15,
         "bonus": "Stay for the first lights across the water.",
         "city": "Istanbul, Turkey",
-        "mapsUrl": "https://www.google.com/maps/search/rooftop+bar+Beyoğlu+Istanbul"
+        "mapsUrl": "https://www.google.com/maps/search/rooftop+bar+Beyoğlu+Istanbul",
+        "adult": true
       },
       {
         "id": "IST-S-06",
@@ -321,7 +326,8 @@
         "spark": 15,
         "bonus": "Point out and name every landmark visible from the terrace to whoever you're with — Google nothing.",
         "city": "Istanbul, Turkey",
-        "mapsUrl": "https://www.google.com/maps/search/360+Istanbul+Rooftop+Bar"
+        "mapsUrl": "https://www.google.com/maps/search/360+Istanbul+Rooftop+Bar",
+        "adult": true
       },
       {
         "id": "ISTA-S-03",
@@ -685,7 +691,10 @@
         "spark": 25,
         "bonus": "Hit at least three different meyhanes and order rakı with a meze at each — finish every glass.",
         "city": "Istanbul, Turkey",
-        "mapsUrl": "https://www.google.com/maps/search/Nevizade+Sokak+Beyoğlu+Istanbul"
+        "mapsUrl": "https://www.google.com/maps/search/Nevizade+Sokak+Beyoğlu+Istanbul",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "ISTA-F-03",
@@ -882,7 +891,10 @@
         "spark": 15,
         "bonus": "Climb to the highest accessible tower and stay until the first star appears — name it.",
         "city": "Istanbul, Turkey",
-        "mapsUrl": "https://www.google.com/maps/search/Yedikule+Fortress+Istanbul"
+        "mapsUrl": "https://www.google.com/maps/search/Yedikule+Fortress+Istanbul",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "ISTA-C-02",

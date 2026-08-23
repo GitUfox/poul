@@ -398,7 +398,8 @@
         "spark": 25,
         "bonus": "Arrive by water if you can, or befriend someone who did.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Foxy's%20Restaurant%20Fishers%20Landing%20NY"
+        "mapsUrl": "https://www.google.com/maps/search/Foxy's%20Restaurant%20Fishers%20Landing%20NY",
+        "adult": true
       },
       {
         "id": "TIUS-S-03",
@@ -428,7 +429,8 @@
         "spark": 25,
         "bonus": "Claim a fire-pit seat on the terrace before sunset and hold it.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/1000%20Islands%20Harbor%20Hotel%20Clayton%20NY"
+        "mapsUrl": "https://www.google.com/maps/search/1000%20Islands%20Harbor%20Hotel%20Clayton%20NY",
+        "adult": true
       },
       {
         "id": "TIUS-S-01",
@@ -443,7 +445,8 @@
         "spark": 25,
         "bonus": "Order a flight and pick the beer named after something on the river.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Wood%20Boat%20Brewery%20Clayton%20NY"
+        "mapsUrl": "https://www.google.com/maps/search/Wood%20Boat%20Brewery%20Clayton%20NY",
+        "adult": true
       },
       {
         "id": "TI-S-107",
@@ -458,7 +461,8 @@
         "spark": 15,
         "bonus": "Walk to the harbor after last call and sit on the dock until midnight.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Sackets+Harbor+Brewing+Company+NY"
+        "mapsUrl": "https://maps.google.com/?q=Sackets+Harbor+Brewing+Company+NY",
+        "adult": true
       },
       {
         "id": "TI-S-103",
@@ -473,7 +477,8 @@
         "spark": 15,
         "bonus": "Stay for the full set of whoever's playing and buy them a drink after.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Gananoque+Waterfront+Ontario+Canada"
+        "mapsUrl": "https://maps.google.com/?q=Gananoque+Waterfront+Ontario+Canada",
+        "adult": true
       },
       {
         "id": "TI-S-102",
@@ -488,7 +493,10 @@
         "spark": 25,
         "bonus": "Stand at the bow for the full sunset — don't stay at the dinner table for it.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Cruise+Alexandria+Bay+NY"
+        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Cruise+Alexandria+Bay+NY",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "TI-S-104",
@@ -503,7 +511,8 @@
         "spark": 15,
         "bonus": "Watch the last boat pass Boldt Castle before the lights come on.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Bonnie+Castle+Resort+Alexandria+Bay+NY"
+        "mapsUrl": "https://maps.google.com/?q=Bonnie+Castle+Resort+Alexandria+Bay+NY",
+        "adult": true
       },
       {
         "id": "TI-S-106",
@@ -518,7 +527,8 @@
         "spark": 15,
         "bonus": "Order the sampler flight and rank every beer.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Brewing+Clayton+NY"
+        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Brewing+Clayton+NY",
+        "adult": true
       },
       {
         "id": "TI-S-108",
@@ -548,7 +558,11 @@
         "spark": 25,
         "bonus": "Hit at least five different bars on the same block without repeating.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Princess+Street+Kingston+Ontario+Canada"
+        "mapsUrl": "https://maps.google.com/?q=Princess+Street+Kingston+Ontario+Canada",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "TI-S-101",
@@ -595,7 +609,10 @@
         "spark": 15,
         "bonus": "Find the historical room and read up on how the dressing actually got its name.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Flower%20Memorial%20Library%20Watertown%20NY"
+        "mapsUrl": "https://www.google.com/maps/search/Flower%20Memorial%20Library%20Watertown%20NY",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "TIUS-C-02",
@@ -625,7 +642,10 @@
         "spark": 15,
         "bonus": "Stay until the light actually comes on and the last boat clears the point.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Tibbetts%20Point%20Lighthouse%20Cape%20Vincent%20NY"
+        "mapsUrl": "https://www.google.com/maps/search/Tibbetts%20Point%20Lighthouse%20Cape%20Vincent%20NY",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "TI-C-107",
@@ -670,7 +690,10 @@
         "spark": 25,
         "bonus": "Bike or walk to the island's south shore and watch the ferry cross at sunset.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Wolfe+Island+Ontario+Canada"
+        "mapsUrl": "https://maps.google.com/?q=Wolfe+Island+Ontario+Canada",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "TI-C-101",
@@ -897,7 +920,8 @@
         "spark": 25,
         "bonus": "Buy a bottle of the ice wine and drink it that night watching the river.",
         "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Winery+Cape+Vincent+NY"
+        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Winery+Cape+Vincent+NY",
+        "adult": true
       },
       {
         "id": "TI-F-110",

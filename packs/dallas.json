@@ -139,7 +139,11 @@
         "spark": 20,
         "bonus": "Find your own neighborhood from up there before you leave",
         "city": "Dallas, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Reunion+Tower+GeO-Deck+Dallas"
+        "mapsUrl": "https://maps.google.com/maps/search/Reunion+Tower+GeO-Deck+Dallas",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "DAL-C-03",
@@ -171,7 +175,10 @@
         "spark": 15,
         "bonus": "Run the entire trail out-and-back without headphones — full sensory commitment.",
         "city": "Dallas, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Northaven+Trail+Dallas+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Northaven+Trail+Dallas+TX",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "DFW-AC-7",
@@ -276,7 +283,10 @@
         "spark": 13,
         "bonus": "Play a position you don't usually play",
         "city": "Dallas, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Reverchon+Park+Dallas"
+        "mapsUrl": "https://maps.google.com/maps/search/Reverchon+Park+Dallas",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "DAL-AC-02",
@@ -338,7 +348,8 @@
         "spark": 25,
         "bonus": "Stay until the lights come on at close — most people leave by 2 a.m. and the real set is just starting.",
         "city": "Dallas, TX",
-        "mapsUrl": "https://www.google.com/maps/search/It'll+Do+Club+Design+District+Dallas+TX"
+        "mapsUrl": "https://www.google.com/maps/search/It'll+Do+Club+Design+District+Dallas+TX",
+        "adult": true
       },
       {
         "id": "DFW-S-9",
@@ -353,7 +364,8 @@
         "spark": 25,
         "bonus": "Get pulled onstage — tip your performer $20 and make eye contact until it happens.",
         "city": "Dallas, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Sue+Ellen's+Oak+Lawn+Dallas+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Sue+Ellen's+Oak+Lawn+Dallas+TX",
+        "adult": true
       },
       {
         "id": "DFW-S-8",
@@ -368,7 +380,8 @@
         "spark": 15,
         "bonus": "Strike up a conversation with the act between sets and get them to dedicate a song to your table.",
         "city": "Dallas, TX",
-        "mapsUrl": "https://www.google.com/maps/search/The+Rustic+Maple+Avenue+Dallas+TX"
+        "mapsUrl": "https://www.google.com/maps/search/The+Rustic+Maple+Avenue+Dallas+TX",
+        "adult": true
       },
       {
         "id": "DFW-S-7",
@@ -383,7 +396,11 @@
         "spark": 15,
         "bonus": "Wager your tab on the final round — if you lose, you buy a round for the winning table.",
         "city": "Dallas, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Strangeways+Deep+Ellum+Dallas+TX"
+        "mapsUrl": "https://www.google.com/maps/search/Strangeways+Deep+Ellum+Dallas+TX",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "DFW-S-6",
@@ -413,7 +430,8 @@
         "spark": 15,
         "bonus": "Challenge a stranger to a game of 9-ball and play for a round of drinks.",
         "city": "Dallas, TX",
-        "mapsUrl": "https://www.google.com/maps/search/The+Billiard+Bar+Lower+Greenville+Dallas+TX"
+        "mapsUrl": "https://www.google.com/maps/search/The+Billiard+Bar+Lower+Greenville+Dallas+TX",
+        "adult": true
       },
       {
         "id": "DFW-S-4",
@@ -428,7 +446,11 @@
         "spark": 15,
         "bonus": "Start a conversation with the bartender at your second stop and let them decide where you go next.",
         "city": "Dallas, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Cedar+Springs+Road+Oak+Lawn+Dallas"
+        "mapsUrl": "https://www.google.com/maps/search/Cedar+Springs+Road+Oak+Lawn+Dallas",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "DFW-S-3",
@@ -473,7 +495,8 @@
         "spark": 15,
         "bonus": "Strike up a conversation with someone at the bar, find out one genuinely surprising thing about them, and remember their name when you leave.",
         "city": "Dallas, TX",
-        "mapsUrl": "https://www.google.com/maps/search/HG+Sply+Co+Dallas+TX"
+        "mapsUrl": "https://www.google.com/maps/search/HG+Sply+Co+Dallas+TX",
+        "adult": true
       },
       {
         "id": "DAL-S-03",
@@ -503,7 +526,11 @@
         "spark": 15,
         "bonus": "Let the newest member of your group name the team",
         "city": "Dallas, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Truck+Yard+Dallas"
+        "mapsUrl": "https://maps.google.com/maps/search/Truck+Yard+Dallas",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "DAL-S-02",
@@ -518,7 +545,11 @@
         "spark": 16,
         "bonus": "Try the dive bar you always drive past but never stop at",
         "city": "Dallas, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Lower+Greenville+Avenue+Dallas"
+        "mapsUrl": "https://maps.google.com/maps/search/Lower+Greenville+Avenue+Dallas",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "DAL-S-04",
@@ -533,7 +564,8 @@
         "spark": 16,
         "bonus": "Sit close enough that you might get called on",
         "city": "Dallas, TX",
-        "mapsUrl": "https://maps.google.com/maps/search/Hyenas+Comedy+Nightclub+Dallas"
+        "mapsUrl": "https://maps.google.com/maps/search/Hyenas+Comedy+Nightclub+Dallas",
+        "adult": true
       }
     ],
     "foodie": [
@@ -610,7 +642,8 @@
         "spark": 25,
         "bonus": "Tell the bartender your mood in three words and let them build you something completely off-menu.",
         "city": "Dallas, TX",
-        "mapsUrl": "https://www.google.com/maps/search/Parliament+Bar+Design+District+Dallas"
+        "mapsUrl": "https://www.google.com/maps/search/Parliament+Bar+Design+District+Dallas",
+        "adult": true
       },
       {
         "id": "DFW-F-7",

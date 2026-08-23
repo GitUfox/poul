@@ -79,7 +79,8 @@
         "spark": 25,
         "bonus": "Pick a record you've never heard, hand it to the bartender, and buy whoever reacts first a drink.",
         "city": "Bergen & Voss, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Apollon+Platebar+Bergen"
+        "mapsUrl": "https://www.google.com/maps/search/Apollon+Platebar+Bergen",
+        "adult": true
       },
       {
         "id": "NOR-S-104",
@@ -94,7 +95,8 @@
         "spark": 15,
         "bonus": "Find out what's happening in the building tonight and, if it sounds interesting, stay for it.",
         "city": "Bergen & Voss, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Kulturhuset+Bergen"
+        "mapsUrl": "https://www.google.com/maps/search/Kulturhuset+Bergen",
+        "adult": true
       },
       {
         "id": "NOR-S-103",
@@ -124,7 +126,8 @@
         "spark": 15,
         "bonus": "Order a glass of something you've never heard of — point at the list blind and commit.",
         "city": "Bergen & Voss, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Altona+Vinbar+Bergen+Norway"
+        "mapsUrl": "https://www.google.com/maps/search/Altona+Vinbar+Bergen+Norway",
+        "adult": true
       },
       {
         "id": "NOR-S-101",
@@ -169,7 +172,8 @@
         "spark": 15,
         "bonus": "Ask the bartender what they're most proud of brewing right now. Order that.",
         "city": "Bergen, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/7+Fjell+Bryggeri+taproom+Bergen+Norway"
+        "mapsUrl": "https://www.google.com/maps/search/7+Fjell+Bryggeri+taproom+Bergen+Norway",
+        "adult": true
       },
       {
         "id": "NOR-S-03",
@@ -184,7 +188,11 @@
         "spark": 15,
         "bonus": "Have at least one real conversation with a stranger at every stop. Not small talk — something real.",
         "city": "Bergen, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Nygårdsgate+bar+strip+Bergen+Norway"
+        "mapsUrl": "https://www.google.com/maps/search/Nygårdsgate+bar+strip+Bergen+Norway",
+        "company": [
+          "group"
+        ],
+        "adult": true
       }
     ],
     "active": [
@@ -428,7 +436,10 @@
         "spark": 25,
         "bonus": "Ask the waiter to name the exact boat that caught tonight's fish — the answer will surprise you.",
         "city": "Bergen & Voss, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Enhjørningen+Restaurant+Bergen"
+        "mapsUrl": "https://www.google.com/maps/search/Enhjørningen+Restaurant+Bergen",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "NOR-F-107",
@@ -580,7 +591,10 @@
         "spark": 15,
         "bonus": "Count the exact number of steps on your way up — locals insist the official number is wrong.",
         "city": "Bergen & Voss, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Stoltzekleiven+Bergen"
+        "mapsUrl": "https://www.google.com/maps/search/Stoltzekleiven+Bergen",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "NOR-C-107",

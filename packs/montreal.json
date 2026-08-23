@@ -353,7 +353,8 @@
         "spark": 15,
         "bonus": "Order in French the entire night — no switching to English no matter how easy it would be.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/Quai+des+Brumes+Montreal"
+        "mapsUrl": "https://www.google.com/maps/search/Quai+des+Brumes+Montreal",
+        "adult": true
       },
       {
         "id": "YUL-A-106",
@@ -368,7 +369,8 @@
         "spark": 25,
         "bonus": "Get to the front rail before the headliner starts and hold your position for the whole set.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/L'Escogriffe+Montreal"
+        "mapsUrl": "https://www.google.com/maps/search/L'Escogriffe+Montreal",
+        "adult": true
       },
       {
         "id": "YUL-S-11",
@@ -413,7 +415,8 @@
         "spark": 15,
         "bonus": "Ask the bartender what's on cask right now and order that instead of whatever you had in mind.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dieu+du+Ciel+Montreal"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dieu+du+Ciel+Montreal",
+        "adult": true
       },
       {
         "id": "YUL-S-8",
@@ -443,7 +446,8 @@
         "spark": 15,
         "bonus": "Get to the front of the room before the headliner starts and stay there the whole set.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Le+Ritz+PDB+Montreal"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Le+Ritz+PDB+Montreal",
+        "adult": true
       },
       {
         "id": "YUL-S-5",
@@ -488,7 +492,8 @@
         "spark": 24,
         "bonus": "Let the bartender build you something off-menu at every stop.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://maps.google.com/maps/search/Mile+End+Montreal"
+        "mapsUrl": "https://maps.google.com/maps/search/Mile+End+Montreal",
+        "adult": true
       },
       {
         "id": "MTL-S-01",
@@ -518,7 +523,8 @@
         "spark": 22,
         "bonus": "Sit at the bar closest to the stage instead of a table in back.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://maps.google.com/maps/search/Upstairs+Jazz+Bar+and+Grill+Montreal"
+        "mapsUrl": "https://maps.google.com/maps/search/Upstairs+Jazz+Bar+and+Grill+Montreal",
+        "adult": true
       }
     ],
     "chill": [
@@ -550,7 +556,8 @@
         "spark": 25,
         "bonus": "Tell the server you want no menu — just let the kitchen send whatever they feel like tonight, and say yes to every wine pairing.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Vin+Papillon+Montreal"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Vin+Papillon+Montreal",
+        "adult": true
       },
       {
         "id": "YUL-C-11",
@@ -595,7 +602,10 @@
         "spark": 15,
         "bonus": "Stop at the exact center of the bridge and stay there for five full minutes watching the water below.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jacques+Cartier+Bridge+pedestrian+Montreal"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jacques+Cartier+Bridge+pedestrian+Montreal",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "YUL-C-8",
@@ -610,7 +620,10 @@
         "spark": 15,
         "bonus": "Pick one piece, sit in front of it for ten uninterrupted minutes, and form one real opinion about it.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+des+Beaux-Arts+de+Montr%C3%A9al"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+des+Beaux-Arts+de+Montr%C3%A9al",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "YUL-C-7",
@@ -700,7 +713,10 @@
         "spark": 12,
         "bonus": "Stay until the city lights fully switch on below you.",
         "city": "Montreal, QC",
-        "mapsUrl": "https://maps.google.com/maps/search/Parc+du+Mont-Royal+Montreal"
+        "mapsUrl": "https://maps.google.com/maps/search/Parc+du+Mont-Royal+Montreal",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "MTL-C-03",

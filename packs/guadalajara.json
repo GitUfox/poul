@@ -49,7 +49,10 @@
         "spark": 15,
         "bonus": "Buy a stranger's section a round of peanuts.",
         "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Estadio+Panamericano+de+Beisbol+Charros+Zapopan"
+        "mapsUrl": "https://maps.google.com/maps/search/Estadio+Panamericano+de+Beisbol+Charros+Zapopan",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "GDL-S-301",
@@ -169,7 +172,11 @@
         "spark": 25,
         "bonus": "Strike up a conversation with a stranger at the bar and get a local restaurant recommendation you've never heard of.",
         "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Hotel+Demetria+Guadalajara"
+        "mapsUrl": "https://www.google.com/maps/search/Hotel+Demetria+Guadalajara",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "GDL-S-4",
@@ -184,7 +191,8 @@
         "spark": 15,
         "bonus": "Challenge the table next to you to a round — loser buys the next pitcher.",
         "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Cervecería+Chapultepec+Guadalajara"
+        "mapsUrl": "https://www.google.com/maps/search/Cervecería+Chapultepec+Guadalajara",
+        "adult": true
       },
       {
         "id": "GDL-S-3",
@@ -214,7 +222,8 @@
         "spark": 15,
         "bonus": "Walk into whichever cantina is loudest, sit at the bar, and order whatever the person next to you is drinking.",
         "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Calle+Maestranza+Guadalajara"
+        "mapsUrl": "https://www.google.com/maps/search/Calle+Maestranza+Guadalajara",
+        "adult": true
       }
     ],
     "foodie": [
@@ -366,7 +375,8 @@
         "spark": 25,
         "bonus": "Ask the bartender what the oldest mezcal in the house is, then order two glasses — one for you, one for whoever is sitting nearest.",
         "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/La+Fuente+Cantina+Guadalajara"
+        "mapsUrl": "https://www.google.com/maps/search/La+Fuente+Cantina+Guadalajara",
+        "adult": true
       },
       {
         "id": "GDL-F-1",
@@ -443,7 +453,10 @@
         "spark": 15,
         "bonus": "Pull a book at random from the open stacks — read the first page out loud to yourself in a whisper.",
         "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Biblioteca+Iberoamericana+Octavio+Paz+Guadalajara"
+        "mapsUrl": "https://www.google.com/maps/search/Biblioteca+Iberoamericana+Octavio+Paz+Guadalajara",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "GDL-C-201",
@@ -578,7 +591,11 @@
         "spark": 25,
         "bonus": "Strike up a conversation with whoever is sitting alone at the bar — buy them one drink.",
         "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Hotel+Morales+Terraza+Guadalajara"
+        "mapsUrl": "https://www.google.com/maps/search/Hotel+Morales+Terraza+Guadalajara",
+        "company": [
+          "couple"
+        ],
+        "adult": true
       },
       {
         "id": "GDL-C-2",
@@ -790,7 +807,8 @@
         "spark": 25,
         "bonus": "Skip the tourist distilleries and walk into a small family taberna on the outskirts — ask for a taste straight from the still.",
         "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Tequila+Jalisco+Mexico"
+        "mapsUrl": "https://www.google.com/maps/search/Tequila+Jalisco+Mexico",
+        "adult": true
       },
       {
         "id": "GDL-A-3",
@@ -897,7 +915,10 @@
         "spark": 15,
         "bonus": "Stop at a street cart and eat something you've never tried before — ask the vendor what their personal favorite is.",
         "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Paseo+Chapultepec+Guadalajara"
+        "mapsUrl": "https://www.google.com/maps/search/Paseo+Chapultepec+Guadalajara",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "GDL-AC-1",

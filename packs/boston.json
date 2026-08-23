@@ -34,7 +34,8 @@
         "spark": 25,
         "bonus": "Ask the sommelier to pick a natural Italian white you've never heard of and trust them completely.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Bricco+North+End+Boston"
+        "mapsUrl": "https://www.google.com/maps/search/Bricco+North+End+Boston",
+        "adult": true
       },
       {
         "id": "BOS-F-11",
@@ -246,7 +247,10 @@
         "spark": 25,
         "bonus": "Find your birth month's corresponding glass flower and take a photo with it.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Harvard+Museum+of+Natural+History+Cambridge"
+        "mapsUrl": "https://www.google.com/maps/search/Harvard+Museum+of+Natural+History+Cambridge",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "BOS-C-8",
@@ -261,7 +265,10 @@
         "spark": 15,
         "bonus": "Walk the full perimeter loop of the island without stopping, then reward yourself with a cone from Sullivan's.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Castle+Island+South+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Castle+Island+South+Boston+MA",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "BOS-C-7",
@@ -276,7 +283,10 @@
         "spark": 15,
         "bonus": "Sit in Bates Hall with a book for at least 30 minutes and pretend you belong there — because you do.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Boston+Public+Library+Copley+Square"
+        "mapsUrl": "https://www.google.com/maps/search/Boston+Public+Library+Copley+Square",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "BOS-C-6",
@@ -291,7 +301,10 @@
         "spark": 15,
         "bonus": "Ask a staff member to recommend their current personal favorite and buy it on the spot.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Trident+Booksellers+Cafe+Newbury+Street+Boston"
+        "mapsUrl": "https://www.google.com/maps/search/Trident+Booksellers+Cafe+Newbury+Street+Boston",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "BOS-C-5",
@@ -366,7 +379,10 @@
         "spark": 15,
         "bonus": "Stay until the first star appears and point it out to a stranger before leaving.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Charles+River+Esplanade+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Charles+River+Esplanade+Boston+MA",
+        "company": [
+          "couple"
+        ]
       }
     ],
     "social": [
@@ -398,7 +414,8 @@
         "spark": 25,
         "bonus": "Tell the bartender only your mood and a single flavor you hate — let them do the rest without any other input.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Drink+Fort+Point+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Drink+Fort+Point+Boston+MA",
+        "adult": true
       },
       {
         "id": "BOS-S-11",
@@ -458,7 +475,8 @@
         "spark": 15,
         "bonus": "Order the large scorpion bowl for two and finish it with a stranger — find your tablemate at the bar.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Hong+Kong+Restaurant+Harvard+Square+Cambridge+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Hong+Kong+Restaurant+Harvard+Square+Cambridge+MA",
+        "adult": true
       },
       {
         "id": "BOS-S-6",
@@ -473,7 +491,8 @@
         "spark": 25,
         "bonus": "Sit at the bar, order a neat whiskey, and don't look at your phone for the entire first set.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Scullers+Jazz+Club+Allston+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Scullers+Jazz+Club+Allston+Boston+MA",
+        "adult": true
       },
       {
         "id": "BOS-S-5",
@@ -488,7 +507,8 @@
         "spark": 15,
         "bonus": "Get a stranger at the bar to admit they've never seen the show, then buy them a beer.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Bull+and+Finch+Pub+Beacon+Hill+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Bull+and+Finch+Pub+Beacon+Hill+Boston+MA",
+        "adult": true
       },
       {
         "id": "BOS-S-4",
@@ -518,7 +538,10 @@
         "spark": 15,
         "bonus": "Perform a song in a language you don't speak — phonetically, with full commitment.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Limelight+Stage+and+Studios+Boston"
+        "mapsUrl": "https://www.google.com/maps/search/Limelight+Stage+and+Studios+Boston",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "BOS-S-2",
@@ -533,7 +556,8 @@
         "spark": 15,
         "bonus": "Challenge the table next to you to a blind taste test — swap mystery pints and guess the style.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Trillium+Brewing+Fort+Point+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Trillium+Brewing+Fort+Point+Boston+MA",
+        "adult": true
       },
       {
         "id": "BOS-S-1",
@@ -548,7 +572,8 @@
         "spark": 15,
         "bonus": "Buy a drink for whichever musician is playing during the set break and tell them specifically what you liked.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/The+Beehive+South+End+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/The+Beehive+South+End+Boston+MA",
+        "adult": true
       }
     ],
     "active": [
@@ -625,7 +650,10 @@
         "spark": 15,
         "bonus": "Call next game within five minutes of arriving and don't leave until you've won one.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Charlesbank+Playground+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Charlesbank+Playground+Boston+MA",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "BOS-AC-7",
@@ -762,7 +790,10 @@
         "spark": 40,
         "bonus": "Stand in the Dutch Room and spend five minutes staring at the empty frames left after the 1990 heist — the greatest art theft in history, still unsolved.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Isabella+Stewart+Gardner+Museum+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Isabella+Stewart+Gardner+Museum+Boston+MA",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "BOS-A-10",
@@ -777,7 +808,10 @@
         "spark": 25,
         "bonus": "Score a seat on top of the Green Monster and high-five every stranger around you after a home run.",
         "city": "Boston, MA",
-        "mapsUrl": "https://www.google.com/maps/search/Fenway+Park+Boston+MA"
+        "mapsUrl": "https://www.google.com/maps/search/Fenway+Park+Boston+MA",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "BOS-A-9",

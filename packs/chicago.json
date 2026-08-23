@@ -34,7 +34,8 @@
         "spark": 15,
         "bonus": "Find the exact spot where you can see both Wrigley Field and Soldier Field in one glance and photograph them in a single frame.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/Signature+Lounge+John+Hancock+Center+Chicago"
+        "mapsUrl": "https://www.google.com/maps/search/Signature+Lounge+John+Hancock+Center+Chicago",
+        "adult": true
       },
       {
         "id": "ORD-A-11",
@@ -216,7 +217,10 @@
         "spark": 15,
         "bonus": "Join a game with strangers — introduce yourself only after the first point.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/North+Avenue+Beach+volleyball+Chicago"
+        "mapsUrl": "https://www.google.com/maps/search/North+Avenue+Beach+volleyball+Chicago",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "ORD-AC-12",
@@ -306,7 +310,10 @@
         "spark": 15,
         "bonus": "Call 'next' within five minutes of arriving — don't wait to be invited in.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/Oz+Park+Basketball+Courts+Chicago"
+        "mapsUrl": "https://www.google.com/maps/search/Oz+Park+Basketball+Courts+Chicago",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "ORD-AC-2",
@@ -473,7 +480,10 @@
         "spark": 15,
         "bonus": "Find the 9th floor Winter Garden, claim the best chair, and read something you found in the stacks — no screens.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/Harold+Washington+Library+Center+Chicago"
+        "mapsUrl": "https://www.google.com/maps/search/Harold+Washington+Library+Center+Chicago",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "ORD-C-5",
@@ -533,7 +543,10 @@
         "spark": 15,
         "bonus": "Pick one painting, sit in front of it for 15 uninterrupted minutes, and be able to describe exactly what's happening in it afterward.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/Art+Institute+of+Chicago+Modern+Wing"
+        "mapsUrl": "https://www.google.com/maps/search/Art+Institute+of+Chicago+Modern+Wing",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "ORD-C-1",
@@ -595,7 +608,8 @@
         "spark": 15,
         "bonus": "Sit in the front two rows and make direct eye contact with every comic who takes the stage.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/Zanies+Comedy+Club+Old+Town+Chicago"
+        "mapsUrl": "https://www.google.com/maps/search/Zanies+Comedy+Club+Old+Town+Chicago",
+        "adult": true
       },
       {
         "id": "ORD-S-8",
@@ -625,7 +639,11 @@
         "spark": 15,
         "bonus": "Convince a stranger at the bar to join your team and let them answer the tiebreaker alone.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/Sheffield's+Beer+Wine+Garden+Lakeview+Chicago"
+        "mapsUrl": "https://www.google.com/maps/search/Sheffield's+Beer+Wine+Garden+Lakeview+Chicago",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "ORD-S-6",
@@ -655,7 +673,8 @@
         "spark": 40,
         "bonus": "Claim Capone's booth — the one with sightlines to both doors — and don't give it up all night.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/Green+Mill+Cocktail+Lounge+Chicago"
+        "mapsUrl": "https://www.google.com/maps/search/Green+Mill+Cocktail+Lounge+Chicago",
+        "adult": true
       },
       {
         "id": "ORD-S-3",
@@ -700,7 +719,8 @@
         "spark": 15,
         "bonus": "Buy a drink for the musician closest to you between sets and ask them where they play when they're not here.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/Andy's+Jazz+Club+Chicago"
+        "mapsUrl": "https://www.google.com/maps/search/Andy's+Jazz+Club+Chicago",
+        "adult": true
       },
       {
         "id": "CHI-S-02",
@@ -730,7 +750,11 @@
         "spark": 14,
         "bonus": "Challenge a stranger to a pinball rematch",
         "city": "Chicago, IL",
-        "mapsUrl": "https://maps.google.com/maps/search/Emporium+Arcade+Bar+Wicker+Park+Chicago"
+        "mapsUrl": "https://maps.google.com/maps/search/Emporium+Arcade+Bar+Wicker+Park+Chicago",
+        "company": [
+          "group"
+        ],
+        "adult": true
       }
     ],
     "foodie": [
@@ -762,7 +786,8 @@
         "spark": 25,
         "bonus": "Tell the bartender your mood, not your order — let them build something for you completely blind.",
         "city": "Chicago, IL",
-        "mapsUrl": "https://www.google.com/maps/search/The+Violet+Hour+Wicker+Park+Chicago"
+        "mapsUrl": "https://www.google.com/maps/search/The+Violet+Hour+Wicker+Park+Chicago",
+        "adult": true
       },
       {
         "id": "ORD-F-10",

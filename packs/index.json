@@ -1,17 +1,157 @@
 {
   "packs": [
     {
-      "id": "sedona",
-      "name": "Sedona",
-      "location": "Arizona",
-      "emoji": "🏜️",
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "location": "Pennsylvania",
+      "emoji": "🔔",
       "cardCount": 60
     },
     {
-      "id": "flagstaff",
-      "name": "Flagstaff",
-      "location": "Arizona",
+      "id": "houston",
+      "name": "Houston",
+      "location": "Texas",
+      "emoji": "🚀",
+      "cardCount": 60
+    },
+    {
+      "id": "dallas",
+      "name": "Dallas",
+      "location": "Texas",
+      "emoji": "🤠",
+      "cardCount": 60
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "location": "Georgia",
+      "emoji": "🍑",
+      "cardCount": 60
+    },
+    {
+      "id": "cancun",
+      "name": "Cancún",
+      "location": "Quintana Roo · Mexico",
+      "emoji": "🏝️",
+      "cardCount": 60
+    },
+    {
+      "id": "guadalajara",
+      "name": "Guadalajara",
+      "location": "Jalisco · Mexico",
+      "emoji": "🎺",
+      "cardCount": 60
+    },
+    {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "location": "Mexico",
+      "emoji": "🦅",
+      "cardCount": 60
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver",
+      "location": "British Columbia",
       "emoji": "🌲",
+      "cardCount": 60
+    },
+    {
+      "id": "montreal",
+      "name": "Montréal",
+      "location": "Québec",
+      "emoji": "🥐",
+      "cardCount": 60
+    },
+    {
+      "id": "toronto",
+      "name": "Toronto",
+      "location": "Ontario",
+      "emoji": "🍁",
+      "cardCount": 60
+    },
+    {
+      "id": "boston",
+      "name": "Boston",
+      "location": "Massachusetts",
+      "emoji": "🦞",
+      "cardCount": 60
+    },
+    {
+      "id": "new-orleans",
+      "name": "New Orleans",
+      "location": "Louisiana",
+      "emoji": "⚜️",
+      "cardCount": 60
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "location": "California",
+      "emoji": "🏄",
+      "cardCount": 60
+    },
+    {
+      "id": "nashville",
+      "name": "Nashville",
+      "location": "Tennessee",
+      "emoji": "🎸",
+      "cardCount": 60
+    },
+    {
+      "id": "austin",
+      "name": "Austin",
+      "location": "Texas",
+      "emoji": "🦇",
+      "cardCount": 60
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "location": "Colorado",
+      "emoji": "⛰️",
+      "cardCount": 61
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "location": "Washington",
+      "emoji": "☕",
+      "cardCount": 60
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "location": "California",
+      "emoji": "🌉",
+      "cardCount": 60
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "location": "Florida",
+      "emoji": "🦩",
+      "cardCount": 60
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "location": "Nevada",
+      "emoji": "🎰",
+      "cardCount": 60
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "location": "Illinois",
+      "emoji": "🌭",
+      "cardCount": 60
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "location": "California",
+      "emoji": "🌴",
       "cardCount": 60
     },
     {
@@ -29,13 +169,6 @@
       "cardCount": 62
     },
     {
-      "id": "hamptons",
-      "name": "The Hamptons",
-      "location": "New York",
-      "emoji": "🏖️",
-      "cardCount": 67
-    },
-    {
       "id": "tokyo",
       "name": "Tokyo",
       "location": "Japan",
@@ -43,18 +176,11 @@
       "cardCount": 61
     },
     {
-      "id": "bangkok",
-      "name": "Bangkok",
-      "location": "Thailand",
-      "emoji": "🛕",
-      "cardCount": 63
-    },
-    {
-      "id": "oslo",
-      "name": "Oslo",
-      "location": "Norway",
-      "emoji": "🏔️",
-      "cardCount": 60
+      "id": "baltimore",
+      "name": "Baltimore",
+      "location": "Maryland",
+      "emoji": "🦀",
+      "cardCount": 62
     },
     {
       "id": "paris",
@@ -64,31 +190,17 @@
       "cardCount": 62
     },
     {
-      "id": "istanbul",
-      "name": "Istanbul",
-      "location": "Türkiye",
-      "emoji": "🕌",
-      "cardCount": 60
+      "id": "bangkok",
+      "name": "Bangkok",
+      "location": "Thailand",
+      "emoji": "🛕",
+      "cardCount": 63
     },
     {
       "id": "brussels",
       "name": "Brussels",
       "location": "Belgium",
       "emoji": "🍺",
-      "cardCount": 62
-    },
-    {
-      "id": "ocean-city",
-      "name": "Ocean City",
-      "location": "Maryland",
-      "emoji": "🌊",
-      "cardCount": 60
-    },
-    {
-      "id": "baltimore",
-      "name": "Baltimore",
-      "location": "Maryland",
-      "emoji": "🦀",
       "cardCount": 62
     },
     {
@@ -99,11 +211,39 @@
       "cardCount": 60
     },
     {
-      "id": "phoenix",
-      "name": "Phoenix · Scottsdale",
+      "id": "istanbul",
+      "name": "Istanbul",
+      "location": "Türkiye",
+      "emoji": "🕌",
+      "cardCount": 60
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "location": "Norway",
+      "emoji": "🏔️",
+      "cardCount": 60
+    },
+    {
+      "id": "ocean-city",
+      "name": "Ocean City",
+      "location": "Maryland",
+      "emoji": "🌊",
+      "cardCount": 60
+    },
+    {
+      "id": "flagstaff",
+      "name": "Flagstaff",
       "location": "Arizona",
-      "emoji": "🌵",
-      "cardCount": 86
+      "emoji": "🌲",
+      "cardCount": 60
+    },
+    {
+      "id": "sedona",
+      "name": "Sedona",
+      "location": "Arizona",
+      "emoji": "🏜️",
+      "cardCount": 60
     },
     {
       "id": "turkey",
@@ -120,158 +260,18 @@
       "cardCount": 60
     },
     {
-      "id": "los-angeles",
-      "name": "Los Angeles",
-      "location": "California",
-      "emoji": "🌴",
-      "cardCount": 60
+      "id": "hamptons",
+      "name": "The Hamptons",
+      "location": "New York",
+      "emoji": "🏖️",
+      "cardCount": 67
     },
     {
-      "id": "chicago",
-      "name": "Chicago",
-      "location": "Illinois",
-      "emoji": "🌭",
-      "cardCount": 60
-    },
-    {
-      "id": "las-vegas",
-      "name": "Las Vegas",
-      "location": "Nevada",
-      "emoji": "🎰",
-      "cardCount": 60
-    },
-    {
-      "id": "miami",
-      "name": "Miami",
-      "location": "Florida",
-      "emoji": "🦩",
-      "cardCount": 60
-    },
-    {
-      "id": "san-francisco",
-      "name": "San Francisco",
-      "location": "California",
-      "emoji": "🌉",
-      "cardCount": 60
-    },
-    {
-      "id": "seattle",
-      "name": "Seattle",
-      "location": "Washington",
-      "emoji": "☕",
-      "cardCount": 60
-    },
-    {
-      "id": "denver",
-      "name": "Denver",
-      "location": "Colorado",
-      "emoji": "⛰️",
-      "cardCount": 61
-    },
-    {
-      "id": "austin",
-      "name": "Austin",
-      "location": "Texas",
-      "emoji": "🦇",
-      "cardCount": 60
-    },
-    {
-      "id": "nashville",
-      "name": "Nashville",
-      "location": "Tennessee",
-      "emoji": "🎸",
-      "cardCount": 60
-    },
-    {
-      "id": "san-diego",
-      "name": "San Diego",
-      "location": "California",
-      "emoji": "🏄",
-      "cardCount": 60
-    },
-    {
-      "id": "new-orleans",
-      "name": "New Orleans",
-      "location": "Louisiana",
-      "emoji": "⚜️",
-      "cardCount": 60
-    },
-    {
-      "id": "boston",
-      "name": "Boston",
-      "location": "Massachusetts",
-      "emoji": "🦞",
-      "cardCount": 60
-    },
-    {
-      "id": "toronto",
-      "name": "Toronto",
-      "location": "Ontario",
-      "emoji": "🍁",
-      "cardCount": 60
-    },
-    {
-      "id": "montreal",
-      "name": "Montréal",
-      "location": "Québec",
-      "emoji": "🥐",
-      "cardCount": 60
-    },
-    {
-      "id": "vancouver",
-      "name": "Vancouver",
-      "location": "British Columbia",
-      "emoji": "🌲",
-      "cardCount": 60
-    },
-    {
-      "id": "mexico-city",
-      "name": "Mexico City",
-      "location": "Mexico",
-      "emoji": "🦅",
-      "cardCount": 60
-    },
-    {
-      "id": "guadalajara",
-      "name": "Guadalajara",
-      "location": "Jalisco · Mexico",
-      "emoji": "🎺",
-      "cardCount": 60
-    },
-    {
-      "id": "cancun",
-      "name": "Cancún",
-      "location": "Quintana Roo · Mexico",
-      "emoji": "🏝️",
-      "cardCount": 60
-    },
-    {
-      "id": "atlanta",
-      "name": "Atlanta",
-      "location": "Georgia",
-      "emoji": "🍑",
-      "cardCount": 60
-    },
-    {
-      "id": "dallas",
-      "name": "Dallas",
-      "location": "Texas",
-      "emoji": "🤠",
-      "cardCount": 60
-    },
-    {
-      "id": "houston",
-      "name": "Houston",
-      "location": "Texas",
-      "emoji": "🚀",
-      "cardCount": 60
-    },
-    {
-      "id": "philadelphia",
-      "name": "Philadelphia",
-      "location": "Pennsylvania",
-      "emoji": "🔔",
-      "cardCount": 60
+      "id": "phoenix",
+      "name": "Phoenix · Scottsdale",
+      "location": "Arizona",
+      "emoji": "🌵",
+      "cardCount": 86
     }
   ]
 }

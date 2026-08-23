@@ -216,7 +216,10 @@
         "spark": 25,
         "bonus": "Add the wine pairing and identify each varietal before the sommelier reveals it.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Jeune+et+Jolie+Carlsbad+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Jeune+et+Jolie+Carlsbad+San+Diego",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "SAN-F-11",
@@ -336,7 +339,11 @@
         "spark": 15,
         "bonus": "At each stop, order something you've never heard of — no safe choices, no IPAs if that's your default.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/North+Park+San+Diego+craft+beer"
+        "mapsUrl": "https://www.google.com/maps/search/North+Park+San+Diego+craft+beer",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "SAN-F-2",
@@ -458,7 +465,10 @@
         "spark": 15,
         "bonus": "Challenge the winning team to a game and actually show up — don't drift to the sideline.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Mission+Beach+Volleyball+Courts+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Mission+Beach+Volleyball+Courts+San+Diego",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "SAN-AC-6",
@@ -565,7 +575,8 @@
         "spark": 15,
         "bonus": "Set an initials-worthy score on any machine before last call.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Coin-Op+Game+Room+North+Park+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Coin-Op+Game+Room+North+Park+San+Diego",
+        "adult": true
       },
       {
         "id": "SAN-S-201",
@@ -580,7 +591,8 @@
         "spark": 15,
         "bonus": "Ask the bartender for the rarest thing on tap and split it with whoever's next to you.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Hamilton's+Tavern+South+Park+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Hamilton's+Tavern+South+Park+San+Diego",
+        "adult": true
       },
       {
         "id": "SAN-S-12",
@@ -640,7 +652,8 @@
         "spark": 15,
         "bonus": "Eat at a restaurant where you don't speak the same language as your server — order by pointing.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Little+Italy+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Little+Italy+San+Diego",
+        "adult": true
       },
       {
         "id": "SAN-S-6",
@@ -655,7 +668,8 @@
         "spark": 25,
         "bonus": "Ask the bartender to make you whatever they're most proud of right now — no menu, full trust.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Polite+Provisions+North+Park+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Polite+Provisions+North+Park+San+Diego",
+        "adult": true
       },
       {
         "id": "SAN-S-5",
@@ -685,7 +699,8 @@
         "spark": 25,
         "bonus": "Ask someone you've never met to dance within your first 10 minutes on the floor.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Nightclub+Sevilla+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Nightclub+Sevilla+San+Diego",
+        "adult": true
       },
       {
         "id": "SAN-S-3",
@@ -700,7 +715,11 @@
         "spark": 15,
         "bonus": "Buy a round for a table of strangers at the third bar you visit — no context, just generosity.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Gaslamp+Quarter+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Gaslamp+Quarter+San+Diego",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "SAN-S-2",
@@ -715,7 +734,8 @@
         "spark": 15,
         "bonus": "Strike up a conversation with strangers at the bar and find out where they're from within the first two minutes.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/The+Nolen+Rooftop+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/The+Nolen+Rooftop+San+Diego",
+        "adult": true
       },
       {
         "id": "SAN-S-1",
@@ -837,7 +857,10 @@
         "spark": 15,
         "bonus": "Stay until the first city lights flicker on across the bay and photograph only with your eyes — no phone.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Centennial+Park+Coronado+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Centennial+Park+Coronado+San+Diego",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "SAN-C-5",
@@ -912,7 +935,10 @@
         "spark": 15,
         "bonus": "Stay until the sun is fully below the horizon without checking your phone once.",
         "city": "San Diego, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Cabrillo+National+Monument+San+Diego"
+        "mapsUrl": "https://www.google.com/maps/search/Cabrillo+National+Monument+San+Diego",
+        "company": [
+          "couple"
+        ]
       }
     ]
   }

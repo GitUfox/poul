@@ -64,7 +64,10 @@
         "spark": 25,
         "bonus": "Find a veteran's oral history station, listen to one full testimony without skipping, and write down one detail that sticks with you.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/National+WWII+Museum+New+Orleans"
+        "mapsUrl": "https://www.google.com/maps/search/National+WWII+Museum+New+Orleans",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "MSY-A-9",
@@ -201,7 +204,10 @@
         "spark": 15,
         "bonus": "Get pulled into a game with strangers and stay until the ships turn their lights on.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/The+Fly+Audubon+Park+New+Orleans"
+        "mapsUrl": "https://www.google.com/maps/search/The+Fly+Audubon+Park+New+Orleans",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "MSY-AC-201",
@@ -246,7 +252,10 @@
         "spark": 25,
         "bonus": "Paddle at least a half-mile past where you feel comfortable, cut your paddle out of the water, and just listen for two full minutes.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/Manchac+Swamp+Louisiana"
+        "mapsUrl": "https://www.google.com/maps/search/Manchac+Swamp+Louisiana",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "MSY-AC-10",
@@ -428,7 +437,8 @@
         "spark": 15,
         "bonus": "Order whatever the bartender would drink on their night off — no second-guessing, whatever they say goes.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/Bouligny+Tavern+New+Orleans"
+        "mapsUrl": "https://www.google.com/maps/search/Bouligny+Tavern+New+Orleans",
+        "adult": true
       },
       {
         "id": "MSY-C-9",
@@ -473,7 +483,8 @@
         "spark": 15,
         "bonus": "Let the shop staff choose your bottle completely blind — describe your night in one sentence and trust them.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/Bacchanal+Fine+Wine+New+Orleans+Bywater"
+        "mapsUrl": "https://www.google.com/maps/search/Bacchanal+Fine+Wine+New+Orleans+Bywater",
+        "adult": true
       },
       {
         "id": "MSY-C-6",
@@ -655,7 +666,8 @@
         "spark": 15,
         "bonus": "Strike up a conversation with a stranger at the bar and get a local restaurant recommendation you've never heard of — then write it down and actually go.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/Twelve+Mile+Limit+New+Orleans"
+        "mapsUrl": "https://www.google.com/maps/search/Twelve+Mile+Limit+New+Orleans",
+        "adult": true
       },
       {
         "id": "MSY-S-4",
@@ -670,7 +682,8 @@
         "spark": 25,
         "bonus": "Get as close to the front as possible and dance without stopping for an entire song — no phones, no excuses.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/Maple+Leaf+Bar+New+Orleans"
+        "mapsUrl": "https://www.google.com/maps/search/Maple+Leaf+Bar+New+Orleans",
+        "adult": true
       },
       {
         "id": "MSY-S-3",
@@ -715,7 +728,8 @@
         "spark": 25,
         "bonus": "Order a Purple Drank, find a seat in the darkest corner, and introduce yourself to the next person who sits near you — tell them the bar's history.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/Lafitte's+Blacksmith+Shop+Bar+New+Orleans"
+        "mapsUrl": "https://www.google.com/maps/search/Lafitte's+Blacksmith+Shop+Bar+New+Orleans",
+        "adult": true
       },
       {
         "id": "MSY-S-1",
@@ -730,7 +744,8 @@
         "spark": 15,
         "bonus": "Walk into whichever bar has the loudest music, tip the band twenty dollars, and stay for the next full set without leaving.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/Frenchmen+Street+New+Orleans+Marigny"
+        "mapsUrl": "https://www.google.com/maps/search/Frenchmen+Street+New+Orleans+Marigny",
+        "adult": true
       }
     ],
     "foodie": [
@@ -777,7 +792,8 @@
         "spark": 25,
         "bonus": "Tell the bartender your mood in three words and let them build you something off-menu — no veto allowed.",
         "city": "New Orleans, LA",
-        "mapsUrl": "https://www.google.com/maps/search/Cure+Bar+New+Orleans+Freret"
+        "mapsUrl": "https://www.google.com/maps/search/Cure+Bar+New+Orleans+Freret",
+        "adult": true
       },
       {
         "id": "MSY-F-9",

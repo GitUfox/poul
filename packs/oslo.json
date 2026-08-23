@@ -19,7 +19,11 @@
         "spark": 15,
         "bonus": "Order takeaway to the table and teach a stranger the rules of something.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Oslo+Mekaniske+Verksted+Grønland"
+        "mapsUrl": "https://www.google.com/maps/search/Oslo+Mekaniske+Verksted+Grønland",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "OSL-S-104",
@@ -49,7 +53,8 @@
         "spark": 15,
         "bonus": "Challenge a stranger to a best-of-three on any machine — loser buys the next round.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Tilt+Torggata+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/Tilt+Torggata+Oslo",
+        "adult": true
       },
       {
         "id": "OSL-S-101",
@@ -64,7 +69,8 @@
         "spark": 15,
         "bonus": "Introduce yourself to whoever is sitting alone at the bar and stay with them for at least one drink.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Kulturhuset+Youngstorget+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/Kulturhuset+Youngstorget+Oslo",
+        "adult": true
       },
       {
         "id": "OSL-S-05",
@@ -124,7 +130,8 @@
         "spark": 15,
         "bonus": "Hit at least four bars. Order the local craft at every one.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Crowbar%20Torggata%20Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Crowbar%20Torggata%20Oslo",
+        "adult": true
       },
       {
         "id": "OSLO_S_04",
@@ -169,7 +176,8 @@
         "spark": 25,
         "bonus": "Buy a drink for the musician who impressed you most — hand it to them between sets.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Herr+Nilsen+Jazz+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/Herr+Nilsen+Jazz+Oslo",
+        "adult": true
       },
       {
         "id": "OSLO_S_01",
@@ -184,7 +192,8 @@
         "spark": 15,
         "bonus": "Introduce yourself to the group at the table closest to you before your second drink.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Torggata+Botaniske+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/Torggata+Botaniske+Oslo",
+        "adult": true
       }
     ],
     "chill": [
@@ -306,7 +315,10 @@
         "spark": 15,
         "bonus": "Borrow a book in Norwegian even if you can't read it.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Deichman+Bjørvika+library+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/Deichman+Bjørvika+library+Oslo",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "OSLO_C_04",
@@ -321,7 +333,10 @@
         "spark": 15,
         "bonus": "Request to see one item from the archive — any item — and spend 20 minutes with it.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Nasjonalbiblioteket+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/Nasjonalbiblioteket+Oslo",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "OSLO_C_03",
@@ -762,7 +777,8 @@
         "spark": 25,
         "bonus": "Ask the server to pick your wine pairing without telling you what it is — drink it before asking.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/Dr+Kneipps+Vinbar+Grünerløkka+Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/Dr+Kneipps+Vinbar+Grünerløkka+Oslo",
+        "adult": true
       },
       {
         "id": "OSL-F-05",
@@ -777,7 +793,8 @@
         "spark": 15,
         "bonus": "Order the darkest beer on the menu last.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Schouskjelleren%20Mikrobryggeri%20Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Schouskjelleren%20Mikrobryggeri%20Oslo",
+        "adult": true
       },
       {
         "id": "OSL-F-02",
@@ -837,7 +854,8 @@
         "spark": 25,
         "bonus": "Find the expression aged in sherry cask. Start there.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Himkok%20Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Himkok%20Oslo",
+        "adult": true
       },
       {
         "id": "OSL-F-06",
@@ -852,7 +870,10 @@
         "spark": 25,
         "bonus": "Order it without knowing what it comes with. Trust the kitchen.",
         "city": "Oslo, Norway",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lofoten%20Fiskerestaurant%20Oslo"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lofoten%20Fiskerestaurant%20Oslo",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "OSL-F-07",

@@ -34,7 +34,10 @@
         "spark": 15,
         "bonus": "Buy a book from the staff picks shelf without reading the back cover first.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://www.google.com/maps/search/Red+Emma's+Greenmount+Avenue+Baltimore"
+        "mapsUrl": "https://www.google.com/maps/search/Red+Emma's+Greenmount+Avenue+Baltimore",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "BAL-C-201",
@@ -79,7 +82,10 @@
         "spark": 15,
         "bonus": "Arrive at sunset and stay until the harbor lights come on.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Federal+Hill+Park+Baltimore"
+        "mapsUrl": "https://maps.google.com/?q=Federal+Hill+Park+Baltimore",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "BAL-C-106",
@@ -109,7 +115,10 @@
         "spark": 25,
         "bonus": "Stand in front of one Matisse for five full minutes without moving.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Baltimore+Museum+of+Art"
+        "mapsUrl": "https://maps.google.com/?q=Baltimore+Museum+of+Art",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "BAL-C-108",
@@ -184,7 +193,10 @@
         "spark": 15,
         "bonus": "Find H.L. Mencken's personal collection wing and spend 20 minutes reading something from it without using your phone.",
         "city": "Baltimore, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Enoch+Pratt+Free+Library+Baltimore+MD"
+        "mapsUrl": "https://www.google.com/maps/search/Enoch+Pratt+Free+Library+Baltimore+MD",
+        "company": [
+          "solo"
+        ]
       }
     ],
     "adventure": [
@@ -428,7 +440,8 @@
         "spark": 15,
         "bonus": "Order something on cask — not the filtered stuff.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=The+Wharf+Rat+Fells+Point+Baltimore"
+        "mapsUrl": "https://maps.google.com/?q=The+Wharf+Rat+Fells+Point+Baltimore",
+        "adult": true
       },
       {
         "id": "BAL-S-108",
@@ -443,7 +456,10 @@
         "spark": 40,
         "bonus": "Find one book on the shelves you want to read and write down its call number.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=George+Peabody+Library+Baltimore"
+        "mapsUrl": "https://maps.google.com/?q=George+Peabody+Library+Baltimore",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "BAL-S-102",
@@ -458,7 +474,8 @@
         "spark": 25,
         "bonus": "Stay until 1am and count how many people you recognize from somewhere else.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Club+Charles+Baltimore"
+        "mapsUrl": "https://maps.google.com/?q=Club+Charles+Baltimore",
+        "adult": true
       },
       {
         "id": "BAL-S-101",
@@ -473,7 +490,8 @@
         "spark": 15,
         "bonus": "Ask the bartender to pick your beer based on your last three meals.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Max%27s+Taphouse+Fells+Point+Baltimore"
+        "mapsUrl": "https://maps.google.com/?q=Max%27s+Taphouse+Fells+Point+Baltimore",
+        "adult": true
       },
       {
         "id": "BAL-S-104",
@@ -488,7 +506,8 @@
         "spark": 15,
         "bonus": "Make one genuinely bad decision — nothing illegal, just something you'll tell people about.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Bad+Decisions+Bar+Fells+Point+Baltimore"
+        "mapsUrl": "https://maps.google.com/?q=Bad+Decisions+Bar+Fells+Point+Baltimore",
+        "adult": true
       },
       {
         "id": "BAL-S-107",
@@ -503,7 +522,8 @@
         "spark": 15,
         "bonus": "Bar-hop through every venue in the complex before settling on one.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Power+Plant+Live+Baltimore"
+        "mapsUrl": "https://maps.google.com/?q=Power+Plant+Live+Baltimore",
+        "adult": true
       },
       {
         "id": "BALT-S-04",
@@ -518,7 +538,8 @@
         "spark": 25,
         "bonus": "Walk the full length of The Avenue and talk to at least one shop owner or bartender about how the neighborhood has changed.",
         "city": "Baltimore, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/36th+Street+Hampden+Baltimore+MD"
+        "mapsUrl": "https://www.google.com/maps/search/36th+Street+Hampden+Baltimore+MD",
+        "adult": true
       },
       {
         "id": "BALT-S-03",
@@ -548,7 +569,8 @@
         "spark": 15,
         "bonus": "Challenge someone at the bar to a game of darts and buy a round for whoever loses.",
         "city": "Baltimore, Maryland",
-        "mapsUrl": "https://www.google.com/maps/search/Mount+Royal+Tavern+Baltimore+MD"
+        "mapsUrl": "https://www.google.com/maps/search/Mount+Royal+Tavern+Baltimore+MD",
+        "adult": true
       }
     ],
     "active": [
@@ -852,7 +874,8 @@
         "spark": 25,
         "bonus": "Drink the Resurrection on draft — don't substitute for a bottle.",
         "city": "Baltimore, MD",
-        "mapsUrl": "https://maps.google.com/?q=Brewer%27s+Art+Baltimore"
+        "mapsUrl": "https://maps.google.com/?q=Brewer%27s+Art+Baltimore",
+        "adult": true
       },
       {
         "id": "BAL-F-103",

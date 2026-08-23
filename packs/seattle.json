@@ -154,7 +154,10 @@
         "spark": 15,
         "bonus": "Stand at the stern as Seattle shrinks away and stay there the full 35-minute crossing without checking your phone.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Bainbridge+Island+Ferry+Terminal+Seattle"
+        "mapsUrl": "https://www.google.com/maps/search/Bainbridge+Island+Ferry+Terminal+Seattle",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "SEA-A-2",
@@ -201,7 +204,10 @@
         "spark": 15,
         "bonus": "Play until sunset, then walk the strip for fish and chips at Spud.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Alki+Beach+volleyball+Seattle"
+        "mapsUrl": "https://www.google.com/maps/search/Alki+Beach+volleyball+Seattle",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "SEA-AC-201",
@@ -216,7 +222,10 @@
         "spark": 15,
         "bonus": "Two laps — one easy, one at a pace you would not admit to.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Green+Lake+Park+Seattle"
+        "mapsUrl": "https://www.google.com/maps/search/Green+Lake+Park+Seattle",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "SEA-AC-12",
@@ -398,7 +407,8 @@
         "spark": 15,
         "bonus": "Put your initials on at least one machine's high-score board — any letters that fit.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Shorty's+Belltown+Seattle"
+        "mapsUrl": "https://www.google.com/maps/search/Shorty's+Belltown+Seattle",
+        "adult": true
       },
       {
         "id": "SEA-S-201",
@@ -413,7 +423,10 @@
         "spark": 15,
         "bonus": "Everyone in the room sings at least one solo — no duet hiding.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Rock+Box+Capitol+Hill+Seattle"
+        "mapsUrl": "https://www.google.com/maps/search/Rock+Box+Capitol+Hill+Seattle",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "SEA-S-12",
@@ -473,7 +486,8 @@
         "spark": 15,
         "bonus": "Sit at a communal table with strangers and get a beer recommendation from someone who's clearly a regular.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Fremont+Brewing+Urban+Beer+Garden+Seattle+WA"
+        "mapsUrl": "https://www.google.com/maps/search/Fremont+Brewing+Urban+Beer+Garden+Seattle+WA",
+        "adult": true
       },
       {
         "id": "SEA-S-6",
@@ -488,7 +502,8 @@
         "spark": 25,
         "bonus": "Order nothing off the menu — give the bartender a single flavor word and let them build something from scratch.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Zig+Zag+Cafe+Pike+Place+Market+Seattle+WA"
+        "mapsUrl": "https://www.google.com/maps/search/Zig+Zag+Cafe+Pike+Place+Market+Seattle+WA",
+        "adult": true
       },
       {
         "id": "SEA-S-5",
@@ -685,7 +700,10 @@
         "spark": 15,
         "bonus": "Find one piece that genuinely unsettles you and sit with it for five full minutes — no phone.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Seattle+Art+Museum+Downtown"
+        "mapsUrl": "https://www.google.com/maps/search/Seattle+Art+Museum+Downtown",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "SEA-C-3",
@@ -715,7 +733,10 @@
         "spark": 15,
         "bonus": "Climb to the top of the grassy kite hill and stay seated until the last sliver of sun drops below the Olympics.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Gasworks+Park+Seattle"
+        "mapsUrl": "https://www.google.com/maps/search/Gasworks+Park+Seattle",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "SEA-C-1",
@@ -762,7 +783,8 @@
         "spark": 25,
         "bonus": "Tell the bartender your mood, not your usual drink, and let them build you something from scratch — no vetoing ingredients.",
         "city": "Seattle, WA",
-        "mapsUrl": "https://www.google.com/maps/search/Canon+Whiskey+and+Bitters+Emporium+Capitol+Hill+Seattle"
+        "mapsUrl": "https://www.google.com/maps/search/Canon+Whiskey+and+Bitters+Emporium+Capitol+Hill+Seattle",
+        "adult": true
       },
       {
         "id": "SEA-F-10",

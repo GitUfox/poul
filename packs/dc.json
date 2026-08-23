@@ -201,7 +201,8 @@
         "spark": 25,
         "bonus": "Buy the opener's merch if they win you over — tell them which song did it.",
         "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Black+Cat+14th+Street+Washington+DC"
+        "mapsUrl": "https://www.google.com/maps/search/Black+Cat+14th+Street+Washington+DC",
+        "adult": true
       },
       {
         "id": "DC-S-203",
@@ -216,7 +217,8 @@
         "spark": 15,
         "bonus": "Challenge a stranger to a round of cornhole — loser buys the next round.",
         "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Bardo+Brewpub+Ivy+City+Washington+DC"
+        "mapsUrl": "https://www.google.com/maps/search/Bardo+Brewpub+Ivy+City+Washington+DC",
+        "adult": true
       },
       {
         "id": "DC-S-202",
@@ -231,7 +233,8 @@
         "spark": 25,
         "bonus": "Identify three caricatures on the wall without using your phone — ask the bartender to settle any disputes.",
         "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Off+the+Record+Bar+Hay-Adams+Hotel+Washington+DC"
+        "mapsUrl": "https://www.google.com/maps/search/Off+the+Record+Bar+Hay-Adams+Hotel+Washington+DC",
+        "adult": true
       },
       {
         "id": "DC-S-103",
@@ -276,7 +279,11 @@
         "spark": 25,
         "bonus": "Buy one book you'd never pick in daylight and read the first chapter there.",
         "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kramers%201517%20Connecticut%20Ave%20Washington%20DC"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kramers%201517%20Connecticut%20Ave%20Washington%20DC",
+        "company": [
+          "solo"
+        ],
+        "adult": true
       },
       {
         "id": "DC-S-104",
@@ -291,7 +298,8 @@
         "spark": 15,
         "bonus": "Introduce yourself to whoever is sharing your table — that's the point.",
         "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Dacha+Beer+Garden+Shaw+Washington+DC"
+        "mapsUrl": "https://maps.google.com/?q=Dacha+Beer+Garden+Shaw+Washington+DC",
+        "adult": true
       },
       {
         "id": "DC-S-107",
@@ -321,7 +329,8 @@
         "spark": 40,
         "bonus": "Go without looking up who's playing — let the night surprise you.",
         "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Blues+Alley+Georgetown+Washington+DC"
+        "mapsUrl": "https://maps.google.com/?q=Blues+Alley+Georgetown+Washington+DC",
+        "adult": true
       },
       {
         "id": "DC_S_04",
@@ -351,7 +360,10 @@
         "spark": 15,
         "bonus": "Find the most divisive piece in the current exhibition and defend it to whoever you're with — two minutes minimum.",
         "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Hirshhorn+Museum+Washington+DC"
+        "mapsUrl": "https://www.google.com/maps/search/Hirshhorn+Museum+Washington+DC",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "DC_S_01",
@@ -366,7 +378,8 @@
         "spark": 25,
         "bonus": "Ask the bartender to name the most historically significant person who ever sat at your exact stool — then order whatever that person supposedly drank.",
         "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Round+Robin+Bar+Willard+Hotel+Washington+DC"
+        "mapsUrl": "https://www.google.com/maps/search/Round+Robin+Bar+Willard+Hotel+Washington+DC",
+        "adult": true
       }
     ],
     "foodie": [
@@ -580,7 +593,10 @@
         "spark": 15,
         "bonus": "Track an inbound flight on FlightAware and count down its approach — stand and wave as it thunders over.",
         "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Gravelly+Point+Park+Arlington+Virginia"
+        "mapsUrl": "https://www.google.com/maps/search/Gravelly+Point+Park+Arlington+Virginia",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "DC-A-202",
@@ -700,7 +716,10 @@
         "spark": 25,
         "bonus": "Book the lantern dome tour to get to the top of the Reading Room dome — it fills fast.",
         "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Library+of+Congress+Jefferson+Building+Washington+DC"
+        "mapsUrl": "https://maps.google.com/?q=Library+of+Congress+Jefferson+Building+Washington+DC",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "DC_A_04",
@@ -777,7 +796,10 @@
         "spark": 25,
         "bonus": "Find the Darth Vader grotesque on the northwest tower before you leave.",
         "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Washington+National+Cathedral+Washington+DC"
+        "mapsUrl": "https://maps.google.com/?q=Washington+National+Cathedral+Washington+DC",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "DC-C-102",
@@ -912,7 +934,10 @@
         "spark": 15,
         "bonus": "Request an actual book from the stacks — any book — and read a full chapter under that dome.",
         "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Library+of+Congress+Washington+DC"
+        "mapsUrl": "https://www.google.com/maps/search/Library+of+Congress+Washington+DC",
+        "company": [
+          "solo"
+        ]
       }
     ]
   }

@@ -565,7 +565,10 @@
         "spark": 15,
         "bonus": "Challenge the winning team immediately after their game ends — no introductions, just point at the court.",
         "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Parc+Josaphat+Schaerbeek+Brussels"
+        "mapsUrl": "https://www.google.com/maps/search/Parc+Josaphat+Schaerbeek+Brussels",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "BRU-S-06",
@@ -595,7 +598,8 @@
         "spark": 15,
         "bonus": "Ask someone in a blazer what they actually do.",
         "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/EU+Quarter+Brussels+European+Parliament"
+        "mapsUrl": "https://www.google.com/maps/search/EU+Quarter+Brussels+European+Parliament",
+        "adult": true
       },
       {
         "id": "BRU-S-05",
@@ -670,7 +674,8 @@
         "spark": 15,
         "bonus": "Get the high score on at least one machine.",
         "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/pinball+bar+Saint-Gilles+Brussels"
+        "mapsUrl": "https://www.google.com/maps/search/pinball+bar+Saint-Gilles+Brussels",
+        "adult": true
       },
       {
         "id": "BRUS-S-04",
@@ -685,7 +690,8 @@
         "spark": 25,
         "bonus": "Start a conversation with whoever is sitting alone at the bar and find out what they actually do for work.",
         "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Le+Comptoir+des+Galeries+Brussels"
+        "mapsUrl": "https://www.google.com/maps/search/Le+Comptoir+des+Galeries+Brussels",
+        "adult": true
       },
       {
         "id": "BRUS-S-03",
@@ -715,7 +721,11 @@
         "spark": 15,
         "bonus": "Sing an entire song in French even if you don't speak a word of it.",
         "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Le+You+Club+Brussels+karaoke"
+        "mapsUrl": "https://www.google.com/maps/search/Le+You+Club+Brussels+karaoke",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "BRUS-S-01",
@@ -730,7 +740,8 @@
         "spark": 15,
         "bonus": "Let a stranger at the bar pick your next beer without telling them your budget.",
         "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Delirium+Café+Brussels"
+        "mapsUrl": "https://www.google.com/maps/search/Delirium+Café+Brussels",
+        "adult": true
       }
     ],
     "foodie": [
@@ -762,7 +773,8 @@
         "spark": 15,
         "bonus": "Find a beer you've never seen anywhere else and order two.",
         "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Belgian+beer+café+Pentagone+Brussels"
+        "mapsUrl": "https://www.google.com/maps/search/Belgian+beer+café+Pentagone+Brussels",
+        "adult": true
       },
       {
         "id": "BRU-F-01",
@@ -867,7 +879,8 @@
         "spark": 25,
         "bonus": "Identify which Trappist is your favorite before the bill arrives.",
         "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Trappist+beer+dinner+Brussels"
+        "mapsUrl": "https://www.google.com/maps/search/Trappist+beer+dinner+Brussels",
+        "adult": true
       },
       {
         "id": "BRUS-F-05",
@@ -912,7 +925,8 @@
         "spark": 25,
         "bonus": "Buy a bottle of Kriek and carry it openly through the Midi neighborhood on your way home.",
         "city": "Brussels, Belgium",
-        "mapsUrl": "https://www.google.com/maps/search/Cantillon+Brewery+Brussels"
+        "mapsUrl": "https://www.google.com/maps/search/Cantillon+Brewery+Brussels",
+        "adult": true
       },
       {
         "id": "BRUS-F-02",

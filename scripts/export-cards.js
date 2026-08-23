@@ -94,6 +94,7 @@ function prop(page, key, type) {
     case 'number':   return p.number                    ?? null;
     case 'url':      return p.url                       || null;
     case 'checkbox': return p.checkbox                  ?? false;
+    case 'multi_select': return p.multi_select?.map(o => o.name) || [];
     default:         return null;
   }
 }
@@ -116,6 +117,12 @@ function pageToCard(page) {
   };
   const exempt = prop(page, 'Filter Exempt', 'checkbox');
   if (exempt) card.filterExempt = true;
+  // Facets (2026-08-07): sparse by design — absence means "any", so only
+  // tagged cards carry the fields at all.
+  const company = prop(page, 'Company', 'multi_select');
+  if (company && company.length) card.company = company;
+  const adult = prop(page, '21+', 'checkbox');
+  if (adult) card.adult = true;
   return card;
 }
 

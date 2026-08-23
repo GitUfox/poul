@@ -398,7 +398,10 @@
         "spark": 15,
         "bonus": "Order one dish entirely by pointing at whatever the table next to you is eating, without asking what it is.",
         "city": "Tokyo, Japan",
-        "mapsUrl": "https://www.google.com/maps/search/Ameyoko+Market+Ueno+Tokyo"
+        "mapsUrl": "https://www.google.com/maps/search/Ameyoko+Market+Ueno+Tokyo",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "TOK-S-03",
@@ -428,7 +431,11 @@
         "spark": 25,
         "bonus": "Find a bar with no sign in English. Go in anyway.",
         "city": "Tokyo, Japan",
-        "mapsUrl": "https://www.google.com/maps/search/Golden+Gai+Shinjuku+Tokyo"
+        "mapsUrl": "https://www.google.com/maps/search/Golden+Gai+Shinjuku+Tokyo",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "TOK-S-07",
@@ -443,7 +450,8 @@
         "spark": 15,
         "bonus": "Try the seasonal. That's why they made it.",
         "city": "Tokyo, Japan",
-        "mapsUrl": "https://www.google.com/maps/search/craft+beer+brewpub+Yanaka+Tokyo"
+        "mapsUrl": "https://www.google.com/maps/search/craft+beer+brewpub+Yanaka+Tokyo",
+        "adult": true
       },
       {
         "id": "TOK-S-06",
@@ -533,7 +541,10 @@
         "spark": 15,
         "bonus": "One song each. No skipping. Everyone sings the whole thing.",
         "city": "Tokyo, Japan",
-        "mapsUrl": "https://maps.google.com/maps/search/Big+Echo+Karaoke+Shinjuku+Tokyo+Japan"
+        "mapsUrl": "https://maps.google.com/maps/search/Big+Echo+Karaoke+Shinjuku+Tokyo+Japan",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "TKY-S-03",
@@ -548,7 +559,8 @@
         "spark": 15,
         "bonus": "Sit at a shared counter. Talk to whoever is next to you, even if they don't speak English.",
         "city": "Tokyo, Japan",
-        "mapsUrl": "https://maps.google.com/maps/search/Omoide+Yokocho+Shinjuku+Tokyo+Japan"
+        "mapsUrl": "https://maps.google.com/maps/search/Omoide+Yokocho+Shinjuku+Tokyo+Japan",
+        "adult": true
       }
     ],
     "active": [
@@ -897,7 +909,10 @@
         "spark": 15,
         "bonus": "No phone during the meal. Curtain down, screen up, full presence.",
         "city": "Tokyo, Japan",
-        "mapsUrl": "https://maps.google.com/maps/search/Ichiran+Ramen+Shinjuku+Tokyo+Japan"
+        "mapsUrl": "https://maps.google.com/maps/search/Ichiran+Ramen+Shinjuku+Tokyo+Japan",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "TKY-F-04",
@@ -912,7 +927,8 @@
         "spark": 15,
         "bonus": "Stay for at least one full round of drinks after you finish eating. The best conversations happen after the food.",
         "city": "Tokyo, Japan",
-        "mapsUrl": "https://maps.google.com/maps/search/Yurakucho+Yakitori+Alley+Tokyo+Japan"
+        "mapsUrl": "https://maps.google.com/maps/search/Yurakucho+Yakitori+Alley+Tokyo+Japan",
+        "adult": true
       },
       {
         "id": "TKY-F-02",

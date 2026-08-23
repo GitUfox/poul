@@ -19,7 +19,8 @@
         "spark": 15,
         "bonus": "Ask the sommelier to pair something unexpected with whatever you're eating — no vetoing the choice.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brix+and+Mortar+Yaletown+Vancouver"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brix+and+Mortar+Yaletown+Vancouver",
+        "adult": true
       },
       {
         "id": "YVR-S-10",
@@ -64,7 +65,8 @@
         "spark": 15,
         "bonus": "Ask the bartender for their most unexpected beer recommendation and commit to a full pint.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Alibi+Room+Gastown+Vancouver"
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Alibi+Room+Gastown+Vancouver",
+        "adult": true
       },
       {
         "id": "YVR-S-7",
@@ -109,7 +111,8 @@
         "spark": 15,
         "bonus": "Challenge a stranger to a game of pinball — loser buys the next round.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/The+Narrow+Lounge+Vancouver"
+        "mapsUrl": "https://www.google.com/maps/search/The+Narrow+Lounge+Vancouver",
+        "adult": true
       },
       {
         "id": "YVR-S-3",
@@ -139,7 +142,11 @@
         "spark": 15,
         "bonus": "Join a table of strangers instead of forming your own team — introduce yourself with a fake occupation.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/The+Bimini+Pub+Kitsilano+Vancouver+BC"
+        "mapsUrl": "https://www.google.com/maps/search/The+Bimini+Pub+Kitsilano+Vancouver+BC",
+        "company": [
+          "group"
+        ],
+        "adult": true
       },
       {
         "id": "YVR-S-1",
@@ -169,7 +176,8 @@
         "spark": 14,
         "bonus": "Captain the team and place the final bet on a category you know nothing about.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/The+Irish+Heather+Shebeen+248+E+Georgia+St+Vancouver"
+        "mapsUrl": "https://maps.google.com/maps/search/The+Irish+Heather+Shebeen+248+E+Georgia+St+Vancouver",
+        "adult": true
       },
       {
         "id": "VAN-S-02",
@@ -199,7 +207,8 @@
         "spark": 24,
         "bonus": "Ask the bartender to pick your next pour, no menu.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/33+Acres+Brewing+Company+Vancouver"
+        "mapsUrl": "https://maps.google.com/maps/search/33+Acres+Brewing+Company+Vancouver",
+        "adult": true
       },
       {
         "id": "VAN-S-03",
@@ -321,7 +330,10 @@
         "spark": 15,
         "bonus": "Stay until the very last sliver of sun disappears behind Vancouver Island — not one minute before.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Prospect+Point+Stanley+Park+Vancouver+BC"
+        "mapsUrl": "https://www.google.com/maps/search/Prospect+Point+Stanley+Park+Vancouver+BC",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "YVR-C-1",
@@ -336,7 +348,10 @@
         "spark": 15,
         "bonus": "Pick a book from a shelf completely at random and read the first chapter before you leave.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Vancouver+Public+Library+Central+Branch+Vancouver+BC"
+        "mapsUrl": "https://www.google.com/maps/search/Vancouver+Public+Library+Central+Branch+Vancouver+BC",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "VAN-C-01",
@@ -351,7 +366,10 @@
         "spark": 10,
         "bonus": "Stay until the mountains turn pink — no photos until then.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/Kitsilano+Beach+Vancouver"
+        "mapsUrl": "https://maps.google.com/maps/search/Kitsilano+Beach+Vancouver",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "VAN-C-04",
@@ -366,7 +384,10 @@
         "spark": 12,
         "bonus": "Bring a snack you've never packed for a picnic before.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/Queen+Elizabeth+Park+Vancouver"
+        "mapsUrl": "https://maps.google.com/maps/search/Queen+Elizabeth+Park+Vancouver",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "VAN-C-03",
@@ -549,7 +570,10 @@
         "spark": 22,
         "bonus": "Paddle all the way to the Olympic Village and back without a break.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/Creekside+Kayaks+Olympic+Village+Vancouver"
+        "mapsUrl": "https://maps.google.com/maps/search/Creekside+Kayaks+Olympic+Village+Vancouver",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "VAN-AC-01",
@@ -581,7 +605,8 @@
         "spark": 15,
         "bonus": "Order the most aggressively named beer on the board without reading the description first.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Brassneck+Brewery+Vancouver"
+        "mapsUrl": "https://www.google.com/maps/search/Brassneck+Brewery+Vancouver",
+        "adult": true
       },
       {
         "id": "YVR-F-11",
@@ -641,7 +666,8 @@
         "spark": 25,
         "bonus": "Let the bartender pick your drink — no input from you whatsoever.",
         "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/The+Keefer+Bar+Vancouver+Chinatown"
+        "mapsUrl": "https://www.google.com/maps/search/The+Keefer+Bar+Vancouver+Chinatown",
+        "adult": true
       },
       {
         "id": "YVR-F-6",
