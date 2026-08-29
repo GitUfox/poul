@@ -33,8 +33,10 @@ const Anthropic = require('@anthropic-ai/sdk');
 const { Client } = require('@notionhq/client');
 
 const DB_ID      = '68dabc44-f31e-48d9-9dac-2a6d6edb4414';
-const CATEGORIES = ['adventure', 'foodie', 'chill', 'social', 'active'];
-const CAT_CODE   = { adventure: 'A', foodie: 'F', chill: 'C', social: 'S', active: 'AC' };
+// Phase 2 taxonomy (2026-08-07): 'adventure' IS Outdoors (absorbed 'active'),
+// 'social' IS Nightlife, 'foodie' IS Eat & Drink — internals permanent, labels UI.
+const CATEGORIES = ['adventure', 'foodie', 'chill', 'social', 'culture'];
+const CAT_CODE   = { adventure: 'A', foodie: 'F', chill: 'C', social: 'S', culture: 'CU' };
 const BATCH_SIZE = 20;   // cards per API call — keeps output well inside max_tokens
 const PACKS_DIR  = path.join(__dirname, '..', 'packs');
 
@@ -64,7 +66,10 @@ Card schema:
   "id": string,          // placeholder is fine — IDs are reassigned by the pipeline
   "title": string,
   "description": string,
-  "category": string,    // adventure | foodie | chill | social | active
+  "category": string,    // adventure (=Outdoors: trails, kayaks, hikes, sport) | foodie (=Eat & Drink)
+                         //   | chill (restorative: parks, coffee, sunsets — NOT museums)
+                         //   | social (=Nightlife: bars, live music, karaoke, late scene)
+                         //   | culture (museums, galleries, shows, spectator sports, landmarks, festivals)
   "rarity": string,      // Common | Rare | Legendary
   "cost": string,        // $ | $$ | $$$
   "duration": string,    // e.g. "2–3 hrs"

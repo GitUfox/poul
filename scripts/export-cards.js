@@ -139,11 +139,16 @@ async function exportPack(notion, packId) {
 
   if (!pages.length) { console.log(`  (no active cards)`); return; }
 
-  // Group by category
+  // Group by category. KNOWN = the live taxonomy — an unknown key here means
+  // a reactivated card still carries a retired category (e.g. 'active', merged
+  // into adventure 2026-08-07): it would export fine but be UNREACHABLE in the
+  // app (no tile draws from it). Warn loudly; retag the card in Notion.
+  const KNOWN = new Set(['adventure', 'foodie', 'chill', 'social', 'culture', '8ball']);
   const cards = {};
   for (const page of pages) {
     const cat = prop(page, 'Category', 'select');
     if (!cat) continue;
+    if (!KNOWN.has(cat)) console.warn(`  ⚠ UNKNOWN CATEGORY "${cat}" on "${prop(page, 'Title', 'title')}" — unreachable in the app, retag it`);
     (cards[cat] = cards[cat] || []).push(pageToCard(page));
   }
 

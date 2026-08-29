@@ -5,7 +5,7 @@
   "emoji": "🎈",
   "isDefault": false,
   "cards": {
-    "active": [
+    "adventure": [
       {
         "id": "TUR-AC-501",
         "title": "Climb Temenni Hill at Dusk",
@@ -20,6 +20,21 @@
         "bonus": "Make a wish at the top — it's called Wish Hill for a reason — and tell no one what it was.",
         "city": "Ürgüp, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Temenni+Hill+Ürgüp"
+      },
+      {
+        "id": "TUR-A-501",
+        "title": "Dawn at the Balloon Launch Field",
+        "description": "Skip the basket and walk the launch fields outside Göreme at 5am instead — a hundred burners firing in the dark, envelopes rising like slow fireworks, and you standing in the middle of it for free.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Help a ground crew steady an envelope if they wave you over — then watch your balloon until it's a dot.",
+        "city": "Göreme, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/balloon+launch+field+Göreme+Cappadocia"
       },
       {
         "id": "TUR-AC-301",
@@ -37,6 +52,21 @@
         "mapsUrl": "https://www.google.com/maps/search/Zemi+Valley+Göreme+Cappadocia"
       },
       {
+        "id": "TUR-A-202",
+        "title": "Hike the Soğanlı Valley",
+        "description": "An hour south of the center, Soğanlı's twin valleys hide rock-cut churches, dovecote cliffs, and a stream-threaded floor with no souvenir stands and no tour groups — Cappadocia before the balloons.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 25,
+        "bonus": "Wade the stream barefoot to the valley's end church — mark your waterline on a rock with a wet finger.",
+        "city": "Soğanlı, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/Soğanlı+Valley+Cappadocia"
+      },
+      {
         "id": "TUR-AC-203",
         "title": "Scramble the Fairy Chimneys of Paşabağı (Monk's Valley)",
         "description": "Paşabağı's triple-capped mushroom formations are the most structurally bizarre geology in Cappadocia, and you can climb right up into the carved monk cells inside them.",
@@ -50,6 +80,21 @@
         "bonus": "Squeeze into the smallest monk cell you can find and sit cross-legged in silence for one full minute.",
         "city": "Paşabağı, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Pasabagi+Monks+Valley+Cappadocia"
+      },
+      {
+        "id": "TUR-A-201",
+        "title": "Visit the Kaymakli Underground City",
+        "description": "Kaymaklı is wider and more labyrinthine than Derinkuyu — level after level of tunnels, stables, and cellars where thousands once sheltered underground, and the claustrophobia is completely real.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the ventilation shaft on level four and listen — you'll hear wind moving from 80 metres below.",
+        "city": "Kaymaklı, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/Kaymakli+Underground+City+Cappadocia"
       },
       {
         "id": "TUR-AC-107",
@@ -115,6 +160,21 @@
         "mapsUrl": "https://www.google.com/maps/search/Mount+Erciyes+summit+hike+Kayseri"
       },
       {
+        "id": "TUR-A-108",
+        "title": "Visit the Avanos Hair Museum at Chez Galip",
+        "description": "Inside the pottery workshop of master ceramicist Galip Körükçü, a Guinness World Record-holding underground cave holds over 16,000 locks of hair donated by women from every country on earth — bizarre, intimate, and completely unforgettable.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30–45 mins",
+        "durationMins": 40,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Leave a lock — scissors are available and Galip will add your name and hometown to the wall.",
+        "city": "Avanos, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/Chez+Galip+Hair+Museum+Avanos"
+      },
+      {
         "id": "TUR-AC-101",
         "title": "Dawn Run Through Love Valley",
         "description": "The phallic volcanic columns of Love Valley are best experienced at a jog before 7 a.m. — the light is low, the shadows long, and you'll have the entire 4 km trail to yourself.",
@@ -128,6 +188,69 @@
         "bonus": "Run the full out-and-back without stopping — if you have to walk, add five push-ups at each chimney you pause at.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Love+Valley+Göreme+Cappadocia"
+      },
+      {
+        "id": "TUR-A-106",
+        "title": "Hike the Gomeda Valley",
+        "description": "The deep-cut Gomeda Valley south of Mustafapaşa hides rock-cut churches, dovecotes, and dry-waterfall scrambles on a trail that few tour operators even list — bring water and go early.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 25,
+        "bonus": "At the deepest point of the canyon, shout at full volume — count the echoes.",
+        "city": "Ürgüp, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/Gomeda+Valley+Mustafapaşa+Cappadocia"
+      },
+      {
+        "id": "TUR-A-104",
+        "title": "Explore Zelve Open Air Museum Solo",
+        "description": "The abandoned troglodyte village of Zelve — occupied until 1952 — is a labyrinth of cave dwellings, chapels, and mill chambers that rewards anyone willing to duck into unmarked tunnels without a guide.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the old flour mill room and turn your phone light off for sixty seconds — complete darkness.",
+        "city": "Göreme, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/Zelve+Open+Air+Museum+Cappadocia",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "TUR-A-103",
+        "title": "Paragliding Launch from Uçhisar Summit",
+        "description": "Tandem paragliding from the ridge above Uçhisar gives you a bird's-eye read of every valley, fairy chimney, and vineyard terrace across the Cappadocian plateau — slower and quieter than any balloon.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Ask your pilot to fly directly over a hot air balloon — get the shot looking down into the basket.",
+        "city": "Uçhisar, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/paragliding+Uçhisar+Cappadocia"
+      },
+      {
+        "id": "TUR-A-102",
+        "title": "Trek the Kılıçlar Valley Fresco Churches Trail",
+        "description": "This hidden valley between Göreme and Çavuşin harbors Byzantine rock-cut churches still blazing with 10th-century frescoes that almost no one visits because the trailhead is unmarked.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 25,
+        "bonus": "Find the Sword Valley church and photograph a fresco without using your flash — see how far natural light gets you.",
+        "city": "Göreme, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/Kılıçlar+Valley+Göreme"
       },
       {
         "id": "TUR-AC-02",
@@ -148,6 +271,54 @@
         ]
       },
       {
+        "id": "TUR-A-04",
+        "title": "Scooter to Uçhisar Castle at Sunset",
+        "description": "Rent a scooter in Göreme and ride 4 km to Uçhisar — the highest naturally formed rock castle in Cappadocia — arriving with 30 minutes before dark. The 360-degree view from the summit puts the entire valley in frame as the light fails.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Climb to the very top. Don't stop at the first good view.",
+        "city": "Uçhisar, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/U%C3%A7hisar+Castle+Cappadocia+Turkey",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "TUR-A-01",
+        "title": "Hot Air Balloon at Sunrise over Göreme Valley",
+        "description": "Royal Balloon launches before dawn and floats you above the fairy chimneys of the Göreme valley as the sun climbs over the horizon — the most photographed view in Turkey and the only one worth waking up at 4am for.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 40,
+        "bonus": "Don't touch your phone for the first ten minutes in the air. Just be there.",
+        "city": "Göreme, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/Royal+Balloon+G%C3%B6reme+Cappadocia+Turkey"
+      },
+      {
+        "id": "TUR-A-03",
+        "title": "Hike the Ihlara Valley Gorge",
+        "description": "A 16 km canyon trail along the Melendiz River with Byzantine cave churches carved into the cliff walls at eye level — start at Selime Monastery, hike south to Ihlara village, and swim in the river when your legs say so.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 25,
+        "bonus": "Enter at least one cave church. Spend five minutes inside with your phone put away.",
+        "city": "Ihlara Valley, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/Ihlara+Valley+Gorge+Cappadocia+Turkey"
+      },
+      {
         "id": "TUR-AC-04",
         "title": "Sunrise Hike: Çavuşin to Paşabağ via Zelve",
         "description": "A 2-hour cross-country walk from the abandoned Greek village of Çavuşin through the Zelve Open Air Museum to the mushroom-shaped fairy chimneys at Paşabağ — best done before 7am when the rock carries its own orange light and no tour groups have arrived.",
@@ -161,6 +332,21 @@
         "bonus": "Start before sunrise. Be at Çavuşin when the first light hits the stone.",
         "city": "Çavuşin, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/%C3%87avu%C5%9Fin+village+Cappadocia+Turkey"
+      },
+      {
+        "id": "TUR-A-02",
+        "title": "ATV Ride Through Rose Valley at Golden Hour",
+        "description": "Rent an ATV from the operators at the Göreme village entrance and ride the track through Rose Valley at 5pm when the volcanic rock turns terracotta — 8 km of trail through formations that were old when Constantinople was new.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Stop once and turn the engine off. Sit in the silence for two minutes before riding on.",
+        "city": "Göreme, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/ATV+rental+Rose+Valley+G%C3%B6reme+Cappadocia"
       },
       {
         "id": "TUR-AC-03",
@@ -384,194 +570,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Whirling+Dervish+ceremony+Urgup+Cappadocia+Turkey"
       }
     ],
-    "adventure": [
-      {
-        "id": "TUR-A-501",
-        "title": "Dawn at the Balloon Launch Field",
-        "description": "Skip the basket and walk the launch fields outside Göreme at 5am instead — a hundred burners firing in the dark, envelopes rising like slow fireworks, and you standing in the middle of it for free.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "1.5–2 hrs",
-        "durationMins": 105,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Help a ground crew steady an envelope if they wave you over — then watch your balloon until it's a dot.",
-        "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/balloon+launch+field+Göreme+Cappadocia"
-      },
-      {
-        "id": "TUR-A-202",
-        "title": "Hike the Soğanlı Valley",
-        "description": "An hour south of the center, Soğanlı's twin valleys hide rock-cut churches, dovecote cliffs, and a stream-threaded floor with no souvenir stands and no tour groups — Cappadocia before the balloons.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Morning",
-        "season": "Apr–Oct",
-        "spark": 25,
-        "bonus": "Wade the stream barefoot to the valley's end church — mark your waterline on a rock with a wet finger.",
-        "city": "Soğanlı, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Soğanlı+Valley+Cappadocia"
-      },
-      {
-        "id": "TUR-A-201",
-        "title": "Visit the Kaymakli Underground City",
-        "description": "Kaymaklı is wider and more labyrinthine than Derinkuyu — level after level of tunnels, stables, and cellars where thousands once sheltered underground, and the claustrophobia is completely real.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the ventilation shaft on level four and listen — you'll hear wind moving from 80 metres below.",
-        "city": "Kaymaklı, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Kaymakli+Underground+City+Cappadocia"
-      },
-      {
-        "id": "TUR-A-108",
-        "title": "Visit the Avanos Hair Museum at Chez Galip",
-        "description": "Inside the pottery workshop of master ceramicist Galip Körükçü, a Guinness World Record-holding underground cave holds over 16,000 locks of hair donated by women from every country on earth — bizarre, intimate, and completely unforgettable.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "30–45 mins",
-        "durationMins": 40,
-        "time": "Any",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Leave a lock — scissors are available and Galip will add your name and hometown to the wall.",
-        "city": "Avanos, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Chez+Galip+Hair+Museum+Avanos"
-      },
-      {
-        "id": "TUR-A-106",
-        "title": "Hike the Gomeda Valley",
-        "description": "The deep-cut Gomeda Valley south of Mustafapaşa hides rock-cut churches, dovecotes, and dry-waterfall scrambles on a trail that few tour operators even list — bring water and go early.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Morning",
-        "season": "Apr–Oct",
-        "spark": 25,
-        "bonus": "At the deepest point of the canyon, shout at full volume — count the echoes.",
-        "city": "Ürgüp, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Gomeda+Valley+Mustafapaşa+Cappadocia"
-      },
-      {
-        "id": "TUR-A-104",
-        "title": "Explore Zelve Open Air Museum Solo",
-        "description": "The abandoned troglodyte village of Zelve — occupied until 1952 — is a labyrinth of cave dwellings, chapels, and mill chambers that rewards anyone willing to duck into unmarked tunnels without a guide.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the old flour mill room and turn your phone light off for sixty seconds — complete darkness.",
-        "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Zelve+Open+Air+Museum+Cappadocia",
-        "company": [
-          "solo"
-        ]
-      },
-      {
-        "id": "TUR-A-103",
-        "title": "Paragliding Launch from Uçhisar Summit",
-        "description": "Tandem paragliding from the ridge above Uçhisar gives you a bird's-eye read of every valley, fairy chimney, and vineyard terrace across the Cappadocian plateau — slower and quieter than any balloon.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Apr–Oct",
-        "spark": 40,
-        "bonus": "Ask your pilot to fly directly over a hot air balloon — get the shot looking down into the basket.",
-        "city": "Uçhisar, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/paragliding+Uçhisar+Cappadocia"
-      },
-      {
-        "id": "TUR-A-102",
-        "title": "Trek the Kılıçlar Valley Fresco Churches Trail",
-        "description": "This hidden valley between Göreme and Çavuşin harbors Byzantine rock-cut churches still blazing with 10th-century frescoes that almost no one visits because the trailhead is unmarked.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Mar–Nov",
-        "spark": 25,
-        "bonus": "Find the Sword Valley church and photograph a fresco without using your flash — see how far natural light gets you.",
-        "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Kılıçlar+Valley+Göreme"
-      },
-      {
-        "id": "TUR-A-04",
-        "title": "Scooter to Uçhisar Castle at Sunset",
-        "description": "Rent a scooter in Göreme and ride 4 km to Uçhisar — the highest naturally formed rock castle in Cappadocia — arriving with 30 minutes before dark. The 360-degree view from the summit puts the entire valley in frame as the light fails.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Apr–Oct",
-        "spark": 15,
-        "bonus": "Climb to the very top. Don't stop at the first good view.",
-        "city": "Uçhisar, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/U%C3%A7hisar+Castle+Cappadocia+Turkey",
-        "company": [
-          "couple"
-        ]
-      },
-      {
-        "id": "TUR-A-01",
-        "title": "Hot Air Balloon at Sunrise over Göreme Valley",
-        "description": "Royal Balloon launches before dawn and floats you above the fairy chimneys of the Göreme valley as the sun climbs over the horizon — the most photographed view in Turkey and the only one worth waking up at 4am for.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Morning",
-        "season": "Apr–Nov",
-        "spark": 40,
-        "bonus": "Don't touch your phone for the first ten minutes in the air. Just be there.",
-        "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Royal+Balloon+G%C3%B6reme+Cappadocia+Turkey"
-      },
-      {
-        "id": "TUR-A-03",
-        "title": "Hike the Ihlara Valley Gorge",
-        "description": "A 16 km canyon trail along the Melendiz River with Byzantine cave churches carved into the cliff walls at eye level — start at Selime Monastery, hike south to Ihlara village, and swim in the river when your legs say so.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "4–5 hrs",
-        "durationMins": 270,
-        "time": "Morning",
-        "season": "Apr–Nov",
-        "spark": 25,
-        "bonus": "Enter at least one cave church. Spend five minutes inside with your phone put away.",
-        "city": "Ihlara Valley, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Ihlara+Valley+Gorge+Cappadocia+Turkey"
-      },
-      {
-        "id": "TUR-A-02",
-        "title": "ATV Ride Through Rose Valley at Golden Hour",
-        "description": "Rent an ATV from the operators at the Göreme village entrance and ride the track through Rose Valley at 5pm when the volcanic rock turns terracotta — 8 km of trail through formations that were old when Constantinople was new.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Apr–Oct",
-        "spark": 15,
-        "bonus": "Stop once and turn the engine off. Sit in the silence for two minutes before riding on.",
-        "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/ATV+rental+Rose+Valley+G%C3%B6reme+Cappadocia"
-      }
-    ],
     "chill": [
       {
         "id": "TUR-C-301",
@@ -620,21 +618,6 @@
         "bonus": "Count the balloons at peak lift and get one photo with at least thirty in the frame.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Kelebek+Cave+Hotel+Göreme+Cappadocia"
-      },
-      {
-        "id": "TUR-C-106",
-        "title": "Cappadocia Art & History Museum, Mustafapaşa",
-        "description": "Inside a restored 170-year-old mansion in Mustafapaşa, some 3,000 handmade dolls act out Anatolian legends, village weddings, and everyday Cappadocian life — obscure, obsessive, and almost nobody visits.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the underground wine cellar room and spend ten minutes there alone with the lights off.",
-        "city": "Mustafapaşa, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/Cappadocia+Art+and+History+Museum+Mustafapaşa"
       },
       {
         "id": "TUR-C-105",
@@ -734,21 +717,6 @@
         "company": [
           "couple"
         ]
-      },
-      {
-        "id": "TUR-C-02",
-        "title": "Göreme Open Air Museum in the Afternoon",
-        "description": "A 10th-century monastic settlement with Byzantine frescoes intact inside cave chapels — the apses still oriented east, the paint still vivid. Come after 2pm when the morning tour groups have cleared out and you can sit alone in a 1,000-year-old church.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the fresco that affects you most. Sit in front of it for five minutes.",
-        "city": "Göreme, Cappadocia",
-        "mapsUrl": "https://www.google.com/maps/search/G%C3%B6reme+Open+Air+Museum+Cappadocia+Turkey"
       },
       {
         "id": "TUR-C-03",
@@ -951,6 +919,38 @@
         "bonus": "Order the wine pairing without looking at the prices first. Trust the sommelier.",
         "city": "Uçhisar, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Seki+Restaurant+Argos+in+Cappadocia+Ucchisar"
+      }
+    ],
+    "culture": [
+      {
+        "id": "TUR-C-106",
+        "title": "Cappadocia Art & History Museum, Mustafapaşa",
+        "description": "Inside a restored 170-year-old mansion in Mustafapaşa, some 3,000 handmade dolls act out Anatolian legends, village weddings, and everyday Cappadocian life — obscure, obsessive, and almost nobody visits.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the underground wine cellar room and spend ten minutes there alone with the lights off.",
+        "city": "Mustafapaşa, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/Cappadocia+Art+and+History+Museum+Mustafapaşa"
+      },
+      {
+        "id": "TUR-C-02",
+        "title": "Göreme Open Air Museum in the Afternoon",
+        "description": "A 10th-century monastic settlement with Byzantine frescoes intact inside cave chapels — the apses still oriented east, the paint still vivid. Come after 2pm when the morning tour groups have cleared out and you can sit alone in a 1,000-year-old church.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the fresco that affects you most. Sit in front of it for five minutes.",
+        "city": "Göreme, Cappadocia",
+        "mapsUrl": "https://www.google.com/maps/search/G%C3%B6reme+Open+Air+Museum+Cappadocia+Turkey"
       }
     ]
   }

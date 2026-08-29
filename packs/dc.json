@@ -5,7 +5,7 @@
   "emoji": "🏛️",
   "isDefault": false,
   "cards": {
-    "active": [
+    "adventure": [
       {
         "id": "DC-AC-302",
         "title": "Hill Repeats on the Exorcist Steps",
@@ -37,6 +37,69 @@
         "mapsUrl": "https://www.google.com/maps/search/National+Gallery+Sculpture+Garden+Ice+Rink+Washington+DC"
       },
       {
+        "id": "DC-A-204",
+        "title": "Monuments by Moonlight Paddle — Key Bridge Boathouse",
+        "description": "Key Bridge Boathouse's guided evening paddle puts you on the Potomac with the lit Lincoln and the Kennedy Center reflected across open water — the monuments the way almost nobody sees them.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 40,
+        "bonus": "Stop paddling mid-river, close your eyes for 30 seconds, then open them — no explanation, just do it.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://www.google.com/maps/search/Key+Bridge+Boathouse+Georgetown+Washington+DC"
+      },
+      {
+        "id": "DC-A-203",
+        "title": "Gravelly Point Plane Spotting Picnic",
+        "description": "Planes from Reagan National clear fifty feet overhead while you sprawl on the grass at Gravelly Point, making it the most exhilarating free picnic spot on the East Coast.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Track an inbound flight on FlightAware and count down its approach — stand and wave as it thunders over.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://www.google.com/maps/search/Gravelly+Point+Park+Arlington+Virginia",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "DC-A-202",
+        "title": "Kenilworth Aquatic Gardens at Dawn",
+        "description": "DC's only national park dedicated to water plants erupts with blooming lotus and lily pads each summer morning before the heat closes the flowers by noon.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Jun–Aug",
+        "spark": 25,
+        "bonus": "Get a photo of a lotus bloom fully open — you have until 10 AM before they start closing.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://www.google.com/maps/search/Kenilworth+Aquatic+Gardens+Washington+DC"
+      },
+      {
+        "id": "DC-A-201",
+        "title": "Anacostia Riverwalk Trail to Frederick Douglass House",
+        "description": "The paved Anacostia Riverwalk delivers a rarely-walked slice of DC history, ending at Cedar Hill where Frederick Douglass's views of the Capitol are genuinely humbling.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 25,
+        "bonus": "Stand on Douglass's front porch and recite a single line from one of his speeches out loud.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://www.google.com/maps/search/Frederick+Douglass+National+Historic+Site+Washington+DC"
+      },
+      {
         "id": "DC-AC-103",
         "title": "National Mall Dawn Run — Monument Circuit",
         "description": "The 4.5-mile loop past the Lincoln, Vietnam, Korea, FDR, MLK, and Jefferson memorials at dawn — the monuments at first light with no crowds is the best DC has to offer.",
@@ -50,6 +113,51 @@
         "bonus": "Stop at each memorial and read one inscription out loud.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=National+Mall+Washington+DC"
+      },
+      {
+        "id": "DC-A-103",
+        "title": "Great Falls Maryland — Billy Goat Trail A",
+        "description": "The Class A section of the Billy Goat Trail scrambles along the Mather Gorge above the Potomac falls — more technical than a hike, views that explain why people move to DC.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the point where the gorge is narrowest and listen to the water for two minutes.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://maps.google.com/?q=Billy+Goat+Trail+Great+Falls+Maryland"
+      },
+      {
+        "id": "DC-A-104",
+        "title": "Capital One Arena — Caps or Wizards Night",
+        "description": "The F Street corridor before a game is DC's best sports energy — the arena is intimate, the city gets loud, and the pregame bar scene on 7th St NW is mandatory.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Make friends with someone in your section by the second period.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://maps.google.com/?q=Capital+One+Arena+Washington+DC"
+      },
+      {
+        "id": "DC-A-102",
+        "title": "National Museum of African American History",
+        "description": "Book timed-entry passes months in advance — the Smithsonian's bronze lattice-wrapped building on the Mall is the most important museum in DC and requires a full day.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Start in the basement and work your way up chronologically — don't skip a floor.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://maps.google.com/?q=National+Museum+of+African+American+History+and+Culture+Washington+DC"
       },
       {
         "id": "DC-AC-108",
@@ -80,6 +188,21 @@
         "bonus": "Ride the full 11 miles without stopping — time yourself each direction.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Capital+Crescent+Trail+Georgetown+Washington+DC"
+      },
+      {
+        "id": "DC-A-105",
+        "title": "Mount Vernon by Boat from The Wharf",
+        "description": "Take the Spirit of Mount Vernon from Pier 4 at The Wharf — three hours on the Potomac, tour Washington's estate, sail back as the sun drops behind Virginia.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Summer",
+        "spark": 40,
+        "bonus": "Find the distillery on the estate grounds — it's operational and selling whiskey.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://maps.google.com/?q=Spirit+of+Mount+Vernon+Pier+4+Washington+DC"
       },
       {
         "id": "DC-AC-106",
@@ -125,6 +248,39 @@
         "bonus": "Get close enough to the Jefferson Memorial to read the inscription above the columns.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Tidal+Basin+Boathouse+Washington+DC"
+      },
+      {
+        "id": "DC-A-101",
+        "title": "International Spy Museum Deep Dive",
+        "description": "The L'Enfant Plaza museum is genuinely excellent — actual tradecraft artifacts, real declassified ops, and an interactive cover assignment that runs through the whole visit.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Complete your cover assignment without breaking character once.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://maps.google.com/?q=International+Spy+Museum+Washington+DC"
+      },
+      {
+        "id": "DC-A-106",
+        "title": "Library of Congress — Great Hall & Lantern",
+        "description": "The Jefferson Building's Great Hall is one of the most ornate interiors in America — go to the Visitor Gallery to see the original Gutenberg Bible and book the lantern dome tour.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Book the lantern dome tour to get to the top of the Reading Room dome — it fills fast.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://maps.google.com/?q=Library+of+Congress+Jefferson+Building+Washington+DC",
+        "company": [
+          "solo"
+        ]
       },
       {
         "id": "DC-AC-101",
@@ -185,6 +341,36 @@
         "bonus": "Find Pulpit Rock — the actual boulder — and climb it. Post nothing about it.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Rock+Creek+Park+trails+Washington+DC"
+      },
+      {
+        "id": "DC_A_04",
+        "title": "Night Monuments Tour by Bike — Capital Bikeshare",
+        "description": "Every major monument is lit and almost empty after 10pm, and looping the Mall on a bikeshare at night is the closest DC gets to cinematic.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Hit all five: Lincoln, Vietnam Wall, Korean War, FDR, and Jefferson memorials in one unbroken loop without stopping the clock — under 90 minutes.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://www.google.com/maps/search/Capital+Bikeshare+National+Mall+Washington+DC"
+      },
+      {
+        "id": "DC_A_01",
+        "title": "Sunrise at the Lincoln Memorial Steps",
+        "description": "The Mall is deserted at dawn and the reflection pool turns the monument into something genuinely monumental — no crowds, no noise, just marble and light.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Sit exactly where MLK stood during the 'I Have a Dream' speech — the engraved marker is there. Read the full Gettysburg Address carved inside out loud.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://www.google.com/maps/search/Lincoln+Memorial+Washington+DC"
       }
     ],
     "social": [
@@ -302,21 +488,6 @@
         "adult": true
       },
       {
-        "id": "DC-S-107",
-        "title": "Nationals Park Half Smoke & Rooftop",
-        "description": "The Navy Yard ballpark has the Capitol dome over center field, Ben's Chili Bowl in the concourse, and a rooftop bar in right field — buy the cheap ticket and upgrade your view.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "4 hrs",
-        "durationMins": 240,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 15,
-        "bonus": "Get the half smoke from the Ben's stand inside and eat it during the national anthem.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Nationals+Park+Washington+DC"
-      },
-      {
         "id": "DC-S-101",
         "title": "Blues Alley Jazz Supper Club",
         "description": "The legendary Georgetown jazz club in the alley off Wisconsin Ave has hosted every name worth knowing — dinner at a table, a show that goes until midnight.",
@@ -346,24 +517,6 @@
         "bonus": "Get to the front third of the standing area before the headliner — and introduce yourself to whoever ends up next to you.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/The+Hamilton+Live+Washington+DC"
-      },
-      {
-        "id": "DC_S_03",
-        "title": "Free Friday Night at the Hirshhorn Museum",
-        "description": "The Hirshhorn's contemporary art collection is massive and completely free — Friday evenings thin the crowds and the cylindrical building alone is worth the visit.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1.5–2 hrs",
-        "durationMins": 105,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the most divisive piece in the current exhibition and defend it to whoever you're with — two minutes minimum.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Hirshhorn+Museum+Washington+DC",
-        "company": [
-          "solo"
-        ]
       },
       {
         "id": "DC_S_01",
@@ -564,194 +717,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Ben%27s+Chili+Bowl+U+Street+Washington+DC"
       }
     ],
-    "adventure": [
-      {
-        "id": "DC-A-204",
-        "title": "Monuments by Moonlight Paddle — Key Bridge Boathouse",
-        "description": "Key Bridge Boathouse's guided evening paddle puts you on the Potomac with the lit Lincoln and the Kennedy Center reflected across open water — the monuments the way almost nobody sees them.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "May–Sep",
-        "spark": 40,
-        "bonus": "Stop paddling mid-river, close your eyes for 30 seconds, then open them — no explanation, just do it.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Key+Bridge+Boathouse+Georgetown+Washington+DC"
-      },
-      {
-        "id": "DC-A-203",
-        "title": "Gravelly Point Plane Spotting Picnic",
-        "description": "Planes from Reagan National clear fifty feet overhead while you sprawl on the grass at Gravelly Point, making it the most exhilarating free picnic spot on the East Coast.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Apr–Oct",
-        "spark": 15,
-        "bonus": "Track an inbound flight on FlightAware and count down its approach — stand and wave as it thunders over.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Gravelly+Point+Park+Arlington+Virginia",
-        "company": [
-          "couple"
-        ]
-      },
-      {
-        "id": "DC-A-202",
-        "title": "Kenilworth Aquatic Gardens at Dawn",
-        "description": "DC's only national park dedicated to water plants erupts with blooming lotus and lily pads each summer morning before the heat closes the flowers by noon.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "Jun–Aug",
-        "spark": 25,
-        "bonus": "Get a photo of a lotus bloom fully open — you have until 10 AM before they start closing.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Kenilworth+Aquatic+Gardens+Washington+DC"
-      },
-      {
-        "id": "DC-A-201",
-        "title": "Anacostia Riverwalk Trail to Frederick Douglass House",
-        "description": "The paved Anacostia Riverwalk delivers a rarely-walked slice of DC history, ending at Cedar Hill where Frederick Douglass's views of the Capitol are genuinely humbling.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Mar–Nov",
-        "spark": 25,
-        "bonus": "Stand on Douglass's front porch and recite a single line from one of his speeches out loud.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Frederick+Douglass+National+Historic+Site+Washington+DC"
-      },
-      {
-        "id": "DC-A-103",
-        "title": "Great Falls Maryland — Billy Goat Trail A",
-        "description": "The Class A section of the Billy Goat Trail scrambles along the Mather Gorge above the Potomac falls — more technical than a hike, views that explain why people move to DC.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find the point where the gorge is narrowest and listen to the water for two minutes.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Billy+Goat+Trail+Great+Falls+Maryland"
-      },
-      {
-        "id": "DC-A-104",
-        "title": "Capital One Arena — Caps or Wizards Night",
-        "description": "The F Street corridor before a game is DC's best sports energy — the arena is intimate, the city gets loud, and the pregame bar scene on 7th St NW is mandatory.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "4 hrs",
-        "durationMins": 240,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Make friends with someone in your section by the second period.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Capital+One+Arena+Washington+DC"
-      },
-      {
-        "id": "DC-A-102",
-        "title": "National Museum of African American History",
-        "description": "Book timed-entry passes months in advance — the Smithsonian's bronze lattice-wrapped building on the Mall is the most important museum in DC and requires a full day.",
-        "rarity": "Legendary",
-        "cost": "$",
-        "duration": "5 hrs",
-        "durationMins": 300,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 40,
-        "bonus": "Start in the basement and work your way up chronologically — don't skip a floor.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=National+Museum+of+African+American+History+and+Culture+Washington+DC"
-      },
-      {
-        "id": "DC-A-105",
-        "title": "Mount Vernon by Boat from The Wharf",
-        "description": "Take the Spirit of Mount Vernon from Pier 4 at The Wharf — three hours on the Potomac, tour Washington's estate, sail back as the sun drops behind Virginia.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "8 hrs",
-        "durationMins": 480,
-        "time": "Morning",
-        "season": "Summer",
-        "spark": 40,
-        "bonus": "Find the distillery on the estate grounds — it's operational and selling whiskey.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Spirit+of+Mount+Vernon+Pier+4+Washington+DC"
-      },
-      {
-        "id": "DC-A-101",
-        "title": "International Spy Museum Deep Dive",
-        "description": "The L'Enfant Plaza museum is genuinely excellent — actual tradecraft artifacts, real declassified ops, and an interactive cover assignment that runs through the whole visit.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Complete your cover assignment without breaking character once.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=International+Spy+Museum+Washington+DC"
-      },
-      {
-        "id": "DC-A-106",
-        "title": "Library of Congress — Great Hall & Lantern",
-        "description": "The Jefferson Building's Great Hall is one of the most ornate interiors in America — go to the Visitor Gallery to see the original Gutenberg Bible and book the lantern dome tour.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Book the lantern dome tour to get to the top of the Reading Room dome — it fills fast.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Library+of+Congress+Jefferson+Building+Washington+DC",
-        "company": [
-          "solo"
-        ]
-      },
-      {
-        "id": "DC_A_04",
-        "title": "Night Monuments Tour by Bike — Capital Bikeshare",
-        "description": "Every major monument is lit and almost empty after 10pm, and looping the Mall on a bikeshare at night is the closest DC gets to cinematic.",
-        "rarity": "Legendary",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 40,
-        "bonus": "Hit all five: Lincoln, Vietnam Wall, Korean War, FDR, and Jefferson memorials in one unbroken loop without stopping the clock — under 90 minutes.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Capital+Bikeshare+National+Mall+Washington+DC"
-      },
-      {
-        "id": "DC_A_01",
-        "title": "Sunrise at the Lincoln Memorial Steps",
-        "description": "The Mall is deserted at dawn and the reflection pool turns the monument into something genuinely monumental — no crowds, no noise, just marble and light.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 75,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Sit exactly where MLK stood during the 'I Have a Dream' speech — the engraved marker is there. Read the full Gettysburg Address carved inside out loud.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/Lincoln+Memorial+Washington+DC"
-      }
-    ],
     "chill": [
       {
         "id": "DC-C-108",
@@ -782,24 +747,6 @@
         "bonus": "Walk until you reach Lock 3 and back without looking at your phone.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=C%26O+Canal+Towpath+Georgetown+Washington+DC"
-      },
-      {
-        "id": "DC-C-104",
-        "title": "National Cathedral Tower at Sunset",
-        "description": "Take the elevator to the top of the Gloria in Excelsis Tower for a 360-degree view of the city — the Washington Monument to the south, Maryland to the north, at golden hour.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find the Darth Vader grotesque on the northwest tower before you leave.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=Washington+National+Cathedral+Washington+DC",
-        "company": [
-          "couple"
-        ]
       },
       {
         "id": "DC-C-102",
@@ -862,36 +809,6 @@
         "mapsUrl": "https://maps.google.com/?q=Meridian+Hill+Park+Washington+DC"
       },
       {
-        "id": "DC-C-107",
-        "title": "National Portrait Gallery Free Night",
-        "description": "The Smithsonian American Art Museum and National Portrait Gallery share a building in Penn Quarter — free always, uncrowded on weeknights, the Lunder Conservation Center lets you watch art being restored.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find one portrait where you can't tell the subject is famous until you read the label.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://maps.google.com/?q=National+Portrait+Gallery+Washington+DC"
-      },
-      {
-        "id": "DC_C_04",
-        "title": "National Gallery of Art Sculpture Garden",
-        "description": "The fountain plaza is free, the modern sculptures are world-class, and on a clear afternoon it might be the most civilized outdoor hour available anywhere on the Mall.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pick the sculpture you find least interesting and stand in front of it for ten full minutes — then decide if you still feel the same.",
-        "city": "Washington, DC",
-        "mapsUrl": "https://www.google.com/maps/search/National+Gallery+of+Art+Sculpture+Garden+Washington+DC"
-      },
-      {
         "id": "DC_C_03",
         "title": "Coffee at Tryst, Adams Morgan",
         "description": "Tryst has been the living room of Adams Morgan since 1999 — mismatched couches, strong coffee, and zero pressure to leave at any point.",
@@ -920,6 +837,89 @@
         "bonus": "Find the Pebble Garden — sit on the stone bench and stay completely silent for five full minutes.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Dumbarton+Oaks+Garden+Georgetown+Washington+DC"
+      }
+    ],
+    "culture": [
+      {
+        "id": "DC-C-104",
+        "title": "National Cathedral Tower at Sunset",
+        "description": "Take the elevator to the top of the Gloria in Excelsis Tower for a 360-degree view of the city — the Washington Monument to the south, Maryland to the north, at golden hour.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the Darth Vader grotesque on the northwest tower before you leave.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://maps.google.com/?q=Washington+National+Cathedral+Washington+DC",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "DC-S-107",
+        "title": "Nationals Park Half Smoke & Rooftop",
+        "description": "The Navy Yard ballpark has the Capitol dome over center field, Ben's Chili Bowl in the concourse, and a rooftop bar in right field — buy the cheap ticket and upgrade your view.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Summer",
+        "spark": 15,
+        "bonus": "Get the half smoke from the Ben's stand inside and eat it during the national anthem.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://maps.google.com/?q=Nationals+Park+Washington+DC"
+      },
+      {
+        "id": "DC-C-107",
+        "title": "National Portrait Gallery Free Night",
+        "description": "The Smithsonian American Art Museum and National Portrait Gallery share a building in Penn Quarter — free always, uncrowded on weeknights, the Lunder Conservation Center lets you watch art being restored.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find one portrait where you can't tell the subject is famous until you read the label.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://maps.google.com/?q=National+Portrait+Gallery+Washington+DC"
+      },
+      {
+        "id": "DC_S_03",
+        "title": "Free Friday Night at the Hirshhorn Museum",
+        "description": "The Hirshhorn's contemporary art collection is massive and completely free — Friday evenings thin the crowds and the cylindrical building alone is worth the visit.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the most divisive piece in the current exhibition and defend it to whoever you're with — two minutes minimum.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://www.google.com/maps/search/Hirshhorn+Museum+Washington+DC",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "DC_C_04",
+        "title": "National Gallery of Art Sculpture Garden",
+        "description": "The fountain plaza is free, the modern sculptures are world-class, and on a clear afternoon it might be the most civilized outdoor hour available anywhere on the Mall.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pick the sculpture you find least interesting and stand in front of it for ten full minutes — then decide if you still feel the same.",
+        "city": "Washington, DC",
+        "mapsUrl": "https://www.google.com/maps/search/National+Gallery+of+Art+Sculpture+Garden+Washington+DC"
       },
       {
         "id": "DC_C_01",

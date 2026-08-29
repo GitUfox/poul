@@ -73,128 +73,6 @@
         ]
       },
       {
-        "id": "LAX-A-11",
-        "title": "Snorkel the Kelp Forests at Malaga Cove in Palos Verdes",
-        "description": "The protected cove at Malaga hides some of the clearest water and densest kelp forest accessible from the LA shore — bring a wetsuit and go early.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "May–Oct",
-        "spark": 25,
-        "bonus": "Drop to the sandy bottom at the kelp edge — if you can touch it and surface clean, the viz is exceptional.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Malaga+Cove+Palos+Verdes+Los+Angeles"
-      },
-      {
-        "id": "LAX-A-10",
-        "title": "Skate the Culver City Bike Path to Marina del Rey",
-        "description": "The Ballona Creek bike path runs seven nearly unbroken miles from Culver City to the marina jetty — the fastest, flattest, most satisfying urban skate line in Southern California.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Skate the entire stretch to Ballona Creek and back without stopping — no phone, no music.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Ballona+Creek+Bike+Path+Culver+City+Los+Angeles"
-      },
-      {
-        "id": "LAX-A-8",
-        "title": "Learn to Paraglide at Dockweiler with Windsports",
-        "description": "Windsports has taught first flights off the Dockweiler Beach training bluff for decades — by the end of a beginner day you are gliding solo over the sand with LAX jets threading past offshore.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 40,
-        "bonus": "Ask your pilot to do a 360-degree spiral turn over the water — if conditions allow, most will.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Windsports+Paragliding+Dockweiler+Beach+Los+Angeles"
-      },
-      {
-        "id": "LAX-A-7",
-        "title": "Climb at Stoney Point Park in Chatsworth",
-        "description": "This sandstone boulder field in the northwest Valley has been a proving ground for LA rock climbers since the 1940s, with problems from beginner to send-it scary.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–4 hrs",
-        "durationMins": 180,
-        "time": "Morning",
-        "season": "Oct–May",
-        "spark": 15,
-        "bonus": "Free-solo any route under V2 — no rope, no crash pad, just you and sandstone.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Stoney+Point+Park+Chatsworth+Los+Angeles"
-      },
-      {
-        "id": "LAX-A-6",
-        "title": "Explore the Tide Pools at Leo Carrillo State Beach",
-        "description": "At low tide, the sea caves and rocky shelves at Leo Carrillo reveal a fully stocked aquarium — sea stars, hermit crabs, anemones — fifty miles from downtown.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Oct–Apr",
-        "spark": 15,
-        "bonus": "Find and photograph five different species in a single tide pool without disturbing anything.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Leo+Carrillo+State+Beach+Malibu+Los+Angeles"
-      },
-      {
-        "id": "LAX-A-4",
-        "title": "Surf a Lesson at Topanga Beach",
-        "description": "Topanga's mellow right-hand break is the exact spot where LA surfers have been learning to stand up since the 1950s, and the vibe hasn't changed much.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Apr–Oct",
-        "spark": 15,
-        "bonus": "Ride a wave all the way to the shore break and walk out without falling — no holding the instructor's hand.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Topanga+State+Beach+Los+Angeles"
-      },
-      {
-        "id": "LAX-A-3",
-        "title": "Scramble Up the Wisdom Tree on Cahuenga Peak",
-        "description": "A lone pine tree survived the 2007 fire up here, and the 360-degree view of the Valley, Griffith Park, and downtown it presides over is genuinely earned.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Write something in the prayer journal left in the box under the tree and read someone else's entry aloud.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Wisdom+Tree+Cahuenga+Peak+Griffith+Park+Los+Angeles"
-      },
-      {
-        "id": "LAX-A-1",
-        "title": "Hike to the Hollywood Sign via Brush Canyon Trail",
-        "description": "The classic LA pilgrimage hits different when you're standing above the smog line staring down at the whole basin sprawled below you.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Touch the base of the letter H and take a photo facing away from the sign — no sign in frame.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Brush+Canyon+Trail+Hollywood+Sign+Los+Angeles"
-      }
-    ],
-    "active": [
-      {
         "id": "LAX-AC-201",
         "title": "Run Pickup at the Venice Beach Courts",
         "description": "The outdoor courts where White Men Can't Jump was filmed still run games all day — put your name in, respect the call, and earn your next.",
@@ -363,6 +241,126 @@
         "mapsUrl": "https://www.google.com/maps/search/Venice+Beach+Boardwalk+to+Will+Rogers+State+Beach+Los+Angeles"
       },
       {
+        "id": "LAX-A-11",
+        "title": "Snorkel the Kelp Forests at Malaga Cove in Palos Verdes",
+        "description": "The protected cove at Malaga hides some of the clearest water and densest kelp forest accessible from the LA shore — bring a wetsuit and go early.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 25,
+        "bonus": "Drop to the sandy bottom at the kelp edge — if you can touch it and surface clean, the viz is exceptional.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Malaga+Cove+Palos+Verdes+Los+Angeles"
+      },
+      {
+        "id": "LAX-A-10",
+        "title": "Skate the Culver City Bike Path to Marina del Rey",
+        "description": "The Ballona Creek bike path runs seven nearly unbroken miles from Culver City to the marina jetty — the fastest, flattest, most satisfying urban skate line in Southern California.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Skate the entire stretch to Ballona Creek and back without stopping — no phone, no music.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Ballona+Creek+Bike+Path+Culver+City+Los+Angeles"
+      },
+      {
+        "id": "LAX-A-8",
+        "title": "Learn to Paraglide at Dockweiler with Windsports",
+        "description": "Windsports has taught first flights off the Dockweiler Beach training bluff for decades — by the end of a beginner day you are gliding solo over the sand with LAX jets threading past offshore.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask your pilot to do a 360-degree spiral turn over the water — if conditions allow, most will.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Windsports+Paragliding+Dockweiler+Beach+Los+Angeles"
+      },
+      {
+        "id": "LAX-A-7",
+        "title": "Climb at Stoney Point Park in Chatsworth",
+        "description": "This sandstone boulder field in the northwest Valley has been a proving ground for LA rock climbers since the 1940s, with problems from beginner to send-it scary.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–4 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 15,
+        "bonus": "Free-solo any route under V2 — no rope, no crash pad, just you and sandstone.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Stoney+Point+Park+Chatsworth+Los+Angeles"
+      },
+      {
+        "id": "LAX-A-6",
+        "title": "Explore the Tide Pools at Leo Carrillo State Beach",
+        "description": "At low tide, the sea caves and rocky shelves at Leo Carrillo reveal a fully stocked aquarium — sea stars, hermit crabs, anemones — fifty miles from downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 15,
+        "bonus": "Find and photograph five different species in a single tide pool without disturbing anything.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Leo+Carrillo+State+Beach+Malibu+Los+Angeles"
+      },
+      {
+        "id": "LAX-A-4",
+        "title": "Surf a Lesson at Topanga Beach",
+        "description": "Topanga's mellow right-hand break is the exact spot where LA surfers have been learning to stand up since the 1950s, and the vibe hasn't changed much.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Ride a wave all the way to the shore break and walk out without falling — no holding the instructor's hand.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Topanga+State+Beach+Los+Angeles"
+      },
+      {
+        "id": "LAX-A-3",
+        "title": "Scramble Up the Wisdom Tree on Cahuenga Peak",
+        "description": "A lone pine tree survived the 2007 fire up here, and the 360-degree view of the Valley, Griffith Park, and downtown it presides over is genuinely earned.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Write something in the prayer journal left in the box under the tree and read someone else's entry aloud.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Wisdom+Tree+Cahuenga+Peak+Griffith+Park+Los+Angeles"
+      },
+      {
+        "id": "LAX-A-1",
+        "title": "Hike to the Hollywood Sign via Brush Canyon Trail",
+        "description": "The classic LA pilgrimage hits different when you're standing above the smog line staring down at the whole basin sprawled below you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Touch the base of the letter H and take a photo facing away from the sign — no sign in frame.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Brush+Canyon+Trail+Hollywood+Sign+Los+Angeles"
+      },
+      {
         "id": "LA-AC-02",
         "title": "Stair Workout at the Santa Monica Stairs",
         "description": "Grind out laps on the 4th and Adelaide public staircase that's been LA's outdoor gym for decades.",
@@ -395,21 +393,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Cafe+Tropical+Silver+Lake+Los+Angeles"
       },
       {
-        "id": "LAX-S-9",
-        "title": "Afternoon at the Hammer Museum in Westwood",
-        "description": "UCLA's free contemporary art museum punches well above its size with rotating exhibitions that regularly outshine bigger institutions across the city.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find one piece that genuinely confuses you, then read every word of the wall text about it.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Hammer+Museum+Westwood+Los+Angeles"
-      },
-      {
         "id": "LAX-C-9",
         "title": "Coffee and a Novel at Intelligentsia in Silver Lake",
         "description": "One of the cafes that put specialty coffee on the LA map still pulls some of the city's best espresso in a room worth sitting in for hours.",
@@ -423,21 +406,6 @@
         "bonus": "Order a drink you've never tried from the menu — no modifying it — and finish the whole thing.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Intelligentsia+Coffee+Silver+Lake+Los+Angeles"
-      },
-      {
-        "id": "LAX-C-8",
-        "title": "Afternoon at LACMA's Permanent Collection",
-        "description": "The largest art museum in the western US holds Magritte, Basquiat, and ancient artifacts — most people never make it past the Broad.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Pick the one piece that unsettles you most and write three sentences about it before moving on.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/LACMA+Los+Angeles+County+Museum+of+Art"
       },
       {
         "id": "LAX-C-7",
@@ -506,24 +474,6 @@
         ]
       },
       {
-        "id": "LAX-C-3",
-        "title": "Afternoon at the Huntington Library Gardens",
-        "description": "Two hundred acres of botanical gardens, a world-class art collection, and absolute quiet in San Marino — the ultimate slow afternoon.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find the Desert Garden and spend fifteen minutes sitting still enough that a bird lands near you.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Huntington+Library+Art+Museum+Botanical+Gardens+San+Marino+CA",
-        "company": [
-          "solo"
-        ]
-      },
-      {
         "id": "LAX-C-2",
         "title": "Watch the Sunset from Point Dume State Preserve",
         "description": "The clifftop bluff at Point Dume frames the Santa Monica Bay in a wide arc — show up thirty minutes before sunset and watch the marine layer ignite from the highest point on the Malibu coast.",
@@ -540,21 +490,6 @@
         "company": [
           "couple"
         ]
-      },
-      {
-        "id": "LAX-C-1",
-        "title": "Read on the Lawn at the Getty Center",
-        "description": "The Getty sits on a Brentwood ridge with a view that makes every piece of art inside feel like an afterthought — pack a book, find a bench in the garden, and let the afternoon dissolve.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–4 hrs",
-        "durationMins": 180,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pick one painting inside, sit in front of it for twenty uninterrupted minutes, and write one sentence about what you actually feel.",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://www.google.com/maps/search/Getty+Center+Los+Angeles"
       },
       {
         "id": "LAX-A-2",
@@ -575,7 +510,7 @@
         ]
       }
     ],
-    "social": [
+    "culture": [
       {
         "id": "LAX-S-13",
         "title": "Night at the Griffith Observatory Public Telescope",
@@ -591,6 +526,86 @@
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Griffith+Observatory+Los+Angeles"
       },
+      {
+        "id": "LAX-S-9",
+        "title": "Afternoon at the Hammer Museum in Westwood",
+        "description": "UCLA's free contemporary art museum punches well above its size with rotating exhibitions that regularly outshine bigger institutions across the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find one piece that genuinely confuses you, then read every word of the wall text about it.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Hammer+Museum+Westwood+Los+Angeles"
+      },
+      {
+        "id": "LAX-C-8",
+        "title": "Afternoon at LACMA's Permanent Collection",
+        "description": "The largest art museum in the western US holds Magritte, Basquiat, and ancient artifacts — most people never make it past the Broad.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Pick the one piece that unsettles you most and write three sentences about it before moving on.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/LACMA+Los+Angeles+County+Museum+of+Art"
+      },
+      {
+        "id": "LAX-C-3",
+        "title": "Afternoon at the Huntington Library Gardens",
+        "description": "Two hundred acres of botanical gardens, a world-class art collection, and absolute quiet in San Marino — the ultimate slow afternoon.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the Desert Garden and spend fifteen minutes sitting still enough that a bird lands near you.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Huntington+Library+Art+Museum+Botanical+Gardens+San+Marino+CA",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "LAX-C-1",
+        "title": "Read on the Lawn at the Getty Center",
+        "description": "The Getty sits on a Brentwood ridge with a view that makes every piece of art inside feel like an afterthought — pack a book, find a bench in the garden, and let the afternoon dissolve.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–4 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pick one painting inside, sit in front of it for twenty uninterrupted minutes, and write one sentence about what you actually feel.",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://www.google.com/maps/search/Getty+Center+Los+Angeles"
+      },
+      {
+        "id": "LA-S-02",
+        "title": "Join the Venice Beach Drum Circle",
+        "description": "Show up at sunset on the Venice boardwalk and fall into rhythm with the long-running weekend drum circle.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Dance for at least one full song",
+        "city": "Los Angeles, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Venice+Beach+Drum+Circle+Los+Angeles"
+      }
+    ],
+    "social": [
       {
         "id": "LAX-S-12",
         "title": "Karaoke Until Close at Brass Monkey in Koreatown",
@@ -748,21 +763,6 @@
         "bonus": "Pack a full picnic spread in the box seats and introduce yourself to the strangers at the next table before the first set.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Hollywood+Bowl+Los+Angeles"
-      },
-      {
-        "id": "LA-S-02",
-        "title": "Join the Venice Beach Drum Circle",
-        "description": "Show up at sunset on the Venice boardwalk and fall into rhythm with the long-running weekend drum circle.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1-2 hrs",
-        "durationMins": 90,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 14,
-        "bonus": "Dance for at least one full song",
-        "city": "Los Angeles, CA",
-        "mapsUrl": "https://maps.google.com/maps/search/Venice+Beach+Drum+Circle+Los+Angeles"
       }
     ],
     "foodie": [

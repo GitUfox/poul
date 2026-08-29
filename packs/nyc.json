@@ -289,101 +289,6 @@
         "mapsUrl": "https://www.google.com/maps/search/The%20Edge%20Hudson%20Yards%20New%20York%20NY"
       },
       {
-        "id": "NYC-A-103",
-        "title": "Cyclone at Coney Island",
-        "description": "The 1927 wooden roller coaster at Luna Park is still running — buy a ride, eat a Nathan's hot dog, walk the boardwalk in the off-season when it belongs to locals.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Ride the Cyclone twice in a row without getting off.",
-        "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=Cyclone+Roller+Coaster+Coney+Island+Brooklyn"
-      },
-      {
-        "id": "NYC-A-104",
-        "title": "Yankee Stadium Bleacher Creatures",
-        "description": "Section 203 in right field — the Bleacher Creatures run roll call at the start of every game, every player acknowledges them, and the cheap ticket is the right ticket.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "4 hrs",
-        "durationMins": 240,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 15,
-        "bonus": "Learn the roll call chant before you go and participate from the first pitch.",
-        "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=Yankee+Stadium+Bronx+New+York"
-      },
-      {
-        "id": "NYC-A-102",
-        "title": "9/11 Memorial Before 9am",
-        "description": "The twin reflecting pools on a weekday morning before the crowds — the names on the bronze parapets, the survivor tree, the sound of the waterfalls. Go quiet.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find a name on the memorial from your hometown.",
-        "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=9%2F11+Memorial+New+York"
-      },
-      {
-        "id": "NYC-A-105",
-        "title": "Lower Manhattan Night Ghost Tour",
-        "description": "A 90-minute walk through FiDi, Tribeca, and the Financial District — the stories are half myth, but the neighborhood is 400 years old and doesn't need embellishment.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Try to debunk one story on the tour by looking it up after.",
-        "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=Financial+District+Ghost+Tour+New+York"
-      },
-      {
-        "id": "NYC-A-101",
-        "title": "NYC Ferry — All Five Lines in One Day",
-        "description": "Board at Pier 11 in FiDi and ride all five NYC Ferry routes — Astoria, East River, South Brooklyn, Rockaway, St. George — the best $3.50 transportation deal in the city.",
-        "rarity": "Legendary",
-        "cost": "$",
-        "duration": "6 hrs",
-        "durationMins": 360,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 40,
-        "bonus": "Document the full circuit — photo at every terminal you stop at.",
-        "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=NYC+Ferry+Pier+11+New+York"
-      },
-      {
-        "id": "NYC-A-106",
-        "title": "One World Trade Observatory at Dusk",
-        "description": "Book the FLEX ticket 30 minutes before sunset and stay for the city lighting up below — the only right way to do this is at dusk, never at noon.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Identify five landmarks on all four sides without using the interactive displays.",
-        "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=One+World+Observatory+New+York",
-        "company": [
-          "couple"
-        ]
-      }
-    ],
-    "active": [
-      {
         "id": "NYC2-A-04",
         "title": "Rucker Park Pickup Basketball, Harlem",
         "description": "The legendary Harlem court at 155th where streetball history was made — watch a run or get in one if your game is real.",
@@ -447,6 +352,21 @@
         "mapsUrl": "https://www.google.com/maps/search/Central%20Park%20New%20York%20NY"
       },
       {
+        "id": "NYC-A-103",
+        "title": "Cyclone at Coney Island",
+        "description": "The 1927 wooden roller coaster at Luna Park is still running — buy a ride, eat a Nathan's hot dog, walk the boardwalk in the off-season when it belongs to locals.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ride the Cyclone twice in a row without getting off.",
+        "city": "New York City",
+        "mapsUrl": "https://maps.google.com/?q=Cyclone+Roller+Coaster+Coney+Island+Brooklyn"
+      },
+      {
         "id": "NYC-AC-104",
         "title": "Arthur Avenue Italian Market, Bronx",
         "description": "The real Little Italy in the Bronx — Biancardi's meat market, Borgatti's fresh pasta, Madonia Brothers bakery — bring a cooler and shop like you live here.",
@@ -477,6 +397,21 @@
         "mapsUrl": "https://maps.google.com/?q=Flushing+Main+Street+Queens+New+York"
       },
       {
+        "id": "NYC-A-104",
+        "title": "Yankee Stadium Bleacher Creatures",
+        "description": "Section 203 in right field — the Bleacher Creatures run roll call at the start of every game, every player acknowledges them, and the cheap ticket is the right ticket.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Summer",
+        "spark": 15,
+        "bonus": "Learn the roll call chant before you go and participate from the first pitch.",
+        "city": "New York City",
+        "mapsUrl": "https://maps.google.com/?q=Yankee+Stadium+Bronx+New+York"
+      },
+      {
         "id": "NYC-AC-102",
         "title": "Prospect Park Long Loop Run",
         "description": "The 3.35-mile perimeter loop through Brooklyn's Olmsted-designed park, closed to cars all weekend — enter at Grand Army Plaza, run counterclockwise, finish at the boathouse.",
@@ -490,6 +425,36 @@
         "bonus": "Run it twice and spot something different on the second lap.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Prospect+Park+Grand+Army+Plaza+Brooklyn"
+      },
+      {
+        "id": "NYC-A-102",
+        "title": "9/11 Memorial Before 9am",
+        "description": "The twin reflecting pools on a weekday morning before the crowds — the names on the bronze parapets, the survivor tree, the sound of the waterfalls. Go quiet.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find a name on the memorial from your hometown.",
+        "city": "New York City",
+        "mapsUrl": "https://maps.google.com/?q=9%2F11+Memorial+New+York"
+      },
+      {
+        "id": "NYC-A-105",
+        "title": "Lower Manhattan Night Ghost Tour",
+        "description": "A 90-minute walk through FiDi, Tribeca, and the Financial District — the stories are half myth, but the neighborhood is 400 years old and doesn't need embellishment.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Try to debunk one story on the tour by looking it up after.",
+        "city": "New York City",
+        "mapsUrl": "https://maps.google.com/?q=Financial+District+Ghost+Tour+New+York"
       },
       {
         "id": "NYC-AC-103",
@@ -565,9 +530,42 @@
         "bonus": "Ride it in under 90 minutes, stopping only for the coffee.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Hudson+River+Greenway+New+York"
+      },
+      {
+        "id": "NYC-A-101",
+        "title": "NYC Ferry — All Five Lines in One Day",
+        "description": "Board at Pier 11 in FiDi and ride all five NYC Ferry routes — Astoria, East River, South Brooklyn, Rockaway, St. George — the best $3.50 transportation deal in the city.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Document the full circuit — photo at every terminal you stop at.",
+        "city": "New York City",
+        "mapsUrl": "https://maps.google.com/?q=NYC+Ferry+Pier+11+New+York"
+      },
+      {
+        "id": "NYC-A-106",
+        "title": "One World Trade Observatory at Dusk",
+        "description": "Book the FLEX ticket 30 minutes before sunset and stay for the city lighting up below — the only right way to do this is at dusk, never at noon.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Identify five landmarks on all four sides without using the interactive displays.",
+        "city": "New York City",
+        "mapsUrl": "https://maps.google.com/?q=One+World+Observatory+New+York",
+        "company": [
+          "couple"
+        ]
       }
     ],
-    "chill": [
+    "culture": [
       {
         "id": "NYC2-C-04",
         "title": "The Frick Collection",
@@ -582,39 +580,6 @@
         "bonus": "Find the Vermeer and stand with it until the room empties around you.",
         "city": "New York City, NY",
         "mapsUrl": "https://www.google.com/maps/search/The%20Frick%20Collection%20New%20York%20NY"
-      },
-      {
-        "id": "NYC2-C-03",
-        "title": "Staten Island Ferry at Sunset",
-        "description": "The free 25-minute ferry past the Statue of Liberty and back — board westbound at golden hour for the best free skyline view in New York.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Stand at the stern westbound and watch the skyline light up, then ride right back.",
-        "city": "New York City, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Staten%20Island%20Ferry%20Whitehall%20Terminal%20New%20York%20NY",
-        "company": [
-          "couple"
-        ]
-      },
-      {
-        "id": "NYC2-C-02",
-        "title": "The High Line Walk, Chelsea",
-        "description": "The elevated rail line turned planted park running from the Meatpacking District up through Chelsea — wildflowers, art, and city views.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Walk the whole length end to end without stepping off once.",
-        "city": "New York City, NY",
-        "mapsUrl": "https://www.google.com/maps/search/The%20High%20Line%20New%20York%20NY"
       },
       {
         "id": "NYC2-C-01",
@@ -662,21 +627,6 @@
         "mapsUrl": "https://maps.google.com/?q=New+York+Public+Library+42nd+Street"
       },
       {
-        "id": "NYC-C-107",
-        "title": "The Strand Dollar Carts on Broadway",
-        "description": "The outdoor $1 carts in front of The Strand at 12th and Broadway — spend $10 on six strange books, take your time, no rush and no one's watching.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "45 min",
-        "durationMins": 45,
-        "time": "Any",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Buy one book you know nothing about based only on the cover.",
-        "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=The+Strand+Bookstore+New+York"
-      },
-      {
         "id": "NYC-C-106",
         "title": "MoMA PS1 Courtyard",
         "description": "The Long Island City contemporary art satellite's courtyard often outperforms the galleries — check their Warm Up summer DJ series on Saturdays.",
@@ -705,6 +655,71 @@
         "bonus": "Pick a film you know nothing about — choose by the poster only.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Metrograph+Cinema+New+York"
+      },
+      {
+        "id": "NYC-C-105",
+        "title": "Green-Wood Cemetery Walk",
+        "description": "The 478-acre National Historic Landmark in Brooklyn — Gothic chapel, glacial ponds, Victorian monuments — the most peaceful walk in the outer boroughs.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find a grave belonging to someone you've actually heard of — the list is longer than you think.",
+        "city": "New York City",
+        "mapsUrl": "https://maps.google.com/?q=Green-Wood+Cemetery+Brooklyn"
+      }
+    ],
+    "chill": [
+      {
+        "id": "NYC2-C-03",
+        "title": "Staten Island Ferry at Sunset",
+        "description": "The free 25-minute ferry past the Statue of Liberty and back — board westbound at golden hour for the best free skyline view in New York.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stand at the stern westbound and watch the skyline light up, then ride right back.",
+        "city": "New York City, NY",
+        "mapsUrl": "https://www.google.com/maps/search/Staten%20Island%20Ferry%20Whitehall%20Terminal%20New%20York%20NY",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "NYC2-C-02",
+        "title": "The High Line Walk, Chelsea",
+        "description": "The elevated rail line turned planted park running from the Meatpacking District up through Chelsea — wildflowers, art, and city views.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Walk the whole length end to end without stepping off once.",
+        "city": "New York City, NY",
+        "mapsUrl": "https://www.google.com/maps/search/The%20High%20Line%20New%20York%20NY"
+      },
+      {
+        "id": "NYC-C-107",
+        "title": "The Strand Dollar Carts on Broadway",
+        "description": "The outdoor $1 carts in front of The Strand at 12th and Broadway — spend $10 on six strange books, take your time, no rush and no one's watching.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Buy one book you know nothing about based only on the cover.",
+        "city": "New York City",
+        "mapsUrl": "https://maps.google.com/?q=The+Strand+Bookstore+New+York"
       },
       {
         "id": "NYC-C-104",
@@ -738,21 +753,6 @@
         "bonus": "Find the plaque marking where Peter Minuit bought Manhattan from the Lenape.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Inwood+Hill+Park+New+York"
-      },
-      {
-        "id": "NYC-C-105",
-        "title": "Green-Wood Cemetery Walk",
-        "description": "The 478-acre National Historic Landmark in Brooklyn — Gothic chapel, glacial ponds, Victorian monuments — the most peaceful walk in the outer boroughs.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find a grave belonging to someone you've actually heard of — the list is longer than you think.",
-        "city": "New York City",
-        "mapsUrl": "https://maps.google.com/?q=Green-Wood+Cemetery+Brooklyn"
       }
     ],
     "foodie": [

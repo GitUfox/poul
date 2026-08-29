@@ -403,21 +403,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Playa+Chac+Mool+Cancun"
       },
       {
-        "id": "CUN-C-204",
-        "title": "See MUSA from a Glass-Bottom Boat",
-        "description": "The underwater museum without getting wet — five hundred silent statues slipping past under glass.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pick one statue and find out its story afterward.",
-        "city": "Cancún, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/MUSA+glass+bottom+boat+tour+Cancun"
-      },
-      {
         "id": "CUN-C-203",
         "title": "Golf-Cart Loop of Isla Mujeres to Punta Sur",
         "description": "Ferry over, rent a cart, and putter the island's one road to the sculpture-strewn cliffs of Punta Sur — the easternmost point of Mexico.",
@@ -499,21 +484,6 @@
         ]
       },
       {
-        "id": "CUN-C-4",
-        "title": "Afternoon at Museo Maya de Cancún",
-        "description": "The finest archaeological museum on the Mexican Caribbean houses 400 pre-Columbian pieces in a sleek modern building that's cool, calm, and almost always half-empty.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the piece with the oldest date marker and spend ten full minutes with just that one object.",
-        "city": "Cancún, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Museo+Maya+de+Cancun"
-      },
-      {
         "id": "CUN-C-3",
         "title": "Read on the Quiet End of Playa Gaviota Azul",
         "description": "The western stretch of this Hotel Zone beach stays uncrowded well into midday — white sand, turquoise water, and the kind of silence that makes a book feel like a luxury.",
@@ -562,7 +532,7 @@
         ]
       }
     ],
-    "active": [
+    "adventure": [
       {
         "id": "CUN-AC-306",
         "title": "Morning Loop of Parque Kabah",
@@ -577,6 +547,51 @@
         "bonus": "Full loop without stopping; coati sightings are free points.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://maps.google.com/maps/search/Parque+Kabah+Cancun"
+      },
+      {
+        "id": "CUN-A-303",
+        "title": "Drive the Ruta de los Cenotes",
+        "description": "From Puerto Morelos a jungle road strings together a dozen swimmable cenotes — pick two, swim both, and let the day disappear.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Half day",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Choose one cenote by name alone and don't look it up first.",
+        "city": "Cancún, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Ruta+de+los+Cenotes+Puerto+Morelos"
+      },
+      {
+        "id": "CUN-A-302",
+        "title": "Walk the Quiet Ruins of El Meco",
+        "description": "North of the ferry docks sits a small Maya site with a climbable-view pyramid, iguanas everywhere, and almost nobody else.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Count the iguanas — first to twenty wins.",
+        "city": "Cancún, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Zona+Arqueologica+El+Meco+Cancun"
+      },
+      {
+        "id": "CUN-A-301",
+        "title": "Spend the Day at Ventura Park",
+        "description": "Cancún's amusement park stacks waterslides, a wave pool, ziplines, and go-karts at the far tip of the Hotel Zone.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "Half day",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ride the biggest slide first, before you can talk yourself out of it.",
+        "city": "Cancún, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Ventura+Park+Cancun"
       },
       {
         "id": "CUN-AC-305",
@@ -609,6 +624,21 @@
         "mapsUrl": "https://www.google.com/maps/search/Puerto+Juarez+fishing+charter+Cancun"
       },
       {
+        "id": "CUN-A-201",
+        "title": "Boat Out to the Bird Island of Isla Contoy",
+        "description": "Only two hundred visitors a day are allowed on this national-park island of frigatebirds and empty white sand — the Caribbean before anyone built anything.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 540,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Count frigatebirds until you give up.",
+        "city": "Cancún, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Isla+Contoy+tours+Cancun"
+      },
+      {
         "id": "CUN-AC-14",
         "title": "Snorkel Puerto Morelos Reef National Park",
         "description": "One of the most protected and therefore healthiest reef sections on the entire Mesoamerican Barrier Reef lives just offshore in shallow, crystal-clear water.",
@@ -622,6 +652,21 @@
         "bonus": "Count at least ten species before surfacing — moray, parrotfish, and barracuda are on the board.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Puerto+Morelos+Reef+National+Park+Mexico"
+      },
+      {
+        "id": "CUN-AC-12",
+        "title": "Beat the Buses Into Chichén Itzá at Opening",
+        "description": "Arrive at the gates the moment they open at 8am and you'll walk the site in near-total silence before the tour buses arrive and ruin everything.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stand at the base of El Castillo and clap once — listen for the quetzal echo that bounces back.",
+        "city": "Cancún, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Chichen+Itza+Mexico"
       },
       {
         "id": "CUN-AC-8",
@@ -712,83 +757,6 @@
         "bonus": "Run the full 14km without stopping for a single photo — save the view for the turnaround point.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Boulevard+Kukulcan+Cancun+Hotel+Zone"
-      }
-    ],
-    "adventure": [
-      {
-        "id": "CUN-A-303",
-        "title": "Drive the Ruta de los Cenotes",
-        "description": "From Puerto Morelos a jungle road strings together a dozen swimmable cenotes — pick two, swim both, and let the day disappear.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "Half day",
-        "durationMins": 300,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Choose one cenote by name alone and don't look it up first.",
-        "city": "Cancún, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Ruta+de+los+Cenotes+Puerto+Morelos"
-      },
-      {
-        "id": "CUN-A-302",
-        "title": "Walk the Quiet Ruins of El Meco",
-        "description": "North of the ferry docks sits a small Maya site with a climbable-view pyramid, iguanas everywhere, and almost nobody else.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Count the iguanas — first to twenty wins.",
-        "city": "Cancún, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Zona+Arqueologica+El+Meco+Cancun"
-      },
-      {
-        "id": "CUN-A-301",
-        "title": "Spend the Day at Ventura Park",
-        "description": "Cancún's amusement park stacks waterslides, a wave pool, ziplines, and go-karts at the far tip of the Hotel Zone.",
-        "rarity": "Common",
-        "cost": "$$$",
-        "duration": "Half day",
-        "durationMins": 300,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Ride the biggest slide first, before you can talk yourself out of it.",
-        "city": "Cancún, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Ventura+Park+Cancun"
-      },
-      {
-        "id": "CUN-A-201",
-        "title": "Boat Out to the Bird Island of Isla Contoy",
-        "description": "Only two hundred visitors a day are allowed on this national-park island of frigatebirds and empty white sand — the Caribbean before anyone built anything.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "Full day",
-        "durationMins": 540,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Count frigatebirds until you give up.",
-        "city": "Cancún, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Isla+Contoy+tours+Cancun"
-      },
-      {
-        "id": "CUN-AC-12",
-        "title": "Beat the Buses Into Chichén Itzá at Opening",
-        "description": "Arrive at the gates the moment they open at 8am and you'll walk the site in near-total silence before the tour buses arrive and ruin everything.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "5–6 hrs",
-        "durationMins": 330,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 40,
-        "bonus": "Stand at the base of El Castillo and clap once — listen for the quetzal echo that bounces back.",
-        "city": "Cancún, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Chichen+Itza+Mexico"
       },
       {
         "id": "CUN-A-12",
@@ -939,6 +907,38 @@
         "bonus": "Touch nothing, photograph everything — find the 'Silent Evolution' group and count how many sculptures have coral growing from their eyes.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/MUSA+Underwater+Museum+Cancun"
+      }
+    ],
+    "culture": [
+      {
+        "id": "CUN-C-204",
+        "title": "See MUSA from a Glass-Bottom Boat",
+        "description": "The underwater museum without getting wet — five hundred silent statues slipping past under glass.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pick one statue and find out its story afterward.",
+        "city": "Cancún, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/MUSA+glass+bottom+boat+tour+Cancun"
+      },
+      {
+        "id": "CUN-C-4",
+        "title": "Afternoon at Museo Maya de Cancún",
+        "description": "The finest archaeological museum on the Mexican Caribbean houses 400 pre-Columbian pieces in a sleek modern building that's cool, calm, and almost always half-empty.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the piece with the oldest date marker and spend ten full minutes with just that one object.",
+        "city": "Cancún, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Museo+Maya+de+Cancun"
       }
     ]
   }

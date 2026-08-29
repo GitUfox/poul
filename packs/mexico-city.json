@@ -145,21 +145,6 @@
         "adult": true
       },
       {
-        "id": "MEX-S-5",
-        "title": "Lucha Libre at Arena México, Doctores",
-        "description": "The cathedral of lucha libre hosts electrifying weekly bouts where masked legends and rising luchadores collide in front of a roaring crowd.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Learn one luchador's signature chant from a neighbor in the stands and lead the section in it at least once.",
-        "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Arena+Mexico+Doctores+Mexico+City"
-      },
-      {
         "id": "MEX-S-4",
         "title": "Jazz Night at Zinco Jazz Club, Centro Histórico",
         "description": "A 1930s bank vault converted into an underground jazz club — low ceilings, serious musicians, and mezcal cocktails in a room that feels like it was designed to make you stay until 3 a.m.",
@@ -425,21 +410,6 @@
         "mapsUrl": "https://maps.google.com/maps/search/Casa+Luis+Barragan+Mexico+City"
       },
       {
-        "id": "MEX-C-201",
-        "title": "Morning at Casa Azul — the Frida Kahlo Museum",
-        "description": "Frida's cobalt-blue Coyoacán house holds her studio, her dresses, and her garden exactly as she left them — book the first slot and beat the world to it.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Buy tickets online days ahead — walk-ups get turned away.",
-        "city": "Mexico City, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Museo+Frida+Kahlo+Casa+Azul+Coyoacan"
-      },
-      {
         "id": "MEX-C-11",
         "title": "Sit With the Murals at Palacio de Bellas Artes",
         "description": "The interior of Mexico City's most beautiful building holds Rivera, Orozco, Siqueiros, and Tamayo murals within a single art deco marble hall — and almost nobody sits long enough to really look.",
@@ -470,24 +440,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Mercado+Jamaica+Mexico+City"
       },
       {
-        "id": "MEX-C-10",
-        "title": "Afternoon at Museo Nacional de Antropología",
-        "description": "The greatest pre-Columbian collection on earth sits in Chapultepec and rewards slow, unguided wandering — the Aztec Sun Stone alone is worth the trip.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the Olmec colossal head in the Gulf Coast Hall and sketch its face in your phone notes using only emoji.",
-        "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Museo+Nacional+de+Antropologia+Chapultepec+Mexico+City",
-        "company": [
-          "solo"
-        ]
-      },
-      {
         "id": "MEX-C-9",
         "title": "Sunset at Mirador del Cerro del Tepeyac, Gustavo A. Madero",
         "description": "Above the Basílica de Guadalupe, the hilltop path to the original chapel rewards the climb with a sweeping north-city panorama almost no tourist bothers to reach.",
@@ -504,21 +456,6 @@
         "company": [
           "couple"
         ]
-      },
-      {
-        "id": "MEX-C-8",
-        "title": "Murals at the Secretaría de Educación Pública, Centro",
-        "description": "The SEP building holds 235 Diego Rivera murals painted between 1923 and 1928 — free to enter, almost never crowded, and arguably the most important mural cycle in Mexican history.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find the panel where Rivera painted himself into the scene and take a photo from the same angle he used as reference.",
-        "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Secretaria+de+Educacion+Publica+murales+Diego+Rivera+Mexico+City"
       },
       {
         "id": "MEX-C-7",
@@ -584,6 +521,86 @@
         "mapsUrl": "https://www.google.com/maps/search/Cafe+Avellaneda+Coyoacan+Mexico+City"
       },
       {
+        "id": "MEX-C-1",
+        "title": "Afternoon in the Jardín Centenario, Coyoacán",
+        "description": "Coyoacán's central plaza has been the neighborhood's living room for four centuries — sit under the laurel trees, buy an esquite, and let the afternoon collapse.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pick one stranger to observe for ten minutes and invent their entire life story in your head before you leave.",
+        "city": "Mexico City, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Jardin+Centenario+Coyoacan+Mexico+City"
+      }
+    ],
+    "culture": [
+      {
+        "id": "MEX-C-201",
+        "title": "Morning at Casa Azul — the Frida Kahlo Museum",
+        "description": "Frida's cobalt-blue Coyoacán house holds her studio, her dresses, and her garden exactly as she left them — book the first slot and beat the world to it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Buy tickets online days ahead — walk-ups get turned away.",
+        "city": "Mexico City, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+Frida+Kahlo+Casa+Azul+Coyoacan"
+      },
+      {
+        "id": "MEX-C-10",
+        "title": "Afternoon at Museo Nacional de Antropología",
+        "description": "The greatest pre-Columbian collection on earth sits in Chapultepec and rewards slow, unguided wandering — the Aztec Sun Stone alone is worth the trip.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the Olmec colossal head in the Gulf Coast Hall and sketch its face in your phone notes using only emoji.",
+        "city": "Mexico City, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Museo+Nacional+de+Antropologia+Chapultepec+Mexico+City",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "MEX-S-5",
+        "title": "Lucha Libre at Arena México, Doctores",
+        "description": "The cathedral of lucha libre hosts electrifying weekly bouts where masked legends and rising luchadores collide in front of a roaring crowd.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Learn one luchador's signature chant from a neighbor in the stands and lead the section in it at least once.",
+        "city": "Mexico City, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Arena+Mexico+Doctores+Mexico+City"
+      },
+      {
+        "id": "MEX-C-8",
+        "title": "Murals at the Secretaría de Educación Pública, Centro",
+        "description": "The SEP building holds 235 Diego Rivera murals painted between 1923 and 1928 — free to enter, almost never crowded, and arguably the most important mural cycle in Mexican history.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the panel where Rivera painted himself into the scene and take a photo from the same angle he used as reference.",
+        "city": "Mexico City, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Secretaria+de+Educacion+Publica+murales+Diego+Rivera+Mexico+City"
+      },
+      {
         "id": "MEX-C-3",
         "title": "Afternoon at Museo Dolores Olmedo, Xochimilco",
         "description": "A colonial hacienda in Xochimilco housing the world's largest private collection of Diego Rivera and Frida Kahlo works — roamed by real peacocks and a colony of hairless Xoloitzcuintli dogs.",
@@ -612,24 +629,9 @@
         "bonus": "Buy a book in Spanish entirely based on its cover and read the first page before you order your coffee.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Libreria+El+Pendulo+Polanco+Mexico+City"
-      },
-      {
-        "id": "MEX-C-1",
-        "title": "Afternoon in the Jardín Centenario, Coyoacán",
-        "description": "Coyoacán's central plaza has been the neighborhood's living room for four centuries — sit under the laurel trees, buy an esquite, and let the afternoon collapse.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pick one stranger to observe for ten minutes and invent their entire life story in your head before you leave.",
-        "city": "Mexico City, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Jardin+Centenario+Coyoacan+Mexico+City"
       }
     ],
-    "active": [
+    "adventure": [
       {
         "id": "MEX-AC-202",
         "title": "Hike the River Canyon at Los Dinamos",
@@ -661,6 +663,54 @@
         "mapsUrl": "https://maps.google.com/maps/search/Plaza+de+la+Ciudadela+Mexico+City",
         "company": [
           "couple"
+        ]
+      },
+      {
+        "id": "MEX-A-203",
+        "title": "Climb the Monumento a la Revolución",
+        "description": "Take the glass elevator up the world's tallest triumphal arch, then walk the open-air dome galleries where the whole Centro spreads out beneath you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find your hotel or Airbnb from the observation deck.",
+        "city": "Mexico City, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Monumento+a+la+Revolucion+Mexico+City"
+      },
+      {
+        "id": "MEX-A-202",
+        "title": "Ride the Cablebús Over the Rooftops of Cuautepec",
+        "description": "Mexico City's cable car glides for miles over painted rooftops and mountainside barrios — the best civic-infrastructure joyride in the Americas costs less than a coffee.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ride to the last station and back without checking your phone once.",
+        "city": "Mexico City, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Cablebus+Linea+1+Indios+Verdes"
+      },
+      {
+        "id": "MEX-A-201",
+        "title": "Ride a Trajinera Through the Canals of Xochimilco",
+        "description": "Board a painted party barge at Embarcadero Nuevo Nativitas and drift the last living canals of the Aztec chinampas while floating mariachis pull up alongside.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Buy a song from a passing mariachi boat — full volume, no shame.",
+        "city": "Mexico City, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Embarcadero+Nuevo+Nativitas+Xochimilco",
+        "company": [
+          "group"
         ]
       },
       {
@@ -782,56 +832,6 @@
         "bonus": "Ride the full length from Chapultepec to the Zócalo without stopping and time yourself.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Paseo+de+la+Reforma+Mexico+City"
-      }
-    ],
-    "adventure": [
-      {
-        "id": "MEX-A-203",
-        "title": "Climb the Monumento a la Revolución",
-        "description": "Take the glass elevator up the world's tallest triumphal arch, then walk the open-air dome galleries where the whole Centro spreads out beneath you.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find your hotel or Airbnb from the observation deck.",
-        "city": "Mexico City, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Monumento+a+la+Revolucion+Mexico+City"
-      },
-      {
-        "id": "MEX-A-202",
-        "title": "Ride the Cablebús Over the Rooftops of Cuautepec",
-        "description": "Mexico City's cable car glides for miles over painted rooftops and mountainside barrios — the best civic-infrastructure joyride in the Americas costs less than a coffee.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Ride to the last station and back without checking your phone once.",
-        "city": "Mexico City, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Cablebus+Linea+1+Indios+Verdes"
-      },
-      {
-        "id": "MEX-A-201",
-        "title": "Ride a Trajinera Through the Canals of Xochimilco",
-        "description": "Board a painted party barge at Embarcadero Nuevo Nativitas and drift the last living canals of the Aztec chinampas while floating mariachis pull up alongside.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Buy a song from a passing mariachi boat — full volume, no shame.",
-        "city": "Mexico City, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Embarcadero+Nuevo+Nativitas+Xochimilco",
-        "company": [
-          "group"
-        ]
       },
       {
         "id": "MEX-A-12",

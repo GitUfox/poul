@@ -84,21 +84,6 @@
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Peaceful+Restaurant+Kingsway+Vancouver"
       },
       {
-        "id": "YVR-S-5",
-        "title": "Volleyball at Sunset Beach Courts",
-        "description": "The drop-in beach volleyball scene at Sunset Beach draws a serious crowd all summer and welcomes strangers who can hold their own.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "May–Sep",
-        "spark": 15,
-        "bonus": "Join a game with people you've never met and stay until your team loses.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sunset+Beach+Volleyball+Courts+Vancouver"
-      },
-      {
         "id": "YVR-S-4",
         "title": "Sunday Afternoon at The Narrow Lounge",
         "description": "Mount Pleasant's most charming dive bar is genuinely narrow — one long room, cheap drinks, pinball, and a jukebox that somehow always plays the right song.",
@@ -180,21 +165,6 @@
         "adult": true
       },
       {
-        "id": "VAN-S-02",
-        "title": "Catch a Canucks Game at Rogers Arena",
-        "description": "Feel downtown Vancouver shake as the Canucks take the ice in front of a sold-out, blue-and-green crowd.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Oct–Apr",
-        "spark": 28,
-        "bonus": "Learn one player's name and cheer for them specifically all night.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/Rogers+Arena+Vancouver"
-      },
-      {
         "id": "VAN-S-01",
         "title": "Craft Brewery Hop in Mount Pleasant",
         "description": "Walk the Mount Pleasant brewery district and sample your way through Vancouver's tightest cluster of taprooms.",
@@ -243,21 +213,6 @@
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dr+Sun+Yat-Sen+Classical+Chinese+Garden+Vancouver"
       },
       {
-        "id": "YVR-C-9",
-        "title": "Afternoon at the Vancouver Art Gallery",
-        "description": "The VAG's permanent Emily Carr collection — her towering Pacific forest canvases — is one of the most underrated art experiences in North America and hits differently every single time.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Pick one Emily Carr painting, stand two feet from it for five minutes, and write down what you actually see.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Vancouver+Art+Gallery"
-      },
-      {
         "id": "YVR-C-8",
         "title": "Saturday Morning at Trout Lake Farmers Market",
         "description": "The East Van Community Centre market at Trout Lake is the most neighbourhood-authentic farmers market in the city — mostly vendors you can actually talk to, zero corporate booths.",
@@ -303,21 +258,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Macleod's+Books+Vancouver"
       },
       {
-        "id": "YVR-C-3",
-        "title": "Afternoon at the Museum of Anthropology at UBC",
-        "description": "Arthur Erickson's glass-and-concrete masterpiece on the UBC cliffs houses the world's finest collection of Northwest Coast Indigenous art, including Bill Reid's monumental Raven and the First Men.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find a totem pole or sculpture that stops you completely — sit in front of it for ten full minutes without your phone.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Museum+of+Anthropology+UBC+Vancouver"
-      },
-      {
         "id": "YVR-C-2",
         "title": "Sunset at Prospect Point in Stanley Park",
         "description": "Watch the freighters queue under the Lions Gate Bridge at golden hour from the highest point in Stanley Park — it's the view that makes locals stop complaining about rent.",
@@ -333,24 +273,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Prospect+Point+Stanley+Park+Vancouver+BC",
         "company": [
           "couple"
-        ]
-      },
-      {
-        "id": "YVR-C-1",
-        "title": "Read at the VPL Central Branch",
-        "description": "Moshe Safdie's soaring downtown library building opened in 1995 and remains one of the most quietly spectacular public spaces in any Canadian city.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–3 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pick a book from a shelf completely at random and read the first chapter before you leave.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Vancouver+Public+Library+Central+Branch+Vancouver+BC",
-        "company": [
-          "solo"
         ]
       },
       {
@@ -419,24 +341,9 @@
         "city": "Vancouver, BC",
         "mapsUrl": "https://maps.google.com/maps/search/Dude+Chilling+Park+Vancouver",
         "filterExempt": true
-      },
-      {
-        "id": "VAN-C-02",
-        "title": "Explore the Bill Reid Gallery",
-        "description": "Slow down inside a quiet downtown gallery devoted entirely to Northwest Coast Indigenous art.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 14,
-        "bonus": "Spend five full minutes with one piece before moving on.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/Bill+Reid+Gallery+of+Northwest+Coast+Art+Vancouver"
       }
     ],
-    "active": [
+    "adventure": [
       {
         "id": "YVR-AC-9",
         "title": "Sunrise Hike to Black Mountain Lookout in Cypress",
@@ -466,6 +373,21 @@
         "bonus": "Land a trick on the manual pad that you've been avoiding — film it.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hastings+Park+Skate+Plaza+Vancouver"
+      },
+      {
+        "id": "YVR-S-5",
+        "title": "Volleyball at Sunset Beach Courts",
+        "description": "The drop-in beach volleyball scene at Sunset Beach draws a serious crowd all summer and welcomes strangers who can hold their own.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 15,
+        "bonus": "Join a game with people you've never met and stay until your team loses.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sunset+Beach+Volleyball+Courts+Vancouver"
       },
       {
         "id": "YVR-AC-5",
@@ -543,6 +465,66 @@
         "mapsUrl": "https://www.google.com/maps/search/Kitsilano+Pool+Vancouver+BC"
       },
       {
+        "id": "YVR-A-6",
+        "title": "Hike to Quarry Rock in Deep Cove",
+        "description": "The hike to Quarry Rock in Deep Cove is short enough for a lunch break but the view over Indian Arm hits hard enough to ruin every office window forever.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Climb to the highest exposed rock face and sit with your legs dangling over the edge for a full 60 seconds.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://www.google.com/maps/search/Quarry+Rock+Deep+Cove+North+Vancouver+BC"
+      },
+      {
+        "id": "YVR-A-5",
+        "title": "Ski or Snowshoe at Mount Seymour",
+        "description": "The most accessible of Vancouver's three ski mountains delivers real powder runs with zero alpine pretension and a local crowd that actually lives here.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Dec–Mar",
+        "spark": 15,
+        "bonus": "Take the rope tow up to Goldie Lake and snowshoe the loop in the dark with only your phone light.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://www.google.com/maps/search/Mount+Seymour+Provincial+Park+North+Vancouver+BC"
+      },
+      {
+        "id": "YVR-A-3",
+        "title": "Swim at Wreck Beach",
+        "description": "Canada's largest clothing-optional beach sits at the bottom of 500 UBC forest stairs and feels like a different country entirely.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–4 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 15,
+        "bonus": "Go full clothing-optional for at least one swim — you'll understand the vibe immediately.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://www.google.com/maps/search/Wreck+Beach+Vancouver+BC"
+      },
+      {
+        "id": "YVR-A-2",
+        "title": "Kayak Indian Arm from Deep Cove",
+        "description": "Paddle into one of BC's most dramatic saltwater fjords straight from a sleepy North Van village where bald eagles are a common interruption.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 25,
+        "bonus": "Paddle all the way to Racoon Island and touch the rocks before turning back.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://www.google.com/maps/search/Deep+Cove+Kayak+Centre+North+Vancouver+BC"
+      },
+      {
         "id": "VAN-AC-03",
         "title": "Stand-Up Paddleboard on English Bay",
         "description": "Balance your way across calm water with Stanley Park on one side and the city skyline on the other.",
@@ -589,6 +571,146 @@
         "bonus": "Do it without stopping to check your time on the app.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://maps.google.com/maps/search/Grouse+Grind+Trail+Vancouver"
+      },
+      {
+        "id": "VAN-A-01",
+        "title": "Ride the Stanley Park Seawall",
+        "description": "Rent a bike at Spokes and cruise all 10km of the seawall's totem poles, beaches, and mountain views.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stop for a photo at Siwash Rock without checking your phone once.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://maps.google.com/maps/search/Spokes+Bike+Rentals+Vancouver"
+      },
+      {
+        "id": "VAN-A-04",
+        "title": "Zipline the Treetops at Grouse Mountain",
+        "description": "Fly through five ziplines strung between old-growth trees, 100 feet above the mountain floor.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "Half day",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 28,
+        "bonus": "Let go of the brake line and go full speed on the longest run.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://maps.google.com/maps/search/Grouse+Mountain+Vancouver"
+      },
+      {
+        "id": "VAN-A-02",
+        "title": "Cross the Capilano Suspension Bridge",
+        "description": "Sway 70 meters above a rainforest canyon on one of the world's most famous suspension bridges, then wander the treetop walkways.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "Half day",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Walk the Cliffwalk section without holding the railing, if you're steady on your feet.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://maps.google.com/maps/search/Capilano+Suspension+Bridge+Park+Vancouver"
+      },
+      {
+        "id": "VAN-A-03",
+        "title": "Whale Watching from Granville Island",
+        "description": "Board a Prince of Whales zodiac from Granville Island and chase orcas and humpbacks through the Salish Sea.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Half day",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 45,
+        "bonus": "Skip the top deck and watch your first sighting from the bow.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://maps.google.com/maps/search/Prince+of+Whales+Granville+Island+Vancouver"
+      }
+    ],
+    "culture": [
+      {
+        "id": "YVR-C-9",
+        "title": "Afternoon at the Vancouver Art Gallery",
+        "description": "The VAG's permanent Emily Carr collection — her towering Pacific forest canvases — is one of the most underrated art experiences in North America and hits differently every single time.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Pick one Emily Carr painting, stand two feet from it for five minutes, and write down what you actually see.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://www.google.com/maps/search/Vancouver+Art+Gallery"
+      },
+      {
+        "id": "YVR-C-3",
+        "title": "Afternoon at the Museum of Anthropology at UBC",
+        "description": "Arthur Erickson's glass-and-concrete masterpiece on the UBC cliffs houses the world's finest collection of Northwest Coast Indigenous art, including Bill Reid's monumental Raven and the First Men.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find a totem pole or sculpture that stops you completely — sit in front of it for ten full minutes without your phone.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://www.google.com/maps/search/Museum+of+Anthropology+UBC+Vancouver"
+      },
+      {
+        "id": "YVR-C-1",
+        "title": "Read at the VPL Central Branch",
+        "description": "Moshe Safdie's soaring downtown library building opened in 1995 and remains one of the most quietly spectacular public spaces in any Canadian city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–3 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pick a book from a shelf completely at random and read the first chapter before you leave.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://www.google.com/maps/search/Vancouver+Public+Library+Central+Branch+Vancouver+BC",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "VAN-S-02",
+        "title": "Catch a Canucks Game at Rogers Arena",
+        "description": "Feel downtown Vancouver shake as the Canucks take the ice in front of a sold-out, blue-and-green crowd.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 28,
+        "bonus": "Learn one player's name and cheer for them specifically all night.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://maps.google.com/maps/search/Rogers+Arena+Vancouver"
+      },
+      {
+        "id": "VAN-C-02",
+        "title": "Explore the Bill Reid Gallery",
+        "description": "Slow down inside a quiet downtown gallery devoted entirely to Northwest Coast Indigenous art.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Spend five full minutes with one piece before moving on.",
+        "city": "Vancouver, BC",
+        "mapsUrl": "https://maps.google.com/maps/search/Bill+Reid+Gallery+of+Northwest+Coast+Art+Vancouver"
       }
     ],
     "foodie": [
@@ -818,128 +940,6 @@
         "bonus": "Order in Italian at one of the old-school espresso bars.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://maps.google.com/maps/search/Commercial+Drive+Vancouver"
-      }
-    ],
-    "adventure": [
-      {
-        "id": "YVR-A-6",
-        "title": "Hike to Quarry Rock in Deep Cove",
-        "description": "The hike to Quarry Rock in Deep Cove is short enough for a lunch break but the view over Indian Arm hits hard enough to ruin every office window forever.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Any",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Climb to the highest exposed rock face and sit with your legs dangling over the edge for a full 60 seconds.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Quarry+Rock+Deep+Cove+North+Vancouver+BC"
-      },
-      {
-        "id": "YVR-A-5",
-        "title": "Ski or Snowshoe at Mount Seymour",
-        "description": "The most accessible of Vancouver's three ski mountains delivers real powder runs with zero alpine pretension and a local crowd that actually lives here.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "4–5 hrs",
-        "durationMins": 270,
-        "time": "Morning",
-        "season": "Dec–Mar",
-        "spark": 15,
-        "bonus": "Take the rope tow up to Goldie Lake and snowshoe the loop in the dark with only your phone light.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Mount+Seymour+Provincial+Park+North+Vancouver+BC"
-      },
-      {
-        "id": "YVR-A-3",
-        "title": "Swim at Wreck Beach",
-        "description": "Canada's largest clothing-optional beach sits at the bottom of 500 UBC forest stairs and feels like a different country entirely.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–4 hrs",
-        "durationMins": 180,
-        "time": "Afternoon",
-        "season": "Jun–Sep",
-        "spark": 15,
-        "bonus": "Go full clothing-optional for at least one swim — you'll understand the vibe immediately.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Wreck+Beach+Vancouver+BC"
-      },
-      {
-        "id": "YVR-A-2",
-        "title": "Kayak Indian Arm from Deep Cove",
-        "description": "Paddle into one of BC's most dramatic saltwater fjords straight from a sleepy North Van village where bald eagles are a common interruption.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Morning",
-        "season": "May–Sep",
-        "spark": 25,
-        "bonus": "Paddle all the way to Racoon Island and touch the rocks before turning back.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://www.google.com/maps/search/Deep+Cove+Kayak+Centre+North+Vancouver+BC"
-      },
-      {
-        "id": "VAN-A-01",
-        "title": "Ride the Stanley Park Seawall",
-        "description": "Rent a bike at Spokes and cruise all 10km of the seawall's totem poles, beaches, and mountain views.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Stop for a photo at Siwash Rock without checking your phone once.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/Spokes+Bike+Rentals+Vancouver"
-      },
-      {
-        "id": "VAN-A-04",
-        "title": "Zipline the Treetops at Grouse Mountain",
-        "description": "Fly through five ziplines strung between old-growth trees, 100 feet above the mountain floor.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "Half day",
-        "durationMins": 210,
-        "time": "Afternoon",
-        "season": "May–Oct",
-        "spark": 28,
-        "bonus": "Let go of the brake line and go full speed on the longest run.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/Grouse+Mountain+Vancouver"
-      },
-      {
-        "id": "VAN-A-02",
-        "title": "Cross the Capilano Suspension Bridge",
-        "description": "Sway 70 meters above a rainforest canyon on one of the world's most famous suspension bridges, then wander the treetop walkways.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "Half day",
-        "durationMins": 240,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Walk the Cliffwalk section without holding the railing, if you're steady on your feet.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/Capilano+Suspension+Bridge+Park+Vancouver"
-      },
-      {
-        "id": "VAN-A-03",
-        "title": "Whale Watching from Granville Island",
-        "description": "Board a Prince of Whales zodiac from Granville Island and chase orcas and humpbacks through the Salish Sea.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "Half day",
-        "durationMins": 240,
-        "time": "Morning",
-        "season": "Apr–Oct",
-        "spark": 45,
-        "bonus": "Skip the top deck and watch your first sighting from the bow.",
-        "city": "Vancouver, BC",
-        "mapsUrl": "https://maps.google.com/maps/search/Prince+of+Whales+Granville+Island+Vancouver"
       }
     ]
   }

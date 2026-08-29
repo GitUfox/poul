@@ -37,24 +37,6 @@
         "mapsUrl": "https://maps.google.com/maps/search/Teatro+Degollado+Guadalajara"
       },
       {
-        "id": "GDL-S-302",
-        "title": "Winter Baseball with the Charros de Jalisco",
-        "description": "Mexican Pacific League nights at the Panamericano are half baseball, half fiesta — bandas in the stands and micheladas by the litre.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Oct–Jan",
-        "spark": 15,
-        "bonus": "Buy a stranger's section a round of peanuts.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Estadio+Panamericano+de+Beisbol+Charros+Zapopan",
-        "company": [
-          "group"
-        ]
-      },
-      {
         "id": "GDL-S-301",
         "title": "Catch Atlas at the Estadio Jalisco",
         "description": "The 1970 and '86 World Cups played here — now it belongs to Atlas and the barra that never stops singing, in the city's great old concrete bowl.",
@@ -115,21 +97,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Colonia+Mexicaltzingo+Guadalajara"
       },
       {
-        "id": "GDL-S-10",
-        "title": "Lucha Libre Night at Arena Coliseo Guadalajara",
-        "description": "Arena Coliseo has been hosting lucha libre since 1953 and on fight nights it erupts into one of the loudest, most theatrical spectacles in Mexican sports.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Buy a luchador mask from the vendors outside and wear it for at least two full matches inside the arena.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Arena+Coliseo+Guadalajara"
-      },
-      {
         "id": "GDL-S-8",
         "title": "Salsa Night at La Bodeguita del Medio",
         "description": "This Cuban-flavored social club in Colonia Americana heats up after 10 pm with live bands, strong mojitos, and a dance floor that demands you participate.",
@@ -143,21 +110,6 @@
         "bonus": "Ask someone you don't know to teach you a salsa move — then actually use it before you leave.",
         "city": "Guadalajara, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/La+Bodeguita+del+Medio+Guadalajara"
-      },
-      {
-        "id": "GDL-S-6",
-        "title": "Sunday Lunch at La Fonda de San Miguel",
-        "description": "Set inside a gorgeous 17th-century ex-convent courtyard in the Historic Center, La Fonda de San Miguel serves Jaliscan classics that taste like they were cooked by someone's grandmother.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Order something off the menu you can't pronounce and ask the waiter to explain it before you eat.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/La+Fonda+de+San+Miguel+Guadalajara"
       },
       {
         "id": "GDL-S-5",
@@ -226,6 +178,149 @@
         "adult": true
       }
     ],
+    "culture": [
+      {
+        "id": "GDL-S-302",
+        "title": "Winter Baseball with the Charros de Jalisco",
+        "description": "Mexican Pacific League nights at the Panamericano are half baseball, half fiesta — bandas in the stands and micheladas by the litre.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Jan",
+        "spark": 15,
+        "bonus": "Buy a stranger's section a round of peanuts.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Estadio+Panamericano+de+Beisbol+Charros+Zapopan",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "GDL-C-304",
+        "title": "An Hour at the Museo de Arte de Zapopan",
+        "description": "MAZ puts serious contemporary art — Jalisco's best rotating shows — a plaza away from the basilica, and admission rarely costs more than the coffee after.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pick the one work you'd steal and defend the choice.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+de+Arte+de+Zapopan"
+      },
+      {
+        "id": "GDL-C-303",
+        "title": "Walk the Four Plazas to the Sunday Kiosco Band",
+        "description": "The Centro unfolds as a cross of plazas around the cathedral — end at Plaza de Armas, where the municipal band has played the iron kiosk on Sundays for over a century.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay for three full songs at the kiosco.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://maps.google.com/maps/search/Plaza+de+Armas+Guadalajara"
+      },
+      {
+        "id": "GDL-C-301",
+        "title": "Sit in the Reading Room of the Biblioteca Iberoamericana Octavio Paz",
+        "description": "Housed inside a 17th-century convent attached to the Universidad de Guadalajara, this library's main reading room — with its painted arches and courtyard fountain — is the most beautiful place in the city to do absolutely nothing urgent.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pull a book at random from the open stacks — read the first page out loud to yourself in a whisper.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Biblioteca+Iberoamericana+Octavio+Paz+Guadalajara",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "GDL-C-10",
+        "title": "Afternoon at the Planetario Severo Díaz Galindo",
+        "description": "Guadalajara's public planetarium in Huentitán runs Spanish-language dome shows on astronomy and the cosmos that are genuinely stunning and cost almost nothing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ask the staff one question after the show that you couldn't answer yourself — then write down the answer.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Planetario+Severo+Diaz+Galindo+Guadalajara"
+      },
+      {
+        "id": "GDL-S-10",
+        "title": "Lucha Libre Night at Arena Coliseo Guadalajara",
+        "description": "Arena Coliseo has been hosting lucha libre since 1953 and on fight nights it erupts into one of the loudest, most theatrical spectacles in Mexican sports.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Buy a luchador mask from the vendors outside and wear it for at least two full matches inside the arena.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Arena+Coliseo+Guadalajara"
+      },
+      {
+        "id": "GDL-C-8",
+        "title": "Visit the Museo de las Artes (MUSA) at UdeG",
+        "description": "The University of Guadalajara's art museum holds stunning Orozco frescoes inside its main hall dome and rotates contemporary exhibitions that are consistently among the city's sharpest.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 100,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Lie flat on your back on the museum floor under the dome fresco and look up for a full two minutes.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Museo+de+las+Artes+Universidad+de+Guadalajara"
+      },
+      {
+        "id": "GDL-C-7",
+        "title": "Explore the Palacio de Gobierno and its Orozco Murals",
+        "description": "José Clemente Orozco's fire-breathing staircase mural of Miguel Hidalgo is one of the most viscerally powerful paintings in the Americas — and it's free to walk up and stand inside it.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stand at the exact center of the staircase under the mural for five full minutes without taking a photo.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Palacio+de+Gobierno+Guadalajara"
+      },
+      {
+        "id": "GDL-C-1",
+        "title": "Sit in the Cathedral of Guadalajara at Dusk",
+        "description": "The twin yellow towers of this 1618 cathedral glow gold at sunset and the interior fills with incense smoke and the last of the day's light hitting the neoclassical altars.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30–60 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the mummified bishops displayed in the crypt — they're real and most visitors never find them.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Catedral+de+Guadalajara"
+      }
+    ],
     "foodie": [
       {
         "id": "GDL-F-302",
@@ -256,6 +351,21 @@
         "bonus": "Order it \"bien ahogada\" and don't reach for a fork.",
         "city": "Guadalajara, Mexico",
         "mapsUrl": "https://maps.google.com/maps/search/Tortas+Ahogadas+Jose+el+de+la+bicicleta+Guadalajara"
+      },
+      {
+        "id": "GDL-S-6",
+        "title": "Sunday Lunch at La Fonda de San Miguel",
+        "description": "Set inside a gorgeous 17th-century ex-convent courtyard in the Historic Center, La Fonda de San Miguel serves Jaliscan classics that taste like they were cooked by someone's grandmother.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order something off the menu you can't pronounce and ask the waiter to explain it before you eat.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/La+Fonda+de+San+Miguel+Guadalajara"
       },
       {
         "id": "GDL-F-11",
@@ -396,36 +506,6 @@
     ],
     "chill": [
       {
-        "id": "GDL-C-304",
-        "title": "An Hour at the Museo de Arte de Zapopan",
-        "description": "MAZ puts serious contemporary art — Jalisco's best rotating shows — a plaza away from the basilica, and admission rarely costs more than the coffee after.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pick the one work you'd steal and defend the choice.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Museo+de+Arte+de+Zapopan"
-      },
-      {
-        "id": "GDL-C-303",
-        "title": "Walk the Four Plazas to the Sunday Kiosco Band",
-        "description": "The Centro unfolds as a cross of plazas around the cathedral — end at Plaza de Armas, where the municipal band has played the iron kiosk on Sundays for over a century.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Stay for three full songs at the kiosco.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://maps.google.com/maps/search/Plaza+de+Armas+Guadalajara"
-      },
-      {
         "id": "GDL-C-302",
         "title": "Find the Japanese Garden Inside Bosque Los Colomos",
         "description": "Hidden in the city's eucalyptus forest is a koi-ponded Japanese garden gifted by sister-city Kyoto — the quietest place inside the ring road.",
@@ -439,24 +519,6 @@
         "bonus": "Sit on one bench for fifteen unbroken minutes.",
         "city": "Guadalajara, Mexico",
         "mapsUrl": "https://maps.google.com/maps/search/Jardin+Japones+Bosque+Los+Colomos+Guadalajara"
-      },
-      {
-        "id": "GDL-C-301",
-        "title": "Sit in the Reading Room of the Biblioteca Iberoamericana Octavio Paz",
-        "description": "Housed inside a 17th-century convent attached to the Universidad de Guadalajara, this library's main reading room — with its painted arches and courtyard fountain — is the most beautiful place in the city to do absolutely nothing urgent.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pull a book at random from the open stacks — read the first page out loud to yourself in a whisper.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Biblioteca+Iberoamericana+Octavio+Paz+Guadalajara",
-        "company": [
-          "solo"
-        ]
       },
       {
         "id": "GDL-C-201",
@@ -489,21 +551,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Teatro+Degollado+Guadalajara"
       },
       {
-        "id": "GDL-C-10",
-        "title": "Afternoon at the Planetario Severo Díaz Galindo",
-        "description": "Guadalajara's public planetarium in Huentitán runs Spanish-language dome shows on astronomy and the cosmos that are genuinely stunning and cost almost nothing.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Ask the staff one question after the show that you couldn't answer yourself — then write down the answer.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Planetario+Severo+Diaz+Galindo+Guadalajara"
-      },
-      {
         "id": "GDL-AC-8",
         "title": "Afternoon at the Zoológico Guadalajara",
         "description": "One of Mexico's oldest zoos, perched above the Barranca de Huentitán, houses over 2,000 animals and doubles as an unexpectedly scenic viewpoint over the canyon.",
@@ -532,36 +579,6 @@
         "bonus": "Visit the orchid house and find one species you've never seen before — remember its name without writing it down.",
         "city": "Guadalajara, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Parque+Agua+Azul+Guadalajara"
-      },
-      {
-        "id": "GDL-C-8",
-        "title": "Visit the Museo de las Artes (MUSA) at UdeG",
-        "description": "The University of Guadalajara's art museum holds stunning Orozco frescoes inside its main hall dome and rotates contemporary exhibitions that are consistently among the city's sharpest.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1.5–2 hrs",
-        "durationMins": 100,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Lie flat on your back on the museum floor under the dome fresco and look up for a full two minutes.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Museo+de+las+Artes+Universidad+de+Guadalajara"
-      },
-      {
-        "id": "GDL-C-7",
-        "title": "Explore the Palacio de Gobierno and its Orozco Murals",
-        "description": "José Clemente Orozco's fire-breathing staircase mural of Miguel Hidalgo is one of the most viscerally powerful paintings in the Americas — and it's free to walk up and stand inside it.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "1–1.5 hrs",
-        "durationMins": 75,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Stand at the exact center of the staircase under the mural for five full minutes without taking a photo.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Palacio+de+Gobierno+Guadalajara"
       },
       {
         "id": "GDL-C-5",
@@ -611,21 +628,6 @@
         "bonus": "Find the chess tables near the main fountain and challenge whoever is sitting there — you don't need to know how to play well.",
         "city": "Guadalajara, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Parque+Metropolitano+Guadalajara"
-      },
-      {
-        "id": "GDL-C-1",
-        "title": "Sit in the Cathedral of Guadalajara at Dusk",
-        "description": "The twin yellow towers of this 1618 cathedral glow gold at sunset and the interior fills with incense smoke and the last of the day's light hitting the neoclassical altars.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "30–60 mins",
-        "durationMins": 45,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the mummified bishops displayed in the crypt — they're real and most visitors never find them.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Catedral+de+Guadalajara"
       }
     ],
     "adventure": [
@@ -675,6 +677,21 @@
         "mapsUrl": "https://maps.google.com/maps/search/Tianguis+de+Tonala"
       },
       {
+        "id": "GDL-AC-308",
+        "title": "Watch the Sunrise from Cerro de la Reina in Tonalá",
+        "description": "The small hill overlooking Tonalá's craft district rewards the 20-minute climb with a panorama over red-roofed workshops and, on clear mornings, a distant silhouette of Volcán de Colima.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Be at the summit before 6:30 a.m. — photograph the exact moment the sun clears the horizon.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Cerro+de+la+Reina+Tonalá+Jalisco"
+      },
+      {
         "id": "GDL-A-201",
         "title": "Make the Pilgrimage to the Basílica de Zapopan",
         "description": "The 1690s basilica holds Jalisco's most venerated Virgin and a Wixárika art museum in its cloister — the plaza outside runs on birria and church bells.",
@@ -688,6 +705,54 @@
         "bonus": "Try a vampiro from a stand on the plaza afterward.",
         "city": "Guadalajara, Mexico",
         "mapsUrl": "https://maps.google.com/maps/search/Basilica+de+Zapopan"
+      },
+      {
+        "id": "GDL-AC-7",
+        "title": "Mountain Bike the Bosque de la Primavera Trails",
+        "description": "The pine and oak forest west of the city harbors a network of red-dirt singletracks that tapatío riders treat as their personal backyard.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 25,
+        "bonus": "Ride at least 20 km without turning back early — take a photo at the furthest point to prove it.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Bosque+de+la+Primavera+mountain+bike+Guadalajara"
+      },
+      {
+        "id": "GDL-AC-3",
+        "title": "Run the Bosque Los Colomos Trails at Dawn",
+        "description": "This 90-hectare urban forest in Zapopan opens before sunrise and rewards early runners with misty cedar paths, birdsong, and zero crowds — the city's best-kept athletic secret.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Run the full outer loop — approximately 5km — without stopping, then find the Japanese garden at the end.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Bosque+Los+Colomos+Zapopan+Guadalajara"
+      },
+      {
+        "id": "GDL-AC-2",
+        "title": "Evening Walk Along Paseo Chapultepec",
+        "description": "Guadalajara's most elegant boulevard fills at dusk with joggers, vendors, and couples — a living cross-section of the city at its most unhurried and charming.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stop at a street cart and eat something you've never tried before — ask the vendor what their personal favorite is.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/Paseo+Chapultepec+Guadalajara",
+        "company": [
+          "couple"
+        ]
       },
       {
         "id": "GDL-A-11",
@@ -811,6 +876,21 @@
         "adult": true
       },
       {
+        "id": "GDL-AC-1",
+        "title": "Cycle the Vía RecreActiva on Sunday",
+        "description": "Every Sunday morning Guadalajara shuts down 55 kilometers of streets and hands them to cyclists, skaters, and joggers in one of the world's great urban bike rituals.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Rent a bike at Glorieta Minerva and ride all the way to Parque Agua Azul without stopping — no shortcuts.",
+        "city": "Guadalajara, Mexico",
+        "mapsUrl": "https://www.google.com/maps/search/V%C3%ADa+RecreActiva+Guadalajara"
+      },
+      {
         "id": "GDL-A-3",
         "title": "Explore the Instituto Cultural Cabañas",
         "description": "José Clemente Orozco's apocalyptic murals cover the domed chapel of a 200-year-old UNESCO World Heritage hospice in the most confrontational art you'll see in Mexico.",
@@ -854,86 +934,6 @@
         "bonus": "Reach the river at the bottom and touch the water — don't turn back at the viewpoint like everyone else.",
         "city": "Guadalajara, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Barranca+de+Huentit%C3%A1n+Guadalajara"
-      }
-    ],
-    "active": [
-      {
-        "id": "GDL-AC-308",
-        "title": "Watch the Sunrise from Cerro de la Reina in Tonalá",
-        "description": "The small hill overlooking Tonalá's craft district rewards the 20-minute climb with a panorama over red-roofed workshops and, on clear mornings, a distant silhouette of Volcán de Colima.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 75,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Be at the summit before 6:30 a.m. — photograph the exact moment the sun clears the horizon.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Cerro+de+la+Reina+Tonalá+Jalisco"
-      },
-      {
-        "id": "GDL-AC-7",
-        "title": "Mountain Bike the Bosque de la Primavera Trails",
-        "description": "The pine and oak forest west of the city harbors a network of red-dirt singletracks that tapatío riders treat as their personal backyard.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Morning",
-        "season": "Oct–May",
-        "spark": 25,
-        "bonus": "Ride at least 20 km without turning back early — take a photo at the furthest point to prove it.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Bosque+de+la+Primavera+mountain+bike+Guadalajara"
-      },
-      {
-        "id": "GDL-AC-3",
-        "title": "Run the Bosque Los Colomos Trails at Dawn",
-        "description": "This 90-hectare urban forest in Zapopan opens before sunrise and rewards early runners with misty cedar paths, birdsong, and zero crowds — the city's best-kept athletic secret.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 75,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Run the full outer loop — approximately 5km — without stopping, then find the Japanese garden at the end.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Bosque+Los+Colomos+Zapopan+Guadalajara"
-      },
-      {
-        "id": "GDL-AC-2",
-        "title": "Evening Walk Along Paseo Chapultepec",
-        "description": "Guadalajara's most elegant boulevard fills at dusk with joggers, vendors, and couples — a living cross-section of the city at its most unhurried and charming.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 75,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Stop at a street cart and eat something you've never tried before — ask the vendor what their personal favorite is.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/Paseo+Chapultepec+Guadalajara",
-        "company": [
-          "couple"
-        ]
-      },
-      {
-        "id": "GDL-AC-1",
-        "title": "Cycle the Vía RecreActiva on Sunday",
-        "description": "Every Sunday morning Guadalajara shuts down 55 kilometers of streets and hands them to cyclists, skaters, and joggers in one of the world's great urban bike rituals.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Rent a bike at Glorieta Minerva and ride all the way to Parque Agua Azul without stopping — no shortcuts.",
-        "city": "Guadalajara, Mexico",
-        "mapsUrl": "https://www.google.com/maps/search/V%C3%ADa+RecreActiva+Guadalajara"
       }
     ]
   }

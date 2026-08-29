@@ -52,113 +52,6 @@
         "mapsUrl": "https://maps.google.com/maps/search/Tour+de+Levis+Parc+Jean-Drapeau+Montreal"
       },
       {
-        "id": "YUL-A-102",
-        "title": "Bike the Plateau's Ruelles Vertes",
-        "description": "Montreal's ruelle network in the Plateau is a secret city of murals, gardens, and cats that only locals actually use.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "May–Oct",
-        "spark": 15,
-        "bonus": "Find a mural you've never seen documented online and photograph it before moving on.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/Plateau-Mont-Royal+ruelles+Montreal"
-      },
-      {
-        "id": "YUL-A-7",
-        "title": "Rooftop Plunge at Bota Bota Spa",
-        "description": "This converted river ferry moored in the Old Port runs a Nordic circuit — steam, cold plunge, rest — with the St. Lawrence lapping the hull below you.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "2–4 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Do three full hot-cold cycles and stay in the cold pool for a full minute each time.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/Bota+Bota+Spa+Montreal"
-      },
-      {
-        "id": "YUL-A-4",
-        "title": "Explore the Underground City (RÉSO)",
-        "description": "Thirty-three kilometres of tunnels connect metro stations, malls, and office towers — a parallel city that Montrealers treat as a winter survival reflex.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–3 hrs",
-        "durationMins": 120,
-        "time": "Any",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Navigate from McGill station to Place des Arts using only underground corridors — no phone maps allowed.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/RESO+Underground+City+Montreal"
-      },
-      {
-        "id": "YUL-A-1",
-        "title": "Climb Mont Royal at Dawn",
-        "description": "The city spreads out below you in silence as the sun cracks the skyline from the Kondiaronk Belvedere.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 90,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Ditch the main trail and bushwhack up the steep east face through the woods.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/Kondiaronk+Belvedere+Mont+Royal+Montreal"
-      },
-      {
-        "id": "MTL-A-04",
-        "title": "Kayak the St. Lawrence near Habitat 67",
-        "description": "Launch a kayak into the current beside Moshe Safdie's iconic housing complex and the downtown skyline.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Morning",
-        "season": "May–Sep",
-        "spark": 22,
-        "bonus": "Paddle close enough to touch Habitat 67's concrete cubes from the water.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://maps.google.com/maps/search/Habitat+67+Montreal"
-      },
-      {
-        "id": "MTL-A-03",
-        "title": "Bike the Lachine Canal to the Old Port",
-        "description": "Pedal the flat waterside path from Atwater Market all the way to the cobblestones of the Old Port.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 14,
-        "bonus": "Stop at one lock and watch a boat pass through.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://maps.google.com/maps/search/Lachine+Canal+Montreal"
-      },
-      {
-        "id": "MTL-A-01",
-        "title": "Jet-Boat the Lachine Rapids",
-        "description": "Get drenched blasting through the St. Lawrence's whitewater on a Saute-Moutons jet boat, minutes from downtown.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "May–Sep",
-        "spark": 42,
-        "bonus": "Sit in the very front row and take the full soak.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://maps.google.com/maps/search/Saute-Moutons+Jet+Boating+Old+Port+Montreal"
-      }
-    ],
-    "active": [
-      {
         "id": "YUL-AC-102",
         "title": "Cross-Country Ski Parc du Mont-Royal",
         "description": "When the snow holds, the groomed loops through the mountain's hardwood forest are a 20-minute bus ride from downtown and feel like a different country entirely.",
@@ -172,6 +65,21 @@
         "bonus": "Ski the full outer perimeter loop without consulting your phone once — use the trail markers only.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/Mont-Royal+cross+country+ski+Montreal"
+      },
+      {
+        "id": "YUL-A-102",
+        "title": "Bike the Plateau's Ruelles Vertes",
+        "description": "Montreal's ruelle network in the Plateau is a secret city of murals, gardens, and cats that only locals actually use.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 15,
+        "bonus": "Find a mural you've never seen documented online and photograph it before moving on.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://www.google.com/maps/search/Plateau-Mont-Royal+ruelles+Montreal"
       },
       {
         "id": "YUL-AC-8",
@@ -279,6 +187,51 @@
         "mapsUrl": "https://www.google.com/maps/search/Mont+Royal+Running+Trail+Montreal"
       },
       {
+        "id": "YUL-A-7",
+        "title": "Rooftop Plunge at Bota Bota Spa",
+        "description": "This converted river ferry moored in the Old Port runs a Nordic circuit — steam, cold plunge, rest — with the St. Lawrence lapping the hull below you.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2–4 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Do three full hot-cold cycles and stay in the cold pool for a full minute each time.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://www.google.com/maps/search/Bota+Bota+Spa+Montreal"
+      },
+      {
+        "id": "YUL-A-4",
+        "title": "Explore the Underground City (RÉSO)",
+        "description": "Thirty-three kilometres of tunnels connect metro stations, malls, and office towers — a parallel city that Montrealers treat as a winter survival reflex.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–3 hrs",
+        "durationMins": 120,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Navigate from McGill station to Place des Arts using only underground corridors — no phone maps allowed.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://www.google.com/maps/search/RESO+Underground+City+Montreal"
+      },
+      {
+        "id": "YUL-A-1",
+        "title": "Climb Mont Royal at Dawn",
+        "description": "The city spreads out below you in silence as the sun cracks the skyline from the Kondiaronk Belvedere.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ditch the main trail and bushwhack up the steep east face through the woods.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://www.google.com/maps/search/Kondiaronk+Belvedere+Mont+Royal+Montreal"
+      },
+      {
         "id": "MTL-AC-02",
         "title": "Paddleboard at Parc Jean-Drapeau Beach",
         "description": "Balance across the calm, filtered swimming beach on an island built for a World's Fair.",
@@ -309,6 +262,21 @@
         "mapsUrl": "https://maps.google.com/maps/search/Old+Port+Skating+Rink+Bonsecours+Basin+Montreal"
       },
       {
+        "id": "MTL-A-04",
+        "title": "Kayak the St. Lawrence near Habitat 67",
+        "description": "Launch a kayak into the current beside Moshe Safdie's iconic housing complex and the downtown skyline.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 22,
+        "bonus": "Paddle close enough to touch Habitat 67's concrete cubes from the water.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://maps.google.com/maps/search/Habitat+67+Montreal"
+      },
+      {
         "id": "MTL-AC-03",
         "title": "Pedal-Boat on Beaver Lake",
         "description": "Paddle a rented boat across Mount Royal's small mountaintop lake, skyline peeking through the trees.",
@@ -322,6 +290,36 @@
         "bonus": "Race the boat next to you to the far shore.",
         "city": "Montreal, QC",
         "mapsUrl": "https://maps.google.com/maps/search/Beaver+Lake+Mount+Royal+Montreal"
+      },
+      {
+        "id": "MTL-A-03",
+        "title": "Bike the Lachine Canal to the Old Port",
+        "description": "Pedal the flat waterside path from Atwater Market all the way to the cobblestones of the Old Port.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop at one lock and watch a boat pass through.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://maps.google.com/maps/search/Lachine+Canal+Montreal"
+      },
+      {
+        "id": "MTL-A-01",
+        "title": "Jet-Boat the Lachine Rapids",
+        "description": "Get drenched blasting through the St. Lawrence's whitewater on a Saute-Moutons jet boat, minutes from downtown.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 42,
+        "bonus": "Sit in the very front row and take the full soak.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://maps.google.com/maps/search/Saute-Moutons+Jet+Boating+Old+Port+Montreal"
       }
     ],
     "social": [
@@ -465,21 +463,6 @@
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Marché+Atwater+Montreal"
       },
       {
-        "id": "MTL-S-03",
-        "title": "Catch a Canadiens Game at Bell Centre",
-        "description": "Feel the loudest arena in the NHL erupt for the most storied franchise in hockey history.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Oct–Apr",
-        "spark": 45,
-        "bonus": "Learn to sing along to 'Ole Ole Ole' before puck drop.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://maps.google.com/maps/search/Bell+Centre+Montreal"
-      },
-      {
         "id": "MTL-S-04",
         "title": "Bar-Hop Mile End's Cocktail Scene",
         "description": "Weave through Mile End's speakeasies and natural wine bars, Montreal's most stylish few square blocks.",
@@ -494,21 +477,6 @@
         "city": "Montreal, QC",
         "mapsUrl": "https://maps.google.com/maps/search/Mile+End+Montreal",
         "adult": true
-      },
-      {
-        "id": "MTL-S-01",
-        "title": "Join the Tam-Tams Drum Circle",
-        "description": "Spend a Sunday at the foot of Mount Royal's monument where hundreds gather to drum, dance, and picnic.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "May–Sep",
-        "spark": 15,
-        "bonus": "Bring or borrow a drum and actually join in.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://maps.google.com/maps/search/Mont+Royal+Tam-Tams+Montreal"
       },
       {
         "id": "MTL-S-02",
@@ -527,7 +495,7 @@
         "adult": true
       }
     ],
-    "chill": [
+    "culture": [
       {
         "id": "YUL-A-105",
         "title": "Explore the Redpath Museum",
@@ -543,6 +511,86 @@
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/Redpath+Museum+McGill+Montreal"
       },
+      {
+        "id": "YUL-C-10",
+        "title": "Chill at Cinéma Sous les Étoiles",
+        "description": "Parc Jarry's summer outdoor cinema screens cult films and Québécois classics on a massive inflatable screen while you're flat on your back in the grass with a beer in hand.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Jul–Aug",
+        "spark": 15,
+        "bonus": "Arrive early enough to claim a spot dead-centre and talk to the person next to you before the film starts.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinéma+Sous+les+Étoiles+Parc+Jarry+Montreal"
+      },
+      {
+        "id": "YUL-C-8",
+        "title": "Spend an Hour at the Musée des Beaux-Arts",
+        "description": "The MBAM's permanent collection spans Inuit carvings to European masters and the building itself — five connected pavilions — is worth the walk-through alone.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pick one piece, sit in front of it for ten uninterrupted minutes, and form one real opinion about it.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+des+Beaux-Arts+de+Montr%C3%A9al",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "MTL-S-03",
+        "title": "Catch a Canadiens Game at Bell Centre",
+        "description": "Feel the loudest arena in the NHL erupt for the most storied franchise in hockey history.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 45,
+        "bonus": "Learn to sing along to 'Ole Ole Ole' before puck drop.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://maps.google.com/maps/search/Bell+Centre+Montreal"
+      },
+      {
+        "id": "MTL-C-03",
+        "title": "Sit with the Silence at Notre-Dame Basilica",
+        "description": "Step into the deep blue, gold-starred interior of one of the most stunning basilicas in North America.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit in a different pew than you normally would and just look up.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://maps.google.com/maps/search/Notre-Dame+Basilica+Montreal"
+      },
+      {
+        "id": "MTL-S-01",
+        "title": "Join the Tam-Tams Drum Circle",
+        "description": "Spend a Sunday at the foot of Mount Royal's monument where hundreds gather to drum, dance, and picnic.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 15,
+        "bonus": "Bring or borrow a drum and actually join in.",
+        "city": "Montreal, QC",
+        "mapsUrl": "https://maps.google.com/maps/search/Mont+Royal+Tam-Tams+Montreal"
+      }
+    ],
+    "chill": [
       {
         "id": "YUL-C-12",
         "title": "Dinner at Le Vin Papillon",
@@ -575,21 +623,6 @@
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Café+Cherrier+Montreal"
       },
       {
-        "id": "YUL-C-10",
-        "title": "Chill at Cinéma Sous les Étoiles",
-        "description": "Parc Jarry's summer outdoor cinema screens cult films and Québécois classics on a massive inflatable screen while you're flat on your back in the grass with a beer in hand.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Jul–Aug",
-        "spark": 15,
-        "bonus": "Arrive early enough to claim a spot dead-centre and talk to the person next to you before the film starts.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinéma+Sous+les+Étoiles+Parc+Jarry+Montreal"
-      },
-      {
         "id": "YUL-C-9",
         "title": "Sunset on the Jacques Cartier Bridge Lookout",
         "description": "The pedestrian path on the Jacques-Cartier Bridge delivers an unobstructed panorama of the St. Lawrence, the islands, and downtown going gold at dusk.",
@@ -605,24 +638,6 @@
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jacques+Cartier+Bridge+pedestrian+Montreal",
         "company": [
           "couple"
-        ]
-      },
-      {
-        "id": "YUL-C-8",
-        "title": "Spend an Hour at the Musée des Beaux-Arts",
-        "description": "The MBAM's permanent collection spans Inuit carvings to European masters and the building itself — five connected pavilions — is worth the walk-through alone.",
-        "rarity": "Common",
-        "cost": "$$",
-        "duration": "2–3 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Pick one piece, sit in front of it for ten uninterrupted minutes, and form one real opinion about it.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e+des+Beaux-Arts+de+Montr%C3%A9al",
-        "company": [
-          "solo"
         ]
       },
       {
@@ -717,21 +732,6 @@
         "company": [
           "couple"
         ]
-      },
-      {
-        "id": "MTL-C-03",
-        "title": "Sit with the Silence at Notre-Dame Basilica",
-        "description": "Step into the deep blue, gold-starred interior of one of the most stunning basilicas in North America.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "45 min",
-        "durationMins": 45,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 12,
-        "bonus": "Sit in a different pew than you normally would and just look up.",
-        "city": "Montreal, QC",
-        "mapsUrl": "https://maps.google.com/maps/search/Notre-Dame+Basilica+Montreal"
       },
       {
         "id": "MTL-C-04",

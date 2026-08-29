@@ -37,6 +37,21 @@
         "mapsUrl": "https://www.google.com/maps/search/Chippewa+Bay+New+York+St+Lawrence+River"
       },
       {
+        "id": "TI-AC-201",
+        "title": "Clayton Waterfront Bike Loop — Grindstone Island Ferry to Town Dock",
+        "description": "The Clayton waterfront loop from the municipal dock past the ferry landing and out toward Grindstone Island Road is a flat, river-hugging ride that puts the whole working waterfront in your face.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 15,
+        "bonus": "Stop at the Grindstone Island ferry dock, ask the ferryman one question about the island, and relay that fact to the next stranger you meet on the ride back.",
+        "city": "Thousand Islands region, NY (Clayton, Alexandria Bay, Cape Vincent)",
+        "mapsUrl": "https://www.google.com/maps/search/Clayton+Town+Dock+Clayton+NY"
+      },
+      {
         "id": "TI-A-202",
         "title": "Night Fishing the Seaway Shipping Channel, Alexandria Bay",
         "description": "Drifting jigs along the deep Seaway channel after dark while thousand-foot freighters slide silently past your boat is the most surreal and productive walleye session the river offers.",
@@ -97,113 +112,6 @@
         "mapsUrl": "https://www.google.com/maps/search/Henderson%20Harbor%20fishing%20charter%20NY"
       },
       {
-        "id": "TI-A-105",
-        "title": "Fort Henry Living History, Kingston",
-        "description": "The 1830s British fortification on the limestone headland above Kingston does living history performances with uniforms, cannon fire, and soldiers drilling — the fort controls the entire St. Lawrence approach.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Stay for the sunset retreat ceremony with cannon salute.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Fort+Henry+National+Historic+Site+Kingston+Ontario"
-      },
-      {
-        "id": "TI-A-104",
-        "title": "Kayak the Admiralty Islands Group",
-        "description": "The cluster of state park islands in the American Narrows — Murray, Calumet, Wellesley Island — are connected by paddling routes through protected channels that cut you off from the river current.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "4 hrs",
-        "durationMins": 240,
-        "time": "Morning",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Paddle the entire channel loop without stopping on any island until you've completed it.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+State+Park+Wellesley+Island+NY"
-      },
-      {
-        "id": "TI-A-103",
-        "title": "Muskie Fishing the International Section",
-        "description": "The St. Lawrence International section between the islands produces the largest muskie in North America — hire a guide in Clayton or Alexandria Bay, use big bucktails, and hang on.",
-        "rarity": "Rare",
-        "cost": "$$$",
-        "duration": "8 hrs",
-        "durationMins": 480,
-        "time": "Morning",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Catch and release — the muskie fishery exists because of catch-and-release.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Muskie+Fishing+Clayton+NY"
-      },
-      {
-        "id": "TI-A-102",
-        "title": "St. Lawrence River Scuba Wreck Dive",
-        "description": "The St. Lawrence has over 200 documented shipwrecks visible in its cold, clear water — the Robert Gaskin and the Keystorm both sit in 60 feet of water with intact hulls. The freshwater visibility is 30+ feet.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "4 hrs",
-        "durationMins": 240,
-        "time": "Morning",
-        "season": "Summer",
-        "spark": 40,
-        "bonus": "Dive the Keystorm — the steel freighter sits upright on the bottom with its superstructure intact.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Scuba+Diving+Brockville+Ontario"
-      },
-      {
-        "id": "TI-A-106",
-        "title": "Seaway Trail Scenic Drive — Cape Vincent to Alexandria Bay",
-        "description": "The 30-mile drive on the Seaway Trail along the American shore from Cape Vincent to Alexandria Bay passes every lighthouse, river access, and castle view on the US side — stop at every pull-off.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Morning",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Stop at every river access point and take a photo of the same view at different times of day.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Cape+Vincent+NY+to+Alexandria+Bay+NY+Seaway+Trail"
-      },
-      {
-        "id": "TI-A-101",
-        "title": "Island-Hopping by Pontoon Boat",
-        "description": "Rent a pontoon for the day and navigate the 1,864 islands yourself — through the American Narrows, past the castles, into the back channels where the osprey fish and the current runs cold.",
-        "rarity": "Legendary",
-        "cost": "$$$",
-        "duration": "8 hrs",
-        "durationMins": 480,
-        "time": "Morning",
-        "season": "Summer",
-        "spark": 40,
-        "bonus": "Find an uninhabited island, tie up, and swim off the rocks.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Boat+Rental+Alexandria+Bay+NY"
-      }
-    ],
-    "active": [
-      {
-        "id": "TI-AC-201",
-        "title": "Clayton Waterfront Bike Loop — Grindstone Island Ferry to Town Dock",
-        "description": "The Clayton waterfront loop from the municipal dock past the ferry landing and out toward Grindstone Island Road is a flat, river-hugging ride that puts the whole working waterfront in your face.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1–2 hrs",
-        "durationMins": 75,
-        "time": "Morning",
-        "season": "May–Oct",
-        "spark": 15,
-        "bonus": "Stop at the Grindstone Island ferry dock, ask the ferryman one question about the island, and relay that fact to the next stranger you meet on the ride back.",
-        "city": "Thousand Islands region, NY (Clayton, Alexandria Bay, Cape Vincent)",
-        "mapsUrl": "https://www.google.com/maps/search/Clayton+Town+Dock+Clayton+NY"
-      },
-      {
         "id": "TIUS-A-03",
         "title": "Macsherry Trail Run, Sackets Harbor",
         "description": "The crushed-stone rail trail running out of Sackets Harbor through fields and woods — flat, quiet, and perfect for a morning run or ride.",
@@ -249,6 +157,21 @@
         "mapsUrl": "https://www.google.com/maps/search/Black%20River%20whitewater%20rafting%20Watertown%20NY"
       },
       {
+        "id": "TI-A-105",
+        "title": "Fort Henry Living History, Kingston",
+        "description": "The 1830s British fortification on the limestone headland above Kingston does living history performances with uniforms, cannon fire, and soldiers drilling — the fort controls the entire St. Lawrence approach.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Summer",
+        "spark": 25,
+        "bonus": "Stay for the sunset retreat ceremony with cannon salute.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Fort+Henry+National+Historic+Site+Kingston+Ontario"
+      },
+      {
         "id": "TI-AC-107",
         "title": "Canoe the Back Channels at Dawn",
         "description": "The narrow channels between the smaller islands are only navigable by canoe or kayak — blue herons fish the shallows at dawn, bass hold in the lily pads, and the river traffic hasn't started yet.",
@@ -264,6 +187,21 @@
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Canoe+NY"
       },
       {
+        "id": "TI-A-104",
+        "title": "Kayak the Admiralty Islands Group",
+        "description": "The cluster of state park islands in the American Narrows — Murray, Calumet, Wellesley Island — are connected by paddling routes through protected channels that cut you off from the river current.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Summer",
+        "spark": 25,
+        "bonus": "Paddle the entire channel loop without stopping on any island until you've completed it.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+State+Park+Wellesley+Island+NY"
+      },
+      {
         "id": "TI-AC-105",
         "title": "Wellesley Island State Park Trail System",
         "description": "The 2,636-acre state park has 10 miles of hiking and biking trails through old-growth forest and along the river shore — the Eel Bay trail leads to a secluded rocky beach accessible only on foot.",
@@ -277,6 +215,21 @@
         "bonus": "Find the Eel Bay beach at the end of the trail and swim.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Wellesley+Island+State+Park+NY"
+      },
+      {
+        "id": "TI-A-103",
+        "title": "Muskie Fishing the International Section",
+        "description": "The St. Lawrence International section between the islands produces the largest muskie in North America — hire a guide in Clayton or Alexandria Bay, use big bucktails, and hang on.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Summer",
+        "spark": 25,
+        "bonus": "Catch and release — the muskie fishery exists because of catch-and-release.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Muskie+Fishing+Clayton+NY"
       },
       {
         "id": "TI-AC-108",
@@ -309,6 +262,21 @@
         "mapsUrl": "https://maps.google.com/?q=Wellesley+Island+State+Park+NY"
       },
       {
+        "id": "TI-A-102",
+        "title": "St. Lawrence River Scuba Wreck Dive",
+        "description": "The St. Lawrence has over 200 documented shipwrecks visible in its cold, clear water — the Robert Gaskin and the Keystorm both sit in 60 feet of water with intact hulls. The freshwater visibility is 30+ feet.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Summer",
+        "spark": 40,
+        "bonus": "Dive the Keystorm — the steel freighter sits upright on the bottom with its superstructure intact.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Scuba+Diving+Brockville+Ontario"
+      },
+      {
         "id": "TI-AC-102",
         "title": "Walleye Fishing Charter, Clayton Marina",
         "description": "The Clayton fishing charters run the international section for walleye from May through October — drift-jigging the rock structures in 20 feet of water at dawn with a guide who's fished this stretch for 30 years.",
@@ -339,6 +307,21 @@
         "mapsUrl": "https://maps.google.com/?q=Seaway+Trail+Cape+Vincent+NY"
       },
       {
+        "id": "TI-A-106",
+        "title": "Seaway Trail Scenic Drive — Cape Vincent to Alexandria Bay",
+        "description": "The 30-mile drive on the Seaway Trail along the American shore from Cape Vincent to Alexandria Bay passes every lighthouse, river access, and castle view on the US side — stop at every pull-off.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stop at every river access point and take a photo of the same view at different times of day.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Cape+Vincent+NY+to+Alexandria+Bay+NY+Seaway+Trail"
+      },
+      {
         "id": "TI-AC-104",
         "title": "Stand-Up Paddleboard Between Islands",
         "description": "The protected channels between the islands are ideal for SUP on calm mornings — the water clarity is 15+ feet, the current in the back channels is manageable, and no boat wake gets through.",
@@ -352,6 +335,21 @@
         "bonus": "Paddle over the clearest water you can find and look at the bottom.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+State+Park+NY"
+      },
+      {
+        "id": "TI-A-101",
+        "title": "Island-Hopping by Pontoon Boat",
+        "description": "Rent a pontoon for the day and navigate the 1,864 islands yourself — through the American Narrows, past the castles, into the back channels where the osprey fish and the current runs cold.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Summer",
+        "spark": 40,
+        "bonus": "Find an uninhabited island, tie up, and swim off the rocks.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Boat+Rental+Alexandria+Bay+NY"
       },
       {
         "id": "TI-AC-106",
@@ -369,7 +367,7 @@
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+State+Park+Islands+NY"
       }
     ],
-    "social": [
+    "culture": [
       {
         "id": "TI-S-201",
         "title": "Cape Vincent French Festival Parade",
@@ -386,6 +384,101 @@
         "mapsUrl": "https://www.google.com/maps/search/Cape+Vincent+French+Festival+Cape+Vincent+NY"
       },
       {
+        "id": "TIUS-C-03",
+        "title": "Flower Memorial Library, Watertown",
+        "description": "Watertown's 1904 marble library with a rotunda, murals and a replica of the room where a local invented the Thousand Island dressing story.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the historical room and read up on how the dressing actually got its name.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://www.google.com/maps/search/Flower%20Memorial%20Library%20Watertown%20NY",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "TI-C-107",
+        "title": "Fort Wellington National Historic Site",
+        "description": "The 1812-era British fort in Prescott, Ontario is one of the best-preserved military sites in Canada — the blockhouse, the defensive earthworks, and the view across the river to Ogdensburg, NY.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the spot where you can see both the American and Canadian shores simultaneously.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Fort+Wellington+National+Historic+Site+Prescott+Ontario"
+      },
+      {
+        "id": "TI-C-101",
+        "title": "Boldt Castle Full Exploration, Heart Island",
+        "description": "George Boldt stopped construction in 1904 when his wife died and left 120 rooms unfinished for 73 years — the Thousand Islands Bridge Authority has been restoring it since 1977. Take the boat, take your time.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Summer",
+        "spark": 40,
+        "bonus": "Find the Alster Tower playhouse on the back island and climb to the top.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Boldt+Castle+Heart+Island+Alexandria+Bay+NY"
+      },
+      {
+        "id": "TI-C-102",
+        "title": "Singer Castle on Dark Island",
+        "description": "The 1905 castle on Dark Island was built for the Singer sewing machine heir and has underground tunnels, a dungeon, and a priest hole — guided tours only, absolutely worth it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Summer",
+        "spark": 25,
+        "bonus": "Ask the guide to show you the tunnel system — it goes under the island.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Singer+Castle+Dark+Island+NY"
+      },
+      {
+        "id": "TI-S-101",
+        "title": "Boldt Castle Night Tour, Heart Island",
+        "description": "George Boldt's uncompleted 120-room castle on Heart Island runs evening boat tours that put you on the island after the day crowds leave — the stone towers, the power house, the river at dusk.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Summer",
+        "spark": 40,
+        "bonus": "Read the story of Boldt and his wife Louise before you go — the castle is a love story.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Boldt+Castle+Heart+Island+Alexandria+Bay+NY"
+      },
+      {
+        "id": "TI-C-103",
+        "title": "Antique Boat Museum, Clayton",
+        "description": "The Clayton museum has the world's largest freshwater antique boat collection — Gilded Age mahogany runabouts, St. Lawrence skiffs, and the 1923 houseboat La Duchesse that was never finished.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the oldest boat in the collection and read its entire history card.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Antique+Boat+Museum+Clayton+NY"
+      }
+    ],
+    "social": [
+      {
         "id": "TIUS-S-04",
         "title": "Foxy’s, Fishers Landing",
         "description": "The waterfront bar and marina at Fishers Landing where the boats raft up for live music and the dock party runs all summer.",
@@ -400,21 +493,6 @@
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://www.google.com/maps/search/Foxy's%20Restaurant%20Fishers%20Landing%20NY",
         "adult": true
-      },
-      {
-        "id": "TIUS-S-03",
-        "title": "Clipper Inn, Clayton",
-        "description": "The long-running Clayton supper club just off the water — old-school service, a deep wine list, and the kind of room locals book for every occasion.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Let the bartender pick a wine you have never heard of by the glass.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Clipper%20Inn%20Clayton%20NY"
       },
       {
         "id": "TIUS-S-02",
@@ -563,215 +641,24 @@
           "group"
         ],
         "adult": true
-      },
-      {
-        "id": "TI-S-101",
-        "title": "Boldt Castle Night Tour, Heart Island",
-        "description": "George Boldt's uncompleted 120-room castle on Heart Island runs evening boat tours that put you on the island after the day crowds leave — the stone towers, the power house, the river at dusk.",
-        "rarity": "Legendary",
-        "cost": "$$",
-        "duration": "2.5 hrs",
-        "durationMins": 150,
-        "time": "Evening",
-        "season": "Summer",
-        "spark": 40,
-        "bonus": "Read the story of Boldt and his wife Louise before you go — the castle is a love story.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Boldt+Castle+Heart+Island+Alexandria+Bay+NY"
-      }
-    ],
-    "chill": [
-      {
-        "id": "TIUS-C-04",
-        "title": "NY State Zoo at Thompson Park, Watertown",
-        "description": "The small, walkable zoo inside Thompson Park focused on North American wildlife native to the region — wolves, bears, otters and more.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1.5 hrs",
-        "durationMins": 90,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 15,
-        "bonus": "Spot every animal that actually lives wild in the Thousand Islands.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/New%20York%20State%20Zoo%20Thompson%20Park%20Watertown%20NY"
-      },
-      {
-        "id": "TIUS-C-03",
-        "title": "Flower Memorial Library, Watertown",
-        "description": "Watertown's 1904 marble library with a rotunda, murals and a replica of the room where a local invented the Thousand Island dressing story.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the historical room and read up on how the dressing actually got its name.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Flower%20Memorial%20Library%20Watertown%20NY",
-        "company": [
-          "solo"
-        ]
-      },
-      {
-        "id": "TIUS-C-02",
-        "title": "Thompson Park Overlook, Watertown",
-        "description": "The Olmsted-designed hilltop park above Watertown — sweeping views over the Black River valley toward the river and the start of the islands.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the overlook bench and pick out where the river meets the islands on the horizon.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Thompson%20Park%20Watertown%20NY"
-      },
-      {
-        "id": "TIUS-C-01",
-        "title": "Tibbetts Point Lighthouse, Cape Vincent",
-        "description": "The 1854 lighthouse at the exact point where Lake Ontario empties into the St. Lawrence — the single best sunset vantage in the entire region.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Evening",
-        "season": "Summer",
-        "spark": 15,
-        "bonus": "Stay until the light actually comes on and the last boat clears the point.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://www.google.com/maps/search/Tibbetts%20Point%20Lighthouse%20Cape%20Vincent%20NY",
-        "company": [
-          "couple"
-        ]
-      },
-      {
-        "id": "TI-C-107",
-        "title": "Fort Wellington National Historic Site",
-        "description": "The 1812-era British fort in Prescott, Ontario is one of the best-preserved military sites in Canada — the blockhouse, the defensive earthworks, and the view across the river to Ogdensburg, NY.",
-        "rarity": "Common",
-        "cost": "$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 15,
-        "bonus": "Find the spot where you can see both the American and Canadian shores simultaneously.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Fort+Wellington+National+Historic+Site+Prescott+Ontario"
-      },
-      {
-        "id": "TI-C-105",
-        "title": "Zavikon Island — World's Shortest International Bridge",
-        "description": "The 32-foot footbridge connecting two islands — one American, one Canadian — is the world's shortest international bridge. You need a boat to get there. It's worth it for the sheer absurdity alone.",
-        "rarity": "Legendary",
-        "cost": "$$",
-        "duration": "1 hr",
-        "durationMins": 60,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 40,
-        "bonus": "Cross the bridge three times, stepping into a different country each time.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Zavikon+Island+Thousand+Islands"
-      },
-      {
-        "id": "TI-C-106",
-        "title": "Wolfe Island Ferry + Sunset Walk",
-        "description": "The free ferry from Kingston to Wolfe Island takes 20 minutes and drops you on the largest of the Thousand Islands — flat farmland, wind turbines, a general store, and the river visible from every road.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Bike or walk to the island's south shore and watch the ferry cross at sunset.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Wolfe+Island+Ontario+Canada",
-        "company": [
-          "couple"
-        ]
-      },
-      {
-        "id": "TI-C-101",
-        "title": "Boldt Castle Full Exploration, Heart Island",
-        "description": "George Boldt stopped construction in 1904 when his wife died and left 120 rooms unfinished for 73 years — the Thousand Islands Bridge Authority has been restoring it since 1977. Take the boat, take your time.",
-        "rarity": "Legendary",
-        "cost": "$$",
-        "duration": "3 hrs",
-        "durationMins": 180,
-        "time": "Morning",
-        "season": "Summer",
-        "spark": 40,
-        "bonus": "Find the Alster Tower playhouse on the back island and climb to the top.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Boldt+Castle+Heart+Island+Alexandria+Bay+NY"
-      },
-      {
-        "id": "TI-C-104",
-        "title": "Rock Island Lighthouse Boat Tour",
-        "description": "The 1847 lighthouse on Rock Island at the head of the Chippewa Bay has been restored and is open for tours by boat — the view from the top across the American channel is the whole Thousand Islands in one glance.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Morning",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Climb the lighthouse stairs to the lamp room — count the islands you can identify by name.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Rock+Island+Lighthouse+Fishers+Landing+NY"
-      },
-      {
-        "id": "TI-C-102",
-        "title": "Singer Castle on Dark Island",
-        "description": "The 1905 castle on Dark Island was built for the Singer sewing machine heir and has underground tunnels, a dungeon, and a priest hole — guided tours only, absolutely worth it.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Summer",
-        "spark": 25,
-        "bonus": "Ask the guide to show you the tunnel system — it goes under the island.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Singer+Castle+Dark+Island+NY"
-      },
-      {
-        "id": "TI-C-103",
-        "title": "Antique Boat Museum, Clayton",
-        "description": "The Clayton museum has the world's largest freshwater antique boat collection — Gilded Age mahogany runabouts, St. Lawrence skiffs, and the 1923 houseboat La Duchesse that was never finished.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "2 hrs",
-        "durationMins": 120,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Find the oldest boat in the collection and read its entire history card.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Antique+Boat+Museum+Clayton+NY"
-      },
-      {
-        "id": "TI-C-108",
-        "title": "Kingston's Limestone District Walk",
-        "description": "Kingston's entire downtown is built in 19th-century limestone — City Hall, Martello towers, Fort Henry, the waterfront market — the most historically intact city on the Great Lakes.",
-        "rarity": "Rare",
-        "cost": "$",
-        "duration": "2.5 hrs",
-        "durationMins": 150,
-        "time": "Afternoon",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Walk to the Martello tower at Murney Point and look back at the city from the lake.",
-        "city": "Thousand Islands, NY",
-        "mapsUrl": "https://maps.google.com/?q=Kingston+Ontario+Canada+Historic+District"
       }
     ],
     "foodie": [
+      {
+        "id": "TIUS-S-03",
+        "title": "Clipper Inn, Clayton",
+        "description": "The long-running Clayton supper club just off the water — old-school service, a deep wine list, and the kind of room locals book for every occasion.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Let the bartender pick a wine you have never heard of by the glass.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://www.google.com/maps/search/Clipper%20Inn%20Clayton%20NY"
+      },
       {
         "id": "TIUS-F-05",
         "title": "Lyric Coffee House & Bistro, Clayton",
@@ -967,6 +854,119 @@
         "bonus": "Reserve the patio table closest to the river — the Gananoque flows past three feet away.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Gananoque+Inn+Ontario+Canada"
+      }
+    ],
+    "chill": [
+      {
+        "id": "TIUS-C-04",
+        "title": "NY State Zoo at Thompson Park, Watertown",
+        "description": "The small, walkable zoo inside Thompson Park focused on North American wildlife native to the region — wolves, bears, otters and more.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Summer",
+        "spark": 15,
+        "bonus": "Spot every animal that actually lives wild in the Thousand Islands.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://www.google.com/maps/search/New%20York%20State%20Zoo%20Thompson%20Park%20Watertown%20NY"
+      },
+      {
+        "id": "TIUS-C-02",
+        "title": "Thompson Park Overlook, Watertown",
+        "description": "The Olmsted-designed hilltop park above Watertown — sweeping views over the Black River valley toward the river and the start of the islands.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the overlook bench and pick out where the river meets the islands on the horizon.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://www.google.com/maps/search/Thompson%20Park%20Watertown%20NY"
+      },
+      {
+        "id": "TIUS-C-01",
+        "title": "Tibbetts Point Lighthouse, Cape Vincent",
+        "description": "The 1854 lighthouse at the exact point where Lake Ontario empties into the St. Lawrence — the single best sunset vantage in the entire region.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Summer",
+        "spark": 15,
+        "bonus": "Stay until the light actually comes on and the last boat clears the point.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://www.google.com/maps/search/Tibbetts%20Point%20Lighthouse%20Cape%20Vincent%20NY",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "TI-C-105",
+        "title": "Zavikon Island — World's Shortest International Bridge",
+        "description": "The 32-foot footbridge connecting two islands — one American, one Canadian — is the world's shortest international bridge. You need a boat to get there. It's worth it for the sheer absurdity alone.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Summer",
+        "spark": 40,
+        "bonus": "Cross the bridge three times, stepping into a different country each time.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Zavikon+Island+Thousand+Islands"
+      },
+      {
+        "id": "TI-C-106",
+        "title": "Wolfe Island Ferry + Sunset Walk",
+        "description": "The free ferry from Kingston to Wolfe Island takes 20 minutes and drops you on the largest of the Thousand Islands — flat farmland, wind turbines, a general store, and the river visible from every road.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Bike or walk to the island's south shore and watch the ferry cross at sunset.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Wolfe+Island+Ontario+Canada",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "TI-C-104",
+        "title": "Rock Island Lighthouse Boat Tour",
+        "description": "The 1847 lighthouse on Rock Island at the head of the Chippewa Bay has been restored and is open for tours by boat — the view from the top across the American channel is the whole Thousand Islands in one glance.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Summer",
+        "spark": 25,
+        "bonus": "Climb the lighthouse stairs to the lamp room — count the islands you can identify by name.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Rock+Island+Lighthouse+Fishers+Landing+NY"
+      },
+      {
+        "id": "TI-C-108",
+        "title": "Kingston's Limestone District Walk",
+        "description": "Kingston's entire downtown is built in 19th-century limestone — City Hall, Martello towers, Fort Henry, the waterfront market — the most historically intact city on the Great Lakes.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Walk to the Martello tower at Murney Point and look back at the city from the lake.",
+        "city": "Thousand Islands, NY",
+        "mapsUrl": "https://maps.google.com/?q=Kingston+Ontario+Canada+Historic+District"
       }
     ]
   }
