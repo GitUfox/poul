@@ -49,7 +49,8 @@
     --foodie: #c49642;
     --chill: #1db4b4;
     --social: #c584c3;
-    --active: #71a0e5;
+    --active: #71a0e5;      /* legacy hue — kept for pocketed 'active' cards' stripes */
+    --culture: #71a0e5;     /* Phase 2 (2026-08-07): culture inherits the freed hue — the OKLCH ring stays intact */
     --wild: var(--ivory);   /* dead token — aliased, never referenced */
 
     /* ── ONE LAMP OVERHEAD ──
@@ -622,8 +623,8 @@
   .cat-btn[data-category="social"].selected { --tint: rgba(197,132,195,0.1); --rim-base: var(--social); box-shadow: 0 0 18px rgba(197,132,195,0.2); }
   .cat-btn[data-category="social"].selected .cat-icon { color: var(--social); }
 
-  .cat-btn[data-category="active"].selected { --tint: rgba(113,160,229,0.1); --rim-base: var(--active); box-shadow: 0 0 18px rgba(113,160,229,0.2); }
-  .cat-btn[data-category="active"].selected .cat-icon { color: var(--active); }
+  .cat-btn[data-category="culture"].selected { --tint: rgba(113,160,229,0.1); --rim-base: var(--culture); box-shadow: 0 0 18px rgba(113,160,229,0.2); }
+  .cat-btn[data-category="culture"].selected .cat-icon { color: var(--culture); }
 
   .cat-btn[data-category="8ball"].selected { --tint: rgba(240,230,204,0.08); --rim-base: var(--ivory); box-shadow: 0 0 18px rgba(240,230,204,0.15); }
   .cat-btn[data-category="8ball"].selected .cat-icon { color: var(--ivory); }
@@ -1995,7 +1996,8 @@
   .stripe-foodie { background: var(--foodie); }
   .stripe-chill { background: var(--chill); }
   .stripe-social { background: var(--social); }
-  .stripe-active { background: var(--active); }
+  .stripe-active { background: var(--active); }   /* legacy — pocketed cards from before Phase 2 */
+  .stripe-culture { background: var(--culture); }
   .stripe-8ball { background: var(--ivory); }
 
   /* ────────────────────────────────
@@ -3069,23 +3071,23 @@
   <div class="category-grid">
     <button class="cat-btn" data-category="adventure" style="--cc:var(--adventure)" onclick="selectCategory('adventure')">
       <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 40 L17 8 L26 24 L32 15 L41 40 Z" fill="currentColor" fill-opacity=".18"/><path d="M3 40 L17 8 L26 24 L32 15 L41 40" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" fill="none"/><path d="M17 8 L20.5 14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span>
-      <span class="cat-name">Adventure</span>
+      <span class="cat-name">Outdoors</span>
     </button>
     <button class="cat-btn" data-category="foodie" style="--cc:var(--foodie)" onclick="selectCategory('foodie')">
       <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="14" y1="7" x2="14" y2="21" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><line x1="22" y1="7" x2="22" y2="21" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><line x1="30" y1="7" x2="30" y2="21" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><path d="M14 21 Q14 30 22 32 Q30 30 30 21" stroke="currentColor" stroke-width="2.3" fill="none" stroke-linecap="round"/><line x1="22" y1="32" x2="22" y2="40" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></span>
-      <span class="cat-name">Foodie</span>
+      <span class="cat-name">Eat &amp; Drink</span>
     </button>
     <button class="cat-btn" data-category="chill" style="--cc:var(--chill)" onclick="selectCategory('chill')">
       <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="24" r="14" fill="currentColor"/><circle cx="27" cy="17" r="13" fill="#131613"/><circle cx="35" cy="10" r="2.2" fill="currentColor" fill-opacity=".7"/><circle cx="39" cy="20" r="1.4" fill="currentColor" fill-opacity=".45"/><circle cx="33" cy="24" r="1" fill="currentColor" fill-opacity=".3"/></svg></span>
       <span class="cat-name">Chill</span>
     </button>
     <button class="cat-btn" data-category="social" style="--cc:var(--social)" onclick="selectCategory('social')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 10 Q6 6 10 6 L34 6 Q38 6 38 10 L38 27 Q38 31 34 31 L24 31 L14 39 L16 31 Q6 31 6 27 Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><line x1="14" y1="17" x2="30" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-opacity=".5"/><line x1="14" y1="23" x2="24" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-opacity=".5"/></svg></span>
-      <span class="cat-name">Social</span>
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 8 L36 8 L22 25 Z" fill="currentColor" fill-opacity=".14"/><path d="M8 8 L36 8 L22 25 Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><line x1="22" y1="25" x2="22" y2="36" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><line x1="14" y1="38" x2="30" y2="38" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="27" cy="13" r="2.6" fill="currentColor" stroke="none"/></svg></span>
+      <span class="cat-name">Nightlife</span>
     </button>
-    <button class="cat-btn" data-category="active" style="--cc:var(--active)" onclick="selectCategory('active')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><path d="M26 4 L11 25 L20 25 L16 42 L34 21 L25 21 Z" fill="currentColor"/></svg></span>
-      <span class="cat-name">Active</span>
+    <button class="cat-btn" data-category="culture" style="--cc:var(--culture)" onclick="selectCategory('culture')">
+      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 15 L22 5 L38 15 Z" fill="currentColor" fill-opacity=".14"/><path d="M6 15 L22 5 L38 15 Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><line x1="11" y1="19" x2="11" y2="32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><line x1="22" y1="19" x2="22" y2="32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><line x1="33" y1="19" x2="33" y2="32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><line x1="7" y1="36" x2="37" y2="36" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span>
+      <span class="cat-name">Culture</span>
     </button>
     <button class="cat-btn eightball" data-category="8ball" style="--cc:var(--ivory)" onclick="selectCategory('8ball')">
       <span class="cat-icon"><svg viewBox="0 0 100 100" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="cbg" cx="40%" cy="33%" r="70%"><stop offset="0%" stop-color="#1e2c20"/><stop offset="60%" stop-color="#0d120d"/><stop offset="100%" stop-color="#040607"/></radialGradient></defs><circle cx="50" cy="50" r="47" fill="url(#cbg)"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></span>
@@ -3116,7 +3118,7 @@
 <!-- ── SCREEN 2: DRAW ANIMATION ── -->
 <div id="screen-draw" class="screen">
   <div class="draw-stage">
-    <div class="draw-category-label" id="draw-category-label">Adventure</div>
+    <div class="draw-category-label" id="draw-category-label">Outdoors</div>
     <div class="ball-container">
       <div class="ball" id="draw-ball" onclick="revealCard()">
         <div class="ball-glow"></div>
@@ -3347,11 +3349,11 @@
       <div class="rules-cat-grid">
         <div class="rules-cat-row">
           <div class="rules-cat-dot" style="background:var(--adventure);"></div>
-          <div class="rules-cat-name">Adventure</div>
+          <div class="rules-cat-name">Outdoors</div>
         </div>
         <div class="rules-cat-row">
           <div class="rules-cat-dot" style="background:var(--foodie);"></div>
-          <div class="rules-cat-name">Foodie</div>
+          <div class="rules-cat-name">Eat &amp; Drink</div>
         </div>
         <div class="rules-cat-row">
           <div class="rules-cat-dot" style="background:var(--chill);"></div>
@@ -3359,11 +3361,11 @@
         </div>
         <div class="rules-cat-row">
           <div class="rules-cat-dot" style="background:var(--social);"></div>
-          <div class="rules-cat-name">Social</div>
+          <div class="rules-cat-name">Nightlife</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:var(--active);"></div>
-          <div class="rules-cat-name">Active</div>
+          <div class="rules-cat-dot" style="background:var(--culture);"></div>
+          <div class="rules-cat-name">Culture</div>
         </div>
         <div class="rules-cat-row">
           <div class="rules-cat-dot" style="background:var(--ivory);"></div>
@@ -3537,7 +3539,12 @@
 // ──────────────────────────────────────────
 // CARD DATA — All 40 Phoenix Cards
 // ──────────────────────────────────────────
-let CARDS = { adventure: [], foodie: [], chill: [], social: [], active: [], '8ball': [] };
+// Phase 2 taxonomy (2026-08-07): internals are permanent, labels are UI.
+// 'adventure' displays as Outdoors (it absorbed 'active'), 'social' displays
+// as Nightlife, 'foodie' as Eat & Drink. 'culture' is the only new internal.
+// Legacy 'active' still appears on old pocketed cards — resolved by the
+// legacy rows in CAT_LABELS/CAT_COLORS, never migrated.
+let CARDS = { adventure: [], foodie: [], chill: [], social: [], culture: [], '8ball': [] };
 // ──────────────────────────────────────────
 // ──────────────────────────────────────────
 // TRAVEL PACKS (loaded from packs/*.json)
@@ -4063,17 +4070,19 @@ const CAT_COLORS = {
   foodie: 'var(--foodie)',
   chill: 'var(--chill)',
   social: 'var(--social)',
-  active: 'var(--active)',
+  culture: 'var(--culture)',
+  active: 'var(--adventure)',   // legacy — old pocketed 'active' cards display as Outdoors
   '8ball': 'var(--ivory)'
 };
 
 const CAT_LABELS = {
-  adventure: 'Adventure',
-  foodie: 'Foodie',
+  adventure: 'Outdoors',
+  foodie: 'Eat & Drink',
   chill: 'Chill',
-  social: 'Social',
-  active: 'Active',
-  '8ball': 'The 8-Ball'
+  social: 'Nightlife',
+  culture: 'Culture',
+  '8ball': 'The 8-Ball',
+  active: 'Outdoors'   // legacy — pocketed cards from before Phase 2 read this forever
 };
 
 // ──────────────────────────────────────────
@@ -4849,7 +4858,7 @@ function bookingLinksFor(card, category) {
     links.push({ label: 'Reserve it', icon: 'fork', url: affiliate('opentable', 'https://www.opentable.com/s?term=' + q), primary: true });
   } else if (category === 'adventure' || category === 'active') {
     links.push({ label: 'Book it', icon: 'ticket', url: affiliate('viator', 'https://www.viator.com/search/' + q), primary: true });
-  } else if (category === 'social') {
+  } else if (category === 'social' || category === 'culture') {
     links.push({ label: 'Find tickets', icon: 'ticket', url: affiliate('ticketmaster', 'https://www.ticketmaster.com/search?q=' + q), primary: true });
   }
   links.push({ label: 'Look it up', icon: 'search', url: google, primary: links.length === 0 });
@@ -5747,7 +5756,7 @@ function closeHouseSheet() {
 
 function renderHouseList() {
   const deck = getActiveDeck();
-  const cats = ['adventure', 'foodie', 'chill', 'social', 'active', '8ball'];
+  const cats = ['adventure', 'foodie', 'chill', 'social', 'culture', '8ball'];
   let html = '';
   cats.forEach(cat => {
     const cards = deck[cat] || [];
