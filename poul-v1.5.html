@@ -4861,7 +4861,7 @@ function renderBookingCTA(card) {
   if (!card) { el.style.display = 'none'; el.innerHTML = ''; return; }
   const links = bookingLinksFor(card, state.selectedCategory);
   el.innerHTML = '<div class="booking-cta-label">Line it up</div>' + links.map(l =>
-    `<a class="booking-btn${l.primary ? ' primary' : ''}" href="${l.url}" target="_blank" rel="noopener" onclick="track('booking_link_tapped',{label:'${l.label}',card_id:'${card.id}',pack:state.activePack})">${icon(l.icon, '14px')} ${escHtml(l.label)}</a>`
+    `<a class="booking-btn${l.primary ? ' primary' : ''}" href="${l.url}" target="_blank" rel="noopener" onclick="track('booking_link_tapped',{label:'${l.label}',card_id:decodeURIComponent('${encodeURIComponent(card.id)}'),pack:state.activePack})">${icon(l.icon, '14px')} ${escHtml(l.label)}</a>`
   ).join('');
   el.style.display = 'flex';
 }
@@ -4924,7 +4924,7 @@ function renderPool() {
 
         <div class="pool-card-description">${escHtml(card.description)}</div>
 
-        ${card.photoDataUrl ? `<img class="pool-card-photo" src="${card.photoDataUrl}" alt="Proof photo">` : ''}
+        ${card.photoDataUrl && /^data:image\//i.test(card.photoDataUrl) ? `<img class="pool-card-photo" src="${card.photoDataUrl}" alt="Proof photo">` : ''}
 
         <div class="pool-card-chips">
           <span class="pool-card-chip">${escHtml(card.cost)}</span>
@@ -4938,7 +4938,7 @@ function renderPool() {
           <div class="pool-card-bonus-text">${escHtml(card.bonus)}</div>
         </div>
 
-        ${card.mapsUrl && /^https?:\/\//i.test(card.mapsUrl) ? `<a class="pool-card-maps-link" href="${card.mapsUrl}" target="_blank" rel="noopener">${icon('pin', '11px')} Open in Maps</a>` : ''}
+        ${card.mapsUrl && /^https?:\/\//i.test(card.mapsUrl) ? `<a class="pool-card-maps-link" href="${escHtml(card.mapsUrl)}" target="_blank" rel="noopener">${icon('pin', '11px')} Open in Maps</a>` : ''}
 
         <div class="pool-card-rating" id="pool-rating-${idx}">
           ${ratingButtonsHTML(idx, card.rating)}
