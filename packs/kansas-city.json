@@ -1,0 +1,785 @@
+{
+  "id": "kansas-city",
+  "name": "kansas-city",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "chill": [
+      {
+        "id": "KC-C-09",
+        "title": "Sunset on Cliff Drive in Kessler Park",
+        "description": "A winding scenic byway along limestone bluffs in the Northeast, with overlooks facing out over the river bottoms.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk out to the Colonnade and watch the lights come on.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Kessler+Park+Cliff+Drive+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KC-C-08",
+        "title": "Pour-Over at Messenger Coffee",
+        "description": "A three-storey roastery and bakery in the Crossroads, with a big open staircase and a rooftop deck for slow mornings.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take your coffee up to the roof.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Messenger+Coffee+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KC-C-07",
+        "title": "Quiet Hour at Kauffman Memorial Garden",
+        "description": "A free, walled botanical garden with a conservatory, fountains and formal beds that is rarely busy.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find a bench and sit for twenty minutes without your phone.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Kauffman+Memorial+Garden+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KC-C-10",
+        "title": "Afternoon at Powell Gardens",
+        "description": "Kansas City's botanical garden, spread over nearly a thousand acres of rolling countryside, with a stone-and-glass chapel and a big edible garden.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 22,
+        "bonus": "Find the Marjorie Powell Allen Chapel and sit inside.",
+        "city": "Kingsville, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Powell+Gardens+Kingsville+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-C-06",
+        "title": "Fountain Walk on the Country Club Plaza",
+        "description": "A 1920s Spanish-style shopping district strung with tiled towers and fountains — one of the reasons KC calls itself the City of Fountains.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Count the fountains; try to find ten.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Country+Club+Plaza+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-C-05",
+        "title": "Ride the Streetcar End to End",
+        "description": "The free KC Streetcar runs from the River Market to Union Station and on to the university, which makes a slow ride the easiest city tour there is.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get off at one stop you would normally ride straight past.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/KC+Streetcar+River+Market+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "KC-F-12",
+        "title": "Pan-Fried Chicken at Stroud's",
+        "description": "Skillet-fried chicken served family-style with cinnamon rolls, mashed potatoes and gravy, at a Kansas City standard going back to 1933.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Don't touch the chicken until you've had a cinnamon roll.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Strouds+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-F-07",
+        "title": "Tour Boulevard Brewing Co.",
+        "description": "A behind-the-scenes tour of the brewery behind Tank 7 and the Unfiltered Wheat, finishing with a tasting in the rooftop hall.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Try something from the Smokestack Series you can't buy at the store.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Boulevard+Brewing+Company+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KC-F-09",
+        "title": "Late-Night Burger at Town Topic",
+        "description": "A tiny counter diner cooking onion-smashed burgers since 1937 — still the best move after midnight.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Add a slice of pie.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Town+Topic+Hamburgers+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-F-08",
+        "title": "Saturday at City Market",
+        "description": "The River Market's open-air farmers market, surrounded by international grocers and quick-food spots, running on Kansas City weekends since the 1850s.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat breakfast from a vendor you've never heard of.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/City+Market+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-F-11",
+        "title": "The Freight House at Jack Stack",
+        "description": "The sit-down end of KC barbecue — crown prime beef ribs and cheesy corn bake in an old rail freight building by Union Station.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order the crown prime beef rib, even if it's the priciest thing on the menu.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Jack+Stack+Barbecue+Freight+House+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-F-06",
+        "title": "Hi, May I Help You at Gates Bar-B-Q",
+        "description": "The KC institution where staff shout the famous greeting before you reach the counter — have your order ready.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order without hesitating when they call out to you.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Gates+Bar-B-Q+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-F-05",
+        "title": "Burnt Ends at Q39",
+        "description": "Competition-BBQ pedigree in a sit-down room — burnt ends, brisket and a sausage sampler, with enough sides to feed a table twice over.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the sampler and argue about the best meat.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Q39+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "KC-A-09",
+        "title": "Run the Hospital Hill Run",
+        "description": "Kansas City's hilly half-marathon, running since 1974, with a course that climbs through midtown and past the Liberty Memorial.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Half day",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Jun",
+        "spark": 40,
+        "bonus": "Run the hill you dread the most without walking.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Crown+Center+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-A-12",
+        "title": "Hike Weston Bend, Then Lunch in Weston",
+        "description": "Bluff-top trails high over the Missouri River, followed by lunch in a small river town full of old brick buildings and wineries.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Half day",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 22,
+        "bonus": "Climb the scenic overlook tower before you leave the park.",
+        "city": "Weston, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Weston+Bend+State+Park+Weston+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-A-05",
+        "title": "Ride the Indian Creek Trail",
+        "description": "A long paved greenway that follows the creek through the southern suburbs, with shade, bridges and barely a road crossing for miles.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride until you hit the Missouri state line and turn back.",
+        "city": "Overland Park, KS",
+        "mapsUrl": "https://maps.google.com/maps/search/Indian+Creek+Trail+Overland+Park+KS",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-A-08",
+        "title": "Mountain Bike the Swope Park Trails",
+        "description": "Rocky, rooty singletrack cut through the woods of one of the biggest city parks in the country.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 13,
+        "bonus": "Ride the whole blue loop without putting a foot down.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Swope+Park+Trails+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-A-10",
+        "title": "Ride the Mamba at Worlds of Fun",
+        "description": "A day at Kansas City's big amusement park, anchored by the Mamba — a 200-foot hypercoaster with some serious airtime.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 360,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 25,
+        "bonus": "Ride in the front row at least once.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Worlds+of+Fun+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-A-07",
+        "title": "Rope Up at RoKC",
+        "description": "A big climbing gym in an old industrial building with tall lead walls, auto-belays and a bouldering cave for first-timers and regulars alike.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Try one route a grade above your comfort zone.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/RoKC+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-A-11",
+        "title": "Indoor Skydive at iFLY",
+        "description": "Float on a column of air in a vertical wind tunnel, with an instructor keeping you steady until you figure out how to fly.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Pay for the high-fly upgrade and go to the top of the tunnel.",
+        "city": "Overland Park, KS",
+        "mapsUrl": "https://maps.google.com/maps/search/iFLY+Kansas+City+Overland+Park+KS",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-A-06",
+        "title": "Hike Burr Oak Woods",
+        "description": "A conservation area of old-growth oak forest and mossy limestone outcrops, twenty-five minutes from downtown but feeling far further.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the biggest boulder on the Bethany Falls Trail.",
+        "city": "Blue Springs, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Burr+Oak+Woods+Conservation+Area+Blue+Springs+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "KC-S-06",
+        "title": "Royals Game at Kauffman Stadium",
+        "description": "Baseball in one of the prettiest parks in the majors, with a giant crown scoreboard and fountains beyond the outfield wall.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 14,
+        "bonus": "Watch an inning from the fountain terrace.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Kauffman+Stadium+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-S-10",
+        "title": "Westport Bar Crawl",
+        "description": "Kansas City's oldest neighbourhood is its liveliest nightlife strip — dive bars, patios and live music within a few walkable blocks.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Visit four bars and order a different drink in each.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Westport+Kansas+City+MO",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KC-S-07",
+        "title": "KC Current at CPKC Stadium",
+        "description": "The first stadium built for a women's pro team, right on the riverfront, with a crowd that treats every match like a final.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Mar–Nov",
+        "spark": 23,
+        "bonus": "Stand in the supporters' section for the second half.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/CPKC+Stadium+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-S-09",
+        "title": "Late Jazz Jam at The Blue Room",
+        "description": "A small club inside the American Jazz Museum at 18th & Vine, where the Monday jam session draws players from across the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay until the last set.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Blue+Room+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KC-S-08",
+        "title": "Night Out at KC Live!",
+        "description": "A covered block in the Power & Light District lined with bars and a big screen, packed on game nights and weekends.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Watch a game there with a crowd of total strangers.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/KC+Live+Power+and+Light+District+Kansas+City+MO",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KC-S-11",
+        "title": "Show at the Uptown Theater",
+        "description": "A 1928 atmospheric movie palace turned concert hall, with a painted night sky still over the dance floor.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Look up at the ceiling once the lights go down.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Uptown+Theater+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-S-05",
+        "title": "Chiefs Game at Arrowhead",
+        "description": "A tailgate that starts at dawn, then one of the loudest stadiums in the NFL — a full sea of red.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Afternoon",
+        "season": "Sep–Jan",
+        "spark": 40,
+        "bonus": "Get to the lot early and eat at a stranger's tailgate.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/GEHA+Field+at+Arrowhead+Stadium+Kansas+City+MO",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "KC-S-12",
+        "title": "Speakeasy Drinks at Swordfish Tom's",
+        "description": "An unmarked basement cocktail bar in the Crossroads with a short list of classics and a doorway you have to go looking for.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the entrance without looking it up.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Swordfish+Toms+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "KC-CU-04",
+        "title": "Truman Presidential Library",
+        "description": "A redesigned museum on the presidency that ended World War II and opened the Cold War, plus Truman's grave in the courtyard.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Try the museum's decision exhibits and say what you would have done.",
+        "city": "Independence, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Harry+S+Truman+Library+and+Museum+Independence+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-CU-08",
+        "title": "Plaza Lighting Ceremony",
+        "description": "A Thanksgiving-night tradition since 1930, when the Country Club Plaza's rooftops and towers light up all at once in front of a huge crowd.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Nov",
+        "spark": 40,
+        "bonus": "Get there early enough to stand at the front.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Country+Club+Plaza+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-CU-06",
+        "title": "Jazz at the Folly Theater",
+        "description": "A restored 1900 burlesque house downtown, now one of the best-sounding rooms in the city for touring jazz.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Sep–May",
+        "spark": 22,
+        "bonus": "Sit in the balcony.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Folly+Theater+Kansas+City+MO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-CU-07",
+        "title": "Arabia Steamboat Museum",
+        "description": "A steamboat that sank in 1856 and was dug out of a Kansas cornfield in 1988, with its whole cargo — boots, dishes and even pickles — on display.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Ask the lab staff what they are cleaning today.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Arabia+Steamboat+Museum+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-CU-02",
+        "title": "American Jazz Museum",
+        "description": "Kansas City's jazz history, from Count Basie to Charlie Parker, told in the historic 18th & Vine district where it was played.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find Charlie Parker's saxophone.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/American+Jazz+Museum+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-CU-05",
+        "title": "Nerman Museum of Contemporary Art",
+        "description": "A free contemporary art museum on a community-college campus that has no business being this good.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the work you like least and figure out why.",
+        "city": "Overland Park, KS",
+        "mapsUrl": "https://maps.google.com/maps/search/Nerman+Museum+of+Contemporary+Art+Overland+Park+KS",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KC-CU-03",
+        "title": "Kemper Museum of Contemporary Art",
+        "description": "A free contemporary art museum with a giant steel spider out front and a sharp rotating programme inside.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get lunch at the museum's café, Café Sebastienne.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Kemper+Museum+of+Contemporary+Art+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KC-CU-01",
+        "title": "Negro Leagues Baseball Museum",
+        "description": "The story of Black professional baseball told a few blocks from where the Negro National League was founded, ending on a field of bronze players.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the Field of Legends last.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Negro+Leagues+Baseball+Museum+Kansas+City+MO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "KC-8B-01",
+        "title": "Order Whatever the Pitmaster Says",
+        "description": "Walk into a barbecue joint you have never been to and order exactly what the person at the counter recommends — no menu, no second-guessing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Try a sauce you've never tasted.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Barbecue+Kansas+City+MO",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-8B-02",
+        "title": "Follow a Fountain",
+        "description": "Pick a Kansas City fountain on the map you have never seen, go there, and spend the afternoon on whatever is within a ten-minute walk.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 23,
+        "bonus": "Eat at the closest place with a line.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/J+C+Nichols+Memorial+Fountain+Kansas+City+MO",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1187 @@
+{
+  "id": "portland-me",
+  "name": "portland-me",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "8ball": [
+      {
+        "id": "PWM-8B-01",
+        "title": "Let the Ferry Terminal Decide Your Whole Day",
+        "description": "Go to the Casco Bay Lines terminal, take the very next boat that leaves to whichever island it is bound for, and stay until the return run.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Do not look up a single thing about the island before you land on it.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Casco+Bay+Lines+Portland+ME",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-8B-02",
+        "title": "Eat Only What the Counter Tells You To, All Day",
+        "description": "Three meals across Portland and no menus — at each place, ask whoever is behind the counter what you should order, and eat exactly that.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Include one thing you would normally refuse outright.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Port+Portland+ME",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "PWM-S-04",
+        "title": "Pick From 400 Beers at Novare Res Bier Café",
+        "description": "Find the hidden alley off Exchange Street and take a picnic table on the terrace with a beer list four hundred long.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Let the bartender choose for you, with no description first.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Novare+Res+Bier+Cafe+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PWM-S-08",
+        "title": "Catch a Touring Band at the State Theatre",
+        "description": "See whoever is coming through the 1929 Congress Street movie palace — the best-sounding room of its size anywhere in Maine.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Get down to the front for the encore.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/State+Theatre+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-S-05",
+        "title": "Order a Maritime Cocktail at Blyth & Burrows",
+        "description": "Drink in the Old Port's shipwreck-themed cocktail bar on Exchange Street, then find your way into the hidden room upstairs.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get into the back bar without asking anyone how.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Blyth+and+Burrows+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PWM-S-11",
+        "title": "Get Loud at a Maine Mariners Game",
+        "description": "Take in ECHL hockey at Cross Insurance Arena, where the Bruins' affiliate plays to a crowd that takes it personally.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 13,
+        "bonus": "Stay on your feet for the whole of a penalty kill.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Cross+Insurance+Arena+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-S-07",
+        "title": "Play Pinball Until Close at Arcadia National Bar",
+        "description": "Spend a night on fifty-odd pinball machines, skee-ball and consoles at the Congress Street barcade, with pizza and a draught list to match.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get your initials onto a high-score table before you leave.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Arcadia+National+Bar+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PWM-S-10",
+        "title": "Take a Seat Behind Home Plate at a Sea Dogs Game",
+        "description": "Watch the Red Sox Double-A side with the Fenway-replica wall in left and a Sea Dog Biscuit melting in your hand.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 14,
+        "bonus": "Get the ice cream sandwich between innings, not after the game.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Hadlock+Field+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-S-09",
+        "title": "See a Show on the Lawn at Thompson's Point",
+        "description": "Stand on the grass with the Fore River behind the stage for Portland's big outdoor summer bills, from Wilco to LCD Soundsystem.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Jun–Sep",
+        "spark": 40,
+        "bonus": "Stay for the walk back along the water after the lights come up.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Thompson%27s+Point+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-S-01",
+        "title": "Drink a Flight in the Allagash Tasting Room",
+        "description": "Go out to Industrial Way for the brewery that made Belgian beer an American habit, and taste the experimental one-offs you can only get on site.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Take the free tour first, then order the beer you just learned about.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Allagash+Brewing+Company+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PWM-S-06",
+        "title": "Bowl a String and Take the Bayside Bowl Rooftop",
+        "description": "Bowl downstairs, then climb to the roof deck for tacos out of a 1960s Airstream and the best sunset seat in Bayside.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round (rooftop May–Oct)",
+        "spark": 25,
+        "bonus": "Win a string and make the loser buy the rooftop round.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Bayside+Bowl+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-S-02",
+        "title": "Drink a Bissell Brothers Can on Thompson's Point",
+        "description": "Sit in the loud, bright tasting room out on the point and drink hazy IPA straight from the can, the way they intend it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Take the can out to the waterfront behind the brewery.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Bissell+Brothers+Thompson%27s+Point+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PWM-S-12",
+        "title": "Catch Oxbow Live in the Blending & Bottling Warehouse",
+        "description": "Drink farmhouse saison among two hundred oak barrels on Washington Avenue while a touring act plays the warehouse floor.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Eat from the Duckfat Frites Shack window in the beer garden on your way out.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Oxbow+Blending+and+Bottling+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PWM-S-03",
+        "title": "Bounce Between Austin Street and Foundation",
+        "description": "Two of Maine's best breweries share one scruffy industrial yard at 1 Industrial Way — drink hoppy at Foundation, then walk thirty feet to Austin Street.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Do both taprooms and declare a winner out loud.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/1+Industrial+Way+Portland+ME",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "PWM-CU-05",
+        "title": "Hear the Kotzschmar Organ at Merrill Auditorium",
+        "description": "Sit under one of the great municipal pipe organs in the world, installed in 1912, and feel the low notes come up through the floor.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit as close to the front as the ushers will let you.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Merrill+Auditorium+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-CU-06",
+        "title": "Dig Into the Collections at the Maine Historical Society",
+        "description": "Go through four hundred years of Maine in the museum and library next to the Longfellow house, from Wabanaki material to shipping logs.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask the librarian to pull one original document for you.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Maine+Historical+Society+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-CU-08",
+        "title": "See the Painted Sanctuary at the Maine Jewish Museum",
+        "description": "Climb to the restored 1921 sanctuary on Congress Street for its stained glass, with rotating contemporary Maine art in the galleries below.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the window dedicated to an immigrant family and read the name on it.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Maine+Jewish+Museum+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-CU-02",
+        "title": "Tour the Gilded Interiors of Victoria Mansion",
+        "description": "Walk through an 1860 Italianate villa on Danforth Street with almost all of its original furnishings, frescoes and stained glass still in place.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 22,
+        "bonus": "Look up in every single room — the painted ceilings are the real show.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Victoria+Mansion+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-CU-04",
+        "title": "Catch an Opening at SPACE on Congress Street",
+        "description": "Go to Portland's contemporary art and performance space for whatever is on — a show, a film, a band, usually all three in a week.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Talk to one artist about their own work before you leave.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/SPACE+Gallery+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-CU-01",
+        "title": "Stand in Front of the Winslow Homers at the PMA",
+        "description": "Work through Maine's best collection — Homer, the Wyeths, Marsden Hartley — in the museum at the top of Congress Square.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Find the Homer painted at Prouts Neck, then go and see the place itself.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Museum+of+Art+Portland+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-CU-07",
+        "title": "Do the First Friday Art Walk Down Congress Street",
+        "description": "Join the whole city walking between galleries, studios and shopfronts on the first Friday of the month, drink in hand.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Go into one space you would never otherwise set foot in.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Congress+Street+Arts+District+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-CU-03",
+        "title": "Walk Through Longfellow's Childhood Home",
+        "description": "Tour the 1786 brick house on Congress Street where the poet grew up, still furnished by four generations of the same family.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 14,
+        "bonus": "Find the room where he wrote as a boy.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Wadsworth-Longfellow+House+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "PWM-F-12",
+        "title": "Eat Breakfast with the Dock Crews at Becky's Diner",
+        "description": "Get to the Commercial Street diner that has been feeding Portland's fishermen since four in the morning, and order the fish hash.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Be in a booth before six and see who else is already there.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Becky%27s+Diner+Portland+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-F-08",
+        "title": "Queue for a Buttermilk Biscuit at Tandem Coffee + Bakery",
+        "description": "Join the line at the old Congress Street filling station for laminated pastry, a fat buttermilk biscuit and house-roasted coffee.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get there before the biscuits sell out — they shut the doors at one.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Tandem+Coffee+and+Bakery+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-F-01",
+        "title": "Order the Brown Butter Lobster Roll at Eventide",
+        "description": "Sit at the granite oyster counter for the small steamed bun of lobster in brown butter that reset what a lobster roll could be.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order a half-dozen Maine oysters alongside and take them all from different bays.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Eventide+Oyster+Co+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-F-05",
+        "title": "Take a Walk-In Seat Downstairs at Central Provisions",
+        "description": "Turn up early for the first-come-only downstairs room and build a meal out of crudo, pork belly and a run of small plates.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order five small plates between two of you instead of two big ones.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Central+Provisions+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-F-04",
+        "title": "Eat Beside the Wood-Fired Hearth at Fore Street",
+        "description": "Book the room around the brick-and-soapstone hearth where everything comes off a wood oven, grill or turnspit, on a menu rewritten every day.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order whatever came off the turnspit that night, sight unseen.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Fore+Street+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-F-11",
+        "title": "Take One of Fourteen Stools at the Palace Diner",
+        "description": "Drive down to Biddeford for a 1927 dining car with fourteen counter stools and the best breakfast sandwich in the state.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Go on a weekday and still expect to wait on the pavement.",
+        "city": "Biddeford, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Palace+Diner+Biddeford+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-F-09",
+        "title": "Buy a Morning Bun at Standard Baking Co.",
+        "description": "Duck into the small bakery under the hotel on Commercial Street for the morning bun and a baguette still warm out of the oven.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat it on the Eastern Prom instead of in the queue.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Standard+Baking+Co+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-F-02",
+        "title": "Split Duck Fat Fries and Poutine at Duckfat",
+        "description": "Queue for a table at the Middle Street storefront and work through a cone of Belgian fries cooked in duck fat with duck gravy poutine.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Add a milkshake and finish the whole thing between two of you.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Duckfat+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-F-07",
+        "title": "Eat a Maine Potato Doughnut at The Holy Donut",
+        "description": "Get a warm doughnut made with real Maine potato — dark chocolate sea salt, fresh lemon — from the Commercial Street waterfront shop.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy two flavours and eat them both out on the dock.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Holy+Donut+Commercial+Street+Portland+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-F-10",
+        "title": "Build a Lobster Grilled Cheese at Highroller",
+        "description": "Go sideways at Highroller Lobster Co. on Exchange Street — lobster grilled cheese, a cheese-crisp lobster taco, lobster tots, their own hot sauce.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the one thing on the board that reads like a dare.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Highroller+Lobster+Co+Portland+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-F-03",
+        "title": "Slurp the Lobster Noodles at The Honey Paw",
+        "description": "Take a kitchen-facing counter stool at Portland's borderless noodle house for lobster noodles and whatever else is on the board.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit at the counter and order what the cooks recommend over the thing you came in wanting.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Honey+Paw+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-F-06",
+        "title": "Work Through the Raw Bar at Scales",
+        "description": "Sit out on Maine Wharf with the water under the floorboards and order whole local fish and oysters from the Fore Street team.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Ask what came off the boat that morning and order exactly that.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Scales+Maine+Wharf+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "PWM-C-08",
+        "title": "Catch the Sunset Over the Hills from the Western Prom",
+        "description": "Walk the bluff promenade through the West End's Victorians and watch the sun go down behind the White Mountains.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick which of the mansions behind you you would take.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Western+Promenade+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-C-10",
+        "title": "Walk the Old Port Cobblestones Before the Shops Open",
+        "description": "Get up early and have Exchange and Fore Streets entirely to yourself, with only the delivery vans and the gulls for company.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a coffee from the very first place that unlocks its door.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Port+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-C-05",
+        "title": "Walk the Meadows at Gilsland Farm",
+        "description": "Take the loop trails through Maine Audubon's salt-marsh sanctuary on the Presumpscot estuary, ten minutes out of the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Borrow binoculars at the centre and name three birds before you leave.",
+        "city": "Falmouth, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Maine+Audubon+Gilsland+Farm+Falmouth+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-C-02",
+        "title": "Watch the Ferries Come In from the Eastern Prom",
+        "description": "Take a blanket to the long sloping lawn above the bay and watch the island boats cross while the light goes orange.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay until you can tell which boat is going to which island.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Eastern+Promenade+Portland+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-C-07",
+        "title": "Read an Afternoon Away in the Library Atrium",
+        "description": "Take the glass-fronted reading room above Monument Square at the Portland Public Library and give yourself two hours with no phone in them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pull something off the new-arrivals shelf at random and read fifty pages.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Public+Library+Portland+ME",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "PWM-C-09",
+        "title": "Sit in the Longfellow Garden Off Congress Street",
+        "description": "Slip through to the walled garden behind the poet's childhood home — a pocket of complete quiet right off the busiest street in the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 12,
+        "bonus": "Read one Longfellow poem on the bench before you go.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Wadsworth-Longfellow+House+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-C-03",
+        "title": "Spend a Whole Slow Afternoon on Peaks Island",
+        "description": "Take the seventeen-minute ferry, walk the shore road, get an ice cream and come back on a late boat having achieved nothing.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 14,
+        "bonus": "Miss one ferry on purpose.",
+        "city": "Peaks Island, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Peaks+Island+Maine",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-C-04",
+        "title": "Shop the Deering Oaks Farmers' Market on a Saturday",
+        "description": "Walk the long row of Maine growers under the park's trees for cheese, cider doughnuts, oysters and flowers you will not get home intact.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "May–Nov",
+        "spark": 13,
+        "bonus": "Buy lunch from three different stalls and eat it on the grass.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Deering+Oaks+Farmers+Market+Portland+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-C-06",
+        "title": "Linger Over a Pour-Over at Bard Coffee",
+        "description": "Take a window seat in the Old Port's serious coffee bar and let somebody brew you a single origin by hand.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask the barista to choose the coffee for you.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Bard+Coffee+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-C-01",
+        "title": "Browse the Shelves at Print: A Bookstore",
+        "description": "Give an hour to the East End's independent bookshop on Congress Street, where the handwritten staff picks are the whole point.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy the book that a shelf card talked you into.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Print+A+Bookstore+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "PWM-A-02",
+        "title": "Haul Lobster Traps Aboard the Lucky Catch",
+        "description": "Pull on a rubber apron and work real traps out of Casco Bay on a 90-minute run with a working lobsterman.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Late May–Oct",
+        "spark": 26,
+        "bonus": "Buy your catch off the boat for $10 and walk it next door to Portland Lobster Company to be cooked.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Lucky+Catch+Cruises+Portland+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-09",
+        "title": "Walk the Shore Loop on Mackworth Island",
+        "description": "Cross the causeway and circle a mile and a quarter of ledge and spruce with the Portland skyline sitting across the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the fairy village in the woods and leave something behind for it.",
+        "city": "Falmouth, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Mackworth+Island+Falmouth+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-13",
+        "title": "Work the Tide Pools Below Two Lights",
+        "description": "Pick your way over the tilted rock shelves at Two Lights State Park and go through the pools for crabs, urchins and periwinkles.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Time it for low tide and find something alive you can't name.",
+        "city": "Cape Elizabeth, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Two+Lights+State+Park+Cape+Elizabeth+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-15",
+        "title": "Swim the Cold Water at Crescent Beach",
+        "description": "Take the plunge into properly bracing Maine water off a mile of sand, then dry out on the warm rocks at the far end.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 13,
+        "bonus": "Get all the way under on the first attempt — no wading in.",
+        "city": "Cape Elizabeth, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Crescent+Beach+State+Park+Cape+Elizabeth+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-08",
+        "title": "Catch the Beach Break at Higgins Beach",
+        "description": "Paddle out at the sandy break that Portland locals have surfed for decades, twenty minutes south of the city.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 23,
+        "bonus": "Stay in the water until you ride one all the way to the sand.",
+        "city": "Scarborough, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Higgins+Beach+Scarborough+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-03",
+        "title": "Kayak Out to Fort Gorges in the Middle of the Harbor",
+        "description": "Paddle across Portland Harbor with Portland Paddle and climb through an abandoned granite Civil War fort on its own island.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 40,
+        "bonus": "Get to the upper tier and shout once inside the empty parade ground to hear the echo come back.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Paddle+East+End+Beach+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-12",
+        "title": "Ski the Night Lights at Pleasant Mountain",
+        "description": "Drive an hour inland for the best night skiing in Maine, lit top to bottom on the state's oldest ski mountain.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Dec–Mar",
+        "spark": 26,
+        "bonus": "Take one run through the Sherwood Forest glades before the lights go out.",
+        "city": "Bridgton, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Pleasant+Mountain+Bridgton+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-10",
+        "title": "Run the Eastern Promenade Trail at Sunrise",
+        "description": "Take the flat waterfront path along the bay before the city wakes, with the islands coming out of the dark on your right.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Make it all the way to Ocean Gateway and back without stopping.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Eastern+Promenade+Trail+Portland+ME",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PWM-A-06",
+        "title": "Walk the Cliff Path to Portland Head Light",
+        "description": "Follow the shore trail through Fort Williams Park to the most photographed lighthouse in America, standing over the surf since 1791.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Carry on to the Goddard Mansion ruins before you head back.",
+        "city": "Cape Elizabeth, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Head+Light+Cape+Elizabeth+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-16",
+        "title": "Find the Ruins of Battery Steele on Peaks Island",
+        "description": "Walk into the woods on Peaks and come out at a vast WWII gun battery, now a graffiti-covered concrete tunnel driven through the hill.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 15,
+        "bonus": "Walk the full length of the dark tunnel without a torch.",
+        "city": "Peaks Island, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Battery+Steele+Peaks+Island+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-01",
+        "title": "Climb the Portland Observatory on Munjoy Hill",
+        "description": "Haul yourself up seven flights of an 1807 signal tower — the last maritime one left in America — for the whole of Casco Bay through the windows.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 14,
+        "bonus": "Count the steps on the way up and see if your number matches the guide's.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Observatory+Portland+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-04",
+        "title": "Sail Casco Bay on the Schooner Bagheera",
+        "description": "Take a two-hour sail on a 1924 Maine-built wooden schooner and help haul the mainsail if the crew lets you near it.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "May–Oct",
+        "spark": 25,
+        "bonus": "Ask the captain which island has the best story, then make them prove it.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Schooner+Company+Portland+ME",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-05",
+        "title": "Ride the Mailboat Run Through the Whole Bay",
+        "description": "Take the Casco Bay Lines mailboat on its full island circuit and watch the post, the freight and the locals come and go at every dock.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stay out on deck for the entire loop, whatever the wind is doing.",
+        "city": "Portland, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Casco+Bay+Lines+Portland+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-14",
+        "title": "Book an L.L.Bean Outdoor Discovery Course in Freeport",
+        "description": "Sign up for a half-day clinic — fly casting, clay shooting, paddling, winter navigation — run by guides out of the flagship store.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Pick the discipline you have never once tried.",
+        "city": "Freeport, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/L.L.Bean+Outdoor+Discovery+Programs+Freeport+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-07",
+        "title": "Ride a Rental Bike Around the Peaks Island Loop",
+        "description": "Take the ferry over, grab a bike from Brad's on Island Avenue and ride the back-shore loop with the open Atlantic at your shoulder.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 14,
+        "bonus": "Stop on the back shore and skip a stone into the open ocean.",
+        "city": "Peaks Island, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Brad%27s+Bike+Rental+Peaks+Island+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PWM-A-11",
+        "title": "Scramble to the Bald Summit of Bradbury Mountain",
+        "description": "Climb the short, steep Summit Trail to an open granite top with a view that runs all the way back to Casco Bay.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Nov",
+        "spark": 14,
+        "bonus": "Go up the Summit Trail and come down the Tote Road for the long way home.",
+        "city": "Pownal, ME",
+        "mapsUrl": "https://maps.google.com/maps/search/Bradbury+Mountain+State+Park+Pownal+ME",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

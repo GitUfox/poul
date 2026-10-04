@@ -1,0 +1,775 @@
+{
+  "id": "lisbon",
+  "name": "lisbon",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "foodie": [
+      {
+        "id": "LIS-F-05",
+        "title": "A Bifana at O Trevo",
+        "description": "A tiny counter on Praça Luís de Camões serving marinated pork in a bread roll, eaten standing, for the price of a coffee.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Have it with a bica at the same counter.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/O+Trevo+Praca+Luis+de+Camoes+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-F-06",
+        "title": "Manteigaria, Straight Off the Tray",
+        "description": "Stand at the marble counter in Chiado and eat a pastel de nata still too hot to hold, with cinnamon shaken over the top.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Wait for the bell that means a fresh tray is out.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Manteigaria+Chiado+Lisbon",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-F-12",
+        "title": "Two Stars at Belcanto",
+        "description": "José Avillez's Chiado dining room, where Portuguese classics get rebuilt into something you have to be told the name of to recognise.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the tasting menu, not the à la carte.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Belcanto+Lisbon",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-F-08",
+        "title": "Coffee at Fábrica Coffee Roasters",
+        "description": "Portugal roasts its own beans dark and bitter; this is the place that decided to do the opposite, and it changed Lisbon's coffee.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order a bica and a filter and taste them back to back.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Fabrica+Coffee+Roasters+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-F-11",
+        "title": "Dinner at Taberna Sal Grosso",
+        "description": "Twenty seats in Alfama doing serious, modern Portuguese cooking at prices that make no sense for how good it is.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Book weeks ahead. There is no walk-in option.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Taberna+Sal+Grosso+Lisbon",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-F-09",
+        "title": "Petiscos at Taberna da Rua das Flores",
+        "description": "A no-bookings former grocery with a handwritten menu that changes daily and a queue outside from the moment it opens.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Put your name down, go for a drink, come back.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Taberna+da+Rua+das+Flores+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-F-07",
+        "title": "Garlic Prawns at Cervejaria Ramiro",
+        "description": "A loud, tiled beer hall in Intendente where you work through shellfish by weight and finish, correctly, with a steak sandwich for dessert.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "The prego at the end is not optional.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Cervejaria+Ramiro+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-F-10",
+        "title": "Portuguese Wine Under a Bottle Ceiling",
+        "description": "A Chiado wine bar in a vaulted room lined entirely with bottles, pouring Portuguese producers by the glass with cheese and presunto to match.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Drink something from the Alentejo you have never heard of.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/By+the+Wine+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "social": [
+      {
+        "id": "LIS-S-05",
+        "title": "Drinks at Pensão Amor",
+        "description": "A former dockside brothel off Cais do Sodré turned into a gloriously overdecorated bar, with an erotica bookshop on the way to the toilets.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the room with the painted ceiling.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Pensao+Amor+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LIS-S-08",
+        "title": "Craft Beer at Cerveteca Lisboa",
+        "description": "A small Príncipe Real bar that was pouring Portuguese craft beer before there was much of it, with tables spilling onto the square outside.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask for the most Portuguese thing on tap.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Cerveteca+Lisboa+Principe+Real",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LIS-S-11",
+        "title": "Fado Vadio at Tasca do Jaime",
+        "description": "Amateur fado in a Graça back room on a weekend afternoon, where locals take turns singing and the whole place goes silent for each one.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stay for at least four singers before you leave.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Tasca+do+Jaime+Graca+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-S-09",
+        "title": "Benfica at the Estádio da Luz",
+        "description": "Sixty-five thousand people, a live eagle flying a lap before kick-off, and a noise level that makes conversation pointless.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Aug–May",
+        "spark": 15,
+        "bonus": "Be in your seat for the eagle. That is the whole point.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Estadio+da+Luz+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-S-06",
+        "title": "Kiosk Drinks in Príncipe Real",
+        "description": "Sit under the enormous 150-year-old cedar in the garden square with a beer from the kiosk while the whole neighbourhood does the same.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Mar–Nov",
+        "spark": 14,
+        "bonus": "Stay until the lights come on in the trees.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardim+do+Principe+Real+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-S-10",
+        "title": "Lux Frágil Until Sunrise",
+        "description": "Lisbon's serious club, in a riverside warehouse with a rooftop terrace where everyone ends up watching the sun come over the Tagus.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Do not arrive before 2am and do not leave before 6.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Lux+Fragil+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LIS-S-07",
+        "title": "Rooftop at Topo Chiado",
+        "description": "A terrace bar hidden on top of a shopping centre, looking straight across at the roofless arches of the Carmo Convent.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get there before sunset to claim a rail spot.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Topo+Chiado+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LIS-S-12",
+        "title": "Santo António: Sardines in the Streets",
+        "description": "On the night of 12 June every alley in Alfama fills with grills, paper decorations, cheap wine and the marchas populares parading down the avenue.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Evening",
+        "season": "Jun",
+        "spark": 40,
+        "bonus": "Eat a grilled sardine on bread, standing in the street.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Alfama+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "LIS-CU-08",
+        "title": "Opera at São Carlos",
+        "description": "A gilded 1793 horseshoe theatre in Chiado, built to replace the opera house the earthquake destroyed, still the best room in the city for sound.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Sep–Jul",
+        "spark": 40,
+        "bonus": "Dress for it. Everyone else will.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Teatro+Nacional+de+Sao+Carlos+Lisbon",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-CU-01",
+        "title": "The National Tile Museum",
+        "description": "Five centuries of azulejo inside a former convent, ending with a 23-metre panorama of Lisbon painted before the 1755 earthquake flattened it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the pre-earthquake panorama and pick out what is gone.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Museu+Nacional+do+Azulejo+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-CU-03",
+        "title": "The Gulbenkian and Its Garden",
+        "description": "One man's private collection — Egyptian, Islamic, Rembrandt, and a whole room of Lalique — in a modernist building set in its own park.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the Lalique room and give it proper time.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Museu+Calouste+Gulbenkian+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-CU-07",
+        "title": "The Museu do Fado in Alfama",
+        "description": "The history of saudade set to music — listening booths, guitars, and the story of how a dockside song became the national one.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Sit in a booth and listen to Amália properly before you go out to a fado house.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Museu+do+Fado+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-CU-05",
+        "title": "The Bosch Triptych at the MNAA",
+        "description": "Portugal's national collection holds Bosch's Temptations of St. Anthony — a wall of nightmares in a quiet room almost nobody queues for.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Give the triptych fifteen minutes and keep finding things.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Museu+Nacional+de+Arte+Antiga+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-CU-02",
+        "title": "MAAT and the Wave You Can Walk On",
+        "description": "A low white tiled building on the Belém waterfront whose roof you climb and walk over, with contemporary art and a power station underneath.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the roof at sunset even if the galleries are shut.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/MAAT+Museum+Belem+Lisbon",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-CU-06",
+        "title": "The Roofless Convent do Carmo",
+        "description": "Gothic arches open to the sky, left exactly as the 1755 earthquake dropped them, in the middle of the city as a deliberate memorial.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Go at midday when the light comes straight down through the arches.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Convento+do+Carmo+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-CU-04",
+        "title": "Inside the Torre de Belém",
+        "description": "The Manueline watchtower that ships left from and returned to, with stone rope carved round it and a rhinoceros on one corner.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go early — the spiral stair works on a one-way traffic light.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Torre+de+Belem+Lisbon",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "LIS-C-08",
+        "title": "Ferry to Cacilhas for the Sunset Back",
+        "description": "Ten minutes across the water to a working ferry town, a walk along the old warehouses, and the best view of Lisbon on the boat home.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit on the top deck coming back, facing the city.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Cacilhas+Ferry+Terminal+Almada",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-C-07",
+        "title": "LX Factory and Ler Devagar",
+        "description": "A converted industrial complex under the bridge, with a bookshop built inside an old printing press and a flying bicycle hanging over it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go on a Sunday for the market in the alley.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Ler+Devagar+LX+Factory+Lisbon",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-C-05",
+        "title": "The Estufa Fria Greenhouse",
+        "description": "A cool, shaded glasshouse at the top of Parque Eduardo VII with streams, palms and almost nobody in it on a weekday.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the hot house and the sweet house too.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Estufa+Fria+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-C-10",
+        "title": "An Afternoon in Cerca da Graça",
+        "description": "A walled hillside park above Mouraria with olive trees, a kiosk and a castle view, used almost entirely by people who live there.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Buy something from the kiosk and stay two hours.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardim+da+Cerca+da+Graca+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-C-09",
+        "title": "The Tropical Botanical Garden in Belém",
+        "description": "Palms, banyans and roaming peacocks in a walled colonial-era garden that almost every visitor to Belém walks straight past.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the avenue of palms and walk the length of it.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardim+Botanico+Tropical+Belem+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-C-06",
+        "title": "Tiles and Terraces at Santa Luzia",
+        "description": "A pergola-covered terrace in Alfama with blue azulejo panels on the wall and the whole tiled rooftop tumble running down to the river.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk on to Portas do Sol and compare the two views.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Miradouro+de+Santa+Luzia+Lisbon",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "LIS-8B-01",
+        "title": "Take Any Tram to the End of the Line",
+        "description": "Get on the first tram that stops, stay on past every place you recognise, and spend the afternoon in whatever neighbourhood it abandons you in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Eat lunch within two streets of where you get off.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Praca+da+Figueira+tram+stop+Lisbon",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-8B-02",
+        "title": "Follow the Sound of Fado",
+        "description": "Walk into Alfama after dark with no destination and keep turning toward whichever doorway the guitar is coming from until you find a room worth staying in.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Go into the third place you hear, not the first.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Alfama+fado+houses+Lisbon",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "LIS-A-08",
+        "title": "Cycle the Cascais to Guincho Coast Path",
+        "description": "A flat seafront track from Cascais out to the dunes and surf of Guincho, riding straight into the Atlantic wind the whole way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride out into the headwind so you get the tailwind home.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Praia+do+Guincho+Cascais",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LIS-A-05",
+        "title": "Stand at the Westernmost Point of Europe",
+        "description": "Cabo da Roca is a cliff at the end of the continent, with nothing between you and Newfoundland but grey Atlantic and a lot of wind.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Walk south along the clifftop path away from the car park.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Cabo+da+Roca+Portugal",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-A-10",
+        "title": "Sail the Tagus at Golden Hour",
+        "description": "Take a small sailboat out of the Belém docks and see the tower, the bridge and the whole tiled waterfront from the water as the light drops.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Mar–Nov",
+        "spark": 26,
+        "bonus": "Ask to take the tiller for ten minutes.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Doca+de+Belem+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-A-09",
+        "title": "The Abandoned Viewpoint at Monsanto",
+        "description": "Walk up through Lisbon's forest park to the Panorâmico de Monsanto, a derelict sixties restaurant now covered in graffiti with a 360-degree view.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Go all the way up to the top terrace.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Panoramico+de+Monsanto+Lisbon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-A-11",
+        "title": "Surf Ericeira, a World Surfing Reserve",
+        "description": "Forty-five minutes north to a fishing town with seven world-class breaks in a few kilometres, and lessons for whichever one suits you.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Eat at the harbour afterwards with salt still in your hair.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Ericeira+World+Surfing+Reserve+Portugal",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-A-06",
+        "title": "Ferry to Almada and Climb to Cristo Rei",
+        "description": "Cross the Tagus from Cais do Sodré, then go up the arms-outstretched statue on the far bank for the view back at the whole city and its bridge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Take the ferry rather than the bridge, both ways.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Santuario+de+Cristo+Rei+Almada",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LIS-A-12",
+        "title": "Watch the Giants at Nazaré",
+        "description": "Stand on the fort at Praia do Norte in winter and watch tow-in surfers drop into waves the height of an office block.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Oct–Mar",
+        "spark": 40,
+        "bonus": "Check the swell forecast and go on the biggest day of your trip.",
+        "city": "Lisbon, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Forte+de+Sao+Miguel+Arcanjo+Nazare+Portugal",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

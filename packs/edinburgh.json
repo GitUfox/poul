@@ -1,0 +1,1169 @@
+{
+  "id": "edinburgh",
+  "name": "edinburgh",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "EDI-S-12",
+        "title": "Whisky at the Last Word Saloon",
+        "description": "A dark Stockbridge saloon on St Stephen Street from the Bramble team, with over a hundred whiskies and cocktails built to be drunk slowly in a corner booth.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the drink the bar is named after and see if it converts you.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Last+Word+Saloon+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-10",
+        "title": "A Late One at the Bongo Club",
+        "description": "A not-for-profit club on the Cowgate that has been the city's home for whatever is currently underground, from techno to dub to hip-hop, for three decades.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go to a night whose genre you can't define beforehand.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Bongo+Club+Edinburgh",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-05",
+        "title": "Ceilidh Night at the Ghillie Dhu",
+        "description": "A converted West End church with a galleried ballroom, a live ceilidh band and a caller who will physically walk you through every dance until the room is moving as one.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Learn the Gay Gordons properly and then do Strip the Willow without stopping.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Ghillie+Dhu+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-09",
+        "title": "The Saturday Show at The Stand",
+        "description": "Scotland's original purpose-built comedy club, a low basement on York Place running all year, where most of the names you know did the room before they were names.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit in the front two rows and take whatever comes.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Stand+Comedy+Club+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-11",
+        "title": "Vinyl and Odd Spirits at Lucky Liquor",
+        "description": "A tiny Queen Street bar built on a rule of thirteen bottles, rebuilding its entire menu from scratch every few months, with a soundtrack played only from vinyl.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ask what's on the turntable and let it choose your next drink.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Lucky+Liquor+Co+Edinburgh",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-06",
+        "title": "The Rooftop at Cold Town House",
+        "description": "A Grassmarket brewery with a glass-roofed top floor looking straight up at the castle rock, reopened in 2026 with heated gondolas and a retractable roof for Scottish weather.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get one of the gondola seats rather than a normal table.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Cold+Town+House+Grassmarket+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-08",
+        "title": "Down the Close to the Devil's Advocate",
+        "description": "A Victorian pump house at the bottom of a steep Old Town close, now a whisky bar with three hundred bottles and a kitchen that takes the food as seriously as the drink.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find it from the Royal Mile without checking a map.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Devils+Advocate+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-01",
+        "title": "Through the Barber Shop at Panda & Sons",
+        "description": "A Queen Street basement disguised as a barber shop, entered through a bookcase, and currently one of the twenty best bars in Europe.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Order from the back of the menu, whatever is there.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Panda+and+Sons+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-02",
+        "title": "Classics in the Vault at Bramble",
+        "description": "A stone-vaulted cellar under Queen Street with no sign and low ceilings, widely credited with starting Edinburgh's cocktail scene and still doing the classics best.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Tell the bartender a spirit and a mood and let them build it.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Bramble+Bar+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-07",
+        "title": "Cocktails at Nauticus, Leith",
+        "description": "A Duke Street bar built entirely around Scottish spirits and Leith's shipping history, run by the people behind Panda & Sons and taken seriously by drinks lists worldwide.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the drink with the most Scottish ingredients on the list.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Nauticus+Leith+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-03",
+        "title": "Four Hundred Malts at the Bow Bar",
+        "description": "A single-room West Bow pub with no music, no TV and no tables to speak of, just a mirrored back bar of four hundred whiskies and eight cask ales.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ask for something from a closed distillery and drink it slowly.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Bow+Bar+Edinburgh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-S-04",
+        "title": "The Nightly Session at Sandy Bell's",
+        "description": "Edinburgh's most important traditional music pub, running informal folk sessions every night since the 1950s: fiddle, whistle, box, no stage, no cover charge.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stay through at least one full set without talking over it.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandy+Bells+Edinburgh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "EDI-CU-03",
+        "title": "Dolly the Sheep at the National Museum",
+        "description": "A free museum spanning a Victorian glass grand gallery and a modern sandstone wing, holding the Lewis Chessmen, a Formula One car and the actual Dolly the sheep.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get up to the roof terrace for the view most visitors never find.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Museum+of+Scotland+Edinburgh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-CU-07",
+        "title": "A Fringe Show You've Never Heard Of",
+        "description": "For three weeks every August the city becomes the largest arts festival on earth, three thousand shows in every room that will hold an audience, most of them unreviewed.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Aug",
+        "spark": 40,
+        "bonus": "Pick a show purely on a flyer handed to you in the street and go straight to it.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Edinburgh+Festival+Fringe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-CU-06",
+        "title": "Surgeons' Hall Museums",
+        "description": "One of the great surgical collections anywhere: Joseph Lister's instruments, hundreds of anatomical specimens, and a pocketbook bound in the skin of the murderer William Burke.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Read the label on every specimen in one case, however uncomfortable.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Surgeons+Hall+Museums+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-CU-02",
+        "title": "Underground at the Real Mary King's Close",
+        "description": "Whole seventeenth-century streets sealed up and built over beneath the Royal Mile, still standing with their doorways and fireplaces, toured by guides in character.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Ask your guide which room they'd least like to be left alone in.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Real+Mary+Kings+Close+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-CU-08",
+        "title": "Modern One and Two",
+        "description": "Two neoclassical buildings facing each other across a landscaped Water of Leith site, holding Scotland's modern collection plus a reconstructed Eduardo Paolozzi studio.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk between the two buildings by the river path rather than the road.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Scottish+National+Gallery+of+Modern+Art+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-CU-01",
+        "title": "The Crown Jewels at Edinburgh Castle",
+        "description": "A fortress on a volcanic plug holding the Scottish crown jewels, the Stone of Destiny, and a one o'clock gun that still fires over the New Town every day but Sunday.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Be standing on the ramparts when the one o'clock gun goes off.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Edinburgh+Castle",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-CU-04",
+        "title": "The Skating Minister at the National Gallery",
+        "description": "A free collection built into the Mound below the castle, with Raeburn's skating minister, a Botticelli, and the Scottish galleries dug in under Princes Street Gardens.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the Raeburn and work out why it became the most reproduced painting in Scotland.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Scottish+National+Gallery+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-CU-05",
+        "title": "The Palace of Holyroodhouse",
+        "description": "The monarch's official Scottish residence at the foot of the Royal Mile, including Mary Queen of Scots' own chambers and the roofless nave of the medieval abbey behind it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stand in the room where Rizzio was murdered and read the account on the spot.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Palace+of+Holyroodhouse+Edinburgh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "EDI-8B-01",
+        "title": "Wildcard: Every Close on the Royal Mile",
+        "description": "Walk the Royal Mile from the castle to Holyrood and go down every single close and wynd you pass, all the way to the end, before continuing.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Photograph the view from the bottom of each one and pick the best.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Royal+Mile+Edinburgh",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-8B-02",
+        "title": "Wildcard: Bus Number Roulette",
+        "description": "Get on the first Lothian bus that pulls up on Princes Street, ride it to the end of the line wherever that is, and spend the afternoon there before coming back.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Eat wherever the locals at the terminus are eating.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Princes+Street+Edinburgh",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "EDI-F-07",
+        "title": "Whatever's on Today at Mary's Milk Bar",
+        "description": "A one-woman Grassmarket gelateria under the castle rock where the flavours are churned that morning and change daily, and the queue starts at opening.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the strangest flavour on the board without asking what's in it.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Marys+Milk+Bar+Grassmarket+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-F-06",
+        "title": "Fish and Chips at the Fishmarket",
+        "description": "A fishmonger's chip shop on Newhaven harbour, frying to order at the counter, with a deck over the water where langoustines and local beer arrive on trays.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order the langoustines as well as the haddock and eat them with your hands.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Fishmarket+Newhaven+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-F-03",
+        "title": "Shellfish on the Shore",
+        "description": "A low-ceilinged seafood room and champagne bar on Leith's old waterfront, with a terrace beside the water and a platter of Scottish shellfish that lands daily.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Eat an oyster with nothing on it at all.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Ship+on+the+Shore+Leith+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-F-09",
+        "title": "Saturday at the Castle Terrace Market",
+        "description": "Every Saturday morning, a farmers' market in the shadow of the castle rock: Borders beef, smoked fish, venison rolls and cheese from producers who drove in themselves.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Have breakfast entirely from stalls, standing up.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Edinburgh+Farmers+Market+Castle+Terrace",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-F-01",
+        "title": "Haggis and Whisky at the Arcade Bar",
+        "description": "An 1900s Cockburn Street pub that does one thing properly: haggis, neeps and tatties in several versions, with over a hundred whiskies to put beside it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ask the bar to pick a whisky specifically to drink with the haggis.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Arcade+Haggis+and+Whisky+House+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-F-12",
+        "title": "A Guided Flight at Whiski Rooms",
+        "description": "Three hundred bottles behind the bar on North Bank Street and a daily sit-down tasting where someone walks you through four drams and what to eat with them.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Identify the peated one blind.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Whiski+Rooms+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "EDI-F-08",
+        "title": "A Hog Roast Roll from Oink",
+        "description": "A whole pig in the window on Victoria Street, carved into a bap with crackling and a choice of sauces, sold every day from eleven until it runs out.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go for the haggis topping instead of the apple sauce.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Oink+Victoria+Street+Edinburgh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-F-05",
+        "title": "The Bacon Naan Roll at Dishoom",
+        "description": "A Bombay-café fantasy in a New Town townhouse on St Andrew Square, open from eight in the morning for the single most-ordered breakfast in the city.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get there at opening time and walk straight in instead of queueing.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Dishoom+St+Andrew+Square+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-F-04",
+        "title": "Cardamom Buns at Söderberg",
+        "description": "A Swedish bakery that has quietly taken over Edinburgh, baking sourdough and cardamom buns on site from early morning at seven branches across the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat it warm, in the shop, within a minute of buying it.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Soderberg+Bakery+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-F-02",
+        "title": "Tasting Menu at The Kitchin",
+        "description": "Tom Kitchin's Michelin-starred room in a converted Leith whisky warehouse, built entirely around what Scottish land and sea are producing that week.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask which dish changed most recently and why.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Kitchin+Leith+Edinburgh",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-F-10",
+        "title": "The Cheese Counter at I.J. Mellis",
+        "description": "The 1993 original on Victoria Street, where the cheese is matured in the cellar below and the staff will cut you slivers of anything until you commit.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Let them talk you into a Scottish cheese you've never heard of.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/IJ+Mellis+Cheesemonger+Victoria+Street+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-F-11",
+        "title": "Dinner at The Cottage, Royal Terrace",
+        "description": "An 1836 Playfair gardener's cottage in a New Town garden, reopened in 2026 as a tiny seasonal restaurant you walk into through the working kitchen garden.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Take the communal table rather than a private one.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Cottage+Royal+Terrace+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "EDI-A-04",
+        "title": "The Pentlands Ridge to Scald Law",
+        "description": "A proper hill day inside the city's bus network: the grassy ridge over Turnhouse and Carnethy to the Pentlands' highest point, with the whole of Edinburgh laid out below.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Do the full ridge rather than dropping off after the first summit.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Scald+Law+Pentland+Hills",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-01",
+        "title": "Sunrise on Arthur's Seat",
+        "description": "An extinct volcano 250 metres above the city centre, climbed in the dark so you're on the summit when the light comes up over the Forth and the Old Town roofs.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the Gutted Haddie route up rather than the tourist path from the car park.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Arthurs+Seat+Edinburgh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-11",
+        "title": "Cycle the Innocent Railway Tunnel",
+        "description": "A lit 500-metre tunnel under Holyrood Park on the line of one of the world's oldest railways, now the start of a traffic-free run out to the coast at Musselburgh.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride all the way to the sea and back without using a road.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Innocent+Railway+Tunnel+Edinburgh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-10",
+        "title": "Climb Inside a Church at Alien Rock",
+        "description": "Scotland's first indoor climbing centre, built into a converted Newhaven church, with 200 routes from easy slabs to genuinely unpleasant overhangs and a coffee shop at the bottom.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get to the top of the steepest wall in the building, however many tries it takes.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Alien+Rock+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-02",
+        "title": "The Water of Leith to Dean Village",
+        "description": "A wooded river path that runs under the whole city, surfacing at the old millers' houses of Dean Village and Antony Gormley's figures standing in the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find all the Gormley statues on your stretch of the river.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Water+of+Leith+Walkway+Dean+Village+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-A-16",
+        "title": "Boat Out to the Bass Rock",
+        "description": "A small boat from North Berwick harbour out around a white volcanic plug holding one of the world's largest gannet colonies, 100,000 birds wheeling over the deck.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Apr–Sep",
+        "spark": 40,
+        "bonus": "Stay on deck for the whole crossing however cold it gets.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Scottish+Seabird+Centre+North+Berwick",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-09",
+        "title": "Mountain Bike Glentress",
+        "description": "An hour south into the Tweed Valley for the best-known trail centre in Britain: graded singletrack through spruce forest, bike hire on site, and a red route that will hurt.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Ride the full red loop rather than cutting back on the blue.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Glentress+Forest+Peebles",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-05",
+        "title": "Cold-Water Dip at Portobello",
+        "description": "Edinburgh's Victorian seaside suburb, twenty minutes from the centre, where a committed crowd swims off the promenade all year round whatever the North Sea is doing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay in past the point where it stops feeling like a good idea.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Portobello+Beach+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-15",
+        "title": "287 Steps up the Scott Monument",
+        "description": "A blackened Gothic rocket on Princes Street with a spiral staircase so narrow the top stage is genuinely a squeeze, and a viewing platform straight out over the New Town.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Make it to the highest of the four platforms, not just the second.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Scott+Monument+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-A-14",
+        "title": "Climb North Berwick Law",
+        "description": "A steep volcanic cone rising straight out of the East Lothian coast, topped by a replica whale jawbone, with the Bass Rock and half of Fife visible from the summit.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get up and down in under ninety minutes, then swim at the town beach.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/North+Berwick+Law",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-13",
+        "title": "Walk the Forth Road Bridge",
+        "description": "A mile and a half of pedestrian walkway across the Forth at fifty metres up, with the Victorian cantilever bridge alongside you the whole way and a pub on the far side.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk both directions instead of taking the train back.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Forth+Road+Bridge+South+Queensferry",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-12",
+        "title": "Paddleboard Under the Forth Bridges",
+        "description": "A sheltered marina at South Queensferry where you can learn to paddleboard and then get out onto the Forth with three enormous bridges directly overhead.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr–Sep",
+        "spark": 25,
+        "bonus": "Paddle far enough out to be directly beneath the red rail bridge.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Port+Edgar+Watersports+South+Queensferry",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-07",
+        "title": "Dry Slope and Alpine Coaster at Hillend",
+        "description": "Europe's longest artificial ski slope, draped down the side of the Pentlands with the city spread out in front of you, plus an alpine coaster for anyone not skiing.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Take the coaster without touching the brake.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Midlothian+Snowsports+Centre+Hillend",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-08",
+        "title": "Surf Lesson at Belhaven Bay",
+        "description": "The closest consistently surfable beach to Edinburgh, a wide sandy bay at Dunbar where a two-hour lesson and a thick wetsuit get you standing up by the end.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 26,
+        "bonus": "Ride one wave the whole way in to the sand.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Coast+to+Coast+Surf+School+Dunbar",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-03",
+        "title": "Golden Hour on Calton Hill",
+        "description": "Ten minutes uphill from Princes Street to a hilltop of half-finished Greek temples, with the single best view of the Old Town skyline against the sunset.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Climb the Nelson Monument as well rather than stopping at the columns.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Calton+Hill+Edinburgh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-A-06",
+        "title": "Cross the Causeway to Cramond Island",
+        "description": "A mile-long tidal causeway lined with wartime concrete pylons out to an uninhabited island in the Forth, walkable only in the window either side of low tide.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Check the tide table properly and be back on the mainland with an hour to spare.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Cramond+Island+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "EDI-C-07",
+        "title": "Sculpture in the Fields at Jupiter Artland",
+        "description": "A hundred acres of West Lothian estate half an hour from town, with Charles Jencks's grass landforms, an Anish Kapoor and a Joana Vasconcelos swimming pool you can use.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Mar–Oct",
+        "spark": 26,
+        "bonus": "Walk the Jencks landform mounds all the way to the top of the tallest one.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Jupiter+Artland+Wilkieston",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-C-04",
+        "title": "Coffee at Cairngorm, Melville Street",
+        "description": "The West End room that has anchored Edinburgh's specialty coffee scene since 2016, roasting its own and doing a grilled cheese that has its own following.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Drink it black first before you decide whether it needs milk.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Cairngorm+Coffee+Melville+Street+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-C-03",
+        "title": "Two Floors of Topping & Company",
+        "description": "A bookshop on Blenheim Place with ladders, galleries and free pots of tea, open until nine every night of the week.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Accept the offered tea and stay long enough to finish it.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Topping+and+Company+Booksellers+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-C-02",
+        "title": "Dr Neil's Secret Garden",
+        "description": "A garden made by two doctors as therapy for their patients, tucked between Duddingston Kirk and the loch, with benches nobody else seems to know about.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Sit on the bench by the loch and stay there without checking your phone.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Dr+Neils+Garden+Duddingston+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-C-10",
+        "title": "Sunday at Stockbridge Market",
+        "description": "A Sunday morning street market on Saunders Street where the neighbourhood turns up for coffee, cheese, charcuterie and street food, and the good stalls sell out by one.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Arrive before eleven and eat breakfast from three different stalls.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Stockbridge+Market+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-C-01",
+        "title": "The Glasshouses at the Botanics",
+        "description": "Seventy acres of free botanic garden ten minutes from the New Town, with a rock garden, a Chinese hillside and Victorian palm houses to hide in when it rains.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the viewpoint on the lawn where the whole Old Town skyline lines up.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Royal+Botanic+Garden+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-C-09",
+        "title": "Sunset from Inverleith Park",
+        "description": "A wide open Stockbridge park with a pond, allotments, and an unobstructed line of sight to the castle and the whole Old Town ridge catching the last of the light.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get there early enough to watch the skyline change colour rather than arriving after it.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Inverleith+Park+Edinburgh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "EDI-C-05",
+        "title": "A Film at the Cameo",
+        "description": "A cinema that has been running since 1914, with a sofa-backed screen one, a late-night repertory programme and a bar you can take your drink out of.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Book the sofa row and see something you know nothing about.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/Cameo+Picturehouse+Edinburgh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "EDI-C-06",
+        "title": "Afternoon Tea in the Georgian Tea Room",
+        "description": "The first floor of a former bank on George Street: soaring columns, chandeliers, silver stands and tea poured from silver pots, served every afternoon.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get through all three tiers without asking for a box.",
+        "city": "Edinburgh, UK",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Dome+George+Street+Edinburgh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

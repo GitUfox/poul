@@ -1,0 +1,1190 @@
+{
+  "id": "charlotte",
+  "name": "charlotte",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "CLT-S-05",
+        "title": "Tailgate a Carolina Panthers Home Game",
+        "description": "NFL Sunday in an uptown stadium you can walk to from anywhere in the centre, with the tailgate lots filling up four hours before kickoff.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Afternoon",
+        "season": "Sep–Jan",
+        "spark": 40,
+        "bonus": "Get to a tailgate before the gates open and eat something a stranger cooked.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Bank+of+America+Stadium+Carolina+Panthers",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-S-10",
+        "title": "Sing at Petra's in Plaza Midwood",
+        "description": "A dark piano bar and cabaret on Commonwealth Avenue running drag, karaoke, open mics and dance parties, with a back patio and a proper NC beer list.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Put your name down for karaoke before you have had a second drink.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Petras+Bar+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CLT-S-06",
+        "title": "Watch the Hornets at Spectrum Center",
+        "description": "NBA basketball right in the middle of uptown, with a teal crowd and forty-one chances a year to get a cheap upper-deck seat on a weeknight.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 14,
+        "bonus": "Get to your seat in time for warmups, not the tip-off.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Spectrum+Center+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-S-04",
+        "title": "Join the Supporters' Section for Charlotte FC",
+        "description": "This club drew the biggest crowd in MLS history at its first home game, and Bank of America Stadium on a match night is the loudest thing in the Carolinas.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Feb–Oct",
+        "spark": 40,
+        "bonus": "Stand and sing in the supporters' section for the entire ninety minutes.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Bank+of+America+Stadium+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-S-08",
+        "title": "Take the Patio at The Suffolk Punch",
+        "description": "A brewery, restaurant and coffee bar in one, right on the Rail Trail in South End, with a big outdoor bar and a patio that fills up from four onwards.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk there along the Rail Trail rather than driving.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Suffolk+Punch+South+End+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-S-02",
+        "title": "Drink at Heist Brewery, Reopened in NoDa",
+        "description": "Two years dark after a kitchen fire, Heist came back over Memorial Day weekend 2026 with more seating, the old menu favourites and brunch.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order one of the IPAs they brought back and ask a bartender about the fire.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Heist+Brewery+NoDa+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-S-07",
+        "title": "Take a Knights Game at Truist Field",
+        "description": "A Triple-A ballpark dropped into the skyline, where the outfield view is office towers and the beer selection is better than most bars.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 14,
+        "bonus": "Get a seat on the outfield terrace rather than behind the plate.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Truist+Field+Charlotte+Knights",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-S-09",
+        "title": "Get Into Dot Dot Dot",
+        "description": "A storage unit behind the Park Road Shopping Center turned screen-free members' cocktail bar, where ten dollars a year gets you and three guests in.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Buy the membership at the door and bring someone who does not know where you are going.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Dot+Dot+Dot+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CLT-S-11",
+        "title": "Drink Nineteen Floors Up at Merchant & Trade",
+        "description": "The rooftop of the Kimpton Tryon Park Hotel, level with the office towers, with four separate zones and the best skyline view in the city.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get a seat on the open terrace rather than the indoor bar.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Merchant+and+Trade+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CLT-S-01",
+        "title": "Drink at NoDa Brewing's North End Taproom",
+        "description": "The brewery that put Charlotte beer on the map, in a big North End taproom with a beer garden, events most nights and Hop Drop 'n Roll on tap.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Try a beer that is only available in the taproom.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/NoDa+Brewing+Company+North+End+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-S-03",
+        "title": "See a Band at the Neighborhood Theatre",
+        "description": "A 1940s cinema on North Davidson turned independent music room in 1997, small enough that the band can see your face.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get to the front and stay there for the whole headline set.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Neighborhood+Theatre+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-S-12",
+        "title": "Catch a Show at The Fillmore Charlotte",
+        "description": "A two-thousand-capacity room at the AvidXchange Music Factory with a standing floor, plus the smaller Underground next door for the acts on the way up.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy a ticket for the Underground show instead of the main room.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Fillmore+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "CLT-CU-08",
+        "title": "Visit the Original Mint at Mint Museum Randolph",
+        "description": "The building was the first branch of the United States Mint, opened in 1837, moved stone by stone to Eastover and turned into North Carolina's first art museum.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find where the coins were actually struck.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Mint+Museum+Randolph+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-CU-07",
+        "title": "Take a Night at Belk Theater",
+        "description": "Blumenthal Arts' 2,100-seat main hall on Tryon Street, where the Charlotte Symphony, the opera and the big touring Broadway runs all land.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Dress properly for it and get a drink in the lobby at the interval.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Belk+Theater+Blumenthal+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-CU-02",
+        "title": "Visit the Bechtler Museum of Modern Art",
+        "description": "One family's mid-20th-century European collection in a Mario Botta building with Niki de Saint Phalle's gold Firebird out front.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the Giacometti and work out who in the family bought it.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Bechtler+Museum+of+Modern+Art+Charlotte",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CLT-CU-05",
+        "title": "Catch Open Studios at the McColl Center",
+        "description": "A burnt-out Gothic church on North Tryon rebuilt as an artist residency, which periodically throws its studio doors open so you can talk to whoever is working inside.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask one artist what they are actually trying to do.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/McColl+Center+for+Art+and+Innovation+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-CU-03",
+        "title": "Spend an Hour in the Harvey B. Gantt Center",
+        "description": "African-American art, music and history in a building whose facade quotes the quilt patterns of the Brooklyn neighbourhood that once stood nearby.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Find out what happened to Brooklyn, Charlotte, before you leave.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Harvey+B+Gantt+Center+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-CU-04",
+        "title": "Do the Banking at the NASCAR Hall of Fame",
+        "description": "A curved ramp of real race cars set at the actual banking angle of a superspeedway, plus racing simulators and a pit crew challenge.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Beat someone in your group on the simulator.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/NASCAR+Hall+of+Fame+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-CU-01",
+        "title": "See the Collection at Mint Museum Uptown",
+        "description": "Five floors of craft, design and contemporary art in a glass building on Tryon Street, with a five-storey atrium window facing the city.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Spend ten minutes with a single object in the craft and design collection.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Mint+Museum+Uptown+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-CU-06",
+        "title": "Stand Inside the Hezekiah Alexander Rock House",
+        "description": "The oldest surviving building in Mecklenburg County, a 1774 stone house on the grounds of the Charlotte Museum of History.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Work out how the house was built before you read the panel that tells you.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Charlotte+Museum+of+History+Hezekiah+Alexander+House",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "CLT-8B-02",
+        "title": "Greenway Ghost Ride",
+        "description": "Get on the Cross Charlotte Trail anywhere, ride until the greenway physically ends, and find your way home by whatever neighbourhood you land in.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Eat wherever you end up, even if it is a petrol station.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Cross+Charlotte+Trail",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-8B-01",
+        "title": "NoDa Dice Roll",
+        "description": "Start at 36th and North Davidson, roll a die, and enter the nth door on your left. Whatever it is, you stay for one round. Repeat three times.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Only talk to people who were already inside when you arrived.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/36th+Street+North+Davidson+NoDa+Charlotte",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "CLT-C-03",
+        "title": "Browse Park Road Books",
+        "description": "Charlotte's only full-service independent bookshop, in the Park Road Shopping Center since 1977 and open until nine on weeknights.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Leave with a book from a section you never shop in.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Park+Road+Books+Charlotte",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CLT-C-07",
+        "title": "Dig the Bins at Lunchbox Records",
+        "description": "New and used vinyl on Central Avenue with a bias towards indie, punk, metal, funk and jazz, and a back room where bands actually play.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask the person behind the counter what they have been playing all week and buy it.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Lunchbox+Records+Charlotte",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CLT-C-01",
+        "title": "Take the Long Way Around Freedom Park",
+        "description": "Ninety-eight acres of lawn, lake and shade in Myers Park that function as Charlotte's back garden, with pedal boats on the water in summer.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take out a pedal boat and make a full circuit of the lake.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Freedom+Park+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-C-10",
+        "title": "Watch Planes Land from the Airport Overlook",
+        "description": "A free city-built viewing park beside the runway at Charlotte Douglas, with picnic tables, a speaker piping in the tower radio and a jet every ninety seconds.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Identify three different aircraft types by sight before you leave.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Charlotte+Douglas+Airport+Overlook+Park",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-C-08",
+        "title": "Take a Wine Flight at Foxcroft Food & Wine",
+        "description": "A wine bar that grew into a proper restaurant, with monthly tastings across its SouthPark, Dilworth and Waverly rooms and staff who will actually teach you something.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Take a flight of things you cannot pronounce and name your favourite.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Foxcroft+Food+and+Wine+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CLT-C-02",
+        "title": "Wander Daniel Stowe Botanical Garden",
+        "description": "Three hundred and eighty acres on Lake Wylie in Belmont, with a glass orchid conservatory and fountain gardens that are almost empty on a weekday.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the orchid conservatory and stay in it for ten minutes.",
+        "city": "Belmont, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Daniel+Stowe+Botanical+Garden+Belmont+NC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-C-04",
+        "title": "Have Coffee at 7th Street Public Market",
+        "description": "Not Just Coffee inside the uptown market, where they will talk you through a pour-over and the whole building is worth an hour afterwards.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order a pour-over instead of your usual and ask where the beans came from.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Not+Just+Coffee+7th+Street+Public+Market+Charlotte",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CLT-C-05",
+        "title": "Spend an Afternoon at Camp North End",
+        "description": "Seventy-six acres of former Ford assembly plant and missile factory now full of murals, makers, food and bars, with the industrial bones left visible.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Find the oldest piece of original signage still on a building.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Camp+North+End+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-C-06",
+        "title": "Lie on the Lawn at Romare Bearden Park",
+        "description": "Five and a half acres of lawn, water features and terraces wedged between the skyline and the ballpark, best used before a Knights game.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Mar–Nov",
+        "spark": 12,
+        "bonus": "Stay long enough to watch the office tower lights come on.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Romare+Bearden+Park+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-C-09",
+        "title": "See Something Strange at the Independent Picture House",
+        "description": "A nonprofit four-screen arthouse in a converted warehouse north of NoDa, run by the Charlotte Film Society, showing what nowhere else in the city will.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Buy a ticket for the film with the least familiar title on the board.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Independent+Picture+House+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "CLT-F-02",
+        "title": "Order the Fried Chicken at Haberdish",
+        "description": "A Michelin-listed mill-town kitchen on North Davidson serving family-style Southern food and a serious cocktail list under a ceiling of textile-mill artefacts.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order every side dish on the menu for the table.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Haberdish+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-11",
+        "title": "Order Soul Food at Mert's Heart & Soul",
+        "description": "Two decades on College Street doing Low Country and soul food, and the one uptown restaurant that locals and visitors both actually want to eat in.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get the salmon cakes and the collards, and finish the cornbread.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Merts+Heart+and+Soul+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-04",
+        "title": "Eat at Lang Van on Shamrock Drive",
+        "description": "A strip-mall Vietnamese room in east Charlotte, open since 1992, that every chef in this city will tell you to go to before they mention their own restaurant.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order something from the menu that nobody at the table can identify.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Lang+Van+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-03",
+        "title": "Have Dinner in the Church at Supperland",
+        "description": "A restored midcentury church in Plaza Midwood turned into a Southern steakhouse, where you eat under stained glass with the organ pipes still in place.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Sit in the nave rather than the side room, and order something cooked over fire.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Supperland+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-09",
+        "title": "Eat in the Mill House at The Goodyear House",
+        "description": "A restored 1900s mill worker's house in NoDa where Chris Coleman cooks a small, sharp Southern menu with a porch worth waiting for.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get a table on the porch, even if it means waiting for one.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Goodyear+House+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-06",
+        "title": "Take a Salted Caramel Brownie from Amelie's",
+        "description": "A French bakery in NoDa done up like a Parisian flea market, with a pastry case worth the detour and the brownie that Charlotte argues about.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the brownie and a macaron and decide which one wins.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Amelies+French+Bakery+NoDa+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-05",
+        "title": "Graze Your Way Through Optimist Hall",
+        "description": "A converted textile mill north of uptown holding twenty-plus stalls, from Dumpling Lady to Nashville hot chicken, plus bars at both ends.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Build a meal from three different stalls and eat it all at one table.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Optimist+Hall+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-10",
+        "title": "Get a Made-to-Order Doughnut at Milkbread",
+        "description": "The Kindred family's all-day cafe in Davidson, open 7am to 9pm, doing premium doughnuts to order and a crispy chicken sandwich from a James Beard-nominated kitchen.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the doughnuts and eat them in the car before you leave the car park.",
+        "city": "Davidson, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Milkbread+Davidson+NC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-08",
+        "title": "Order the Sandwich at Bossy Beulah's",
+        "description": "A chicken shack built around one very good fried chicken sandwich, with a patio and a queue that moves fast.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get the spicy version and finish it without a drink.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Bossy+Beulahs+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-01",
+        "title": "Get the Brisket at Noble Smoke",
+        "description": "Jim Noble's hickory pit on Freedom Drive cooks whole hog the old Carolina way alongside Texas-style brisket, and five years in it has hit its stride.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order both the Eastern and Lexington sauce and pick a side out loud.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Noble+Smoke+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-07",
+        "title": "Hit Oyster Happy Hour at Sea Level NC",
+        "description": "North Carolina oysters shucked to order in the base of the Hearst Tower uptown, at a dollar fifty a piece from two until six.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Eat a dozen and taste the difference between two growing regions.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Sea+Level+NC+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-F-12",
+        "title": "Eat a Cheeseburger at Brooks' Sandwich House",
+        "description": "A cash-only walk-up window on North Brevard that has been making the same chilli cheeseburger since 1973 and closes at three in the afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Bring cash, get there before eleven and eat standing at the window.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Brooks+Sandwich+House+Charlotte",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "CLT-A-06",
+        "title": "Ride Fury 325 at Carowinds",
+        "description": "A 325-foot giga coaster that crosses the North Carolina and South Carolina state line at 95 miles an hour, and is still one of the best in the world.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Afternoon",
+        "season": "Mar–Oct",
+        "spark": 40,
+        "bonus": "Ride Fury in the front row and again in the back row on the same day.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Carowinds+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-13",
+        "title": "Ride the Anne Springs Close Greenway",
+        "description": "Two thousand acres of trail, gravel and lake just over the state line in Fort Mill, with bike rental on site and a proper swimming lake in summer.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Swim in Lake Haigler after you finish riding.",
+        "city": "Fort Mill, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Anne+Springs+Close+Greenway+Fort+Mill+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-08",
+        "title": "Mountain Bike the Sherman Branch Trails",
+        "description": "Charlotte's best flowy singletrack, east of the city off Rocky River Road, with a beginner loop and plenty of technical extras to get lost in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Clean one feature you walked past on your first lap.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Sherman+Branch+Mountain+Bike+Trail+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-03",
+        "title": "Ride the Rail Trail from South End to Uptown",
+        "description": "A paved corridor beside the light rail linking breweries, murals and patios, which is by far the best way to see how fast this city is changing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop at every mural you have not photographed before.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Charlotte+Rail+Trail+South+End",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-04",
+        "title": "Summit Crowders Mountain",
+        "description": "Thirty-five minutes west of the city, a genuine rock summit with a stair climb at the end and the Charlotte skyline visible from the top on a clear day.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Take the Rocktop Trail rather than the easy route, in both directions.",
+        "city": "Kings Mountain, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Crowders+Mountain+State+Park+NC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-01",
+        "title": "Raft the Channel at the U.S. National Whitewater Center",
+        "description": "The world's largest man-made whitewater river runs in a loop twenty minutes from uptown, throwing genuine Class III and IV rapids at you all afternoon.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Mar–Nov",
+        "spark": 40,
+        "bonus": "Get thrown out of the raft at least once and climb back in unassisted.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/US+National+Whitewater+Center+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-14",
+        "title": "Chase Waterfalls at South Mountains State Park",
+        "description": "Ninety minutes northwest, an eighty-foot waterfall at the end of a real climb, in the closest thing to proper mountains you can reach from Charlotte in a morning.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get in the water at the base of High Shoals Falls.",
+        "city": "Connelly Springs, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/South+Mountains+State+Park+NC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-15",
+        "title": "Run the Greenway from Midtown to Freedom Park",
+        "description": "The Little Sugar Creek Greenway threads out of Midtown under the tree canopy and delivers you to the best park in the city without crossing a road.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Finish with a lap of the Freedom Park lake before you stop your watch.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Little+Sugar+Creek+Greenway+Charlotte",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CLT-A-05",
+        "title": "Kayak Lake Norman from Ramsey Creek Park",
+        "description": "The largest man-made lake in the Carolinas, with a public launch and beach at Ramsey Creek and quiet coves to paddle into within minutes.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Paddle far enough out that you cannot see the boat ramp.",
+        "city": "Cornelius, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Ramsey+Creek+Park+Cornelius+NC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-12",
+        "title": "Walk the Lakeshore at McDowell Nature Preserve",
+        "description": "Eleven hundred acres on Lake Wylie with seven miles of trail through old hardwood and a shoreline path that feels an hour from any city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Hike the full Four Seasons Trail without turning back early.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/McDowell+Nature+Preserve+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-07",
+        "title": "Drive a Stock Car at Charlotte Motor Speedway",
+        "description": "You get an 800-horsepower stock car, a helmet and the actual 1.5-mile banked oval that NASCAR races on in Concord.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Beat the speed of everyone else in your group.",
+        "city": "Concord, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Charlotte+Motor+Speedway+Concord+NC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-11",
+        "title": "Jump with Skydive Carolina in Chester",
+        "description": "A family-run dropzone forty-five minutes south of Charlotte that has been putting first-timers out of aeroplanes since 1986.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Keep your eyes open for the entire freefall.",
+        "city": "Chester, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Skydive+Carolina+Chester+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-09",
+        "title": "Climb at Inner Peaks in South End",
+        "description": "Bouldering and rope climbing on South Tryon, open from six in the morning, with day passes and rental shoes for people who have never touched a wall.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get to the top of one roped route without taking a rest on the rope.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Inner+Peaks+South+End+Charlotte",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-10",
+        "title": "Paddleboard Mountain Island Lake at Latta",
+        "description": "A 1,300-acre nature preserve on a quiet lake where the shoreline is protected, so the water is flat and the view is nothing but trees.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 13,
+        "bonus": "Stand the whole way out and the whole way back.",
+        "city": "Huntersville, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Latta+Nature+Preserve+Huntersville+NC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-16",
+        "title": "Throw a Round at Renaissance Park Disc Golf",
+        "description": "A championship-level course south of uptown with real elevation and water carries, free to play and busy with people who are much better than you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Par the hardest hole on the course.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Renaissance+Park+Disc+Golf+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CLT-A-02",
+        "title": "Try Deep Water Solo at the Whitewater Center",
+        "description": "Climb an overhanging wall with no rope and no harness, because the only thing under you is the river. Plus a full ropes course and zip lines on the same pass.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 25,
+        "bonus": "Fall off from as high up the wall as you can make yourself go.",
+        "city": "Charlotte, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/US+National+Whitewater+Center+Charlotte",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

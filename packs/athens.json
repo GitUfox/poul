@@ -1,0 +1,1186 @@
+{
+  "id": "athens",
+  "name": "athens",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "ATH-S-05",
+        "title": "Europe's Best Bar: Line, Petralona",
+        "description": "A former art gallery in Kato Petralona, run zero-waste by the Clumsies team, named the single best bar in Europe in 2026 and pouring drinks nobody else is making.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Order whatever the bar is most proud of rather than whatever sounds familiar.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Line+Bar+Petralona+Athens",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-08",
+        "title": "Natural Wine at Materia Prima",
+        "description": "A Koukaki cava and wine bistro near the modern art museum built around low-intervention Greek producers, where the owner will pour you things by the glass to argue about.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drink a grape variety you've never heard of and remember the name.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Materia+Prima+Koukaki+Athens",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-11",
+        "title": "Panoramic Drinks at 360",
+        "description": "A rooftop on Ifaistou in the middle of Monastiraki with a genuinely 360-degree turn from the Acropolis round to Lycabettus, open from ten in the morning until three.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Identify all three ancient hills visible from the roof.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/360+Cocktail+Bar+Monastiraki+Athens",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-09",
+        "title": "Greek Craft Taps at Barley Cargo",
+        "description": "A rustic room on Kolokotroni open from midday to three in the morning, with a tap list built almost entirely from Greek microbreweries and coolers full of the rest.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Drink only Greek breweries and find one worth taking a can of home.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Barley+Cargo+Kolokotroni+Athens",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-07",
+        "title": "Rebetiko Until Dawn at Kavouras",
+        "description": "A first-floor room in an Exarchia neoclassical building where live rebetiko — the Greek urban blues, on UNESCO's heritage list — runs Friday and Saturday until it gets light.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Oct–May",
+        "spark": 25,
+        "bonus": "Stay past two in the morning, when the crowd starts singing along.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Kavouras+Themistokleous+Athens",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-03",
+        "title": "The Roof at A for Athens",
+        "description": "A rooftop directly over Monastiraki metro with the Acropolis filling one entire side of the view, busy from six until the small hours every night of the year.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get there before sunset to claim a rail seat facing the rock.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/A+for+Athens+Rooftop+Monastiraki",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-02",
+        "title": "Rum on Klitiou at Baba Au Rum",
+        "description": "A small bar on a pedestrian lane with one of Europe's deepest rum collections, twelve consecutive years on the World's 50 Best list and a queue on the steps outside.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Let the bartender choose a rum flight and guess the countries.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Baba+Au+Rum+Athens",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-10",
+        "title": "Vermouth and Pizza at Odori",
+        "description": "Greece's first vermuteria, on Agioi Theodoroi square, pairing house vermouth cocktails with pizza that has been ranked among the best in Europe.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drink the vermouth neat over ice before you order a cocktail with it.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Odori+Vermuteria+di+Atene+Athens",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-12",
+        "title": "Two Hundred Greek Wines at Heteroclito",
+        "description": "A corner wine bar near Syntagma stocking only Greek bottles, more than two hundred of them, with staff who will take you through Santorini Assyrtiko to Naoussa Xinomavro.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Try one white and one red from islands you've never been to.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Heteroclito+Wine+Bar+Athens",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-01",
+        "title": "Cocktails at The Clumsies",
+        "description": "A neoclassical townhouse off Praxitelous that has been on the World's 50 Best Bars list every year since it opened, building Greek botanicals into everything it pours.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Ask to sit in the back Playroom rather than the main bar.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Clumsies+Athens",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-06",
+        "title": "The Courtyard at Six d.o.g.s",
+        "description": "A hidden garden courtyard off Avramiotou that runs as a café by day and a gig venue and club by night, open every day of the year with free entry to the garden.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay from daylight through to the first band without leaving.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Six+dogs+Avramiotou+Athens",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-S-04",
+        "title": "Ouzo at Brettos",
+        "description": "Athens' oldest distillery, operating in the same Plaka mansion since 1909, with a back wall of backlit bottles stacked to the ceiling and thirty-five house liqueurs.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drink the house ouzo the proper way, with water and no ice.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Brettos+Plaka+Athens",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "ATH-C-08",
+        "title": "Digging Through Monastiraki Flea Market",
+        "description": "The Sunday sprawl around Avissynias Square, where genuine Greek antiques, old brass, military surplus and complete junk are laid out side by side on the pavement.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Haggle for one thing you have no practical use for and win.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Monastiraki+Flea+Market+Avissynias+Square+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-C-10",
+        "title": "Coffee in Plateia Varnava",
+        "description": "A square in Pangrati with no sights at all, ringed by café tables under plane trees, where Athenians spend three hours over one freddo espresso as a matter of routine.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order one freddo and genuinely make it last two hours.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Plateia+Varnava+Pangrati+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-C-05",
+        "title": "An Hour at Little Tree Books",
+        "description": "A small Koukaki bookshop-café round the corner from the Acropolis Museum, with handmade cake, a shelf of English titles and no pressure to leave.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a Greek author in translation and start it there.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Little+Tree+Books+and+Coffee+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-C-09",
+        "title": "A Sunbed Day at Varkiza",
+        "description": "The full organised Greek beach experience at the end of the Riviera: sunbeds, umbrellas, beach bars bringing drinks to your lounger, and showers before you head back in.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Stay through the changeover from afternoon sunbathers to evening drinkers.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Varkiza+Resort+Beach+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-C-03",
+        "title": "Filter Coffee at Taf",
+        "description": "A roastery on Emmanouil Benaki at the edge of Exarchia staffed by competition baristas, where Athens' specialty coffee scene effectively started.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask for the current single origin as filter and drink it without sugar.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Taf+Coffee+Emmanouil+Benaki+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-C-06",
+        "title": "The Hammam Ritual at Al Hammam",
+        "description": "A marble Ottoman-style bathhouse in Plaka a hundred metres from the ancient Baths of the Winds, doing the full steam, scrub and soap-foam sequence.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Take the full scrub rather than just the steam room.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Al+Hammam+Traditional+Baths+Plaka+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-C-07",
+        "title": "A Film Under the Parthenon at Cine Thisio",
+        "description": "Athens' oldest open-air cinema, running since 1935: a jasmine-scented walled garden with tables for two, wine from the kiosk, and the floodlit Parthenon above the screen.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "May–Oct",
+        "spark": 26,
+        "bonus": "Take the late showing so the Acropolis is lit for the whole film.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Cine+Thisio+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-C-04",
+        "title": "The Island Lanes of Anafiotika",
+        "description": "A Cycladic village built into the north slope of the Acropolis by stonemasons from Anafi in the 1840s: whitewashed steps, bougainvillea and lanes too narrow for a car.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get properly lost and come out somewhere you didn't expect.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Anafiotika+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-C-02",
+        "title": "The Roof Lawn at the Niarchos Centre",
+        "description": "Renzo Piano's cultural centre with a park built over the top of it, sloping up to a hilltop lawn where you can see the Acropolis one way and the sea the other.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Walk up the whole slope to the roof rather than taking the lift.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Stavros+Niarchos+Foundation+Cultural+Center+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-C-01",
+        "title": "Lost in the National Garden",
+        "description": "Queen Amalia's 1840 garden behind parliament: fifteen hectares of dense shade, ancient column fragments used as benches, duck ponds and a temperature ten degrees below the street.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the Roman mosaic floor hidden among the trees.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Garden+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "ATH-CU-06",
+        "title": "The Museum of Cycladic Art",
+        "description": "Rooms of marble figurines from the Cycladic islands, 5,000 years old and so reduced and abstract that Brancusi and Modigliani spent their careers chasing them.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick the figurine you'd most believe was made last year.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Museum+of+Cycladic+Art+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-CU-08",
+        "title": "Sunset at the Temple of Poseidon",
+        "description": "Doric columns on a cliff at Cape Sounion, seventy kilometres down the coast, where Byron carved his name and the sun goes down into the Aegean behind the temple.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Find Byron's signature on the column before the light goes.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Temple+of+Poseidon+Cape+Sounion",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-CU-07",
+        "title": "A Night at the Odeon of Herodes Atticus",
+        "description": "A Roman theatre from AD 161 built into the Acropolis slope, still used every summer for the Athens Epidaurus Festival, with the lit Parthenon directly above the stage.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Jun–Aug",
+        "spark": 40,
+        "bonus": "Sit high enough up that the Acropolis is in frame above the performers.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Odeon+of+Herodes+Atticus+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-CU-03",
+        "title": "The Antikythera Mechanism",
+        "description": "The National Archaeological Museum holds the greatest collection of Greek antiquities anywhere, including the Mask of Agamemnon and a 2,000-year-old geared astronomical computer.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the Antikythera Mechanism and read the whole reconstruction panel.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Archaeological+Museum+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-CU-01",
+        "title": "First Entry to the Acropolis",
+        "description": "The Parthenon, the Erechtheion and the Propylaea on their rock, worth booking the very first slot of the day for: an hour on the summit before the heat and the crowds.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Be through the gate in the first ten minutes of opening.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Acropolis+of+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-CU-05",
+        "title": "The Benaki Museum of Greek Culture",
+        "description": "One family's collection filling a Kolonaki mansion, running from neolithic pottery through Byzantine icons to whole carved rooms lifted out of Ottoman-era Macedonian houses.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the two complete wooden reception rooms and stand inside one.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Benaki+Museum+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-CU-04",
+        "title": "The Ancient Agora and the Hephaisteion",
+        "description": "The square where Socrates argued and Athenian democracy actually functioned, with the best-preserved Greek temple in the world standing complete on the rise above it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the Panathenaic Way through the site rather than round the edge.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Ancient+Agora+of+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-CU-02",
+        "title": "The Parthenon Gallery at the Acropolis Museum",
+        "description": "A glass top floor aligned exactly with the temple itself, displaying the surviving frieze at its original spacing with plaster casts standing in for the pieces in London.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Walk the full frieze in narrative order and find where the casts begin.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Acropolis+Museum+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "ATH-8B-02",
+        "title": "Wildcard: Ride the Line to the End",
+        "description": "Get on the metro at Monastiraki, take whichever line arrives first all the way to its final station, and eat lunch within five minutes' walk of wherever you come out.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ask someone at the terminus where they'd eat and go there instead.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Monastiraki+Metro+Station+Athens",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-8B-01",
+        "title": "Wildcard: Five Rooftops, One Night",
+        "description": "One drink on five different Athens rooftops in a single evening, starting before sunset and ending after midnight, and the Acropolis has to be visible from every single one.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Photograph the rock from each roof and put them in order of how good the view was.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Monastiraki+Square+Athens",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "foodie": [
+      {
+        "id": "ATH-F-04",
+        "title": "A Michelin Star on the Roof at Hytra",
+        "description": "Modern Greek cooking on the top floors of the Onassis Cultural Centre, with a summer terrace giving a 360-degree turn from the Acropolis round to the sea.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Book the outdoor terrace and time it for sunset.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Hytra+Onassis+Cultural+Centre+Athens",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-F-12",
+        "title": "Varoulko Seaside",
+        "description": "Lefteris Lazarou's restaurant on Mikrolimano harbour, the first in Greece ever to win a Michelin star, still built entirely around fish and still holding it.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the tasting menu and ask which dish has been on it longest.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Varoulko+Seaside+Piraeus",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-F-06",
+        "title": "Charcoal Chops at Telis",
+        "description": "A fluorescent-lit Psyri room that has grilled one dish since 1977: thin pork chops from Epirus over charcoal, piled on hand-cut chips, no starters, no fuss.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the full portion and finish the chips as well.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/O+Telis+Mprizoles+Psyri+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-F-03",
+        "title": "Lunch at Diporto, Unmarked",
+        "description": "A basement taverna by the central market with no sign, no menu and no printed bill, open since 1887: you get whatever was cooked that morning and wine from the barrel.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Eat everything put in front of you without asking what it is.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Diporto+Agoras+Athens",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ATH-F-08",
+        "title": "Gelato at Le Greche",
+        "description": "Italian technique and Greek ingredients on Mitropoleos: mastiha, fig and mascarpone, Bronte pistachio, churned in small batches and open until midnight.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order a flavour that only exists because of a Greek ingredient.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Le+Greche+Mitropoleos+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-F-11",
+        "title": "The Varvakios Central Market",
+        "description": "A cast-iron nineteenth-century hall on Athinas Street: hanging carcasses on one side, ice-packed fish on the other, and spice shops in the streets around it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the full length of the fish hall before you eat anything.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Varvakios+Central+Market+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-F-01",
+        "title": "Souvlaki at Kostas",
+        "description": "A single counter on Agia Irini square, open since 1950, making one thing: pork souvlaki with a house spicy tomato sauce, until it sells out and shuts for the day.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get there before one o'clock and eat it on the church steps.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Kostas+Souvlaki+Agia+Irini+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-F-05",
+        "title": "Dinner Under the Acropolis at Strofi",
+        "description": "A 1975 taverna on the Makrygianni slope whose roof terrace puts the floodlit Parthenon directly over your table, with lamb and smoked aubergine to match.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Book a roof table and sit facing the rock, not the room.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Strofi+Restaurant+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-F-10",
+        "title": "Yoghurt and Galaktoboureko at Stani",
+        "description": "A 1931 dairy shop near Omonia serving its own thick set yoghurt with honey and walnuts, plus a galaktoboureko of crisp filo over warm semolina custard.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Have the yoghurt as well as the pastry, not instead of it.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Stani+Dairy+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-F-09",
+        "title": "Tyropita at Ariston",
+        "description": "A tiny pie shop on Voulis Street run by the same family since 1910, whose half-moon cheese pie in butter pastry is the standard the whole city is judged against.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy two: the classic tyropita and whatever seasonal pie they're doing that week.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Ariston+Voulis+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-F-07",
+        "title": "Fish at Mikrolimano",
+        "description": "Papaioannou on the Piraeus fishing harbour, with yacht masts a metre from the table, where the whole fish is chosen from ice and charged by the kilo.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Pick your own fish at the counter instead of ordering from the menu.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Papaioannou+Mikrolimano+Piraeus",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-F-02",
+        "title": "Loukoumades at Krinos",
+        "description": "The same Aiolou Street shop since 1923, frying honey-soaked dough balls to order and serving them scalding hot with cinnamon in a room that hasn't been redecorated since.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Eat the first one immediately, before it stops being too hot to handle.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Krinos+Aiolou+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "ATH-A-15",
+        "title": "Blue Hour on the Areopagus",
+        "description": "A bare marble outcrop below the Acropolis entrance, polished slippery by 2,500 years of feet, where St Paul preached and where half of Athens now watches the light go.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get up the rock and back down again without using the metal staircase.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Areopagus+Hill+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-09",
+        "title": "Cycle the Athens Riviera",
+        "description": "A flat coastal run from Faliro out past the marinas to Vouliagmeni, sea on one side the whole way, with a swim stop wherever you feel like stopping.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Swim at three different beaches before you turn round.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Athens+Riviera+coastal+cycle+path+Faliro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-13",
+        "title": "Hydra: No Cars, Just the Coast Path",
+        "description": "An island where wheeled vehicles are banned outright, reached from Piraeus in ninety minutes, with a stone coast path west from the harbour to swimming platforms at Vlychos.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "11 hrs",
+        "durationMins": 660,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Walk the whole path and swim at the far end rather than taking a water taxi.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Hydra+Port+Greece",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-16",
+        "title": "Dawn on the Grand Promenade",
+        "description": "The pedestrianised marble boulevard under the south slope of the Acropolis, walked at first light when it belongs entirely to runners, dog walkers and street cats.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get from Thissio to the Acropolis Museum before the first tour group appears.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Dionysiou+Areopagitou+Athens",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ATH-A-03",
+        "title": "Float in Lake Vouliagmeni",
+        "description": "A collapsed cave lake on the Athens Riviera fed by underground thermal springs, holding 22 degrees all year beneath a sheer rock face, with tiny fish that clean your feet.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Swim right up to the cliff wall at the far end.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Vouliagmeni+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-14",
+        "title": "A Lap of the Panathenaic Stadium",
+        "description": "The all-marble stadium that hosted the first modern Olympics in 1896, rebuilt on a fourth-century BC track, and you are allowed onto the running surface itself.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Run a full lap of the track, hairpin bends and all.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Panathenaic+Stadium+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-12",
+        "title": "Snorkel the Kavouri Rocks",
+        "description": "A rocky headland thirty minutes from the centre where the water drops away fast and clear over seagrass and boulders, and there's almost always somebody spearfishing further out.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 13,
+        "bonus": "Stay in long enough to find an octopus.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Kavouri+Beach+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-10",
+        "title": "Bungee the Corinth Canal",
+        "description": "A jump platform bolted to a bridge over the Corinth Canal, eighty metres above a strip of green water between two sheer walls of rock cut by hand in the 1890s.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Go head first rather than feet first.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Zulu+Bungy+Corinth+Canal",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-01",
+        "title": "Sunrise on Lycabettus Hill",
+        "description": "A steep pine-scented switchback path up the highest hill in Athens, ending at a whitewashed chapel with the Acropolis below you and the Saronic Gulf beyond it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk up rather than taking the funicular, and do it before the heat arrives.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Lycabettus+Hill+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-05",
+        "title": "Up Hymettus from Kaisariani Monastery",
+        "description": "A trail from an eleventh-century monastery in a replanted forest up the mountain that gives Athens its famous violet evening light, with the whole basin below you.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 23,
+        "bonus": "Start at the monastery rather than driving up, and go inside before you set off.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Kaisariani+Monastery+Hymettus+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-06",
+        "title": "Ferry to Aegina for the Day",
+        "description": "Forty minutes on a fast boat from Piraeus to an island with a fifth-century temple on a pine ridge, pistachio groves, and a fishing village lunch at Perdika.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "9 hrs",
+        "durationMins": 540,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Rent a scooter at the port and get to the Temple of Aphaia before you eat.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Aegina+Port+Greece",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-11",
+        "title": "Parnitha to the Flabouri Refuge",
+        "description": "Athens' only national park and its highest mountain, an hour north: fir forest, red deer, and a mountain refuge serving lentil soup at 1,150 metres.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Eat at the refuge rather than carrying your own lunch.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Parnitha+National+Park+Flabouri",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-07",
+        "title": "Climb the Hymettus Crags",
+        "description": "Bolted limestone sport routes on the flanks of Mount Hymettus, twenty minutes from the centre, where the Athens climbing scene goes after work in winter.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Oct–May",
+        "spark": 15,
+        "bonus": "Time a route so you're on the wall as the city lights come on below.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Hymettus+climbing+crag+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-04",
+        "title": "Cliff Swim at Limanakia",
+        "description": "A run of unorganised rocky coves south of Vouliagmeni with no sunbeds and no entrance fee, where Athenians scramble down the rocks and jump straight into deep clear water.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 23,
+        "bonus": "Find a cove with nobody else in it and jump from the highest ledge you're comfortable with.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Limanakia+Vouliagmeni+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-02",
+        "title": "Sunset on Filopappou Hill",
+        "description": "Marble paths laid by Dimitris Pikionis wind through pines and ruins to a Roman monument with the best free head-on view of the Parthenon in the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the stretch of Pikionis paving and notice it's made of recycled ancient stone.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Filopappou+Hill+Athens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ATH-A-08",
+        "title": "Windsurf at Varkiza",
+        "description": "A big organised beach resort at the far end of the Riviera with a reliable afternoon thermal, board hire, instructors, and wakeboarding and paddleboards if the wind dies.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 15,
+        "bonus": "Stay out until you can hold a run the full length of the bay.",
+        "city": "Athens, Greece",
+        "mapsUrl": "https://maps.google.com/maps/search/Varkiza+Resort+Beach+Athens",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

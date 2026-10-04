@@ -1,0 +1,1205 @@
+{
+  "id": "providence",
+  "name": "providence",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "PVD-CU-07",
+        "title": "The Lippitt House Time Capsule",
+        "description": "An 1865 Victorian built for a governor and barely altered since — original faux-grained woodwork, gasoliers and stencilling, which almost nowhere else still has.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the place where the painted wood stops pretending.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Governor+Henry+Lippitt+House+Museum+199+Hope+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PVD-CU-04",
+        "title": "Inside the John Brown House",
+        "description": "A 1788 mansion John Quincy Adams called the most magnificent in North America, now a museum that does not flinch from how the Brown family money was made.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask the guide directly about the slave trade.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/John+Brown+House+Museum+52+Power+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-CU-08",
+        "title": "PVDFest in the Streets",
+        "description": "The city closes downtown for a weekend of street performance, installations and music — the civic festival that grew out of the WaterFire habit.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Afternoon",
+        "season": "Jun",
+        "spark": 14,
+        "bonus": "Watch one act all the way through instead of drifting.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/PVDFest+downtown+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-CU-02",
+        "title": "A Production at Trinity Rep",
+        "description": "A Tony-winning resident company in a converted 1917 vaudeville house, with a permanent acting ensemble and a willingness to rewrite the classics.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 26,
+        "bonus": "Read nothing about the play before you walk in.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Trinity+Repertory+Company+201+Washington+St+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-CU-03",
+        "title": "Touring Show at PPAC",
+        "description": "A 1928 Loew's movie palace with three thousand seats, gilt everywhere and a ceiling worth the ticket on its own, now the city's Broadway house.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get there early enough to walk the whole lobby before the house opens.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Providence+Performing+Arts+Center+220+Weybosset+St+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-CU-01",
+        "title": "The Collection at the RISD Museum",
+        "description": "An art school's museum with no business being this good — a Monet, a Manet, Roman bronzes, a 12th-century Japanese Buddha, and a world-class textile collection.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Find the Buddha and stand with it alone.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/RISD+Museum+20+North+Main+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-CU-06",
+        "title": "Exhibition at the WaterFire Arts Center",
+        "description": "A 1929 steel mill turned into a vast single-room gallery in the Valley, where the scale of the building is half the point of whatever is hanging in it.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Stand in the far corner and take in the whole room at once.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/WaterFire+Arts+Center+475+Valley+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-CU-05",
+        "title": "Where Religious Liberty Started",
+        "description": "A small national memorial on the spring where Roger Williams founded a colony on the then-radical premise that the state had no business in anyone's conscience.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Read the whole interpretive panel. All of it.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Roger+Williams+National+Memorial+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "PVD-F-06",
+        "title": "Market Crawl on Federal Hill",
+        "description": "Atwells Avenue under its bronze pinecone — fresh ravioli, imported salumi and a market counter where the pasta is made on site.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Buy fresh pasta and cook it the same night.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Costantinos+Venda+Ravioli+265+Atwells+Ave+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-F-01",
+        "title": "Grilled Pizza at Al Forno",
+        "description": "The restaurant that invented grilled pizza in 1980 and still fires it over coals, plus a baked pasta that takes an hour and is worth every minute.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order the Dirty Steak and let them explain why it's called that.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Al+Forno+577+South+Water+St+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-F-09",
+        "title": "Peruvian Dinner at Los Andes",
+        "description": "Peruvian and Bolivian cooking that has outgrown its neighbourhood several times over — ceviche, lomo saltado and portions built for sharing.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order a pisco sour and a ceviche before you look at anything else.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Los+Andes+Restaurant+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-F-08",
+        "title": "Doughnuts at Knead",
+        "description": "Scratch-made doughnuts behind a big glass window in Downcity, with seasonal flavours that change faster than you can get through them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the weirdest seasonal flavour on the board.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Knead+Doughnuts+32+Custom+House+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-F-07",
+        "title": "Fried Clams at Dune Brothers",
+        "description": "A seafood shack that started in a shipping container and now runs a proper market — whole-belly clams, day-boat fish, nothing shipped from far away.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order whole-belly clams, not strips. No negotiation.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Dune+Brothers+Seafood+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-F-05",
+        "title": "Midnight at Haven Brothers",
+        "description": "A 1949 diner car towed to the kerb beside City Hall every evening since 1893 — the oldest mobile diner in America, and the city's great social leveller.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Climb inside and eat at the counter rather than taking it away.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Haven+Brothers+Diner+Dorrance+and+Fulton+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-F-11",
+        "title": "Stall Crawl at Track 15",
+        "description": "Seven kitchens and a long central bar inside the restored Union Station, under exposed brick barrel vaults, on tables made from old boxcar flooring.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order from three different stalls and eat it all at one table.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Track+15+food+hall+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-F-12",
+        "title": "Dinner on DePasquale Plaza",
+        "description": "Outdoor tables around the fountain in the middle of Federal Hill, with a Sicilian menu and the whole plaza eating alongside you.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Eat outside on the plaza, even if the weather is arguable.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Costantinos+Venda+Bar+and+Ristorante+DePasquale+Plaza+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-F-02",
+        "title": "Hand-Rolled Pasta at Oberlin",
+        "description": "A tight Westminster Street room doing a small raw bar and some of the best pasta in New England — a James Beard Outstanding Restaurant finalist.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Walk in and take a counter seat rather than booking a table.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Oberlin+266+Westminster+St+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-F-10",
+        "title": "Ramen and Cocktails at Pickerel",
+        "description": "A tiny West End bar with one booth, three ramen on the menu and a cocktail programme that takes itself just seriously enough.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get there at opening — there are almost no seats and no reservations.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Pickerel+Luongo+Square+Providence+RI",
+        "company": [
+          "solo",
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-F-03",
+        "title": "Dinner at Nick's on Broadway",
+        "description": "Twenty-plus years of Derek Wagner cooking almost everything from Rhode Island farms and boats, in a West Side room that grew out of an 18-seat counter.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask which farm the vegetables came from and look it up later.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Nicks+on+Broadway+500+Broadway+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-F-04",
+        "title": "Hot Wieners All the Way at Olneyville",
+        "description": "Rhode Island's own creation — a small wiener in a steamed bun with meat sauce, mustard, onion and celery salt, lined up along a counterman's forearm.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order three all the way and a coffee milk, and finish all of it.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Olneyville+New+York+System+18+Plainfield+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "PVD-A-07",
+        "title": "Surf Narragansett Town Beach",
+        "description": "New England's most reliable beach break, forty minutes south — a long sandy peak that works for beginners and still holds up when a hurricane swell arrives.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 22,
+        "bonus": "Stay out until you stand up on a wave you actually chose.",
+        "city": "Narragansett, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Narragansett+Town+Beach+Narragansett+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-10",
+        "title": "Sunset from Prospect Terrace",
+        "description": "A small College Hill park where Roger Williams is buried under a granite statue looking straight out over the downtown skyline he founded.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get there early enough to claim the wall directly below the statue.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Prospect+Terrace+Park+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-14",
+        "title": "Swim Olney Pond at Lincoln Woods",
+        "description": "A real swimming pond with a sand beach, fifteen minutes from downtown, surrounded by the same woods the boulderers are working in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Jun–Aug",
+        "spark": 14,
+        "bonus": "Swim out to the buoy line and back without stopping.",
+        "city": "Lincoln, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Olney+Pond+Lincoln+Woods+State+Park+Lincoln+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-11",
+        "title": "Walk the Point at Sachuest",
+        "description": "A wildlife refuge on a rocky peninsula past Newport, with harbour seals hauled out on the rocks all winter and surf hitting three sides of the loop.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Spot a seal before anyone else in your group does.",
+        "city": "Middletown, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Sachuest+Point+National+Wildlife+Refuge+Middletown+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-03",
+        "title": "Ride the East Bay Bike Path to Bristol",
+        "description": "Fourteen and a half miles of old rail bed hugging Narragansett Bay from India Point all the way to Bristol harbour, with water on your right the whole way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 14,
+        "bonus": "Ride the full length and eat something in Bristol before turning back.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/East+Bay+Bike+Path+India+Point+Park+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-06",
+        "title": "Climbing Session at Rock Spot",
+        "description": "Rhode Island's climbing hub, with routes and boulder problems set weekly and a crowd that will spot you whether you asked or not.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ask a regular to give you a problem and try it.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Rock+Spot+Climbing+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-05",
+        "title": "Take the Ferry Down to Newport",
+        "description": "An hour on the water from downtown Providence, under the Pell Bridge and straight into Newport harbour — the only sensible way to make the trip.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "All day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Jun–Oct",
+        "spark": 23,
+        "bonus": "Stay on the open top deck the entire crossing, whatever the wind does.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Providence+Newport+Ferry+Terminal+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-04",
+        "title": "Walk the Newport Cliff Walk",
+        "description": "A public path wedged between Gilded Age mansion lawns and the open Atlantic — waves below on one side, The Breakers on the other.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Count the Forty Steps on the way down and again on the way up.",
+        "city": "Newport, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Cliff+Walk+Memorial+Boulevard+Newport+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-08",
+        "title": "Find Lovecraft at Swan Point",
+        "description": "A vast Victorian garden cemetery on a bluff over the Seekonk, holding H.P. Lovecraft's grave and its famous inscription — I AM PROVIDENCE.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the stone without looking up directions first.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Swan+Point+Cemetery+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-16",
+        "title": "Ride the Blackstone River Bikeway",
+        "description": "North out of the city along the river that started American industry, past the Slater Mill and up through the old Blackstone Valley towns.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 13,
+        "bonus": "Get as far up the valley as you can before you have to turn for home.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Blackstone+River+Bikeway+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-12",
+        "title": "Lap Blackstone Boulevard",
+        "description": "A wide gravel path down the middle of the East Side's grandest avenue — where all of Providence runs, walks its dogs and judges the architecture.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick the house you'd buy and commit to it out loud.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Blackstone+Boulevard+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-15",
+        "title": "Cross the Providence Pedestrian Bridge",
+        "description": "A bridge built on the old highway piers purely for walking, with built-in benches and steps down to the water on both banks of the river.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit on the wooden steps right at the waterline until the light goes.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Michael+S+Van+Leesten+Memorial+Bridge+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-09",
+        "title": "Loop Roger Williams Park",
+        "description": "Four hundred acres of Olmsted-era lakes, bridges and bandstands on the city's south side — a nineteenth-century idea of a park, still working.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the full perimeter of all the ponds without shortcuts.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Roger+Williams+Park+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-01",
+        "title": "Eighty Braziers Burning at WaterFire",
+        "description": "More than eighty bonfires lit on the rivers running through downtown, tended by black-clad boat crews to a soundtrack of world music, from sunset to midnight.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Evening",
+        "season": "May–Nov",
+        "spark": 40,
+        "bonus": "Follow a brazier boat on foot for one full pass of the river.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/WaterFire+Providence+Waterplace+Park+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-02",
+        "title": "Boulder the Glacial Blocks at Lincoln Woods",
+        "description": "New England's most accessible bouldering — hundreds of glacier-dumped granite blocks scattered through oak woods fifteen minutes from downtown.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 24,
+        "bonus": "Send a problem you had to try more than three times.",
+        "city": "Lincoln, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Lincoln+Woods+State+Park+Lincoln+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-A-13",
+        "title": "Ride the Woonasquatucket Greenway",
+        "description": "A bike path following a once-dead industrial river out of downtown past mill buildings, murals and the reclaimed riverbanks behind them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Apr–Nov",
+        "spark": 13,
+        "bonus": "Stop at every mural you can see from the path.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Woonasquatucket+River+Greenway+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "PVD-S-11",
+        "title": "Kennedy Plaza After Dark",
+        "description": "The city's crossroads at night — the skating rink in winter, events in summer, and Haven Brothers parked at the kerb either way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "End the night at the diner window, whatever time it is.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kennedy+Plaza+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-S-10",
+        "title": "Late Counter Seat at Pickerel",
+        "description": "Four seats at a wooden bar, cocktails made properly, and a bowl of ramen at eleven at night — the best small room on the West Side.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go after ten and take whatever seat is free.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Pickerel+Luongo+Square+Providence+RI",
+        "company": [
+          "solo",
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-S-04",
+        "title": "Bluegrass Throedown at Nick-a-Nee's",
+        "description": "A green cinderblock box in the Jewelry District, cash only, jukebox loud, with a Wednesday bluegrass session that has run for decades.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Bring cash. There is no second option.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Nick-a-Nees+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-S-12",
+        "title": "Taproom Crawl of the Mills",
+        "description": "Providence's breweries all moved into the same dead textile mills — you can walk between several of them on the West Side in an afternoon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "One pour at each stop, no repeats, no favourites.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/breweries+West+Side+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-S-02",
+        "title": "Show at the Columbus Theatre",
+        "description": "A 1926 Broadway picture palace, half-restored and gloriously faded, now one of the best-sounding rooms for touring songwriters in New England.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit in the balcony for at least half the set.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Columbus+Theatre+270+Broadway+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-S-08",
+        "title": "Atwells Avenue Bar Night",
+        "description": "Federal Hill after dinner — a tight run of wine bars, cafés and late spots under the arch, all within a few hundred metres of each other.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Finish the night with an espresso rather than another drink.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Atwells+Avenue+Federal+Hill+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-S-03",
+        "title": "Loud Night at Fête Music Hall",
+        "description": "A converted Olneyville mill with two rooms running at once — you can usually find a show you want and a second one you didn't know about.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Check out whatever is happening in the other room mid-set.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Fete+Music+Hall+103+Dike+St+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-S-01",
+        "title": "Cocktails at The Eddy",
+        "description": "The city's reference cocktail bar since 2012 — dark, narrow, serious about the classics, and willing to make you something off-menu if you let it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Name a spirit and a mood and drink whatever arrives.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Eddy+Eddy+Street+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-S-06",
+        "title": "P-Bruins at the Amica Mutual Pavilion",
+        "description": "Minor league hockey in a downtown arena where the crowd is close, loud and entirely unbothered about whether this is the NHL.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 23,
+        "bonus": "Stay standing for the whole of a power play.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Amica+Mutual+Pavilion+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-S-07",
+        "title": "Opening Night at an AS220 Gallery",
+        "description": "An unjuried, uncensored artist collective running three downtown galleries, where the opening receptions are the actual social event.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Talk to one artist about their own piece before you leave.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/AS220+115+Empire+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-S-05",
+        "title": "Pints at the Rebuilt Trinity Brewhouse",
+        "description": "Providence's longtime brewpub beside the theatre district, reopened in 2026 under new owners with a new brewer and the beer still made on site.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Order the house beer you've never seen anywhere else.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Trinity+Brewhouse+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-S-09",
+        "title": "Pop-Up Dinner Night at Long Live",
+        "description": "The brewery hands its kitchen corner to a different cook most weeks — go without checking who it is and eat whatever they brought.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Don't look up the pop-up beforehand.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Long+Live+Beerworks+40R+Sprague+St+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "PVD-C-08",
+        "title": "Eighteen Taps at Long Live Beerworks",
+        "description": "A restored mill taproom on the West Side pouring inventive IPAs, sours and stouts, with a rotating food pop-up in the corner.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Drink the sour even if you think you don't like sours.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Long+Live+Beerworks+40R+Sprague+St+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-C-02",
+        "title": "A Drink Among the Shelves at Riffraff",
+        "description": "A small bookshop with a proper bar in it, heavy on translated fiction, where the staff will talk you into something you've never heard of.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy the book the bartender recommends.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Riffraff+Bookstore+and+Bar+60+Valley+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-C-07",
+        "title": "Wander Wickenden Street",
+        "description": "Fox Point's main street — Portuguese bakeries, record shops, coffee and junk stores in a few walkable blocks near the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Go into the shop you'd normally walk past.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Wickenden+Street+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-C-01",
+        "title": "Read in the Providence Athenaeum",
+        "description": "An 1838 Greek Revival library on Benefit Street where Poe courted Sarah Helen Whitman — open stacks, green lamps, and absolutely no reason to hurry.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Pull a book published before 1900 and read a page of it.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Providence+Athenaeum+251+Benefit+St+Providence+RI",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PVD-C-06",
+        "title": "Narragansetts at the Hot Club",
+        "description": "A family-run waterfront dive of nearly forty years on the Providence River, where the correct order is a cold can and a seat facing the hurricane barrier.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Be on the deck when the neon flashes at 8:30.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Hot+Club+25+Bridge+St+Providence+RI",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PVD-C-05",
+        "title": "Sit by the Basin at Waterplace Park",
+        "description": "A Venetian-style tidal basin with stepped stone amphitheatre seating, built where a parking lot and a covered river used to be.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the whole ring of the basin at water level.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Waterplace+Park+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-C-04",
+        "title": "Walk the Mile of History on Benefit Street",
+        "description": "One of the densest surviving stretches of colonial architecture in America — gas lamps, cobbles, and the houses Lovecraft put straight into his stories.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the oldest date carved on any house on the street.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Benefit+Street+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-C-03",
+        "title": "Warm Up in the Botanical Center",
+        "description": "The largest indoor display garden in New England — two glasshouses of palms and orchids that stay humid and green while Rhode Island freezes outside.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go on the coldest day of the year.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Roger+Williams+Park+Botanical+Center+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-C-10",
+        "title": "Walk Through the Van Wickle Gates",
+        "description": "Brown's 1764 campus on College Hill — brick quads, enormous trees, and iron gates that by tradition only open twice a year.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit on the Quiet Green with no phone for fifteen minutes.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Van+Wickle+Gates+Brown+University+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-C-09",
+        "title": "Watch the Bay from India Point Park",
+        "description": "Where the river opens into Narragansett Bay — a long grassy waterfront with the hurricane barrier on one side and open water on the other.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay until you've watched a boat go all the way out of sight.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/India+Point+Park+Providence+RI",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "PVD-8B-02",
+        "title": "The Rhode Island Trinity",
+        "description": "Wildcard: in one day, eat a hot wiener all the way, drink a coffee milk, and get a plate of whole-belly clams. Three things this state has and almost nowhere else does.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "All day",
+        "durationMins": 360,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Do all three before the sun goes down.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Olneyville+New+York+System+18+Plainfield+St+Providence+RI",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PVD-8B-01",
+        "title": "I Am Providence",
+        "description": "Wildcard: walk Lovecraft's Providence on foot — Benefit Street, the Athenaeum, Prospect Terrace, and finally his headstone at Swan Point — and read one of his stories after dark.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Do the last stretch alone.",
+        "city": "Providence, RI",
+        "mapsUrl": "https://maps.google.com/maps/search/Benefit+Street+Providence+RI",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ]
+  }
+}

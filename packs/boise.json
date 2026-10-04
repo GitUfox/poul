@@ -1,0 +1,1195 @@
+{
+  "id": "boise",
+  "name": "boise",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "BOI-S-03",
+        "title": "Catch No-Cover Live Music at Pengilly's Saloon",
+        "description": "A 140-capacity Old Boise saloon that Esquire once put on its top-100 bars list, with live music most nights and usually no cover.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay through a full set by a band you have never heard of.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Pengillys+Saloon+Boise",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOI-S-07",
+        "title": "Go to an Idaho Steelheads Game",
+        "description": "Minor league hockey downtown at Idaho Central Arena, loud and fast and cheap, with a crowd that takes it seriously.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 14,
+        "bonus": "Learn one Steelheads chant and actually use it.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Idaho+Central+Arena+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-S-01",
+        "title": "Drink Idaho Beer at Bittercreek Alehouse",
+        "description": "The 8th Street beer bar that made Boise care about draft lists, open late with a kitchen that sources as hard as the taps do.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order a beer from a brewery nobody at your table has heard of.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Bittercreek+Alehouse+Boise",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOI-S-05",
+        "title": "Catch a Drag Night at The Balcony Club",
+        "description": "Boise's queer nightclub on the Grove, running drag, burlesque, aerial and queer-oke five nights a week from a second-floor balcony over 8th Street.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Tip a performer in person instead of from your seat.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Balcony+Club+Boise",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOI-S-04",
+        "title": "Drink a Proper Cocktail at Press & Pony",
+        "description": "A small 1920s-styled bar on Idaho Street making its own tonics and sodas, where the bartenders would rather ask what you like than hand you a list.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Tell the bartender three flavours you like and drink whatever appears.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Press+and+Pony+Boise",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOI-S-11",
+        "title": "Walk the Garden City Ale Trail",
+        "description": "Barbarian Brewing's barrel-aged sours and Western Collective's rotating taproom sit within walking distance of each other off Chinden.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order the sourest thing on each list and finish both.",
+        "city": "Garden City, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Barbarian+Brewing+Garden+City+Idaho",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOI-S-12",
+        "title": "Take the Rooftop at 10 Barrel Brewing",
+        "description": "A Bannock Street brewpub whose rooftop patio is the easiest golden-hour seat in downtown Boise.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Get up there before sunset and hold the table until dark.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/10+Barrel+Brewing+Boise",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOI-S-10",
+        "title": "Catch a Show at the Knitting Factory",
+        "description": "A thousand-capacity concert house on 9th Street that pulls national touring acts through a city this size all year.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get to the barrier for the opener, not just the headliner.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Knitting+Factory+Concert+House+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-S-06",
+        "title": "Watch the Boise Hawks at Memorial Stadium",
+        "description": "A 3,500-seat ballpark on the bank of the Boise River where cheap summer baseball comes with a mountain backdrop.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 13,
+        "bonus": "Sit on the grass berm instead of a seat and catch a foul ball.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Memorial+Stadium+Boise+Hawks",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-S-09",
+        "title": "Do Treefort Music Fest Across Downtown",
+        "description": "Five days every spring when every venue, alley and parking lot downtown becomes a stage for hundreds of bands nobody has heard of yet.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 600,
+        "time": "Any",
+        "season": "Late Mar–early Apr",
+        "spark": 40,
+        "bonus": "See five acts in one day that you had never heard of that morning.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Treefort+Music+Fest+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-S-08",
+        "title": "See a Game on the Blue Turf at Albertsons Stadium",
+        "description": "The most recognisable field in college football is bright blue, and a Boise State Saturday is the loudest thing that happens in Idaho.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Sep–Nov",
+        "spark": 40,
+        "bonus": "Wear blue and orange and stay for the entire fourth quarter.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Albertsons+Stadium+Boise+State",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-S-02",
+        "title": "See a Touring Band at Neurolux",
+        "description": "The Hitchcock Building lounge that has been Boise's indie rock room for decades, open 365 days a year with a photo booth in the corner.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get in the photo booth before the headliner starts.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Neurolux+Boise",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "8ball": [
+      {
+        "id": "BOI-8B-01",
+        "title": "The Greenbelt Coin Flip",
+        "description": "Start anywhere on the Greenbelt, flip a coin at every fork and bridge, and ride until you are somewhere you have never been.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "When you run out of path, find the nearest patio and stay for one drink.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Boise+River+Greenbelt",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-8B-02",
+        "title": "Basque Block Roulette",
+        "description": "Three doors on one short block on Grove Street: hit all of them and order the first item on each menu you cannot pronounce.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Do not look anything up until after you have eaten it.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Basque+Block+Grove+Street+Boise",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "BOI-CU-06",
+        "title": "Read the Walls at the Anne Frank Memorial",
+        "description": "The only human rights memorial of its kind in the United States, an open-air amphitheatre on the Greenbelt engraved with sixty quotes and the full Declaration of Human Rights.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Read one quote out loud to the person you came with.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Anne+Frank+Human+Rights+Memorial+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-CU-05",
+        "title": "Climb the Dome at the Idaho State Capitol",
+        "description": "The only geothermally heated state capitol in America, free to walk into, with four floors of sandstone and marble under a glass-floored rotunda.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get to the top floor and look straight down through the rotunda floor.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Idaho+State+Capitol+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-CU-03",
+        "title": "Tour the Old Idaho Penitentiary",
+        "description": "A territorial prison that held inmates from 1872 to 1973 and is now open cell by cell, including solitary and the gallows room.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stand alone inside a solitary cell with the door shut for a full minute.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Idaho+Penitentiary+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-CU-02",
+        "title": "Spend an Afternoon in the Boise Art Museum",
+        "description": "Idaho's only accredited art museum, on the edge of Julia Davis Park, strong on contemporary Northwest work and ceramics.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick the single piece you would steal and explain why to whoever you came with.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Boise+Art+Museum",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-CU-07",
+        "title": "See Anything at All Inside the Egyptian Theatre",
+        "description": "A 1927 Egyptian Revival movie palace on Main Street, still the oldest theatre in the city and still running films, tribute shows and sing-alongs under its painted ceiling.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Sit in the balcony and look up before the lights go down.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Egyptian+Theatre+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-CU-01",
+        "title": "Walk Freak Alley Gallery",
+        "description": "An entire downtown alley off 8th Street given over to murals and repainted every year, the largest outdoor gallery in the Northwest.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the piece you would put on your wall and photograph only that one.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Freak+Alley+Gallery+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-CU-04",
+        "title": "Visit the Basque Museum & Cultural Center",
+        "description": "Boise holds one of the largest Basque populations outside Europe, and this Grove Street museum includes the 1864 boarding house that housed the first arrivals.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Learn to say one full sentence in Euskara before you leave.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Basque+Museum+and+Cultural+Center+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-CU-08",
+        "title": "Visit the Idaho Black History Museum",
+        "description": "Housed in a relocated 1921 church in Julia Davis Park, telling a part of Idaho's story that almost nothing else in the state covers.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask the person at the desk what most visitors get wrong about Idaho.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Idaho+Black+History+Museum+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "BOI-C-09",
+        "title": "Stroll 13th Street Through Hyde Park",
+        "description": "The North End's four-block historic village of cafes, pubs and shops under a heavy tree canopy, best walked with no plan at all.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the whole strip once before deciding where to stop.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Hyde+Park+13th+Street+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-C-04",
+        "title": "Take a Slow Morning at Neckar Coffee",
+        "description": "A Boise roaster with a bright 10th Street cafe that takes its filter coffee seriously enough to tell you the farm.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order a pour-over and sit without opening your phone once.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Neckar+Coffee+Boise",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BOI-C-10",
+        "title": "Claim a Fire Pit at Payette Brewing's Beer Garden",
+        "description": "An 11,000-square-foot riverside beer garden off River Street with a ten-foot fire pit, a bocce court, yard games and a stage for local bands.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Win a bocce match against someone you just met.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Payette+Brewing+Company+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-C-01",
+        "title": "Lose an Hour in Rediscovered Books",
+        "description": "Boise's independent bookshop, now in a bigger Linen District space on West Grove with its own event room and staff picks worth trusting.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy the book a bookseller recommends, not the one you came in for.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Rediscovered+Books+Boise",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BOI-C-03",
+        "title": "Dig Through the Bins at The Record Exchange",
+        "description": "Idaho's largest independent record store, open daily on West Idaho Street with an espresso bar in the front and deep used vinyl in the back.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a record purely because of its cover.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Record+Exchange+Boise",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BOI-C-05",
+        "title": "Walk the Loop at Kathryn Albertson Park",
+        "description": "Forty-one acres of ponds, reeds and gazebos kept deliberately quiet as a wildlife refuge, minutes from downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Spot a great blue heron before you finish the loop.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Kathryn+Albertson+Park+Boise",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BOI-C-07",
+        "title": "Catch Something Foreign at The Flicks",
+        "description": "Four screens of independent and foreign film since 1984, with a cafe and a patio where you can take a glass of wine into the theatre.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Buy a ticket for whatever starts next without reading the synopsis.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Flicks+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-C-08",
+        "title": "Picnic by the Fountain at Ann Morrison Park",
+        "description": "153 riverside acres with a huge central fountain, open lawns and enough space that you can always find an empty corner.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Bring one thing to share that you made yourself.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Ann+Morrison+Park+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-C-06",
+        "title": "Taste Idaho Wine on the River at Telaya",
+        "description": "A Garden City winery right on the Greenbelt with a dog-friendly deck, above-ground fire pits and a food truck most days.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the full flight and pick your favourite before the pourer tells you the prices.",
+        "city": "Garden City, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Telaya+Wine+Co+Garden+City+Idaho",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOI-C-02",
+        "title": "Wander the Idaho Botanical Garden",
+        "description": "Fifteen acres of themed gardens on the old penitentiary grounds, backed right up against the foothills.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the quietest bench in the garden and sit on it for ten full minutes.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Idaho+Botanical+Garden+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "BOI-F-08",
+        "title": "Order the Handmade Pasta at Alavita",
+        "description": "An Italian joint in the old City National Bank building at 8th and Idaho, rolling every pasta in house with Northwest flour and local eggs.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit at the bar and let the bartender pick the wine by the glass.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Alavita+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-F-01",
+        "title": "Order Finger Steaks at Westside Drive In",
+        "description": "Chef Lou's 1957 drive-in serves the buttermilk-battered finger steaks that are Idaho's actual state dish, with cocktail sauce and a side of fry sauce.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the ice cream potato for dessert and finish the whole thing.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Westside+Drive+In+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-F-10",
+        "title": "Graze Saturday at the Capital City Public Market",
+        "description": "Every Saturday morning from April to December, Main Street closes and fills with Idaho growers, makers and breakfast stalls.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Apr–Dec",
+        "spark": 22,
+        "bonus": "Buy lunch entirely from three different stalls and eat it on a curb.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Capital+City+Public+Market+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-F-05",
+        "title": "Wait for a Table at Goldy's Breakfast Bistro",
+        "description": "Boise's breakfast institution on Capitol Boulevard, where the line out the door on a Saturday is part of the experience.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Build the whole plate from the sides menu instead of ordering an entree.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Goldys+Breakfast+Bistro+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-F-11",
+        "title": "Order a Scoop Flight at The STIL",
+        "description": "Short for The Sweetest Things In Life, a Boise ice cream shop that will pair scoops with local beer or wine if you ask.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get the boozy flight and guess which scoop has the alcohol in it.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/The+STIL+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-F-06",
+        "title": "Pick a Weird One at Guru Donuts",
+        "description": "Ground floor of the historic Idanha Building, turning out scratch-made raised, cake and vegan donuts with glazes that change constantly.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the strangest flavour on the board without asking what is in it.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Guru+Donuts+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-F-12",
+        "title": "Drink Spirits Made Onsite at Bardenay",
+        "description": "On the Basque Block, the first restaurant distillery ever licensed in America, distilling its own gin, vodka and rum behind the bar since 1999.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order a cocktail built only from spirits distilled in the building.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Bardenay+Boise",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOI-F-09",
+        "title": "Drink a Saffron Latte at Sunshine Spice Cafe",
+        "description": "Boise's first Afghan cafe, opened by the Shams sisters, where the saffron, cardamom and pistachio lattes come with pastries baked that morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order something off the pastry case you cannot pronounce.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunshine+Spice+Cafe+Boise",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BOI-F-02",
+        "title": "Catch Paella Day at The Basque Market",
+        "description": "On the Basque Block they cook a giant pan of paella outdoors on Wednesdays and Fridays at noon and serve it on the patio until it runs out.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get there before the pan is half gone and eat standing up with strangers.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Basque+Market+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-F-04",
+        "title": "Eat Local Everything at Fork",
+        "description": "The 8th Street corner restaurant that built its whole menu on Northwest producers, and still the easiest good dinner in downtown Boise.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ask your server which farm the main ingredient came from before you order.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Fork+Restaurant+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-F-07",
+        "title": "Build a Fry Flight at Boise Fry Company",
+        "description": "A restaurant that treats the burger as a side dish, with six potato varieties, six cuts and a wall of house dipping sauces.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order three potato types and rank them out loud before you leave.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Boise+Fry+Company+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-F-03",
+        "title": "Book the Tasting Menu at KIN",
+        "description": "Kris Komori became the first Idaho chef to win a James Beard Award here, cooking a multicourse Idaho menu at a communal table that changes every month.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the wine pairing and let them choose every glass.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/KIN+Restaurant+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "BOI-A-09",
+        "title": "Surf the Standing Wave at Boise Whitewater Park",
+        "description": "An engineered river wave in the middle of a landlocked city, where locals line up with surfboards and kayaks on summer evenings.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Take one ride, however short, instead of only watching from the bank.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Boise+Whitewater+Park",
+        "company": [
+          "solo",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-11",
+        "title": "Hike the Foothills to Stack Rock",
+        "description": "A quiet climb through ponderosa above Bogus Basin Road to a granite outcrop that scramblers and climbers have to themselves most mornings.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 14,
+        "bonus": "Get to the base of the rock and touch the summit block.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Stack+Rock+Trailhead+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-04",
+        "title": "Take Night Laps Under the Lights at Bogus Basin",
+        "description": "Boise's nonprofit mountain lights 165 acres after dark, so you can leave work at five and be carving empty runs by six-thirty.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Dec–Mar",
+        "spark": 26,
+        "bonus": "Ski the last chair of the night, then drive down with the windows open.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Bogus+Basin+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-10",
+        "title": "Sandboard the Dunes and Stargaze at Bruneau",
+        "description": "North America's tallest single-structure sand dune is an hour south of Boise, and the park's public observatory opens its telescopes once the sky goes black.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Evening",
+        "season": "Mar–Oct",
+        "spark": 40,
+        "bonus": "Ride the big dune down on a board, then stay for the last telescope of the night.",
+        "city": "Bruneau, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Bruneau+Dunes+State+Park+Idaho",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-02",
+        "title": "Hike Table Rock for Sunset Over the Valley",
+        "description": "A steady climb up the sandstone bluff east of downtown puts the whole Treasure Valley under a pink sky with the lit cross at your back.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Time it so you reach the top the moment the streetlights come on.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Table+Rock+Trailhead+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-15",
+        "title": "Swim at Sandy Point Beach Below Lucky Peak",
+        "description": "A calm, sandy swimming cove at the foot of Lucky Peak Dam where the cold reservoir water and a hundred-foot fountain do the work on a hot afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Jun–Aug",
+        "spark": 13,
+        "bonus": "Swim all the way out to the fountain spray.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandy+Point+Beach+Lucky+Peak+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-12",
+        "title": "Ride the Glade Runner Mountain Coaster",
+        "description": "Bogus Basin's gravity coaster pulls you 800 vertical feet up the mountain, then lets you control your own speed through two full 360s on the way down.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Take your hands off the brake for one entire loop.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Bogus+Basin+Glade+Runner+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-14",
+        "title": "Boulder a Problem at Asana Climbing Gym",
+        "description": "Garden City's bouldering-only gym is all movement and no ropes, with problems set for people who have never climbed and people who climb every day.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Top out one problem two grades above what you think you can do.",
+        "city": "Garden City, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Asana+Climbing+Gym+Garden+City+Idaho",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-05",
+        "title": "Mountain Bike Hulls Gulch from Camel's Back",
+        "description": "Roll out of the North End straight onto the Ridge to Rivers network and climb foothill singletrack until the city disappears behind you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 15,
+        "bonus": "Descend without touching your brakes on one full section.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Camels+Back+Park+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-16",
+        "title": "Soak in the Pools at The Springs, Idaho City",
+        "description": "An hour up the Ponderosa Pine byway, a proper hot springs resort with a big geothermal pool, a sauna and drinks brought to the water's edge.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Book an adults-only day and stay in the water until you have to be told to leave.",
+        "city": "Idaho City, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Springs+Idaho+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-06",
+        "title": "Run the Payette with Cascade Raft & Kayak",
+        "description": "An hour north of town the Payette throws big, warm, forgiving whitewater, and Cascade has been guiding it out of Horseshoe Bend since 1985.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 27,
+        "bonus": "Volunteer for the front-left seat and take every wave to the face.",
+        "city": "Horseshoe Bend, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Cascade+Raft+and+Kayak+Horseshoe+Bend",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-01",
+        "title": "Float the Boise River from Barber Park",
+        "description": "Rent a tube at Barber Park and drift six lazy miles of cold, clear river straight through the middle of the city to Ann Morrison Park.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Late Jun–early Sep",
+        "spark": 24,
+        "bonus": "Rope your whole group's tubes together and stay attached the entire float.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Barber+Park+Boise",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-08",
+        "title": "Paddleboard Quinn's Pond at Esther Simplot Park",
+        "description": "Flat, warm water minutes from downtown with the foothills on the horizon and rental boards right at the shoreline.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 13,
+        "bonus": "Make it all the way across and back without falling in.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Esther+Simplot+Park+Boise",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-07",
+        "title": "Soak at Kirkham Hot Springs off Highway 21",
+        "description": "Terraced granite pools sit right above the South Fork of the Payette with hot water running down the rock face like a shower.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Alternate a hot pool and a plunge in the cold river three times.",
+        "city": "Lowman, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Kirkham+Hot+Springs+Lowman+Idaho",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-13",
+        "title": "Drive to Redfish Lake and Stanley for the Day",
+        "description": "Three hours up Highway 21 the Sawtooths rise straight out of an alpine lake, and Stanley is a 100-person town at the bottom of them.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Jun–Sep",
+        "spark": 40,
+        "bonus": "Swim in Redfish Lake no matter what the water temperature is.",
+        "city": "Stanley, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Redfish+Lake+Stanley+Idaho",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOI-A-03",
+        "title": "Ride the Boise River Greenbelt End to End",
+        "description": "Twenty-five car-free miles of tree-shaded path trace the river past parks, breweries and the university with almost no reason to stop pedalling.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Finish at a patio you have never been to and order whatever the bartender is drinking.",
+        "city": "Boise, ID",
+        "mapsUrl": "https://maps.google.com/maps/search/Boise+River+Greenbelt",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

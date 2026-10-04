@@ -1,0 +1,1187 @@
+{
+  "id": "san-juan",
+  "name": "san-juan",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "SJU-CU-08",
+        "title": "Read the Silver Ex-Votos at the Capilla del Cristo",
+        "description": "Look into the tiny 18th-century chapel at the end of Calle del Cristo, built where a man survived a fall off the city wall, and read the silver offerings on its altar.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Work out which ex-voto is a thank-you for which body part.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Capilla+del+Cristo+Old+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-CU-02",
+        "title": "See What the MAC Has On in Santurce",
+        "description": "Go to the only museum on the island built purely for post-war art from Puerto Rico, the Caribbean and Latin America, in an old neo-Gothic school.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick the one piece in the building you would actually live with.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+de+Arte+Contemporaneo+de+Puerto+Rico+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-CU-06",
+        "title": "Trace the Island's Roots at the Museo de las Américas",
+        "description": "Go into the Ballajá barracks for the permanent rooms on Taíno, African and Spanish Puerto Rico — the clearest explanation of the island in one building.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Come out able to name three things on the island that are Taíno in origin.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+de+las+Americas+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-CU-01",
+        "title": "Work Through the Museo de Arte de Puerto Rico",
+        "description": "Give an afternoon to the island's main art museum in Santurce — five centuries of Puerto Rican work in a 1920s hospital building, with a formal garden behind it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Find the stained-glass window at the back and sit with it for five minutes.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+de+Arte+de+Puerto+Rico+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-CU-05",
+        "title": "Tour Casa Blanca, the Oldest House in the Americas",
+        "description": "Walk through the 1521 house built for Ponce de León's family and lived in by his descendants for 250 years, with terraced gardens dropping to the bay.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go out into the back gardens and find the view of the bay through the trees.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Casa+Blanca+Old+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-CU-04",
+        "title": "Stand at Ponce de León's Tomb in the Cathedral",
+        "description": "Step into the second-oldest cathedral in the Americas, begun in 1521, where the conquistador's remains sit in a marble tomb by the nave.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the glass case with the mummified body of a martyr in it.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Catedral+de+San+Juan+Bautista+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-CU-07",
+        "title": "Learn to Dance Bomba with Taller Tambuyé",
+        "description": "Take a class in Puerto Rico's oldest rhythm, where the dancer leads and the drummer has to follow — then go and watch them play it live.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Take the solo in front of the drum instead of hiding at the back.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Taller+Tambuye+Santurce+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-CU-03",
+        "title": "Walk the Murals of Santurce es Ley",
+        "description": "Spend a morning on the streets around Calle Cerra, where a decade of mural festivals has turned a whole barrio into open-air painting four storeys high.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find a mural that has been painted over another one and look for the edges.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Calle+Cerra+Santurce+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "SJU-8B-01",
+        "title": "Let a Público Driver Pick Your Night",
+        "description": "Get in a público or a taxi, ask the driver where they would actually go tonight — not where tourists go — and commit to it, wherever it is.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Do not pull your phone out to check the place before you walk in.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Santurce+San+Juan+PR",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-8B-02",
+        "title": "Chinchorrear Until the Car Runs Out of Road",
+        "description": "Do the island's own national sport: drive out of the city and stop at every roadside chinchorro you pass, one drink and one fried thing at each, until you have to turn back.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Make it to five stops and remember the name of every single one.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Guavate+Cayey+PR+chinchorros",
+        "filterExempt": true,
+        "company": [
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "social": [
+      {
+        "id": "SJU-S-11",
+        "title": "Drink at a Piñones Chinchorro After Dark",
+        "description": "Stay out east past sunset when the kiosks turn into bars, the speakers come out and the whole thing becomes a party on the sand.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay for the last song the loudest kiosk plays.",
+        "city": "Loíza, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Pinones+chinchorros+Loiza+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SJU-S-10",
+        "title": "Dance Until Close at Tulum in La Placita",
+        "description": "Pick the club on the edge of the Santurce market where the floor does not empty, and stay on it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Do not leave the dancefloor for a full hour.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Tulum+Santurce+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SJU-S-05",
+        "title": "Pay Cash at El Batey",
+        "description": "Push into the scruffiest, best bar in Old San Juan — graffiti to the ceiling, a jukebox older than you, and no card machine.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Add your name to the wall somewhere nobody will find it.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Batey+Old+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SJU-S-03",
+        "title": "Take the Rum Tasting Tour at Casa Bacardí",
+        "description": "Ferry across San Juan Bay to the world's largest premium rum distillery and taste through the reserves, including one you can only get on site.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Go across by ferry rather than by car, and drink the Special Reserve.",
+        "city": "Cataño, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Casa+Bacardi+Catano+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SJU-S-12",
+        "title": "Take In Winter-League Baseball at Hiram Bithorn",
+        "description": "Get a ticket to Liga de Béisbol Profesional Roberto Clemente, where big-league prospects play through the winter to a crowd with drums and horns.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Nov–Jan",
+        "spark": 14,
+        "bonus": "Sit in the loudest section rather than the best seats.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Estadio+Hiram+Bithorn+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-S-07",
+        "title": "Crawl the Bars of Calle Loíza",
+        "description": "Work east along the strip the city's own twenty-somethings drink on — taprooms, tiny cocktail rooms and late food, no cruise crowd anywhere.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Start at El Tap and let the bar staff tell you where to go next.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Calle+Loiza+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SJU-S-06",
+        "title": "Watch the Cangrejeros at the Coliseo Roberto Clemente",
+        "description": "Get into a Baloncesto Superior Nacional game at Santurce's 12,500-seat barn, where the home side is part-owned by Bad Bunny and the crowd is relentless.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Mar–Jul",
+        "spark": 24,
+        "bonus": "Learn one crowd chant well enough to join in by the second half.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Coliseo+Roberto+Clemente+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-S-04",
+        "title": "Drink Island Craft Beer at La Taberna Lúpulo",
+        "description": "Take a stool at the Calle San Sebastián beer bar that put Puerto Rican craft brewing on the map, and stay until two.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order three island beers you have never heard of and pick a favourite.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Taberna+Lupulo+Old+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SJU-S-09",
+        "title": "Drink Under the Chandelier at El San Juan Hotel",
+        "description": "Take a seat in the lobby bar beneath a vast 1950s crystal chandelier, where the hotel band plays and the room has not changed its mind since Sinatra.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Dress like the room expects you to.",
+        "city": "Carolina, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Fairmont+El+San+Juan+Hotel+Carolina+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SJU-S-08",
+        "title": "See a Show at the Choliseo",
+        "description": "Get into the island's biggest arena for whoever is playing — the room where Puerto Rico's reggaeton and salsa headliners do their hometown nights.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Stay for the encore even if you do not know the song.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Coliseo+de+Puerto+Rico+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-S-02",
+        "title": "Take La Placita de Santurce on a Thursday Night",
+        "description": "Turn up at a daytime produce market that closes its streets to cars after six and becomes three blocks of open-air block party.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Dance to salsa at one bar and reggaeton at the one next door, same hour.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Plaza+del+Mercado+de+Santurce+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SJU-S-01",
+        "title": "Drink Through All Six Rooms of La Factoría",
+        "description": "Work your way through an unmarked warren of connected bars on Calle San Sebastián — cocktails, then wine, then a back room that turns into a dancefloor.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Find all six rooms and have one drink in each.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Factoria+Old+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "SJU-C-04",
+        "title": "Sit in the Arcades of the Cuartel de Ballajá",
+        "description": "Find the big empty courtyard of the old Spanish barracks behind El Morro and sit in the shade of its two storeys of arches.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Work out how many arches run around the whole courtyard.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Cuartel+de+Ballaja+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-C-09",
+        "title": "Fly a Kite on the El Morro Esplanade",
+        "description": "Buy a kite off a vendor and join the hundred other people flying them on the huge green field running up to the fortress.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get yours higher than the fort's flagpole.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Morro+esplanade+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-C-05",
+        "title": "Wander the Jardín Botánico in Río Piedras",
+        "description": "Walk the orchid house, bamboo avenue and lotus ponds of the university's botanical garden, away from every tourist in the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the bamboo tunnel and walk the whole length of it.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardin+Botanico+Rio+Piedras+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-C-07",
+        "title": "Watch the Sun Go Down from La Ventana al Mar",
+        "description": "Take the open lawn between the Condado towers that opens straight onto the Atlantic and watch the sky go over the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get there early enough to claim the bench right at the railing.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Ventana+al+Mar+Condado+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-C-06",
+        "title": "Take a Beach Day in Ocean Park",
+        "description": "Use the beach the city actually uses — wider, windier and more local than Condado, with kitesurfers off the point.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the full length of the beach and back before you settle down.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Ocean+Park+Beach+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-C-01",
+        "title": "Give an Afternoon to Condado Beach",
+        "description": "Take a towel down to the city's own stretch of Atlantic, five minutes from a cocktail and ten from a fortress.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay in the water until the light goes properly golden.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Condado+Beach+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-C-03",
+        "title": "Walk the Paseo de la Princesa to the Raíces Fountain",
+        "description": "Stroll the tree-lined promenade under the city walls out to the bronze fountain of Puerto Rico's three roots, with the bay on your right.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a piragua off a cart on the way and finish it before you reach the fountain.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Paseo+de+la+Princesa+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-C-10",
+        "title": "Hold a Table on Plaza de Armas and Watch the City",
+        "description": "Take a coffee at the old main square, under the four statues of the seasons, and watch Old San Juan go past for an hour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay long enough to see the same person walk past twice.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Plaza+de+Armas+Old+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-C-02",
+        "title": "Swim the Calm Water at Balneario El Escambrón",
+        "description": "Use the sheltered city balneario where the reef knocks the surf down and the water sits flat all day.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get there before nine and have the whole cove to yourself.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Balneario+El+Escambron+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-C-08",
+        "title": "Hang a Hammock in the Coconut Groves at Piñones",
+        "description": "String up between two palms behind the dunes, buy a cold Medalla off a kiosk and do nothing at all for three hours.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Fall asleep in it and let the surf wake you up.",
+        "city": "Loíza, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Pinones+Loiza+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "SJU-A-13",
+        "title": "Find the Taíno Petroglyphs at Cueva del Indio",
+        "description": "Walk out over jagged coastal limestone on the north shore to a collapsed sea cave carved with Taíno petroglyphs, with the Atlantic smashing in below.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find a carving of a face and work out which way it is looking.",
+        "city": "Arecibo, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Cueva+del+Indio+Arecibo+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-12",
+        "title": "Slide the Natural Rock Chutes at Las Paylas",
+        "description": "Hike up a creek behind Luquillo to a run of smooth granite chutes that work as a natural waterslide into cold mountain pools.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Take the top chute first instead of working up to it.",
+        "city": "Luquillo, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Las+Paylas+Luquillo+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-08",
+        "title": "Sail Out to the Sandbars Off Icacos",
+        "description": "Take a catamaran from Fajardo to an uninhabited cay with a shallow turquoise sandbar you can stand up in a mile from shore.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Swim from the boat to the sandbar rather than taking the dinghy.",
+        "city": "Fajardo, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Villa+Marina+Fajardo+PR+catamaran",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-14",
+        "title": "Hike the Angelito Trail to the Río Mameyes",
+        "description": "Take the short rainforest trail outside El Yunque's main corridor down to a clear river pool with a rope swing and almost no crowd.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get all the way in — the water is colder than it looks.",
+        "city": "Río Grande, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Angelito+Trail+Rio+Grande+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-16",
+        "title": "Swim the Ocean Pool at Mar Chiquita",
+        "description": "Drive the north coast to a crescent of limestone where the Atlantic punches through a gap in the rock into a sheltered natural pool.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Time it so you are in the pool when a big set comes over the wall.",
+        "city": "Manatí, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Mar+Chiquita+Manati+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-15",
+        "title": "Paddle the Mangrove Channels of the Piñones Lagoon",
+        "description": "Kayak through the tunnels of red mangrove in the Torrecilla lagoon, fifteen minutes from the city and completely silent.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop paddling in the narrowest channel and listen for two full minutes.",
+        "city": "Loíza, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Laguna+La+Torrecilla+Pinones+Loiza+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-02",
+        "title": "Get Lost in the Tunnels of Castillo San Cristóbal",
+        "description": "Work through the largest Spanish fortification in the Americas — dry moats, tunnels and a sentry box with its own ghost story.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the Garita del Diablo and stand in it alone.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Castillo+San+Cristobal+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-01",
+        "title": "Walk the Paseo del Morro Around to El Morro",
+        "description": "Follow the sea-level promenade along the base of the city walls, then climb up into the six levels of the 16th-century fortress at the headland.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the garita the postcards use and take the photo nobody else is taking.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Castillo+San+Felipe+del+Morro+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-03",
+        "title": "Kayak the Glowing Water of Laguna Grande",
+        "description": "Paddle a mangrove channel out into a bioluminescent lagoon after dark and watch your paddle blade light up blue with every stroke.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Put your hand in the water and hold it still until it stops glowing.",
+        "city": "Fajardo, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Laguna+Grande+Fajardo+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-11",
+        "title": "Surf the Break at La Pared in Luquillo",
+        "description": "Paddle out at the beach break that Puerto Rico's surf scene actually uses, forty-five minutes east with El Yunque standing behind you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 15,
+        "bonus": "Ride one all the way in to the sand without falling.",
+        "city": "Luquillo, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Pared+Beach+Luquillo+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-09",
+        "title": "Take the Ferry Out to Flamenco Beach on Culebra",
+        "description": "Cross to a small island off the east coast for a mile of white sand, a rusting WWII tank in the shallows and water the colour of a swimming pool.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 720,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Walk past the tank to the far end of the beach where almost nobody goes.",
+        "city": "Culebra, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Flamenco+Beach+Culebra+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-05",
+        "title": "Fly The Beast at Toro Verde",
+        "description": "Ride one of the world's longest single-run ziplines head-first across a mountain valley in the central cordillera at up to sixty miles an hour.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs with the drive",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Go superman-style, face down, and keep your eyes open the whole way.",
+        "city": "Orocovis, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Toro+Verde+Nature+Adventure+Park+Orocovis+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-07",
+        "title": "Paddleboard the Condado Lagoon Hunting Manatees",
+        "description": "Take a board out across a protected marine reserve in the middle of the city, where West Indian manatees graze the shallows.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stay out and drifting until a manatee surfaces near you.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Condado+Lagoon+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-04",
+        "title": "Climb to Yokahú Tower and Mount Britton in El Yunque",
+        "description": "Drive up into the only tropical rainforest in the US forest system and climb two stone towers above the canopy for a view out to the Atlantic.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get to the top of Mount Britton while the cloud is still sitting on it.",
+        "city": "Río Grande, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Yunque+National+Forest+Rio+Grande+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-06",
+        "title": "Snorkel the Reef at Escambrón Marine Park",
+        "description": "Swim straight off a city beach into a protected reef with parrotfish, eagle rays, hawksbill turtles and the odd manatee in the seagrass.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stay out long enough to find a turtle.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Escambron+Marine+Park+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-A-10",
+        "title": "Ride the Paseo Piñones Boardwalk by Bike",
+        "description": "Rent a bike and ride the wooden boardwalk and sand track through the coconut groves east of the airport, with the Atlantic on one side the whole way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop at whichever kiosk has the longest queue and eat there.",
+        "city": "Loíza, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Paseo+Pinones+Loiza+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "SJU-F-08",
+        "title": "Eat Criollo Cooking at Vianda in Santurce",
+        "description": "Take a table at the small Santurce room that cooks Puerto Rican ingredients with a fine-dining hand — start with the calamari and the bacalao.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Let them send out whatever the kitchen is excited about that night.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Vianda+San+Juan+PR",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-F-04",
+        "title": "Have Dinner at Santaella in La Placita",
+        "description": "Eat José Santaella's Puerto Rican nouvelle cooking in a brick room with an indoor garden, right on the edge of the Santurce market.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Eat here first and then walk straight out into La Placita.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Santaella+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-F-12",
+        "title": "Take Coffee in the Ballajá Courtyard at Café Don Ruiz",
+        "description": "Drink coffee from a Yauco growing family in the arcaded courtyard of a 19th-century Spanish barracks, with nobody hurrying you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit in the courtyard rather than taking it away, and stay an hour.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Don+Ruiz+Cuartel+de+Ballaja+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-F-05",
+        "title": "Work Through Seven Alcapurrias at La Alcapurria Quemá",
+        "description": "Order across the whole board at the Santurce walk-up that makes seven different kinds of alcapurria, and eat them standing up.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Try the one filling you have never heard of.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Alcapurria+Quema+Santurce+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-F-06",
+        "title": "Eat a Brunch Made Entirely of Chocolate at Chocobar Cortés",
+        "description": "Order chocolate into everything — grilled cheese, burgers, coffee — at the bean-to-bar café run by the family who have made Puerto Rico's chocolate since 1929.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the one savoury dish with chocolate in it that sounds worst.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Chocobar+Cortes+Old+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-F-10",
+        "title": "Drink a Piña Colada Where It Was Invented",
+        "description": "Order the drink at the Caribe Hilton bar that claims to have mixed the first one in 1954, and judge the claim for yourself.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order a second one somewhere else the same night and pick a winner.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Caribe+Hilton+San+Juan+PR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SJU-F-11",
+        "title": "Order a Quesito and Café con Leche at Kasalta",
+        "description": "Join the queue at the Ocean Park bakery counter for a quesito, a Cubano and the strongest café con leche in the neighbourhood.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order entirely by pointing at the case.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Kasalta+Ocean+Park+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-F-07",
+        "title": "Drink Hill-Grown Island Coffee at Cuatro Sombras",
+        "description": "Have a single-estate Puerto Rican coffee at the Old San Juan café run by a family who have farmed the same Yauco hillside since 1846.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take it out to the interior patio instead of the street.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Cuatro+Sombras+Old+San+Juan+PR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SJU-F-03",
+        "title": "Eat Your Way Down the Luquillo Kiosks",
+        "description": "Work along a strip of about sixty beachfront kiosks east of the city — fried seafood, Peruvian, Argentine, cocktails, live salsa at the weekend.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Eat something at three different kiosks and rank them before you leave.",
+        "city": "Luquillo, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Kioskos+de+Luquillo+Luquillo+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-F-01",
+        "title": "Eat Lechón Off the Block on the Pork Highway",
+        "description": "Drive up into Guavate on a Sunday, pick a lechonera off the roadside and eat whole spit-roasted pork hacked onto a tray with arroz con gandules.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs with the drive",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask for the crackling straight off the pig, before it goes on the tray.",
+        "city": "Cayey, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Lechonera+Los+Pinos+Guavate+Cayey+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-F-09",
+        "title": "Eat Fritters on the Sand at Piñones",
+        "description": "Pull up at the open-air kiosks in the coconut groves and order bacalaitos, alcapurrias and a cold Medalla with your feet in the sand.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Eat a whole bacalaito the size of a dinner plate without putting it down.",
+        "city": "Loíza, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Pinones+kiosks+Loiza+PR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SJU-F-02",
+        "title": "Take the Tasting Menu at Marmalade",
+        "description": "Sit in the long white room on Calle Fortaleza for a tasting menu of California-French cooking built on Puerto Rican farm produce, with the wine flight.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order the white bean soup even if it is not on your menu.",
+        "city": "San Juan, PR",
+        "mapsUrl": "https://maps.google.com/maps/search/Marmalade+Restaurant+San+Juan+PR",
+        "company": [
+          "couple"
+        ]
+      }
+    ]
+  }
+}

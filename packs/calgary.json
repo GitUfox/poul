@@ -1,0 +1,777 @@
+{
+  "id": "calgary",
+  "name": "calgary",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "adventure": [
+      {
+        "id": "CGY-A-08",
+        "title": "Scramble Ha Ling Peak",
+        "description": "A relentless 800-metre climb straight up out of Canmore to a summit block where the whole Bow Valley drops away on three sides.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Jun–Oct",
+        "spark": 25,
+        "bonus": "No sitting down until the summit.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Ha+Ling+Peak+Trailhead+Canmore+AB",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-A-07",
+        "title": "Ice Walk Johnston Canyon",
+        "description": "The same catwalks as summer, except the waterfalls are frozen solid into blue columns and you're walking on the creek in cleats.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Dec–Mar",
+        "spark": 15,
+        "bonus": "Touch the frozen upper falls with a bare hand for five seconds.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Johnston+Canyon+Banff+National+Park",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-A-09",
+        "title": "Skate the Ice at Lake Louise",
+        "description": "A cleared rink on a frozen glacial lake, with an ice castle in the middle and Victoria Glacier hanging above the far end.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Dec–Mar",
+        "spark": 15,
+        "bonus": "Do one full lap of the rink backwards.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Louise+Banff+National+Park",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-A-05",
+        "title": "Canoe Moraine Lake at First Light",
+        "description": "Push a canoe onto rock-flour blue water with the Valley of the Ten Peaks standing over you — the most photographed view in Canada, and worth every bit of the early start.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Jun–Sep",
+        "spark": 40,
+        "bonus": "Stop paddling in the middle of the lake and drift in silence for five minutes.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Moraine+Lake+Banff+National+Park",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-A-10",
+        "title": "Helicopter over the Rockies",
+        "description": "Lift out of Canmore and fly the ridgelines and glacier fields of the front ranges — twenty minutes that recalibrate your sense of scale.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Sit up front and don't look at the camera once.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Alpine+Helicopters+Canmore+AB",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-A-11",
+        "title": "Snowshoe to Chester Lake",
+        "description": "A gentle climb through spruce forest in Kananaskis to a frozen alpine lake ringed by peaks, with almost nobody else on the trail.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Dec–Apr",
+        "spark": 14,
+        "bonus": "Bring a thermos and drink it standing on the frozen lake.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Chester+Lake+Trailhead+Kananaskis+AB",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-A-06",
+        "title": "Larch Valley and Sentinel Pass",
+        "description": "For three weeks each September the alpine larches turn gold, and this switchback climb above Moraine Lake is the best seat in the Rockies for it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6–7 hrs",
+        "durationMins": 390,
+        "time": "Morning",
+        "season": "Jul–Sep",
+        "spark": 28,
+        "bonus": "Make it all the way to Sentinel Pass, not just the meadow.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Larch+Valley+Trail+Moraine+Lake+Banff",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-A-12",
+        "title": "Float the Bow Through the City",
+        "description": "Put in at Bowness Park and drift past the escarpments, the university and the downtown skyline on cold, fast glacial water.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Jun–Aug",
+        "spark": 14,
+        "bonus": "Name every bridge you float under.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Bowness+Park+Calgary+AB",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "CGY-CU-01",
+        "title": "The Calgary Stampede",
+        "description": "Ten days in July when the entire city puts on a hat and boots — rodeo, chuckwagon races, midway, free pancake breakfasts on every corner.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "All day",
+        "durationMins": 480,
+        "time": "Any",
+        "season": "Jul",
+        "spark": 40,
+        "bonus": "Find a free pancake breakfast before 9am and eat at it.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Calgary+Stampede+Grounds+Calgary+AB",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-CU-03",
+        "title": "Contemporary Calgary in the Old Planetarium",
+        "description": "A brutalist 1967 science centre and dome theatre reborn as the city's contemporary art gallery — the building is half the exhibit.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand in the middle of the dome and say something out loud.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Contemporary+Calgary+Calgary+AB",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-CU-04",
+        "title": "Whyte Museum of the Canadian Rockies",
+        "description": "Peter and Catharine Whyte's own paintings and the archive of the guides, climbers and Stoney Nakoda families who made these mountains legible.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the oldest photograph on display and work out where it was taken.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Whyte+Museum+of+the+Canadian+Rockies+Banff+AB",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-CU-08",
+        "title": "A Performance at Banff Centre",
+        "description": "One of the world's great artist residencies sits on Tunnel Mountain, and most nights something extraordinary is being premiered in its theatres.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Go to whatever is on, without checking what it is first.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Banff+Centre+for+Arts+and+Creativity+Banff+AB",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-CU-02",
+        "title": "Flames Game at the Saddledome",
+        "description": "The saddle-roofed 1988 Olympic arena, a sea of red, and hockey played at the volume Alberta thinks it should be played at.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 26,
+        "bonus": "Join the C-of-Red chant without looking up the words first.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Scotiabank+Saddledome+Calgary+AB",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-CU-06",
+        "title": "Improv at the Loose Moose Theatre",
+        "description": "Keith Johnstone built Theatresports here, which means every improv show you've ever seen traces back to this room — Saturday night is still the best seat.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Shout out the suggestion that gets used.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Loose+Moose+Theatre+Company+Calgary",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-CU-07",
+        "title": "Head-Smashed-In Buffalo Jump",
+        "description": "A UNESCO World Heritage cliff where Blackfoot people ran bison herds for nearly six thousand years, with an interpretive centre built into the hillside itself.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Walk to the top of the jump before you go into the centre.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Head-Smashed-In+Buffalo+Jump+Fort+Macleod+AB",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-CU-05",
+        "title": "The Banff Park Museum",
+        "description": "An 1903 log 'cathedral to nature' packed floor to ceiling with Victorian taxidermy — a perfectly preserved museum of how museums used to be.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the specimen that has aged the worst.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Banff+Park+Museum+National+Historic+Site+Banff+AB",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "CGY-8B-01",
+        "title": "Wildcard: The Icefields Parkway, No Plan",
+        "description": "Drive 230 km of the most spectacular road in North America from Lake Louise toward Jasper, and stop at every pullout that looks good — no itinerary, no reservations.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "All day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Turn around at whatever time you agreed, wherever you happen to be.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Icefields+Parkway+Highway+93+Alberta",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-8B-02",
+        "title": "Wildcard: Order the Strangest Thing on the Menu",
+        "description": "Walk into the next restaurant you pass in Inglewood or Kensington and everyone orders the single item they understand the least.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Nobody is allowed to look it up before it arrives.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Inglewood+Calgary+restaurants",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "CGY-F-09",
+        "title": "Wine Night at Bar Von Der Fels",
+        "description": "A narrow, candlelit room with an obsessive natural wine list and small plates built to disappear alongside it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Drink a grape variety you've never heard of.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Von+Der+Fels+Calgary",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CGY-F-07",
+        "title": "Alberta Beef at CHARCUT Roast House",
+        "description": "Rotisserie and charcuterie in the heart of downtown, doing the thing Alberta is actually famous for — beef — with real technique.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order the cut you can't identify on the menu.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/CHARCUT+Roast+House+Calgary",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-F-11",
+        "title": "Distillery Dinner at Park, Banff",
+        "description": "A working distillery on Banff Avenue using glacier water, serving campfire-cooked plates alongside its own gin and vodka.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Try the spirit you'd never order in a bottle shop.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Park+Distillery+Restaurant+Banff+AB",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CGY-F-08",
+        "title": "Bakery Morning at Sidewalk Citizen",
+        "description": "Sourdough, babka and pistachio croissants in the brick Simmons Building on the river — the best possible start to a Calgary morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy an extra loaf and give it to someone on the way out.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Sidewalk+Citizen+Bakery+Simmons+Building+Calgary",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-F-05",
+        "title": "Dinner at Ten Foot Henry",
+        "description": "Vegetable-forward sharing plates in a bright Beltline room — the restaurant that changed what Calgary expects from dinner.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the vegetable dish nobody at the table wants.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Ten+Foot+Henry+Calgary",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-F-12",
+        "title": "Tasting Menu at Deane House",
+        "description": "A restored 1906 house at the confluence of the Bow and Elbow, cooking prairie ingredients with an Indigenous-informed hand and a superb patio.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Walk the riverbank behind the house before you sit down.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Deane+House+Restaurant+Calgary",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-F-10",
+        "title": "Fondue at The Grizzly House",
+        "description": "A gloriously unchanged 1967 Banff fondue restaurant with rotary phones at every booth and exotic-meat hot rock plates — pure, committed kitsch.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Call another table on the booth phone.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Grizzly+House+Banff+AB",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-F-06",
+        "title": "Ramen at Shiki Menya",
+        "description": "A tiny Bridgeland counter doing one thing extremely well — house-made noodles in a shio broth people queue in the snow for.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Finish the bowl before anyone else finishes theirs.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Shiki+Menya+Calgary",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "CGY-S-07",
+        "title": "Après-Ski at the Rose & Crown",
+        "description": "Banff's long-running upstairs pub with a rooftop patio, ski-boot crowds and live music most nights of the winter.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a round for the first person who asks how your day on the hill was.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Rose+and+Crown+Pub+Banff+AB",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CGY-S-08",
+        "title": "Live Music at the Palomino Smokehouse",
+        "description": "Barbecue upstairs, a sweaty basement venue downstairs booking punk, country and everything between — the heart of Calgary's live scene.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay for the opener you've never heard of.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Palomino+Smokehouse+Calgary",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CGY-S-06",
+        "title": "Beers at Cold Garden Beverage Company",
+        "description": "Inglewood's least serious and most fun taproom — thrifted couches, board games, a dog on every third seat and genuinely good beer.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Win a board game against a stranger.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Cold+Garden+Beverage+Company+Calgary",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CGY-S-05",
+        "title": "Cocktails at Proof",
+        "description": "A dark, precise 1st Street bar that consistently lands on Canada's best-bar lists, with a rotating menu built like a concept album.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order by describing a place, not a drink.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Proof+Cocktail+Bar+Calgary",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CGY-S-10",
+        "title": "Speakeasy Cocktails at Betty Lou's Library",
+        "description": "Knock at an unmarked door on 4th Street, give the password, and step into a book-lined prohibition room with a serious cocktail list.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Pick a book off the shelf and read one line aloud to the table.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Betty+Lous+Library+Calgary",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CGY-S-11",
+        "title": "Patio Evening on 17th Ave",
+        "description": "Calgary treats patio season as a competitive sport — start at Craft Beer Market's rooftop and work your way along the strip.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Move to a different patio every drink.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Craft+Beer+Market+17th+Avenue+Calgary",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CGY-S-09",
+        "title": "Late Night at the Ship & Anchor",
+        "description": "The 17th Avenue corner pub that has been Calgary's default meeting point for thirty years — patio in summer, packed in every season.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Make a plan with someone you meet there for the next day.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Ship+and+Anchor+Pub+Calgary",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "CGY-C-08",
+        "title": "Stargaze at Two Jack Lake",
+        "description": "Banff is a Dark Sky Preserve, and this quiet lake ten minutes from town gives you the Milky Way reflected in still water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay out long enough to see one shooting star.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Two+Jack+Lake+Banff+National+Park",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-C-06",
+        "title": "Cruise Lake Minnewanka",
+        "description": "An hour on Banff's largest lake, past the Devil's Gap and over a drowned resort town that still sits on the lakebed.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 13,
+        "bonus": "Sit at the very back of the boat and don't move.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Minnewanka+Cruise+Banff+AB",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-C-09",
+        "title": "Wander the Reader Rock Garden",
+        "description": "A terraced hillside garden laid out by a city parks superintendent a century ago, still holding thousands of species and almost no visitors.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 12,
+        "bonus": "Find a plant you've never seen before and look it up after.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Reader+Rock+Garden+Calgary",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CGY-C-10",
+        "title": "Sunrise at Vermilion Lakes",
+        "description": "Five minutes from Banff Avenue, Mount Rundle turns pink over glassy water and you'll likely have a bench entirely to yourself.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get there before the first car does.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Vermilion+Lakes+Banff+AB",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CGY-C-05",
+        "title": "Soak at the Kananaskis Nordic Spa",
+        "description": "Hot pools, cold plunges, eucalyptus steam and hammocks, all outdoors in a mountain valley — and phones are banned throughout.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Do three full hot-to-cold cycles before you touch a hammock.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Kananaskis+Nordic+Spa+Kananaskis+Village+AB",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CGY-C-07",
+        "title": "Coffee and a Book in the Simmons Building",
+        "description": "Phil & Sebastian's flagship in a converted mattress factory on the Bow, with big windows, good light and coffee Calgary is genuinely proud of.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the single origin and try to name a flavour note before you read the card.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Phil+and+Sebastian+Simmons+Building+Calgary",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ]
+  }
+}

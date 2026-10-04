@@ -1,0 +1,800 @@
+{
+  "id": "santiago",
+  "name": "santiago",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "SCL-S-06",
+        "title": "An Evening in Patio Bellavista",
+        "description": "An enclosed courtyard block at the foot of Cerro San Cristóbal packed with bars, terraces and craft stalls — the easiest possible first night out in Santiago.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Start with a pisco sour on an upstairs terrace.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Patio+Bellavista+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-S-09",
+        "title": "Pisco Flight at Chipe Libre",
+        "description": "The self-declared Independent Republic of Pisco on Lastarria, pouring Chilean and Peruvian pisco side by side and letting you settle the argument yourself.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Take the comparative flight and pick a side out loud.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Chipe+Libre+Lastarria+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SCL-S-11",
+        "title": "Late Night at Blondie",
+        "description": "A multi-floor club on the Alameda running since the early nineties, with a different decade of music on every level and nothing happening before one in the morning.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the floor playing the worst music and stay there.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Blondie+Club+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SCL-S-10",
+        "title": "See a Band at Teatro Caupolicán",
+        "description": "A 1930s downtown theatre that became the city's great rock room — steep balconies, terrible sightlines from the back, and a crowd that sings over the band.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Get down into the stalls rather than sitting upstairs.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Teatro+Caupolican+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-S-05",
+        "title": "Match Day at the Estadio Nacional",
+        "description": "Universidad de Chile at the national stadium — flares, full-stadium songs and a level of noise that makes conversation pointless for ninety minutes.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Feb–Nov",
+        "spark": 24,
+        "bonus": "Buy a completo from a street cart outside before you go in.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Estadio+Nacional+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-S-08",
+        "title": "Learn to Dance Salsa at Maestra Vida",
+        "description": "A long-running Bellavista salsa club that runs a beginners' class early and then hands the floor over to people who have been dancing there for twenty years.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay for the live band and ask someone who can actually dance.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Maestra+Vida+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SCL-S-07",
+        "title": "Bar-Hop the Corners of Barrio Brasil",
+        "description": "Faded mansions around Plaza Brasil turned into cheap student bars and schoperias — loud, unpolished, and where the city actually drinks midweek.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a litre of schop and share it, as intended.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Plaza+Brasil+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SCL-S-12",
+        "title": "Cumbia Night at El Huaso Enrique",
+        "description": "A Barrio Yungay dance hall open since 1943, with a live cumbia band, plastic tablecloths and couples of every age on the floor from the first song.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Do not sit down. Nobody else will let you.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Huaso+Enrique+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "SCL-CU-01",
+        "title": "The Pre-Columbian Museum's Chinchorro Mummies",
+        "description": "The best museum in Chile, holding Chinchorro mummies that predate the Egyptian ones by two thousand years, plus Andean textiles and Mapuche silverwork.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Go down to the basement gallery first, before the crowds.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+Chileno+de+Arte+Precolombino+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-CU-06",
+        "title": "Twentieth-Century Clothes at the Museo de la Moda",
+        "description": "A modernist Vitacura house holding one of the world's great private fashion collections — including garments worn by Lady Diana, Marilyn Monroe and John Lennon.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "The house itself is the exhibit. Look at the architecture too.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+de+la+Moda+Vitacura+Santiago",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SCL-CU-08",
+        "title": "Contemporary Chilean Art at MAVI",
+        "description": "A quiet concrete-and-glass museum tucked behind Plaza Mulato Gil in Lastarria, showing living Chilean artists rather than the canon.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Have a coffee in the plaza courtyard afterwards and watch the buskers.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+de+Artes+Visuales+MAVI+Santiago",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SCL-CU-04",
+        "title": "Walk the Cementerio General",
+        "description": "Two million graves laid out in avenues — presidents, Victor Jara, and the memorial to the disappeared — a walk through the whole of modern Chilean history.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find Salvador Allende's tomb and read what is written on it.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Cementerio+General+de+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-CU-02",
+        "title": "Chilean Painting at the Museo de Bellas Artes",
+        "description": "A glass-domed Beaux-Arts palace built for the 1910 centenary, holding the national collection of Chilean painting and sculpture under one enormous skylight.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand directly under the centre of the dome and look up.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+Nacional+de+Bellas+Artes+Santiago",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SCL-CU-07",
+        "title": "Fiestas Patrias in a Fonda",
+        "description": "Every September the country stops and builds fondas — temporary halls of cueca dancing, anticuchos, terremoto jugs and rodeo — the biggest in Parque O'Higgins.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Afternoon",
+        "season": "Sep",
+        "spark": 40,
+        "bonus": "Learn the cueca handkerchief step before you go.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+OHiggins+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-CU-05",
+        "title": "A Night at the Teatro Municipal",
+        "description": "Chile's opera house since 1857, all red velvet and gold leaf, home to the national ballet and an opera season that fills every tier.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Mar–Dec",
+        "spark": 25,
+        "bonus": "Cheap upper-gallery seats have the best acoustics in the house.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Teatro+Municipal+de+Santiago",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "SCL-CU-03",
+        "title": "La Moneda and the Palace Beneath It",
+        "description": "The presidential palace bombed in the 1973 coup, with a cultural centre dug in underneath it showing major exhibitions in what were once the cellars.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Time it for the changing of the guard in the Plaza de la Constitución.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Centro+Cultural+La+Moneda+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "SCL-C-08",
+        "title": "Soak in the Hot Springs at Valle de Colina",
+        "description": "Terraced thermal pools stacked up a mountainside at the far end of the Cajón del Maipo, each one a different temperature, with snow peaks on every side.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 540,
+        "time": "Morning",
+        "season": "Nov–Apr",
+        "spark": 24,
+        "bonus": "Work your way down from the hottest pool to the coldest.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Termas+Valle+de+Colina+Cajon+del+Maipo",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-C-07",
+        "title": "Read the Afternoon Away in Parque Forestal",
+        "description": "A long ribbon of plane trees along the Mapocho, with the Beaux-Arts palace of the fine arts museum at its centre and students spread across the lawns all afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a mote con huesillo from a cart and drink it on the grass.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Forestal+Santiago",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SCL-C-10",
+        "title": "Sunset on the Lawns of Parque Araucano",
+        "description": "Thirty hectares of open lawn and rose garden in Las Condes where the cordillera turns pink at dusk and the whole neighbourhood comes out to watch it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay until the mountains lose their colour completely.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Araucano+Las+Condes+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-C-09",
+        "title": "A Slow Sunday in Quinta Normal",
+        "description": "A 19th-century botanical park in the west of the city with a boating lake, enormous old trees and families out in force every Sunday afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Take a rowboat out on the lagoon for half an hour.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Quinta+Normal+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-C-05",
+        "title": "Climb the Terraces of Cerro Santa Lucía",
+        "description": "The rocky outcrop where Santiago was founded in 1541, landscaped into a maze of stone stairways, fountains and neoclassical terraces in the middle of downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the Neptune fountain, then keep climbing to the very top.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Cerro+Santa+Lucia+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-C-06",
+        "title": "Wander the Faded Streets of Barrio Yungay",
+        "description": "The city's first designated heritage neighbourhood — crumbling 19th-century facades, muralled walls, and the Peluquería Francesa barbershop unchanged since 1868.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get a coffee at the Peluquería Francesa and look up at the ceiling.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Barrio+Yungay+Santiago",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "SCL-8B-01",
+        "title": "Get Off at a Metro Station You've Never Used",
+        "description": "Santiago has one of the best metros in the Americas and you probably use six stations of it. Ride to one you have never stood in, surface, and eat at the first place with a queue.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "No maps and no reviews until after you have ordered.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Metro+de+Santiago",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-8B-02",
+        "title": "Head East Until the Cordillera Fills the Windscreen",
+        "description": "Pick any road heading east out of the city and follow it until the Andes stop being scenery and start being the entire view. Then find somewhere to sit and look at them.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Go far enough that you lose phone signal.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Cajon+del+Maipo+Santiago",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "SCL-F-06",
+        "title": "Eat and Drink Your Way Down Barrio Italia",
+        "description": "Old furniture workshops off Avenida Italia now hold courtyard restaurants, coffee roasters and wine bars behind unmarked doors — wander until something looks right.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go through an archway that has no sign on it.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Barrio+Italia+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-F-12",
+        "title": "Pastel de Choclo at Galindo",
+        "description": "A loud, unfussy Bellavista picada that has been serving the same Chilean home cooking for decades — pastel de choclo in a clay dish, straight out of the oven.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a schop and let it come in whatever glass arrives.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Galindo+Bellavista+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-F-05",
+        "title": "The Endemic Tasting Menu at Boragó",
+        "description": "Rodolfo Guzmán cooks only what grows wild in Chile — Patagonian seaweed, Atacama herbs, ants from the south — across a twenty-course menu found nowhere else on earth.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask which ingredient travelled furthest to reach your plate.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Borago+Santiago",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "SCL-F-10",
+        "title": "Empanadas at Emporio Zunino",
+        "description": "A counter beside the Mercado Central turning out empanadas de pino since 1930 — no seats, no menu beyond what is in the tray, and a queue out the door at noon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat it standing on the pavement like everyone else.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Emporio+Zunino+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-F-09",
+        "title": "A Sandwich at Confitería Torres",
+        "description": "Open on the Alameda since 1879, with red leather booths, waiters in waistcoats, and the barros luco sandwich reputedly invented here for a president.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the barros luco. It is named after the man who ate it daily.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Confiteria+Torres+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-F-11",
+        "title": "Dinner at 99 Restaurante",
+        "description": "A small Providencia dining room where the menu changes with whatever the market and the coast delivered that morning, at a fraction of what the cooking is worth.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Take the shorter menu and add a glass pairing.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/99+Restaurante+Santiago",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "SCL-F-07",
+        "title": "Tour the Cellars at Concha y Toro",
+        "description": "Forty minutes south to Pirque, where the Casillero del Diablo cellar earned its name from a founder who spread a devil rumour to stop staff stealing his wine.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Do the tasting in the dark cellar, not the terrace.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Vina+Concha+y+Toro+Pirque",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SCL-F-08",
+        "title": "Wine and Andean Artefacts at Santa Rita",
+        "description": "A 19th-century estate at Alto Jahuel with a colonial-era cellar, a long lunch under century-old trees, and a pre-Columbian museum in the grounds.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Walk the park before lunch, not after.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Vina+Santa+Rita+Alto+Jahuel",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "adventure": [
+      {
+        "id": "SCL-A-10",
+        "title": "Spend a Day in Valparaíso",
+        "description": "Ninety minutes by bus to a port city built up forty-two hills — Victorian funiculars, murals on every wall, and Neruda's house at La Sebastiana on the way down.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ride at least three different ascensores.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Ascensor+Reina+Victoria+Valparaiso",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-A-08",
+        "title": "Summit Cerro Provincia in a Single Day",
+        "description": "Eighteen hundred metres of ascent from the Puente Ñilhue trailhead to a 2,750-metre summit — the classic Santiago day mountain, and a genuinely hard one.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "9 hrs",
+        "durationMins": 540,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 40,
+        "bonus": "Carry four litres of water. There is none on the route.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Cerro+Provincia+Santiago",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-A-07",
+        "title": "Sunrise Scramble Up Cerro Pochoco",
+        "description": "A steep, straightforward hour and a half above Lo Barnechea to an old observatory, with the whole basin laid out beneath you before the smog settles.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Be on the summit before the sun clears the cordillera.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Cerro+Pochoco+Lo+Barnechea+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-A-12",
+        "title": "Ride the Mapocho 42K End to End",
+        "description": "A continuous riverside bike path running forty-two kilometres along the Mapocho, from the wealthy foothills right through to the working-class west.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride it downstream and take the Metro home.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Mapocho+42K+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-A-06",
+        "title": "Drive to the Turquoise Water of Embalse El Yeso",
+        "description": "A glacial reservoir high in the Cajón del Maipo, unreasonably turquoise and ringed by 4,000-metre peaks, at the end of a rough dirt road two hours from the city.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 540,
+        "time": "Morning",
+        "season": "Nov–Apr",
+        "spark": 25,
+        "bonus": "Wade in up to your knees. You will not last longer.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Embalse+El+Yeso+Cajon+del+Maipo",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-A-05",
+        "title": "Hike to the Salto de Apoquindo Waterfall",
+        "description": "A long climb up Parque Aguas de Ramón through cactus and litre trees to a fifty-metre waterfall falling off the Andean front range, all inside the city limits.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get to the trailhead by eight — the park closes its gate early.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Aguas+de+Ramon+Santiago",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-A-11",
+        "title": "Walk the Palm Forest of La Campana",
+        "description": "The last great stand of Chilean wine palms, in the national park Darwin climbed in 1834 and wrote up in the Beagle diaries.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Sep–May",
+        "spark": 22,
+        "bonus": "Read Darwin's entry on the summit before you start down.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Nacional+La+Campana+Ocoa",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SCL-A-09",
+        "title": "Learn to Surf at Matanzas",
+        "description": "A wind-battered fishing village two hours southwest that became Chile's kitesurf and surf capital — board hire, wetsuits and lessons right on the sand.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay for the empanadas at the top of the hill afterwards.",
+        "city": "Santiago, Chile",
+        "mapsUrl": "https://maps.google.com/maps/search/Matanzas+Navidad+Chile",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

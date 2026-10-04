@@ -1,0 +1,1193 @@
+{
+  "id": "cincinnati",
+  "name": "cincinnati",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "CIN-S-01",
+        "title": "Reds Game at Great American Ball Park",
+        "description": "Baseball's oldest professional franchise, a riverside park with the steamboat smokestacks in centre field, and fireworks over the Ohio on Friday nights.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 15,
+        "bonus": "Get a photo with the smokestacks erupting after a Reds home run.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Great+American+Ball+Park+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-S-11",
+        "title": "Dive Bar Night at Northside Yacht Club",
+        "description": "A landlocked yacht club with a nautical joke running through the whole place, a punk-leaning jukebox, a patio and a burger people drive across town for.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the drink the bartender recommends without asking what is in it.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Northside+Yacht+Club+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CIN-S-06",
+        "title": "Rooftop at Braxton Brewing in Covington",
+        "description": "A garage-born Kentucky brewery with a 5,000 square foot rooftop bar staring straight back across the river at the Cincinnati skyline.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Cross the Roebling Bridge on foot to get here rather than driving.",
+        "city": "Covington, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Braxton+Brewing+Company+Covington+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CIN-S-07",
+        "title": "Liter Steins at Hofbräuhaus Newport",
+        "description": "The first authentic Hofbräuhaus built outside Munich — communal benches, a live oompah band and liter steins carried four at a time.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get the whole table to stand for the Ein Prosit toast.",
+        "city": "Newport, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Hofbrauhaus+Newport+KY",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CIN-S-10",
+        "title": "Quarters and Pinball at Level One Bar + Arcade",
+        "description": "Walls of cabinets and pinball on free play, themed cocktails, and no reason to look at your phone for three hours.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Set the night's high score on one machine and make everyone try to beat it.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Level+One+Bar+and+Arcade+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CIN-S-02",
+        "title": "FC Cincinnati Night in The Bailey",
+        "description": "TQL Stadium's safe-standing supporters' end is the loudest room in the city — ninety minutes of unbroken singing, smoke and orange.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Mar–Oct",
+        "spark": 40,
+        "bonus": "Learn one chant before kickoff and sing it properly, or don't bother standing there.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/TQL+Stadium+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-S-03",
+        "title": "Bengals Sunday at Paycor Stadium",
+        "description": "A full riverfront Sunday — tailgates on the lots, stripes on everything, and Who Dey going up from 65,000 people at once.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Sep–Jan",
+        "spark": 28,
+        "bonus": "Find a tailgate that will feed you and talk your way into it.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Paycor+Stadium+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-S-04",
+        "title": "Rooftop Pints at Rhinegeist",
+        "description": "Twenty-five-odd taps, cornhole and ping-pong across a vast brewery floor in the old Christian Moerlein bottling plant, and a rooftop looking over Over-the-Rhine.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Win a game of cornhole on the roof before the sun goes down.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Rhinegeist+Brewery+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CIN-S-08",
+        "title": "Pre-Prohibition Cocktails at Japp's Since 1879",
+        "description": "An old wig shop on Main Street turned into a dark, tin-ceilinged cocktail room specialising in pre-Prohibition drinks, with gypsy jazz on Friday evenings.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Tell the bartender a spirit and a mood and drink whatever they hand you.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Japps+Since+1879+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CIN-S-12",
+        "title": "Patio Cocktails at Somerset",
+        "description": "One of the largest patios in the city, strung with lights above McMicken, doing seasonal cocktails to a crowd that spills outside from the first warm evening onward.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Arrive early enough to claim a table, then hold it all night.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Somerset+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CIN-S-05",
+        "title": "Beer Garden Evening at MadTree Oakley",
+        "description": "Sixty-four taps, a ten-thousand-square-foot outdoor beer garden and a wood-fired pizza kitchen attached — the easiest group plan in the city.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order a taster flight of things you would never buy a full pour of.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/MadTree+Brewing+Oakley+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CIN-S-09",
+        "title": "Apothecary Cocktails at Sundry and Vice",
+        "description": "A Victorian apothecary set dressed as a cocktail bar — bitters in dropper bottles, tonics behind glass, and one of the best-made drinks lists in Over-the-Rhine.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order something off the bitter end of the menu and finish it without wincing.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Sundry+and+Vice+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "CIN-C-08",
+        "title": "Riverwalk at International Friendship Park",
+        "description": "A quiet stretch of riverfront east of downtown, full of public sculpture and almost nobody, with barge traffic sliding past a few metres away.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Watch one full barge tow pass from end to end without moving on.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Theodore+M+Berry+International+Friendship+Park+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CIN-C-10",
+        "title": "Read the Afternoon Away at the Main Library",
+        "description": "The main branch downtown is one of the great American public libraries — vast, free, full of natural light and genuinely pleasant to spend a whole afternoon in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick a book at random from a section you would never normally browse and read the first chapter.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Public+Library+of+Cincinnati+Main+Branch+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CIN-C-07",
+        "title": "Sunset from the Devou Park Overlook",
+        "description": "The classic postcard angle on Cincinnati — the whole skyline, both bridges and the river bend, from a hilltop in Kentucky.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get there before the streetlights come on and stay until they are all lit.",
+        "city": "Covington, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Devou+Park+Overlook+Covington+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-C-06",
+        "title": "Walk the Arboretum at Spring Grove Cemetery",
+        "description": "The second-largest cemetery in the country doubles as a accredited arboretum — 733 acres of lakes, champion trees and Gothic mausoleums you can walk for hours.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the Dexter Mausoleum and stand in front of it long enough to notice how big it actually is.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Spring+Grove+Cemetery+and+Arboretum+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CIN-C-04",
+        "title": "Ride Carol Ann's Carousel at Smale Riverfront Park",
+        "description": "A glass pavilion on the riverfront holding forty-four hand-carved figures, every one of them something distinctly Cincinnati — a flying pig included.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Ride the flying pig. No negotiating.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Carol+Anns+Carousel+Smale+Riverfront+Park+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-C-03",
+        "title": "Look Through the 1845 Refractor at Cincinnati Observatory",
+        "description": "The oldest professional observatory in the United States still lets the public put an eye to its original Merz und Mahler refractor on clear public nights.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ask the astronomer on duty what they would look at if the dome were theirs alone.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Cincinnati+Observatory+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-C-05",
+        "title": "Afternoon on the Lawn at Washington Park",
+        "description": "Six acres of restored green in front of Music Hall, with an interactive fountain, a bandstand and a programme of free summer concerts.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Stay for whatever is playing on the bandstand, even if you have never heard of them.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Washington+Park+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-C-09",
+        "title": "Skyline View from Mt. Echo Park",
+        "description": "A 1900s hilltop pavilion on the west side with a straight-down view of the river valley and far fewer people than the better-known overlooks.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring something to drink and stay through the whole colour change.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Mt+Echo+Park+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CIN-C-02",
+        "title": "Wander the Glasshouses at Krohn Conservatory",
+        "description": "An art deco glasshouse in Eden Park holding a rainforest, a desert and a twenty-foot indoor waterfall — tropical warmth on the worst Ohio day of the year.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the orchid you would actually keep alive, and photograph it.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Krohn+Conservatory+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-C-01",
+        "title": "Slow Coffee at Deeper Roots on Race Street",
+        "description": "A light-filled room beside Findlay Market built around a communal table and coffee roasted a mile away in the West End.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit at the communal table and leave your phone in your bag the whole time.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Deeper+Roots+Coffee+1814+Race+St+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "CIN-CU-01",
+        "title": "Free Afternoon at the Cincinnati Art Museum",
+        "description": "Sixty-seven thousand works across six thousand years, free to walk into, in a Romanesque pile on the edge of Eden Park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick the one painting you would steal and explain why to whoever you came with.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Cincinnati+Art+Museum+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-CU-07",
+        "title": "Cincinnati Symphony at Music Hall",
+        "description": "One of America's oldest orchestras in a restored 1878 Gothic hall that is regularly named among the finest-sounding rooms on the continent.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Sep–May",
+        "spark": 40,
+        "bonus": "Get there early enough to walk the foyer and the grand staircase before the bell.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Cincinnati+Music+Hall+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-CU-02",
+        "title": "Walk the Slave Pen at the Freedom Center",
+        "description": "The National Underground Railroad Freedom Center sits on the north bank of the river people crossed to be free, and holds an actual 1830s Kentucky slave pen inside it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stand inside the pen for a full minute before you read a single label.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Underground+Railroad+Freedom+Center+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-CU-03",
+        "title": "Zaha Hadid's Urban Carpet at the Contemporary Arts Center",
+        "description": "Zaha Hadid's first American building — a stack of concrete boxes with a lobby floor that curls up the back wall, and rotating contemporary shows inside it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the full zigzag staircase to the top before you look at any art.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Contemporary+Arts+Center+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-CU-08",
+        "title": "Cincinnati Shakespeare at the Otto M. Budig Theater",
+        "description": "A purpose-built thrust stage in Over-the-Rhine where no seat is more than twenty feet from the actors and a resident ensemble runs the full canon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 15,
+        "bonus": "Sit in the front row and hold a actor's eye contact for one full line.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Cincinnati+Shakespeare+Company+Otto+M+Budig+Theater+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-CU-04",
+        "title": "Stand in the Union Terminal Rotunda",
+        "description": "The largest half-dome in the Western hemisphere, lined with Winold Reiss mosaics — an art deco cathedral to rail travel that now holds the city's museums.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Find the whispering arch and make it work.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Cincinnati+Museum+Center+Union+Terminal+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-CU-06",
+        "title": "The Taft Museum in the 1820 Baum-Taft House",
+        "description": "A federal-era mansion downtown holding Rembrandts, Turners and Chinese porcelain in domestic-sized rooms you can actually look at things in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit in the garden afterwards and pick the room you would live in.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Taft+Museum+of+Art+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CIN-CU-05",
+        "title": "Neon After Dark at the American Sign Museum",
+        "description": "A warehouse in Camp Washington packed with a century of American signage, including a full indoor Main Street that gets properly good once the neon is the only light.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Watch the neon shop demonstration and try to follow how the glass gets bent.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/American+Sign+Museum+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "CIN-8B-01",
+        "title": "Ride the Connector Loop End to End",
+        "description": "Get on the free streetcar downtown and ride the entire 3.6-mile loop without getting off, then get off at whichever stop looked most interesting on the way round.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Whatever you do next has to be within two blocks of the stop you picked.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Cincinnati+Connector+Streetcar+Cincinnati+OH",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-8B-02",
+        "title": "The Chili Parlor Showdown",
+        "description": "Three-way at Skyline, three-way at Gold Star, three-way at Camp Washington — one night, one table, and a final ranking nobody is allowed to abstain from.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Write the ranking down before you leave the third parlor and send it to someone from Cincinnati.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Camp+Washington+Chili+Cincinnati+OH",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "CIN-A-05",
+        "title": "Climb the Walls at RockQuest",
+        "description": "Rope up in one of the region's longest-running climbing gyms, with tall lead walls, a bouldering cave and rental shoes for anyone talked into it at the last minute.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Top out a route one grade above whatever you claimed was your limit.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/RockQuest+Climbing+Center+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-09",
+        "title": "Walk the Bluffs at Shawnee Lookout",
+        "description": "Follow the Miami Fort Trail along a bluff where the Great Miami meets the Ohio, past earthworks built two thousand years ago.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand at the overlook and pick out which river is which before checking.",
+        "city": "North Bend, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Shawnee+Lookout+North+Bend+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-15",
+        "title": "Hit the Bays at Topgolf West Chester",
+        "description": "Three tiers of heated hitting bays, microchipped balls that score themselves, and enough food and beer that nobody has to be good at golf.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Whoever scores lowest buys the next round.",
+        "city": "West Chester, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Topgolf+West+Chester+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-04",
+        "title": "Ride the Little Miami Scenic Trail from Loveland",
+        "description": "Pick up the paved rail-trail in Loveland's bike-town centre and roll north through river bends and old railway cuts for as long as your legs hold.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Ride to the next town on the trail and eat something there before turning around.",
+        "city": "Loveland, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Little+Miami+Scenic+Trail+Loveland+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-01",
+        "title": "Cross the Roebling Bridge on Foot at Golden Hour",
+        "description": "Walk the 1866 suspension bridge John Roebling built as the prototype for Brooklyn, with the Cincinnati skyline at your back and Covington's riverfront ahead.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Make the blue deck grating sing — find the spot where passing tires hum a note and record it.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Roebling+Suspension+Bridge+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-14",
+        "title": "Climb the Mt. Adams Steps to Immaculata",
+        "description": "Haul yourself up the public stairways that thread Mt. Adams to the 1859 Immaculata church on the summit, a pilgrimage route locals still walk every Good Friday.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Take the steps without stopping, then earn a drink at the top of the hill.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Immaculata+Church+Mt+Adams+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-06",
+        "title": "Ride The Beast at Kings Island",
+        "description": "Spend a full day at Kings Island and give the night over to The Beast — still the longest wooden coaster on earth, and far better after dark.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6–8 hrs",
+        "durationMins": 450,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Ride The Beast twice in a row: once in daylight, once after the floodlights come on.",
+        "city": "Mason, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Kings+Island+Mason+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-11",
+        "title": "Walk the Africa Trail at the Cincinnati Zoo",
+        "description": "The second-oldest zoo in the country, built around 1875 aviaries and a botanical garden good enough to visit on its own.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Time your visit for a keeper talk and ask the keeper one real question.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Cincinnati+Zoo+and+Botanical+Garden+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-16",
+        "title": "Skate the Ice Rink on Fountain Square",
+        "description": "An outdoor rink laid down in the middle of downtown every winter, circling under the Genius of Water fountain and the office towers.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Nov–Feb",
+        "spark": 13,
+        "bonus": "Complete one lap skating backwards without grabbing the rail.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Fountain+Square+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-13",
+        "title": "Swing Over the Ohio at Smale Riverfront Park",
+        "description": "The porch swings on the riverfront face straight out at the Ohio and the Roebling Bridge — the best free seat in the city at dusk.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Claim a swing before sunset on a warm Friday. Good luck.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Smale+Riverfront+Park+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-12",
+        "title": "Cross the Shark Bridge at Newport Aquarium",
+        "description": "Walk a rope bridge suspended inches above a tank of sand tiger sharks, then work back through the seamless acrylic tunnels underneath.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stop dead in the middle of the bridge and count the sharks before you move on.",
+        "city": "Newport, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Newport+Aquarium+Newport+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-03",
+        "title": "Paddle the Little Miami with Loveland Paddlesports",
+        "description": "Put in on the Little Miami, a state and national scenic river, and drift a few green, heron-lined miles back toward Loveland.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 24,
+        "bonus": "Spot a great blue heron and name it before it takes off.",
+        "city": "Loveland, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Loveland+Paddlesports+Loveland+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-08",
+        "title": "Hike the Twin Bridges Trail in Mt. Airy Forest",
+        "description": "Drop into 1,400 acres of reforested hillside — America's first municipal reforestation project — on a trail that crosses two stone bridges deep in the woods.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the Everybody's Treehouse and climb to the top deck.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Mt+Airy+Forest+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-07",
+        "title": "Zipline the Little Miami Valley at Ozone",
+        "description": "Twelve lines strung 200 feet above the Little Miami at Camp Kern, one of the largest treetop canopy tours in the Midwest.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Go hands-free on the longest line and keep your eyes open the whole way.",
+        "city": "Oregonia, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Ozone+Zipline+Adventures+Oregonia+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-A-10",
+        "title": "Sunrise at the Ault Park Pavilion",
+        "description": "Climb the steps of the 1930 Italian Renaissance pavilion before dawn and watch the light come up over the Little Miami valley with the city still asleep.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring coffee for whoever you dragged out of bed.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Ault+Park+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CIN-A-02",
+        "title": "Mountain Bike the Devou Park Trail System",
+        "description": "Ride the singletrack network stitched through the hills of Devou Park, where the climbs pay out in sudden gaps of Cincinnati skyline through the trees.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Mar–Nov",
+        "spark": 25,
+        "bonus": "Clear one full climb without unclipping a foot.",
+        "city": "Covington, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Devou+Park+Covington+KY",
+        "company": [
+          "solo",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "CIN-F-01",
+        "title": "Saturday Morning Crawl Through Findlay Market",
+        "description": "Ohio's oldest continuously operated public market, where you graze your way past butchers, bakers and a dozen stalls instead of committing to one meal.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy one thing you cannot identify and eat it before you leave the market.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Findlay+Market+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-F-11",
+        "title": "Three-Way at a Skyline Chili Counter",
+        "description": "The other side of the chili argument: spaghetti, chili, a haystack of cheddar, and oyster crackers, eaten fast at a vinyl booth.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Settle it out loud — Skyline or Gold Star — and defend your answer.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Skyline+Chili+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-F-02",
+        "title": "Order a Five-Way at Camp Washington Chili",
+        "description": "The James Beard America's Classic of Cincinnati chili — cinnamon-spiced, spaghetti-bedded, buried in shredded cheddar, served around the clock in a chrome diner.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Go at 2am and order the full five-way without looking at the menu.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Camp+Washington+Chili+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-F-07",
+        "title": "Paella and Sherry at Mita's",
+        "description": "Jose Salazar's Spanish and Latin American room on Race Street, built around paella, jamon iberico, ceviches and a sherry list worth working through.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Order a sherry you have never heard of and let the server explain it.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Mitas+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-F-09",
+        "title": "Liège Waffle at Taste of Belgium's Findlay Market Stand",
+        "description": "The original waffle iron that started the whole operation, still pressing pearl-sugar Liège waffles inside Findlay Market.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat it plain first, before you let anyone put chicken on it.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Taste+of+Belgium+Findlay+Market+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CIN-F-12",
+        "title": "Dinner at Boca",
+        "description": "David Falk's flagship at Sixth and Walnut is the city's big-night-out room — luxe, theatrical and booked weeks deep for a reason.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Dress for it properly, and order the course you would normally talk yourself out of.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Boca+Restaurant+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-F-03",
+        "title": "Goetta and Eggs at Eckerlin Meats",
+        "description": "The Findlay Market butcher counter that has been grinding Cincinnati's German pork-and-oat goetta since 1852, crisped on a flattop and handed over the case.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Eat it standing at the counter like a local instead of taking it away.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Eckerlin+Meats+Findlay+Market+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CIN-F-05",
+        "title": "Hand-Rolled Pasta in Sotto's Cellar",
+        "description": "A candlelit basement under Sixth Street doing rustic Italian — hand-rolled pasta and wood-fired meats — in what feels like the best-kept room downtown.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Let the kitchen pick your pasta course instead of ordering it.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Sotto+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-F-06",
+        "title": "Pho and Tiki Cocktails at Pho Lang Thang",
+        "description": "The Findlay Market pho counter that outgrew its stall and moved into a jewel-toned room on Race Street with a full bar and a dedicated broth kitchen.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the bun bo hue instead of the pho and see if you can finish it.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Pho+Lang+Thang+1828+Race+St+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-F-04",
+        "title": "Black Raspberry Chocolate Chip at Graeter's",
+        "description": "French pot ice cream made two gallons at a time since 1870, with chocolate poured in so it shatters into slabs rather than chips.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the single biggest chocolate chunk in your scoop and eat it last.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Graeters+Ice+Cream+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-F-08",
+        "title": "Pulled Pork and Jalapeño Grits at Eli's BBQ",
+        "description": "A no-frills smokehouse on Riverside Drive where the pulled pork is the draw and the jalapeño cheddar grits are the reason people argue about the sides.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get the grits as a side and refuse to share them.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Elis+BBQ+Riverside+Drive+Cincinnati+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CIN-F-10",
+        "title": "Weekend Brunch at Sleepy Bee Cafe",
+        "description": "A bee-themed breakfast room in Oakley doing sourdough pancakes, local eggs and a honey-forward menu that earns the queue out the door.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the Piggy Pancakes even though you said you wanted something healthy.",
+        "city": "Cincinnati, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Sleepy+Bee+Cafe+Oakley+Cincinnati+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1192 @@
+{
+  "id": "palm-springs",
+  "name": "palm-springs",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "PSP-CU-01",
+        "title": "Drive the Midcentury Streets of Vista Las Palmas",
+        "description": "A few residential blocks holding more famous modernist houses than most countries, including the Kaufmann House and the House of Tomorrow.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Find a butterfly roof and a breeze-block screen wall on the same street.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Vista+Las+Palmas+Palm+Springs",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-CU-03",
+        "title": "Visit the Agua Caliente Cultural Plaza",
+        "description": "The tribe's own downtown museum, gathering plaza and bathhouse built over the hot mineral spring that the city is literally named after.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Leave able to explain, in your own words, why the spring matters.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Agua+Caliente+Cultural+Plaza+Palm+Springs",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-CU-08",
+        "title": "Stand Under Albert Frey's Tramway Gas Station",
+        "description": "The wedge-roofed 1965 canopy at the north entrance to the city is the most photographed piece of desert modernism there is, and now the visitor centre.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get the photo from directly underneath the point of the wedge.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Palm+Springs+Visitors+Center+Tramway+Gas+Station",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-CU-05",
+        "title": "Tour Cabot's Pueblo Museum",
+        "description": "A four-storey, 35-room Hopi-inspired pueblo that Cabot Yerxa built by hand from salvaged desert material over twenty years, with no two windows the same.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 13,
+        "bonus": "Count how many windows you can find that match. The answer should be none.",
+        "city": "Desert Hot Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Cabots+Pueblo+Museum+Desert+Hot+Springs",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-CU-04",
+        "title": "Book the Historic House Tour at Sunnylands",
+        "description": "Ninety minutes inside the Annenbergs' 25,000-square-foot A. Quincy Jones house, where eight presidents stayed and the art on the walls is real.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Sep–early Jun",
+        "spark": 40,
+        "bonus": "Ask the guide which room the most consequential conversation happened in.",
+        "city": "Rancho Mirage, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunnylands+Rancho+Mirage",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-CU-06",
+        "title": "Walk the Noah Purifoy Desert Art Museum",
+        "description": "Ten acres of Joshua Tree scrub holding a hundred large assemblage sculptures Purifoy built from junk in the last fifteen years of his life, free, dawn to dusk.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the entire ten acres without checking your phone.",
+        "city": "Joshua Tree, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Noah+Purifoy+Outdoor+Desert+Art+Museum+Joshua+Tree",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-CU-02",
+        "title": "Walk the Hangars at the Palm Springs Air Museum",
+        "description": "One of the largest collections of flyable WWII aircraft anywhere, in open hangars where the volunteers are often the people who flew them.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get a veteran or volunteer to tell you one story about one aircraft.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Palm+Springs+Air+Museum",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-CU-07",
+        "title": "See an Exhibition at the Architecture and Design Center",
+        "description": "E. Stewart Williams' 1961 glass-and-steel bank building, now the art museum's design wing, where the architecture is as good as whatever is hanging in it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Work out which way the building is oriented and why, before you read a label.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Architecture+and+Design+Center+Edwards+Harris+Pavilion+Palm+Springs",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "PSP-S-07",
+        "title": "See a Show at the Purple Room Supper Club",
+        "description": "The Rat Pack's old room inside Club Trinidad, still running dinner-and-a-show cabaret with a late menu until two on weekends.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Sep–May",
+        "spark": 24,
+        "bonus": "Book the dinner seating rather than show-only and order a Manhattan.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Purple+Room+Supper+Club+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-S-04",
+        "title": "Catch a Drag Show at Toucans Tiki Lounge",
+        "description": "Palm Springs' longest continuously running drag show, five nights a week in a tiki room on North Palm Canyon with a packed dance floor after.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay for the dance floor after the last number.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Toucans+Tiki+Lounge+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PSP-S-08",
+        "title": "Drive Out to Pappy & Harriet's in Pioneertown",
+        "description": "A cantina on a 1940s film-set street in the high desert where Paul McCartney and Robert Plant have both played to a few hundred people.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stay for the whole set and eat the ribs before it starts.",
+        "city": "Pioneertown, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Pappy+and+Harriets+Pioneertown+Palace",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-S-05",
+        "title": "Take a Table on the Arenas Strip at Chill Bar",
+        "description": "Open 11am to 2am every day, right over the Arenas Road strip, which is the best people-watching in the Coachella Valley.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get a seat facing the street and stay through the change from day to night crowd.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Chill+Bar+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PSP-S-11",
+        "title": "Take Sunset at the High Bar",
+        "description": "Seven floors up at the Kimpton Rowan, the only rooftop pool bar in Palm Springs, with the San Jacintos filling the whole western view.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Be in a seat facing the mountain before the sun touches the ridge.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/High+Bar+Kimpton+Rowan+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PSP-S-09",
+        "title": "Do a Day of Coachella at the Empire Polo Club",
+        "description": "Two April weekends when a polo field in Indio becomes the most photographed festival on earth, with art installations the size of buildings.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 660,
+        "time": "Any",
+        "season": "April",
+        "spark": 40,
+        "bonus": "See one act you have never heard of all the way through, start to finish.",
+        "city": "Indio, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Empire+Polo+Club+Indio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-S-12",
+        "title": "Order a Pu-Pu Platter at Tonga Hut",
+        "description": "The Palm Springs branch of LA's oldest tiki bar, doing Polynesian-Cantonese food in the Hideaway out back and flaming drinks up front.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order the platter that arrives on fire and share it with the table.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Tonga+Hut+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PSP-S-10",
+        "title": "Watch the Firebirds at Acrisure Arena",
+        "description": "The Seattle Kraken's AHL affiliate plays 36 home games a year in a new 10,000-seat arena, and the desert has taken to hockey harder than anyone expected.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 14,
+        "bonus": "Throw something on the ice at the appropriate moment, and only then.",
+        "city": "Palm Desert, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Acrisure+Arena+Palm+Desert",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-S-02",
+        "title": "Find Seymour's Behind Mr. Lyons",
+        "description": "A hidden speakeasy inside the steakhouse: antique velvet, a black-and-white television and cocktails made by people who take it seriously.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Get in without asking anyone at the front desk where it is.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Seymours+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PSP-S-03",
+        "title": "Work Through the List at Truss & Twine",
+        "description": "A cocktail bar in the 1926 El Paseo building whose menu is arranged as a history of American drinking, open seven nights until half twelve.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the oldest drink on the menu.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Truss+and+Twine+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PSP-S-06",
+        "title": "Do Thursday Night VillageFest",
+        "description": "Every Thursday the city closes Palm Canyon Drive and fills it with two hundred stalls of art, food and oddities until ten at night.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Eat dinner entirely from street stalls and buy one thing from an artist.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Palm+Springs+VillageFest+Palm+Canyon+Drive",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-S-01",
+        "title": "Drink Rum in the Dark at Bootlegger Tiki",
+        "description": "A tiny red-lit tiki room in the original 1953 Don the Beachcomber space, pouring properly made tropical drinks with house syrups.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the strongest thing on the menu and share it with one other person.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Bootlegger+Tiki+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "8ball": [
+      {
+        "id": "PSP-8B-02",
+        "title": "Palm Canyon Dice Roll",
+        "description": "Start at the south end of Palm Canyon Drive, roll a die, walk that many doors north and go into whatever it is. Repeat three times.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the house special at every stop, whatever it turns out to be.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/North+Palm+Canyon+Drive+Palm+Springs",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-8B-01",
+        "title": "Butterfly Roof Bingo",
+        "description": "Pick a neighbourhood at random, then drive or ride it until you have found a butterfly roof, a breeze-block wall, a kidney pool and a pink door.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Do not use a map or a guide — only what you can see from the street.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Palm+Springs+Modernism+Neighborhoods",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "PSP-F-02",
+        "title": "Have Dinner at Workshop Kitchen + Bar",
+        "description": "A James Beard design award winner inside a 1926 landmark on Palm Canyon, with concrete booths, a 25-foot bar and Michelin-recommended cooking.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Sit at the bar and have the bartender build you something not on the list.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Workshop+Kitchen+and+Bar+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-09",
+        "title": "Brunch on El Paseo at Wilma & Frieda",
+        "description": "Comfort food with a twist on Palm Desert's smart shopping street, open 8am to 2pm daily and busy for good reason.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the thing your table agrees sounds the most ridiculous.",
+        "city": "Palm Desert, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Wilma+and+Frieda+El+Paseo+Palm+Desert",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-01",
+        "title": "Order the Bacon Flight at Cheeky's",
+        "description": "A Michelin-listed Palm Canyon breakfast room whose menu changes weekly and whose six-strip bacon flight is the reason for the queue on the sidewalk.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Rank all six bacons out loud and defend your winner.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Cheekys+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-10",
+        "title": "Drink a Date Shake at Shields Date Garden",
+        "description": "Since 1924, a working seventeen-acre date farm in Indio with a turquoise soda fountain that has been blending date crystals into shakes for a century.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit through the whole Romance and Sex Life of the Date film after your shake.",
+        "city": "Indio, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Shields+Date+Garden+Indio",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-04",
+        "title": "Build a Sandwich You Cannot Finish at Sherman's",
+        "description": "A proper Jewish deli on Tahquitz Canyon Way, open 8am to 9pm, with a bakery case as long as the counter and portions from another era.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a whole sandwich instead of a half and take the rest home.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Shermans+Deli+and+Bakery+Palm+Springs",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-05",
+        "title": "Get a Shake with a Doughnut on the Straw",
+        "description": "Great Shakes on South Palm Canyon threads a warm mini-doughnut onto every straw, and the date shake is the one to get in this town.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat the doughnut before you drink any of the shake.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Great+Shakes+Palm+Springs",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-12",
+        "title": "Have a Martini at Melvyn's",
+        "description": "The Ingleside Estate dining room where Sinatra actually drank, still doing tableside classics with a piano going in the corner.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order something flambeed at the table.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Melvyns+Ingleside+Estate+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-11",
+        "title": "Order a Steak at Mr. Lyons",
+        "description": "A reimagined 1940s chophouse on South Palm Canyon with seven separate rooms, jazz standards and martinis that arrive very cold.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Eat in a different room from the one you were first offered.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Mr+Lyons+Steakhouse+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-07",
+        "title": "Queue Up at Rooster and the Pig",
+        "description": "A tiny Vietnamese-American room on South Indian Canyon that takes no reservations and has been on national best-restaurant lists anyway.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get there at opening, order four dishes for two people and finish them.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Rooster+and+the+Pig+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-06",
+        "title": "Eat in the Courtyard at FARM",
+        "description": "A Provencal kitchen tucked into the historic La Plaza courtyard, all bougainvillea and bistro chairs, with a three-course prix fixe at dinner.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Take the prix fixe and let them choose every course.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Farm+Palm+Springs+La+Plaza",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "PSP-F-08",
+        "title": "Take a Patio Table at Birba",
+        "description": "The sunken patio next door to Cheeky's, with hedges, string lights, a fire pit and Tuscan pizza out of the back.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay past the point where the string lights become the only light.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Birba+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-F-03",
+        "title": "Take the Margarita Flight at Tac/Quila",
+        "description": "A hacienda-style room on North Palm Canyon in the Michelin Guide, doing street tacos and a lobster taco with equal seriousness.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Do the margarita flight and name your favourite before the server tells you which is which.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Tac+Quila+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "PSP-C-02",
+        "title": "Walk the Cactarium at Moorten Botanical Garden",
+        "description": "A one-acre family garden on South Palm Canyon with 3,000 desert species and the world's first enclosed cactus greenhouse, for five dollars.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Learn the name of one plant you have never heard of and remember it.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Moorten+Botanical+Garden+Palm+Springs",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PSP-C-08",
+        "title": "Walk the Living Desert Zoo and Gardens",
+        "description": "A thousand acres in Palm Desert that is half botanical garden and half desert-species zoo, with giraffes you can feed by hand.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Feed the giraffes and get the photo.",
+        "city": "Palm Desert, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Living+Desert+Zoo+and+Gardens+Palm+Desert",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-C-03",
+        "title": "Shop the Uptown Design District",
+        "description": "Six blocks of North Palm Canyon full of midcentury furniture dealers, vintage racks and design bookshops that are genuinely worth the browse.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy one thing under twenty dollars that you will actually keep.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Uptown+Design+District+Palm+Springs",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-C-07",
+        "title": "Soak the Mineral Waters at Two Bunch Palms",
+        "description": "An adults-only wellness resort in Desert Hot Springs built on natural hot mineral springs, with a grotto, mud treatments and a no-phones policy by the water.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Do the full mud wrap, however undignified it feels.",
+        "city": "Desert Hot Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Two+Bunch+Palms+Desert+Hot+Springs",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PSP-C-06",
+        "title": "Take a Pool Day at the Ace Hotel & Swim Club",
+        "description": "The converted motor lodge on East Palm Canyon that set the template for the Palm Springs pool day, with a DJ, a spa and King's Highway for lunch.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stay in or beside the water for three uninterrupted hours.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Ace+Hotel+and+Swim+Club+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-C-05",
+        "title": "Wander the Gardens at Sunnylands Center",
+        "description": "Fifteen acres of desert gardens and a walking labyrinth around the Annenberg estate's visitor centre, free to enter and almost silent.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Sep–early Jun",
+        "spark": 13,
+        "bonus": "Walk the full labyrinth without cutting a corner.",
+        "city": "Rancho Mirage, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunnylands+Center+and+Gardens+Rancho+Mirage",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-C-09",
+        "title": "Stargaze at Sky's The Limit Observatory",
+        "description": "A volunteer-run observatory and nature centre outside Joshua Tree's north entrance that opens its telescopes to the public on star party nights.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Look at one thing through the big telescope that you could not name beforehand.",
+        "city": "Twentynine Palms, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Skys+The+Limit+Observatory+Twentynine+Palms",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-C-04",
+        "title": "Start the Day at Ernest Coffee",
+        "description": "Stumptown coffee and local pastries in the same building where Don the Beachcomber opened his tiki restaurant in 1953, open from 6am.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get there before seven and take the outside table.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Ernest+Coffee+Palm+Springs",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PSP-C-01",
+        "title": "Spend an Afternoon in the Palm Springs Art Museum",
+        "description": "A serious modern and Western art collection in an E. Stewart Williams building right under the mountain, with a sculpture garden out back.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the Chihuly and sit with it for five minutes.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Palm+Springs+Art+Museum",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-C-10",
+        "title": "Swim Laps at the Palm Springs Swim Center",
+        "description": "A city-run Olympic-size outdoor pool in Sunrise Park, heated year round, where locals swim under the mountain for a few dollars.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Swim a full kilometre without stopping at the wall.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Palm+Springs+Swim+Center",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "PSP-A-12",
+        "title": "Snowshoe Long Valley Straight Off the Tram",
+        "description": "In winter you can leave a 75-degree desert, ride ten minutes uphill and strap on snowshoes in a silent pine basin under snow.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Dec–Mar",
+        "spark": 15,
+        "bonus": "Send someone a photo of the snow without telling them where you are.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+San+Jacinto+State+Park+Long+Valley",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-16",
+        "title": "Hike Devil's Slide to Suicide Rock in Idyllwild",
+        "description": "An hour up the mountain from the desert floor, a granite-slab summit in real alpine forest where it is twenty-five degrees cooler.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 14,
+        "bonus": "Eat lunch sitting on the bare slab with your legs over the edge.",
+        "city": "Idyllwild, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Suicide+Rock+Trail+Idyllwild+CA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-15",
+        "title": "Drive to Salvation Mountain and the Salton Sea",
+        "description": "Ninety minutes south is a shrinking inland sea with beaches made of fish bones and, beside it, a hand-painted adobe mountain built by one man over thirty years.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 15,
+        "bonus": "Climb the yellow brick road to the top of Salvation Mountain.",
+        "city": "Niland, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Salvation+Mountain+Niland+CA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-05",
+        "title": "Do Hidden Valley and Barker Dam in Joshua Tree",
+        "description": "Two short loops that show you everything Joshua Tree is good at: house-sized boulder piles, a hidden cattle-rustler's basin and petroglyphs by a desert reservoir.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Scramble to the top of one boulder pile with no trail on it.",
+        "city": "Joshua Tree, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Hidden+Valley+Nature+Trail+Joshua+Tree+National+Park",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-10",
+        "title": "Find the Ladders in Painted Canyon",
+        "description": "A slot-canyon loop in the Mecca Hills where you climb bolted metal ladders out of a crack in the earth and walk a ridgeline back down.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 25,
+        "bonus": "Go up every ladder without using your knees on the rungs.",
+        "city": "Mecca, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Ladder+Canyon+Painted+Canyon+Mecca+CA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-02",
+        "title": "Hike Tahquitz Canyon to the Waterfall",
+        "description": "A two-mile Agua Caliente loop into a canyon behind downtown that ends at a 60-foot waterfall running out of bare rock.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 24,
+        "bonus": "Stand close enough to the falls to get properly wet.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Tahquitz+Canyon+Palm+Springs",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-11",
+        "title": "Take an E-Bike Around Palm Springs",
+        "description": "The valley is flat, the streets are wide and Bike Palm Springs will hand you a RAD electric cruiser and a map of the good neighbourhoods.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride every street in Vista Las Palmas before you return the bike.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Bike+Palm+Springs+Rentals+and+Tours",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-03",
+        "title": "Walk Palm Canyon in the Indian Canyons",
+        "description": "The largest California fan palm oasis in the world, fifteen miles of it, on Agua Caliente land just south of the city.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Oct–Jul",
+        "spark": 15,
+        "bonus": "Get far enough in that you cannot hear another person.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Indian+Canyons+Palm+Canyon+Palm+Springs",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-07",
+        "title": "Rope Up with Cliffhanger Guides in Joshua Tree",
+        "description": "Joshua Tree is one of the great climbing areas on earth, and Cliffhanger's certified guides will put a first-timer on real granite for a full day.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 40,
+        "bonus": "Lead or top out one route that scared you when you looked up at it.",
+        "city": "Joshua Tree, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Cliffhanger+Guides+Joshua+Tree",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-13",
+        "title": "Play a Twilight Round at Indian Canyons Golf Resort",
+        "description": "Late-afternoon rates on a classic desert course with the San Jacintos going pink behind every green.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Finish the round before the light goes, even if it means running the last hole.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Indian+Canyons+Golf+Resort+Palm+Springs",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-01",
+        "title": "Ride the Aerial Tramway to Mount San Jacinto",
+        "description": "The world's largest rotating tramcar lifts you from the desert floor to 8,516 feet in ten minutes, dropping the temperature thirty degrees and putting you in pine forest.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Hike at least a mile into Long Valley before you get back on the tram.",
+        "city": "Palm Springs, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Palm+Springs+Aerial+Tramway",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-08",
+        "title": "Take the Red Jeep Tour Into the San Andreas Fault",
+        "description": "Desert Adventures runs open-air Jeeps onto a private ranch in the Indio Hills and walks you down into the actual fault zone with a naturalist.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Put a hand on each side of the fault at the same time.",
+        "city": "Palm Desert, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Desert+Adventures+Red+Jeep+Tours+Palm+Desert",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-04",
+        "title": "Climb the Bump and Grind Trail",
+        "description": "Palm Desert's cardio pilgrimage: a relentless switchbacked climb that every local has an opinion about, with the whole valley behind you at the top.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 14,
+        "bonus": "Do the full climb without stopping to rest.",
+        "city": "Palm Desert, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Bump+and+Grind+Trail+Palm+Desert",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-09",
+        "title": "Go Up at Sunrise with Fantasy Balloon Flights",
+        "description": "Launching from the date groves at first light, drifting over the Coachella Valley in silence, and landing to champagne.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Sep–May",
+        "spark": 28,
+        "bonus": "Help the crew pack the envelope after you land.",
+        "city": "Indio, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Fantasy+Balloon+Flights+Coachella+Valley",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-14",
+        "title": "Walk the Boardwalk at Thousand Palms Oasis",
+        "description": "The Coachella Valley Preserve sits directly on the San Andreas Fault, where groundwater forced to the surface grows a palm jungle in open desert.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 13,
+        "bonus": "Walk the McCallum Trail all the way to the pond at the end.",
+        "city": "Thousand Palms, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Coachella+Valley+Preserve+Thousand+Palms",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PSP-A-06",
+        "title": "Watch the Sun Set from Keys View",
+        "description": "A five-thousand-foot overlook where the San Andreas Fault, the Salton Sea and the whole Coachella Valley lie out below you as the light goes orange.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay until the valley lights come on and you can pick out Palm Springs.",
+        "city": "Joshua Tree, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Keys+View+Joshua+Tree+National+Park",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

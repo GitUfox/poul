@@ -1,0 +1,775 @@
+{
+  "id": "dublin",
+  "name": "dublin",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "foodie": [
+      {
+        "id": "DUB-F-11",
+        "title": "Whiskey Flight at Teeling Distillery",
+        "description": "The first new distillery to open in Dublin in over a century — walk the copper stills in the Liberties, then taste three side by side.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Pick your favourite before they tell you the prices.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Teeling+Whiskey+Distillery+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DUB-F-10",
+        "title": "Dinner at Etto on Merrion Row",
+        "description": "A narrow Italian-leaning room with a wine list far better than the size of the place suggests and food that never overreaches.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Let them pair the wine by the glass.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Etto+Merrion+Row+Dublin",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "DUB-F-12",
+        "title": "Two Michelin Stars at Liath",
+        "description": "Twenty-odd seats inside Blackrock Market serving one of the most quietly ambitious tasting menus in Ireland.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Book the counter, not the table.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Liath+Blackrock+Market+Dublin",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "DUB-F-06",
+        "title": "Chips from Leo Burdock, Eaten Standing Up",
+        "description": "Take a bag of cod and chips from the Werburgh Street counter and eat them off the paper on the steps of Christ Church.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "No fork. Vinegar, salt, fingers.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Leo+Burdock+Werburgh+Street+Dublin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-F-09",
+        "title": "Lobster Roll at Klaw",
+        "description": "A tiny no-reservations crab shack off Temple Bar doing Irish shellfish fast, cold and buttery at a shared counter.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Add the hot sauce they make in-house.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Klaw+Crab+Shack+Temple+Bar+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-F-08",
+        "title": "Bunsen: Burger, Fries, Nothing Else",
+        "description": "The menu fits on a business card because there are four things on it, and all four are the point.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order exactly what the person before you ordered.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Bunsen+Wexford+Street+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-F-07",
+        "title": "Coffee Nerdery at 3fe",
+        "description": "The roastery that dragged Irish coffee culture into the present — order the filter and let them talk you through it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask what they are most excited about right now.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/3fe+Coffee+Grand+Canal+Street+Dublin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "DUB-F-05",
+        "title": "Long Breakfast at The Fumbally",
+        "description": "A high-ceilinged Dublin 8 warehouse café where nobody rushes you and the eggs come with things you did not expect.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order whatever is chalked up rather than off the menu.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Fumbally+Dublin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "DUB-CU-01",
+        "title": "Kilmainham Gaol, Cell by Cell",
+        "description": "The guided tour through the prison where the 1916 leaders were held and executed, ending in the stonebreakers' yard.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Book weeks ahead — it sells out constantly.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Kilmainham+Gaol+Dublin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-CU-05",
+        "title": "A Play at the Abbey",
+        "description": "Ireland's national theatre, founded by Yeats and Lady Gregory, still programming new Irish writing rather than trading on the back catalogue.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 25,
+        "bonus": "Read nothing about the play before you go in.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Abbey+Theatre+Dublin",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "DUB-CU-06",
+        "title": "Chained Books at Marsh's Library",
+        "description": "Ireland's first public library, opened 1707 and essentially unchanged — dark oak stalls, and wire cages readers were once locked into with the rare books.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the bullet holes from 1916 in the shelves.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Marshs+Library+Dublin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "DUB-CU-04",
+        "title": "Contemporary Art in a 17th-Century Hospital",
+        "description": "IMMA sits inside the Royal Hospital Kilmainham, so the collection hangs in colonnaded rooms built for retired soldiers in 1684.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the formal gardens behind the building afterwards.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Irish+Museum+of+Modern+Art+Dublin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "DUB-CU-03",
+        "title": "EPIC and the Emigrant Story",
+        "description": "Twenty vaulted rooms under the CHQ building tracing where ten million people went after they left, and what they did when they got there.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Look up whether your own surname is on the wall.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/EPIC+The+Irish+Emigration+Museum+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-CU-07",
+        "title": "The Glasnevin Cemetery Tour",
+        "description": "A genuinely gripping walk through 1.5 million graves — Collins, Parnell, de Valera — told as the history of modern Ireland in one field.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Climb the O'Connell Tower for the view over the city.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Glasnevin+Cemetery+Museum+Dublin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-CU-08",
+        "title": "Bloomsday in Costume",
+        "description": "Every 16 June the city re-enacts a single day in 1904 — straw hats, kidney for breakfast, and readings on the street corners where they happen in the book.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Jun",
+        "spark": 40,
+        "bonus": "Eat the Gorgonzola sandwich and burgundy at Davy Byrnes.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/James+Joyce+Centre+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-CU-02",
+        "title": "Stand in Front of the Caravaggio",
+        "description": "The National Gallery holds The Taking of Christ, lost for two centuries and found hanging unrecognised in a Jesuit dining room on Leeson Street.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the painter's own face in the painting.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Gallery+of+Ireland+Dublin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "DUB-A-08",
+        "title": "Ticknock's Fairy Castle Loop",
+        "description": "A short, steep climb through pine forest to a cairn on the Dublin Mountains with the whole bay laid out beneath you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Do it at dusk and watch the city lights come on.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Ticknock+Forest+Recreation+Area+Dublin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-A-07",
+        "title": "Chase Powerscourt Waterfall",
+        "description": "Drive an hour south into Wicklow for Ireland's highest waterfall, a 121-metre drop into a beech valley you can picnic under.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get close enough that the spray soaks you.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Powerscourt+Waterfall+Enniskerry",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-A-10",
+        "title": "Learn to Sail on Dublin Bay",
+        "description": "Take a taster keelboat session out of Dún Laoghaire harbour and spend an afternoon actually working the sheets rather than sitting still.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Sep",
+        "spark": 26,
+        "bonus": "Take the helm for at least one full tack.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Irish+National+Sailing+School+Dun+Laoghaire",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-A-06",
+        "title": "Walk the Bray to Greystones Cliff Path",
+        "description": "Follow the old railway path carved into the sea cliffs from Bray Head to Greystones, then take the DART back with your legs aching.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Swim at the Greystones end before the train home.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Bray+Cliff+Walk+Bray+Ireland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-A-12",
+        "title": "Summit Lugnaquilla, Wicklow's Highest Point",
+        "description": "A full day on the highest ground in Leinster, climbing out of Glenmalure to a flat summit plateau where the weather changes on you.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 40,
+        "bonus": "Sign the summit box at the top.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Lugnaquilla+Wicklow+Mountains",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-A-05",
+        "title": "Kayak Out to Dalkey Island",
+        "description": "Paddle out of Bulloch Harbour to the ruined church and wild goats of Dalkey Island, with seals surfacing beside the boat the whole way.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Land on the island and touch the Martello tower.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Bulloch+Harbour+Dalkey+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-A-11",
+        "title": "Trad Climb at Dalkey Quarry",
+        "description": "Rope up on the granite where every Irish climber learned, twenty minutes from the city and hanging right over the sea.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 25,
+        "bonus": "Top out and stay for the view over Killiney Bay.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Dalkey+Quarry+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-A-09",
+        "title": "Ride the Royal Canal Greenway Out of Town",
+        "description": "Pick up the towpath behind Croke Park and cycle west until the city turns into locks, swans and empty water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ride until you can no longer hear traffic.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Royal+Canal+Greenway+Dublin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "DUB-S-12",
+        "title": "Race Night at Leopardstown",
+        "description": "Summer evening racing south of the city where half of Dublin turns up for the last three races and the band that plays after them.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Jun–Aug",
+        "spark": 40,
+        "bonus": "Put a fiver on the horse with the best name.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Leopardstown+Racecourse+Dublin",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DUB-S-07",
+        "title": "Ring the Bell at the Vintage Cocktail Club",
+        "description": "An unmarked door in Crown Alley with a brass bell — ring it, get let in, and drink in a room that pretends the last sixty years did not happen.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order something you cannot pronounce off the vintage list.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Vintage+Cocktail+Club+Crown+Alley+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DUB-S-08",
+        "title": "A Gig at Whelan's",
+        "description": "The Wexford Street venue every Irish band has played on the way up — buy a ticket for whoever is on without checking who they are.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay for the support act's whole set.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Whelans+Wexford+Street+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-S-10",
+        "title": "Comedy Cellar, Upstairs at the International",
+        "description": "Dublin's longest-running comedy club, confusingly held in the upstairs room of a Wicklow Street pub, where most Irish comics cut their teeth.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Sit in the front row and accept the consequences.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/The+International+Bar+Wicklow+Street+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DUB-S-09",
+        "title": "The Long Hall on a Sunday",
+        "description": "Chandeliers, red velvet and carved mahogany on South Great George's Street, poured slowly and without a hint of irony.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Count the clocks behind the bar.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Long+Hall+South+Great+Georges+Street+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DUB-S-06",
+        "title": "Grogan's, a Toastie and No Music",
+        "description": "The artists' pub off South William Street: paintings for sale on the walls, a famous ham and cheese toastie, and deliberately no soundtrack.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit outside on the kerb like everyone else does.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Grogans+Castle+Lounge+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DUB-S-05",
+        "title": "A Pint of Plain at Kehoe's",
+        "description": "A Victorian bar with snugs, a grocery counter that never left, and upstairs rooms that still feel like someone's flat.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get the snug if it is free. Guard it.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Kehoes+South+Anne+Street+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DUB-S-11",
+        "title": "Sunset in the Gravity Bar",
+        "description": "Ride up through seven floors of the old fermentation plant to a glass drum with a 360-degree view and a pint waiting at the top.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Pick out Howth Head and the Wicklow Mountains from the glass.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Guinness+Storehouse+Dublin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "DUB-C-08",
+        "title": "East Pier and a 99 from Teddy's",
+        "description": "Walk the granite pier out to the lighthouse in the wind, then join the queue that has been forming outside Teddy's since 1950.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get the flake. Always the flake.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Teddys+Ice+Cream+Dun+Laoghaire",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-C-07",
+        "title": "An Hour in the National Library Reading Room",
+        "description": "Get a reader's ticket, sit under the domed roof on Kildare Street, and work on something in the room where Joyce set a chapter of Ulysses.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring an actual notebook and write by hand.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Library+of+Ireland+Kildare+Street+Dublin",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "DUB-C-10",
+        "title": "The Winding Stair, Bottom Then Top",
+        "description": "Browse the secondhand bookshop on the quays, then take whatever you bought upstairs to the dining room over the Ha'penny Bridge.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Buy a book by an author you have never heard of.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Winding+Stair+Dublin",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "DUB-C-05",
+        "title": "Find the Iveagh Gardens",
+        "description": "A walled Victorian garden with a cascade and a hedge maze, hidden behind the Concert Hall and somehow still half empty.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the sunken lawn and lie down on it.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Iveagh+Gardens+Dublin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "DUB-C-06",
+        "title": "Glasshouse Hopping at the Botanic Gardens",
+        "description": "Move between Victorian curvilinear glasshouses in Glasnevin, going from Irish drizzle to full tropical humidity in one step.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the oldest plant in the collection.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Botanic+Gardens+Glasnevin+Dublin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "DUB-8B-01",
+        "title": "Get Off the DART Somewhere You've Never Been",
+        "description": "Board the coastal line, pick a station you have only ever passed through, and give that town three hours of your day.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Swim wherever you end up, weather permitting.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/Dublin+Connolly+DART+Station",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DUB-8B-02",
+        "title": "Ask the Bartender Where They Actually Drink",
+        "description": "Start anywhere on South William Street, ask the person pouring where they go on their night off, then go there and do it again.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Three pubs deep before you are allowed to stop.",
+        "city": "Dublin, Ireland",
+        "mapsUrl": "https://maps.google.com/maps/search/South+William+Street+Dublin",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ]
+  }
+}

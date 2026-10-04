@@ -1,0 +1,797 @@
+{
+  "id": "taipei",
+  "name": "taipei",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "chill": [
+      {
+        "id": "TPE-C-10",
+        "title": "Birdwatch the Boardwalks at Guandu",
+        "description": "Protected tidal wetland where the Keelung and Tamsui rivers meet, with hides and boardwalks over the reeds and tens of thousands of migrating birds in winter.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 12,
+        "bonus": "Borrow the binoculars at the visitor centre and find one egret species.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Guandu+Nature+Park+Taipei",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-C-07",
+        "title": "Drift Through Songshan Creative Park",
+        "description": "A 1930s tobacco factory turned design campus — independent bookshops, small exhibitions, a baroque-style garden pond and an enormous bookstore at the back.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the old boiler room and the tiled bathhouse.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Songshan+Cultural+and+Creative+Park+Taipei",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-C-09",
+        "title": "Coffee and Nothing Else on Fujin Street",
+        "description": "A tree-lined street in Songshan lined with tiny roasters, ceramics studios and plant shops — the closest Taipei gets to a genuinely quiet morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit in one café long enough to finish an actual book chapter.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Fujin+Street+Taipei",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TPE-C-08",
+        "title": "Sunset from Dadaocheng Wharf",
+        "description": "The old tea-trading wharf on the Tamsui River, now shipping containers turned bars where the whole riverside sits out on the steps to watch the sun go down.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk back through Dihua Street and buy dried fruit from a tea merchant.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Dadaocheng+Wharf+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-C-06",
+        "title": "The Wooden Library and the Thermal Valley",
+        "description": "Beitou's public library is a timber building on stilts in the middle of a park, a short walk from a lake of steaming acidic green water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Read on the library's back balcony for an hour.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Beitou+Public+Library+Taipei",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TPE-C-05",
+        "title": "Soak in the Sulphur Springs at Beitou",
+        "description": "Thirty minutes north on the MRT to a valley of sulphur hot springs — tiered public pools outdoors, or a private tub in one of the old Japanese bathhouses.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Mar",
+        "spark": 24,
+        "bonus": "Do the cold plunge between hot soaks like the regulars.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Beitou+Hot+Spring+Taipei",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "TPE-CU-05",
+        "title": "Contemporary Work at the Fine Arts Museum",
+        "description": "TFAM shows the living end of Taiwanese art — large-scale installation, video and the Taipei Biennial — in a stacked white modernist block in Zhongshan.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Start on the top floor and work down.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Taipei+Fine+Arts+Museum",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TPE-CU-02",
+        "title": "Evening Chanting at Longshan Temple",
+        "description": "A 1738 temple in Wanhua where hundreds of worshippers chant together in the evening under incense smoke thick enough to blur the carvings.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Watch someone throw the moon blocks to ask a question, then try it.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Longshan+Temple+Taipei",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-CU-06",
+        "title": "A Performance at the National Theater",
+        "description": "Under the yellow tiled roofs on Liberty Square, the national house programmes Cloud Gate Dance Theatre, Beijing opera and full symphonic seasons.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "See Cloud Gate if their season overlaps your trip. Nothing else compares.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Theater+and+Concert+Hall+Taipei",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "TPE-CU-08",
+        "title": "March in Asia's Largest Pride Parade",
+        "description": "Taiwan was the first place in Asia to legalise same-sex marriage, and every October two hundred thousand people march from City Hall through Xinyi to prove it.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Afternoon",
+        "season": "Oct",
+        "spark": 40,
+        "bonus": "Walk the whole route rather than watching from the kerb.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Taipei+City+Hall+Xinyi",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-CU-01",
+        "title": "The Changing of the Guard at CKS Memorial",
+        "description": "An enormous white marble hall over Liberty Square, with an hourly rifle drill upstairs and an exhibition downstairs on Taiwan's road out of martial law.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go on the hour, then read the democracy exhibition in the basement.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Chiang+Kai+shek+Memorial+Hall+Taipei",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-CU-04",
+        "title": "The 228 Memorial Museum",
+        "description": "The massacre that began the White Terror, told inside the building that housed the radio station the protesters seized in 1947.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the peace park outside afterwards rather than straight to the MRT.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/National+228+Memorial+Museum+Taipei",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TPE-CU-07",
+        "title": "Temple Carving at Baoan and the Confucius Temple",
+        "description": "Two temples facing each other in Dalongdong — Baoan's UNESCO-awarded restoration of its carving and murals, and the austere Confucian hall opposite.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the stone dragon columns carved by two rival masters at Baoan.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Dalongdong+Baoan+Temple+Taipei",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-CU-03",
+        "title": "Old Wanhua Inside the Bopiliao Block",
+        "description": "A preserved block of Qing-era shophouses in Wanhua, left deliberately half-restored so you can see brick, plaster and Japanese-era additions in one wall.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Look for the layers where three different eras meet in one facade.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Bopiliao+Historic+Block+Taipei",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "TPE-S-08",
+        "title": "Find the Door at Ounce",
+        "description": "A speakeasy behind a café counter in Da'an — you walk through what looks like a storeroom door into a dark, very serious little cocktail room.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Say nothing to the bartender except a spirit and a mood.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Ounce+Taipei",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPE-S-07",
+        "title": "Cocktails at Indulge Experimental Bistro",
+        "description": "The bar that put Taipei on the world cocktail map, building drinks around Taiwanese ingredients — aged oolong, sesame oil, local rice spirits.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the most Taiwanese-sounding thing on the list.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Indulge+Experimental+Bistro+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPE-S-05",
+        "title": "CPBL Baseball at the Taipei Dome",
+        "description": "Taiwanese baseball is a continuous choreographed concert — team cheerleaders, a drum section and forty thousand people singing a different song for every batter.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Mar–Oct",
+        "spark": 24,
+        "bonus": "Sit in the home cheering section and copy whatever they do.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Taipei+Dome+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-S-11",
+        "title": "Arcades and Claw Machines in Ximending",
+        "description": "Taipei's neon pedestrian grid — multi-storey arcades, rows of claw machines, street performers and teenagers until well past midnight.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Set a budget for the claw machines and lose all of it.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Ximending+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-S-06",
+        "title": "A Live House Night at Legacy Taipei",
+        "description": "A brick warehouse in the Huashan complex that is the main room for Mandopop, Taiwanese indie and touring acts — standing only, and loud.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Go in knowing nothing about the band on the poster.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Legacy+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-S-12",
+        "title": "Carnival Games at Shilin Night Market",
+        "description": "Past the food stalls at Shilin are the games — air-rifle balloon shooting, shrimp fishing with tiny rods, ring toss — run exactly as they were forty years ago.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Fish a shrimp, then have them grill it for you on the spot.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Shilin+Night+Market+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-S-10",
+        "title": "Rooftop Drinks Level with Taipei 101",
+        "description": "An open-air rooftop bar in Xinyi where the tower fills most of the sky and you are close enough to see the lights change on it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Be up there at the top of the hour when the tower relights.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Frank+Taipei+rooftop+bar",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPE-S-09",
+        "title": "Cheap Rounds in Gongguan and Shida",
+        "description": "The student quarters around NTU and the old teachers' college — tiny bars, live acoustic sets, cheap beer and a crowd that is mostly under thirty.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Start in Gongguan and walk to Shida without taking the MRT.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Gongguan+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "8ball": [
+      {
+        "id": "TPE-8B-02",
+        "title": "YouBike Until the Free Window Runs Out",
+        "description": "Grab a YouBike from any dock and ride in one direction until the cheap fare window is nearly up. Dock it, look around, and eat wherever you have landed.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "No navigation app. Follow the riverside path and see where it puts you.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/YouBike+station+Taipei",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-8B-01",
+        "title": "Ride the Pingxi Line to the Emptiest Stop",
+        "description": "Buy the day pass for the old coal branch line, ride it to the end, and get off at whichever of the little stations has the fewest people standing on the platform.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Whatever that town has, do it. Even if it is nothing.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Ruifang+Station+Pingxi+Line+Taiwan",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "TPE-A-07",
+        "title": "Haul Yourself Up Jinmianshan on Ropes",
+        "description": "A sandstone ridge in Neihu with fixed ropes up bare rock slabs, twenty minutes from the MRT and far more exposed than a city hike has any right to be.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do the full traverse to Lidong Mountain instead of turning back.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Jinmianshan+Trail+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-A-11",
+        "title": "Tandem Paraglide Over the North Coast",
+        "description": "Run off a hillside above Wanli with an instructor strapped behind you and ride the sea thermals out over the coast between Jinshan and Yehliu.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask to take the controls once you're stable.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Wanli+Paragliding+Taiwan",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-A-09",
+        "title": "Learn to Surf at Wai'ao Beach",
+        "description": "Black volcanic sand and forgiving beach break an hour from Taipei by train, with board hire, lessons and Turtle Island sitting out on the horizon.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 23,
+        "bonus": "Take the train, not a car — the station is a five-minute walk from the sand.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Waiao+Beach+Yilan+Taiwan",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-A-05",
+        "title": "Climb Teapot Mountain Above the Old Gold Mine",
+        "description": "A rocky scramble above the Jinguashi mining valley to a summit shaped like a teapot, with the Pacific on one side and the ruins of the Japanese-era smelter below.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Squeeze through the hole in the summit rock to the far side.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Teapot+Mountain+Jinguashi+Taiwan",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-A-06",
+        "title": "Walk the Cliffs of Bitou Cape",
+        "description": "A headland trail on the northeast coast running along sea cliffs and wave-cut platforms out to a white lighthouse, an hour from the city by bus.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Take the lower coastal path back rather than the ridge.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Bitou+Cape+Trail+Taiwan",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-A-12",
+        "title": "Kayak the Sea Caves at Longdong",
+        "description": "Paddle along the sandstone cliffs of Longdong Bay into sea caves and arches, then jump off the rock platforms the local climbers use.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 24,
+        "bonus": "Snorkel the bay before you hand the kayak back.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Longdong+Bay+Taiwan",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-A-10",
+        "title": "Chase Three Waterfalls at Sandiaoling",
+        "description": "A jungle trail off the Pingxi railway line linking three big waterfalls, with ladders bolted to the rock and a path that goes behind the curtain of one of them.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Walk behind Hegu Falls and get completely soaked.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandiaoling+Waterfall+Trail+Taiwan",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-A-08",
+        "title": "Cross Yangmingshan to Qingtiangang Grassland",
+        "description": "From the sulphur vents and milky hot pools of Lengshuikeng across to a high volcanic plateau of cropped grassland where water buffalo still graze.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Soak your feet in the Lengshuikeng foot bath before you set off.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Qingtiangang+Grassland+Yangmingshan",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "TPE-F-07",
+        "title": "Queue for Breakfast at Fuhang Soy Milk",
+        "description": "Up a grim staircase in the Huashan market building, a breakfast counter worth a forty-minute queue for thick shaobing, fried egg and salty soy milk.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get there before seven or accept the queue as part of it.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Fuhang+Soy+Milk+Taipei",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-F-06",
+        "title": "Eat Your Way Down Ningxia Night Market",
+        "description": "One short street, no souvenir stalls, and the highest concentration of proper Taiwanese street food in the city — oyster omelettes, taro balls, sesame oil chicken.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the stall with the longest queue of locals and join it.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Ningxia+Night+Market+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-F-09",
+        "title": "Sashimi at Addiction Aquatic Development",
+        "description": "A working fish market turned standing sushi bar, oyster counter and seafood grill — you eat off the top of the refrigerated cases with everyone else.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Eat standing at the sushi bar, not sitting in the restaurant.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Addiction+Aquatic+Development+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-F-08",
+        "title": "The Kaiseki Counter at Shoun RyuGin",
+        "description": "Japanese kaiseki technique applied to Taiwanese produce across a long, precise tasting menu — one of the most decorated kitchens in Asia.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Book the counter rather than a table and watch every plate built.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Shoun+RyuGin+Taipei",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "TPE-F-12",
+        "title": "Hot Pot Two Ways at Wulao",
+        "description": "A split pot with milky bone broth on one side and numbing málà on the other, plus the ice cream tofu that everybody orders and nobody expects to work.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Oct–Mar",
+        "spark": 13,
+        "bonus": "Get the ice cream tofu. Do not ask questions first.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Wulao+Hot+Pot+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-F-11",
+        "title": "Taiwanese Craft Beer at Taihu Brewing",
+        "description": "The brewery that started Taiwan's craft beer scene, pouring plum sours, oolong ales and rice lagers that taste like nothing brewed anywhere else.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order whatever is brewed with a tea leaf.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Taihu+Brewing+Taipei",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPE-F-05",
+        "title": "Mango Shaved Ice on Yongkang Street",
+        "description": "A mountain of shaved ice buried under fresh Tainan mango and condensed milk, eaten on a plastic stool on the most food-dense street in Da'an.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 12,
+        "bonus": "Order one between two. It is bigger than it looks in photos.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Smoothie+House+Yongkang+Street+Taipei",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPE-F-10",
+        "title": "Oolong in the Rooms at Wistaria Tea House",
+        "description": "A Japanese-era wooden house where dissidents and writers met through the martial law years, now a teahouse where you brew your own across several hours.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Take the tatami room at the back and stay for a second pot.",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Wistaria+Tea+House+Taipei",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ]
+  }
+}

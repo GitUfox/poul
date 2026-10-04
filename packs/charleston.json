@@ -1,0 +1,797 @@
+{
+  "id": "charleston",
+  "name": "charleston",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "foodie": [
+      {
+        "id": "CHS-F-07",
+        "title": "Brisket at Lewis Barbecue",
+        "description": "Central Texas method transplanted to the Lowcountry — post oak, custom-built pits, and a brisket that justifies the queue.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the beef rib if they still have one when you reach the counter.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Lewis+Barbecue+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-F-09",
+        "title": "Oyster Counter at 167 Raw",
+        "description": "A tiny walk-in-only counter working through Nantucket oysters, lobster rolls and a tuna burger that people queue an hour for.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Put your name down and go have a drink somewhere else while you wait.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/167+Raw+Charleston+SC",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "CHS-F-08",
+        "title": "Lunch Line at Bertha's Kitchen",
+        "description": "A North Charleston cafeteria line run by the same family for decades — lima beans, fried chicken, okra soup and red rice, served on a tray.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Take whatever the woman working the line tells you to take.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Berthas+Kitchen+North+Charleston+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-F-05",
+        "title": "Crab Rice at Hannibal's Kitchen",
+        "description": "A family soul-food kitchen off Upper King serving Gullah staples since 1985 — crab rice, shark steak and okra soup, from breakfast onward.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the crab rice even if it is nine in the morning.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Hannibals+Kitchen+Charleston+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-F-06",
+        "title": "Oyster Roast at Bowens Island",
+        "description": "A cinderblock shack on stilts over the marsh where they shovel steamed local clusters straight onto your table and hand you a knife.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 13,
+        "bonus": "Eat outside on the deck and stay for the sunset over the creek.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Bowens+Island+Restaurant+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-F-10",
+        "title": "Dinner at Chez Nous",
+        "description": "A hidden house on a side street with about thirty seats and a handwritten menu of two starters, two mains and two desserts that changes every single day.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Don't ask what's on the menu beforehand. That's the point.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Chez+Nous+Charleston+SC",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "CHS-F-12",
+        "title": "Dinner at FIG",
+        "description": "Food Is Good — a two-decade Charleston benchmark for Lowcountry ingredients cooked simply, and one of the hardest tables in the city to get.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask for the ricotta gnocchi even if it isn't listed that night.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/FIG+Restaurant+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-F-11",
+        "title": "Southern Larder Dinner at Husk",
+        "description": "The restaurant that reset modern Southern cooking, in a Queen Street mansion where the menu is built only from ingredients grown below the Mason-Dixon line.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Have a drink in the bar building next door before you sit down.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Husk+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "CHS-CU-06",
+        "title": "RiverDogs Game at Riley Park",
+        "description": "Minor league baseball beside the Ashley River, with between-innings promotions that are the actual reason most people go.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 15,
+        "bonus": "Stay for whatever ridiculous promotion runs between innings.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Joseph+P+Riley+Jr+Park+Charleston+SC",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-CU-04",
+        "title": "Spoleto Festival USA",
+        "description": "For seventeen days the entire city becomes a venue — opera, chamber music, theatre and dance in churches, courtyards and the Dock Street Theatre.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 420,
+        "time": "Evening",
+        "season": "Late May–Jun",
+        "spark": 40,
+        "bonus": "Buy a ticket for something in a genre you would never normally choose.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Dock+Street+Theatre+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-CU-07",
+        "title": "International African American Museum",
+        "description": "Built on Gadsden's Wharf, where a very large share of enslaved Africans first landed in North America, the building raised on pillars so the ground stays untouched.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Spend time in the African Ancestors Memorial Garden beneath the building.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/International+African+American+Museum+Charleston+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-CU-08",
+        "title": "Charleston Wine + Food",
+        "description": "Five days in March when the Lowcountry food world takes over Marion Square and a hundred side venues, and every chef in the city is cooking outdoors.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 420,
+        "time": "Afternoon",
+        "season": "Mar",
+        "spark": 40,
+        "bonus": "Skip the Culinary Village once and do a single small signature dinner instead.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Marion+Square+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CHS-CU-02",
+        "title": "The Charleston Museum",
+        "description": "Founded in 1773 and generally reckoned the first museum in America, covering Lowcountry natural history, silver, and the city's own record of itself.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the polar bear, then work out why it's there.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Charleston+Museum+Charleston+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-CU-05",
+        "title": "Old Slave Mart Museum",
+        "description": "The last surviving slave auction building in South Carolina, now a museum telling the history of the domestic trade on the site where it happened.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Read the building's own history panel before the exhibits.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Slave+Mart+Museum+Charleston+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-CU-03",
+        "title": "Aiken-Rhett House Museum",
+        "description": "A townhouse preserved rather than restored — peeling wallpaper left as found, and the enslaved people's quarters, kitchen and stable yard still standing behind it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the back buildings before the main house, not after.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Aiken-Rhett+House+Museum+Charleston+SC",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CHS-CU-01",
+        "title": "Gibbes Museum of Art",
+        "description": "Charleston's art museum, strongest on American work connected to the South, plus a remarkable collection of miniature portraits.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the miniature portrait gallery — it's easy to walk straight past.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Gibbes+Museum+of+Art+Charleston+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "CHS-C-09",
+        "title": "An Afternoon in Hampton Park",
+        "description": "The biggest park on the peninsula, laid out on the old racecourse grounds, with a rose garden, a duck pond and almost no tourists.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the full perimeter loop once before you settle anywhere.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Hampton+Park+Charleston+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-C-05",
+        "title": "Morning Bun at Brown's Court Bakery",
+        "description": "A neighbourhood bakery on a residential corner of Harleston Village doing proper laminated pastry and a flat white worth sitting outside with.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Take it to the churchyard bench a block away.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Browns+Court+Bakery+Charleston+SC",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CHS-C-07",
+        "title": "Browse Blue Bicycle Books",
+        "description": "A King Street used bookstore with a deep Southern literature section and a rare-book room upstairs that most people never go into.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go upstairs and ask to see something from the rare room.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Blue+Bicycle+Books+Charleston+SC",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CHS-C-10",
+        "title": "Gardens at Middleton Place",
+        "description": "The oldest landscaped gardens in the United States, laid out in 1741 as terraces and butterfly lakes stepping down to the Ashley River.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Walk out to the butterfly lakes and look back up the terraces.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Middleton+Place+Charleston+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-C-06",
+        "title": "Golden Hour on the Pitt Street Bridge",
+        "description": "The remains of the old trolley bridge to Sullivan's Island, now a pier into the marsh where locals walk dogs and watch the light go.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay until the marsh grass turns orange.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Pitt+Street+Bridge+Mount+Pleasant+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-C-08",
+        "title": "Sunset Sail on Charleston Harbor",
+        "description": "Go out under sail from the Maritime Center and watch the peninsula, the Ravenel Bridge and Fort Sumter go past from the water.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Mar–Nov",
+        "spark": 25,
+        "bonus": "Ask to help raise the mainsail.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Charleston+Maritime+Center+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "CHS-8B-01",
+        "title": "Pick a Street and Follow It to the Water",
+        "description": "Choose any street south of Calhoun you have never walked down, and follow it until it dead-ends at water. Whatever is there is the plan.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Take every alley and cut-through you pass on the way.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/South+of+Broad+Charleston+SC",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-8B-02",
+        "title": "Cross the Harbor and Eat Wherever You Land",
+        "description": "Take the water taxi from the Maritime Center across to Patriots Point, then walk inland from the dock and eat at the first place that looks busy.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Mar–Nov",
+        "spark": 22,
+        "bonus": "No reviews, no searching. First busy room wins.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Charleston+Water+Taxi+Charleston+SC",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "CHS-S-09",
+        "title": "Live Music at the Royal American",
+        "description": "A low-slung roadhouse on the Morrison Drive industrial strip with a covered porch, cheap drinks and a genuinely good booking calendar.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get there early enough to sit on the porch before the set.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Royal+American+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CHS-S-05",
+        "title": "Rooftop Beers at Revelry Brewing",
+        "description": "A small East Side brewery whose rooftop deck looks straight back at the peninsula skyline, with a taplist that turns over constantly.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get up to the roof before sunset, not after.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Revelry+Brewing+Charleston+SC",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CHS-S-12",
+        "title": "Bowling and Shuffleboard at the Alley",
+        "description": "A downtown bowling alley with shuffleboard, arcade cabinets and a kitchen doing bar food well above the standard the room suggests.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Play shuffleboard rather than bowling if the lanes are full.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Alley+Charleston+SC",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-S-08",
+        "title": "PBR and Tots at the Recovery Room",
+        "description": "A gloriously unpretentious dive that reliably sells more cans of Pabst than almost any bar in America, with tater tots to match.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the tot-chos for the table.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Recovery+Room+Tavern+Charleston+SC",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CHS-S-11",
+        "title": "Work Your Way Up King Street",
+        "description": "One of the densest bar strips in the Southeast — start below Calhoun and move north, one drink per room, until the crowd changes character.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Only go into places you have never been.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Upper+King+Street+Charleston+SC",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CHS-S-06",
+        "title": "Cocktails at the Gin Joint",
+        "description": "A dark East Bay room doing pre-Prohibition drinks properly, with a Bartender's Choice card where you name four adjectives and they build from that.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order off the Bartender's Choice card and don't specify a spirit.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Gin+Joint+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CHS-S-07",
+        "title": "Late Night at the Belmont",
+        "description": "An Upper King bar with pressed tin, a film projector running silent movies on the brick, and one of the best classic cocktail programmes in town.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Sit where you can see the projection wall.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Belmont+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CHS-S-10",
+        "title": "Rooftop at Stars",
+        "description": "An Upper King rooftop with steeple views across the peninsula and a bar that stays busy long after the dining room downstairs empties.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Find the corner of the deck that looks straight down King Street.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Stars+Rooftop+and+Grill+Room+Charleston+SC",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "adventure": [
+      {
+        "id": "CHS-A-08",
+        "title": "Ferry to Bulls Island and Boneyard Beach",
+        "description": "A ferry from Garris Landing into Cape Romain National Wildlife Refuge, then a three-mile walk across the island to a beach of salt-bleached skeleton trees.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Walk the full length of Boneyard Beach before the return ferry.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Garris+Landing+Awendaw+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-A-12",
+        "title": "Hike the Awendaw Passage",
+        "description": "The coastal terminus of the Palmetto Trail, running seven miles of tidal creek edge and pine flatwoods out of Buck Hall on the Intracoastal.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 15,
+        "bonus": "Turn around at the first creek overlook and walk it in both directions.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Buck+Hall+Recreation+Area+Awendaw+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-A-06",
+        "title": "Beach Day on Sullivan's Island",
+        "description": "Wide, uncrowded sand with no high-rises and no commercial strip — park on a residential street, walk over the dunes, and that is the day.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Walk down to the Station 28 end where the crowd thins out.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Sullivans+Island+Beach+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-A-07",
+        "title": "Kiteboarding Lesson at Isle of Palms",
+        "description": "Steady onshore wind and warm shallow water make this coast one of the friendliest places in the country to learn to fly a kite and get up on a board.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Mar–Oct",
+        "spark": 26,
+        "bonus": "Stay out until you can ride twenty yards in one direction.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Isle+of+Palms+County+Park+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-A-10",
+        "title": "Boneyard Beach at Botany Bay",
+        "description": "An Edisto Island wildlife preserve where a drowned maritime forest stands in the surf, reachable on a free permit and a half-mile walk.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "Full day",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Go at sunrise when the light comes through the dead trunks.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Botany+Bay+Plantation+Heritage+Preserve+Edisto+Island+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-A-05",
+        "title": "Paddle to the Morris Island Lighthouse",
+        "description": "Kayak out through the Folly River marsh to a brick lighthouse standing alone in open water, cut off from its island by a century of erosion.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 24,
+        "bonus": "Time it for low tide so you can stand on the sandbar beside it.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Morris+Island+Lighthouse+Folly+Beach+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-A-11",
+        "title": "Boardwalk the Blackwater at Beidler Forest",
+        "description": "A mile and a half of boardwalk through the largest remaining stand of virgin bald cypress and tupelo anywhere, some of it a thousand years old.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop at every bench and just listen for five minutes.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Francis+Beidler+Forest+Harleyville+SC",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CHS-A-09",
+        "title": "Watch Dolphins Strand Feed at Kiawah",
+        "description": "Kiawah's bottlenose dolphins drive fish onto the mud bank and beach themselves to eat — a hunting behaviour practised almost nowhere else on earth.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 25,
+        "bonus": "Get there on a falling tide and wait rather than walking the bank.",
+        "city": "Charleston, SC",
+        "mapsUrl": "https://maps.google.com/maps/search/Beachwalker+County+Park+Kiawah+Island+SC",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

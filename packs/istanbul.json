@@ -508,21 +508,6 @@
         "bonus": "Challenge someone to a game using only hand gestures — no translation apps allowed.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Kıraathane+Fatih+Istanbul"
-      },
-      {
-        "id": "ISTA-S-01",
-        "title": "Rakı Night at Münferit, Beyoğlu",
-        "description": "Münferit is a convivial modern meyhane on Yeniçarşı Caddesi that attracts Istanbul's creative crowd for long evenings of rakı, meze, and uninhibited conversation.",
-        "rarity": "Rare",
-        "cost": "$$",
-        "duration": "3–4 hrs",
-        "durationMins": 210,
-        "time": "Evening",
-        "season": "Year Round",
-        "spark": 25,
-        "bonus": "Introduce yourself to the table next to you within the first twenty minutes and get a restaurant recommendation from them before you leave.",
-        "city": "Istanbul, Turkey",
-        "mapsUrl": "https://www.google.com/maps/search/Münferit+Beyoğlu+Istanbul"
       }
     ],
     "foodie": [

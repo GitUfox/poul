@@ -1,0 +1,1177 @@
+{
+  "id": "krakow",
+  "name": "krakow",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "KRK-S-10",
+        "title": "Twenty-Five Taps at Weźże Krafta",
+        "description": "A rotating wall of twenty-five Polish craft taps in a garden beside the Galicia Jewish Museum, with Neapolitan pizza to keep you upright.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order only Polish breweries all night and find a stout worth writing down.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Wezze+Krafta+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-08",
+        "title": "Bar-Hop the Old Tobacco Factory",
+        "description": "Fifteen thousand square metres of 1870s cigarette factory at Dolnych Młynów 10, now thirty-odd bars, kitchens and studios around a courtyard the students never leave.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Have exactly one drink in four different places without repeating a style.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Dolnych+Mlynow+10+Krakow",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-12",
+        "title": "Cabaret at Piwnica pod Baranami",
+        "description": "The legendary literary cabaret that ran underground through the communist decades, still performing in its original cellar on the Main Square with the same company of singers.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Stay to the end even though you won't catch every joke.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Piwnica+pod+Baranami+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-02",
+        "title": "Find the Door at Mercy Brown",
+        "description": "Kraków's original speakeasy: no sign, a hidden courtyard, a coat check and a flight of stairs, then a 1920s room with burlesque and live jazz and a bar on the world's top-500 list.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Find the entrance without looking up directions.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Mercy+Brown+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-06",
+        "title": "The Back Garden at Eszeweria",
+        "description": "The most convincingly pre-war room in Kazimierz, chipped mirrors, oil lamps and sagging sofas, with a lilac-scented garden behind it in warm weather.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit in the garden until you lose track of what time it is.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Eszeweria+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-05",
+        "title": "Drinks in a Former Prayer House at Hevre",
+        "description": "A nineteenth-century Kazimierz prayer house left deliberately unrestored, faded Hebrew murals and all, now serving unpasteurised tank Pilsner until four in the morning.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the surviving wall painting behind the bar and work out what it says.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Hevre+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-01",
+        "title": "A Hundred Vodkas at Wódka Cafe Bar",
+        "description": "A single narrow room off Mały Rynek that has been pouring around a hundred flavoured vodkas since 2003, from chilli to Earl Grey to blackthorn.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get a flight of four and rank them before anyone tells you what they were.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Wodka+Cafe+Bar+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-07",
+        "title": "Three Floors of Techno at Prozak 2.0",
+        "description": "A cellar club under Plac Domenikański with three dancefloors, four bars and a Funktion-One rig, running from ten at night until six in the morning.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Find all three dancefloors before you settle on one.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Prozak+2.0+Krakow",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-09",
+        "title": "Sewing-Machine Tables at Singer",
+        "description": "One of the first bars to open in Kazimierz, where the tables are antique Singer machines and you can still work the treadle with your feet while you drink.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get the treadle going fast enough that someone asks you to stop.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Singer+Cafe+Estery+Krakow",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-11",
+        "title": "Nightly Jazz at Harris Piano Jazz Bar",
+        "description": "A brick cellar directly under the Main Square that puts on a live set every single night of the year, from standards to free improvisation.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get a table close enough to the piano to watch the pianist's hands.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Harris+Piano+Jazz+Bar+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-04",
+        "title": "Candlelight and Jazz at Alchemia",
+        "description": "The bar that made Kazimierz what it is: a warren of small rooms full of dripping candles and junk-shop furniture, with live music in the cellar most nights.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the smallest room in the place and claim it for the night.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Alchemia+Estery+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-S-03",
+        "title": "Tank Beer at Stara Zajezdnia",
+        "description": "A converted 1900s tram depot in Kazimierz holding the city's longest bar, its own microbrewery, and a deckchair garden out the back in summer.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Try all four house beers and pick the one the brewery should be known for.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Stara+Zajezdnia+Krakow",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "KRK-C-09",
+        "title": "Finjan Coffee at Cheder",
+        "description": "A former Kazimierz prayer house run by the Jewish Culture Festival, where the coffee is brewed in a brass finjan and the shelves hold a lending library of Jewish history.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pull a book off the shelf and read a chapter before you leave.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Cheder+Cafe+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-C-10",
+        "title": "The Lilac Garden at Mleczarnia",
+        "description": "A walled Kazimierz courtyard garden across the street from the bar itself, all mismatched chairs under the trees, open from April until the weather turns.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Order the hot beer with cloves at least once, ironically or not.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Mleczarnia+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-C-03",
+        "title": "An Afternoon Upstairs at Massolit",
+        "description": "An English-language bookshop in a set of old apartment rooms, with a café at the back, homemade cake, and armchairs nobody will move you out of.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Leave with a book by a Polish author you'd never heard of.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Massolit+Books+Cafe+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-C-01",
+        "title": "Glass Terrace Coffee at Bunkier",
+        "description": "A glassed-in conservatory jutting into the Planty gardens beside the modern art gallery, leafy in summer, sealed and warm in winter, good coffee all year.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the seat closest to the glass and watch the park instead of your phone.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Bunkier+Cafe+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-C-08",
+        "title": "Pour-Over at Karma Roasters",
+        "description": "Kraków's original specialty roastery on Krupnicza, pulling single origins on a Synesso and making its own kombucha and vegan cakes to go with them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the same bean as espresso and as filter and taste the difference back to back.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Karma+Coffee+Krupnicza+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-C-02",
+        "title": "Lap the Planty Ring",
+        "description": "Four kilometres of park laid out on the line of the demolished city walls, circling the entire Old Town under old chestnuts and limes.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the whole ring without cutting across the middle once.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Planty+Park+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-C-07",
+        "title": "Art House Night at Kino Pod Baranami",
+        "description": "Three small screens inside a palace on the Main Square, showing European cinema in the original language and running festivals and all-night marathons.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Pick the film with the title you understand least.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Kino+Pod+Baranami+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-C-04",
+        "title": "Soak in the Chochołów Thermal Pools",
+        "description": "Poland's largest thermal complex, geothermal water pumped from three kilometres down into outdoor pools with the Tatra ridge line on the horizon.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Sit in the outdoor pool until your hair freezes.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Chocholowskie+Termy",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-C-06",
+        "title": "Picnic on Bulwar Czerwieński",
+        "description": "The grassy Vistula embankment directly under Wawel, where half the city sits out on summer evenings with bread, cheese and a blanket while the river barges go past.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 13,
+        "bonus": "Stay long enough that the castle floodlights come on above you.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Bulwar+Czerwienski+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-C-05",
+        "title": "The Jagiellonian Botanical Garden",
+        "description": "Poland's oldest botanical garden, founded in 1783, with Victorian palm houses and a 200-year-old plane tree, ten minutes' walk east of the Old Town and almost always empty.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Find the oldest tree in the garden and sit under it for ten minutes.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Ogrod+Botaniczny+UJ+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "KRK-CU-05",
+        "title": "Lady with an Ermine at the Czartoryski",
+        "description": "One of only around fifteen surviving Leonardo paintings, hanging in a rebuilt aristocratic palace museum, in its own room and worth the trip on its own.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stand with it for a full five minutes before you look at anything else.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Czartoryski+Museum+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-CU-01",
+        "title": "The State Rooms at Wawel",
+        "description": "The Polish kings' own castle on its limestone rock, with Flemish tapestries, the Crown Treasury, and a coffered ceiling studded with carved human heads.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Count how many of the carved heads on the Envoys' Hall ceiling survive.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Wawel+Royal+Castle+Krakow",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-CU-08",
+        "title": "Galicia Jewish Museum",
+        "description": "A Kazimierz warehouse hung with photographs of what is physically left of Jewish Galicia, overgrown cemeteries and converted synagogues, rather than another chronology of the war.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick the one photograph you'd want to go and stand in front of yourself.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Galicia+Jewish+Museum+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-CU-03",
+        "title": "Auschwitz-Birkenau Memorial",
+        "description": "An hour and a half west of Kraków, the preserved camps and the state museum built inside them: the single most important thing you can do from this city, and the hardest.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Book the extended study tour rather than the standard one, and don't rush Birkenau.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Auschwitz+Birkenau+Memorial+Oswiecim",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-CU-06",
+        "title": "The Hejnał from St Mary's Tower",
+        "description": "A trumpeter has played the hejnał from the taller tower every hour for centuries, always breaking off mid-note; inside is Veit Stoss's vast carved altarpiece.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Be standing in the square on the hour and spot which window the trumpet comes from.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/St+Marys+Basilica+Krakow",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-CU-04",
+        "title": "Schindler's Factory",
+        "description": "The enamel works itself, turned into an immersive museum of Kraków under occupation, reconstructed tram carriages, ghetto streets and Schindler's actual office.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Walk from here to the surviving fragment of the ghetto wall afterwards.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Schindler+Factory+Museum+Krakow",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-CU-02",
+        "title": "Rynek Underground",
+        "description": "Four metres below the Main Square, the excavated medieval market laid out exactly as it was found, with holograms of traders projected into the old streets.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the medieval road surface and stand on the original cobbles.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Rynek+Underground+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-CU-07",
+        "title": "MOCAK Contemporary Art",
+        "description": "A purpose-built contemporary art museum in the old factory yard next to Schindler's, deliberately programmed as the argumentative counterweight to Kraków's heritage.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find one piece you actively dislike and work out why.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/MOCAK+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "KRK-8B-01",
+        "title": "Wildcard: Plac Nowy Until the Window Closes",
+        "description": "Start at any bar on Plac Nowy, move one door along every time you finish a drink, and don't stop until you're back at the zapiekanka window at closing time.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Talk to someone new at every single stop.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Plac+Nowy+Krakow",
+        "filterExempt": true,
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-8B-02",
+        "title": "Wildcard: Milk Bar Roulette",
+        "description": "Walk into any bar mleczny, order the third thing on the board whatever it is, and eat the whole thing before you look up what you just had.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Do it in two different milk bars in one afternoon.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Mleczny+Krakow",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "KRK-F-03",
+        "title": "Pierogi Flight at Przystanek Pierogarnia",
+        "description": "Hand-pinched dumplings sold by the half-portion, so you can work through ruskie, lentil-and-carrot and the sweet ones in a single sitting.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order one filling you can't translate.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Przystanek+Pierogarnia+Krakow",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-F-07",
+        "title": "Morning Haul at Stary Kleparz",
+        "description": "Six hundred years of continuous trading just outside the old walls: smoked oscypek, sour cream by the tub, forest mushrooms in season and no gift shops.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy something you can't identify and ask the seller how to cook it.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Stary+Kleparz+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-F-06",
+        "title": "Hummus Breakfast at Hamsa",
+        "description": "Israeli breakfast on Szeroka Street, straight across from the old synagogues: warm hummus, shakshuka and far too much pita, from nine in the morning.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Finish the bowl using only bread, no cutlery.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Hamsa+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-F-08",
+        "title": "Shape Your Own Obwarzanek",
+        "description": "An hour in a working bakery museum learning to plait and boil the braided ring bread that has been sold from Kraków street carts for centuries and now carries EU protected status.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Plait yours tightly enough that it survives the boiling without unravelling.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Zywe+Muzeum+Obwarzanka+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-F-05",
+        "title": "House-Infused Vodka at Starka",
+        "description": "Interwar Kazimierz recreated in one room: slow-cooked duck, potato pancakes, and a row of the restaurant's own infusions in unlabelled bottles behind the bar.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Let the waiter pick your infusion instead of reading the list.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Starka+Restaurant+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-F-04",
+        "title": "Milk-Bar Lunch at Pod Temidą",
+        "description": "A surviving communist-era canteen on Grodzka where a full plate of żurek, pierogi and fruit compote still costs less than a cocktail.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order entirely by pointing at the board, no English.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Mleczny+Pod+Temida+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-F-01",
+        "title": "Zapiekanka at Endzior",
+        "description": "Half a metre of open-faced baguette loaded with mushrooms and cheese, handed over the counter of the round market hall on Plac Nowy until two in the morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order it with the full complement of sauces and eat it standing up.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Endzior+Plac+Nowy+Krakow",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-F-02",
+        "title": "Two Michelin Stars at Bottiglieria 1881",
+        "description": "Twenty seats in a Kazimierz cellar and the only two-star kitchen in Poland, where Przemysław Klima rebuilds Polish dishes from the ground up, course by course.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the wine pairing and let the sommelier choose blind for one course.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Bottiglieria+1881+Krakow",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-F-09",
+        "title": "Cheesecake at Cafe Camelot",
+        "description": "A low-ceilinged Old Town room full of folk carvings and candle stubs, serving the best sernik in the centre to people who have clearly been coming for twenty years.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay for a second pot of tea and finish whatever you're reading.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Camelot+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-F-10",
+        "title": "Vegan Sushi at Youmiko",
+        "description": "A tiny Kazimierz counter doing fish-free nigiri that has no business being this good: fermented vegetables, smoked tofu, and a tasting set built in front of you.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Take the tasting menu and eat every piece in the order it's handed to you.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Youmiko+Sushi+Krakow",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-F-12",
+        "title": "Pork Knuckle and a Litre at Pod Wawelem",
+        "description": "A vast beer hall at the foot of Wawel where the portions are deliberately absurd and the standard measure is a litre in a handled mug.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Split one knuckle three ways and admit you still couldn't finish it.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Pod+Wawelem+Kompania+Kuflowa+Krakow",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KRK-F-11",
+        "title": "Highlander Dinner at Morskie Oko",
+        "description": "An art nouveau house on Plac Szczepański fitted out as a Tatra lodge, with open fires, grilled sheep's cheese and a live highland band that does not do quiet.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay for the moment the band tries to get the whole room singing.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Morskie+Oko+Restaurant+Plac+Szczepanski+Krakow",
+        "company": [
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "KRK-A-12",
+        "title": "Climb the Twardowski Rocks",
+        "description": "Bolted limestone walls rising straight out of the Zakrzówek park, the crag where generations of Polish alpinists learned to climb, ten minutes from Kazimierz.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Lead a route, however easy, instead of only seconding.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Skalki+Twardowskiego+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-04",
+        "title": "135 Metres Down in the Wieliczka Salt Mine",
+        "description": "Seven centuries of tunnels cut through rock salt, including a full underground cathedral with chandeliers and altarpieces carved from the walls themselves.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Lick the wall once, discreetly, to confirm it really is salt.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Wieliczka+Salt+Mine",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-14",
+        "title": "Trail of the Eagles' Nests to Rabsztyn",
+        "description": "A stretch of the medieval castle trail across the Jura's white rock outcrops, ending at a hilltop ruin rebuilt just enough to climb.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Get to the top of the keep and pick out the next castle along the ridge line.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Rabsztyn+Castle+Poland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-01",
+        "title": "Whitewater on the Kolna Slalom Course",
+        "description": "A 320-metre artificial whitewater channel on the edge of the city where Olympic slalom paddlers train, open to anyone willing to take an instructor and get soaked.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 25,
+        "bonus": "Run the course a second time without capsizing.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Cracow+Kayak+Club+Kolna+Krakow",
+        "company": [
+          "solo",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-15",
+        "title": "Slides and Saunas at Park Wodny",
+        "description": "Poland's original big aquapark: eight hundred metres of slides, a wild river and a serious saunarium, which is exactly what a grey Kraków afternoon calls for.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the fastest slide first, before you have time to think about it.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Park+Wodny+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-08",
+        "title": "Raft the Dunajec Gorge",
+        "description": "Eighteen kilometres through the Pieniny limestone gorge on lashed-together wooden rafts, punted by highlanders in embroidered waistcoats who have run this river for generations.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 26,
+        "bonus": "Get your raftsman to tell you which cliff has the legend attached.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Splyw+Dunajcem+Sromowce+Katy",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-02",
+        "title": "Sunset on the Kościuszko Mound",
+        "description": "A spiral path up a 34-metre earthwork raised by hand in the 1820s, ending on a ring wall with the whole city on one side and the Tatras on the other.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick out both the Wawel roof and the steelworks chimneys from the same spot.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Kosciuszko+Mound+Krakow",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-10",
+        "title": "Nowa Huta in a Trabant",
+        "description": "Kraków's Stalinist steel-town district toured in a two-stroke Trabant, with stops at a shop kept in 1950s trim and a workers' canteen that never changed.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the wheel long enough to stall it at least once.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Crazy+Guides+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-03",
+        "title": "Swim the Zakrzówek Quarry Lagoon",
+        "description": "Turquoise water in a flooded limestone quarry ringed by white cliffs, with lifeguarded floating pools that only open for about eleven weeks a year.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 24,
+        "bonus": "Get there early enough to beat the 300-person daily cap.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Zakrzowek+Krakow",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-16",
+        "title": "Walk Dolina Kościeliska",
+        "description": "The gentlest of the great Tatra valleys: a flat limestone trough between vertical walls, with a cave partway up and a shepherds' hut serving sour milk at the top.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 15,
+        "bonus": "Take the side path up to the Mroźna cave and go in.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Dolina+Koscieliska+Tatra",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-06",
+        "title": "Cycle the Vistula to Tyniec Abbey",
+        "description": "Twelve flat kilometres of riverside path out of the city to an eleventh-century Benedictine abbey standing on a white limestone bluff above the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Buy the monks' bread at the abbey shop and eat it on the bluff.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Tyniec+Abbey+Krakow",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-11",
+        "title": "Ride Las Wolski to the Piłsudski Mound",
+        "description": "A proper climb on gravel forest roads through the city's big western woodland to the tallest of Kraków's four memorial mounds.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Make it to the top without putting a foot down.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Kopiec+Pilsudskiego+Krakow",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KRK-A-09",
+        "title": "Beach Day at Bagry Lagoon",
+        "description": "A former gravel pit turned city swimming lake fifteen minutes from the Old Town, with a sand beach, a sailing club and almost no tourists.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Jun–Aug",
+        "spark": 13,
+        "bonus": "Swim out to the far buoy line and back.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Zalew+Bagry+Krakow",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-13",
+        "title": "Cable Car up Kasprowy Wierch",
+        "description": "A 1936 cableway out of Zakopane that lifts you to a 1,987-metre summit straddling the Slovak border, where the ridge walks start straight off the platform.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Walk at least as far as the next saddle rather than turning round at the café.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Kasprowy+Wierch+Cable+Car",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-05",
+        "title": "Ojców Valley to Pieskowa Skała",
+        "description": "Poland's smallest national park: a limestone gorge full of caves and freestanding rock pillars, walked end to end to a Renaissance castle perched on a cliff.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Find the Hercules' Club pillar and get a photo where it looks about to topple.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Ojcow+National+Park",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KRK-A-07",
+        "title": "Morskie Oko Before the Crowds",
+        "description": "The Tatras' most famous lake, a black glacial eye under 2,000-metre walls, worth the pre-dawn start from Kraków to walk the access road in the cold and briefly have it to yourself.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "10 hrs",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Carry on up to Czarny Staw above it while everyone else stops at the hut.",
+        "city": "Kraków, Poland",
+        "mapsUrl": "https://maps.google.com/maps/search/Morskie+Oko+Tatra",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

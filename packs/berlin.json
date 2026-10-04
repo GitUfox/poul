@@ -1,0 +1,777 @@
+{
+  "id": "berlin",
+  "name": "berlin",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "BER-CU-04",
+        "title": "Contemporary Art at Hamburger Bahnhof",
+        "description": "A disused railway station the size of an aircraft hangar, filled with Beuys, Warhol and whatever is very current.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go into the far hall first and work backwards.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Hamburger+Bahnhof+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-CU-06",
+        "title": "The Stasi Museum in Lichtenberg",
+        "description": "Walk Erich Mielke's preserved offices and the collection of cameras hidden in watering cans, birdhouses and buttons.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the smallest concealed camera in the collection.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Stasi+Museum+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-CU-01",
+        "title": "Nefertiti at the Neues Museum",
+        "description": "Stand in front of a 3,300-year-old painted bust in a domed room built to hold nothing else.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Walk the whole Egyptian wing before you go to her.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Neues+Museum+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-CU-03",
+        "title": "Topography of Terror",
+        "description": "Walk an outdoor documentation trench along a surviving stretch of Wall, on the ground where the Gestapo headquarters stood.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Read the outdoor panels end to end before going inside.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Topography+of+Terror+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-CU-02",
+        "title": "Modern Berlin at the Berlinische Galerie",
+        "description": "A big bright hall of the city's own art — Dada, Neue Sachlichkeit, divided-city photography — that most visitors skip entirely.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find one work made the year the Wall went up.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Berlinische+Galerie+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-CU-07",
+        "title": "A Concert at the Konzerthaus",
+        "description": "A classical evening on Gendarmenmarkt in a Schinkel building rebuilt from ruins, on one of the best squares in Europe.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 24,
+        "bonus": "Arrive early and walk the square at dusk first.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Konzerthaus+Berlin",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-CU-05",
+        "title": "The Philharmonie",
+        "description": "Hear the Berliner Philharmoniker in Scharoun's vineyard-terraced hall, where no seat is far from the conductor.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 28,
+        "bonus": "Book a seat behind the orchestra and watch the conductor's face.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Berliner+Philharmonie+Berlin",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-CU-08",
+        "title": "Opera at the Staatsoper Unter den Linden",
+        "description": "A full production in the state opera house on the boulevard, restored to its 1740s proportions with modern acoustics hidden inside.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 42,
+        "bonus": "Dress properly and get a drink at the interval.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Staatsoper+Unter+den+Linden+Berlin",
+        "company": [
+          "couple"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "BER-S-10",
+        "title": "Down in the Vault at Tresor",
+        "description": "Go underground into a former power plant, through the long strobing corridor, into the room that gave Berlin techno its name.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 42,
+        "bonus": "Go down to the basement floor and stay for an hour.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Tresor+Berlin",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BER-S-07",
+        "title": "Karaoke at Monster Ronson's",
+        "description": "Take the main stage in front of a full room, or hide in a private booth. Both are correct.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 17,
+        "bonus": "Take the main stage, not the booth.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Monster+Ronsons+Ichiban+Karaoke+Berlin",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BER-S-11",
+        "title": "Open-Air Cinema at Freiluftkino Kreuzberg",
+        "description": "Watch a film on a wall in a courtyard under actual trees, with a beer, in the dark, in summer.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 16,
+        "bonus": "Bring a blanket — it gets cold about halfway through.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Freiluftkino+Kreuzberg+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-S-12",
+        "title": "Sunday Open Air at about blank",
+        "description": "The garden opens in the afternoon and does not really close, with a crowd that treats Sunday as the main event.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 24,
+        "bonus": "Arrive in daylight, leave in daylight.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/about+blank+Berlin",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BER-S-09",
+        "title": "Späti Beers on the Admiralbrücke",
+        "description": "Buy a bottle from a corner shop and sit on the bridge railings in Kreuzberg with everyone else doing exactly the same thing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 12,
+        "bonus": "Stay until someone brings out a guitar, then leave.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Admiralbrucke+Berlin",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BER-S-08",
+        "title": "Techno Boat Party on the Spree",
+        "description": "Four hours on a boat with a sound system, going nowhere in particular past the East Side Gallery.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 25,
+        "bonus": "Be on the top deck when it passes the Oberbaumbrücke.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Spree+River+Berlin",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BER-S-05",
+        "title": "Round-the-Table Ping Pong at Dr. Pong",
+        "description": "One table, one bat each, a room full of strangers circling it, and beer. Last one standing wins.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay in until you are the last two.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Dr+Pong+Berlin",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BER-S-06",
+        "title": "A Night at Sisyphos",
+        "description": "A former dog-biscuit factory turned permanent festival, with sand, fires, several floors and no sense of time at all.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Find the outdoor stage and stay for sunrise.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Sisyphos+Berlin",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "foodie": [
+      {
+        "id": "BER-F-06",
+        "title": "Beer Garden at Prater",
+        "description": "Drink under chestnut trees in the oldest beer garden in the city, open since 1837, where you carry your own tray.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Sep",
+        "spark": 15,
+        "bonus": "Order a Berliner Weisse with the green syrup and drink it anyway.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Prater+Garten+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BER-F-05",
+        "title": "The Queue at Mustafas Gemüse Kebap",
+        "description": "Stand in the famous line at a Kreuzberg window for a chicken kebab loaded with roasted vegetables and feta.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go at an odd hour and see if the queue is ever actually short.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Mustafas+Gemuse+Kebap+Berlin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-F-11",
+        "title": "Natural Wine and Small Plates at Otto",
+        "description": "A short, sharp seasonal menu in a stripped-back Prenzlauer Berg room, with a wine list of things you have not heard of.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Let them pour you something you cannot pronounce.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Otto+Restaurant+Berlin",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BER-F-10",
+        "title": "Cake at Café Anna Blume",
+        "description": "Take the corner table on the Prenzlauer Berg pavement and order the breakfast that arrives on a three-tier cake stand.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the tiered breakfast for two even if there is one of you.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Anna+Blume+Berlin",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-F-07",
+        "title": "The Counter at Nobelhart & Schmutzig",
+        "description": "Sit at a counter around an open kitchen for a menu built entirely from ingredients grown within reach of the city — no pepper, no lemon, no olive oil.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 46,
+        "bonus": "Ask why there is no black pepper and listen to the whole answer.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Nobelhart+und+Schmutzig+Berlin",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-F-12",
+        "title": "Cinnamon Rolls at Zeit für Brot",
+        "description": "Eat a warm, sticky, pull-apart Zimtschnecke straight from the counter of a bakery that mills its own flour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get the nut one too and decide which wins.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Zeit+fur+Brot+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-F-08",
+        "title": "Pho and Summer Rolls at Monsieur Vuong",
+        "description": "A bright red Mitte room with a menu of four dishes that changes weekly and a queue that never quite ends.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the weekly special without asking what it is.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Monsieur+Vuong+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-F-09",
+        "title": "Brunch at House of Small Wonder",
+        "description": "Climb a white spiral staircase into a plant-filled Japanese-Brooklyn breakfast room hidden above a Mitte courtyard.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 21,
+        "bonus": "Get there before ten or plan to wait.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/House+of+Small+Wonder+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "BER-A-09",
+        "title": "Kayak the Spree from Treptower Park",
+        "description": "Paddle out past the old harbour cranes and the Molecule Man sculpture standing in the middle of the river.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 23,
+        "bonus": "Get close enough to Molecule Man to see the holes.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Treptower+Park+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-A-14",
+        "title": "Night Ride to the Oberbaumbrücke",
+        "description": "Cycle the river after dark and cross the double-decker brick bridge with the U-Bahn rattling overhead.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 20,
+        "bonus": "Stop in the middle and watch one train go over.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Oberbaumbrucke+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-A-11",
+        "title": "The Ruined Fairground at Spreepark",
+        "description": "Walk a guided route through an abandoned GDR amusement park being slowly reclaimed as an art site, fallen dinosaurs and ferris wheel included.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 18,
+        "bonus": "Find the fallen dinosaurs.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Spreepark+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-A-10",
+        "title": "Ride the Berlin Wall Trail",
+        "description": "160 kilometres of cycle path tracing where the Wall stood, through forest, suburbs and surviving watchtowers, over one very long day or two easy ones.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "10 hrs",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 42,
+        "bonus": "Stop at every surviving watchtower you pass.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Berliner+Mauerweg+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-A-12",
+        "title": "The Reichstag Dome at Sunset",
+        "description": "Spiral up Norman Foster's glass dome above the parliament chamber, free, with the city going pink through the glass.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Register online at least a week ahead — walk-ups do not get in.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Reichstag+Building+Berlin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-A-13",
+        "title": "Hike Grunewald to the Drachenberg",
+        "description": "Climb a hill built from the rubble of the bombed city for a full circle of forest and skyline.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 20,
+        "bonus": "Take the Drachenberg, not the Teufelsberg, and have it to yourself.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Drachenberg+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-A-05",
+        "title": "Swim in the Spree at Badeschiff",
+        "description": "A swimming pool floating in the river, with a deck full of people and the industrial east bank behind it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 16,
+        "bonus": "Swim a full length without stopping.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Badeschiff+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-A-07",
+        "title": "Sanssouci and the Potsdam Park",
+        "description": "Half an hour by S-Bahn to a hillside of terraced vineyards, follies and a rococo palace built for one king to be alone in.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 24,
+        "bonus": "Walk to the Chinese House and the Orangery instead of stopping at the palace.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Sanssouci+Palace+Potsdam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-A-08",
+        "title": "Climb the Siegessäule",
+        "description": "285 steps up a gold-topped victory column in the middle of a roundabout, for the straightest view down the Tiergarten axis.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Count the steps on the way up and check yourself at the top.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Siegessaule+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-A-06",
+        "title": "A Day at Schlachtensee",
+        "description": "Take the S-Bahn southwest to a forest lake where Berliners swim, walk the shore loop and drink beer on the bank.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Walk the full shore loop before you get in.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Schlachtensee+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "BER-C-07",
+        "title": "Float in the Dark at Liquidrom",
+        "description": "Lie back in a warm saltwater pool under a domed ceiling while music plays underwater and the lights move overhead.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Stay in the dome pool for one full track with your ears under.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Liquidrom+Berlin",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BER-C-10",
+        "title": "The Peacocks of Pfaueninsel",
+        "description": "Take a two-minute ferry to a Havel island of white peacocks, meadows and a folly castle built as a ruin on purpose.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Find a white peacock and wait for it to open.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Pfaueninsel+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BER-C-05",
+        "title": "The Waterfall in Viktoriapark",
+        "description": "Climb a small vineyard-covered hill in Kreuzberg to an artificial waterfall that runs straight down into the neighbourhood.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Walk up the waterfall side, not the path.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Viktoriapark+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-C-08",
+        "title": "The Courtyards of the Hackesche Höfe",
+        "description": "Walk through eight linked art nouveau courtyards, each one tiled differently, off a street most people never leave.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get all the way to the eighth courtyard.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Hackesche+Hofe+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-C-06",
+        "title": "Coffee at Bonanza in Kreuzberg",
+        "description": "Sit with a filter coffee from the roastery that helped start Berlin's third-wave scene and watch the street go by.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order a filter, not an espresso drink, and taste it black first.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Bonanza+Coffee+Roasters+Berlin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BER-C-09",
+        "title": "Sunset on the Klunkerkranich Roof",
+        "description": "Climb to a garden bar built on top of a Neukölln shopping centre car park for the flattest, widest sunset in the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 17,
+        "bonus": "Get there an hour before sunset to actually get a seat.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Klunkerkranich+Berlin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "vienna",
+  "name": "vienna",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "VIE-CU-02",
+        "title": "Klimt's The Kiss at the Upper Belvedere",
+        "description": "The gold-leaf painting everyone has seen reproduced, hanging in a baroque palace room where you finally see how much of it is actual metal.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Look at it for a full two minutes before taking any photo.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Upper+Belvedere+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-CU-06",
+        "title": "Morning Exercise at the Spanish Riding School",
+        "description": "For a fraction of the price of a gala you sit in the baroque Winter Riding School and watch the Lipizzaners do their actual daily training to classical music.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Sep–Jun",
+        "spark": 24,
+        "bonus": "Stay for a full hour rather than ducking out after ten minutes.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Spanische+Hofreitschule+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-CU-05",
+        "title": "The Beethoven Frieze at the Secession",
+        "description": "Klimt painted a thirty-four-metre frieze on three walls of a basement for a single 1902 exhibition, and it never left — still under the gold cabbage dome on Friedrichstrasse.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Follow it left to right in order, the way it was meant to be read.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Secession+Building+Vienna",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "VIE-CU-01",
+        "title": "The Bruegel Room at the Kunsthistorisches",
+        "description": "The Habsburgs' own collection, including the largest gathering of Bruegel panels anywhere — the Hunters in the Snow and the Tower of Babel in one room.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Find five things happening in the background of the Hunters in the Snow.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Kunsthistorisches+Museum+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-CU-03",
+        "title": "The State Rooms at Schönbrunn",
+        "description": "1,441 rooms of Habsburg summer palace, of which you walk perhaps forty — including the hall of mirrors where a six-year-old Mozart performed for the empress.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Work out which room you would actually want to live in.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Schonbrunn+Palace+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-CU-07",
+        "title": "Composers' Graves at the Zentralfriedhof",
+        "description": "A cemetery bigger than the First District, where Beethoven, Schubert, Brahms and both Strausses are buried in one semicircle, around a monument to a Mozart nobody can find.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take tram 71 the whole way out, as the Viennese idiom for dying requires.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Zentralfriedhof+Vienna",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "VIE-CU-08",
+        "title": "Schiele at the Leopold Museum",
+        "description": "The largest Egon Schiele collection in the world, assembled by one obsessive ophthalmologist over fifty years, in a white limestone box in the MuseumsQuartier.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the self-portrait that unsettles you most and work out why.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Leopold+Museum+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-CU-04",
+        "title": "Standing Room at the Vienna State Opera",
+        "description": "One of the great opera houses in the world sells a few hundred standing places for a handful of euros on the day — you queue, you get a rail, you tie a scarf to it to claim your spot.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 40,
+        "bonus": "Queue for the standing places rather than buying a seat, and do the scarf properly.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Wiener+Staatsoper+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "VIE-8B-02",
+        "title": "Wildcard: Ring Tram Roulette",
+        "description": "Get on tram 1 or 2 at any point on the Ringstrasse, ride until someone in the group says stop, and spend the rest of the evening within three blocks of wherever the doors open.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Eat and drink only at places you can see from where you got off.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Ringstrasse+Vienna",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-8B-01",
+        "title": "Wildcard: Three Coffee Houses, One Afternoon",
+        "description": "One melange in three different historic coffee houses in a single afternoon — a newspaper on a wooden rod at each, and no phone on the table at any of them.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Read one article properly in each and report back on all three.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Viennese+Coffee+House+Vienna",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "VIE-S-11",
+        "title": "Stelze and a Krug at the Schweizerhaus",
+        "description": "A Prater beer garden since 1920, seating two thousand under the chestnut trees, serving roast pork knuckle and Budweiser Budvar poured straight from wooden casks.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Mar–Oct",
+        "spark": 14,
+        "bonus": "Order one Stelze for the table and carve it yourselves.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Schweizerhaus+Prater+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-S-12",
+        "title": "Live Jazz at Porgy & Bess",
+        "description": "A converted porn cinema turned into central Europe's most respected jazz room, programming something almost every night since 1993.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Buy a ticket for a name you have never heard of.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Porgy+and+Bess+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "VIE-S-09",
+        "title": "Glühwein at the Rathausplatz Christmas Market",
+        "description": "The biggest of Vienna's Christmas markets, in front of a floodlit neo-Gothic City Hall, with a park behind it strung with lights and a heart-shaped tree.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Nov–Dec",
+        "spark": 15,
+        "bonus": "Keep the mug deposit and take the mug home.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Christkindlmarkt+Rathausplatz+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-S-05",
+        "title": "Brewery Tour at Ottakringer",
+        "description": "Vienna's oldest and largest private brewery, brewing on the same site since 1837 — ninety minutes from brewhouse to bottling line, ending in eight fresh taps.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pick your favourite of the eight before they tell you which is the flagship.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Ottakringer+Brauerei+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "VIE-S-08",
+        "title": "Late Night at Volksgarten Clubdiskothek",
+        "description": "A club inside an imperial park pavilion, with a garden terrace that turns into a dance floor under the trees when the weather holds.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Dance outside in the garden rather than in the main room.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Volksgarten+Clubdiskothek+Vienna",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "VIE-S-10",
+        "title": "Ball Season at the Hofburg",
+        "description": "For six weeks after New Year the city throws hundreds of formal balls — black tie, a live orchestra, a midnight quadrille, and dancing in imperial state rooms until dawn.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "All night",
+        "durationMins": 420,
+        "time": "Evening",
+        "season": "Jan–Feb",
+        "spark": 40,
+        "bonus": "Learn enough of the left-turning waltz beforehand to survive the opening.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Hofburg+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "VIE-S-07",
+        "title": "Deckchairs at Strandbar Herrmann",
+        "description": "Imported sand, hundreds of deckchairs and a DJ on the bank of the Danube Canal, with the whole city apparently off work from two in the afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Sep",
+        "spark": 13,
+        "bonus": "Claim a front-row deckchair before the after-work crowd lands.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Strandbar+Herrmann+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-S-06",
+        "title": "The Bermuda Triangle Bar Crawl",
+        "description": "A few dense blocks behind Schwedenplatz nicknamed for how reliably people disappear into them for a whole night — pubs, cellars and cocktail rooms, all walkable.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Let the group pick the next bar by whichever door is closest.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Bermudadreieck+Vienna",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "VIE-S-03",
+        "title": "Drum and Bass at Flex",
+        "description": "A club built into a disused metro tunnel on the Danube Canal with a sound system people travel for, and a terrace on the water when you need air.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay for the last hour of the set rather than leaving on a high.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Flex+Donaukanal+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "VIE-S-04",
+        "title": "Techno at Grelle Forelle",
+        "description": "Vienna's most serious electronic room, under a bridge on the canal since 2011, with a strict no-photos policy and bookings that hold their own against Berlin.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Put the phone away for the entire night, as the room expects.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Grelle+Forelle+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "VIE-S-01",
+        "title": "Cocktails at the Loos American Bar",
+        "description": "Twenty-seven square metres of marble, mahogany and mirrors that Adolf Loos built in 1908 — the smallest bar in Vienna and one of the most important rooms in modern architecture.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Work out where the mirrors stop and the room actually ends.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Loos+American+Bar+Vienna",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "VIE-S-02",
+        "title": "Rooftop Drinks at Das LOFT",
+        "description": "Eighteen floors up with a 360-degree wall of glass and a wildly coloured backlit ceiling by Pipilotti Rist, looking straight across at St Stephen's spire.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Get there before sunset and stay until the ceiling is the brightest thing in the room.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Das+LOFT+Sofitel+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "VIE-C-09",
+        "title": "Aperitivo on Franziskanerplatz at Kleines Café",
+        "description": "A cafe of about four tables on a cobbled square, designed by Hermann Czech, and the one Julie Delpy and Ethan Hawke sit outside in Before Sunrise.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take an outside table on the square and stay past dark.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Kleines+Cafe+Franziskanerplatz+Vienna",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "VIE-C-06",
+        "title": "Roses in the Volksgarten",
+        "description": "Three thousand rose bushes laid out around a copy of a Greek temple, built on the rubble of fortifications Napoleon blew up.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 12,
+        "bonus": "Find the most fragrant variety in the garden and learn its name.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Volksgarten+Vienna",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "VIE-C-05",
+        "title": "Enzis in the MuseumsQuartier Courtyard",
+        "description": "Big moulded loungers scattered across a baroque courtyard between the museums, recoloured every season, free to sprawl on for as long as you like.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Stay on the same Enzi from daylight into dark.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/MuseumsQuartier+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-C-10",
+        "title": "An Afternoon in the Stadtpark",
+        "description": "The city's first public park, with a river running through it, an art nouveau portal along one edge, and a gilded Johann Strauss playing violin to the lawn.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Find a bench where you can see the gold Strauss and read a whole chapter.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Stadtpark+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-C-07",
+        "title": "Street Art Along the Donaukanal",
+        "description": "Kilometres of legal wall running through the middle of the city, repainted constantly, so the same stretch is a different gallery every few weeks.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Photograph one piece, then come back a month later and see what replaced it.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Donaukanal+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-C-08",
+        "title": "The Palmenhaus at Schönbrunn",
+        "description": "A 110-metre iron-and-glass greenhouse from 1882 holding three climate zones, from Mediterranean scrub to full rainforest, in a single walk.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay in the tropical wing until your glasses fog up completely.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Palmenhaus+Schonbrunn+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-C-01",
+        "title": "Laps at the Amalienbad",
+        "description": "A 1920s workers' bathhouse in Favoriten with a glass roof, gold mosaic and art deco tiling — arguably the most beautiful place to swim a length in Europe.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Float on your back and just look at the ceiling for a while.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Amalienbad+Vienna",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "VIE-C-03",
+        "title": "The Butterfly House in the Burggarten",
+        "description": "An art nouveau palm house behind the Hofburg, half of it a humid greenhouse with free-flying tropical butterflies and half of it a very good brasserie.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stand still until one lands on you.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Schmetterlinghaus+Burggarten+Vienna",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "VIE-C-02",
+        "title": "Thermal Afternoon at Therme Wien",
+        "description": "Sulphur springs on the city's southern edge turned into one of Europe's largest urban spas — indoor and outdoor thermal pools plus a serious sauna world upstairs.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Sit through one full Aufguss without leaving the sauna early.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Therme+Wien+Oberlaa+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-C-04",
+        "title": "Hundertwasserhaus and Kunst Haus Wien",
+        "description": "A social housing block with no straight lines, uneven floors and trees growing out of the windows — then the museum round the corner explaining why.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Find the trees that are registered as tenants.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Hundertwasserhaus+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "VIE-F-09",
+        "title": "Apfelstrudel at Café Landtmann",
+        "description": "Freud's coffee house, on the Ring opposite the City Hall, where the strudel is pulled by hand and the terrace watches the whole city go past.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit on the terrace and order a second coffee you don't need.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Landtmann+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-F-12",
+        "title": "Canal-Side Breakfast at Motto am Fluss",
+        "description": "A 1950s ocean-liner interior built into the boat terminal at Schwedenplatz, with a top-deck terrace looking straight down the Danube Canal.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Take the top-deck terrace, whatever the queue for it.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Motto+am+Fluss+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-F-10",
+        "title": "Heuriger Evening at Mayer am Pfarrplatz",
+        "description": "A wine tavern trading since 1683, in the house where Beethoven lived while going deaf — young wine by the quarter litre and food sold by weight at a buffet.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Drink the Gemischter Satz and nothing else all evening.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Mayer+am+Pfarrplatz+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "VIE-F-04",
+        "title": "Graze the Naschmarkt",
+        "description": "A kilometre and a half of stalls running down a covered-over river — Austrian cheese at one end, Levantine mezze at the other, and a new indoor hall as of 2026.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat something you can't name from three different stalls.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Naschmarkt+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-F-06",
+        "title": "Three Michelin Stars at Steirereck",
+        "description": "A mirrored pavilion in the Stadtpark holding Austria's most decorated kitchen, where Heinz Reitbauer builds entire courses around a single regional vegetable.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Let them choose the whole menu and the pairings, sight unseen.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Steirereck+im+Stadtpark+Vienna",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "VIE-F-08",
+        "title": "Melange and a Newspaper at Café Hawelka",
+        "description": "Smoke-darkened walls, art the owners took in lieu of payment, and a family still running the place their grandparents opened in 1939.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay long enough on one coffee that a waiter gives you a look.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Hawelka+Vienna",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "VIE-F-03",
+        "title": "The Original Sachertorte at Café Sacher",
+        "description": "The cake at the centre of a seven-year Austrian lawsuit, eaten in the red-velvet room behind the opera house where the recipe has never left the building.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Eat it with unsweetened whipped cream, the way it's meant to be served.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Sacher+Wien+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-F-05",
+        "title": "Käsekrainer at Bitzinger",
+        "description": "A sausage stand behind the opera house that has been serving cheese-filled Krainer to tuxedos and taxi drivers in the same queue since 1999.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order in German, eat standing at the ledge, no plate.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Bitzinger+Wurstelstand+Albertina+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-F-01",
+        "title": "The Schnitzel at Figlmüller",
+        "description": "Since 1905, a schnitzel hammered so thin it overhangs the plate on every side — the version every other Viennese schnitzel gets measured against.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Finish it without asking for a box.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Figlmuller+Wollzeile+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-F-07",
+        "title": "Open Sandwiches at Zum Schwarzen Kameel",
+        "description": "A deli counter trading since 1618, where you stand at the bar with a glass of Grüner and eat tiny open sandwiches until you lose count of them.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stand at the bar rather than sit, and order by pointing.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Zum+Schwarzen+Kameel+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-F-02",
+        "title": "Tafelspitz at Plachutta",
+        "description": "Boiled beef arrives at the table in its own copper pot of broth, and a waiter talks you through eating it in three courses, in the right order.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Do the marrow bone on toast properly, with salt, before anything else.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Plachutta+Wollzeile+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "VIE-A-16",
+        "title": "Twin City Liner to Bratislava",
+        "description": "A catamaran leaves the Danube Canal in the middle of Vienna and has you in another country's old town in about seventy-five minutes.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "All day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 26,
+        "bonus": "Be back on Viennese soil by midnight.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Twin+City+Liner+Schwedenplatz+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-09",
+        "title": "Skate the Wiener Eistraum",
+        "description": "Every winter the square in front of the City Hall becomes nine thousand square metres of ice, including winding skate paths that run off through the park trees.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Nov–Jan",
+        "spark": 24,
+        "bonus": "Skate the whole winding path without touching the rail.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Wiener+Eistraum+Rathausplatz+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-15",
+        "title": "Climb to the Gloriette at Schönbrunn",
+        "description": "Walk up the long meadow behind the palace to the colonnade Maria Theresa put on the hill, and look back down the axis at the whole baroque plan.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get up there for sunrise, before the coach parties arrive.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Gloriette+Schonbrunn+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-10",
+        "title": "Cycle the Wachau: Krems to Melk",
+        "description": "An hour's train out of Vienna puts you on a flat riverside path through a UNESCO wine valley, past apricot orchards and ruined castles, ending at a baroque abbey on a cliff.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "All day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Stop at a roadside Heuriger and drink a Grüner Veltliner from the slope above you.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Krems+an+der+Donau+Austria",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-13",
+        "title": "Climb at Kletterhalle Wien",
+        "description": "Austria's largest climbing hall — sixteen metres tall, 2,300 square metres of wall, plus a whole floor of bouldering and a cafe bar to collapse into afterwards.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Finish a route that looked impossible when you walked in.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Kletterhalle+Wien+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-11",
+        "title": "Boat on the Underground Lake at the Seegrotte",
+        "description": "A flooded gypsum mine twenty minutes south of the city holds the largest underground lake in Europe, and you cross it by boat at a constant nine degrees.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Trail a hand in the water and keep it there for ten seconds.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Seegrotte+Hinterbruhl+Austria",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-14",
+        "title": "Summer Day at Copa Beach",
+        "description": "Vienna's improbable river beach at the head of the Danube Island — sand, swimming ladders straight into the channel, and a strip of bars behind it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Jun–Aug",
+        "spark": 12,
+        "bonus": "Swim across to the island side and walk back over the bridge.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Copa+Beach+Donauinsel+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-12",
+        "title": "Top of the Donauturm",
+        "description": "Austria's highest viewpoint at 150 metres, a revolving restaurant above it, and Europe's highest slide spiralling 165 metres back down the outside.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Take the slide down instead of the lift.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Donauturm+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-01",
+        "title": "Cycle the Donauinsel End to End",
+        "description": "Twenty-one kilometres of car-free artificial island down the middle of the Danube, with swimming spots and bars strung along its whole length.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Any",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Stop and swim at least once before you reach the far end.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Donauinsel+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-04",
+        "title": "Wild Boar Walk in the Lainzer Tiergarten",
+        "description": "A walled imperial hunting ground on the city's edge, still full of free-roaming wild boar and deer that will walk straight past you on the path.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Feb–Nov",
+        "spark": 13,
+        "bonus": "Keep walking until a boar crosses the trail in front of you.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Lainzer+Tiergarten+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-02",
+        "title": "Swim and Row on the Alte Donau",
+        "description": "A cut-off oxbow of the old Danube that Vienna turned into a lake — rent a wooden rowing boat by the hour and swim off the side of it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Row far enough out that you can't hear the shore.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Alte+Donau+Vienna",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-08",
+        "title": "Paddleboard the Neue Donau",
+        "description": "A flood-relief channel with no current and no boat traffic, which makes it the calmest water in the city and the easiest place in Vienna to stand on a board.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Paddle under at least three bridges before you turn around.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Neue+Donau+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-06",
+        "title": "Ride the Wiener Riesenrad",
+        "description": "The oldest Ferris wheel still turning anywhere in the world, built in 1897, with wooden cabins big enough to stand in and a Third Man scene shot from one of them.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Work out which cabin Orson Welles gave the cuckoo-clock speech from.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Wiener+Riesenrad+Prater+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-05",
+        "title": "Run the Prater Hauptallee",
+        "description": "Four and a half kilometres of dead-straight chestnut avenue laid out for Habsburg carriages, now the city's default running route from dawn onward.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Run the full length without stopping, then earn a beer at the far end.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Prater+Hauptallee+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-07",
+        "title": "Swim at the Krapfenwaldlbad",
+        "description": "Vienna's highest outdoor pool, cut into pine forest on the Kahlenberg slope, where the whole city lies below the far end of the lane.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 23,
+        "bonus": "Swim a length looking only at the view, not the lane rope.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Krapfenwaldlbad+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "VIE-A-03",
+        "title": "Stadtwanderweg 1: Kahlenberg to Leopoldsberg",
+        "description": "A waymarked city trail through vineyards and the edge of the Vienna Woods to the two hills the city looks up at, then down into a wine village.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Finish at a Heuriger and drink the wine made on the slope you just walked.",
+        "city": "Vienna, Austria",
+        "mapsUrl": "https://maps.google.com/maps/search/Kahlenberg+Vienna",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

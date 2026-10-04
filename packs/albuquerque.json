@@ -1,0 +1,1205 @@
+{
+  "id": "albuquerque",
+  "name": "albuquerque",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "ABQ-S-11",
+        "title": "Midnight Run to the Frontier",
+        "description": "The correct end to any night in Albuquerque: fluorescent light, a tortilla machine going, and the entire city's post-last-call population in one room.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order at the counter without looking at the menu board.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Frontier+Restaurant+2400+Central+Ave+SE+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-S-08",
+        "title": "Balloon Glow After Dark",
+        "description": "Hundreds of tethered balloons firing their burners in unison after sunset, turning a dark field into a city of glowing lanterns you can walk between.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Evening",
+        "season": "Oct",
+        "spark": 27,
+        "bonus": "Stand close enough to feel the heat off a burner.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Balloon+Fiesta+Park+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-S-09",
+        "title": "Sold-Out Night at the Sunshine Theater",
+        "description": "A 1924 downtown theatre turned mid-size rock room, where the balcony is the move and the floor is a mess in the best way.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Watch one song from the balcony, the rest from the floor.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunshine+Theater+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-S-05",
+        "title": "Taproom Night at Marble Downtown",
+        "description": "The flagship of the brewery that anchors New Mexico beer, with a rooftop deck over downtown and live music most nights.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get on the roof before the sun drops behind the West Mesa.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Marble+Brewery+111+Marble+Ave+NW+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ABQ-S-04",
+        "title": "Rack 'Em at Anodyne",
+        "description": "An upstairs dive on Central with a long row of pool tables, a deep whiskey shelf and zero interest in impressing anyone.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Play a stranger for the table and mean it.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Anodyne+409+Central+Ave+NW+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ABQ-S-10",
+        "title": "Show at the El Rey Theater",
+        "description": "A 1941 Central Avenue movie house that now books everything from Earl Sweatshirt to hardcore, with original deco bones still intact.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Look up at the ceiling before the lights go down.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Rey+Theater+622+Central+Ave+SW+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-S-06",
+        "title": "Isotopes Game at Isotopes Park",
+        "description": "Minor league baseball named after a Simpsons joke, played in front of a berm with the Sandias behind the outfield and green chile on everything.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 23,
+        "bonus": "Sit on the grass berm instead of a seat.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Isotopes+Park+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-S-01",
+        "title": "Rooftop Cocktails at the Apothecary Lounge",
+        "description": "Prohibition-era drinks on the roof of a 1926 hospital-turned-hotel, with the Sandias east and downtown west, and a table made from a 1940s coffin carrier.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order something made with the Aztec chocolate bitters.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Apothecary+Lounge+Hotel+Parq+Central+806+Central+Ave+SE+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ABQ-S-07",
+        "title": "Tractor Brewing in Wells Park",
+        "description": "A scrappy 4th Street taproom that runs burlesque, bluegrass jams, drag and vinyl nights, and stays open to two at weekends.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–4 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go on a night you'd normally avoid and stay for the whole thing.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Tractor+Brewing+Wells+Park+1800+4th+St+NW+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ABQ-S-03",
+        "title": "Loud Show at the Launchpad",
+        "description": "A battered Central Avenue room that has taken punk, metal and hip-hop through Albuquerque for decades, with the sound to match.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stand in the front third and accept what happens.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Launchpad+618+Central+Ave+SW+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-S-12",
+        "title": "Cantina Night at El Pinto",
+        "description": "The cantina side of the North Valley institution — fire pits, string lights through the cottonwoods, and margaritas by the pitcher.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Claim a spot at a fire pit and hold it all night.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Pinto+Cantina+10500+4th+St+NW+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ABQ-S-02",
+        "title": "Touring Band at Sister Bar",
+        "description": "Downtown's indie living room — local taps, a back patio, and a stage small enough that the band drinks at the bar afterwards.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Buy the opener's record, not the headliner's.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Sister+Bar+407+Central+Ave+NW+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "adventure": [
+      {
+        "id": "ABQ-A-16",
+        "title": "Hike the Pino Trail into the Sandias",
+        "description": "A steady, quiet climb out of Elena Gallegos through piñon and into fir forest, with far fewer people on it than La Luz and almost as much payoff.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 13,
+        "bonus": "Keep going past the point where you planned to turn around.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Pino+Trail+Elena+Gallegos+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-05",
+        "title": "Read the Rock at Boca Negra Canyon",
+        "description": "Twenty-four thousand petroglyphs carved into volcanic escarpment by Ancestral Pueblo and early Spanish hands — a short scramble puts you face to face with them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find a glyph nobody has photographed and don't post it.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Boca+Negra+Canyon+Petroglyph+National+Monument+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-01",
+        "title": "Ride the Sandia Peak Tramway to the Crest",
+        "description": "Fifteen minutes and 4,000 vertical feet on the longest aerial tramway in the Americas, ending on a 10,378-foot ridge with eleven thousand square miles in view.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ride up in daylight and come down after dark.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandia+Peak+Tramway+30+Tramway+Rd+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-03",
+        "title": "Sunrise Balloon Flight with Rainbow Ryders",
+        "description": "Albuquerque is the ballooning capital of the world for a reason — the box wind pattern lets a pilot steer you out over the Rio Grande and back again.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask the pilot to explain the Albuquerque Box mid-flight.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Rainbow+Ryders+5601+Eagle+Rock+Ave+NE+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-10",
+        "title": "Session the Walls at Stone Age",
+        "description": "New Mexico's big climbing gym, with a first-timer lesson thrown in free and rental gear, for the days the desert is too hot to touch rock.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Top out a route without looking down once.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Stone+Age+Climbing+Gym+6200+Alameda+Blvd+NE+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-09",
+        "title": "Cruise the Paseo del Bosque Trail",
+        "description": "Sixteen uninterrupted miles under cottonwoods along the Rio Grande — no road crossings the entire way, which is the whole point.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride the full length without stopping for a light, because there aren't any.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Paseo+del+Bosque+Trail+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-15",
+        "title": "Walk the Ruins at Salinas Pueblo Missions",
+        "description": "Three 17th-century Spanish mission churches standing roofless over abandoned Pueblo villages an hour south — enormous, silent, and almost always empty of people.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4–6 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stand in the middle of the Quarai nave and say nothing for a full minute.",
+        "city": "Mountainair, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Salinas+Pueblo+Missions+National+Monument+Mountainair+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-11",
+        "title": "Sunset on the Albuquerque Volcanoes",
+        "description": "Five extinct cinder cones on the West Mesa, facing back across the whole city to the Sandias as they turn watermelon-pink at dusk.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay up there until the streetlights come on below you.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Volcanoes+Day+Use+Area+Petroglyph+National+Monument+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-13",
+        "title": "Breaking Bad RV Tour",
+        "description": "Three hours in a replica of that RV, hitting twenty-plus filming locations with lunch at the actual Los Pollos Hermanos — shameless and completely worth it.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order exactly what Gus would serve you.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Breaking+Bad+Store+2049+S+Plaza+NW+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-06",
+        "title": "Walk the Slot Canyon at Tent Rocks",
+        "description": "A narrow slot squeezes you between volcanic walls, then opens onto a field of cone-shaped hoodoos left by a seven-million-year-old eruption.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Feb–Dec",
+        "spark": 26,
+        "bonus": "Touch both walls at the tightest point in the slot.",
+        "city": "Cochiti Pueblo, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Kasha-Katuwe+Tent+Rocks+National+Monument+Cochiti+Pueblo+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-04",
+        "title": "Mass Ascension at the Balloon Fiesta",
+        "description": "Five hundred balloons inflating around you in the dark, then rising in waves over nine days every October — the largest ballooning event on earth, and you walk the field among them.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Oct",
+        "spark": 40,
+        "bonus": "Be on the field for Dawn Patrol, before the sun is up.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Balloon+Fiesta+Park+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-07",
+        "title": "Ski Sandia Peak Above the City",
+        "description": "A small, deeply local hill on the back side of the Sandias where you can ski in the morning and be eating green chile in town by two.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4–6 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Dec–Mar",
+        "spark": 24,
+        "bonus": "Take one lap off the summit chair, whatever the conditions.",
+        "city": "Sandia Park, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandia+Peak+Ski+Area+Sandia+Park+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-02",
+        "title": "Climb the La Luz Trail",
+        "description": "Eight miles and nearly 4,000 feet from desert scrub to alpine forest on the Sandias' west face — the hardest, most honest way to reach the crest.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "6–8 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 27,
+        "bonus": "Hike up and take the tram down. You've earned it.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Luz+Trailhead+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-12",
+        "title": "Drive the Turquoise Trail to Madrid",
+        "description": "Fifty miles of high-desert byway past ghost mining towns to Madrid, a coal camp that emptied out and came back as a street of galleries and bikers.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Buy something from the first gallery you walk into.",
+        "city": "Madrid, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Madrid+New+Mexico+Turquoise+Trail",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-14",
+        "title": "Climb the Crest Road on a Bike",
+        "description": "Thirteen and a half miles of switchbacks up NM-536 to the Sandia Crest — one of the great road climbs in the Southwest, topping out above ten thousand feet.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–5 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 15,
+        "bonus": "Don't put a foot down before the summit car park.",
+        "city": "Sandia Park, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandia+Crest+Scenic+Byway+NM-536+Sandia+Park+NM",
+        "company": [
+          "solo",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-A-08",
+        "title": "Ride the Foothills at Elena Gallegos",
+        "description": "Singletrack straight off the city's eastern edge into the Sandia foothills, with the whole grid spread out below and the mountain wall right above.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ride until you can't see a single building.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Elena+Gallegos+Open+Space+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "ABQ-CU-08",
+        "title": "Galleries and Studios in Old Town",
+        "description": "The streets off the plaza are thick with working Pueblo and Hispanic artists selling jewellery, pottery and santos directly, with no gallery cut.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy one piece straight from the person who made it.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Town+Albuquerque+galleries+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-CU-01",
+        "title": "Native Dances at the Indian Pueblo Cultural Center",
+        "description": "Owned and run by New Mexico's nineteen Pueblos — their own account of their own history, with live dance performances in the courtyard most weekends.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stay for a full dance set and put your phone away for it.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Indian+Pueblo+Cultural+Center+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-CU-07",
+        "title": "Hot Air History at the Balloon Museum",
+        "description": "A purpose-built museum beside Balloon Fiesta Park covering everything from the Montgolfiers to the gondolas flown across the Pacific — several of them hanging overhead.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the balloon that actually crossed an ocean.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Anderson+Abruzzo+Albuquerque+International+Balloon+Museum+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-CU-02",
+        "title": "Four Centuries at the Albuquerque Museum",
+        "description": "The city's own museum in Old Town, strong on Spanish colonial armour, Taos painters and how this valley actually came to be settled.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick the one object you'd steal and justify it out loud.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Albuquerque+Museum+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-CU-03",
+        "title": "The Torreón Fresco at the National Hispanic Cultural Center",
+        "description": "A concrete tower in Barelas holding one of the largest concave frescoes in North America — four thousand square feet of Hispanic history, painted over ten years.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Lie on the floor and look straight up.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Hispanic+Cultural+Center+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-CU-06",
+        "title": "Pueblo Deco at the KiMo Theatre",
+        "description": "A 1927 picture palace built in the only architectural style native to New Mexico — buffalo skulls, Navajo motifs and air vents shaped like Zia symbols.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Find the plaster longhorn skulls with glowing amber eyes.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/KiMo+Theatre+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-CU-05",
+        "title": "Seismosaurus at the Natural History Museum",
+        "description": "New Mexico dug up some of the strangest dinosaurs on record, and this museum walks you through five billion years of the state's geology to get to them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand under the biggest skeleton and look straight up.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/New+Mexico+Museum+of+Natural+History+and+Science+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-CU-04",
+        "title": "Deep Time at the Maxwell Museum",
+        "description": "A free anthropology museum on the UNM campus with an archaeology collection covering eleven thousand years of people in the Southwest.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the oldest human-made object on display.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Maxwell+Museum+of+Anthropology+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "ABQ-C-03",
+        "title": "Pedal Boats at Tingley Beach",
+        "description": "Three fishing ponds and a pedal-boat lake in the bosque, with the Sandias on the horizon and absolutely nothing demanded of you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Mar–Oct",
+        "spark": 12,
+        "bonus": "Race another boat across the lake and lose gracefully.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Tingley+Beach+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-C-09",
+        "title": "Nob Hill Neon at Dusk",
+        "description": "A dense stretch of original Route 66 where the restored motel and shop neon comes on all at once — best walked slowly, with no destination.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Photograph the ugliest sign you can find.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Nob+Hill+Central+Avenue+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-C-06",
+        "title": "Sketch in the Albuquerque Museum Sculpture Garden",
+        "description": "Four acres of outdoor sculpture beside the museum in Old Town, free to walk, with cottonwood shade and almost nobody in it on a weekday.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Draw one sculpture badly and keep the drawing.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Albuquerque+Museum+Sculpture+Garden+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ABQ-C-04",
+        "title": "Old Town Plaza and San Felipe de Neri",
+        "description": "The 1706 founding square of the city, built around a church that has held services continuously for three hundred years, ringed by adobe and portal shade.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Step inside the church and sit in a back pew for five minutes.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Town+Plaza+San+Felipe+de+Neri+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-C-05",
+        "title": "Boardwalk at the Rio Grande Nature Center",
+        "description": "A half-buried visitor centre with a glass wall onto a duck pond, and a boardwalk out into the cottonwood bosque where sandhill cranes overwinter.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit at the glass wall until you've identified three different birds.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Rio+Grande+Nature+Center+State+Park+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-C-01",
+        "title": "Walk the Lavender Rows at Los Poblanos",
+        "description": "Twenty-five acres of lavender and formal gardens laid out by John Gaw Meem, fifteen minutes from downtown and completely silent.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Buy one thing from the farm shop made with what's growing outside.",
+        "city": "Los Ranchos de Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Los+Poblanos+Historic+Inn+Los+Ranchos+de+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-C-02",
+        "title": "Lose the Afternoon in the Botanic Garden",
+        "description": "A walled Spanish-Moorish garden, a glass conservatory of desert plants and a Japanese garden, all tucked against the Rio Grande.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the quietest bench in the whole garden and stay there.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/ABQ+BioPark+Botanic+Garden+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-C-07",
+        "title": "Picnic in the Cottonwood Bosque",
+        "description": "The Rio Grande's cottonwood forest runs the whole length of the city — step off the trail, find a clearing, and the town disappears entirely.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Go far enough in that you can't hear a single car.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Paseo+del+Bosque+Trail+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-C-08",
+        "title": "Day Drinking at Canteen Brewhouse",
+        "description": "Albuquerque's oldest brewery, still in an unglamorous industrial building off Aztec Road, with a patio built for killing an entire afternoon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Drink whatever the bartender is personally into right now.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Canteen+Brewhouse+2381+Aztec+Rd+NE+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ABQ-C-10",
+        "title": "Sunset from the Sandia Crest Deck",
+        "description": "Over ten thousand feet up with a railing, a horizon a hundred miles wide, and the whole Rio Grande valley turning gold beneath you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay past sunset and watch the city lights come up all at once.",
+        "city": "Sandia Park, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandia+Crest+Observation+Deck+Sandia+Park+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "ABQ-F-06",
+        "title": "Brunch at The Grove Cafe & Market",
+        "description": "The bright, loud daytime anchor of the EDo district — farm eggs, good pastry and a market counter, all closed by two in the afternoon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Add the farm-fresh egg to whatever you ordered.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Grove+Cafe+and+Market+600+Central+Ave+SE+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-F-09",
+        "title": "Dinner on the Farm at Farm & Table",
+        "description": "A North Valley restaurant sitting on its own working acreage, where the menu turns over with whatever came out of the field that week.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Ask which dish came off their own land today and order that.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Farm+and+Table+8917+4th+St+NW+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-F-01",
+        "title": "Carne Adovada at Mary & Tito's",
+        "description": "A James Beard America's Classic since 1963, where the red chile is the whole argument and the turnovers are the correct order.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order it both ways — plate and turnover — and settle it for yourself.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Mary+and+Titos+Cafe+2711+4th+St+NW+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-F-11",
+        "title": "Dinner at Ten Thousand Feet at TEN 3",
+        "description": "A restaurant you can only reach by cable car, hanging off the Sandia Crest with the entire Rio Grande valley going dark through the glass.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Time your reservation so dessert lands at sunset.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/TEN+3+Sandia+Peak+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-F-03",
+        "title": "Five A.M. Breakfast Burrito at the Frontier",
+        "description": "Open since 1971 across from UNM, with hand-rolled tortillas, a John Wayne shrine and a sweet roll that has ruined people's diets for fifty years.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get the sweet roll, extra butter, no negotiation.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Frontier+Restaurant+2400+Central+Ave+SE+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-F-08",
+        "title": "Lunch Counter at Duran Central Pharmacy",
+        "description": "Walk past the prescription counter of a 1942 pharmacy and sit at New Mexico's oldest lunch counter for hand-rolled tortillas and serious chile.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit at the counter, not a table, and order the carne adovada.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Duran+Central+Pharmacy+1815+Central+Ave+NW+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "ABQ-F-05",
+        "title": "Field-to-Fork Dinner at Campo",
+        "description": "Dinner in a 1930s dairy barn on a working 25-acre lavender farm, with most of the plate grown within sight of the table.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Walk the lavender rows before you sit down.",
+        "city": "Los Ranchos de Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Campo+Los+Poblanos+Los+Ranchos+de+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-F-04",
+        "title": "Stuffed Sopaipilla at Sadie's",
+        "description": "A New Mexican institution that started in a bowling alley — the salsa arrives hot enough to be a warning and the stuffed sopaipilla is the size of a shoebox.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Finish the whole sopaipilla. Nobody does.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Sadies+of+New+Mexico+6230+4th+St+NW+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-F-07",
+        "title": "Biscochitos at Golden Crown Panaderia",
+        "description": "A family bakery since 1972 turning out the official state cookie, green chile bread and pizza from a beehive oven in the back garden.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the green chile bread and eat a slice standing in the car park.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Golden+Crown+Panaderia+1103+Mountain+Rd+NW+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-F-12",
+        "title": "Give the Password at Vernon's Speakeasy",
+        "description": "An unmarked door in the North Valley that genuinely asks you for a password, then opens onto a dim steakhouse with live music and no sense of irony.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get the password in advance and deliver it with a straight face.",
+        "city": "Los Ranchos de Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Vernons+Speakeasy+6855+4th+St+NW+Los+Ranchos+de+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ABQ-F-02",
+        "title": "Patio Margaritas at El Pinto",
+        "description": "Twelve acres of cottonwood-shaded courtyards in the North Valley, a salsa line sold nationwide, and the single best patio in New Mexico.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get the chile both red and green and finish the sopaipilla.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Pinto+10500+4th+St+NW+Albuquerque+NM",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "ABQ-F-10",
+        "title": "Sunday at the Rail Yards Market",
+        "description": "Two hundred growers, makers and cooks filling a cathedral-sized 1920s locomotive repair shop in Barelas every Sunday morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 14,
+        "bonus": "Eat something you can't name from a stall with no English sign.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Rail+Yards+Market+777+1st+St+SW+Albuquerque+NM",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "ABQ-8B-02",
+        "title": "Red or Green",
+        "description": "Wildcard: New Mexico's official state question. Eat at three different places in one day and order red at one, green at the next, Christmas at the last — then pick a side for life.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "All day",
+        "durationMins": 360,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Commit to your answer out loud and never change it.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/New+Mexican+restaurants+Albuquerque+NM",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "ABQ-8B-01",
+        "title": "Chase the Watermelon Light",
+        "description": "Wildcard: the Sandias turn deep pink for about ten minutes at sunset — sandia means watermelon. Find somewhere in the city you've never stood and be there for it.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Get it on camera without a single building in frame.",
+        "city": "Albuquerque, NM",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandia+Mountains+Albuquerque+NM",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

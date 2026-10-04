@@ -1,0 +1,1202 @@
+{
+  "id": "louisville",
+  "name": "louisville",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "chill": [
+      {
+        "id": "LOU-C-08",
+        "title": "Follow Beargrass Creek at the Nature Center",
+        "description": "Forty-one acres of protected urban woodland beside the zoo, with boardwalks over the creek and a bird blind almost nobody uses.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit in the bird blind until you have identified three species.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Louisville+Nature+Center+Beargrass+Creek+Louisville+KY",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LOU-C-07",
+        "title": "Wander Yew Dell Botanical Gardens",
+        "description": "A former nurseryman's estate east of the city, with a stone castle folly, a walled garden and serious plant collections in a small footprint.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Mar–Nov",
+        "spark": 12,
+        "bonus": "Find the castle and walk all the way around it.",
+        "city": "Crestwood, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Yew+Dell+Botanical+Gardens+Crestwood+KY",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LOU-C-05",
+        "title": "Walk St. James Court in Old Louisville",
+        "description": "The largest contiguous Victorian neighbourhood in the United States, with gas lamps, a fountain court and pedestrian walkways running behind the houses.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find one of the hidden walking courts behind the main street.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/St+James+Court+Old+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-C-02",
+        "title": "Take the Big Four Lawn at Waterfront Park",
+        "description": "Eighty-five acres of riverfront green between downtown and the Ohio, with a swing set facing the water that people queue for.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Mar–Nov",
+        "spark": 12,
+        "bonus": "Get one of the riverfront swings and stay on it for a full twenty minutes.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Waterfront+Park+Big+Four+Lawn+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-C-10",
+        "title": "Take the Long Way Down Bardstown Road",
+        "description": "The Highlands' main artery, a couple of miles of record shops, vintage racks, coffee counters and dive bars that reward walking rather than driving.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk from Baxter to Douglass Loop without getting in a car.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Bardstown+Road+Highlands+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-C-06",
+        "title": "See the Water Tower at Louisville's WaterWorks",
+        "description": "The oldest ornamental water tower in the world, a Greek Revival column ringed with statues on the riverbank, with a small museum in the pumping station beside it.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Count the statues on the colonnade.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Louisville+Water+Tower+WaterWorks+Museum+Louisville+KY",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LOU-C-04",
+        "title": "Sit Out a Morning at Sunergos",
+        "description": "A South Preston roastery and cafe open from half six, with the kind of unhurried room that makes a long morning feel like a plan.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay for a second drink and do not open your laptop.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunergos+Coffee+South+Preston+Louisville+KY",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LOU-C-09",
+        "title": "Walk the Cast-Iron Facades of Whiskey Row",
+        "description": "A block of 19th-century cast-iron warehouse fronts on West Main, saved from demolition and now holding distilleries, hotels and a museum behind the original facades.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick out the oldest building on the block from the architecture alone.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Whiskey+Row+West+Main+Street+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-C-03",
+        "title": "Browse Carmichael's on Bardstown Road",
+        "description": "Louisville's oldest independent bookshop, open since 1978, with a well-run author event calendar and staff picks worth taking seriously.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy whichever book has the longest handwritten staff card.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Carmichaels+Bookstore+Bardstown+Road+Louisville+KY",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LOU-C-01",
+        "title": "Find Ali and the Colonel at Cave Hill",
+        "description": "A 296-acre Victorian arboretum-cemetery where Muhammad Ali and Colonel Sanders are buried a short walk apart, among lakes, swans and enormous old trees.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find both graves without looking up directions more than once.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Cave+Hill+Cemetery+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "LOU-A-14",
+        "title": "Paddle the Floyds Fork Canoe Trail",
+        "description": "A flat-water creek trail running the length of the Parklands, with put-ins at every park and herons the entire way.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Paddle a full section end to end without portaging.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Floyds+Fork+Canoe+Trail+Parklands+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-11",
+        "title": "Drop In at the Louisville Extreme Park",
+        "description": "Forty thousand square feet of concrete under the I-65 overpass, open twenty-four hours, with a twenty-four-foot full pipe that draws skaters from across the country.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay long enough to watch someone actually ride the full pipe.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Louisville+Extreme+Park+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-01",
+        "title": "Zip 100 Feet Above the Mega Cavern Floor",
+        "description": "The world's only fully underground zipline course — six lines and two challenge bridges strung across a former limestone mine beneath the city.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Do the longest line without grabbing the harness once.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Louisville+Mega+Cavern+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-03",
+        "title": "Walk the Big Four Bridge into Indiana",
+        "description": "A converted 1895 railway bridge with a spiral ramp at each end, carrying you on foot across the Ohio River into another state and back.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Cross to Jeffersonville, get something there, and walk back.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Big+Four+Bridge+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-09",
+        "title": "Take the Overnight Tour at Waverly Hills",
+        "description": "A Gothic former tuberculosis hospital with a body chute and a reputation as one of the most haunted buildings in America, open for two-hour night tours.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2–4 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Go down the body chute and stay to the far end.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Waverly+Hills+Sanatorium+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-06",
+        "title": "Hike the Siltstone Trail in Jefferson Memorial Forest",
+        "description": "The largest municipal urban forest in the United States, with over sixty miles of trail and knobs steep enough to feel like real Kentucky.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the full Siltstone traverse rather than an out-and-back.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Jefferson+Memorial+Forest+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-12",
+        "title": "Hike to the Rose Island Ruins",
+        "description": "A 1920s amusement park abandoned after the 1937 flood, reached on foot through Charlestown State Park — pool shells, a zoo gate and stone steps still in the woods.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the old swimming pool foundation before you turn back.",
+        "city": "Charlestown, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Charlestown+State+Park+Rose+Island+Indiana",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-15",
+        "title": "Climb the Iroquois Park Overlook",
+        "description": "Another Olmsted park, this one built around a wooded knob, with a summit road and a stone overlook giving the widest view of Louisville there is.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk up rather than drive, and get there for sunset.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Iroquois+Park+Overlook+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-16",
+        "title": "Day Trip the Arches of Red River Gorge",
+        "description": "Ninety minutes east, a canyon system with more than a hundred natural sandstone arches and some of the best sport climbing in the country.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 26,
+        "bonus": "Stand on top of Natural Bridge rather than just under it.",
+        "city": "Slade, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Red+River+Gorge+Natural+Bridge+Slade+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-05",
+        "title": "Cross All Four Parklands of Floyds Fork",
+        "description": "Four linked parks strung along twenty miles of creek on the city's eastern edge, connected by a paved park drive and a canoe trail.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get from Beckley Creek to Broad Run under your own power.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Parklands+of+Floyds+Fork+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-08",
+        "title": "Find the Forest Giants at Bernheim",
+        "description": "Sixteen thousand acres of research forest and arboretum, home to three enormous recycled-wood giants hidden in the trees and a canopy walk above the ravine.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 24,
+        "bonus": "Find all three giants in one visit without asking for directions.",
+        "city": "Clermont, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Bernheim+Arboretum+and+Research+Forest+Clermont+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-13",
+        "title": "Ride the Otter Creek Trails",
+        "description": "Two thousand acres on the Ohio River with the best mountain biking within an hour of Louisville, from flowy green loops to genuinely rocky black.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride the full outer loop in one go.",
+        "city": "Brandenburg, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Otter+Creek+Outdoor+Recreation+Area+Brandenburg+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-10",
+        "title": "Ride a Stretch of the Louisville Loop",
+        "description": "A paved trail being built to ring the entire city, with the riverfront section already running for miles past parks, locks and the odd barge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride until you have no idea what neighbourhood you are in.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Louisville+Loop+Trail+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-04",
+        "title": "Run the Scenic Loop at Cherokee Park",
+        "description": "Frederick Law Olmsted's Louisville masterpiece, with a 2.4-mile loop road split between cars and people, and enough hills to make it honest work.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do the full loop and take the Hogan's Fountain detour on the way.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Cherokee+Park+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-07",
+        "title": "Walk the Devonian Fossil Beds at Falls of the Ohio",
+        "description": "One of the largest exposed Devonian fossil beds in the world, 390 million years old, walkable when the river is low — straight across the bridge from downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Aug–Oct",
+        "spark": 14,
+        "bonus": "Find and photograph three different coral fossils.",
+        "city": "Clarksville, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Falls+of+the+Ohio+State+Park+Clarksville+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-A-02",
+        "title": "Ride the Underground Bike Park",
+        "description": "Forty-five trails, jump lines, a pump track and dual slalom, all 100 feet below ground at a constant sixty degrees no matter the weather outside.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Clear a jump line you would not attempt on a normal trail.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Mega+Underground+Bike+Park+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "LOU-CU-02",
+        "title": "Get Your Name on a Slugger Bat",
+        "description": "A working bat factory behind a 120-foot bat leaning on the building, where the tour ends with a miniature bat and you can order a full-size one with your name burned in.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Hold a bat used by a player you have actually heard of.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Louisville+Slugger+Museum+and+Factory+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-CU-06",
+        "title": "See What KMAC Has Up on Whiskey Row",
+        "description": "A contemporary art museum on West Main built around craft and material, with shows that change often and a shop worth the visit alone.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy something from a Kentucky maker in the museum shop.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/KMAC+Museum+West+Main+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-CU-05",
+        "title": "Start the Bourbon Trail at the Frazier",
+        "description": "The official Kentucky Bourbon Trail welcome centre, wrapped around a history museum that is far better than it needs to be.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick up the trail passport and get your first stamp the same day.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Frazier+History+Museum+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-CU-04",
+        "title": "Walk the Backside at Churchill Downs",
+        "description": "The Kentucky Derby Museum sits at the track itself, and the walking tour takes you onto the grounds under the twin spires whether or not there is racing.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stand at the finish line and picture the crowd.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Kentucky+Derby+Museum+Churchill+Downs+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-CU-08",
+        "title": "Get in the Coopers at Lynn Family Stadium",
+        "description": "A purpose-built soccer ground in Butchertown shared by Louisville City FC and NWSL side Racing Louisville, with a supporters' end that does not sit down.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Mar–Nov",
+        "spark": 40,
+        "bonus": "Stand in the supporters' section and last the whole match on your feet.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Lynn+Family+Stadium+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-CU-07",
+        "title": "Take the Full Tour at Roots 101",
+        "description": "An African American history museum on North First Street tracing the story from West Africa through slavery to civil rights, built largely from one man's collection.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Ask a staff member which object in the building means the most to them.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Roots+101+African+American+Museum+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-CU-03",
+        "title": "Spend an Afternoon at the Speed Art Museum",
+        "description": "Kentucky's oldest and largest art museum, on the University of Louisville campus, with a glass North Building wrapped around a Beaux-Arts original.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find one work in the contemporary wing you would defend to someone who hated it.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Speed+Art+Museum+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-CU-01",
+        "title": "Work Through the Six Core Principles at the Ali Center",
+        "description": "Muhammad Ali's own museum in his home city, built around his six principles rather than his record, with a speed bag you are allowed to hit.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Do the shadow-boxing station in front of other people.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Muhammad+Ali+Center+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "LOU-S-06",
+        "title": "Start at the Evan Williams Bourbon Experience",
+        "description": "An artisanal distillery and immersive tour on Whiskey Row that walks you through Kentucky's whole bourbon story, which makes it the right first stop.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do this one first, then compare every later tour against it.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Evan+Williams+Bourbon+Experience+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-02",
+        "title": "Drink at the Copper Still in Michter's Fort Nelson",
+        "description": "A meticulously restored 19th-century building on Main with a gleaming copper pot still downstairs and one of the best cocktail bars in the city upstairs.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Skip the tour queue and just take a seat at the bar instead.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Michters+Fort+Nelson+Distillery+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-12",
+        "title": "See a Show Under the Louisville Palace Ceiling",
+        "description": "A 1928 Spanish Baroque movie palace on Fourth Street with a ceiling painted as a night sky and a year-round calendar of touring music and comedy.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Look up before the lights go down and find the star ceiling.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Louisville+Palace+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-S-03",
+        "title": "Watch Barrels Being Made at Old Forester",
+        "description": "The only distillery on Whiskey Row with its own working cooperage, where the tour includes barrels being charred in front of you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stand close enough to the barrel char to feel the heat.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Forester+Distilling+Co+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-08",
+        "title": "Drink Belgian Beer in a Church at Holy Grale",
+        "description": "A century-old Highlands church turned beer bar, with a deep Belgian list, a stained-glass room and an interconnected beer garden out the back.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drink one Belgian style you have never ordered before.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Holy+Grale+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-09",
+        "title": "Play Pinball Between Bands at Zanzabar",
+        "description": "A Germantown bar and music venue with one of the better pinball collections in the Midwest and a stage that books local and touring acts most nights.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Win a free game on any machine in the room.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Zanzabar+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-04",
+        "title": "Go Down the Rabbit Hole",
+        "description": "A glass-and-steel distillery in NuLu built like a cathedral to distillation, with tours capped small enough to actually ask questions.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ask the guide a question the tour script does not cover.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Rabbit+Hole+Distillery+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-05",
+        "title": "Taste Sweet Mash at Kentucky Peerless",
+        "description": "A family distillery revived after Prohibition killed the original, running a sweet mash process almost nobody else uses, a block off Whiskey Row.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get someone to explain sweet mash versus sour mash and be able to repeat it.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Kentucky+Peerless+Distilling+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-11",
+        "title": "Do the Urban Bourbon Trail on Foot",
+        "description": "Dozens of downtown bars and distilleries linked into one walkable trail, with enough of them on Whiskey Row that you never need a car.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Hit four stops in one night without getting in a vehicle.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Urban+Bourbon+Trail+Whiskey+Row+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-10",
+        "title": "Take the Rooftop at Copper & Kings",
+        "description": "A Butchertown brandy distillery that plays loud music to its ageing barrels, with a rooftop bar looking straight back at the downtown skyline.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Mar–Nov",
+        "spark": 22,
+        "bonus": "Do the tour first, then take the same spirit up to the roof.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Copper+and+Kings+Distillery+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-07",
+        "title": "Stay for the Late Set at The Silver Dollar",
+        "description": "A converted 1930s firehouse on Frankfort Avenue running Bakersfield country on vinyl, a deep American whiskey list and a kitchen that stays open late.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Request something off the jukebox and let the bar hear it.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Silver+Dollar+Frankfort+Avenue+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-S-01",
+        "title": "Take the Finishing Tour at Angel's Envy",
+        "description": "A full production distillery on Main Street where the tour follows grain to glass and ends on the port-barrel finish that made the brand.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Taste the finished bourbon against the unfinished and say which you prefer.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Angels+Envy+Distillery+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "foodie": [
+      {
+        "id": "LOU-F-09",
+        "title": "Graze the Stalls at Logan Street Market",
+        "description": "Louisville's only public market, with eight-plus food concepts and five bars under one roof in Shelby Park, including a James Beard-nominated chef's counter.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Eat from three different stalls in one visit.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Logan+Street+Market+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-F-01",
+        "title": "Book the Tasting Menu at 610 Magnolia",
+        "description": "The Old Louisville dining room that rebuilt Southern fine dining from the inside out, still running a set menu in a converted corner storefront.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the full menu rather than asking for substitutions.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/610+Magnolia+Louisville+KY",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "LOU-F-11",
+        "title": "Eat Schnitzel in Schnitzelburg at Monnik",
+        "description": "A Burnett Avenue brewery with a genuinely good kitchen, doing Dutch and German plates alongside beer brewed in the back.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pair whatever you order with the beer the bartender picks.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Monnik+Beer+Company+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-F-08",
+        "title": "Take the Patio at Naive",
+        "description": "Under new ownership with a Latin-leaning menu, this Butchertown room has a patio that fills as fast as the cocktail list does.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Mar–Nov",
+        "spark": 22,
+        "bonus": "Sit outside and order two things you cannot identify.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Naive+Butchertown+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-F-10",
+        "title": "Take a Pour-Over at Quills Coffee",
+        "description": "Louisville's own roastery with half a dozen cafes across the city, and the kind of bar staff who will talk you through the origin if you let them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask which single origin they are most excited about and order that.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Quills+Coffee+Baxter+Avenue+Louisville+KY",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "LOU-F-05",
+        "title": "Eat a Hot Brown Where It Was Invented",
+        "description": "The Brown Hotel invented the open-faced turkey, bacon and Mornay Hot Brown in 1926, and still serves it in the lobby bar under the original ceiling.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Finish the whole thing without leaving the bread.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Brown+Hotel+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-F-07",
+        "title": "Wait for a Table at Hammerheads",
+        "description": "A tiny, dark Schnitzelburg basement doing smoked lamb nachos and duck tacos, with no reservations and a queue that forms before it opens.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the lamb nachos even if someone tells you not to.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Hammerheads+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-F-12",
+        "title": "Pick Your Heat Level at Royals Hot Chicken",
+        "description": "Nashville-style hot chicken on East Market, with a heat scale that goes further than most people should take it and sides that justify the trip alone.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order one level hotter than you were going to.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Royals+Hot+Chicken+East+Market+Louisville+KY",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-F-02",
+        "title": "Get a Booth at Jack Fry's",
+        "description": "A Highlands room that has been open since 1933, all dark wood and boxing photographs, with live piano and a lamb chop people order without reading the menu.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Go on a night with live piano and sit near it.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Jack+Frys+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-F-06",
+        "title": "Take the Upstairs Room at Butchertown Grocery",
+        "description": "A corner-store building in Butchertown turned into a proper restaurant, with a cocktail bar upstairs that most first-timers never find.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the upstairs bar and have one drink there before dinner.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Butchertown+Grocery+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-F-03",
+        "title": "Eat Under the Art at Proof on Main",
+        "description": "The restaurant inside 21c's flagship museum hotel, where a serious bourbon list and Kentucky bison share a room with rotating contemporary art.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Walk the hotel's free galleries before or after you eat.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Proof+on+Main+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "LOU-F-04",
+        "title": "Order Off Anthony Lamas's Menu at Seviche",
+        "description": "Latin technique run through Southern ingredients by one of Louisville's most-nominated chefs, with a ceviche list worth working through.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order two ceviches and compare them properly.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Seviche+A+Latin+Restaurant+Louisville+KY",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "LOU-8B-02",
+        "title": "Eight Ball: Cross the River and Come Back Different",
+        "description": "Walk the Big Four into Indiana with no plan, eat and drink entirely on the Jeffersonville side, and walk back after dark.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Mar–Nov",
+        "spark": 40,
+        "bonus": "Do the whole crossing and the return on foot, no rideshare either way.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Big+Four+Bridge+Jeffersonville+Indiana",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "LOU-8B-01",
+        "title": "Eight Ball: Underground First, Bourbon After",
+        "description": "Spend the morning a hundred feet below Louisville — zipline, bike park or tram, your pick — then surface and drink your way along Whiskey Row.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Tell the first bartender where you have just been and see what they pour you.",
+        "city": "Louisville, KY",
+        "mapsUrl": "https://maps.google.com/maps/search/Louisville+Mega+Cavern+Louisville+KY",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ]
+  }
+}

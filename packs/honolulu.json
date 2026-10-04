@@ -1,0 +1,805 @@
+{
+  "id": "honolulu",
+  "name": "honolulu",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "adventure": [
+      {
+        "id": "HNL-A-05",
+        "title": "Lanikai Pillbox Trail at Sunrise",
+        "description": "A short, steep scramble up Kaiwa Ridge that puts you on a WWII bunker watching the sun come up behind the Mokulua Islands.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Nobody takes a photo until you've watched the sun fully clear the horizon.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Lanikai+Pillbox+Trail+Kailua+Oahu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-A-10",
+        "title": "Hike the Kuliʻouʻou Ridge Trail",
+        "description": "Five miles and 1,800 feet through ironwood forest to a ridge-top bench with the whole windward coast laid out below you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Sit on the summit bench for ten minutes before you start back down.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kuliouou+Ridge+Trail+Honolulu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-A-11",
+        "title": "Snorkel with Turtles at Electric Beach",
+        "description": "Warm outflow from the power plant across the road draws fish, turtles and sometimes spinner dolphins to this unglamorous but extraordinary West Side spot.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Swim out past the second buoy before you put your face in.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kahe+Point+Beach+Park+Electric+Beach+Oahu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-A-12",
+        "title": "Skydive over the North Shore",
+        "description": "Fourteen thousand feet above Dillingham Airfield, with the whole reef line, the Waiʻanae range and the open Pacific under your feet.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Keep your eyes open the entire freefall.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Pacific+Skydiving+Honolulu+Dillingham+Airfield",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-A-07",
+        "title": "Dive the Sea Tiger Wreck",
+        "description": "A 189-foot freighter sunk on purpose off Waikīkī, now a reef structure patrolled by green sea turtles and whitetip sharks at 80 feet.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Hover motionless for a full minute and let the turtles come to you.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Sea+Tiger+Wreck+Dive+Waikiki+Honolulu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-A-06",
+        "title": "Kayak to the Mokulua Islands",
+        "description": "Paddle forty minutes across turquoise water from Kailua Beach to land on a seabird sanctuary with a beach almost nobody reaches.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Swim to shore from the last fifty metres instead of paddling in.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kailua+Beach+Park+Kayak+Oahu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-A-09",
+        "title": "Kaʻena Point to the Albatross Colony",
+        "description": "A hot, exposed six-mile round trip along an old railbed to the westernmost tip of Oʻahu, where Laysan albatross nest metres from the trail.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Carry out one piece of someone else's litter.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kaena+Point+State+Park+Oahu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-A-08",
+        "title": "Makapuʻu Point Lighthouse Trail",
+        "description": "A paved coastal climb around the easternmost tip of Oʻahu, with tide pools below and — in winter — humpbacks breaching offshore.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Spot a whale before anyone else does.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Makapuu+Point+Lighthouse+Trail+Oahu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "HNL-CU-03",
+        "title": "Courtyards of the Honolulu Museum of Art",
+        "description": "Open-air courtyards link galleries holding one of the finest Asian art collections in the US, including a Japanese ukiyo-e holding of international rank.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit in the Chinese courtyard until you've heard the fountain for a full minute.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Honolulu+Museum+of+Art",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-CU-07",
+        "title": "Pearl Harbor Aviation Museum on Ford Island",
+        "description": "Two original seaplane hangars still carrying bullet holes from 7 December 1941, now holding restored aircraft and a control tower you can climb.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find a bullet hole in the hangar glass before you leave.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Pearl+Harbor+Aviation+Museum+Ford+Island+Honolulu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-CU-08",
+        "title": "Torch Lighting and Hula at Kūhiō Beach",
+        "description": "At sunset the torches go up beside the Duke Kahanamoku statue and a hālau dances on the beachfront mound — free, and better than most paid lūʻau.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay through the pau hana chant at the end.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kuhio+Beach+Hula+Mound+Waikiki+Honolulu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-CU-02",
+        "title": "Hawaiian Hall at the Bishop Museum",
+        "description": "Three galleried floors of koa wood holding the world's great collection of Hawaiian and Pacific artefacts — feather capes, kapa, and a sperm whale over your head.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Spend a full ten minutes with one object.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Bishop+Museum+Honolulu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-CU-05",
+        "title": "Polynesian Cultural Center at Lāʻie",
+        "description": "Six island villages — Samoa, Aotearoa, Fiji, Tahiti, Tonga, Hawaiʻi — staffed by people from each, ending with the largest Polynesian night show in the world.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "All day",
+        "durationMins": 480,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Learn to do one thing in each village: climb, weave, drum, dance.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Polynesian+Cultural+Center+Laie+Oahu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-CU-01",
+        "title": "ʻIolani Palace — America's Only Royal Palace",
+        "description": "The seat of the Hawaiian Kingdom, wired for electricity before the White House, and the room where Queen Liliʻuokalani was imprisoned after the overthrow.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Read the queen's quilt panel all the way through.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Iolani+Palace+Honolulu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-CU-04",
+        "title": "Shangri La, Doris Duke's Islamic Art House",
+        "description": "A heiress's oceanfront home at Black Point, filled over sixty years with Islamic tilework, textiles and a Mughal-inspired garden — small tours only.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Pick the single room you'd move into.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Shangri+La+Museum+of+Islamic+Art+Honolulu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-CU-06",
+        "title": "Lei Day at Kapiʻolani Park",
+        "description": "Every May Day the park fills with a lei-making contest, hula and the crowning of a Lei Queen — the most purely local celebration on the Honolulu calendar.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "May",
+        "spark": 15,
+        "bonus": "Make your own lei and give it away before you leave.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kapiolani+Regional+Park+Honolulu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "HNL-8B-02",
+        "title": "Wildcard: Plate Lunch Roulette",
+        "description": "Walk into the next plate lunch spot you pass, order the thing you've never heard of, and eat it on a sea wall.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Two scoops rice. No substitutions. No complaining.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/plate+lunch+Honolulu",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-8B-01",
+        "title": "Wildcard: Circle the Island",
+        "description": "Drive the full loop of Oʻahu in one day — windward coast up, North Shore across, Waiʻanae side down — and stop at three beaches nobody picked in advance.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "All day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Swim at every single stop, no matter the weather.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kamehameha+Highway+Oahu",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "HNL-C-07",
+        "title": "Golden Hour at the Nuʻuanu Pali Lookout",
+        "description": "Wind funnels straight up a thousand-foot cliff face here, and the whole windward coast opens out in front of you at once.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Lean into the updraft and let it hold you.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Nuuanu+Pali+Lookout+Oahu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-C-05",
+        "title": "Beach Day at Lanikai",
+        "description": "Half a mile of powder sand and shallow, windless water on the windward side — no facilities, no lifeguards, no reason to leave.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay in the water until your fingers wrinkle.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Lanikai+Beach+Kailua+Oahu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-C-10",
+        "title": "Sundown at Sunset Beach",
+        "description": "Two miles of North Shore sand that in summer is a flat, warm swimming beach and in winter is the most famous wave-watching seat in the world.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay until the last light is gone from the water.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunset+Beach+Park+North+Shore+Oahu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-C-08",
+        "title": "Exceptional Trees at Foster Botanical Garden",
+        "description": "Fourteen acres of 150-year-old canopy in the middle of downtown, including a cannonball tree and a bo tree grown from the original in Bodh Gaya.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the biggest tree in the garden and stand at its base.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Foster+Botanical+Garden+Honolulu",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "HNL-C-09",
+        "title": "Windward Coast Drive to Kualoa",
+        "description": "Take the Kamehameha Highway slowly up the windward side and stop at Kualoa Regional Park, where the Kōolau wall drops straight into the sea behind Chinaman's Hat.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop at every fruit stand you pass.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kualoa+Regional+Park+Oahu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-C-06",
+        "title": "Tide Pools at Shark's Cove",
+        "description": "In summer the North Shore lava shelf goes glassy and fills with clear pools full of reef fish — an aquarium you can sit down in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 13,
+        "bonus": "Identify three fish without looking anything up.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Sharks+Cove+Pupukea+Oahu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "HNL-F-10",
+        "title": "Musubi Run at Iyasume",
+        "description": "Two dozen versions of spam musubi — egg, avocado, teriyaki, bacon — wrapped to order in Waikīkī and perfect for a beach morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy one musubi for a stranger on the beach.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Musubi+Cafe+Iyasume+Waikiki+Honolulu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-F-05",
+        "title": "Garlic Shrimp from Giovanni's Truck",
+        "description": "The graffiti-covered truck in Haleʻiwa that started the North Shore shrimp truck phenomenon — twelve shrimp, two scoops of rice, an absurd amount of garlic.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Add your own line to the graffiti on the truck.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Giovannis+Shrimp+Truck+Haleiwa+Oahu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-F-08",
+        "title": "Açaí Bowl at Haleʻiwa Bowls",
+        "description": "A walk-up window under the trees in Haleʻiwa serving the açai bowl the whole North Shore measures the others against.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat it sitting on the grass, not in the car.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Haleiwa+Bowls+Haleiwa+Oahu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-F-11",
+        "title": "Prawns at Romy's in Kahuku",
+        "description": "A roadside shack on its own aquaculture ponds at the island's northern tip, serving prawns that were in the water an hour ago.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Order the prawns shell-on and eat them with your hands.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Romys+Kahuku+Prawns+and+Shrimp+Oahu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-F-06",
+        "title": "Oxtail Soup at Asahi Grill",
+        "description": "Honolulu's benchmark bowl — clear ginger broth, fall-apart oxtail and a dish of grated ginger and shoyu on the side that you are supposed to use generously.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Finish the broth. All of it.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Asahi+Grill+Honolulu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-F-07",
+        "title": "BYOB Sushi at Mitch's Fish Market",
+        "description": "A dozen seats behind a wholesale fish counter near the airport, serving some of the freshest sashimi on the island — bring your own bottle.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Let the chef decide the entire order.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Mitchs+Fish+Market+and+Sushi+Bar+Honolulu",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HNL-F-12",
+        "title": "Chef's Counter at Senia",
+        "description": "Eight seats facing the pass in Chinatown for a tasting menu that reads like the most ambitious cooking in the state.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask the chef what they'd cook if nobody was watching.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Senia+Restaurant+Chinatown+Honolulu",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "HNL-F-09",
+        "title": "Dinner at MW Restaurant",
+        "description": "Wade Ueoka and Michelle Karr-Ueoka turn local plate-lunch memory into fine dining — the mochi-crusted ʻopakapaka and the candy bar dessert are the reasons to go.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Order the dessert first and make it work.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/MW+Restaurant+Honolulu",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "HNL-S-08",
+        "title": "Beers at Honolulu Beerworks",
+        "description": "A reclaimed-wood warehouse in Kakaʻako with a back patio, long communal tables and the best local beer list on the island.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the beer with the strangest name on the board.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Honolulu+Beerworks+Kakaako",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HNL-S-07",
+        "title": "Cocktails at Bar Leather Apron",
+        "description": "Twenty-eight seats hidden inside a downtown office building, pouring what is routinely called the best cocktail program in the Pacific.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Order something off-menu and describe only a mood.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Leather+Apron+Honolulu",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HNL-S-11",
+        "title": "Late Night at Bar 35",
+        "description": "Two hundred bottled beers and a back courtyard in Chinatown that's been the centre of Honolulu's late-night scene for two decades.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick a beer from a country nobody at the table has been to.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+35+Chinatown+Honolulu",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HNL-S-12",
+        "title": "Sunset Sail off Waikīkī",
+        "description": "Push off straight from the sand on a catamaran, get out past the reef and watch Diamond Head turn gold with a drink in your hand.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Sit on the trampoline at the bow the entire way out.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Maitai+Catamaran+Waikiki+Beach+Honolulu",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HNL-S-06",
+        "title": "Tiki Night at La Mariana Sailing Club",
+        "description": "The last authentic tiki bar in Honolulu, hung with salvaged fixtures from every tiki bar that closed before it, on a working boat harbour.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit at the piano bar and request something.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Mariana+Sailing+Club+Honolulu",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HNL-S-05",
+        "title": "Mai Tais at House Without a Key",
+        "description": "Under a century-old kiawe tree at the Halekulani, with live Hawaiian music, a former Miss Hawaii dancing hula and Diamond Head going pink behind her.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stay for the whole hula set without checking your phone.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/House+Without+a+Key+Halekulani+Waikiki",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HNL-S-10",
+        "title": "Friday Fireworks at Hilton Hawaiian Village",
+        "description": "Every Friday night the lagoon end of Waikīkī gets a full fireworks show — watch it free from the sand at Duke Kahanamoku Beach.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get in the water and watch it from there.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Duke+Kahanamoku+Beach+Hilton+Hawaiian+Village+Waikiki",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HNL-S-09",
+        "title": "Live Hawaiian Music at Kani Ka Pila Grille",
+        "description": "The Outrigger Reef's courtyard hosts the best working Hawaiian musicians in Waikīkī nightly — slack key, falsetto and no cover charge.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Learn the name of one song you hear and look it up after.",
+        "city": "Honolulu, HI",
+        "mapsUrl": "https://maps.google.com/maps/search/Kani+Ka+Pila+Grille+Outrigger+Reef+Waikiki",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ]
+  }
+}

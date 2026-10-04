@@ -1,0 +1,1203 @@
+{
+  "id": "memphis",
+  "name": "memphis",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "chill": [
+      {
+        "id": "MEM-C-06",
+        "title": "Coffee at Cxffeeblack's Mitchell Heights Flagship",
+        "description": "A newly opened roastery and café built around reclaiming the Black history of coffee, with an East African ceremony tradition and a tripled roasting capacity.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ask about the Ethiopian lot they're pouring and where it was bought.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Cxffeeblack+Bowen+Avenue+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-C-09",
+        "title": "Shelby Farms Lakeside Afternoon",
+        "description": "A park five times the size of Central Park, with a lake loop, buffalo in a paddock and enough space that it never feels busy.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the full Hyde Lake loop and find the bison herd on the way.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Shelby+Farms+Park+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-C-03",
+        "title": "Rainbow Lake and the Overton Greensward",
+        "description": "The open lawn and small lake at the heart of Overton Park, where Midtown spends its evenings with blankets and dogs and no particular plan.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring something to sit on and stay until the light goes completely.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Rainbow+Lake+Overton+Park+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-C-05",
+        "title": "Cooper-Young Browse",
+        "description": "A late-Victorian neighbourhood of bungalows and independent shops around one intersection, marked by a welded steel trestle gateway over the street.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the trestle and pick out the hidden objects welded into it.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Cooper-Young+Historic+District+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-C-07",
+        "title": "Dixon Gallery and Gardens",
+        "description": "French Impressionists and a good German porcelain collection in a Georgian-style house on seventeen acres of woodland garden in East Memphis.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do the gardens before the house. Most people do it the wrong way round.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Dixon+Gallery+and+Gardens+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-C-08",
+        "title": "Elmwood Cemetery on Foot",
+        "description": "Eighty acres of Victorian garden cemetery from 1852, with an audio tour, enormous magnolias and the graves of yellow fever nurses and blues musicians.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Take the audio tour and find the 1878 yellow fever section.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Elmwood+Cemetery+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "MEM-C-04",
+        "title": "Bluff Walk Along River Garden",
+        "description": "A landscaped stretch of the Memphis bluff walk between Beale Street Landing and the cobblestones, with swings facing the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit on the bluff swings and watch one full barge convoy go past.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/River+Garden+Memphis+Riverfront+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-C-10",
+        "title": "Sunset Over the Bridge from the Cobblestones",
+        "description": "The restored nineteenth-century cobblestone landing at the foot of Monroe, where the Hernando de Soto bridge lights up in sequence after dark.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay for the full bridge light sequence once it starts.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Memphis+Cobblestone+Landing+Riverside+Drive+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-C-02",
+        "title": "Memphis Botanic Garden Morning",
+        "description": "Ninety-six acres and thirty collections in East Memphis, including a Japanese garden with a drum bridge and a rose garden that peaks twice a year.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit on the bridge in the Japanese garden until someone else arrives.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Memphis+Botanic+Garden+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-C-01",
+        "title": "The Peabody Duck March",
+        "description": "Twice a day since the 1930s, five mallards ride the elevator down and walk a red carpet to the lobby fountain, led by a uniformed Duckmaster.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get a seat at the lobby bar an hour early. It fills up completely.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Peabody+Hotel+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "MEM-S-12",
+        "title": "A Set at the Green Room, Crosstown Arts",
+        "description": "A small listening room inside the old Sears tower, programmed with jazz, blues and experimental acts and treated as a room where you actually listen.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit in the front row and don't talk through the set.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Green+Room+Crosstown+Arts+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-S-01",
+        "title": "Beale Street End to End",
+        "description": "Three blocks that produced more of American music than any other street, still running live bands out of every doorway from afternoon until very late.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stop in the smallest room on the street and tip the band properly.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Beale+Street+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MEM-S-03",
+        "title": "Thirty Years of Blues at Rum Boogie",
+        "description": "A Beale Street room hung with hundreds of signed guitars, running live blues seven nights a week for three decades.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the most famous guitar on the ceiling and work out whose it is.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Rum+Boogie+Cafe+Beale+Street+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MEM-S-09",
+        "title": "Live Music at Lafayette's, Overton Square",
+        "description": "The reopened version of the 1970s room that launched Big Star and gave Billy Joel early stages, running local and touring acts most nights.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get a table on the balcony above the stage.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Lafayettes+Music+Room+Madison+Avenue+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MEM-S-05",
+        "title": "Soul Burger and the Jukebox at Earnestine & Hazel's",
+        "description": "A former pharmacy and brothel on South Main, reopened under new ownership, with a legendary jukebox upstairs that people swear plays itself.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Go upstairs alone, put a dollar in the jukebox and see what happens.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Earnestine+and+Hazels+South+Main+Street+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MEM-S-10",
+        "title": "Disco Until Three at Paula & Raiford's",
+        "description": "A two-storey basement club on Second Street with leather couches, fog, disco balls and handprints on the wall, open Friday and Saturday only.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get your handprint on the wall before you leave.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Paula+and+Raifords+Disco+South+Second+Street+Memphis+Tennessee",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MEM-S-11",
+        "title": "Rooftop Cocktails at Hu. Roof",
+        "description": "Seventeen floors up on Madison Avenue, indoor and outdoor, looking straight down the river at the Hernando de Soto bridge.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Be up there for sunset and stay for the bridge lights.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Hu+Roof+Hu+Hotel+Madison+Avenue+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MEM-S-07",
+        "title": "Pints at Wiseacre's Downtown HQ",
+        "description": "A 40,000 square foot brewery and taproom on B.B. King Boulevard with a hundred-thousand-barrel capacity and food partners in the building.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Drink the Tiny Bomb and the Ananda back to back and pick a favourite.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Wiseacre+Brewing+Downtown+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MEM-S-02",
+        "title": "Live Blues at B.B. King's",
+        "description": "The original of the B.B. King's clubs, opened on Beale in 1991, with a house band that is genuinely excellent and music every single day.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stay for a full set by the house band, not just two songs.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/B+B+Kings+Blues+Club+Beale+Street+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MEM-S-08",
+        "title": "Grizzlies Night at FedExForum",
+        "description": "An NBA crowd that plays up the Grit and Grind identity harder than any other building in the league, two blocks off Beale.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 24,
+        "bonus": "Stay in your seat through the whole fourth quarter no matter the score.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/FedExForum+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-S-06",
+        "title": "Whiskey Tour at Old Dominick",
+        "description": "A forty-five minute grain-to-glass tour of a revived 1866 Memphis distillery on Front Street, ending in a guided tasting of the full range.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Buy the bottle you liked least and see if it grows on you.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Dominick+Distillery+South+Front+Street+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MEM-S-04",
+        "title": "The Last Juke Joint: Wild Bill's",
+        "description": "A cinder-block room on Vollintine Avenue with long communal tables, quart bottles of beer and the Juke Joint Allstars playing until dawn.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Sit at a shared table with strangers and stay past two in the morning.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Wild+Bills+Vollintine+Avenue+Memphis+Tennessee",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "MEM-CU-06",
+        "title": "Blues Hall of Fame",
+        "description": "A small, dense museum across from the Civil Rights Museum, with individual galleries for each inductee and listening stations for the recordings.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick one inductee you've never heard of and listen to all of their tracks.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Blues+Hall+of+Fame+South+Main+Street+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "MEM-CU-07",
+        "title": "Slave Haven Underground Railroad Museum",
+        "description": "The 1849 Burkle Estate on North Second, a clapboard house with trap doors and a cellar used to shelter people escaping north.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Go down into the cellar and stay long enough to understand the scale of it.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Slave+Haven+Underground+Railroad+Museum+North+Second+Street+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-CU-05",
+        "title": "Memphis Rock 'n' Soul Museum",
+        "description": "A Smithsonian-developed collection tracing how sharecropper music became rock and soul, in a building on the corner of Beale at FedExForum.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Use the audio guide fully — there are over a hundred songs on it.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Memphis+Rock+n+Soul+Museum+Beale+Street+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-CU-02",
+        "title": "Sun Studio",
+        "description": "The small storefront on Union Avenue where Sam Phillips recorded Elvis, Johnny Cash, Carl Perkins and Howlin' Wolf, still standing and still working.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Hold the original microphone when they offer it. Everyone should.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Sun+Studio+Union+Avenue+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-CU-04",
+        "title": "National Civil Rights Museum at the Lorraine",
+        "description": "The Lorraine Motel, with Room 306 preserved and the balcony exactly as it was on 4 April 1968, at the end of a full history of the movement.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Give it three hours. Two is not enough and you will feel that.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Civil+Rights+Museum+Lorraine+Motel+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-CU-08",
+        "title": "The Metal Museum's New Overton Park Home",
+        "description": "The national metal arts museum reopened in September 2026 in the old Memphis College of Art building after a $35 million, ten-year move.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the working smithy and watch someone actually forge something.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Metal+Museum+Overton+Park+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-CU-03",
+        "title": "Stax Museum of American Soul Music",
+        "description": "Built on the site of the original Stax studio in Soulsville, with Isaac Hayes' gold-trimmed Cadillac and a rebuilt sloping-floor recording room.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Stand in the reconstructed Studio A and notice the floor is on a slope.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Stax+Museum+of+American+Soul+Music+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-CU-01",
+        "title": "Graceland",
+        "description": "Elvis Presley's house, kept as it was in 1977, from the jungle room to the racquetball building, plus the jets and the car museum across the road.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stand at the Meditation Garden for a minute without taking a photo.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Graceland+Elvis+Presley+Boulevard+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "MEM-8B-01",
+        "title": "Wildcard: The Barbecue Bracket",
+        "description": "Four barbecue joints, one day, one item each — pick a winner by knockout and argue it out at every round.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "No repeating an order. Whoever loses the argument drives.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Memphis+Tennessee+Barbecue",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-8B-02",
+        "title": "Wildcard: Follow the Music",
+        "description": "Start on Beale and follow whatever music you can hear from the street — every time you can hear a different band, you have to go in.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Four rooms minimum, and you tip in every single one.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Beale+Street+Memphis+Tennessee",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "adventure": [
+      {
+        "id": "MEM-A-09",
+        "title": "Sightseeing Cruise with Memphis Riverboats",
+        "description": "Ninety minutes out on the Mississippi on a paddlewheeler, past Presidents Island and the Wolf River tributary with the bluffs above you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stand at the bow for the turn and feel how fast the current actually is.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Memphis+Riverboats+Riverside+Drive+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-16",
+        "title": "Ride the Hampline to Crosstown",
+        "description": "A protected bike lane running from Overton Park through Binghampton, connecting the park, the Greenline and the old Sears tower at Crosstown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Finish inside Crosstown Concourse and ride the freight elevator up.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Hampline+Broad+Avenue+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-07",
+        "title": "Sunset in Tom Lee Park",
+        "description": "Thirty acres of rebuilt riverfront park on the bluff, opened in 2023, facing due west across the widest water in the country.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the Tom Lee monument and read what he actually did in 1925.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Tom+Lee+Park+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-01",
+        "title": "Walk the Big River Crossing at Sunset",
+        "description": "The longest pedestrian bridge across the Mississippi, a mile of boardwalk bolted to the side of the 1916 Harahan rail bridge, lit at night and free to cross.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk all the way into Arkansas and back so you can say you did.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Big+River+Crossing+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-02",
+        "title": "Treetop Adventure at Go Ape",
+        "description": "Ziplines, rope bridges and Tarzan swings strung through the woods of Shelby Farms, one of the largest urban parks in the country.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Do the Tarzan swing without pausing at the top. Just go.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Go+Ape+Zipline+Shelby+Farms+Park+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-04",
+        "title": "Bike the Wolf River Greenway",
+        "description": "A paved greenway following the Wolf River corridor through bottomland forest, connecting Midtown to the eastern suburbs without crossing traffic.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride until the path runs out, whichever direction you pick.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Wolf+River+Greenway+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-10",
+        "title": "Memphis Zoo Morning",
+        "description": "Seventy-six acres in Overton Park with a serious big cat collection and an aquarium, best done in the first two hours after opening.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get to the big cats first, before the heat puts them to sleep.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Memphis+Zoo+Overton+Park+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-11",
+        "title": "Shelby Farms Greenline to Downtown",
+        "description": "Eleven miles of converted rail line running dead straight from Shelby Farms Park into Midtown, flat the whole way and shaded most of it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride the full length one way and get a ride back with the bikes.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Shelby+Farms+Greenline+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-08",
+        "title": "Old Forest Loop in Overton Park",
+        "description": "A hundred and fifty acres of genuine old-growth forest that the city fought the interstate system to keep, right in the middle of Midtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the whole loop without leaving the tree cover once.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Overton+Park+Old+Forest+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-14",
+        "title": "Kayak Hyde Lake at Shelby Farms",
+        "description": "Eighty acres of flat water in the middle of a 4,500-acre park, with boats to rent at the lakeside and herons working the shoreline.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Paddle the full perimeter of the lake without cutting a corner.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Hyde+Lake+Shelby+Farms+Park+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-06",
+        "title": "Hike the Chickasaw Bluffs at Meeman-Shelby",
+        "description": "Thirteen thousand acres of bottomland hardwood on the Mississippi north of the city, with steep loess bluffs and two lakes nobody seems to know about.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the Woodland Trail down to the river bottom and back up the bluff.",
+        "city": "Millington, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Meeman-Shelby+Forest+State+Park+Millington+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-05",
+        "title": "Paddle the Ghost River Section",
+        "description": "A stretch of the Wolf River where the channel disappears entirely into a tupelo swamp and you follow white markers nailed to the trees to find your way.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Stop paddling in the middle of the swamp and sit in total silence for five minutes.",
+        "city": "Collierville, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Ghost+River+State+Natural+Area+Wolf+River+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-12",
+        "title": "Axe Throwing at Go Ape",
+        "description": "Outdoor lanes at Shelby Farms where you throw hand axes at wooden targets under instruction, which is harder and more satisfying than it looks.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "First person to stick three in a row picks where you eat afterwards.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Go+Ape+Shelby+Farms+Park+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-13",
+        "title": "Chucalissa Mounds at T.O. Fuller",
+        "description": "A reconstructed Mississippian village and platform mound occupied until around 1500, inside a state park on the bluffs south-west of the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Climb the platform mound and look at what the chief would have seen.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Chucalissa+Indian+Village+T+O+Fuller+State+Park+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-15",
+        "title": "The Lookout at the Pyramid",
+        "description": "A glass elevator up the inside of a 32-storey pyramid — once an arena, now a Bass Pro store with a cypress swamp in the lobby — to an observation deck over the river.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Walk the full outdoor deck and find the Lorraine Motel from up there.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Lookout+at+the+Pyramid+Bass+Pro+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-A-03",
+        "title": "Climb at Memphis Rox",
+        "description": "The largest non-profit climbing gym in the world, on McLemore Avenue in South Memphis, which turns nobody away for inability to pay.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get to the top of a route you're sure you can't finish.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Memphis+Rox+Climbing+McLemore+Avenue+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "MEM-F-01",
+        "title": "Dry Ribs at Charlie Vergos' Rendezvous",
+        "description": "A basement off Second Street where, in 1948, Charlie Vergos turned an old elevator shaft into a smoker and invented the Memphis dry rub.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order the dry ribs and don't ask for sauce. They will notice.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Charlie+Vergos+Rendezvous+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-02",
+        "title": "Wet Ribs at Central BBQ Downtown",
+        "description": "The other side of the Memphis rib argument, three minutes' walk from the Civil Rights Museum, with a patio and a smoke line you can smell from the street.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order wet ribs here and dry at the Rendezvous on the same trip. Decide.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Central+BBQ+Butler+Avenue+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-10",
+        "title": "World Food at Global Café",
+        "description": "A food hall inside Crosstown Concourse run as a social enterprise by immigrant and refugee chefs, cooking Venezuelan, Sudanese and Mexican dishes from scratch.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order from all three kitchens and split everything three ways.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Global+Cafe+Crosstown+Concourse+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-03",
+        "title": "Chopped Pork at Payne's Bar-B-Que",
+        "description": "A painted cement-block shop on Lamar, open since 1972, doing a chopped pork sandwich with mustard slaw that a lot of people will tell you is the best in America.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Get there before one. They close at two and they run out.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Paynes+Bar-B-Que+Lamar+Avenue+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-05",
+        "title": "Fried Chicken at Gus's on Front Street",
+        "description": "The downtown room that turned a small-town Tennessee recipe into a forty-location legend: dark, spiced, shattering crust and meat that's still juicy.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order the white meat plate and the fried pickles and nothing else.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Gus's+World+Famous+Fried+Chicken+South+Front+Street+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-06",
+        "title": "Breakfast at The Arcade",
+        "description": "Memphis' oldest café, open since 1919 on the South Main trolley line, with vinyl booths, sweet potato pancakes and a corner table Elvis used.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ask which booth was his and sit in it if it's free.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Arcade+Restaurant+South+Main+Street+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-07",
+        "title": "Fried Green Tomatoes at Alcenia's",
+        "description": "A small bright North Main room run for twenty-five years by B.J. Chester-Tamayo, recently reopened after a long renovation, where you may get hugged on the way in.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take whatever the dessert of the day is without asking what it is.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Alcenias+Desserts+and+Preserves+North+Main+Street+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-11",
+        "title": "Deep-Fried Cheeseburger at Dyer's",
+        "description": "A Beale Street counter that claims to have been straining and reusing the same grease since 1912, which is either revolting or magnificent.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the double and ask them about the grease. They love the question.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Dyers+Burgers+Beale+Street+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-08",
+        "title": "Soul Food Plate at The Four Way",
+        "description": "Open since 1946 in Soulsville, a few blocks from Stax, and a meeting place during the civil rights movement — Dr. King ate here regularly.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Get the fried catfish and the peach cobbler. Both, not one.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Four+Way+Restaurant+Mississippi+Boulevard+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-12",
+        "title": "Smoked Everything at Elwood's Shack",
+        "description": "A converted shack behind a Summer Avenue strip mall doing barbecue, tacos, fish and pizza at once, and somehow doing all of it well.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the thing on the menu that makes least sense next to the others.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Elwoods+Shack+Summer+Avenue+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-04",
+        "title": "Barbecue Cornish Hen at Cozy Corner",
+        "description": "A North Parkway room open since 1977 where the thing to order isn't ribs at all — it's a whole smoked Cornish game hen.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the hen, not the ribs. That's the entire point of coming.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Cozy+Corner+Restaurant+North+Parkway+Memphis+Tennessee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MEM-F-09",
+        "title": "Burger and a Beer at Huey's Downtown",
+        "description": "The flagship of a Memphis chain since 1970, on Second Street, where the tradition is to shoot toothpicks into the ceiling and nobody stops you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get a toothpick to stick in the ceiling before you leave.",
+        "city": "Memphis, TN",
+        "mapsUrl": "https://maps.google.com/maps/search/Hueys+Downtown+South+Second+Street+Memphis+Tennessee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ]
+  }
+}

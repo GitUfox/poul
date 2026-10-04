@@ -1,6 +1,412 @@
 {
   "packs": [
     {
+      "id": "san-juan",
+      "name": "san-juan",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "portland-me",
+      "name": "portland-me",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "providence",
+      "name": "providence",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "albuquerque",
+      "name": "albuquerque",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "boulder",
+      "name": "boulder",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "indianapolis",
+      "name": "indianapolis",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "columbus",
+      "name": "columbus",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "cincinnati",
+      "name": "cincinnati",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "louisville",
+      "name": "louisville",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "richmond",
+      "name": "richmond",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "raleigh-durham",
+      "name": "raleigh-durham",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "charlotte",
+      "name": "charlotte",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "palm-springs",
+      "name": "palm-springs",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "boise",
+      "name": "boise",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "memphis",
+      "name": "memphis",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "tampa",
+      "name": "tampa",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "singapore",
+      "name": "singapore",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "athens",
+      "name": "athens",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "edinburgh",
+      "name": "edinburgh",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 59
+    },
+    {
+      "id": "krakow",
+      "name": "krakow",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "budapest",
+      "name": "budapest",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 60
+    },
+    {
+      "id": "vienna",
+      "name": "vienna",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 59
+    },
+    {
+      "id": "tucson",
+      "name": "tucson",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "calgary",
+      "name": "calgary",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 39
+    },
+    {
+      "id": "honolulu",
+      "name": "honolulu",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "san-antonio",
+      "name": "san-antonio",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 39
+    },
+    {
+      "id": "pittsburgh",
+      "name": "pittsburgh",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 39
+    },
+    {
+      "id": "kansas-city",
+      "name": "kansas-city",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 39
+    },
+    {
+      "id": "salt-lake-city",
+      "name": "salt-lake-city",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "charleston",
+      "name": "charleston",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "minneapolis",
+      "name": "minneapolis",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 39
+    },
+    {
+      "id": "portland",
+      "name": "portland",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "taipei",
+      "name": "taipei",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "santiago",
+      "name": "santiago",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "auckland",
+      "name": "auckland",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "buenos-aires",
+      "name": "buenos-aires",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "stockholm",
+      "name": "stockholm",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "copenhagen",
+      "name": "copenhagen",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "lisbon",
+      "name": "lisbon",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 39
+    },
+    {
+      "id": "prague",
+      "name": "prague",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "dublin",
+      "name": "dublin",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 39
+    },
+    {
+      "id": "berlin",
+      "name": "berlin",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "amsterdam",
+      "name": "amsterdam",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "barcelona",
+      "name": "barcelona",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 39
+    },
+    {
+      "id": "rome",
+      "name": "rome",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "sydney",
+      "name": "sydney",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 40
+    },
+    {
+      "id": "london",
+      "name": "london",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 58
+    },
+    {
+      "id": "madrid",
+      "name": "madrid",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 58
+    },
+    {
+      "id": "melbourne",
+      "name": "melbourne",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 57
+    },
+    {
+      "id": "osaka",
+      "name": "osaka",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 56
+    },
+    {
+      "id": "seoul",
+      "name": "seoul",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 56
+    },
+    {
+      "id": "santa-fe",
+      "name": "santa-fe",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 58
+    },
+    {
+      "id": "milwaukee",
+      "name": "milwaukee",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 59
+    },
+    {
+      "id": "st-louis",
+      "name": "st-louis",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 59
+    },
+    {
+      "id": "detroit",
+      "name": "detroit",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 59
+    },
+    {
+      "id": "savannah",
+      "name": "savannah",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 54
+    },
+    {
+      "id": "asheville",
+      "name": "asheville",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 55
+    },
+    {
+      "id": "anchorage",
+      "name": "anchorage",
+      "location": "",
+      "emoji": "📍",
+      "cardCount": 59
+    },
+    {
       "id": "philadelphia",
       "name": "Philadelphia",
       "location": "Pennsylvania",
@@ -215,7 +621,7 @@
       "name": "Istanbul",
       "location": "Türkiye",
       "emoji": "🕌",
-      "cardCount": 60
+      "cardCount": 59
     },
     {
       "id": "oslo",

@@ -1,0 +1,1192 @@
+{
+  "id": "indianapolis",
+  "name": "indianapolis",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "IND-CU-04",
+        "title": "The Kurt Vonnegut Museum and Library",
+        "description": "A small downtown museum for the city's most famous writer, holding his Smith-Corona typewriter, his Purple Heart and his rejection letters, and running a free banned-books programme.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Type something on a real typewriter before you leave.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Kurt+Vonnegut+Museum+and+Library+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "IND-CU-08",
+        "title": "The Madam Walker Legacy Center",
+        "description": "A 1927 African and Egyptian art deco theatre built by the company of Madam C.J. Walker, America's first self-made female millionaire, restored and programming again on Indiana Avenue.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Look up at the ceiling of the theatre before you look at the stage.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Madam+Walker+Legacy+Center+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-CU-02",
+        "title": "An Afternoon at Newfields",
+        "description": "One of the largest encyclopedic art museums in the country, wrapped in 152 acres of garden and grounds, with a Lilly House estate at the top of the hill.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Find the Robert Indiana LOVE sculpture and then go and find a work you would rather own.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Newfields+Indianapolis+Museum+of+Art+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-CU-01",
+        "title": "The Reimagined IMS Museum",
+        "description": "An $89 million rebuild reopened this museum inside the Speedway oval with ten galleries of racing history, and TIME named it one of the World's Greatest Places for 2026.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Find the oldest car in the building and work out how anyone survived driving it.",
+        "city": "Speedway, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Indianapolis+Motor+Speedway+Museum+Speedway+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-CU-05",
+        "title": "Climb the Soldiers' and Sailors' Monument",
+        "description": "The obelisk at the centre of Monument Circle is nearly as tall as the Statue of Liberty, and you can climb 331 steps inside it to a viewing balcony at the top.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Take all 331 steps rather than the lift, and look at the Circle from directly above it.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Soldiers+and+Sailors+Monument+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-CU-03",
+        "title": "The Eiteljorg Museum",
+        "description": "One of only two museums east of the Mississippi holding both Native American and Western American art, in a southwestern-styled building in White River State Park.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Spend as long in the contemporary Native art galleries as in the historic ones.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Eiteljorg+Museum+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-CU-07",
+        "title": "Indianapolis Symphony at Hilbert Circle Theatre",
+        "description": "A 1916 theatre right on Monument Circle, converted into a concert hall and home to one of the oldest orchestras in the country, with the monument lit up outside afterwards.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 40,
+        "bonus": "Walk a full lap of Monument Circle after the concert before you go anywhere else.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Hilbert+Circle+Theatre+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-CU-06",
+        "title": "The Indiana State Museum",
+        "description": "A purpose-built museum on the canal covering the state from the ice sheets forward, with a limestone-clad exterior that is itself a catalogue of Indiana geology.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the county marker for a county you have actually driven through.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Indiana+State+Museum+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "IND-S-11",
+        "title": "Race-Town Pints at Daredevil Brewing",
+        "description": "A brewery in the town of Speedway itself, a few blocks from the Brickyard, where the taproom fills with people who have just walked off the Main Street strip.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk from the Speedway gates to the taproom rather than driving between them.",
+        "city": "Speedway, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Daredevil+Brewing+Speedway+IN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "IND-S-04",
+        "title": "Pinball and Pints at Sun King",
+        "description": "The brewery that made Indianapolis a beer city, with twenty-five-plus taps, a games corner full of pinball and enough floor space to lose a group in.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Win a pinball game while holding a full pint in your other hand.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Sun+King+Brewery+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "IND-S-10",
+        "title": "Cocktails at The Ball & Biscuit",
+        "description": "A narrow, dark, brick-walled bar on Mass Ave doing serious cocktails with a jukebox loud enough that you have to lean in to talk.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Tell the bartender two spirits you like and let them build something off-menu.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Ball+and+Biscuit+Mass+Ave+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "IND-S-08",
+        "title": "A Show at The Vogue",
+        "description": "A 1938 Broad Ripple movie house turned music venue, restored, with a sightline from almost anywhere on the floor and a bar along the whole back wall.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay for the encore even if you have an early start.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Vogue+Theatre+Broad+Ripple+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "IND-S-12",
+        "title": "Beer Garden at the Rathskeller",
+        "description": "A vaulted German beer hall in the basement of the 1894 Athenaeum, with a tree-shaded outdoor biergarten and a stage that runs live music all summer.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 23,
+        "bonus": "Order a liter and stay for whichever band is on, sight unseen.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Rathskeller+Athenaeum+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "IND-S-07",
+        "title": "Duckpin Bowling at Atomic Bowl",
+        "description": "Two vintage duckpin alleys in the same Fountain Square theatre building — 1950s neon in the basement, 1930s decor on the fourth floor, squat pins and a ball with no holes.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Play one game in the basement and one on the fourth floor, and pick which decade you prefer.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Atomic+Bowl+Duckpin+Fountain+Square+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "IND-S-09",
+        "title": "Live Music at HI-FI Indy",
+        "description": "A small, loud room in the Fountain Square Murphy building booking touring indie and local acts, with an outdoor annex stage for the bigger nights.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get to the front and stay there for the whole headline set.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/HI-FI+Indy+Fountain+Square+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "IND-S-06",
+        "title": "Tasting Room at Hotel Tango",
+        "description": "America's first combat-disabled, veteran-owned distillery, pouring its own gin, vodka and whiskey out of a Fletcher Place tasting room with a big open courtyard.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the flight and pick a favourite before you look at which one it was.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Hotel+Tango+Distillery+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "IND-S-03",
+        "title": "Indians Game at Victory Field",
+        "description": "Routinely called the best minor league ballpark in America — a grass berm in the outfield, the skyline directly over the scoreboard, and tickets that cost almost nothing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 15,
+        "bonus": "Watch at least three innings from the outfield lawn instead of a seat.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Victory+Field+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-S-05",
+        "title": "Patio Pints at Metazoa",
+        "description": "A pet-friendly brewery just north of Fountain Square that gives five per cent of profits to animal charities, with garage doors that roll up onto a skyline-facing patio.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Bring a dog, or befriend someone else's.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Metazoa+Brewing+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "IND-S-02",
+        "title": "Colts Sunday at Lucas Oil Stadium",
+        "description": "Sixty-seven thousand people under a retractable roof with a window wall that opens onto the downtown skyline, and the whole of Georgia Street to spill into afterwards.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Sep–Jan",
+        "spark": 26,
+        "bonus": "Go on a day the roof and the north window are both open.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Lucas+Oil+Stadium+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-S-01",
+        "title": "Pacers Night at Gainbridge Fieldhouse",
+        "description": "A basketball-first arena in a state that treats the game as religion — steep, loud, and widely rated the best place to watch an NBA game in the country.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 27,
+        "bonus": "Get there for warm-ups and stay standing for the whole fourth quarter.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Gainbridge+Fieldhouse+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "IND-8B-02",
+        "title": "The Circle to the Bricks",
+        "description": "Start at the centre of Monument Circle. Get yourself to the Speedway gates six miles away without driving a car — bike, bus, scooter, your own legs, or any combination.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Do the whole thing without a rideshare, and eat something in Speedway before you head back.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Monument+Circle+Indianapolis+IN",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-8B-01",
+        "title": "The Tenderloin Hunt",
+        "description": "Indiana's state sandwich is served in hundreds of bars and nobody agrees where it is best. Go to one you have never been to and order it without reading a review first.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Rank it out of ten before you leave, and text the score to someone who will argue.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/breaded+pork+tenderloin+Indianapolis+IN",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "IND-A-01",
+        "title": "Bike the Full Indianapolis Cultural Trail",
+        "description": "Eight miles of protected downtown path linking five cultural districts, studded with public art and built well enough that other cities send delegations to look at it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Ride the whole loop and photograph every piece of public art you pass.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Indianapolis+Cultural+Trail+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-12",
+        "title": "Hit the Bays at Topgolf Fishers",
+        "description": "Climate-controlled tiered bays, microchipped balls that keep their own score, and a food and drink menu that makes being bad at golf irrelevant.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Win a full game against someone who plays real golf.",
+        "city": "Fishers, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Topgolf+Fishers+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-03",
+        "title": "Hike the Ridges of Eagle Creek Park",
+        "description": "Nearly 4,000 acres and a 1,400-acre lake inside the city limits — one of the largest municipal parks in the country, with enough trail to lose an afternoon in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get far enough from the car park that you cannot hear traffic at all.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Eagle+Creek+Park+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-09",
+        "title": "Climb the Ladders of Turkey Run",
+        "description": "Ninety minutes west of the city, sandstone gorges cut so deep that the state park bolts wooden ladders into them and you scramble through creek beds to get anywhere.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 40,
+        "bonus": "Do Trail 3 through the Punch Bowl and accept that your shoes are going to get wet.",
+        "city": "Marshall, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Turkey+Run+State+Park+Marshall+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-02",
+        "title": "Boulder the Walls at North Mass Boulder",
+        "description": "A 55,000-square-foot bouldering gym on the near east side with no ropes, a sauna, a fourteen-tap mezzanine bar and a cafe — built to be hung around in, not just climbed.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Send a problem two grades above your warm-up, then earn a pint on the mezzanine.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/North+Mass+Boulder+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-05",
+        "title": "Find the Ruins at Holliday Park",
+        "description": "The salvaged facade of a demolished New York skyscraper rebuilt as a folly in the woods above the White River, with three carved figures still staring out of it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Work out what the three statues are meant to represent before you read the plaque.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Holliday+Park+Ruins+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-14",
+        "title": "Kayak the Coves of Geist Reservoir",
+        "description": "Eighteen hundred acres of water north-east of the city, busy with boats in the middle and completely still in the coves at either end.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Get on the water before nine and beat the wake boats to the quiet water.",
+        "city": "Fishers, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Geist+Reservoir+Fishers+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-11",
+        "title": "Treetop Course at Go Ape, Eagle Creek",
+        "description": "A high ropes course strung through the canopy at Eagle Creek — rope bridges, Tarzan swings and ziplines out over the woods, two to three hours of it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 26,
+        "bonus": "Take the Tarzan swing without pausing at the platform.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Go+Ape+Treetop+Adventure+Eagle+Creek+Park+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-10",
+        "title": "An Afternoon in White River State Park",
+        "description": "A 250-acre park in the middle of downtown holding the zoo, three museums, a ballpark and an amphitheatre, all walkable from one another.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Do three separate things inside the park without getting in a car.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/White+River+State+Park+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-06",
+        "title": "Paddle the Central Canal",
+        "description": "A flat, three-mile downtown canal you can kayak or pedal-boat straight through the middle of the city, past the zoo and the museums.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Paddle the full length without touching either wall.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Indianapolis+Central+Canal+Walk+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-04",
+        "title": "Kiss the Bricks on an IMS Track Tour",
+        "description": "Get driven out onto the two-and-a-half-mile oval, stand on the original yard of bricks at the start-finish line, and kneel down and kiss them like a winner.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Actually kiss the bricks. Photograph proof or it does not count.",
+        "city": "Speedway, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Indianapolis+Motor+Speedway+Speedway+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-15",
+        "title": "Walk the Earthworks at Mounds State Park",
+        "description": "Ten ceremonial earthworks built by the Adena people around 160 BC, including a Great Mound aligned to the solstice, on a bluff above the White River.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stand in the centre of the Great Mound and work out which way it points.",
+        "city": "Anderson, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Mounds+State+Park+Anderson+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-07",
+        "title": "Trail Run Fort Harrison State Park",
+        "description": "A decommissioned army post turned state park on the north-east edge of the city, with hardwood ravine trails and brick officers' quarters still standing along them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Run the Lawrence Creek Trail without walking any of the hills.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Fort+Harrison+State+Park+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-16",
+        "title": "Ride the Major Taylor Velodrome",
+        "description": "A banked outdoor track named for the Indianapolis-born Black cyclist who became world champion in 1899, with open sessions and loaner track bikes for beginners.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 25,
+        "bonus": "Get high enough up the banking that you feel the bike hold itself there.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Major+Taylor+Velodrome+Indianapolis+IN",
+        "company": [
+          "solo",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-13",
+        "title": "Ride the Monon North from Broad Ripple",
+        "description": "A rail-trail on the old Monon line running north out of Broad Ripple through Carmel, flat and shaded and lined with places to stop.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Ride as far as the Carmel Arts District and get a coffee before turning back.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Monon+Trail+Broad+Ripple+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-A-08",
+        "title": "Walk the Plains at the Indianapolis Zoo",
+        "description": "The only institution in the country accredited as a zoo, an aquarium and a botanical garden at once, with an orangutan centre where the apes travel overhead on cables.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Wait at the Hutan Trail until an orangutan crosses directly above your head.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Indianapolis+Zoo+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "IND-F-10",
+        "title": "Etouffee at Yats on Mass Ave",
+        "description": "Cajun and Creole out of a chalkboard menu with about six things on it, ladled over rice with a slice of buttered bread, for less money than it has any right to cost.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order whatever is at the top of the chalkboard without reading the rest.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Yats+Mass+Ave+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-F-11",
+        "title": "Breakfast at Café Patachou",
+        "description": "The student union for adults, as it calls itself — a scratch-kitchen breakfast institution since 1989 that put Indianapolis brunch on the map.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the broken yolk sandwich and do not modify it.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Patachou+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-F-05",
+        "title": "Cafeteria Line at Shapiro's Delicatessen",
+        "description": "A Jewish deli running since 1905, still served cafeteria-style: you slide a tray down the rail and point at the corned beef being carved in front of you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order a slice of cake at the start of the line like the regulars do, not the end.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Shapiros+Delicatessen+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-F-12",
+        "title": "Dinner at 9th Street Bistro",
+        "description": "A small, ambitious neighbourhood bistro that landed on Indianapolis Monthly's Best Restaurants list for 2026 — the reservation locals are currently chasing.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Book it far enough ahead that you have to plan the rest of the day around it.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/9th+Street+Bistro+Indianapolis+IN",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "IND-F-06",
+        "title": "Breaded Pork Tenderloin at Workingman's Friend",
+        "description": "A 1918 Haughville tavern serving Indiana's state sandwich — a pounded pork tenderloin overhanging the bun by two inches on every side — to a room that has not changed in decades.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Finish the whole tenderloin, overhang included, without cutting it up.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Workingmans+Friend+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-F-03",
+        "title": "The Changing Menu at Beholder",
+        "description": "Jonathan Brooks' dim room in Windsor Park, where the menu rewrites itself constantly and nothing is off the table — the most interesting cooking in the city.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Order the dish on the menu you understand least.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Beholder+Restaurant+Indianapolis+IN",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "IND-F-08",
+        "title": "Build a Board at Goose the Market",
+        "description": "A butcher, cheesemonger and sandwich counter in Fall Creek Place, with a basement wine bar underneath it for eating what you just bought upstairs.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Let the counter pick all three cheeses without telling them what you like.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Goose+the+Market+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-F-09",
+        "title": "Seasonal Plates at Tinker Street",
+        "description": "A converted house on East 16th doing precise, seasonal, vegetable-forward cooking in a dining room that feels like eating at someone's very good home.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order two vegetable dishes instead of a main and see if you miss it.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Tinker+Street+Restaurant+Indianapolis+IN",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "IND-F-02",
+        "title": "Dinner at Bluebeard",
+        "description": "A converted 1924 warehouse in Fletcher Place doing Italian-leaning farm-to-table cooking, with a bread programme good enough to be its own business next door.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Order whatever the server says the kitchen is most pleased with tonight.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Bluebeard+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-F-04",
+        "title": "A Dozen Yeast Donuts at Long's Bakery",
+        "description": "A 1955 bakery that sells glazed yeast donuts still warm, by the dozen, cash only, to a queue that forms before six in the morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Bring cash, buy a dozen, and give at least half of them away.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Longs+Bakery+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-F-01",
+        "title": "The Shrimp Cocktail at St. Elmo Steak House",
+        "description": "A downtown steakhouse in its original room since 1902, famous less for the beef than for a shrimp cocktail whose horseradish is ground fresh daily and genuinely hurts.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Eat a whole shrimp with a full load of the cocktail sauce and do not reach for water.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/St+Elmo+Steak+House+Indianapolis+IN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-F-07",
+        "title": "Warm Loaf from Amelia's",
+        "description": "The bakery Bluebeard built next door to itself, turning out sourdough and pastries from the same kitchen team, straight out of the oven onto the counter.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a loaf, tear the end off outside, and eat it before you get home.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Amelias+Bread+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "IND-C-10",
+        "title": "Holcomb Gardens on a Weekday Morning",
+        "description": "A formal garden and canal walk on the Butler University campus — twenty acres of allee, fountain and woodland that almost nobody outside the university uses.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Walk the full length of the allee to the fountain without stopping.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Holcomb+Gardens+Butler+University+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "IND-C-07",
+        "title": "The Nature Center at Holliday Park",
+        "description": "A quiet nature centre and rock garden above the White River, with a raptor enclosure and enough shaded bench to spend a whole slow afternoon on.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit in the rock garden for twenty minutes without getting up.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Holliday+Park+Nature+Center+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "IND-C-06",
+        "title": "Canal Walk at Dusk",
+        "description": "Three miles of downtown canal lined with walkways, footbridges and war memorials, and best walked in the half hour after the lights come on.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Walk the whole thing end to end and count the bridges.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Indianapolis+Canal+Walk+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-C-08",
+        "title": "Riverside Afternoon in Broad Ripple Park",
+        "description": "A big open park on the White River at the top of the Monon, with lawn, river frontage and the whole of Broad Ripple village to walk into afterwards.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Walk from the park into the village and find somewhere you have never eaten.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Broad+Ripple+Park+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-C-05",
+        "title": "An Hour in the White River Gardens",
+        "description": "Three acres of formal garden and a glass conservatory beside the zoo, with a seasonal butterfly house you stand inside while they land on you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Stay still in the butterfly house until one lands on you.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/White+River+Gardens+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-C-02",
+        "title": "Wander the 100 Acres at Newfields",
+        "description": "A hundred acres of woodland, wetland and lake behind the art museum, used as a free outdoor gallery for large-scale commissioned work — including a boat you can sit in on the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Find Funky Bones and lie down in it.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Virginia+B+Fairbanks+Art+and+Nature+Park+100+Acres+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "IND-C-09",
+        "title": "Gallery Floors of the Murphy Building",
+        "description": "A former Fountain Square department store now stacked with artist studios and small galleries, quiet on a weekday and open to anyone who wanders in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Knock on one open studio door and ask the artist what they are working on.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Murphy+Art+Center+Fountain+Square+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "IND-C-03",
+        "title": "Read in the Central Library Atrium",
+        "description": "A 1917 Greek Revival library with a six-storey glass atrium bolted onto the back of it, and a top-floor reading room looking straight down at the skyline.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get to the sixth floor and read for an hour facing the window.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Indianapolis+Central+Library+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "IND-C-04",
+        "title": "Walk to the High Point of Crown Hill",
+        "description": "The third-largest cemetery in the country, an arboretum in its own right, with James Whitcomb Riley buried on the highest natural point in the city and a full skyline view from it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Climb to Riley's grave and find the skyline view before you look at the map.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Crown+Hill+Cemetery+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "IND-C-01",
+        "title": "The Reopened Sunken Garden at Garfield Park",
+        "description": "Three years of restoration work brought the historic Sunken Garden fountains back in June 2026, and they now run with new colour lighting after dark beside the 1916 conservatory.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 23,
+        "bonus": "Stay past sundown for the lights, then go into the conservatory palm house.",
+        "city": "Indianapolis, IN",
+        "mapsUrl": "https://maps.google.com/maps/search/Garfield+Park+Conservatory+and+Sunken+Garden+Indianapolis+IN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

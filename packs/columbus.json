@@ -1,0 +1,1194 @@
+{
+  "id": "columbus",
+  "name": "columbus",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "8ball": [
+      {
+        "id": "CMH-8B-01",
+        "title": "Donuts at 3am on High Street",
+        "description": "Whatever the night turns into, it ends at the 24-hour donut counter across from campus. No plan, no reservation, no defence.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order whatever the person in front of you ordered.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Buckeye+Donuts+Columbus+OH",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-8B-02",
+        "title": "Three Metro Parks, One Day",
+        "description": "Columbus has twenty metro parks and they are all free. Pick three at random, drive to all three in one day, and walk at least a mile in each.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "6–7 hrs",
+        "durationMins": 390,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Let someone else pick the three, sight unseen, and do not renegotiate.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Columbus+and+Franklin+County+Metro+Parks+Columbus+OH",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "CMH-S-06",
+        "title": "Hoof Hearted's Short North Taproom",
+        "description": "The cult Ohio brewery with the deliberately ridiculous can art, pouring hazy IPAs out of a Short North bar with none of the seriousness of a tasting room.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick your beer purely on the strength of the can artwork.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Hoof+Hearted+Brewing+Short+North+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CMH-S-08",
+        "title": "A Gig at Ace of Cups",
+        "description": "A small Old North room with a big booking calendar — touring indie and punk acts playing close enough to hear the amps rather than the PA.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Buy something from the merch table of a band you had never heard of before tonight.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Ace+of+Cups+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CMH-S-05",
+        "title": "Rooftop at Seventh Son",
+        "description": "The brewery that anchored the Fourth Street revival, with a second-storey rooftop bar behind retractable glass walls and a skyline view through the plants.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Drink a Humulus Nimbus on the roof and admit whether the hype holds.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Seventh+Son+Brewing+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CMH-S-11",
+        "title": "Experimental Pours at The Extension",
+        "description": "Land-Grant's small side bar behind the Idea Foundry, built purely to pour the weird one-off batches that never make it into a can.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the strangest thing on the board and finish it before you order anything you recognise.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Extension+Land-Grant+Brewing+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CMH-S-10",
+        "title": "Comedy Night at the Funny Bone",
+        "description": "A proper club room at Easton with a two-drink minimum and a booking sheet that mixes headliners on tour with local sets you have not heard.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit in the front row on purpose and take whatever comes.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Funny+Bone+Comedy+Club+Easton+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CMH-S-01",
+        "title": "Buckeyes Saturday in the Horseshoe",
+        "description": "One hundred thousand people in Ohio Stadium, the script Ohio at halftime, and a city that shuts down around it — the single biggest thing that happens in Columbus.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Sep–Nov",
+        "spark": 40,
+        "bonus": "Stay for Carmen Ohio after the final whistle and sing it with the arms linked.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Ohio+Stadium+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-S-09",
+        "title": "A Show at the Newport Music Hall",
+        "description": "Billed as America's longest continually running rock club, a balconied hall on High Street opposite campus that has hosted almost everyone on the way up.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Watch at least one song from the balcony and one from the floor.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Newport+Music+Hall+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-S-12",
+        "title": "Distillery Tour and Tasting at Watershed",
+        "description": "An hour through the barrel room, still house and bottling line of the distillery that has been making Columbus bourbon and gin for fifteen years, tasting as you go.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Ask the guide which of their own bottles they actually drink at home.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Watershed+Distillery+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CMH-S-07",
+        "title": "Duckpin Bowling at Pins Mechanical",
+        "description": "Duckpin lanes, pinball, foosball and a giant Jenga set across a cavernous Short North bar — the birthplace of a concept that spread to a dozen cities.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Bowl a full duckpin game and keep proper score by hand.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Pins+Mechanical+Co+Short+North+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CMH-S-04",
+        "title": "Beer Garden and Pickleball at Land-Grant",
+        "description": "A 1.5-acre brewery campus in East Franklinton with a huge outdoor beer garden, rotating food trucks and pickleball and basketball courts in the middle of it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Get a full pickleball game going with people you did not arrive with.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Land-Grant+Brewing+Company+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CMH-S-03",
+        "title": "Blue Jackets Night at Nationwide Arena",
+        "description": "NHL hockey downtown with a cannon that fires on every home goal, and the whole Arena District to spill into afterwards.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 24,
+        "bonus": "Be watching the cannon, not the ice, when the Jackets score.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Nationwide+Arena+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-S-02",
+        "title": "Nordecke Night at ",
+        "description": "The Crew's supporters' section is a wall of yellow smoke and drums in a purpose-built downtown stadium, from the club that beat MLS's attempt to move it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Mar–Oct",
+        "spark": 26,
+        "bonus": "Stand in the Nordecke for the full match without sitting down once.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Lower.com+Field+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "CMH-CU-08",
+        "title": "COSI's Dinosaur Gallery After the Kids Leave",
+        "description": "A top-ranked science centre with a permanent American Museum of Natural History dinosaur gallery, and regular adult-only after-hours nights with a bar.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Go to an adults-only evening rather than a Saturday afternoon.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/COSI+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-CU-02",
+        "title": "Decode the Wexner Center Building",
+        "description": "Peter Eisenman's deconstructivist landmark on the Ohio State campus — a building of deliberately colliding grids that houses some of the most adventurous art programming in the Midwest.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the staircase that goes nowhere and stand under it.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Wexner+Center+for+the+Arts+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-CU-04",
+        "title": "Tour the Ohio Statehouse",
+        "description": "One of the oldest working statehouses in the country, a Greek Revival block with a rotunda you can stand directly under on a free guided tour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Look straight up in the rotunda and count the sections of the skylight.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Ohio+Statehouse+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-CU-05",
+        "title": "Short North Gallery Hop",
+        "description": "The first Saturday of every month, the galleries along High Street open late and the whole Short North turns into one long street party with art in it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Talk to an artist about their own work before you leave.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Short+North+Arts+District+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-CU-03",
+        "title": "The Billy Ireland Cartoon Library",
+        "description": "The largest collection of comics and cartoon art on earth, free to walk into on the Ohio State campus, with original Calvin and Hobbes and Peanuts strips on the wall.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Find an original strip by a cartoonist you loved as a kid.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Billy+Ireland+Cartoon+Library+and+Museum+Columbus+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CMH-CU-07",
+        "title": "Columbus Symphony at the Ohio Theatre",
+        "description": "A 1928 Spanish-Baroque movie palace saved from demolition and restored to absurd gilded excess, now the symphony's home — the room is half the experience.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Sep–May",
+        "spark": 40,
+        "bonus": "Get there in time to hear the Mighty Morton organ rise out of the pit.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Ohio+Theatre+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-CU-06",
+        "title": "Thurber House on a Quiet Afternoon",
+        "description": "James Thurber's restored family home, the one the ghost got into in his most famous story, now a literary centre you can walk through room by room.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Read The Night the Bed Fell standing in the room it happened in.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Thurber+House+Columbus+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CMH-CU-01",
+        "title": "An Afternoon at the Columbus Museum of Art",
+        "description": "A strong early-modern collection and a genuinely good contemporary wing, in a 1931 building with a glass-roofed courtyard worth sitting in on its own.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the George Bellows and work out why Columbus is so proud of him.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Columbus+Museum+of+Art+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "CMH-A-05",
+        "title": "Climb the 44-Foot Walls at Vertical Adventures",
+        "description": "Fifteen thousand square feet of climbing with walls up to 44 feet, bouldering across two floors, and a giant swing for whoever taps out early.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get to the top of the tallest wall in the building on your first visit.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Vertical+Adventures+Climbing+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-06",
+        "title": "Spend a Day at the Columbus Zoo",
+        "description": "Consistently ranked among the best zoos in the country, with a polar bear tundra you view from underwater and a Heart of Africa savanna you walk straight into.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay at one enclosure long enough to watch an animal do something genuinely surprising.",
+        "city": "Powell, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Columbus+Zoo+and+Aquarium+Powell+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-12",
+        "title": "Paddle Griggs Reservoir at First Light",
+        "description": "A long, narrow reservoir on the Scioto with wooded banks on both sides, flat water and almost nobody on it before eight in the morning.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Get out on the water before the first motorboat does.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Griggs+Reservoir+Park+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-13",
+        "title": "Hike the Ridge Trail at Clear Creek",
+        "description": "Ohio's largest nature preserve — a 5,000-acre valley of hemlock ravines and dry ridge prairie with far fewer people in it than Hocking Hills next door.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do the whole ridge without checking how far is left.",
+        "city": "Rockbridge, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Clear+Creek+Metro+Park+Rockbridge+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-11",
+        "title": "Tour the Crystal Rooms at Ohio Caverns",
+        "description": "An hour northwest of the city, a limestone cave system full of pure white crystal formations and a 54-degree year-round temperature that makes it perfect in August.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Take the longer Natural Wonder tour rather than the short historic one.",
+        "city": "West Liberty, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Ohio+Caverns+West+Liberty+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-10",
+        "title": "Walk the Blackhand Gorge Rail Trail",
+        "description": "A paved trail on an old interurban rail bed cut right through a sandstone gorge on the Licking River, with a hand-carved canal towpath still visible in the rock.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Apr–Nov",
+        "spark": 13,
+        "bonus": "Find the section where the old canal channel was cut into the cliff face.",
+        "city": "Newark, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Blackhand+Gorge+State+Nature+Preserve+Newark+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-08",
+        "title": "Hit the Bays at Topgolf Polaris",
+        "description": "Heated, climate-controlled hitting bays with self-scoring balls, food and a full bar — the plan that works whether or not anyone can actually golf.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Win one game without using a club you have held before.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Topgolf+Columbus+Polaris+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-09",
+        "title": "Spot the Bison Herd at Battelle Darby Creek",
+        "description": "A restored prairie twenty minutes west of downtown with a genuine bison herd grazing it, plus wetlands boardwalks and two state scenic rivers.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the herd without asking a ranger where they are.",
+        "city": "Galloway, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Battelle+Darby+Creek+Metro+Park+Galloway+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-14",
+        "title": "Ice Bumper Cars in Land-Grant's Winter Yard",
+        "description": "The brewery's beer garden turns into a winter yard every year with curling lanes and ice bumper cars, which are exactly as stupid and excellent as they sound.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Dec–Feb",
+        "spark": 15,
+        "bonus": "Win a curling end against people who also have no idea what they are doing.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Land-Grant+Brewing+Company+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-03",
+        "title": "Hike to the Shale Bluff Overlook at Highbanks",
+        "description": "Follow the ravines of Highbanks Metro Park to a platform on a hundred-foot shale bluff above the Olentangy, past a thousand-year-old earthwork on the way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the Adena burial mound on the trail and work out how old it is before you look it up.",
+        "city": "Lewis Center, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Highbanks+Metro+Park+Lewis+Center+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-07",
+        "title": "Ride the Olentangy Trail Out of Downtown",
+        "description": "A paved riverside greenway running north from downtown through the Ohio State campus and out past Clintonville, all of it separated from traffic.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Ride until you hit a neighbourhood you have never been to and get food there.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Olentangy+Trail+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-16",
+        "title": "Open-Range Safari at The Wilds",
+        "description": "Ten thousand acres of reclaimed strip mine turned into an open-range conservation centre, where rhinos, giraffes and Przewalski's horses roam and you ride out among them.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Book the open-air safari transport rather than the enclosed bus, whatever the weather says.",
+        "city": "Cumberland, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Wilds+Cumberland+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-04",
+        "title": "Mountain Bike the Alum Creek Trail System",
+        "description": "Central Ohio's best singletrack — miles of stacked loops above Alum Creek Reservoir, graded so you can pick your own level of pain.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 24,
+        "bonus": "Ride one loop harder than you meant to, then swim in the reservoir afterwards.",
+        "city": "Lewis Center, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Alum+Creek+State+Park+Mountain+Bike+Trail+Lewis+Center+OH",
+        "company": [
+          "solo",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-15",
+        "title": "Kayak the Coves of Hoover Reservoir",
+        "description": "Three thousand acres of water northeast of the city with quiet fingers and coves to disappear into, and a serious heron and eagle population.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Paddle into a cove far enough that you cannot hear a road.",
+        "city": "Westerville, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Hoover+Reservoir+Park+Westerville+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-01",
+        "title": "Climb the Outdoor Wall at Scioto Audubon",
+        "description": "A 35-foot free public climbing wall in a metro park built on a former scrapyard, five minutes from downtown and open to anyone who brings a harness.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Top out one route with the downtown skyline directly behind you.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Scioto+Audubon+Metro+Park+Climbing+Wall+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-A-02",
+        "title": "Hike the Gorge Trail to Old Man's Cave",
+        "description": "An hour southeast of Columbus, the Hocking Hills gorge cuts through hemlock and sandstone past waterfalls, recessed caves and a tunnel carved straight through rock.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Carry on past Old Man's Cave to Cedar Falls instead of turning back at the car park.",
+        "city": "Logan, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Mans+Cave+Hocking+Hills+Logan+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "CMH-F-02",
+        "title": "Cream Puff and a Bahama Mama at Schmidt's",
+        "description": "Five generations of the Schmidt family in a converted 1886 livery stable in German Village, serving the city's definitive sausage plate and a jumbo cream puff the size of a fist.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Finish a whole jumbo cream puff by yourself. No sharing, no excuses.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Schmidts+Sausage+Haus+German+Village+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-F-04",
+        "title": "Pancake Balls at Katalina's",
+        "description": "A converted 1920s filling station doing the city's signature breakfast — pancake balls filled with dulce de leche, plus Mexican-leaning plates alongside them.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the savoury dish you would never normally get at breakfast, then the pancake balls anyway.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Katalinas+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-F-01",
+        "title": "Graze Your Way Through North Market",
+        "description": "A public market running since 1876 where Jeni's started and thirty-odd merchants now share one floor — built for eating four small things instead of one big one.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat something from three different stalls and do not repeat a cuisine.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/North+Market+Downtown+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-F-05",
+        "title": "A Scoop of Jeni's Where It Started",
+        "description": "Jeni Britton's ice cream began at North Market and grew into a national name; the Columbus scoop shops still get the strange, good flavours first.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the flavour you would normally skip and finish the whole scoop.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Jenis+Splendid+Ice+Creams+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-F-03",
+        "title": "Buckeye Donuts at an Unreasonable Hour",
+        "description": "Open around the clock since 1969 across from the Ohio State campus, frying donuts all night and doing a gyro and a full breakfast alongside them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order both a donut and a gyro in the same visit and eat them in that order.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Buckeye+Donuts+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-F-07",
+        "title": "The Tasting Menu at Veritas",
+        "description": "Josh Dalton's downtown counter is the city's reference fine-dining room — a long, precise tasting menu and a wine list built to argue with it.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the wine pairing and ask the sommelier to explain the one you liked least.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Veritas+Restaurant+Columbus+OH",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "CMH-F-06",
+        "title": "Morning Bun at Fox in the Snow",
+        "description": "An Italian Village bakery with no wifi, no laptops and an open kitchen — just a case of egg sandwiches and morning buns that sell out before lunch.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get there early enough that the morning buns are still warm.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Fox+in+the+Snow+Cafe+Italian+Village+Columbus+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CMH-F-11",
+        "title": "Cheesesteak at Marlow's in North Market",
+        "description": "One of North Market's newest counters, griddling proper Philly-style cheesesteaks to order in the middle of the market floor.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order it whiz wit and do not apologise for it.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Marlows+Cheesesteaks+North+Market+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-F-10",
+        "title": "Beer-Paired Dinner at Wolf's Ridge",
+        "description": "One of the few breweries in the country whose dining room is the reason to go — a proper kitchen downtown building courses around its own beer.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Let the server pair every course with a beer rather than ordering wine.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Wolfs+Ridge+Brewing+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-F-08",
+        "title": "Pasta and Amaro at Speck Italian Eatery",
+        "description": "The easier, louder sibling to Veritas from the same kitchen — handmade pasta, wood-fired plates and a bar list that leans hard into amari.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Finish with an amaro you cannot pronounce.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Speck+Italian+Eatery+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-F-09",
+        "title": "Dinner at Watershed Kitchen + Bar",
+        "description": "The restaurant attached to the distillery — a seasonal menu built to sit beside the bourbon being made through the wall, in a big airy room off Grandview.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order a cocktail made with the spirit distilled on the other side of the wall.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Watershed+Distillery+Kitchen+and+Bar+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-F-12",
+        "title": "Cocktails at Service Bar",
+        "description": "Middle West Spirits' in-house restaurant behind the distillery, doing an ambitious small-plates menu and cocktails built on the whiskey made on site.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the dish on the menu you cannot picture and eat all of it.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Service+Bar+Middle+West+Spirits+Columbus+OH",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "CMH-C-05",
+        "title": "Sit by the Scioto Mile Fountain",
+        "description": "A restored riverfront promenade downtown with a 15,000-square-foot interactive fountain, and a skyline reflection that is at its best right after sunset.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 12,
+        "bonus": "Walk the whole promenade end to end without stopping to look at your phone.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Scioto+Mile+Fountain+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-C-01",
+        "title": "Wander the Glasshouses at Franklin Park Conservatory",
+        "description": "An 1895 Victorian glass palace holding a rainforest, a desert and one of the largest permanent Chihuly glass collections anywhere, set in 88 acres of garden.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find every Chihuly piece in the building before you leave.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Franklin+Park+Conservatory+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-C-04",
+        "title": "Afternoon in Schiller Park",
+        "description": "Twenty-three acres of brick-lined German Village green with a pond, a rose garden and an amphitheatre that runs free Shakespeare all summer.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Check what is on at the amphitheatre and stay for it.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Schiller+Park+German+Village+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-C-08",
+        "title": "Birdwatch the Old Growth at Green Lawn Cemetery",
+        "description": "Three hundred and sixty acres of Victorian cemetery and old-growth trees that happen to be one of the best spring migration birding spots in Ohio.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Identify three birds you could not have named before you arrived.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Green+Lawn+Cemetery+Columbus+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CMH-C-06",
+        "title": "A Slow Hour in Goodale Park",
+        "description": "The city's oldest park, thirty-two acres on the edge of the Short North with a pond, a Victorian shelter house and the best people-watching in Columbus.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Pick a bench, stay put for a full hour, and notice five things you would have walked past.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Goodale+Park+Columbus+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CMH-C-10",
+        "title": "Stand in the Field of Corn",
+        "description": "One hundred and nine six-foot concrete ears of corn standing in rows in a suburban park — the strangest and most beloved public artwork in central Ohio.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get a photograph that makes it look like a serious monument.",
+        "city": "Dublin, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Field+of+Corn+Dublin+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-C-02",
+        "title": "Find the Seurat Painting at the Topiary Park",
+        "description": "The only topiary interpretation of a painting in the world — Seurat's La Grande Jatte rebuilt in clipped yew, fifty-four figures standing on a lawn downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Stand where the painter would have stood and get the whole composition in one frame.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Topiary+Park+Columbus+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-C-03",
+        "title": "Get Lost in The Book Loft's 32 Rooms",
+        "description": "Thirty-two rooms of books packed into a pre-Civil War building in German Village that was once a general store, a saloon and a nickelodeon cinema, open until 11pm.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Buy a book from a room you had to ask directions to find.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Book+Loft+of+German+Village+Columbus+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "CMH-C-09",
+        "title": "Cross the Dublin Link at Dusk",
+        "description": "One of the longest single-tower S-shaped suspension bridges in the world, curving over the Scioto between historic Dublin and Bridge Park, lit up after dark.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand at the apex of the curve and watch the lighting cycle change colour.",
+        "city": "Dublin, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Dublin+Link+Bridge+Dublin+OH",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CMH-C-07",
+        "title": "Walk the Whetstone Park of Roses in Bloom",
+        "description": "Thirteen acres and twelve thousand rose bushes in Clintonville, free to walk into, and overwhelming for about three weeks every June.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 13,
+        "bonus": "Find the single best-smelling rose in the garden and make someone else agree.",
+        "city": "Columbus, OH",
+        "mapsUrl": "https://maps.google.com/maps/search/Whetstone+Park+of+Roses+Columbus+OH",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,806 @@
+{
+  "id": "portland",
+  "name": "portland",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "PDX-CU-02",
+        "title": "Submarine Tour at OMSI",
+        "description": "A hands-on science museum on the river whose best exhibit is moored outside — the USS Blueback, the last diesel-electric sub the Navy commissioned.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Take the sub tour, not just the museum ticket.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/OMSI+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-CU-07",
+        "title": "Pittock Mansion and the View Below It",
+        "description": "A 1914 French Renaissance house on a hill a thousand feet above the city, with a lawn that frames downtown and Mount Hood in one shot.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Walk up from Lower Macleay instead of driving to the lot.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Pittock+Mansion+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-CU-05",
+        "title": "Repertory Night at the Hollywood Theatre",
+        "description": "A 1926 movie palace run as a nonprofit, showing 70mm restorations, cult programming and its own Kung Fu Theater series.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Check what's screening in 70mm and build the night around it.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Hollywood+Theatre+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-CU-08",
+        "title": "Grand Floral Parade at the Rose Festival",
+        "description": "The city's oldest civic tradition — a century-old parade of all-floral floats through downtown, with a visiting fleet and a waterfront carnival around it.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Jun",
+        "spark": 40,
+        "bonus": "Watch from the Hollywood district stretch rather than the downtown crush.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Rose+Festival+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-CU-03",
+        "title": "Stand-Up at Helium Comedy Club",
+        "description": "A proper comedy club on Southeast Hawthorne that pulls touring headliners and runs a genuinely good local open-mic scene midweek.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Go on a midweek night and watch the locals work new material.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Helium+Comedy+Club+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PDX-CU-01",
+        "title": "Portland Art Museum",
+        "description": "The oldest art museum in the Northwest, strongest in Native American art, Northwest modernism and a serious print collection.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the Center for Contemporary Native Art before you leave.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Art+Museum+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-CU-04",
+        "title": "Matchday with the Timbers Army",
+        "description": "One of the loudest supporter sections in North American sport — three thousand people in the north end singing, drumming and holding tifo for ninety minutes straight.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Feb–Oct",
+        "spark": 40,
+        "bonus": "Get a seat in or beside the north end, not across from it.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Providence+Park+Portland+OR",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-CU-06",
+        "title": "Oregon Historical Society Museum",
+        "description": "The state's story told properly, including the parts about Oregon's founding exclusion laws that most visitors never hear.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Spend real time in the Experience Oregon exhibit rather than skimming it.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Oregon+Historical+Society+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "PDX-C-10",
+        "title": "Soak and Steam at Knot Springs",
+        "description": "A soaking club above the Burnside Bridge with hot and cold pools, a steam room and a wall of windows over the river and the east side.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Do three full hot-cold cycles before you get in the sauna.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Knot+Springs+Portland+OR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PDX-C-08",
+        "title": "Tea House Afternoon at Lan Su Garden",
+        "description": "A full Ming-dynasty scholar's garden built by artisans from Suzhou, occupying one city block of Old Town, with a two-storey tea house above the lake.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order a pot at the Tower of Cosmic Reflections and stay for a full steeping.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Lan+Su+Chinese+Garden+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-C-06",
+        "title": "Pour-Over and a Slow Hour at Deadstock",
+        "description": "A sneakerhead coffee shop in Old Town where the drinks are named after basketball and nobody minds if you sit for an hour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask what's on the shelf behind the counter.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Deadstock+Coffee+Portland+OR",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PDX-C-07",
+        "title": "Bloom Season at Crystal Springs",
+        "description": "Seven acres of rhododendrons, a spring-fed lake and a heron colony tucked behind Reed College — at peak bloom it is genuinely absurd.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Mar–Jun",
+        "spark": 14,
+        "bonus": "Cross every bridge in the garden before you leave.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Crystal+Springs+Rhododendron+Garden+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-C-09",
+        "title": "Dig the Crates at Music Millennium",
+        "description": "The oldest record store in the Pacific Northwest, still stacked floor to ceiling, still hosting in-store sets on a stage by the door.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy something purely because of the cover.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Music+Millennium+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-C-05",
+        "title": "Wander the Hoyt Arboretum Ridgeline",
+        "description": "Twelve miles of trails through a living collection of trees from around the world, laid out along the ridge above Washington Park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the Redwood Trail and stand under the coast redwoods.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Hoyt+Arboretum+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "PDX-A-07",
+        "title": "Kayak Out to Ross Island",
+        "description": "Rent from Alder Creek and paddle the Willamette around Ross Island Lagoon, where herons and osprey nest a mile from downtown.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 22,
+        "bonus": "Paddle the full lagoon loop and count the osprey nests.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Alder+Creek+Kayak+and+Canoe+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-A-06",
+        "title": "Trail of Ten Falls at Silver Falls",
+        "description": "Loop the canyon at Silver Falls State Park and walk behind the curtain of South Falls on a trail that strings together ten waterfalls in one hike.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "Full day",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stand behind the water at South Falls and get the photo looking out.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Silver+Falls+State+Park+Oregon",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-A-09",
+        "title": "Ride the Sandy Ridge Trail System",
+        "description": "Purpose-built flow trail an hour east of the city, where you shuttle up the gravel road and drop into bermed singletrack the whole way down.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Link Hide and Seek into Follow the Leader without putting a foot down.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandy+Ridge+Trailhead+Oregon",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-A-08",
+        "title": "Wildflower Climb up Dog Mountain",
+        "description": "A relentless 2,800-foot climb on the Washington side of the Gorge that pays out in May with an entire summit meadow of balsamroot.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Apr–Jun",
+        "spark": 26,
+        "bonus": "Take the Augspurger route down for the quieter descent.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Dog+Mountain+Trailhead+Washington",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-A-11",
+        "title": "Soak at Bagby Hot Springs",
+        "description": "Hike a mile and a half of old-growth forest to hand-hewn cedar tubs fed by piped spring water deep in the Mount Hood National Forest.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Take a private tub rather than the communal deck.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Bagby+Hot+Springs+Oregon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-A-10",
+        "title": "Switchback up Beacon Rock",
+        "description": "Climb a hand-built catwalk of fifty-odd switchbacks bolted to the face of an 848-foot volcanic plug for one of the best views in the Gorge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Count the switchbacks on the way up and see if you agree with the sign.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Beacon+Rock+State+Park+Washington",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-A-05",
+        "title": "Wildwood Trail Through Forest Park",
+        "description": "Drop into one of the longest urban forest trails in the country and walk fir-shaded switchbacks until the city noise disappears entirely.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the Stone House ruins off the Lower Macleay approach.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Wildwood+Trail+Forest+Park+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-A-12",
+        "title": "Learn to Windsurf in Hood River",
+        "description": "Take a lesson in the Columbia River Gorge, where the river current runs one way and the gorge wind screams the other — the wind-sport capital of the country.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Jun–Sep",
+        "spark": 40,
+        "bonus": "Stay for a beer on the Hood River waterfront and watch the pros in the swell.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Hood+River+Waterfront+Park+Oregon",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "PDX-S-08",
+        "title": "Rooftop Drinks at Departure",
+        "description": "Fifteen floors up on the roof of the Nines, a retro-futurist deck with two terraces and the best west-side sunset view downtown offers.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get on the west terrace before sunset, not after.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Departure+Restaurant+Lounge+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PDX-S-06",
+        "title": "Work Your Way Down North Mississippi",
+        "description": "Six walkable blocks of bars, patios and food carts — start at one end, have one drink per stop, and see how far you get.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Finish at a food cart pod rather than a restaurant.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/N+Mississippi+Avenue+Portland+OR",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PDX-S-11",
+        "title": "Cider Flight at Portland Cider House",
+        "description": "Oregon apples turned into everything from bone-dry to marionberry, poured by the flight in a Hawthorne pub that takes cider as seriously as beer.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Try the driest one on the board first and recalibrate from there.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Cider+House+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PDX-S-12",
+        "title": "Dance on the Floating Floor at the Crystal Ballroom",
+        "description": "A 1914 ballroom with a mechanical floor mounted on ball bearings — when the room jumps, the whole floor moves with it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Stand in the middle of the floor during the loudest song and feel it bounce.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Crystal+Ballroom+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PDX-S-05",
+        "title": "Sour Flight at Cascade Brewing Barrel House",
+        "description": "The house that Northwest sour ales built — order a flight of barrel-aged fruit sours and work from the least to the most aggressive.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ask what's just come off the barrel that week.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Cascade+Brewing+Barrel+House+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PDX-S-07",
+        "title": "Cocktails at Multnomah Whiskey Library",
+        "description": "A wood-panelled room with rolling ladders and 1,500-plus bottles, where a bar captain wheels a cart to your table and builds the drink in front of you.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Let the captain pick something you've never heard of.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Multnomah+Whiskey+Library+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PDX-S-10",
+        "title": "Portland Night Market in the Central Eastside",
+        "description": "A warehouse full of local makers, food vendors and drinks that takes over an industrial block for a handful of weekends each year.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Limited dates",
+        "spark": 15,
+        "bonus": "Buy one thing from the first vendor that stops you.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Night+Market+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-S-09",
+        "title": "Last Round at the Sandy Hut",
+        "description": "A red-lit Portland dive with decades of history, cheap pours and booths that have absorbed a great many stories.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Play something on the jukebox that clears the room.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Sandy+Hut+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "foodie": [
+      {
+        "id": "PDX-F-06",
+        "title": "Pie and a Beer at Apizza Scholls",
+        "description": "Thin, blistered, fiercely traditional pizza from a kitchen that caps its dough per night and closes when it runs out.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get there when the doors open — they stop when the dough is gone.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Apizza+Scholls+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-F-11",
+        "title": "Duck Stack and Onion Soup at Canard",
+        "description": "Gabriel Rucker's all-day bar next door to Le Pigeon, where the menu runs from a duck-fat pancake stack to French onion soup you dip like a sandwich.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the steam burger and the duck stack and share both.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Canard+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-F-07",
+        "title": "Breakfast Line at Pine State Biscuits",
+        "description": "Buttermilk biscuits under fried chicken, bacon and sausage gravy — the Reggie Deluxe is the order and the line is part of the deal.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat it on the curb like everyone else rather than waiting for a table.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Pine+State+Biscuits+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-F-10",
+        "title": "Saturday Morning at the PSU Farmers Market",
+        "description": "The biggest farmers market in the city fills the South Park Blocks every Saturday with Oregon produce, cheese, hazelnuts and a dozen breakfast stalls.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Mar–Dec",
+        "spark": 13,
+        "bonus": "Build an entire breakfast from three different stands.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Farmers+Market+PSU+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-F-05",
+        "title": "Khao Man Gai at Nong's",
+        "description": "One dish, done perfectly: poached chicken over rice cooked in the broth, with a ginger-soy-chili sauce that made this cart a Portland institution.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the chicken soup on the side. It comes from the same pot.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Nongs+Khao+Man+Gai+Portland+OR",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-F-08",
+        "title": "Zakuski and Horseradish Vodka at Kachka",
+        "description": "Russian and Georgian small plates built for drinking — herring under a fur coat, pelmeni, and an infused vodka list you work through as a table.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the full Zakuski spread and let the kitchen choose.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Kachka+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PDX-F-12",
+        "title": "Thai Tasting Menu at Langbaan",
+        "description": "A reservation-only room hidden behind a bookcase, serving a rotating regional Thai tasting menu unlike anything else in the city.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Book the counter so you can watch the pass.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Langbaan+Portland+OR",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "PDX-F-09",
+        "title": "Korean Dinner at Han Oak",
+        "description": "Peter Cho cooks Korean-American family food out of a converted courtyard home in the Central Eastside — dumplings, noodles and whole-animal plates.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Sit in the courtyard if the weather allows.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Han+Oak+Portland+OR",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "PDX-8B-01",
+        "title": "Ride the MAX to the End of a Line You've Never Taken",
+        "description": "Buy a day pass, pick whichever MAX line you know least, and ride it to the last stop. Whatever is within four blocks of that platform is the plan.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "No looking up the destination before you get there.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Pioneer+Courthouse+Square+MAX+Station+Portland+OR",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PDX-8B-02",
+        "title": "Take the Tram Up and Walk All the Way Back Down",
+        "description": "Ride the aerial tram from the South Waterfront up to Marquam Hill, then find your own route back down through the hills on foot.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Take a street you've never walked instead of the marked trail.",
+        "city": "Portland, OR",
+        "mapsUrl": "https://maps.google.com/maps/search/Portland+Aerial+Tram+Portland+OR",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

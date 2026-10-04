@@ -1,0 +1,773 @@
+{
+  "id": "minneapolis",
+  "name": "minneapolis",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "foodie": [
+      {
+        "id": "MSP-F-08",
+        "title": "Pizza and the Back Bar at Young Joni",
+        "description": "Ann Kim's wood-fired pizza with Korean inflections, plus a hidden back bar you enter from the alley if you know which door.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the back bar entrance off the alley rather than walking through the restaurant.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Young+Joni+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-F-09",
+        "title": "Sausage Counter at Kramarczuk's",
+        "description": "A Ukrainian deli and sausage house in Northeast that has been curing, smoking and stuffing on the same corner since 1954.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy something from the deli case to take home, not just the lunch plate.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Kramarczuks+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-F-11",
+        "title": "Arepas at Hola Arepa",
+        "description": "A food truck that graduated into a bright Kingfield restaurant, still built on corn cakes stuffed with slow-cooked pork and plantain.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get the plantains as a side even though you don't need them.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Hola+Arepa+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-F-10",
+        "title": "Handmade Pasta at Bar La Grassa",
+        "description": "A North Loop room built around fresh pasta and small plates, famous for a soft egg and lobster bruschetta that has never left the menu.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order two pastas for the table before anything else.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+La+Grassa+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-F-12",
+        "title": "Dinner at Owamni",
+        "description": "Sean Sherman's decolonized Indigenous kitchen above St. Anthony Falls — no dairy, wheat, cane sugar or pork, and a view straight down the river.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask which of the night's ingredients are Indigenous-sourced.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Owamni+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-F-06",
+        "title": "Settle the Jucy Lucy Argument at the 5-8 Club",
+        "description": "The other claimant to the molten-cheese-inside-the-patty crown, directly across town from Matt's. Eat one here, form an opinion, defend it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Wait the full minute before biting. People have been burned.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/5-8+Club+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-F-05",
+        "title": "Fourteen Stools at Al's Breakfast",
+        "description": "A ten-foot-wide Dinkytown diner with fourteen stools and no room to wait, where you stand behind a seated stranger until they leave.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the blueberry walnut pancakes and watch the grill from your stool.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Als+Breakfast+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "MSP-F-07",
+        "title": "Vietnamese Night at Hai Hai",
+        "description": "Christina Nguyen's Northeast room serving Southeast Asian street food — bánh xèo, grilled skewers and tiki drinks under a lot of neon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the bánh xèo and eat it wrapped in lettuce the way it's meant to be.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Hai+Hai+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "MSP-S-05",
+        "title": "Beer Hall Night at Surly",
+        "description": "The brewery that changed Minnesota's beer laws, in a cavernous destination hall with long communal tables and a yard out back.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit at a communal table with people you don't know.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Surly+Brewing+Minneapolis+MN",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MSP-S-12",
+        "title": "Ferris Wheel and Bocce at Betty Danger's",
+        "description": "A Northeast bar with a working Ferris wheel in the parking lot, a mini golf course, and an entirely committed sense of humour.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Take a drink up on the Ferris wheel.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Betty+Dangers+Country+Club+Minneapolis+MN",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-S-11",
+        "title": "Local Bill at the Turf Club",
+        "description": "A 1940s St. Paul bar with a sunken Clown Lounge downstairs and a stage that has hosted Midwest bands on their way up for decades.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Go down to the Clown Lounge between sets.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Turf+Club+St+Paul+MN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MSP-S-07",
+        "title": "Drag Night at the Gay 90's",
+        "description": "A multi-level downtown institution running one of the longest-standing drag revues in the Midwest across several rooms and dance floors.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Get a seat for the revue rather than watching from the bar.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Gay+90s+Minneapolis+MN",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MSP-S-08",
+        "title": "An Evening at Palmer's Bar",
+        "description": "A West Bank dive that has been exactly itself since 1906 — cheap drinks, live music in the corner, and the best patio regulars in the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Talk to whoever has been sitting at the bar the longest.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Palmers+Bar+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MSP-S-09",
+        "title": "Barcade Night at Up-Down",
+        "description": "Quarter arcade cabinets, skee-ball, pinball and pizza by the slice on Lyndale, with a rooftop patio when the weather allows.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Run a full group tournament on one cabinet.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Up-Down+Minneapolis+MN",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MSP-S-10",
+        "title": "Rooftop at the Hewing Hotel",
+        "description": "A North Loop rooftop with a heated pool deck and a sauna, which is a very Minneapolis way to handle a bar being outdoors in October.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Go when it's cold and use the outdoor fire.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Hewing+Hotel+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MSP-S-06",
+        "title": "Find the Door at Volstead's Emporium",
+        "description": "An unmarked basement speakeasy off an alley in Whittier, low-lit and deliberately hard to find, with a cocktail list worth the hunt.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Don't look up the entrance. Find it.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Volsteads+Emporium+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "MSP-CU-02",
+        "title": "Improv Night at HUGE Theater",
+        "description": "A theatre devoted entirely to long-form improv, running several shows a night in a small room where nothing is scripted.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay for the late show — it's looser and usually better.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/HUGE+Theater+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-CU-03",
+        "title": "Wild Game at Xcel Energy Center",
+        "description": "The State of Hockey at full volume — eighteen thousand people who genuinely understand the game, in a building made specifically for it.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 40,
+        "bonus": "Be in your seat for the anthem, not still in the concourse.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Xcel+Energy+Center+St+Paul+MN",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-CU-04",
+        "title": "Twins Game at Target Field",
+        "description": "An open-air downtown ballpark built from Minnesota limestone, with a giant animated Minnie and Paul sign that lights up for home runs.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 15,
+        "bonus": "Get a seat where you can actually see the sign light up.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Target+Field+Minneapolis+MN",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-CU-06",
+        "title": "Mill City Museum and the Ruin Courtyard",
+        "description": "A museum built inside the burned-out shell of what was once the largest flour mill on earth, with an observation deck over the falls.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ride the Flour Tower elevator show, then go up to the deck.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Mill+City+Museum+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-CU-05",
+        "title": "Weisman Art Museum",
+        "description": "Frank Gehry's crumpled stainless-steel building on the riverbank above campus, free to enter, best seen in late afternoon light.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Photograph the west facade from the Washington Avenue Bridge at sunset.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Weisman+Art+Museum+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-CU-08",
+        "title": "Fika at the American Swedish Institute",
+        "description": "A 1908 Swedish-American mansion with hand-carved porcelain stoves, attached to a modern wing where you take coffee and cardamom buns.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find all the kakelugnar tile stoves in the mansion.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/American+Swedish+Institute+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-CU-07",
+        "title": "The Minnesota State Fair",
+        "description": "The Great Minnesota Get-Together — twelve days, two million people, a butter sculpture of the dairy princess, and everything imaginable on a stick.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Late Aug–Early Sep",
+        "spark": 40,
+        "bonus": "Eat at least five things on a stick before you leave.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Minnesota+State+Fairgrounds+St+Paul+MN",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-CU-01",
+        "title": "Minneapolis Institute of Art",
+        "description": "An encyclopedic museum of ninety thousand works spanning five millennia, and the permanent collection is free every single day.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the Chinese scholar's study reassembled inside the Asian galleries.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Minneapolis+Institute+of+Art+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "MSP-8B-02",
+        "title": "Pick a Lake and Walk All the Way Around It",
+        "description": "There are more than twenty lakes inside the city. Choose one you have never circled on foot and walk the whole loop without cutting across.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Stop at the first place selling food that you pass.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Chain+of+Lakes+Minneapolis+MN",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-8B-01",
+        "title": "Ride the Green Line to a Stop You've Never Used",
+        "description": "Get on the Green Line between the two downtowns, pick a University Avenue stop you have never gotten off at, and eat at whatever is closest to the platform.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Take the first restaurant you see, not the best-reviewed one.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Green+Line+University+Avenue+St+Paul+MN",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "MSP-A-10",
+        "title": "Float the Apple River",
+        "description": "The Twin Cities summer ritual: an inner tube, a slow Wisconsin river, and four hours of drifting with a few hundred of your closest strangers.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 360,
+        "time": "Afternoon",
+        "season": "Jun–Aug",
+        "spark": 23,
+        "bonus": "Tie your group's tubes together before you put in.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Apple+River+Tubing+Somerset+WI",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-A-08",
+        "title": "Climb the Bluffs at Interstate State Park",
+        "description": "Basalt cliffs above the St. Croix at Taylors Falls, full of glacial potholes and the closest real rock climbing to the Twin Cities.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "Full day",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 22,
+        "bonus": "Find the deepest glacial pothole on the Pothole Trail.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Interstate+State+Park+Taylors+Falls+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-A-07",
+        "title": "Ski the Groomed Trails at Theodore Wirth",
+        "description": "The biggest park in the city keeps machine-groomed, snowmaking-backed cross-country trails, so it skis even in a thin winter.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Dec–Mar",
+        "spark": 14,
+        "bonus": "Do a lap on the lit loop after dark.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Theodore+Wirth+Park+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-A-06",
+        "title": "Ride the Midtown Greenway End to End",
+        "description": "A below-grade rail trench converted into a bike expressway that crosses the whole south side without a single traffic light.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Climb out at the Sabo Bridge and ride across it.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Midtown+Greenway+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-A-11",
+        "title": "Paddle the Chain of Lakes Channels",
+        "description": "Rent a canoe and thread the narrow tree-covered channels that connect Lake of the Isles, Cedar and Bde Maka Ska into one continuous paddle.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 15,
+        "bonus": "Do all three lakes without getting out of the boat.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Bde+Maka+Ska+Boat+Rental+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-A-09",
+        "title": "Ice Fishing on Lake Minnetonka",
+        "description": "Rent a heated house out on the ice, drill a hole, and spend a Minnesota afternoon doing very little with great commitment.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Jan–Feb",
+        "spark": 25,
+        "bonus": "Stay out past dark for the evening bite.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Minnetonka+Minnesota",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-A-05",
+        "title": "Kayak the Mississippi River Gorge",
+        "description": "Put in below the university and paddle the only true gorge on the entire Mississippi, with limestone bluffs on both banks inside the city limits.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 24,
+        "bonus": "Paddle up as far as the Franklin Avenue Bridge before you turn around.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Above+the+Falls+Sports+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-A-12",
+        "title": "Sunrise on the North Shore at Split Rock",
+        "description": "Drive up before dawn and watch the sun come out of Lake Superior beneath the most photographed lighthouse in Minnesota.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 660,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Walk down to the pebble beach and shoot the lighthouse from below.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Split+Rock+Lighthouse+State+Park+Minnesota",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "MSP-C-06",
+        "title": "Slow Morning at Spyhouse Coffee",
+        "description": "High ceilings, mismatched furniture and serious coffee — the Northeast and Whittier rooms are both good places to lose an hour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit at the window and don't open your laptop.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Spyhouse+Coffee+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "MSP-C-07",
+        "title": "Warm Up in the Como Conservatory",
+        "description": "A Victorian glass house in St. Paul kept at rainforest temperature all winter, free to enter, with a sunken fern room and a bonsai collection.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go in January, when the contrast with outside is the entire point.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Marjorie+McNeely+Conservatory+Como+Park+St+Paul+MN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MSP-C-09",
+        "title": "Eloise Butler Wildflower Garden",
+        "description": "The oldest public wildflower garden in the country, a fenced-off pocket of bog, prairie and woodland inside Theodore Wirth Park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Sit on the bench by the bog and wait for the birds to forget you're there.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Eloise+Butler+Wildflower+Garden+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "MSP-C-05",
+        "title": "Browse Magers & Quinn",
+        "description": "The largest independent bookstore in the state, shelving used and new in the same aisles so you never quite know what you'll turn up.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Leave with something from a section you never normally browse.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Magers+and+Quinn+Booksellers+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "MSP-C-10",
+        "title": "Sunset From the Guthrie's Endless Bridge",
+        "description": "A cantilevered blue box that juts out of the theatre toward the river, open to the public whether or not you have a ticket.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the yellow room window that frames St. Anthony Falls exactly.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Guthrie+Theater+Minneapolis+MN",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

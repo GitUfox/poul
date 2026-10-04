@@ -1,0 +1,1196 @@
+{
+  "id": "budapest",
+  "name": "budapest",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "BUD-S-12",
+        "title": "The Budapest Wine Festival at Buda Castle",
+        "description": "Every September the castle courtyards fill with a few hundred Hungarian producers — Tokaji, Egri Bikavér and furmint poured on a terrace above the whole city.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Sep",
+        "spark": 15,
+        "bonus": "Drink only grape varieties you have never heard of.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Buda+Castle+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-11",
+        "title": "Boat Party on the Danube",
+        "description": "A boat with a sound system casts off from the Pest embankment and spends the night going up and down past the floodlit Parliament with everyone on the open deck.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Be on the top deck every time the boat passes the Parliament.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Danube+party+boat+Budapest",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-07",
+        "title": "High Note SkyBar Beside the Basilica",
+        "description": "A terrace on the Aria Hotel roof so close to St Stephen's dome you could throw something at it, with a cocktail list built on Hungarian folklore.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order the strangest cocktail on the Folklore list and ask for the story behind it.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/High+Note+SkyBar+Budapest",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-04",
+        "title": "Craft Beer at Élesztőház",
+        "description": "A ruined glass factory in Ferencváros with twenty-odd rotating taps of Hungarian craft beer and none of the stag-party traffic of the seventh district.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Work through a flight without asking which is the safe choice.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Elesztohaz+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-08",
+        "title": "Sparty at Széchenyi",
+        "description": "On selected nights the thermal baths stay open, the lights go purple, DJs set up over the outdoor pool and a neo-baroque spa becomes a nightclub you are standing waist-deep in.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Be in the main outdoor pool when the lasers start.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Szechenyi+Thermal+Bath+Budapest",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-05",
+        "title": "A Gig at Akvárium Klub",
+        "description": "Built underneath a shallow artificial lake on Erzsébet Square, so you drink on a terrace with water above the ceiling of the room the band is playing in.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit on the square above the club before the doors open.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Akvarium+Klub+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-S-09",
+        "title": "Ruin Bar Crawl of the Seventh District",
+        "description": "Half a square kilometre of pre-war apartment blocks that were left to rot and then filled with bars — courtyard after courtyard, none of them resembling the last.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick each next bar by whichever doorway looks least like a bar.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/ruin+bars+Kazinczy+utca+Budapest",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-06",
+        "title": "360 Bar on the Rooftop",
+        "description": "A full circle of skyline from a roof on Vörösmarty Square — Basilica, Parliament, Citadella and castle all at once, and heated glass igloos when it turns cold.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Do one full slow lap of the terrace before you order.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/360+Bar+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-03",
+        "title": "A38, the Ship on the Danube",
+        "description": "A Ukrainian stone barge moored under Petőfi Bridge and converted into a concert hall in the hold, a restaurant on deck and a roof terrace over the river.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "See the band in the hold, then go straight up to the roof afterwards.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/A38+Ship+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-10",
+        "title": "Live Music Night at Mazel Tov",
+        "description": "After dark the courtyard that does brunch turns into the quarter's best-looking bar — Mediterranean cocktails, a DJ or a live band, and olive trees strung with bulbs.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay through a full live set instead of moving on to the next place.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Mazel+Tov+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-02",
+        "title": "Instant-Fogas, Seven Clubs in One",
+        "description": "Twelve hundred square metres of party labyrinth across seven connected venues, six music floors and eighteen bars, with a garden in the middle to recover in.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get to all seven rooms in one night.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Instant+Fogas+Budapest",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BUD-S-01",
+        "title": "Szimpla Kert, the Original Ruin Bar",
+        "description": "An abandoned Jewish-quarter factory filled since 2002 with salvaged furniture, a gutted Trabant, fairy lights and rooms that keep opening into other rooms.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Find a room you haven't been in yet before you leave.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Szimpla+Kert+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "BUD-CU-04",
+        "title": "The Hospital in the Rock",
+        "description": "A wartime hospital dug into the caves under Buda Castle, later fitted out as a nuclear bunker, left with its original equipment and wax figures exactly where they were.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ask the guide what happened to the staff after 1945.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Hospital+in+the+Rock+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-CU-03",
+        "title": "Shoes on the Danube and the Dohany Street Synagogue",
+        "description": "Sixty pairs of iron shoes on the embankment where people were shot into the river, and then the largest synagogue in Europe with a mass grave in its garden.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Read the names in the memorial garden rather than only looking at the building.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Dohany+Street+Synagogue+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-CU-07",
+        "title": "The House of Music Hungary",
+        "description": "Sou Fujimoto's perforated golden canopy floating over the City Park trees, with a sound-dome exhibition underneath it you walk through wearing headphones.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Do the whole sound dome without taking the headphones off once.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/House+of+Music+Hungary+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-CU-02",
+        "title": "The House of Terror",
+        "description": "The building the Arrow Cross and then the communist secret police both used, kept as it was, down to the cells in the basement you descend to in a very slow lift.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Ride the basement lift the whole way down without skipping the video.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/House+of+Terror+Budapest",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BUD-CU-08",
+        "title": "The Museum of Fine Arts",
+        "description": "On Heroes' Square, holding the largest collection of Spanish painting outside Spain — seven El Grecos and five Goyas — plus a reconstructed Renaissance hall.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go straight to the Spanish rooms first, before your attention runs out.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Museum+of+Fine+Arts+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-CU-01",
+        "title": "The Hungarian Parliament Building",
+        "description": "The third largest parliament on earth, with forty kilos of gold leaf inside, a sixteen-sided central hall and the thousand-year-old Holy Crown sitting under it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Count the cigar holders in the lobby — they are still numbered.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Hungarian+Parliament+Building+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-CU-05",
+        "title": "Memento Park",
+        "description": "When communism fell, Budapest took its Lenins and Marxes off the streets and stood them in a field on the edge of town instead of smashing them. They are still there.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find Stalin's boots and work out what happened to the rest of him.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Memento+Park+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-CU-06",
+        "title": "The Hungarian State Opera House",
+        "description": "Ybl's 1884 neo-Renaissance house, restored to full gilt and frescoed ceiling, with acoustics rated among the best in Europe and tickets that cost a fraction of Vienna's.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 15,
+        "bonus": "Book the cheapest seat in the house and go anyway.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Hungarian+State+Opera+House+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "BUD-8B-02",
+        "title": "Wildcard: Cross Every Bridge",
+        "description": "Walk every road bridge over the Danube in the city centre in a single day, Buda to Pest and back, and eat or drink something on whichever bank you land on each time.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "All day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 25,
+        "bonus": "Do the Liberty Bridge last, at sunset, and sit on the green ironwork.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Liberty+Bridge+Budapest",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-8B-01",
+        "title": "Wildcard: Bath, Ruin Bar, Sunrise",
+        "description": "Start in a thermal pool in the afternoon, be in a ruin bar by midnight, and watch the sun come up over the Danube from the castle hill without having gone to bed.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "All night",
+        "durationMins": 720,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "No taxis. Walk or take the night tram between all three.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Fishermans+Bastion+Budapest",
+        "filterExempt": true,
+        "company": [
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "BUD-C-05",
+        "title": "The Danube Promenade at Dusk",
+        "description": "Walk the Pest embankment from the Chain Bridge south as the castle hill goes gold and then floodlit on the far bank — the best free hour in the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the whole stretch without taking a single photo.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Danube+Promenade+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-C-09",
+        "title": "Waterfront Afternoon at Kopaszi-gát",
+        "description": "A narrow spit of land in south Buda turned into a landscaped park with water on both sides, lawns you are actually allowed to lie on, and bars along the edge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Walk right to the tip of the spit before you settle anywhere.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Kopaszi-gat+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-C-08",
+        "title": "Gül Baba's Tomb and Rose Garden",
+        "description": "The northernmost Islamic pilgrimage site in the world — a 16th-century Ottoman dervish's tomb up a steep cobbled lane in Buda, ringed by roses and almost always empty.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Find it on foot without using turn-by-turn directions.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Gul+Baba+Tomb+Budapest",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BUD-C-07",
+        "title": "Sunset at Normafa",
+        "description": "A meadow high in the Buda Hills where the whole city lies below the tree line, and the local move is a slice of strudel from a wooden hut and nothing else planned.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay until the city lights come on and walk down in the dark.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Normafa+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-C-10",
+        "title": "The Ecseri Flea Market",
+        "description": "Acres of Habsburg silver, Soviet medals, folk embroidery and complete junk on the southern edge of the city — central Europe's best flea market, and haggling is expected.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy one thing and haggle properly for it.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Ecseri+Flea+Market+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-C-06",
+        "title": "An Afternoon in the City Park",
+        "description": "A hundred hectares behind Heroes' Square holding a fake Transylvanian castle, a boating lake that freezes into Europe's biggest outdoor rink, and the thermal baths.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Row on the lake in summer or skate on the same water in winter.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Varosliget+City+Park+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-C-01",
+        "title": "The Széchenyi Thermal Baths",
+        "description": "A neo-baroque yellow palace in the City Park with eighteen pools fed from a well nearly twelve hundred metres deep, and old men playing chess in the steam outdoors in February.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Go on a cold day and stay in the outdoor pool until your hair freezes.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Szechenyi+Thermal+Bath+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-C-04",
+        "title": "The Musical Fountain on Margaret Island",
+        "description": "A huge fountain at the southern end of the island that runs choreographed water shows to everything from Liszt to film scores, on the hour, for free.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Sit through a whole show without checking what the next one is.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Musical+Fountain+Margaret+Island+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-C-02",
+        "title": "Rudas Rooftop Pool at Night",
+        "description": "A 16th-century Ottoman bath with an original octagonal domed chamber downstairs and a circular hot pool on the roof looking straight down the Danube at the Parliament.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Get in the rooftop pool after dark and stay until the bridges light up.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Rudas+Baths+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-C-03",
+        "title": "Lukács, the Locals' Bath",
+        "description": "The bath Budapest actually uses — no stag parties, a courtyard wall covered in marble plaques from people the water cured, and eleven saunas out the back.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Read the thank-you plaques in the courtyard before you get in.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Lukacs+Thermal+Bath+Budapest",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "BUD-F-09",
+        "title": "Counter Lunch at Belvárosi Disznótoros",
+        "description": "A butcher's counter where you point at raw sausage and chops, they grill it while you wait, and you eat it standing up off a paper plate with bread and mustard.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order entirely by pointing, no English.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Belvarosi+Disznotoros+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-11",
+        "title": "Sunday Farmers' Market at Szimpla",
+        "description": "On Sunday mornings the city's most famous ruin bar sobers up and fills with smallholders selling cheese, honey and sausage among last night's furniture.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy something directly from the person who made it and ask how.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Szimpla+Kert+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-10",
+        "title": "Eight Food Trucks at Karaván",
+        "description": "Hungary's first street food court, wedged into a gap in the ruin-bar street — lángos burgers, Hungarian-Mexican crossovers and benches, right next door to Szimpla.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order from the truck with the shortest queue and no idea what it serves.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Street+Food+Karavan+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-12",
+        "title": "Take Home Paprika from the Great Market Hall",
+        "description": "The ground floor of the market is strings of dried peppers, tins of sweet and hot paprika and jars of goose fat — the one souvenir from Budapest actually worth carrying.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy both sweet and hot and learn from the seller which goes in what.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Great+Market+Hall+Budapest",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BUD-F-02",
+        "title": "Lángos at the Great Market Hall",
+        "description": "Deep-fried dough the size of a dinner plate, loaded with sour cream and grated cheese, eaten standing on the upper gallery of an 1897 iron-and-Zsolnay-tile market.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Eat it standing at the rail looking down over the whole hall.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Great+Market+Hall+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-06",
+        "title": "Hungarian-Jewish Cooking at Rosenstein",
+        "description": "A family restaurant behind Keleti station where two generations cook goose, carp and flodni the way Budapest's Jewish kitchens did before the war.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Ask what the family actually eats and order that instead.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Rosenstein+Vendeglo+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-08",
+        "title": "Shakshuka Brunch at Mazel Tov",
+        "description": "A ruined courtyard in the old Jewish quarter filled with olive trees and hanging bulbs, doing Levantine food and weekend brunch under an open roof.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Sit under the trees in the courtyard, not inside.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Mazel+Tov+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-03",
+        "title": "Kürtőskalács Straight Off the Spit",
+        "description": "A ribbon of sweet dough wound round a wooden cylinder, rolled in sugar and turned over coals until it caramelises — best eaten while it's still too hot to hold.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Unwind the whole thing into one continuous spiral before eating it.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/kurtoskalacs+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-01",
+        "title": "Goulash at Gettó Gulyás",
+        "description": "A Jewish-quarter kitchen that does nothing but Hungarian stews, properly — goulash as a soup, pörkölt as a stew, and the difference finally made obvious.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the stew you can't pronounce and don't look it up first.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Getto+Gulyas+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-07",
+        "title": "Coffee Under the Frescoes at the New York Café",
+        "description": "Open since 1894 and regularly called the most beautiful cafe in the world — Venetian chandeliers, marble columns, gilt everywhere, and a queue that starts outside.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit downstairs in the 'deep water' where the writers used to be put.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/New+York+Cafe+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-04",
+        "title": "Dobos Torte at Café Gerbeaud",
+        "description": "A hundred and seventy years of Hungarian pastry on Vörösmarty Square, under chandeliers and stucco, where the cake trolley is the point and the coffee is incidental.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order a cake purely on the strength of how it looks in the case.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Gerbeaud+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-F-05",
+        "title": "Two Michelin Stars at Stand",
+        "description": "Szabina Szulló and Tamás Széll cooking Hungarian food at the highest level in the country, in a glass-walled kitchen you watch the whole way through.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the full tasting menu and no substitutions.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Stand+Restaurant+Budapest",
+        "company": [
+          "couple"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "BUD-A-12",
+        "title": "Cycle the Buda Hills to Normafa",
+        "description": "A long climb out of the city into beech forest on the Széchenyi ridge, where Budapest keeps its ski slope, its strudel hut and its best picnic meadow.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Earn the strudel at the top rather than driving up for it.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Normafa+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-10",
+        "title": "The Funicular and the Castle Walls",
+        "description": "A wooden funicular from 1870 hauls you up the cliff from the Chain Bridge, and then the whole castle district is yours to walk the ramparts of.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the full circuit of the castle walls before you go into anything.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Budavari+Siklo+Funicular+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-11",
+        "title": "Escape Room in a Pest Courtyard",
+        "description": "Budapest invented the modern escape room, and the originals are still down in the cellars of crumbling nineteenth-century apartment blocks, not in shopping centres.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get out without using a single hint.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/escape+room+Budapest+district+VII",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-09",
+        "title": "Day Trip to Szentendre",
+        "description": "Forty minutes up the river on the suburban railway to a Serbian Orthodox baroque town of cobbled lanes, artists' houses and seven churches in about four streets.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "All day",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get lost on purpose and find your way back to the river by instinct.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Szentendre+Hungary",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-16",
+        "title": "Ride the M1, the Oldest Metro on the Continent",
+        "description": "Opened in 1896 and barely changed — tiny yellow carriages running just under the pavement of Andrássy Avenue, through tiled stations with wooden ticket booths.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride it from end to end and get out at every station on the way back.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Millennium+Underground+M1+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-13",
+        "title": "Swim Outdoors at Palatinus",
+        "description": "A 1919 riverside lido in the middle of Margaret Island — thermal pools, a wave pool, slides and a lot of grass to lie on, all fed by the island's own springs.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "May–Aug",
+        "spark": 13,
+        "bonus": "Be in the wave pool when the waves actually start.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Palatinus+Strand+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-15",
+        "title": "Lángos on the Riverbank at Római-part",
+        "description": "A strip of Danube bank in the far north where Budapest actually goes at the weekend — cycle path, rowing clubs, fried dough and no tourists at all.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Apr–Sep",
+        "spark": 12,
+        "bonus": "Cycle the whole way out from the city rather than taking the train.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Romai-part+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-14",
+        "title": "Sunrise at the Fisherman's Bastion",
+        "description": "Seven white neo-Romanesque turrets on the castle cliff, mobbed by lunchtime and completely empty at six in the morning, looking straight across at the Parliament.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Be standing on the terrace before the sun clears the Pest skyline.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Fishermans+Bastion+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-04",
+        "title": "Kayak the Danube at Dawn",
+        "description": "Put in above Margaret Island at first light and paddle down the middle of the river past the Parliament before the city is properly awake.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 25,
+        "bonus": "Stop paddling under the Chain Bridge and just drift for a minute.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Danube+kayak+tour+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-03",
+        "title": "Adventure Caving Under Buda",
+        "description": "Overalls, a helmet and a headlamp, then three hours crawling through unlit passages of Hungary's longest cave system — directly beneath a residential district.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Do the narrowest squeeze without asking how long it is first.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Palvolgyi+Cave+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-06",
+        "title": "Gellért Hill to the Citadella",
+        "description": "A steep zigzag up the Buda cliff to the Liberty Statue and a Habsburg fortress that reopened in 2026 after eleven years shut, with the best single view in the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk up rather than taking the bus, and do it at golden hour.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Citadella+Gellert+Hill+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-02",
+        "title": "Chairlift to János Hill",
+        "description": "A vintage open two-seater chairlift that swings you a kilometre up over the Buda woods to the city's highest point and the lookout tower on top of it.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Ride it with your feet dangling and don't hold the bar.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Zugligeti+Libego+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-01",
+        "title": "Loop Margaret Island",
+        "description": "A car-free island in the middle of the Danube with a rubberised running track right around its edge, a Japanese garden and a ruined medieval convent in the middle.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do the full 5.3 km loop without stopping.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Margaret+Island+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-05",
+        "title": "Climb the Dome of St Stephen's Basilica",
+        "description": "Three hundred and sixty-four steps, or a lift most of the way, to an open walkway right around the dome at exactly the same height as the Parliament's.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Take the stairs the whole way up rather than the lift.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/St+Stephens+Basilica+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-08",
+        "title": "Night Cruise on the Danube",
+        "description": "The Parliament, the Chain Bridge and the whole castle hill are floodlit after dark, and the only way to see them all at once is from the middle of the river.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay on the open deck the entire time, whatever the weather.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Danube+river+cruise+Budapest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BUD-A-07",
+        "title": "The Children's Railway Through the Buda Hills",
+        "description": "Eleven kilometres of narrow-gauge forest railway where every job except driving the train — signals, tickets, station master — is done by children aged ten to fourteen.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get your ticket punched by a ten-year-old and keep a straight face.",
+        "city": "Budapest, Hungary",
+        "mapsUrl": "https://maps.google.com/maps/search/Gyermekvasut+Budapest",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

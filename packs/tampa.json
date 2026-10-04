@@ -1,0 +1,1190 @@
+{
+  "id": "tampa",
+  "name": "tampa",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "TPA-S-04",
+        "title": "Rays Baseball Back at Tropicana Field",
+        "description": "The Rays are home again in St. Pete after a season away, under a repaired roof with a new video board and the catwalks still in play.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 24,
+        "bonus": "Touch the rays in the tank behind right-centre field before the game.",
+        "city": "St. Petersburg, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Tropicana+Field+St+Petersburg+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-S-02",
+        "title": "Lightning Night at Benchmark International Arena",
+        "description": "The loudest building in the NHL when it's full, with a Tesla coil goal celebration and a downtown crowd that spills straight into Channelside afterwards.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 26,
+        "bonus": "Get there for warmups and stay for the organ. Both are part of it.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Benchmark+International+Arena+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-S-03",
+        "title": "Bucs Sunday at Raymond James Stadium",
+        "description": "A 65,000-seat stadium with a full-size pirate ship in the north end that fires its cannons on every score, and a tailgate scene that starts at dawn.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Sep–Jan",
+        "spark": 40,
+        "bonus": "Be in the lot four hours early. That's where the actual event is.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Raymond+James+Stadium+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-S-10",
+        "title": "Cigar City Pints at the Arena Taproom",
+        "description": "Jai Alai IPA poured at the brewery's downtown taproom by the arena — the beer that put Tampa on the craft map, drunk where the crowds are.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Drink a Jai Alai and a Maduro back to back and pick your side.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Cigar+City+Brewing+Taproom+Channelside+Drive+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPA-S-09",
+        "title": "Show Night at The Ritz Ybor",
+        "description": "A 1917 cinema on 7th Avenue turned into Ybor's main room, with a balcony, a good floor and a calendar that runs from metal to house.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Watch the first two songs from the balcony, then go down to the floor.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Ritz+Ybor+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPA-S-05",
+        "title": "The Speakeasy Behind the Laundromat",
+        "description": "A working laundromat café on Central Avenue in St. Pete with a hidden door at the back that opens onto a Cuban-inflected speakeasy, Thursday to Sunday.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order a coffee at the counter first and act like you don't know.",
+        "city": "St. Petersburg, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Dirty+Laundry+Central+Avenue+St+Petersburg+Florida",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPA-S-08",
+        "title": "Bowl and Drink at Splitsville",
+        "description": "Twelve lanes, billiards, shuffleboard and a tiki bar in Channelside, with sushi arriving at the lane while you're still bowling.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Play a full game where everyone bowls with their off hand.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Splitsville+Channelside+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-S-01",
+        "title": "Bar Crawl Down Ybor's 7th Avenue",
+        "description": "One of only three National Historic Landmark districts in Florida, and on a Friday night it is six blocks of brick street, wrought iron and open doors.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Start at the east end and don't skip the smallest bar you pass.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/East+7th+Avenue+Ybor+City+Tampa+Florida",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPA-S-11",
+        "title": "Flamenco at Columbia Restaurant",
+        "description": "Six nights a week a flamenco company performs in the Patio dining room of the 1905 building, with a $10 cover on top of dinner.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Book the 9:30 show and sit at the front. The footwork is the point.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Columbia+Restaurant+Ybor+City+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-S-07",
+        "title": "Waterfront Sunset at Hula Bay",
+        "description": "A marina-side bar and restaurant on Tyson Avenue with two full outdoor bars, boats pulling straight up to the dock, and the sun setting over the water.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get a table on the outer deck and stay through the whole sunset.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Hula+Bay+Club+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPA-S-06",
+        "title": "Taproom Night at Coppertail",
+        "description": "An independent production brewery and kitchen in a big Ybor warehouse, with a tap wall deep enough to make a flight a real decision.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the flight, rank them, and buy a crowler of the winner.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Coppertail+Brewing+Co+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TPA-S-12",
+        "title": "Sparkman Wharf Beer Garden",
+        "description": "Shipping-container kitchens around a lawn of picnic tables on the Channelside waterfront, with a long bar and the cruise terminal right there.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Claim a table by the water before seven and hold it all evening.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Sparkman+Wharf+Tampa+Florida",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "TPA-CU-04",
+        "title": "Tampa Museum of Art on the Riverwalk",
+        "description": "Greek and Roman antiquities alongside serious contemporary shows, in a cantilevered building that glows at night over Curtis Hixon Park.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk round the outside after dark to see the lighting installation.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Tampa+Museum+of+Art+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-CU-02",
+        "title": "The Dalí Museum, St. Petersburg",
+        "description": "The largest collection of Dalí outside Europe, in a concrete bunker wrapped in a free-form glass geodesic bubble on the St. Pete waterfront.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stand at the right distance from Gala Contemplating and watch it change.",
+        "city": "St. Petersburg, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Dali+Museum+St+Petersburg+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-CU-06",
+        "title": "A Movie at Tampa Theatre",
+        "description": "A 1926 atmospheric movie palace with a ceiling of fake stars and gargoyles, still showing films nightly with the Mighty Wurlitzer played before them.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get there early enough to hear the organ. That's half the ticket.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Tampa+Theatre+Franklin+Street+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-CU-03",
+        "title": "Chihuly Collection, St. Petersburg",
+        "description": "A purpose-built gallery for Dale Chihuly's blown glass on Central Avenue, lit so that the work does most of the talking.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Find the ceiling installation and lie back far enough to see all of it.",
+        "city": "St. Petersburg, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Chihuly+Collection+St+Petersburg+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-CU-08",
+        "title": "MOSI, the Museum of Science & Industry",
+        "description": "A big hands-on science museum in north Tampa with a planetarium and enough to do that two hours becomes four.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit through a full planetarium show even if you think you're too old.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Museum+of+Science+and+Industry+MOSI+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-CU-05",
+        "title": "Henry B. Plant Museum's Minarets",
+        "description": "The 1891 railroad hotel whose thirteen silver minarets are Tampa's skyline signature, with one wing kept exactly as the Gilded Age guests left it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Count all thirteen minarets from the far side of the river.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Henry+B+Plant+Museum+University+of+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-CU-07",
+        "title": "Tampa Bay History Center",
+        "description": "Three floors on the Riverwalk covering twelve thousand years of the bay, from the Tocobaga to the cattle trade to the cigar boom.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Go up to the top floor first and work your way down chronologically.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Tampa+Bay+History+Center+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-CU-01",
+        "title": "Ybor City Museum State Park",
+        "description": "A former bakery telling the story of the cigar city built by Cuban, Spanish, Italian and Jewish immigrants, with restored casitas out the back.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the casita tour and look at how small the whole house actually is.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Ybor+City+Museum+State+Park+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "TPA-8B-01",
+        "title": "Wildcard: Bridge to Bridge",
+        "description": "Start at the Tampa end of the bay and get yourself to the far side of the Sunshine Skyway and back in one day, stopping at three places you've never been.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "No interstate on the way back. Take the causeways and the beach roads.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunshine+Skyway+Bridge+Tampa+Bay+Florida",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-8B-02",
+        "title": "Wildcard: Order What the Bartender Orders",
+        "description": "Three bars in one night, and at each one you order whatever the person behind the bar says they drink when their shift ends.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "No substitutions, no matter what they say.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Ybor+City+Tampa+Florida",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "TPA-C-07",
+        "title": "Florida Botanical Gardens",
+        "description": "Thirty free acres of tropical planting, wetland boardwalk and palm collections in Largo, quiet on a weekday morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Do the wetland boardwalk loop first, before it warms up.",
+        "city": "Largo, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Florida+Botanical+Gardens+Largo+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-C-10",
+        "title": "Downtown Dunedin and the Pinellas Trail",
+        "description": "A walkable Gulf-coast main street with breweries, a marina and the Pinellas Trail running straight through the middle of it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Rent bikes and ride the trail north to Honeymoon Island and back.",
+        "city": "Dunedin, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Downtown+Dunedin+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-C-06",
+        "title": "Sunset at Sunset Beach",
+        "description": "The southern tip of Treasure Island, wide and white and facing straight west, with drum circles some evenings and no high-rises in the way.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stay a full twenty minutes after the sun has gone. That's the good part.",
+        "city": "Treasure Island, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunset+Beach+Treasure+Island+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-C-09",
+        "title": "Weedon Island Preserve Boardwalk",
+        "description": "Three thousand acres of mangrove and estuary on the bay side of St. Pete, with a boardwalk, an observation tower and almost nobody on it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Climb the tower at high tide and pick out the paddling trail markers.",
+        "city": "St. Petersburg, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Weedon+Island+Preserve+St+Petersburg+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-C-03",
+        "title": "Hop the Pirate Water Taxi All Day",
+        "description": "Fourteen stops along the Riverwalk, Channel District and Davis Islands on a pirate-themed boat, with one wristband and unlimited rides.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ride the whole loop once without getting off, just to see the order of it.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Pirate+Water+Taxi+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-C-04",
+        "title": "Sunken Gardens, St. Petersburg",
+        "description": "A century-old garden built in a drained sinkhole fifteen feet below street level, with flamingos and banyans and a temperature noticeably cooler than the pavement.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the oldest tree in the garden and read its plaque.",
+        "city": "St. Petersburg, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunken+Gardens+St+Petersburg+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-C-08",
+        "title": "Ballast Point Pier at Golden Hour",
+        "description": "A short municipal pier off South Tampa with a view straight up the bay to downtown and a café at the landward end.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk to the very end and stay until the skyline lights come on.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Ballast+Point+Pier+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TPA-C-05",
+        "title": "Afternoon in Hyde Park Village",
+        "description": "Brick streets, live oaks and an open green surrounded by independent shops and cafes in Tampa's prettiest old neighbourhood.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the surrounding streets and pick the bungalow you'd actually buy.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Hyde+Park+Village+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-C-02",
+        "title": "Curtis Hixon Park in the Evening",
+        "description": "A downtown lawn on the river between the art museum and the university's minarets, with colour-changing bridges and people out until late.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit on the steps down to the water and stay for the bridge light change.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Curtis+Hixon+Waterfront+Park+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-C-01",
+        "title": "Sunset on Bayshore Boulevard",
+        "description": "The longest continuous sidewalk in the world — four and a half miles of balustrade along Hillsborough Bay, with the city on one side and open water on the other.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the full length one way and get a ride back. Don't turn around early.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Bayshore+Boulevard+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "TPA-F-02",
+        "title": "Cuban Bread Warm at La Segunda",
+        "description": "Eighteen thousand loaves a day since 1915, each one still topped with a palmetto leaf, from a fourth-generation Ybor bakery.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy a loaf straight off the rack and eat the end of it in the car park.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Segunda+Bakery+Ybor+City+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-03",
+        "title": "Deviled Crabs at Brocato's",
+        "description": "A 1948 sandwich shop on Columbus Drive doing the croquette-shaped Tampa deviled crab that almost nowhere else still makes properly.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get one deviled crab, one Cuban, and a stuffed potato. Share nothing.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Brocatos+Sandwich+Shop+Columbus+Drive+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-01",
+        "title": "The Original Cuban at Columbia Restaurant",
+        "description": "Florida's oldest restaurant, open since 1905 and now filling an entire Ybor City block across fifteen dining rooms of hand-painted tile.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order the 1905 Salad and watch them toss it at the table.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Columbia+Restaurant+Ybor+City+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-04",
+        "title": "The Super Grouper at Frenchy's Rockaway",
+        "description": "Grouper landed locally, fried, and eaten at a beach shack with your feet basically in the sand — voted the best version of the sandwich again in 2026.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Eat it outside at a table facing the Gulf, not indoors.",
+        "city": "Clearwater Beach, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Frenchys+Rockaway+Grill+Clearwater+Beach+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-10",
+        "title": "Weekend Brunch at Oxford Exchange",
+        "description": "A bookshop, coffee bar, champagne counter and sunlit conservatory in one 1891 building across from the university's minarets — brunch here is an event.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stay for afternoon tea in the Conservatory after you've eaten.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Oxford+Exchange+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-07",
+        "title": "Graze the Heights Public Market",
+        "description": "Twenty-two vendors under the roof of a restored 1910 streetcar warehouse on the Hillsborough River, plus four sit-down restaurants and a riverfront lawn.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Build a meal from four different stalls and eat it outside by the water.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Armature+Works+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-09",
+        "title": "Ramen at Ichi Koroshi",
+        "description": "The Seminole Heights ramen counter opened by the crew from the city's much-missed original, running out of the Jug & Bottle kitchen.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Add the extra chashu. You will not regret the extra chashu.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Ichi+Koroshi+Ramen+Jug+and+Bottle+Seminole+Heights+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-08",
+        "title": "Bib Gourmand at Rooster & the Till",
+        "description": "A small Seminole Heights room that has quietly been the best cooking in Tampa for a decade, holding a Michelin Bib Gourmand for doing it at fair prices.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order whatever the server says came in that morning.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Rooster+and+the+Till+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-12",
+        "title": "Cuban Sandwich Crawl Down 7th Avenue",
+        "description": "Ybor City invented the Tampa Cuban — no mayo, salami in the stack — and you can eat four versions of it in six blocks of brick street.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Rank them honestly at the end and defend your pick.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/East+7th+Avenue+Ybor+City+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-06",
+        "title": "Native-Inspired Dinner at Ulele",
+        "description": "A restored 1903 water works building beside the river, serving dishes built on Florida native ingredients with a spring-water brewery in the back.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the alligator hush puppies and the Ulele Spring Brewery flight.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Ulele+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-F-11",
+        "title": "Pour-Over at Buddy Brew, Hyde Park",
+        "description": "The roaster that started Tampa's specialty coffee scene, in a small shop off the Hyde Park Village green where you can sit outside all morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order a pour-over of the single origin and ask where the lot came from.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Buddy+Brew+Coffee+Hyde+Park+Village+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TPA-F-05",
+        "title": "Bern's and the Harry Waugh Dessert Room",
+        "description": "A South Howard steakhouse with the largest restaurant wine collection in the world, then upstairs to 48 private booths built out of old wine casks for dessert.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the kitchen and cellar tour between courses. They will actually do it.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Berns+Steak+House+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "TPA-A-04",
+        "title": "Tandem Jump at Skydive City Z-Hills",
+        "description": "A 13,500-foot exit over the flat green grid of Pasco County at one of the busiest and most respected drop zones in the world, running for over thirty years.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stay for a beer at the bar afterwards and watch the next load land.",
+        "city": "Zephyrhills, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Skydive+City+Zephyrhills+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-14",
+        "title": "Upper Tampa Bay Trail",
+        "description": "Seven flat miles of rail-trail through pine flatwoods and over tidal creeks on the north-west side of the city, quiet enough to hear the birds.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride out to the far trailhead and back without stopping for water.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Upper+Tampa+Bay+Trail+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-12",
+        "title": "Fish the Skyway Pier",
+        "description": "The old Sunshine Skyway roadway, cut off and left standing in the middle of Tampa Bay as the longest fishing pier in the world, open around the clock.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Rent a rod, fish till dark, and watch the new bridge light up above you.",
+        "city": "St. Petersburg, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Skyway+Fishing+Pier+State+Park+St+Petersburg+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-11",
+        "title": "Sunset Sail off Clearwater Beach",
+        "description": "Out through Clearwater Pass onto the Gulf on a catamaran as the sun drops, usually with dolphins working the boat's wake on the way back in.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get up on the trampoline netting at the bow for the last twenty minutes.",
+        "city": "Clearwater Beach, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Clearwater+Beach+Marina+Clearwater+Beach+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-02",
+        "title": "Manatees at the TECO Viewing Center",
+        "description": "Hundreds of manatees crowd into the warm-water discharge canal of a power station every winter, watched free from a boardwalk a few metres above them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Nov–Apr",
+        "spark": 14,
+        "bonus": "Climb the observation tower and count how many you can see at once.",
+        "city": "Apollo Beach, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/TECO+Manatee+Viewing+Center+Apollo+Beach+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-05",
+        "title": "Bike the Tampa Riverwalk End to End",
+        "description": "Two and a half miles of continuous waterfront path from Armature Works to the Channel District, past parks, museums and a working river.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride it once each way and stop at a different spot on the way back.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Tampa+Riverwalk+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-03",
+        "title": "Zipline the Courses at TreeHoppers",
+        "description": "Central Florida's largest aerial adventure park: eight courses, over a hundred elements, ziplines and rope bridges strung through live oaks an hour north of the city.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Finish the hardest course you qualify for, then go back and do it faster.",
+        "city": "Dade City, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/TreeHoppers+Aerial+Adventure+Park+Dade+City+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-07",
+        "title": "Kayak the Fort De Soto Paddling Trail",
+        "description": "Two and a half miles of marked trail through mangrove tunnels and seagrass flats in a 1,100-acre park at the mouth of Tampa Bay.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get into the narrowest mangrove tunnel you can find and go quiet.",
+        "city": "Tierra Verde, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Fort+De+Soto+Park+Tierra+Verde+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-06",
+        "title": "Ferry to Caladesi Island",
+        "description": "A short boat from Honeymoon Island to one of the last completely undeveloped barrier islands in Florida — no bridge, no road, three miles of empty sand.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Walk the full length of the beach until you stop seeing other footprints.",
+        "city": "Dunedin, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Caladesi+Island+State+Park+Ferry+Honeymoon+Island+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-01",
+        "title": "Paddle the Hillsborough with Canoe Escape",
+        "description": "A self-guided run down a blackwater river through cypress and oak with alligators on the banks, dropped in and picked up by the outfitter that has run this stretch for decades.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Do the six-hour section and don't check your phone once.",
+        "city": "Thonotosassa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Canoe+Escape+Thonotosassa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-13",
+        "title": "Swim the Springs at Weeki Wachee",
+        "description": "A first-magnitude spring pumping 117 million gallons a day of 74-degree water, with a paddle downstream and a swimming area at Buccaneer Bay.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Paddle upstream to the spring vent first, then float the whole way back.",
+        "city": "Weeki Wachee, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Weeki+Wachee+Springs+State+Park+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-09",
+        "title": "Boardwalk Through Lettuce Lake Park",
+        "description": "A raised cypress boardwalk over a floodplain on the Hillsborough River, with an observation tower and alligators that are genuinely easy to spot.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Climb the tower and stay up there until you see something move.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Lettuce+Lake+Conservation+Park+Tampa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-15",
+        "title": "Snorkel Three Sisters Springs",
+        "description": "The only place in the United States where you can legally swim in open water with wild manatees, in a spring-fed cove north of the city.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Nov–Mar",
+        "spark": 27,
+        "bonus": "Float completely still on the surface and let one come to you.",
+        "city": "Crystal River, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Three+Sisters+Springs+Crystal+River+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-10",
+        "title": "Rapids and Suspension Bridge at Hillsborough River State Park",
+        "description": "One of Florida's original state parks, with a genuine set of Class II rapids — rare in a state this flat — crossed by a 1930s CCC suspension bridge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand in the middle of the swinging bridge until someone else wants past.",
+        "city": "Thonotosassa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Hillsborough+River+State+Park+Thonotosassa+Florida",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-08",
+        "title": "Ride Iron Gwazi at Busch Gardens",
+        "description": "North America's tallest hybrid coaster: a 206-foot drop at 76mph on a steel track bolted to the bones of an old wooden ride.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Ride it once in the front row and once in the back and pick a side.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Busch+Gardens+Tampa+Bay+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TPA-A-16",
+        "title": "Sunrise Paddle at Ballast Point",
+        "description": "Push off from the little park under the pier in South Tampa and paddle out onto flat bay water with the skyline going pink behind you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Be on the water before the sun clears the horizon. No exceptions.",
+        "city": "Tampa, FL",
+        "mapsUrl": "https://maps.google.com/maps/search/Ballast+Point+Park+Tampa+Florida",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

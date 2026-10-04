@@ -1,0 +1,806 @@
+{
+  "id": "salt-lake-city",
+  "name": "salt-lake-city",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "8ball": [
+      {
+        "id": "SLC-8B-02",
+        "title": "Ride TRAX to the End of the Line",
+        "description": "Board whichever TRAX train arrives first downtown, ride it to the last stop, and find something to do within walking distance.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Eat at whatever is closest to the final platform.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Salt+Lake+Central+Station+Salt+Lake+City+UT",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-8B-01",
+        "title": "Pick a Canyon, Take the First Trailhead",
+        "description": "Drive to the mouth of whichever Wasatch canyon has the least traffic that morning, and hike from the first trailhead with a free parking space.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 14,
+        "bonus": "No checking the trail length first.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Millcreek+Canyon+Salt+Lake+City+UT",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "SLC-CU-07",
+        "title": "A Play at Pioneer Theatre Company",
+        "description": "Utah's professional regional theatre, staging classic and new plays and musicals in a proscenium house on the U of U campus.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5–3 hrs",
+        "durationMins": 165,
+        "time": "Evening",
+        "season": "Sep–May",
+        "spark": 22,
+        "bonus": "Read the director's note before curtain.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Pioneer+Theatre+Company+Salt+Lake+City+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-CU-03",
+        "title": "Organ Recital at the Tabernacle on Temple Square",
+        "description": "A free midday recital on one of the largest pipe organs in the world, in an 1860s hall famous for acoustics you can hear a pin drop in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit at the very back and see if you can hear the pin-drop demonstration.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Salt+Lake+Tabernacle+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-CU-05",
+        "title": "Broadway Show at the Eccles Theater",
+        "description": "Touring Broadway productions in a modern downtown theatre with a glass lobby that glows over Main Street at night.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get a drink in the lobby at intermission and look down Main Street.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Eccles+Theater+Salt+Lake+City+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-CU-01",
+        "title": "Natural History Museum of Utah",
+        "description": "A museum built into the foothills with a wall of dinosaur skeletons dug up in Utah and a top-floor terrace looking over the whole valley.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Finish on the top-floor terrace.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Natural+History+Museum+of+Utah+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-CU-04",
+        "title": "Drive Out to the Spiral Jetty",
+        "description": "Robert Smithson's 1970 land-art coil of black basalt reaching into the pink water of the Great Salt Lake, at the end of a long dirt road.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "Full day",
+        "durationMins": 420,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Walk the whole coil to the centre.",
+        "city": "Corinne, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Spiral+Jetty+Corinne+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-CU-08",
+        "title": "Utah Arts Festival",
+        "description": "Four days downtown every June with artists' booths, stages of music and dance, a short-film tent and a lot of food.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Jun",
+        "spark": 23,
+        "bonus": "Buy one piece of art under $50.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Library+Square+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-CU-02",
+        "title": "Utah Museum of Fine Arts",
+        "description": "The state's main art museum, on the University of Utah campus, with a strong collection of work from the American West.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick one painting and give it ten full minutes.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Utah+Museum+of+Fine+Arts+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SLC-CU-06",
+        "title": "Dome Show at Clark Planetarium",
+        "description": "A domed theatre at The Gateway running star shows and space films, with free science exhibits you can walk through first.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick the dome show, not the flat-screen film.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Clark+Planetarium+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "SLC-F-11",
+        "title": "Oysters at Current Fish & Oyster",
+        "description": "A buzzy seafood room in a converted downtown warehouse that has no business doing oysters this well a thousand miles from the ocean.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Order a half dozen from each coast and pick a winner.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Current+Fish+and+Oyster+Salt+Lake+City+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-F-08",
+        "title": "Downtown Farmers Market at Pioneer Park",
+        "description": "Saturday mornings in summer, Pioneer Park fills with Utah growers, food trucks and makers — the whole city seems to turn up with a coffee.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Jun–Oct",
+        "spark": 13,
+        "bonus": "Build breakfast from three different stalls.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Pioneer+Park+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-F-06",
+        "title": "Pastrami Burger at Crown Burgers",
+        "description": "Salt Lake's signature burger — a cheeseburger buried under a pile of shaved pastrami — with fry sauce on the side, at a local chain that has served it since 1978.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Dip everything in fry sauce, including things that shouldn't be.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Crown+Burgers+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-F-12",
+        "title": "Dirty Soda Run at Swig",
+        "description": "Utah's drive-thru soda culture in one stop: Dr Pepper with coconut and lime, pebble ice and a sugar cookie on the side.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Invent your own mix from the flavour list and give it a name.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Swig+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-F-09",
+        "title": "Dinner at Log Haven in Millcreek Canyon",
+        "description": "A 1920s log mansion four miles up a mountain canyon, with a waterfall outside the window and a serious wine list inside.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5–3 hrs",
+        "durationMins": 165,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Arrive early enough to walk down to the waterfall before you sit down.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Log+Haven+Salt+Lake+City+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-F-07",
+        "title": "Sushi Bar at Takashi",
+        "description": "The downtown sushi spot locals rank above everything else in the state — worth the wait for a seat at the bar.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Let the chef choose your last three pieces.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Takashi+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SLC-F-05",
+        "title": "Cheese Cave and Chocolate Wall at Caputo's",
+        "description": "An Italian market and deli by Pioneer Park with its own cheese-aging cave and one of the biggest craft chocolate selections in the country.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask the counter for a chocolate you would never pick yourself.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Caputos+Market+and+Deli+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-F-10",
+        "title": "Hot Chicken at Pretty Bird",
+        "description": "Nashville-style hot chicken from a James Beard-nominated chef — a short menu done extremely well.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Go one heat level above what you think you can handle.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Pretty+Bird+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "SLC-S-06",
+        "title": "Live Show at Kilby Court",
+        "description": "A tiny all-ages venue in an old garage and courtyard that has hosted early shows by bands that later filled arenas.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go see a band you have never heard of.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Kilby+Court+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-S-12",
+        "title": "Après-Ski on Park City's Main Street",
+        "description": "Ski off the mountain and straight into a historic mining-town main street lined with bars, starting at the No Name Saloon.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Dec–Apr",
+        "spark": 40,
+        "bonus": "Ride the Town Lift down and walk into the first bar still in your boots.",
+        "city": "Park City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/No+Name+Saloon+Park+City+UT",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SLC-S-08",
+        "title": "Twilight Concert Series",
+        "description": "Salt Lake's summer outdoor concert series — big-name acts, cheap tickets and a crowd that fills the park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Jul–Sep",
+        "spark": 15,
+        "bonus": "Get there for the opener and claim a spot on the grass.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Gallivan+Center+Salt+Lake+City+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-S-10",
+        "title": "Beers at Beer Bar",
+        "description": "Long communal tables, a huge beer list and bratwurst — a beer hall that fills up fast on weekend nights.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit next to strangers at a communal table and start a conversation.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Beer+Bar+Salt+Lake+City+UT",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SLC-S-05",
+        "title": "Real Salt Lake at America First Field",
+        "description": "MLS in a stadium with mountains behind the stands and a supporters' section that sings for the full ninety minutes.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Feb–Oct",
+        "spark": 24,
+        "bonus": "Buy tickets near the supporters' end and learn one chant.",
+        "city": "Sandy, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/America+First+Field+Sandy+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-S-11",
+        "title": "Utah Mammoth Game at the Delta Center",
+        "description": "Utah's new NHL team, playing to a city that has fallen hard for hockey in just a couple of seasons.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 25,
+        "bonus": "Get there for warm-ups and stand at the glass.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Delta+Center+Salt+Lake+City+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-S-09",
+        "title": "Pints at Proper Brewing",
+        "description": "A Central 9th brewery with a big patio, a burger bar next door and a crowd that makes it easy to stay for another round.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a flight and rank it with your group.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Proper+Brewing+Salt+Lake+City+UT",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SLC-S-07",
+        "title": "Cocktails at Water Witch",
+        "description": "A small, loud neighbourhood cocktail bar that is regularly named one of the best in the West.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Skip the menu and describe a mood to the bartender.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Water+Witch+Salt+Lake+City+UT",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "SLC-C-09",
+        "title": "Wander Tracy Aviary",
+        "description": "One of the oldest public aviaries in the country, tucked into Liberty Park, with walk-through habitats and a free-flight bird show.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay for the free-flight show.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Tracy+Aviary+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-C-05",
+        "title": "Sunset from the Utah State Capitol Steps",
+        "description": "Sit on the Capitol's south steps on Capitol Hill as the sun drops over the valley and the lights come on downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk back down through the Marmalade district's old streets.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Utah+State+Capitol+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-C-08",
+        "title": "Soak at Crystal Hot Springs",
+        "description": "An hour north of the city, where two natural springs — one hot, one cold — feed pools you can soak in under a big sky.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Go on a cold night and watch the steam come off the water.",
+        "city": "Honeyville, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Crystal+Hot+Springs+Honeyville+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-C-10",
+        "title": "Gilgal Sculpture Garden",
+        "description": "A hidden folk-art garden behind a residential block, home to a stone sphinx wearing the face of Joseph Smith and a dozen other strange carved pieces.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30–45 min",
+        "durationMins": 40,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Read every carved inscription before you leave.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Gilgal+Sculpture+Garden+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SLC-C-07",
+        "title": "Browse Ken Sanders Rare Books",
+        "description": "A cavernous downtown shop stacked with rare, used and odd books on the West, Mormon history and everything in between.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the oldest book you can afford and leave with it.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Ken+Sanders+Rare+Books+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SLC-C-06",
+        "title": "Slow Loop Around Sugar House Park",
+        "description": "A wide, rolling park with a pond, big lawns and mountain views in every direction — the easiest reset in the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring a blanket and pick the highest lawn.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Sugar+House+Park+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "SLC-A-09",
+        "title": "Summit Mount Olympus",
+        "description": "The peak that looms over the whole east side of the valley — over 4,000 feet of gain and a final hands-on scramble to the top.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "6–8 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Start before dawn and be on the summit block before the sun hits the trail.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Olympus+Trailhead+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-A-10",
+        "title": "Wildflowers at Cecret Lake",
+        "description": "A short trail from the top of Little Cottonwood Canyon at Albion Basin to a small alpine lake ringed by some of the best summer wildflowers in the Wasatch.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Jul–Sep",
+        "spark": 13,
+        "bonus": "Look for moose in the willows on the walk up.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Cecret+Lake+Trailhead+Alta+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-A-06",
+        "title": "Ride the Snowbird Aerial Tram to Hidden Peak",
+        "description": "Ten minutes in a cable car from the base of Snowbird to 11,000 feet, with the whole Wasatch laid out and the Great Salt Lake glinting on the horizon.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ride up, then hike the Peruvian Gulch trail back down instead of taking the tram.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Snowbird+Aerial+Tram+Snowbird+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-A-07",
+        "title": "Bonneville Shoreline Trail to the Living Room",
+        "description": "A short, punchy climb above the University of Utah to a lookout where hikers have stacked flat rocks into armchairs facing the whole valley.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go for sunset and claim a chair before everyone else does.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Living+Room+Trailhead+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-A-11",
+        "title": "Bobsled Ride at Utah Olympic Park",
+        "description": "Ride the 2002 Olympic track in the back of a four-person sled piloted by a pro, pulling up to five G's through the turns.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Watch the freestyle aerialists land into the pool before your run.",
+        "city": "Park City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Utah+Olympic+Park+Park+City+UT",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-A-05",
+        "title": "Hike to Lake Blanche",
+        "description": "A steep, relentless climb out of Big Cottonwood Canyon that pays off with an alpine lake sitting under the red quartzite wall of Sundial Peak.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Jun–Oct",
+        "spark": 24,
+        "bonus": "Scramble up the slabs past the lake for the view back down all three lakes.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Blanche+Trailhead+Big+Cottonwood+Canyon+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-A-08",
+        "title": "Road Ride up Emigration Canyon",
+        "description": "The city's classic bike climb — a steady grade from the zoo up to Little Mountain Summit, shared with half the cyclists in Salt Lake on a Saturday morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Stop at Ruth's on the way back down if you still have legs.",
+        "city": "Salt Lake City, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Emigration+Canyon+Salt+Lake+City+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SLC-A-12",
+        "title": "Public Skate at the Utah Olympic Oval",
+        "description": "Skate the same 400-meter long-track oval where world records were set in 2002, under a huge suspended roof.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Try one full lap of the long track without stopping.",
+        "city": "Kearns, UT",
+        "mapsUrl": "https://maps.google.com/maps/search/Utah+Olympic+Oval+Kearns+UT",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

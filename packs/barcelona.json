@@ -1,0 +1,769 @@
+{
+  "id": "barcelona",
+  "name": "barcelona",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "adventure": [
+      {
+        "id": "BCN-A-05",
+        "title": "Tibidabo's Cliff-Edge Ferris Wheel",
+        "description": "Ride a 1920s fairground wheel bolted to the top of a mountain, with the whole city and the Mediterranean dropping away beneath your feet.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Ride the Avió — the 1928 plane swing — before you leave.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Tibidabo+Amusement+Park+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-A-07",
+        "title": "Montserrat and the Sant Joan Funicular",
+        "description": "Take the rack railway up a mountain of stone fingers, then ride the funicular higher still to a hermitage trail with nothing above you but sky.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Walk to Sant Jeroni, the true summit, instead of stopping at the monastery.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Montserrat+Monastery+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-A-09",
+        "title": "Kayak and Snorkel the Costa Brava Coves",
+        "description": "Paddle into limestone calas an hour north of the city where the water goes glass-clear and the crowds simply do not reach.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 28,
+        "bonus": "Swim into at least one sea cave.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Cala+Montgo+Costa+Brava",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-A-11",
+        "title": "Swim at Sant Sebastià and Walk the Breakwater",
+        "description": "Start with a cold morning swim at the quietest end of Barceloneta, then walk the concrete arm out to where the city looks like a postcard someone dropped in the sea.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 12,
+        "bonus": "Get in before 9am, when the water is still yours.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Platja+de+Sant+Sebastia+Barcelona",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-A-12",
+        "title": "Escape to Sitges on the Rodalies Train",
+        "description": "Forty minutes down the coast and you are in a whitewashed town with seventeen beaches, a hilltop church and a completely different pace.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 17,
+        "bonus": "Walk past the church to the quieter beaches on the far side.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Sitges+Beach+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-A-06",
+        "title": "Dawn Walk on the Carretera de les Aigües",
+        "description": "Follow a flat dirt balcony cut into the Collserola hillside while the city wakes up 300 metres below you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get there before the first jogger passes you.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Carretera+de+les+Aigues+Barcelona",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-A-08",
+        "title": "Sunset Sail Out of Port Vell",
+        "description": "Slip out past the breakwater on a catamaran as the light goes orange on the Barceloneta towers behind you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 18,
+        "bonus": "Take the helm when they offer it.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Port+Vell+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-A-10",
+        "title": "Helicopter Flight Over the Barcelona Coastline",
+        "description": "Lift off from the port and see Gaudí's spires, the grid of the Eixample and the whole curve of the coast in one sweep.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 42,
+        "bonus": "Ask for the seat next to the pilot.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/CAT+Helicopters+Barcelona",
+        "company": [
+          "couple"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "BCN-CU-04",
+        "title": "MACBA and the Skaters Outside It",
+        "description": "See the contemporary collection inside, then sit on the white plaza where Barcelona's skate scene has been grinding the ledges since the nineties.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay outside long enough to see someone land something.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/MACBA+Barcelona",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-CU-06",
+        "title": "A Night at the Liceu",
+        "description": "Take a seat in the gilded opera house on La Rambla that has burned down twice and been rebuilt exactly as it was, both times.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Sep–Jul",
+        "spark": 28,
+        "bonus": "Book a box, however cheap, over a stall seat.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Gran+Teatre+del+Liceu+Barcelona",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-CU-05",
+        "title": "The Hospital That Looks Like a Palace",
+        "description": "Walk the pavilions and tiled tunnels of Sant Pau, a working hospital until 2009 and the largest art nouveau site in the world.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Go down into the underground tunnels between pavilions.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Recinte+Modernista+Sant+Pau+Barcelona",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-CU-07",
+        "title": "Watch the Castellers Build a Human Tower",
+        "description": "Find a colla's open rehearsal and watch a hundred people build a nine-storey tower out of each other, with a child climbing to the top.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stay for the moment the tower comes down.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Castellers+de+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-CU-08",
+        "title": "La Pedrera After Dark",
+        "description": "Walk Gaudí's chimney-forest rooftop at night, with the warrior chimneys lit and the city humming below.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stay on the roof until they ask you to leave.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Casa+Mila+La+Pedrera+Barcelona",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-CU-01",
+        "title": "Casa Batlló, Top to Roof",
+        "description": "Walk through Gaudí's bone-and-scale house on Passeig de Gràcia and come out on a roof terrace shaped like a dragon's back.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Find the room with no straight line in it.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Casa+Batllo+Barcelona",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-CU-02",
+        "title": "The Stained Glass of Palau de la Música",
+        "description": "Take the tour of a modernista concert hall built almost entirely of coloured glass, where the ceiling is an inverted sun.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stand directly under the skylight and look straight up.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Palau+de+la+Musica+Catalana+Barcelona",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-CU-03",
+        "title": "Miró on the Hill",
+        "description": "Spend an afternoon with primary colours and hanging mobiles at the foundation Joan Miró designed for his own work, halfway up Montjuïc.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go out to the roof terrace most people miss.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Fundacio+Joan+Miro+Barcelona",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "BCN-F-12",
+        "title": "Cava Cellars in the Penedès",
+        "description": "Take the train into the vineyards to drink the sparkling wine Catalonia makes better than anyone, in the cellars where it ages underground.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Learn what gran reserva actually requires before you taste.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Sant+Sadurni+d+Anoia+Cava+Cellars",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BCN-F-08",
+        "title": "The Tasting Menu at Disfrutar",
+        "description": "Give up an entire evening to thirty courses of edible sleight-of-hand from a team that trained at elBulli.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 48,
+        "bonus": "Book the kitchen table if it is free.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Disfrutar+Barcelona",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-F-07",
+        "title": "Vermouth and Tinned Fish at Bodega 1900",
+        "description": "Sit at a small bar in Sant Antoni and eat conservas and pickles the way a Catalan grandfather would, with house vermouth over ice.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 17,
+        "bonus": "Let the bartender choose your tin.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Bodega+1900+Barcelona",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BCN-F-10",
+        "title": "Seafood at Els Pescadors in Poblenou",
+        "description": "Eat rice and whole fish on a quiet square shaded by ombú trees, in the neighbourhood restaurant locals kept to themselves for decades.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the fish of the day without asking the price.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Els+Pescadors+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-F-11",
+        "title": "Breakfast Under the Wave at Santa Caterina",
+        "description": "Eat at a market counter beneath a rippling technicolour roof, two minutes and a world away from the Boqueria crush.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order whatever the person next to you is having.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Mercat+de+Santa+Caterina+Barcelona",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-F-06",
+        "title": "Patatas Bravas at Bar Tomás",
+        "description": "Ride the metro up to Sarrià for the plate of fried potatoes that locals will argue is the only one in the city that counts.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get them amb toc — with the extra kick.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Tomas+de+Sarria+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-F-09",
+        "title": "Thick Chocolate at Granja Viader",
+        "description": "Duck into an 1870s dairy off La Rambla for a cup of chocolate so thick the spoon stands up in it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 12,
+        "bonus": "Order the suís, with the cream on top.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Granja+Viader+Barcelona",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-F-05",
+        "title": "The Bomba at La Cova Fumada",
+        "description": "Order the potato-and-meat grenade that was invented in this unmarked Barceloneta doorway, standing at a marble counter under fluorescent light.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order in Catalan.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Cova+Fumada+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "BCN-S-05",
+        "title": "Absinthe at Bar Marsella",
+        "description": "Drink in a peeling 1820s room with dusty bottles nobody has moved in a century, where the house pour still arrives with sugar and a slotted spoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Do the sugar-and-water ritual properly.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Marsella+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BCN-S-09",
+        "title": "Sunday Vermut on Plaça del Sol",
+        "description": "Join the Gràcia ritual: a bitter vermouth with an olive and an orange slice, on a square full of people doing exactly the same thing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay for a second round and talk to the next table.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Placa+del+Sol+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BCN-S-08",
+        "title": "Cocktails at Paradiso, Behind the Pastrami Fridge",
+        "description": "Walk through a sandwich shop's refrigerator door into a barrel-vaulted room that has been called the best bar in the world.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Order the drink that arrives with smoke, no questions asked.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Paradiso+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BCN-S-12",
+        "title": "Late Jazz at Jamboree",
+        "description": "Go down into a stone cellar on Plaça Reial for the late set, where the ceiling is low and the band is close enough to touch.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Take the second set, not the first.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Jamboree+Jazz+Club+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BCN-S-06",
+        "title": "Nasty Mondays at Sala Apolo",
+        "description": "Start the week wrong in a red-velvet 1940s dance hall where the indie-rock night has been running since before most of the room was born.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stay until the encore track everyone knows.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Sala+Apolo+Barcelona",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BCN-S-11",
+        "title": "Pintxo Crawl Down Carrer Blai",
+        "description": "Work down a pedestrian street in Poble-sec where every bar charges about two euros a skewer and keeps score with your toothpicks.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Four bars minimum, one pintxo each, no repeats.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Carrer+Blai+Barcelona",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BCN-S-07",
+        "title": "Salsa Night at Antilla BCN",
+        "description": "Take the free early lesson, then stay while the floor fills with people who have been dancing here for twenty years.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 18,
+        "bonus": "Ask a stranger to dance.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Antilla+BCN+Latin+Club+Barcelona",
+        "company": [
+          "solo",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "BCN-C-10",
+        "title": "First Light at Bogatell Beach",
+        "description": "Walk down before the beach bars open and have a kilometre of sand and a flat sea more or less to yourself.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 12,
+        "bonus": "Stay off your phone the whole time.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Platja+del+Bogatell+Barcelona",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-C-06",
+        "title": "Row the Lake at Parc de la Ciutadella",
+        "description": "Take a rowboat out under the ridiculous baroque waterfall Gaudí helped build as a student, then lie on the grass until the light goes.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Mar–Oct",
+        "spark": 12,
+        "bonus": "Row a full lap without hitting anyone.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Parc+de+la+Ciutadella+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-C-08",
+        "title": "Sunset at the Mirador del Migdia",
+        "description": "Climb the back of Montjuïc to a scrappy pine-shaded terrace bar where the sun goes down over the sea and nobody is in a hurry.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Bring something to share and stay until the lights come on.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Caseta+del+Migdia+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-C-05",
+        "title": "Get Lost in the Laberint d'Horta",
+        "description": "Wander an 18th-century cypress maze in the city's oldest garden, where almost no tourist ever bothers to go.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Reach the centre without backtracking once.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Parc+del+Laberint+d+Horta+Barcelona",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-C-07",
+        "title": "Candlelit Baths at Aire Ancient Baths",
+        "description": "Move between hot, cold and salt pools in a converted Born warehouse lit almost entirely by candles, with your phone locked away.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Do the full circuit in order, cold plunge included.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Aire+Ancient+Baths+Barcelona",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "BCN-C-09",
+        "title": "Coffee and Croissant at Hofmann Pastisseria",
+        "description": "Sit with the mascarpone croissant that pastry students queue for, in a tiny Born shop that takes laminated dough extremely seriously.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat it standing at the counter, still warm.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Hofmann+Pastisseria+Barcelona",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "BCN-8B-01",
+        "title": "Get Off at a Metro Stop You've Never Heard Of",
+        "description": "Ride the green line, pick a station name you cannot pronounce, get out and spend two hours wherever you land.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Eat wherever the queue is longest.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Passeig+de+Gracia+Metro+Station+Barcelona",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BCN-8B-02",
+        "title": "Let the Bartender Decide",
+        "description": "Walk into a bar you have never been to, tell them you will drink whatever they think you should, and do it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Do it twice, at two different bars.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Carrer+del+Parlament+Barcelona",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ]
+  }
+}

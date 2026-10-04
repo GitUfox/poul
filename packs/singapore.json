@@ -1,0 +1,1195 @@
+{
+  "id": "singapore",
+  "name": "singapore",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "SIN-CU-05",
+        "title": "Sri Mariamman Temple in Chinatown",
+        "description": "The oldest Hindu temple in Singapore, built in 1827 by immigrants from the Coromandel Coast, with a gopuram of painted deities in the middle of Chinatown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Take your shoes off, walk the inner corridor and look up at the ceiling.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Sri+Mariamman+Temple+South+Bridge+Road+Singapore",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SIN-CU-03",
+        "title": "Asian Civilisations Museum by the River",
+        "description": "A riverside museum organised by trade route rather than country, with a shipwreck gallery of ninth-century Tang cargo pulled from the Java Sea.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go straight to the Tang shipwreck gallery and start there.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Asian+Civilisations+Museum+Empress+Place+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-CU-07",
+        "title": "Contemporary Art at SAM, Tanjong Pagar",
+        "description": "The Singapore Art Museum's warehouse galleries inside a working port distripark, showing large-scale Southeast Asian contemporary work.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Have a coffee upstairs and watch the container cranes through the window.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Singapore+Art+Museum+Tanjong+Pagar+Distripark",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-CU-08",
+        "title": "ArtScience Museum at Marina Bay",
+        "description": "The lotus-shaped museum on the bay that collects rainwater through its own roof, running shows where the art and the engineering are the same thing.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Go to the top of the central atrium and look straight up through the petals.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/ArtScience+Museum+Marina+Bay+Sands+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-CU-04",
+        "title": "National Museum of Singapore",
+        "description": "The country's oldest museum, in a domed 1887 building, telling 700 years of the island's history including the parts that are hard to tell.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit through the Story of the Forest digital installation on the way in.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Museum+of+Singapore+Stamford+Road",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-CU-02",
+        "title": "Peranakan Museum on Armenian Street",
+        "description": "A reopened museum of Straits-Chinese life — beadwork, wedding chambers, kitchens — in a 1912 school building, done at exactly the right scale.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Study one embroidered wedding panel long enough to spot the mistakes.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Peranakan+Museum+Armenian+Street+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-CU-01",
+        "title": "National Gallery in the Old Supreme Court",
+        "description": "Two linked colonial landmarks — City Hall and the Supreme Court — holding the world's largest public collection of Southeast Asian art.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Find the old holding cells and the rooftop, both easy to walk straight past.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Gallery+Singapore+St+Andrews+Road",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-CU-06",
+        "title": "Sultan Mosque and Kampong Glam",
+        "description": "A gold-domed 1928 mosque at the head of Bussorah Street, with the old Malay royal quarter, textile shops and Haji Lane all radiating off it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk Arab Street for fabric first, then the mosque, then Haji Lane.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Sultan+Mosque+Kampong+Glam+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "SIN-C-10",
+        "title": "Sunset on Palawan Beach's Suspension Bridge",
+        "description": "A swaying rope bridge off Sentosa's south shore to two small towers billed as the southernmost point of continental Asia.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Cross it, climb both towers, and watch the tankers from the top.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Palawan+Beach+Suspension+Bridge+Sentosa+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-C-05",
+        "title": "Rain Vortex and Canopy Park at Jewel",
+        "description": "A 40-metre indoor waterfall falling through the middle of an airport, ringed by four storeys of forest, with a mirror maze and net walks on the roof.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Go up to the Canopy Bridge and stand on the glass floor over the vortex.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Jewel+Changi+Airport+Rain+Vortex+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-C-09",
+        "title": "Pastries at Tiong Bahru Bakery",
+        "description": "Proper laminated viennoiserie in the middle of a 1930s estate, from the bakery that made Singaporeans queue for croissants in the first place.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get the kouign-amann and eat it on the steps outside while it's still warm.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Tiong+Bahru+Bakery+Tiong+Bahru+Road+Singapore",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SIN-C-08",
+        "title": "Morning Quiet at Thian Hock Keng",
+        "description": "Singapore's oldest Hokkien temple, built in 1839 without a single nail, on the street where immigrants came ashore to give thanks for the crossing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk round the back to the mural of the Hokkien migration story.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Thian+Hock+Keng+Temple+Telok+Ayer+Street+Singapore",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SIN-C-06",
+        "title": "Picnic Under Fort Canning's Tree Tunnel",
+        "description": "A colonial hill fort turned park in the middle of town, with a spiral stairwell framed by a ring of trees that has become the city's most photographed doorway.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get to the tree tunnel before eight to have it to yourself for one photo.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Fort+Canning+Park+Tree+Tunnel+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-C-07",
+        "title": "Bumboat Down the Singapore River",
+        "description": "A converted wooden cargo boat from Clarke Quay past the godowns, the Fullerton and the Merlion to Marina Bay, with the skyline lighting up as you go.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit at the back where the engine is and skip the narration entirely.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Singapore+River+Cruise+Clarke+Quay+Jetty",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-C-04",
+        "title": "Coffee and Shophouses in Tiong Bahru",
+        "description": "Singapore's oldest housing estate: curved 1930s art deco walk-ups, a wet market, an independent bookshop and no tall buildings anywhere in sight.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the air raid shelter on Guan Chuan Street and read the plaque.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Tiong+Bahru+Estate+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-C-03",
+        "title": "Sunset from the Marina Bay Sands SkyPark",
+        "description": "The observation deck 57 floors up on the cantilevered end of the boat, looking down the length of the CBD and out over the anchored ships.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stay up for the 8pm Spectra show and watch it from directly above.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Marina+Bay+Sands+SkyPark+Observation+Deck+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-C-01",
+        "title": "Garden Rhapsody and the Cloud Forest",
+        "description": "The Supertree light-and-sound show at the top of the hour, bookended by a 35-metre indoor mountain wrapped in mist and a waterfall you stand inside.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Lie flat on the ground under the Supertrees for the show. Everyone else stands.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Gardens+by+the+Bay+Supertree+Grove+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-C-02",
+        "title": "National Orchid Garden at the Botanic Gardens",
+        "description": "A thousand species and two thousand hybrids inside a UNESCO-listed 160-year-old garden, including the cool house of highland orchids.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the orchid named after someone you've actually heard of.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Orchid+Garden+Singapore+Botanic+Gardens",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "SIN-S-11",
+        "title": "Craft Beer Crawl in Tanjong Pagar",
+        "description": "Shophouse after shophouse of taprooms and izakayas in the old docklands quarter, all within a few blocks of Tanjong Pagar MRT.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "One drink per venue, five venues, no repeats, no taxis.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Tanjong+Pagar+Road+Singapore",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-01",
+        "title": "The Gin Tower at Atlas",
+        "description": "An art deco cathedral of a bar in the lobby of the building locals call Gotham, with a 26-foot brass tower holding 1,300 gins.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask the bartender to pick a gin from the highest shelf they can reach.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/ATLAS+Bar+Parkview+Square+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-06",
+        "title": "Teepees and Skyline at Mr Stork",
+        "description": "Level 39 of the Andaz, open-air, with ten thatched teepee huts and a 360-degree view that takes in Kampong Glam and the whole CBD.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Claim a teepee before sunset — there are only ten and they go fast.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Mr+Stork+Andaz+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-05",
+        "title": "No-Menu Cocktails at Bar Stories",
+        "description": "A Haji Lane walk-up where there is no drinks list at all: you describe a mood and a bartender builds to it in front of you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Give the bartender one word and nothing else to work with.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Stories+Haji+Lane+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-04",
+        "title": "Find the Unmarked Door at 28 HongKong Street",
+        "description": "No sign, no frontage, just a shophouse facade and a reservation — and behind it one of the most influential bars in Asia since 2011.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit at the bar, not a table, and let them build something off-menu.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/28+HongKong+Street+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-02",
+        "title": "Cocktails at Jigger & Pony",
+        "description": "Singapore's most decorated bar, tucked into the Amara in Tanjong Pagar, with a drinks list bound like a magazine and service that never slips.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order something you can't pronounce off the back pages of the menu.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Jigger+and+Pony+Amara+Hotel+Tanjong+Pagar+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-12",
+        "title": "Night Market Crawl at Bugis Street",
+        "description": "Three floors of stalls and street food in the most chaotic market in the city centre, open late and cheap enough to buy things you don't need.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Haggle for something under five dollars and actually walk away once.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Bugis+Street+Market+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-S-09",
+        "title": "Three Floors and a Slide at Marquee",
+        "description": "A 2,300 square metre club under the Shoppes at Marina Bay Sands with 70-foot ceilings, an eight-armed indoor Ferris wheel and a three-storey spiral slide.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Ride the Ferris wheel and take the slide down at least once.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Marquee+Singapore+Marina+Bay+Sands",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-07",
+        "title": "Spectra from the Lantern Rooftop",
+        "description": "The Fullerton Bay's sixth-floor rooftop, framed by an infinity pool, sitting directly across the water from the Marina Bay Sands light show.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Be in place for the 8pm show with a drink already in your hand.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Lantern+Rooftop+Bar+Fullerton+Bay+Hotel+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-03",
+        "title": "Asian-Only Spirits at Native",
+        "description": "Three floors of an Amoy Street shophouse — restaurant, bar, fermentation lab — pouring cocktails built only from regional spirits and foraged ingredients.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the one with ants in it and ask where they came from.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Native+Bar+Amoy+Street+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-10",
+        "title": "Riverside Crawl Along Clarke Quay",
+        "description": "Restored godowns on both banks of the Singapore River, packed with bars, and a walk between them that takes about ninety seconds.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Start upstream at Robertson Quay and work your way down to Boat Quay.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Clarke+Quay+Singapore",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SIN-S-08",
+        "title": "Beer ATM at Little Island Brewing",
+        "description": "A 400-seat brewery and smokehouse at sleepy Changi Village where you tap your card at a wall of taps and pour your own by the millilitre.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pour five different beers in tiny measures instead of one pint.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Little+Island+Brewing+Co+Changi+Village+Singapore",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "8ball": [
+      {
+        "id": "SIN-8B-01",
+        "title": "Wildcard: Hawker Centre Roulette",
+        "description": "Pick a hawker centre none of you have been to, then each order from the stall with the longest queue — no discussion, no looking at what it is first.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Eat everything you ordered. All of it. No trading.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Chinatown+Complex+Food+Centre+Singapore",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-8B-02",
+        "title": "Wildcard: Ride the Line to the End",
+        "description": "Get on the MRT at City Hall, take whichever line comes first to its final station, and eat wherever you can walk to in ten minutes.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ask someone at the terminus where they'd eat, then go there instead.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/City+Hall+MRT+Station+Singapore",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "SIN-A-09",
+        "title": "Cable Car from Mount Faber to Sentosa",
+        "description": "A glass-floored gondola off the top of Mount Faber that crosses the harbour, the container terminal and Sentosa's canopy on one ticket.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride the Sentosa Line too and get off at Imbiah for the long walk down.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Singapore+Cable+Car+Mount+Faber",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-14",
+        "title": "Cycle East Coast Park to Changi Point",
+        "description": "15km of flat seafront path from the reclaimed beaches of East Coast to the kampong end of the island, with container ships parked on the horizon the whole way.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Finish with a beer at Changi Village and take the bus back with the bike.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/East+Coast+Park+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-06",
+        "title": "Night Luge Down Sentosa's Dragon Trail",
+        "description": "Four gravity tracks down Imbiah Lookout on a steerable cart, run after dark under LED lighting with a Skyride chairlift back up each time.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Take the Skyride up with your feet off the bar and look back at the harbour.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Skyline+Luge+Sentosa+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-07",
+        "title": "Indoor Freefall at AltitudeX Sentosa",
+        "description": "A vertical wind tunnel on Siloso Beach Walk that holds you in a 200km/h column of air with the South China Sea through the glass behind you.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ask the instructor for the high-fly at the end and go up the full tube.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/AltitudeX+iFly+Singapore+Sentosa",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-01",
+        "title": "TreeTop Walk at MacRitchie Reservoir",
+        "description": "A 250-metre free-standing suspension bridge strung between the two highest points of MacRitchie, 25 metres above old-growth rainforest with long-tailed macaques for company.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Do the full 11km loop clockwise so you hit the bridge before the crowds.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/MacRitchie+Reservoir+Park+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-10",
+        "title": "Walk the Coney Island Boardwalk",
+        "description": "A deliberately undeveloped island off Punggol, 50 hectares of casuarina and coastal forest on gravel paths, with a resident wild cow nobody can quite explain.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the beach areas on the north shore and have the sea entirely to yourself.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Coney+Island+Park+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-15",
+        "title": "Night Safari After Dark",
+        "description": "The world's first nocturnal zoo, walked and tram-ridden after sunset through open habitats where the animals are actually awake.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Skip the tram on your second loop and walk the Leopard Trail alone.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Night+Safari+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-08",
+        "title": "HydroDash at Palawan Beach",
+        "description": "Singapore's biggest floating obstacle course, 60 by 61 metres of inflatable slides, walls and monkey bars anchored in the Palawan lagoon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get across the whole course once without falling in. Good luck.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/HydroDash+Palawan+Beach+Sentosa+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-11",
+        "title": "Sunrise and Kites at Marina Barrage",
+        "description": "A grass rooftop over the dam that holds back the Marina Reservoir, where Singaporeans fly kites at dawn with the whole skyline standing behind them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring breakfast and a cheap kite and stay until the heat drives you off.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Marina+Barrage+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-16",
+        "title": "Walk the Rail Corridor from Bukit Timah",
+        "description": "24km of former Malayan railway line turned green spine, walked from the restored Bukit Timah station through jungle, truss bridges and back gardens.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the black-and-white truss bridge over Bukit Timah Road and stand under it.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Rail+Corridor+Bukit+Timah+Railway+Station+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-04",
+        "title": "Cross Henderson Waves on the Southern Ridges",
+        "description": "A rippling timber wave of a bridge 36 metres above Henderson Road, on a 10km green corridor that links Mount Faber to Kent Ridge without touching a pavement.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Time it so you're on the bridge as the deck lighting comes on at seven.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Henderson+Waves+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-03",
+        "title": "Mountain Bike Pulau Ubin's Ketam Trail",
+        "description": "A bumboat to a kampong island ten minutes from the mainland, then a graded singletrack loop through old granite quarries and secondary jungle on a rented bike.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Ride out to Chek Jawa's wetlands boardwalk before you hand the bike back.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Ketam+Mountain+Bike+Park+Pulau+Ubin+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-13",
+        "title": "Mudflats and Mangroves at Sungei Buloh",
+        "description": "A mangrove wetland reserve on the Johor Strait with hides, boardwalks, mudskippers and estuarine crocodiles that genuinely do turn up.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand still at a hide for ten full minutes and count what appears.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Sungei+Buloh+Wetland+Reserve+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-02",
+        "title": "Dawn Climb to Bukit Timah's Summit",
+        "description": "The highest natural point in Singapore at 163 metres, reached on a steep paved road through primary rainforest older than the city around it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the Dairy Farm side trails down instead of the road you came up.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Bukit+Timah+Nature+Reserve+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-05",
+        "title": "MegaZip Over the Sentosa Jungle",
+        "description": "450 metres of zipline at 60km/h from Imbiah Hill out over the treetops and down to a landing island off Siloso Beach.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Go tandem and try to beat the person next to you off the platform.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Mega+Adventure+Park+Sentosa+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-A-12",
+        "title": "Kayak MacRitchie at the Paddle Lodge",
+        "description": "Flat brown water, a rainforest shoreline and no motors allowed, paddled out of the reservoir's own boathouse before the afternoon storms build.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Paddle into the far arm of the reservoir until you can't hear the road.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/MacRitchie+Reservoir+Paddle+Lodge+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "SIN-F-03",
+        "title": "Chilli Crab at Jumbo, East Coast",
+        "description": "A whole mud crab in sweet-hot tomato gravy at the open-air seafood centre where the dish was perfected, with fried mantou buns to mop the plate.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order the black pepper crab as well and settle the argument yourself.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/JUMBO+Seafood+East+Coast+Seafood+Centre+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-11",
+        "title": "Kaya Toast at Chin Mee Chin",
+        "description": "A 1925 Katong bakery with mosaic floors and marble tables, where charcoal-toasted bread comes with coconut jam, cold butter and soft-boiled eggs.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Dip the toast in the egg with white pepper and soy, properly, no shortcuts.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Chin+Mee+Chin+Confectionery+East+Coast+Road+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-04",
+        "title": "Satay Street at Lau Pa Sat",
+        "description": "At seven each evening Boon Tat Street closes to traffic and ten charcoal satay stalls set up in the road beside a Victorian cast-iron market hall.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order fifty sticks between you and don't stop until the peanut sauce is gone.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Lau+Pa+Sat+Satay+Street+Boon+Tat+Street+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-05",
+        "title": "Laksa at 328 Katong",
+        "description": "Thick coconut gravy, cockles and noodles cut short so you eat the whole bowl with a spoon — the Katong original on East Coast Road, walk-ins only.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Add the otah on the side and eat it straight out of the banana leaf.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/328+Katong+Laksa+East+Coast+Road+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-06",
+        "title": "One-Star Bak Chor Mee at Hill Street Tai Hwa",
+        "description": "Minced pork noodles with dried plaice, pork liver and black vinegar, cooked bowl by bowl at a Crawford Lane stall that has held a Michelin star since 2016.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Get there before ten or budget an hour in the queue — everyone does.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Hill+Street+Tai+Hwa+Pork+Noodle+Crawford+Lane+Singapore",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SIN-F-01",
+        "title": "Tian Tian Chicken Rice at Maxwell",
+        "description": "The most argued-over plate of Hainanese chicken rice in Singapore, poached since 1986 at a Maxwell Food Centre stall with a queue that starts before it opens.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order the chilli extra and the dark soy on the side, like the regulars do.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Tian+Tian+Hainanese+Chicken+Rice+Maxwell+Food+Centre+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-10",
+        "title": "Peranakan Tasting Menu at Candlenut",
+        "description": "The world's first Michelin-starred Peranakan restaurant, in a Dempsey bungalow, where Malcolm Lee cooks buah keluak and rempah with restraint.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Take the Ah-Ma-Kase and let the kitchen decide the whole meal.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Candlenut+Dempsey+Road+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-07",
+        "title": "Prata Marathon at Springleaf Prata Place",
+        "description": "Twenty variations on roti prata, flipped to order and eaten with fish curry — a Michelin-listed local chain that does murtabak properly too.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the plaster prata with a runny egg and don't ask about the calories.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Springleaf+Prata+Place+Thong+Soon+Avenue+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-09",
+        "title": "2am Dim Sum at Swee Choon",
+        "description": "A Jalan Besar institution since 1962 that serves har gow and mee sua kueh until four in the morning, now finally open seven days a week.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Go after midnight, order the mee sua kueh, and watch who else turns up.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Swee+Choon+Tim+Sum+Jalan+Besar+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-12",
+        "title": "Barbecue Stingray at Newton Food Centre",
+        "description": "Sambal stingray off the grill on banana leaf, fried carrot cake and sugarcane juice at the open-air hawker centre that made it onto every film crew's list.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order from at least four different stalls and share everything at one table.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Newton+Food+Centre+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-08",
+        "title": "Nasi Lemak at The Coconut Club",
+        "description": "Coconut rice cooked with a specific varietal, sambal with real depth and a fried chicken thigh — the Bib Gourmand version of Singapore's default lunch, on Beach Road.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Add the buah keluak if it's on and see what all the fuss is about.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Coconut+Club+Beach+Road+Singapore",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SIN-F-02",
+        "title": "Michelin Chicken Rice at Hawker Chan",
+        "description": "The Chinatown Complex stall that became the cheapest Michelin-starred meal on earth: soya sauce chicken over rice for under five dollars.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Eat at the original non-air-conditioned hawker stall, not the shop next door.",
+        "city": "Singapore",
+        "mapsUrl": "https://maps.google.com/maps/search/Liao+Fan+Hawker+Chan+Chinatown+Complex+Singapore",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

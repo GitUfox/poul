@@ -1,0 +1,793 @@
+{
+  "id": "prague",
+  "name": "prague",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "foodie": [
+      {
+        "id": "PRG-F-08",
+        "title": "Third Wave at EMA Espresso Bar",
+        "description": "A bright little bar near the Powder Tower that helped start Prague's speciality coffee scene and still sets the standard for it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Try the same bean as espresso and as filter.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/EMA+Espresso+Bar+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-F-11",
+        "title": "Moravian Wine at Bokovka",
+        "description": "A courtyard wine bar built around Czech and Moravian bottles nobody exports, where they will happily pour you things you cannot buy at home.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Drink a Veltínské zelené and admit it is good.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Bokovka+wine+bar+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-F-07",
+        "title": "Chlebíčky at Sisters Bistro",
+        "description": "The Czech open-faced sandwich done properly — potato salad, egg, ham, herring — at a counter that treats it as a serious format.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order four different ones and rank them.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Sisters+Bistro+Chlebicky+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-F-10",
+        "title": "A Pint at U Zlatého Tygra",
+        "description": "Bohumil Hrabal's local, where regulars have assigned seats and the beer arrives before you have finished sitting down.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Do not ask for a menu. There isn't one worth reading.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/U+Zlateho+Tygra+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-F-09",
+        "title": "Goulash at Kantýna, the Butcher's Canteen",
+        "description": "Order by weight at the meat counter, take a paper ticket to a shared marble table, and eat some of the best beef in the city standing up.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get the tartare and make it yourself at the table.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Kantyna+Politickych+veznu+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-F-06",
+        "title": "Tank Pilsner at Lokál Dlouhá",
+        "description": "Unpasteurised Pilsner Urquell poured from tanks in the cellar, in a long tiled hall doing proper Czech pub food without the tourist markup.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order a šnyt or a mlíko and find out what you actually got.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Lokal+Dlouha+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-F-05",
+        "title": "Coffee at Kavárna Slavia",
+        "description": "The riverside café opposite the National Theatre where dissidents, actors and Havel all sat, still serving cake under the same green lamps.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get a window table facing the castle.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Kavarna+Slavia+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-F-12",
+        "title": "The Tasting Menu at Field",
+        "description": "A Michelin-starred room a block from the Old Town doing Czech ingredients with real wit — dishes arrive looking like the field they came out of.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the full pairing rather than the short one.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Field+Restaurant+Prague",
+        "company": [
+          "couple"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "PRG-C-05",
+        "title": "Letná Beer Garden Above the River",
+        "description": "Plastic cups, long trestle tables and a view straight down the line of Vltava bridges from the top of Letná park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Stay from daylight through to the bridges lighting up.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Letna+Beer+Garden+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-C-07",
+        "title": "Sunset from Riegrovy Sady",
+        "description": "The sloping lawn in Vinohrady where the whole neighbourhood brings a bottle and sits facing the castle as the light goes.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Bring the bottle. Sit on the slope, not the benches.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Riegrovy+sady+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-C-10",
+        "title": "Read Inside the Book Tower",
+        "description": "The Municipal Library's Idiom sculpture is a column of books with a mirror inside, making an infinite shaft of spines — then stay and read in the library itself.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Put your head fully inside and look up.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Municipal+Library+of+Prague+Idiom",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-C-06",
+        "title": "Kampa Island and the Lennon Wall",
+        "description": "Drop off Charles Bridge onto the quiet island below it, follow the mill stream, and end at a wall that has been repainted continuously since 1980.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Add something to the wall. It is expected.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Kampa+Island+Lennon+Wall+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-C-09",
+        "title": "Peacocks in the Wallenstein Garden",
+        "description": "The Senate's baroque garden below the castle, with a dripstone grotto wall, a carp pond and white peacocks that wander up to you.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 22,
+        "bonus": "Find the faces hidden in the grotto wall.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Wallenstein+Garden+Valdstejnska+zahrada+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-C-08",
+        "title": "The Terraces of Vrtba Garden",
+        "description": "A small baroque garden climbing the hillside in Malá Strana in stone terraces, almost always empty despite being minutes from the crowds.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Go to the very top terrace and stay there a while.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Vrtba+Garden+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "PRG-A-07",
+        "title": "Divoká Šárka's Wild Valley",
+        "description": "A rocky gorge inside the city limits with cliffs, woodland trails and an open-air swimming reservoir at the bottom of it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Swim in the reservoir, however cold it is.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Divoka+Sarka+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-A-06",
+        "title": "Climb Vítkov Hill to the Iron Horseman",
+        "description": "A steep walk up out of Žižkov to one of the largest equestrian statues on earth, with the best free panorama of the city behind it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get there for sunset and stay for the lights.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Monument+Vitkov+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-A-12",
+        "title": "Bohemian Switzerland and the Pravčická Brána",
+        "description": "A full day north to the largest natural sandstone arch in Europe, plus a punt ride through the Kamenice gorge between vertical rock walls.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "10 hrs",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Do the gorge boats as well as the arch — most people skip them.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Pravcicka+Brana+Hrensko+Czech+Republic",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-A-05",
+        "title": "Up the Žižkov Television Tower",
+        "description": "Ride to the observation deck of the communist-era rocket the city loves to hate, with David Černý's faceless babies crawling up the outside.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the glass floor panel and stand on it.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Zizkov+Television+Tower+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-A-11",
+        "title": "Whitewater at the Troja Channel",
+        "description": "Prague's artificial slalom course, where the Olympic team trains and where you can book a raft through the same rapids.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 27,
+        "bonus": "Go through the biggest drop without bracing.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Troja+Slalom+Canoe+Course+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-A-08",
+        "title": "Cycle the Vltava Trail South",
+        "description": "Pick up the A2 riverside cycle path and ride out of the centre until the tour boats give way to weirs, herons and beer gardens.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Stop at the first riverside pub you pass and turn back after it.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/A2+Cycle+Path+Vltava+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-A-10",
+        "title": "Climb the Limestone at Prokopské údolí",
+        "description": "A protected karst valley on the edge of Prague where Devonian limestone crags rise straight out of the woods and locals climb after work.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 24,
+        "bonus": "Walk the valley floor first and pick your route from below.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Prokopske+udoli+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-A-09",
+        "title": "287 Steps Up St. Vitus Cathedral",
+        "description": "A tight spiral staircase inside the Great South Tower, ending at a gallery where the whole castle district drops away beneath you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Count the steps yourself and see if you agree.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/St+Vitus+Cathedral+Great+South+Tower+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "PRG-S-09",
+        "title": "Sparta Praha Ice Hockey Night",
+        "description": "Czech league hockey at full volume — organised chanting, a drum section, and beer sold by the metre in the concourse.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Sep–Apr",
+        "spark": 15,
+        "bonus": "Learn one chant and join in by the second period.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/O2+Arena+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-S-07",
+        "title": "A Night Inside Cross Club",
+        "description": "A Holešovice club built entirely out of welded scrap that moves, lights up and rotates around you, with a garden and three floors of music.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Explore every floor before you settle on one.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Cross+Club+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-S-12",
+        "title": "Signal Festival Lights Up the City",
+        "description": "For four October nights the whole centre becomes a light-art trail, with projections thrown across baroque facades and half the city walking it together.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Oct",
+        "spark": 40,
+        "bonus": "Do the full route on foot rather than picking two stops.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Signal+Festival+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-S-11",
+        "title": "Late at Roxy",
+        "description": "A stripped-back former cinema in the Old Town that has been booking serious electronic line-ups since the early nineties.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Arrive after 1am, which is when it actually starts.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Roxy+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-S-05",
+        "title": "Cocktails at Hemingway Bar",
+        "description": "A small, dark, absinthe-heavy bar near the river that put Prague on the world cocktail map and still takes it extremely seriously.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Let them make you something off-menu.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Hemingway+Bar+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-S-06",
+        "title": "Find the Door at Anonymous Bar",
+        "description": "A Guy Fawkes-masked speakeasy off Michalská where the drinks come out on fire, in smoke boxes, or in something that is not a glass.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the one the bartender warns you about.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Anonymous+Bar+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-S-08",
+        "title": "Parukářka Hill with a Bottle",
+        "description": "Žižkov's scruffy hilltop park with a beer hut, a skate bowl and the best low-effort city view in Prague.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Talk to whoever is sitting on the next bench.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Parukarka+Park+Zizkov+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-S-10",
+        "title": "Jazz in the Cellar at Reduta",
+        "description": "Prague's oldest jazz club, a low vaulted room on Národní where Bill Clinton once got handed a saxophone and played.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Book the front table — the room is small enough that it matters.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Reduta+Jazz+Club+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "PRG-CU-01",
+        "title": "The Apostles on the Astronomical Clock",
+        "description": "Watch the 1410 orloj do its hourly parade of apostles and a skeleton ringing a bell, then go up the Old Town Hall tower it is bolted to.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Take the lift up but walk the ramp down.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Town+Hall+Astronomical+Clock+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-CU-02",
+        "title": "The Old Jewish Cemetery and the Spanish Synagogue",
+        "description": "Twelve thousand headstones stacked over each other because the quarter was never allowed to expand, and a Moorish-revival synagogue gilded floor to ceiling.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Read the names painted in the Pinkas Synagogue before you leave.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Jewish+Cemetery+Josefov+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-CU-07",
+        "title": "Kutná Hora and the Bone Church",
+        "description": "An hour east by train: a silver-mining town with a cathedral built by miners, and an ossuary decorated with the bones of forty thousand people.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Do St. Barbara's as well — most day-trippers only do the bones.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Sedlec+Ossuary+Kutna+Hora",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-CU-05",
+        "title": "Mozart at the Estates Theatre",
+        "description": "Don Giovanni premiered in this pale green horseshoe of a theatre in 1787, with Mozart conducting, and it is still staged in the same room.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 28,
+        "bonus": "Sit in the boxes rather than the stalls.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Estates+Theatre+Stavovske+divadlo+Prague",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-CU-03",
+        "title": "Museum Kampa and the Crawling Babies",
+        "description": "Central European modern art in a converted riverside mill, with three of David Černý's giant faceless infants on the lawn outside.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the Kupka room and give it ten full minutes.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Museum+Kampa+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-CU-06",
+        "title": "The Strahov Library Halls",
+        "description": "Two baroque halls — Theological and Philosophical — with frescoed ceilings, globes and a cabinet of curiosities including a preserved narwhal tusk.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Look for the shark and the dodo remains in the corridor.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Strahov+Monastery+Library+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-CU-04",
+        "title": "Modern Art in the Veletržní Palác",
+        "description": "A vast functionalist trade-fair building holding the National Gallery's modern collection — Czech cubism, plus a Picasso and a Klimt or two.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the top floor first and work down.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Veletrzni+Palac+National+Gallery+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-CU-08",
+        "title": "The Czech Philharmonic at the Rudolfinum",
+        "description": "Dvořák conducted the orchestra's first concert in this hall in 1896, and hearing his own music played in it remains the single best night in Prague.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 40,
+        "bonus": "Go to a programme with Dvořák or Smetana on it.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Rudolfinum+Dvorak+Hall+Prague",
+        "company": [
+          "couple"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "PRG-8B-02",
+        "title": "Order the Thing You Cannot Pronounce",
+        "description": "Walk into any Czech pub without an English menu, point at the longest word on the board, and eat whatever arrives.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "No translating it until after the first bite.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Zizkov+Prague+pubs",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-8B-01",
+        "title": "Ride Tram 22 to the End of the Line",
+        "description": "Take the city's best tram route past the castle and keep going well past where you were supposed to get off, then walk back toward the river.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get a beer at the first pub you see after you get off.",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Malostranska+tram+stop+Prague",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

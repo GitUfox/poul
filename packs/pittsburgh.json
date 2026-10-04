@@ -1,0 +1,782 @@
+{
+  "id": "pittsburgh",
+  "name": "pittsburgh",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "PIT-CU-03",
+        "title": "Carnegie Museum of Art",
+        "description": "The art half of the Carnegie in Oakland, with a strong modern collection and the vast Hall of Architecture full of plaster casts.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the Hall of Architecture and look up.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Carnegie+Museum+of+Art+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-CU-01",
+        "title": "The Andy Warhol Museum",
+        "description": "Seven floors on Pittsburgh's most famous son — the largest museum in North America devoted to a single artist.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit for a screen test in the basement.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Andy+Warhol+Museum+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-CU-07",
+        "title": "The Frick Pittsburgh",
+        "description": "The Gilded Age estate of Henry Clay Frick in Point Breeze — the family mansion, a car and carriage museum and a small art museum across the lawn.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Take the house tour, then have tea in the café.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Frick+Pittsburgh+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-CU-05",
+        "title": "Nationality Rooms at the Cathedral of Learning",
+        "description": "Working classrooms inside a 42-storey Gothic tower, each designed by a different immigrant community in the style of its homeland.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit in a room from a country you have never visited.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Cathedral+of+Learning+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-CU-02",
+        "title": "The Mattress Factory",
+        "description": "A museum of room-sized installation art on the North Side, including permanent James Turrell and Yayoi Kusama rooms.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand in the Kusama mirror room for a full minute.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Mattress+Factory+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-CU-06",
+        "title": "Heinz History Center",
+        "description": "Six floors of western Pennsylvania history in an old Strip District icehouse, including a sports museum and the original Mister Rogers set.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the Neighborhood of Make-Believe.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Heinz+History+Center+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-CU-04",
+        "title": "Tour Frank Lloyd Wright's Fallingwater",
+        "description": "The house built over a waterfall — Frank Lloyd Wright's masterpiece, cantilevered over Bear Run in the Laurel Highlands.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Half day",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Mar–Dec",
+        "spark": 40,
+        "bonus": "Walk down to the viewpoint below the falls for the classic angle.",
+        "city": "Mill Run, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Fallingwater+Mill+Run+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-CU-08",
+        "title": "Pittsburgh Symphony at Heinz Hall",
+        "description": "One of America's great orchestras in a restored 1927 movie palace in the downtown Cultural District.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 25,
+        "bonus": "Dress up more than you think you need to.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Heinz+Hall+Pittsburgh+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "PIT-S-11",
+        "title": "Karaoke at Belvedere's Ultra-Dive",
+        "description": "A proudly scruffy Lawrenceville dive famous for its themed nights, dance parties and a crowd with no shame.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sing a song everyone knows the chorus to.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Belvederes+Ultra-Dive+Pittsburgh+PA",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PIT-S-12",
+        "title": "Riverhounds Match at Highmark Stadium",
+        "description": "Pro soccer on the riverbank below Mount Washington, where the downtown skyline is the backdrop to every goal.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Mar–Oct",
+        "spark": 22,
+        "bonus": "Sit with the Steel Army supporters' section.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Highmark+Stadium+Pittsburgh+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-S-08",
+        "title": "Dance Night at Spirit",
+        "description": "A former Moose lodge in Lawrenceville with a pizza counter downstairs and a dance floor upstairs.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get a slice between sets.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Spirit+Lawrenceville+Pittsburgh+PA",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PIT-S-09",
+        "title": "Bowling at Arsenal Lanes",
+        "description": "An old-school upstairs bowling alley in Lawrenceville with cheap beer and a crowd that takes it just seriously enough.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Losing team buys the next round.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Arsenal+Bowling+Lanes+Pittsburgh+PA",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-S-10",
+        "title": "Cocktails at Bar Marco",
+        "description": "A restaurant and cocktail bar inside a converted Strip District firehouse, with a wine cellar in the old basement.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ask to see the cellar.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Marco+Pittsburgh+PA",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PIT-S-07",
+        "title": "Live Music at Mr. Smalls Theatre",
+        "description": "A mid-sized concert venue in a converted church just over the river in Millvale, with great sound and a balcony.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Catch the opener — they're often the better band.",
+        "city": "Millvale, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Mr+Smalls+Theatre+Millvale+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-S-06",
+        "title": "Penguins Game at PPG Paints Arena",
+        "description": "NHL hockey in front of one of the league's most loyal crowds, a short walk from downtown bars.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 24,
+        "bonus": "Get there for warm-ups and watch from the glass.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/PPG+Paints+Arena+Pittsburgh+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-S-05",
+        "title": "Steelers Game at Acrisure Stadium",
+        "description": "Tailgate on the North Shore, then a full stadium waving Terrible Towels by the rivers — Pittsburgh at full volume.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Afternoon",
+        "season": "Sep–Jan",
+        "spark": 40,
+        "bonus": "Bring a Terrible Towel and don't stop waving it.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Acrisure+Stadium+Pittsburgh+PA",
+        "company": [
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "PIT-A-09",
+        "title": "Ski Day at Seven Springs",
+        "description": "Western Pennsylvania's biggest ski resort, an hour out of the city, with night skiing and a terrain park.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Dec–Mar",
+        "spark": 26,
+        "bonus": "Stay for night skiing under the lights.",
+        "city": "Seven Springs, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Seven+Springs+Mountain+Resort+Seven+Springs+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-A-06",
+        "title": "Ferncliff Peninsula and Cucumber Falls",
+        "description": "A loop around a river peninsula full of fossils and rare plants, then a short walk to a 30-foot waterfall you can stand behind.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "Half day",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 23,
+        "bonus": "Wade into the pool at the bottom of Cucumber Falls.",
+        "city": "Ohiopyle, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Cucumber+Falls+Ohiopyle+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-A-07",
+        "title": "Bike the Three Rivers Heritage Trail Loop",
+        "description": "A flat riverside loop crossing the city's bridges past both stadiums and the Point, with the skyline in view the entire way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Cross at least three different bridges.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Three+Rivers+Heritage+Trail+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-A-10",
+        "title": "Mountain Bike Hartwood Acres",
+        "description": "Flowy wooded singletrack north of the city, on the grounds of a Tudor-style mansion estate.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 13,
+        "bonus": "Finish with a lap on the field in front of the mansion.",
+        "city": "Allison Park, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Hartwood+Acres+Park+Allison+Park+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-A-08",
+        "title": "Panther Hollow Trail in Schenley Park",
+        "description": "A wooded ravine trail through Oakland's big park, dropping down to a quiet lake that feels miles from campus.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Finish with the view from Flagstaff Hill.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Panther+Hollow+Lake+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-A-05",
+        "title": "Raft the Lower Yough at Ohiopyle",
+        "description": "Seven miles of class III–IV whitewater on the Youghiogheny River, one of the busiest stretches of whitewater in the East, starting just below Ohiopyle Falls.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Swim the Swimmers Rapid if your guide says it's on.",
+        "city": "Ohiopyle, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Ohiopyle+State+Park+Ohiopyle+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-A-11",
+        "title": "Phantom's Revenge at Kennywood",
+        "description": "A century-old amusement park with classic wooden coasters and the Phantom's Revenge, which dives into a ravine at over 80 mph.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 360,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 25,
+        "bonus": "Ride the Jack Rabbit too — it's been running since 1920.",
+        "city": "West Mifflin, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Kennywood+West+Mifflin+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-A-12",
+        "title": "Lake Loop at North Park",
+        "description": "A five-mile paved loop around the county's biggest park lake, with boat rentals and trails running off into the woods.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Rent a kayak and paddle the lake after your loop.",
+        "city": "Allison Park, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/North+Park+Lake+Allison+Park+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "PIT-F-11",
+        "title": "Gelato and Pizza at Mercurio's",
+        "description": "A Shadyside spot doing Neapolitan pizza from a wood-fired oven and a long case of house-made gelato.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Have gelato before your pizza.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Mercurios+Pittsburgh+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-F-05",
+        "title": "Pierogies at S&D Polish Deli",
+        "description": "A small Strip District deli selling homemade pierogies, kielbasa and Polish groceries — Pittsburgh's heritage food done properly.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Try a flavour you can't pronounce.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/S+and+D+Polish+Deli+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-F-07",
+        "title": "Fish Sandwich at Wholey's",
+        "description": "A giant fried-fish sandwich that hangs well off the bun, from the Strip District seafood market with the smiling fish on the sign.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Try to finish the whole thing in one sitting.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Robert+Wholey+Market+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-F-10",
+        "title": "Burnt Almond Torte at Prantl's",
+        "description": "Pittsburgh's most famous cake — layers of sponge and custard buried in a coat of toasted, sugared almonds.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a whole one and share it with strangers.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Prantls+Bakery+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-F-12",
+        "title": "Hardwood-Grilled Burger at Tessaro's",
+        "description": "A dark wood-panelled Bloomfield tavern grilling half-pound burgers over hardwood, often cited as the best in the city.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Order it the way the server recommends.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Tessaros+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-F-06",
+        "title": "Crepe Pancakes at Pamela's Diner",
+        "description": "Thin, crispy-edged pancakes rolled around strawberries and sour cream, at a cash-only diner that has fed presidents.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get the strawberry hotcakes, no substitutions.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Pamelas+Diner+Strip+District+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-F-08",
+        "title": "Plant-Based Polish at Apteka",
+        "description": "A Bloomfield restaurant doing fully vegan Central and Eastern European food with national acclaim — a pierogi plate that changes minds.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order one dish you'd normally assume needs meat.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Apteka+Pittsburgh+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "PIT-C-06",
+        "title": "Espresso at La Prima",
+        "description": "An Italian espresso bar in the Strip where the old-timers play cards at the back tables and the cappuccino is a proper one.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Drink it standing up at the bar, Italian-style.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Prima+Espresso+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PIT-C-09",
+        "title": "Browse Caliban Book Shop",
+        "description": "An antiquarian and used bookshop on Craig Street stacked floor to ceiling with literature, art books and first editions.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy something from the rare-books shelf under $20.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Caliban+Book+Shop+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PIT-C-10",
+        "title": "Gateway Clipper River Cruise",
+        "description": "A sightseeing cruise on all three rivers from Station Square, passing under the bridges with the skyline sliding by.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 22,
+        "bonus": "Stand on the top deck as you pass the Point.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Gateway+Clipper+Fleet+Pittsburgh+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-C-07",
+        "title": "Walled Garden at Mellon Park",
+        "description": "A sunken formal garden hidden behind stone walls in Shadyside, left over from a demolished mansion.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Bring a book and read one chapter on the lawn.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Mellon+Park+Walled+Garden+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PIT-C-08",
+        "title": "Sunset at the West End Overlook",
+        "description": "A quieter alternative to Mount Washington — a hilltop park looking straight up the Ohio River into downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay until every bridge is lit.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/West+End+Overlook+Park+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PIT-C-05",
+        "title": "Wander Allegheny Cemetery",
+        "description": "A 300-acre Victorian garden cemetery in Lawrenceville, full of hilltop monuments, old trees and total quiet.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find Stephen Foster's grave.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Allegheny+Cemetery+Pittsburgh+PA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "PIT-8B-02",
+        "title": "Cross a Bridge You've Never Crossed",
+        "description": "The city of bridges has more than 400 of them — pick one you've never crossed on foot, walk to the far side, and spend the afternoon in whatever neighbourhood you land in.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Eat at the first place you pass that has no sign.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Roberto+Clemente+Bridge+Pittsburgh+PA",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PIT-8B-01",
+        "title": "Take a Staircase You've Never Climbed",
+        "description": "Pittsburgh has more public staircases than any city in the country — pick one you've never taken, climb it, and go into the first bar or café at the top.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Count the steps out loud.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/South+Side+Slopes+Pittsburgh+PA",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

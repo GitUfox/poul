@@ -1,0 +1,1197 @@
+{
+  "id": "raleigh-durham",
+  "name": "raleigh-durham",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "chill": [
+      {
+        "id": "RDU-C-09",
+        "title": "Dig Through the Scrap Exchange",
+        "description": "A vast creative-reuse warehouse where industrial offcuts, discontinued stock and genuine oddities are sold by the pound.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Leave with something under five dollars that you cannot explain.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Scrap+Exchange+Durham",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-C-06",
+        "title": "Ride the 1911 Carousel at Pullen Park",
+        "description": "One of the oldest public parks in the South, with a restored Dentzel carousel, a miniature train and pedal boats on the lake for the price of a coffee.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Mar–Nov",
+        "spark": 12,
+        "bonus": "Take the pedal boats out and race another pair across the lake.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Pullen+Park+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-C-08",
+        "title": "Sprawl on the Weaver Street Lawn in Carrboro",
+        "description": "The co-op grocery with a front lawn that functions as Carrboro's living room, where a coffee buys you an afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Mar–Oct",
+        "spark": 12,
+        "bonus": "Stay long enough to see the lawn turn over completely.",
+        "city": "Carrboro, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Weaver+Street+Market+Carrboro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-C-02",
+        "title": "Find the Japanese Garden at JC Raulston Arboretum",
+        "description": "NC State's free research arboretum, ten acres of plants being trialled for the Southeast, including a 300-foot perennial border that peaks in late summer.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Photograph one plant you have never seen before and look up its name.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/JC+Raulston+Arboretum+Raleigh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RDU-C-04",
+        "title": "Linger Over a Cortado at Cocoa Cinnamon",
+        "description": "Durham's most distinctive coffee bar, tiled and spiced and unhurried, with cardamom and horchata lattes worth ordering over the drip.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the drink the barista recommends rather than your usual.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Cocoa+Cinnamon+Geer+Street+Durham",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RDU-C-07",
+        "title": "Build a Pastry Box at lucettegrace",
+        "description": "A contemporary patisserie downtown where the entremets and macarons look like jewellery and taste better than they look.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Choose six pastries with no repeats and share them properly.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/lucettegrace+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-C-03",
+        "title": "Walk the Bean-to-Bar Floor at Videri",
+        "description": "A working chocolate factory in the Warehouse District where the self-guided tour walks you straight past the winnower and the conches.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a single-origin bar and taste it before you leave the building.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Videri+Chocolate+Factory+Raleigh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-C-10",
+        "title": "Smell Your Way Through the Raleigh Rose Garden",
+        "description": "Sixty beds and more than a thousand rose bushes on a terraced slope beside Raleigh Little Theatre, free and almost always quiet.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Find the most fragrant variety in the garden and remember its name.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Raleigh+Municipal+Rose+Garden+Raleigh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RDU-C-05",
+        "title": "Lose an Hour in Quail Ridge Books",
+        "description": "Raleigh's beloved independent bookshop, with staff picks worth trusting and an author event calendar that punches above the city's size.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy whatever book the shelf-talker convinces you to buy.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Quail+Ridge+Books+Raleigh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RDU-C-01",
+        "title": "Wander the Terraces at Sarah P. Duke Gardens",
+        "description": "Fifty-five acres of free gardens on Duke's campus, from the Italianate terraces to a genuinely good Japanese garden with a red bridge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the koi pond and sit there for fifteen minutes with your phone away.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Sarah+P+Duke+Gardens+Durham",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "RDU-A-01",
+        "title": "Loop the Company Mill Trail in Umstead",
+        "description": "A 5.8-mile hardwood-forest loop with a creek crossing at an old mill site, ten minutes from the airport and a world away from it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop at the mill ruins and skip a stone across Crabtree Creek.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/William+B+Umstead+State+Park+Raleigh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-10",
+        "title": "Bike the Neuse River Greenway to the Dam",
+        "description": "A 27-mile paved ribbon along the Neuse with boardwalks over wetland and a suspension bridge nobody expects in Raleigh.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride out to Falls Lake Dam and turn around only when you can see the spillway.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Neuse+River+Greenway+Trail+Raleigh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-12",
+        "title": "Rip the Singletrack at Lake Crabtree",
+        "description": "Tight, rooty, lakeside mountain bike trails that punch well above their elevation, with planes coming in low overhead.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Clean a full lap of the Highlander loop without putting a foot down.",
+        "city": "Morrisville, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Crabtree+County+Park+Morrisville",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-11",
+        "title": "Summit Occoneechee Mountain, Then Walk Hillsborough",
+        "description": "The highest point in Orange County plus a quarry overlook, ten minutes from a riverwalk and a main street worth the detour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Finish the loop and walk the full Riverwalk into town without driving.",
+        "city": "Hillsborough, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Occoneechee+Mountain+State+Natural+Area+Hillsborough",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-03",
+        "title": "Ride the American Tobacco Trail End to End",
+        "description": "Twenty-two miles of converted rail bed running from downtown Durham to Apex, flat enough to talk the whole way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Cross the New Hope Creek bridge without touching the brakes.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/American+Tobacco+Trail+Durham",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-15",
+        "title": "Ride the Lake Loop at Harris Lake County Park",
+        "description": "Flowy, beginner-forgiving mountain bike trails on a peninsula, with a lake on three sides and a nuclear cooling tower on the horizon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride the whole red loop without stopping to check the map.",
+        "city": "New Hill, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Harris+Lake+County+Park+New+Hill",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-05",
+        "title": "Night Paddle the Eno with Frog Hollow Outdoors",
+        "description": "A guided after-dark canoe run on flat water where the frogs get loud and the only light is whatever the moon gives you.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5–3 hrs",
+        "durationMins": 165,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 26,
+        "bonus": "Everyone stops paddling and stays silent for a full minute mid-river.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Frog+Hollow+Outdoors+Durham",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-04",
+        "title": "Scramble Cox Mountain at Eno River State Park",
+        "description": "Cross the swinging suspension bridge at Fews Ford and grind up the park's steepest climb for a river view most locals never bother with.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Wade into the shallows at Fews Ford before you leave.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Eno+River+State+Park+Fews+Ford+Durham",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-07",
+        "title": "Kayak Jordan Lake for Bald Eagles",
+        "description": "Jordan Lake holds one of the largest summer bald eagle populations east of the Mississippi, and a kayak puts you under them.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Mar–Oct",
+        "spark": 15,
+        "bonus": "Get a photo of an eagle in flight before you take out.",
+        "city": "Apex, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Jordan+Lake+State+Recreation+Area+Apex",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-06",
+        "title": "Paddleboard Beaverdam at Falls Lake",
+        "description": "The calmest arm of Falls Lake, with a swim beach to collapse on once your legs give out.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 13,
+        "bonus": "Paddle out to the far shoreline and back without falling in.",
+        "city": "Wake Forest, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Beaverdam+Recreation+Area+Falls+Lake+Wake+Forest",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-13",
+        "title": "Walk With Lemurs at the Duke Lemur Center",
+        "description": "The largest lemur population outside Madagascar, and one summer tour that lets you walk into a forest enclosure while they move through the trees around you.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 40,
+        "bonus": "Learn one lemur's name and use it correctly in front of the keeper.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Duke+Lemur+Center+Durham",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-09",
+        "title": "Climb Down to the Raven Rock Overlook",
+        "description": "A 150-foot crystalline bluff over the Cape Fear River, reached by a staircase that makes the return trip the real hike.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Count the stairs on the way down and get the number right on the way up.",
+        "city": "Lillington, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Raven+Rock+State+Park+Lillington",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-08",
+        "title": "Send Your First V2 at Triangle Rock Club",
+        "description": "A big, friendly bouldering and rope gym where the day pass includes shoes and nobody minds that you have never done this.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Top out a problem graded at least V2 before you leave.",
+        "city": "Morrisville, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Triangle+Rock+Club+Morrisville",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-16",
+        "title": "Meet the Big Cats at Carolina Tiger Rescue",
+        "description": "A working sanctuary for tigers, lions and caracals where the guided tour puts you a fence away from animals that were somebody's illegal pet.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Book the twilight tour and stay for the sunset roar call.",
+        "city": "Pittsboro, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Carolina+Tiger+Rescue+Pittsboro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-02",
+        "title": "Swing Through the Canopy at Go Ape Blue Jay Point",
+        "description": "Forty-plus obstacles and five zip lines strung through the pines above Falls Lake, with a Tarzan swing you have to commit to.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 165,
+        "time": "Afternoon",
+        "season": "Mar–Nov",
+        "spark": 25,
+        "bonus": "Do the last zip line with no hands.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Go+Ape+Blue+Jay+Point+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-A-14",
+        "title": "Catch the Skyline Sunset from Dorothea Dix Park",
+        "description": "308 acres of open hillside with the best unobstructed view of downtown Raleigh, and nobody charges you for it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring something to sit on and stay until the streetlights come on.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Dorothea+Dix+Park+Raleigh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "RDU-S-03",
+        "title": "Order Off-Menu at Kingfisher",
+        "description": "A dark, low-ceilinged Durham cocktail bar whose drinks are built like tasting menus and whose bartenders will happily go off-script.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Describe a flavour rather than a drink and let them build it.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Kingfisher+Durham",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RDU-S-01",
+        "title": "Find the Door at Watts & Ward",
+        "description": "A basement prohibition lounge under downtown Raleigh with leather booths, a serious whiskey back bar and no sign on the street.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order a cocktail off-menu by naming a spirit and a mood.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Watts+and+Ward+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RDU-S-12",
+        "title": "Do All Three Nights of Hopscotch",
+        "description": "Raleigh's September festival takes over every club, stage and sidewalk downtown for three days of genre-scrambling sets and late-night shows.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 nights",
+        "durationMins": 720,
+        "time": "Evening",
+        "season": "Sep",
+        "spark": 40,
+        "bonus": "See one band you have never heard of in each of three different venues.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Hopscotch+Music+Festival+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-S-02",
+        "title": "Descend to Fox Liquor Bar",
+        "description": "Ashley Christensen's basement cocktail room under Beasley's, with more than fifty craft cocktails and the low light to match.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Ask the bartender to make the drink they are most proud of.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Fox+Liquor+Bar+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RDU-S-08",
+        "title": "Drink Southern at Fullsteam Tavern",
+        "description": "A brewery built on distinctly Southern ingredients — sweet potato, persimmon, foraged whatever — with a tavern that runs events most nights.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Drink the beer with the strangest ingredient on the board.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Fullsteam+Brewery+Durham",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RDU-S-10",
+        "title": "Catch a Show at Motorco Music Hall",
+        "description": "A former car dealership turned mid-size music hall in Durham's Central Park district, with a garage bar attached for before and after.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get to the front for the headliner rather than hanging at the back.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Motorco+Music+Hall+Durham",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-S-07",
+        "title": "Claim a Picnic Table at Ponysaurus",
+        "description": "A Hood Street taproom with a big gravel beer garden, rotating food trucks and live music that spills straight outside.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay for whatever is playing in the beer garden, even if you have never heard of them.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Ponysaurus+Brewing+Durham",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RDU-S-11",
+        "title": "Drink at Raleigh's Newest Brewery, 1323 R&D",
+        "description": "Six industry veterans with a hundred years between them opened this experimental Raleigh taproom, and the board changes constantly.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order the most experimental thing on the board without asking what is in it.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/1323+R%26D+Brewery+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RDU-S-05",
+        "title": "Run the Quarter Rack at Boxcar Bar + Arcade",
+        "description": "A warehouse of eighties cabinets, skee-ball and pinball with a full bar and a pizza kitchen, and quarters that go fast.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Beat someone in your group at skee-ball on their own chosen lane.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Boxcar+Bar+Arcade+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RDU-S-06",
+        "title": "Work the Taps at the Raleigh Beer Garden",
+        "description": "A three-storey beer hall on Glenwood South with a tap wall deep enough to have held a world record, and a patio built around a live oak.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drink one beer brewed within fifty miles and name the brewery.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Raleigh+Beer+Garden+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RDU-S-09",
+        "title": "See a Band at Cat's Cradle Before They Blow Up",
+        "description": "The club that hosted Nirvana, Pavement and half of indie rock's canon on the way up, still booking four or five nights a week.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Buy the opening act's record at the merch table.",
+        "city": "Carrboro, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Cats+Cradle+Carrboro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-S-04",
+        "title": "Sit at the Marble Bar at Alley Twenty Six",
+        "description": "Durham's original craft cocktail room, still cutting its own ice and still the easiest place downtown to start a night.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order something stirred and clear rather than anything shaken.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Alley+Twenty+Six+Durham",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "foodie": [
+      {
+        "id": "RDU-F-02",
+        "title": "Dim Sum, Beer and a Bookshop at Brewery Bhavana",
+        "description": "One room that is somehow a dim sum house, a brewery, a florist and a bookstore at once, and pulls all four off.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Leave with a book you did not go in for.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Brewery+Bhavana+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-03",
+        "title": "Pull Whole Hog at Sam Jones BBQ",
+        "description": "Third-generation eastern North Carolina whole-hog barbecue, cooked over wood, served with the vinegar sauce and none of the argument.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the whole-hog plate and the cornbread, and finish both.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Sam+Jones+BBQ+Raleigh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-01",
+        "title": "Order the Macaroni au Gratin at Poole's Diner",
+        "description": "Ashley Christensen's chalkboard-menu diner has been the centre of gravity for Raleigh dining since 2007, and the macaroni au gratin is the reason.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get a seat at the horseshoe bar rather than a table.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Pooles+Diner+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-05",
+        "title": "Graze Spanish-Southern Tapas at Mateo",
+        "description": "Matt Kelly's tapas bar in the old Book Exchange building, where jamón and pimentón meet North Carolina ingredients without apology.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order at least one plate you cannot pronounce.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Mateo+Bar+de+Tapas+Durham",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-04",
+        "title": "Queue for Brisket at Prime Barbecue",
+        "description": "A Michelin Bib Gourmand barbecue joint in a Knightdale strip that sells out by mid-afternoon and deserves the drive.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get there before the doors open and be in the first ten people in line.",
+        "city": "Knightdale, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Prime+Barbecue+Knightdale",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-08",
+        "title": "Shuck a Dozen at St. Roch Fine Oysters",
+        "description": "Sunny Gerhart's small downtown oyster bar, a nod to New Orleans without ever pretending to be it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Try one raw oyster with nothing on it at all.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/St+Roch+Fine+Oysters+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-06",
+        "title": "Sit at the Omakase Counter at M Sushi",
+        "description": "The Triangle's first serious sushi counter, where Michael Lee's omakase runs course by course in front of you.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Eat every piece with your hands, the way the chef intends.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/M+Sushi+Durham",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "RDU-F-12",
+        "title": "Split a Wood-Fired Pie at Pizzeria Toro",
+        "description": "A Durham fixture since 2012, turning out blistered wood-fired pizza and a short list of seasonal snacks from an open kitchen.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order a pie with an ingredient you would normally skip.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Pizzeria+Toro+Durham",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-09",
+        "title": "Brunch on Bavarian Pastry at Guglhupf",
+        "description": "A German bakery and café that has been doing pretzels, rye and a shaded biergarten patio in Durham since 1998.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the namesake guglhupf cake and take half home.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Guglhupf+Bakery+Durham",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-10",
+        "title": "Beat the Line for a Monuts Biscuit",
+        "description": "Ninth Street's doughnut and biscuit counter, where the cake doughnut flavours change daily and the line moves faster than it looks.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Try a flavour you have never heard of rather than the one you want.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Monuts+Durham",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-07",
+        "title": "Eat the Whole Mezze Spread at Ajja",
+        "description": "Cheetie Kumar's Five Points room cooks the Mediterranean and the Levant through a Carolina lens, with a wood hearth doing most of the work.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the whole mezze section for the table and let the kitchen choose the order.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Ajja+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-F-11",
+        "title": "Book the Tasting Menu at Lantern",
+        "description": "Andrea Reusing's Franklin Street institution, marrying Asian technique to North Carolina farms and fisheries for over two decades.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Stay for a drink in the back bar after dinner.",
+        "city": "Chapel Hill, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Lantern+Restaurant+Chapel+Hill",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "RDU-CU-06",
+        "title": "Sit Along the Third-Base Line for the Durham Bulls",
+        "description": "Minor league baseball with a snorting mechanical bull in left field, cheap beer and the most famous outfield sign in the sport.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 13,
+        "bonus": "Be there when someone hits the bull and it lights up.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Durham+Bulls+Athletic+Park+Durham",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-CU-03",
+        "title": "See the Contemporary Wing at the Nasher Museum",
+        "description": "Duke's Rafael Viñoly-designed museum, with a genuinely strong contemporary collection and shows that travel to much bigger cities.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick the one work you would hang at home and argue for it.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Nasher+Museum+of+Art+Duke+Durham",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-CU-04",
+        "title": "Stand Under the Duke Chapel Vault",
+        "description": "A 210-foot Collegiate Gothic tower and a nave of seventy-seven stained glass windows, built in the 1930s and free to walk into.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Time your visit to catch the carillon.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Duke+Chapel+Durham",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-CU-05",
+        "title": "Take the Touring Broadway Night at DPAC",
+        "description": "One of the busiest theatres in the country by attendance, pulling the big touring Broadway runs into a 2,700-seat room downtown.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Book the show you know least about.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Durham+Performing+Arts+Center+Durham",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-CU-08",
+        "title": "Walk the Slave Dwellings at Historic Stagville",
+        "description": "One of the largest plantations in the antebellum South, where the surviving quarters built by enslaved carpenters still stand and the tour centres their lives.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Go on a guided tour rather than walking it alone.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Historic+Stagville+Durham",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-CU-02",
+        "title": "Meet the Acrocanthosaurus at the Natural Sciences Museum",
+        "description": "The largest natural sciences museum in the Southeast, free, with a working research lab you can watch through glass and a dinosaur nobody else has.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the Terror of the South and read the whole placard.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/North+Carolina+Museum+of+Natural+Sciences+Raleigh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-CU-07",
+        "title": "Go Loud for the Canes at Lenovo Center",
+        "description": "The loudest building in the NHL on a good night, where the Carolina Hurricanes play in front of a crowd that treats hockey like a Southern sport.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 40,
+        "bonus": "Learn the goal song before you go and sing it properly.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Lenovo+Center+Raleigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RDU-CU-01",
+        "title": "Stand in Front of the Rodins at the NC Museum of Art",
+        "description": "A free permanent collection running from Egyptian antiquities to one of the largest Rodin holdings in the country, set in a 164-acre museum park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the Blue Loop through the park and find at least three outdoor works.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/North+Carolina+Museum+of+Art+Raleigh",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "RDU-8B-02",
+        "title": "Eight Ball: One Night, All Three Cities",
+        "description": "Drink in Raleigh, see a show in Durham, end the night at a Chapel Hill diner counter — the whole Triangle in one run, no backtracking allowed.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6–8 hrs",
+        "durationMins": 420,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Do the entire thing without opening a maps app more than twice.",
+        "city": "Raleigh, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/Downtown+Raleigh+NC",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RDU-8B-01",
+        "title": "Eight Ball: Trail, Then Whatever Is Closest",
+        "description": "Ride the American Tobacco Trail as far as your legs allow, then eat at the first place you pass on the way back — no reviews, no debate.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the thing the person behind the counter recommends.",
+        "city": "Durham, NC",
+        "mapsUrl": "https://maps.google.com/maps/search/American+Tobacco+Trail+Durham",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

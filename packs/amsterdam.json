@@ -1,0 +1,778 @@
+{
+  "id": "amsterdam",
+  "name": "amsterdam",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "AMS-S-05",
+        "title": "A Long Night at Café 't Smalle",
+        "description": "Drink in a 1786 brown café with a tiny canal-side deck, where the wood is dark and the beer comes with two fingers of head.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get the outside table on the water, however long it takes.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+t+Smalle+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AMS-S-07",
+        "title": "Sunday Session at Hannekes Boom",
+        "description": "A scrapwood shack on the water in the east where the whole city seems to end up on a warm afternoon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Sep",
+        "spark": 16,
+        "bonus": "Arrive by boat if you can.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Hannekes+Boom+Amsterdam",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AMS-S-10",
+        "title": "A Full Night at Melkweg",
+        "description": "Catch a band in an old sugar mill, then stay for the club night that starts the moment the gear is off the stage.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stay for the room you did not buy a ticket for.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Melkweg+Amsterdam",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AMS-S-06",
+        "title": "Night at Shelter, Under the A'DAM Tower",
+        "description": "Go underground beneath the tower for a low-ceilinged techno room that runs until well after breakfast.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Take the first ferry back at sunrise.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Shelter+Amsterdam",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AMS-S-09",
+        "title": "Arcade and Beers at TonTon Club",
+        "description": "Play thirty-year-old cabinets and pinball with a beer in your hand, in a bar that charges you by the game.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Beat someone you have never met at something.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/TonTon+Club+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AMS-S-12",
+        "title": "An Afternoon That Becomes a Night at Westergasfabriek",
+        "description": "A former gasworks turned into a park full of bars, breweries, cinemas and whatever festival happens to be on that weekend.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 25,
+        "bonus": "Go with no plan and see what is on when you arrive.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Westergasfabriek+Amsterdam",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-S-11",
+        "title": "Karaoke Booth at Duke of Tokyo",
+        "description": "Take a private Japanese-style room, order the fried chicken, and sing badly for two hours with the door closed.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 17,
+        "bonus": "Sing something in a language you do not speak.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Duke+of+Tokyo+Amsterdam",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AMS-S-08",
+        "title": "English-Language Comedy at Boom Chicago",
+        "description": "Improv and sketch in a Leidseplein theatre that has been launching comedians for thirty years, with drinks at the table.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Shout out a suggestion during the improv set.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Boom+Chicago+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "AMS-C-07",
+        "title": "A Spa Day at Zuiver",
+        "description": "A whole day of pools, saunas and a lake at the edge of the Amsterdamse Bos, phone locked in a locker.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit through one full aufguss session.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Zuiver+Wellness+Resort+Amsterdam",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AMS-C-10",
+        "title": "A Slow Morning in Sarphatipark",
+        "description": "Take coffee and a pastry from De Pijp into the small park locals actually use, and do nothing at all for two hours.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "No phone for the entire two hours.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Sarphatipark+Amsterdam",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-C-08",
+        "title": "The Silence of the Begijnhof",
+        "description": "Push through an unmarked door off a busy street into a 14th-century courtyard where people still live and nobody raises their voice.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the hidden Catholic chapel.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Begijnhof+Amsterdam",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-C-05",
+        "title": "The Waterside Terrace at Café de Jaren",
+        "description": "Take the big sunny deck out over the Amstel with a coffee and the stack of newspapers they still put out.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Stay long enough to finish something you're reading.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+de+Jaren+Amsterdam",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-C-09",
+        "title": "Sunset on the NEMO Rooftop",
+        "description": "Climb the free stepped roof of the green ship-shaped science museum for the best open view of the old harbour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Bring something to drink and stay for the whole sunset.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/NEMO+Science+Museum+Amsterdam",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-C-06",
+        "title": "Art Deco Sauna at Sauna Deco",
+        "description": "Sweat in a 1920s interior salvaged from a Parisian department store, with stained glass and wrought iron everywhere you look.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Do the cold plunge every round.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Sauna+Deco+Amsterdam",
+        "company": [
+          "solo",
+          "couple"
+        ],
+        "adult": true
+      }
+    ],
+    "adventure": [
+      {
+        "id": "AMS-A-10",
+        "title": "A Private Saloon Boat at Golden Hour",
+        "description": "Hire a wood-panelled boat with a skipper, load it with drinks, and take the canals slowly while the gable lights come on.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Bring your own bottle and a proper playlist.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Prinsengracht+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-A-14",
+        "title": "Ride the Bulb Fields to Keukenhof",
+        "description": "Cycle the flat lanes between blocks of tulips so saturated they look printed, ending in the largest flower garden in the world.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Mar–May",
+        "spark": 25,
+        "bonus": "Ride the field loop before you go into the garden.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Keukenhof+Lisse+Netherlands",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-A-05",
+        "title": "Row the Bosbaan in the Amsterdamse Bos",
+        "description": "Cycle twenty minutes south into a forest three times the size of Central Park and take a boat out on its two-kilometre rowing lake.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Find the goat farm and stay for the fresh cheese.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Amsterdamse+Bos+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-A-08",
+        "title": "Train to the Beach at Zandvoort",
+        "description": "Half an hour to the North Sea, where the beach clubs run right down onto the sand and the wind is always doing something.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Get in the water, however cold it is.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Zandvoort+aan+Zee+Beach",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-A-11",
+        "title": "Rent a Sloep and Drive It Yourself",
+        "description": "No licence, no crew — just a little open boat, a tiller and the Jordaan canals for the afternoon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Sep",
+        "spark": 18,
+        "bonus": "Get through a bridge without touching the sides.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Mokumboot+Amsterdam",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-A-07",
+        "title": "Cycle Into Waterland",
+        "description": "Ride twenty minutes out of the centre and you are on a dyke path through polders, wooden villages and more cows than people.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 24,
+        "bonus": "Stop for coffee in Ransdorp and look up at the unfinished church tower.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Ransdorp+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-A-12",
+        "title": "Cycle the Dunes at Zuid-Kennemerland",
+        "description": "Ride through a national park of sand hills and pine where wild bison actually graze, ending at the sea.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Mar–Oct",
+        "spark": 23,
+        "bonus": "Spot the bison herd from the viewing hide.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Zuid+Kennemerland+National+Park",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-A-09",
+        "title": "Sail a Classic Boat on the IJsselmeer",
+        "description": "Take a flat-bottomed wooden boat out of Monnickendam onto the inland sea, where the crew will let you haul the sails yourself.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 26,
+        "bonus": "Take a turn on the tiller.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Monnickendam+Harbour+Netherlands",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-A-06",
+        "title": "Swing Off the Edge of the A'DAM Tower",
+        "description": "Sit on Europe's highest swing, a hundred metres up, and get pushed out over the edge of the building with the whole IJ behind you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 18,
+        "bonus": "Keep your eyes open the whole swing.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/A+DAM+Lookout+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-A-13",
+        "title": "Climb the Westerkerk Tower",
+        "description": "Take the narrow stair up the tallest church tower in the city for a view straight down over the Jordaan rooftops.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 16,
+        "bonus": "Time it so you are up there when the carillon plays.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Westerkerk+Amsterdam",
+        "company": [
+          "couple"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "AMS-CU-07",
+        "title": "A Film at the Eye",
+        "description": "Take the free ferry across the IJ to a white origami building on the water and watch something you would never normally pick.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Choose the film with the least appealing poster.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Eye+Filmmuseum+Amsterdam",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-CU-03",
+        "title": "The Gallery of Honour at the Rijksmuseum",
+        "description": "Walk the long hall of Dutch Golden Age masters straight down to the Night Watch at the end of it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Stand at the far end and walk the whole hall without stopping first.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Rijksmuseum+Amsterdam",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-CU-06",
+        "title": "Inside a Canal House at Museum Van Loon",
+        "description": "See how one family actually lived on the Keizersgracht for three hundred years, garden and coach house included.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go out to the formal garden behind the house.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Museum+Van+Loon+Amsterdam",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-CU-08",
+        "title": "Opera at the Dutch National Opera & Ballet",
+        "description": "Dress up for a full production on the Amstel, in the house that stages the most ambitious work in the country.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 40,
+        "bonus": "Read the synopsis beforehand and then ignore it.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Dutch+National+Opera+and+Ballet+Amsterdam",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-CU-04",
+        "title": "Photography at Foam",
+        "description": "Three floors of contemporary photography in a canal house, small enough to see properly in an hour.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a print or a book on the way out.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Foam+Photography+Museum+Amsterdam",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-CU-01",
+        "title": "Van Gogh, Room by Room",
+        "description": "Two hours with the largest collection of his work anywhere, hung so that you watch the colour arrive.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Find the last painting he finished and sit with it.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Van+Gogh+Museum+Amsterdam",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-CU-05",
+        "title": "A Concert at the Concertgebouw",
+        "description": "Hear an orchestra in a hall whose acoustics are counted among the three best on earth.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Sep–Jun",
+        "spark": 27,
+        "bonus": "Try the free Wednesday lunch concert first, then book the real thing.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Concertgebouw+Amsterdam",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-CU-02",
+        "title": "The Annexe at the Anne Frank House",
+        "description": "Climb behind the bookcase and walk the rooms where eight people hid for two years, in near silence.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 18,
+        "bonus": "Book weeks ahead — tickets are timed and sell out.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Anne+Frank+House+Amsterdam",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "AMS-F-10",
+        "title": "Dinner at Breda on the Singel",
+        "description": "A long, quiet, surprising set menu in a canal-side room where the kitchen changes the dishes constantly and never over-explains.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Go in with no idea what you are eating.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Restaurant+Breda+Amsterdam",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-F-06",
+        "title": "Fries and Sauce at Vleminckx",
+        "description": "Join the permanent queue in an alley off the Kalverstraat for a paper cone of double-fried potatoes under too much sauce.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order oorlog — war — and find out why.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Vleminckx+Sausmeesters+Amsterdam",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-F-09",
+        "title": "Genever at Wynand Fockink",
+        "description": "Stand in a 1679 tasting room with no seats and bend over the counter to take the first sip from a glass filled to the brim.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Do the bow — hands behind your back, mouth to the glass.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Wynand+Fockink+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AMS-F-07",
+        "title": "Rijsttafel at Restaurant Blauw",
+        "description": "Sit down to fifteen small Indonesian dishes at once, the colonial-era feast the Dutch turned into an institution of their own.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Eat every dish before you go back for seconds of your favourite.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Restaurant+Blauw+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-F-11",
+        "title": "Brunch at Bakers & Roasters",
+        "description": "Kiwi-Brazilian breakfasts in De Pijp — banana bread, chorizo hash, and coffee that takes itself seriously.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Put your name down and wait it out rather than leaving.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Bakers+and+Roasters+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AMS-F-12",
+        "title": "Beers Under the Windmill at Brouwerij 't IJ",
+        "description": "Drink strong Dutch beer at picnic tables in the shadow of a working 1814 windmill on the east side of town.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 15,
+        "bonus": "Try the Zatte, then something you cannot pronounce.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Brouwerij+het+IJ+Amsterdam",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AMS-F-08",
+        "title": "The Tasting Menu at Restaurant Rijks",
+        "description": "Eat a Michelin-starred menu built on the Rijksmuseum's own collection, in a glass room beside the museum garden.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 44,
+        "bonus": "Take the wine pairing.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Restaurant+Rijks+Amsterdam",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "AMS-F-05",
+        "title": "Apple Pie at Winkel 43",
+        "description": "Queue on the Noordermarkt corner for a wedge of appeltaart the size of a doorstop, under a mountain of unsweetened cream.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go on Saturday, when the farmers' market is running around you.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Winkel+43+Amsterdam",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,811 @@
+{
+  "id": "tucson",
+  "name": "tucson",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "TUS-CU-06",
+        "title": "Tucson Museum of Art and the Historic Block",
+        "description": "A modern art museum wrapped around five restored 19th-century adobe houses, so you cross a courtyard from a Rothko-era gallery into a room from 1860s Tucson.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the whole historic block before you go into the museum.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Tucson+Museum+of+Art+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-CU-05",
+        "title": "The Archives at the Center for Creative Photography",
+        "description": "Ansel Adams put his own archive here, and sixty other photographers followed — a working research collection on the university campus that mounts real exhibitions from it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick one print and stand in front of it for five full minutes.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Center+for+Creative+Photography+Tucson",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TUS-CU-04",
+        "title": "Down the Silo at the Titan Missile Museum",
+        "description": "The only Titan II complex left open to the public — fifty-five steps down to a launch control centre where you sit at the console and turn the key.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ask the guide what they did before they worked here. Half of them served.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Titan+Missile+Museum+Sahuarita",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-CU-03",
+        "title": "Arizona-Sonora Desert Museum",
+        "description": "Neither quite a zoo nor quite a botanical garden — two miles of outdoor paths through the Sonoran Desert with the animals and plants that actually live in it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stay for the raptor free flight and don't duck.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Arizona-Sonora+Desert+Museum+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-CU-07",
+        "title": "Walk in the All Souls Procession",
+        "description": "Two miles of downtown, once a year, with 150,000 people carrying photographs of their dead — no sponsors, no floats, and a giant urn burned at the finish holding everyone's written wishes.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Early Nov",
+        "spark": 40,
+        "bonus": "Write something for the urn and actually put it in.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/All+Souls+Procession+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-CU-08",
+        "title": "A Show at the Fox Tucson Theatre",
+        "description": "A 1930 Southwestern art deco movie palace that sat derelict for thirty years, was restored to the last stencil, and now books touring music, comedy and old films.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get there early enough to look up at the ceiling before the lights go down.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Fox+Tucson+Theatre+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-CU-02",
+        "title": "Pima Air & Space Museum",
+        "description": "Eighty acres and four hundred aircraft parked in the desert, from a B-29 to an SR-71 Blackbird, most of them outdoors and close enough to walk under.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the oldest aircraft on the field before you look at a map.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Pima+Air+and+Space+Museum+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-CU-01",
+        "title": "Mission San Xavier del Bac",
+        "description": "The White Dove of the Desert — a 1790s Spanish colonial church on the Tohono O'odham Nation, still an active parish, and the finest building of its kind in the United States.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Find the cat and the mouse carved into the facade.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Mission+San+Xavier+del+Bac+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "TUS-8B-02",
+        "title": "Wildcard: Sonoran Hot Dog Showdown",
+        "description": "Bacon-wrapped, in a bolillo roll, buried under beans and salsa verde — eat one at three different stands in a single night and settle the argument.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Rank them out loud before anyone checks a review.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Sonoran+Hot+Dogs+Tucson",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-8B-01",
+        "title": "Wildcard: Desert Floor to Pine Forest and Back",
+        "description": "Start at sunrise among saguaros, be at 9,000 feet in ponderosa pine by mid-morning, and get yourself back down to Saguaro West for the sunset.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "All day",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Swim, hike or eat something at three different elevations in the same day.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Lemmon+Scenic+Byway+Tucson",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "TUS-S-12",
+        "title": "Cheap Pitchers and Local Art at Che's Lounge",
+        "description": "Twenty-five years of Fourth Avenue dive-bar history, walls hung with whatever local artist is up this month, open until two every night of the week.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy the round for whoever explains the art on the wall.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Ches+Lounge+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TUS-S-10",
+        "title": "Fishbowl Tiki Drinks at The Hut",
+        "description": "Behind the forty-five-foot Easter Island head on Fourth Avenue: three hundred tiki mugs, a shaded patio and a rum drink served in a fishbowl.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Split a Fat Man with one other person and finish it.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Hut+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TUS-S-07",
+        "title": "Hazy Pints at Pueblo Vida Brewing",
+        "description": "A downtown taproom on Broadway that pours its own hazy IPAs seven days a week and lets you bring your dog and your bike inside.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take a four-pack of cans to-go for whatever comes next.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Pueblo+Vida+Brewing+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TUS-S-08",
+        "title": "Down the Stairs to Tough Luck Club",
+        "description": "A cocktail bar in the old morgue beneath Reilly's pizza — volcanic rock walls, red leather booths and a menu that turns over every few months.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order the strangest thing on the current menu, sight unseen.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Tough+Luck+Club+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TUS-S-09",
+        "title": "All-Ages Show at 191 Toole",
+        "description": "A converted warehouse by the railroad tracks that books everything from touring punk to cumbia, close enough to the stage that you feel the kick drum.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Buy a record or a shirt from whoever opened.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/191+Toole+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-S-11",
+        "title": "Monday Night Big Band at the Century Room",
+        "description": "Tucson's only jazz club, tucked inside Hotel Congress, where a seventeen-piece orchestra plays Ellington and Basie to a room with a serious mezcal list.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Sit close enough to watch the horn section breathe together.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Century+Room+Hotel+Congress+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TUS-S-05",
+        "title": "Cocktails at the Owls Club",
+        "description": "A former Armory Park funeral home turned whiskey bar, all stained glass and chandeliers, and rated one of the ten best bars in the country in 2026.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Let the bartender pick your second drink outright.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Owls+Club+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TUS-S-06",
+        "title": "Taproom Night at Dragoon Brewing",
+        "description": "A working brewery on Grant Road that has been making one very good IPA and a rotating cast of others since 2012, with picnic tables and no pretence.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the beer with the least appealing name on the board.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Dragoon+Brewing+Company+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "TUS-C-07",
+        "title": "Browse the Shelves at Antigone Books",
+        "description": "A solar-powered independent bookstore that has held the same Fourth Avenue storefront for decades and still hand-writes its staff picks.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy whatever the shelf card argues hardest for.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Antigone+Books+Tucson",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TUS-C-10",
+        "title": "Browse and Graze at the MSA Annex",
+        "description": "Two dozen independent shops and kitchens packed into shipping containers around a courtyard, just across the river from downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Talk to the owner of whichever shop you spend longest in.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/MSA+Annex+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-C-09",
+        "title": "Slow Laps at the Reid Park Rose Garden",
+        "description": "A free municipal rose garden in the middle of midtown with a few hundred varieties, all of them labelled, and almost nobody in it on a weekday.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 12,
+        "bonus": "Find the best-smelling rose in the garden by actually checking.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Reid+Park+Rose+Garden+Tucson",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TUS-C-06",
+        "title": "Wander the Gardens at Tohono Chul",
+        "description": "Forty-nine acres of Sonoran desert gardens on the north side, with a bistro in a 1930s adobe and a cactus that blooms for one night a year.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Sit on the same bench long enough to see a hummingbird.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Tohono+Chul+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-C-08",
+        "title": "Sunset Picnic at Agua Caliente Park",
+        "description": "Spring-fed ponds and a stand of century-old palms on the far east side — an improbable oasis with herons in it, twenty minutes from downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay until the first bat comes out over the water.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Agua+Caliente+Park+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-C-05",
+        "title": "Cortado and Desert Air at Exo Roast Co",
+        "description": "A Sixth Avenue roastery that puts mesquite flour and chiltepin into the coffee list and leaves the door open to the morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Try the mesquite latte before you order anything familiar.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Exo+Roast+Co+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "TUS-F-11",
+        "title": "Injera and Honey Wine at Zemam's",
+        "description": "A Broadway institution since 1993 where you pick three stews, they arrive on one shared round of injera, and cutlery never appears.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Feed someone else at the table by hand, Ethiopian style.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Zemams+Ethiopian+Cuisine+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-F-10",
+        "title": "Whatever's on the Board at Tumerico",
+        "description": "A tiny vegetarian kitchen with no fixed menu — Wendy Garcia writes the day's dishes on a chalkboard and they're different tomorrow.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order without asking what anything is.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Tumerico+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-F-08",
+        "title": "Birria and Rolled Tacos at Rollies",
+        "description": "A south-side family kitchen whose rolled tacos, buried under crema and cotija, built a national reputation out of a strip-mall storefront.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get them 'Rollies style' and don't ask what that means first.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Rollies+Mexican+Patio+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-F-05",
+        "title": "Salsa Flight and Tacos at BOCA",
+        "description": "Chef Maria Mazon's Fourth Avenue taqueria, where the salsa list changes constantly and the flight arrives as a row of small bowls you're meant to argue about.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the salsa you were warned about.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/BOCA+Tacos+y+Tequila+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-F-06",
+        "title": "A Heritage Grain Loaf from Barrio Bread",
+        "description": "Don Guerra's bakery mills White Sonora wheat grown a few valleys away, and the loaves are usually gone by lunchtime.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat the heel in the car before you get home.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Barrio+Bread+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-F-12",
+        "title": "Wood-Fired Pizza at Time Market",
+        "description": "A corner grocery that has been on University Boulevard since 1920 and now runs a wood oven, a deli and a bar out of the same room.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy one thing off the shelves you can't identify.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Time+Market+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-F-09",
+        "title": "Bloody Mary Bar Brunch at Cup Cafe",
+        "description": "Weekend brunch off the lobby of the hotel where Dillinger's gang got caught, with a build-your-own Bloody Mary bar and a patio that fills by ten.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Put at least one thing on your Bloody Mary you've never tried.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Cup+Cafe+Hotel+Congress+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-F-07",
+        "title": "Mesquite-Fired Dinner at Tito & Pep",
+        "description": "A midtown bistro built around a mesquite grill, where chef John Martinez cooks the borderlands as a cuisine rather than a theme.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order the vegetable dish everyone at the table doubted.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Tito+and+Pep+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "TUS-A-12",
+        "title": "Mountain Bike Fantasy Island",
+        "description": "A maze of fast, flowy desert singletrack on the far east side, threaded between cholla and mesquite and named by the riders who cut it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 14,
+        "bonus": "Take one trail purely because you like the name on the sign.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Fantasy+Island+Trail+System+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-A-05",
+        "title": "Drive the Sky Island Highway to Summerhaven",
+        "description": "Twenty-seven miles of switchbacks that climb from saguaro desert to alpine pine forest — the ecological equivalent of driving from Mexico to Canada in an hour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop at every named pullout on the way up. No skipping.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Lemmon+Scenic+Byway+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-A-10",
+        "title": "Petroglyphs and Sunset at Signal Hill",
+        "description": "A five-minute scramble in Saguaro National Park West to a boulder field carved with Hohokam spirals more than 800 years ago, facing straight into the sunset.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the big spiral before you look at anyone's photo of it.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Signal+Hill+Picnic+Area+Saguaro+National+Park+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-A-08",
+        "title": "SkyNights Stargazing at Mount Lemmon SkyCenter",
+        "description": "Five hours at 9,000 feet with University of Arizona astronomers and a 32-inch telescope, starting with sunset above the clouds and ending somewhere in the Whirlpool Galaxy.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Pick one object you've never heard of and ask them to find it.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Lemmon+SkyCenter+Tucson",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-A-09",
+        "title": "Hike to Seven Falls in Bear Canyon",
+        "description": "Seven stacked pools and a waterfall hidden up a side canyon, reached by a trail that crosses the creek seven times before it gives them up.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Swim in the top pool, however cold it is.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Bear+Canyon+Trailhead+Sabino+Canyon+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-A-11",
+        "title": "Romero Pools in Catalina State Park",
+        "description": "A climb over a saddle and down into a granite drainage where the creek collects in a chain of clear pools under the Catalina front range.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Oct–May",
+        "spark": 15,
+        "bonus": "Go all the way to the upper pools, past where most people stop.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Catalina+State+Park+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-A-07",
+        "title": "Descend Into Kartchner Caverns",
+        "description": "A living wet cave that its discoverers kept secret for fourteen years — still growing, still dripping, and reached through airlock doors that hold the humidity in.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stand still for the lights-out moment and don't say a word.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Kartchner+Caverns+State+Park+Benson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TUS-A-06",
+        "title": "Sunrise on the Tanque Verde Ridge Trail",
+        "description": "A steady climb out of Saguaro National Park East that has you above the cactus forest just as the light turns the whole Rincon Valley orange.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 13,
+        "bonus": "Go far enough that you can no longer hear a single car.",
+        "city": "Tucson, AZ",
+        "mapsUrl": "https://maps.google.com/maps/search/Saguaro+National+Park+East+Tucson",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

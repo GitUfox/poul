@@ -1,0 +1,801 @@
+{
+  "id": "auckland",
+  "name": "auckland",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "AKL-CU-08",
+        "title": "Mark Matariki as the Cluster Rises",
+        "description": "The Māori new year, marked across the city with dawn ceremonies, hautapu offerings and light installations when the Matariki cluster returns in midwinter.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Jun–Jul",
+        "spark": 25,
+        "bonus": "Find the cluster yourself before dawn — low in the northeast.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Auckland+Domain",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-CU-05",
+        "title": "A New Zealand Play at the Waterfront Theatre",
+        "description": "Auckland Theatre Company's purpose-built house in Wynyard Quarter, programming new New Zealand writing alongside the big international titles.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Feb–Nov",
+        "spark": 23,
+        "bonus": "Book the front of the circle rather than the stalls.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/ASB+Waterfront+Theatre+Auckland",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "AKL-CU-04",
+        "title": "New Material Night at The Classic",
+        "description": "The hundred-seat Queen Street room where every New Zealand comedian you have heard of worked out their first ten minutes, still running new material nights midweek.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit anywhere except the front row.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Classic+Comedy+Club+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AKL-CU-02",
+        "title": "Climb Into a Flying Boat at MOTAT",
+        "description": "Two Western Springs sites full of working machinery — Pearse's 1903 aeroplane, a Solent flying boat you can walk through, and volunteers who restored most of it themselves.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride the heritage tram between the two sites.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/MOTAT+Museum+of+Transport+and+Technology+Auckland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-CU-07",
+        "title": "Eat Your Way Through Pasifika Festival",
+        "description": "The largest Pacific festival on earth takes over Western Springs each March — island villages with their own stages, kitchens and kava, spread across the whole park.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Afternoon",
+        "season": "Mar",
+        "spark": 40,
+        "bonus": "Eat in every village. It can be done in one day.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Western+Springs+Park+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-CU-03",
+        "title": "Walk the Tunnels Under North Head",
+        "description": "A volcanic headland at Devonport honeycombed with Victorian and Second World War gun emplacements, with unlit tunnels you can walk straight into and the whole harbour on top.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Bring a torch — the tunnels are unlit and go a long way in.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/North+Head+Maungauika+Devonport",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-CU-06",
+        "title": "Hear the APO at the Aotea Centre",
+        "description": "The Auckland Philharmonia in the Aotea Centre — a full professional orchestra with student and under-30 tickets that cost less than a round of drinks.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Feb–Nov",
+        "spark": 22,
+        "bonus": "Try a short rush-hour concert if a full programme feels like too much.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Aotea+Centre+Auckland",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "AKL-CU-01",
+        "title": "Meet Hotunui at the Auckland Museum",
+        "description": "Tāmaki Paenga Hira holds Hotunui, a carved meeting house from 1878, and Te Toki a Tāpiri, the last great Māori war canoe — both under one neoclassical roof in the Domain.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay for the Māori cultural performance inside Hotunui.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Auckland+War+Memorial+Museum",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "AKL-C-09",
+        "title": "Soak in the Geothermal Pools at Parakai",
+        "description": "Geothermal pools an hour northwest of the city where the water comes out of the ground at sixty degrees — deeply unglamorous and exactly right on a wet Sunday.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Do the hydroslide at least once, unironically.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Parakai+Springs+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-C-07",
+        "title": "Gallery Afternoon in Titirangi Village",
+        "description": "Te Uru is a contemporary gallery perched above the Manukau in Titirangi, all glass and native bush, with arguably the best gallery view in the country.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Drive down to Cornwallis wharf afterwards.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Te+Uru+Waitakere+Contemporary+Gallery+Titirangi",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "AKL-C-10",
+        "title": "Sunset on the Manukau at Ambury Farm",
+        "description": "A working farm on the Manukau foreshore twenty minutes from the CBD — sheep on the path, godwits on the mudflats, and a sunset over the Waitākeres with nobody else there.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Time it for low tide and walk out onto the shell banks.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Ambury+Regional+Park+Auckland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-C-08",
+        "title": "A Slow Day on Onetangi Beach",
+        "description": "Waiheke's longest beach, forty minutes by ferry and a bus from the wharf — two kilometres of white sand, warm water and a bar at either end.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Walk the entire length of the sand before you have a drink.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Onetangi+Beach+Waiheke+Island",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-C-05",
+        "title": "Swim the Saltwater Pool at Parnell Baths",
+        "description": "A 1950s saltwater pool cut into the rock above Judges Bay, filled straight from the harbour and painted with a mural you can see from the motorway.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Oct–Apr",
+        "spark": 12,
+        "bonus": "Swim one length underwater along the mural wall.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Parnell+Baths+Auckland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-C-06",
+        "title": "Friday Night Film at Silo Park",
+        "description": "Summer Fridays in the shadow of a disused cement silo in Wynyard Quarter — food trucks, a record fair, and a film projected onto the silo wall once it is properly dark.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Dec–Mar",
+        "spark": 13,
+        "bonus": "Get there early enough to claim the beanbags.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Silo+Park+Wynyard+Quarter+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "AKL-8B-01",
+        "title": "Board Whichever Ferry Leaves Next",
+        "description": "Go to the Downtown Ferry Terminal, take whichever sailing departs next — Devonport, Bayswater, Half Moon Bay, Rakino — and give that place the rest of your afternoon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Don't look up what's there before you land.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Downtown+Ferry+Terminal+Auckland",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-8B-02",
+        "title": "Pick a Volcano You've Never Climbed",
+        "description": "Fifty-three volcanoes sit underneath this city. Pick a cone you have never been up — Māngere, Ōwairaka, Te Tātua-a-Riukiuta — and be on the summit for sunset.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Name every other cone you can see from the top.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Auckland+Volcanic+Field",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "AKL-S-12",
+        "title": "Eat Standing Up at the Night Markets",
+        "description": "A different mall carpark fills with a hundred food stalls every night of the week — Malaysian, Korean, Uyghur, dessert trucks, and half of Auckland eating on its feet.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order one thing you cannot identify.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Auckland+Night+Markets",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-S-11",
+        "title": "Carafes on the Kerb at Freida Margolis",
+        "description": "A former West Lynn butcher's shop turned tiny wine bar — Colombian playlists, cheap carafes, and the whole crowd spilling onto the footpath by six.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit outside on the kerb like everyone else does.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Freida+Margolis+West+Lynn+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AKL-S-06",
+        "title": "Warriors Game at Go Media Stadium",
+        "description": "NRL at Mount Smart, where the Warriors crowd is the best-natured sporting mob in the country and the terrace sings for eighty minutes regardless of the scoreline.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Mar–Sep",
+        "spark": 24,
+        "bonus": "Join the Up The Wahs chant. You will know when.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Go+Media+Stadium+Mount+Smart+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-S-09",
+        "title": "Rooftop Beers and Bowling at Dr Rudi's",
+        "description": "A rooftop brewpub on the Viaduct with its own tanks behind the bar, a bowling alley upstairs and a deck that holds the last of the afternoon sun.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Bowl a frame between rounds.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Dr+Rudis+Rooftop+Brewing+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AKL-S-05",
+        "title": "Super Rugby Under the Lights at Eden Park",
+        "description": "The Blues at Eden Park — fifty thousand people, a whole suburb emptying into the ground on foot, and the loudest stadium in New Zealand.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Feb–Jun",
+        "spark": 26,
+        "bonus": "Learn one chant before kickoff so you can join in.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Eden+Park+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-S-10",
+        "title": "Catch a Gig at The Powerstation",
+        "description": "An old Mount Eden power substation turned 900-capacity live room — low ceiling, sticky floor, and the venue every touring band plays before they outgrow it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Get on the mezzanine rail for the encore.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Powerstation+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AKL-S-07",
+        "title": "Order Off No Menu at Caretaker",
+        "description": "A dark basement bar under Britomart with no drinks list at all — you describe a mood or a spirit and the bartender builds something in front of you.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Give them one word and nothing else to work with.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Caretaker+Britomart+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AKL-S-08",
+        "title": "Work Your Way Around Ponsonby Central",
+        "description": "A converted warehouse block off Ponsonby Road holding a dozen kitchens and bars that open onto shared laneways — the default Friday for half the inner west.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat from two kitchens and drink at a third.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Ponsonby+Central+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "AKL-F-07",
+        "title": "Dumpling Crawl Down Dominion Road",
+        "description": "Balmoral's stretch of Dominion Road is Auckland's Chinatown — start at Barilla Dumpling and work your way down the street until you physically cannot continue.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Three shops minimum, and order the pan-fried at each one.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Barilla+Dumpling+Dominion+Road+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-F-12",
+        "title": "The Tasting Menu at Paris Butter",
+        "description": "A small Herne Bay villa doing the most precise cooking in the country — French technique, New Zealand produce, and a menu worth planning a whole evening around.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the wine pairing and let the sommelier choose blind.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Paris+Butter+Herne+Bay+Auckland",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "AKL-F-06",
+        "title": "Shuck-to-Order Oysters at Depot Eatery",
+        "description": "Al Brown's no-bookings Federal Street institution — oysters opened in front of you, wood-fired small plates, and a room that has been full every night for over a decade.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the turbot sliders and a dozen Clevedon oysters.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Depot+Eatery+Federal+Street+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-F-08",
+        "title": "Eat Wild Game at Cazador",
+        "description": "A family-run game restaurant on Dominion Road serving wild venison, goat, hare and pigeon, with a charcuterie counter that quietly supplies half the city.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order whatever is on the board that you have never eaten before.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Cazador+Dominion+Road+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-F-05",
+        "title": "Breakfast at Amano Before the Queue",
+        "description": "A cavernous brick bakery-restaurant in Britomart milling its own flour for the sourdough and rolling pasta by hand in the window.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy a loaf from the bakery counter on the way out.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Amano+Britomart+Auckland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-F-11",
+        "title": "Long Lunch in the Hallertau Beer Garden",
+        "description": "A brewery garden out at Riverhead, thirty minutes from town — long tables under the trees, a wood-fired kitchen and eight taps of beer brewed on site.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the tasting paddle out onto the lawn.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Hallertau+Brewery+Riverhead+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "AKL-F-09",
+        "title": "Fire-Cooked New Zealand Produce at Ahi",
+        "description": "Ben Bayly cooks a genuinely New Zealand menu over open fire — Te Matuku oysters, kelp, horopito, Hawke's Bay lamb — with the harbour through the glass at Commercial Bay.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Sit at the pass and watch the grill instead of the view.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Ahi+Restaurant+Commercial+Bay+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-F-10",
+        "title": "Saturday Morning at Ōtara Flea Market",
+        "description": "The largest Pacific market in the country fills a South Auckland carpark every Saturday — Tongan ʻota ʻika, Samoan panipopo, umu cooking and a brass band by nine.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get a coconut bun and a raw fish from two different stalls.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Otara+Flea+Market+Auckland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "AKL-A-06",
+        "title": "Walk the Coast to Coast Across the Isthmus",
+        "description": "Sixteen kilometres from the Waitematā to the Manukau, straight over four volcanic cones and through the Domain — the whole isthmus on foot in a morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Finish with a swim at Onehunga Bay.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Coast+to+Coast+Walkway+Auckland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-A-11",
+        "title": "Ocean-Touch Bungy Off the Harbour Bridge",
+        "description": "Forty metres off the Auckland Harbour Bridge on the only ocean-touch bungy in the world — ask for the dip and they drop you into the Waitematā to your shoulders.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take the water touch. Don't think about it at the top.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/AJ+Hackett+Bungy+Auckland+Harbour+Bridge",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-A-07",
+        "title": "Day Trip to Tiritiri Matangi Bird Sanctuary",
+        "description": "A predator-free island sanctuary 75 minutes by ferry where takahē, kōkako and saddleback walk the tracks beside you and the dawn chorus is genuinely deafening.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Spot a takahē — there are only a few hundred left alive.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Tiritiri+Matangi+Island+Auckland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-A-10",
+        "title": "Stand in the Middle of the Muriwai Gannet Colony",
+        "description": "A thousand pairs of gannets nest on the cliff stacks at Muriwai and the boardwalk puts you metres away while they dive-bomb the surf below.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Aug–Mar",
+        "spark": 12,
+        "bonus": "Count how many manage to land without crashing.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Muriwai+Gannet+Colony+Auckland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-A-09",
+        "title": "Cross the Dunes to Lake Wainamu",
+        "description": "Walk up a stream bed and over black sand dunes to a freshwater lake hidden behind the wildest beach in the Waitākeres, then swim in both in one afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sandboard the big dune on the way back out.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Wainamu+Bethells+Beach+Auckland",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-A-12",
+        "title": "A Weekend Under the Great Barrier Dark Sky",
+        "description": "Aotea / Great Barrier is one of a handful of International Dark Sky Sanctuaries on earth — no streetlights, no power grid, and a Milky Way bright enough to cast shadows.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Weekend",
+        "durationMins": 2880,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Find the Magellanic Clouds with your naked eye.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Great+Barrier+Island+Dark+Sky+Sanctuary",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-A-08",
+        "title": "Snorkel the Kelp at Goat Island Marine Reserve",
+        "description": "New Zealand's first marine reserve, 90 minutes north — wade straight off the beach into kelp forest thick with snapper and blue maomao that have never been fished.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Dec–Mar",
+        "spark": 15,
+        "bonus": "Feed them nothing, but stay still and let the snapper come to you.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Goat+Island+Marine+Reserve+Leigh",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "AKL-A-05",
+        "title": "Abseil the Waterfalls of Piha Canyon",
+        "description": "Abseil down waterfalls, slide natural rock chutes and jump into bush pools in the rainforest canyons behind Piha, an hour from the CBD.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Jump the last drop instead of abseiling it.",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/AWOL+Canyoning+Piha+Auckland",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

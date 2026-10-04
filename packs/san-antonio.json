@@ -1,0 +1,781 @@
+{
+  "id": "san-antonio",
+  "name": "san-antonio",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "adventure": [
+      {
+        "id": "SAT-A-05",
+        "title": "Float the Guadalupe River at Gruene",
+        "description": "Grab a tube and a cooler from Rockin' R River Rides and let three lazy miles of spring-fed green water carry you past cypress trees and the oldest dance hall in Texas.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Everyone ties their tubes together for the whole float — no breaking the chain.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Rockin+R+River+Rides+Gruene+New+Braunfels",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-A-09",
+        "title": "Tube the Comal River in New Braunfels",
+        "description": "The shortest river in Texas is also the most fun — a fast, clear two-hour loop through Landa Park with a tube chute at the end.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 13,
+        "bonus": "Everyone goes down the tube chute backwards.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Texas+Tubes+Comal+River+New+Braunfels",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-A-12",
+        "title": "Wild Cave Tour at Natural Bridge Caverns",
+        "description": "Skip the paved walkway and crawl the undeveloped passages with a headlamp and knee pads — muddy, tight and unforgettable.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Everyone kills their headlamp for sixty seconds of absolute dark.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Natural+Bridge+Caverns+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-A-10",
+        "title": "Paddle the Medina River Natural Area",
+        "description": "A quiet, shaded stretch of bald cypress and limestone bluff fifteen minutes from downtown, where you're far more likely to see a heron than another paddler.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go ten minutes without speaking and count how many birds you hear.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Medina+River+Natural+Area+San+Antonio",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SAT-A-07",
+        "title": "Summit Enchanted Rock at Sunrise",
+        "description": "Climb a 425-foot pink granite dome in the dark and watch the Hill Country turn gold beneath you from the top of the second-largest batholith in the country.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stay silent for the last hundred feet of the climb.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Enchanted+Rock+State+Natural+Area+Fredericksburg+TX",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-A-11",
+        "title": "Mountain Bike the Eisenhower Park Trails",
+        "description": "Rocky, rooty singletrack climbing through the Hill Country edge of the city, with an observation tower at the top as your reward.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride the whole loop without unclipping.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Eisenhower+Park+San+Antonio",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-A-08",
+        "title": "Indoor Skydive at iFLY San Antonio",
+        "description": "Two minutes in a vertical wind tunnel is the closest thing to freefall you can get without a plane, and it's genuinely harder than it looks.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Loser of the group's best-flyer vote buys the round after.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/iFLY+Indoor+Skydiving+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "SAT-CU-03",
+        "title": "Friday Night at the San Antonio Museum of Art",
+        "description": "A converted Lone Star brewery on the river holding one of the best Latin American and Asian art collections in the country, open late on Fridays.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick the one piece you'd steal and defend the choice.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/San+Antonio+Museum+of+Art",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-CU-01",
+        "title": "The Alamo at Dusk",
+        "description": "Go at closing time when the tour crowds thin, and the limestone chapel finally reads as the small, strange, 300-year-old mission it actually is.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find one detail on the facade that nobody photographs.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Alamo+San+Antonio",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-CU-05",
+        "title": "Fiesta San Antonio",
+        "description": "Eleven days of parades, oyster bakes, cascarones and Night in Old San Antonio — the whole city stops working and puts on a flower crown.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "All day",
+        "durationMins": 480,
+        "time": "Any",
+        "season": "Apr",
+        "spark": 40,
+        "bonus": "Collect at least five Fiesta medals from strangers.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Fiesta+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-CU-02",
+        "title": "Spurs Game at the Frost Bank Center",
+        "description": "Five championship banners, the loudest building in Texas basketball, and a city that treats this team as civic identity rather than entertainment.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Oct–Apr",
+        "spark": 26,
+        "bonus": "Learn one Spurs chant before tip-off and use it.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Frost+Bank+Center+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-CU-06",
+        "title": "Día de los Muertos at Hemisfair",
+        "description": "San Antonio throws one of the largest Day of the Dead celebrations in the US — altars, processions and marigolds across the downtown park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–Nov",
+        "spark": 15,
+        "bonus": "Read every name on one ofrenda before you move on.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Hemisfair+Park+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-CU-08",
+        "title": "Western Art at the Briscoe",
+        "description": "Santa Anna's sword, Pancho Villa's saddle and a riverside sculpture courtyard — the mythology of the West, assembled carefully and without kitsch.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the object with the best story and tell it to the group.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Briscoe+Western+Art+Museum+San+Antonio",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-CU-07",
+        "title": "A Show at the Majestic Theatre",
+        "description": "A 1929 atmospheric movie palace with a ceiling painted as a Mediterranean night sky, complete with drifting clouds and stars.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get there early enough to watch the ceiling stars come on.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Majestic+Theatre+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-CU-04",
+        "title": "The Rose Window at Mission San José",
+        "description": "The 'Queen of the Missions' is the grandest of the five UNESCO-listed Spanish colonial missions, and its carved rose window is the finest stonework in Texas.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the full perimeter wall before you go inside.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Mission+San+Jose+San+Antonio",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "SAT-C-05",
+        "title": "Slow Morning at the San Antonio Botanical Garden",
+        "description": "Thirty-eight acres of Texas native landscapes, a conservatory of glass pyramids and a family garden that's quietly one of the best in the South.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the oldest tree on the grounds and sit under it for ten minutes.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/San+Antonio+Botanical+Garden",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SAT-C-10",
+        "title": "Golden Hour at Confluence Park",
+        "description": "Petal-shaped concrete vaults arc over the spot where San Pedro Creek meets the river — an architectural showpiece that almost nobody visits.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Lie on your back under the pavilion and look straight up.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Confluence+Park+San+Antonio",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SAT-C-09",
+        "title": "Sunset from the Tower of the Americas",
+        "description": "750 feet up, the whole Hill Country horizon goes orange and the River Walk turns into a thread of light below you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick out three landmarks before you look at the map.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Tower+of+the+Americas+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-C-06",
+        "title": "Read in the Enchilada Red Library",
+        "description": "Ricardo Legorreta's Central Library is a stack of bright red geometry with skylit atriums and window seats made for an afternoon with a book.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pull a book off a shelf at random and read the first page.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/San+Antonio+Central+Library",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "SAT-C-07",
+        "title": "River Barge at Dusk",
+        "description": "Let a GO RIO barge carry you under the cypress and stone bridges of the River Walk just as the lights come on — touristy, and completely worth it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Wave at every single person on the walkway.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/GO+RIO+River+Walk+Cruises+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-C-08",
+        "title": "Picnic Under the Oaks at Brackenridge Park",
+        "description": "343 acres of old oaks, river bends and stone footbridges — San Antonio's backyard since 1899, and still the easiest place in the city to do nothing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring one thing for the picnic that nobody else would think to bring.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Brackenridge+Park+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "SAT-S-12",
+        "title": "Two-Step at Cowboys Dancehall",
+        "description": "A vast honky-tonk with a mechanical bull, a live stage and a dance floor where everyone genuinely knows the steps — take the free lesson first.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ask a stranger to dance.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Cowboys+Dancehall+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-S-11",
+        "title": "Underground Jazz at Jazz, TX",
+        "description": "A basement supper club under the Pearl's old brewery cellars, with live jazz, western swing and a room that feels like a secret.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Request a song from the band.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Jazz+TX+Pearl+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-S-05",
+        "title": "Rooftop Cocktails at The Moon's Daughter",
+        "description": "The Thompson's rooftop bar looks straight down the river at the Tobin Center, and the drinks are far better than the view alone would require.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order whatever the bartender is proudest of.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Moons+Daughter+Thompson+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-S-10",
+        "title": "Speakeasy Night at The Modernist",
+        "description": "A precise, low-lit cocktail room where the menu reads like a design brief and the bartenders can talk you through every dilution choice.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Ask for a drink built around your least favourite spirit.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Modernist+bar+San+Antonio",
+        "company": [
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-S-08",
+        "title": "Late Night at Hi-Tones",
+        "description": "A converted house with a patio, cheap drinks and a stage that books everything from cumbia to punk — San Antonio's most reliably fun dive.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay for a band you've never heard of.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Hi-Tones+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-S-06",
+        "title": "Craft Cocktails at Bar 1919",
+        "description": "Tucked under the Blue Star Arts Complex, this is the bar that taught San Antonio to take cocktails seriously — dark, low-ceilinged and very good.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Describe your ideal drink in three words and let them build it.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+1919+Blue+Star+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-S-09",
+        "title": "Dance Night at the Bonham Exchange",
+        "description": "Three floors of an 1880s German social hall turned legendary nightclub, a block from the Alamo and running since 1981.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Dance on all three floors before you leave.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Bonham+Exchange+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-S-07",
+        "title": "Pints at Weathered Souls Brewing",
+        "description": "The San Antonio taproom behind the Black Is Beautiful stout collaboration that went global — good beer, long tables, easy conversation.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Start a conversation with someone at the next table.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Weathered+Souls+Brewing+Co+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "foodie": [
+      {
+        "id": "SAT-F-08",
+        "title": "Enchiladas and Margaritas at Rosario's",
+        "description": "A loud, pink, thirty-year San Antonio institution where the enchiladas verdes and the house margarita have outlasted every trend in the city.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order in Spanish, even badly.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Rosarios+Mexican+Cafe+y+Cantina+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-F-11",
+        "title": "Pizza and Natural Wine at Il Forno",
+        "description": "A tiny Southtown room turning out blistered Neapolitan pies from a wood oven, with a short, sharp natural wine list to match.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Let the server pick the wine, sight unseen.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Il+Forno+Southtown+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-F-05",
+        "title": "Brisket at 2M Smokehouse",
+        "description": "South Side barbecue that put San Antonio on the Texas map — post oak brisket alongside sausage stuffed with Oaxaca cheese and serrano.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order one thing off the menu nobody at the table recognises.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/2M+Smokehouse+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-F-12",
+        "title": "Charcuterie Night at Cured",
+        "description": "House-cured meats hanging in the window of the Pearl's old administration building, served as a board big enough to argue over.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Try the one cured meat you can't pronounce.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Cured+at+the+Pearl+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SAT-F-06",
+        "title": "Barbecue Road Trip to Burnt Bean Co.",
+        "description": "Thirty-five minutes east to Seguin for brisket and Tex-Mex-inflected smoked plates that rank among the best in the state.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Whoever drives picks the entire order.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Burnt+Bean+Co+Seguin+TX",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-F-09",
+        "title": "Tasting Menu at Mixtli",
+        "description": "A rotating multi-course journey through a single region and era of Mexican cuisine, researched like a dissertation and plated like art.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "No phones out for the entire meal.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Mixtli+Restaurant+San+Antonio",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-F-10",
+        "title": "Morning Pastry at Bakery Lorraine",
+        "description": "Macarons, kouign-amann and very good coffee in the old brewery courtyard at the Pearl — the best twenty minutes of a San Antonio morning.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a macaron in a flavour you'd normally skip.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Bakery+Lorraine+Pearl+San+Antonio",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-F-07",
+        "title": "Tacos at Carnitas Lonja",
+        "description": "Michoacán-style carnitas cooked in a copper cazo and served on handmade tortillas at a converted house on the South Side — order by the pound.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat one taco with nothing on it but salt and lime.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Carnitas+Lonja+San+Antonio",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "SAT-8B-01",
+        "title": "Wildcard: The Puffy Taco Pilgrimage",
+        "description": "San Antonio invented the puffy taco and two restaurants still argue over it — eat at Ray's Drive Inn and Henry's Puffy Tacos in one afternoon and settle it yourselves.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Everyone declares a winner before the second stop, then has to defend it after.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/Rays+Drive+Inn+San+Antonio",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SAT-8B-02",
+        "title": "Wildcard: Barge Roulette",
+        "description": "Board a River Walk barge, get off at a stop nobody chose on purpose, and the first place you see with a door open is where you're eating.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "No looking up reviews before you walk in.",
+        "city": "San Antonio, TX",
+        "mapsUrl": "https://maps.google.com/maps/search/San+Antonio+River+Walk",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

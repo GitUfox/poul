@@ -1,0 +1,1204 @@
+{
+  "id": "boulder",
+  "name": "boulder",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "adventure": [
+      {
+        "id": "BOU-A-08",
+        "title": "Ride the Boulder Creek Path End to End",
+        "description": "Six car-free miles tracing the creek from the mouth of the canyon out to the plains — the spine of how Boulder actually gets around.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stop at every underpass mural you pass.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Boulder+Creek+Path+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-16",
+        "title": "Drive Flagstaff to Lost Gulch Overlook",
+        "description": "Switchback up Flagstaff Mountain to a rock perch where the plains run flat to Kansas and the sunset does all the work.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get there before the sun does and claim the best rock.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Lost+Gulch+Overlook+Flagstaff+Road+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-11",
+        "title": "Paddleboard Boulder Reservoir at Golden Hour",
+        "description": "Flat water, the whole Front Range skyline on one shore, and a board you can rent on the spot for an hour of easy balance work.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 15,
+        "bonus": "Make it from shore to shore without falling in.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Rocky+Mountain+Paddleboard+Boulder+Reservoir+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-13",
+        "title": "Ski Your Backyard Mountain at Eldora",
+        "description": "Twenty-one miles from Pearl Street — no I-70, no resort theatre, just Boulder County's own hill and a Woodward park to session.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5–7 hrs",
+        "durationMins": 390,
+        "time": "Morning",
+        "season": "Nov–Apr",
+        "spark": 26,
+        "bonus": "Take one run through the terrain park even if you have no business there.",
+        "city": "Nederland, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Eldora+Mountain+Resort+Nederland+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-12",
+        "title": "Hike to Blue Lake at Brainard",
+        "description": "An hour from town and suddenly you're at eleven thousand feet beside a glacial lake with Mount Toll filling the whole skyline.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Jul–Sep",
+        "spark": 26,
+        "bonus": "Put a hand in the water and hold it there for ten seconds.",
+        "city": "Ward, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Brainard+Lake+Recreation+Area+Ward+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-09",
+        "title": "Rip the Canyon Loop at Betasso Preserve",
+        "description": "Flowy singletrack through ponderosa above Boulder Canyon — the ride locals do after work and still rave about.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 100,
+        "time": "Afternoon",
+        "season": "Apr–Nov",
+        "spark": 14,
+        "bonus": "Clear the whole loop without unclipping once.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Betasso+Preserve+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-02",
+        "title": "Hike to Royal Arch",
+        "description": "A short, savage climb out of Chautauqua that pays off at a natural sandstone arch framing the city below.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Sit under the arch until you can hear nothing but wind.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Royal+Arch+Trail+Chautauqua+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-04",
+        "title": "Guided Trad Climb in Eldorado Canyon",
+        "description": "Rope up on the red sandstone walls that made American rock climbing, with a Colorado Mountain School guide handling the gear and the fear.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "6–8 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 27,
+        "bonus": "Lead the last pitch yourself, even if it's the easy one.",
+        "city": "Eldorado Springs, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Eldorado+Canyon+State+Park+Eldorado+Springs+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-07",
+        "title": "Float Boulder Creek on a Tube",
+        "description": "Snowmelt straight off the Divide, a cheap tube, and a lazy mile of whitewater right through the middle of town.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Jun–Aug",
+        "spark": 15,
+        "bonus": "Keep your sunglasses on for the whole run.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Eben+G+Fine+Park+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-10",
+        "title": "Sunrise Balloon Flight over Boulder Valley",
+        "description": "Lift off before dawn and watch the Flatirons go from grey to burning orange from a thousand feet up, champagne waiting on landing.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "May–Nov",
+        "spark": 40,
+        "bonus": "Help pack the envelope away at the end — it's harder than it looks.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Fair+Winds+Hot+Air+Balloon+Flights+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-15",
+        "title": "Walk the Mesa Trail End to End",
+        "description": "Seven miles along the base of the Flatirons from Chautauqua to Eldorado Springs, with the whole rock wall rising beside you the entire way.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Finish at the Eldorado Springs end and soak your legs in the creek.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Mesa+Trail+Chautauqua+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-01",
+        "title": "Scramble the First and Second Flatirons",
+        "description": "Climb the slabs that put Boulder on every postcard, topping out on tilted sandstone with the whole Front Range laid out below you.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4–6 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Touch the summit block of the Second before you touch your phone.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Chautauqua+Park+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-05",
+        "title": "Learn to Lead in Boulder Canyon",
+        "description": "A half-day of granite sport climbing fifteen minutes up the canyon, with a guide turning you from a gym climber into an outdoor one.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 25,
+        "bonus": "Climb one route in your approach shoes.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Colorado+Mountain+School+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-14",
+        "title": "Loop Walker Ranch Above the Canyon",
+        "description": "A brutal, beautiful 7.6-mile loop that drops to South Boulder Creek and makes you earn every foot back — the local trail-runner's benchmark.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 15,
+        "bonus": "Run the final climb out instead of walking it.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Walker+Ranch+Loop+Trailhead+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-03",
+        "title": "Catch Sunrise on Mount Sanitas",
+        "description": "Boulder's lung-burning local favourite — a steep rock staircase that puts you on a ridgeline just as the plains light up.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Start in the dark. No headlamp, no excuses.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Sanitas+Trailhead+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-A-06",
+        "title": "Project Night at Movement Boulder",
+        "description": "Twenty-two thousand square feet of walls and a hundred-plus boulder problems in the town where half the climbing world trains.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Try the problem two grades above you until you fall off it five times.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Movement+Boulder+2845+Valmont+Rd+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "BOU-S-09",
+        "title": "Trivia Night at the Rayback",
+        "description": "Thirty taps, a food truck lot and a room full of over-educated Boulderites who take bar trivia far too seriously.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick a team name that gets read out loud and lands.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Rayback+Collective+2775+Valmont+Rd+Boulder+CO",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-S-11",
+        "title": "Rooftop Round at Avanti",
+        "description": "Two bars, a top deck over Pearl Street and six kitchens downstairs if anyone gets hungry — the easiest group plan in Boulder.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Everyone orders for the person on their left.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Avanti+Food+and+Beverage+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-S-03",
+        "title": "Sweaty Front Row at the Fox Theatre",
+        "description": "Five hundred capacity on The Hill, consistently rated one of the best-sounding rooms in America — close enough to the stage to get stepped on.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Buy a ticket to a band you've never heard before tonight.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Fox+Theatre+1135+13th+St+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-S-05",
+        "title": "Living-Room Gig at Velvet Elk",
+        "description": "Plush seating, odd taxidermy, dim lamps and a band three feet away — the smallest good room in Boulder.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Talk to the musician at the merch table afterwards.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Velvet+Elk+Lounge+2037+13th+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-S-01",
+        "title": "Cocktails in the Catacombs at License No. 1",
+        "description": "Down the stairs under the Hotel Boulderado into a brick cellar that held one of Colorado's first liquor licences — now a proper cocktail room with a jazz lounge.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order a classic you can't pronounce and let them correct you.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/License+No+1+Hotel+Boulderado+2115+13th+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-S-02",
+        "title": "Sit at the Bar at The Bitter Bar",
+        "description": "A loungey back-alley room where the man often called Colorado's godfather of cocktails has been making the classics correctly for over a decade.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Tell the bartender one spirit and one mood, then hand it over.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Bitter+Bar+835+Walnut+St+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-S-07",
+        "title": "Work Through the Taps at Avery",
+        "description": "Thirty-plus beers from one of the loudest, hoppiest names in American craft, poured in a glass-and-steel taphouse east of town.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the highest-ABV thing on the board and respect it.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Avery+Brewing+4910+Nautilus+Ct+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-S-10",
+        "title": "Tapas Hour on the Corrida Rooftop",
+        "description": "Four storeys up with gin and tonics the size of fishbowls and the Flatirons going pink while you work through the pintxos list.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Be on the roof the moment the Flatirons turn red.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Corrida+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-S-12",
+        "title": "Buffs Gameday at Folsom Field",
+        "description": "Fifty thousand people in a bowl at the foot of the Flatirons, Ralphie the live buffalo running the field, and The Hill absolutely feral afterwards.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Afternoon",
+        "season": "Sep–Nov",
+        "spark": 40,
+        "bonus": "Stay standing for Ralphie's run and the whole first quarter.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Folsom+Field+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-S-08",
+        "title": "Stout Month at Mountain Sun",
+        "description": "Every February this Pearl Street institution turns its entire board over to stouts — no reservations, cash-friendly, deliberately stuck in 1993.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Feb",
+        "spark": 15,
+        "bonus": "Try four different stouts and rank them out loud.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Mountain+Sun+Pub+and+Brewery+1535+Pearl+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-S-06",
+        "title": "Skee-Ball Tournament at Press Play",
+        "description": "Old cabinets, pinball, skee-ball, giant Jenga and a DJ three nights a week — competitive nostalgia with a full bar attached.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Loser of the skee-ball final buys the next round.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Press+Play+1005+Pearl+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-S-04",
+        "title": "Show Night at the Boulder Theater",
+        "description": "A 1906 art-deco hall on 14th Street that takes everything from the Boulder Phil to Old Crow Medicine Show, under a painted ceiling.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get there early enough to stand dead centre on the floor.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Boulder+Theater+2032+14th+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "BOU-CU-01",
+        "title": "Free Factory Tour at Celestial Seasonings",
+        "description": "Hairnet on, forty-five minutes through a working tea factory, and a Mint Room so potent it makes your eyes water — all of it free.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Last a full thirty seconds inside the Mint Room.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Celestial+Seasonings+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-CU-03",
+        "title": "Dome Show at Fiske Planetarium",
+        "description": "One of the largest planetarium domes between Chicago and LA, running live sky talks and full-dome films on a campus full of actual space scientists.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay for the Q&A and ask the one question you're embarrassed by.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Fiske+Planetarium+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-CU-06",
+        "title": "Double Bill at the Dairy Arts Center",
+        "description": "A converted dairy that now holds three theatres, a cinema and gallery space — Boulder's one-stop shop for everything not on Pearl Street.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "See the show you understand least.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Dairy+Arts+Center+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-CU-02",
+        "title": "Shakespeare Under the Stars at the Mary Rippon",
+        "description": "Seventy years of outdoor Shakespeare in a stone amphitheatre on the CU campus, bats overhead and the Flatirons going dark behind the stage.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Jun–Aug",
+        "spark": 40,
+        "bonus": "Bring a blanket and stay for the curtain call applause.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Mary+Rippon+Outdoor+Theatre+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-CU-07",
+        "title": "First Friday in the NoBo Art District",
+        "description": "North Broadway's warehouses and studios throw their doors open on the first Friday of the month — working artists, cheap wine, no velvet rope.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Talk to an artist about their own work for five minutes.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/NoBo+Art+District+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-CU-04",
+        "title": "Current Shows at BMoCA",
+        "description": "A small, sharp contemporary museum on Canyon with rotating regional work and a programme far braver than its square footage.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick the piece you'd hang at home and defend it.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Boulder+Museum+of+Contemporary+Art+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-CU-05",
+        "title": "Fossils at the CU Museum of Natural History",
+        "description": "A free university collection heavy on Colorado paleontology — the dinosaurs that came out of the ground an hour from here.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the oldest thing in the building.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/CU+Museum+of+Natural+History+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-CU-08",
+        "title": "Colorado Music Festival at Chautauqua",
+        "description": "Six weeks of orchestral music every summer inside an 1898 wooden auditorium with the doors open and the Flatirons right outside them.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Jun–Aug",
+        "spark": 25,
+        "bonus": "Sit in the cheap seats at the back where the wood resonates.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Chautauqua+Auditorium+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "BOU-C-10",
+        "title": "Brewery Tour at Upslope's Lee Hill",
+        "description": "The original North Boulder brewhouse where Upslope still runs its experiments — a short tour, then the odd stuff on tap.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Drink whichever experimental batch they're least sure about.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Upslope+Brewing+1501+Lee+Hill+Rd+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-C-08",
+        "title": "Patio Afternoon at Sanitas Brewing",
+        "description": "The biggest brewery patio in Boulder, with a taco kitchen, a view toward the mountain it's named for, and nowhere else to be.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay for a second round you didn't plan on.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Sanitas+Brewing+3550+Frontier+Ave+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-C-04",
+        "title": "Pour-Over at Ozo on Pearl",
+        "description": "Boulder's own roaster since 2009, pulling careful shots in a small room where everyone seems to have just come down off something.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask what the single origin is and actually taste for it.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Ozo+Coffee+1015+Pearl+St+Boulder+CO",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BOU-C-09",
+        "title": "Busker Roulette on Pearl Street Mall",
+        "description": "Four car-free blocks of street performers, zip-line bike kids and chalk artists — Boulder's living room, free of charge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Tip the strangest act you find.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Pearl+Street+Mall+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-C-06",
+        "title": "Sunset on the Chautauqua Lawn",
+        "description": "A sloping green at the foot of the Flatirons with a 19th-century auditorium behind you — the best free seat in Boulder.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay through full dark and find one satellite.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Chautauqua+Auditorium+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-C-07",
+        "title": "Walk the Mesa at NCAR",
+        "description": "I.M. Pei designed the research lab to echo the Flatirons behind it; the short trail out front is one of the quietest views in town.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Read every interpretive sign on the Walter Orr Roberts trail.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/NCAR+Mesa+Laboratory+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-C-02",
+        "title": "Lose an Hour in Boulder Book Store",
+        "description": "Three floors of creaking independent bookshop on Pearl Street, with over two hundred author events a year and staff picks worth trusting.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy whatever book the staff-pick shelf argues hardest for.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Boulder+Book+Store+1107+Pearl+St+Boulder+CO",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BOU-C-05",
+        "title": "Swim the Artesian Pool at Eldorado Springs",
+        "description": "A 1900s spring-fed pool at the mouth of Eldorado Canyon, cold enough to shock you awake with sandstone walls rising on every side.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 23,
+        "bonus": "Get all the way under on the first attempt.",
+        "city": "Eldorado Springs, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Eldorado+Springs+Pool+294+Artesian+Dr+Eldorado+Springs+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-C-03",
+        "title": "Chai and Used Paperbacks at Trident",
+        "description": "Employee-owned since 1980 — a cramped, perfect bookshop-café where Boulder goes to read alone in company.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay until you finish a whole chapter without checking your phone.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Trident+Booksellers+and+Cafe+940+Pearl+St+Boulder+CO",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "BOU-C-01",
+        "title": "Afternoon Tea at the Dushanbe Teahouse",
+        "description": "Hand-carved in Tajikistan, crated across the world and rebuilt beside Boulder Creek as a gift from a sister city — then filled with tea.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Pick a tea purely by the name on the menu.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Boulder+Dushanbe+Teahouse+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "BOU-F-06",
+        "title": "Wood-Fired Napoletana at Pizzeria Alberico",
+        "description": "The Frasca team's pizza room next door to the flagship — blistered Neapolitan pies out of a wood oven, at a fraction of the fine-dining bill.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Eat one pie with your hands, folded, standing at the bar.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Pizzeria+Alberico+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-F-08",
+        "title": "Oysters and a Martini at Jax Fish House",
+        "description": "Thirty years of flying in shellfish to a landlocked mountain town, shucked at a loud bar in the middle of Pearl Street.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Try a variety you've never heard of and guess the coast.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Jax+Fish+House+928+Pearl+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-F-01",
+        "title": "The Friuli Tasting Menu at Frasca",
+        "description": "A Michelin star and a James Beard Outstanding Restaurant award for one narrow idea done perfectly: the food and wine of northeastern Italy, in a strip-mall-adjacent room on Pearl.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Let the sommelier pick every pour — no questions, no vetoes.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Frasca+Food+and+Wine+1738+Pearl+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-F-05",
+        "title": "Ugly Crust Pizza at The Sink",
+        "description": "A century of CU students have signed these walls and low ceilings — Obama ate here, Redford mopped the floors, and the pizza is deliberately misshapen.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find your own signature on the wall, or leave one where nobody will look.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Sink+1165+13th+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-F-10",
+        "title": "Stall Crawl at Avanti Boulder",
+        "description": "Six kitchens, two bars and a rooftop deck in the old Cheesecake Factory shell — arepas, Taiwanese, deli and pizza without anybody having to compromise.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order one thing from every stall and share the lot.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Avanti+Food+and+Beverage+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-F-07",
+        "title": "Build a Picnic Basket at Cured",
+        "description": "Eighty rotating cheeses, salumi off Frasca's old slicer, cheap good wine and a wicker basket — assembled for a hillside twenty minutes away.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Let the counter pick all three cheeses for you.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Cured+1825+Pearl+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-F-02",
+        "title": "Whole-Animal Dinner at Blackbelly",
+        "description": "Top Chef winner Hosea Rosenberg's butcher shop and restaurant under one roof, where the cut on your plate was broken down forty feet away.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order the thing on the menu you can't identify.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Blackbelly+Market+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-F-11",
+        "title": "Dinner at Oak at Fourteenth",
+        "description": "Wood-fired New American from a Frasca alum, in a room they rebuilt from the studs up after a fire took the original.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Start with whatever came off the oak grill today, no substitutions.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Oak+at+Fourteenth+1400+Pearl+St+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-F-03",
+        "title": "Basque Steak and Gin Tonics at Corrida",
+        "description": "Spanish fire-cooking on a fourth-floor rooftop, with the Flatirons close enough to feel and a txuleta built for two.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Split the biggest steak on the menu and finish it.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Corrida+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "BOU-F-04",
+        "title": "Breakfast Burrito at Santo",
+        "description": "Northern New Mexican cooking from a chef who grew up in Taos — roasted chile that actually tastes like somewhere, wrapped to go.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30–45 mins",
+        "durationMins": 40,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order it Christmas — red and green — and pick a side by the last bite.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Santo+1265+Alpine+Ave+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-F-12",
+        "title": "Food Truck Roulette at the Rayback",
+        "description": "Four trucks that rotate twice a day, a thirty-tap bar and a huge lawn — Boulder's default answer to 'where should we go?'",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat from whichever truck has the shortest line, sight unseen.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Rayback+Collective+2775+Valmont+Rd+Boulder+CO",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-F-09",
+        "title": "Saturday Morning at the Boulder Farmers Market",
+        "description": "Forty years of Front Range growers lining 13th Street — breakfast from the vendors, live music, and the whole town out in running clothes.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 13,
+        "bonus": "Buy something you've never cooked and figure it out tonight.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Boulder+Farmers+Market+13th+St+and+Canyon+Blvd+Boulder+CO",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "BOU-8B-02",
+        "title": "Pearl Street Roulette",
+        "description": "Wildcard: walk the length of the Pearl Street Mall and let the first busker you stop for choose your night — their favourite bar, their favourite taco, their call.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–5 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Actually go where they send you, no matter how strange.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Pearl+Street+Mall+Boulder+CO",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "BOU-8B-01",
+        "title": "Above the City Before Breakfast",
+        "description": "Wildcard: pick any trailhead at Chautauqua, start in the dark, and be standing higher than every building in Boulder when the sun clears the plains.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2–4 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Eat breakfast still covered in trail dust.",
+        "city": "Boulder, CO",
+        "mapsUrl": "https://maps.google.com/maps/search/Chautauqua+Park+Boulder+CO",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

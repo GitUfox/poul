@@ -1,0 +1,1197 @@
+{
+  "id": "richmond",
+  "name": "richmond",
+  "location": "",
+  "emoji": "📍",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "RVA-CU-07",
+        "title": "See the Flying Squirrels at Brand New CarMax Park",
+        "description": "Richmond's $110m ballpark opened in April 2026 after a sixteen-year wait, with a 360-degree concourse and one of the biggest video boards in the minors.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 40,
+        "bonus": "Do a full lap of the concourse without missing a pitch.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/CarMax+Park+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-CU-06",
+        "title": "Walk the Richmond Slave Trail to Lumpkin's Jail",
+        "description": "A riverside trail tracing the route enslaved people were marched through what was the second-largest slave market in the country, ending at the Devil's Half Acre.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Read the Reconciliation Statue inscription at the end of the walk.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Richmond+Slave+Trail+Manchester+Docks+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-CU-03",
+        "title": "Spend a Morning at the Black History Museum",
+        "description": "Housed in the old Leigh Street Armory in Jackson Ward, telling the story of Black Virginia from the Maggie Walker era onward.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Walk Jackson Ward afterwards and find the Maggie Walker house.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Black+History+Museum+and+Cultural+Center+of+Virginia+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-CU-08",
+        "title": "Tour Jefferson's Virginia State Capitol",
+        "description": "Thomas Jefferson designed it after a Roman temple in Nîmes, it has housed a legislature continuously since 1788, and the tour is free.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the Houdon statue of Washington, carved from life.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Virginia+State+Capitol+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-CU-04",
+        "title": "Stand in the Tredegar Ironworks Ruins",
+        "description": "The American Civil War Museum sits inside the foundry that armed the Confederacy, and tells the war from Union, Confederate and African American perspectives at once.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk out to the riverside ruins after the galleries.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/American+Civil+War+Museum+Historic+Tredegar+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-CU-05",
+        "title": "Visit Poe in the Oldest House in Richmond",
+        "description": "The Poe Museum occupies the city's oldest standing building, with a walled Enchanted Garden and two resident black cats called Edgar and Pluto.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find both cats before you leave.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Edgar+Allan+Poe+Museum+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-CU-02",
+        "title": "See What the ICA Has Up This Month",
+        "description": "VCU's Institute for Contemporary Art holds no permanent collection at all, so every visit to the Markel Center is something you have not seen before.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go in knowing nothing about what is on show.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Institute+for+Contemporary+Art+VCU+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-CU-01",
+        "title": "Find the Fabergé Eggs at the VMFA",
+        "description": "One of the few major American art museums that is free and open late, holding the largest Fabergé collection outside Russia.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go on a night the museum is open late and stay past nine.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Virginia+Museum+of+Fine+Arts+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "RVA-F-06",
+        "title": "Take the Full Tasting Menu at Longoven",
+        "description": "Ten to thirteen courses from a trio of chefs who started as a pop-up, still the most ambitious cooking in the city and a hard table to get.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Do the wine pairing rather than ordering by the glass.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Longoven+Richmond+VA",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "RVA-F-01",
+        "title": "Read the Whole Menu Out Loud at L'Opossum",
+        "description": "David Shannon's gleefully camp Oregon Hill dining room, where the dish names are jokes and the cooking is completely serious.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order the dish with the most absurd name on the menu.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/LOpossum+China+Street+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-F-11",
+        "title": "Take a Bagel and a Cortado at Lamplighter",
+        "description": "Richmond's long-running independent roaster, where the espresso is properly dialled in and the breakfast sandwich holds up.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Drink it in rather than taking it away.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Lamplighter+Roasting+Company+Richmond+VA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RVA-F-10",
+        "title": "Order the Steak Frites at Grisette",
+        "description": "A small French-leaning room in Church Hill whose steak frites has become the dish people take visitors to eat.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Finish the frites before the steak is gone.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Grisette+Richmond+VA",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "RVA-F-12",
+        "title": "Sit in the Greenhouse Light at Jardin",
+        "description": "Grisette's plant-filled sibling, a bright, green room doing a lighter menu and a brunch worth getting out of bed for.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit at the window table and order something you cannot identify from the name.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardin+Restaurant+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-F-08",
+        "title": "Build a Pastrami Sandwich at Perly's",
+        "description": "One of Richmond's first delicatessens, still doing matzo ball soup, knishes and hot pastrami on Grace Street with a queue out the door at weekends.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Add the latke to the sandwich.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Perlys+Restaurant+Delicatessen+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-F-05",
+        "title": "Eat Schnitzel in Church Hill at Metzger",
+        "description": "Brittanny Anderson's German bar and butchery, a small dark room turning out chicken schnitzel and spaetzle that has kept a queue for a decade.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Drink a proper German beer with it rather than a cocktail.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Metzger+Bar+and+Butchery+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-F-02",
+        "title": "Get There Early for ZZQ Brisket",
+        "description": "Central Texas technique run through a Virginia lens in Scott's Addition, with a brisket that people queue for and a hard sell-out most days.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get the fatty end of the brisket rather than the lean.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/ZZQ+Texas+Craft+Barbeque+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-F-04",
+        "title": "Order the Full Plate at Mama J's",
+        "description": "Velma Johnson's Jackson Ward soul food kitchen — fried catfish, candied yams, cornbread — cooked the way her mother taught her.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get the catfish and the mac and cheese and do not skip the cornbread.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Mama+Js+Kitchen+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-F-09",
+        "title": "Order the Spread at Stella's",
+        "description": "Rustic Greek cooking in the Museum District since 1983, run by the founder's daughter and still the room Richmond books for a good night.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order enough mezze that the table runs out of space.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Stellas+Restaurant+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-F-03",
+        "title": "Buy Bread Straight From the Wood Oven at Sub Rosa",
+        "description": "A Church Hill bakery that mills its own heirloom grain and bakes everything in a wood-fired oven, which you can smell from the corner.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy a loaf and tear into it before you get home.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Sub+Rosa+Bakery+Richmond+VA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RVA-F-07",
+        "title": "Sit at the Bar at Alewife",
+        "description": "Church Hill's unfussy seafood room, cooking the Chesapeake with almost no ceremony and turning up on national best-of lists anyway.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order whatever fish the board says came in that morning.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Alewife+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "RVA-C-07",
+        "title": "Take a Pedal Boat Out on Fountain Lake",
+        "description": "Byrd Park's three lakes, a carillon tower and a pedal boat dock, all a few minutes from the Museum District.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 12,
+        "bonus": "Do a full lap of the lake without switching who is pedalling.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Byrd+Park+Fountain+Lake+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-C-06",
+        "title": "Follow the Canal Walk Through the Old Basin",
+        "description": "A mile and a half of restored canal towpath through the middle of downtown, with interpretive plaques and almost nobody on it on a weekday.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Read every plaque you pass without skipping one.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Richmond+Canal+Walk+Richmond+VA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RVA-C-04",
+        "title": "Dig the Crates at Plan 9 Music",
+        "description": "Carytown's long-standing record shop, deep in used vinyl and staffed by people who will happily argue with your taste.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a record purely because of the sleeve.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Plan+9+Music+Carytown+Richmond",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RVA-C-03",
+        "title": "Browse the Stacks at Chop Suey Books",
+        "description": "Two floors of used books in Carytown, with a resident cat and an upstairs room that swallows an hour without you noticing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a used book with someone else's notes still in the margins.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Chop+Suey+Books+Carytown+Richmond",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RVA-C-01",
+        "title": "Get Lost in Lewis Ginter's Conservatory",
+        "description": "Fifty acres of themed gardens and a domed Victorian glasshouse, routinely ranked among the best botanical gardens in the country.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the treehouse in the children's garden and climb it anyway.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Lewis+Ginter+Botanical+Garden+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-C-08",
+        "title": "Catch Golden Hour on the Quirk Rooftop",
+        "description": "A pink-hued arts hotel on Broad Street whose rooftop has been on national best-of lists since it opened, and is at its best an hour before sunset.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Go up before the evening crowd and claim a west-facing seat.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Quirk+Hotel+Rooftop+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RVA-C-09",
+        "title": "Wander the Knot Garden at Agecroft Hall",
+        "description": "A genuine Tudor manor house shipped from Lancashire in the 1920s and rebuilt above the James, with formal Elizabethan gardens around it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the sunken garden and work out the knot pattern.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Agecroft+Hall+Richmond+VA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RVA-C-10",
+        "title": "See a Matinee at the Byrd Theatre",
+        "description": "A 1928 French Empire movie palace in Carytown, chandelier and all, still showing films for a few dollars with a Wurlitzer organ on weekend nights.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Sit in the balcony and get there early enough for the organ.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Byrd+Theatre+Carytown+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-C-05",
+        "title": "Do Carytown End to End on Foot",
+        "description": "Nine blocks of independent shops, vintage racks and coffee counters with almost no chains — the easiest low-effort afternoon in the city.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the full nine blocks and buy something from a shop you had never heard of.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Carytown+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-C-02",
+        "title": "Walk the Bluff Path at Hollywood Cemetery",
+        "description": "A Victorian garden cemetery on a bluff over the James, holding two US presidents, a cast-iron dog and the quietest river view in Richmond.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the iron dog at the Rees grave.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Hollywood+Cemetery+Richmond+VA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "RVA-S-01",
+        "title": "Drink Something Hazy at The Veil",
+        "description": "The brewery that put Scott's Addition on the national map, trading in hop-forward cans people drive states for and a taproom that stays busy.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drink the newest thing on the board, not the one you have heard of.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Veil+Brewing+Scotts+Addition+Richmond",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RVA-S-04",
+        "title": "Take the Patio at Ardent Craft Ales",
+        "description": "The Scott's Addition brewery locals quietly rate highest, with a walled beer garden that fills up the second the weather turns.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get a spot in the beer garden without waiting for one.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Ardent+Craft+Ales+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RVA-S-10",
+        "title": "Walk the Whole Scott's Addition Brewery Crawl",
+        "description": "A former industrial district where a dozen breweries, a cidery and a meadery sit within a few walkable blocks of each other.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Hit four different producers in one afternoon without getting in a car.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Scotts+Addition+Richmond+VA+breweries",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RVA-S-08",
+        "title": "See a Touring Act at The National",
+        "description": "A restored 1923 theatre on Broad Street that books acts you would expect in cities twice Richmond's size, with sight lines to match.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get on the floor rather than staying up on the mezzanine.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/The+National+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-S-05",
+        "title": "Eat and Drink at Väsen's Long Bar",
+        "description": "Scandinavian-leaning beer in a converted Scott's Addition warehouse, with a huge open room built for standing around in groups.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Drink a style you would never normally order.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Vasen+Brewing+Company+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RVA-S-11",
+        "title": "Get to Friday Cheers on Brown's Island",
+        "description": "Richmond's outdoor spring concert series on the riverfront island, where the whole city turns out on Friday evenings from May into June.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "May–Jun",
+        "spark": 40,
+        "bonus": "Get there early enough to be on the grass rather than at the back.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Browns+Island+Friday+Cheers+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-S-12",
+        "title": "Do All Three Days of the Richmond Folk Festival",
+        "description": "A free October festival on the downtown riverfront with multiple stages of traditional music from around the world, and a crowd in the hundreds of thousands.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "3 days",
+        "durationMins": 480,
+        "time": "Afternoon",
+        "season": "Oct",
+        "spark": 40,
+        "bonus": "See a performer from a country you cannot place on a map.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Richmond+Folk+Festival+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-S-02",
+        "title": "Take the Long Table at Hardywood Park",
+        "description": "Richmond's craft beer elder statesman, with a cavernous taproom, food trucks most nights and a gingerbread stout people plan their year around.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find out when the Gingerbread Stout drops and put it in your calendar.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Hardywood+Park+Craft+Brewery+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RVA-S-06",
+        "title": "Get a Stool at The Jasper",
+        "description": "Carytown's serious cocktail bar, named for a Richmond bartending legend, with a menu that reads like a history lesson and a room that fills fast.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order a classic you have never tried and let them talk you through it.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Jasper+Carytown+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RVA-S-03",
+        "title": "Drink by the River at Triple Crossing Fulton",
+        "description": "The bigger of Triple Crossing's two rooms, out in Fulton near Rocketts Landing, with a huge patio and some of the best lagers in the state.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a lager instead of an IPA and admit it was the right call.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Triple+Crossing+Beer+Fulton+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RVA-S-09",
+        "title": "Stand Three Rows Back at The Broadberry",
+        "description": "A mid-size room on Broad with a small stage, which means almost every show feels closer than it should.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Talk to the band at the merch table afterwards.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Broadberry+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-S-07",
+        "title": "Drink Above the Skyline at Kabana Rooftop",
+        "description": "A downtown rooftop lounge with a full wraparound view of the Richmond skyline and a crowd dressed for it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get there before sunset and stay until the city lights up.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Kabana+Rooftop+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "adventure": [
+      {
+        "id": "RVA-A-14",
+        "title": "Take the Boardwalk to Texas Beach",
+        "description": "A long wooden boardwalk over marsh and railway tracks that ends at a hidden sand and rock beach on the north bank.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Rock-hop as far out into the river as you dare.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Texas+Beach+North+Bank+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-16",
+        "title": "Circle Brown's Island on the Riverfront",
+        "description": "The flat green island in the middle of the downtown riverfront, linked by canal walk and footbridge, and the launch point for most of the city's best walking.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Follow the canal walk east until it runs out.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Browns+Island+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-03",
+        "title": "Cross the Footbridge to Belle Isle",
+        "description": "A suspended walkway under the Lee Bridge drops you onto a 54-acre island of granite slabs, a flooded quarry and the best free sunbathing rocks in Virginia.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the old hydroelectric plant ruins on the island's south side.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Belle+Isle+James+River+Park+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-01",
+        "title": "Walk the Pipeline Under the Rapids",
+        "description": "A catwalk bolted to a working sewer pipe beneath a railway trestle, with Class III rapids breaking a metre from your boots and a heron rookery overhead.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Walk the full length to the overlook without turning back.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Pipeline+Overlook+James+River+Park+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-08",
+        "title": "Paddle the Dutch Gap Lagoons",
+        "description": "A tidal maze of lagoons cut off from the James by a Civil War canal project, now a conservation area thick with osprey, eagles and cypress.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 13,
+        "bonus": "Paddle far enough in that you cannot hear a road.",
+        "city": "Chester, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Dutch+Gap+Conservation+Area+Chester+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-02",
+        "title": "Raft the Falls of the James Through Downtown",
+        "description": "Richmond is the only city in America with Class III–IV whitewater inside its limits, and Riverside Outfitters runs you straight through it with the skyline in view.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Sit in the front of the raft through Hollywood Rapid.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Riverside+Outfitters+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-10",
+        "title": "Roam the Hundred Acres of Maymont",
+        "description": "A Gilded Age estate given to the city, with a Japanese garden, an Italian garden, a waterfall and a bear — all of it free to walk into.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the waterfall in the Japanese garden and sit at the base of it.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Maymont+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-05",
+        "title": "Ride the Virginia Capital Trail to Jamestown",
+        "description": "Fifty-two paved, car-free miles from downtown Richmond to Jamestown, through plantation country and tidewater farmland with pie stops along the way.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 26,
+        "bonus": "Make it at least as far as Charles City Courthouse before you turn around.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Virginia+Capital+Trail+Great+Shiplock+Park+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-13",
+        "title": "Watch the Sun Go Down from Libby Hill",
+        "description": "The bend in the James said to have reminded settlers of Richmond upon Thames and given the city its name, still the best free view in town.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Get there early enough to watch the light change on the river bend.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Libby+Hill+Park+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-09",
+        "title": "Walk the Floodwall and the Potterfield Bridge",
+        "description": "A flood-defence wall turned promenade, linked to a pedestrian bridge on old piers that puts you halfway across the James at eye level with the rapids.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do it at dusk and stay for the skyline lights.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/T+Tyler+Potterfield+Memorial+Bridge+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-12",
+        "title": "Trail Run Forest Hill and Reedy Creek",
+        "description": "Quiet South Side woods with a stone dam, a lake and trails that connect straight through to the river park system.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Link Forest Hill all the way to Belle Isle on foot.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Forest+Hill+Park+Richmond+VA",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RVA-A-11",
+        "title": "Float the James in a Tube",
+        "description": "A lazy three-hour drift down the upper James with a shuttle at both ends and just enough riffles to keep it interesting.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 24,
+        "bonus": "Bring a waterproof speaker and get the whole group's tubes tied together.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Riverside+Outfitters+Tubing+Richmond+VA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-07",
+        "title": "Ride the Pocahontas Trail Network",
+        "description": "Virginia's largest state park, twenty minutes south of the city, with purpose-built mountain bike trails graded from green to genuinely technical.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride one trail rated above your usual level.",
+        "city": "Chesterfield, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Pocahontas+State+Park+Chesterfield+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-04",
+        "title": "Run the Buttermilk and North Bank Loop",
+        "description": "Around seven miles of rooty singletrack along both banks of the James, linked by two bridges, entirely inside the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do the whole loop without checking your pace once.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Buttermilk+Trail+James+River+Park+Richmond",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-06",
+        "title": "Claim a Rock at Pony Pasture Rapids",
+        "description": "The city's favourite stretch of swimmable river — flat granite shelves, shallow rapids and a whole neighbourhood's worth of people doing nothing all afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 12,
+        "bonus": "Swim out to a rock nobody else has claimed.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Pony+Pasture+Rapids+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RVA-A-15",
+        "title": "Boulder the Cave at Peak Experiences",
+        "description": "Fifteen thousand square feet of climbing terrain in the Brewers Row district, open from six in the morning, with a bouldering area big enough to spend a whole session in.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Project one problem until you send it, however long it takes.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Peak+Experiences+Overbrook+Road+Richmond+VA",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "RVA-8B-02",
+        "title": "Eight Ball: Scott's Addition Until It Runs Out",
+        "description": "Start at any door in Scott's Addition and keep walking to the next producer until the neighbourhood closes on you — brewery, cidery, meadery, no skipping.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Get a stamp, coaster or can from every single stop.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/Scotts+Addition+Richmond+VA",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RVA-8B-01",
+        "title": "Eight Ball: River First, Decide Later",
+        "description": "Get on the James however you can — raft, tube, board or just a rock at Pony Pasture — then eat at the first place you find with a patio.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Any",
+        "season": "May–Sep",
+        "spark": 25,
+        "bonus": "Do not look up a single review before you order.",
+        "city": "Richmond, VA",
+        "mapsUrl": "https://maps.google.com/maps/search/James+River+Park+System+Richmond+VA",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}
