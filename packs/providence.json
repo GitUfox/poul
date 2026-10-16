@@ -1,8 +1,8 @@
 {
   "id": "providence",
-  "name": "providence",
-  "location": "",
-  "emoji": "📍",
+  "name": "Providence",
+  "location": "Rhode Island",
+  "emoji": "🔥",
   "isDefault": false,
   "cards": {
     "culture": [

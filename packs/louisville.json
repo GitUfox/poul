@@ -1,8 +1,8 @@
 {
   "id": "louisville",
-  "name": "louisville",
-  "location": "",
-  "emoji": "📍",
+  "name": "Louisville",
+  "location": "Kentucky",
+  "emoji": "🥃",
   "isDefault": false,
   "cards": {
     "chill": [

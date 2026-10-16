@@ -1,8 +1,8 @@
 {
   "id": "madrid",
-  "name": "madrid",
-  "location": "",
-  "emoji": "📍",
+  "name": "Madrid",
+  "location": "Spain",
+  "emoji": "🥘",
   "isDefault": false,
   "cards": {
     "foodie": [

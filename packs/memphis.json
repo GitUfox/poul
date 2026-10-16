@@ -1,8 +1,8 @@
 {
   "id": "memphis",
-  "name": "memphis",
-  "location": "",
-  "emoji": "📍",
+  "name": "Memphis",
+  "location": "Tennessee",
+  "emoji": "🎙️",
   "isDefault": false,
   "cards": {
     "chill": [

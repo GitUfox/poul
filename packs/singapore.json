@@ -1,8 +1,8 @@
 {
   "id": "singapore",
-  "name": "singapore",
-  "location": "",
-  "emoji": "📍",
+  "name": "Singapore",
+  "location": "Singapore",
+  "emoji": "🦁",
   "isDefault": false,
   "cards": {
     "culture": [

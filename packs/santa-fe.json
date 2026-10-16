@@ -1,8 +1,8 @@
 {
   "id": "santa-fe",
-  "name": "santa-fe",
-  "location": "",
-  "emoji": "📍",
+  "name": "Santa Fe",
+  "location": "New Mexico",
+  "emoji": "🌶️",
   "isDefault": false,
   "cards": {
     "social": [

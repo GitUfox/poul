@@ -1,8 +1,8 @@
 {
   "id": "london",
-  "name": "london",
-  "location": "",
-  "emoji": "📍",
+  "name": "London",
+  "location": "England",
+  "emoji": "🎡",
   "isDefault": false,
   "cards": {
     "foodie": [

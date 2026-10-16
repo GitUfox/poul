@@ -14,6 +14,7 @@
 
 require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), override: true });
 const { Client } = require('@notionhq/client');
+const { initPackType, packFilter } = require('./pack-prop');
 
 const DRY_RUN = process.argv.includes('--dry-run');
 const DB_ID   = '68dabc44-f31e-48d9-9dac-2a6d6edb4414';
@@ -202,6 +203,7 @@ async function main() {
   }
 
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
+  await initPackType(notion);
   const results = { ok: [], notFound: [], ambiguous: [] };
 
   const byPack = {};
@@ -213,9 +215,7 @@ async function main() {
     console.log(`\n── ${pack} (${targets.length} fixes) ──`);
 
     // No Active filter: comment-stamping targets just-deactivated cards too
-    const pages = await queryAll(notion, {
-      property: 'Pack', select: { equals: pack },
-    });
+    const pages = await queryAll(notion, packFilter(pack));
 
     for (const target of targets) {
       const byId = pages.filter(p => getCardId(p) === target.id);

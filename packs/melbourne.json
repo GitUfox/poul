@@ -1,8 +1,8 @@
 {
   "id": "melbourne",
-  "name": "melbourne",
-  "location": "",
-  "emoji": "📍",
+  "name": "Melbourne",
+  "location": "Victoria · Australia",
+  "emoji": "🏏",
   "isDefault": false,
   "cards": {
     "social": [

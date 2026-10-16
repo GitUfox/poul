@@ -1,8 +1,8 @@
 {
   "id": "richmond",
-  "name": "richmond",
-  "location": "",
-  "emoji": "📍",
+  "name": "Richmond",
+  "location": "Virginia",
+  "emoji": "🛶",
   "isDefault": false,
   "cards": {
     "culture": [

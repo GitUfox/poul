@@ -31,6 +31,7 @@ const fs = require('fs');
 const path = require('path');
 const Anthropic = require('@anthropic-ai/sdk');
 const { Client } = require('@notionhq/client');
+const { initPackType, packValue } = require('./pack-prop');
 
 const DB_ID      = '68dabc44-f31e-48d9-9dac-2a6d6edb4414';
 // Phase 2 taxonomy (2026-08-07): 'adventure' IS Outdoors (absorbed 'active'),
@@ -218,6 +219,7 @@ function makeIdAssigner(prefix, seriesStart) {
 
 async function writeToNotion(cards, packId) {
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
+  await initPackType(notion);
   console.log(`Writing ${cards.length} cards to Notion...`);
 
   for (const c of cards) {
@@ -226,7 +228,7 @@ async function writeToNotion(cards, packId) {
       properties: {
         'Title':          { title:     [{ text: { content: c.title        } }] },
         'Card ID':        { rich_text: [{ text: { content: c.id           } }] },
-        'Pack':           { select:    { name: packId                        } },
+        'Pack':           packValue(packId),
         'Category':       { select:    { name: c.category                   } },
         'Rarity':         { select:    { name: c.rarity                     } },
         'City':           { rich_text: [{ text: { content: c.city          } }] },

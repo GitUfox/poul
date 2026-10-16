@@ -1,8 +1,8 @@
 {
   "id": "seoul",
-  "name": "seoul",
-  "location": "",
-  "emoji": "📍",
+  "name": "Seoul",
+  "location": "South Korea",
+  "emoji": "🏯",
   "isDefault": false,
   "cards": {
     "chill": [

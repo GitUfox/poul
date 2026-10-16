@@ -1,8 +1,8 @@
 {
   "id": "calgary",
-  "name": "calgary",
-  "location": "",
-  "emoji": "📍",
+  "name": "Calgary & Banff",
+  "location": "Alberta",
+  "emoji": "🐎",
   "isDefault": false,
   "cards": {
     "adventure": [
@@ -158,6 +158,111 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "CGY-AC-01",
+        "title": "Bike the Bow River Pathway to Edworthy Park",
+        "description": "Ride the paved riverside path out of downtown, past sandstone cliffs, to a quiet park where the city noise finally drops away.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stop at three different river viewpoints along the way.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Bow+River+Pathway+Calgary"
+      },
+      {
+        "id": "CGY-A-04",
+        "title": "Hike to the Plain of Six Glaciers Tea House",
+        "description": "Climb the trail above Lake Louise's turquoise water to a mule-supplied teahouse ringed by hanging glaciers.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Jun–Sep",
+        "spark": 42,
+        "bonus": "Order tea at the teahouse — everything's packed in by mule, no road access.",
+        "city": "Lake Louise, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Plain+of+Six+Glaciers+Teahouse+Lake+Louise"
+      },
+      {
+        "id": "CGY-AC-03",
+        "title": "Hike the Sulphur Mountain summit trail",
+        "description": "Switchback up the full trail on foot to a ridge-top boardwalk with a 360-degree view of the Bow Valley.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Ride the gondola down only after earning the summit on foot.",
+        "city": "Banff, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Sulphur+Mountain+Trail+Banff"
+      },
+      {
+        "id": "CGY-A-02",
+        "title": "Climb the Via Ferrata on Mount Norquay",
+        "description": "Clip into a guided cable route up exposed rock ledges with nothing between you and the valley floor but a harness and nerve.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5–3 hrs",
+        "durationMins": 165,
+        "time": "Morning",
+        "season": "Jun–Sep",
+        "spark": 26,
+        "bonus": "Cross the exposed catwalk without looking down for ten seconds.",
+        "city": "Banff, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Norquay+Via+Ferrata+Banff"
+      },
+      {
+        "id": "CGY-A-03",
+        "title": "Whitewater raft the Kananaskis River",
+        "description": "Paddle a guided raft through churning rapids with the Rockies rising straight up on both sides.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 24,
+        "bonus": "Volunteer to sit in the front of the raft.",
+        "city": "Kananaskis Country, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Kananaskis+River+Rafting"
+      },
+      {
+        "id": "CGY-A-01",
+        "title": "Wander Johnston Canyon to the Ink Pots",
+        "description": "Follow the canyon boardwalk past two roaring waterfalls before climbing out to the cold mineral springs waiting at the top.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Jun–Oct",
+        "spark": 12,
+        "bonus": "Count how many waterfalls you pass along the canyon boardwalk.",
+        "city": "Banff, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Johnston+Canyon+Ink+Pots+Banff"
+      },
+      {
+        "id": "CGY-AC-04",
+        "title": "Half-day ski or snowboard at Sunshine Village",
+        "description": "Ride terrain spanning the Continental Divide at one of the Rockies' biggest resorts.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "Half day",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Nov–Apr",
+        "spark": 28,
+        "bonus": "Take one run you've never tried — moguls, trees, or a black diamond.",
+        "city": "Banff, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunshine+Village+Ski+Resort+Banff"
       }
     ],
     "culture": [
@@ -514,6 +619,66 @@
           "solo",
           "couple"
         ]
+      },
+      {
+        "id": "CGY-F-04",
+        "title": "Elk burger and a flight at Banff Ave Brewing Co.",
+        "description": "Pair a wild-game burger with a flight of four house beers on Banff's main strip after a day on the trails.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Try a flight of four beers instead of just one pint.",
+        "city": "Banff, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Banff+Ave+Brewing+Co"
+      },
+      {
+        "id": "CGY-F-02",
+        "title": "Brunch at OEB Breakfast Co.",
+        "description": "Dig into one of Calgary's most over-the-top brunch plates at the city's most talked-about breakfast spot.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the most over-the-top dish on the menu.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/OEB+Breakfast+Co+Calgary"
+      },
+      {
+        "id": "CGY-F-03",
+        "title": "Tasting menu at Model Milk",
+        "description": "Settle in for a multi-course tasting menu inside a converted 1920s dairy building in Calgary's Beltline.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Let the server pick your wine pairing.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Model+Milk+Calgary"
+      },
+      {
+        "id": "CGY-F-01",
+        "title": "Cinnamon bun at Wild Flour Bakery",
+        "description": "Grab a still-warm cinnamon bun from Banff's favorite bakery and eat it standing on the sidewalk before it cools.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Eat it outside, still warm, before it cools.",
+        "city": "Banff, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Wild+Flour+Bakery+Banff"
       }
     ],
     "social": [
@@ -598,6 +763,26 @@
         "adult": true
       },
       {
+        "id": "CGY-S-12",
+        "title": "Whisky Tasting at Eau Claire Distillery",
+        "description": "Alberta's first craft distillery, in a restored 1929 dance hall in Turner Valley, making grain-to-glass whisky and gin from prairie barley.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Guess the botanical in the gin before they tell you.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Eau+Claire+Distillery+Turner+Valley+AB",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
         "id": "CGY-S-10",
         "title": "Speakeasy Cocktails at Betty Lou's Library",
         "description": "Knock at an unmarked door on 4th Street, give the password, and step into a book-lined prohibition room with a serious cocktail list.",
@@ -655,6 +840,66 @@
           "group"
         ],
         "adult": true
+      },
+      {
+        "id": "CGY-S-03",
+        "title": "Sunset gondola ride and dinner atop Sulphur Mountain",
+        "description": "Ride the gondola up for dinner with the entire Bow Valley glowing gold and then blue beneath your table.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5–3 hrs",
+        "durationMins": 165,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 38,
+        "bonus": "Stay for the last gondola down after the sun fully sets.",
+        "city": "Banff, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Banff+Gondola"
+      },
+      {
+        "id": "CGY-S-01",
+        "title": "Trivia night at National on 10th",
+        "description": "Grab a table at this Calgary brewpub for a loud, competitive trivia night with beer flights on tap.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Team up with a table of strangers for one round.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/National+on+10th+Calgary"
+      },
+      {
+        "id": "CGY-S-04",
+        "title": "Live music night at Ironwood Stage & Grill",
+        "description": "Catch a local band at this no-frills Inglewood venue where the music matters more than the room.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Request a song from a local band between sets.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Ironwood+Stage+Grill+Calgary"
+      },
+      {
+        "id": "CGY-S-02",
+        "title": "Rooftop patio at Trolley 5 Restaurant & Brewery",
+        "description": "Catch the evening sun on 17th Avenue's rooftop patio with a house beer flight and a crowd spilling onto the street below.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Order a beer flight and vote on a house favorite with your table.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Trolley+5+Restaurant+Brewery+Calgary"
       }
     ],
     "chill": [
@@ -771,6 +1016,66 @@
           "solo",
           "couple"
         ]
+      },
+      {
+        "id": "CGY-C-02",
+        "title": "Golden-hour walk through Prince's Island Park",
+        "description": "Cross the footbridges onto Calgary's downtown island park as the light turns gold over the Bow River.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Cross both footbridges onto the island before turning back.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Princes+Island+Park+Calgary"
+      },
+      {
+        "id": "CGY-C-04",
+        "title": "Drive the Icefields Parkway to Peyto Lake",
+        "description": "Wind along one of the world's most scenic highways to a viewpoint over a lake so blue it looks unreal.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 22,
+        "bonus": "Find the angle where the lake looks like a wolf's head.",
+        "city": "Banff, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Peyto+Lake+Viewpoint+Banff"
+      },
+      {
+        "id": "CGY-C-01",
+        "title": "Soak in the Banff Upper Hot Springs",
+        "description": "Ease into a steaming mineral pool built into the mountainside with cold peaks framing the view.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Watch for mountain goats on the cliffs above the pool.",
+        "city": "Banff, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Banff+Upper+Hot+Springs"
+      },
+      {
+        "id": "CGY-C-03",
+        "title": "Browse the galleries at Studio Bell",
+        "description": "Wander Canada's national music centre, where instruments from a legendary rock star's piano to century-old organs sit behind glass.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Try one of the interactive instrument exhibits.",
+        "city": "Calgary, AB",
+        "mapsUrl": "https://maps.google.com/maps/search/Studio+Bell+National+Music+Centre+Calgary"
       }
     ]
   }

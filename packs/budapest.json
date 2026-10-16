@@ -1,8 +1,8 @@
 {
   "id": "budapest",
-  "name": "budapest",
-  "location": "",
-  "emoji": "📍",
+  "name": "Budapest",
+  "location": "Hungary",
+  "emoji": "♨️",
   "isDefault": false,
   "cards": {
     "social": [

@@ -1,8 +1,8 @@
 {
   "id": "san-juan",
-  "name": "san-juan",
-  "location": "",
-  "emoji": "📍",
+  "name": "San Juan",
+  "location": "Puerto Rico",
+  "emoji": "🐸",
   "isDefault": false,
   "cards": {
     "culture": [

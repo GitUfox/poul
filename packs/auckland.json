@@ -1,8 +1,8 @@
 {
   "id": "auckland",
-  "name": "auckland",
-  "location": "",
-  "emoji": "📍",
+  "name": "Auckland",
+  "location": "New Zealand",
+  "emoji": "🥝",
   "isDefault": false,
   "cards": {
     "culture": [
@@ -279,6 +279,66 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "AKL-C-02",
+        "title": "Sunset at Mission Bay",
+        "description": "Grab a gelato from the strip and watch the sun drop behind Rangitoto from the Mission Bay fountain lawn.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 11,
+        "bonus": "Stay until the streetlights come on",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Mission+Bay+Auckland"
+      },
+      {
+        "id": "AKL-C-03",
+        "title": "Browse the Auckland Art Gallery Toi o Tāmaki",
+        "description": "Wander the country's largest art collection beneath a striking kauri-and-steel canopy in the CBD.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick one piece you'd hang in your own home",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Auckland+Art+Gallery+Toi+o+Tamaki+Auckland"
+      },
+      {
+        "id": "AKL-C-01",
+        "title": "Wander the Auckland Domain Wintergardens",
+        "description": "Step into Victorian glasshouses full of tropical ferns and temperate blooms in the city's oldest park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Find the oldest plant in the glasshouse",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Wintergardens+Auckland+Domain+Auckland"
+      },
+      {
+        "id": "AKL-C-04",
+        "title": "Ferry to Devonport for a Slow Afternoon",
+        "description": "Cross the harbour to Devonport's Victorian villas, indie cafés, and volcanic cone views a world away from the CBD.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Climb North Head for the harbour view",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Devonport+Auckland"
       }
     ],
     "8ball": [
@@ -481,6 +541,51 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "AKL-S-01",
+        "title": "Friday Night on Karangahape Road",
+        "description": "Bar-hop K Road's indie bars, late-night noodle spots, and live music between Auckland's most eclectic strip.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Talk to someone at the bar you don't know",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Karangahape+Road+Auckland"
+      },
+      {
+        "id": "AKL-S-02",
+        "title": "Sail the Waitematā Harbour",
+        "description": "Join a group sailing trip on the water that earned Auckland its nickname, the City of Sails.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Take a turn at the helm",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Americas+Cup+Sailing+Experience+Viaduct+Harbour+Auckland"
+      },
+      {
+        "id": "AKL-S-04",
+        "title": "Sundowners at Viaduct Harbour",
+        "description": "Waterfront bars fill with boats and post-work crowds as the sun sets over the marina.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Count how many boats you can name",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Viaduct+Harbour+Auckland"
       }
     ],
     "foodie": [
@@ -637,6 +742,36 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "AKL-F-04",
+        "title": "Fresh Seafood at Auckland Fish Market",
+        "description": "Pick your catch from the ice and have it grilled to order dockside on the Wynyard Quarter waterfront.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 17,
+        "bonus": "Try a seafood you've never eaten before",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Auckland+Fish+Market+Wynyard+Quarter+Auckland"
+      },
+      {
+        "id": "AKL-F-01",
+        "title": "Wine Tasting on Waiheke Island",
+        "description": "Ferry out to the \"Island of Wine\" and hop between boutique vineyards overlooking the Hauraki Gulf all afternoon.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 42,
+        "bonus": "Ask the winemaker which vintage is their personal favorite",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Mudbrick+Vineyard+Waiheke+Island"
       }
     ],
     "adventure": [
@@ -795,6 +930,111 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "AKL-A-01",
+        "title": "Hike the Lava Caves and Summit of Rangitoto Island",
+        "description": "Ferry across the gulf to Auckland's youngest volcano and hike black lava fields to a crater-rim view of the whole city.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Half day",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Duck into a lava cave along the trail",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Rangitoto+Island+Auckland"
+      },
+      {
+        "id": "AKL-A-02",
+        "title": "Climb the Auckland Harbour Bridge",
+        "description": "Clip in with AJ Hackett and walk steel cables 65 metres above the harbour for a view no ferry can match.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Wave at a boat passing underneath",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Auckland+Bridge+Climb+AJ+Hackett+Auckland"
+      },
+      {
+        "id": "AKL-AC-01",
+        "title": "Summit Mount Eden (Maungawhau) at Sunrise",
+        "description": "Walk the steepest volcanic cone in the city before the crowds for a 360-degree dawn view over Auckland.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Watch the sun clear the horizon from the crater rim",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Eden+Maungawhau+Auckland"
+      },
+      {
+        "id": "AKL-AC-03",
+        "title": "Kayak to Rangitoto Island",
+        "description": "Paddle across the channel from St Heliers to the volcano, a proper arm workout with a crater-summit reward.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Race the person paddling next to you the last 100 metres",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Auckland+Sea+Kayaks+Rangitoto+tour+Auckland"
+      },
+      {
+        "id": "AKL-AC-02",
+        "title": "SkyJump from the Sky Tower",
+        "description": "Step off a platform 192 metres up and free-fall on a wire above the CBD — Auckland's signature adrenaline rush.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 48,
+        "bonus": "Keep your eyes open the whole way down",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/SkyJump+Sky+Tower+Auckland"
+      },
+      {
+        "id": "AKL-AC-04",
+        "title": "Walk or Run the Cornwall Park & One Tree Hill Loop",
+        "description": "Loop volcanic cone trails past grazing sheep and century-old pōhutukawa trees minutes from the city centre.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–1.5 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 11,
+        "bonus": "Say hello to a sheep",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Cornwall+Park+One+Tree+Hill+Auckland"
+      },
+      {
+        "id": "AKL-A-03",
+        "title": "Surf or Swim at Piha Beach",
+        "description": "Feel the Tasman Sea pound black volcanic sand beneath the watch of Lion Rock on Auckland's wildest west coast beach.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Swim between the flags, no exceptions",
+        "city": "Auckland, New Zealand",
+        "mapsUrl": "https://maps.google.com/maps/search/Piha+Beach+Auckland"
       }
     ]
   }

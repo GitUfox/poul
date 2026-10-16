@@ -1,0 +1,1204 @@
+{
+  "id": "lake-tahoe",
+  "name": "Lake Tahoe",
+  "location": "California · Nevada",
+  "emoji": "🚤",
+  "isDefault": false,
+  "cards": {
+    "8ball": [
+      {
+        "id": "TAH-8B-02",
+        "title": "Get In the Water Wherever You First Reach It",
+        "description": "No chosen beach and no research — drive until the lake is on your left, stop at the first place you can legally park, and swim there.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Stay in for a full sixty seconds. It is thirteen degrees in July.",
+        "city": "Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Tahoe+public+beach+access",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-8B-01",
+        "title": "Drive the Entire Seventy-Two-Mile Loop in One Day",
+        "description": "Go all the way round the lake in one unbroken circuit, cross the state line twice, and stop at every single pullout that has a view.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Get into the water at one point on each of the four shores.",
+        "city": "Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Tahoe+Scenic+Byway+Emerald+Bay+Road",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "TAH-CU-07",
+        "title": "A Concert in the Valhalla Boathouse Theatre",
+        "description": "A 1923 boathouse converted into a tiny theatre with the lake directly behind the stage wall, seating not many more than a hundred people.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Jun–Sep",
+        "spark": 24,
+        "bonus": "Walk out onto the beach at the interval instead of queueing for a drink.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Valhalla+Tahoe+Boathouse+Theatre+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-CU-05",
+        "title": "The Donner Party Story at Donner Memorial",
+        "description": "A state park museum at the exact spot the wagon party was trapped, with a monument whose pedestal is built to the height of that winter's snow.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stand at the base of the monument and look up to where the snowline was.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Donner+Memorial+State+Park+Visitor+Center+Truckee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-CU-02",
+        "title": "Thunderbird Lodge, the Bootlegger's Estate",
+        "description": "George Whittell's 1936 stone lodge on the Nevada shore, with a lighthouse, an underground tunnel to the boathouse, and a mahogany yacht still in it.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Arrive by boat to the private dock rather than by road.",
+        "city": "Incline Village, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Thunderbird+Lodge+Incline+Village+NV",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-CU-08",
+        "title": "Truckee's Rail Town and the Old Jail",
+        "description": "A downtown that is still laid out around the transcontinental line, with a stone jail from 1875 that held prisoners until 1964 and is now open to walk through.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 12,
+        "bonus": "Stand on the platform and wait for a freight train to actually come through.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Truckee+Old+Jail+Museum+Jibboom+Street+Truckee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-CU-03",
+        "title": "Shakespeare on the Sand at Sand Harbor",
+        "description": "A permanent amphitheatre built on the beach, where the back of the stage is open to the lake and the sun goes down behind the second act.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Jul–Aug",
+        "spark": 27,
+        "bonus": "Take the sand seats down front rather than a bench, and bring a blanket.",
+        "city": "Incline Village, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Tahoe+Shakespeare+Festival+Sand+Harbor+Incline+Village",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-CU-01",
+        "title": "Tour Vikingsholm, the Castle in Emerald Bay",
+        "description": "A 1929 Scandinavian mansion built with hand-hewn timber and sod roofs at the head of Emerald Bay, reached only by a mile of trail down from the highway.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Late May–Sep",
+        "spark": 25,
+        "bonus": "Look across at Fannette Island and find the stone teahouse on top of it.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Vikingsholm+Emerald+Bay+State+Park+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-CU-04",
+        "title": "Washoe Baskets at the Gatekeeper's Museum",
+        "description": "A rebuilt log cabin at the lake's only outlet, holding one of the best Native American basket collections anywhere and shoreline photographs from 1916.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Find the finest-woven basket in the Steinbach collection and count the stitches per inch.",
+        "city": "Tahoe City, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Gatekeepers+Museum+Tahoe+City",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TAH-CU-06",
+        "title": "The Pope Estate at the Tallac Historic Site",
+        "description": "Three lakefront summer estates from Tahoe's robber-baron era, left standing in the pines with the boathouses and servants' quarters intact.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 13,
+        "bonus": "Walk the whole site without going inside anything and just read the grounds.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Tallac+Historic+Site+Pope+Estate+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "TAH-S-07",
+        "title": "Pizza and Taps at Lake Tahoe AleWorX",
+        "description": "A self-pour tap wall where you take a card, pour your own by the ounce, and eat a stone-fired pizza standing up between pours.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pour four one-ounce tasters of things you would never order a pint of.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Tahoe+AleWorX+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-05",
+        "title": "Blackjack on the State Line at Bally's",
+        "description": "Forty-five thousand square feet of casino floor sitting exactly on the Nevada border, so the tables are a two-minute walk from California.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Set a hard walk-away number before you sit down and actually honour it.",
+        "city": "Stateline, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Ballys+Lake+Tahoe+Stateline+NV",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-03",
+        "title": "A Show in the Crown Room at Crystal Bay Casino",
+        "description": "A 1937 state-line casino with a ballroom that books acts far bigger than the room should get, and a small Red Room bar for when the set ends.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stand at the front for the whole set instead of drifting to the bar.",
+        "city": "Crystal Bay, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Crystal+Bay+Casino+Crown+Room+Crystal+Bay+NV",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-06",
+        "title": "A Flight at South Lake Brewing",
+        "description": "The south shore's biggest production brewery, with a dog-friendly beer garden, cornhole, and whatever food truck has parked up that evening.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the flight and rank all four before you read what the board says they are.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/South+Lake+Brewing+Company+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-09",
+        "title": "Alpine Beers at Sidellis Lake Tahoe",
+        "description": "A small brewery doing German and Belgian styles properly, in a taproom that locals use and visitors mostly drive past.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask the brewer which beer they are proudest of and drink only that.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Sidellis+Lake+Tahoe+Brewery+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-12",
+        "title": "The Donner Pass Road Crawl",
+        "description": "Four blocks of historic Truckee with a brewery, a corner bar and a public house on it, which is the whole night planned without a car.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Have exactly one drink in each place and let the last bartender pick the fourth.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Donner+Pass+Road+Historic+Downtown+Truckee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-11",
+        "title": "Late Night at the Golden Nugget Lake Tahoe",
+        "description": "The Stateline casino that came out of a $227 million rebuild, which is the one place on the lake still properly awake at two in the morning.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the quietest table on the floor and stay at it an hour.",
+        "city": "Stateline, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Golden+Nugget+Lake+Tahoe+Stateline+NV",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-08",
+        "title": "Bratwurst and Boots at Himmel Haus",
+        "description": "A Bavarian beer hall at the bottom of the Heavenly access road, with litre steins, long shared tables and a room that gets rowdy early.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Commit to the full litre rather than the sensible half.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Himmel+Haus+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-04",
+        "title": "Last Call at Bar of America",
+        "description": "The corner bar in the old Bank of America building at the main Truckee crossroads, open seven days and the default end to any night in town.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Make friends with whoever is next to you at the bar before you order a second.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+of+America+Donner+Pass+Road+Truckee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-10",
+        "title": "Brewer's Choice at South of North",
+        "description": "The south shore's most experimental taproom, where the board changes constantly and half of it is something you have not seen before.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Drink only beers you cannot identify the style of.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/South+of+North+Brewing+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-02",
+        "title": "FiftyFifty's New Railyard Brewpub",
+        "description": "Truckee's best-known brewery opened a flagship in the Railyard district in 2026, which means the barrel-aged stouts finally have a room worth drinking them in.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Ask what is currently in barrels and order the oldest thing they will pour you.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/FiftyFifty+Brewing+Railyard+Truckee",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-S-01",
+        "title": "Pints at Alibi's Incline Public House",
+        "description": "The North Shore brewery's Nevada-side pub, sixteen-plus taps deep, brewing with lake water and usually loud by nine.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the one beer on the board that is only ever poured on site.",
+        "city": "Incline Village, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Alibi+Ale+Works+Incline+Public+House+Incline+Village",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "TAH-C-05",
+        "title": "Kiva Beach, Where the Dogs Are Allowed",
+        "description": "A flat sandy strip on the south shore with Mount Tallac filling the view across the water, and the rare Tahoe beach that lets dogs run.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 12,
+        "bonus": "Walk west along the sand until the parking lot noise is gone completely.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Kiva+Beach+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-C-06",
+        "title": "Watch the Kokanee Run at Taylor Creek",
+        "description": "Every October the creek turns scarlet with spawning salmon, and a streamside window at the visitor centre lets you watch it from under the waterline.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Oct",
+        "spark": 14,
+        "bonus": "Find the underwater viewing chamber before you walk the surface trail, not after.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Taylor+Creek+Visitor+Center+Rainbow+Trail+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-C-10",
+        "title": "The Spooner Lake Loop When the Aspens Turn",
+        "description": "An easy two-mile loop around a small lake through one of the biggest aspen groves in Nevada, which goes completely gold for two weeks in October.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Sep–Oct",
+        "spark": 12,
+        "bonus": "Find a carved aspen trunk with a date on it from before you were born.",
+        "city": "Glenbrook, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Spooner+Lake+Lake+Tahoe+Nevada+State+Park+Glenbrook",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-C-08",
+        "title": "The Emerald Bay Cruise on the M.S. Dixie II",
+        "description": "A paddlewheeler out of Zephyr Cove that crosses to Emerald Bay and sits off Fannette Island while someone narrates how all of it got there.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stay on the open top deck the whole crossing even if it is cold.",
+        "city": "Zephyr Cove, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/MS+Dixie+II+Zephyr+Cove+Marina+Zephyr+Cove",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-C-09",
+        "title": "Swim Down to Chimney Beach on the East Shore",
+        "description": "A steep ten-minute trail down from the highway to a cove with a stone chimney standing on the sand, and water that is almost uncomfortably clear.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 13,
+        "bonus": "Swim out to the first big rock offshore and climb onto it.",
+        "city": "Incline Village, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Chimney+Beach+Trailhead+Lake+Tahoe+Nevada",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-C-07",
+        "title": "A Commons Beach Afternoon in Tahoe City",
+        "description": "A grassy terraced park stepping straight down into the lake in the middle of town, with free concerts most summer Sundays.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Jun–Sep",
+        "spark": 12,
+        "bonus": "Go on a concert afternoon and stay for a band you have never heard of.",
+        "city": "Tahoe City, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Commons+Beach+Park+Tahoe+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-C-03",
+        "title": "Word After Word, and the Record Cellar Below It",
+        "description": "Truckee's independent bookshop on Donner Pass Road, with a vinyl store in the basement that most people walk past without noticing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a record you have never heard on the strength of the sleeve alone.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Word+After+Word+Books+Donner+Pass+Road+Truckee",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TAH-C-02",
+        "title": "Dark Horse Coffee on the Truckee River",
+        "description": "A small roastery on West River Street where the coffee is taken seriously and the back of the building faces the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Take the cup across to the river bank and drink it there instead of inside.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Dark+Horse+Coffee+Roasters+West+River+Street+Truckee",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TAH-C-01",
+        "title": "Sunrise on the Boulders at Sand Harbor",
+        "description": "The most photographed water in the Sierra, with granite boulders sitting in six feet of it, and for one hour a day it belongs to almost nobody.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get in before the sun is fully up, cold as it is.",
+        "city": "Incline Village, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Sand+Harbor+Lake+Tahoe+Nevada+State+Park+Incline+Village",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "TAH-C-04",
+        "title": "Soak at Grover Hot Springs",
+        "description": "A pair of state park pools fed by mineral springs in a meadow ringed by peaks, forty-five minutes south of the lake and worth the drive.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Alternate the hot pool and the cold pool three times before you leave.",
+        "city": "Markleeville, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Grover+Hot+Springs+State+Park+Markleeville",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "TAH-F-09",
+        "title": "The Rum Runner at The Grove, Camp Richardson",
+        "description": "A beach bar under the pines at the old resort on the south shore, built around a frozen rum drink people drive an hour for.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 25,
+        "bonus": "Take it out of the building and drink it standing in the shallows.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Grove+Camp+Richardson+Jameson+Beach+Road+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-F-10",
+        "title": "Wet-Dock Dinner at Riva Grill",
+        "description": "A Ski Run Marina dining room with the water directly under the windows, a boat-in dock, and a bar that stays loud after the plates go.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the Wet Woody's rival drink and decide for yourself which marina wins.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Riva+Grill+Ski+Run+Boulevard+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-F-12",
+        "title": "The Red Hut Waffle Before a Powder Day",
+        "description": "A 1959 counter-service diner that the whole south shore eats at before the lifts open, and the waffle is the reason.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit at the counter and let the regulars tell you which mountain to go to.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Red+Hut+Cafe+Lake+Tahoe+Boulevard+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-F-11",
+        "title": "Greek Breakfast on the Water at Artemis",
+        "description": "A Mediterranean kitchen tucked into Ski Run Marina doing gyros and lemon potatoes at a table ten feet from the boat slips.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Skip the American breakfast entirely and order the thing you cannot pronounce.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Artemis+Lakefront+Cafe+Ski+Run+Boulevard+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-F-04",
+        "title": "Dinner and a Set at Moody's Bistro, Bar & Beats",
+        "description": "The ground floor of the 1873 Truckee Hotel, where a proper kitchen and a live band share the same room most nights of the week.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stay in your seat through the whole second set instead of leaving after dessert.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Moodys+Bistro+Bar+and+Beats+Bridge+Street+Truckee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-F-02",
+        "title": "The Tasting Menu at Restaurant Trokay",
+        "description": "A tiny chef-driven room on Donner Pass Road doing the most serious cooking in the mountains, course by course with the wine matched to each one.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Take the pairing rather than a bottle and ask why each glass was chosen.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Restaurant+Trokay+Donner+Pass+Road+Truckee",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "TAH-F-05",
+        "title": "Breakfast at Fire Sign Café Before Anyone Else",
+        "description": "A West Shore cabin that has been doing coffee cake, house-smoked salmon and a forty-minute wait since 1978, which you avoid by turning up at seven.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat on the back deck under the pines rather than inside.",
+        "city": "Tahoe City, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Fire+Sign+Cafe+West+Lake+Boulevard+Tahoe+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-F-03",
+        "title": "Handmade Pasta at Pianeta",
+        "description": "A dim, narrow Italian room in historic downtown Truckee where the pasta is rolled in-house and the bar is a fine place to eat alone.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order whatever pasta the server says they would eat, not the one you came in wanting.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Pianeta+Ristorante+Donner+Pass+Road+Truckee",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-F-01",
+        "title": "Lakefront Lunch on the Sunnyside Deck",
+        "description": "The West Shore's long wooden deck right on the water, where the move is fish tacos, the famous hula pie, and two hours of doing nothing else.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Arrive by boat and tie up at the pier instead of parking.",
+        "city": "Tahoe City, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Sunnyside+Restaurant+and+Lodge+Tahoe+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-F-07",
+        "title": "Sunset on the Cottonwood Deck",
+        "description": "A hilltop restaurant in the old Truckee ski lodge, with braised shanks and a deck that locals will tell you has the best sunset in town.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Book for ninety minutes before sundown and order slowly on purpose.",
+        "city": "Truckee, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Cottonwood+Restaurant+Rue+Hilltop+Truckee",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-F-06",
+        "title": "A Wet Woody on the Pier at Gar Woods",
+        "description": "Carnelian Bay's pier restaurant and the rum drink it invented, served in a souvenir glass at a table standing out over the water.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Sit at the very end of the pier and stay until the light goes off the far shore.",
+        "city": "Carnelian Bay, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Gar+Woods+Grill+and+Pier+Carnelian+Bay",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "TAH-F-08",
+        "title": "Après-Ski Pizza at Base Camp in Heavenly Village",
+        "description": "The pizza place at the bottom of the gondola that absorbs the whole mountain at four o'clock, with a fire pit and a stage outside the door.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Go straight there in your boots without changing first.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Base+Camp+Pizza+Co+Heavenly+Village+Way+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "TAH-A-11",
+        "title": "Bike the East Shore Trail to Sand Harbor",
+        "description": "Three paved miles of boardwalk and bridge clinging to the cliffs between Incline Village and Sand Harbor, with pullouts straight down onto the boulders.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 23,
+        "bonus": "Take the stairs down to Hidden Beach on the way and get in the water.",
+        "city": "Incline Village, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Tahoe+East+Shore+Trail+Incline+Village",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-14",
+        "title": "First Chair at Mt. Rose, the Highest Base in Tahoe",
+        "description": "A base area at 8,260 feet means it opens early and holds snow late, and the Chutes off the top are the steepest lift-served terrain on the lake.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Nov–Apr",
+        "spark": 14,
+        "bonus": "Drop into the Chutes only after you have watched someone else do it first.",
+        "city": "Reno, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Mt+Rose+Ski+Tahoe+Reno+NV",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-16",
+        "title": "The Tahoe Rim Trail from Tahoe Meadows",
+        "description": "The easiest entry onto the 165-mile rim trail — a high meadow start that climbs gently to the lake views without a single switchback fight.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Jun–Oct",
+        "spark": 13,
+        "bonus": "Keep walking until you can no longer hear the highway, then eat lunch there.",
+        "city": "Incline Village, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Tahoe+Meadows+Trailhead+Tahoe+Rim+Trail+Incline+Village",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-15",
+        "title": "The Treetop Course Above Tahoe Vista",
+        "description": "Bridges, cargo nets and ziplines strung between Jeffrey pines, with the routes graded so you can keep moving up until one of them scares you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 13,
+        "bonus": "Do the hardest course last and go first on every obstacle.",
+        "city": "Tahoe Vista, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Tahoe+Vista+Treetop+Adventure+Park+Donner+Road",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-12",
+        "title": "Snowmobile the Ridgeline Out of Zephyr Cove",
+        "description": "Climb out of the pines on a guided machine to an open ridge at 9,000 feet where the whole lake sits below you in the snow.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Dec–Mar",
+        "spark": 25,
+        "bonus": "Kill the engine at the top viewpoint and stand in the silence for a minute.",
+        "city": "Zephyr Cove, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Zephyr+Cove+Resort+Snowmobile+Center+Zephyr+Cove",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-10",
+        "title": "Launch a Hot Air Balloon Off a Boat in the Middle of the Lake",
+        "description": "A balloon that inflates and lifts off from the deck of a barge out on the water, then sets back down on it an hour later — the only operation of its kind anywhere.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Be on the barge for the inflation rather than watching it from the rail.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Tahoe+Balloons+Tahoe+Keys+Marina+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-13",
+        "title": "Ski the Olympic Terrain at Palisades Tahoe",
+        "description": "Six thousand acres across two linked mountains, including the 1960 Olympic downhill runs and the steeps under the tram that made this place a legend.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Nov–May",
+        "spark": 15,
+        "bonus": "Ride the Headwall chair and ski one thing you would normally traverse around.",
+        "city": "Olympic Valley, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Palisades+Tahoe+Olympic+Valley",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-09",
+        "title": "Float the Truckee River to River Ranch",
+        "description": "Five miles of lazy Class I water out of Tahoe City, with nothing to do but drift, swim, and end up at a riverside deck with a drink in your hand.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "May–Sep",
+        "spark": 14,
+        "bonus": "Get out at the halfway bend and walk back up to float the best stretch twice.",
+        "city": "Tahoe City, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Truckee+River+Rafting+River+Road+Tahoe+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-01",
+        "title": "Eagle Falls to Eagle Lake Above Emerald Bay",
+        "description": "A short, steep granite scramble past the waterfall to a glacial lake sitting in a bowl of rock, with Emerald Bay dropping away behind you the whole climb.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 14,
+        "bonus": "Carry on past the lake until you have lost every other hiker, then turn around.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Eagle+Falls+Trailhead+Emerald+Bay+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-05",
+        "title": "Ride the Aerial Tram to High Camp",
+        "description": "Two thousand vertical feet in ten minutes up the face of the 1960 Olympic mountain, to a deck at 8,200 feet with the lake laid out beyond it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk the short loop behind High Camp until the crowd at the rail is out of sight.",
+        "city": "Olympic Valley, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Palisades+Tahoe+Aerial+Tram+Olympic+Valley",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-06",
+        "title": "Climb the Tram Face on the Tahoe Via Ferrata",
+        "description": "Clip into steel rungs bolted up the granite under the Palisades tram and climb a route that needs no experience and feels like it should.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Jun–Oct",
+        "spark": 40,
+        "bonus": "Look straight down between your boots at the tram cabin passing below you.",
+        "city": "Olympic Valley, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Tahoe+Via+Ferrata+Palisades+Tahoe+Olympic+Valley",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-08",
+        "title": "Ride the Flume Trail Out of Tunnel Creek",
+        "description": "A flat ribbon of singletrack cut into the mountainside a thousand feet above the water, following the line of an 1870s logging flume.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Jun–Oct",
+        "spark": 25,
+        "bonus": "Ride it on an e-bike and spend the saved effort on actually stopping at the viewpoints.",
+        "city": "Incline Village, NV",
+        "mapsUrl": "https://maps.google.com/maps/search/Flume+Trail+Bikes+Tunnel+Creek+Incline+Village",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-02",
+        "title": "The Rubicon Trail from D.L. Bliss to Vikingsholm",
+        "description": "Four and a half miles of shoreline trail cut into the cliff above the clearest water in the lake, ending at the Scandinavian castle in Emerald Bay.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Jun–Oct",
+        "spark": 24,
+        "bonus": "Find the spot where the water turns from turquoise to navy and swim across the line.",
+        "city": "Tahoma, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/D.L.+Bliss+State+Park+Rubicon+Trail+Tahoma",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-03",
+        "title": "Clear-Kayak the Sunken Forest in Emerald Bay",
+        "description": "Paddle a transparent kayak over the drowned pines on the floor of Emerald Bay, where the water is clear enough that the boat feels like it is hovering.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 40,
+        "bonus": "Stop paddling directly over the deepest tree you can find and just look down for a full minute.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Clearly+Tahoe+Tahoe+Keys+Marina+South+Lake+Tahoe",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-07",
+        "title": "Heavenly Gondola to the Observation Deck",
+        "description": "A 2.4-mile cable ride straight off the main drag in town to a platform at 9,123 feet where the lake and the Carson Valley sit on opposite sides of you.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get off at the mid-station deck on the way up as well as the way down.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Heavenly+Gondola+Heavenly+Village+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "TAH-A-04",
+        "title": "Summit Mount Tallac for the Whole Lake at Once",
+        "description": "The hardest day hike on the lake and the only one that puts all seventy-two miles of shoreline under you at the same time.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Jul–Oct",
+        "spark": 26,
+        "bonus": "Start in the dark so you are standing on the summit when the light hits the water.",
+        "city": "South Lake Tahoe, CA",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Tallac+Trailhead+South+Lake+Tahoe",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

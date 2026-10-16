@@ -1,8 +1,8 @@
 {
   "id": "anchorage",
-  "name": "anchorage",
-  "location": "",
-  "emoji": "📍",
+  "name": "Anchorage",
+  "location": "Alaska",
+  "emoji": "🐻",
   "isDefault": false,
   "cards": {
     "foodie": [

@@ -1,8 +1,8 @@
 {
   "id": "taipei",
-  "name": "taipei",
-  "location": "",
-  "emoji": "📍",
+  "name": "Taipei",
+  "location": "Taiwan",
+  "emoji": "🧋",
   "isDefault": false,
   "cards": {
     "chill": [
@@ -122,6 +122,66 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "TPE-C-03",
+        "title": "Morning at the National Palace Museum",
+        "description": "Wander one of the world's great collections of Chinese imperial art, from Song dynasty scrolls to Qing jade carvings.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the jadeite cabbage before the tour groups do",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/National+Palace+Museum+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-C-01",
+        "title": "Ride the Maokong Gondola",
+        "description": "Glide over tea plantations and forested hills in a cable car with Taipei 101 shrinking behind you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Book the glass-bottomed cabin",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Maokong+Gondola+Station+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-C-02",
+        "title": "Wander Huashan 1914 Creative Park",
+        "description": "Drift through a converted wine factory turned gallery-and-café complex, all exposed brick and rotating art.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 11,
+        "bonus": "Duck into whatever pop-up exhibit is showing",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Huashan+1914+Creative+Park+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-C-04",
+        "title": "Picnic at Da'an Forest Park",
+        "description": "Claim a patch of grass under the banyan trees and watch the city's downtown park hum with joggers, buskers, and tai chi circles.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Bring something to share with strangers on the next blanket",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Daan+Forest+Park+Taipei+Taiwan"
       }
     ],
     "culture": [
@@ -435,6 +495,51 @@
           "group"
         ],
         "adult": true
+      },
+      {
+        "id": "TPE-S-03",
+        "title": "Self-Pour Flight at Draft Land",
+        "description": "Pour your own flight from dozens of taps at this self-serve beer bar and compare notes with strangers at the next station.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Try five pours you've never heard of before repeating one",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Draft+Land+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-S-01",
+        "title": "Release a Sky Lantern in Shifen",
+        "description": "Ride the rails out to Shifen's old street, paint a wish on a paper lantern, and let it drift up over the tracks.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Write your wish on all four sides of the lantern",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Shifen+Old+Street+New+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-S-02",
+        "title": "KTV Night at Party World",
+        "description": "Book a private room, order a tower of snacks, and hand the mic around until closing.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "End the night on a duet",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Cashbox+Partyworld+Zhongxiao+Taipei"
       }
     ],
     "8ball": [
@@ -635,6 +740,96 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "TPE-A-01",
+        "title": "Sunset Hike Up Elephant Mountain",
+        "description": "Climb the stone steps of Xiangshan to the viewing platforms and watch Taipei 101 glow above the skyline at dusk.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay until the Taipei 101 lights switch on",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Elephant+Mountain+Xiangshan+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-A-04",
+        "title": "Explore the Rock Formations at Yehliu Geopark",
+        "description": "Walk the wind-carved coastline of Yehliu, where centuries of erosion sculpted a field of mushroom-shaped rock towers.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Find the Queen's Head rock formation",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Yehliu+Geopark+New+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-AC-04",
+        "title": "Sunrise Hike Up Qixing Mountain",
+        "description": "Push up Taipei's highest peak in the dark and watch the sun break over Yangmingshan's volcanic ridgeline from the summit.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "Half day",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 38,
+        "bonus": "Reach the summit before the sun clears the ridge",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Qixing+Mountain+Yangmingshan+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-AC-03",
+        "title": "Bouldering Session at Camp4",
+        "description": "Chalk up and work the walls at one of Taipei's most popular bouldering gyms, alongside a regular crew of climbers.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 20,
+        "bonus": "Attempt one route above your usual grade",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Camp4+Bouldering+Gym+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-A-02",
+        "title": "Waterfall Hike and Hot Springs in Wulai",
+        "description": "Ride the old trolley into the hills of Wulai, hike to the falls, then unwind in a riverside hot spring.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Soak your feet in the river before the springs",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Wulai+Waterfall+New+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-AC-01",
+        "title": "Bike the Tamsui River Path to Bali",
+        "description": "Ride the riverside bike path from downtown out to Bali District, then catch a ferry back across the strait.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 17,
+        "bonus": "Take the ferry back instead of biking",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Tamsui+River+Bike+Path+Taipei+Taiwan"
       }
     ],
     "foodie": [
@@ -791,6 +986,51 @@
           "solo",
           "couple"
         ]
+      },
+      {
+        "id": "TPE-F-04",
+        "title": "Tea Tasting on the Maokong Hillside",
+        "description": "Ride the gondola up to Maokong's tea terraces and work through a slow tasting flight of locally grown Tieguanyin.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 21,
+        "bonus": "Let the host walk you through a full gongfu pour",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Yao+Yue+Teahouse+Maokong+Taipei"
+      },
+      {
+        "id": "TPE-F-02",
+        "title": "Late-Night Crawl Through Raohe Street Night Market",
+        "description": "Enter through the temple gate and graze down Raohe's narrow lane of pepper buns, stinky tofu, and grilled skewers.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Try one food you can't identify",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Raohe+Street+Night+Market+Taipei+Taiwan"
+      },
+      {
+        "id": "TPE-F-03",
+        "title": "Beef Noodle Soup at Yong Kang Beef Noodle",
+        "description": "Slurp a bowl of slow-braised beef noodle soup at the shop many locals call the city's best.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask for extra chili oil",
+        "city": "Taipei, Taiwan",
+        "mapsUrl": "https://maps.google.com/maps/search/Yong+Kang+Beef+Noodle+Taipei+Taiwan"
       }
     ]
   }

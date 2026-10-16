@@ -23,6 +23,7 @@
  */
 require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), override: true });
 const { Client } = require('@notionhq/client');
+const { initPackType, packValue } = require('./pack-prop');
 const fs = require('fs');
 const path = require('path');
 
@@ -34,6 +35,7 @@ async function main() {
   if (!file) { console.error('Usage: node apply-review.js <decisions.json>'); process.exit(1); }
   const d = JSON.parse(fs.readFileSync(path.resolve(file), 'utf8'));
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
+  await initPackType(notion);
 
   let activated = 0, fixed = 0, created = 0;
 
@@ -65,7 +67,7 @@ async function main() {
       properties: {
         'Title':         { title: [{ text: { content: c.title } }] },
         'Card ID':       { rich_text: [{ text: { content: c.id } }] },
-        'Pack':          { select: { name: d.pack } },
+        'Pack':          packValue(d.pack),
         'Category':      { select: { name: c.category } },
         'Rarity':        { select: { name: c.rarity } },
         'City':          { rich_text: [{ text: { content: c.city } }] },

@@ -9,6 +9,7 @@
 
 require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), override: true });
 const { Client } = require('@notionhq/client');
+const { initPackType, packFilter } = require('./pack-prop');
 
 const DRY_RUN = process.argv.includes('--dry-run');
 const DB_ID   = '68dabc44-f31e-48d9-9dac-2a6d6edb4414';
@@ -63,6 +64,7 @@ async function main() {
   }
 
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
+  await initPackType(notion);   // read the live Pack shape once (see pack-prop.js)
   const results = { ok: [], notFound: [], ambiguous: [] };
 
   // Process pack-by-pack to minimize API calls
@@ -77,7 +79,7 @@ async function main() {
     // Fetch all active cards for this pack in one query
     const pages = await queryAll(notion, {
       and: [
-        { property: 'Pack',   select:   { equals: pack } },
+        packFilter(pack),
         { property: 'Active', checkbox: { equals: true  } },
       ],
     });

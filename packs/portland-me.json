@@ -1,8 +1,8 @@
 {
   "id": "portland-me",
-  "name": "portland-me",
-  "location": "",
-  "emoji": "📍",
+  "name": "Portland",
+  "location": "Maine",
+  "emoji": "⚓",
   "isDefault": false,
   "cards": {
     "8ball": [

@@ -1,8 +1,8 @@
 {
   "id": "osaka",
-  "name": "osaka",
-  "location": "",
-  "emoji": "📍",
+  "name": "Osaka",
+  "location": "Japan",
+  "emoji": "🐙",
   "isDefault": false,
   "cards": {
     "foodie": [

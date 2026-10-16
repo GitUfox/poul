@@ -1,8 +1,8 @@
 {
   "id": "tampa",
-  "name": "tampa",
-  "location": "",
-  "emoji": "📍",
+  "name": "Tampa · St. Petersburg",
+  "location": "Florida",
+  "emoji": "🐬",
   "isDefault": false,
   "cards": {
     "social": [

@@ -1,8 +1,8 @@
 {
   "id": "krakow",
-  "name": "krakow",
-  "location": "",
-  "emoji": "📍",
+  "name": "Kraków",
+  "location": "Poland",
+  "emoji": "🥟",
   "isDefault": false,
   "cards": {
     "social": [

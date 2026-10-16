@@ -1,0 +1,1198 @@
+{
+  "id": "kyoto",
+  "name": "Kyoto",
+  "location": "Japan",
+  "emoji": "⛩️",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "KYO-CU-07",
+        "title": "Kaomise Kabuki at the Minamiza",
+        "description": "Japan's oldest kabuki theatre runs its grand December season with the actors' names on painted boards above the entrance, which is the event of the Kyoto year.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Afternoon",
+        "season": "Dec",
+        "spark": 40,
+        "bonus": "Rent the English audio guide and follow one actor's role all the way through.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Minamiza+Theatre+Gion+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-CU-03",
+        "title": "Nijo Castle's Nightingale Floors",
+        "description": "The shogun's Kyoto palace, where the corridor floors were built to chirp under any footstep so nobody could approach unheard.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Try to cross one section of the floor silently. You cannot.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Nijo+Castle+Nakagyo+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-CU-05",
+        "title": "Gion Corner's Hour of Seven Arts",
+        "description": "One sitting covering tea ceremony, koto, flower arranging, court music, kyogen comedy, puppet theatre and a maiko dance, which is the shortcut to all of it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick the one art you liked most and go and find a full-length performance of it.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Gion+Corner+Yasaka+Hall+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-CU-08",
+        "title": "The Gekkeikan Okura Sake Museum",
+        "description": "A 1909 brewery warehouse in Fushimi showing how sake was made by hand, with the old cedar vats and tools in place and a tasting at the end.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Taste the one bottle the museum only sells on site and nowhere else.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Gekkeikan+Okura+Sake+Museum+Fushimi+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-CU-02",
+        "title": "Sanjusangendo's Thousand and One Kannon",
+        "description": "A hall 120 metres long holding 1,001 gilded wooden statues in ranks, carved in the twelfth and thirteenth centuries, every face slightly different.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Walk the full length looking for the one statue whose face resembles someone you know.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Sanjusangendo+Higashiyama+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-CU-01",
+        "title": "Ryoan-ji's Fifteen Rocks from the Veranda",
+        "description": "The most famous dry garden in the world is fifteen rocks in raked gravel, arranged so that you can never see all fifteen from any one spot on the veranda.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Try every position on the veranda and prove the fifteenth rock really is hidden.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Ryoanji+Temple+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-CU-04",
+        "title": "Kinkaku-ji, the Golden Pavilion",
+        "description": "Two floors covered in gold leaf standing in a reflecting pond, rebuilt in 1955 after a monk burned the original down, and worth the crowd exactly once.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Go at opening time and get the reflection before the pond surface is disturbed.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kinkakuji+Golden+Pavilion+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-CU-06",
+        "title": "A Tea Ceremony at Camellia on Ninenzaka",
+        "description": "A forty-five-minute ceremony in a small teahouse on the stone lane below Kiyomizu-dera, explained in English, where you whisk your own bowl at the end.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat the sweet before the tea, in the order you are told, and taste why.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Camellia+Tea+Ceremony+Flower+Ninenzaka+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "KYO-8B-01",
+        "title": "Get Off at a Station You Have Never Heard Of",
+        "description": "Take any local line out of the centre, ride past the stop you meant to use, get off somewhere with no listing in any guide, and spend the afternoon there.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Eat wherever has the most bicycles parked outside it.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Eizan+Electric+Railway+Demachiyanagi+Kyoto",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-8B-02",
+        "title": "Stay an Hour at the First Temple You Pass",
+        "description": "Kyoto has sixteen hundred temples and you were going to see four of them. Walk out of wherever you are staying and give a full hour to the first one you reach.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Do not look up its name until the hour is over.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/temples+in+Kyoto",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "KYO-S-09",
+        "title": "The Fushimi Sake District Tasting Walk",
+        "description": "Forty breweries in one canal-side district south of the city, with black timber warehouses, willow-lined water, and tasting rooms a few minutes apart.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Taste the same grade of sake at two different breweries back to back and name the difference.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Fushimi+Sake+District+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-S-03",
+        "title": "Sake Bar Yoramu's Eight-Seat Counter",
+        "description": "An Israeli sake expert pouring aged and obscure bottles you will not find anywhere else, from a counter with almost no seats in it.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Take the tasting flight and let him choose all three without input.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Sake+Bar+Yoramu+Nakagyo+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-S-10",
+        "title": "A Karaoke Box Off Kawaramachi",
+        "description": "Your own room, a tambourine nobody asked for, and drinks brought to the door until whatever hour you booked it to.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sing something in Japanese off the on-screen phonetics with no idea what it means.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/karaoke+Kawaramachi+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-S-07",
+        "title": "Bar K6's Whisky Wall",
+        "description": "A long-standing Kiyamachi counter bar with a back wall of single malts and a bartender who will talk you through it if you ask properly.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Say what you normally drink and let the bar talk you out of it.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+K6+Kiyamachi+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-S-08",
+        "title": "Hanamikoji After Dark, Main Street Only",
+        "description": "Gion's lantern-lit main street at nine at night, with wooden ochaya fronts on both sides and the occasional geiko crossing between appointments.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay on the public street the whole time and get one photo of the lanterns, not of a person.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Hanamikoji+Street+Gion+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-S-06",
+        "title": "Whisky at Bar Rocking Chair",
+        "description": "A dim counter bar off Kiyamachi built around Japanese whisky and properly made classics, with the unhurried pace Kyoto bartending is known for.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order a Japanese whisky you have never seen on a shelf outside Japan.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Rocking+Chair+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-S-04",
+        "title": "Kyoto Beer Lab on the Takase Canal",
+        "description": "A small brewery taproom beside the old canal doing beers brewed with matcha, hojicha and yuzu, which sounds gimmicky and is not.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Drink the tea-brewed beer before the normal one so you taste it properly.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kyoto+Beer+Lab+Shimogyo+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-S-11",
+        "title": "Jazz on Vinyl in a Kyoto Kissa",
+        "description": "A jazz kissa is a listening bar with a wall of records and a rule about not talking, built around a hi-fi somebody has spent decades on.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit through one full side of a record without saying a word.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/jazz+kissa+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-S-12",
+        "title": "Standing-Bar Hop Through Kiyamachi",
+        "description": "The canal street parallel to Pontocho, where tachinomi standing bars charge by the glass and nobody expects you to stay for a second.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "One drink per place, four places, and talk to someone in each.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kiyamachi+dori+Nakagyo+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-S-05",
+        "title": "Pontocho Alley, End to End",
+        "description": "A lane barely two metres wide running five blocks between Shijo and Sanjo, packed on both sides with bars and restaurants stacked three storeys up.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Walk the entire alley once before picking anywhere, then go back to the third place you liked.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Pontocho+Alley+Nakagyo+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-S-02",
+        "title": "L'Escamoteur's Steampunk Attic",
+        "description": "A magic-themed cocktail bar up a staircase in a narrow brick building, run by a French bartender who does sleight of hand across the counter.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Ask for a trick before you ask for a second drink.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/LEscamoteur+Bar+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-S-01",
+        "title": "Bee's Knees, Behind the Yellow Door",
+        "description": "A Prohibition-era speakeasy in Gion disguised as a bookshop, where the only way in is through a bright yellow door and the cocktails are worth the theatre.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order off the bartender's recommendation instead of the menu.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Bees+Knees+bar+Gion+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "KYO-C-10",
+        "title": "The Botanical Gardens by the Kamo",
+        "description": "Japan's oldest public botanical garden, on the river in the north of the city, with a conservatory and a cherry grove and hardly a tourist in it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the oldest tree on the site and work out what year it was planted.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kyoto+Botanical+Gardens+Kitayama+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-C-06",
+        "title": "The Kamo River Bank at Dusk",
+        "description": "Between Shijo and Sanjo the whole city comes down to sit on the grass in an evenly spaced row and watch the light go — students, couples, salarymen, buskers.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Buy a canned drink from a konbini and join the row at the regulation spacing.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kamo+River+Shijo+Bridge+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-C-09",
+        "title": "Daisen-in's Gardens Inside Daitoku-ji",
+        "description": "One walled Zen monastery holds two dozen sub-temples, and this one's dry gardens are read as a river running from the mountains out to an ocean of raked gravel.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Work out which garden is the mountains and which is the sea before reading the sign.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Daisen+in+Daitokuji+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-C-07",
+        "title": "Moss and Maples at Gio-ji",
+        "description": "A thatched hut and a carpet of moss at the quiet end of Arashiyama, built for a dancer who was abandoned by a warlord and became a nun.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit on the step of the hut and stay until someone else arrives.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Gioji+Temple+Sagano+Arashiyama+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-C-05",
+        "title": "The Open-Air Bath at Kurama Onsen",
+        "description": "A mountain hot spring at the end of the Eizan line where the outdoor pool sits in a cedar valley, and you reach it on the same trip as the Kurama hike.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Soak after the hike over from Kibune, not before it.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kurama+Onsen+Kurama+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-C-08",
+        "title": "Shosei-en, the Garden Behind the Station",
+        "description": "A walled stroll garden with a pond and teahouses ten minutes from Kyoto Station, which almost everyone arriving in the city walks straight past.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Go on your arrival day with your bag still in a locker and start the trip here.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Shoseien+Garden+Higashi+Honganji+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-C-02",
+        "title": "Weekenders Coffee in the Courtyard",
+        "description": "A tiny roastery hidden at the back of a car park in Nakagyo, in a restored machiya with a gravel garden and nowhere to sit but outside.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find it without checking the map more than once.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Weekenders+Coffee+Tominokoji+Nakagyo+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-C-01",
+        "title": "% Arabica on the Katsura River",
+        "description": "A glass box of a coffee bar on the Arashiyama riverbank, with a queue by ten and a view straight up the valley if you get there before it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the cup to the Togetsukyo bridge and drink it looking back at the mountain.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Arabica+Kyoto+Arashiyama",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-C-04",
+        "title": "Funaoka Onsen's 1923 Tiled Bathhouse",
+        "description": "A neighbourhood sento from 1923 with carved wooden transom panels, a tiny outdoor rock bath, and an electric bath that nobody warns you about.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get in the denki-buro, the electric one, for at least five seconds.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Funaoka+Onsen+Kamigyo+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-C-03",
+        "title": "Kurasu, the Roaster by Kyoto Station",
+        "description": "A pared-back specialty bar a few minutes from the station, which makes it the right first or last hour of any Kyoto trip.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask for the single origin on filter and drink it without sugar or milk.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kurasu+Kyoto+Stand+Kyoto+Station",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "KYO-F-10",
+        "title": "Kizakura Kappa Country in Fushimi",
+        "description": "A working sake brewery in the southern canal district with its own izakaya and a craft beer line, in a complex built around a water-goblin mascot.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drink the unpasteurised sake that only ever gets poured on the brewery site.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kizakura+Kappa+Country+Fushimi+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "KYO-F-12",
+        "title": "Dinner on a Yuka Platform Over the Kamo",
+        "description": "Every summer the Pontocho restaurants build wooden decks out over the river on stilts, and eating on one is the single most Kyoto thing available.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "May–Oct",
+        "spark": 25,
+        "bonus": "Book the platform rather than the indoor room, whatever the price difference.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Pontocho+Kamogawa+Noryo+Yuka+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-F-09",
+        "title": "Matcha and Wagashi at Ippodo's Kaboku Tearoom",
+        "description": "A tearoom at the back of a tea merchant trading since 1717, where they bring the whisk and the bowl and let you make the matcha yourself.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Make your own bowl rather than ordering it served, and get the froth right.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Ippodo+Tea+Kaboku+Tearoom+Kyoto+Main+Store",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-F-11",
+        "title": "Breakfast at Badu, Monk's Other Room",
+        "description": "The Monk team's second place, opened in 2025, doing a smaller daytime menu out of the same obsession with one oven and local produce.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Go on a weekday morning and take whatever the single daily option is.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Badu+restaurant+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-F-08",
+        "title": "Eat at the Stall at Nishiki Market",
+        "description": "Four hundred years of covered market in a lane five metres wide — tamagoyaki, pickles, soy milk doughnuts, grilled eel — eaten standing at the counter you bought it from.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy one thing you cannot identify and eat it before you ask what it was.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Nishiki+Market+Nakagyo+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-F-04",
+        "title": "Wood-Fired Dinner at Monk",
+        "description": "A twelve-seat room on the Philosopher's Path with one oven, one set menu, and a pizza that people book two months out to eat.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Do not ask what is coming next — let the whole set menu land unannounced.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Monk+restaurant+Philosophers+Path+Kyoto",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-F-01",
+        "title": "Kaiseki at Kikunoi Honten",
+        "description": "Three generations of the Murata family running the most serious kaiseki house in Japan, where the meal is built entirely around what week of the year it is.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask which single ingredient on the menu will be gone in a fortnight, and why.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kikunoi+Honten+Higashiyama+Kyoto",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-F-03",
+        "title": "Counter Kaiseki at Giro Giro Hitoshina",
+        "description": "A canal-side townhouse where young cooks in bandanas do a full kaiseki course at an open counter for a fraction of what the old houses charge.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Take a counter seat rather than a table and watch every plate get built.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Giro+Giro+Hitoshina+Kiyomizu+Gojo+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-F-05",
+        "title": "Tempura Endo Yasaka in Gion",
+        "description": "A Michelin-starred tempura house in a Gion townhouse, where each piece comes out of the oil onto your plate one at a time for two hours.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Eat every piece within ten seconds of it landing, which is the only correct way.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Tempura+Endo+Yasaka+Gion+Kyoto",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-F-06",
+        "title": "Burnt Miso Ramen at Kyoto Gogyo",
+        "description": "They scorch the miso broth in a wok over an open flame until it goes black, which sounds like a mistake and tastes like the best idea anyone has had.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the burnt soy sauce version too and split both bowls with whoever you came with.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kyoto+Gogyo+Ramen+Nakagyo+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-F-02",
+        "title": "Omen's Udon by Ginkaku-ji",
+        "description": "Thick cold noodles served with a bowl of broth and a plate of seven sesame-dressed vegetables you pile in yourself, at the end of the Philosopher's Path.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Put every vegetable in before you taste it, the way the counter tells you to.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Omen+Ginkakuji+Honten+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-F-07",
+        "title": "Menya Inoichi Hanare's Dashi Ramen",
+        "description": "A Michelin-listed shop that treats ramen broth like kaiseki stock, built from Rausu kombu and dried seafood instead of pork bones.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Drink the last of the broth straight from the bowl before you judge it.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Menya+Inoichi+Hanare+Shimogyo+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "KYO-A-16",
+        "title": "The Nanzen-ji Aqueduct and the Keage Incline",
+        "description": "A Meiji-era brick aqueduct running straight through the middle of a Zen temple, and the abandoned railway incline that used to haul canal boats up the hill.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the disused rails of the incline from top to bottom on the sleepers.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Nanzenji+Suirokaku+Aqueduct+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-11",
+        "title": "The Philosopher's Path, Ginkaku-ji to Nanzen-ji",
+        "description": "Two kilometres of canal-side stone path under cherry trees, named for the professor who walked it to work and thought about nothing else.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the whole length without taking your phone out once.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Philosophers+Path+Tetsugaku+no+michi+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-A-09",
+        "title": "Climb Iwatayama to the Monkeys Above Arashiyama",
+        "description": "A steep twenty-minute switchback up from the river to a hilltop where a hundred and twenty wild macaques live and the whole city sits behind them.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy the feed and hand it over from inside the hut, exactly as instructed.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Iwatayama+Monkey+Park+Arashiyama+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-12",
+        "title": "Sanzen-in and the Moss Floor at Ohara",
+        "description": "An hour north of the city into a mountain village where a temple garden's floor is unbroken moss under maples, and the tour buses mostly do not come.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the small stone jizo figures hidden in the moss — there are more than you will spot first time.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Sanzenin+Ohara+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-10",
+        "title": "Throw a Clay Disc Off the Cliff at Jingo-ji",
+        "description": "A mountain temple above the Kiyotaki valley where you buy unglazed clay discs and fling them off a terrace into the gorge to throw away your misfortune.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 24,
+        "bonus": "Throw one for something you have actually been carrying around, not a joke.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Jingoji+Takao+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-14",
+        "title": "Tofuku-ji's Maple Valley from the Tsutenkyo Bridge",
+        "description": "A covered wooden bridge spanning a ravine packed with two thousand maples, plus the best modern Zen gardens in the city behind it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do the four gardens of the Hojo first, while everyone else is queueing for the bridge.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Tofukuji+Temple+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-15",
+        "title": "Ride Out to Uji Along the River",
+        "description": "Half an hour south to the town that has grown Japan's best green tea for eight hundred years, with a phoenix-roofed temple from the year 1053 on the bank.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the Byodo-in's facade on a ten-yen coin while standing in front of the real thing.",
+        "city": "Uji, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Byodoin+Temple+Uji+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-13",
+        "title": "Cable Car and Funicular Up Mount Hiei",
+        "description": "Two linked mountain railways from the north of the city to a 1,200-year-old temple complex strung along a ridge above Lake Biwa.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 23,
+        "bonus": "Stay on the ridge long enough to see the lake on one side and Kyoto on the other.",
+        "city": "Otsu, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Enryakuji+Mount+Hiei+Otsu",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-05",
+        "title": "The Sagano Romantic Train with the Sides Open",
+        "description": "An old sightseeing railway along the Hozu gorge where you book the open-sided carriage and hang out over the river the whole way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Mar–Dec",
+        "spark": 15,
+        "bonus": "Ride the open car even in the cold, and sit on the river side.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Sagano+Romantic+Train+Torokko+Saga+Station+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-01",
+        "title": "Climb the Fushimi Inari Torii to the Summit",
+        "description": "Ten thousand vermilion gates climbing a wooded mountain, and almost nobody goes past the first twenty minutes to the shrine at the top.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Read the donor's name carved on the back of a gate somewhere above the halfway point.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Fushimi+Inari+Taisha+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-02",
+        "title": "Hike Over the Mountain from Kurama to Kibune",
+        "description": "A two-hour climb through cedar roots and mountain temples from one village to the next, ending at a river gorge lined with wooden inns.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 40,
+        "bonus": "Walk the stretch where the tree roots cover the whole path without touching the handrail.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kurama+dera+Kurama+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-08",
+        "title": "Kiyomizu-dera's Veranda and the Otowa Waterfall",
+        "description": "A wooden stage held forty feet above the hillside on timber columns and no nails, with three streams of spring water to drink from underneath it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick only one of the three streams and commit to whatever it grants.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kiyomizu+dera+Higashiyama+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-03",
+        "title": "The Arashiyama Bamboo Grove at First Light",
+        "description": "A corridor of bamboo fifty feet high that is shoulder-to-shoulder by nine in the morning and completely empty at six.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stand still with your eyes shut and listen to the stalks knocking together.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Arashiyama+Bamboo+Grove+Sagano+Kyoto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "KYO-A-07",
+        "title": "Daimonji-yama, the Hill with the Burning Character",
+        "description": "An hour's climb from behind Ginkaku-ji up to the giant kanji that gets set alight every August, with the entire city grid laid out below it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stand inside one of the stone fire beds that forms the character's strokes.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Daimonji+yama+Trailhead+Ginkakuji+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-04",
+        "title": "The Hozugawa River Boat Through the Gorge",
+        "description": "Two hours in a flat-bottomed wooden boat poled and rowed sixteen kilometres down a canyon from Kameoka, finishing at Arashiyama.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Buy something off the snack boat that pulls alongside near the end.",
+        "city": "Kameoka, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Hozugawa+River+Boat+Ride+Kameoka+Kyoto",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KYO-A-06",
+        "title": "Cycle the Kamo River End to End",
+        "description": "A flat riverside path with no traffic on it, running the length of the city past herons, buskers and students sitting in a row on the bank.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride as far north as the delta where the two rivers meet, then cross on the stepping stones.",
+        "city": "Kyoto, Japan",
+        "mapsUrl": "https://maps.google.com/maps/search/Kamo+River+Cycling+Path+Demachiyanagi+Kyoto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

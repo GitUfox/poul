@@ -16,6 +16,7 @@
 require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), override: true });
 const fs = require('fs');
 const { Client } = require('@notionhq/client');
+const { initPackType, readPack } = require('./pack-prop');
 
 const DB_ID = '68dabc44-f31e-48d9-9dac-2a6d6edb4414';
 const VALID = new Set(['adventure', 'foodie', 'social', 'culture', 'chill', '8ball']);
@@ -24,6 +25,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function main() {
   if (!process.env.NOTION_API_KEY) { console.error('Missing NOTION_API_KEY'); process.exit(1); }
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
+  await initPackType(notion);
   const mapping = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 
   for (const v of Object.values(mapping)) {
@@ -56,7 +58,7 @@ async function main() {
   } while (cursor);
   console.log(`  ${pages.length} active pages`);
 
-  const key = p => (p.properties['Pack']?.select?.name || '') + ':'
+  const key = p => (readPack(p) || '') + ':'
     + (p.properties['Card ID']?.rich_text || []).map(t => t.plain_text).join('');
   const byKey = new Map(pages.map(p => [key(p), p]));
 

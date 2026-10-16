@@ -1,8 +1,8 @@
 {
   "id": "st-louis",
-  "name": "st-louis",
-  "location": "",
-  "emoji": "📍",
+  "name": "St. Louis",
+  "location": "Missouri",
+  "emoji": "🎷",
   "isDefault": false,
   "cards": {
     "adventure": [

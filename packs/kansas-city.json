@@ -1,8 +1,8 @@
 {
   "id": "kansas-city",
-  "name": "kansas-city",
-  "location": "",
-  "emoji": "📍",
+  "name": "Kansas City",
+  "location": "Missouri",
+  "emoji": "🍖",
   "isDefault": false,
   "cards": {
     "chill": [
@@ -122,6 +122,66 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "KC-C-02",
+        "title": "Rose Garden Stroll at Loose Park",
+        "description": "Wander the manicured paths of a formal rose garden tucked into one of the city's prettiest parks.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min–1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 10,
+        "bonus": "Name your favorite rose variety before you leave.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Loose+Park+Rose+Garden+Kansas+City"
+      },
+      {
+        "id": "KC-C-04",
+        "title": "Sunset at Berkley Riverfront Park",
+        "description": "Watch the sky turn over downtown from the grassy riverfront as the Missouri River drifts by.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Leave your phone in your pocket for the whole sunset.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Berkley+Riverfront+Park+Kansas+City"
+      },
+      {
+        "id": "KC-C-03",
+        "title": "Browse the Shelves at Prospero's Books",
+        "description": "Get lost in the crammed, creaky-floored stacks of Westport's beloved used bookstore.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Buy a book with a cover you've never seen before, sight unread.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Prosperos+Books+Kansas+City"
+      },
+      {
+        "id": "KC-C-01",
+        "title": "Wander the Nelson-Atkins Museum of Art",
+        "description": "Lose an afternoon among the giant shuttlecocks and world-class galleries of KC's free flagship museum.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the one piece in the collection you'd steal if you could.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Nelson-Atkins+Museum+of+Art+Kansas+City"
       }
     ],
     "foodie": [
@@ -141,6 +201,24 @@
         "mapsUrl": "https://maps.google.com/maps/search/Strouds+Kansas+City+MO",
         "company": [
           "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "KC-F-10",
+        "title": "American Royal World Series of Barbecue",
+        "description": "The world's biggest barbecue contest — hundreds of teams, pits running all night, and a weekend where the whole city smells like smoke.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Half day",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Sep–Oct",
+        "spark": 40,
+        "bonus": "Talk your way into a team's tent for a bite.",
+        "city": "Kansas City, KS",
+        "mapsUrl": "https://maps.google.com/maps/search/American+Royal+Kansas+City+KS",
+        "company": [
           "group"
         ]
       },
@@ -261,6 +339,51 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "KC-F-01",
+        "title": "Burnt Ends at Joe's Kansas City Bar-B-Que",
+        "description": "Wait in the line that wraps around a converted gas station for burnt ends that put this city on the BBQ map.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the Z-Man sandwich, no menu-browsing allowed.",
+        "city": "Kansas City, KS",
+        "mapsUrl": "https://maps.google.com/maps/search/Joes+Kansas+City+Bar-B-Que+Kansas+City"
+      },
+      {
+        "id": "KC-F-03",
+        "title": "Slow Pour at Thou Mayest Coffee Roasters",
+        "description": "Post up at this Crossroads roaster for a pour-over made from beans roasted twenty feet away.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 11,
+        "bonus": "Ask the barista what they're most excited about on the menu right now.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Thou+Mayest+Coffee+Roasters+Kansas+City"
+      },
+      {
+        "id": "KC-F-02",
+        "title": "Burnt Ends & Fries at Arthur Bryant's",
+        "description": "Order at the counter of the barbecue joint that's been feeding presidents and everyone else since 1908.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Douse your plate in the original tangy sauce, skip the sweet one.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Arthur+Bryants+Barbeque+Kansas+City"
       }
     ],
     "adventure": [
@@ -273,7 +396,7 @@
         "duration": "Half day",
         "durationMins": 240,
         "time": "Morning",
-        "season": "Jun",
+        "season": "May",
         "spark": 40,
         "bonus": "Run the hill you dread the most without walking.",
         "city": "Kansas City, MO",
@@ -421,6 +544,111 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "KC-AC-03",
+        "title": "Sunrise Lake Loop at Shawnee Mission Park",
+        "description": "Run or walk the 300-acre lake loop before the park fills in — best light of the day, guaranteed.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Time your loop and try to beat it next visit.",
+        "city": "Shawnee, KS",
+        "mapsUrl": "https://maps.google.com/maps/search/Shawnee+Mission+Park+Lake+Loop+Kansas+City"
+      },
+      {
+        "id": "KC-AC-04",
+        "title": "Tee Off at Swope Memorial Golf Course",
+        "description": "Play a round on the historic municipal course that's hosted a PGA Tour event, tucked inside Swope Park.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Mar–Nov",
+        "spark": 22,
+        "bonus": "Keep score for the group and buy the low scorer a round after.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Swope+Memorial+Golf+Course+Kansas+City"
+      },
+      {
+        "id": "KC-AC-01",
+        "title": "Ride the Trolley Track Trail",
+        "description": "Bike a flat, tree-lined former streetcar line stretching from the Plaza to the state line.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride the full trail end to end without stopping.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Trolley+Track+Trail+Kansas+City"
+      },
+      {
+        "id": "KC-A-02",
+        "title": "Disc Golf at Minor Park",
+        "description": "Play a full 18 holes through wooded fairways at one of the Midwest's best-loved disc golf courses.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Play your worst hole again for a mulligan — no judgment.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Minor+Park+Disc+Golf+Course+Kansas+City"
+      },
+      {
+        "id": "KC-A-01",
+        "title": "Kayak the Kaw from Kaw Point Park",
+        "description": "Launch a kayak where the Kansas and Missouri Rivers collide and paddle the confluence with the downtown skyline at your back.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 24,
+        "bonus": "Paddle to the exact point where the two rivers merge and take a photo.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Kaw+Point+Park+Kansas+City"
+      },
+      {
+        "id": "KC-AC-02",
+        "title": "Ice Skate at Crown Center's Ice Terrace",
+        "description": "Lace up at the outdoor rink in the heart of Crown Center, skyline lights overhead.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Nov–Mar",
+        "spark": 18,
+        "bonus": "Skate one full lap holding hands with a stranger from your group — no falling allowed.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Crown+Center+Ice+Terrace+Kansas+City"
+      },
+      {
+        "id": "KC-A-04",
+        "title": "Climb the Liberty Memorial Tower",
+        "description": "Ride to the top of the National WWI Museum and Memorial's iconic tower for a 360-degree view over the entire city.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Read the wall of names in the exhibit hall before you head up.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/National+WWI+Museum+and+Memorial+Kansas+City"
       }
     ],
     "social": [
@@ -577,6 +805,51 @@
           "group"
         ],
         "adult": true
+      },
+      {
+        "id": "KC-S-03",
+        "title": "First Fridays in the Crossroads Arts District",
+        "description": "Gallery-hop through open studios, food trucks, and street performers on KC's biggest monthly art night.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 20,
+        "bonus": "Talk to an artist about the piece you like most.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Crossroads+Arts+District+Kansas+City"
+      },
+      {
+        "id": "KC-S-04",
+        "title": "A Night at the Kauffman Center for the Performing Arts",
+        "description": "Dress up for a symphony, opera, or touring show inside one of the most striking concert halls in the country.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 38,
+        "bonus": "Arrive early to walk the glass-walled Brandmeyer Great Hall before curtain.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Kauffman+Center+for+the+Performing+Arts+Kansas+City"
+      },
+      {
+        "id": "KC-S-02",
+        "title": "Trivia Night at Char Bar",
+        "description": "Grab a picnic table in the courtyard and battle it out over BBQ and cold beer at Westport's rowdiest trivia night.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Team up with a table of total strangers.",
+        "city": "Kansas City, MO",
+        "mapsUrl": "https://maps.google.com/maps/search/Char+Bar+Kansas+City"
       }
     ],
     "culture": [
@@ -609,7 +882,7 @@
         "duration": "3 hrs",
         "durationMins": 180,
         "time": "Evening",
-        "season": "Nov",
+        "season": "Nov–Jan",
         "spark": 40,
         "bonus": "Get there early enough to stand at the front.",
         "city": "Kansas City, MO",

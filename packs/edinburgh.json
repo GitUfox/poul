@@ -1,8 +1,8 @@
 {
   "id": "edinburgh",
-  "name": "edinburgh",
-  "location": "",
-  "emoji": "📍",
+  "name": "Edinburgh",
+  "location": "Scotland",
+  "emoji": "🎭",
   "isDefault": false,
   "cards": {
     "social": [

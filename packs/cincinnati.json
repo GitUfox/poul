@@ -1,8 +1,8 @@
 {
   "id": "cincinnati",
-  "name": "cincinnati",
-  "location": "",
-  "emoji": "📍",
+  "name": "Cincinnati",
+  "location": "Ohio",
+  "emoji": "🐷",
   "isDefault": false,
   "cards": {
     "social": [

@@ -1,8 +1,8 @@
 {
   "id": "barcelona",
-  "name": "barcelona",
-  "location": "",
-  "emoji": "📍",
+  "name": "Barcelona",
+  "location": "Catalonia · Spain",
+  "emoji": "⛪",
   "isDefault": false,
   "cards": {
     "adventure": [
@@ -156,6 +156,96 @@
         "company": [
           "couple"
         ]
+      },
+      {
+        "id": "BCN-AC-04",
+        "title": "Sunrise Run up Montjuïc",
+        "description": "Run the winding paths up Montjuïc hill before the city wakes, finishing at a viewpoint over the harbor.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 20,
+        "bonus": "Race the sunrise to the top",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Montjuic+Barcelona"
+      },
+      {
+        "id": "BCN-AC-01",
+        "title": "Surf Lesson at Barceloneta Beach",
+        "description": "Catch your first waves with a local instructor right off the city's main beach.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 20,
+        "bonus": "Stand up on the first try or the fifth, doesn't matter",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Surf+School+Barceloneta+Barcelona"
+      },
+      {
+        "id": "BCN-A-02",
+        "title": "Cable Car to Montjuïc Castle",
+        "description": "Glide over the harbor by cable car to a 17th-century hilltop fortress with sweeping views of the port.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 18,
+        "bonus": "Ride standing at the front window",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Montjuic+Castle+Barcelona"
+      },
+      {
+        "id": "BCN-AC-03",
+        "title": "Cycle the Beachfront to Poblenou",
+        "description": "Rent a bike and ride the flat coastal path from Barceloneta past four beaches to Poblenou.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop for a swim halfway through",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Bike+Rental+Barceloneta+Barcelona"
+      },
+      {
+        "id": "BCN-A-04",
+        "title": "Sagrada Família Guided Tour",
+        "description": "Walk beneath Gaudí's still-unfinished masterpiece with a guide who explains what the guidebooks skip.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Find the shell staircase and don't rush it",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Sagrada+Familia+Barcelona"
+      },
+      {
+        "id": "BCN-AC-02",
+        "title": "Stand-Up Paddleboard the Old Port",
+        "description": "Rent a paddleboard and glide across the calm water of Port Vell with the city skyline behind you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Try to stay dry for the whole hour",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Paddleboard+Rental+Port+Vell+Barcelona"
       }
     ],
     "culture": [
@@ -464,6 +554,66 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "BCN-F-02",
+        "title": "Tapas Hopping at Quimet & Quimet",
+        "description": "Squeeze into this legendary standing-room bodega for montaditos piled with the best tinned seafood in the city.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Stay standing the whole time, like a local",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Quimet+y+Quimet+Barcelona"
+      },
+      {
+        "id": "BCN-F-04",
+        "title": "Paella on the Beach at Barceloneta",
+        "description": "Dig into a pan of proper Valencian-style paella at a beachfront chiringuito with sand between your toes.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order it for two and share the socarrat",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Paella+Restaurant+Barceloneta+Barcelona"
+      },
+      {
+        "id": "BCN-F-01",
+        "title": "Breakfast Crawl at La Boqueria",
+        "description": "Weave through Barcelona's most famous market for fresh juice, jamón, and a stool at the counter bars.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order something you can't pronounce",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Boqueria+Market+Barcelona"
+      },
+      {
+        "id": "BCN-F-03",
+        "title": "Vermouth Hour in El Born",
+        "description": "Join the Sunday-afternoon ritual of a chilled glass of vermouth and a plate of olives at a corner bar.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the vermut de grifo, on tap",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Born+Vermouth+Bar+Barcelona"
       }
     ],
     "social": [
@@ -526,6 +676,24 @@
           "group"
         ],
         "adult": true
+      },
+      {
+        "id": "BCN-S-10",
+        "title": "Matchday at Camp Nou",
+        "description": "Ninety minutes inside the largest stadium in Europe, with the anthem going up from every side before kickoff.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Aug–May",
+        "spark": 44,
+        "bonus": "Learn the words to Cant del Barça before you go.",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Spotify+Camp+Nou+Barcelona",
+        "company": [
+          "group"
+        ]
       },
       {
         "id": "BCN-S-12",
@@ -604,6 +772,66 @@
           "group"
         ],
         "adult": true
+      },
+      {
+        "id": "BCN-S-04",
+        "title": "Pub Crawl Through El Born",
+        "description": "Hit a rotating lineup of tucked-away bars in El Born's narrow streets with a group that keeps growing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Buy the next stranger at the bar a drink",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Born+Bars+Barcelona"
+      },
+      {
+        "id": "BCN-S-01",
+        "title": "Flamenco Show at Palau Dalmases",
+        "description": "Catch an intimate flamenco performance in a 17th-century palace lit almost entirely by candlelight.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Sit at the front row, close enough to feel it",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Palau+Dalmases+Barcelona"
+      },
+      {
+        "id": "BCN-S-02",
+        "title": "Night Out at Razzmatazz",
+        "description": "Dance across five different rooms and music styles under one roof at Barcelona's most iconic club.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 38,
+        "bonus": "Try all five rooms before midnight",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Razzmatazz+Barcelona"
+      },
+      {
+        "id": "BCN-S-03",
+        "title": "Rooftop Drinks with a Sagrada Família View",
+        "description": "Order a cocktail on a rooftop terrace with Gaudí's spires lit up just blocks away.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 18,
+        "bonus": "Toast to the skyline with someone you just met",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Sercotel+Rosellon+rooftop+Barcelona"
       }
     ],
     "chill": [
@@ -719,6 +947,51 @@
           "solo",
           "couple"
         ]
+      },
+      {
+        "id": "BCN-C-01",
+        "title": "Wander Park Güell at Opening Hour",
+        "description": "Get inside Gaudí's fairy-tale park before the tour buses arrive and have the tiled terraces nearly to yourself.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the mosaic lizard before the crowds do",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Park+Guell+Barcelona"
+      },
+      {
+        "id": "BCN-C-02",
+        "title": "Afternoon at Museu Picasso",
+        "description": "Trace Picasso's early years through room after room of his formative work in a quiet Gothic mansion.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick one painting and just sit with it for five minutes",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Museu+Picasso+Barcelona"
+      },
+      {
+        "id": "BCN-C-04",
+        "title": "Slow Stroll Through the Gothic Quarter",
+        "description": "Get pleasantly lost in the medieval maze of Barri Gòtic, from Plaça Reial to the cathedral cloister.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Take the alley you'd normally skip",
+        "city": "Barcelona, Spain",
+        "mapsUrl": "https://maps.google.com/maps/search/Barri+Gotic+Barcelona"
       }
     ],
     "8ball": [

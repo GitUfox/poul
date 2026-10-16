@@ -1,8 +1,8 @@
 {
   "id": "milwaukee",
-  "name": "milwaukee",
-  "location": "",
-  "emoji": "📍",
+  "name": "Milwaukee",
+  "location": "Wisconsin",
+  "emoji": "🍻",
   "isDefault": false,
   "cards": {
     "adventure": [

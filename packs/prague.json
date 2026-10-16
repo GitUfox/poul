@@ -1,8 +1,8 @@
 {
   "id": "prague",
-  "name": "prague",
-  "location": "",
-  "emoji": "📍",
+  "name": "Prague",
+  "location": "Czech Republic",
+  "emoji": "🏰",
   "isDefault": false,
   "cards": {
     "foodie": [
@@ -159,6 +159,85 @@
         "company": [
           "couple"
         ]
+      },
+      {
+        "id": "PRG-F-03",
+        "title": "St. Norbert in the Strahov Monastery Courtyard",
+        "description": "Drink amber, dark and IPA lagers brewed on the monastery grounds, in a courtyard a hundred metres from the Strahov library halls.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Ask the brewer which beer they'd pick for themselves",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Klasterni+pivovar+Strahov+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-F-01",
+        "title": "Trdelník Straight Off the Coals at Good Food",
+        "description": "Watch the dough spiral-roast over open coals on Karlova, then eat Prague's cinnamon-sugar chimney cake while it is still too hot to hold.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "15 min",
+        "durationMins": 15,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Get the ice cream-filled version instead of plain",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Good+Food+Coffee+and+Bakery+Karlova+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-F-04",
+        "title": "The Set Menu at Benjamin in Vinohrady",
+        "description": "A small neighbourhood room off Mánesova doing a multi-course Czech set menu that locals book out long before the guidebook crowd finds it.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 44,
+        "bonus": "Let the server pick your wine pairing",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Benjamin+restaurant+Manesova+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-F-02",
+        "title": "Svíčková at U Fleků, Brewing Since 1499",
+        "description": "Sit at a long communal table in a five-century-old beer hall and work through Czech classics with the house dark lager.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 17,
+        "bonus": "Order in Czech, even if you have to read it off your phone",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/U+Fleku+Kremencova+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
       }
     ],
     "chill": [
@@ -274,6 +353,84 @@
         "company": [
           "solo",
           "couple"
+        ]
+      },
+      {
+        "id": "PRG-C-04",
+        "title": "Coffee and Boat-Watching on the Náplavka",
+        "description": "Take a coffee out to the deckchairs on the Rašínovo nábřeží embankment and give the Vltava traffic an hour of your attention and nothing else.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 11,
+        "bonus": "Stay for a second coffee you didn't plan on",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Naplavka+Embankment+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-C-03",
+        "title": "Wander the Walled Paths of Vyšehrad Cemetery",
+        "description": "Walk quiet gravel paths past the graves of Czech composers and artists, with the Vltava spread out below the fortress walls.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the grave of a composer whose music you already know",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Vysehrad+Cemetery+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-C-02",
+        "title": "Sit Inside the Klementinum's Baroque Library Hall",
+        "description": "Join a small guided visit into one of the world's most beautiful libraries, its frescoed ceiling glowing over centuries-old books.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 21,
+        "bonus": "Pick the one shelf you'd want to read cover to cover",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Klementinum+Baroque+Library+Hall+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-C-01",
+        "title": "Cross Charles Bridge at Sunrise, Before the Crowds",
+        "description": "Walk the 600-year-old bridge in the quiet gray light, just you, the baroque statues, and a handful of early risers.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 11,
+        "bonus": "Touch the same statue tourists always crowd around later",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Charles+Bridge+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
         ]
       }
     ],
@@ -427,6 +584,164 @@
         "bonus": "Count the steps yourself and see if you agree.",
         "city": "Prague, Czech Republic",
         "mapsUrl": "https://maps.google.com/maps/search/St+Vitus+Cathedral+Great+South+Tower+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-A-02",
+        "title": "Explore the Underground Vyšehrad Casemates",
+        "description": "Duck into the brick tunnels beneath Vyšehrad fortress and stand face to face with the original Charles Bridge statues stored in the Gorlice hall.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Guess which statue is the original before reading the sign",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Vysehrad+Casemates+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-AC-01",
+        "title": "Pedal a Boat Under Prague Castle from Slovanka",
+        "description": "Take a pedal boat off the Slovanka jetty on Slovanský ostrov and push out into the Vltava for a low, unobstructed line on the castle and Charles Bridge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 16,
+        "bonus": "Paddle all the way to the base of Charles Bridge and back",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Slovanka+boat+rental+Slovansky+ostrov+Prague",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-AC-03",
+        "title": "Hike the Old Castle Stairs Up to Prague Castle",
+        "description": "Skip the tram and climb the steep, centuries-old stone stairway from Malá Strana straight up to the castle gates.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 20,
+        "bonus": "Don't stop to rest until you reach the top",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Castle+Stairs+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-AC-04",
+        "title": "Run the Riverside Path Through Stromovka Park",
+        "description": "Get a sunrise run in through Prague's largest park, looping past ponds, old oaks, and the Výstaviště exhibition grounds.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Run past the Výstaviště fountain without checking your phone",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Stromovka+Park+Prague",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "PRG-A-04",
+        "title": "Climb the Old Town Bridge Tower for a Charles Bridge View",
+        "description": "Climb the narrow spiral stairs of the Gothic tower guarding Charles Bridge for one of the best rooftop views of the river.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Count how many bridge towers you can spot from the top",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Town+Bridge+Tower+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-A-03",
+        "title": "Day Trip to Karlštejn Castle",
+        "description": "Take the short train out of the city to climb through a 14th-century royal castle perched on a forested hilltop above the Berounka valley.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Half day",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 45,
+        "bonus": "Walk the whole hill road up to the castle instead of the shuttle",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Karlstejn+Castle",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-AC-02",
+        "title": "A Beer Bath at Bernard Beer Spa",
+        "description": "Sink into a larch-wood tub of warm water, hops and malt with your own Bernard tap at arm's reach, then sweat the rest of it out in the relaxation room.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Finish the pint that's included before you get out",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Bernard+Beer+Spa+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-A-01",
+        "title": "Climb the Petřín Lookout Tower After the Funicular Ride Up",
+        "description": "Ride the century-old funicular up Petřín Hill, then climb the mini Eiffel Tower for a rooftop view over Prague's spires.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Take the stairs instead of the elevator at the top",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Petrin+Lookout+Tower+Prague",
         "company": [
           "solo",
           "couple",
@@ -586,6 +901,87 @@
         "bonus": "Book the front table — the room is small enough that it matters.",
         "city": "Prague, Czech Republic",
         "mapsUrl": "https://maps.google.com/maps/search/Reduta+Jazz+Club+Prague",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-S-02",
+        "title": "Shop the Saturday Náplavka Farmers Market",
+        "description": "Browse stalls of Czech cheese, bread, and produce alongside locals doing their weekend shop along the river.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Feb–Dec",
+        "spark": 13,
+        "bonus": "Buy a snack from a vendor with no English menu",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Naplavka+Farmers+Market+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "PRG-S-03",
+        "title": "Monday Pub Quiz at the Czech Inn",
+        "description": "Turn up alone, get folded into a team of strangers, and spend a Monday night arguing over trivia in the basement bar of a Vršovice hostel.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Join a team you don't already know",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Czech+Inn+Francouzska+Prague",
+        "company": [
+          "solo",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-S-04",
+        "title": "A Small-Room Set at Palác Akropolis",
+        "description": "Žižkov's old theatre turned music house, where the line-up swings from indie to Saharan desert blues and the crowd is close enough to touch the stage.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Buy a round for the group next to you",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Palac+Akropolis+Kubelikova+Prague",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "PRG-S-01",
+        "title": "Drinks on the Náplavka as the Sun Goes Down",
+        "description": "Join the after-work crowd spilling along the Rašínovo nábřeží embankment and its moored boats for beers facing the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Strike up a conversation with someone at the next boat over",
+        "city": "Prague, Czech Republic",
+        "mapsUrl": "https://maps.google.com/maps/search/Naplavka+Riverside+Bars+Prague",
         "company": [
           "couple",
           "group"

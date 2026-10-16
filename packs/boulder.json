@@ -1,8 +1,8 @@
 {
   "id": "boulder",
-  "name": "boulder",
-  "location": "",
-  "emoji": "📍",
+  "name": "Boulder",
+  "location": "Colorado",
+  "emoji": "🥾",
   "isDefault": false,
   "cards": {
     "adventure": [

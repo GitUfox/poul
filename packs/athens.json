@@ -1,8 +1,8 @@
 {
   "id": "athens",
-  "name": "athens",
-  "location": "",
-  "emoji": "📍",
+  "name": "Athens",
+  "location": "Greece",
+  "emoji": "🏺",
   "isDefault": false,
   "cards": {
     "social": [

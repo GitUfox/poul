@@ -1,8 +1,8 @@
 {
   "id": "indianapolis",
-  "name": "indianapolis",
-  "location": "",
-  "emoji": "📍",
+  "name": "Indianapolis",
+  "location": "Indiana",
+  "emoji": "🏎️",
   "isDefault": false,
   "cards": {
     "culture": [

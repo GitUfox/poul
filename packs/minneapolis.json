@@ -1,8 +1,8 @@
 {
   "id": "minneapolis",
-  "name": "minneapolis",
-  "location": "",
-  "emoji": "📍",
+  "name": "Minneapolis · St. Paul",
+  "location": "Minnesota",
+  "emoji": "❄️",
   "isDefault": false,
   "cards": {
     "foodie": [
@@ -158,6 +158,66 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "MSP-F-04",
+        "title": "Chef's Counter Tasting at Spoon and Stable",
+        "description": "Sit at the counter and watch Gavin Kaysen's kitchen plate a multi-course tasting menu inside a converted 1906 horse stable in the North Loop.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 44,
+        "bonus": "Ask your server which dish on tonight's menu they'd order for themselves.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Spoon+and+Stable+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-F-01",
+        "title": "Order a Jucy Lucy at Matt's Bar",
+        "description": "Bite into the original cheese-stuffed burger that put Minneapolis on the map — careful, the molten center is a trap for the unprepared.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Wait the full two minutes they tell you to before taking your first bite.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Matts+Bar+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-F-03",
+        "title": "Malt Night at Sebastian Joe's",
+        "description": "Split a hand-scooped malt or sundae at this beloved Minneapolis ice cream institution near Lake of the Isles.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "40 min",
+        "durationMins": 40,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a flavor you've never tried before, no matter how strange it sounds.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Sebastian+Joes+Ice+Cream+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-F-02",
+        "title": "Graze the Stalls at Midtown Global Market",
+        "description": "Work through a dozen-plus food stalls under one roof, from Somali sambusas to Mexican tortas to Scandinavian pastries.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order from three different countries' stalls in one visit.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Midtown+Global+Market+Minneapolis+MN"
       }
     ],
     "social": [
@@ -315,6 +375,36 @@
           "group"
         ],
         "adult": true
+      },
+      {
+        "id": "MSP-S-04",
+        "title": "Brewery Hop Through Northeast Minneapolis",
+        "description": "Walk between Indeed Brewing, Fair State, and Sociable Cider Werks — three taprooms within a few blocks of each other in the city's brewery district.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order the flight at each stop instead of a pint, and compare notes.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Indeed+Brewing+Company+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-S-02",
+        "title": "Catch a Show at First Avenue",
+        "description": "See a band play the legendary club where Prince filmed Purple Rain — the star-covered exterior alone is worth the trip.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Find a star on the outside wall for an artist you didn't expect to see.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/First+Avenue+Minneapolis+MN"
       }
     ],
     "culture": [
@@ -668,9 +758,148 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "MSP-A-02",
+        "title": "Chase the Falls at Minnehaha Regional Park",
+        "description": "Follow the limestone gorge trail down from the 53-foot waterfall to the spot where Minnehaha Creek meets the Mississippi.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Climb down to the base of the falls and get close enough to feel the spray.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Minnehaha+Regional+Park+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-A-04",
+        "title": "Fat-Tire Bike Across a Frozen Lake at Lake Nokomis",
+        "description": "Ride a rented fat-tire bike straight out onto the packed snow trails groomed across the ice — a distinctly Minneapolis winter tradition.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Dec-Feb",
+        "spark": 40,
+        "bonus": "Ride at least halfway across the lake before turning back.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Lake+Nokomis+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-AC-02",
+        "title": "Boulder at Minneapolis Bouldering Project",
+        "description": "Spend an afternoon working the walls at this North Loop bouldering gym, one of the best in the Midwest.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 17,
+        "bonus": "Try a route at least one grade harder than your usual.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Minneapolis+Bouldering+Project+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-AC-01",
+        "title": "Run or Walk the Bde Maka Ska Loop",
+        "description": "Do the full 3.1-mile paved path around the city's largest lake, packed with runners, bikers, and paddleboarders all season.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick up your pace for the last half mile and finish strong.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Bde+Maka+Ska+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-A-01",
+        "title": "Walk the Stone Arch Bridge at Sunset",
+        "description": "Cross the historic 1883 railroad bridge over St. Anthony Falls on foot as the light hits downtown's skyline just right.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Time it so you're standing on the bridge at the exact moment the sun sets.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Stone+Arch+Bridge+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-AC-04",
+        "title": "Downhill Ski at Afton Alps",
+        "description": "Spend a full day on the slopes at this Twin Cities ski area, thirty minutes from downtown with night skiing under the lights.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Dec-Mar",
+        "spark": 38,
+        "bonus": "Take one night run under the lights before you leave.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Afton+Alps+MN"
+      },
+      {
+        "id": "MSP-AC-03",
+        "title": "Stand-Up Paddleboard on Lake Harriet",
+        "description": "Rent a board at the lake's public launch and paddle past the bandshell and rose garden from the water.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May-Sep",
+        "spark": 21,
+        "bonus": "Paddle all the way to the bandshell and back without touching shore.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Wheel+Fun+Rentals+Lake+Harriet+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-A-03",
+        "title": "Bike the Full Chain of Lakes Loop",
+        "description": "Ride the paved trail connecting Bde Maka Ska, Lake Harriet, and Lake of the Isles — 13 miles of urban lakes back to back.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Apr-Oct",
+        "spark": 24,
+        "bonus": "Stop at all three lakes and dip your feet in each one.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Chain+of+Lakes+Regional+Park+Minneapolis+MN"
       }
     ],
     "chill": [
+      {
+        "id": "MSP-C-08",
+        "title": "Lakeside Sauna and Cold Plunge",
+        "description": "Book a session in a wood-fired mobile sauna parked on a frozen lake, then go straight out into a cut hole in the ice and back again.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Nov–Mar",
+        "spark": 25,
+        "bonus": "Do three rounds. The third one is the one people remember.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Little+Ember+Co+Cedar+Lake+Minneapolis+MN",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
       {
         "id": "MSP-C-06",
         "title": "Slow Morning at Spyhouse Coffee",
@@ -767,6 +996,51 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "MSP-C-02",
+        "title": "Afternoon at the Walker Art Center",
+        "description": "Move slowly through the rotating contemporary exhibits at one of the country's leading modern art museums.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the one piece in the museum you'd actually hang in your apartment.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Walker+Art+Center+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-C-04",
+        "title": "Wander the Lyndale Park Peace Garden",
+        "description": "Slip into the quiet Japanese-style peace garden tucked beside Lake Harriet, with koi ponds, a pergola, and rows of roses in bloom through summer.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "May-Sep",
+        "spark": 10,
+        "bonus": "Find the koi pond and count how many fish you can spot.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Lyndale+Park+Peace+Garden+Minneapolis+MN"
+      },
+      {
+        "id": "MSP-C-01",
+        "title": "Sit With the Sculpture Garden's Cherry Spoon",
+        "description": "Wander the Minneapolis Sculpture Garden and find the Spoonbridge and Cherry — the city's most photographed piece of public art.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 11,
+        "bonus": "Take a photo that doesn't include another person taking a photo of it.",
+        "city": "Minneapolis, MN",
+        "mapsUrl": "https://maps.google.com/maps/search/Minneapolis+Sculpture+Garden+Minneapolis+MN"
       }
     ]
   }

@@ -1,8 +1,8 @@
 {
   "id": "amsterdam",
-  "name": "amsterdam",
-  "location": "",
-  "emoji": "📍",
+  "name": "Amsterdam",
+  "location": "Netherlands",
+  "emoji": "🚲",
   "isDefault": false,
   "cards": {
     "social": [
@@ -158,6 +158,36 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "AMS-S-04",
+        "title": "Live Show at Paradiso",
+        "description": "Catch a gig inside a converted 19th-century church turned legendary concert venue, the room alone is worth the ticket.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Check out the balcony view before you head to the floor.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Paradiso+Amsterdam"
+      },
+      {
+        "id": "AMS-S-02",
+        "title": "Group Canal Cruise at Night",
+        "description": "Book a small boat with friends and cruise the illuminated canal ring after dark, bring your own drinks and playlist.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Wave at every other boat you pass.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Amsterdam+Canal+Boat+Rental"
       }
     ],
     "chill": [
@@ -276,6 +306,66 @@
           "couple"
         ],
         "adult": true
+      },
+      {
+        "id": "AMS-C-01",
+        "title": "Picnic in Vondelpark",
+        "description": "Grab bread, cheese, and wine from a nearby shop and stake out a patch of grass in the city's favorite park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May-Sep",
+        "spark": 10,
+        "bonus": "Bring a frisbee and rope in a stranger's game.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Vondelpark+Amsterdam"
+      },
+      {
+        "id": "AMS-C-04",
+        "title": "Canal-Side Coffee at Café Papeneiland",
+        "description": "Take a window seat at this 17th-century canal-corner cafe and watch the boats and bikes go by over a slice of apple pie.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order the apple pie, it's the thing to get here.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Papeneiland+Amsterdam"
+      },
+      {
+        "id": "AMS-C-02",
+        "title": "Free Wander Through the Rijksmuseum Gardens",
+        "description": "Skip the ticket line and walk the museum's sculpture-lined gardens instead, free, quiet, and gorgeous in any season.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Find the hidden reading room inside the garden pavilion.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Rijksmuseum+Gardens+Amsterdam"
+      },
+      {
+        "id": "AMS-C-03",
+        "title": "An Afternoon at Hortus Botanicus",
+        "description": "Wander one of the world's oldest botanical gardens, tucked away in the city center with a butterfly greenhouse and tropical palm house.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the 300-year-old cycad plant.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Hortus+Botanicus+Amsterdam"
       }
     ],
     "adventure": [
@@ -465,6 +555,96 @@
         "company": [
           "couple"
         ]
+      },
+      {
+        "id": "AMS-A-03",
+        "title": "Kayak the Amsterdam Canals",
+        "description": "Rent a kayak and paddle beneath the Golden Age canal houses from water level, a totally different city than the one on foot.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "May-Sep",
+        "spark": 16,
+        "bonus": "Paddle under at least 5 bridges before you turn back.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Amsterdam+Canal+Kayak+Rental"
+      },
+      {
+        "id": "AMS-A-02",
+        "title": "Bike to the Windmills of Zaanse Schans",
+        "description": "Pedal out to a working windmill village on the Zaan river and watch cheese and clogs being made by hand.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Half day",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Buy a wedge of cheese straight from the windmill.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Zaanse+Schans+Zaandam"
+      },
+      {
+        "id": "AMS-AC-01",
+        "title": "Rent Bikes and Ride the Vondelpark Loop",
+        "description": "Grab a pair of city bikes and do a proper loop of Vondelpark like an actual Amsterdammer.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ring your bell at a fellow cyclist, friendly-style.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/MacBike+Amsterdam"
+      },
+      {
+        "id": "AMS-AC-02",
+        "title": "Stand-Up Paddleboard the Canals",
+        "description": "Balance your way through the canal ring on a SUP tour, a real workout with an unbeatable view of the gabled houses.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "May-Sep",
+        "spark": 22,
+        "bonus": "Try to paddle the whole route without falling in.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/SUP+Tour+Amsterdam+Canals"
+      },
+      {
+        "id": "AMS-A-01",
+        "title": "Free Ferry to Amsterdam-Noord + NDSM Wharf Wander",
+        "description": "Hop the free ferry behind Centraal Station and lose an afternoon exploring NDSM's graffiti-covered shipyards and floating cafes.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Take a photo with the giant 'Selfie' street art near the wharf.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/NDSM+Wharf+Amsterdam"
+      },
+      {
+        "id": "AMS-A-04",
+        "title": "Sunrise Hot Air Balloon Over the Dutch Countryside",
+        "description": "Drift silently over tulip fields, windmills, and canals as the sun comes up, the Netherlands from a totally different altitude.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Half day",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr-Oct",
+        "spark": 42,
+        "bonus": "Toast with the traditional post-flight glass of bubbly.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Hot+Air+Balloon+Amsterdam"
       }
     ],
     "culture": [
@@ -772,6 +952,85 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "AMS-F-02",
+        "title": "Bitterballen and a Beer at Café Hoppe",
+        "description": "Post up at one of the Jordaan's oldest brown cafes for a plate of bitterballen and a properly poured Dutch beer.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order it 'op straat' (on the street) like a local.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Hoppe+Amsterdam"
+      },
+      {
+        "id": "AMS-F-01",
+        "title": "Stroopwafel Straight Off the Griddle at Albert Cuyp Market",
+        "description": "Watch a vendor press and fill a stroopwafel to order at Amsterdam's biggest street market, then eat it warm on the spot.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Try one flavor you've never seen before.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Albert+Cuyp+Market+Amsterdam"
+      },
+      {
+        "id": "AMS-F-03",
+        "title": "Dinner at De Kas, a Restaurant Inside a Greenhouse",
+        "description": "Eat a chef's-menu dinner grown in the restaurant's own greenhouse gardens, one of Amsterdam's most memorable meals.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 38,
+        "bonus": "Ask your server what was picked from the garden that morning.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/De+Kas+Restaurant+Amsterdam"
+      }
+    ],
+    "8ball": [
+      {
+        "id": "AMS-8B-01",
+        "title": "Free Ferry, No Plan",
+        "description": "Take the free ferry to Amsterdam-Noord with zero itinerary and just see where your feet take you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Don't check your phone for directions, ask a stranger instead.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Buiksloterweg+Ferry+Amsterdam",
+        "filterExempt": true
+      },
+      {
+        "id": "AMS-8B-02",
+        "title": "Eat Raw Herring Street-Cart Style",
+        "description": "Tip your head back and eat a whole Hollandse Nieuwe herring the traditional way, by the tail, from a street cart.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "15 min",
+        "durationMins": 15,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Do it in one bite, no cutting.",
+        "city": "Amsterdam, Netherlands",
+        "mapsUrl": "https://maps.google.com/maps/search/Frens+Haringhandel+Amsterdam",
+        "filterExempt": true
       }
     ]
   }

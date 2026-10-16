@@ -1,8 +1,8 @@
 {
   "id": "detroit",
-  "name": "detroit",
-  "location": "",
-  "emoji": "📍",
+  "name": "Detroit",
+  "location": "Michigan",
+  "emoji": "🚗",
   "isDefault": false,
   "cards": {
     "social": [

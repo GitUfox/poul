@@ -1,8 +1,8 @@
 {
   "id": "berlin",
-  "name": "berlin",
-  "location": "",
-  "emoji": "📍",
+  "name": "Berlin",
+  "location": "Germany",
+  "emoji": "🧱",
   "isDefault": false,
   "cards": {
     "culture": [
@@ -308,6 +308,66 @@
           "group"
         ],
         "adult": true
+      },
+      {
+        "id": "BER-S-01",
+        "title": "Karaoke and Beers at Mauerpark Sunday Bearpit",
+        "description": "Join the crowd at Mauerpark's open-air karaoke on a Sunday afternoon, one of Berlin's most beloved weekend traditions.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "May–Oct",
+        "spark": 16,
+        "bonus": "Put your own name on the sign-up list.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Mauerpark+Karaoke+Berlin"
+      },
+      {
+        "id": "BER-S-02",
+        "title": "Canal-Side Club Night at Club der Visionaere",
+        "description": "Dance until sunrise at this wooden deck club built over the Landwehr Canal, a Berlin nightlife institution.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3+ hrs",
+        "durationMins": 200,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 24,
+        "bonus": "Watch the sun come up over the water before you leave.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Club+der+Visionaere+Berlin"
+      },
+      {
+        "id": "BER-S-03",
+        "title": "Sunday Flea Market at Boxhagener Platz",
+        "description": "Browse vintage clothes, records, and knickknacks with the Friedrichshain crowd at this neighborhood Sunday market.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Haggle on at least one item.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Boxhagener+Platz+Flohmarkt+Berlin"
+      },
+      {
+        "id": "BER-S-04",
+        "title": "Night Out at Berghain's Panorama Bar",
+        "description": "Line up with the crowd outside one of the world's most legendary techno clubs for a night that becomes a story you'll tell for years.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4+ hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Wear all black, it's basically the unofficial dress code.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Berghain+Berlin"
       }
     ],
     "foodie": [
@@ -462,6 +522,66 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "BER-F-03",
+        "title": "Turkish Market at Maybachufer",
+        "description": "Wander the canal-side market for fresh flatbread, olives, and produce straight from Neukölln's Turkish community.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 20,
+        "bonus": "Buy something you can't pronounce and ask the vendor what it is.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Turkish+Market+Maybachufer+Berlin"
+      },
+      {
+        "id": "BER-F-04",
+        "title": "Tasting Menu at Tim Raue",
+        "description": "Book a seat at one of Berlin's ambitious Michelin-starred tables for a multi-course night that redefines what Berlin food can be.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 44,
+        "bonus": "Ask the chef what's new on tonight's menu.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Tim+Raue+Restaurant+Berlin"
+      },
+      {
+        "id": "BER-F-02",
+        "title": "Street Food Thursday at Markthalle Neun",
+        "description": "Graze your way through a dozen food stalls inside a restored 19th-century market hall on the city's best food night.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 16,
+        "bonus": "Try one dish from a cuisine you've never had before.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Markthalle+Neun+Berlin"
+      },
+      {
+        "id": "BER-F-01",
+        "title": "Currywurst at Curry 36",
+        "description": "Order the Berlin classic at one of the city's most famous currywurst stands, a late-night institution near Mehringdamm.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Get it 'mit Darm' (with skin) like the regulars do.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Curry+36+Berlin"
       }
     ],
     "adventure": [
@@ -655,6 +775,81 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "BER-AC-02",
+        "title": "Stand-Up Paddleboard the Landwehr Canal",
+        "description": "Paddle a board past graffiti-lined banks and canal-side bars, a completely different angle on Kreuzberg.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "May-Sep",
+        "spark": 22,
+        "bonus": "Wave at the beer garden crowds as you pass Club der Visionaere.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/SUP+Landwehr+Canal+Berlin"
+      },
+      {
+        "id": "BER-A-02",
+        "title": "Explore the Abandoned Cold War Listening Station at Teufelsberg",
+        "description": "Hike up an artificial hill built from WWII rubble to explore a graffiti-covered abandoned NSA listening station with sweeping city views.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Climb into one of the radome domes if it's open that day.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Teufelsberg+Berlin"
+      },
+      {
+        "id": "BER-A-01",
+        "title": "Bike the East Side Gallery Along the Berlin Wall",
+        "description": "Rent a bike and ride along the longest surviving stretch of the Berlin Wall, now covered in world-famous murals.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the 'Fraternal Kiss' mural and take a photo next to it.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/East+Side+Gallery+Berlin"
+      },
+      {
+        "id": "BER-A-03",
+        "title": "Kite or Skate Tempelhofer Feld",
+        "description": "Roll, bike, or fly a kite across the wide-open runways of a decommissioned airport turned the city's biggest park.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Chase your own shadow down a runway stripe.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Tempelhofer+Feld+Berlin"
+      },
+      {
+        "id": "BER-AC-01",
+        "title": "Rent a Bike and Ride Tiergarten End to End",
+        "description": "Grab a city bike and cut straight through Berlin's massive central park from the Brandenburg Gate side to Zoo Station.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop at the Victory Column and climb it if you have time.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Tiergarten+Berlin"
       }
     ],
     "chill": [
@@ -771,6 +966,100 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "BER-C-01",
+        "title": "Picnic on Tempelhofer Feld",
+        "description": "Spread a blanket on the old airfield's grass and watch kites, cyclists, and gardeners drift by under an enormous open sky.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "May-Sep",
+        "spark": 10,
+        "bonus": "Bring something to fly, kite, frisbee, or just a good book.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Tempelhofer+Feld+Berlin"
+      },
+      {
+        "id": "BER-C-04",
+        "title": "Coffee at Café am Neuen See in Tiergarten",
+        "description": "Sip a coffee lakeside at this beer-garden cafe tucked inside Tiergarten, Berlin's biggest slice of green quiet.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Rent a rowboat on the lake before or after.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+am+Neuen+See+Berlin"
+      },
+      {
+        "id": "BER-C-02",
+        "title": "Wander the Museum Island Colonnades for Free",
+        "description": "Walk the free outdoor colonnade courtyard connecting Museum Island's grand facades along the Spree, no ticket required.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Find the best skyline photo spot from the Friedrichsbrücke.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Museum+Island+Berlin"
+      },
+      {
+        "id": "BER-C-03",
+        "title": "Afternoon at Vabali Spa",
+        "description": "Spend a slow afternoon moving between saunas and thermal pools at this sprawling spa retreat near Tiergarten.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Try the outdoor sauna even if it's cold out.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Vabali+Spa+Berlin"
+      }
+    ],
+    "8ball": [
+      {
+        "id": "BER-8B-01",
+        "title": "Ride the Ringbahn With No Stop Planned",
+        "description": "Board the S-Bahn Ringbahn loop at Ostkreuz with no destination in mind and get off wherever looks interesting.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get off at the stop with the name you like best.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Ostkreuz+Berlin",
+        "filterExempt": true
+      },
+      {
+        "id": "BER-8B-02",
+        "title": "Order the Weirdest Item on the Menu at a Kreuzberg Späti",
+        "description": "Walk into a Berlin späti (24-hour corner shop) and buy the strangest snack or drink on the shelf, no research first.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "15 min",
+        "durationMins": 15,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 20,
+        "bonus": "Post a photo of it before you try it.",
+        "city": "Berlin, Germany",
+        "mapsUrl": "https://maps.google.com/maps/search/Spätkauf+Kreuzberg+Berlin",
+        "filterExempt": true
       }
     ]
   }

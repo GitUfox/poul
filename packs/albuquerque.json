@@ -1,8 +1,8 @@
 {
   "id": "albuquerque",
-  "name": "albuquerque",
-  "location": "",
-  "emoji": "📍",
+  "name": "Albuquerque",
+  "location": "New Mexico",
+  "emoji": "🎈",
   "isDefault": false,
   "cards": {
     "social": [

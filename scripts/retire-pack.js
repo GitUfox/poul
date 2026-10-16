@@ -17,6 +17,7 @@
 
 require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), override: true });
 const { Client } = require('@notionhq/client');
+const { initPackType, packFilter } = require('./pack-prop');
 
 const DRY_RUN = process.argv.includes('--dry-run');
 const PACK_ID = process.argv.find((a, i) => i >= 2 && !a.startsWith('--'));
@@ -51,11 +52,12 @@ async function main() {
   }
 
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
+  await initPackType(notion);
 
   console.log(`\n── Retiring pack: ${PACK_ID}${DRY_RUN ? '  (DRY RUN)' : ''} ──`);
   const pages = await queryAll(notion, {
     and: [
-      { property: 'Pack',   select:   { equals: PACK_ID } },
+      packFilter(PACK_ID),
       { property: 'Active', checkbox: { equals: true    } },
     ],
   });

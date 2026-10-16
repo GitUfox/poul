@@ -1,8 +1,8 @@
 {
   "id": "tucson",
-  "name": "tucson",
-  "location": "",
-  "emoji": "📍",
+  "name": "Tucson",
+  "location": "Arizona",
+  "emoji": "🦎",
   "isDefault": false,
   "cards": {
     "culture": [

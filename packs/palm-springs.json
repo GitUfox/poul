@@ -1,8 +1,8 @@
 {
   "id": "palm-springs",
-  "name": "palm-springs",
-  "location": "",
-  "emoji": "📍",
+  "name": "Palm Springs",
+  "location": "California",
+  "emoji": "🕶️",
   "isDefault": false,
   "cards": {
     "culture": [

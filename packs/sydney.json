@@ -1,8 +1,8 @@
 {
   "id": "sydney",
-  "name": "sydney",
-  "location": "",
-  "emoji": "📍",
+  "name": "Sydney",
+  "location": "New South Wales · Australia",
+  "emoji": "🦘",
   "isDefault": false,
   "cards": {
     "foodie": [
@@ -139,6 +139,66 @@
         "bonus": "Eat one thing you can't identify.",
         "city": "Sydney, Australia",
         "mapsUrl": "https://maps.google.com/maps/search/Sydney+Fish+Market+Sydney"
+      },
+      {
+        "id": "SYD-F-01",
+        "title": "Saturday Morning at Carriageworks Farmers Market",
+        "description": "Fill a tote bag with produce, coffee, and pastries at Carriageworks' Saturday farmers market.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy breakfast from a stall you've never tried.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Carriageworks+Sydney"
+      },
+      {
+        "id": "SYD-F-02",
+        "title": "Fish and Chips at Doyles on the Beach",
+        "description": "Eat fish and chips with your toes in the sand at Doyle's, Sydney's original waterfront seafood shack.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 17,
+        "bonus": "Eat with your hands, no cutlery.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Doyles+on+the+Beach+Watsons+Bay+Sydney"
+      },
+      {
+        "id": "SYD-F-04",
+        "title": "Dumpling Crawl Through Haymarket",
+        "description": "Crawl through Haymarket's Chinatown for dumplings, one steaming basket at a time.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order in Mandarin or Cantonese if you can, even just 'thank you.'",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Haymarket+Chinatown+Sydney"
+      },
+      {
+        "id": "SYD-F-03",
+        "title": "Tasting Menu at Aria Restaurant",
+        "description": "Sit down for a multi-course tasting menu with harbour views at Aria, one of Sydney's finest tables.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order the dish you can't pronounce.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Aria+Restaurant+Sydney"
       }
     ],
     "chill": [
@@ -255,6 +315,51 @@
         "company": [
           "couple"
         ]
+      },
+      {
+        "id": "SYD-C-03",
+        "title": "Manly Ferry and Beach Afternoon",
+        "description": "Take the ferry to Manly and spend the afternoon between the beach and the corner cafes.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit outside on the ferry deck, not inside.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Manly+Beach+Sydney"
+      },
+      {
+        "id": "SYD-C-02",
+        "title": "Slow Wander Through the Royal Botanic Garden",
+        "description": "Wander the winding paths of the Royal Botanic Garden with the Opera House peeking through the trees.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Find the oldest tree you can and read its plaque.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Royal+Botanic+Garden+Sydney"
+      },
+      {
+        "id": "SYD-C-01",
+        "title": "Sunset at Mrs Macquarie's Chair",
+        "description": "Watch the sun drop behind the Harbour Bridge from the sandstone ledge at Mrs Macquarie's Chair.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 11,
+        "bonus": "Stay until the last color leaves the sky.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Mrs+Macquaries+Chair+Sydney"
       }
     ],
     "social": [
@@ -404,6 +509,36 @@
         "company": [
           "group"
         ]
+      },
+      {
+        "id": "SYD-S-03",
+        "title": "Pickup Beach Volleyball at Bondi",
+        "description": "Jump into a pickup beach volleyball game on the sand at Bondi.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Join a game already in progress instead of starting your own.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Bondi+Beach+Sydney"
+      },
+      {
+        "id": "SYD-S-01",
+        "title": "Pub Trivia at The Rose Hotel",
+        "description": "Grab a table at The Rose Hotel and go head-to-head at Chippendale's weekly pub trivia night.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Team up with a table you don't already know.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Rose+Hotel+Chippendale+Sydney"
       }
     ],
     "adventure": [
@@ -541,6 +676,111 @@
         "bonus": "Stand up on a wave before the lesson ends.",
         "city": "Sydney, Australia",
         "mapsUrl": "https://maps.google.com/maps/search/Manly+Beach+Sydney"
+      },
+      {
+        "id": "SYD-AC-01",
+        "title": "Sunrise Swim at Bondi Icebergs",
+        "description": "Swim laps in the famous ocean-fed pool at Bondi Icebergs as the surf crashes just beyond the wall.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Do one full lap without stopping.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Bondi+Icebergs+Pool+Sydney"
+      },
+      {
+        "id": "SYD-A-02",
+        "title": "Kayak Under the Harbour Bridge",
+        "description": "Paddle a kayak beneath the girders of the Harbour Bridge with the whole harbour opening up around you.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Paddle directly under the bridge and shout something up at it.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Sydney+by+Kayak+Lavender+Bay+Sydney"
+      },
+      {
+        "id": "SYD-AC-02",
+        "title": "Stand-Up Paddleboard Rose Bay to Shark Island",
+        "description": "Paddleboard from Rose Bay out to Shark Island and back across calm harbour water.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Paddle to Shark Island and back without sitting down once.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Rose+Bay+Aquatic+Hire+Rose+Bay+Sydney"
+      },
+      {
+        "id": "SYD-A-01",
+        "title": "BridgeClimb Sydney Harbour Bridge",
+        "description": "Harness up and climb the arches of Sydney Harbour Bridge for a bridge's-eye view of the Opera House and skyline.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 45,
+        "bonus": "Wave at the Opera House from the top.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/BridgeClimb+Sydney"
+      },
+      {
+        "id": "SYD-A-03",
+        "title": "Bondi to Coogee Coastal Walk",
+        "description": "Follow the clifftop trail from Bondi to Coogee, dipping into ocean pools along the way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stop at every ocean pool along the way, even just to dip your feet.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Bondi+to+Coogee+Coastal+Walk+Sydney"
+      },
+      {
+        "id": "SYD-A-04",
+        "title": "Snorkel the Gordons Bay Nature Trail",
+        "description": "Snorkel the underwater nature trail at Gordons Bay, marked out for you rock to rock.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Oct–Apr",
+        "spark": 16,
+        "bonus": "Follow the underwater trail markers the whole way without cutting the loop short.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Gordons+Bay+Sydney"
+      },
+      {
+        "id": "SYD-AC-03",
+        "title": "Hike the Spit Bridge to Manly Walkway",
+        "description": "Hike the Spit Bridge to Manly Scenic Walkway, a coastal trail packed with harbour lookouts.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Finish with a swim at Manly Beach, no matter how tired you are.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Spit+Bridge+to+Manly+Walk+Sydney"
       }
     ],
     "culture": [
@@ -675,6 +915,40 @@
         "company": [
           "group"
         ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "SYD-8B-02",
+        "title": "Tarot Reading at Glebe Markets",
+        "description": "Get your cards read by a tarot reader at the Saturday Glebe Markets.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 20,
+        "bonus": "Ask the reader one question you actually want answered.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Glebe+Markets+Sydney",
+        "filterExempt": true
+      },
+      {
+        "id": "SYD-8B-01",
+        "title": "Golden Hour on the Manly Ferry",
+        "description": "Ride the Manly Ferry at golden hour and just watch the city slide by.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Don't take a single photo — just watch.",
+        "city": "Sydney, Australia",
+        "mapsUrl": "https://maps.google.com/maps/search/Manly+Ferry+Sydney",
+        "filterExempt": true
       }
     ]
   }

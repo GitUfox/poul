@@ -9,6 +9,7 @@
  */
 require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), override: true });
 const { Client } = require('@notionhq/client');
+const { initPackType, packFilter } = require('./pack-prop');
 const fs = require('fs');
 
 const DB_ID = '68dabc44-f31e-48d9-9dac-2a6d6edb4414';
@@ -19,13 +20,14 @@ async function main() {
   if (!pack) { console.error('Usage: node fetch-inactive.js <pack> [outfile.json]'); process.exit(1); }
 
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
+  await initPackType(notion);
   const results = [];
   let cursor;
   do {
     const r = await notion.databases.query({
       database_id: DB_ID,
       filter: { and: [
-        { property: 'Pack', select: { equals: pack } },
+        packFilter(pack),
         { property: 'Active', checkbox: { equals: false } },
       ]},
       start_cursor: cursor,

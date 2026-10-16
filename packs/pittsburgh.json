@@ -1,8 +1,8 @@
 {
   "id": "pittsburgh",
-  "name": "pittsburgh",
-  "location": "",
-  "emoji": "📍",
+  "name": "Pittsburgh",
+  "location": "Pennsylvania",
+  "emoji": "⚙️",
   "isDefault": false,
   "cards": {
     "culture": [
@@ -317,6 +317,66 @@
         "company": [
           "group"
         ]
+      },
+      {
+        "id": "PIT-S-02",
+        "title": "Rooftop Drinks Downtown",
+        "description": "Order a round at a downtown rooftop bar with the whole skyline lit up around you.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Apr–Oct",
+        "spark": 20,
+        "bonus": "Make a toast to something none of you have done yet this year.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Level+7+Rooftop+AC+Hotel+Pittsburgh+PA"
+      },
+      {
+        "id": "PIT-S-01",
+        "title": "Trivia Night at Grist House Craft Brewery",
+        "description": "Grab a table in the taproom and battle it out over cold beer at one of Pittsburgh's most-loved weekly trivia nights.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Team up with the table next to you if you're short a player.",
+        "city": "Millvale, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Grist+House+Craft+Brewery+Pittsburgh"
+      },
+      {
+        "id": "PIT-S-04",
+        "title": "Beer Garden Hangout at Cinderlands Warehouse",
+        "description": "Post up at long communal tables in the Strip District taproom's beer garden with a rotating lineup of small-batch brews.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the beer you know the least about on the board.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Cinderlands+Warehouse+Pittsburgh"
+      },
+      {
+        "id": "PIT-S-03",
+        "title": "Catch a Pirates Game at PNC Park",
+        "description": "Take a seat at what's routinely ranked the most beautiful ballpark in America, skyline rising right over the outfield wall.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Apr–Sep",
+        "spark": 24,
+        "bonus": "Get there early enough to watch the skyline light up during batting practice.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/PNC+Park+Pittsburgh"
       }
     ],
     "adventure": [
@@ -476,6 +536,96 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "PIT-A-04",
+        "title": "Conquer the South Side Slopes Staircases",
+        "description": "Climb one of America's densest networks of public staircases, hundreds of steps straight up a hillside neighborhood, for a view most tourists never see.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Find and climb the steepest staircase in the neighborhood without stopping to rest.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/South+Side+Slopes+Pittsburgh"
+      },
+      {
+        "id": "PIT-AC-02",
+        "title": "Run the Eliza Furnace Trail",
+        "description": "Log miles along the flat riverside path locals call the Jail Trail, Monongahela River on one side, downtown skyline on the other.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick a landmark across the river and run until it's directly across from you.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Eliza+Furnace+Trail+Pittsburgh"
+      },
+      {
+        "id": "PIT-A-01",
+        "title": "Ride the Duquesne Incline to Mount Washington",
+        "description": "Climb the 1877 cable car up the bluff for the single best skyline view of the three rivers meeting downtown.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride up for sunset and stay until the lights come on downtown.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Duquesne+Incline+Pittsburgh"
+      },
+      {
+        "id": "PIT-A-03",
+        "title": "Bike the Great Allegheny Passage",
+        "description": "Roll out from Point State Park onto a flat, riverside rail-trail that eventually stretches all the way to DC.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 14,
+        "bonus": "Ride until you hit the first mile marker and text a photo of it to a friend.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Great+Allegheny+Passage+Point+State+Park+Pittsburgh"
+      },
+      {
+        "id": "PIT-AC-04",
+        "title": "Ice Skate at PPG Place",
+        "description": "Glide across the outdoor rink ringed by the glass Gothic spires of PPG Place in the heart of downtown.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Nov–Feb",
+        "spark": 18,
+        "bonus": "Skate one full lap without holding the rail.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/PPG+Place+Ice+Rink+Pittsburgh"
+      },
+      {
+        "id": "PIT-AC-01",
+        "title": "Hike the Fern Hollow Loop in Frick Park",
+        "description": "Wind through a wooded ravine trail in one of Pittsburgh's largest and wildest city parks.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Spot and name three different tree species along the trail.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Frick+Park+Fern+Hollow+Trail+Pittsburgh"
       }
     ],
     "foodie": [
@@ -559,6 +709,25 @@
         ]
       },
       {
+        "id": "PIT-F-09",
+        "title": "Window-Seat Dinner on Mount Washington",
+        "description": "Dinner on top of Mount Washington at Monterey Bay Fish Grotto, where the rivers meet directly beneath the window and the whole skyline lights up.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Book the latest window table and stay through the lights coming on.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Monterey+Bay+Fish+Grotto+Pittsburgh+PA",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
         "id": "PIT-F-12",
         "title": "Hardwood-Grilled Burger at Tessaro's",
         "description": "A dark wood-panelled Bloomfield tavern grilling half-pound burgers over hardwood, often cited as the best in the city.",
@@ -616,6 +785,66 @@
           "couple",
           "group"
         ]
+      },
+      {
+        "id": "PIT-F-03",
+        "title": "Pint and Pretzel at Church Brew Works",
+        "description": "Drink a house-brewed lager beneath stained glass and vaulted ceilings inside an actual converted 19th-century church.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Sit in what used to be a pew and order the sampler flight.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Church+Brew+Works+Pittsburgh"
+      },
+      {
+        "id": "PIT-F-02",
+        "title": "Saturday Morning Strip District Market Crawl",
+        "description": "Weave through open-air stalls, spice shops, and Italian delis in the neighborhood that built Pittsburgh's food scene.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy one ingredient you've never cooked with before.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Strip+District+Pittsburgh"
+      },
+      {
+        "id": "PIT-F-01",
+        "title": "Original Sandwich at Primanti Bros",
+        "description": "Order the classic at the Strip District original — fries and coleslaw piled right inside the sandwich, no substitutions.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat it standing up at the counter like a local.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Primanti+Bros+Strip+District+Pittsburgh"
+      },
+      {
+        "id": "PIT-F-04",
+        "title": "Chef's Counter Dinner at Butcher and the Rye",
+        "description": "Book the counter for a whiskey-paired tasting menu at one of downtown Pittsburgh's most acclaimed kitchens.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 38,
+        "bonus": "Let the bartender pick your whiskey pour, no menu required.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Butcher+and+the+Rye+Pittsburgh"
       }
     ],
     "chill": [
@@ -732,6 +961,66 @@
           "solo",
           "couple"
         ]
+      },
+      {
+        "id": "PIT-C-04",
+        "title": "Sunset at the Point State Park Fountain",
+        "description": "Watch the fountain arc over the exact spot where the Allegheny and Monongahela become the Ohio River.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min–1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Watch until the three rivers actually disappear into one color in the fading light.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Point+State+Park+Pittsburgh"
+      },
+      {
+        "id": "PIT-C-01",
+        "title": "Wander Phipps Conservatory and Botanical Gardens",
+        "description": "Drift through glasshouse rooms of orchids, bonsai, and seasonal flower shows in one of the country's oldest conservatories.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the one room that smells the best and stay there an extra five minutes.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Phipps+Conservatory+and+Botanical+Gardens+Pittsburgh"
+      },
+      {
+        "id": "PIT-C-03",
+        "title": "Sit with the Dinosaurs at Carnegie Museum of Natural History",
+        "description": "Spend a slow afternoon under full-scale dinosaur skeletons in one of the largest natural history collections in the country.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick your favorite skeleton and learn one fact about it before you leave.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Carnegie+Museum+of+Natural+History+Pittsburgh"
+      },
+      {
+        "id": "PIT-C-02",
+        "title": "Explore Randyland",
+        "description": "Step inside a free, wildly painted folk-art house and yard on the Northside that turns an entire block into a mural.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30–45 min",
+        "durationMins": 40,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 10,
+        "bonus": "Find the founder Randy if he's around and say hello.",
+        "city": "Pittsburgh, PA",
+        "mapsUrl": "https://maps.google.com/maps/search/Randyland+Pittsburgh"
       }
     ],
     "8ball": [

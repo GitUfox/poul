@@ -1,8 +1,8 @@
 {
   "id": "boise",
-  "name": "boise",
-  "location": "",
-  "emoji": "📍",
+  "name": "Boise",
+  "location": "Idaho",
+  "emoji": "🥔",
   "isDefault": false,
   "cards": {
     "social": [
