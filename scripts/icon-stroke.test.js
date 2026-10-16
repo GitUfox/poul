@@ -1,13 +1,17 @@
 /**
  * icon-stroke.test.js — run with: npm test  (node --test, zero deps)
  *
- * Guards the icon stroke system.
+ * Guards the icon stroke system and the pack flag marks.
  *
- * The bug: stroke-width is in viewBox units, so a fixed stroke-width makes the
+ * The stroke bug: stroke-width is in viewBox units, so a fixed stroke-width makes the
  * RENDERED weight scale linearly with the icon. Poul shipped 16 different
  * optical weights across 32 icons — 0.68px (a sub-pixel grey smear) up to
  * 5.24px — and the relationship was inverted: big glyphs were proportionally
  * HEAVIER than small ones, which is backwards from how icon families work.
+ *
+ * The pack marks (2026-10-15): every pack carries its flag as a PNG tile rendered
+ * from the official vector. Nothing is hand-drawn. These tests pin that every
+ * live pack maps to a flag and every mapped flag has its tile on disk.
  *
  * Like draw-bag.test.js, this extracts the real source out of poul-v1.5.html
  * rather than re-declaring a copy, so it fails if the shipped code drifts.
@@ -17,7 +21,8 @@ const assert = require('node:assert');
 const fs = require('fs');
 const path = require('path');
 
-const HTML = path.join(__dirname, '..', 'poul-v1.5.html');
+const ROOT = path.join(__dirname, '..');
+const HTML = path.join(ROOT, 'poul-v1.5.html');
 const html = fs.readFileSync(HTML, 'utf8');
 
 function slice(startMarker, endMarker) {
@@ -29,13 +34,13 @@ function slice(startMarker, endMarker) {
 }
 
 const ICONS_SRC = slice('const ICONS = {', '\n};') + '\n};';
-const MARKS_SRC = slice('const PACK_MARKS = {', '\n};') + '\n};';
+const TROPHY_SRC = slice('const TROPHY_ART = {', '\n};') + '\n};';
+const FLAG_SRC  = slice('const PACK_FLAG = {', '// ── POUL TYPE EMBLEMS ──');
 const SYS_SRC   = slice('const ICON_STROKE_MIN', '// Mini pool ball');
-const MARK_FN   = slice('function packMark(', '// ── POUL TYPE EMBLEMS ──');
 
 const M = new Function(
-  ICONS_SRC + MARKS_SRC + SYS_SRC + MARK_FN +
-  '\nreturn { icon, packMark, opticalStroke, scaleGlyphStrokes, ICONS, PACK_MARKS, ICON_STROKE_MIN };'
+  ICONS_SRC + TROPHY_SRC + FLAG_SRC + SYS_SRC +
+  '\nreturn { icon, packMark, flagTile, opticalStroke, scaleGlyphStrokes, ICONS, TROPHY_ART, PACK_FLAG, ICON_STROKE_MIN };'
 )();
 
 const VIEWBOX = 44;
@@ -74,15 +79,6 @@ describe('icon strokes — legibility floor', () => {
 });
 
 describe('icon strokes — one family', () => {
-  test('icon() and packMark() render the same weight at the same size', () => {
-    for (const size of SIZES) {
-      const a = opticalPx(M.icon('flame', size));
-      const b = opticalPx(M.packMark('phoenix', size));
-      assert.ok(Math.abs(a - b) < 0.01,
-        `@${size}px icon=${a.toFixed(2)}px but packMark=${b.toFixed(2)}px — two families, not one`);
-    }
-  });
-
   test('a string size ("12px") resolves the same as a number', () => {
     assert.strictEqual(
       M.icon('flame', 12).match(/stroke-width="([0-9.]+)"/)[1],
@@ -95,14 +91,6 @@ describe('icon strokes — one family', () => {
       const svg = M.icon(name, 16);
       assert.match(svg, /^<svg [^>]*>[\s\S]*<\/svg>$/, name + ' produced malformed svg');
       assert.doesNotMatch(svg, /stroke-width="(NaN|Infinity|undefined)"/, name + ' produced an invalid stroke');
-    }
-  });
-
-  test('every PACK_MARKS entry renders a well-formed svg', () => {
-    for (const id of Object.keys(M.PACK_MARKS)) {
-      const svg = M.packMark(id, 15);
-      assert.match(svg, /^<svg [^>]*>[\s\S]*<\/svg>$/, id + ' produced malformed svg');
-      assert.doesNotMatch(svg, /stroke-width="(NaN|Infinity|undefined)"/, id + ' produced an invalid stroke');
     }
   });
 });
@@ -134,11 +122,14 @@ describe('icon strokes — the curve is sub-linear', () => {
 
 describe('icon strokes — glyph hierarchy survives scaling', () => {
   test('internal stroke ratios are preserved exactly', () => {
-    // istanbul de-emphasises its ground line; brussels and denver do too.
-    for (const id of ['istanbul', 'brussels', 'chicago']) {
-      const original = [2.6, ...[...M.PACK_MARKS[id].matchAll(/stroke-width="([0-9.]+)"/g)].map(m => Number(m[1]))];
+    // Trophy art de-emphasises secondary lines with its own stroke-width overrides.
+    const withOverrides = Object.entries(M.TROPHY_ART).filter(([, g]) => /stroke-width="/.test(g));
+    assert.ok(withOverrides.length > 0, 'no TROPHY_ART glyph carries a stroke override — did the art change?');
+    for (const [id, glyph] of withOverrides) {
+      const original = [2.6, ...[...glyph.matchAll(/stroke-width="([0-9.]+)"/g)].map(m => Number(m[1]))];
       for (const size of [12, 28, 64]) {
-        const rendered = [...M.packMark(id, size).matchAll(/stroke-width="([0-9.]+)"/g)].map(m => Number(m[1]));
+        const next = M.opticalStroke(size, VIEWBOX);
+        const rendered = [next, ...[...M.scaleGlyphStrokes(glyph, 2.6, next).matchAll(/stroke-width="([0-9.]+)"/g)].map(m => Number(m[1]))];
         assert.strictEqual(rendered.length, original.length, id + ' lost a stroke override');
         for (let i = 0; i < original.length; i++) {
           const was = original[i] / original[0];
@@ -153,5 +144,45 @@ describe('icon strokes — glyph hierarchy survives scaling', () => {
   test('scaleGlyphStrokes leaves a glyph without overrides untouched', () => {
     const plain = '<path d="M1 1 L2 2"/>';
     assert.strictEqual(M.scaleGlyphStrokes(plain, 3, 4.67), plain);
+  });
+});
+
+describe('pack flag marks — every pack carries its flag', () => {
+  const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'packs', 'index.json'), 'utf8')).packs;
+  const { FLAG_SOURCES } = require('./render-flags.js');
+
+  test('every live pack in packs/index.json has a PACK_FLAG entry', () => {
+    const missing = index.map(p => p.id).filter(id => !M.PACK_FLAG[id]);
+    assert.deepStrictEqual(missing, [], 'packs without a flag: ' + missing.join(', '));
+  });
+
+  test('every PACK_FLAG value has its tile in /flags and a source in render-flags.js', () => {
+    for (const key of new Set(Object.values(M.PACK_FLAG))) {
+      assert.ok(fs.existsSync(path.join(ROOT, 'flags', key + '.png')), 'missing tile flags/' + key + '.png');
+      assert.ok(FLAG_SOURCES[key], 'no Commons source for ' + key + ' in render-flags.js');
+    }
+  });
+
+  test('no PACK_FLAG entry points at a retired pack', () => {
+    const live = new Set(index.map(p => p.id));
+    const stale = Object.keys(M.PACK_FLAG).filter(id => !live.has(id));
+    assert.deepStrictEqual(stale, [], 'retired packs still mapped: ' + stale.join(', '));
+  });
+
+  test('every tile is a 112×75 PNG (4× of the 28px selector tile)', () => {
+    for (const key of new Set(Object.values(M.PACK_FLAG))) {
+      const buf = fs.readFileSync(path.join(ROOT, 'flags', key + '.png'));
+      assert.strictEqual(buf.toString('ascii', 1, 4), 'PNG', key + ' is not a PNG');
+      assert.strictEqual(buf.readUInt32BE(16), 112, key + ' width');
+      assert.strictEqual(buf.readUInt32BE(20), 75, key + ' height');
+    }
+  });
+
+  test('packMark renders an <img> tile at 3:2, and a blank tile for an unknown pack', () => {
+    const svg = M.packMark('phoenix', 28);
+    assert.match(svg, /^<img class="pm" src="flags\/arizona\.png" width="28" height="19" alt="" aria-hidden="true"/);
+    assert.match(M.packMark('tokyo', 15), /src="flags\/japan\.png" width="15" height="10"/);
+    assert.match(M.packMark('no-such-pack', 28), /^<span class="pm pm-empty"/);
+    assert.doesNotMatch(svg, /<path|<svg/, 'a pack mark must never be a drawing');
   });
 });

@@ -2292,6 +2292,12 @@
 
   .pack-option-emoji { font-size: var(--fs-2xl); flex-shrink: 0; }
 
+  /* Pack flag tiles — official flag renders, 3:2, never a drawing */
+  .pm { display: block; border-radius: 3px; object-fit: cover; background: var(--surface); flex-shrink: 0; }
+  .pm[width="15"] { border-radius: 2px; }
+  .pm-empty { display: inline-block; border-radius: 3px; background: var(--felt-dim); flex-shrink: 0; }
+  #pack-indicator-text .pm { margin-top: var(--sp-4); }
+
   .pack-option-info { flex: 1; }
 
   .pack-option-name {
@@ -4194,61 +4200,126 @@ function ballIcon(size) {
   return '<svg class="pi" width="' + size + '" height="' + size + '" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="\'Playfair Display\', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg>';
 }
 
-// ── PACK LANDMARK MARKS ──
-// One hand-drawn mark per city pack, all in felt green so every deck reads
-// as part of the same table. New pack → add a mark here (falls back to a pin).
-const PACK_MARKS = {
-  phoenix: '<path d="M22 40 L22 12 Q22 6 17.5 6 Q13 6 13 12 L13 14" fill="none"/><path d="M22 26 L28 26 Q31 26 31 22 L31 18" fill="none"/><path d="M22 32 L16 32 Q13 32 13 28 L13 26" fill="none"/><path d="M9 40 L35 40" stroke-opacity=".5"/>',
-  nyc: '<path d="M22 4 C24 8 27 9.5 27 13 A5 5 0 0 1 17 13 C17 9.5 20 8 22 4 Z" fill="currentColor" fill-opacity=".18"/><path d="M22 4 C24 8 27 9.5 27 13 A5 5 0 0 1 17 13 C17 9.5 20 8 22 4 Z"/><path d="M15 20 Q22 17 29 20" fill="none"/><path d="M18 20 L18 36 Q18 40 22 40 Q26 40 26 36 L26 20" fill="none"/><line x1="14" y1="40" x2="30" y2="40" stroke-opacity=".5"/>',
-  istanbul: '<path d="M10 24 Q10 15 19 12 Q28 15 28 24 Z" fill="currentColor" fill-opacity=".15"/><path d="M10 24 Q10 15 19 12 Q28 15 28 24" fill="none"/><line x1="19" y1="12" x2="19" y2="8"/><circle cx="19" cy="6.5" r="1.4" fill="currentColor" stroke="none"/><line x1="7" y1="24" x2="31" y2="24"/><path d="M36 40 L36 12 L34 8 L38 8 Z" fill="currentColor" fill-opacity=".15"/><path d="M36 40 L36 12 M34 8 L36 4 L38 8 L36 12 L34 8" fill="none" stroke-width="2.2"/><line x1="8" y1="40" x2="31" y2="40" stroke-opacity=".5"/><path d="M10 24 L10 40 M28 24 L28 40" fill="none" stroke-opacity=".7"/>',
-  brussels: '<path d="M11 10 L29 10 L27 40 L13 40 Z" fill="currentColor" fill-opacity=".13"/><path d="M11 10 L29 10 L27 40 L13 40 Z" fill="none"/><path d="M29 14 L34 14 Q37 14 37 18 L37 24 Q37 28 34 28 L28 28" fill="none" stroke-width="2.4"/><path d="M9 10 Q9 5.5 14 6.5 Q15 3.5 19 4.5 Q21 2 24.5 3.5 Q28 3 28.5 6 Q32 6.5 31 10" fill="currentColor" fill-opacity=".3"/><path d="M9 10 Q9 5.5 14 6.5 Q15 3.5 19 4.5 Q21 2 24.5 3.5 Q28 3 28.5 6 Q32 6.5 31 10" fill="none"/><line x1="15" y1="16" x2="15.7" y2="34" stroke-opacity=".45" stroke-width="2.2"/>',
-  hamptons: '<path d="M22 6 C10 6 5 16 5 24 Q13 18 22 24 Q31 18 39 24 C39 16 34 6 22 6 Z" fill="currentColor" fill-opacity=".15"/><path d="M22 6 C10 6 5 16 5 24 Q13 18 22 24 Q31 18 39 24 C39 16 34 6 22 6 Z"/><line x1="22" y1="6" x2="22" y2="24"/><line x1="22" y1="24" x2="22" y2="38"/><path d="M22 38 Q26 38 27 34" fill="none"/>',
-  paris: '<path d="M22 4 C24 14 27 22 34 32 L30 32 C27 24 24 20 22 20 C20 20 17 24 14 32 L10 32 C17 22 20 14 22 4 Z" fill="currentColor" fill-opacity=".14"/><path d="M22 4 C24 14 27 22 34 32 L30 32 C27 24 24 20 22 20 C20 20 17 24 14 32 L10 32 C17 22 20 14 22 4 Z"/><path d="M12 38 Q22 30 32 38" fill="none"/><line x1="17" y1="26" x2="27" y2="26" stroke-opacity=".6" stroke-width="2.2"/>',
-  oslo: '<path d="M4 34 L14 12 L21 24 L27 15 L40 34 Z" fill="currentColor" fill-opacity=".14"/><path d="M4 34 L14 12 L21 24 L27 15 L40 34" fill="none"/><path d="M14 12 L16.5 16.5 M27 15 L29.5 19.5" stroke-opacity=".6" stroke-width="2.2"/><path d="M6 40 Q11 37.5 16 40 Q21 42.5 26 40 Q31 37.5 36 40" fill="none" stroke-opacity=".7"/>',
-  baltimore: '<ellipse cx="22" cy="27" rx="11" ry="8" fill="currentColor" fill-opacity=".15"/><ellipse cx="22" cy="27" rx="11" ry="8"/><path d="M14 21 Q9 17 10 11 Q15 12 17 17" fill="none"/><path d="M30 21 Q35 17 34 11 Q29 12 27 17" fill="none"/><path d="M12 31 L6 34 M13.5 34.5 L9 39 M32 31 L38 34 M30.5 34.5 L35 39" stroke-width="2.2"/><circle cx="18" cy="25" r="1.5" fill="currentColor" stroke="none"/><circle cx="26" cy="25" r="1.5" fill="currentColor" stroke="none"/>',
-  'ocean-city': '<path d="M6 34 C10 30 10 22 7 18 C16 18 20 24 20 30 C22 20 18 10 10 6 C24 7 32 17 30 30 Q35 27 38 22 C39 31 33 38 24 38 L6 38 Z" fill="currentColor" fill-opacity=".15"/><path d="M6 34 C10 30 10 22 7 18 C16 18 20 24 20 30 C22 20 18 10 10 6 C24 7 32 17 30 30 Q35 27 38 22 C39 31 33 38 24 38 L6 38 Z"/>',
-  dc: '<path d="M19 36 L20 10 L22 4 L24 10 L25 36 Z" fill="currentColor" fill-opacity=".15"/><path d="M19 36 L20 10 L22 4 L24 10 L25 36 Z"/><line x1="12" y1="36" x2="32" y2="36"/><line x1="14" y1="40" x2="30" y2="40" stroke-opacity=".5"/>',
-  'thousand-islands': '<path d="M21 6 L21 26 M21 8 L33 26 L21 26 M21 12 L11 26 L21 26" fill="none"/><path d="M21 8 L33 26 L21 26 Z" fill="currentColor" fill-opacity=".15"/><path d="M7 32 L37 32 L33 38 L11 38 Z" fill="currentColor" fill-opacity=".15"/><path d="M7 32 L37 32 L33 38 L11 38 Z"/>',
-  belleville: '<path d="M13 5 L31 5 C31 14 28 19 24 20.5 L24 32 L30 36 L30 38 L14 38 L14 36 L20 32 L20 20.5 C16 19 13 14 13 5 Z" fill="currentColor" fill-opacity=".13"/><path d="M13 5 L31 5 C31 14 28 19 24 20.5 L24 32 L30 36 L30 38 L14 38 L14 36 L20 32 L20 20.5 C16 19 13 14 13 5 Z"/><path d="M14 11 Q22 15 30 11" fill="none" stroke-opacity=".6" stroke-width="2.2"/>',
-  'world-cup-2026': '<circle cx="22" cy="22" r="17" fill="currentColor" fill-opacity=".1"/><circle cx="22" cy="22" r="17"/><path d="M22 14 L28.5 18.5 L26 26 L18 26 L15.5 18.5 Z" fill="currentColor" fill-opacity=".35"/><path d="M22 14 L28.5 18.5 L26 26 L18 26 L15.5 18.5 Z"/><path d="M22 14 L22 5.5 M28.5 18.5 L36.5 15.5 M26 26 L31 33 M18 26 L13 33 M15.5 18.5 L7.5 15.5" stroke-width="2.2"/>',
-  sedona: '<path d="M4 36 L4 30 L9 30 L9 24 L16 24 L16 16 L21 12 L26 16 L26 24 L33 24 L33 29 L40 29 L40 36 Z" fill="currentColor" fill-opacity=".15"/><path d="M4 36 L4 30 L9 30 L9 24 L16 24 L16 16 L21 12 L26 16 L26 24 L33 24 L33 29 L40 29 L40 36 Z"/><line x1="4" y1="40" x2="40" y2="40" stroke-opacity=".5"/>',
-  flagstaff: '<path d="M22 4 L31 16 L27 16 L34 26 L29 26 L37 37 L7 37 L15 26 L10 26 L17 16 L13 16 Z" fill="currentColor" fill-opacity=".15"/><path d="M22 4 L31 16 L27 16 L34 26 L29 26 L37 37 L7 37 L15 26 L10 26 L17 16 L13 16 Z"/><line x1="22" y1="37" x2="22" y2="41"/>',
-  tokyo: '<path d="M6 12 Q22 8 38 12 M9 12 L9 8 M35 12 L35 8" fill="none"/><line x1="12" y1="12" x2="13" y2="38"/><line x1="32" y1="12" x2="31" y2="38"/><line x1="10.5" y1="22" x2="33.5" y2="22"/><path d="M6 12 Q22 8.5 38 12 L38 9 Q22 5.5 6 9 Z" fill="currentColor" fill-opacity=".2"/>',
-  bangkok: '<path d="M22 3 L23.5 10 L20.5 10 Z" fill="currentColor"/><path d="M20 10 L24 10 L26 18 L18 18 Z" fill="currentColor" fill-opacity=".2"/><path d="M20 10 L24 10 L26 18 L18 18 Z"/><path d="M16 18 L28 18 L31 30 L13 30 Z" fill="currentColor" fill-opacity=".15"/><path d="M16 18 L28 18 L31 30 L13 30 Z"/><path d="M9 36 L35 36 M11 30 L11 36 M33 30 L33 36 M22 30 L22 36" stroke-opacity=".7" stroke-width="2.2"/>',
-  turkey: '<path d="M22 4 C31 4 36 10.5 36 17.5 C36 25 29 29 25.5 32 L18.5 32 C15 29 8 25 8 17.5 C8 10.5 13 4 22 4 Z" fill="currentColor" fill-opacity=".14"/><path d="M22 4 C31 4 36 10.5 36 17.5 C36 25 29 29 25.5 32 L18.5 32 C15 29 8 25 8 17.5 C8 10.5 13 4 22 4 Z"/><path d="M17 33 L27 33 L25.5 39 L18.5 39 Z" fill="currentColor" fill-opacity=".3"/><path d="M17 33 L27 33 L25.5 39 L18.5 39 Z"/><path d="M15 5.5 C13 12 13 24 16.5 31.5 M29 5.5 C31 12 31 24 27.5 31.5" fill="none" stroke-opacity=".55" stroke-width="2"/>',
-  norway: '<path d="M5 10 L13 10 L13 26 Q13 34 22 34 Q31 34 31 26 L31 10 L39 10" fill="none"/><path d="M13 10 L13 26 Q13 34 22 34 Q31 34 31 26 L31 10" fill="currentColor" fill-opacity=".12"/><path d="M6 40 Q11 37.5 16 40 Q21 42.5 26 40 Q31 37.5 36 40" fill="none" stroke-opacity=".7"/>',
-  'los-angeles': '<path d="M22 5 L26.3 15.4 L37.5 16.3 L29 23.7 L31.6 34.7 L22 28.8 L12.4 34.7 L15 23.7 L6.5 16.3 L17.7 15.4 Z" fill="currentColor" fill-opacity=".16"/><path d="M22 5 L26.3 15.4 L37.5 16.3 L29 23.7 L31.6 34.7 L22 28.8 L12.4 34.7 L15 23.7 L6.5 16.3 L17.7 15.4 Z"/><line x1="8" y1="40" x2="36" y2="40" stroke-opacity=".5"/>',
-  chicago: '<path d="M16 40 L16 10 L28 10 L28 40" fill="currentColor" fill-opacity=".12"/><path d="M16 40 L16 10 L28 10 L28 40" fill="none"/><path d="M12 40 L12 20 L16 20 M28 20 L32 20 L32 40" fill="none"/><line x1="19.5" y1="10" x2="19.5" y2="4"/><line x1="24.5" y1="10" x2="24.5" y2="4"/><line x1="8" y1="40" x2="36" y2="40" stroke-opacity=".5"/><path d="M18.5 16 L25.5 16 M18.5 22 L25.5 22 M18.5 28 L25.5 28 M18.5 34 L25.5 34" stroke-opacity=".45" stroke-width="1.8"/>',
-  'las-vegas': '<rect x="10" y="10" width="24" height="24" rx="6" transform="rotate(-8 22 22)" fill="currentColor" fill-opacity=".13"/><rect x="10" y="10" width="24" height="24" rx="6" transform="rotate(-8 22 22)"/><circle cx="15.5" cy="17.5" r="2.4" fill="currentColor" stroke="none" transform="rotate(-8 22 22)"/><circle cx="22" cy="22" r="2.4" fill="currentColor" stroke="none" transform="rotate(-8 22 22)"/><circle cx="28.5" cy="26.5" r="2.4" fill="currentColor" stroke="none" transform="rotate(-8 22 22)"/><path d="M36 4 L37.2 7 L40 8 L37.2 9 L36 12 L34.8 9 L32 8 L34.8 7 Z" fill="currentColor" stroke="none"/>',
-  miami: '<path d="M19 40 C21 30 22 22 21 15" fill="none" stroke-width="3"/><path d="M21 15 C16 9 10 8 5 11 C10 13 15 14 21 15 Z" fill="currentColor" fill-opacity=".2"/><path d="M21 15 C16 9 10 8 5 11 C10 13 15 14 21 15 Z"/><path d="M21 15 C20 8 16 4 10 3 C13 7 16 11 21 15 Z" fill="currentColor" fill-opacity=".2"/><path d="M21 15 C20 8 16 4 10 3 C13 7 16 11 21 15 Z"/><path d="M21 15 C24 8 29 5 35 5 C31 9 26 13 21 15 Z" fill="currentColor" fill-opacity=".2"/><path d="M21 15 C24 8 29 5 35 5 C31 9 26 13 21 15 Z"/><path d="M21 15 C27 12 33 13 38 17 C32 18 26 17 21 15 Z" fill="currentColor" fill-opacity=".2"/><path d="M21 15 C27 12 33 13 38 17 C32 18 26 17 21 15 Z"/><circle cx="18" cy="18" r="1.6" fill="currentColor" stroke="none"/><line x1="8" y1="40" x2="34" y2="40" stroke-opacity=".5"/>',
-  'san-francisco': '<path d="M4 20 L40 20" stroke-opacity=".9"/><path d="M11 32 L11 8 M33 32 L33 8" fill="none"/><path d="M4 14 Q11 6 22 14 M22 14 Q33 6 40 14" fill="none" stroke-opacity="0"/><path d="M11 10 Q22 20 33 10" fill="none"/><path d="M4 12 L11 10 M33 10 L40 12" fill="none"/><path d="M17 20 L17 16.5 M22 20 L22 15 M27 20 L27 16.5" stroke-opacity=".6" stroke-width="2"/><path d="M4 38 Q13 35 22 38 Q31 41 40 38" fill="none" stroke-opacity=".6"/>',
-  seattle: '<path d="M22 4 L22 10" /><path d="M10 16 Q22 8 34 16 L28 20 L16 20 Z" fill="currentColor" fill-opacity=".18"/><path d="M10 16 Q22 8 34 16 L28 20 L16 20 Z"/><path d="M19 20 L17 40 M25 20 L27 40 M17.8 32 L26.2 32" fill="none"/><line x1="10" y1="40" x2="34" y2="40" stroke-opacity=".5"/>',
-  denver: '<path d="M4 34 L15 12 L22 24 L28 14 L40 34 Z" fill="currentColor" fill-opacity=".13"/><path d="M4 34 L15 12 L22 24 L28 14 L40 34" fill="none"/><path d="M12.2 17.5 L15 12 L17.8 17 L15.5 19.5 L13.8 17.8 Z" fill="currentColor" fill-opacity=".5"/><path d="M25.5 18 L28 14 L30.5 18.2 L28.2 20.5 Z" fill="currentColor" fill-opacity=".5"/>',
-  austin: '<path d="M22 8 C20 12 16 13 12 12 C14 15 14 18 12 21 C16 20 19 22 20 26 L24 26 C25 22 28 20 32 21 C30 18 30 15 32 12 C28 13 24 12 22 8 Z" fill="currentColor" fill-opacity=".16"/><path d="M22 8 C20 12 16 13 12 12 C14 15 14 18 12 21 C16 20 19 22 20 26 L24 26 C25 22 28 20 32 21 C30 18 30 15 32 12 C28 13 24 12 22 8 Z"/><path d="M20 26 L20 32 Q20 35 22 35 Q24 35 24 32 L24 26" fill="none" stroke-width="2.2"/><circle cx="18.5" cy="16" r="1.3" fill="currentColor" stroke="none"/><circle cx="25.5" cy="16" r="1.3" fill="currentColor" stroke="none"/>',
-  nashville: '<circle cx="16" cy="30" r="9" fill="currentColor" fill-opacity=".14"/><circle cx="16" cy="30" r="9"/><circle cx="16" cy="30" r="3.2" fill="none" stroke-width="2"/><path d="M22.5 23.5 L36 8" stroke-width="3.4"/><path d="M34 5 L39 10 M36.5 3.5 L40.5 7.5" stroke-width="2.2"/>',
-  'san-diego': '<path d="M22 3 C29 8 31 18 29.5 27 C28.5 33 25.5 38 22 41 C18.5 38 15.5 33 14.5 27 C13 18 15 8 22 3 Z" fill="currentColor" fill-opacity=".13"/><path d="M22 3 C29 8 31 18 29.5 27 C28.5 33 25.5 38 22 41 C18.5 38 15.5 33 14.5 27 C13 18 15 8 22 3 Z"/><line x1="22" y1="9" x2="22" y2="35" stroke-opacity=".5" stroke-width="2"/>',
-  'new-orleans': '<path d="M22 3 C25.5 8 26.5 14 23.5 20 L20.5 20 C17.5 14 18.5 8 22 3 Z" fill="currentColor" fill-opacity=".2"/><path d="M22 3 C25.5 8 26.5 14 23.5 20 L20.5 20 C17.5 14 18.5 8 22 3 Z"/><path d="M17.5 20 C11.5 19.5 7.5 14.5 8.5 9.5 C13.5 11.5 16.5 15 18.5 19.5 Z" fill="currentColor" fill-opacity=".2"/><path d="M17.5 20 C11.5 19.5 7.5 14.5 8.5 9.5 C13.5 11.5 16.5 15 18.5 19.5 Z"/><path d="M26.5 20 C32.5 19.5 36.5 14.5 35.5 9.5 C30.5 11.5 27.5 15 25.5 19.5 Z" fill="currentColor" fill-opacity=".2"/><path d="M26.5 20 C32.5 19.5 36.5 14.5 35.5 9.5 C30.5 11.5 27.5 15 25.5 19.5 Z"/><line x1="13" y1="24" x2="31" y2="24"/><path d="M19.5 27 C19.5 32 18 35.5 15.5 38 M24.5 27 C24.5 32 26 35.5 28.5 38 M22 27 L22 39" fill="none" stroke-width="2.4"/>',
-  'boston': '<path d="M18.5 36 L20.2 11 L22 5 L23.8 11 L25.5 36 Z" fill="currentColor" fill-opacity=".2"/><path d="M18.5 36 L20.2 11 L22 5 L23.8 11 L25.5 36 Z"/><line x1="20.2" y1="11" x2="23.8" y2="11"/><line x1="22" y1="15" x2="22" y2="19"/><line x1="10" y1="36" x2="34" y2="36"/><path d="M8 40 C10.5 38.5 13 38.5 15.5 40 C18 41.5 20.5 41.5 23 40 M23 40 C25.5 38.5 28 38.5 30.5 40 C33 41.5 35.5 41.5 38 40" fill="none" stroke-width="2.2"/>',
-  // Wave 2 — CN Tower · Notre-Dame Basilica · North Shore peaks · Ángel de la Independencia · GDL Cathedral spires · sun over water · peach · Reunion Tower · rocket · Liberty Bell
-  'toronto': '<path d="M20 40 L20.8 23 L23.2 23 L24 40 Z" fill="currentColor" fill-opacity=".15"/><path d="M20 40 L20.8 23 L23.2 23 L24 40 Z"/><path d="M16.5 23 Q22 17.5 27.5 23 Q22 26 16.5 23 Z" fill="currentColor" fill-opacity=".2"/><path d="M16.5 23 Q22 17.5 27.5 23 Q22 26 16.5 23 Z"/><line x1="22" y1="17.5" x2="22" y2="4"/><circle cx="22" cy="4" r="1.3" fill="currentColor" stroke="none"/><line x1="12" y1="40" x2="32" y2="40" stroke-opacity=".5"/>',
-  'montreal': '<path d="M10 40 L10 15 L17 15 L17 40 Z" fill="currentColor" fill-opacity=".14"/><path d="M10 40 L10 15 L17 15 L17 40 Z"/><path d="M27 40 L27 15 L34 15 L34 40 Z" fill="currentColor" fill-opacity=".14"/><path d="M27 40 L27 15 L34 15 L34 40 Z"/><path d="M17 22 L27 22 L27 40 L17 40 Z" fill="currentColor" fill-opacity=".1"/><path d="M17 22 L27 22 L27 40 M17 40 L17 22"/><path d="M13.5 15 L13.5 10 M30.5 15 L30.5 10" stroke-width="2.2"/><path d="M20 22 L22 18 L24 22" fill="none" stroke-width="2"/><line x1="8" y1="40" x2="36" y2="40" stroke-opacity=".5"/>',
-  'vancouver': '<path d="M4 30 L14 12 L20 22 L27 10 L40 30 Z" fill="currentColor" fill-opacity=".14"/><path d="M4 30 L14 12 L20 22 L27 10 L40 30" fill="none"/><path d="M11 17 L14 12 L16.5 16 M24 15 L27 10 L30 15" stroke-opacity=".55" stroke-width="2"/><path d="M4 34 Q22 31 40 34" fill="none" stroke-opacity=".4" stroke-width="2"/><path d="M6 40 Q11 37.5 16 40 Q21 42.5 26 40 Q31 37.5 36 40" fill="none" stroke-opacity=".7"/>',
-  'mexico-city': '<path d="M18 34 L26 34 L27 40 L17 40 Z" fill="currentColor" fill-opacity=".18"/><path d="M18 34 L26 34 L27 40 L17 40 Z"/><path d="M20.7 34 L21.2 13 L22.8 13 L23.3 34 Z" fill="currentColor" fill-opacity=".15"/><path d="M20.7 34 L21.2 13 L22.8 13 L23.3 34 Z"/><line x1="22" y1="13" x2="22" y2="7.5"/><circle cx="22" cy="5.8" r="1.6" fill="currentColor" stroke="none"/><path d="M22 9 L16.5 5.5 M22 9 L27.5 5.5" stroke-width="2"/>',
-  'guadalajara': '<path d="M13 40 L13 20 L15.5 8 L18 20 L18 40 Z" fill="currentColor" fill-opacity=".15"/><path d="M13 40 L13 20 L15.5 8 L18 20 L18 40 Z"/><path d="M26 40 L26 20 L28.5 8 L31 20 L31 40 Z" fill="currentColor" fill-opacity=".15"/><path d="M26 40 L26 20 L28.5 8 L31 20 L31 40 Z"/><path d="M18 24 L26 24 L26 40 L18 40 Z" fill="currentColor" fill-opacity=".1"/><path d="M18 24 L26 24 L26 40 M18 40 L18 24"/><path d="M20.5 31 A1.6 1.6 0 0 1 23.5 31 L23.5 40 L20.5 40 Z" fill="none" stroke-width="1.8"/><line x1="10" y1="40" x2="34" y2="40" stroke-opacity=".5"/>',
-  'cancun': '<circle cx="22" cy="16" r="7" fill="currentColor" fill-opacity=".18"/><circle cx="22" cy="16" r="7"/><path d="M22 4 L22 7 M22 25 L22 28 M10 16 L13 16 M31 16 L34 16 M13.5 7.5 L15.6 9.6 M28.4 22.4 L30.5 24.5 M30.5 7.5 L28.4 9.6 M15.6 22.4 L13.5 24.5" stroke-opacity=".6" stroke-width="2"/><path d="M4 34 Q11 31 18 34 Q25 37 32 34 Q36 32.5 40 34" fill="none" stroke-opacity=".7"/><path d="M4 39 Q11 36 18 39 Q25 42 32 39 Q36 37.5 40 39" fill="none" stroke-opacity=".45"/>',
-  'atlanta': '<path d="M22 12 C15 12 11 17 11 24 C11 32 16 38 22 38 C28 38 33 32 33 24 C33 17 29 12 22 12 Z" fill="currentColor" fill-opacity=".18"/><path d="M22 12 C15 12 11 17 11 24 C11 32 16 38 22 38 C28 38 33 32 33 24 C33 17 29 12 22 12 Z"/><path d="M22 13 Q22 18 22 24" fill="none" stroke-opacity=".5" stroke-width="2"/><path d="M22 12 C22 8 25 5 30 5 C30 9 27 12 22 12 Z" fill="currentColor" fill-opacity=".3"/><path d="M22 12 C22 8 25 5 30 5 C30 9 27 12 22 12 Z"/><line x1="22" y1="12" x2="22" y2="8"/>',
-  'dallas': '<circle cx="22" cy="13" r="8" fill="currentColor" fill-opacity=".15"/><circle cx="22" cy="13" r="8"/><path d="M14 13 L30 13 M22 5 L22 21 M16.3 7.3 L27.7 18.7 M27.7 7.3 L16.3 18.7" stroke-opacity=".4" stroke-width="1.5"/><path d="M20 21 L20 38 M24 21 L24 38" fill="none"/><line x1="17" y1="38" x2="27" y2="38"/><line x1="14" y1="40" x2="30" y2="40" stroke-opacity=".5"/>',
-  'houston': '<path d="M22 4 C26 9 27 16 27 24 L17 24 C17 16 18 9 22 4 Z" fill="currentColor" fill-opacity=".16"/><path d="M22 4 C26 9 27 16 27 24 L17 24 C17 16 18 9 22 4 Z"/><circle cx="22" cy="15" r="2.6" fill="none" stroke-width="2"/><path d="M17 24 L12 32 L17 29 Z" fill="currentColor" fill-opacity=".2"/><path d="M17 24 L12 32 L17 29 Z"/><path d="M27 24 L32 32 L27 29 Z" fill="currentColor" fill-opacity=".2"/><path d="M27 24 L32 32 L27 29 Z"/><path d="M19 29 L22 40 L25 29 Z" fill="currentColor" fill-opacity=".3"/><path d="M19 29 L22 40 L25 29 Z"/>',
-  'philadelphia': '<path d="M13 16 Q13 13 22 13 Q31 13 31 16 L29 32 L15 32 Z" fill="currentColor" fill-opacity=".16"/><path d="M13 16 Q13 13 22 13 Q31 13 31 16 L29 32 L15 32 Z"/><path d="M12 32 L32 32 L32 35 L12 35 Z" fill="currentColor" fill-opacity=".2"/><path d="M12 32 L32 32 L32 35 L12 35 Z"/><path d="M22 13 L22 9 Q22 7 24 7" fill="none" stroke-width="2"/><path d="M22 16 L20 24 L23 24 L21 31" fill="none" stroke-width="1.6" stroke-opacity=".7"/><line x1="22" y1="35" x2="22" y2="39"/>',
-  _default: '<path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z" fill="currentColor" fill-opacity=".13"/><path d="M22 40 C22 40 9 27.5 9 17.5 C9 10 14.8 4 22 4 C29.2 4 35 10 35 17.5 C35 27.5 22 40 22 40 Z"/><circle cx="22" cy="17.5" r="5"/>',
+// ── PACK FLAG MARKS ──
+// Every pack carries its flag: the state flag at home, the national flag abroad.
+// Tiles are 4× PNG renders (112×75) of the official public-domain vectors on
+// Wikimedia Commons, built by scripts/render-flags.js into /flags/. Nothing here
+// is hand-drawn, ever. New pack → add its id to PACK_FLAG. New state or nation →
+// add it to FLAG_SOURCES in scripts/render-flags.js and re-render.
+const PACK_FLAG = {
+  'phoenix': 'arizona',
+  'flagstaff': 'arizona',
+  'sedona': 'arizona',
+  'tucson': 'arizona',
+  'nyc': 'new-york',
+  'hamptons': 'new-york',
+  'thousand-islands': 'new-york',
+  'baltimore': 'maryland',
+  'ocean-city': 'maryland',
+  'dc': 'dc',
+  'los-angeles': 'california',
+  'san-francisco': 'california',
+  'san-diego': 'california',
+  'palm-springs': 'california',
+  'lake-tahoe': 'california',
+  'chicago': 'illinois',
+  'las-vegas': 'nevada',
+  'miami': 'florida',
+  'tampa': 'florida',
+  'seattle': 'washington',
+  'denver': 'colorado',
+  'boulder': 'colorado',
+  'austin': 'texas',
+  'dallas': 'texas',
+  'houston': 'texas',
+  'san-antonio': 'texas',
+  'nashville': 'tennessee',
+  'memphis': 'tennessee',
+  'new-orleans': 'louisiana',
+  'boston': 'massachusetts',
+  'atlanta': 'georgia',
+  'savannah': 'georgia',
+  'philadelphia': 'pennsylvania',
+  'pittsburgh': 'pennsylvania',
+  'anchorage': 'alaska',
+  'new-river-gorge': 'west-virginia',
+  'asheville': 'north-carolina',
+  'charlotte': 'north-carolina',
+  'raleigh-durham': 'north-carolina',
+  'detroit': 'michigan',
+  'st-louis': 'missouri',
+  'kansas-city': 'missouri',
+  'milwaukee': 'wisconsin',
+  'santa-fe': 'new-mexico',
+  'albuquerque': 'new-mexico',
+  'portland': 'oregon',
+  'minneapolis': 'minnesota',
+  'charleston': 'south-carolina',
+  'salt-lake-city': 'utah',
+  'honolulu': 'hawaii',
+  'boise': 'idaho',
+  'richmond': 'virginia',
+  'louisville': 'kentucky',
+  'cincinnati': 'ohio',
+  'columbus': 'ohio',
+  'indianapolis': 'indiana',
+  'providence': 'rhode-island',
+  'portland-me': 'maine',
+  'san-juan': 'puerto-rico',
+  'istanbul': 'turkiye',
+  'turkey': 'turkiye',
+  'brussels': 'belgium',
+  'paris': 'france',
+  'oslo': 'norway',
+  'norway': 'norway',
+  'tokyo': 'japan',
+  'osaka': 'japan',
+  'kyoto': 'japan',
+  'bangkok': 'thailand',
+  'toronto': 'canada',
+  'montreal': 'canada',
+  'vancouver': 'canada',
+  'calgary': 'canada',
+  'mexico-city': 'mexico',
+  'guadalajara': 'mexico',
+  'cancun': 'mexico',
+  'seoul': 'south-korea',
+  'melbourne': 'australia',
+  'sydney': 'australia',
+  'madrid': 'spain',
+  'barcelona': 'spain',
+  'london': 'england',
+  'rome': 'italy',
+  'amsterdam': 'netherlands',
+  'berlin': 'germany',
+  'dublin': 'ireland',
+  'prague': 'czechia',
+  'lisbon': 'portugal',
+  'copenhagen': 'denmark',
+  'stockholm': 'sweden',
+  'buenos-aires': 'argentina',
+  'auckland': 'new-zealand',
+  'santiago': 'chile',
+  'taipei': 'taiwan',
+  'vienna': 'austria',
+  'budapest': 'hungary',
+  'krakow': 'poland',
+  'edinburgh': 'scotland',
+  'athens': 'greece',
+  'singapore': 'singapore',
+  'hong-kong': 'hong-kong',
+  'ho-chi-minh-city': 'vietnam',
+  'bali': 'indonesia',
 };
 
+function flagTile(key) { return 'flags/' + key + '.png'; }
+
+// The mark is an <img> tile at size × ⅔size (3:2). Unknown pack → a blank felt tile.
 function packMark(id, size) {
-  const sw = opticalStroke(size, 44);
-  // 2.6 was the old fixed parent weight — every internal override in PACK_MARKS
-  // (2.2 ground lines, 1.8 secondary detail) is a ratio against it.
-  const glyph = scaleGlyphStrokes(PACK_MARKS[id] || PACK_MARKS._default, 2.6, sw);
-  return '<svg class="pi" width="' + size + '" height="' + size + '" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="' + sw.toFixed(2) + '" stroke-linecap="round" stroke-linejoin="round" style="color:#3d9970" aria-hidden="true">' + glyph + '</svg>';
+  const key = PACK_FLAG[id];
+  const w = size, hgt = Math.round(size * 2 / 3);
+  if (!key) return '<span class="pm pm-empty" style="width:' + w + 'px;height:' + hgt + 'px" aria-hidden="true"></span>';
+  return '<img class="pm" src="' + flagTile(key) + '" width="' + w + '" height="' + hgt + '" alt="" aria-hidden="true" decoding="async">';
 }
 
 // ── POUL TYPE EMBLEMS ──
@@ -5173,7 +5244,27 @@ function rrPath(ctx, x, y, w, h, r) {
   ctx.closePath();
 }
 
-// Paint one of the app's 44-grid glyph strings (PACK_MARKS / TROPHY_ART / ICONS)
+// The pack's flag tile for the share card: the same PNG the selector shows.
+function loadFlagTile(packId) {
+  const key = PACK_FLAG[packId];
+  if (!key) return Promise.resolve(null);
+  return new Promise(res => {
+    const img = new Image();
+    img.onload = () => res(img);
+    img.onerror = () => res(null);
+    img.src = flagTile(key);
+  });
+}
+function drawFlagTile(ctx, img, x, y, w) {
+  const hgt = Math.round(w * 2 / 3);
+  ctx.save();
+  rrPath(ctx, x, y, w, hgt, Math.round(w / 9));
+  ctx.clip();
+  ctx.drawImage(img, x, y, w, hgt);
+  ctx.restore();
+}
+
+// Paint one of the app's 44-grid glyph strings (TROPHY_ART / ICONS)
 // onto a canvas with the same duotone rules as the <svg> wrapper: children
 // stroke in `color` at 2.6 unless they opt out, fills only where declared.
 function drawGlyph(ctx, svgStr, x, y, size, color) {
@@ -5298,9 +5389,10 @@ function renderShareCanvas(ctx, payload) {
     const tracking = 7;
     let tw = -tracking;
     for (const ch of header) tw += ctx.measureText(ch).width + tracking;
-    const glyphSize = 54, gap = 22;
+    const flag = payload.flagImg || null;
+    const glyphSize = flag ? 54 : 0, gap = flag ? 22 : 0;
     const left = 540 - (glyphSize + gap + tw) / 2;
-    drawGlyph(ctx, PACK_MARKS[payload.packId] || PACK_MARKS._default, left, 128, glyphSize, sage);
+    if (flag) drawFlagTile(ctx, flag, left, 137, glyphSize);
     let x = left + glyphSize + gap;
     for (const ch of header) { ctx.fillText(ch, x, 174); x += ctx.measureText(ch).width + tracking; }
   }
@@ -5463,6 +5555,8 @@ async function shareImage(payload, plainText, trackProps) {
         document.fonts.load('400 30px Manrope'),
       ]);
     } catch (e) { /* offline first run — canvas falls back to system faces */ }
+
+    payload.flagImg = await loadFlagTile(payload.packId);
 
     const canvas = document.createElement('canvas');
     canvas.width = SHARE_W;

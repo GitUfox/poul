@@ -1,4 +1,4 @@
-const CACHE = 'poul-v67';
+const CACHE = 'poul-v68';
 
 // App shell. Only the HTML is a hard requirement; the rest is best-effort.
 const SHELL = [
@@ -34,6 +34,7 @@ self.addEventListener('install', e => {
     await Promise.allSettled([
       cache.add('./packs/index.json'),
       cache.add('./packs/phoenix.json'),   // default deck — must work offline
+      cache.add('./flags/arizona.png'),    // the default deck's flag tile
     ]);
 
     await self.skipWaiting();
@@ -54,9 +55,9 @@ self.addEventListener('fetch', e => {
 
   const url = new URL(e.request.url);
 
-  // Stale-while-revalidate for pack JSON files
+  // Stale-while-revalidate for pack JSON files and flag tiles
   // Serve cached version immediately, update cache in background for next visit
-  if (url.pathname.includes('/packs/')) {
+  if (url.pathname.includes('/packs/') || url.pathname.includes('/flags/')) {
     e.respondWith(
       caches.open(CACHE).then(cache =>
         cache.match(e.request).then(cached => {
