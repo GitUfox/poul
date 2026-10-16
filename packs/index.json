@@ -1,6 +1,27 @@
 {
   "packs": [
     {
+      "id": "bali",
+      "name": "Bali",
+      "location": "Canggu & Ubud · Indonesia",
+      "emoji": "🌾",
+      "cardCount": 60
+    },
+    {
+      "id": "ho-chi-minh-city",
+      "name": "Ho Chi Minh City",
+      "location": "Vietnam",
+      "emoji": "🛵",
+      "cardCount": 58
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "location": "Hong Kong SAR",
+      "emoji": "🏙️",
+      "cardCount": 58
+    },
+    {
       "id": "kyoto",
       "name": "Kyoto",
       "location": "Japan",

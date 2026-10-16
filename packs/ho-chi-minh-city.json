@@ -1,0 +1,1156 @@
+{
+  "id": "ho-chi-minh-city",
+  "name": "Ho Chi Minh City",
+  "location": "Vietnam",
+  "emoji": "🛵",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "SGN-CU-06",
+        "title": "Binh Tay Market and the Cho Lon Walk",
+        "description": "A 1928 wholesale market with a clock tower and a courtyard shrine at its centre, the anchor of the largest Chinatown in Vietnam.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk from the market to a herbal medicine shop on Hai Thuong Lan Ong and buy one thing.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Binh+Tay+Market+Cho+Lon+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-CU-08",
+        "title": "A O Show at the Saigon Opera House",
+        "description": "Bamboo circus, acrobatics and live folk music telling the story of village-to-city Vietnam, staged in the 1897 French colonial opera house on Lam Son Square.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Take a seat in the first five rows so you can hear the bamboo props flexing.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Saigon+Opera+House+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-CU-07",
+        "title": "Ho Chi Minh City Museum",
+        "description": "The 1890 neoclassical Gia Long Palace, once the governor's residence and later the president's refuge, with its escape tunnels and bunker under the garden.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the bunker entrance in the grounds, not just the rooms upstairs.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Ho+Chi+Minh+City+Museum+65+Ly+Tu+Trong",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SGN-CU-04",
+        "title": "Fine Arts Museum in the Hui Bon Hoa Mansion",
+        "description": "Vietnamese lacquer and silk painting hung in the yellow 1930s mansion of the merchant Hui Bon Hoa, with the city's oldest lift and a tiled courtyard.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the antique lift and the stained glass before you look at any painting.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Ho+Chi+Minh+City+Museum+of+Fine+Arts+Pho+Duc+Chinh",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SGN-CU-05",
+        "title": "Golden Dragon Water Puppet Show",
+        "description": "Thousand-year-old northern water puppetry performed waist-deep behind a bamboo screen, with live traditional music and a lot of dragons spitting water.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Work out where the puppeteers are standing before the curtain call reveals them.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Golden+Dragon+Water+Puppet+Theatre+55B+Nguyen+Thi+Minh+Khai+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-CU-03",
+        "title": "Saigon Central Post Office",
+        "description": "An 1891 colonial post hall with a vaulted iron roof, hand-painted maps of old Indochina on the walls, and a working counter that still sells stamps.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a stamp and actually post a letter home from the original counter.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Saigon+Central+Post+Office+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-CU-02",
+        "title": "Independence Palace",
+        "description": "The 1960s presidential palace frozen on the day the tanks came through the gate, with the war command bunker and radio room still wired in the basement.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go down to the basement bunker and find the room with the original maps.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Independence+Palace+Reunification+Palace+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-CU-01",
+        "title": "War Remnants Museum",
+        "description": "The hardest three hours in the city: captured aircraft in the yard, and upstairs the photojournalism and Agent Orange galleries, told entirely from the Vietnamese side.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Read the Requiem photographers' gallery in full before you leave the building.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/War+Remnants+Museum+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "SGN-8B-02",
+        "title": "Wildcard: Off at a Pier You Have Never Heard Of",
+        "description": "Board the river bus at Bach Dang, let someone else pick a number between two and eight, and get off at that pier with no idea what is there.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Find food within 300 metres of whichever pier you land at, and eat it there.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Bach+Dang+Water+Bus+Station+Ho+Chi+Minh+City",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-8B-01",
+        "title": "Wildcard: Ho Thi Ky Night Market Roulette",
+        "description": "Walk into the flower market alleys after dark and eat only from stalls you cannot name — each person orders from whichever stall has the most locals standing at it.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Everything ordered gets eaten. No swapping, no opting out, no phone translation.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Ho+Thi+Ky+Food+Street+Ho+Chi+Minh+City",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "SGN-S-11",
+        "title": "Flamenco Night at Carmen Bar",
+        "description": "A cave-like brick cellar off Ly Tu Trong, hung with bottles and built by an owner obsessed with Spanish music, where the live sets run flamenco and Latin.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Request a flamenco number and stay standing for the whole thing.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Carmen+Bar+8+Ly+Tu+Trong+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SGN-S-10",
+        "title": "ICOOL Karaoke on Mac Dinh Chi",
+        "description": "A private karaoke room at Vietnam's biggest chain, booked by the hour with a fruit platter and a catalogue that runs from Son Tung to every power ballad of the 1990s.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Everyone sings one Vietnamese song. No English-language escape hatch.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Karaoke+ICOOL+Mac+Dinh+Chi+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-S-12",
+        "title": "Bui Vien Walking Street",
+        "description": "Saigon's backpacker strip closed to traffic at weekends: competing sound systems, plastic stools in the road, cheap beer towers and complete sensory overload until 02:00.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Sit on a plastic stool in the middle of the street and stay for one full beer tower.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Bui+Vien+Walking+Street+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SGN-S-04",
+        "title": "Czech Lager at Hoa Vien Brauhaus",
+        "description": "A full Czech beer hall in Saigon, brewing on site since 1995 after the owners imported the country's first Pilsner Urquell draught and then learned to make their own.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Drink the unfiltered dark lager and order the pork knuckle to go with it.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Hoa+Vien+Brauhaus+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SGN-S-05",
+        "title": "Live Sets at Acoustic Bar",
+        "description": "A dim room at the end of an alley off Ngo Thoi Nhiem where house bands play rock and Vietnamese covers to a crowd packed up against the stage.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stay until the band plays a Vietnamese song the whole room sings back.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Acoustic+Bar+6E1+Ngo+Thoi+Nhiem+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SGN-S-08",
+        "title": "Broma, Not a Bar",
+        "description": "Three floors of a French colonial building on Nguyen Hue, reached by narrow stairs, with two terraces over the walking street and DJs at the weekend.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the staircase from the street without checking a map, then take the top terrace.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Broma+Not+a+Bar+41+Nguyen+Hue+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SGN-S-09",
+        "title": "BiaCraft on Le Ngo Cat",
+        "description": "A neighbourhood beer hall pouring the widest range of Vietnamese craft beer anywhere, with 40-odd taps from breweries all over the country and food to match.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Drink four beers from four different Vietnamese breweries, none of them repeated.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/BiaCraft+Artisan+Ales+1+Le+Ngo+Cat+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SGN-S-03",
+        "title": "Heart of Darkness Taproom",
+        "description": "Saigon's most restless brewery taproom, where the tap list changes constantly and whole weeks get handed over to collaboration IPAs from other countries.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order a flight of four beers the bartender picks, sight unseen.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Heart+of+Darkness+Brewery+31D+Ly+Tu+Trong+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SGN-S-02",
+        "title": "Pasteur Street Brewing Taproom",
+        "description": "The brewery that started Vietnamese craft beer in 2015, pouring Jasmine IPA and Cyclo Stout from 16 taps at the Ly Tu Trong taproom near Ben Thanh.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drink a beer brewed with an ingredient you would not put in beer. Jasmine counts.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Pasteur+Street+Brewing+Ly+Tu+Trong+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "SGN-S-01",
+        "title": "Chill Skybar on the 26th Floor",
+        "description": "The original Saigon sky bar, open-air on the 26th floor of AB Tower with a 360-degree sweep of the city and a DJ who starts as the sun goes down.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get there for happy hour and claim a spot on the open-air rail before sunset.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Chill+Skybar+AB+Tower+76A+Le+Lai+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "SGN-C-05",
+        "title": "Thien Hau Temple in Cho Lon",
+        "description": "An 18th-century sea-goddess temple in Chinatown, hung with hundreds of spiral incense coils and roofed with Shiwan ceramic figures made in Guangdong.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a coil, write a wish on it and hang it with the others.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Thien+Hau+Temple+Nguyen+Trai+Cho+Lon+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SGN-C-08",
+        "title": "Van Thanh Park Afternoon",
+        "description": "A green patch of lakes, hammocks and bamboo bridges in Binh Thanh, where the city goes to lie down in the shade for a few hours.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Hire a hammock and stay in it for a full hour without looking at your phone.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Van+Thanh+Park+Binh+Thanh+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-C-06",
+        "title": "Crescent Lake Evening Walk",
+        "description": "A curved artificial lake and bridge out in Phu My Hung where the whole district walks, skates and eats at dusk, with none of the downtown traffic.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the full crescent and buy something from the first street cart you pass.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Crescent+Lake+Phu+My+Hung+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-C-10",
+        "title": "Ca Phe Bet on the Palace Lawns",
+        "description": "Ca phe bet means coffee on the ground — the Sunday habit of buying an iced coffee from a cart and sitting on the grass opposite the Independence Palace with everyone else.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Sit on the grass, not a bench, and stay until the ice has fully melted.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Cong+Vien+30+Thang+4+Park+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-C-09",
+        "title": "Riverside Promenade at Vinhomes Central Park",
+        "description": "A long, lit riverside park under Landmark 81 where the city jogs, does aerobics in formation and watches the boats go up to Thu Duc.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Join the back of a public aerobics class and stay for the whole track.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Vinhomes+Central+Park+riverside+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-C-07",
+        "title": "Iced Tea at Turtle Lake",
+        "description": "The concrete roundabout monument that half the city treats as a living room, where students sit on the steps with iced tea and squid snacks until late.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit on the steps for an hour with a tra da and no plan at all.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Ho+Con+Rua+Turtle+Lake+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-C-01",
+        "title": "Bird Cafe Morning in Tao Dan Park",
+        "description": "At dawn the park fills with men who hang their songbirds in cages from the trees, drink iced coffee underneath and let the birds compete.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a coffee from the park stall and sit under the cages until a bird starts up.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Tao+Dan+Park+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SGN-C-04",
+        "title": "Jade Emperor Pagoda",
+        "description": "A 1909 Cantonese temple so dense with incense smoke, carved wooden deities and a turtle pond that the daylight barely gets in.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the hall of the ten levels of hell and look at all ten carvings.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Jade+Emperor+Pagoda+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SGN-C-02",
+        "title": "Saigon Zoo and Botanical Gardens",
+        "description": "One of the oldest zoos in the world, laid out in 1865, with colonial-era avenues, enormous rain trees and the Hung Kings temple inside the grounds.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the full length of the main botanical avenue and find the oldest tree on it.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Saigon+Zoo+and+Botanical+Gardens+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-C-03",
+        "title": "The Cafe Apartment, 42 Nguyen Hue",
+        "description": "A nine-storey 1960s apartment block on the walking street where almost every flat is now a tiny cafe, each with a balcony over Nguyen Hue.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Take the stairs to the top floor, then work down, one drink no higher than the floor below.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Cafe+Apartment+42+Nguyen+Hue+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "SGN-F-12",
+        "title": "Rooftop Dinner at Secret Garden",
+        "description": "Southern home cooking served on the roof of a crumbling apartment block, among vegetable beds and chicken coops, up several flights of unlit stairs.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the staircase without asking anyone, then order the banh xeo.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Secret+Garden+158+Pasteur+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-F-09",
+        "title": "Snails and Beer on Vinh Khanh Street",
+        "description": "A whole street of oc shops across the canal in District 4, where dinner is a dozen kinds of snail, scallop and crab claw grilled on the pavement with crates of ice.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order five kinds of snail you have never eaten and work out the tools yourself.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Vinh+Khanh+Street+seafood+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-F-11",
+        "title": "Pho Minh in the Pasteur Alley",
+        "description": "A six-table family pho shop hidden in an alley off Pasteur, which cooks a strictly limited number of bowls a day and stops when they are gone.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Get there early enough to be served from the first pot of the day.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Pho+Minh+63+Pasteur+alley+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SGN-F-10",
+        "title": "Cuc Gach Quan",
+        "description": "Home-style Vietnamese cooking in a restored 1940s villa of brick, mismatched crockery and open courtyards, with produce from the owner's own farm.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the canh chua fish soup and let the kitchen choose the rest of the table.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Cuc+Gach+Quan+10+Dang+Tat+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-F-02",
+        "title": "Banh Mi Huynh Hoa",
+        "description": "The most overloaded banh mi in Vietnam — nine kinds of cold cut and a trowel of pate in one baguette — from a shop that has been doing one thing for 35 years.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Eat a whole one standing on the kerb, no sharing and no cutlery.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Banh+Mi+Huynh+Hoa+26+Le+Thi+Rieng+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-F-01",
+        "title": "Pho Hoa on Pasteur Street",
+        "description": "Southern pho with a sweeter, deeper broth, served at the same Pasteur Street address since 1968, with baskets of herbs and fried dough sticks on every table.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order it with everything in it, the quay included, and no changes.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Pho+Hoa+Pasteur+260C+Pasteur+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-F-06",
+        "title": "Breakfast in the Ben Thanh Market Stalls",
+        "description": "The eating aisles of the 1914 market hall, where two dozen stalls serve bun bo, banh beo and che across a counter before the souvenir trade wakes up.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat breakfast at a counter where nobody speaks English, ordering by pointing.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Ben+Thanh+Market+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-F-05",
+        "title": "Pho Le in District 5",
+        "description": "A big, loud Cho Lon pho hall where the broth runs bold and sweet and the bowls come heavy, as they have for over 70 years.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Add the chilli sate from the jar on the table before you taste it. Commit.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Pho+Le+413+Nguyen+Trai+District+5+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-F-03",
+        "title": "Com Tam Ba Ghien",
+        "description": "Broken rice under a charcoal-grilled pork chop the size of the plate, marinated to a secret recipe the family has used since the 1990s.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Finish the whole chop. One plate feeds most families, so do not order two.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Com+Tam+Ba+Ghien+84+Dang+Van+Ngu+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-F-07",
+        "title": "Banh Mi Hoa Ma Breakfast Pan",
+        "description": "Saigon's original banh mi breakfast, served since 1958 not as a sandwich but as a sizzling pan of two eggs, cold cuts and cinnamon pork with the baguette alongside.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Get there by 07:00 and eat it on a plastic stool in the alley, not at a table.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Banh+Mi+Hoa+Ma+53+Cao+Thang+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-F-08",
+        "title": "Ca Phe Vot at Cheo Leo",
+        "description": "Saigon's oldest cafe, pouring since 1938, where coffee is still brewed through a cloth sock into clay pots kept hot in sand, and the same family runs the counter.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Drink it black, no ice, no condensed milk — the way the sisters would have it.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Cheo+Leo+Cafe+109+Nguyen+Thien+Thuat+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "SGN-F-04",
+        "title": "Banh Xeo 46A on Dinh Cong Trang",
+        "description": "Turmeric-yellow rice crepes the width of a dinner plate, stuffed with pork, prawn and sprouts, fried on a whole row of pans at the front of the shop for seven decades.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Wrap it properly in mustard leaf and herbs before the first bite — no cutlery.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Banh+Xeo+46A+Dinh+Cong+Trang+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "SGN-A-14",
+        "title": "Dam Sen Water Park",
+        "description": "Three dozen slides and a 3,000 square metre wave pool in the middle of the city, built in the 1990s and still where Saigon goes to cool off.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride every slide in the park once, including the ones meant for children.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Dam+Sen+Water+Park+Binh+Thoi+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-11",
+        "title": "Night Safari at Nam Cat Tien National Park",
+        "description": "An overnight in lowland rainforest four hours from the city, with a ranger-run spotlight truck after dark, gibbons calling at first light and a crocodile lake walk in between.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 days",
+        "durationMins": 1440,
+        "time": "Evening",
+        "season": "Nov–May",
+        "spark": 40,
+        "bonus": "Do the 04:30 gibbon trek as well as the night drive. Both, same trip.",
+        "city": "Tan Phu, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Cat+Tien+National+Park+Vietnam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-09",
+        "title": "Christ the King Statue Climb, Vung Tau",
+        "description": "Eight hundred steps up Nho Mountain to a 32-metre concrete Christ, then a spiral staircase inside the statue itself to stand on its outstretched arms over the South China Sea.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Climb all the way out onto the shoulder viewpoint, then swim at Back Beach after.",
+        "city": "Vung Tau, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Christ+the+King+statue+Vung+Tau+Vietnam",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-13",
+        "title": "Cai Rang Floating Market at Dawn",
+        "description": "The biggest wholesale market on the Mekong, conducted boat-to-boat at 05:30, where each trader hangs a sample of what they are selling from a pole over the water.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 days",
+        "durationMins": 1440,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Buy breakfast from a boat while both boats are moving. Noodles count.",
+        "city": "Can Tho, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Cai+Rang+Floating+Market+Can+Tho+Vietnam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-15",
+        "title": "Saigon Water Bus to the End of the Line",
+        "description": "A public river bus from the downtown wharf out to Thu Duc for the price of a coffee, past shipyards, stilt houses and the backs of the new towers.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Ride to the final pier at Linh Dong and find lunch within 200 metres of it.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Bach+Dang+Water+Bus+Station+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-12",
+        "title": "Buu Long Mountain, Bien Hoa",
+        "description": "Flooded granite quarries turned into jade-green lakes under limestone knuckles, locally nicknamed the Ha Long Bay of the south, 30km up the road from the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Climb to the pagoda on the high rock and look straight down into the quarry lake.",
+        "city": "Bien Hoa, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Buu+Long+Mountain+Tourist+Area+Bien+Hoa+Vietnam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-16",
+        "title": "Thac Giang Dien Waterfall",
+        "description": "A wide curtain of water on the Buong River an hour out of the city, loudest and fullest in the wet season, with rope bridges and swimming pools cut into the rock below it.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Jun–Nov",
+        "spark": 23,
+        "bonus": "Get behind the falls and stay there until you are completely soaked.",
+        "city": "Trang Bom, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Giang+Dien+Waterfall+Trang+Bom+Dong+Nai+Vietnam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-10",
+        "title": "Binh Quoi Peninsula Bike Loop",
+        "description": "A loop of banana groves, fish ponds and single-lane lanes on the Thanh Da peninsula, ten minutes from the towers and somehow still farmland.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride the whole loop and stop at the smallest roadside coffee stand you pass.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Thanh+Da+Binh+Quoi+Peninsula+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-02",
+        "title": "Vinh Trang Pagoda and a My Tho Mekong Boat",
+        "description": "An 1849 pagoda of mixed Khmer, Chinese and French design with three giant Buddhas in the garden, paired with a wooden boat out onto the brown width of the Mekong.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat whatever fruit the boat family offers you, even the one you cannot identify.",
+        "city": "My Tho, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Vinh+Trang+Pagoda+My+Tho+Vietnam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-06",
+        "title": "Landmark 81 SkyView",
+        "description": "The observation floors near the top of Vietnam's tallest building, 461 metres over the Saigon River, with a glass-floor section and the whole delta going flat to the horizon.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand on the glass floor section with both feet for a full minute.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Landmark+81+SkyView+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-04",
+        "title": "Vam Sat Ecological Park, Can Gio",
+        "description": "Speedboat channels through mangrove to a bat lagoon, a crocodile swamp you fish over with a baited pole, and a watchtower above the whole delta.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Fish for a crocodile off the walkway and actually get one to lunge.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Vam+Sat+Ecological+Park+Can+Gio+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-03",
+        "title": "Can Gio Mangrove Biosphere Reserve",
+        "description": "A UNESCO biosphere reserve of replanted mangrove an hour south of the city, reached by ferry, with several hundred long-tailed macaques running the boardwalks.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Hold onto your sunglasses. The macaques take them, and they are organised.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Can+Gio+Mangrove+Forest+Monkey+Island+Ho+Chi+Minh+City",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-05",
+        "title": "Saigon Skydeck at Bitexco Tower",
+        "description": "The 49th floor of the lotus-bud tower with the helipad stuck out of its side, looking down on the river bend and the motorbike rivers of District 1.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Pick out five landmarks from up there, then walk to one of them afterwards.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Saigon+Skydeck+Bitexco+Financial+Tower+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-01",
+        "title": "Cu Chi Tunnels at Ben Duoc",
+        "description": "A surviving stretch of the 250km tunnel network, crawled on hands and knees in the dark, at the quieter of the two sites where local school groups come rather than coach tours.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Go through the longest tunnel section on offer without turning back.",
+        "city": "Ho Chi Minh City, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Cu+Chi+Tunnels+Ben+Duoc+Ho+Chi+Minh+City",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-08",
+        "title": "Ba Den Mountain Cable Car",
+        "description": "Eight minutes of cable car up the highest mountain in the south, from flat rice land to a 986-metre summit that sits above the cloud layer most mornings.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "9 hrs",
+        "durationMins": 540,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Take the pagoda line down instead of the summit line, and walk the temple terraces.",
+        "city": "Tay Ninh, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Sun+World+Ba+Den+Mountain+Tay+Ninh+Vietnam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "SGN-A-07",
+        "title": "Noon Ceremony at the Cao Dai Great Temple",
+        "description": "Hundreds of worshippers in white, yellow and blue robes filing into a technicolour cathedral under the all-seeing eye, chanting at exactly midday, as they have since 1933.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Watch the whole ceremony from the upper gallery without once looking at your phone.",
+        "city": "Tay Ninh, Vietnam",
+        "mapsUrl": "https://maps.google.com/maps/search/Cao+Dai+Holy+See+Great+Temple+Tay+Ninh+Vietnam",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

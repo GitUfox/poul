@@ -1,0 +1,1197 @@
+{
+  "id": "bali",
+  "name": "Bali",
+  "location": "Canggu & Ubud · Indonesia",
+  "emoji": "🌾",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "DPS-CU-07",
+        "title": "Agung Rai Museum of Art",
+        "description": "A museum, garden and working arts compound in Pengosekan holding the only Walter Spies paintings in Indonesia alongside Balinese classical work.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the Walter Spies room, then sit in the garden and draw something yourself.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Agung+Rai+Museum+of+Art+ARMA+Ubud+Bali",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "DPS-CU-08",
+        "title": "Pura Taman Ayun, Mengwi",
+        "description": "The 1634 royal temple of the Mengwi kingdom, a walled garden of multi-tiered meru shrines on an island inside its own moat, and part of Bali's UNESCO listing.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the full circuit of the moat and count the tiers on the tallest meru.",
+        "city": "Mengwi, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Pura+Taman+Ayun+Mengwi+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-CU-02",
+        "title": "Tanah Lot at Sunset",
+        "description": "A 16th-century sea temple on a rock stack cut off by every high tide, with the sun setting directly behind it and the surf breaking underneath.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Time it for low tide so you can walk out across the rocks to the base.",
+        "city": "Beraban, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Tanah+Lot+Temple+Beraban+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-CU-05",
+        "title": "Legong at Ubud Palace",
+        "description": "Legong dancers in gold brocade performing in the courtyard of the royal palace, with a full gamelan orchestra playing a few metres from the front row.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Watch the dancers' eyes rather than their hands for one whole piece.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Puri+Saren+Agung+Ubud+Palace+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-CU-01",
+        "title": "Purification at Tirta Empul",
+        "description": "A 10th-century spring temple where Balinese Hindus queue waist-deep to pass under 30 carved water spouts in order, one prayer at a time.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Actually get in the water and go under every spout in the correct sequence.",
+        "city": "Tampaksiring, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Tirta+Empul+Temple+Tampaksiring+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-CU-06",
+        "title": "Neka Art Museum, Ubud",
+        "description": "The collection Suteja Neka built from 1982 onward, tracing how Balinese painting changed when European artists arrived, in pavilions above the Campuhan valley.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the Lempad drawings and work out what changed in Balinese art after 1930.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Neka+Art+Museum+Ubud+Bali",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "DPS-CU-03",
+        "title": "Kecak Fire Dance at Uluwatu Temple",
+        "description": "The Ramayana told by a seated choir of 70 men chanting cak-cak-cak with no instruments at all, in a clifftop amphitheatre 70 metres above the ocean, timed to the sunset.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Sit in the top row and watch how the chorus keeps time without a conductor.",
+        "city": "Uluwatu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Uluwatu+Temple+Pura+Luhur+Uluwatu+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-CU-04",
+        "title": "Goa Gajah, the Elephant Cave",
+        "description": "An 11th-century meditation cave with a demon's mouth carved around the entrance, bathing pools excavated in 1954, and a river gorge of Buddhist ruins below it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Go down the steps past the pools to the ruined stupa in the gorge, which most people skip.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Goa+Gajah+Elephant+Cave+Ubud+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "DPS-8B-01",
+        "title": "Wildcard: Most Motorbikes Wins",
+        "description": "Walk the length of the street and eat at whichever warung has the most motorbikes parked outside it — no reviews, no menus checked, no exceptions.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order by pointing at what the person ahead of you in the queue is having.",
+        "city": "Canggu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Jalan+Pantai+Batu+Bolong+Canggu+Bali",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-8B-02",
+        "title": "Wildcard: Scooter the Shortcut Blind",
+        "description": "Start at Echo Beach, take every left turn you can for 30 minutes without a map, then find your way back — the rice-field lanes behind Canggu are the entire point.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Stop at the first roadside stall you pass after the 20-minute mark and buy whatever they sell.",
+        "city": "Canggu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Echo+Beach+Canggu+Bali",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "DPS-S-12",
+        "title": "After Rock at AYANA",
+        "description": "AYANA's late-night room on the Jimbaran clifftop, picking up when Rock Bar below it closes and running DJs until the small hours.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Do Rock Bar for sunset and move up to After Rock the moment it shuts. One night, both.",
+        "city": "Jimbaran, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/After+Rock+AYANA+Resort+Jimbaran+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-11",
+        "title": "Live Band at Laughing Buddha, Ubud",
+        "description": "A small bar on Monkey Forest Road with a mini stage and a band almost every night — blues on Mondays, Latin at the weekend, no cover charge.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay for both sets and talk to the band between them.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Laughing+Buddha+Bar+Monkey+Forest+Road+Ubud+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-06",
+        "title": "Pretty Poison Skate Bowl",
+        "description": "A cocktail bar built around a concrete bowl in the rice paddies, where paid resident skaters session it three nights a week while you drink at the lip.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stand at the edge of the bowl for a full session without flinching.",
+        "city": "Canggu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Pretty+Poison+Jalan+Subak+Canggu+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-08",
+        "title": "Savaya on the Uluwatu Cliff",
+        "description": "A cliff-edge club 150 metres above the sea that DJ Mag ranks in the world's top five, with international headline sets and an infinity pool on the edge of the drop.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stay through a full headline set, start to finish, without leaving the floor.",
+        "city": "Uluwatu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Savaya+Bali+Uluwatu+Pecatu",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-05",
+        "title": "Deus Ex Machina, Temple of Enthusiasm",
+        "description": "A custom motorcycle workshop in the rice fields that is also a bar, a barber, a gallery and a skate ramp, with live music and bike nights most weeks.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get a haircut or a shave there before you order the first drink.",
+        "city": "Canggu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Deus+Ex+Machina+Canggu+Batu+Mejan+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-09",
+        "title": "FINNS Beach Club, Berawa",
+        "description": "The biggest beach club in Canggu: bamboo pavilions, several pools, waterslides into the sand and a party zone that runs from lunch to midnight.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Take the waterslide into the pool at least once before you order anything.",
+        "city": "Canggu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/FINNS+Beach+Club+Berawa+Canggu+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-07",
+        "title": "Rock Bar at AYANA, Jimbaran",
+        "description": "A bar built on a rock shelf 14 metres above the Indian Ocean, reached by a cliff-side inclinator, with the spray coming up at you when the swell is big.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Take the inclinator down and get a rail seat on the lowest deck.",
+        "city": "Jimbaran, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Rock+Bar+AYANA+Resort+Jimbaran+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-03",
+        "title": "Wednesday Night at Old Man's",
+        "description": "An open-sided beer garden on Batu Bolong beach whose Wednesday night is the single busiest thing that happens in Canggu all week.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Go on a Wednesday or do not go at all. Bare feet, sand still on them.",
+        "city": "Canggu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Man's+Jalan+Pantai+Batu+Bolong+Canggu+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-10",
+        "title": "CP Lounge, Ubud",
+        "description": "Ubud's late bar: garden seating and tapas at the front, a live band and then a DJ at the back, running to 03:00 in a town that otherwise shuts at ten.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Learn one Latin dance step from a regular on the Friday social night.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/CP+Lounge+Jalan+Monkey+Forest+Ubud+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-04",
+        "title": "La Favela, Seminyak",
+        "description": "A series of rooms dressed as an overgrown colonial jungle house — antique furniture, vines through the ceiling, Latin music — that turns into a dance floor after midnight.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Find the back room with the dance floor without asking a single member of staff.",
+        "city": "Seminyak, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Favela+Jalan+Kayu+Aya+Seminyak+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-01",
+        "title": "Sunday Session at Single Fin, Uluwatu",
+        "description": "A cliff terrace above the Uluwatu break where Sunday is an institution: DJs and live bands from late afternoon, surfers below, and the sun going down into the Indian Ocean.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Get there by 16:00 for a front-rail seat, and stay for the band after dark.",
+        "city": "Uluwatu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Single+Fin+Suluban+Beach+Uluwatu+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "DPS-S-02",
+        "title": "Potato Head Beach Club",
+        "description": "The amphitheatre of antique teak shutters on Petitenget beach, open since 2010, with an infinity pool over the sand and a sunset DJ set every evening.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Be in the pool, drink in hand, at the exact moment the sun touches the water.",
+        "city": "Seminyak, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Potato+Head+Beach+Club+Petitenget+Seminyak+Bali",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "DPS-C-07",
+        "title": "Banjar Hot Springs",
+        "description": "Three tiers of sulphur pools in the jungle near Lovina, fed through carved stone naga mouths that pour hot water down onto your shoulders.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit under the highest naga spout and take the full weight of the water.",
+        "city": "Banjar, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Air+Panas+Banjar+Hot+Springs+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-C-09",
+        "title": "Geger Beach, Nusa Dua",
+        "description": "White sand and reef-flattened turquoise water on the quiet side of Nusa Dua, below a clifftop temple, with seaweed farmers still working the shallows.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Swim out to the reef edge and float there until you lose track of time.",
+        "city": "Nusa Dua, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Geger+Beach+Nusa+Dua+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-C-08",
+        "title": "Coffee Tasting at Bali Pulina",
+        "description": "A hillside coffee and spice plantation north of Ubud where the tasting flight of a dozen coffees and teas is served on a terrace looking across the valley.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Taste all of the flight, including the ones you are sure you will dislike.",
+        "city": "Tegallalang, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Bali+Pulina+Agro+Tourism+Tegallalang+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-C-06",
+        "title": "Sacred Monkey Forest Sanctuary",
+        "description": "Twelve hectares of banyan forest in the middle of Ubud holding three 14th-century temples, a stone bridge over a ravine and around a thousand long-tailed macaques.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the dragon staircase at the bathing temple in the ravine, not just the main path.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Sacred+Monkey+Forest+Sanctuary+Ubud+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-C-05",
+        "title": "Sanur Boardwalk at Dawn",
+        "description": "Five kilometres of paved seafront path on the east coast, walked before 07:00 when the fishing jukung are coming in and the sun rises straight out of the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the full length one way and get breakfast at the far end before turning back.",
+        "city": "Sanur, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Sanur+Beach+Boardwalk+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-C-10",
+        "title": "Pura Ulun Danu Beratan on the Lake",
+        "description": "The eleven-tiered water temple that appears to float on Lake Beratan, built in 1633 to the goddess of the lake, with mist coming off the water most mornings.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get there before 08:00, while the mist is still on the lake and the coaches are not.",
+        "city": "Bedugul, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Pura+Ulun+Danu+Beratan+Bedugul+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-C-02",
+        "title": "A Class at The Yoga Barn, Ubud",
+        "description": "Ubud's original yoga campus: seven studios in a garden running over a hundred drop-in classes a week, from gentle hatha to Friday ecstatic dance.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Book the class you would normally avoid. Ecstatic dance counts double.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Yoga+Barn+Ubud+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-C-01",
+        "title": "Sunset at Batu Bolong Beach",
+        "description": "Black volcanic sand, a temple on a rock in the surf and a longboard break full of beginners, with the whole of Canggu sitting on the sand at six o'clock.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay on the beach until the light has completely gone, not just until the photo.",
+        "city": "Canggu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Batu+Bolong+Beach+Canggu+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-C-03",
+        "title": "Massage at Karsa Spa, Ubud",
+        "description": "A traditional Balinese massage in a timber room set among rice fields and a lotus pond, reached only by walking 30 minutes out along the Campuhan ridge.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Walk there along the ridge rather than taking a scooter, both ways.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Karsa+Spa+Bangkiang+Sidem+Ubud+Bali",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "DPS-C-04",
+        "title": "Bali Botanic Garden, Bedugul",
+        "description": "Over 150 hectares of highland garden at 1,250 metres, with an orchid house, a bamboo collection and genuine cool air you will have forgotten existed.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the begonia or orchid house and work out which plants are native to Bali.",
+        "city": "Bedugul, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Bali+Botanic+Garden+Bedugul",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "DPS-F-10",
+        "title": "Hujan Locale, Ubud",
+        "description": "Will Meyrick's modern Indonesian kitchen on the top floor of a colonial-style house in Ubud, cooking regional recipes properly rather than softening them.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the dish from the region you know least about and ask where it comes from.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Hujan+Locale+Jalan+Sri+Wedari+Ubud+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-09",
+        "title": "Gianyar Night Market",
+        "description": "The night market locals drive to from Ubud: babi guling, martabak, satay lilit and sweet jaja cakes down one long street of stalls, at local prices.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat four things you cannot name before you eat anything you recognise.",
+        "city": "Gianyar, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Gianyar+Night+Market+Pasar+Senggol+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-11",
+        "title": "Milk & Madu, Berawa",
+        "description": "The Canggu breakfast that fuels half the expat population: wood-fired pizza, big plates and good coffee in an open-sided garden on Berawa.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat breakfast, then stay long enough that it turns into lunch.",
+        "city": "Canggu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Milk+and+Madu+Jalan+Pantai+Berawa+Canggu+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-12",
+        "title": "Breakfast at Crate Cafe, Canggu",
+        "description": "A warehouse of a cafe on the Canggu shortcut, open at 6am for surfers, with smoothie bowls, vegan scrambles and the best-known queue in Bali.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get there before 07:00 and get a table without queueing. That is the whole dare.",
+        "city": "Canggu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Crate+Cafe+Canggu+Padang+Linjong+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-06",
+        "title": "Grilled Seafood on the Sand at Menega Cafe",
+        "description": "Pick your fish, prawns and clams off the ice at the front, then eat them grilled over coconut husk at a table set directly on Jimbaran sand as the sun drops.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Choose the seafood yourself at the counter rather than ordering off the menu.",
+        "city": "Jimbaran, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Menega+Cafe+Muaya+Beach+Jimbaran+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-05",
+        "title": "Nasi Ayam at Ibu Mangku, Kedewatan",
+        "description": "One dish, served since 1970: shredded chicken, long beans in grated coconut, a satay stick and a chilli sambal that is genuinely hot, over rice.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Eat it with the full sambal, no negotiating it down.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Nasi+Ayam+Kedewatan+Ibu+Mangku+Ubud+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-01",
+        "title": "Babi Guling at Ibu Oka, Ubud",
+        "description": "Balinese spit-roast suckling pig served on a plate of rice with crackling, blood sausage and sambal, from the warung that made the dish famous outside Bali.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order the special plate with everything on it, crackling and sausage included.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Ibu+Oka+Babi+Guling+Tegal+Sari+Ubud+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-04",
+        "title": "Crispy Duck at Bebek Tepi Sawah",
+        "description": "Whole crispy Balinese duck, marinated in island spices and twice-cooked, eaten in a pavilion on the edge of a working rice paddy outside Ubud.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Take a paddy-side table rather than an indoor one, even if you have to wait.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Bebek+Tepi+Sawah+Jalan+Goa+Gajah+Ubud+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-03",
+        "title": "Fish Soup at Warung Mak Beng, Sanur",
+        "description": "One set meal and nothing else since 1941: crisp fried fish, yellow-spiced fish head soup and rice, served at speed to a room that never empties.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Finish the fish head soup, head included. That is the point of the dish.",
+        "city": "Sanur, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Warung+Mak+Beng+Jalan+Hang+Tuah+Sanur+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-07",
+        "title": "Babi Guling at Pak Malen, Seminyak",
+        "description": "The local's answer to Ibu Oka: a roadside warung on Sunset Road where the suckling pig comes with sharper sambal and half the tourist markup.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order it with extra sambal matah and the crackling on the side.",
+        "city": "Seminyak, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Warung+Babi+Guling+Pak+Malen+Sunset+Road+Seminyak+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-02",
+        "title": "Pork Ribs at Naughty Nuri's, Ubud",
+        "description": "Smoky barbecued pork ribs off a roadside grill, washed down with the martini that made a 1995 warung into an institution.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the martini. It is shaken at the table and it is stronger than it looks.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Naughty+Nuri's+Warung+Ubud+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-F-08",
+        "title": "Made's Warung, Seminyak",
+        "description": "The warung that has been feeding Bali's visitors since 1969, where nasi campur and es campur are served in a courtyard that has outlasted every trend around it.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the nasi campur, then the es campur for dessert. Both, same sitting.",
+        "city": "Seminyak, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Made's+Warung+Jalan+Raya+Seminyak+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "DPS-A-15",
+        "title": "Uluwatu Cliff Path to Padang Padang",
+        "description": "The limestone cliff edge of the Bukit peninsula, walked along the top and then dropped into through a slot in the rock onto the tiny beach at Padang Padang.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Squeeze through the rock crevice entrance rather than taking any easier way down.",
+        "city": "Uluwatu, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Padang+Padang+Beach+Uluwatu+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-14",
+        "title": "Sidemen Valley Walk",
+        "description": "Terraces, clove trees and palm-sugar tappers in the valley under Mount Agung, walked on village lanes — the Bali people claim Ubud used to be.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy palm wine straight from someone who tapped it that morning.",
+        "city": "Sidemen, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Sidemen+Valley+Karangasem+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-10",
+        "title": "Cycle the Jatiluwih Rice Terraces",
+        "description": "A UNESCO-listed valley of terraces under Mount Batukaru, far bigger and emptier than Tegallalang, with a lane system you can ride for hours.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ride the full green loop and find the temple at the top end of the valley.",
+        "city": "Jatiluwih, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Jatiluwih+Rice+Terraces+Tabanan+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-13",
+        "title": "Bali Treetop Adventure Park",
+        "description": "Seven high-ropes circuits strung between trees up to 20 metres off the ground, inside the cool highland botanical garden at Bedugul.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Complete the hardest circuit on offer, including the Tarzan jump.",
+        "city": "Bedugul, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Bali+Treetop+Adventure+Park+Bedugul",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-11",
+        "title": "Mount Batukaru Jungle Trek",
+        "description": "Bali's second-highest mountain, climbed from a mossy temple through genuine cloud forest with no crowds at all, which is the opposite of the Batur experience.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "9 hrs",
+        "durationMins": 540,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 23,
+        "bonus": "Do the whole climb without a single stop longer than five minutes.",
+        "city": "Tabanan, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Pura+Luhur+Batukaru+Tabanan+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-09",
+        "title": "Snorkel the USAT Liberty Wreck at Tulamben",
+        "description": "A torpedoed American cargo ship lying in 5 to 30 metres of water 30 metres off a black pebble beach, so encrusted with coral you can snorkel it without a tank.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "10 hrs",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 26,
+        "bonus": "Free-dive down to the ship's ribs at least once, no tank, no excuses.",
+        "city": "Tulamben, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/USAT+Liberty+Wreck+Tulamben+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-16",
+        "title": "Munduk Waterfall Circuit",
+        "description": "Three waterfalls linked by a coffee-and-clove plantation path in the cool highlands above the twin lakes, at 800 metres where the air finally drops below warm.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk between all three falls rather than driving to each car park.",
+        "city": "Munduk, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Melanting+Waterfall+Munduk+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-12",
+        "title": "Waterbom Bali",
+        "description": "A water park built into five hectares of tropical garden in Kuta, running since 1993, with a near-vertical Climax drop capsule that opens the floor under you.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do the Climax capsule first, before you have time to think about it.",
+        "city": "Kuta, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Waterbom+Bali+Jalan+Kartika+Plaza+Kuta",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-03",
+        "title": "Tegallalang Rice Terraces",
+        "description": "The steep amphitheatre of terraces north of Ubud, farmed on the thousand-year-old subak water-sharing system, walked properly from the valley floor rather than photographed from the road.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk right down into the valley and back up the far side, not just the top path.",
+        "city": "Tegallalang, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Tegallalang+Rice+Terrace+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-02",
+        "title": "Campuhan Ridge Walk at First Light",
+        "description": "A paved spine of ridge above two rivers, walked out of Ubud before the heat, with elephant grass either side and nothing but roosters for noise.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk out to Karsa Kafe at the far end rather than turning back at the halfway point.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Campuhan+Ridge+Walk+Ubud+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-07",
+        "title": "Surf Lesson at Kuta Beach with Odysseys",
+        "description": "A first surf lesson on the long sand-bottomed beach break where most of Bali learns, with a two-hour session timed to the day's tide.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stand up and ride one wave all the way to the sand before the lesson ends.",
+        "city": "Kuta, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Odysseys+Surf+School+Kuta+Beach+Bali",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-05",
+        "title": "Tukad Cepung Waterfall",
+        "description": "A waterfall inside a cave, where the roof has collapsed just enough to let a single shaft of light down onto the water in the middle of the morning.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Be standing under the light shaft between 09:00 and 11:00, when it actually appears.",
+        "city": "Bangli, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Tukad+Cepung+Waterfall+Bangli+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-06",
+        "title": "Ayung River Rafting with Sobek",
+        "description": "Eleven kilometres of class II–III water through a jungle gorge below Ubud, past carved rock reliefs cut into the canyon wall, with the island's oldest rafting outfit.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Take the front seat of the raft and stay in it for the whole run.",
+        "city": "Ubud, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Bali+Sobek+Rafting+Ayung+River+Ubud",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-08",
+        "title": "Kelingking Beach on Nusa Penida",
+        "description": "The T-Rex headland on Nusa Penida, with a near-vertical bamboo-railed descent of 400 metres down the spine to a beach almost nobody actually reaches.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "12 hrs",
+        "durationMins": 720,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Go all the way down to the sand, not just to the viewpoint, and climb back up.",
+        "city": "Nusa Penida, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Kelingking+Beach+Nusa+Penida+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-04",
+        "title": "Sekumpul Waterfall Trek",
+        "description": "Seven separate falls dropping into one jungle gorge in the north, reached by several hundred steps down and a river crossing at the bottom.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Get into the plunge pool at the base of the tallest fall, however cold it is.",
+        "city": "Sawan, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Sekumpul+Waterfall+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "DPS-A-01",
+        "title": "Mount Batur Sunrise Trek",
+        "description": "A 02:00 start and a two-hour climb up an active volcano, so you are on the 1,717-metre rim when the sun comes up over Mount Agung and the caldera lake below.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "7 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Have your breakfast egg steamed in a volcanic vent at the summit.",
+        "city": "Kintamani, Indonesia",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Batur+Kintamani+Bali",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

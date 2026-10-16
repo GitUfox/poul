@@ -1,0 +1,1171 @@
+{
+  "id": "hong-kong",
+  "name": "Hong Kong",
+  "location": "Hong Kong SAR",
+  "emoji": "🏙️",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "HKG-S-09",
+        "title": "Dai Pai Dong Beers on Temple Street",
+        "description": "Plastic stools on the tarmac at the Yau Ma Tei end of the night market, where the clay-pot rice and typhoon-shelter crab come with large bottles of cold lager.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order one dish none of you can identify from the Chinese-only board.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Temple+Street+Night+Market+Yau+Ma+Tei+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HKG-S-07",
+        "title": "Cocktails at Felix, The Peninsula",
+        "description": "Philippe Starck's 1994 room on the 28th floor of The Peninsula — the first restaurant in Asia he designed, with floor-to-ceiling glass facing the island.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the men's room urinals with the window view, whether or not you need them.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Felix+The+Peninsula+Hong+Kong+Salisbury+Road",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HKG-S-08",
+        "title": "Hong Kong Observation Wheel After Dark",
+        "description": "A 60-metre wheel parked on the Central harbourfront for the price of a coffee, turning three or four times while the ferries cross underneath.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride it twice in a row without getting out, which the ticket lets you do.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Hong+Kong+Observation+Wheel+33+Man+Kwong+Street+Central",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-S-12",
+        "title": "Butterfly Ceiling at The Iron Fairies",
+        "description": "An ironsmith's workshop of a bar with 10,000 preserved butterflies strung from the ceiling, hidden under the Chinachem building with the door on Pottinger Street.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Sit at the forge end of the bar and count how long before you spot the live jazz set starting.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Iron+Fairies+Hollywood+Road+Central+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HKG-S-10",
+        "title": "Neway Karaoke Box in Tsim Sha Tsui",
+        "description": "A private karaoke room with a buffet and a Cantopop catalogue going back decades, booked by the hour at the chain Hong Kong has sung in for over 20 years.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Everyone has to sing one Cantopop song, in Cantonese, however badly.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Neway+Karaoke+Box+Tsim+Sha+Tsui+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-S-11",
+        "title": "Live Band Night at The Wanch",
+        "description": "Hong Kong's longest-running live music room, where local bands have played to a crowd of 30 since 1987, now refurbished with a proper sound system and a kitchen.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Stay for the band you have never heard of, not just the headline act.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Wanch+90+Jaffe+Road+Wan+Chai+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HKG-S-03",
+        "title": "House Band at Ned Kelly's Last Stand",
+        "description": "A Kowloon dive opened in 1972 where the same jazz and blues band plays trad standards every single night, led by the same man since 1998.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Request a standard the band has to argue about before they play it.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Ned+Kelly's+Last+Stand+11A+Ashley+Road+Tsim+Sha+Tsui",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HKG-S-01",
+        "title": "Ozone on the 118th Floor",
+        "description": "The highest rooftop bar on the planet, 490 metres up on top of the ICC, where the cloud sometimes closes over the terrace while you are still holding the drink.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Get a seat on the open-air terrace, not inside, whatever the weather is doing.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Ozone+Ritz-Carlton+Hong+Kong+ICC+West+Kowloon",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HKG-S-05",
+        "title": "Craft Beer at The Globe",
+        "description": "The pub that started Hong Kong's craft beer habit, with the city's longest tap list and local brands like Black Kite and Moonzen pouring beside the pies.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drink only beers brewed in Hong Kong for the whole session.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Globe+45+Graham+Street+Central+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HKG-S-02",
+        "title": "Molecular Cocktails at Quinary",
+        "description": "Antonio Lai's lab on Hollywood Road, where the Earl Grey Caviar Martini arrives under a cloud of tea foam and spherified pearls, and has done since 2012.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order the Earl Grey Caviar Martini first, then let the bartender choose your second.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Quinary+56+Hollywood+Road+Central+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HKG-S-06",
+        "title": "Gin Flight at Ping Pong 129 Gintonería",
+        "description": "An unmarked red door in Sai Ying Pun opening onto a cavernous old table-tennis hall, now stocked with more than 120 gins and hung with local art.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find the door without looking it up, then let the bartender pick the gin.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Ping+Pong+129+Gintoneria+Second+Street+Sai+Ying+Pun",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "HKG-S-04",
+        "title": "Wednesday Night Racing at Happy Valley",
+        "description": "Midweek horse racing in a floodlit bowl ringed by apartment towers, with a beer garden on the infield and 25,000 people shouting down the straight.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Sep–Jul",
+        "spark": 27,
+        "bonus": "Put the minimum bet on the horse with the worst name, every race, no exceptions.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Happy+Valley+Racecourse+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "8ball": [
+      {
+        "id": "HKG-8B-02",
+        "title": "Wildcard: Next Ferry Out of Central",
+        "description": "Walk to the Central piers, board whichever outlying-island ferry leaves next — Peng Chau, Lamma, Cheung Chau, Discovery Bay — and spend the afternoon wherever it puts you.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "No looking up the island before you land. Find lunch by walking.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Central+Ferry+Piers+Hong+Kong",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-8B-01",
+        "title": "Wildcard: Cooked Food Centre Roulette",
+        "description": "Go up to the cooked food centre on the top floor of a municipal market building and each order from the stall with the longest local queue — no menu reading, no discussion.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Eat everything that arrives at the table. All of it. No swapping.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Java+Road+Cooked+Food+Centre+North+Point+Hong+Kong",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "HKG-CU-03",
+        "title": "Tai Kwun, the Old Central Police Station",
+        "description": "Sixteen restored colonial buildings, a Victorian prison yard and two aluminium-skinned art blocks, all stitched into one free compound above Hollywood Road.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand inside one of the original D Hall cells with the door shut.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Tai+Kwun+Centre+for+Heritage+and+Arts+Hollywood+Road+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-CU-07",
+        "title": "Ping Shan Heritage Trail",
+        "description": "A one-kilometre walk through 800 years of Tang clan territory in Yuen Long, taking in ancestral halls, a study hall and Hong Kong's only surviving ancient pagoda.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Climb what you can of Tsui Sing Lau Pagoda and read the clan names in the hall.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Ping+Shan+Heritage+Trail+Yuen+Long+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-CU-04",
+        "title": "Incense Coils at Man Mo Temple",
+        "description": "An 1847 temple to the gods of literature and war, so thick with hanging incense coils that the light comes through in bars, a block off the antiques street.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Read the two sedan chairs' inscriptions before you leave, then walk Cat Street.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Man+Mo+Temple+124+Hollywood+Road+Hong+Kong",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "HKG-CU-08",
+        "title": "Sam Tung Uk Walled Village Museum",
+        "description": "A complete 18th-century Hakka walled village, furnished room by room as it was lived in, marooned among the tower blocks of Tsuen Wan.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Stand in the central ancestral hall and work out how 200 people shared this space.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Sam+Tung+Uk+Museum+Tsuen+Wan+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-CU-05",
+        "title": "Hong Kong Museum of Art, Tsim Sha Tsui",
+        "description": "Chinese antiquities, Xubaizhai scroll paintings and the Chater collection of colonial-era China trade art, in a rebuilt harbour-front museum with glass stairwells over the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the 19th-century painting of the harbour and compare it with the view out the window.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Hong+Kong+Museum+of+Art+Tsim+Sha+Tsui",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-CU-06",
+        "title": "Cantonese Opera at the Xiqu Centre",
+        "description": "Painted faces, falsetto and clashing gongs in a purpose-built opera house whose Grand Theatre is suspended 27 metres up, so the street noise never reaches it.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Go in knowing nothing about the plot and work it out from the costumes alone.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Xiqu+Centre+West+Kowloon+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-CU-01",
+        "title": "M+ Museum, West Kowloon",
+        "description": "Asia's first global museum of contemporary visual culture, a Herzog and de Meuron slab on the harbour holding the Sigg collection of Chinese contemporary art.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Find the Sigg Prize gallery and pick the one piece you would hang at home.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/M+Museum+West+Kowloon+Cultural+District+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-CU-02",
+        "title": "Hong Kong Palace Museum",
+        "description": "Rotating loans from Beijing's Forbidden City — imperial robes, jades and court paintings — inside a gold-toned building shaped like a ritual vessel.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Work out which three objects in the room you would smuggle out, then move on.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Hong+Kong+Palace+Museum+West+Kowloon",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "HKG-C-01",
+        "title": "Star Ferry Crossing at Dusk",
+        "description": "Eight minutes across Victoria Harbour on a green-and-white ferry running since 1888, for the price of a bottle of water, as the towers switch their lights on.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pay the extra for the upper deck and sit on the open bow bench, facing the island.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Star+Ferry+Pier+Tsim+Sha+Tsui+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-C-06",
+        "title": "Repulse Bay Afternoon",
+        "description": "The south side's wide crescent of imported sand, backed by the wave-shaped apartment block with a hole through its middle, 20 minutes from Central by bus.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr–Oct",
+        "spark": 12,
+        "bonus": "Walk to the Kwun Yam shrine at the far end and cross the little wishing bridge.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Repulse+Bay+Beach+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-C-02",
+        "title": "Nan Lian Garden and Chi Lin Nunnery",
+        "description": "A Tang-dynasty garden of rock, water and bonsai built to classical rules, next to a nunnery assembled entirely from interlocking cypress with no nails at all.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the golden pavilion's reflection in the pond and work out where the water goes.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Nan+Lian+Garden+Diamond+Hill+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-C-07",
+        "title": "Kowloon Walled City Park",
+        "description": "A Jiangnan-style garden laid out over the footprint of the densest settlement on earth, with the old yamen building and excavated gates left in place.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the bronze model of the Walled City and locate where its rooftops would have been.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Kowloon+Walled+City+Park+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-C-04",
+        "title": "Fortune Lane at Wong Tai Sin Temple",
+        "description": "Smoke, drums and the rattle of bamboo fortune sticks at Hong Kong's busiest working temple, with a whole arcade of soothsayers behind it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Shake the chim until one stick falls out, then have it read in Fortune Telling Lane.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Sik+Sik+Yuen+Wong+Tai+Sin+Temple+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-C-03",
+        "title": "Edward Youde Aviary in Hong Kong Park",
+        "description": "A walk-through rainforest aviary dropped into a valley in the middle of Admiralty, with 600 birds overhead and skyscrapers behind the mesh.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stay on the elevated walkway until you have spotted five species you cannot name.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Edward+Youde+Aviary+Hong+Kong+Park+Admiralty",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-C-05",
+        "title": "Top Deck of the Ding Ding, End to End",
+        "description": "The whole length of the island's north shore on a double-deck tram from 1904, front seat on top, at walking pace through Wan Chai and North Point.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Ride Kennedy Town to Shau Kei Wan without getting off, front row upstairs.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Hong+Kong+Tramways+Kennedy+Town+Terminus",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "HKG-C-10",
+        "title": "Morning Tai Chi in the Zoological and Botanical Gardens",
+        "description": "Hong Kong's oldest park, open since 1871 on the slope above Central, where retirees run through tai chi forms under the fig trees at first light.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Join the back row of a tai chi group and copy the whole sequence without asking.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Hong+Kong+Zoological+and+Botanical+Gardens+Central",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "HKG-C-08",
+        "title": "Hong Kong Wetland Park Boardwalks",
+        "description": "Sixty hectares of mangrove and mudflat on the edge of Deep Bay, with hides looking across the water at Shenzhen's skyline and migrating waders in between.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sit in the floating hide for ten silent minutes and count what lands.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Hong+Kong+Wetland+Park+Tin+Shui+Wai",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-C-09",
+        "title": "Symphony of Lights from the Tsim Sha Tsui Promenade",
+        "description": "Forty-odd buildings on both shores firing lasers and searchlights in time to music at 20:00, watched from the harbour railing on the Kowloon side.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "90 mins",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Get there 30 minutes early, claim the railing at the Avenue of Stars, and stay put.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Tsim+Sha+Tsui+Promenade+Avenue+of+Stars+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "HKG-F-01",
+        "title": "Wonton Noodles at Mak's Noodle, Wellington Street",
+        "description": "A teacup-sized bowl of springy noodles under four prawn wontons, made by the family that has done nothing else in Central for over 60 years.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Eat it the local way — noodles first, before they soften, and do not add soy.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Mak's+Noodle+77+Wellington+Street+Central+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-F-10",
+        "title": "Dim Sum at Tim Ho Wan, Sham Shui Po",
+        "description": "Baked barbecue pork buns with a sugar-crackle top, from the Sham Shui Po dim sum shop that has been in the Michelin guide for 17 straight years.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order three baked pork buns for the table, then order three more.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Tim+Ho+Wan+Sham+Shui+Po+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-F-07",
+        "title": "Beef Brisket Noodles at Kau Kee",
+        "description": "Brisket braised to collapse in a broth the same family has kept going on Gough Street since the 1930s, with a queue down the pavement most of the day.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order the curry brisket, not the clear broth, and share a table with a stranger.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Kau+Kee+Restaurant+21+Gough+Street+Central+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-F-05",
+        "title": "Roast Goose at Yat Lok, Stanley Street",
+        "description": "Lacquered roast goose over rice in a cramped Central shophouse, built on a 20-step method the family has run since 1957 and a Michelin star held since 2015.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order the lower leg, not the breast, and finish the skin first.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Yat+Lok+Roast+Goose+34+Stanley+Street+Central+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-F-09",
+        "title": "Char Siu at Joy Hing, Wan Chai",
+        "description": "Charcoal-edged barbecued pork over rice from a Wan Chai roast shop trading since 1938, where the counter hooks empty out by mid-afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ask for the fatty cut, half char siu and half roast goose on one plate.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Joy+Hing+Roasted+Meat+265+Hennessy+Road+Wan+Chai+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-F-03",
+        "title": "Scrambled Eggs at Australia Dairy Company",
+        "description": "The most famously brusque breakfast in Hong Kong — cloud-soft scrambled eggs, buttered toast and steamed milk pudding, served at a speed that borders on hostile.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order, eat and pay in under fifteen minutes without being told to hurry.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Australia+Dairy+Company+47+Parkes+Street+Jordan+Hong+Kong",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "HKG-F-02",
+        "title": "Egg Tarts at Tai Cheong Bakery, Lyndhurst Terrace",
+        "description": "Shortcrust egg tarts baked since 1954, still sold warm out of the tray at the original Central shop that the last colonial governor queued at.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Eat the first one standing on the pavement while it is still too hot.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Tai+Cheong+Bakery+35+Lyndhurst+Terrace+Central+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-F-08",
+        "title": "Tomato Noodles at Sing Heung Yuen Dai Pai Dong",
+        "description": "One of the last licensed dai pai dongs in Central, cooking under a tin roof on a stepped lane since 1957, famous for tomato soup noodles and crisp honey-butter toast.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get the tomato noodles with beef and a crispy bun, and eat at the roadside table.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Sing+Heung+Yuen+2+Mee+Lun+Street+Central+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-F-04",
+        "title": "Pineapple Bun and Milk Tea at Kam Wah Café",
+        "description": "The city's benchmark bo lo bao — a crackle-topped bun split around a cold slab of butter — at a cha chaan teng that has not changed since 1973.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order it bo lo yau, with the butter, and do not ask for it without.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Kam+Wah+Cafe+47+Bute+Street+Prince+Edward+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-F-06",
+        "title": "Dim Sum at Lung King Heen",
+        "description": "Cantonese dim sum at harbour level in the Four Seasons, the first Chinese restaurant in the world to be given three Michelin stars, and still a two-star room today.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Book the lunch sitting and ask for a window table on Victoria Harbour.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Lung+King+Heen+Four+Seasons+Hong+Kong+Central",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "HKG-A-13",
+        "title": "Tai Mo Shan Summit Before Dawn",
+        "description": "The highest ground in Hong Kong at 957 metres, where the cloud sits below you at dawn and the temperature runs ten degrees under the city.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Take a jumper you think you will not need. You will need it.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Tai+Mo+Shan+Country+Park+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-12",
+        "title": "Cheung Chau Mini Great Wall",
+        "description": "A granite walkway along the cliffs of a dumbbell-shaped island, threading past wind-cut rocks with names like the Human Head and the Reclining Rock.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the pirate cave at Cheung Po Tsai and go in as far as your phone torch lasts.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Mini+Great+Wall+Cheung+Chau+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-11",
+        "title": "Lamma Island Family Trail Crossing",
+        "description": "A car-free island crossed on foot from one ferry pier to the other, over a ridge, past a swimming beach, and down into a seafood village.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk it in the opposite direction to everyone else, from Sok Kwu Wan to Yung Shue Wan.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Lamma+Island+Family+Trail+Yung+Shue+Wan+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-14",
+        "title": "Kam Shan Monkey Hill Reservoir Loop",
+        "description": "A colonial reservoir circuit 20 minutes from Mong Kok with several hundred rhesus macaques living along it, entirely unbothered by you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the whole loop without a monkey getting into your bag.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Kam+Shan+Country+Park+Kowloon+Reservoir+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-09",
+        "title": "Tai O Stilt Village Walk",
+        "description": "A Tanka fishing village on stilts over a tidal creek on far west Lantau, where shrimp paste still dries on the rooftops and the drawbridge is cranked by hand.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy something dried off a rooftop rack and eat it before you leave the village.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Tai+O+Fishing+Village+Lantau+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-10",
+        "title": "The Twins Stairs on Wilson Trail Stage 1",
+        "description": "Over 1,100 stone steps straight up two peaks above Stanley — the cruellest staircase in Hong Kong, and the reason local hikers train here.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "No sitting down until the second summit. Standing rests only.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Twins+Violet+Hill+Wilson+Trail+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-15",
+        "title": "Bride's Pool and Plover Cove Reservoir",
+        "description": "A chain of waterfalls and plunge pools in the far northeast, paired with the dam wall of a reservoir built by sealing off a whole sea inlet.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Walk the full length of the main dam and look back at where the sea used to be.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Bride's+Pool+Plover+Cove+Country+Park+Tai+Po",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-16",
+        "title": "World of Frozen at Hong Kong Disneyland",
+        "description": "The first Arendelle ever built, a whole fjord village with a runaway sleigh coaster, inside the park Hong Kong reaches by its own dedicated MTR line.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "8 hrs",
+        "durationMins": 480,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ride Wandering Oaken's Sliding Sleighs in the front row with your hands up.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Hong+Kong+Disneyland+Lantau+Island",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-08",
+        "title": "Summit Cable Car and Arctic Blast at Ocean Park",
+        "description": "A 1977 marine park built across a headland, where the ride between halves is a cable car strung over the open sea and the best coaster is a spinning one on the Summit.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Take the cable car up and the Ocean Express tunnel down, so you get both.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Ocean+Park+Hong+Kong+Wong+Chuk+Hang",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-01",
+        "title": "Dragon's Back Ridge to Big Wave Bay",
+        "description": "A knife-edge ridge 15 minutes from the city that drops you onto the surf beach at Big Wave Bay, with the South China Sea on both sides the whole way.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Walk it east to west and swim at Big Wave Bay before you catch the bus back.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Dragon's+Back+Trail+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-07",
+        "title": "Ngong Ping 360 Crystal Cabin to the Big Buddha",
+        "description": "A 5.7km cable car with a glass floor, swinging over the bay and up Lantau's spine to the 34-metre bronze Tian Tan Buddha and the 268 steps to its feet.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Climb all 268 steps without stopping, then ring the bell at the top.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Ngong+Ping+360+Tung+Chung+Terminal+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-03",
+        "title": "Lantau Peak Sunrise Climb",
+        "description": "Hong Kong's second-highest peak, climbed in the dark from Pak Kung Au so you are standing at 934 metres when the sun comes up over the Pearl River Delta.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "6 hrs",
+        "durationMins": 360,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Carry breakfast up and eat it on the summit before you start down to the Big Buddha.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Lantau+Peak+Sunset+Peak+Ngong+Ping+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-05",
+        "title": "Sai Wan to Tai Long Wan Beach Hike",
+        "description": "Four empty white-sand bays strung along the Sai Kung coast, reachable only on foot, and the closest thing Hong Kong has to a desert island.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Swim at Ham Tin, then eat at the beach shack before the last boat.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Tai+Long+Wan+Sai+Kung+Hong+Kong",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-02",
+        "title": "Lion Rock Summit at Golden Hour",
+        "description": "A steep scramble up the lion's head above Kowloon, where the whole peninsula lines up under you as the light goes orange.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand on the lion's nose for the photo — then put the phone away for ten minutes.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Lion+Rock+Country+Park+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-06",
+        "title": "High Island Reservoir East Dam Columns",
+        "description": "Hexagonal volcanic columns 100 metres tall, folded like a collapsed accordion, in a UNESCO Global Geopark at the far end of a sea wall of dolosse.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Walk down to the sea cave at the foot of the columns if the tide allows.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/High+Island+Reservoir+East+Dam+Sai+Kung",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "HKG-A-04",
+        "title": "Old Peak Road Climb to Victoria Peak",
+        "description": "The 1860s sedan-chair route up the mountain — a relentless concrete ramp through the jungle that skips the tram queue entirely.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Beat the tram: send someone up by rail and race them from Central.",
+        "city": "Hong Kong, China",
+        "mapsUrl": "https://maps.google.com/maps/search/Old+Peak+Road+Hong+Kong",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}
