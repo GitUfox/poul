@@ -4,9 +4,10 @@
  * WHY THIS EXISTS (2026-10-15): Notion caps a Select property at 100 options.
  * The Card Database reached 100 packs, and the daily city-expansion routine
  * was blocked for 13 straight runs because no new Pack option could be created.
- * The fix is to convert `Pack` from Select to Text (no cap). The conversion is
- * done in the Notion UI (Pack property → Edit property → Type → Text); Notion
- * keeps every existing value as plain text.
+ * The fix was to convert `Pack` from Select to Text (no cap). Done 2026-10-16
+ * through the official API (databases.update, Pack: { rich_text: {} }); every
+ * one of the 6,722 rows kept its value. Backup of the pre-conversion rows:
+ * ../poul-notion-backup-2026-10-15.json (outside the repo).
  *
  * Every script reads and writes `Pack` through the helpers below and calls
  * initPackType(notion) once at startup. initPackType reads the live property
@@ -14,7 +15,7 @@
  * with no code change. `readPack` tolerates both shapes.
  */
 
-const PACK_PROP_TYPE = 'select';   // fallback when initPackType() was not called
+const PACK_PROP_TYPE = 'rich_text';   // fallback when initPackType() was not called; the live property has been Text since 2026-10-16
 let currentType = PACK_PROP_TYPE;
 
 // Detect the live shape of `Pack` from the database schema. Call once after
