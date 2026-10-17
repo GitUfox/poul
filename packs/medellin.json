@@ -1,0 +1,1212 @@
+{
+  "id": "medellin",
+  "name": "Medellín",
+  "location": "Colombia",
+  "emoji": "🚡",
+  "isDefault": false,
+  "cards": {
+    "chill": [
+      {
+        "id": "MDE-C-08",
+        "title": "Picnic at Parque Lineal Ciudad del Río",
+        "description": "Spread a blanket on the lawns beside the modern art museum and watch skaters, dogs and food trucks roll by.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring a frisbee and get a stranger to join one throw.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Ciudad+del+Rio+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-C-05",
+        "title": "Zócalo Wander Through Guatapé's Plazoleta de los Zócalos",
+        "description": "Amble through rainbow streets where every house wears hand-painted relief panels telling a story.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find a zócalo that matches your job and take a photo in front of it.",
+        "city": "Guatapé, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Plazoleta+de+los+Zocalos+Guatape",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-C-02",
+        "title": "Barefoot Walk at Parque de los Pies Descalzos",
+        "description": "Kick off your shoes and walk sand, water and a bamboo grove in a park designed to slow you down.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Keep your shoes off for the entire visit, no exceptions.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+de+los+Pies+Descalzos+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-C-01",
+        "title": "Orchid Garden Stroll at Jardín Botánico",
+        "description": "Drift under the giant wooden Orquideorama canopy and past lagoons full of turtles and iguanas.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find the biggest iguana in the garden and give it a name.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardin+Botanico+de+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-C-03",
+        "title": "Dome Show at the Planetario de Medellín",
+        "description": "Lie back under the dome for a full-sky show, then wander the space exhibits next to Parque de los Deseos.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the constellation of your birth sign during the show and point it out.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Planetario+de+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-C-07",
+        "title": "Aquarium Visit at Parque Explora",
+        "description": "Lose track of time in Latin America's largest freshwater aquarium inside the city's bold red science museum.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the piranhas and time how long you can stare without blinking.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Explora+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-C-09",
+        "title": "Reading Hour at Biblioteca Pública Piloto",
+        "description": "Settle into the UNESCO-founded public library and browse its photo archive of old Medellín.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find a photo of the street you are staying on from before 1960.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Biblioteca+Publica+Piloto+Medellin",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "MDE-C-06",
+        "title": "Coffee and People Watching in Jardín's Parque Principal",
+        "description": "Grab a painted wooden chair beneath the neo-Gothic basilica and watch farmers in sombreros trot by on horseback.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Strike up a conversation with a local at the next table and learn one paisa phrase.",
+        "city": "Jardín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Principal+Jardin+Antioquia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-C-10",
+        "title": "Golden Hour at Mirador de Las Palmas",
+        "description": "Pull over at the lookout on the Las Palmas road and watch the valley lights flicker on at dusk.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay until you can count 100 lights switching on.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Mirador+de+Las+Palmas+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-C-04",
+        "title": "Afternoon at Casa Museo Otraparte",
+        "description": "Tour philosopher Fernando González's house museum, then linger with a coffee in its leafy garden.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Read one page of González aloud to your group in the garden.",
+        "city": "Envigado, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Casa+Museo+Otraparte+Envigado",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "MDE-F-07",
+        "title": "Dinner at Elcielo Medellín",
+        "description": "Surrender to Juan Manuel Barrientos's theatrical multi-sensory tasting menu at the flagship that launched a Michelin-starred empire.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Toast with the edible course and make a wish before eating it.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Elcielo+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-05",
+        "title": "Paisa Feast at Hato Viejo",
+        "description": "Share ajiaco, sancocho and grilled meats in a big rustic dining room on the Las Palmas road.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order one dish nobody at the table can pronounce.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Hato+Viejo+Las+Palmas+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-11",
+        "title": "Tamarind Sweets in Santa Fe de Antioquia's Plaza",
+        "description": "Escape to the hot colonial town and snack on sticky pulpa de tamarindo from vendors around the whitewashed main square.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a sweet from three different vendors and crown the best one.",
+        "city": "Santa Fe de Antioquia, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Principal+Santa+Fe+de+Antioquia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-09",
+        "title": "Exotic Fruit Tasting at Plaza Minorista",
+        "description": "Wander the city's busiest market and sample lulo, granadilla, pitahaya and fruits you have no name for.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy one fruit you have never seen and get the vendor to teach you how to eat it.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Plaza+Minorista+Jose+Maria+Villa+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-08",
+        "title": "Coffee Flight at Pergamino Café Provenza",
+        "description": "Taste single-origin Colombian beans side by side on the shaded corner that defines Medellín coffee culture.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order a brew method you have never tried and describe its flavour in three words.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Pergamino+Cafe+Provenza+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-06",
+        "title": "Tasting Menu at Carmen",
+        "description": "Eat your way through Colombia's biodiversity in a glass conservatory at one of Latin America's 50 Best.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2.5–3 hrs",
+        "durationMins": 165,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Ask the server which ingredient on the menu is hardest to source and order that dish.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Carmen+Restaurante+El+Poblado+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-12",
+        "title": "Rose Petal Arequipe at Dulces del Jardín",
+        "description": "Sample basil jam, arracacha arequipe and rose petal sweets at a family candy kitchen beloved since 1995.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pick the strangest flavour in the case and make everyone try it.",
+        "city": "Jardín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Dulces+del+Jardin+Jardin+Antioquia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-10",
+        "title": "Sunday Sancocho at Sancho Paisa",
+        "description": "Eat the traditional Antioquian cooking that top chef Carmen Ángel calls her favourite, served up on the Las Palmas road.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Ask for the grill master's favourite cut and order it without looking at the menu.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Sancho+Paisa+Las+Palmas+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-01",
+        "title": "Food Hall Crawl at Mercado del Río",
+        "description": "Graze through dozens of stalls in a converted warehouse, from ceviche to arepas to craft cocktails.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Each person orders from a different stall and the group votes on the winner.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Mercado+del+Rio+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-04",
+        "title": "Breakfast Arepas at El Rancherito Las Palmas",
+        "description": "Fuel up on a hearty paisa breakfast at a 50 year old roadside favourite on the climb out of the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Try the hot chocolate with cheese dunked in it, the paisa way.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Rancherito+Las+Palmas+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-03",
+        "title": "Mondongo Soup at Mondongo's",
+        "description": "Order the tripe soup that made this family restaurant a Medellín institution for nearly five decades.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Have the person who has never tried tripe take the first spoonful.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Mondongos+Calle+10+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-F-02",
+        "title": "Bandeja Paisa at Hacienda on Junín",
+        "description": "Tackle the full bandeja paisa in the original second-floor dining room overlooking the downtown Junín promenade.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Finish every last bean and chicharrón on the plate.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Restaurante+Hacienda+Junin+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "MDE-S-02",
+        "title": "Live Cuban Salsa at Son Havana",
+        "description": "Squeeze onto a packed Laureles dance floor while a Cuban band drives the city's best salsa dancers wild.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Dance one full song with someone you just met.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Son+Havana+Laureles+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MDE-S-01",
+        "title": "Tango Night at Salón Málaga",
+        "description": "Drink a cold beer among jukeboxes and vintage photos while couples of every age dance tango in a bar open since 1957.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Ask a regular to teach you one tango step on the floor.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Salon+Malaga+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MDE-S-11",
+        "title": "Downtown Walking Tour With Real City Tours",
+        "description": "Hear the honest story of Medellín's transformation from a local guide on the city's most famous free walking tour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3.5 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask your guide one question nobody else in the group dares to ask.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Real+City+Tours+Alpujarra+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-S-07",
+        "title": "Rooftop Cocktails at Mamba Negra",
+        "description": "Sip cocktails at the El Poblado rooftop ranked 22nd on The World's 50 Best Bars 2026.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Ask the bartender to make you something off-menu based on your favourite fruit.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Mamba+Negra+El+Poblado+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MDE-S-06",
+        "title": "Tejo Night at Unidad Deportiva José René Higuita",
+        "description": "Hurl metal pucks at gunpowder targets on the renovated public courts and play Colombia's explosive national sport.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Make a mecha explode on your first throw or buy the next round of snacks.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Unidad+Deportiva+Jose+Rene+Higuita+Castilla+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-S-10",
+        "title": "Christmas Alumbrados Along Parques del Río",
+        "description": "Stroll with the whole city through millions of Christmas lights strung along the Medellín River.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Dec–Jan",
+        "spark": 23,
+        "bonus": "Share a natilla and buñuelo with your group under the brightest display.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parques+del+Rio+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-S-12",
+        "title": "Milongas at the Festival Internacional de Tango",
+        "description": "Join free concerts and street milongas as Medellín honours Carlos Gardel, who died in the city in 1935.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Jun",
+        "spark": 15,
+        "bonus": "Dance at least one tango in public, even if badly.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Plaza+Gardel+Manrique+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-S-03",
+        "title": "Salsa Class at Dancefree",
+        "description": "Learn paisa salsa in a drop-in group class, then stay for the practice session to test your moves.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Rotate partners at least five times during the practice hour.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Dancefree+Calle+10A+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-S-05",
+        "title": "Aguardiente Round at El Social in Provenza",
+        "description": "Grab a plastic chair at the old corner tienda that became Provenza's most iconic hangout, with salsa and chicharrón.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a round of aguardiente for the table next to yours.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Social+Tienda+Provenza+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "MDE-S-04",
+        "title": "Atlético Nacional Match at Estadio Atanasio Girardot",
+        "description": "Wear green and white and sing with the south stand as Colombia's most decorated club plays at home.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Learn the words to one chant before kickoff and belt it out.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Estadio+Atanasio+Girardot+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-S-09",
+        "title": "Silleteros Parade at the Feria de las Flores",
+        "description": "Cheer as hundreds of flower farmers parade giant silletas on their backs at the city's biggest party of the year.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Afternoon",
+        "season": "Aug",
+        "spark": 40,
+        "bonus": "Get a photo with a silletero and their flower arrangement.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Feria+de+las+Flores+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-S-08",
+        "title": "Craft Beer at 3 Cordilleras Estación Central",
+        "description": "Drink fresh pints and catch live music in the old brewing plant where Medellín's craft beer scene began.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order a flight and rank the beers blind.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/3+Cordilleras+Estacion+Central+Medellin",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "MDE-CU-02",
+        "title": "Graffiti and Escalators of Comuna 13",
+        "description": "Ride the open-air escalators through a once-feared barrio now covered in murals, hip hop and street dance.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Buy a mango biche from a local vendor and tip the street dancers.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Escaleras+Electricas+Comuna+13+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-CU-03",
+        "title": "Reflection at Museo Casa de la Memoria",
+        "description": "Walk through moving testimony of Colombia's armed conflict in a free museum built for remembrance.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Write a message on the memory wall before you leave.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+Casa+de+la+Memoria+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-CU-08",
+        "title": "A Show at Teatro Pablo Tobón Uribe",
+        "description": "Catch theatre, music or dance at the historic 1967 playhouse at the top of Avenida La Playa.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick the show by pointing blindly at the monthly programme.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Teatro+Pablo+Tobon+Uribe+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-CU-01",
+        "title": "Botero Sculptures and Museo de Antioquia",
+        "description": "Meet 23 voluptuous Botero bronzes in the plaza, then see the master's paintings in the museum he filled with his gifts.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Recreate the pose of your favourite statue for a photo.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+de+Antioquia+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-CU-04",
+        "title": "Exhibitions at the Museo de Arte Moderno de Medellín",
+        "description": "Explore Débora Arango's daring work and new Colombian art inside a converted steel foundry in Ciudad del Río.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pick the one piece you would hang at home and defend your choice to the group.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+de+Arte+Moderno+de+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-CU-05",
+        "title": "Pueblito Paisa on Cerro Nutibara",
+        "description": "Climb to a replica Antioquian village on a hilltop in the middle of the city for church bells and panoramic views.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Buy a traditional carriel or poncho souvenir and wear it for the rest of the day.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Pueblito+Paisa+Cerro+Nutibara+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-CU-07",
+        "title": "Gardens and Halls of Museo El Castillo",
+        "description": "Tour a 1930s Gothic-style castle full of European art and stroll its manicured French gardens in El Poblado.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the oldest object in the house and guess its age before reading the label.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+El+Castillo+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-CU-06",
+        "title": "Cross the Puente de Occidente",
+        "description": "Walk an 1895 suspension bridge over the Cauca River, then wander the cobbled colonial streets of Santa Fe de Antioquia.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "Full day",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stop at the middle of the bridge and shout your group's name into the canyon.",
+        "city": "Santa Fe de Antioquia, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Puente+de+Occidente+Santa+Fe+de+Antioquia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "MDE-8B-01",
+        "title": "Sanalejo Market Treasure Hunt in Parque Bolívar",
+        "description": "On the first Saturday of the month, dive into hundreds of artisan stalls with a wildcard mission from the group.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Each person gets COP 30,000 to buy a gift for someone else in the group, revealed only at the end.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Bolivar+Medellin",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-8B-02",
+        "title": "Metro Line A End to End Dare",
+        "description": "Ride the Metro from Niquía to La Estrella and hop off at whichever station the group's dice roll chooses.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "At the chosen stop, eat whatever the first street vendor outside the station sells.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Estacion+Niquia+Metro+de+Medellin",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "MDE-A-14",
+        "title": "Salto del Buey Waterfall Canyon",
+        "description": "Hike down into the canyon below one of Antioquia's most powerful waterfalls, a thundering drop of about 90 metres.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "Full day",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Get close enough to the spray that everyone leaves soaked.",
+        "city": "La Ceja, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Salto+del+Buey+La+Ceja",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-04",
+        "title": "Sunrise Hike Up Cerro de las Tres Cruces",
+        "description": "Join the dawn crowd of locals powering up a steep hill to three crosses and a city skyline glowing at your feet.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do ten push-ups at the top beside the crosses.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Cerro+de+las+Tres+Cruces+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-13",
+        "title": "Cloud Forest Hike at Parque Ecológico La Romera",
+        "description": "Climb a quiet protected forest above Sabaneta where locals go to escape the city on weekends.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Do the last stretch in total silence and listen for the birds.",
+        "city": "Sabaneta, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Ecologico+La+Romera+Sabaneta",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-10",
+        "title": "Sunday Ciclovía Ride on Avenida El Poblado",
+        "description": "Join thousands of cyclists, runners and skaters when the city closes its main avenues to cars on Sunday mornings.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Stop for a fresh orange juice from a street cart and toast a stranger.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Avenida+El+Poblado+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-02",
+        "title": "Climb the 740 Steps of Piedra del Peñol",
+        "description": "Zigzag up the staircase stitched into a 200 metre granite monolith for a view over a maze of emerald islands.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Count every step out loud as a group and celebrate at the top with a michelada or lulo juice.",
+        "city": "Guatapé, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Piedra+del+Penol+Guatape",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-03",
+        "title": "Tandem Paragliding Over San Félix",
+        "description": "Run off a green ridge in San Félix and float with a certified pilot above the whole Aburrá Valley.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Film a ten second mid-air message to your future self.",
+        "city": "Bello, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parapente+San+Felix+Bello",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-15",
+        "title": "Hike to Cerro Cristo Rey Above Jardín",
+        "description": "Climb to the Christ statue on the hill over Jardín for a view of the colourful town wrapped in coffee slopes.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the basilica's spire from the top and take a photo lining it up with your thumb.",
+        "city": "Jardín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Cerro+Cristo+Rey+Jardin+Antioquia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-01",
+        "title": "Metrocable Ride Into Parque Arví",
+        "description": "Ride the Metrocable over the hillside barrios and up into a cloud forest of pine and oak trails high above the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy a fruit snack at the Arví farmers' stalls and eat it on the trail without phones out.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Arvi+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-11",
+        "title": "Summit Cerro Quitasol",
+        "description": "Tackle the steep pyramid peak above Bello for the biggest bragging-rights view in the valley.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Dec–Mar",
+        "spark": 14,
+        "bonus": "Pack an arepa for the summit and share it with another hiking group.",
+        "city": "Bello, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Cerro+Quitasol+Bello",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-16",
+        "title": "Source of the River at Alto de San Miguel",
+        "description": "Trek into the protected cloud forest in Caldas where the Río Medellín is born as a clear mountain stream.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Dip your hand in the river at its source and again in the city on the way home.",
+        "city": "Caldas, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Alto+de+San+Miguel+Caldas+Antioquia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-05",
+        "title": "Trail Loop on Cerro El Volador",
+        "description": "Hike the city's biggest urban nature park, a hill once sacred to the Aburrá people, for a 360 degree view.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Spot and photograph three different bird species before you reach the summit.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Cerro+El+Volador+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-12",
+        "title": "Forest Trails at Parque Ecológico Piedras Blancas",
+        "description": "Walk misty reservoir trails and a butterfly garden in the highlands of Santa Elena.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find and photograph a butterfly that lands on someone in your group.",
+        "city": "Medellín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Ecologico+Piedras+Blancas+Medellin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-09",
+        "title": "Ride La Garrucha Over Jardín",
+        "description": "Dangle in a tiny wooden cart on a cable built for hauling coffee, swinging over a valley to a hilltop trail.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Wave at the first coffee farmer you see below.",
+        "city": "Jardín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Garrucha+Jardin+Antioquia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-07",
+        "title": "Rafting and Caving at Reserva Río Claro",
+        "description": "Float a turquoise river through a white marble canyon, then wade into a cave full of oilbirds.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Let the current carry you downstream on your back for one full minute.",
+        "city": "San Francisco, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Reserva+Natural+Canon+del+Rio+Claro+Antioquia",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-06",
+        "title": "Guatapé Reservoir Boat Ride From the Malecón",
+        "description": "Cruise the island-studded reservoir past the cross marking the drowned old town of El Peñol.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5–2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Convince the captain to let you pick the boat's next song.",
+        "city": "Guatapé, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Malecon+de+Guatape",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "MDE-A-08",
+        "title": "Cueva del Esplendor Waterfall Hike",
+        "description": "Jeep and hike into the cloud forest above Jardín to a cave where a waterfall crashes through the roof.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Stand in the plunge pool under the spray for a full ten seconds.",
+        "city": "Jardín, Colombia",
+        "mapsUrl": "https://maps.google.com/maps/search/Cueva+del+Esplendor+Jardin",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1202 @@
+{
+  "id": "florence",
+  "name": "Florence",
+  "location": "Italy",
+  "emoji": "🎨",
+  "isDefault": false,
+  "cards": {
+    "social": [
+      {
+        "id": "FLR-S-10",
+        "title": "Palio di Siena",
+        "description": "Cram into Piazza del Campo for the bareback horse race that splits Siena into 17 rival neighbourhoods.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "4-5 hrs",
+        "durationMins": 270,
+        "time": "Evening",
+        "season": "Jul-Aug",
+        "spark": 40,
+        "bonus": "Pick a contrada, buy its scarf and cheer for it all day.",
+        "city": "Siena, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Piazza+del+Campo+Siena",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-S-03",
+        "title": "Aperitivo on Piazza Santo Spirito",
+        "description": "Join the Oltrarno crowd sprawled on the church steps of Florence's liveliest square at golden hour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Apr-Oct",
+        "spark": 14,
+        "bonus": "Sit on the church steps and strike up a conversation with whoever is next to you.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Piazza+Santo+Spirito+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-S-12",
+        "title": "Cheese and Wine at Il Santino",
+        "description": "Squeeze into the tiny Oltrarno wine bar for natural pours and Tuscan cheeses at the counter.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Spill out onto the street with your glass like the regulars.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Il+Santino+Via+di+Santo+Spirito+Florence",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "FLR-S-11",
+        "title": "Rooftop Drinks at SE-STO on Arno",
+        "description": "Sip sunset cocktails in a glass rooftop atop the Westin Excelsior with a 360 view of Florence.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Make a toast to the dome, face the dome.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/SE-STO+on+Arno+Westin+Excelsior+Florence",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "FLR-S-05",
+        "title": "Wine by the Glass at Cantinetta Antinori",
+        "description": "Drink the Antinori family's wines inside their 15th-century palazzo, where they've poured since 1957.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Order the same grape from two different Antinori estates and compare.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Cantinetta+Antinori+Florence",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "FLR-S-06",
+        "title": "Tasting Menu at Pitti Gola e Cantina",
+        "description": "Snag a terrace table facing Palazzo Pitti for small-producer wines and a paired tasting.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Let the owners pick every pour.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Pitti+Gola+e+Cantina+Piazza+Pitti+Florence",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "FLR-S-08",
+        "title": "ACF Fiorentina Match at Stadio Artemio Franchi",
+        "description": "Wear purple and join the Viola faithful for Serie A at Florence's modernist stadium.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Aug-May",
+        "spark": 22,
+        "bonus": "Learn the Curva Fiesole chant before kickoff.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Stadio+Artemio+Franchi+Florence",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-S-01",
+        "title": "Truffle Panini and Prosecco at Procacci",
+        "description": "Clink glasses over tiny truffle sandwiches at the Tornabuoni deli serving them since 1885.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "30 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order three different panini and rank them.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Procacci+Via+de'+Tornabuoni+Florence",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-S-02",
+        "title": "Wine Bar Crawl Start at Le Volpi e l'Uva",
+        "description": "Stand at the counter of this tiny Oltrarno wine bar near Ponte Vecchio for small-producer pours and crostini.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 75,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask for a wine from a producer you have never heard of.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Le+Volpi+e+l'Uva+Piazza+dei+Rossi+Florence",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "FLR-S-09",
+        "title": "Chianti Tasting at Castello di Verrazzano",
+        "description": "Tour the cellars of the hilltop castle above Greve and taste Chianti Classico and Vin Santo with friends.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Toast the explorer Giovanni da Verrazzano, born in this castle.",
+        "city": "Greve in Chianti, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Castello+di+Verrazzano+Greve+in+Chianti",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "FLR-S-04",
+        "title": "Ring the Wine Window at Babae",
+        "description": "Ring the bell at a revived Renaissance buchetta del vino and get a glass of red passed through the wall.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Ring the bell and order in Italian.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Babae+Via+Santo+Spirito+Florence",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "FLR-S-07",
+        "title": "Calcio Storico Fiorentino in Piazza Santa Croce",
+        "description": "Watch Florence's brutal Renaissance football, fought in sand on Piazza Santa Croce by four city quarters.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Jun",
+        "spark": 28,
+        "bonus": "Pick a team colour and wear it.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Piazza+Santa+Croce+Florence",
+        "company": [
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "FLR-C-03",
+        "title": "Gregorian Vespers at San Miniato al Monte",
+        "description": "Hear the Olivetan monks chant vespers in Florence's most beautiful Romanesque church high above the city.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stay seated until the very last note fades.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/San+Miniato+al+Monte+Florence",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "FLR-C-05",
+        "title": "Slow Stroll Through the Orto Botanico di Siena",
+        "description": "Wander the terraced university botanical garden tucked inside Siena's walls, with open views over the valley.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Find a bench facing the Val di Montone and stay put for one full song.",
+        "city": "Siena, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Orto+Botanico+Universita+di+Siena",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "FLR-C-06",
+        "title": "View from San Francesco Monastery in Fiesole",
+        "description": "Walk the steep lane to Fiesole's hilltop friary for the classic sweep of Florence below.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Read a page of something on the bench at the belvedere halfway up.",
+        "city": "Fiesole, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Convento+di+San+Francesco+Fiesole",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "FLR-C-07",
+        "title": "Coffee in Lucca's Piazza dell'Anfiteatro",
+        "description": "Sit in the oval piazza built on the footprint of a Roman amphitheatre.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the full oval and count the arch entrances.",
+        "city": "Lucca, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Piazza+dell'Anfiteatro+Lucca",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-C-10",
+        "title": "Morning Coffee at Caffe Gilli",
+        "description": "Sip a cappuccino at the Belle Epoque bar of Florence's oldest cafe, open since 1733.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Drink your cappuccino standing at the bar like a Florentine.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Caffe+Gilli+Piazza+della+Repubblica+Florence",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "FLR-C-09",
+        "title": "Officina Profumo-Farmaceutica di Santa Maria Novella",
+        "description": "Browse frescoed halls of one of the world's oldest pharmacies, selling monk-formula perfumes since 1612.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Smell the Acqua di Santa Maria Novella and pick a scent blind.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Officina+Profumo+Farmaceutica+di+Santa+Maria+Novella+Florence",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "FLR-C-08",
+        "title": "Glasshouse Picnic at Giardino dell'Orticoltura",
+        "description": "Picnic on the lawn in front of a 19th-century iron-and-glass tepidarium that locals forget to tell you about.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the dragon-shaped mosaic serpent in the upper garden.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Giardino+dell'Orticoltura+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-C-04",
+        "title": "Wisteria Tunnel at Giardino Bardini",
+        "description": "Stroll the terraced Bardini Garden and its wisteria pergola with a direct view of the Duomo.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get one photo with the dome framed in the pergola.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Giardino+Bardini+Florence",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "FLR-C-01",
+        "title": "Afternoon in the Boboli Gardens",
+        "description": "Wander the Medici family's terraced Renaissance garden behind Palazzo Pitti.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the Bacchus fountain and recreate the dwarf's pose.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Giardino+di+Boboli+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-C-02",
+        "title": "Sunset at the Giardino delle Rose",
+        "description": "Lounge among 350 rose varieties and Folon sculptures just below Piazzale Michelangelo.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Apr-Oct",
+        "spark": 13,
+        "bonus": "Find the Japanese garden corner and sit there for ten silent minutes.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Giardino+delle+Rose+Florence",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "FLR-8B-02",
+        "title": "Treasure Hunt at the Ciompi Flea Market",
+        "description": "Dig through vintage oddities in the loggia stalls of Piazza dei Ciompi and buy something you didn't know existed.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Spend exactly 10 euros on the strangest thing you can find.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Mercato+delle+Pulci+Piazza+dei+Ciompi+Florence",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-8B-01",
+        "title": "Rub Il Porcellino's Snout at Mercato Nuovo",
+        "description": "Rub the bronze boar's shiny snout for a guaranteed return to Florence, then follow whatever street looks most interesting.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 20,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Drop a coin from the boar's mouth so it falls through the grate, for luck.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Fontana+del+Porcellino+Mercato+Nuovo+Florence",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "FLR-CU-07",
+        "title": "Roman Theatre at Fiesole",
+        "description": "Sit in a 1st-century BC Roman theatre in the hills above Florence, still used for summer concerts.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Sit in the top row and whisper to a friend on stage to test the acoustics.",
+        "city": "Fiesole, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Area+Archeologica+Fiesole",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-CU-06",
+        "title": "Masaccio Frescoes at the Brancacci Chapel",
+        "description": "Study the frescoes that kick-started the Renaissance in a tiny chapel in Santa Maria del Carmine.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Spot the self-portrait Masaccio slipped into the scene.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Cappella+Brancacci+Florence",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "FLR-CU-02",
+        "title": "Michelangelo's David at the Galleria dell'Accademia",
+        "description": "Stand beneath the original David at the end of a hall lined with Michelangelo's unfinished Prisoners.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Walk all the way around David and find the view of his eyes from the left.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Galleria+dell'Accademia+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-CU-08",
+        "title": "Basilica di Santa Croce",
+        "description": "Pay respects at the tombs of Michelangelo, Galileo and Machiavelli in Florence's grand Franciscan basilica.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the tombs of Michelangelo, Galileo and Machiavelli and pay respects to each.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Basilica+di+Santa+Croce+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-CU-01",
+        "title": "Uffizi Gallery",
+        "description": "See Botticelli, Leonardo and Caravaggio in the Medici's original gallery on the Arno.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Find Botticelli's Venus and spot the one detail nobody photographs.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Galleria+degli+Uffizi+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-CU-04",
+        "title": "Bargello Museum",
+        "description": "See Donatello's bronze David and Michelangelo's Bacchus in Florence's medieval prison turned sculpture museum.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Compare Donatello's and Verrocchio's Davids side by side.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+Nazionale+del+Bargello+Florence",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "FLR-CU-03",
+        "title": "Walk the Vasari Corridor",
+        "description": "Cross the river on the Medici's private elevated passageway from the Uffizi over Ponte Vecchio to Palazzo Pitti.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Look through the window over Ponte Vecchio where Medici once spied on the crowds below.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Corridoio+Vasariano+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-CU-05",
+        "title": "Museo Galileo",
+        "description": "Gawk at Galileo's own telescopes and Medici scientific instruments beside the Arno.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find Galileo's preserved middle finger.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Museo+Galileo+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "FLR-F-03",
+        "title": "Dinner at Trattoria Cammillo",
+        "description": "Book a table at the old-school Oltrarno trattoria for fried artichokes and handmade pasta in a buzzing room.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Phone in your reservation in Italian, no apps.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Trattoria+Cammillo+Borgo+San+Jacopo+Florence",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-07",
+        "title": "Butcher's Feast at Antica Macelleria Cecchini",
+        "description": "Feast at Dario Cecchini's communal tables in Panzano after a welcome of Chianti butter and wine at the famous butcher counter.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Accept Dario's lard on bread and a glass of red at the counter before you sit.",
+        "city": "Panzano in Chianti, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Antica+Macelleria+Cecchini+Panzano+in+Chianti",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-05",
+        "title": "Gelato at Vivoli",
+        "description": "Grab a cup of gelato at Florence's oldest gelateria, scooping near Santa Croce since 1930.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order the Gran Crema affogato from the new bar next door.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Vivoli+Via+dell'Isola+delle+Stinche+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-01",
+        "title": "Schiacciata at All'Antico Vinaio",
+        "description": "Grab a hot, oversized schiacciata sandwich from the Via dei Neri shop that started Florence's sandwich craze.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the La Favolosa without looking at the menu board.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/All'Antico+Vinaio+Via+dei+Neri+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-10",
+        "title": "Award-Winning Gelato at Gelateria Dondoli",
+        "description": "Taste champion gelato on Piazza della Cisterna from master Sergio Dondoli, scooping there since 1992.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the Vernaccia sorbet and eat it on the cistern steps.",
+        "city": "San Gimignano, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Gelateria+Dondoli+San+Gimignano",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-08",
+        "title": "Bistecca at Buca Mario",
+        "description": "Share a lava-stone bistecca alla fiorentina in a 16th-century cellar dining room open since 1886.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Ask the waiter to tell the story of the cellar and order it rare, no exceptions.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Buca+Mario+Piazza+degli+Ottaviani+Florence",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-02",
+        "title": "Lunch at Trattoria Mario",
+        "description": "Squeeze into a shared table at the 1953 market trattoria for ribollita and rare bistecca at lunch only.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Share your table with strangers and swap one bite of whatever they ordered.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Trattoria+Mario+Via+Rosina+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-04",
+        "title": "Butter Chicken at Trattoria Sostanza",
+        "description": "Eat the legendary pan-seared butter chicken at a narrow trattoria serving the same menu since 1869.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 28,
+        "bonus": "Order the meringue cake for the table without asking anyone.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Trattoria+Sostanza+Via+del+Porcellana+Florence",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-09",
+        "title": "Communal Dinner at Il Latini",
+        "description": "Join the communal tables under hanging hams for ribollita and steak at a Bib Gourmand trattoria.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Let the waiter choose your whole meal.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Il+Latini+Via+dei+Palchetti+Florence",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-11",
+        "title": "Panforte at Pasticceria Nannini",
+        "description": "Stand at the bar of Siena's historic pastry house for panforte, ricciarelli and an espresso.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Buy a box of ricciarelli and give one to a stranger in the Campo.",
+        "city": "Siena, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Pasticceria+Nannini+Banchi+di+Sopra+Siena",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-06",
+        "title": "Lampredotto at Da Nerbone",
+        "description": "Brave Florence's tripe sandwich at the market stall that has served it since 1872.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 mins",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Say 'bagnato' with both sauces like a local.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Da+Nerbone+Mercato+Centrale+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-F-12",
+        "title": "Lunch at Trattoria Cibreo",
+        "description": "Eat Fabio Picchi's no-pasta Florentine menu at the small Sant'Ambrogio trattoria sibling of Cibreo.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order the dish you can't pronounce.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Trattoria+Cibreo+Via+dei+Macci+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "FLR-A-05",
+        "title": "Climb the Leaning Tower of Pisa",
+        "description": "Spiral up 251 tilted steps inside the world's most famous structural mistake.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Feel the lean on the spiral stairs, then do the push-the-tower photo but facing the wrong way.",
+        "city": "Pisa, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Torre+di+Pisa+Pisa",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-16",
+        "title": "Cycle the Arno Through Parco delle Cascine",
+        "description": "Pedal Florence's biggest park along the river on the city's cycle path, from the centre to the Indiano bridge.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride to the Indiano monument at the far tip of the park where the Mugnone meets the Arno.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Parco+delle+Cascine+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-02",
+        "title": "Climb Giotto's Bell Tower",
+        "description": "Climb 414 steps up Giotto's marble campanile for an eye-level stare at Brunelleschi's dome.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Spot your next climb, the Dome, from the top terrace and photograph it framed by the bell tower grille.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Campanile+di+Giotto+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-06",
+        "title": "Cycle the Lucca City Walls",
+        "description": "Rent a bike and loop the tree-lined top of Lucca's perfectly intact Renaissance ramparts.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Do a full 4.2 km lap without stopping, then do a second lap in the other direction.",
+        "city": "Lucca, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Mura+di+Lucca+Lucca",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-08",
+        "title": "Climb the Torre del Mangia",
+        "description": "Climb 400 narrow steps up Siena's 14th-century civic tower above the Piazza del Campo.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Look straight down onto the shell of Piazza del Campo and spot where the Palio horses turn.",
+        "city": "Siena, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Torre+del+Mangia+Siena",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-11",
+        "title": "Rocca di Montestaffoli Fortress Lookout",
+        "description": "Scramble up the ruined 14th-century fortress in San Gimignano for a free sunset view over the vineyards.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Climb the little lookout turret and catch the towers turning gold at sunset.",
+        "city": "San Gimignano, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Rocca+di+Montestaffoli+San+Gimignano",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-03",
+        "title": "Hike Monte Ceceri Above Fiesole",
+        "description": "Trail through pine woods and old sandstone quarries to the hill where Leonardo's flight experiment took off.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the plaque where Leonardo da Vinci tested his flying machine and strike a launch pose.",
+        "city": "Fiesole, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Parco+di+Monte+Ceceri+Fiesole",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-10",
+        "title": "Climb Lucca's Torre delle Ore",
+        "description": "Climb 207 wooden steps past the working 18th-century clock mechanism in Lucca's tallest tower.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Be under the bell when it strikes the hour.",
+        "city": "Lucca, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Torre+delle+Ore+Lucca",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "FLR-A-04",
+        "title": "Sunrise Climb up the Rampe del Poggi to Piazzale Michelangelo",
+        "description": "Walk the grotto-lined Poggi ramps from the Arno to Florence's most famous panorama before the crowds wake up.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get there before the sun clears the hills and time-lapse the Duomo lighting up.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Piazzale+Michelangelo+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-13",
+        "title": "Climb the Torre di Arnolfo at Palazzo Vecchio",
+        "description": "Climb the crenellated tower of Palazzo Vecchio for a bird's-eye look at Piazza della Signoria.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Find the tiny cell where Savonarola was held before his execution.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Torre+di+Arnolfo+Palazzo+Vecchio+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-09",
+        "title": "Climb Torre Grossa in San Gimignano",
+        "description": "Climb the tallest of San Gimignano's medieval towers for a 360 view over the Tuscan hills.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Count the surviving towers of San Gimignano from the top.",
+        "city": "San Gimignano, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Torre+Grossa+San+Gimignano",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-15",
+        "title": "Porta del Cielo Rooftop Tour of Siena Cathedral",
+        "description": "Walk the hidden roof passages of Siena's Duomo on the guided Gate of Heaven tour.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Look down through the interior windows onto the marble floor mosaics far below.",
+        "city": "Siena, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Porta+del+Cielo+Duomo+di+Siena",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-01",
+        "title": "Climb Brunelleschi's Dome",
+        "description": "Squeeze through the 463-step passage between the two shells of the Duomo's dome for the best view in Florence.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Count the 463 steps out loud and toast the top with a selfie under the frescoes.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Cupola+del+Brunelleschi+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-07",
+        "title": "Climb Torre Guinigi and Its Rooftop Oaks",
+        "description": "Climb a medieval tower in Lucca that has holm oak trees growing on its roof.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Pick out the oval of Piazza dell'Anfiteatro from above and snap it.",
+        "city": "Lucca, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Torre+Guinigi+Lucca",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-12",
+        "title": "Hike up Costa San Giorgio to Forte di Belvedere",
+        "description": "Hike the steep medieval lane from Ponte Vecchio to the Medici star fort high above the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Continue down Via di San Leonardo between the olive-grove walls without checking your phone.",
+        "city": "Florence, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Forte+di+Belvedere+Florence",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "FLR-A-14",
+        "title": "Walk the Pisa City Walls",
+        "description": "Walk the restored 12th-century walkway on top of Pisa's medieval walls, looking down on the Field of Miracles.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Walk the stretch that looks down on Piazza dei Miracoli and grab an aerial-style photo of the tower.",
+        "city": "Pisa, Italy",
+        "mapsUrl": "https://maps.google.com/maps/search/Mura+di+Pisa+Pisa",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

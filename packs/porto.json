@@ -1,0 +1,1216 @@
+{
+  "id": "porto",
+  "name": "Porto",
+  "location": "Portugal",
+  "emoji": "🍇",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "OPO-CU-07",
+        "title": "Paço dos Duques de Bragança",
+        "description": "Walk the halls of a 15th century ducal palace with forest-like chimneys and tapestries in the town where Portugal was born.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Count the brick chimneys on the roof before you go in.",
+        "city": "Guimarães, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Paco+dos+Duques+de+Braganca+Guimaraes",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-CU-05",
+        "title": "Sé do Porto Cathedral and Cloister",
+        "description": "Explore Porto's fortress-like Romanesque cathedral and its tile-lined Gothic cloister on the city's highest hill.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Climb the tower stairs and spot Ponte Luis I from above.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Se+do+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-CU-04",
+        "title": "Azulejos at São Bento Station",
+        "description": "Stand in the grand atrium of a working train station wrapped in 20,000 blue and white tiles telling Portugal's history.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the panel showing the Battle of Valdevez and point it out to someone.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Estacao+de+Sao+Bento+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-CU-06",
+        "title": "Capela das Almas Tile Facade",
+        "description": "See an entire chapel clad in nearly 16,000 blue and white azulejos on busy Rua de Santa Catarina.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "20 min",
+        "durationMins": 20,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the panel of Saint Francis and take a photo of just one tile up close.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Capela+das+Almas+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-CU-02",
+        "title": "Livraria Lello",
+        "description": "Climb the carved crimson staircase of one of the world's most beautiful bookshops, open since 1906 under a stained glass skylight.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Book the first slot of the day and get a photo on the red staircase before it fills.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Livraria+Lello+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-CU-01",
+        "title": "Serralves Museum and Park",
+        "description": "Spend an afternoon between Alvaro Siza's white contemporary art museum, an Art Deco villa and 18 hectares of gardens with a treetop walk.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3-4 hrs",
+        "durationMins": 210,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Walk the treetop walkway and find the giant red garden trowel sculpture.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Serralves+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-CU-03",
+        "title": "Palácio da Bolsa Arab Room Tour",
+        "description": "Take the guided tour of Porto's 19th century stock exchange and finish in the jaw-dropping gilded Moorish Arab Room.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Stand in the middle of the Arab Room and look straight up for a full minute.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Palacio+da+Bolsa+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-CU-08",
+        "title": "Museu Nacional Soares dos Reis",
+        "description": "Explore Portugal's first public art museum in the Carrancas Palace, home to the sculptor Soares dos Reis's masterpieces.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find O Desterrado, the famous sculpture, and copy the pose.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Museu+Nacional+Soares+dos+Reis+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "OPO-S-12",
+        "title": "Terrace Tasting at Quinta do Bomfim",
+        "description": "Taste vintage ports on a vine-shaded terrace above the Douro in Pinhao after a walk through the estate's terraced vineyards and 1896 lodge.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask which year's vintage port you are tasting and find out what happened that year.",
+        "city": "Pinhão, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Quinta+do+Bomfim+Pinhao",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "OPO-S-11",
+        "title": "FC Porto Match at Estádio do Dragão",
+        "description": "Feel the roar of a FC Porto home game in the blue and white Dragao, one of Portugal's loudest stadiums.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Aug-May",
+        "spark": 25,
+        "bonus": "Learn one chant before kickoff and sing it with the crowd.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Estadio+do+Dragao+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-S-07",
+        "title": "Concert at Casa da Música",
+        "description": "See a show inside Rem Koolhaas's angular concert hall, one of the most striking music venues in Europe.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Take the building tour before the show and ask to see the azulejo room.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Casa+da+Musica+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-S-04",
+        "title": "Bookshop Cocktails at Café Candelabro",
+        "description": "Drink cocktails among shelves of old art and cinema books in a former bookshop, with vinyl spinning and the crowd spilling onto the street.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5-2 hrs",
+        "durationMins": 105,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pull a random book off the shelf and read the first line aloud to the table.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Candelabro+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "OPO-S-02",
+        "title": "Taylor's Port Cellars Tour and Tasting",
+        "description": "Walk centuries-old cellars on an audio tour and finish with Chip Dry, LBV and a 10-year tawny in a peacock-filled garden.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order a port tonic on the garden terrace and watch the peacocks.",
+        "city": "Vila Nova de Gaia, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Taylors+Port+Cellars+Vila+Nova+de+Gaia",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "OPO-S-10",
+        "title": "São João Festival Night in the Ribeira",
+        "description": "Join the whole city on the streets for Porto's biggest party, with grilled sardines, plastic hammers, basil pots and fireworks over the Douro.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "All night",
+        "durationMins": 480,
+        "time": "Evening",
+        "season": "Jun 23-24",
+        "spark": 40,
+        "bonus": "Buy a plastic hammer and bop at least ten strangers on the head, then watch the midnight fireworks.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Praca+da+Ribeira+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-S-01",
+        "title": "Port Tasting at Graham's Port Lodge",
+        "description": "Tour a working 1890 hilltop lodge stacked with oak barrels, then taste tawnies and vintage ports with a view over the Douro.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5-2 hrs",
+        "durationMins": 105,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Pick the tasting with the vintage port and toast to someone not at the table.",
+        "city": "Vila Nova de Gaia, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Grahams+Port+Lodge+Vila+Nova+de+Gaia",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "OPO-S-05",
+        "title": "Club Night at Maus Hábitos",
+        "description": "Ride the lift to a fourth-floor art space that turns into one of Porto's best club nights, with DJs, gigs and a rooftop over Passos Manuel.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3-4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Make it to the rooftop terrace and introduce yourself to one stranger.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Maus+Habitos+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "OPO-S-09",
+        "title": "Dance till Late at Plano B",
+        "description": "Dance in the techno basement or catch a live set upstairs at the downtown club celebrating its 20th year in 2026.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Stay until at least one track makes the whole room cheer.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Plano+B+Rua+de+Candido+dos+Reis+30+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "OPO-S-08",
+        "title": "Fado and Port at Casa da Guitarra",
+        "description": "Hear live fado in an intimate room by Ponte Luis I, with a singer, Portuguese guitar and a glass of port at the interval.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Learn the word saudade before you go and decide if you felt it.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Casa+da+Guitarra+Avenida+Vimara+Peres+49+Porto",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-S-06",
+        "title": "Gig at Hard Club",
+        "description": "Catch a concert inside the 19th century iron and glass Ferreira Borges market, now Porto's go-to mid-size music venue.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick a band you have never heard of and go anyway.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Hard+Club+Mercado+Ferreira+Borges+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-S-03",
+        "title": "Natural Wine Night at Prova",
+        "description": "Settle into a wine bar near the Ribeira where producers and sommeliers hang out, with a big by-the-glass list and cheese boards.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Tell the owner your budget and one wine you like, and let them pick your next glass.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Prova+Wine+Food+and+Pleasure+Porto",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "chill": [
+      {
+        "id": "OPO-C-03",
+        "title": "Picnic at Parque da Cidade do Porto",
+        "description": "Lay out a picnic in Portugal's largest urban park, with lakes, meadows and a path that ends at the Atlantic.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Apr-Oct",
+        "spark": 12,
+        "bonus": "Bring a blanket and walk all the way through to where the park meets the ocean.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+da+Cidade+do+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-C-06",
+        "title": "Wave Watching at Praia do Molhe",
+        "description": "Sit on the rocks at one of Foz's prettiest beaches and watch Atlantic waves roll in beside the white pergola.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Walk the Pergola da Foz end to end and pick your favorite house on the seafront.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Praia+do+Molhe+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-C-07",
+        "title": "Wander the Jardim Botânico do Porto",
+        "description": "Get lost in the quiet camellia walks, cactus beds and lakes of a 19th century estate garden that inspired Sophia de Mello Breyner.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the bench by the lake and read for 20 minutes without checking your phone.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardim+Botanico+do+Porto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "OPO-C-08",
+        "title": "Tea in the Garden at Rota do Chá",
+        "description": "Sink into low cushions in a hidden Moroccan-style garden and work through a tea menu longer than most novels.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick a tea blend you have never heard of from the 300-plus list.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Rota+do+Cha+Rua+de+Miguel+Bombarda+457+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-C-09",
+        "title": "Slow Afternoon in Jardim de Santa Bárbara",
+        "description": "Rest in Braga's postcard flower garden, bursting with blooms against the walls of the old Archbishop's Palace.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Mar-Jun",
+        "spark": 12,
+        "bonus": "Grab a coffee nearby and sit facing the medieval palace wall.",
+        "city": "Braga, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardim+de+Santa+Barbara+Braga",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "OPO-C-04",
+        "title": "Sunset at Miradouro da Vitória",
+        "description": "Catch the golden hour from a hidden viewpoint in the old Jewish quarter overlooking the Se, the river and the lodges of Gaia.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring a bottle of water and a pastry and stay until the city lights come on.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Miradouro+da+Vitoria+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-C-05",
+        "title": "Golden Hour at Jardim do Morro",
+        "description": "Join the crowd on the grassy slopes across the river for Porto's favorite sunset, with buskers and the Ribeira turning gold.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find a spot on the grass and clap with the crowd when the sun disappears.",
+        "city": "Vila Nova de Gaia, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardim+do+Morro+Vila+Nova+de+Gaia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-C-10",
+        "title": "Café Terrace at Largo da Oliveira",
+        "description": "Settle in at a terrace on Guimaraes's medieval main square, ringed by stone arcades and the Gothic shrine in front of Nossa Senhora da Oliveira.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the inscription on the Padrao do Salado shrine and guess what battle it marks.",
+        "city": "Guimarães, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Largo+da+Oliveira+Guimaraes",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-C-01",
+        "title": "Peacocks and Views at Jardins do Palácio de Cristal",
+        "description": "Stroll terraced romantic gardens full of roaming peacocks with sweeping viewpoints over the Douro.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find a peacock and get a photo with it fanning its tail.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardins+do+Palacio+de+Cristal+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-C-02",
+        "title": "Coffee under the Mirrors at Majestic Café",
+        "description": "Sip coffee in Porto's most beautiful Belle Epoque cafe, all carved wood, mirrors and leather, open since 1921.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Order a rabanada or a scone and write a postcard at your table.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Majestic+Cafe+Rua+de+Santa+Catarina+112+Porto",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "OPO-8B-01",
+        "title": "Find the Hidden House between Carmo and Carmelitas",
+        "description": "Hunt down the secret one-meter-wide house squeezed between two churches, built so the nuns and monks never shared a wall.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Tell no one where you are going, then show them the 1 meter wide house from inside.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Igreja+do+Carmo+Porto",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-8B-02",
+        "title": "Sunrise on the Boa Nova Rocks",
+        "description": "Scramble over the wild granite rocks around Siza's Boa Nova tea house and the lighthouse as the sun comes up over Leca da Palmeira.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Set an alarm, go at dawn without a plan, and stay until the lighthouse light switches off.",
+        "city": "Matosinhos, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Farol+da+Boa+Nova+Leca+da+Palmeira",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "OPO-F-04",
+        "title": "Sandes de Pernil at Casa Guedes",
+        "description": "Bite into slow-roasted pork shoulder piled into a crusty roll at the hole-in-the-wall that has been Porto's late-night favorite since 1987.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Get the version with melted Serra da Estrela cheese and eat it on the square outside.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Casa+Guedes+Praca+dos+Poveiros+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-01",
+        "title": "Francesinha at Café Santiago",
+        "description": "Tackle Porto's legendary meat-stacked, cheese-draped, beer-sauce-drenched sandwich at the cafe locals and visitors both swear by.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Order it with an egg on top and finish the whole thing, sauce included.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Santiago+Rua+de+Passos+Manuel+226+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-11",
+        "title": "Cachorrinho at Cervejaria Gazela",
+        "description": "Crunch into the crispy, cheesy, spicy little hot dog invented at this counter by Teatro Sao Joao in 1962, the one Bourdain came for.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order two cachorrinhos and an imperial, the classic combo, and eat at the counter.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Cervejaria+Gazela+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-02",
+        "title": "Bifana at Conga Casa das Bifanas",
+        "description": "Grab Porto's most famous pork sandwich, simmered in a secret garlic and paprika broth since 1976, for a couple of euros.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a second one with piri-piri and a mini beer, standing at the counter like a regular.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Conga+Casa+das+Bifanas+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-07",
+        "title": "Fish Market Morning at Mercado Municipal de Matosinhos",
+        "description": "Walk the loud, briny fish hall where Matosinhos's restaurants buy the catch of the day, then head for grilled fish nearby.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy fish at a stall and ask which nearby grill will cook it for you.",
+        "city": "Matosinhos, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Mercado+Municipal+de+Matosinhos",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-06",
+        "title": "Pastel de Nata at Manteigaria Porto",
+        "description": "Watch the bakers through the glass and grab a nata warm from the oven, crackly pastry and just-set custard, for about a euro.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "20 min",
+        "durationMins": 20,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat one warm at the counter and try it with cinnamon, then without, and pick a side.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Manteigaria+Rua+de+Alexandre+Braga+24+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-05",
+        "title": "Seafood Feast at O Gaveto",
+        "description": "Feast on barnacles, carabineiro prawns and seafood rice from live tanks at Matosinhos's old-school white-tablecloth institution.",
+        "rarity": "Common",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Order percebes and learn the twist-and-pull technique from your waiter.",
+        "city": "Matosinhos, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Restaurante+O+Gaveto+Matosinhos",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-10",
+        "title": "Tasting Menu at the Yeatman Restaurant",
+        "description": "Splurge on Ricardo Costa's two-Michelin-star tasting menu with the whole of old Porto glittering across the river from the dining room.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask the sommelier for one pairing you would never have picked yourself.",
+        "city": "Vila Nova de Gaia, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Yeatman+Vila+Nova+de+Gaia",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "OPO-F-09",
+        "title": "Frigideiras at Frigideiras do Cantinho",
+        "description": "Try Braga's minced-meat puff pastry pie at a cafe that has been baking them since 1796.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order a frigideira and a sweet tibia and eat both on the square.",
+        "city": "Braga, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Frigideiras+do+Cantinho+Braga",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-12",
+        "title": "Bola de Berlim at Padaria Ribeiro",
+        "description": "Grab a warm custard-filled Berlin doughnut at a bakery that traces its roots to 1878.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ask for the one fresh from the fryer and do not wipe the sugar off your face.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Padaria+Ribeiro+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-03",
+        "title": "Morning Graze at Mercado do Bolhão",
+        "description": "Wander Porto's grand restored 19th century market for cured ham, cheese, fresh fish and flowers, then eat your way around the stalls.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1-1.5 hrs",
+        "durationMins": 75,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Buy one thing from a vendor you cannot name and ask them how to eat it.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Mercado+do+Bolhao+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-F-08",
+        "title": "Ovos Moles at Confeitaria Peixinho",
+        "description": "Taste Aveiro's sweet egg-yolk confection in its wafer shells at the city's oldest bakery, founded in 1856.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "30 min",
+        "durationMins": 30,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Buy a little painted wooden barrel of ovos moles to take home.",
+        "city": "Aveiro, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Confeitaria+Peixinho+Aveiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "OPO-A-08",
+        "title": "Vintage Tram Line 1 from Infante to Foz",
+        "description": "Rattle along the Douro to the Atlantic on a century-old wooden tram, wind in your face, the river on one side and the old fishing quarter on the other.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-1.5 hrs",
+        "durationMins": 75,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit at the front window and get off at a random stop before Passeio Alegre.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Electrico+Linha+1+Infante+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-01",
+        "title": "Walk the Upper Deck of Ponte Luís I",
+        "description": "Cross the top tier of Eiffel-era iron 45 meters above the Douro with metro trains gliding past and the whole Ribeira glowing below.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45-60 min",
+        "durationMins": 50,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stop dead center and wave at a passing metro driver until they wave back.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Ponte+Luis+I+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-15",
+        "title": "Swim at Piscina das Marés in Leça da Palmeira",
+        "description": "Swim in Alvaro Siza's legendary saltwater pools carved into the rocks at the edge of the Atlantic, a concrete and stone icon of modern architecture.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Jun-Sep",
+        "spark": 14,
+        "bonus": "Jump into the ocean side pool first, cold water and all, before you touch the sun lounger.",
+        "city": "Matosinhos, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Piscina+das+Mares+Leca+da+Palmeira",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-06",
+        "title": "Ride the Teleférico de Gaia",
+        "description": "Float over the port lodge rooftops in a glass gondola from the riverside up to Jardim do Morro with the whole Ribeira laid out across the water.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "15 min",
+        "durationMins": 15,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Snap a photo of the port lodge rooftops with the brand names spelled out on them.",
+        "city": "Vila Nova de Gaia, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Teleferico+de+Gaia+Vila+Nova+de+Gaia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-04",
+        "title": "Surf Lesson with Surfing Life Club at Matosinhos Beach",
+        "description": "Paddle into the friendly beach break at Matosinhos with an instructor, all gear included, and finally earn the right to say you surf.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5-2 hrs",
+        "durationMins": 105,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Stand up on at least one wave, then reward yourself with grilled sardines on Rua Herois de Franca.",
+        "city": "Matosinhos, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Surfing+Life+Club+Matosinhos",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-09",
+        "title": "Walk the Felgueiras Lighthouse Pier at Foz",
+        "description": "Walk out the breakwater to the little Felgueiras lighthouse where Atlantic swells explode against the pier, especially on a stormy winter afternoon.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Oct-Mar",
+        "spark": 12,
+        "bonus": "Stand at a safe distance and film the biggest wave you see break over the lighthouse.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Farolim+de+Felgueiras+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-13",
+        "title": "Climb the Bom Jesus do Monte Stairway",
+        "description": "Zigzag up a dramatic baroque staircase of fountains and chapels to a UNESCO-listed sanctuary high above Braga.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Walk all 573 steps up and take the 1882 water-powered funicular down.",
+        "city": "Braga, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Bom+Jesus+do+Monte+Braga",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-02",
+        "title": "Climb the Torre dos Clérigos",
+        "description": "Wind up 240 narrow stone steps of Porto's baroque bell tower for a 360 view of terracotta roofs, the river and the sea beyond.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Count the steps out loud on the way up and see who in your crew gets closest to the real number.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Torre+dos+Clerigos+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-14",
+        "title": "Moliceiro Canal Cruise with Viva a Ria",
+        "description": "Glide through Aveiro's canals on a brightly painted moliceiro boat, past Art Nouveau facades and under little humpback bridges.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "45 min",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Add the on-board ovos moles tasting and get the boatman to tell you what the painted panels mean.",
+        "city": "Aveiro, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Viva+a+Ria+Aveiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-07",
+        "title": "Ride the Funicular dos Guindais",
+        "description": "Drop down the old city wall in a steep little funicular from Batalha to the Ribeira riverfront in under three minutes.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "10 min",
+        "durationMins": 10,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ride it down, then walk the Escadas dos Guindais back up and time yourself.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Funicular+dos+Guindais+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-03",
+        "title": "Porto Bridge Climb on the Arrábida Bridge",
+        "description": "Clip into a harness and climb 262 steps up the arch of the Arrabida Bridge to stand 65 meters over the spot where the Douro meets the Atlantic.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "At the top of the arch, shout one thing you want to do before you leave Porto.",
+        "city": "Porto, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Porto+Bridge+Climb+Porto",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-10",
+        "title": "Linha do Douro Train from São Bento to Pinhão",
+        "description": "Ride one of Europe's most scenic rail lines from Porto into the terraced vineyards of the Douro Valley, hugging the river all the way to Pinhao's tiled station.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Grab a window on the right side after Regua and do not look at your phone for the river stretch.",
+        "city": "Pinhão, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Estacao+de+Pinhao+Pinhao",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-11",
+        "title": "Sunrise at Miradouro de São Leonardo de Galafura",
+        "description": "Drive up above Peso da Regua for the most famous viewpoint in the Douro, where the river snakes through endless terraced vineyards below you.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Read the Miguel Torga poem on the stone plaque out loud to the valley.",
+        "city": "Peso da Régua, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Miradouro+de+Sao+Leonardo+de+Galafura+Peso+da+Regua",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-12",
+        "title": "Hike Monte da Penha to the Penha Sanctuary",
+        "description": "Trek up the granite hill above Guimaraes through boulder fields and pine forest to a hilltop sanctuary with views over the whole Minho.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find a boulder you can scramble on top of and take the group photo from there.",
+        "city": "Guimarães, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Santuario+da+Penha+Guimaraes",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-05",
+        "title": "Six Bridges Rabelo Cruise with Rota do Douro",
+        "description": "Board a traditional rabelo boat at the Gaia quay and cruise under all six Douro bridges, from Arrabida's arch to Eiffel's Maria Pia.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 50,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Name every bridge out loud before the guide does.",
+        "city": "Vila Nova de Gaia, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Rota+do+Douro+Cais+de+Gaia+Vila+Nova+de+Gaia",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "OPO-A-16",
+        "title": "Climb to the Serra do Pilar Viewpoint",
+        "description": "Hike up from the Gaia riverbank to the round monastery terrace that frames the best postcard view of Ponte Luis I and old Porto.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Get there 20 minutes before sunset and claim the wall spot on the monastery terrace.",
+        "city": "Vila Nova de Gaia, Portugal",
+        "mapsUrl": "https://maps.google.com/maps/search/Mosteiro+da+Serra+do+Pilar+Vila+Nova+de+Gaia",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

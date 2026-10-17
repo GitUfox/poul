@@ -1,0 +1,1214 @@
+{
+  "id": "rio-de-janeiro",
+  "name": "Rio de Janeiro",
+  "location": "Brazil",
+  "emoji": "🗿",
+  "isDefault": false,
+  "cards": {
+    "chill": [
+      {
+        "id": "RIO-C-10",
+        "title": "Parque da Cidade Niterói Lookout",
+        "description": "Watch the paragliders launch from the hilltop park in Niterói and see the sun set over Rio's whole skyline across the bay.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Time how many paragliders take off before the sun goes down.",
+        "city": "Niterói, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+da+Cidade+Niteroi",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-C-02",
+        "title": "Arpoador Sunset Applause",
+        "description": "Sit on the warm rock at Arpoador as the sun drops behind Dois Irmãos and join the crowd that applauds every single sunset.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Start the applause yourself the moment the sun disappears.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Pedra+do+Arpoador+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-C-01",
+        "title": "Jardim Botânico Palm Avenue",
+        "description": "Wander the 1808 botanical garden's avenue of royal palms, the orchid house and the Japanese garden while toucans call from the canopy.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Find a giant Victoria water lily pad and photograph it next to your hand.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardim+Botanico+do+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-C-09",
+        "title": "Mureta da Urca Sunset",
+        "description": "Sit on the low sea wall in Urca with your feet over the water and watch the sun set behind Christ the Redeemer with half of Rio.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Strike up a conversation with whoever is sitting closest to you.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Mureta+da+Urca+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-C-04",
+        "title": "Mirante Dona Marta Viewpoint",
+        "description": "Drive up to the quiet lookout at eye level with Sugarloaf and Christ for the postcard view without the crowds.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Sketch the skyline in five minutes, no erasing.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Mirante+Dona+Marta+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-C-08",
+        "title": "Quinta da Boa Vista Picnic",
+        "description": "Spread a blanket on the lawns of the old imperial park in São Cristóvão, with its lake, grottoes and the rebuilt palace of the Museu Nacional.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Bring only Brazilian snacks you bought from a street vendor on the way.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Quinta+da+Boa+Vista+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-C-07",
+        "title": "Parque das Ruínas Santa Teresa",
+        "description": "Climb the steel walkways inside the ruined mansion of a Belle Époque arts patron for a free 360 degree view over the bay.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ride the yellow Santa Teresa tram for at least one stop on the way.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+das+Ruinas+Santa+Teresa+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-C-06",
+        "title": "Praia Vermelha Morning Swim",
+        "description": "Float in the calm, sheltered water of the little red sand beach tucked directly under Sugarloaf before the city wakes up.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 12,
+        "bonus": "Swim out far enough to see the cable car pass overhead.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Praia+Vermelha+Urca+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-C-05",
+        "title": "Ferry to Ilha de Paquetá",
+        "description": "Take the slow ferry from Praça XV across Guanabara Bay to a car free island of bicycles, old mansions and sleepy beaches.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Rent a bike and find the Pedra da Moreninha lookout before the return ferry.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Ilha+de+Paqueta+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-C-03",
+        "title": "Parque Lage Courtyard Morning",
+        "description": "Have breakfast beside the pool of the 1920s mansion courtyard, with Christ the Redeemer peering down through the jungle above.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Take the classic courtyard photo framed with Christ in the shot.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Parque+Lage+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "RIO-F-09",
+        "title": "Esfihas at Rotisseria Sírio Libaneza",
+        "description": "Squeeze into the noisy Largo do Machado gallery spot serving what many call the best esfiha in Rio since 1968.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Eat one of each of the four esfiha flavours and rank them.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Rotisseria+Sirio+Libaneza+Largo+do+Machado+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-12",
+        "title": "Bolinhos at Bar Urca",
+        "description": "Order seafood empadas and bolinhos de bacalhau from the 1939 corner bar and eat them on the sea wall across the street.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Share a bolinho with the person sitting next to you on the wall.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+Urca+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-06",
+        "title": "CADEG Saturday Lunch",
+        "description": "Join cariocas for a Portuguese bacalhau lunch and cold beer among the flower stalls of Rio's municipal market in Benfica.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy a bunch of flowers from the market and give it to someone on the way home.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/CADEG+Mercado+Municipal+Benfica+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-11",
+        "title": "Cervantes Pernil and Pineapple Sandwich",
+        "description": "Grab the legendary roast pork and pineapple sandwich at the 1955 Copacabana institution that feeds night owls until the early hours.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order it at the counter in Portuguese without pointing.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Cervantes+Copacabana+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-05",
+        "title": "Feira de São Cristóvão",
+        "description": "Eat carne de sol, tapioca and baião de dois in the huge northeastern Brazil fair, then stay for forró on the stages until late.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Dance one full forró song with a stranger who offers to teach you.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Centro+Luiz+Gonzaga+de+Tradicoes+Nordestinas+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-07",
+        "title": "Galeto Sat's Late Night Galeto",
+        "description": "End a night out at the counter of Copacabana's heritage galeto bar for crispy grilled spring chicken with garlic sauce, served until dawn.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Try all three sauces, lemon, orange and garlic, and crown a winner.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Galeto+Sats+Copacabana+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-08",
+        "title": "Lunch on the Terrace at Aprazível",
+        "description": "Eat moqueca and Amazon fish in a treehouse style garden high in Santa Teresa with the whole bay of Guanabara laid out below.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Order the one dish on the menu with an ingredient you have never heard of.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Aprazivel+Santa+Teresa+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-10",
+        "title": "Cabrito at Nova Capela",
+        "description": "Share the famous roast goat with broccoli rice and cod fritters at the century old Lapa tavern where the waiters have seen it all.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Ask your waiter how long he has worked there and toast to the answer.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Nova+Capela+Lapa+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-02",
+        "title": "Feijoada at Bar do Mineiro",
+        "description": "Ride up to Santa Teresa for a Saturday feijoada and pastéis de feijão at the bohemian corner bar locals have loved since 1992.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Finish the feijoada with a caipirinha and a slice of orange, the proper carioca way.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Bar+do+Mineiro+Santa+Teresa+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-04",
+        "title": "Adega Pérola Petiscos",
+        "description": "Point at the glass counter full of octopus, sardines and marinated peppers in this 1957 Portuguese tavern and build a feast of small plates.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order three plates you have never tried, chosen only by pointing.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Adega+Perola+Copacabana+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-03",
+        "title": "Churrascaria Palace Rodízio",
+        "description": "Flip your card to green at the 1951 Copacabana steakhouse that invented the butterfly picanha and let the skewers keep coming.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Try one cut you have never heard of before you allow yourself any picanha.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Churrascaria+Palace+Copacabana+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-F-01",
+        "title": "Confeitaria Colombo",
+        "description": "Take afternoon tea under the Belle Époque mirrors and stained glass skylight of the café that has served Rio since 1894.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Order a pastry you cannot pronounce and ask the waiter to teach you the name.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Confeitaria+Colombo+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "RIO-S-01",
+        "title": "Roda de Samba at Pedra do Sal",
+        "description": "Squeeze into the crowd around the musicians on the historic stone steps where samba was born and sing along under the stars.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Learn the chorus of one song and sing it back to the band.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Pedra+do+Sal+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-S-02",
+        "title": "Live Samba at Rio Scenarium",
+        "description": "Dance samba and gafieira on three floors of antiques in Lapa's most famous music house, with live bands playing until late.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Accept the first dance invitation you get, no excuses.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Rio+Scenarium+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RIO-S-05",
+        "title": "Chopp at Bracarense",
+        "description": "Stand on the Leblon sidewalk after the beach with an ice cold chopp and the famous shrimp and catupiry bolinhos at this 1961 boteco.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order your next chopp in Portuguese and ask for it bem gelado.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Bracarense+Leblon+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RIO-S-08",
+        "title": "Patanisca at Pavão Azul",
+        "description": "Grab a plastic chair on the sidewalk at Copacabana's favourite boteco for cold chopp and the famous cod patanisca.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Invite the next table to share a round of pataniscas.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Pavao+Azul+Copacabana+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RIO-S-03",
+        "title": "Match Day at Maracanã",
+        "description": "Join 70,000 singing fans for Flamengo or Fluminense at the most famous football stadium on the planet.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Jan–Dec",
+        "spark": 27,
+        "bonus": "Learn one terrace chant before kickoff and sing it with the fans around you.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Estadio+do+Maracana+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-S-11",
+        "title": "Feira do Rio Antigo on Rua do Lavradio",
+        "description": "Browse antiques, vinyl and street food at the monthly Saturday fair that fills Rua do Lavradio with live choro and samba.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy one vintage object under 10 USD and invent a story about who owned it.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Rua+do+Lavradio+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-S-10",
+        "title": "Concert at Circo Voador",
+        "description": "See a Brazilian band under the iconic circus tent beneath the Lapa Arches, the stage that launched a generation of Rio rock and samba.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Buy a ticket to an artist you have never heard of.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Circo+Voador+Lapa+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-S-07",
+        "title": "Samba do Trabalhador Monday Roda",
+        "description": "Spend a Monday afternoon at Clube Renascença where Moacyr Luz leads the roda that samba musicians made their own on their day off.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Skip your phone for the whole first set and just listen.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Renascenca+Clube+Andarai+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-S-04",
+        "title": "Mangueira Samba School Rehearsal",
+        "description": "Feel the bateria shake your ribs at a pre-Carnival rehearsal in the green and pink quadra of Estação Primeira de Mangueira.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Sep–Feb",
+        "spark": 26,
+        "bonus": "Learn the chorus of this year's samba enredo and sing it with the community.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Quadra+da+Mangueira+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-S-06",
+        "title": "Samba Night at Carioca da Gema",
+        "description": "Catch live samba in the intimate Lapa house where legends like Beth Carvalho and Zeca Pagodinho have played.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Get up and dance by the stage for the whole last song.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Carioca+da+Gema+Lapa+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RIO-S-09",
+        "title": "Carnival Street Bloco Cordão da Bola Preta",
+        "description": "Put on black and white polka dots and march through Centro with hundreds of thousands of revellers in Rio's oldest Carnival street bloco.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Feb–Mar",
+        "spark": 40,
+        "bonus": "Wear a full polka dot outfit and swap one accessory with a stranger.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Cordao+da+Bola+Preta+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-S-12",
+        "title": "Footvolley Pickup at Posto 9",
+        "description": "Hang out at Ipanema's liveliest beach stretch, watch the footvolley players and get yourself into a game before sunset.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask a group to let you play one point, then buy them a round of mate.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Posto+9+Ipanema+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "id": "RIO-CU-08",
+        "title": "Instituto Moreira Salles Gávea",
+        "description": "See photography and music archives in a modernist house wrapped in a Burle Marx garden at the foot of the forest in Gávea.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the Burle Marx tile mural in the garden and sit by the pool for ten quiet minutes.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Instituto+Moreira+Salles+Gavea+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-CU-02",
+        "title": "Theatro Municipal Guided Tour",
+        "description": "Step inside the gilded 1909 opera house on Cinelândia and see its marble staircase, mosaics and the Assyrian salon in the basement.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Come back for a cheap ballet or opera ticket in the upper gallery within the month.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Theatro+Municipal+do+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-CU-01",
+        "title": "Museu do Amanhã",
+        "description": "Explore Santiago Calatrava's white skeleton of a building on the Porto Maravilha waterfront and its immersive exhibits about the future of the planet.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2.5 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Walk the Boulevard Olímpico afterwards and find the giant Kobra mural.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Museu+do+Amanha+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-CU-07",
+        "title": "Christ the Redeemer at Opening Time",
+        "description": "Take the first cog train up Corcovado and meet the 30 m statue of Cristo Redentor before the crowds, with the whole city waking up below.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Do the open arms photo, then turn around and take one of the view only, no people.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Cristo+Redentor+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-CU-06",
+        "title": "Museu Imperial Petrópolis",
+        "description": "Head up into the cool mountains to Emperor Pedro II's summer palace, slide around in felt slippers and see the imperial crown jewels.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Walk to the Palácio de Cristal afterwards and buy a local chocolate on the way.",
+        "city": "Petrópolis, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Museu+Imperial+Petropolis",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-CU-05",
+        "title": "MAC Niterói",
+        "description": "Take the ferry across the bay to Oscar Niemeyer's flying saucer museum perched on a cliff, with the best view back at Rio.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Recreate the flying saucer pose on the red ramp and take the photo from below.",
+        "city": "Niterói, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Museu+de+Arte+Contemporanea+de+Niteroi",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-CU-04",
+        "title": "Real Gabinete Português de Leitura",
+        "description": "Stand in silence inside the neo-Manueline reading room stacked floor to ceiling with 350,000 books under a stained glass skylight.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "45 mins",
+        "durationMins": 45,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the oldest looking book on a lower shelf and photograph only its spine.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Real+Gabinete+Portugues+de+Leitura+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-CU-03",
+        "title": "Escadaria Selarón",
+        "description": "Climb the 215 steps covered in over 2,000 tiles from around the world that the artist Jorge Selarón spent two decades laying.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find a tile from your home country and take a photo with it.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Escadaria+Selaron+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "RIO-8B-01",
+        "title": "Feira Hippie de Ipanema Wildcard",
+        "description": "Go to the Sunday hippie fair in Praça General Osório with 50 reais, let a coin flip decide every turn, and come home with whatever fate picks.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Spend the whole 50 reais and give one item to the first person who compliments it.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Praca+General+Osorio+Ipanema+Rio+de+Janeiro",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-8B-02",
+        "title": "SAARA Market Wildcard",
+        "description": "Dive into the maze of SAARA's crowded streets in Centro and assemble a full Carnival costume in under an hour for less than 100 reais.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Wear the costume to dinner that same night.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/SAARA+Rua+da+Alfandega+Rio+de+Janeiro",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "RIO-A-08",
+        "title": "Pico do Papagaio Hike",
+        "description": "Take on Ilha Grande's toughest trail to the parrot shaped peak at 982 m and watch the whole bay of islands spread out below.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "6–7 hrs",
+        "durationMins": 390,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 26,
+        "bonus": "Start early enough to catch the sunrise from the summit, or swim at Abraão the second you get back.",
+        "city": "Angra dos Reis, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Pico+do+Papagaio+Ilha+Grande+Angra+dos+Reis",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-06",
+        "title": "Pico da Tijuca Summit Hike",
+        "description": "Climb the carved stone steps to the highest point of Tijuca Forest at 1,022 m and look over both sides of the city at once.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Count the carved steps on the final staircase and post the number.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Pico+da+Tijuca+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-13",
+        "title": "Guided Rock Climb Up Sugarloaf",
+        "description": "Rope up with a certified guide on one of the classic routes up Pão de Açúcar and earn the view that everyone else buys a cable car ticket for.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "May–Oct",
+        "spark": 28,
+        "bonus": "Ride the cable car down and tell a stranger in the cabin how you got up.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Pao+de+Acucar+Urca+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-15",
+        "title": "Lagoa Rodrigo de Freitas Bike Loop",
+        "description": "Grab a shared bike and ride the 7.5 km path around the lagoon with Corcovado above you and Dois Irmãos glowing at the far end.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Beat your first lap time on a second lap.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Lagoa+Rodrigo+de+Freitas+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-11",
+        "title": "Pedra do Telégrafo Photo Hike",
+        "description": "Hike up in Barra de Guaratiba to the famous ledge where a clever camera angle makes you look like you are hanging off a cliff above the sea.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pull off the hanging photo in one take, no retakes allowed.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Pedra+do+Telegrafo+Barra+de+Guaratiba+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-01",
+        "title": "Pedra da Gávea Summit Scramble",
+        "description": "Climb the giant granite head of Tijuca National Park, scramble up the Carrasqueira rock face and stand 844 m above the Atlantic with all of Rio at your feet.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "6–7 hrs",
+        "durationMins": 390,
+        "time": "Morning",
+        "season": "Apr–Oct",
+        "spark": 40,
+        "bonus": "Eat your summit snack sitting on the edge of the stone face and take one photo looking straight down at São Conrado.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Pedra+da+Gavea+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-04",
+        "title": "Morro da Urca Trail via Pista Cláudio Coutinho",
+        "description": "Walk the seaside path where marmosets hang in the trees, then climb the forest trail to the Morro da Urca lookout facing Sugarloaf.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Spot a marmoset on the path and photograph it without using zoom.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Pista+Claudio+Coutinho+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-14",
+        "title": "Grumari and Prainha Wild Beach Day",
+        "description": "Head past Recreio to the protected coast where Prainha's surf and Grumari's red sand beaches have no buildings, just forest and waves.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 13,
+        "bonus": "Bodysurf one wave all the way to the sand at Prainha.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Praia+de+Grumari+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-02",
+        "title": "Morro Dois Irmãos Sunrise Hike",
+        "description": "Ride a moto-taxi up through Vidigal, then hike to the twin peaks for the best sunrise view of Ipanema, Leblon and Lagoa in the whole city.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Buy a coffee from a Vidigal stall on the way down and ask the owner for their favourite spot in the favela.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Morro+Dois+Irmaos+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-12",
+        "title": "Morro da Babilônia Trail",
+        "description": "Walk up through the Chapéu Mangueira community into the reforested hill between Leme and Urca for a quiet view over Copacabana's full curve.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask a local on the way up for the name of the best bar in the community and go there after.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Morro+da+Babilonia+Leme+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-07",
+        "title": "Lopes Mendes Beach Trail",
+        "description": "Hike through the jungle of Ilha Grande from Abraão to Lopes Mendes, the powder white surf beach many call the most beautiful in Brazil.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 15,
+        "bonus": "Squeak the sand with your feet and film it as proof it really sings.",
+        "city": "Angra dos Reis, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Praia+de+Lopes+Mendes+Ilha+Grande+Angra+dos+Reis",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-03",
+        "title": "Tandem Hang Gliding from Pedra Bonita",
+        "description": "Run off the Pedra Bonita ramp with a certified pilot and glide over the rainforest for ten minutes before landing on the sand at São Conrado.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2.5–3 hrs",
+        "durationMins": 165,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Let go of the bar for three seconds mid-flight and shout your name over the ocean.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Rampa+de+Voo+Livre+Pedra+Bonita+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-05",
+        "title": "Parque Lage to Corcovado Trail",
+        "description": "Hike straight up through the Atlantic forest from Parque Lage, using chains on the steep bits, and arrive under the feet of Christ the Redeemer on your own legs.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Morning",
+        "season": "Apr–Nov",
+        "spark": 25,
+        "bonus": "Fill your bottle at the trail stream and drink it at the top while everyone else arrives by train.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Trilha+Parque+Lage+Corcovado+Rio+de+Janeiro",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-09",
+        "title": "Castelos do Açu Trail",
+        "description": "Climb into the Serra dos Órgãos above Petrópolis to the strange stone castles of Açu at over 2,000 m, with Rio's bay glittering far below.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "8–9 hrs",
+        "durationMins": 510,
+        "time": "Morning",
+        "season": "May–Sep",
+        "spark": 27,
+        "bonus": "Find the castle rock that looks most like a face and name it.",
+        "city": "Petrópolis, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Castelos+do+Acu+Petropolis",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-10",
+        "title": "Costão de Itacoatiara Hike",
+        "description": "Cross the bay to Niterói and climb the rope assisted Costão for a view back across the ocean to Rio's skyline and Sugarloaf.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Jump into the waves at Praia de Itacoatiara right after you come down.",
+        "city": "Niterói, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Costao+de+Itacoatiara+Niteroi",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RIO-A-16",
+        "title": "Forte Duque de Caxias Leme Trail",
+        "description": "Climb the cobbled army road through forest to the old fort on top of Morro do Leme, the best free look straight down Copacabana beach.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1.5 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the cannon with the best view and take a photo aiming it at Copacabana.",
+        "city": "Rio de Janeiro, Brazil",
+        "mapsUrl": "https://maps.google.com/maps/search/Forte+Duque+de+Caxias+Leme+Rio+de+Janeiro",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

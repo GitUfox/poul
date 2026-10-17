@@ -1,0 +1,1196 @@
+{
+  "id": "cape-town",
+  "name": "Cape Town",
+  "location": "South Africa",
+  "emoji": "🐧",
+  "isDefault": false,
+  "cards": {
+    "culture": [
+      {
+        "id": "CPT-CU-04",
+        "title": "Bo-Kaap Museum and Wale Street Colours",
+        "description": "Learn the Cape Malay story inside an 18th century house, then wander the brightly painted cobbled streets outside.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Photograph a door in every colour of the rainbow.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Bo-Kaap+Museum+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-CU-08",
+        "title": "Baxter Theatre Night",
+        "description": "Catch new South African drama or comedy at the landmark theatre complex beneath the university in Rondebosch.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Pick the show by its poster alone without reading any reviews.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Baxter+Theatre+Centre+Rondebosch+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-CU-05",
+        "title": "Castle of Good Hope",
+        "description": "Explore the star-shaped fort built in the 1660s, the oldest surviving colonial building in South Africa.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the full ramparts and find the bell tower entrance.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Castle+of+Good+Hope+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-CU-03",
+        "title": "District Six Museum",
+        "description": "Walk across a floor map of a neighbourhood erased by apartheid and read the names former residents wrote on it.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find a street name on the floor map and then go stand on that street today.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/District+Six+Museum+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-CU-01",
+        "title": "Robben Island Museum Ferry Tour",
+        "description": "Cross Table Bay to the island prison where Nelson Mandela spent 18 years and hear its story from a former political prisoner.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "3.5–4 hrs",
+        "durationMins": 225,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask your guide one question about life on the island that is not in the brochure.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Robben+Island+Museum+Nelson+Mandela+Gateway+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-CU-06",
+        "title": "Norval Foundation Sculpture Garden",
+        "description": "See modern South African art in airy galleries, then walk a sculpture garden that runs into a wetland below the mountains.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Sketch one sculpture in under two minutes, no matter how bad it looks.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Norval+Foundation+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-CU-02",
+        "title": "Zeitz MOCAA at the Silo District",
+        "description": "Explore contemporary African art inside a former grain silo carved into a cathedral of light.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 23,
+        "bonus": "Pick the one artwork you would hang at home and explain why to someone.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Zeitz+MOCAA+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-CU-07",
+        "title": "Guga S'Thebe Arts and Culture Centre in Langa",
+        "description": "Visit the mosaic-covered community arts centre in Cape Town's oldest township and meet the potters and artists at work.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Buy one handmade piece directly from the artist who made it.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Guga+S'Thebe+Langa+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "CPT-S-11",
+        "title": "Stormers Rugby at DHL Stadium",
+        "description": "Pull on blue and white and roar for the Stormers in a World Cup stadium with Signal Hill as the backdrop.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Any",
+        "season": "Sep–Jun",
+        "spark": 25,
+        "bonus": "Learn one Stormers chant before kickoff and lead it at least once.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/DHL+Stadium+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-S-07",
+        "title": "The Gin Bar Hidden Courtyard on Wale Street",
+        "description": "Walk through a chocolate café into a secret courtyard bar pouring South African craft gin cocktails.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the gin cocktail with the strangest botanical and guess every ingredient.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Gin+Bar+Wale+Street+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CPT-S-10",
+        "title": "Green Point Parkrun",
+        "description": "Join hundreds of locals for a free, timed 5km Saturday run past the stadium and along the Atlantic seafront.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "High five three strangers at the finish and invite one to coffee.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Green+Point+Park+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-S-05",
+        "title": "Devil's Peak Brewing Taproom Session",
+        "description": "Drink limited-release craft beers straight from the brewery that helped start Cape Town's craft beer boom.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a tasting flight and rank the beers blind.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Devil's+Peak+Taproom+Salt+River+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CPT-S-06",
+        "title": "Café Caprice Sundowners in Camps Bay",
+        "description": "Grab a table on Victoria Road for cocktails as the sun sets behind the palms and the DJ turns it up.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Nov–Apr",
+        "spark": 23,
+        "bonus": "Toast the exact moment the sun touches the horizon.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Café+Caprice+Camps+Bay+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CPT-S-09",
+        "title": "Mama Africa Marimba Night on Long Street",
+        "description": "Eat game meat and dance to a live marimba band at a Long Street restaurant that has been a party since the 1990s.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Order the dish with the animal you have never tried.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Mama+Africa+Restaurant+Long+Street+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-S-04",
+        "title": "Asoka Cocktails on Kloof Street",
+        "description": "Order cocktails and small plates in a candlelit courtyard built around an olive tree, then stay for the DJ.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask the bartender to make you something off menu based on your favourite fruit.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Asoka+Kloof+Street+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CPT-S-08",
+        "title": "Spier Wine Farm Tasting and Picnic",
+        "description": "Taste wines beside the dam at a 1692 Stellenbosch farm and stretch out with a picnic under the oaks.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Try the chocolate and wine pairing and vote on the best match.",
+        "city": "Stellenbosch, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Spier+Wine+Farm+Stellenbosch",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CPT-S-12",
+        "title": "Banana Jam Cafe Craft Beer Night",
+        "description": "Work through 30 taps and Caribbean food at the Kenilworth brewpub that brought craft beer to Cape Town.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the beer with the weirdest name on the board without reading the description.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Banana+Jam+Cafe+Kenilworth+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CPT-S-03",
+        "title": "Kloof Street House Garden Dinner",
+        "description": "Dine under fairy lights in the garden of a quirky Victorian house packed with chandeliers and eclectic art.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Order a cocktail you have never heard of and share a sip around the table.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Kloof+Street+House+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-S-01",
+        "title": "Franschhoek Wine Tram Day",
+        "description": "Hop on and off a vintage-style tram through the Franschhoek valley, stopping at wine estates for tastings and lunch.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "6–8 hrs",
+        "durationMins": 420,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 27,
+        "bonus": "Let a different friend choose the next estate at every stop.",
+        "city": "Franschhoek, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Franschhoek+Wine+Tram+Franschhoek",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "CPT-S-02",
+        "title": "Groot Constantia Wine Tasting",
+        "description": "Taste wines at South Africa's oldest wine estate, founded in 1685, among Cape Dutch gables and old oaks.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Each person picks a favourite and defends it in one sentence.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Groot+Constantia+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "8ball": [
+      {
+        "id": "CPT-8B-01",
+        "title": "Greenmarket Square Wildcard Dare",
+        "description": "Head to the cobbled market square in the heart of the CBD and let the traders decide what your afternoon becomes.",
+        "rarity": "Legendary",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask a trader to pick a gift for someone in your life for under R100, buy whatever they choose and deliver it today.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Greenmarket+Square+Cape+Town",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-8B-02",
+        "title": "Long Street Coin Flip Night",
+        "description": "Start at the top of Long Street and let a coin decide every turn, door and order until the night ends.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "2–4 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Flip at every block, heads means go inside the nearest open spot, tails means talk to the next person you pass.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Long+Street+Cape+Town",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "CPT-A-07",
+        "title": "Kayak Cape Town Penguin Paddle",
+        "description": "Paddle a double kayak from Simon's Town past the naval harbour to see the Boulders penguins from the water.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Name the first penguin you see and give it a backstory before you turn back.",
+        "city": "Simon's Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Kayak+Cape+Town+Simon's+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-05",
+        "title": "Hi5 Paragliding Tandem Flight Off Signal Hill",
+        "description": "Run off Signal Hill strapped to a pilot and glide over Sea Point and the Atlantic before landing on the promenade.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Shout the name of one person you are grateful for the moment your feet leave the ground.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Hi5+Paragliding+Signal+Hill+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-02",
+        "title": "Platteklip Gorge Climb Up Table Mountain",
+        "description": "Earn the view by climbing the steep, direct gorge route to the top of Table Mountain instead of taking the cable car.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 24,
+        "bonus": "Count every switchback on the way up and announce the total at the summit.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Platteklip+Gorge+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-16",
+        "title": "Kasteelspoort Hike Up Table Mountain",
+        "description": "Climb the back of Table Mountain from Camps Bay to the famous diving board rock above the Twelve Apostles.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 14,
+        "bonus": "Pose on the diving board rock, safely seated, and send the photo to someone who has never been to Cape Town.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Kasteelspoort+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-11",
+        "title": "Abseil Africa Table Mountain Abseil",
+        "description": "Lean back over the edge near the upper cable station and drop 112 metres down the face of Table Mountain.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 28,
+        "bonus": "Stop halfway down, let go of the view for a second and wave at the cable car going past.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Abseil+Africa+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-06",
+        "title": "Southern Right Charters Whale Watching in Hermanus",
+        "description": "Board a catamaran out of Hermanus New Harbour and get close to southern right whales breaching in Walker Bay.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Jun–Dec",
+        "spark": 40,
+        "bonus": "Learn the difference between a breach and a lobtail from the guide and call out the next one you see.",
+        "city": "Hermanus, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Southern+Right+Charters+Hermanus",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-08",
+        "title": "Downhill Adventures Sandboarding at Atlantis Dunes",
+        "description": "Strap into a sandboard and carve down towering white dunes outside the city with the operator that pioneered the sport here.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "5 hrs",
+        "durationMins": 300,
+        "time": "Morning",
+        "season": "Oct–Mar",
+        "spark": 24,
+        "bonus": "Try one run lying down on your stomach and race your crew to the bottom.",
+        "city": "Atlantis, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Downhill+Adventures+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-15",
+        "title": "Jonkershoek Nature Reserve Waterfall Hike",
+        "description": "Trade the city for a quiet valley outside Stellenbosch and hike to waterfalls between steep mountain walls.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stand under the spray of the falls for a full ten seconds.",
+        "city": "Stellenbosch, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Jonkershoek+Nature+Reserve+Stellenbosch",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-12",
+        "title": "Animal Ocean Seal Snorkel at Duiker Island",
+        "description": "Slip into the cold Atlantic off Hout Bay and float among hundreds of playful Cape fur seals.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Aug–May",
+        "spark": 25,
+        "bonus": "Let a seal pup come to you without reaching out and count how close it gets.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Animal+Ocean+Hout+Bay",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-01",
+        "title": "Lion's Head Sunrise Hike",
+        "description": "Scramble the chains and ladders of Lion's Head in the dark and watch the sun light up the whole city from the summit.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Pack a flask of coffee and share a cup with someone you meet at the top.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Lion's+Head+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-03",
+        "title": "Table Mountain Aerial Cableway Ride",
+        "description": "Ride the rotating cable car to the flat top of Table Mountain and wander the summit trails above the clouds.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Find the spot on top where you can see both Robben Island and Cape Point and take a photo of each.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Table+Mountain+Aerial+Cableway+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-14",
+        "title": "Elephant's Eye Cave Hike in Silvermine",
+        "description": "Hike through fynbos above Tokai to a big cave in the mountainside with views over the Constantia valley.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Sit in the cave for five quiet minutes and spot your home neighbourhood from up there.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Elephant's+Eye+Cave+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-10",
+        "title": "Skeleton Gorge Hike to Maclear's Beacon",
+        "description": "Climb wooden ladders up a forested ravine from Kirstenbosch to the highest point on Table Mountain.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5–6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 26,
+        "bonus": "Dip your hands in the Hely-Hutchinson reservoir and toast the climb with whatever snack you packed.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Skeleton+Gorge+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-13",
+        "title": "Chapman's Peak Drive Sunset Cruise",
+        "description": "Wind along one of the world's great coastal roads between Hout Bay and Noordhoek as the sun drops into the ocean.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Pull over at a lookout and record a 10 second video of the waves with no talking.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Chapman's+Peak+Drive+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-A-04",
+        "title": "Cape Point Lighthouse Walk",
+        "description": "Drive to the tip of the Cape Peninsula and hike up to the old lighthouse where two oceans meet below the cliffs.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Skip the funicular and walk both ways, then spot a baboon or an eland from a safe distance.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Cape+Point+Lighthouse+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "CPT-F-02",
+        "title": "Neighbourgoods Market at the Old Biscuit Mill",
+        "description": "Graze your way through a Saturday food market in a converted Woodstock biscuit factory.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy one thing from a stall you would normally walk past.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Neighbourgoods+Market+Old+Biscuit+Mill+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-04",
+        "title": "La Colombe Tasting Menu at Silvermist",
+        "description": "Book a seat at one of the world's top-ranked restaurants, perched on a mountain wine estate above Constantia.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "3–4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Ask the server which course the chef is proudest of and save that one for last.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Colombe+Silvermist+Constantia+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-03",
+        "title": "Biesmiellah Cape Malay Lunch in Bo-Kaap",
+        "description": "Eat bobotie, bredie and chilli bites at a family-run Cape Malay institution on the edge of the colourful Bo-Kaap.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a dish you cannot pronounce and ask the staff how to say it.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Biesmiellah+Restaurant+Bo-Kaap+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-01",
+        "title": "Kalky's Fish and Chips at Kalk Bay Harbour",
+        "description": "Queue with locals for hake and chips at a no-frills harbour shack while fishing boats unload beside you.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order snoek instead of hake and eat it with your hands.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Kalky's+Kalk+Bay",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-06",
+        "title": "Giovanni's Deliworld Salmon Bagel",
+        "description": "Grab an espresso and the famous salmon bagel at a Green Point deli that has fed the neighbourhood since 1989.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Ask for extra pickled onions and eat it on a bench at Green Point Park.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Giovanni's+Deliworld+Green+Point+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-12",
+        "title": "Bay Harbour Market Friday Night in Hout Bay",
+        "description": "Eat your way through food stalls and live music inside an old fish factory on the Hout Bay harbour.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Dance to at least one song by the live band, even if nobody else is.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Bay+Harbour+Market+Hout+Bay",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-07",
+        "title": "The Codfather Fish Counter in Camps Bay",
+        "description": "Skip the menu, point at the fish you want on the ice counter and have it cooked to order with ocean views.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 22,
+        "bonus": "Pick one fish species you have never eaten and have it prepared the chef's way.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Codfather+Camps+Bay+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-05",
+        "title": "Truth Coffee Roasting Steampunk Brew",
+        "description": "Sip a flat white among copper pipes and a giant vintage roaster in the café once voted the best coffee shop in the world.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order a coffee style you have never tried and rate it out of ten.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Truth+Coffee+Roasting+Buitenkant+Street+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-08",
+        "title": "Mariner's Wharf Fish and Chips in Hout Bay",
+        "description": "Eat hake and chips out of paper at South Africa's original harbourfront fish market in Hout Bay.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Feed nothing to the seals but find one and give it a name.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Mariner's+Wharf+Hout+Bay",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-10",
+        "title": "Babylonstoren Garden Tour and Babel Lunch",
+        "description": "Walk a vast edible garden on a historic Cape Dutch farm, then eat what was picked that morning in a converted cow shed.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4–5 hrs",
+        "durationMins": 270,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 26,
+        "bonus": "Taste one herb or fruit straight from the garden that you have never eaten before.",
+        "city": "Paarl, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Babylonstoren+Paarl",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-09",
+        "title": "Eastern Food Bazaar Curry and Naan",
+        "description": "Dive into a buzzing halaal food hall in the CBD for cheap curries, kebabs and a garlic naan the size of your plate.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Order from a different stall than everyone else in your group and swap bites.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Eastern+Food+Bazaar+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-F-11",
+        "title": "Oranjezicht City Farm Market Saturday Breakfast",
+        "description": "Eat breakfast from local growers and bakers at a farmers market in a timber barn looking over Table Bay.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy one vegetable you have never cooked and make something with it that night.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Oranjezicht+City+Farm+Market+V&A+Waterfront+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "chill": [
+      {
+        "id": "CPT-C-09",
+        "title": "Hermanus Cliff Path Whale Spotting",
+        "description": "Walk the coastal cliff path in Hermanus where southern right whales come close enough to hear them blow.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Jun–Nov",
+        "spark": 15,
+        "bonus": "Count the whales you see and treat yourself to one scoop of ice cream per whale.",
+        "city": "Hermanus, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Hermanus+Cliff+Path",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-C-01",
+        "title": "Kirstenbosch National Botanical Garden Stroll",
+        "description": "Wander lawns, proteas and the treetop Boomslang walkway at the foot of Table Mountain's eastern slopes.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2–3 hrs",
+        "durationMins": 150,
+        "time": "Any",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find a king protea in bloom and take a photo of it with the mountain behind.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Kirstenbosch+National+Botanical+Garden+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-C-10",
+        "title": "Company's Garden Afternoon Wander",
+        "description": "Slow down in the city's oldest garden, planted in the 1650s, among ancient trees, rose beds and curious squirrels.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the oldest pear tree in the garden and read its plaque.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Company's+Garden+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-C-02",
+        "title": "Kirstenbosch Summer Sunset Concert",
+        "description": "Spread a picnic blanket on the garden lawns and watch a top South African act play as the sun sets behind the mountain.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Nov–Mar",
+        "spark": 24,
+        "bonus": "Bring a picnic where every item is from a different local shop.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Kirstenbosch+National+Botanical+Garden+Cape+Town",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-C-04",
+        "title": "Sea Point Promenade Sunset Walk",
+        "description": "Join joggers, dog walkers and ice cream eaters on the seafront promenade as the sky turns orange.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 12,
+        "bonus": "Find the big red ring sculpture and frame the sunset through it.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Sea+Point+Promenade+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-C-03",
+        "title": "Clifton 4th Beach Afternoon",
+        "description": "Claim a patch of white sand in a wind-sheltered cove and brave the icy Atlantic between naps.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Nov–Mar",
+        "spark": 12,
+        "bonus": "Run into the water up to your shoulders and stay for a count of twenty.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Clifton+4th+Beach+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-C-07",
+        "title": "The Galileo Open Air Cinema at Kirstenbosch",
+        "description": "Watch a classic film on a big screen under the stars in the botanical garden, picnic and blanket included.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Oct–May",
+        "spark": 23,
+        "bonus": "Dress up as a character from the film you are watching.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/The+Galileo+Open+Air+Cinema+Kirstenbosch",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-C-08",
+        "title": "St James Tidal Pool and Beach Huts",
+        "description": "Swim in a sheltered tidal pool beside the famous candy-striped Victorian beach huts on False Bay.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Morning",
+        "season": "Oct–Apr",
+        "spark": 12,
+        "bonus": "Take a photo in front of every colour of beach hut.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/St+James+Tidal+Pool+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-C-05",
+        "title": "Boulders Beach Penguin Colony",
+        "description": "Walk the boardwalks above a granite-boulder beach where thousands of African penguins nest and waddle.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1–2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 14,
+        "bonus": "Watch one penguin for five full minutes and narrate its day like a nature documentary.",
+        "city": "Simon's Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Boulders+Beach+Simon's+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "CPT-C-06",
+        "title": "Signal Hill Sunset Picnic",
+        "description": "Drive up Signal Hill with a blanket and snacks to watch the sun sink behind the Atlantic and the city lights come on.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Stay until you can count ten ships' lights out in Table Bay.",
+        "city": "Cape Town, South Africa",
+        "mapsUrl": "https://maps.google.com/maps/search/Signal+Hill+Cape+Town",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}

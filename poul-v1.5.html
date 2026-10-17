@@ -4310,6 +4310,13 @@ const PACK_FLAG = {
   'hong-kong': 'hong-kong',
   'ho-chi-minh-city': 'vietnam',
   'bali': 'indonesia',
+  // Priority 9 cities generated 2026-10-16/17 whose nation tile already exists.
+  // medellin (colombia), rio-de-janeiro (brazil), cape-town (south-africa),
+  // marrakech (morocco) and reykjavik (iceland) wait for their tiles — they
+  // show the blank felt tile until FLAG_SOURCES gets those five and re-renders.
+  'porto': 'portugal',
+  'florence': 'italy',
+  'munich': 'germany',
 };
 
 function flagTile(key) { return 'flags/' + key + '.png'; }

@@ -720,6 +720,27 @@
       "location": "Arizona",
       "emoji": "🌵",
       "cardCount": 86
+    },
+    {
+      "id": "marrakech",
+      "name": "Marrakech",
+      "location": "Morocco",
+      "emoji": "🫖",
+      "cardCount": 59
+    },
+    {
+      "id": "porto",
+      "name": "Porto",
+      "location": "Portugal",
+      "emoji": "🍇",
+      "cardCount": 60
+    },
+    {
+      "id": "florence",
+      "name": "Florence",
+      "location": "Italy",
+      "emoji": "🎨",
+      "cardCount": 60
     }
   ]
 }

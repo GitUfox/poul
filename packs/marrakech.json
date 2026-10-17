@@ -1,0 +1,1167 @@
+{
+  "id": "marrakech",
+  "name": "Marrakech",
+  "location": "Morocco",
+  "emoji": "🫖",
+  "isDefault": false,
+  "cards": {
+    "chill": [
+      {
+        "id": "RAK-C-08",
+        "title": "Terrasse des Epices Rooftop Afternoon",
+        "description": "Lounge in shaded wooden alcoves on an 800 m2 terrace floating above the souks.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Grab a wooden alcove and stay through sunset.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Terrasse+des+Epices+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-C-05",
+        "title": "Menara Gardens Sunset",
+        "description": "Walk the olive groves to the 12th-century basin and pavilion with the Atlas behind.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Photograph the pavilion reflected in the pool with the Atlas behind.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Menara+Gardens+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-C-07",
+        "title": "Anima Garden Ourika",
+        "description": "Get lost in Andre Heller's surreal sculpture garden with palms, roses and Atlas views in the Ourika foothills.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Find the giant head sculpture and pose with it.",
+        "city": "Ourika, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Anima+Garden+Ourika",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-C-03",
+        "title": "Les Bains de Marrakech Hammam",
+        "description": "Steam, scrub and massage in a Kasbah riad at the city's first luxury private spa, opened 2001.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Book the black soap gommage and stay silent through it.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Les+Bains+de+Marrakech",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-C-04",
+        "title": "La Mamounia Garden Tea",
+        "description": "Tea and Pierre Herme pastries in the 20 acres of orange groves at Marrakech's grand 1923 palace hotel.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Order a Pierre Herme pastry you cannot pronounce.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Mamounia+Marrakech",
+        "company": [
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-C-09",
+        "title": "Hammam Mouassine Local Scrub",
+        "description": "Sweat and scrub alongside locals in one of the medina's oldest public bathhouses, dating to the 1500s.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Bring your own black soap and kessa glove like a local.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Hammam+Mouassine+Marrakech",
+        "company": [
+          "solo"
+        ]
+      },
+      {
+        "id": "RAK-C-06",
+        "title": "Cyber Park Picnic",
+        "description": "Shade under olive and orange trees in a royal 18th-century garden turned free public park by the Koutoubia.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Bring msemmen and mint tea and stay until the call to prayer.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Cyber+Park+Arsat+Moulay+Abdeslam+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-C-10",
+        "title": "Agdal Gardens Orchard Walk",
+        "description": "Stroll 12th-century royal orchards of olives, figs and pomegranates around a vast reflecting basin.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Walk the full rim of the great water basin.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Agdal+Gardens+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-C-01",
+        "title": "Jardin Majorelle Morning Stroll",
+        "description": "Wander cactus and bamboo paths around the cobalt-blue villa restored by Yves Saint Laurent.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the exact shade of Majorelle blue and match something you wear.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Jardin+Majorelle+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-C-02",
+        "title": "Le Jardin Secret Courtyard Hour",
+        "description": "Sit in a restored 16th-century Islamic garden of fountains and orange trees in the middle of the souks.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Climb the tower for a medina view.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Le+Jardin+Secret+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "RAK-S-10",
+        "title": "Grand Cafe de la Poste Aperitif",
+        "description": "Colonial-era brasserie from the 1920s in Gueliz, where the veranda fills for apero and oysters.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a kir and people-watch for twenty minutes.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Grand+Cafe+de+la+Poste+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-S-01",
+        "title": "Comptoir Darna Dinner and Show",
+        "description": "Dine in Hivernage's legendary supper club as belly dancers, a Gnawa band and a DJ turn dinner into a party.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3-4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get up and dance before the candle-tray dancers finish.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Comptoir+Darna+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RAK-S-08",
+        "title": "Marrakech International Film Festival",
+        "description": "Red carpets, premieres and free public screenings in the square during the city's annual film festival.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "3-4 hrs",
+        "durationMins": 210,
+        "time": "Evening",
+        "season": "Nov-Dec",
+        "spark": 25,
+        "bonus": "Catch the free open-air screening in Jemaa el-Fnaa.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Palais+des+Congres+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-S-09",
+        "title": "Le 68 Bar a Vin",
+        "description": "A rustic two-floor Gueliz wine bar with a curated list, charcuterie and a busy patio.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ask for a Moroccan wine and guess the region.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Le+68+Bar+a+Vin+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RAK-S-07",
+        "title": "Gnaoua World Music Festival",
+        "description": "Three days of free Gnawa trance and world music on stages across Essaouira's seaside medina.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "2-3 days",
+        "durationMins": 1440,
+        "time": "Evening",
+        "season": "Jun",
+        "spark": 40,
+        "bonus": "Join a lila circle and stay until sunrise.",
+        "city": "Essaouira, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Place+Moulay+Hassan+Essaouira",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-S-03",
+        "title": "Sky Bar at La Renaissance Hotel",
+        "description": "A 360-degree seventh-floor rooftop bar in Gueliz for sunset drinks over the whole city.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Spot the Koutoubia and the Atlas from the same seat.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Renaissance+Hotel+Gueliz+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RAK-S-05",
+        "title": "Le Salama Sky Bar",
+        "description": "A three-floor medina venue with a sky bar at Koutoubia eye level and belly dancing below.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the Moroccan rose cocktail.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Le+Salama+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RAK-S-04",
+        "title": "Cafe Clock Storytelling Night",
+        "description": "Hear young storytellers revive the hikayat tradition in Darija and English over camel burgers in the Kasbah.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Learn the closing line of a hikaya and repeat it to a friend.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Cafe+Clock+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-S-06",
+        "title": "Theatro Club Night",
+        "description": "Dance in a 1950s music hall turned club inside the Es Saadi resort, with fire acts and themed nights all week.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Stay until the confetti drop.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Theatro+Marrakech",
+        "company": [
+          "group"
+        ],
+        "adult": true
+      },
+      {
+        "id": "RAK-S-12",
+        "title": "Chez Ali Fantasia Night",
+        "description": "A huge tented dinner with horseback charges, musket fire and folklore troupes on the Palmeraie edge.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "4 hrs",
+        "durationMins": 240,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Cheer loud enough that a rider salutes you.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Chez+Ali+Marrakech",
+        "company": [
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-S-02",
+        "title": "Kabana Koutoubia Rooftop",
+        "description": "Cocktails, tapas and weekend DJs on a rooftop staring straight at the Koutoubia minaret.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Toast the Koutoubia at the exact moment it lights up.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Kabana+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ],
+        "adult": true
+      }
+    ],
+    "culture": [
+      {
+        "id": "RAK-CU-08",
+        "title": "Maison de la Photographie",
+        "description": "A riad of vintage Moroccan photographs from 1870-1950 with a rooftop cafe.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find a photo of a place you have already visited.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Maison+de+la+Photographie+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-CU-06",
+        "title": "Musee Yves Saint Laurent",
+        "description": "Couture, sketches and photos from the designer who called Marrakech home, in a striking brick building.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Sketch a dress from the collection in your notes.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Musee+Yves+Saint+Laurent+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-CU-01",
+        "title": "Bahia Palace Courtyards",
+        "description": "Painted cedar ceilings and zellij courtyards in a 19th-century vizier's palace.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the ceiling with the most colors and count them.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Bahia+Palace+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-CU-05",
+        "title": "Ait Benhaddou Ksar",
+        "description": "Climb the mud-brick fortified village on the old caravan route, a UNESCO site and film set for Gladiator.",
+        "rarity": "Legendary",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Climb to the granary at the top before noon.",
+        "city": "Ait Benhaddou, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Ait+Benhaddou",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-CU-04",
+        "title": "El Badi Palace Ramparts",
+        "description": "Walk the sunken gardens and ruined walls of a 16th-century palace built with Italian marble.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Climb the ramparts and find a stork nest.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/El+Badi+Palace+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-CU-02",
+        "title": "Ben Youssef Madrasa",
+        "description": "The largest Quranic school in Morocco, with a stunning stucco and cedar courtyard.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Peek into a student cell and imagine living there.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Ben+Youssef+Madrasa+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-CU-03",
+        "title": "Saadian Tombs",
+        "description": "The lavish 16th-century royal necropolis hidden behind the Kasbah Mosque.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Spot the Hall of Twelve Columns.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Saadian+Tombs+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-CU-07",
+        "title": "Koutoubia Mosque Gardens",
+        "description": "Walk the rose gardens under the 12th-century minaret that defines the city skyline.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Listen to the call to prayer from the gardens.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Koutoubia+Mosque+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "8ball": [
+      {
+        "id": "RAK-8B-02",
+        "title": "Get Lost in Souk Semmarine",
+        "description": "Dive into the medina's main souk with no plan and follow whatever lane looks most interesting.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Put your phone away and navigate back to Jemaa el-Fnaa without maps.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Souk+Semmarine+Marrakech",
+        "filterExempt": true,
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-8B-01",
+        "title": "Scarabeo Camp Desert Night",
+        "description": "Spontaneously swap your riad for a luxury tented camp in the Agafay desert with candlelit dinner and live music.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "Overnight",
+        "durationMins": 960,
+        "time": "Evening",
+        "season": "Sep-May",
+        "spark": 40,
+        "bonus": "Sleep with the tent flap open to the stars.",
+        "city": "Agafay, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Scarabeo+Camp+Agafay",
+        "filterExempt": true,
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "adventure": [
+      {
+        "id": "RAK-A-11",
+        "title": "Pikala Bikes Medina Cycling Tour",
+        "description": "Pedal the Kasbah, Agdal and back lanes with young local guides from a bike social enterprise, ending with tea at the Pikala cafe.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2-3 hrs",
+        "durationMins": 150,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Ring your bell at the Zaouia of Sidi Bel Abbes finish line.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Pikala+Bikes+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-02",
+        "title": "Ciel d'Afrique Sunrise Balloon Flight",
+        "description": "Float over the Jbilet hills and Berber villages at dawn with Morocco's oldest balloon operator, then land to a Moroccan breakfast.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "4-5 hrs",
+        "durationMins": 270,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 40,
+        "bonus": "Learn to say 'shukran' to the pilot in Darija before touchdown.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Ciel+d'Afrique+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-03",
+        "title": "Ouzoud Falls Hike and Boat Ride",
+        "description": "Hike down to Morocco's tallest waterfall, 110 m of cascades, and take a raft right up to the spray.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 600,
+        "time": "Morning",
+        "season": "Mar-Nov",
+        "spark": 25,
+        "bonus": "Spot a Barbary macaque and get a photo without feeding it.",
+        "city": "Ouzoud, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Cascades+d'Ouzoud",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-04",
+        "title": "Setti Fatma Seven Waterfalls Scramble",
+        "description": "Scramble up boulders past riverside cafes to the cascades above Setti Fatma in the Ourika Valley.",
+        "rarity": "Rare",
+        "cost": "$",
+        "duration": "5-6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Mar-Oct",
+        "spark": 25,
+        "bonus": "Make it to the fourth waterfall without a local guide pointing the way.",
+        "city": "Ourika, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Setti+Fatma+Waterfalls+Ourika",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-08",
+        "title": "Oukaimeden Ski Day",
+        "description": "Ski Africa's highest ski area, with a chairlift to 3,258 m and donkey rides to the slopes, 75 km from Marrakech.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Jan-Mar",
+        "spark": 25,
+        "bonus": "Ride the chairlift to the 3,258 m top station and snap the Atlas panorama.",
+        "city": "Oukaimeden, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Oukaimeden+Ski+Resort",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-10",
+        "title": "La Pause Agafay Camel Ride",
+        "description": "Ride camels across the stony Agafay desert to an off-grid oasis lodge with no electricity and candlelit dinners.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "4-5 hrs",
+        "durationMins": 270,
+        "time": "Afternoon",
+        "season": "Sep-May",
+        "spark": 25,
+        "bonus": "Ride without your phone for the whole sunset.",
+        "city": "Agafay, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Pause+Agafay",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-05",
+        "title": "Terres d'Amanar Atlas Zipline",
+        "description": "Fly over Atlas foothill ravines on ziplines and suspended bridges at a mountain adventure park in Tahanaout.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "3-4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Mar-Nov",
+        "spark": 25,
+        "bonus": "Ride one zipline backwards, if the guide says it is safe.",
+        "city": "Atlas Mountains, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Terres+d'Amanar+Tahanaout",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-01",
+        "title": "Mount Toubkal Summit Trek",
+        "description": "Summit North Africa's highest peak at 4,167 m on a two-day trek from Imlil with a night at the Toubkal refuge.",
+        "rarity": "Legendary",
+        "cost": "$$$",
+        "duration": "2 days",
+        "durationMins": 1440,
+        "time": "Morning",
+        "season": "Apr-Oct",
+        "spark": 40,
+        "bonus": "Pack one Moroccan flag sticker and leave a photo of it at 4,167 m on your phone lock screen.",
+        "city": "Imlil, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Mount+Toubkal+Imlil",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-12",
+        "title": "Sidi Kaouki Beach Surf Session",
+        "description": "Rent a board and surf the wild Atlantic swells at the windswept beach village south of Essaouira.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Catch one wave and ride it all the way to the sand.",
+        "city": "Sidi Kaouki, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Sidi+Kaouki+Beach",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-13",
+        "title": "Lalla Takerkoust Lake Day",
+        "description": "Swim and picnic at the turquoise reservoir framed by the Atlas, 40 minutes from the city.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "4-5 hrs",
+        "durationMins": 270,
+        "time": "Afternoon",
+        "season": "Apr-Oct",
+        "spark": 13,
+        "bonus": "Swim out until the Atlas peaks line up behind you and take the shot.",
+        "city": "Lalla Takerkoust, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Lalla+Takerkoust+Lake",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-09",
+        "title": "Tizi n'Tichka Pass Road Trip",
+        "description": "Drive the hairpin road over the High Atlas to the 2,260 m Tichka pass for some of Morocco's wildest views.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "Full day",
+        "durationMins": 480,
+        "time": "Morning",
+        "season": "Mar-Nov",
+        "spark": 13,
+        "bonus": "Pull over at the 2,260 m summit sign and buy a fossil from a roadside stall.",
+        "city": "Atlas Mountains, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Tizi+n'Tichka+Pass",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-16",
+        "title": "Oasiria Water Park Day",
+        "description": "Cool off on slides, a wave pool and a lazy river in a palm-shaded water park, Morocco's most popular.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "4-5 hrs",
+        "durationMins": 270,
+        "time": "Afternoon",
+        "season": "Apr-Oct",
+        "spark": 13,
+        "bonus": "Ride the tallest slide first, before you can talk yourself out of it.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Oasiria+Water+Park+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-15",
+        "title": "Tizi n'Mzik Pass Hike",
+        "description": "Climb a steep mule path from Imlil to a 2,489 m pass with views down two valleys.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "5-6 hrs",
+        "durationMins": 330,
+        "time": "Morning",
+        "season": "Apr-Oct",
+        "spark": 13,
+        "bonus": "Eat lunch at the 2,489 m pass with your boots off.",
+        "city": "Imlil, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Tizi+n'Mzik+Imlil",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-14",
+        "title": "Palmeraie Camel Trek",
+        "description": "Plod through Marrakech's 13,000-hectare palm grove on camelback as the light turns gold.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Name your camel and tell the handler.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Palmeraie+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-07",
+        "title": "Imlil to Aroumd Valley Hike",
+        "description": "Walk walnut groves and terraced fields from Imlil up to the Berber village of Aroumd beneath Toubkal.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "3-4 hrs",
+        "durationMins": 210,
+        "time": "Morning",
+        "season": "Mar-Nov",
+        "spark": 13,
+        "bonus": "Accept a mint tea from a village terrace and ask the host's name.",
+        "city": "Imlil, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Aroumd+Imlil",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-A-06",
+        "title": "ION Club Essaouira Kitesurf Lesson",
+        "description": "Learn to kitesurf in Essaouira's famously windy bay with VDWS and IKO certified instructors.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Afternoon",
+        "season": "Apr-Oct",
+        "spark": 25,
+        "bonus": "Stand up on the board for a count of five and celebrate at the Ocean Vagabond terrace next door.",
+        "city": "Essaouira, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/ION+Club+Essaouira",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      }
+    ],
+    "foodie": [
+      {
+        "id": "RAK-F-05",
+        "title": "Al Fassia Women-Run Feast",
+        "description": "A Gueliz legend run entirely by women, famous for slow-cooked lamb shoulder and pigeon pastilla.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Pre-order the dalaa mbakhra a day ahead.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Al+Fassia+Gueliz+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-F-03",
+        "title": "Nomad Rooftop Dinner",
+        "description": "Modern Moroccan food on a four-floor rooftop above the spice square, with Atlas views at sunset.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order the dish with the most spices you cannot name.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Nomad+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-F-08",
+        "title": "Chez Lamine Mechoui Lunch",
+        "description": "Pit-roasted lamb sold by weight with cumin salt and bread, a medina institution since 1965.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Eat with your hands only, no cutlery.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Chez+Lamine+Hadj+Mustapha+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-F-02",
+        "title": "Le Jardin Garden Lunch",
+        "description": "Lunch under banana trees in a green-tiled riad courtyard hidden in the souks.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Find the resident tortoise in the courtyard.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Le+Jardin+Marrakech+Medina",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-F-10",
+        "title": "Amal Women's Center Cooking Class",
+        "description": "Cook tagines with women training for culinary careers at a nonprofit kitchen in Targa.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Learn to fold a msemmen and make one on your own.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Amal+Women's+Training+Center+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-F-09",
+        "title": "Essaouira Port Fish Grill",
+        "description": "Choose sardines and sea bream from the harbour stalls and have them grilled on the spot.",
+        "rarity": "Rare",
+        "cost": "$$",
+        "duration": "1-2 hrs",
+        "durationMins": 90,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Pick your fish straight off a boat and bargain for it.",
+        "city": "Essaouira, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Port+of+Essaouira",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-F-07",
+        "title": "Dar Yacout Feast Night",
+        "description": "A lantern-lit 19th-century riad serving a set multi-course Moroccan feast with live music.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Get to the rooftop for the Koutoubia view before the first course.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Dar+Yacout+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-F-01",
+        "title": "Jemaa el-Fnaa Night Food Stalls",
+        "description": "Squeeze onto benches at the smoking grill stalls of the world's most famous square for harira, brochettes and sheep's head.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "2 hrs",
+        "durationMins": 120,
+        "time": "Evening",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Try the snail soup at a stall and finish the bowl.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Jemaa+el-Fnaa+Marrakech",
+        "company": [
+          "solo",
+          "couple",
+          "group"
+        ]
+      },
+      {
+        "id": "RAK-F-12",
+        "title": "Mellah Spice Market Browse",
+        "description": "Browse the covered spice and dried-rose market in the old Jewish quarter, calmer and cheaper than the main souks.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Learn one Hebrew or Darija word from a stall keeper.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Mellah+Market+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-F-11",
+        "title": "Bacha Coffee at Dar el Bacha",
+        "description": "Choose from 200 single-origin coffees in the gilded palace salon where the brand began in 1910.",
+        "rarity": "Common",
+        "cost": "$$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Afternoon",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Order a coffee from a country you have never been to.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Bacha+Coffee+Dar+el+Bacha+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-F-04",
+        "title": "Rahba Kedima Spice Square Tasting",
+        "description": "Sniff and taste ras el hanout, saffron and amber at the stalls of the old spice square.",
+        "rarity": "Common",
+        "cost": "$",
+        "duration": "1 hr",
+        "durationMins": 60,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 13,
+        "bonus": "Buy one spice you have never cooked with and use it this week.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/Rahba+Kedima+Marrakech",
+        "company": [
+          "solo",
+          "couple"
+        ]
+      },
+      {
+        "id": "RAK-F-06",
+        "title": "La Maison Arabe Cooking Workshop",
+        "description": "Cook tagine, salads and bread with a traditional dada, then eat it under fig and olive trees.",
+        "rarity": "Rare",
+        "cost": "$$$",
+        "duration": "3 hrs",
+        "durationMins": 180,
+        "time": "Morning",
+        "season": "Year Round",
+        "spark": 25,
+        "bonus": "Ask your dada for the one spice secret not in the recipe.",
+        "city": "Marrakech, Morocco",
+        "mapsUrl": "https://maps.google.com/maps/search/La+Maison+Arabe+Marrakech",
+        "company": [
+          "couple",
+          "group"
+        ]
+      }
+    ]
+  }
+}
