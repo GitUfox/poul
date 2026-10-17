@@ -13,6 +13,7 @@
 require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), override: true });
 const { Client } = require('@notionhq/client');
 const { initPackType, readPack, packFilter } = require('./pack-prop');
+const { normalizeSeason, seasonParses } = require('./season');
 const fs   = require('fs');
 const path = require('path');
 
@@ -190,7 +191,7 @@ function pageToCard(page) {
     duration:     prop(page, 'Duration',     'text'),
     durationMins: prop(page, 'Duration Mins','number'),
     time:         prop(page, 'Time',         'select'),
-    season:       prop(page, 'Season',       'text'),
+    season:       normalizeSeason(prop(page, 'Season', 'text')),
     spark:        prop(page, 'Spark',        'number'),
     bonus:        prop(page, 'Bonus',        'text'),
     city:         prop(page, 'City',         'text'),
@@ -208,6 +209,14 @@ function pageToCard(page) {
 }
 
 // ── Export ─────────────────────────────────────────────────────────────────
+
+class SeasonGateError extends Error {
+  constructor(packId, cards) {
+    super(`season gate: ${cards.length} card${cards.length === 1 ? '' : 's'} in ${packId} with an unparsable season`);
+    this.packId = packId;
+    this.cards = cards;
+  }
+}
 
 async function exportPack(notion, packId) {
   console.log(`Exporting pack: ${packId}...`);
@@ -231,6 +240,16 @@ async function exportPack(notion, packId) {
     if (!cat) continue;
     if (!KNOWN.has(cat)) console.warn(`  ⚠ UNKNOWN CATEGORY "${cat}" on "${prop(page, 'Title', 'title')}" — unreachable in the app, retag it`);
     (cards[cat] = cards[cat] || []).push(pageToCard(page));
+  }
+
+  // Season gate (2026-10-17): every season string must be in the parser
+  // grammar (scripts/season.js slices it from the app). A string outside it
+  // would ship as a silent Year Round card, so the pack is NOT written. Fix
+  // the Season cell in Notion and export again.
+  const badSeasons = Object.values(cards).flat().filter(c => !seasonParses(c.season));
+  if (badSeasons.length) {
+    for (const c of badSeasons) console.error(`  ✗ SEASON "${c.season}" on ${c.id} "${c.title}" is not in the season grammar`);
+    throw new SeasonGateError(packId, badSeasons);
   }
 
   const meta = PACK_META[packId] || { name: packId, location: '', emoji: '📍', isDefault: false };
@@ -292,8 +311,18 @@ async function main() {
   } else {
     const allActive = await queryAll(notion, { property: 'Active', checkbox: { equals: true } });
     const packIds   = [...new Set(allActive.map(readPack).filter(Boolean))];
-    for (const id of packIds) await exportPack(notion, id);
+    // One pack failing the season gate must not block the other 100+: skip it,
+    // keep going, and exit non-zero at the end so the Action shows red.
+    const failed = [];
+    for (const id of packIds) {
+      try { await exportPack(notion, id); }
+      catch (e) { if (e instanceof SeasonGateError) failed.push(e); else throw e; }
+    }
     await exportIndex(notion);
+    if (failed.length) {
+      console.error(`\n✗ ${failed.length} pack${failed.length === 1 ? '' : 's'} not written (season gate): ${failed.map(f => f.packId).join(', ')}`);
+      process.exit(1);
+    }
   }
   console.log('\nDone. Commit the packs/ folder to deploy.');
 }

@@ -3644,19 +3644,135 @@ function countActiveFilters() {
 
 // ──────────────────────────────────────────
 // SEASONAL LOGIC
+// SEASON PARSER: the one home for the season vocabulary. Every season
+// string in a pack becomes a set of active months here, and the draw gate,
+// the collector badge and the home season line all read that set. The
+// export script slices this block out of the HTML (scripts/season.js), so
+// keep it self-contained: no DOM, no state, no icon() calls.
+//
+// Grammar (case-insensitive, parentheticals ignored):
+//   null / "" / "Year Round" / "All Year" ............ every month
+//   "Dec" · "April" · "Early Nov" · "Jun 23-24" ...... one month
+//   "Apr–Oct" · "Dec-Feb" · "Sep–early Jun" ........... a range, wrap-around allowed
+//   "Summer" · "Winter" · "Spring" · "Fall" · "Autumn" . a named season
+//   "Apr–May & Oct–Nov" · "Apr–Sep, Oct, Nov–Jan" ..... a union of the above
+//   "Year Round (rooftop May–Oct)" .................... every month (prefix wins)
+// Anything else falls back to every month and logs ONE console.warn.
 // ──────────────────────────────────────────
-function isCardInSeason(card) {
-  const s = card.season;
-  if (!s || s === 'Year Round') return true;
-  const m = new Date().getMonth(); // 0 = Jan, 11 = Dec
-  if (s === 'Jan only')  return m === 0;
-  if (s === 'Feb–Mar')   return m === 1 || m === 2;
-  if (s === 'Apr–Oct')   return m >= 3 && m <= 9;
-  if (s === 'May–Sep')   return m >= 4 && m <= 8;
-  if (s === 'Jun–Jul')   return m === 5 || m === 6;
-  if (s === 'Oct–Apr')   return m >= 9 || m <= 3;
-  if (s === 'Oct–May')   return m >= 9 || m <= 4;
-  return true;
+const SEASON_MONTH_KEYS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+const SEASON_MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const SEASON_NAMED = {
+  spring: [2, 3, 4], summer: [5, 6, 7], fall: [8, 9, 10], autumn: [8, 9, 10], winter: [11, 0, 1],
+};
+const seasonCache = new Map();
+
+function seasonMonthIndex(token) {
+  const t = token.replace(/\.$/, '');
+  if (!/^[a-z]{3,9}$/.test(t)) return -1;
+  const i = SEASON_MONTH_KEYS.indexOf(t.slice(0, 3));
+  if (i < 0) return -1;
+  // "sept" / "september" / "april" are fine; "mayo" or "junk" are not.
+  return SEASON_MONTH_NAMES[i].toLowerCase().startsWith(t) ? i : -1;
+}
+
+function seasonMonthRange(from, to) {
+  const out = [];
+  for (let m = from; ; m = (m + 1) % 12) {
+    out.push(m);
+    if (m === to) break;
+  }
+  return out;
+}
+
+// One segment: a month, a month range, or a named season. Returns month
+// indexes or null when the segment is not in the grammar.
+function parseSeasonSegment(seg) {
+  const clean = seg
+    .replace(/\b(late|early|mid|only|from|through|thru|to)\b/g, ' ')
+    .replace(/\d+(\s*–\s*\d+)?(st|nd|rd|th)?/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!clean) return null;
+  if (SEASON_NAMED[clean]) return SEASON_NAMED[clean];
+  const parts = clean.split('–').map(p => p.trim());
+  if (parts.length === 1) {
+    const m = seasonMonthIndex(parts[0]);
+    return m < 0 ? null : [m];
+  }
+  if (parts.length === 2) {
+    const a = seasonMonthIndex(parts[0]);
+    const b = seasonMonthIndex(parts[1]);
+    if (a < 0 || b < 0) return null;
+    return seasonMonthRange(a, b);
+  }
+  return null;
+}
+
+// parseSeason(str) → { months: boolean[12], allYear, label, parsed }
+//   months   index 0 = Jan. All true when allYear.
+//   allYear  true for Year Round, blank, a full Jan–Dec span, or a fallback.
+//   label    display string for the collector badge ("December", "May–Oct").
+//   parsed   false only when the string fell back to every month.
+function parseSeason(raw) {
+  const key = raw == null ? '' : String(raw);
+  if (seasonCache.has(key)) return seasonCache.get(key);
+
+  const allYear = (label, parsed) => ({ months: Array(12).fill(true), allYear: true, label, parsed });
+  let result;
+  const text = key
+    .replace(/\([^)]*\)/g, ' ')          // parentheticals are commentary
+    .replace(/[–—‒-]/g, '–') // every dash becomes an en dash
+    .replace(/\s+/g, ' ')
+    .replace(/\s+([,;&])/g, '$1')
+    .trim();
+  const lower = text.toLowerCase();
+
+  if (!lower || /^(year[\s–]*round|all[\s–]*year)\b/.test(lower)) {
+    result = allYear('Year Round', true);
+  } else {
+    const segments = lower.split(/\s*(?:,|&|;|\/|\band\b|\bplus\b)\s*/).filter(Boolean);
+    const months = Array(12).fill(false);
+    let ok = segments.length > 0;
+    for (const seg of segments) {
+      const hit = parseSeasonSegment(seg);
+      if (!hit) { ok = false; break; }
+      hit.forEach(m => { months[m] = true; });
+    }
+    if (!ok) {
+      console.warn('Poul: season "' + key + '" is not in the season grammar, treating it as Year Round');
+      result = allYear(text, false);
+    } else if (months.every(Boolean)) {
+      result = allYear(text, true);
+    } else {
+      const single = months.filter(Boolean).length === 1 && segments.length === 1;
+      const label = single ? SEASON_MONTH_NAMES[months.indexOf(true)] : text;
+      result = { months, allYear: false, label, parsed: true };
+    }
+  }
+  seasonCache.set(key, result);
+  return result;
+}
+
+// `now` is optional and only honoured when it is a Date: Array.filter passes
+// the index as the second argument, and that must not become the clock.
+function isCardInSeason(card, now) {
+  const m = (now instanceof Date ? now : new Date()).getMonth(); // 0 = Jan, 11 = Dec
+  return parseSeason(card.season).months[m];
+}
+
+// Last day of the active run that contains `now`, or null when the card is
+// out of season right now. Drives the "N days left" countdown.
+function seasonWindowEnd(season, now) {
+  const info = parseSeason(season);
+  if (!(now instanceof Date)) now = new Date();
+  let m = now.getMonth();
+  if (info.allYear || !info.months[m]) return null;
+  let year = now.getFullYear();
+  while (info.months[(m + 1) % 12]) {
+    m = (m + 1) % 12;
+    if (m === 0) year += 1;
+  }
+  return new Date(year, m + 1, 0, 23, 59, 59); // day 0 of next month = last day of m
 }
 
 function getSeasonInfo() {
@@ -3669,34 +3785,28 @@ function getSeasonInfo() {
 
 // ──────────────────────────────────────────
 // COLLECTOR / LIMITED CARDS
-// A Legendary tied to a finite, event-style window (or an explicit limited:true
-// flag) is a collector drop — gold treatment + a closing-window countdown.
+// A Legendary tied to a finite window (any parsed season that is not the
+// whole year), or an explicit limited:true flag, is a collector drop:
+// gold treatment + a closing-window countdown.
 // ──────────────────────────────────────────
-const LIMITED_WINDOWS = {
-  'Jan only': { label: 'January only', endMonth: 0,  endDay: 31 },
-  'Feb–Mar':  { label: 'Feb–Mar',      endMonth: 2,  endDay: 31 },
-  'Apr–Oct':  { label: 'Apr–Oct',      endMonth: 9,  endDay: 31 },
-  'May–Sep':  { label: 'May–Sep',      endMonth: 8,  endDay: 30 },
-  'Jun–Jul':  { label: 'Jun–Jul',      endMonth: 6,  endDay: 31 },
-  'Oct–Apr':  { label: 'Oct–Apr',      endMonth: 3,  endDay: 30 },
-  'Oct–May':  { label: 'Oct–May',      endMonth: 4,  endDay: 31 },
-};
-
 function isLimitedCard(card) {
   if (!card) return false;
   if (card.limited === true) return true;
-  return card.rarity === 'Legendary' && !!LIMITED_WINDOWS[card.season];
+  if (card.rarity !== 'Legendary') return false;
+  const info = parseSeason(card.season);
+  return info.parsed && !info.allYear;
 }
 
-function limitedLabel(card) {
-  const w = LIMITED_WINDOWS[card.season];
-  if (!w) return 'Limited';
-  const now = new Date();
-  let end = new Date(now.getFullYear(), w.endMonth, w.endDay, 23, 59, 59);
-  if (end < now) end = new Date(now.getFullYear() + 1, w.endMonth, w.endDay, 23, 59, 59);
-  const days = Math.ceil((end - now) / (1000 * 60 * 60 * 24));
-  if (isCardInSeason(card) && days <= 45) return 'Limited · ' + days + (days === 1 ? ' day left' : ' days left');
-  return 'Limited · ' + w.label;
+function limitedLabel(card, now) {
+  const info = parseSeason(card.season);
+  if (info.allYear) return 'Limited';
+  if (!(now instanceof Date)) now = new Date();
+  const end = seasonWindowEnd(card.season, now);
+  if (end) {
+    const days = Math.ceil((end - now) / (1000 * 60 * 60 * 24));
+    if (days <= 45) return 'Limited · ' + days + (days === 1 ? ' day left' : ' days left');
+  }
+  return 'Limited · ' + info.label;
 }
 
 // ──────────────────────────────────────────
@@ -4617,7 +4727,8 @@ function revealCard() {
   // Meta chips
   const metaRow = document.getElementById('card-meta');
   metaRow.innerHTML = '';
-  [card.cost, card.duration, card.time, card.season].forEach(val => {
+  // A blank value (season null on a Year Round card) draws no chip at all.
+  [card.cost, card.duration, card.time, card.season].filter(val => val != null && String(val).trim()).forEach(val => {
     const chip = document.createElement('div');
     chip.className = 'meta-chip';
     chip.textContent = val;
@@ -5015,10 +5126,7 @@ function renderPool() {
         ${card.photoDataUrl && /^data:image\//i.test(card.photoDataUrl) ? `<img class="pool-card-photo" src="${card.photoDataUrl}" alt="Proof photo">` : ''}
 
         <div class="pool-card-chips">
-          <span class="pool-card-chip">${escHtml(card.cost)}</span>
-          <span class="pool-card-chip">${escHtml(card.duration)}</span>
-          <span class="pool-card-chip">${escHtml(card.time)}</span>
-          <span class="pool-card-chip">${escHtml(card.season)}</span>
+          ${[card.cost, card.duration, card.time, card.season].filter(v => v != null && String(v).trim()).map(v => `<span class="pool-card-chip">${escHtml(v)}</span>`).join('')}
         </div>
 
         <div class="pool-card-bonus">
