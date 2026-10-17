@@ -47,6 +47,9 @@ const FLAG_SOURCES = {
   'austria': 'Flag_of_Austria.svg', 'hungary': 'Flag_of_Hungary.svg', 'poland': 'Flag_of_Poland.svg',
   'scotland': 'Flag_of_Scotland.svg', 'greece': 'Flag_of_Greece.svg', 'singapore': 'Flag_of_Singapore.svg',
   'hong-kong': 'Flag_of_Hong_Kong.svg', 'vietnam': 'Flag_of_Vietnam.svg', 'indonesia': 'Flag_of_Indonesia.svg',
+  // Priority 9 cities generated 2026-10-16/17 (Medellín, Rio, Cape Town, Marrakech) and #25 Reykjavík
+  'colombia': 'Flag_of_Colombia.svg', 'brazil': 'Flag_of_Brazil.svg', 'south-africa': 'Flag_of_South_Africa.svg',
+  'morocco': 'Flag_of_Morocco.svg', 'iceland': 'Flag_of_Iceland.svg',
 };
 
 async function main() {
