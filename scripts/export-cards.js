@@ -133,6 +133,18 @@ const PACK_META = {
   'san-juan':       { name: 'San Juan',         location: 'Puerto Rico',               emoji: '🐸', isDefault: false },
   'lake-tahoe':     { name: 'Lake Tahoe',       location: 'California · Nevada',       emoji: '🚤', isDefault: false },
   'kyoto':          { name: 'Kyoto',            location: 'Japan',                     emoji: '⛩️', isDefault: false },
+  // Priority 9 — generated after the Pack select→text conversion (2026-10-16 onward)
+  'hong-kong':      { name: 'Hong Kong',        location: 'Hong Kong SAR',             emoji: '🏙️', isDefault: false },
+  'ho-chi-minh-city':{ name: 'Ho Chi Minh City', location: 'Vietnam',                  emoji: '🛵', isDefault: false },
+  'bali':           { name: 'Bali',             location: 'Canggu & Ubud · Indonesia', emoji: '🌾', isDefault: false },
+  'medellin':       { name: 'Medellín',         location: 'Colombia',                  emoji: '🚡', isDefault: false },
+  'rio-de-janeiro': { name: 'Rio de Janeiro',   location: 'Brazil',                    emoji: '🗿', isDefault: false },
+  'cape-town':      { name: 'Cape Town',        location: 'South Africa',              emoji: '🐧', isDefault: false },
+  'marrakech':      { name: 'Marrakech',        location: 'Morocco',                   emoji: '🫖', isDefault: false },
+  'porto':          { name: 'Porto',            location: 'Portugal',                  emoji: '🍇', isDefault: false },
+  'florence':       { name: 'Florence',         location: 'Italy',                     emoji: '🎨', isDefault: false },
+  'munich':         { name: 'Munich',           location: 'Germany',                   emoji: '🥨', isDefault: false },
+  'reykjavik':      { name: 'Reykjavík',        location: 'Iceland',                   emoji: '🌋', isDefault: false },
 };
 
 // ── Notion helpers ─────────────────────────────────────────────────────────
