@@ -741,6 +741,27 @@
       "location": "Italy",
       "emoji": "🎨",
       "cardCount": 60
+    },
+    {
+      "id": "medellin",
+      "name": "Medellín",
+      "location": "Colombia",
+      "emoji": "🚡",
+      "cardCount": 60
+    },
+    {
+      "id": "rio-de-janeiro",
+      "name": "Rio de Janeiro",
+      "location": "Brazil",
+      "emoji": "🗿",
+      "cardCount": 60
+    },
+    {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "location": "South Africa",
+      "emoji": "🐧",
+      "cardCount": 59
     }
   ]
 }
