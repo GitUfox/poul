@@ -152,9 +152,10 @@ describe('export-side season contract', () => {
 });
 
 describe('every season string shipped in packs/', () => {
-  // The one string that does not parse today. Fix its Season cell in Notion
-  // (Portland PDX-S-10, "Limited dates"), export, then empty this set.
-  const KNOWN_UNPARSED = new Set(['Limited dates']);
+  // Every shipped season string parses. The last leftover, Portland PDX-S-10
+  // "Limited dates", was fixed in Notion on 2026-10-17. If a new one appears,
+  // fix the Season cell in Notion and re-export; do not add it here.
+  const KNOWN_UNPARSED = new Set();
 
   test('parses, except the documented Notion leftovers', () => {
     const idx = JSON.parse(fs.readFileSync(path.join(PACKS, 'index.json'), 'utf8')).packs;
