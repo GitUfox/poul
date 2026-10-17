@@ -68,7 +68,7 @@
       {
         "id": "CIN-S-07",
         "title": "Liter Steins at Hofbräuhaus Newport",
-        "description": "The first authentic Hofbräuhaus built outside Munich — communal benches, a live oompah band and liter steins carried four at a time.",
+        "description": "The first authentic Hofbräuhaus built outside Munich, communal benches, a live oompah band and liter steins carried four at a time.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -107,7 +107,7 @@
       {
         "id": "CIN-S-02",
         "title": "FC Cincinnati Night in The Bailey",
-        "description": "TQL Stadium's safe-standing supporters' end is the loudest room in the city — ninety minutes of unbroken singing, smoke and orange.",
+        "description": "TQL Stadium's safe-standing supporters' end is the loudest room in the city, ninety minutes of unbroken singing, smoke and orange.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3 hrs",
@@ -126,7 +126,7 @@
       {
         "id": "CIN-S-03",
         "title": "Bengals Sunday at Paycor Stadium",
-        "description": "A full riverfront Sunday — tailgates on the lots, stripes on everything, and Who Dey going up from 65,000 people at once.",
+        "description": "A full riverfront Sunday: tailgates on the lots, stripes on everything, and Who Dey going up from 65,000 people at once.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "4 hrs",
@@ -205,7 +205,7 @@
       {
         "id": "CIN-S-05",
         "title": "Beer Garden Evening at MadTree Oakley",
-        "description": "Sixty-four taps, a ten-thousand-square-foot outdoor beer garden and a wood-fired pizza kitchen attached — the easiest group plan in the city.",
+        "description": "Sixty-four taps, a ten-thousand-square-foot outdoor beer garden and a wood-fired pizza kitchen attached, the easiest group plan in the city.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -225,7 +225,7 @@
       {
         "id": "CIN-S-09",
         "title": "Apothecary Cocktails at Sundry and Vice",
-        "description": "A Victorian apothecary set dressed as a cocktail bar — bitters in dropper bottles, tonics behind glass, and one of the best-made drinks lists in Over-the-Rhine.",
+        "description": "A Victorian apothecary set dressed as a cocktail bar: bitters in dropper bottles, tonics behind glass, and one of the best-made drinks lists in Over-the-Rhine.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -266,7 +266,7 @@
       {
         "id": "CIN-C-10",
         "title": "Read the Afternoon Away at the Main Library",
-        "description": "The main branch downtown is one of the great American public libraries — vast, free, full of natural light and genuinely pleasant to spend a whole afternoon in.",
+        "description": "The main branch downtown is one of the great American public libraries: vast, free, full of natural light and genuinely pleasant to spend a whole afternoon in.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -285,7 +285,7 @@
       {
         "id": "CIN-C-07",
         "title": "Sunset from the Devou Park Overlook",
-        "description": "The classic postcard angle on Cincinnati — the whole skyline, both bridges and the river bend, from a hilltop in Kentucky.",
+        "description": "The classic postcard angle on Cincinnati: the whole skyline, both bridges and the river bend, from a hilltop in Kentucky.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -305,7 +305,7 @@
       {
         "id": "CIN-C-06",
         "title": "Walk the Arboretum at Spring Grove Cemetery",
-        "description": "The second-largest cemetery in the country doubles as a accredited arboretum — 733 acres of lakes, champion trees and Gothic mausoleums you can walk for hours.",
+        "description": "The second-largest cemetery in the country doubles as a accredited arboretum, 733 acres of lakes, champion trees and Gothic mausoleums you can walk for hours.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -324,7 +324,7 @@
       {
         "id": "CIN-C-04",
         "title": "Ride Carol Ann's Carousel at Smale Riverfront Park",
-        "description": "A glass pavilion on the riverfront holding forty-four hand-carved figures, every one of them something distinctly Cincinnati — a flying pig included.",
+        "description": "A glass pavilion on the riverfront holding forty-four hand-carved figures, every one of them something distinctly Cincinnati, a flying pig included.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -402,7 +402,7 @@
       {
         "id": "CIN-C-02",
         "title": "Wander the Glasshouses at Krohn Conservatory",
-        "description": "An art deco glasshouse in Eden Park holding a rainforest, a desert and a twenty-foot indoor waterfall — tropical warmth on the worst Ohio day of the year.",
+        "description": "An art deco glasshouse in Eden Park holding a rainforest, a desert and a twenty-foot indoor waterfall, tropical warmth on the worst Ohio day of the year.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -502,7 +502,7 @@
       {
         "id": "CIN-CU-03",
         "title": "Zaha Hadid's Urban Carpet at the Contemporary Arts Center",
-        "description": "Zaha Hadid's first American building — a stack of concrete boxes with a lobby floor that curls up the back wall, and rotating contemporary shows inside it.",
+        "description": "Zaha Hadid's first American building, a stack of concrete boxes with a lobby floor that curls up the back wall, and rotating contemporary shows inside it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -541,7 +541,7 @@
       {
         "id": "CIN-CU-04",
         "title": "Stand in the Union Terminal Rotunda",
-        "description": "The largest half-dome in the Western hemisphere, lined with Winold Reiss mosaics — an art deco cathedral to rail travel that now holds the city's museums.",
+        "description": "The largest half-dome in the Western hemisphere, lined with Winold Reiss mosaics, an art deco cathedral to rail travel that now holds the city's museums.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -623,7 +623,7 @@
       {
         "id": "CIN-8B-02",
         "title": "The Chili Parlor Showdown",
-        "description": "Three-way at Skyline, three-way at Gold Star, three-way at Camp Washington — one night, one table, and a final ranking nobody is allowed to abstain from.",
+        "description": "Three-way at Skyline, three-way at Gold Star, three-way at Camp Washington: one night, one table, and a final ranking nobody is allowed to abstain from.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3 hrs",
@@ -732,7 +732,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 14,
-        "bonus": "Make the blue deck grating sing — find the spot where passing tires hum a note and record it.",
+        "bonus": "Make the blue deck grating sing. Find the spot where passing tires hum a note and record it.",
         "city": "Cincinnati, OH",
         "mapsUrl": "https://maps.google.com/maps/search/Roebling+Suspension+Bridge+Cincinnati+OH",
         "company": [
@@ -764,7 +764,7 @@
       {
         "id": "CIN-A-06",
         "title": "Ride The Beast at Kings Island",
-        "description": "Spend a full day at Kings Island and give the night over to The Beast — still the longest wooden coaster on earth, and far better after dark.",
+        "description": "Spend a full day at Kings Island and give the night over to The Beast, still the longest wooden coaster on earth, and far better after dark.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "6–8 hrs",
@@ -821,7 +821,7 @@
       {
         "id": "CIN-A-13",
         "title": "Swing Over the Ohio at Smale Riverfront Park",
-        "description": "The porch swings on the riverfront face straight out at the Ohio and the Roebling Bridge — the best free seat in the city at dusk.",
+        "description": "The porch swings on the riverfront face straight out at the Ohio and the Roebling Bridge, the best free seat in the city at dusk.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -878,7 +878,7 @@
       {
         "id": "CIN-A-08",
         "title": "Hike the Twin Bridges Trail in Mt. Airy Forest",
-        "description": "Drop into 1,400 acres of reforested hillside — America's first municipal reforestation project — on a trail that crosses two stone bridges deep in the woods.",
+        "description": "Drop into 1,400 acres of reforested hillside, America's first municipal reforestation project, on a trail that crosses two stone bridges deep in the woods.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -985,7 +985,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 12,
-        "bonus": "Settle it out loud — Skyline or Gold Star — and defend your answer.",
+        "bonus": "Settle it out loud, Skyline or Gold Star, and defend your answer.",
         "city": "Cincinnati, OH",
         "mapsUrl": "https://maps.google.com/maps/search/Skyline+Chili+Cincinnati+OH",
         "company": [
@@ -997,7 +997,7 @@
       {
         "id": "CIN-F-02",
         "title": "Order a Five-Way at Camp Washington Chili",
-        "description": "The James Beard America's Classic of Cincinnati chili — cinnamon-spiced, spaghetti-bedded, buried in shredded cheddar, served around the clock in a chrome diner.",
+        "description": "The James Beard America's Classic of Cincinnati chili. Cinnamon-spiced, spaghetti-bedded, buried in shredded cheddar, served around the clock in a chrome diner.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -1055,7 +1055,7 @@
       {
         "id": "CIN-F-12",
         "title": "Dinner at Boca",
-        "description": "David Falk's flagship at Sixth and Walnut is the city's big-night-out room — luxe, theatrical and booked weeks deep for a reason.",
+        "description": "David Falk's flagship at Sixth and Walnut is the city's big-night-out room, luxe, theatrical and booked weeks deep for a reason.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -1093,7 +1093,7 @@
       {
         "id": "CIN-F-05",
         "title": "Hand-Rolled Pasta in Sotto's Cellar",
-        "description": "A candlelit basement under Sixth Street doing rustic Italian — hand-rolled pasta and wood-fired meats — in what feels like the best-kept room downtown.",
+        "description": "A candlelit basement under Sixth Street doing rustic Italian, hand-rolled pasta and wood-fired meats, in what feels like the best-kept room downtown.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",

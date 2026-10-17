@@ -47,7 +47,7 @@
       {
         "id": "SJU-CU-06",
         "title": "Trace the Island's Roots at the Museo de las Américas",
-        "description": "Go into the Ballajá barracks for the permanent rooms on Taíno, African and Spanish Puerto Rico — the clearest explanation of the island in one building.",
+        "description": "Go into the Ballajá barracks for the permanent rooms on Taíno, African and Spanish Puerto Rico, the clearest explanation of the island in one building.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -67,7 +67,7 @@
       {
         "id": "SJU-CU-01",
         "title": "Work Through the Museo de Arte de Puerto Rico",
-        "description": "Give an afternoon to the island's main art museum in Santurce — five centuries of Puerto Rican work in a 1920s hospital building, with a formal garden behind it.",
+        "description": "Give an afternoon to the island's main art museum in Santurce, five centuries of Puerto Rican work in a 1920s hospital building, with a formal garden behind it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -125,7 +125,7 @@
       {
         "id": "SJU-CU-07",
         "title": "Learn to Dance Bomba with Taller Tambuyé",
-        "description": "Take a class in Puerto Rico's oldest rhythm, where the dancer leads and the drummer has to follow — then go and watch them play it live.",
+        "description": "Take a class in Puerto Rico's oldest rhythm, where the dancer leads and the drummer has to follow, then go and watch them play it live.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -166,7 +166,7 @@
       {
         "id": "SJU-8B-01",
         "title": "Let a Público Driver Pick Your Night",
-        "description": "Get in a público or a taxi, ask the driver where they would actually go tonight — not where tourists go — and commit to it, wherever it is.",
+        "description": "Get in a público or a taxi, ask the driver where they would actually go tonight, not where tourists go, and commit to it, wherever it is.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "5 hrs",
@@ -248,7 +248,7 @@
       {
         "id": "SJU-S-05",
         "title": "Pay Cash at El Batey",
-        "description": "Push into the scruffiest, best bar in Old San Juan — graffiti to the ceiling, a jukebox older than you, and no card machine.",
+        "description": "Push into the scruffiest, best bar in Old San Juan: graffiti to the ceiling, a jukebox older than you, and no card machine.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -307,7 +307,7 @@
       {
         "id": "SJU-S-07",
         "title": "Crawl the Bars of Calle Loíza",
-        "description": "Work east along the strip the city's own twenty-somethings drink on — taprooms, tiny cocktail rooms and late food, no cruise crowd anywhere.",
+        "description": "Work east along the strip the city's own twenty-somethings drink on: taprooms, tiny cocktail rooms and late food, no cruise crowd anywhere.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -386,7 +386,7 @@
       {
         "id": "SJU-S-08",
         "title": "See a Show at the Choliseo",
-        "description": "Get into the island's biggest arena for whoever is playing — the room where Puerto Rico's reggaeton and salsa headliners do their hometown nights.",
+        "description": "Get into the island's biggest arena for whoever is playing, the room where Puerto Rico's reggaeton and salsa headliners do their hometown nights.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "4 hrs",
@@ -425,7 +425,7 @@
       {
         "id": "SJU-S-01",
         "title": "Drink Through All Six Rooms of La Factoría",
-        "description": "Work your way through an unmarked warren of connected bars on Calle San Sebastián — cocktails, then wine, then a back room that turns into a dancefloor.",
+        "description": "Work your way through an unmarked warren of connected bars on Calle San Sebastián: cocktails, then wine, then a back room that turns into a dancefloor.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "4 hrs",
@@ -524,7 +524,7 @@
       {
         "id": "SJU-C-06",
         "title": "Take a Beach Day in Ocean Park",
-        "description": "Use the beach the city actually uses — wider, windier and more local than Condado, with kitesurfers off the point.",
+        "description": "Use the beach the city actually uses: wider, windier and more local than Condado, with kitesurfers off the point.",
         "rarity": "Common",
         "cost": "$",
         "duration": "4 hrs",
@@ -709,7 +709,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Get all the way in — the water is colder than it looks.",
+        "bonus": "Get all the way in. The water is colder than it looks.",
         "city": "Río Grande, PR",
         "mapsUrl": "https://maps.google.com/maps/search/Angelito+Trail+Rio+Grande+PR",
         "company": [
@@ -758,7 +758,7 @@
       {
         "id": "SJU-A-02",
         "title": "Get Lost in the Tunnels of Castillo San Cristóbal",
-        "description": "Work through the largest Spanish fortification in the Americas — dry moats, tunnels and a sentry box with its own ghost story.",
+        "description": "Work through the largest Spanish fortification in the Americas, dry moats, tunnels and a sentry box with its own ghost story.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -956,7 +956,7 @@
       {
         "id": "SJU-F-08",
         "title": "Eat Criollo Cooking at Vianda in Santurce",
-        "description": "Take a table at the small Santurce room that cooks Puerto Rican ingredients with a fine-dining hand — start with the calamari and the bacalao.",
+        "description": "Take a table at the small Santurce room that cooks Puerto Rican ingredients with a fine-dining hand. Start with the calamari and the bacalao.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -1031,7 +1031,7 @@
       {
         "id": "SJU-F-06",
         "title": "Eat a Brunch Made Entirely of Chocolate at Chocobar Cortés",
-        "description": "Order chocolate into everything — grilled cheese, burgers, coffee — at the bean-to-bar café run by the family who have made Puerto Rico's chocolate since 1929.",
+        "description": "Order chocolate into everything (grilled cheese, burgers, coffee) at the bean-to-bar café run by the family who have made Puerto Rico's chocolate since 1929.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -1110,7 +1110,7 @@
       {
         "id": "SJU-F-03",
         "title": "Eat Your Way Down the Luquillo Kiosks",
-        "description": "Work along a strip of about sixty beachfront kiosks east of the city — fried seafood, Peruvian, Argentine, cocktails, live salsa at the weekend.",
+        "description": "Work along a strip of about sixty beachfront kiosks east of the city: fried seafood, Peruvian, Argentine, cocktails, live salsa at the weekend.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",

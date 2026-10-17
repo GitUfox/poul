@@ -9,7 +9,7 @@
       {
         "id": "SFO-A-201",
         "title": "Ferry to Angel Island, Climb Mount Livermore",
-        "description": "The ferry drops you on the bay's biggest island — hike to the 788-foot summit for a 360 of the entire bay, then walk the immigration station where the Pacific's Ellis Island story is carved into the walls.",
+        "description": "The ferry drops you on the bay's biggest island. Hike to the 788-foot summit for a 360 of the entire bay, then walk the immigration station where the Pacific's Ellis Island story is carved into the walls.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "5–7 hrs",
@@ -17,7 +17,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Summit before lunch and name every bridge you can see — there are five on a clear day.",
+        "bonus": "Summit before lunch and name every bridge you can see. There are five on a clear day.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Angel+Island+Ferry+San+Francisco"
       },
@@ -39,7 +39,7 @@
       {
         "id": "SFO-AC-202",
         "title": "Lap the Track at Kezar Stadium",
-        "description": "The public track inside the old 49ers stadium on the edge of Golden Gate Park has hosted everyone from Olympians to lunchtime shufflers — free, historic, and open to whoever shows up.",
+        "description": "The public track inside the old 49ers stadium on the edge of Golden Gate Park has hosted everyone from Olympians to lunchtime shufflers. Free, historic, and open to whoever shows up.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins–1 hr",
@@ -47,14 +47,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "One mile timed — then one victory lap in the outside lane like the old stadium is full.",
+        "bonus": "One mile timed. Then one victory lap in the outside lane like the old stadium is full.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Kezar+Stadium+San+Francisco"
       },
       {
         "id": "SFO-AC-201",
         "title": "Repeats on the Lyon Street Steps",
-        "description": "The manicured staircase dropping from Pacific Heights to the Palace of Fine Arts is the city's glammest outdoor gym — sweat alongside the 6 a.m. regulars with the bay filling the view.",
+        "description": "The manicured staircase dropping from Pacific Heights to the Palace of Fine Arts is the city's glammest outdoor gym, sweat alongside the 6 a.m. regulars with the bay filling the view.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins–1 hr",
@@ -62,7 +62,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Five full climbs — no pausing at the hedge garden to pretend you're admiring it.",
+        "bonus": "Five full climbs, no pausing at the hedge garden to pretend you're admiring it.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Lyon+Street+Steps+San+Francisco"
       },
@@ -77,7 +77,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 40,
-        "bonus": "Ride without stopping at the summit — earn the view, then take a photo to prove you made it.",
+        "bonus": "Ride without stopping at the summit, earn the view, then take a photo to prove you made it.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Marin+Headlands+Gravel+Cycling+Loop"
       },
@@ -107,7 +107,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Walk to the north end of the beach and wade into the surf up to your knees — fog or shine.",
+        "bonus": "Walk to the north end of the beach and wade into the surf up to your knees, fog or shine.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Baker+Beach+San+Francisco"
       },
@@ -122,7 +122,7 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 25,
-        "bonus": "Summit before 9am — name every body of water you can see from the top.",
+        "bonus": "Summit before 9am. Name every body of water you can see from the top.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Mount+Tamalpais+East+Peak+Marin"
       },
@@ -159,7 +159,7 @@
       {
         "id": "SFO-AC-3",
         "title": "Swim at Aquatic Park Cove with the Dolphin Club",
-        "description": "The sheltered saltwater cove at the foot of Ghirardelli Square is where year-round swimmers brave the 55-degree bay without wetsuits — buy a day pass at the Dolphin Club or South End Rowing Club and earn your membership in the conversation.",
+        "description": "The sheltered saltwater cove at the foot of Ghirardelli Square is where year-round swimmers brave the 55-degree bay without wetsuits. Buy a day pass at the Dolphin Club or South End Rowing Club and earn your membership in the conversation.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -167,7 +167,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Get in without testing the water first — no toe-dipping, just go.",
+        "bonus": "Get in without testing the water first, no toe-dipping, just go.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Aquatic+Park+Cove+San+Francisco"
       },
@@ -182,14 +182,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run the whole stretch without earbuds — just the bay, the gulls, and your own breathing.",
+        "bonus": "Run the whole stretch without earbuds: just the bay, the gulls, and your own breathing.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Embarcadero+San+Francisco+waterfront"
       },
       {
         "id": "SFO-AC-1",
         "title": "Run the Panhandle to Ocean Beach and Back",
-        "description": "The Panhandle to Great Highway route runs six miles through Golden Gate Park's core — redwood groves, buffalo paddock, and a beach finish — and it's the local runner's standard.",
+        "description": "The Panhandle to Great Highway route runs six miles through Golden Gate Park's core (redwood groves, buffalo paddock, and a beach finish) and it's the local runner's standard.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -227,14 +227,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Spot a wild cherry-headed conure in the trees — photograph it within arm's reach if you can.",
+        "bonus": "Spot a wild cherry-headed conure in the trees. Photograph it within arm's reach if you can.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Filbert+Steps+Coit+Tower+San+Francisco"
       },
       {
         "id": "SFO-A-9",
         "title": "Cross the Golden Gate on Foot in Golden Light",
-        "description": "Walking the bridge in the last full hour of afternoon sun — Marin Headlands glowing, city stacking up behind you — rewires your sense of scale. Check the sidewalk hours and beat the gate.",
+        "description": "Walking the bridge in the last full hour of afternoon sun (Marin Headlands glowing, city stacking up behind you) rewires your sense of scale. Check the sidewalk hours and beat the gate.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -249,7 +249,7 @@
       {
         "id": "SFO-A-8",
         "title": "Ride the 16th Avenue Tiled Steps to Grand View Park",
-        "description": "The mosaic staircase is just the warm-up — keep climbing through the hidden garden to Grand View Park's summit for the best unobstructed city panorama in the Sunset.",
+        "description": "The mosaic staircase is just the warm-up. Keep climbing through the hidden garden to Grand View Park's summit for the best unobstructed city panorama in the Sunset.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -257,7 +257,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Count every tiled step on the way down without losing track — there are 163.",
+        "bonus": "Count every tiled step on the way down without losing track. There are 163.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/16th+Avenue+Tiled+Steps+San+Francisco"
       },
@@ -309,7 +309,7 @@
       {
         "id": "SFO-A-4",
         "title": "Explore Alcatraz After Dark on the Night Tour",
-        "description": "The island prison transforms at night — rangers guide you through cellblocks with only your footsteps and the bay wind for company.",
+        "description": "The island prison transforms at night, rangers guide you through cellblocks with only your footsteps and the bay wind for company.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -317,7 +317,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Stand alone in the solitary confinement cell — D-Block, cell 14 — for one full minute in the dark.",
+        "bonus": "Stand alone in the solitary confinement cell (D-Block, cell 14) for one full minute in the dark.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Alcatraz+Island+San+Francisco"
       },
@@ -347,7 +347,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Wade in past your knees — the water is colder than you expect and that's the point.",
+        "bonus": "Wade in past your knees. The water is colder than you expect and that's the point.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Ocean+Beach+San+Francisco"
       },
@@ -371,7 +371,7 @@
       {
         "id": "SFO-F-202",
         "title": "The Cart at House of Prime Rib",
-        "description": "Since 1949 the silver zeppelin carts have rolled tableside on Van Ness carving prime rib to order — martinis built at the table, spinning salad bowls, and zero interest in the year outside.",
+        "description": "Since 1949 the silver zeppelin carts have rolled tableside on Van Ness carving prime rib to order. Martinis built at the table, spinning salad bowls, and zero interest in the year outside.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -379,14 +379,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Say yes when they offer seconds — that's the whole point of the cart.",
+        "bonus": "Say yes when they offer seconds, that's the whole point of the cart.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/House+of+Prime+Rib+San+Francisco"
       },
       {
         "id": "SFO-F-201",
         "title": "Focaccia Squares at Golden Boy Pizza",
-        "description": "Since 1978 this North Beach slot in the wall has sold thick Ligurian focaccia squares — clam and garlic, pesto — through a window framed in punk stickers. Cash, line, no seats worth wanting.",
+        "description": "Since 1978 this North Beach slot in the wall has sold thick Ligurian focaccia squares (clam and garlic, pesto) through a window framed in punk stickers. Cash, line, no seats worth wanting.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -409,14 +409,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Build your entire breakfast from vendors outside — no sitting down, just graze and walk.",
+        "bonus": "Build your entire breakfast from vendors outside, no sitting down, just graze and walk.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Ferry+Building+Marketplace+San+Francisco"
       },
       {
         "id": "SFO-F-9",
         "title": "Pizza and Natural Wine at Flour + Water",
-        "description": "This Mission stalwart has been making some of the most technically precise pasta and Neapolitan-style pizza in the city since 2009 — walk-ins at the bar still work.",
+        "description": "This Mission stalwart has been making some of the most technically precise pasta and Neapolitan-style pizza in the city since 2009, walk-ins at the bar still work.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -431,7 +431,7 @@
       {
         "id": "SFO-F-8",
         "title": "Ramen at Marufuku, Japantown",
-        "description": "The Japan Center institution whose Hakata-style tonkotsu draws the longest, most patient lines in the city — thin noodles, milky broth, no shortcuts.",
+        "description": "The Japan Center institution whose Hakata-style tonkotsu draws the longest, most patient lines in the city: thin noodles, milky broth, no shortcuts.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -439,14 +439,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Add every available topping without checking the price — live dangerously, it's ramen.",
+        "bonus": "Add every available topping without checking the price. Live dangerously, it's ramen.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Marufuku+Ramen+Japantown+San+Francisco"
       },
       {
         "id": "SFO-F-7",
         "title": "Mission Burrito Crawl on 24th Street",
-        "description": "La Taqueria versus El Farolito is San Francisco's oldest civic debate — walk the two blocks between them and settle it for yourself.",
+        "description": "La Taqueria versus El Farolito is San Francisco's oldest civic debate. Walk the two blocks between them and settle it for yourself.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -454,14 +454,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the exact same burrito at both — same protein, same toppings — and declare a winner out loud to a stranger.",
+        "bonus": "Order the exact same burrito at both (same protein, same toppings) and declare a winner out loud to a stranger.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/La+Taqueria+San+Francisco+Mission"
       },
       {
         "id": "SFO-F-6",
         "title": "Tasting Menu at Saison",
-        "description": "A wood-fire-driven tasting menu in SoMa where every course feels like the chef is quietly showing off — and absolutely winning.",
+        "description": "A wood-fire-driven tasting menu in SoMa where every course feels like the chef is quietly showing off, and absolutely winning.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -469,14 +469,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Tell your server one ingredient you genuinely dislike and see how they handle it — the kitchen's response will tell you everything.",
+        "bonus": "Tell your server one ingredient you genuinely dislike and see how they handle it. The kitchen's response will tell you everything.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Saison+Restaurant+San+Francisco"
       },
       {
         "id": "SFO-F-5",
         "title": "Crab Louie at Swan Oyster Depot",
-        "description": "This 1912 seafood counter on Polk Street runs on pure institution energy — eighteen marble stools, crushed ice, cold Anchor Steam, and the freshest Dungeness crab in the city.",
+        "description": "This 1912 seafood counter on Polk Street runs on pure institution energy: eighteen marble stools, crushed ice, cold Anchor Steam, and the freshest Dungeness crab in the city.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -484,7 +484,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the guy behind the counter what he'd eat today — then order exactly that.",
+        "bonus": "Ask the guy behind the counter what he'd eat today, then order exactly that.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Swan+Oyster+Depot+San+Francisco"
       },
@@ -499,7 +499,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order whatever the baker is pulling fresh from the oven right now — no menu browsing, just point and commit.",
+        "bonus": "Order whatever the baker is pulling fresh from the oven right now, no menu browsing, just point and commit.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Tartine+Bakery+San+Francisco"
       },
@@ -521,7 +521,7 @@
       {
         "id": "SFO-F-2",
         "title": "Dim Sum at Yank Sing in the Financial District",
-        "description": "Rolling carts, 100-plus items, and har gow so good it settles arguments — this Rincon Center institution has been the city's dim sum benchmark since 1958.",
+        "description": "Rolling carts, 100-plus items, and har gow so good it settles arguments. This Rincon Center institution has been the city's dim sum benchmark since 1958.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -544,7 +544,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Order the chicken for one — they'll resist, but hold firm — and eat every last piece at the zinc bar.",
+        "bonus": "Order the chicken for one (they'll resist, but hold firm) and eat every last piece at the zinc bar.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Zuni+Cafe+San+Francisco"
       }
@@ -553,7 +553,7 @@
       {
         "id": "SFO-S-202",
         "title": "Stand-Up at the Punch Line",
-        "description": "SF's longest-running comedy club has been a proving ground since 1978 — Robin Williams worked this room, Ali Wong taped here, and Tuesday showcases still launch careers.",
+        "description": "SF's longest-running comedy club has been a proving ground since 1978: Robin Williams worked this room, Ali Wong taped here, and Tuesday showcases still launch careers.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -569,7 +569,7 @@
       {
         "id": "SFO-C-201",
         "title": "Feed Quarters to the Musée Mécanique",
-        "description": "A working arcade of 300 antique machines on Fisherman's Wharf — fortune tellers, orchestrions, and Laffing Sal cackling since the Playland days. Free to enter, quarters to play.",
+        "description": "A working arcade of 300 antique machines on Fisherman's Wharf: fortune tellers, orchestrions, and Laffing Sal cackling since the Playland days. Free to enter, quarters to play.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -584,7 +584,7 @@
       {
         "id": "SFO-C-12",
         "title": "Afternoon at the Exploratorium on Pier 15",
-        "description": "This legendary science museum has been rewiring adult brains since 1969 — give yourself two hours and you'll walk out with a completely different understanding of perception.",
+        "description": "This legendary science museum has been rewiring adult brains since 1969. Give yourself two hours and you'll walk out with a completely different understanding of perception.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -592,14 +592,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the Tactile Dome and go through it — no phones, no map, in total darkness.",
+        "bonus": "Find the Tactile Dome and go through it: no phones, no map, in total darkness.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Exploratorium+Pier+15+San+Francisco"
       },
       {
         "id": "SFO-S-11",
         "title": "Attend a Giants Game at Oracle Park",
-        "description": "Oracle Park sits on the bay with a view that makes bad baseball feel like a privilege — get a Ghirardelli sundae in the fourth inning and commit fully to the ritual.",
+        "description": "Oracle Park sits on the bay with a view that makes bad baseball feel like a privilege. Get a Ghirardelli sundae in the fourth inning and commit fully to the ritual.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -622,7 +622,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy the author's book and get it signed — ask them one question that isn't about the book.",
+        "bonus": "Buy the author's book and get it signed. Ask them one question that isn't about the book.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Green+Apple+Books+Inner+Richmond+San+Francisco",
         "company": [
@@ -640,7 +640,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find one artifact or photo that genuinely stops you — read every word of its label before moving on.",
+        "bonus": "Find one artifact or photo that genuinely stops you. Read every word of its label before moving on.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Chinese+Historical+Society+of+America+San+Francisco"
       },
@@ -664,7 +664,7 @@
       {
         "id": "SFO-S-201",
         "title": "Roller Disco at the Church of 8 Wheels",
-        "description": "A deconsecrated Fillmore church reborn as a roller disco — stained glass, funk on the speakers, and Godfather of Skate David Miles Jr. presiding over the congregation.",
+        "description": "A deconsecrated Fillmore church reborn as a roller disco: stained glass, funk on the speakers, and Godfather of Skate David Miles Jr. presiding over the congregation.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -672,7 +672,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Stay on wheels the entire session — pew breaks are for quitters.",
+        "bonus": "Stay on wheels the entire session. Pew breaks are for quitters.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Church+of+8+Wheels+San+Francisco"
       },
@@ -694,7 +694,7 @@
       {
         "id": "SFO-S-10",
         "title": "Drop Into Shotwell's Bar in the Mission",
-        "description": "A no-frills neighborhood bar since 1891 with cheap drinks, a pool table, and a jukebox that knows the neighborhood — exactly the kind of place SF keeps trying to replace.",
+        "description": "A no-frills neighborhood bar since 1891 with cheap drinks, a pool table, and a jukebox that knows the neighborhood. Exactly the kind of place SF keeps trying to replace.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -718,7 +718,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order blind — tell the bartender your mood in one word and accept whatever arrives.",
+        "bonus": "Order blind. Tell the bartender your mood in one word and accept whatever arrives.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Trick+Dog+Bar+Mission+San+Francisco",
         "adult": true
@@ -726,7 +726,7 @@
       {
         "id": "SFO-S-6",
         "title": "Drink the List at Vesuvio Café",
-        "description": "Jack Kerouac's preferred North Beach bar has barely changed since 1948 — two floors of mismatched tables, Beat-era art, and a jukebox that earns its spot on the wall.",
+        "description": "Jack Kerouac's preferred North Beach bar has barely changed since 1948: two floors of mismatched tables, Beat-era art, and a jukebox that earns its spot on the wall.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -750,7 +750,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Sign up for a song before you've had your first drink — commit to it stone cold sober.",
+        "bonus": "Sign up for a song before you've had your first drink. Commit to it stone cold sober.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/The+Mint+Karaoke+San+Francisco",
         "company": [
@@ -761,7 +761,7 @@
       {
         "id": "SFO-S-3",
         "title": "Afternoon Pint at Toronado on Haight Street",
-        "description": "This no-nonsense craft beer bar has been pouring exceptional drafts since 1987 — the tap list is absurdly good and the vibe is pure unironic dive.",
+        "description": "This no-nonsense craft beer bar has been pouring exceptional drafts since 1987. The tap list is absurdly good and the vibe is pure unironic dive.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -769,7 +769,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the bartender for whatever they're personally most excited about right now — no arguing with the answer.",
+        "bonus": "Ask the bartender for whatever they're personally most excited about right now, no arguing with the answer.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Toronado+Bar+Haight+San+Francisco",
         "adult": true
@@ -777,7 +777,7 @@
       {
         "id": "SFO-S-2",
         "title": "Catch a Show at The Fillmore",
-        "description": "Opened in 1912 and the launchpad for Jimi Hendrix, Janis Joplin, and the Grateful Dead — the Fillmore's room acoustics and psychedelic poster walls still make every show feel historic.",
+        "description": "Opened in 1912 and the launchpad for Jimi Hendrix, Janis Joplin, and the Grateful Dead, the Fillmore's room acoustics and psychedelic poster walls still make every show feel historic.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -800,7 +800,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a round for the strangers at the bar at your second stop — no explanation required.",
+        "bonus": "Buy a round for the strangers at the bar at your second stop, no explanation required.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Larkin+Street+Tenderloin+bars+San+Francisco",
         "company": [
@@ -836,7 +836,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy one record you've never heard — based only on cover art — and play it that night.",
+        "bonus": "Buy one record you've never heard, based only on cover art, and play it that night.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Amoeba+Music+Haight+San+Francisco"
       },
@@ -851,7 +851,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find a spot on the grass, pick one stranger nearby, and guess their whole life story — then introduce yourself and see how wrong you were.",
+        "bonus": "Find a spot on the grass, pick one stranger nearby, and guess their whole life story, then introduce yourself and see how wrong you were.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Alamo+Square+Park+San+Francisco"
       },
@@ -866,7 +866,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy one book based solely on the first sentence — no reviews, no covers, no author recognition.",
+        "bonus": "Buy one book based solely on the first sentence: no reviews, no covers, no author recognition.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/City+Lights+Bookstore+San+Francisco",
         "company": [
@@ -884,7 +884,7 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 25,
-        "bonus": "Stay until the fog either fully clears or fully swallows the bridge — no leaving in the middle of the act.",
+        "bonus": "Stay until the fog either fully clears or fully swallows the bridge, no leaving in the middle of the act.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Hawk+Hill+Marin+Headlands+San+Francisco"
       },
@@ -899,7 +899,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Leave your phone face-down for the entire visit — order by actually talking to the barista.",
+        "bonus": "Leave your phone face-down for the entire visit. Order by actually talking to the barista.",
         "city": "San Francisco, CA",
         "mapsUrl": "https://www.google.com/maps/search/Sightglass+Coffee+SoMa+San+Francisco"
       },
@@ -921,7 +921,7 @@
       {
         "id": "SFO-C-1",
         "title": "Sit in Dolores Park on a Sunny Saturday",
-        "description": "The Mission's hillside park is SF's living room — street food vendors, fog-free sunshine, city skyline, and every subculture in the city spread out on one slope.",
+        "description": "The Mission's hillside park is SF's living room: street food vendors, fog-free sunshine, city skyline, and every subculture in the city spread out on one slope.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",

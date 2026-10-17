@@ -9,7 +9,7 @@
       {
         "id": "ORD-A-201",
         "title": "Session the Trails at Big Marsh Bike Park",
-        "description": "On the far South Side, Chicago rewilded an industrial slag site into 278 acres of pump tracks, jump lines, and marshland singletrack — herons on one side, dirt jumps on the other.",
+        "description": "On the far South Side, Chicago rewilded an industrial slag site into 278 acres of pump tracks, jump lines, and marshland singletrack, herons on one side, dirt jumps on the other.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -24,7 +24,7 @@
       {
         "id": "ORD-AC-202",
         "title": "Run the Quarry Loop at Palmisano Park",
-        "description": "Bridgeport turned a 380-million-year-old limestone quarry into a park with a fishing pond at the bottom and a mound-top skyline view at the summit — the strangest, best short run in the city.",
+        "description": "Bridgeport turned a 380-million-year-old limestone quarry into a park with a fishing pond at the bottom and a mound-top skyline view at the summit, the strangest, best short run in the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins–1 hr",
@@ -32,14 +32,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run from pond floor to summit without stopping — quarry bottom to skyline in one push.",
+        "bonus": "Run from pond floor to summit without stopping, quarry bottom to skyline in one push.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Palmisano+Park+Bridgeport+Chicago"
       },
       {
         "id": "ORD-AC-201",
         "title": "Beach Volleyball at North Avenue Beach",
-        "description": "The sand courts at North Avenue Beach run pickup and league games all summer with the full skyline stacked behind the net — bump, set, spike, swim.",
+        "description": "The sand courts at North Avenue Beach run pickup and league games all summer with the full skyline stacked behind the net, bump, set, spike, swim.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -47,7 +47,7 @@
         "time": "Afternoon",
         "season": "May–Sep",
         "spark": 15,
-        "bonus": "Join a game with strangers — introduce yourself only after the first point.",
+        "bonus": "Join a game with strangers. Introduce yourself only after the first point.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/North+Avenue+Beach+volleyball+Chicago",
         "company": [
@@ -57,7 +57,7 @@
       {
         "id": "ORD-AC-12",
         "title": "Trail Run the North Branch of the Chicago River, Edgebrook",
-        "description": "The North Branch Trail hugs the river through actual forest preserves for miles — it's one of the few places in Chicago where you can run for an hour and genuinely forget you're in a city.",
+        "description": "The North Branch Trail hugs the river through actual forest preserves for miles. It's one of the few places in Chicago where you can run for an hour and genuinely forget you're in a city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -72,7 +72,7 @@
       {
         "id": "ORD-AC-10",
         "title": "Canoe the North Shore Channel, Lincolnwood",
-        "description": "A flat-water paddle along the North Shore Channel gives you a completely different angle on the city's northwestern neighborhoods — quiet, tree-lined, and almost entirely off the tourist map.",
+        "description": "A flat-water paddle along the North Shore Channel gives you a completely different angle on the city's northwestern neighborhoods: quiet, tree-lined, and almost entirely off the tourist map.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -87,7 +87,7 @@
       {
         "id": "ORD-AC-9",
         "title": "Rock Climb at Maggie Daley Park Climbing Wall",
-        "description": "The forty-foot climbing wall on the lakefront at Maggie Daley Park runs cheap public sessions with routes for every level — harness up with the skyline over your shoulder.",
+        "description": "The forty-foot climbing wall on the lakefront at Maggie Daley Park runs cheap public sessions with routes for every level, harness up with the skyline over your shoulder.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -102,7 +102,7 @@
       {
         "id": "ORD-AC-7",
         "title": "Sunrise Hike at Palos Forest Preserve, Palos Hills",
-        "description": "Forty-one miles of wooded ravine trails sit thirty minutes from downtown — the bluffs at dawn are legitimately stunning and almost entirely untrafficked.",
+        "description": "Forty-one miles of wooded ravine trails sit thirty minutes from downtown. The bluffs at dawn are legitimately stunning and almost entirely untrafficked.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–4 hrs",
@@ -117,7 +117,7 @@
       {
         "id": "ORD-AC-4",
         "title": "Riverside Loop at Ping Tom Memorial Park",
-        "description": "Chinatown's riverfront park threads pagoda-roofed pavilions, a boathouse, and skyline views along the South Branch — run the loop, then walk Wentworth for a bakery reward.",
+        "description": "Chinatown's riverfront park threads pagoda-roofed pavilions, a boathouse, and skyline views along the South Branch. Run the loop, then walk Wentworth for a bakery reward.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -140,7 +140,7 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Call 'next' within five minutes of arriving — don't wait to be invited in.",
+        "bonus": "Call 'next' within five minutes of arriving. Don't wait to be invited in.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Oz+Park+Basketball+Courts+Chicago",
         "company": [
@@ -150,7 +150,7 @@
       {
         "id": "ORD-AC-2",
         "title": "Run the Lakefront Path at Sunrise",
-        "description": "The 18-mile concrete path along Lake Michigan is at its best in the hour after dawn — empty, lit gold, with the skyline building slowly to your right as you head north from Grant Park.",
+        "description": "The 18-mile concrete path along Lake Michigan is at its best in the hour after dawn: empty, lit gold, with the skyline building slowly to your right as you head north from Grant Park.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -158,7 +158,7 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Run north until you hit Belmont Harbor, then text someone a photo of the skyline from the water's edge — no caption needed.",
+        "bonus": "Run north until you hit Belmont Harbor, then text someone a photo of the skyline from the water's edge, no caption needed.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Lakefront+Trail+Grant+Park+Chicago"
       },
@@ -173,7 +173,7 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 15,
-        "bonus": "Swim out to the buoy line and back without stopping — if you hesitate at the water's edge for more than 10 seconds, you owe the group coffee.",
+        "bonus": "Swim out to the buoy line and back without stopping. If you hesitate at the water's edge for more than 10 seconds, you owe the group coffee.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Oak+Street+Beach+Chicago"
       },
@@ -211,7 +211,7 @@
       {
         "id": "ORD-A-9",
         "title": "Wander Graceland Cemetery",
-        "description": "This 120-acre Victorian cemetery in Uptown holds Sullivan, Burnham, and Mies under its oaks — and the Getty Tomb and eerie Eternal Silence statue stop people cold.",
+        "description": "This 120-acre Victorian cemetery in Uptown holds Sullivan, Burnham, and Mies under its oaks, and the Getty Tomb and eerie Eternal Silence statue stop people cold.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -219,7 +219,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Find Daniel Burnham's island grave without using a map — you have 20 minutes.",
+        "bonus": "Find Daniel Burnham's island grave without using a map. You have 20 minutes.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Graceland+Cemetery+Chicago"
       },
@@ -234,7 +234,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Walk the entire 2.7-mile trail without using your phone once — eyes up the whole way.",
+        "bonus": "Walk the entire 2.7-mile trail without using your phone once, eyes up the whole way.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/The+606+Trail+Chicago"
       },
@@ -264,7 +264,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Stop at exactly zero Divvy stations — bring your own bike and ride the full length without a single break.",
+        "bonus": "Stop at exactly zero Divvy stations. Bring your own bike and ride the full length without a single break.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Chicago+Lakefront+Trail"
       },
@@ -279,14 +279,14 @@
         "time": "Afternoon",
         "season": "May–Nov",
         "spark": 15,
-        "bonus": "Correctly identify three buildings by architect before the guide names them — pick a stranger on the boat as your witness.",
+        "bonus": "Correctly identify three buildings by architect before the guide names them. Pick a stranger on the boat as your witness.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Chicago+Architecture+Center+River+Tour"
       },
       {
         "id": "ORD-A-2",
         "title": "The Three Dune Challenge at Indiana Dunes",
-        "description": "An hour from the Loop, the Three Dune Challenge climbs 552 vertical feet of sand across the park's three tallest dunes — calves screaming, Lake Michigan glittering at the top of every crest.",
+        "description": "An hour from the Loop, the Three Dune Challenge climbs 552 vertical feet of sand across the park's three tallest dunes, calves screaming, Lake Michigan glittering at the top of every crest.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "4–6 hrs",
@@ -378,7 +378,7 @@
       {
         "id": "ORD-C-12",
         "title": "Sunday Morning at the Logan Square Farmers Market",
-        "description": "One of Chicago's liveliest neighborhood markets draws serious vendors, street food, and half of Logan Square onto the boulevard every Sunday morning — indoors in winter, on the street from spring.",
+        "description": "One of Chicago's liveliest neighborhood markets draws serious vendors, street food, and half of Logan Square onto the boulevard every Sunday morning, indoors in winter, on the street from spring.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -408,7 +408,7 @@
       {
         "id": "ORD-C-10",
         "title": "Architectural Pedway Walk Beneath the Loop",
-        "description": "Chicago's underground Pedway system threads six miles beneath the Loop — a surreal, fluorescent city-within-a-city that almost no tourist ever sees.",
+        "description": "Chicago's underground Pedway system threads six miles beneath the Loop, a surreal, fluorescent city-within-a-city that almost no tourist ever sees.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -416,7 +416,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Navigate the full Pedway from City Hall to the Prudential Building using only the in-tunnel signage — no phone maps.",
+        "bonus": "Navigate the full Pedway from City Hall to the Prudential Building using only the in-tunnel signage, no phone maps.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Chicago+Pedway+Loop"
       },
@@ -431,7 +431,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Walk to the southernmost tip of the island and photograph the skyline when the last light hits the glass — no filter.",
+        "bonus": "Walk to the southernmost tip of the island and photograph the skyline when the last light hits the glass, no filter.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Northerly+Island+Chicago"
       },
@@ -461,7 +461,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a book at random from a shelf you'd never normally touch — commit to reading the first chapter tonight.",
+        "bonus": "Buy a book at random from a shelf you'd never normally touch. Commit to reading the first chapter tonight.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Myopic+Books+Wicker+Park+Chicago"
       },
@@ -476,7 +476,7 @@
         "time": "Afternoon",
         "season": "May–Sep",
         "spark": 15,
-        "bonus": "Jump off the limestone ledge into the lake — find the spot the locals use.",
+        "bonus": "Jump off the limestone ledge into the lake. Find the spot the locals use.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Promontory+Point+Hyde+Park+Chicago"
       },
@@ -500,7 +500,7 @@
       {
         "id": "ORD-S-12",
         "title": "Watch Chicago Fire FC at Soldier Field",
-        "description": "A Fire match on a clear summer evening at Soldier Field — lakeside wind, good sightlines, and a supporter section that actually sings the whole time — is one of Chicago's most underrated live sports experiences.",
+        "description": "A Fire match on a clear summer evening at Soldier Field (lakeside wind, good sightlines, and a supporter section that actually sings the whole time) is one of Chicago's most underrated live sports experiences.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -534,7 +534,7 @@
       {
         "id": "ORD-S-6",
         "title": "Bocce Night at Pinstripes, River East",
-        "description": "Pinstripes stacks bocce courts, bowling lanes, and an Italian-American menu under one River East roof — book a court, order a spritz, and settle the score.",
+        "description": "Pinstripes stacks bocce courts, bowling lanes, and an Italian-American menu under one River East roof. Book a court, order a spritz, and settle the score.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -557,7 +557,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Claim Capone's booth — the one with sightlines to both doors — and don't give it up all night.",
+        "bonus": "Claim Capone's booth, the one with sightlines to both doors, and don't give it up all night.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Green+Mill+Cocktail+Lounge+Chicago",
         "adult": true
@@ -573,7 +573,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Move closer to the stage every 30 minutes until you're in the front row — don't ask permission.",
+        "bonus": "Move closer to the stage every 30 minutes until you're in the front row. Don't ask permission.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Buddy+Guy%27s+Legends+Chicago"
       },
@@ -588,14 +588,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Volunteer to be called up during audience participation — no hiding behind your drink.",
+        "bonus": "Volunteer to be called up during audience participation, no hiding behind your drink.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/The+Second+City+Chicago"
       },
       {
         "id": "ORD-S-1",
         "title": "Late-Night Jazz at Andy's Jazz Club, River North",
-        "description": "Andy's has run serious live jazz seven nights a week in River North for nearly half a century — the late set on a Friday draws musicians as well as fans.",
+        "description": "Andy's has run serious live jazz seven nights a week in River North for nearly half a century. The late set on a Friday draws musicians as well as fans.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -632,7 +632,7 @@
       {
         "id": "ORD-S-11",
         "title": "Catch a Lyric Opera of Chicago Performance, Civic Opera House",
-        "description": "The Civic Opera House is one of the grandest performance spaces in America, and the Lyric Opera's productions are world-class — especially in a cheap upper-balcony seat with binoculars.",
+        "description": "The Civic Opera House is one of the grandest performance spaces in America, and the Lyric Opera's productions are world-class, especially in a cheap upper-balcony seat with binoculars.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -640,14 +640,14 @@
         "time": "Evening",
         "season": "Sep–May",
         "spark": 40,
-        "bonus": "Dress for it completely — no jeans — and introduce yourself to your neighbors before the overture starts.",
+        "bonus": "Dress for it completely, no jeans, and introduce yourself to your neighbors before the overture starts.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Lyric+Opera+Chicago+Civic+Opera+House"
       },
       {
         "id": "ORD-S-9",
         "title": "Stand-Up Night at Zanies Comedy Club, Old Town",
-        "description": "Zanies has been Chicago's anchor stand-up room since 1978 — intimate, no-frills, and a reliable pipeline for comics who actually become famous.",
+        "description": "Zanies has been Chicago's anchor stand-up room since 1978: intimate, no-frills, and a reliable pipeline for comics who actually become famous.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -671,14 +671,14 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Catch a foul ball — or at least position yourself in the bleachers and make a legitimate play for one.",
+        "bonus": "Catch a foul ball, or at least position yourself in the bleachers and make a legitimate play for one.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Wrigley+Field+Chicago"
       },
       {
         "id": "ORD-C-9",
         "title": "Afternoon at the Museum of Science and Industry",
-        "description": "The MSI in Hyde Park has anchored the 1893 World's Fair building since 1933, and the full-size German U-boat submarine captured in WWII — sitting in the basement — is still one of the most startling things in any museum anywhere.",
+        "description": "The MSI in Hyde Park has anchored the 1893 World's Fair building since 1933, and the full-size German U-boat submarine captured in WWII, sitting in the basement, is still one of the most startling things in any museum anywhere.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -686,7 +686,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Find the Coal Mine exhibit and ride it — it's been there since 1933 and it still works.",
+        "bonus": "Find the Coal Mine exhibit and ride it. It's been there since 1933 and it still works.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Museum+of+Science+and+Industry+Chicago"
       },
@@ -701,7 +701,7 @@
         "time": "Morning",
         "season": "Sep–May",
         "spark": 25,
-        "bonus": "Close your eyes for one full piece — no phone, no program, just sound in one of the world's best acoustic halls.",
+        "bonus": "Close your eyes for one full piece: no phone, no program, just sound in one of the world's best acoustic halls.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Symphony+Center+Chicago+Orchestra+Hall"
       },
@@ -716,7 +716,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the 9th floor Winter Garden, claim the best chair, and read something you found in the stacks — no screens.",
+        "bonus": "Find the 9th floor Winter Garden, claim the best chair, and read something you found in the stacks, no screens.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Harold+Washington+Library+Center+Chicago",
         "company": [
@@ -725,7 +725,7 @@
       },
       {
         "id": "ORD-C-2",
-        "title": "Afternoon at the Art Institute of Chicago — Modern Wing",
+        "title": "Afternoon at the Art Institute of Chicago: Modern Wing",
         "description": "Renzo Piano's Modern Wing is one of the great museum spaces in the world, and on a weekday afternoon it's almost yours alone.",
         "rarity": "Common",
         "cost": "$$",
@@ -761,7 +761,7 @@
       {
         "id": "ORD-F-12",
         "title": "Lunch at Manny's Cafeteria & Delicatessen, South Loop",
-        "description": "Manny's has been a tray-slide, point-and-shout Jewish deli institution since 1942 — the corned beef is stacked absurdly high and politicians still eat here on purpose.",
+        "description": "Manny's has been a tray-slide, point-and-shout Jewish deli institution since 1942. The corned beef is stacked absurdly high and politicians still eat here on purpose.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -769,7 +769,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the counter staff what the guy ahead of you ordered — then order the exact same thing.",
+        "bonus": "Ask the counter staff what the guy ahead of you ordered, then order the exact same thing.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Manny%27s+Cafeteria+Delicatessen+Chicago"
       },
@@ -784,7 +784,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Tell the bartender your mood, not your order — let them build something for you completely blind.",
+        "bonus": "Tell the bartender your mood, not your order. Let them build something for you completely blind.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/The+Violet+Hour+Wicker+Park+Chicago",
         "adult": true
@@ -792,7 +792,7 @@
       {
         "id": "ORD-F-10",
         "title": "Chicago Dog at Superdawg Drive-In, Norwood Park",
-        "description": "Superdawg has been serving char-dogs — dragged through the garden, never with ketchup — from its iconic rooftop mascots since 1948, and the car hops still bring it to your window.",
+        "description": "Superdawg has been serving char-dogs (dragged through the garden, never with ketchup) from its iconic rooftop mascots since 1948, and the car hops still bring it to your window.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -800,14 +800,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order from the car with the window down and eat without leaving your seat — that's the whole point.",
+        "bonus": "Order from the car with the window down and eat without leaving your seat, that's the whole point.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Superdawg+Drive-In+Chicago"
       },
       {
         "id": "ORD-F-9",
         "title": "Omakase Counter at Kyoten, West Town",
-        "description": "Chef Otto Phan's intimate nigiri-only counter in Logan Square delivers some of the most technically precise sushi in the Midwest — a full sensory shutdown from the outside world.",
+        "description": "Chef Otto Phan's intimate nigiri-only counter in Logan Square delivers some of the most technically precise sushi in the Midwest, a full sensory shutdown from the outside world.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2.5–3 hrs",
@@ -815,14 +815,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Tell Chef Phan it's your first omakase — watch where the conversation goes from there.",
+        "bonus": "Tell Chef Phan it's your first omakase. Watch where the conversation goes from there.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Kyoten+Chicago"
       },
       {
         "id": "ORD-F-8",
         "title": "Carnitas at Carnitas Uruapan, Pilsen",
-        "description": "Since 1975 this 18th Street institution has pulled whole-hog carnitas from the copper cazo every morning — order by the pound with fresh tortillas and eat it while it is still steaming.",
+        "description": "Since 1975 this 18th Street institution has pulled whole-hog carnitas from the copper cazo every morning. Order by the pound with fresh tortillas and eat it while it is still steaming.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -837,7 +837,7 @@
       {
         "id": "ORD-F-7",
         "title": "Steakhouse Night at Gene & Georgetti, River North",
-        "description": "Chicago's oldest steakhouse — open since 1941 — still serves the city's power brokers in red vinyl booths, and the bone-in ribeye hasn't needed updating once.",
+        "description": "Chicago's oldest steakhouse, open since 1941, still serves the city's power brokers in red vinyl booths, and the bone-in ribeye hasn't needed updating once.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -845,7 +845,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask to be seated at the bar and introduce yourself to whoever's next to you — old Chicago has a way of talking.",
+        "bonus": "Ask to be seated at the bar and introduce yourself to whoever's next to you. Old Chicago has a way of talking.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Gene+and+Georgetti+Chicago"
       },
@@ -860,14 +860,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the server what the most over-the-top pancake special is — order exactly that, no substitutions.",
+        "bonus": "Ask the server what the most over-the-top pancake special is. Order exactly that, no substitutions.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Bongo+Room+Wicker+Park+Chicago"
       },
       {
         "id": "ORD-F-5",
         "title": "Maxwell Street Polish at Jim's Original",
-        "description": "Jim's Original has slung char-grilled Polish sausages with grilled onions and sport peppers on the near South Side since 1939 — and the walk-up window barely ever closes.",
+        "description": "Jim's Original has slung char-grilled Polish sausages with grilled onions and sport peppers on the near South Side since 1939. And the walk-up window barely ever closes.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -875,14 +875,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order at 2 a.m. and eat standing at the outdoor counter — no chairs, no excuses.",
+        "bonus": "Order at 2 a.m. and eat standing at the outdoor counter: no chairs, no excuses.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Jim%27s+Original+Maxwell+Street+Chicago"
       },
       {
         "id": "ORD-F-4",
         "title": "Sunday Dim Sum at MingHin Cuisine, Chinatown",
-        "description": "MingHin's cavernous dining room fills with families and carts of har gow, turnip cake, and egg tarts every weekend morning — this is Chinatown at its most alive.",
+        "description": "MingHin's cavernous dining room fills with families and carts of har gow, turnip cake, and egg tarts every weekend morning. This is Chinatown at its most alive.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -890,7 +890,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order something off the cart you can't identify — eat it first, ask questions later.",
+        "bonus": "Order something off the cart you can't identify. Eat it first, ask questions later.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/MingHin+Cuisine+Chinatown+Chicago"
       },
@@ -905,7 +905,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask the sommelier to pair the whole meal blind — no looking at the wine list, full trust, no veto.",
+        "bonus": "Ask the sommelier to pair the whole meal blind: no looking at the wine list, full trust, no veto.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Smyth+Restaurant+West+Loop+Chicago"
       },
@@ -920,7 +920,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order it dipped, hot, and no napkins — eat the whole thing without dripping on your shirt. Everyone's watching.",
+        "bonus": "Order it dipped, hot, and no napkins. Eat the whole thing without dripping on your shirt. Everyone's watching.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Al's+Italian+Beef+Taylor+Street+Chicago"
       },
@@ -935,7 +935,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the sausage patty deep dish — not the crumble — and make everyone at the table admit it's better than New York pizza.",
+        "bonus": "Order the sausage patty deep dish, not the crumble, and make everyone at the table admit it's better than New York pizza.",
         "city": "Chicago, IL",
         "mapsUrl": "https://www.google.com/maps/search/Lou+Malnati's+Pizzeria+River+North+Chicago"
       }

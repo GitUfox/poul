@@ -9,7 +9,7 @@
       {
         "id": "PDX-CU-02",
         "title": "Submarine Tour at OMSI",
-        "description": "A hands-on science museum on the river whose best exhibit is moored outside — the USS Blueback, the last diesel-electric sub the Navy commissioned.",
+        "description": "A hands-on science museum on the river whose best exhibit is moored outside, the USS Blueback, the last diesel-electric sub the Navy commissioned.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -68,7 +68,7 @@
       {
         "id": "PDX-CU-08",
         "title": "Grand Floral Parade at the Rose Festival",
-        "description": "The city's oldest civic tradition — a century-old parade of all-floral floats through downtown, with a visiting fleet and a waterfront carnival around it.",
+        "description": "The city's oldest civic tradition, a century-old parade of all-floral floats through downtown, with a visiting fleet and a waterfront carnival around it.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "5 hrs",
@@ -127,7 +127,7 @@
       {
         "id": "PDX-CU-04",
         "title": "Matchday with the Timbers Army",
-        "description": "One of the loudest supporter sections in North American sport — three thousand people in the north end singing, drumming and holding tifo for ninety minutes straight.",
+        "description": "One of the loudest supporter sections in North American sport, three thousand people in the north end singing, drumming and holding tifo for ninety minutes straight.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3.5 hrs",
@@ -225,7 +225,7 @@
       {
         "id": "PDX-C-07",
         "title": "Bloom Season at Crystal Springs",
-        "description": "Seven acres of rhododendrons, a spring-fed lake and a heron colony tucked behind Reed College — at peak bloom it is genuinely absurd.",
+        "description": "Seven acres of rhododendrons, a spring-fed lake and a heron colony tucked behind Reed College. At peak bloom it is genuinely absurd.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -405,7 +405,7 @@
       },
       {
         "id": "PDX-A-08",
-        "title": "Wildflower Climb up Dog Mountain",
+        "title": "Wildflower Climb Up Dog Mountain",
         "description": "A relentless 2,800-foot climb on the Washington side of the Gorge that pays out in May with an entire summit meadow of balsamroot.",
         "rarity": "Rare",
         "cost": "$",
@@ -443,7 +443,7 @@
       },
       {
         "id": "PDX-A-10",
-        "title": "Switchback up Beacon Rock",
+        "title": "Switchback Up Beacon Rock",
         "description": "Climb a hand-built catwalk of fifty-odd switchbacks bolted to the face of an 848-foot volcanic plug for one of the best views in the Gorge.",
         "rarity": "Common",
         "cost": "$",
@@ -484,7 +484,7 @@
       {
         "id": "PDX-A-12",
         "title": "Learn to Windsurf in Hood River",
-        "description": "Take a lesson in the Columbia River Gorge, where the river current runs one way and the gorge wind screams the other — the wind-sport capital of the country.",
+        "description": "Take a lesson in the Columbia River Gorge, where the river current runs one way and the gorge wind screams the other, the wind-sport capital of the country.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "Full day",
@@ -630,7 +630,7 @@
       {
         "id": "PDX-S-06",
         "title": "Work Your Way Down North Mississippi",
-        "description": "Six walkable blocks of bars, patios and food carts — start at one end, have one drink per stop, and see how far you get.",
+        "description": "Six walkable blocks of bars, patios and food carts. Start at one end, have one drink per stop, and see how far you get.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -669,7 +669,7 @@
       {
         "id": "PDX-S-12",
         "title": "Dance on the Floating Floor at the Crystal Ballroom",
-        "description": "A 1914 ballroom with a mechanical floor mounted on ball bearings — when the room jumps, the whole floor moves with it.",
+        "description": "A 1914 ballroom with a mechanical floor mounted on ball bearings, when the room jumps, the whole floor moves with it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -689,7 +689,7 @@
       {
         "id": "PDX-S-05",
         "title": "Sour Flight at Cascade Brewing Barrel House",
-        "description": "The house that Northwest sour ales built — order a flight of barrel-aged fruit sours and work from the least to the most aggressive.",
+        "description": "The house that Northwest sour ales built. Order a flight of barrel-aged fruit sours and work from the least to the most aggressive.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -768,7 +768,7 @@
       {
         "id": "PDX-S-01",
         "title": "Game Night at Guardian Games",
-        "description": "Grab a table at this board game store and café and challenge a stranger — or a friend — to something you've never played before.",
+        "description": "Grab a table at this board game store and café and challenge a stranger, or a friend, to something you've never played before.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -838,7 +838,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 14,
-        "bonus": "Get there when the doors open — they stop when the dough is gone.",
+        "bonus": "Get there when the doors open. They stop when the dough is gone.",
         "city": "Portland, OR",
         "mapsUrl": "https://maps.google.com/maps/search/Apizza+Scholls+Portland+OR",
         "company": [
@@ -868,7 +868,7 @@
       {
         "id": "PDX-F-07",
         "title": "Breakfast Line at Pine State Biscuits",
-        "description": "Buttermilk biscuits under fried chicken, bacon and sausage gravy — the Reggie Deluxe is the order and the line is part of the deal.",
+        "description": "Buttermilk biscuits under fried chicken, bacon and sausage gravy. The Reggie Deluxe is the order and the line is part of the deal.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -928,7 +928,7 @@
       {
         "id": "PDX-F-08",
         "title": "Zakuski and Horseradish Vodka at Kachka",
-        "description": "Russian and Georgian small plates built for drinking — herring under a fur coat, pelmeni, and an infused vodka list you work through as a table.",
+        "description": "Russian and Georgian small plates built for drinking: herring under a fur coat, pelmeni, and an infused vodka list you work through as a table.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -966,7 +966,7 @@
       {
         "id": "PDX-F-09",
         "title": "Korean Dinner at Han Oak",
-        "description": "Peter Cho cooks Korean-American family food out of a converted courtyard home in the Central Eastside — dumplings, noodles and whole-animal plates.",
+        "description": "Peter Cho cooks Korean-American family food out of a converted courtyard home in the Central Eastside, dumplings, noodles and whole-animal plates.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -993,7 +993,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Split every dish with whoever you're with — no ordering your own plate.",
+        "bonus": "Split every dish with whoever you're with, no ordering your own plate.",
         "city": "Portland, OR",
         "mapsUrl": "https://maps.google.com/maps/search/Hawthorne+Asylum+Food+Carts+Portland+OR"
       },
@@ -1015,7 +1015,7 @@
       {
         "id": "PDX-F-01",
         "title": "Doughnut Run at Voodoo Doughnut",
-        "description": "Order something genuinely strange — bacon maple bar, cereal-crusted, whatever's in the case — from Portland's most famous doughnut counter.",
+        "description": "Order something genuinely strange (bacon maple bar, cereal-crusted, whatever's in the case) from Portland's most famous doughnut counter.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",

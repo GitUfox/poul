@@ -9,7 +9,7 @@
       {
         "id": "PVD-CU-07",
         "title": "The Lippitt House Time Capsule",
-        "description": "An 1865 Victorian built for a governor and barely altered since — original faux-grained woodwork, gasoliers and stencilling, which almost nowhere else still has.",
+        "description": "An 1865 Victorian built for a governor and barely altered since: original faux-grained woodwork, gasoliers and stencilling, which almost nowhere else still has.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -48,7 +48,7 @@
       {
         "id": "PVD-CU-08",
         "title": "PVDFest in the Streets",
-        "description": "The city closes downtown for a weekend of street performance, installations and music — the civic festival that grew out of the WaterFire habit.",
+        "description": "The city closes downtown for a weekend of street performance, installations and music, the civic festival that grew out of the WaterFire habit.",
         "rarity": "Common",
         "cost": "$",
         "duration": "4–5 hrs",
@@ -105,7 +105,7 @@
       {
         "id": "PVD-CU-01",
         "title": "The Collection at the RISD Museum",
-        "description": "An art school's museum with no business being this good — a Monet, a Manet, Roman bronzes, a 12th-century Japanese Buddha, and a world-class textile collection.",
+        "description": "An art school's museum with no business being this good: a Monet, a Manet, Roman bronzes, a 12th-century Japanese Buddha, and a world-class textile collection.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -167,7 +167,7 @@
       {
         "id": "PVD-F-06",
         "title": "Market Crawl on Federal Hill",
-        "description": "Atwells Avenue under its bronze pinecone — fresh ravioli, imported salumi and a market counter where the pasta is made on site.",
+        "description": "Atwells Avenue under its bronze pinecone, fresh ravioli, imported salumi and a market counter where the pasta is made on site.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -205,7 +205,7 @@
       {
         "id": "PVD-F-09",
         "title": "Peruvian Dinner at Los Andes",
-        "description": "Peruvian and Bolivian cooking that has outgrown its neighbourhood several times over — ceviche, lomo saltado and portions built for sharing.",
+        "description": "Peruvian and Bolivian cooking that has outgrown its neighbourhood several times over. Ceviche, lomo saltado and portions built for sharing.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -244,7 +244,7 @@
       {
         "id": "PVD-F-07",
         "title": "Fried Clams at Dune Brothers",
-        "description": "A seafood shack that started in a shipping container and now runs a proper market — whole-belly clams, day-boat fish, nothing shipped from far away.",
+        "description": "A seafood shack that started in a shipping container and now runs a proper market: whole-belly clams, day-boat fish, nothing shipped from far away.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -264,7 +264,7 @@
       {
         "id": "PVD-F-05",
         "title": "Midnight at Haven Brothers",
-        "description": "A 1949 diner car towed to the kerb beside City Hall every evening since 1893 — the oldest mobile diner in America, and the city's great social leveller.",
+        "description": "A 1949 diner car towed to the kerb beside City Hall every evening since 1893, the oldest mobile diner in America, and the city's great social leveller.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -323,7 +323,7 @@
       {
         "id": "PVD-F-02",
         "title": "Hand-Rolled Pasta at Oberlin",
-        "description": "A tight Westminster Street room doing a small raw bar and some of the best pasta in New England — a James Beard Outstanding Restaurant finalist.",
+        "description": "A tight Westminster Street room doing a small raw bar and some of the best pasta in New England, a James Beard Outstanding Restaurant finalist.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -350,7 +350,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 14,
-        "bonus": "Get there at opening — there are almost no seats and no reservations.",
+        "bonus": "Get there at opening. There are almost no seats and no reservations.",
         "city": "Providence, RI",
         "mapsUrl": "https://maps.google.com/maps/search/Pickerel+Luongo+Square+Providence+RI",
         "company": [
@@ -382,7 +382,7 @@
       {
         "id": "PVD-F-04",
         "title": "Hot Wieners All the Way at Olneyville",
-        "description": "Rhode Island's own creation — a small wiener in a steamed bun with meat sauce, mustard, onion and celery salt, lined up along a counterman's forearm.",
+        "description": "Rhode Island's own creation: a small wiener in a steamed bun with meat sauce, mustard, onion and celery salt, lined up along a counterman's forearm.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "45 mins",
@@ -404,7 +404,7 @@
       {
         "id": "PVD-A-07",
         "title": "Surf Narragansett Town Beach",
-        "description": "New England's most reliable beach break, forty minutes south — a long sandy peak that works for beginners and still holds up when a hurricane swell arrives.",
+        "description": "New England's most reliable beach break, forty minutes south. A long sandy peak that works for beginners and still holds up when a hurricane swell arrives.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -523,7 +523,7 @@
       {
         "id": "PVD-A-05",
         "title": "Take the Ferry Down to Newport",
-        "description": "An hour on the water from downtown Providence, under the Pell Bridge and straight into Newport harbour — the only sensible way to make the trip.",
+        "description": "An hour on the water from downtown Providence, under the Pell Bridge and straight into Newport harbour, the only sensible way to make the trip.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "All day",
@@ -542,7 +542,7 @@
       {
         "id": "PVD-A-04",
         "title": "Walk the Newport Cliff Walk",
-        "description": "A public path wedged between Gilded Age mansion lawns and the open Atlantic — waves below on one side, The Breakers on the other.",
+        "description": "A public path wedged between Gilded Age mansion lawns and the open Atlantic, waves below on one side, The Breakers on the other.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -562,7 +562,7 @@
       {
         "id": "PVD-A-08",
         "title": "Find Lovecraft at Swan Point",
-        "description": "A vast Victorian garden cemetery on a bluff over the Seekonk, holding H.P. Lovecraft's grave and its famous inscription — I AM PROVIDENCE.",
+        "description": "A vast Victorian garden cemetery on a bluff over the Seekonk, holding H.P. Lovecraft's grave and its famous inscription. I AM PROVIDENCE.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -602,7 +602,7 @@
       {
         "id": "PVD-A-12",
         "title": "Lap Blackstone Boulevard",
-        "description": "A wide gravel path down the middle of the East Side's grandest avenue — where all of Providence runs, walks its dogs and judges the architecture.",
+        "description": "A wide gravel path down the middle of the East Side's grandest avenue. Where all of Providence runs, walks its dogs and judges the architecture.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -642,7 +642,7 @@
       {
         "id": "PVD-A-09",
         "title": "Loop Roger Williams Park",
-        "description": "Four hundred acres of Olmsted-era lakes, bridges and bandstands on the city's south side — a nineteenth-century idea of a park, still working.",
+        "description": "Four hundred acres of Olmsted-era lakes, bridges and bandstands on the city's south side, a nineteenth-century idea of a park, still working.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -682,7 +682,7 @@
       {
         "id": "PVD-A-02",
         "title": "Boulder the Glacial Blocks at Lincoln Woods",
-        "description": "New England's most accessible bouldering — hundreds of glacier-dumped granite blocks scattered through oak woods fifteen minutes from downtown.",
+        "description": "New England's most accessible bouldering, hundreds of glacier-dumped granite blocks scattered through oak woods fifteen minutes from downtown.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -724,7 +724,7 @@
       {
         "id": "PVD-S-11",
         "title": "Kennedy Plaza After Dark",
-        "description": "The city's crossroads at night — the skating rink in winter, events in summer, and Haven Brothers parked at the kerb either way.",
+        "description": "The city's crossroads at night: the skating rink in winter, events in summer, and Haven Brothers parked at the kerb either way.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -743,7 +743,7 @@
       {
         "id": "PVD-S-10",
         "title": "Late Counter Seat at Pickerel",
-        "description": "Four seats at a wooden bar, cocktails made properly, and a bowl of ramen at eleven at night — the best small room on the West Side.",
+        "description": "Four seats at a wooden bar, cocktails made properly, and a bowl of ramen at eleven at night, the best small room on the West Side.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -783,7 +783,7 @@
       {
         "id": "PVD-S-12",
         "title": "Taproom Crawl of the Mills",
-        "description": "Providence's breweries all moved into the same dead textile mills — you can walk between several of them on the West Side in an afternoon.",
+        "description": "Providence's breweries all moved into the same dead textile mills. You can walk between several of them on the West Side in an afternoon.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -822,7 +822,7 @@
       {
         "id": "PVD-S-08",
         "title": "Atwells Avenue Bar Night",
-        "description": "Federal Hill after dinner — a tight run of wine bars, cafés and late spots under the arch, all within a few hundred metres of each other.",
+        "description": "Federal Hill after dinner: a tight run of wine bars, cafés and late spots under the arch, all within a few hundred metres of each other.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -842,7 +842,7 @@
       {
         "id": "PVD-S-03",
         "title": "Loud Night at Fête Music Hall",
-        "description": "A converted Olneyville mill with two rooms running at once — you can usually find a show you want and a second one you didn't know about.",
+        "description": "A converted Olneyville mill with two rooms running at once. You can usually find a show you want and a second one you didn't know about.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -861,7 +861,7 @@
       {
         "id": "PVD-S-01",
         "title": "Cocktails at The Eddy",
-        "description": "The city's reference cocktail bar since 2012 — dark, narrow, serious about the classics, and willing to make you something off-menu if you let it.",
+        "description": "The city's reference cocktail bar since 2012: dark, narrow, serious about the classics, and willing to make you something off-menu if you let it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -940,7 +940,7 @@
       {
         "id": "PVD-S-09",
         "title": "Pop-Up Dinner Night at Long Live",
-        "description": "The brewery hands its kitchen corner to a different cook most weeks — go without checking who it is and eat whatever they brought.",
+        "description": "The brewery hands its kitchen corner to a different cook most weeks. Go without checking who it is and eat whatever they brought.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -1002,7 +1002,7 @@
       {
         "id": "PVD-C-07",
         "title": "Wander Wickenden Street",
-        "description": "Fox Point's main street — Portuguese bakeries, record shops, coffee and junk stores in a few walkable blocks near the water.",
+        "description": "Fox Point's main street: Portuguese bakeries, record shops, coffee and junk stores in a few walkable blocks near the water.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -1022,7 +1022,7 @@
       {
         "id": "PVD-C-01",
         "title": "Read in the Providence Athenaeum",
-        "description": "An 1838 Greek Revival library on Benefit Street where Poe courted Sarah Helen Whitman — open stacks, green lamps, and absolutely no reason to hurry.",
+        "description": "An 1838 Greek Revival library on Benefit Street where Poe courted Sarah Helen Whitman: open stacks, green lamps, and absolutely no reason to hurry.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -1081,7 +1081,7 @@
       {
         "id": "PVD-C-04",
         "title": "Walk the Mile of History on Benefit Street",
-        "description": "One of the densest surviving stretches of colonial architecture in America — gas lamps, cobbles, and the houses Lovecraft put straight into his stories.",
+        "description": "One of the densest surviving stretches of colonial architecture in America: gas lamps, cobbles, and the houses Lovecraft put straight into his stories.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -1101,7 +1101,7 @@
       {
         "id": "PVD-C-03",
         "title": "Warm Up in the Botanical Center",
-        "description": "The largest indoor display garden in New England — two glasshouses of palms and orchids that stay humid and green while Rhode Island freezes outside.",
+        "description": "The largest indoor display garden in New England, two glasshouses of palms and orchids that stay humid and green while Rhode Island freezes outside.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -1121,7 +1121,7 @@
       {
         "id": "PVD-C-10",
         "title": "Walk Through the Van Wickle Gates",
-        "description": "Brown's 1764 campus on College Hill — brick quads, enormous trees, and iron gates that by tradition only open twice a year.",
+        "description": "Brown's 1764 campus on College Hill: brick quads, enormous trees, and iron gates that by tradition only open twice a year.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -1141,7 +1141,7 @@
       {
         "id": "PVD-C-09",
         "title": "Watch the Bay from India Point Park",
-        "description": "Where the river opens into Narragansett Bay — a long grassy waterfront with the hurricane barrier on one side and open water on the other.",
+        "description": "Where the river opens into Narragansett Bay, a long grassy waterfront with the hurricane barrier on one side and open water on the other.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -1183,7 +1183,7 @@
       {
         "id": "PVD-8B-01",
         "title": "I Am Providence",
-        "description": "Wildcard: walk Lovecraft's Providence on foot — Benefit Street, the Athenaeum, Prospect Terrace, and finally his headstone at Swan Point — and read one of his stories after dark.",
+        "description": "Wildcard: walk Lovecraft's Providence on foot (Benefit Street, the Athenaeum, Prospect Terrace, and finally his headstone at Swan Point) and read one of his stories after dark.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "4–5 hrs",

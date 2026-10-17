@@ -85,7 +85,7 @@
       {
         "id": "BER-CU-02",
         "title": "Modern Berlin at the Berlinische Galerie",
-        "description": "A big bright hall of the city's own art — Dada, Neue Sachlichkeit, divided-city photography — that most visitors skip entirely.",
+        "description": "A big bright hall of the city's own art (Dada, Neue Sachlichkeit, divided-city photography) that most visitors skip entirely.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -206,7 +206,7 @@
         "time": "Evening",
         "season": "May–Sep",
         "spark": 16,
-        "bonus": "Bring a blanket — it gets cold about halfway through.",
+        "bonus": "Bring a blanket. It gets cold about halfway through.",
         "city": "Berlin, Germany",
         "mapsUrl": "https://maps.google.com/maps/search/Freiluftkino+Kreuzberg+Berlin",
         "company": [
@@ -216,7 +216,7 @@
       },
       {
         "id": "BER-S-12",
-        "title": "Sunday Open Air at about blank",
+        "title": "Sunday Open Air at About Blank",
         "description": "The garden opens in the afternoon and does not really close, with a crowd that treats Sunday as the main event.",
         "rarity": "Rare",
         "cost": "$$",
@@ -451,7 +451,7 @@
       {
         "id": "BER-F-07",
         "title": "The Counter at Nobelhart & Schmutzig",
-        "description": "Sit at a counter around an open kitchen for a menu built entirely from ingredients grown within reach of the city — no pepper, no lemon, no olive oil.",
+        "description": "Sit at a counter around an open kitchen for a menu built entirely from ingredients grown within reach of the city: no pepper, no lemon, no olive oil.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "4 hrs",
@@ -672,7 +672,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 16,
-        "bonus": "Register online at least a week ahead — walk-ups do not get in.",
+        "bonus": "Register online at least a week ahead, walk-ups do not get in.",
         "city": "Berlin, Germany",
         "mapsUrl": "https://maps.google.com/maps/search/Reichstag+Building+Berlin",
         "company": [

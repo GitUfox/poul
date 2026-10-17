@@ -8,7 +8,7 @@
     "chill": [
       {
         "id": "ROM-C-09",
-        "title": "Spend an evening on the Isola Tiberina",
+        "title": "Spend an Evening on the Isola Tiberina",
         "description": "Sit on the stone banks of the boat-shaped island in the middle of the Tiber with the river running either side.",
         "rarity": "Rare",
         "cost": "$",
@@ -23,7 +23,7 @@
       },
       {
         "id": "ROM-C-07",
-        "title": "Watch the sun drop from the Pincio terrace",
+        "title": "Watch the Sun Drop from the Pincio Terrace",
         "description": "Take the balustrade above Piazza del Popolo as the rooftops and domes turn copper.",
         "rarity": "Common",
         "cost": "$",
@@ -41,7 +41,7 @@
       },
       {
         "id": "ROM-C-06",
-        "title": "Wander the art nouveau streets of Quartiere Coppedè",
+        "title": "Wander the Art Nouveau Streets of Quartiere Coppedè",
         "description": "Find the four-block fairytale district of spiders, turrets and chandeliers that most Romans have never visited.",
         "rarity": "Common",
         "cost": "$",
@@ -56,7 +56,7 @@
       },
       {
         "id": "ROM-C-05",
-        "title": "Look through the Aventine keyhole at St Peter's",
+        "title": "Look Through the Aventine Keyhole at St Peter's",
         "description": "Put your eye to a green door on a quiet piazza and find the dome framed perfectly at the end of a hedge tunnel.",
         "rarity": "Common",
         "cost": "$",
@@ -74,7 +74,7 @@
       },
       {
         "id": "ROM-C-10",
-        "title": "Soak an afternoon away at QC Termeroma",
+        "title": "Soak an Afternoon Away at QC Termeroma",
         "description": "Work through thermal pools, steam rooms and a sauna circuit at a spa built on a Roman thermal site.",
         "rarity": "Rare",
         "cost": "$$$",
@@ -92,7 +92,7 @@
       },
       {
         "id": "ROM-C-08",
-        "title": "Take a slow hour in the Trastevere botanical garden",
+        "title": "Take a Slow Hour in the Trastevere Botanical Garden",
         "description": "Climb the terraced garden behind Palazzo Corsini past bamboo, a Japanese garden and a fountain nobody else has found.",
         "rarity": "Common",
         "cost": "$",
@@ -110,7 +110,7 @@
       },
       {
         "id": "ROM-C-03",
-        "title": "Wander the quiet paths of the Non-Catholic Cemetery",
+        "title": "Wander the Quiet Paths of the Non-Catholic Cemetery",
         "description": "Sit among cypress trees and the graves of Keats and Shelley in one of Rome's most peaceful, least-visited corners.",
         "rarity": "Common",
         "cost": "$",
@@ -125,7 +125,7 @@
       },
       {
         "id": "ROM-C-04",
-        "title": "Spend a slow morning inside the Galleria Borghese",
+        "title": "Spend a Slow Morning Inside the Galleria Borghese",
         "description": "Book the timed-entry slot and take one room at a time with Bernini's sculptures and Caravaggio's paintings almost to yourself.",
         "rarity": "Rare",
         "cost": "$$",
@@ -140,7 +140,7 @@
       },
       {
         "id": "ROM-C-01",
-        "title": "Watch the sunset from the Orange Garden on Aventine Hill",
+        "title": "Watch the Sunset from the Orange Garden on Aventine Hill",
         "description": "Find a spot along the terrace wall at Giardino degli Aranci as the whole city turns gold below St Peter's dome.",
         "rarity": "Common",
         "cost": "$",
@@ -155,7 +155,7 @@
       },
       {
         "id": "ROM-C-02",
-        "title": "Read a chapter on a bench in Villa Borghese",
+        "title": "Read a Chapter on a Bench in Villa Borghese",
         "description": "Find shade under the pines near the Pincio terrace and let a slow afternoon in Rome's grandest park do the rest.",
         "rarity": "Common",
         "cost": "$",
@@ -172,7 +172,7 @@
     "foodie": [
       {
         "id": "ROM-F-05",
-        "title": "Eat a supplì standing up at Supplizio",
+        "title": "Eat a Supplì Standing Up at Supplizio",
         "description": "Bite into a fried rice ball with a molten mozzarella core at the shop that made the Roman street snack respectable.",
         "rarity": "Common",
         "cost": "$",
@@ -187,7 +187,7 @@
       },
       {
         "id": "ROM-F-11",
-        "title": "Shop the stalls of Mercato Trionfale",
+        "title": "Shop the Stalls of Mercato Trionfale",
         "description": "Walk 270 stalls of fish, cheese, porchetta and vegetables in the biggest covered market in the city, where actual Romans shop.",
         "rarity": "Rare",
         "cost": "$",
@@ -202,7 +202,7 @@
       },
       {
         "id": "ROM-F-08",
-        "title": "Order cacio e pepe at Da Enzo al 29",
+        "title": "Order Cacio e Pepe at Da Enzo al 29",
         "description": "Squeeze into a tiny Trastevere trattoria for the four-ingredient pasta Rome argues about most.",
         "rarity": "Common",
         "cost": "$$",
@@ -220,7 +220,7 @@
       },
       {
         "id": "ROM-F-10",
-        "title": "Drink natural wine at Litro in Monteverde",
+        "title": "Drink Natural Wine at Litro in Monteverde",
         "description": "Take a table at the bar that brought low-intervention wine to Rome and let them pour you something cloudy.",
         "rarity": "Rare",
         "cost": "$$",
@@ -239,7 +239,7 @@
       },
       {
         "id": "ROM-F-12",
-        "title": "Book the tasting menu at Pipero Roma",
+        "title": "Book the Tasting Menu at Pipero Roma",
         "description": "Sit down for a long, sharp, modern take on Roman cooking in a small dining room near the Chiesa Nuova.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -258,7 +258,7 @@
       },
       {
         "id": "ROM-F-07",
-        "title": "Drink the gran caffè at Sant'Eustachio",
+        "title": "Drink the Gran Caffè at Sant'Eustachio",
         "description": "Take the famously sweetened espresso at the counter of a 1938 bar that still won't tell anyone how it's made.",
         "rarity": "Common",
         "cost": "$",
@@ -273,7 +273,7 @@
       },
       {
         "id": "ROM-F-09",
-        "title": "Eat a trapizzino on the street in Testaccio",
+        "title": "Eat a Trapizzino on the Street in Testaccio",
         "description": "Get a triangle of pizza dough stuffed with slow-cooked Roman offal or chicken cacciatora and eat it walking.",
         "rarity": "Common",
         "cost": "$",
@@ -288,7 +288,7 @@
       },
       {
         "id": "ROM-F-06",
-        "title": "Order pizza al taglio by weight at Bonci Pizzarium",
+        "title": "Order Pizza al Taglio by Weight at Bonci Pizzarium",
         "description": "Point at rectangles of pizza behind the glass near the Vatican walls and eat them standing on the pavement.",
         "rarity": "Common",
         "cost": "$",
@@ -303,7 +303,7 @@
       },
       {
         "id": "ROM-F-01",
-        "title": "Street-food crawl through Mercato Testaccio",
+        "title": "Street-Food Crawl Through Mercato Testaccio",
         "description": "Graze your way past trapizzino, supplì, and fifth-quarter classics at Rome's best-loved covered food market.",
         "rarity": "Common",
         "cost": "$",
@@ -318,7 +318,7 @@
       },
       {
         "id": "ROM-F-04",
-        "title": "Book the tasting menu at Roscioli Salumeria con Cucina",
+        "title": "Book the Tasting Menu at Roscioli Salumeria con Cucina",
         "description": "Work through a multi-course parade of Roman classics and rare Italian wines at one of the city's most obsessed-over restaurants.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -333,8 +333,8 @@
       },
       {
         "id": "ROM-F-02",
-        "title": "Taste a gelato flight at Gelateria dei Gracchi",
-        "description": "Line up four small scoops — pistachio, stracciatella, and two flavors you've never tried — at one of Rome's best artisanal gelaterias.",
+        "title": "Taste a Gelato Flight at Gelateria dei Gracchi",
+        "description": "Line up four small scoops (pistachio, stracciatella, and two flavors you've never tried) at one of Rome's best artisanal gelaterias.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -348,7 +348,7 @@
       },
       {
         "id": "ROM-F-03",
-        "title": "Learn to make carbonara from scratch in Trastevere",
+        "title": "Learn to Make Carbonara from Scratch in Trastevere",
         "description": "Roll up your sleeves in a hands-on class and walk out able to cook Rome's most argued-about pasta correctly.",
         "rarity": "Rare",
         "cost": "$$",
@@ -365,7 +365,7 @@
     "culture": [
       {
         "id": "ROM-CU-07",
-        "title": "See Roman marbles among the turbines at Centrale Montemartini",
+        "title": "See Roman Marbles Among the Turbines at Centrale Montemartini",
         "description": "Find classical statues displayed against the boilers and generators of a decommissioned power station.",
         "rarity": "Common",
         "cost": "$",
@@ -380,7 +380,7 @@
       },
       {
         "id": "ROM-CU-01",
-        "title": "Stand under the Sistine ceiling in the Vatican Museums",
+        "title": "Stand Under the Sistine Ceiling in the Vatican Museums",
         "description": "Walk four kilometres of corridors packed with tapestries and maps to arrive, finally, under Michelangelo's ceiling.",
         "rarity": "Legendary",
         "cost": "$$",
@@ -395,7 +395,7 @@
       },
       {
         "id": "ROM-CU-02",
-        "title": "Walk out onto the Colosseum's arena floor",
+        "title": "Walk Out Onto the Colosseum's Arena Floor",
         "description": "Pay for the arena-floor ticket and stand where the sand was, looking up at fifty thousand empty seats.",
         "rarity": "Rare",
         "cost": "$$",
@@ -410,7 +410,7 @@
       },
       {
         "id": "ROM-CU-04",
-        "title": "Stand under the Pantheon's open oculus",
+        "title": "Stand Under the Pantheon's Open Oculus",
         "description": "Step into a 1,900-year-old concrete dome with a hole in the top and watch the light column move across the floor.",
         "rarity": "Common",
         "cost": "$",
@@ -425,7 +425,7 @@
       },
       {
         "id": "ROM-CU-05",
-        "title": "Take a box at the Teatro dell'Opera di Roma",
+        "title": "Take a Box at the Teatro dell'Opera di Roma",
         "description": "Dress up for a gilded 1880 opera house where Puccini and Verdi both premiered work.",
         "rarity": "Rare",
         "cost": "$$$",
@@ -443,7 +443,7 @@
       },
       {
         "id": "ROM-CU-06",
-        "title": "Follow Zaha Hadid's concrete curves through MAXXI",
+        "title": "Follow Zaha Hadid's Concrete Curves Through MAXXI",
         "description": "Trace poured-concrete ramps and black staircases through Rome's museum of 21st-century art and architecture.",
         "rarity": "Common",
         "cost": "$$",
@@ -458,7 +458,7 @@
       },
       {
         "id": "ROM-CU-08",
-        "title": "Take a Serie A night at the Stadio Olimpico",
+        "title": "Take a Serie A Night at the Stadio Olimpico",
         "description": "Sit in the Curva for Roma or Lazio and watch a full stadium run flags, flares and ninety minutes of noise.",
         "rarity": "Rare",
         "cost": "$$",
@@ -476,7 +476,7 @@
       },
       {
         "id": "ROM-CU-03",
-        "title": "Find three Caravaggios in San Luigi dei Francesi",
+        "title": "Find Three Caravaggios in San Luigi dei Francesi",
         "description": "Drop a coin in the light box of a working church and watch the Contarelli Chapel flare into view for free.",
         "rarity": "Common",
         "cost": "$",
@@ -493,7 +493,7 @@
     "adventure": [
       {
         "id": "ROM-A-11",
-        "title": "Trek the Caffarella Valley past sheep and ruins",
+        "title": "Trek the Caffarella Valley Past Sheep and Ruins",
         "description": "Walk a working farmed valley inside the city limits, where shepherds still graze flocks between Roman tombs.",
         "rarity": "Rare",
         "cost": "$",
@@ -508,7 +508,7 @@
       },
       {
         "id": "ROM-A-12",
-        "title": "Hike the crater rim above Lake Albano",
+        "title": "Hike the Crater Rim Above Lake Albano",
         "description": "Take the train into the Castelli Romani and walk the volcanic ridge above the lake, finishing with wine in a hill town.",
         "rarity": "Legendary",
         "cost": "$",
@@ -523,7 +523,7 @@
       },
       {
         "id": "ROM-A-10",
-        "title": "Take the glass lift to the Vittoriano roof terrace",
+        "title": "Take the Glass Lift to the Vittoriano Roof Terrace",
         "description": "Ride up the side of the giant white monument for the only view of Rome that includes the Colosseum and the Forum together.",
         "rarity": "Common",
         "cost": "$$",
@@ -538,7 +538,7 @@
       },
       {
         "id": "ROM-A-06",
-        "title": "Walk the aqueduct arches at Parco degli Acquedotti",
+        "title": "Walk the Aqueduct Arches at Parco degli Acquedotti",
         "description": "Cross a field of standing Roman aqueducts on the edge of the city as the light goes low and gold.",
         "rarity": "Common",
         "cost": "$",
@@ -553,7 +553,7 @@
       },
       {
         "id": "ROM-A-07",
-        "title": "Hike the wooded ridge of Monte Mario",
+        "title": "Hike the Wooded Ridge of Monte Mario",
         "description": "Climb the highest hill in Rome through holm oak woods to a terrace looking straight down on St Peter's dome.",
         "rarity": "Common",
         "cost": "$",
@@ -568,7 +568,7 @@
       },
       {
         "id": "ROM-A-05",
-        "title": "Run the long loop through Villa Doria Pamphili",
+        "title": "Run the Long Loop Through Villa Doria Pamphili",
         "description": "Take the biggest park in Rome at a jog, past umbrella pines, a formal garden and almost no tourists.",
         "rarity": "Common",
         "cost": "$",
@@ -583,7 +583,7 @@
       },
       {
         "id": "ROM-A-08",
-        "title": "Ride a Vespa up to the Gianicolo terrace",
+        "title": "Ride a Vespa Up to the Gianicolo Terrace",
         "description": "Rent a scooter and wind up the Janiculum for the widest view in Rome and the cannon that fires at noon.",
         "rarity": "Rare",
         "cost": "$$",
@@ -598,7 +598,7 @@
       },
       {
         "id": "ROM-A-09",
-        "title": "Spend a day in the ruined streets of Ostia Antica",
+        "title": "Spend a Day in the Ruined Streets of Ostia Antica",
         "description": "Take the train to Rome's abandoned port city and walk paved streets, bath mosaics and a theatre with almost nobody around.",
         "rarity": "Common",
         "cost": "$",
@@ -613,7 +613,7 @@
       },
       {
         "id": "ROM-A-02",
-        "title": "Descend three eras beneath the Basilica di San Clemente",
+        "title": "Descend Three Eras Beneath the Basilica di San Clemente",
         "description": "Walk down through a 12th-century church, a 4th-century basilica, and a 1st-century Mithraic temple, stacked on top of each other.",
         "rarity": "Rare",
         "cost": "$",
@@ -628,7 +628,7 @@
       },
       {
         "id": "ROM-A-03",
-        "title": "Explore the frescoed tunnels of the Catacombs of Priscilla",
+        "title": "Explore the Frescoed Tunnels of the Catacombs of Priscilla",
         "description": "Follow a guide through miles of underground galleries holding some of the earliest known images of the Virgin Mary.",
         "rarity": "Rare",
         "cost": "$$",
@@ -643,7 +643,7 @@
       },
       {
         "id": "ROM-AC-01",
-        "title": "Run a sunrise loop around the Circus Maximus",
+        "title": "Run a Sunrise Loop Around the Circus Maximus",
         "description": "Get your morning miles in on the same ground where chariots once raced, with the Palatine Hill glowing above you.",
         "rarity": "Common",
         "cost": "$",
@@ -658,7 +658,7 @@
       },
       {
         "id": "ROM-A-04",
-        "title": "Climb all 551 steps to the top of St Peter's Dome",
+        "title": "Climb All 551 Steps to the Top of St Peter's Dome",
         "description": "Spiral up through the narrowing dome of the world's largest church to a 360° view over Rome and the Vatican Gardens.",
         "rarity": "Legendary",
         "cost": "$",
@@ -667,13 +667,13 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Skip the elevator — walk every step from the base",
+        "bonus": "Skip the elevator. Walk every step from the base",
         "city": "Rome, Italy",
         "mapsUrl": "https://maps.google.com/maps/search/St+Peters+Basilica+Dome+Rome"
       },
       {
         "id": "ROM-AC-04",
-        "title": "Cycle the cobblestones of Via Appia Antica",
+        "title": "Cycle the Cobblestones of Via Appia Antica",
         "description": "Rent a bike and ride past 2,000-year-old tombs, aqueducts, and umbrella pines on Rome's oldest road.",
         "rarity": "Common",
         "cost": "$",
@@ -688,7 +688,7 @@
       },
       {
         "id": "ROM-A-01",
-        "title": "Descend into the Capuchin Crypt's bone-lined chapels",
+        "title": "Descend into the Capuchin Crypt's Bone-Lined Chapels",
         "description": "Wander five eerily beautiful chapels beneath Santa Maria della Concezione, where the bones of 3,700 friars form the décor.",
         "rarity": "Common",
         "cost": "$",
@@ -705,7 +705,7 @@
     "social": [
       {
         "id": "ROM-S-09",
-        "title": "Walk the summer bars of Lungo il Tevere",
+        "title": "Walk the Summer Bars of Lungo il Tevere",
         "description": "Follow the pop-up bars, food stalls and dance floors that line the Tiber banks every night through the Roman summer.",
         "rarity": "Common",
         "cost": "$",
@@ -724,7 +724,7 @@
       },
       {
         "id": "ROM-S-11",
-        "title": "Find the door at The Jerry Thomas Project",
+        "title": "Find the Door at The Jerry Thomas Project",
         "description": "Track down Rome's original speakeasy, get past the password and drink cocktails made like it's 1920.",
         "rarity": "Rare",
         "cost": "$$$",
@@ -743,7 +743,7 @@
       },
       {
         "id": "ROM-S-06",
-        "title": "Drink craft beer at Ma Che Siete Venuti a Fà",
+        "title": "Drink Craft Beer at Ma Che Siete Venuti a Fà",
         "description": "Squeeze into a Trastevere room the size of a hallway, named after a football chant, with fifteen taps on the wall.",
         "rarity": "Common",
         "cost": "$$",
@@ -759,7 +759,7 @@
       },
       {
         "id": "ROM-S-10",
-        "title": "Crawl the aperitivo bars of Pigneto",
+        "title": "Crawl the Aperitivo Bars of Pigneto",
         "description": "Work the pedestrian strip in Rome's scruffiest, most interesting neighbourhood, where a drink still buys you dinner.",
         "rarity": "Common",
         "cost": "$$",
@@ -778,7 +778,7 @@
       },
       {
         "id": "ROM-S-12",
-        "title": "Dance until sunrise at Goa Club",
+        "title": "Dance Until Sunrise at Goa Club",
         "description": "Commit to Rome's long-running Ostiense techno institution and come out into the light at the end of it.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -797,7 +797,7 @@
       },
       {
         "id": "ROM-S-08",
-        "title": "Order a negroni at Freni e Frizioni",
+        "title": "Order a Negroni at Freni e Frizioni",
         "description": "Take a drink out to the terrace above the river in Trastevere, in a bar that was a mechanic's garage until it wasn't.",
         "rarity": "Common",
         "cost": "$$",
@@ -816,7 +816,7 @@
       },
       {
         "id": "ROM-S-07",
-        "title": "Catch a late set at Alexanderplatz jazz club",
+        "title": "Catch a Late Set at Alexanderplatz Jazz Club",
         "description": "Take a table in Rome's oldest jazz club, a basement near the Vatican where the walls are covered in signatures.",
         "rarity": "Rare",
         "cost": "$$",
@@ -835,7 +835,7 @@
       },
       {
         "id": "ROM-S-05",
-        "title": "Spend a night in the bars of San Lorenzo",
+        "title": "Spend a Night in the Bars of San Lorenzo",
         "description": "Drink cheap in the student quarter behind Termini, where the walls are painted and nothing is polished.",
         "rarity": "Common",
         "cost": "$",
@@ -854,7 +854,7 @@
       },
       {
         "id": "ROM-S-03",
-        "title": "Play pub trivia at an English-speaking bar in Trastevere",
+        "title": "Play Pub Trivia at an English-Speaking Bar in Trastevere",
         "description": "Team up with strangers and expats for a loud, competitive trivia night at one of Trastevere's expat-favorite pubs.",
         "rarity": "Common",
         "cost": "$",
@@ -869,7 +869,7 @@
       },
       {
         "id": "ROM-S-01",
-        "title": "Join the aperitivo hour on a Monti rooftop bar",
+        "title": "Join the Aperitivo Hour on a Monti Rooftop Bar",
         "description": "Grab a spritz and a plate of small bites as the golden hour crowd fills up a terrace above Rome's coolest neighborhood.",
         "rarity": "Common",
         "cost": "$$",
@@ -884,7 +884,7 @@
       },
       {
         "id": "ROM-S-02",
-        "title": "Haggle your way through Porta Portese Sunday market",
+        "title": "Haggle Your Way Through Porta Portese Sunday Market",
         "description": "Dig through blocks of vintage clothes, records, and odd antiques alongside half of Trastevere at Rome's biggest flea market.",
         "rarity": "Common",
         "cost": "$",
@@ -899,7 +899,7 @@
       },
       {
         "id": "ROM-S-04",
-        "title": "Watch AS Roma play with the regulars at a Testaccio bar",
+        "title": "Watch AS Roma Play with the Regulars at a Testaccio Bar",
         "description": "Squeeze into a packed neighborhood bar near the old stadium grounds and feel the whole room rise on every shot on goal.",
         "rarity": "Rare",
         "cost": "$",
@@ -916,7 +916,7 @@
     "8ball": [
       {
         "id": "ROM-8B-01",
-        "title": "Throw a coin in the Trevi Fountain before 7am",
+        "title": "Throw a Coin in the Trevi Fountain Before 7am",
         "description": "Get to the most crowded monument in Rome before anyone else does and have the whole thing roaring away to yourself.",
         "rarity": "Common",
         "cost": "$",
@@ -925,14 +925,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Throw it properly — right hand, over the left shoulder, back turned.",
+        "bonus": "Throw it properly. Right hand, over the left shoulder, back turned.",
         "city": "Rome, Italy",
         "mapsUrl": "https://maps.google.com/maps/search/Trevi+Fountain+Rome",
         "filterExempt": true
       },
       {
         "id": "ROM-8B-02",
-        "title": "Put your hand in the Mouth of Truth",
+        "title": "Put Your Hand in the Mouth of Truth",
         "description": "Queue at the portico of Santa Maria in Cosmedin and stick your hand into the marble mouth that supposedly bites liars.",
         "rarity": "Rare",
         "cost": "$",

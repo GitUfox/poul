@@ -9,7 +9,7 @@
       {
         "id": "DEN-A-202",
         "title": "Walk with Dinosaurs at Dinosaur Ridge",
-        "description": "The hogback outside Morrison preserves hundreds of real dinosaur tracks and bones in the rock where they were found — walk the ridge road and put your hand where a brontosaur stepped.",
+        "description": "The hogback outside Morrison preserves hundreds of real dinosaur tracks and bones in the rock where they were found. Walk the ridge road and put your hand where a brontosaur stepped.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -24,7 +24,7 @@
       {
         "id": "DEN-A-201",
         "title": "Fall Through Reality at Meow Wolf Convergence Station",
-        "description": "Four floors of interdimensional transit station built into a highway interchange — Denver's Meow Wolf rewards the curious with hidden doors, secret narratives, and rooms that should not exist.",
+        "description": "Four floors of interdimensional transit station built into a highway interchange: Denver's Meow Wolf rewards the curious with hidden doors, secret narratives, and rooms that should not exist.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -39,7 +39,7 @@
       {
         "id": "DEN-AC-201",
         "title": "Volleyball on the Wash Park Courts",
-        "description": "Washington Park is Denver's unofficial volleyball capital — on summer weekends the grass courts stretch the length of the park and pickup games absorb anyone standing too close.",
+        "description": "Washington Park is Denver's unofficial volleyball capital, on summer weekends the grass courts stretch the length of the park and pickup games absorb anyone standing too close.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -65,14 +65,14 @@
         "time": "Morning",
         "season": "Nov–Apr",
         "spark": 40,
-        "bonus": "Glissade down the glacier's main slope on your rain jacket — then hike back up and do it again.",
+        "bonus": "Glissade down the glacier's main slope on your rain jacket. Then hike back up and do it again.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/St+Mary's+Glacier+Idaho+Springs+Colorado"
       },
       {
         "id": "DEN-AC-11",
         "title": "Yoga on the Rocks at Red Rocks",
-        "description": "On summer Saturday mornings the amphitheater itself becomes the studio — a thousand mats between the monoliths, sun cresting the plains mid-flow. Tickets go fast.",
+        "description": "On summer Saturday mornings the amphitheater itself becomes the studio, a thousand mats between the monoliths, sun cresting the plains mid-flow. Tickets go fast.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -95,7 +95,7 @@
         "time": "Afternoon",
         "season": "Dec–Feb",
         "spark": 25,
-        "bonus": "Skate the full perimeter of the lake without stopping — no rails, no breaks.",
+        "bonus": "Skate the full perimeter of the lake without stopping: no rails, no breaks.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Evergreen+Lake+Ice+Skating+Evergreen+Colorado"
       },
@@ -117,7 +117,7 @@
       {
         "id": "DEN-AC-8",
         "title": "Tube Clear Creek Through Golden",
-        "description": "Rent a tube, put in above town, and ride glacier-cold Clear Creek right through downtown Golden — locals stack laps all summer and dry off on the grass at Parfet Park.",
+        "description": "Rent a tube, put in above town, and ride glacier-cold Clear Creek right through downtown Golden, locals stack laps all summer and dry off on the grass at Parfet Park.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -125,7 +125,7 @@
         "time": "Afternoon",
         "season": "Jun–Aug",
         "spark": 25,
-        "bonus": "Hold position in the main wave for 10 full seconds without getting pushed out — hands-free.",
+        "bonus": "Hold position in the main wave for 10 full seconds without getting pushed out, hands-free.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Clear+Creek+tubing+Golden+CO"
       },
@@ -140,14 +140,14 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 25,
-        "bonus": "Summit without headphones in — pay attention to every breath and name one thing you see in each cardinal direction at the top.",
+        "bonus": "Summit without headphones in. Pay attention to every breath and name one thing you see in each cardinal direction at the top.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Green+Mountain+Trail+Lakewood+Colorado"
       },
       {
         "id": "DEN-AC-6",
         "title": "Disc Golf at Paco Sanchez Park",
-        "description": "Denver's flagship disc golf course throws over the hills west of the river with skyline views on the back nine — free, walkable from the light rail, and busy every golden hour.",
+        "description": "Denver's flagship disc golf course throws over the hills west of the river with skyline views on the back nine: free, walkable from the light rail, and busy every golden hour.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -155,7 +155,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ace basket 9 — or buy everyone in your group a beer if you can't par it.",
+        "bonus": "Ace basket 9, or buy everyone in your group a beer if you can't par it.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Paco+Sanchez+Park+disc+golf+Denver"
       },
@@ -177,7 +177,7 @@
       {
         "id": "DEN-AC-4",
         "title": "Bouldering at the Morrison Boulderfield",
-        "description": "The south-facing sandstone blocks below Morrison are the Front Range's classic winter bouldering circuit — pull on real rock twenty minutes from downtown while the high country freezes.",
+        "description": "The south-facing sandstone blocks below Morrison are the Front Range's classic winter bouldering circuit. Pull on real rock twenty minutes from downtown while the high country freezes.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -185,14 +185,14 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Send a V3 or harder without using your knees once — no cheater knees allowed.",
+        "bonus": "Send a V3 or harder without using your knees once, no cheater knees allowed.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Morrison+Boulderfield+Morrison+CO"
       },
       {
         "id": "DEN-AC-3",
         "title": "Skate the Denver Skate Park at Confluence Park",
-        "description": "The city's flagship concrete skate park sits at the convergence of the Platte River and Cherry Creek and draws a genuine cross-section of Denver — from toddlers on push bikes to grown men landing rails.",
+        "description": "The city's flagship concrete skate park sits at the convergence of the Platte River and Cherry Creek and draws a genuine cross-section of Denver, from toddlers on push bikes to grown men landing rails.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -200,7 +200,7 @@
         "time": "Afternoon",
         "season": "Mar–Oct",
         "spark": 15,
-        "bonus": "Drop in on the biggest bowl you're afraid of — once is enough, but once is required.",
+        "bonus": "Drop in on the biggest bowl you're afraid of. Once is enough, but once is required.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Denver+Skate+Park+Confluence+Park+Denver+CO"
       },
@@ -215,14 +215,14 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Ride at least 15 miles without stopping to check your phone — just move and look at the trees.",
+        "bonus": "Ride at least 15 miles without stopping to check your phone, just move and look at the trees.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/High+Line+Canal+Trail+Denver+CO"
       },
       {
         "id": "DEN-AC-1",
         "title": "Run the Cherry Creek Trail",
-        "description": "Denver's creek-side artery runs protected below street level from Confluence Park deep into the southeast — pick a distance, follow the water, and let the underpasses do the pacing.",
+        "description": "Denver's creek-side artery runs protected below street level from Confluence Park deep into the southeast. Pick a distance, follow the water, and let the underpasses do the pacing.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–3 hrs",
@@ -230,14 +230,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run your first mile without music or podcasts — just the creek and whatever's in your head.",
+        "bonus": "Run your first mile without music or podcasts, just the creek and whatever's in your head.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Cherry+Creek+Trail+Denver+Colorado"
       },
       {
         "id": "DEN-A-11",
         "title": "Dawn Hike into Waterton Canyon",
-        "description": "The wide canyon road along the South Platte is bighorn sheep country, and first light is when the herds come down to the river — day-use land, so the early alarm is the whole strategy.",
+        "description": "The wide canyon road along the South Platte is bighorn sheep country, and first light is when the herds come down to the river. Day-use land, so the early alarm is the whole strategy.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–4 hrs",
@@ -245,7 +245,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Hike the first three miles with your headlamp off — moonlight or bust.",
+        "bonus": "Hike the first three miles with your headlamp off, moonlight or bust.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Waterton+Canyon+Littleton+Colorado"
       },
@@ -260,13 +260,13 @@
         "time": "Afternoon",
         "season": "May–Oct",
         "spark": 40,
-        "bonus": "Ask your pilot to let you steer during the flight — actually take the toggles and hold a turn for 10 seconds.",
+        "bonus": "Ask your pilot to let you steer during the flight, actually take the toggles and hold a turn for 10 seconds.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Lookout+Mountain+Paragliding+Golden+Colorado"
       },
       {
         "id": "DEN-A-9",
-        "title": "Summit Quandary Peak — Colorado 14er",
+        "title": "Summit Quandary Peak: Colorado 14er",
         "description": "Quandary Peak is the most-climbed 14er in Colorado for good reason: the East Ridge route is direct, the views of the Tenmile Range are staggering, and you earn real bragging rights at 14,265 feet.",
         "rarity": "Legendary",
         "cost": "$",
@@ -275,14 +275,14 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 40,
-        "bonus": "Start before 5 a.m. and summit before 10 a.m. — then call someone from the top who said you wouldn't make it.",
+        "bonus": "Start before 5 a.m. and summit before 10 a.m. Then call someone from the top who said you wouldn't make it.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Quandary+Peak+Colorado+14er"
       },
       {
         "id": "DEN-A-8",
         "title": "Ski Loveland Basin on a Powder Day",
-        "description": "Loveland is the closest true ski resort to Denver and its exposure to the Continental Divide means it catches snow before anyone else — locals know this; tourists drive past it to Breckenridge.",
+        "description": "Loveland is the closest true ski resort to Denver and its exposure to the Continental Divide means it catches snow before anyone else, locals know this; tourists drive past it to Breckenridge.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "5–7 hrs",
@@ -290,7 +290,7 @@
         "time": "Morning",
         "season": "Nov–Apr",
         "spark": 25,
-        "bonus": "Ski one run on Chair 9 with your phone in your pocket — no GoPro, no Strava, just the mountain.",
+        "bonus": "Ski one run on Chair 9 with your phone in your pocket: no GoPro, no Strava, just the mountain.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Loveland+Ski+Area+Colorado"
       },
@@ -305,14 +305,14 @@
         "time": "Morning",
         "season": "May–Aug",
         "spark": 25,
-        "bonus": "Volunteer to sit in the front of the raft for the Class IV Notorious rapid — no swapping spots mid-canyon.",
+        "bonus": "Volunteer to sit in the front of the raft for the Class IV Notorious rapid, no swapping spots mid-canyon.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Clear+Creek+Whitewater+Rafting+Idaho+Springs+Colorado"
       },
       {
         "id": "DEN-A-6",
         "title": "Scramble the First and Second Flatirons",
-        "description": "The classic Boulder scramble climbs the tilted sandstone of the First and Second Flatirons — no ropes, full attention, and a summit view that reframes the entire Front Range.",
+        "description": "The classic Boulder scramble climbs the tilted sandstone of the First and Second Flatirons: no ropes, full attention, and a summit view that reframes the entire Front Range.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–5 hrs",
@@ -335,7 +335,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Run every single row of seats — top to bottom, bottom to top — before the sun clears the ridge.",
+        "bonus": "Run every single row of seats (top to bottom, bottom to top) before the sun clears the ridge.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Red+Rocks+Amphitheatre+Morrison+Colorado"
       },
@@ -350,7 +350,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Clean the rock garden section at the bottom of Sluicebox without dabbing — one clean run counts.",
+        "bonus": "Clean the rock garden section at the bottom of Sluicebox without dabbing, one clean run counts.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Apex+Park+Enchanted+Forest+Trail+Golden+Colorado"
       },
@@ -365,7 +365,7 @@
         "time": "Afternoon",
         "season": "May–Sep",
         "spark": 15,
-        "bonus": "Paddle through the Confluence whitewater channel without putting a hand down — no bracing allowed.",
+        "bonus": "Paddle through the Confluence whitewater channel without putting a hand down, no bracing allowed.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Confluence+Park+Denver+Colorado"
       },
@@ -389,7 +389,7 @@
       {
         "id": "DEN-F-202",
         "title": "A Scoop at Bonnie Brae Ice Cream",
-        "description": "This corner parlor has hand-made its ice cream since 1986, and the summer-evening line down the block is a Denver ritual — cinnamon is the sleeper order.",
+        "description": "This corner parlor has hand-made its ice cream since 1986, and the summer-evening line down the block is a Denver ritual. Cinnamon is the sleeper order.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -397,14 +397,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order whatever flavor the person in front of you got — no vetoes.",
+        "bonus": "Order whatever flavor the person in front of you got, no vetoes.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Bonnie+Brae+Ice+Cream+Denver"
       },
       {
         "id": "DEN-F-201",
         "title": "Cliff Divers and Sopapillas at Casa Bonita",
-        "description": "The pink palace of Lakewood — reborn under new owners who actually fixed the food — still runs cliff divers off a 30-foot indoor waterfall while you eat. There is nowhere else like it on earth.",
+        "description": "The pink palace of Lakewood, reborn under new owners who actually fixed the food, still runs cliff divers off a 30-foot indoor waterfall while you eat. There is nowhere else like it on earth.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -412,7 +412,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Raise the little flag for more sopapillas at least twice — tradition demands it.",
+        "bonus": "Raise the little flag for more sopapillas at least twice, tradition demands it.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Casa+Bonita+Lakewood+CO"
       },
@@ -434,7 +434,7 @@
       {
         "id": "DEN-F-10",
         "title": "Lamb at the Buckhorn Exchange",
-        "description": "Denver's oldest restaurant — liquor license #1, opened 1893 — serves elk, quail, and Rocky Mountain oysters under 500 mounted animals in a dining room that makes every meal feel historic.",
+        "description": "Denver's oldest restaurant (liquor license #1, opened 1893) serves elk, quail, and Rocky Mountain oysters under 500 mounted animals in a dining room that makes every meal feel historic.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -442,14 +442,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Order the Rocky Mountain Oysters as a starter — no explanation to your tablemates allowed until after they've tried one.",
+        "bonus": "Order the Rocky Mountain Oysters as a starter, no explanation to your tablemates allowed until after they've tried one.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Buckhorn+Exchange+Denver+CO"
       },
       {
         "id": "DEN-F-9",
         "title": "Late-Night Ramen at Uncle, LoHi",
-        "description": "Uncle's spicy chicken ramen is a deep, glossy obsession that turns a cold Denver night into something worth staying out for — counter seats reward solo missions.",
+        "description": "Uncle's spicy chicken ramen is a deep, glossy obsession that turns a cold Denver night into something worth staying out for, counter seats reward solo missions.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -457,7 +457,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Add the seasoned egg, bamboo, and extra chashu — then slurp loudly and unapologetically.",
+        "bonus": "Add the seasoned egg, bamboo, and extra chashu, then slurp loudly and unapologetically.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Uncle+ramen+LoHi+Denver",
         "company": [
@@ -475,7 +475,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Skip the menu entirely and ask the itamae for an omakase selection — whatever he's excited about tonight.",
+        "bonus": "Skip the menu entirely and ask the itamae for an omakase selection, whatever he's excited about tonight.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Sushi+Den+Denver+CO"
       },
@@ -497,7 +497,7 @@
       {
         "id": "DEN-F-5",
         "title": "Green Chile at El Taco de Mexico",
-        "description": "The James Beard America's Classic counter on Santa Fe Drive has ladled Denver's benchmark green chile over stuffed sopapillas since 1985 — stools, formica, perfection.",
+        "description": "The James Beard America's Classic counter on Santa Fe Drive has ladled Denver's benchmark green chile over stuffed sopapillas since 1985: stools, formica, perfection.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -535,14 +535,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order one pancake you'd never normally pick — let the server choose for you.",
+        "bonus": "Order one pancake you'd never normally pick. Let the server choose for you.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Snooze+AM+Eatery+Ballpark+Denver+Colorado"
       },
       {
         "id": "DEN-F-2",
         "title": "Green Chile Smothered Burrito at My Brother's Bar",
-        "description": "Denver's oldest bar — pouring since 1873, no signage, Kerouac and Cassady's old haunt — and the jalapeño cream cheese burger ordered off the wall menu is the city's most storied lunch.",
+        "description": "Denver's oldest bar (pouring since 1873, no signage, Kerouac and Cassady's old haunt) and the jalapeño cream cheese burger ordered off the wall menu is the city's most storied lunch.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -550,7 +550,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order a Coors from the tap, sit at the bar, and strike up a conversation with whoever's next to you — no phones during the drink.",
+        "bonus": "Order a Coors from the tap, sit at the bar, and strike up a conversation with whoever's next to you, no phones during the drink.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/My+Brother%27s+Bar+Denver+Colorado"
       },
@@ -565,7 +565,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order the tasting menu and tell the server to pick the wine pairings — no menu-browsing allowed.",
+        "bonus": "Order the tasting menu and tell the server to pick the wine pairings, no menu-browsing allowed.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Mizuna+Restaurant+Denver+Colorado"
       }
@@ -574,7 +574,7 @@
       {
         "id": "DEN-S-202",
         "title": "Summer Night at Lakeside Amusement Park",
-        "description": "Open since 1908, Lakeside is a working time capsule — a wooden Cyclone coaster, hand-painted signs, and vintage neon reflecting off the lake for the price of a modern movie ticket.",
+        "description": "Open since 1908, Lakeside is a working time capsule: a wooden Cyclone coaster, hand-painted signs, and vintage neon reflecting off the lake for the price of a modern movie ticket.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -589,7 +589,7 @@
       {
         "id": "DEN-S-201",
         "title": "Two-Step Night at the Grizzly Rose",
-        "description": "Denver's legendary country dancehall has run boots across its 5,000-square-foot floor since 1989 — free dance lessons early, live bands late, and a mechanical bull with no mercy.",
+        "description": "Denver's legendary country dancehall has run boots across its 5,000-square-foot floor since 1989: free dance lessons early, live bands late, and a mechanical bull with no mercy.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -597,14 +597,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Take the free lesson, then use it with a stranger — and yes, the bull counts for bonus bragging rights.",
+        "bonus": "Take the free lesson, then use it with a stranger. And yes, the bull counts for bonus bragging rights.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Grizzly+Rose+Denver"
       },
       {
         "id": "DEN-S-10",
         "title": "Comedy Show at Comedy Works Downtown",
-        "description": "Since 1981 this basement club has launched careers and hosted legends — grab a two-drink minimum seat and sit close enough to get called out.",
+        "description": "Since 1981 this basement club has launched careers and hosted legends. Grab a two-drink minimum seat and sit close enough to get called out.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -612,7 +612,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sit in the first three rows — front row if it's open — and don't flinch when the comic makes eye contact.",
+        "bonus": "Sit in the first three rows, front row if it's open, and don't flinch when the comic makes eye contact.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Comedy+Works+Downtown+Denver+CO"
       },
@@ -627,7 +627,7 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Challenge a group of strangers to cornhole — loser buys the next round.",
+        "bonus": "Challenge a group of strangers to cornhole, loser buys the next round.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Breckenridge+Brewery+Farmhouse+Littleton+Colorado",
         "adult": true
@@ -635,7 +635,7 @@
       {
         "id": "DEN-S-7",
         "title": "Afternoon Pint at the Wynkoop Brewing Company",
-        "description": "Colorado's original brewpub — opened in 1988 by a future governor — anchors LoDo with legendary billiards, honest pub food, and house-brewed beers that earned the whole state its craft reputation.",
+        "description": "Colorado's original brewpub, opened in 1988 by a future governor, anchors LoDo with legendary billiards, honest pub food, and house-brewed beers that earned the whole state its craft reputation.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -651,7 +651,7 @@
       {
         "id": "DEN-S-6",
         "title": "Live Jazz at Dazzle",
-        "description": "Denver's premier jazz club — now at the Denver Performing Arts Complex — books world-class musicians in a room small enough to feel every note.",
+        "description": "Denver's premier jazz club, now at the Denver Performing Arts Complex, books world-class musicians in a room small enough to feel every note.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -667,7 +667,7 @@
       {
         "id": "DEN-S-5",
         "title": "Craft Cocktails at Williams & Graham in the Highlands",
-        "description": "This speakeasy disguised as a bookshop has set Denver's cocktail standard for over a decade — pull the right book, slip inside, and let bartenders who treat every drink like a thesis take over.",
+        "description": "This speakeasy disguised as a bookshop has set Denver's cocktail standard for over a decade. Pull the right book, slip inside, and let bartenders who treat every drink like a thesis take over.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -675,7 +675,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Tell the bartender your mood, not your order — accept whatever they make without asking what's in it.",
+        "bonus": "Tell the bartender your mood, not your order. Accept whatever they make without asking what's in it.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Williams+and+Graham+Denver+CO",
         "adult": true
@@ -683,7 +683,7 @@
       {
         "id": "DEN-S-1",
         "title": "Live Music at the Bluebird Theater",
-        "description": "The Bluebird has been putting acts into Denver's Colfax Ave corridor since 1913 — the 550-person standing room format makes it one of the best rooms in the country to see a band before they're too big for it.",
+        "description": "The Bluebird has been putting acts into Denver's Colfax Ave corridor since 1913. The 550-person standing room format makes it one of the best rooms in the country to see a band before they're too big for it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -700,7 +700,7 @@
       {
         "id": "DEN-C-201",
         "title": "Get Lost in the Tattered Cover on Colfax",
-        "description": "Denver's great independent bookstore fills a converted theater on East Colfax with worn armchairs and staff picks that actually mean something — an institution the city refused to let die.",
+        "description": "Denver's great independent bookstore fills a converted theater on East Colfax with worn armchairs and staff picks that actually mean something, an institution the city refused to let die.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -708,7 +708,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Read the first chapter of something in an armchair before deciding — that's what they're for.",
+        "bonus": "Read the first chapter of something in an armchair before deciding. That's what they're for.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Tattered+Cover+Colfax+Denver",
         "company": [
@@ -718,7 +718,7 @@
       {
         "id": "DEN-C-12",
         "title": "Afternoon at the Clyfford Still Museum",
-        "description": "This intimate museum on Bannock holds 94% of Still's entire lifetime output — one of the most complete single-artist collections anywhere — in rooms so quiet you can hear yourself think.",
+        "description": "This intimate museum on Bannock holds 94% of Still's entire lifetime output, one of the most complete single-artist collections anywhere, in rooms so quiet you can hear yourself think.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -726,14 +726,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Pick one painting and stand in front of it for ten uninterrupted minutes — no reading the placard first.",
+        "bonus": "Pick one painting and stand in front of it for ten uninterrupted minutes, no reading the placard first.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Clyfford+Still+Museum+Denver+CO"
       },
       {
         "id": "DEN-C-10",
         "title": "Late Afternoon at the Denver Museum of Nature and Science",
-        "description": "This grand civic institution in City Park has anchored Denver's cultural life since 1900 — its gem and mineral hall alone justifies the entire afternoon.",
+        "description": "This grand civic institution in City Park has anchored Denver's cultural life since 1900, its gem and mineral hall alone justifies the entire afternoon.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -741,7 +741,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the largest single gemstone in the mineral hall and spend five full minutes with it — no phone.",
+        "bonus": "Find the largest single gemstone in the mineral hall and spend five full minutes with it, no phone.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Denver+Museum+of+Nature+and+Science",
         "company": [
@@ -751,7 +751,7 @@
       {
         "id": "DEN-S-8",
         "title": "Denver Broncos Game at Empower Field at Mile High",
-        "description": "Mile High's energy on gameday is a full-body Colorado experience — 76,000 people at altitude in orange and navy, absolutely unhinged for three hours.",
+        "description": "Mile High's energy on gameday is a full-body Colorado experience: 76,000 people at altitude in orange and navy, absolutely unhinged for three hours.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "4–5 hrs",
@@ -759,7 +759,7 @@
         "time": "Afternoon",
         "season": "Sep–Jan",
         "spark": 40,
-        "bonus": "Start a chant in your section — if it spreads three rows in either direction, you win the day.",
+        "bonus": "Start a chant in your section. If it spreads three rows in either direction, you win the day.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Empower+Field+at+Mile+High+Denver+CO"
       },
@@ -781,7 +781,7 @@
       {
         "id": "DEN-C-7",
         "title": "Afternoon at the Molly Brown House Museum",
-        "description": "The Victorian Capitol Hill mansion of the original Unsinkable Molly Brown is as wild and over-decorated as the woman herself — one of Denver's best preserved glimpses into Gilded Age excess.",
+        "description": "The Victorian Capitol Hill mansion of the original Unsinkable Molly Brown is as wild and over-decorated as the woman herself, one of Denver's best preserved glimpses into Gilded Age excess.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -804,7 +804,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Walk into one gallery where you understand nothing — ask the artist or staff to explain one piece in the room.",
+        "bonus": "Walk into one gallery where you understand nothing. Ask the artist or staff to explain one piece in the room.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/RiNo+Art+District+Denver+Colorado"
       },
@@ -819,7 +819,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the piece in the Native Arts collection that stops you cold — sit in front of it for five full minutes without moving on.",
+        "bonus": "Find the piece in the Native Arts collection that stops you cold. Sit in front of it for five full minutes without moving on.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Denver+Art+Museum+Colorado"
       },
@@ -834,7 +834,7 @@
         "time": "Evening",
         "season": "Apr–Sep",
         "spark": 16,
-        "bonus": "Catch a foul ball — or at least try.",
+        "bonus": "Catch a foul ball, or at least try.",
         "city": "Denver, CO",
         "mapsUrl": "https://maps.google.com/maps/search/Coors+Field+Denver"
       }
@@ -867,7 +867,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Set a $30 limit, go straight to the used bins, and leave with something you've never heard of — no Shazam allowed.",
+        "bonus": "Set a $30 limit, go straight to the used bins, and leave with something you've never heard of, no Shazam allowed.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Wax+Trax+Records+Denver+CO"
       },
@@ -882,7 +882,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stop and actually listen to one busker for at least three full songs before moving on — leave a real tip.",
+        "bonus": "Stop and actually listen to one busker for at least three full songs before moving on. Leave a real tip.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/16th+Street+Mall+Denver+CO"
       },
@@ -897,7 +897,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order black, whatever they're featuring on the espresso bar today — no milk, no syrup, just taste the thing.",
+        "bonus": "Order black, whatever they're featuring on the espresso bar today: no milk, no syrup, just taste the thing.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Novo+Coffee+Sherman+Denver+CO"
       },
@@ -912,14 +912,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the oldest plant specimen on the grounds — ask a staff member, not Google — and sit with it for five minutes.",
+        "bonus": "Find the oldest plant specimen on the grounds (ask a staff member, not Google) and sit with it for five minutes.",
         "city": "Denver, CO",
         "mapsUrl": "https://www.google.com/maps/search/Denver+Botanic+Gardens+Denver+CO"
       },
       {
         "id": "DEN-C-3",
         "title": "Afternoon in Washington Park",
-        "description": "Denver's great lawn — two lakes, a boat house, giant elms, and a 2.6-mile loop where the whole city seems to exhale every Sunday afternoon.",
+        "description": "Denver's great lawn: two lakes, a boat house, giant elms, and a 2.6-mile loop where the whole city seems to exhale every Sunday afternoon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",

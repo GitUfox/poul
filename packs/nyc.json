@@ -8,8 +8,8 @@
     "social": [
       {
         "id": "NYC-S-201",
-        "title": "Vol de Nuit, The Hidden Bar — West Village",
-        "description": "This tiny Belgian beer bar hides down a courtyard off West 4th Street, where regulars have debated serious things over serious Trappist ales for decades — find the blue neon and descend.",
+        "title": "Vol de Nuit, The Hidden Bar: West Village",
+        "description": "This tiny Belgian beer bar hides down a courtyard off West 4th Street, where regulars have debated serious things over serious Trappist ales for decades. Find the blue neon and descend.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -25,7 +25,7 @@
       {
         "id": "NYC2-S-04",
         "title": "Brooklyn Bowl, Williamsburg",
-        "description": "Bowling lanes, a concert stage, and fried chicken under one Williamsburg roof — a live show and a strike in the same night.",
+        "description": "Bowling lanes, a concert stage, and fried chicken under one Williamsburg roof, a live show and a strike in the same night.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -40,7 +40,7 @@
       {
         "id": "NYC2-S-03",
         "title": "Birdland Jazz Club, Midtown",
-        "description": "The Midtown jazz room carrying a name from 1949 — a tight, classic club booking serious players nightly off Times Square.",
+        "description": "The Midtown jazz room carrying a name from 1949, a tight, classic club booking serious players nightly off Times Square.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -56,7 +56,7 @@
       {
         "id": "NYC2-S-02",
         "title": "Comedy Cellar, MacDougal Street",
-        "description": "The basement Greenwich Village club where the biggest names drop in unannounced — the most reliable great comedy night in America.",
+        "description": "The basement Greenwich Village club where the biggest names drop in unannounced, the most reliable great comedy night in America.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -71,7 +71,7 @@
       {
         "id": "NYC2-S-01",
         "title": "McSorley’s Old Ale House, East Village",
-        "description": "New York's oldest continuously operating saloon, open since 1854 — sawdust floors, two beer choices (light or dark), and cash only.",
+        "description": "New York's oldest continuously operating saloon, open since 1854: sawdust floors, two beer choices (light or dark), and cash only.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -87,7 +87,7 @@
       {
         "id": "NYC-S-104",
         "title": "House of Yes Themed Night",
-        "description": "The Bushwick arts collective runs themed nights every weekend — acrobats, aerialists, the most committed costume crowd in NYC, and DJs who actually read the room.",
+        "description": "The Bushwick arts collective runs themed nights every weekend: acrobats, aerialists, the most committed costume crowd in NYC, and DJs who actually read the room.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -95,14 +95,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Come in full costume for the theme — no half-measures at House of Yes.",
+        "bonus": "Come in full costume for the theme, no half-measures at House of Yes.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=House+of+Yes+Bushwick+Brooklyn"
       },
       {
         "id": "NYC-S-102",
         "title": "Employees Only Midnight Kitchen",
-        "description": "The West Village cocktail bar behind the neon psychic sign keeps the kitchen open until 3:30am on weekends — get a Billionaire's Margarita and the bone marrow.",
+        "description": "The West Village cocktail bar behind the neon psychic sign keeps the kitchen open until 3:30am on weekends. Get a Billionaire's Margarita and the bone marrow.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -110,7 +110,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Get there before midnight and stay until after 2am — the room changes completely.",
+        "bonus": "Get there before midnight and stay until after 2am, the room changes completely.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Employees+Only+New+York",
         "adult": true
@@ -118,7 +118,7 @@
       {
         "id": "NYC-S-101",
         "title": "Please Don't Tell (PDT) Speakeasy",
-        "description": "Enter through the phone booth in Crif Dogs on St. Marks — call ahead, max 45 people, cocktails that justify the ritual every single time.",
+        "description": "Enter through the phone booth in Crif Dogs on St. Marks. Call ahead, max 45 people, cocktails that justify the ritual every single time.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -134,7 +134,7 @@
       {
         "id": "NYC-S-108",
         "title": "Dead Rabbit Cocktail Bar",
-        "description": "The FiDi bar ranked among the world's best takes Irish pub history seriously — go upstairs to the Parlor, order a punch, and read the cocktail menu like a short story.",
+        "description": "The FiDi bar ranked among the world's best takes Irish pub history seriously. Go upstairs to the Parlor, order a punch, and read the cocktail menu like a short story.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -150,7 +150,7 @@
       {
         "id": "NYC-S-103",
         "title": "Koreatown Karaoke Night",
-        "description": "Book a private room at Gagopa or Turntable on 32nd Street after midnight — Korean karaoke rooms are cheaper, louder, and more fun than anything Midtown deserves.",
+        "description": "Book a private room at Gagopa or Turntable on 32nd Street after midnight. Korean karaoke rooms are cheaper, louder, and more fun than anything Midtown deserves.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -168,7 +168,7 @@
       {
         "id": "NYC-S-106",
         "title": "Westlight Rooftop, Williamsburg",
-        "description": "The William Vale Hotel rooftop in Williamsburg gives you the full Manhattan skyline from across the river — the view from Brooklyn looking back is better than anything from Midtown.",
+        "description": "The William Vale Hotel rooftop in Williamsburg gives you the full Manhattan skyline from across the river. The view from Brooklyn looking back is better than anything from Midtown.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -201,7 +201,7 @@
       {
         "id": "NYC-A-203",
         "title": "Scramble the Ravine in the North Woods",
-        "description": "The wild northern end of Central Park hides a genuine rocky ravine with a waterfall and moss-covered boulders — go early on a weekday morning and it feels nothing like Manhattan.",
+        "description": "The wild northern end of Central Park hides a genuine rocky ravine with a waterfall and moss-covered boulders. Go early on a weekday morning and it feels nothing like Manhattan.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -216,7 +216,7 @@
       {
         "id": "NYC-A-202",
         "title": "Kayak the Salt Marsh at Jamaica Bay Wildlife Refuge",
-        "description": "Paddling through this forgotten tidal wilderness inside city limits — egrets, osprey, and the Manhattan skyline on the horizon — feels like a classified secret.",
+        "description": "Paddling through this forgotten tidal wilderness inside city limits (egrets, osprey, and the Manhattan skyline on the horizon) feels like a classified secret.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -261,7 +261,7 @@
       {
         "id": "NYC2-AD-02",
         "title": "Bronx Zoo Full Day",
-        "description": "The largest metropolitan zoo in the US — 265 acres in the Bronx with a monorail through Asia and a world-class Congo gorilla forest.",
+        "description": "The largest metropolitan zoo in the US, 265 acres in the Bronx with a monorail through Asia and a world-class Congo gorilla forest.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -276,7 +276,7 @@
       {
         "id": "NYC2-AD-01",
         "title": "The Edge at Hudson Yards",
-        "description": "The highest outdoor sky deck in the hemisphere, jutting off Hudson Yards a thousand feet up — angled glass walls and a glass floor underfoot.",
+        "description": "The highest outdoor sky deck in the hemisphere, jutting off Hudson Yards a thousand feet up, angled glass walls and a glass floor underfoot.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5 hrs",
@@ -291,7 +291,7 @@
       {
         "id": "NYC2-A-04",
         "title": "Rucker Park Pickup Basketball, Harlem",
-        "description": "The legendary Harlem court at 155th where streetball history was made — watch a run or get in one if your game is real.",
+        "description": "The legendary Harlem court at 155th where streetball history was made. Watch a run or get in one if your game is real.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -309,7 +309,7 @@
       {
         "id": "NYC2-A-03",
         "title": "Brooklyn Bridge Walk at Dawn",
-        "description": "Cross the 1883 bridge on the wooden promenade before the crowds — at dawn you can have the most famous walk in New York nearly to yourself.",
+        "description": "Cross the 1883 bridge on the wooden promenade before the crowds. At dawn you can have the most famous walk in New York nearly to yourself.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -324,7 +324,7 @@
       {
         "id": "NYC2-A-02",
         "title": "Governors Island Bike Day",
-        "description": "Take the ferry to the car-free island in the harbor and rent a bike — car-free loops, hammock groves, and skyline views from the hills.",
+        "description": "Take the ferry to the car-free island in the harbor and rent a bike: car-free loops, hammock groves, and skyline views from the hills.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",
@@ -339,7 +339,7 @@
       {
         "id": "NYC2-A-01",
         "title": "Central Park Full Loop Run",
-        "description": "The six-mile outer loop of Central Park — the classic New York morning run, car-free and rolling from the reservoir to Harlem Hill.",
+        "description": "The six-mile outer loop of Central Park, the classic New York morning run, car-free and rolling from the reservoir to Harlem Hill.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -354,7 +354,7 @@
       {
         "id": "NYC-A-103",
         "title": "Cyclone at Coney Island",
-        "description": "The 1927 wooden roller coaster at Luna Park is still running — buy a ride, eat a Nathan's hot dog, walk the boardwalk in the off-season when it belongs to locals.",
+        "description": "The 1927 wooden roller coaster at Luna Park is still running. Buy a ride, eat a Nathan's hot dog, walk the boardwalk in the off-season when it belongs to locals.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -369,7 +369,7 @@
       {
         "id": "NYC-AC-104",
         "title": "Arthur Avenue Italian Market, Bronx",
-        "description": "The real Little Italy in the Bronx — Biancardi's meat market, Borgatti's fresh pasta, Madonia Brothers bakery — bring a cooler and shop like you live here.",
+        "description": "The real Little Italy in the Bronx (Biancardi's meat market, Borgatti's fresh pasta, Madonia Brothers bakery) bring a cooler and shop like you live here.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -384,7 +384,7 @@
       {
         "id": "NYC-AC-106",
         "title": "Flushing Main St Soup Dumpling Crawl",
-        "description": "The Golden Shopping Mall underground food court for soup dumplings and hand-pulled noodles, then White Bear for wontons — the best block of eating in all of Queens.",
+        "description": "The Golden Shopping Mall underground food court for soup dumplings and hand-pulled noodles, then White Bear for wontons, the best block of eating in all of Queens.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -392,14 +392,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order using a translation app — the counter staff will appreciate the effort.",
+        "bonus": "Order using a translation app. The counter staff will appreciate the effort.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Flushing+Main+Street+Queens+New+York"
       },
       {
         "id": "NYC-A-104",
         "title": "Yankee Stadium Bleacher Creatures",
-        "description": "Section 203 in right field — the Bleacher Creatures run roll call at the start of every game, every player acknowledges them, and the cheap ticket is the right ticket.",
+        "description": "Section 203 in right field: the Bleacher Creatures run roll call at the start of every game, every player acknowledges them, and the cheap ticket is the right ticket.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -414,7 +414,7 @@
       {
         "id": "NYC-AC-102",
         "title": "Prospect Park Long Loop Run",
-        "description": "The 3.35-mile perimeter loop through Brooklyn's Olmsted-designed park, closed to cars all weekend — enter at Grand Army Plaza, run counterclockwise, finish at the boathouse.",
+        "description": "The 3.35-mile perimeter loop through Brooklyn's Olmsted-designed park, closed to cars all weekend. Enter at Grand Army Plaza, run counterclockwise, finish at the boathouse.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -429,7 +429,7 @@
       {
         "id": "NYC-A-102",
         "title": "9/11 Memorial Before 9am",
-        "description": "The twin reflecting pools on a weekday morning before the crowds — the names on the bronze parapets, the survivor tree, the sound of the waterfalls. Go quiet.",
+        "description": "The twin reflecting pools on a weekday morning before the crowds: the names on the bronze parapets, the survivor tree, the sound of the waterfalls. Go quiet.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -444,7 +444,7 @@
       {
         "id": "NYC-A-105",
         "title": "Lower Manhattan Night Ghost Tour",
-        "description": "A 90-minute walk through FiDi, Tribeca, and the Financial District — the stories are half myth, but the neighborhood is 400 years old and doesn't need embellishment.",
+        "description": "A 90-minute walk through FiDi, Tribeca, and the Financial District. The stories are half myth, but the neighborhood is 400 years old and doesn't need embellishment.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -459,7 +459,7 @@
       {
         "id": "NYC-AC-103",
         "title": "Rockaway Beach A-Train Day Trip",
-        "description": "The A train to Far Rockaway drops you at a real city beach with real waves — in summer the food trucks line the lot, in fall you have it mostly to yourself.",
+        "description": "The A train to Far Rockaway drops you at a real city beach with real waves, in summer the food trucks line the lot, in fall you have it mostly to yourself.",
         "rarity": "Common",
         "cost": "$",
         "duration": "4 hrs",
@@ -474,7 +474,7 @@
       {
         "id": "NYC-AC-101",
         "title": "Hudson River Kayak Tour",
-        "description": "Manhattan Kayak Co. runs guided tours from Pier 66 — the city from the water, paddle in hand, is a completely different place than the city from the street.",
+        "description": "Manhattan Kayak Co. runs guided tours from Pier 66. The city from the water, paddle in hand, is a completely different place than the city from the street.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -489,7 +489,7 @@
       {
         "id": "NYC-AC-105",
         "title": "Jackson Heights Food Walk",
-        "description": "Start at Roosevelt Ave and 74th St in Queens — Colombian bakeries, Nepali momos, Indian sweets, Ecuadorian ceviche — the most densely diverse square mile on Earth.",
+        "description": "Start at Roosevelt Ave and 74th St in Queens (Colombian bakeries, Nepali momos, Indian sweets, Ecuadorian ceviche) the most densely diverse square mile on Earth.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -519,7 +519,7 @@
       {
         "id": "NYC-AC-107",
         "title": "Hudson River Greenway Full Ride",
-        "description": "Citi Bike from Pier 84 at 44th St north to Dyckman — 12 miles of separated path along the Hudson, mostly flat, views the whole way, coffee stop at 125th.",
+        "description": "Citi Bike from Pier 84 at 44th St north to Dyckman: 12 miles of separated path along the Hudson, mostly flat, views the whole way, coffee stop at 125th.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -533,8 +533,8 @@
       },
       {
         "id": "NYC-A-101",
-        "title": "NYC Ferry — All Five Lines in One Day",
-        "description": "Board at Pier 11 in FiDi and ride all five NYC Ferry routes — Astoria, East River, South Brooklyn, Rockaway, St. George — the best $3.50 transportation deal in the city.",
+        "title": "NYC Ferry: All Five Lines in One Day",
+        "description": "Board at Pier 11 in FiDi and ride all five NYC Ferry routes: Astoria, East River, South Brooklyn, Rockaway, St. George, the best $3.50 transportation deal in the city.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "6 hrs",
@@ -542,14 +542,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Document the full circuit — photo at every terminal you stop at.",
+        "bonus": "Document the full circuit, photo at every terminal you stop at.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=NYC+Ferry+Pier+11+New+York"
       },
       {
         "id": "NYC-A-106",
         "title": "One World Trade Observatory at Dusk",
-        "description": "Book the FLEX ticket 30 minutes before sunset and stay for the city lighting up below — the only right way to do this is at dusk, never at noon.",
+        "description": "Book the FLEX ticket 30 minutes before sunset and stay for the city lighting up below. The only right way to do this is at dusk, never at noon.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5 hrs",
@@ -569,7 +569,7 @@
       {
         "id": "NYC2-C-04",
         "title": "The Frick Collection",
-        "description": "The Gilded Age mansion museum on Fifth Avenue, reopened in 2025 after its restoration — old masters hung in the rooms of a robber baron's home.",
+        "description": "The Gilded Age mansion museum on Fifth Avenue, reopened in 2025 after its restoration, old masters hung in the rooms of a robber baron's home.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -584,7 +584,7 @@
       {
         "id": "NYC2-C-01",
         "title": "The Met Cloisters, Fort Tryon Park",
-        "description": "The Met's medieval branch built from European monastery fragments, high above the Hudson in Fort Tryon Park — the quietest great museum in the city.",
+        "description": "The Met's medieval branch built from European monastery fragments, high above the Hudson in Fort Tryon Park, the quietest great museum in the city.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -599,7 +599,7 @@
       {
         "id": "NYC-C-102",
         "title": "Socrates Sculpture Park",
-        "description": "The free outdoor sculpture park on the Long Island City waterfront puts large-scale art against the full Manhattan skyline — always changing, always worth the 7 train.",
+        "description": "The free outdoor sculpture park on the Long Island City waterfront puts large-scale art against the full Manhattan skyline, always changing, always worth the 7 train.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -614,7 +614,7 @@
       {
         "id": "NYC-C-103",
         "title": "NYPL Rose Main Reading Room",
-        "description": "The Beaux-Arts reading room at 42nd Street — 78 feet of painted ceiling, long oak tables, total silence — get a free day pass and do nothing productive for two hours.",
+        "description": "The Beaux-Arts reading room at 42nd Street (78 feet of painted ceiling, long oak tables, total silence) get a free day pass and do nothing productive for two hours.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -622,14 +622,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Bring a physical book, not a laptop — read for the full two hours.",
+        "bonus": "Bring a physical book, not a laptop. Read for the full two hours.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=New+York+Public+Library+42nd+Street"
       },
       {
         "id": "NYC-C-106",
         "title": "MoMA PS1 Courtyard",
-        "description": "The Long Island City contemporary art satellite's courtyard often outperforms the galleries — check their Warm Up summer DJ series on Saturdays.",
+        "description": "The Long Island City contemporary art satellite's courtyard often outperforms the galleries. Check their Warm Up summer DJ series on Saturdays.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -644,7 +644,7 @@
       {
         "id": "NYC-C-108",
         "title": "Metrograph Cinema on Ludlow St",
-        "description": "The LES arthouse theater with a serious programming calendar — the cafe is great, the projection is better, and they always have something showing nobody else is playing.",
+        "description": "The LES arthouse theater with a serious programming calendar. The cafe is great, the projection is better, and they always have something showing nobody else is playing.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -652,14 +652,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Pick a film you know nothing about — choose by the poster only.",
+        "bonus": "Pick a film you know nothing about. Choose by the poster only.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Metrograph+Cinema+New+York"
       },
       {
         "id": "NYC-C-105",
         "title": "Green-Wood Cemetery Walk",
-        "description": "The 478-acre National Historic Landmark in Brooklyn — Gothic chapel, glacial ponds, Victorian monuments — the most peaceful walk in the outer boroughs.",
+        "description": "The 478-acre National Historic Landmark in Brooklyn (Gothic chapel, glacial ponds, Victorian monuments) the most peaceful walk in the outer boroughs.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -667,7 +667,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Find a grave belonging to someone you've actually heard of — the list is longer than you think.",
+        "bonus": "Find a grave belonging to someone you've actually heard of. The list is longer than you think.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Green-Wood+Cemetery+Brooklyn"
       }
@@ -676,7 +676,7 @@
       {
         "id": "NYC2-C-03",
         "title": "Staten Island Ferry at Sunset",
-        "description": "The free 25-minute ferry past the Statue of Liberty and back — board westbound at golden hour for the best free skyline view in New York.",
+        "description": "The free 25-minute ferry past the Statue of Liberty and back. Board westbound at golden hour for the best free skyline view in New York.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -694,7 +694,7 @@
       {
         "id": "NYC2-C-02",
         "title": "The High Line Walk, Chelsea",
-        "description": "The elevated rail line turned planted park running from the Meatpacking District up through Chelsea — wildflowers, art, and city views.",
+        "description": "The elevated rail line turned planted park running from the Meatpacking District up through Chelsea: wildflowers, art, and city views.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -709,7 +709,7 @@
       {
         "id": "NYC-C-107",
         "title": "The Strand Dollar Carts on Broadway",
-        "description": "The outdoor $1 carts in front of The Strand at 12th and Broadway — spend $10 on six strange books, take your time, no rush and no one's watching.",
+        "description": "The outdoor $1 carts in front of The Strand at 12th and Broadway. Spend $10 on six strange books, take your time, no rush and no one's watching.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -724,7 +724,7 @@
       {
         "id": "NYC-C-104",
         "title": "Brooklyn Heights Promenade at Dusk",
-        "description": "The elevated esplanade above the BQE holds the most complete lower Manhattan skyline view in the city — the 30 minutes before sunset makes the whole thing golden.",
+        "description": "The elevated esplanade above the BQE holds the most complete lower Manhattan skyline view in the city. The 30 minutes before sunset makes the whole thing golden.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -732,7 +732,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Bring a film camera — no phone photos.",
+        "bonus": "Bring a film camera, no phone photos.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Brooklyn+Heights+Promenade+New+York",
         "company": [
@@ -741,8 +741,8 @@
       },
       {
         "id": "NYC-C-101",
-        "title": "Inwood Hill Park — Manhattan's Last Forest",
-        "description": "Manhattan's last old-growth forest at the island's northern tip — ancient caves, herons on the Harlem River, not a tourist in sight; take the A to Inwood-207th St.",
+        "title": "Inwood Hill Park: Manhattan's Last Forest",
+        "description": "Manhattan's last old-growth forest at the island's northern tip: ancient caves, herons on the Harlem River, not a tourist in sight; take the A to Inwood-207th St.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -759,7 +759,7 @@
       {
         "id": "NYC2-F-05",
         "title": "Veselka, East Village",
-        "description": "The 24-hour Ukrainian diner on Second Avenue serving pierogi and borscht to the East Village since 1954 — best at an odd hour.",
+        "description": "The 24-hour Ukrainian diner on Second Avenue serving pierogi and borscht to the East Village since 1954, best at an odd hour.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -774,7 +774,7 @@
       {
         "id": "NYC2-F-04",
         "title": "Xi’an Famous Foods",
-        "description": "The hand-pulled noodle shop that went from a Flushing basement to a city legend — the cumin lamb biang-biang noodles are the order.",
+        "description": "The hand-pulled noodle shop that went from a Flushing basement to a city legend. The cumin lamb biang-biang noodles are the order.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -789,7 +789,7 @@
       {
         "id": "NYC2-F-03",
         "title": "Los Tacos No. 1, Chelsea Market",
-        "description": "The standing-room taco counter in Chelsea Market with a line out the door — adobada off the trompo on a handmade tortilla.",
+        "description": "The standing-room taco counter in Chelsea Market with a line out the door, adobada off the trompo on a handmade tortilla.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -804,7 +804,7 @@
       {
         "id": "NYC2-F-02",
         "title": "Peter Luger Steak House, Williamsburg",
-        "description": "The 1887 Brooklyn steakhouse under the Williamsburg Bridge — gruff waiters, the porterhouse for two, and cash or house card only.",
+        "description": "The 1887 Brooklyn steakhouse under the Williamsburg Bridge: gruff waiters, the porterhouse for two, and cash or house card only.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -819,7 +819,7 @@
       {
         "id": "NYC2-F-01",
         "title": "Joe’s Pizza, Carmine Street",
-        "description": "The 1975 Greenwich Village slice shop that set the standard for a New York plain slice — no seats, no fuss, just the slice.",
+        "description": "The 1975 Greenwich Village slice shop that set the standard for a New York plain slice: no seats, no fuss, just the slice.",
         "rarity": "Common",
         "cost": "$",
         "duration": "20 min",
@@ -834,7 +834,7 @@
       {
         "id": "NYC-F-108",
         "title": "Zabar's Saturday Morning Circuit",
-        "description": "The Upper West Side institution on Broadway — smoked sable, whitefish salad, a sesame bagel, eaten standing on the sidewalk like the regulars do.",
+        "description": "The Upper West Side institution on Broadway: smoked sable, whitefish salad, a sesame bagel, eaten standing on the sidewalk like the regulars do.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -848,8 +848,8 @@
       },
       {
         "id": "NYC-F-105",
-        "title": "Levain Bakery Cookie — Original Location",
-        "description": "The original Upper West Side bakery on 74th Street — get the walnut chocolate chip warm and eat it on the sidewalk while it's still hot.",
+        "title": "Levain Bakery Cookie: Original Location",
+        "description": "The original Upper West Side bakery on 74th Street. Get the walnut chocolate chip warm and eat it on the sidewalk while it's still hot.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -879,7 +879,7 @@
       {
         "id": "NYC-F-107",
         "title": "Smorgasburg Williamsburg Saturday",
-        "description": "100 local food vendors on the Williamsburg waterfront every Saturday with the Manhattan skyline behind them — bring cash and two hours.",
+        "description": "100 local food vendors on the Williamsburg waterfront every Saturday with the Manhattan skyline behind them. Bring cash and two hours.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -894,7 +894,7 @@
       {
         "id": "NYC-F-102",
         "title": "Katz's Deli Pastrami at Midnight",
-        "description": "The pastrami on rye at midnight hits differently when the tourists are gone and the regulars claim the tables — order a full stack, extra mustard, no negotiation.",
+        "description": "The pastrami on rye at midnight hits differently when the tourists are gone and the regulars claim the tables. Order a full stack, extra mustard, no negotiation.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "1 hr",
@@ -909,7 +909,7 @@
       {
         "id": "NYC-F-110",
         "title": "Sylvia's Harlem Soul Food",
-        "description": "The Harlem institution on Lenox Ave — fried chicken, collard greens, candied yams, and cornbread in a room that's hosted every kind of person.",
+        "description": "The Harlem institution on Lenox Ave: fried chicken, collard greens, candied yams, and cornbread in a room that's hosted every kind of person.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -924,7 +924,7 @@
       {
         "id": "NYC-F-109",
         "title": "Di Fara Pizza in Midwood",
-        "description": "Dom DeMarco's family still runs the counter in Brooklyn's Midwood — one slice of the regular pie, one square, accept the wait, pay cash, eat at the counter.",
+        "description": "Dom DeMarco's family still runs the counter in Brooklyn's Midwood: one slice of the regular pie, one square, accept the wait, pay cash, eat at the counter.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -932,14 +932,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Introduce yourself to the person next to you in line — the wait gives you time.",
+        "bonus": "Introduce yourself to the person next to you in line. The wait gives you time.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Di+Fara+Pizza+Brooklyn"
       },
       {
         "id": "NYC-F-106",
         "title": "Ivan Ramen Counter on Clinton St",
-        "description": "Rich, clean shio ramen from the American chef who earned his stripes in Tokyo — sit at the counter, order the Six Mushroom Ramen, and watch the kitchen.",
+        "description": "Rich, clean shio ramen from the American chef who earned his stripes in Tokyo. Sit at the counter, order the Six Mushroom Ramen, and watch the kitchen.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1 hr",
@@ -947,14 +947,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Eat at the counter solo, no phone — watch the kitchen the entire time.",
+        "bonus": "Eat at the counter solo, no phone. Watch the kitchen the entire time.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Ivan+Ramen+New+York"
       },
       {
         "id": "NYC-F-103",
         "title": "Nom Wah Tea Parlor Dim Sum",
-        "description": "NYC's oldest dim sum parlor (est. 1920) on Doyers Street — egg rolls and steamed rice rolls, eaten slowly with hot oolong at a table that's seen a century of the city.",
+        "description": "NYC's oldest dim sum parlor (est. 1920) on Doyers Street, egg rolls and steamed rice rolls, eaten slowly with hot oolong at a table that's seen a century of the city.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -962,14 +962,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order one thing from the menu you've never tried — no phone translation allowed.",
+        "bonus": "Order one thing from the menu you've never tried, no phone translation allowed.",
         "city": "New York City",
         "mapsUrl": "https://maps.google.com/?q=Nom+Wah+Tea+Parlor+New+York"
       },
       {
         "id": "NYC-F-101",
         "title": "Russ & Daughters Sunday Lox Plate",
-        "description": "Order the Classic at the Orchard Street sit-down — hand-sliced Nova, cream cheese, capers, red onion on a perfect bagel — before the line wraps the block.",
+        "description": "Order the Classic at the Orchard Street sit-down (hand-sliced Nova, cream cheese, capers, red onion on a perfect bagel) before the line wraps the block.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1 hr",

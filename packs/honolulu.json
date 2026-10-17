@@ -67,7 +67,7 @@
       },
       {
         "id": "HNL-A-12",
-        "title": "Skydive over the North Shore",
+        "title": "Skydive Over the North Shore",
         "description": "Fourteen thousand feet above Dillingham Airfield, with the whole reef line, the Waiʻanae range and the open Pacific under your feet.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -145,7 +145,7 @@
       {
         "id": "HNL-A-08",
         "title": "Makapuʻu Point Lighthouse Trail",
-        "description": "A paved coastal climb around the easternmost tip of Oʻahu, with tide pools below and — in winter — humpbacks breaching offshore.",
+        "description": "A paved coastal climb around the easternmost tip of Oʻahu, with tide pools below and, in winter, humpbacks breaching offshore.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -164,7 +164,7 @@
       },
       {
         "id": "HNL-A-01",
-        "title": "Hike Diamond Head State Monument at sunrise",
+        "title": "Hike Diamond Head State Monument at Sunrise",
         "description": "Climb the switchback trail inside a volcanic crater to a WWII bunker lookout with a 360° view of Waikiki at first light.",
         "rarity": "Rare",
         "cost": "$",
@@ -179,7 +179,7 @@
       },
       {
         "id": "HNL-AC-02",
-        "title": "Climb the Koko Head Crater stairs",
+        "title": "Climb the Koko Head Crater Stairs",
         "description": "Grind up over 1,000 aging railroad-tie steps up the side of a volcanic cone for one of Oahu's toughest views.",
         "rarity": "Rare",
         "cost": "$",
@@ -194,7 +194,7 @@
       },
       {
         "id": "HNL-AC-04",
-        "title": "Zipline and ATV tour at Kualoa Ranch",
+        "title": "Zipline and ATV Tour at Kualoa Ranch",
         "description": "Zipline over the jungle valley made famous by Jurassic Park, then tear through it by ATV on a working cattle ranch.",
         "rarity": "Rare",
         "cost": "$$$",
@@ -209,7 +209,7 @@
       },
       {
         "id": "HNL-A-02",
-        "title": "Snorkel the reef at Hanauma Bay Nature Preserve",
+        "title": "Snorkel the Reef at Hanauma Bay Nature Preserve",
         "description": "Snorkel a protected volcanic bay teeming with parrotfish, urchins, and the occasional honu sea turtle.",
         "rarity": "Rare",
         "cost": "$$",
@@ -224,7 +224,7 @@
       },
       {
         "id": "HNL-AC-01",
-        "title": "Surf lesson at Waikiki Beach",
+        "title": "Surf Lesson at Waikiki Beach",
         "description": "Catch your first (or fiftieth) wave with a local instructor on Waikiki's gentle, beginner-friendly breaks.",
         "rarity": "Rare",
         "cost": "$$",
@@ -239,7 +239,7 @@
       },
       {
         "id": "HNL-AC-03",
-        "title": "Stand-up paddleboard at Ala Moana Beach Park",
+        "title": "Stand-up Paddleboard at Ala Moana Beach Park",
         "description": "Rent a paddleboard and glide across the calm, reef-protected lagoon right next to downtown Honolulu.",
         "rarity": "Common",
         "cost": "$$",
@@ -254,7 +254,7 @@
       },
       {
         "id": "HNL-A-04",
-        "title": "Helicopter tour over Oahu's coastline",
+        "title": "Helicopter Tour Over Oahu's Coastline",
         "description": "Take a doors-on helicopter flight over Oahu's cliffs, waterfalls, and reefs that no road can reach.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -269,7 +269,7 @@
       },
       {
         "id": "HNL-A-03",
-        "title": "Hike Manoa Falls through the rainforest",
+        "title": "Hike Manoa Falls Through the Rainforest",
         "description": "Follow a muddy jungle trail under bamboo groves and banyan roots to a 150-foot waterfall.",
         "rarity": "Common",
         "cost": "$",
@@ -327,7 +327,7 @@
       {
         "id": "HNL-CU-08",
         "title": "Torch Lighting and Hula at Kūhiō Beach",
-        "description": "At sunset the torches go up beside the Duke Kahanamoku statue and a hālau dances on the beachfront mound — free, and better than most paid lūʻau.",
+        "description": "At sunset the torches go up beside the Duke Kahanamoku statue and a hālau dances on the beachfront mound, free, and better than most paid lūʻau.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -347,7 +347,7 @@
       {
         "id": "HNL-CU-02",
         "title": "Hawaiian Hall at the Bishop Museum",
-        "description": "Three galleried floors of koa wood holding the world's great collection of Hawaiian and Pacific artefacts — feather capes, kapa, and a sperm whale over your head.",
+        "description": "Three galleried floors of koa wood holding the world's great collection of Hawaiian and Pacific artefacts: feather capes, kapa, and a sperm whale over your head.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -367,7 +367,7 @@
       {
         "id": "HNL-CU-05",
         "title": "Polynesian Cultural Center at Lāʻie",
-        "description": "Six island villages — Samoa, Aotearoa, Fiji, Tahiti, Tonga, Hawaiʻi — staffed by people from each, ending with the largest Polynesian night show in the world.",
+        "description": "Six island villages (Samoa, Aotearoa, Fiji, Tahiti, Tonga, Hawaiʻi) staffed by people from each, ending with the largest Polynesian night show in the world.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "All day",
@@ -385,7 +385,7 @@
       },
       {
         "id": "HNL-CU-01",
-        "title": "ʻIolani Palace — America's Only Royal Palace",
+        "title": "ʻIolani Palace: America's Only Royal Palace",
         "description": "The seat of the Hawaiian Kingdom, wired for electricity before the White House, and the room where Queen Liliʻuokalani was imprisoned after the overthrow.",
         "rarity": "Common",
         "cost": "$$",
@@ -406,7 +406,7 @@
       {
         "id": "HNL-CU-04",
         "title": "Shangri La, Doris Duke's Islamic Art House",
-        "description": "A heiress's oceanfront home at Black Point, filled over sixty years with Islamic tilework, textiles and a Mughal-inspired garden — small tours only.",
+        "description": "A heiress's oceanfront home at Black Point, filled over sixty years with Islamic tilework, textiles and a Mughal-inspired garden, small tours only.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -425,7 +425,7 @@
       {
         "id": "HNL-CU-06",
         "title": "Lei Day at Kapiʻolani Park",
-        "description": "Every May Day the park fills with a lei-making contest, hula and the crowning of a Lei Queen — the most purely local celebration on the Honolulu calendar.",
+        "description": "Every May Day the park fills with a lei-making contest, hula and the crowning of a Lei Queen, the most purely local celebration on the Honolulu calendar.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -467,7 +467,7 @@
       {
         "id": "HNL-8B-01",
         "title": "Wildcard: Circle the Island",
-        "description": "Drive the full loop of Oʻahu in one day — windward coast up, North Shore across, Waiʻanae side down — and stop at three beaches nobody picked in advance.",
+        "description": "Drive the full loop of Oʻahu in one day (windward coast up, North Shore across, Waiʻanae side down) and stop at three beaches nobody picked in advance.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "All day",
@@ -509,7 +509,7 @@
       {
         "id": "HNL-C-05",
         "title": "Beach Day at Lanikai",
-        "description": "Half a mile of powder sand and shallow, windless water on the windward side — no facilities, no lifeguards, no reason to leave.",
+        "description": "Half a mile of powder sand and shallow, windless water on the windward side: no facilities, no lifeguards, no reason to leave.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -587,7 +587,7 @@
       {
         "id": "HNL-C-06",
         "title": "Tide Pools at Shark's Cove",
-        "description": "In summer the North Shore lava shelf goes glassy and fills with clear pools full of reef fish — an aquarium you can sit down in.",
+        "description": "In summer the North Shore lava shelf goes glassy and fills with clear pools full of reef fish. An aquarium you can sit down in.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -635,7 +635,7 @@
       },
       {
         "id": "HNL-C-03",
-        "title": "Wander Lyon Arboretum's rainforest trails",
+        "title": "Wander Lyon Arboretum's Rainforest Trails",
         "description": "Walk quiet, shaded paths through 200 acres of tropical botanical collections at the back of Manoa Valley.",
         "rarity": "Common",
         "cost": "$",
@@ -668,7 +668,7 @@
       {
         "id": "HNL-F-10",
         "title": "Musubi Run at Iyasume",
-        "description": "Two dozen versions of spam musubi — egg, avocado, teriyaki, bacon — wrapped to order in Waikīkī and perfect for a beach morning.",
+        "description": "Two dozen versions of spam musubi (egg, avocado, teriyaki, bacon) wrapped to order in Waikīkī and perfect for a beach morning.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -688,7 +688,7 @@
       {
         "id": "HNL-F-05",
         "title": "Garlic Shrimp from Giovanni's Truck",
-        "description": "The graffiti-covered truck in Haleʻiwa that started the North Shore shrimp truck phenomenon — twelve shrimp, two scoops of rice, an absurd amount of garlic.",
+        "description": "The graffiti-covered truck in Haleʻiwa that started the North Shore shrimp truck phenomenon: twelve shrimp, two scoops of rice, an absurd amount of garlic.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -747,7 +747,7 @@
       {
         "id": "HNL-F-06",
         "title": "Oxtail Soup at Asahi Grill",
-        "description": "Honolulu's benchmark bowl — clear ginger broth, fall-apart oxtail and a dish of grated ginger and shoyu on the side that you are supposed to use generously.",
+        "description": "Honolulu's benchmark bowl, clear ginger broth, fall-apart oxtail and a dish of grated ginger and shoyu on the side that you are supposed to use generously.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -767,7 +767,7 @@
       {
         "id": "HNL-F-07",
         "title": "BYOB Sushi at Mitch's Fish Market",
-        "description": "A dozen seats behind a wholesale fish counter near the airport, serving some of the freshest sashimi on the island — bring your own bottle.",
+        "description": "A dozen seats behind a wholesale fish counter near the airport, serving some of the freshest sashimi on the island. Bring your own bottle.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -804,7 +804,7 @@
       {
         "id": "HNL-F-09",
         "title": "Dinner at MW Restaurant",
-        "description": "Wade Ueoka and Michelle Karr-Ueoka turn local plate-lunch memory into fine dining — the mochi-crusted ʻopakapaka and the candy bar dessert are the reasons to go.",
+        "description": "Wade Ueoka and Michelle Karr-Ueoka turn local plate-lunch memory into fine dining, the mochi-crusted ʻopakapaka and the candy bar dessert are the reasons to go.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -822,7 +822,7 @@
       },
       {
         "id": "HNL-F-03",
-        "title": "Home-style plate lunch at Helenas Hawaiian Food",
+        "title": "Home-Style Plate Lunch at Helenas Hawaiian Food",
         "description": "Order a James Beard Award-winning plate of pipikaula short ribs and lomi salmon at this family-run Kalihi institution.",
         "rarity": "Rare",
         "cost": "$",
@@ -837,7 +837,7 @@
       },
       {
         "id": "HNL-F-01",
-        "title": "Malasadas fresh from Leonards Bakery",
+        "title": "Malasadas Fresh from Leonards Bakery",
         "description": "Order a box of hot, sugar-dusted Portuguese malasadas from the bakery locals have lined up for since 1952.",
         "rarity": "Common",
         "cost": "$",
@@ -846,13 +846,13 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 10,
-        "bonus": "Try a filled flavor you've never had — custard or haupia.",
+        "bonus": "Try a filled flavor you've never had, custard or haupia.",
         "city": "Honolulu, HI",
         "mapsUrl": "https://maps.google.com/maps/search/Leonards+Bakery+Honolulu"
       },
       {
         "id": "HNL-F-04",
-        "title": "Shave ice at Waiola Shave Ice",
+        "title": "Shave Ice at Waiola Shave Ice",
         "description": "Cool off with a mountain of finely shaved ice and tropical syrups at this Kapahulu neighborhood favorite.",
         "rarity": "Common",
         "cost": "$",
@@ -867,7 +867,7 @@
       },
       {
         "id": "HNL-F-02",
-        "title": "Poke bowl at Ono Seafood",
+        "title": "Poke Bowl at Ono Seafood",
         "description": "Build a plate-lunch-style poke bowl at this no-frills counter locals swear is the best on the island.",
         "rarity": "Common",
         "cost": "$",
@@ -943,7 +943,7 @@
       },
       {
         "id": "HNL-S-12",
-        "title": "Sunset Sail off Waikīkī",
+        "title": "Sunset Sail Off Waikīkī",
         "description": "Push off straight from the sand on a catamaran, get out past the reef and watch Diamond Head turn gold with a drink in your hand.",
         "rarity": "Rare",
         "cost": "$$",
@@ -1004,7 +1004,7 @@
       {
         "id": "HNL-S-10",
         "title": "Friday Fireworks at Hilton Hawaiian Village",
-        "description": "Every Friday night the lagoon end of Waikīkī gets a full fireworks show — watch it free from the sand at Duke Kahanamoku Beach.",
+        "description": "Every Friday night the lagoon end of Waikīkī gets a full fireworks show. Watch it free from the sand at Duke Kahanamoku Beach.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -1023,7 +1023,7 @@
       {
         "id": "HNL-S-09",
         "title": "Live Hawaiian Music at Kani Ka Pila Grille",
-        "description": "The Outrigger Reef's courtyard hosts the best working Hawaiian musicians in Waikīkī nightly — slack key, falsetto and no cover charge.",
+        "description": "The Outrigger Reef's courtyard hosts the best working Hawaiian musicians in Waikīkī nightly, slack key, falsetto and no cover charge.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -1042,7 +1042,7 @@
       },
       {
         "id": "HNL-S-04",
-        "title": "Saturday morning at KCC Farmers Market",
+        "title": "Saturday Morning at KCC Farmers Market",
         "description": "Weave through 90+ local vendor stalls of tropical fruit, poke, and food trucks at the Kapiolani Community College Farmers Market.",
         "rarity": "Common",
         "cost": "$",
@@ -1057,7 +1057,7 @@
       },
       {
         "id": "HNL-S-02",
-        "title": "First Friday art walk through Chinatown Honolulu",
+        "title": "First Friday Art Walk Through Chinatown Honolulu",
         "description": "Bar-hop between pop-up galleries, live music, and street food stalls on Honolulu's monthly gallery night.",
         "rarity": "Common",
         "cost": "$",
@@ -1072,7 +1072,7 @@
       },
       {
         "id": "HNL-S-01",
-        "title": "Sunset happy hour at Dukes Waikiki",
+        "title": "Sunset Happy Hour at Dukes Waikiki",
         "description": "Grab a table on the sand at this beachfront icon for mai tais and live Hawaiian music as the sun drops.",
         "rarity": "Common",
         "cost": "$$",

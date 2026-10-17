@@ -230,7 +230,7 @@
       {
         "id": "SLC-F-08",
         "title": "Downtown Farmers Market at Pioneer Park",
-        "description": "Saturday mornings in summer, Pioneer Park fills with Utah growers, food trucks and makers — the whole city seems to turn up with a coffee.",
+        "description": "Saturday mornings in summer, Pioneer Park fills with Utah growers, food trucks and makers. The whole city seems to turn up with a coffee.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -250,7 +250,7 @@
       {
         "id": "SLC-F-06",
         "title": "Pastrami Burger at Crown Burgers",
-        "description": "Salt Lake's signature burger — a cheeseburger buried under a pile of shaved pastrami — with fry sauce on the side, at a local chain that has served it since 1978.",
+        "description": "Salt Lake's signature burger, a cheeseburger buried under a pile of shaved pastrami, with fry sauce on the side, at a local chain that has served it since 1978.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -309,7 +309,7 @@
       {
         "id": "SLC-F-07",
         "title": "Sushi Bar at Takashi",
-        "description": "The downtown sushi spot locals rank above everything else in the state — worth the wait for a seat at the bar.",
+        "description": "The downtown sushi spot locals rank above everything else in the state, worth the wait for a seat at the bar.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5–2 hrs",
@@ -348,7 +348,7 @@
       {
         "id": "SLC-F-10",
         "title": "Hot Chicken at Pretty Bird",
-        "description": "Nashville-style hot chicken from a James Beard-nominated chef — a short menu done extremely well.",
+        "description": "Nashville-style hot chicken from a James Beard-nominated chef, a short menu done extremely well.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -469,7 +469,7 @@
       {
         "id": "SLC-S-08",
         "title": "Twilight Concert Series",
-        "description": "Salt Lake's summer outdoor concert series — big-name acts, cheap tickets and a crowd that fills the park.",
+        "description": "Salt Lake's summer outdoor concert series, big-name acts, cheap tickets and a crowd that fills the park.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -488,7 +488,7 @@
       {
         "id": "SLC-S-10",
         "title": "Beers at Beer Bar",
-        "description": "Long communal tables, a huge beer list and bratwurst — a beer hall that fills up fast on weekend nights.",
+        "description": "Long communal tables, a huge beer list and bratwurst. A beer hall that fills up fast on weekend nights.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -686,7 +686,7 @@
       {
         "id": "SLC-C-08",
         "title": "Soak at Crystal Hot Springs",
-        "description": "An hour north of the city, where two natural springs — one hot, one cold — feed pools you can soak in under a big sky.",
+        "description": "An hour north of the city, where two natural springs (one hot, one cold) feed pools you can soak in under a big sky.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -743,7 +743,7 @@
       {
         "id": "SLC-C-06",
         "title": "Slow Loop Around Sugar House Park",
-        "description": "A wide, rolling park with a pond, big lawns and mountain views in every direction — the easiest reset in the city.",
+        "description": "A wide, rolling park with a pond, big lawns and mountain views in every direction, the easiest reset in the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -825,7 +825,7 @@
       {
         "id": "SLC-A-09",
         "title": "Summit Mount Olympus",
-        "description": "The peak that looms over the whole east side of the valley — over 4,000 feet of gain and a final hands-on scramble to the top.",
+        "description": "The peak that looms over the whole east side of the valley, over 4,000 feet of gain and a final hands-on scramble to the top.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "6–8 hrs",
@@ -943,8 +943,8 @@
       },
       {
         "id": "SLC-A-08",
-        "title": "Road Ride up Emigration Canyon",
-        "description": "The city's classic bike climb — a steady grade from the zoo up to Little Mountain Summit, shared with half the cyclists in Salt Lake on a Saturday morning.",
+        "title": "Road Ride Up Emigration Canyon",
+        "description": "The city's classic bike climb, a steady grade from the zoo up to Little Mountain Summit, shared with half the cyclists in Salt Lake on a Saturday morning.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",

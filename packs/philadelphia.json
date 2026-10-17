@@ -9,7 +9,7 @@
       {
         "id": "PHL-S-12",
         "title": "Phillies Game at Citizens Bank Park",
-        "description": "One of baseball's best pure ballparks — great sightlines, real Philly energy in the stands, and a cheesesteak at the Tony Luke's stand that makes the ticket price irrelevant.",
+        "description": "One of baseball's best pure ballparks: great sightlines, real Philly energy in the stands, and a cheesesteak at the Tony Luke's stand that makes the ticket price irrelevant.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -17,14 +17,14 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Start a chant in your section — it only counts if at least ten people join in.",
+        "bonus": "Start a chant in your section. It only counts if at least ten people join in.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Citizens+Bank+Park+Philadelphia"
       },
       {
         "id": "PHL-C-12",
         "title": "Afternoon Reading at the Rosenbach Museum Library",
-        "description": "One of the world's greatest private rare book collections lives in a Rittenhouse townhouse — browse original Bram Stoker notes, Joyce manuscripts, and Lewis Carroll first editions.",
+        "description": "One of the world's greatest private rare book collections lives in a Rittenhouse townhouse. Browse original Bram Stoker notes, Joyce manuscripts, and Lewis Carroll first editions.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -32,7 +32,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the curator to show you one item from the vault that isn't on public display — most days they say yes.",
+        "bonus": "Ask the curator to show you one item from the vault that isn't on public display, most days they say yes.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Rosenbach+Museum+Library+Philadelphia",
         "company": [
@@ -42,7 +42,7 @@
       {
         "id": "PHL-C-9",
         "title": "Afternoon at the Philadelphia Free Library's Parkway Central Branch",
-        "description": "The Beaux-Arts main branch of the Free Library — open since 1927 — has a rare book room, a stately reading hall, and the quiet gravity of a building that actually believes in knowledge.",
+        "description": "The Beaux-Arts main branch of the Free Library, open since 1927, has a rare book room, a stately reading hall, and the quiet gravity of a building that actually believes in knowledge.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -68,14 +68,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sit in the garden for ten uninterrupted minutes in a pose of your own choosing — no phone.",
+        "bonus": "Sit in the garden for ten uninterrupted minutes in a pose of your own choosing, no phone.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Rodin+Museum+Philadelphia"
       },
       {
         "id": "PHL-A-8",
         "title": "Explore the Magic Gardens on South Street",
-        "description": "Isaiah Zagar's labyrinthine mosaic environment spanning three lots and two indoor galleries is a Philadelphia original — completely obsessive, completely singular.",
+        "description": "Isaiah Zagar's labyrinthine mosaic environment spanning three lots and two indoor galleries is a Philadelphia original, completely obsessive, completely singular.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -83,7 +83,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find a bicycle wheel embedded in the mosaic walls and trace the entire outdoor maze without backtracking — harder than it sounds.",
+        "bonus": "Find a bicycle wheel embedded in the mosaic walls and trace the entire outdoor maze without backtracking. Harder than it sounds.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Philadelphia+Magic+Gardens+South+Street+Philadelphia+PA"
       },
@@ -137,7 +137,7 @@
       {
         "id": "PHL-AC-11",
         "title": "Cheesesteak at Dalessandro's in Roxborough",
-        "description": "Roxborough's Dalessandro's has been serving arguably the city's best chopped cheesesteak since 1960 — the roll-to-meat ratio is an art form.",
+        "description": "Roxborough's Dalessandro's has been serving arguably the city's best chopped cheesesteak since 1960. The roll-to-meat ratio is an art form.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "1 hr",
@@ -152,7 +152,7 @@
       {
         "id": "PHL-F-12",
         "title": "Soft Pretzels at Center City Pretzel Co.",
-        "description": "The Philly soft pretzel is a religion, and this Callowhill bakery — open since the 1970s — bakes them fresh all morning in the old-school twisted style locals grew up on.",
+        "description": "The Philly soft pretzel is a religion, and this Callowhill bakery, open since the 1970s, bakes them fresh all morning in the old-school twisted style locals grew up on.",
         "rarity": "Common",
         "cost": "$",
         "duration": "20–30 min",
@@ -160,14 +160,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a half-dozen and hand them out to strangers on the street — time how fast they're gone.",
+        "bonus": "Buy a half-dozen and hand them out to strangers on the street. Time how fast they're gone.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Center+City+Pretzel+Co+Philadelphia"
       },
       {
         "id": "PHL-F-11",
         "title": "Late Dinner at Palizzi Social Club",
-        "description": "South Philly's legendary members-only Italian-American supper club has been operating since 1918 — bring a member or become one at the door and order the red gravy.",
+        "description": "South Philly's legendary members-only Italian-American supper club has been operating since 1918. Bring a member or become one at the door and order the red gravy.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -190,14 +190,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Bring a single cold beer and drink it with your breakfast — the BYOB is the whole point.",
+        "bonus": "Bring a single cold beer and drink it with your breakfast. The BYOB is the whole point.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Morning+Glory+Diner+Philadelphia"
       },
       {
         "id": "PHL-F-9",
         "title": "Happy Hour at Monk's Cafe",
-        "description": "This Center City Belgian beer bar stocks over 200 bottles and pours perfectly kept drafts — it's been the city's most serious beer destination since 1997.",
+        "description": "This Center City Belgian beer bar stocks over 200 bottles and pours perfectly kept drafts. It's been the city's most serious beer destination since 1997.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -205,7 +205,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the bartender to pick your beer completely blind — describe only your current mood.",
+        "bonus": "Ask the bartender to pick your beer completely blind, describe only your current mood.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Monk%27s+Cafe+Philadelphia",
         "adult": true
@@ -236,7 +236,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order one item from the cart without knowing what it is — point and commit.",
+        "bonus": "Order one item from the cart without knowing what it is, point and commit.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Sang+Kee+Peking+Duck+House+Philadelphia"
       },
@@ -251,14 +251,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order both the roast pork and the cheesesteak and decide out loud which is better — then defend your answer to the person behind you in line.",
+        "bonus": "Order both the roast pork and the cheesesteak and decide out loud which is better, then defend your answer to the person behind you in line.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/John%27s+Roast+Pork+Philadelphia"
       },
       {
         "id": "PHL-F-3",
         "title": "Dine at Vetri Cucina",
-        "description": "Marc Vetri's original Spruce Street townhouse restaurant has been the pinnacle of Italian dining in Philadelphia since 1998 — the tasting menu is a full evening of precise, soulful cooking.",
+        "description": "Marc Vetri's original Spruce Street townhouse restaurant has been the pinnacle of Italian dining in Philadelphia since 1998. The tasting menu is a full evening of precise, soulful cooking.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -266,7 +266,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask your server which dish Marc Vetri himself most recently ate at the restaurant — if they know, you're in the right hands.",
+        "bonus": "Ask your server which dish Marc Vetri himself most recently ate at the restaurant. If they know, you're in the right hands.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Vetri+Cucina+Philadelphia+PA"
       },
@@ -303,7 +303,7 @@
       {
         "id": "PHL-F-01",
         "title": "Graze Your Way Through Reading Terminal Market",
-        "description": "Move stall to stall under one historic roof — Amish baked goods, dumplings, and a proper Philly hoagie all within reach.",
+        "description": "Move stall to stall under one historic roof: Amish baked goods, dumplings, and a proper Philly hoagie all within reach.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1-2 hrs",
@@ -343,7 +343,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Name all the botanicals in the gin from smell alone — ask the guide to verify your list.",
+        "bonus": "Name all the botanicals in the gin from smell alone. Ask the guide to verify your list.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Bluecoat+American+Craft+Gin+Philadelphia+Distilling",
         "adult": true
@@ -351,7 +351,7 @@
       {
         "id": "PHL-S-9",
         "title": "Night Out at Silk City Diner Bar",
-        "description": "A genuine 1940s diner car converted into one of Fishtown's best late-night bars — cocktails up front, dancing in the back room, open until 2am.",
+        "description": "A genuine 1940s diner car converted into one of Fishtown's best late-night bars: cocktails up front, dancing in the back room, open until 2am.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -367,7 +367,7 @@
       {
         "id": "PHL-S-8",
         "title": "Happy Hour at McGillin's Olde Ale House",
-        "description": "Operating continuously since 1860, McGillin's is the oldest tavern in Philadelphia — the kind of place where everyone from city workers to tourists ends up at the same bar.",
+        "description": "Operating continuously since 1860, McGillin's is the oldest tavern in Philadelphia, the kind of place where everyone from city workers to tourists ends up at the same bar.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -375,7 +375,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find and read every piece of old memorabilia on the walls — quiz the bartender on one item you can't figure out.",
+        "bonus": "Find and read every piece of old memorabilia on the walls, quiz the bartender on one item you can't figure out.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/McGillin's+Olde+Ale+House+Philadelphia",
         "adult": true
@@ -383,7 +383,7 @@
       {
         "id": "PHL-S-7",
         "title": "Oysters and Drafts at Oyster House on Sansom",
-        "description": "Philly's oldest oyster bar has been shucking on Sansom Street since 1947 — belly up to the raw bar and eat a dozen with cold Yards Brawler before the dinner rush.",
+        "description": "Philly's oldest oyster bar has been shucking on Sansom Street since 1947, belly up to the raw bar and eat a dozen with cold Yards Brawler before the dinner rush.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -391,14 +391,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the shucker for their personal favorite oyster on the board and order it blind — no googling.",
+        "bonus": "Ask the shucker for their personal favorite oyster on the board and order it blind, no googling.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Oyster+House+Philadelphia+Sansom+Street"
       },
       {
         "id": "PHL-S-6",
         "title": "Live Music at World Cafe Live",
-        "description": "Philly's best mid-size music venue books acts that are one album away from arenas — the sightlines are perfect and the sound system is immaculate.",
+        "description": "Philly's best mid-size music venue books acts that are one album away from arenas. The sightlines are perfect and the sound system is immaculate.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -413,7 +413,7 @@
       {
         "id": "PHL-S-4",
         "title": "Saturday Night at Kung Fu Necktie in Fishtown",
-        "description": "This Fishtown dive bar and live music venue has been the anchor of Philly's indie rock scene since 2009 — the sound is loud, the crowd is real, and the back room turns into a sweaty pit by midnight.",
+        "description": "This Fishtown dive bar and live music venue has been the anchor of Philly's indie rock scene since 2009. The sound is loud, the crowd is real, and the back room turns into a sweaty pit by midnight.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -421,7 +421,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Talk to the band after the set — ask where they're from and where they're playing next.",
+        "bonus": "Talk to the band after the set. Ask where they're from and where they're playing next.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Kung+Fu+Necktie+Fishtown+Philadelphia",
         "adult": true
@@ -429,7 +429,7 @@
       {
         "id": "PHL-S-3",
         "title": "Trivia Night at Fergie's Pub",
-        "description": "This no-nonsense Center City Irish pub has been hosting one of Philly's best weekly trivia nights since 1999 — the questions are hard, the beer is cold, and the regulars are ruthless.",
+        "description": "This no-nonsense Center City Irish pub has been hosting one of Philly's best weekly trivia nights since 1999. The questions are hard, the beer is cold, and the regulars are ruthless.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -437,7 +437,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Join a team of strangers rather than forming your own — introduce yourself as a ringer.",
+        "bonus": "Join a team of strangers rather than forming your own. Introduce yourself as a ringer.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Fergie%27s+Pub+Philadelphia",
         "company": [
@@ -448,7 +448,7 @@
       {
         "id": "PHL-A-10",
         "title": "Rooftop Drink at Assembly Rooftop Lounge",
-        "description": "The lounge atop the Logan hotel gives you an unobstructed panoramic view of the Benjamin Franklin Parkway lined up toward the art museum — it's the postcard shot, but you're living inside it.",
+        "description": "The lounge atop the Logan hotel gives you an unobstructed panoramic view of the Benjamin Franklin Parkway lined up toward the art museum. It's the postcard shot, but you're living inside it.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -456,7 +456,7 @@
         "time": "Evening",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Wait until exactly blue hour, order one drink, and take a panorama photo — then put your phone away for the rest of the visit.",
+        "bonus": "Wait until exactly blue hour, order one drink, and take a panorama photo. Then put your phone away for the rest of the visit.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Assembly+Rooftop+Lounge+Logan+Hotel+Philadelphia+PA",
         "adult": true
@@ -464,7 +464,7 @@
       {
         "id": "PHL-A-9",
         "title": "Late Night at Bob and Barbara's Lounge",
-        "description": "South Philly's dive bar institution since 1969 serves the official Philly Special — a Pabst tallboy and a shot of Jim Beam — for under five bucks and the drag shows are a neighborhood institution.",
+        "description": "South Philly's dive bar institution since 1969 serves the official Philly Special, a Pabst tallboy and a shot of Jim Beam, for under five bucks and the drag shows are a neighborhood institution.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -472,7 +472,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the Philly Special and strike up a conversation with whoever is sitting at the bar alone — this crowd has stories.",
+        "bonus": "Order the Philly Special and strike up a conversation with whoever is sitting at the bar alone. This crowd has stories.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Bob+and+Barbara's+Lounge+Philadelphia+PA",
         "adult": true
@@ -504,7 +504,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Post up at the bar until the opening act finishes, then move all the way to the front for the headliner — talk to at least one person you came in not knowing.",
+        "bonus": "Post up at the bar until the opening act finishes, then move all the way to the front for the headliner. Talk to at least one person you came in not knowing.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Underground+Arts+Philadelphia+PA"
       },
@@ -572,14 +572,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the oldest specimen in the museum and photograph its label — post it with no context.",
+        "bonus": "Find the oldest specimen in the museum and photograph its label. Post it with no context.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Academy+of+Natural+Sciences+Philadelphia"
       },
       {
         "id": "PHL-AC-9",
         "title": "Tour the Edgar Allan Poe National Historic Site",
-        "description": "The only surviving Philadelphia home of Poe is a federal landmark in Spring Garden — the cellar alone is worth the free admission.",
+        "description": "The only surviving Philadelphia home of Poe is a federal landmark in Spring Garden. The cellar alone is worth the free admission.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -587,7 +587,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Stand alone in the cellar for two full minutes in complete silence — no phone, no talking.",
+        "bonus": "Stand alone in the cellar for two full minutes in complete silence: no phone, no talking.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Edgar+Allan+Poe+National+Historic+Site+Philadelphia"
       },
@@ -602,7 +602,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Complete a V4 problem you've failed twice before leaving — ask a stranger for beta if you need it.",
+        "bonus": "Complete a V4 problem you've failed twice before leaving. Ask a stranger for beta if you need it.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/The+Cliffs+Callowhill+Philadelphia"
       },
@@ -617,7 +617,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Identify five distinct Philadelphia neighborhoods from the tower using only landmarks you can actually see — no phone maps allowed.",
+        "bonus": "Identify five distinct Philadelphia neighborhoods from the tower using only landmarks you can actually see, no phone maps allowed.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Philadelphia+City+Hall+Tower+Observation+Deck+Philadelphia+PA"
       },
@@ -632,7 +632,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy one ingredient from three different vendors and build an impromptu snack on a bench — no planning, just instinct.",
+        "bonus": "Buy one ingredient from three different vendors and build an impromptu snack on a bench, no planning, just instinct.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/9th+Street+Italian+Market+Philadelphia+PA"
       },
@@ -647,14 +647,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Walk all the way to the Camden side, touch the New Jersey railing, and walk back — no stopping for photos until you're at the exact midpoint.",
+        "bonus": "Walk all the way to the Camden side, touch the New Jersey railing, and walk back. No stopping for photos until you're at the exact midpoint.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Benjamin+Franklin+Bridge+Pedestrian+Walkway+Philadelphia+PA"
       },
       {
         "id": "PHL-A-3",
         "title": "Kayak on the Schuylkill River from Bartram's Mile",
-        "description": "Launch from the put-in near Bartram's Garden and paddle the Schuylkill with Philly's skyline framing the whole horizon — it's the city from an angle most residents never see.",
+        "description": "Launch from the put-in near Bartram's Garden and paddle the Schuylkill with Philly's skyline framing the whole horizon. It's the city from an angle most residents never see.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -662,14 +662,14 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Paddle far enough upriver to get beneath the South Street Bridge, look straight up, and yell something — then keep going.",
+        "bonus": "Paddle far enough upriver to get beneath the South Street Bridge, look straight up, and yell something, then keep going.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Bartram's+Garden+Philadelphia+PA"
       },
       {
         "id": "PHL-AC-1",
         "title": "Walk the Wissahickon Valley Gorge Trail",
-        "description": "Wissahickon Creek cuts a 1,800-acre wooded gorge through the northwest corner of the city — it's the urban forest escape that most outsiders never find.",
+        "description": "Wissahickon Creek cuts a 1,800-acre wooded gorge through the northwest corner of the city. It's the urban forest escape that most outsiders never find.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–4 hrs",
@@ -677,7 +677,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the Valley Green Inn, get a coffee, then wade across the creek at a shallow crossing before heading back — shoes optional.",
+        "bonus": "Find the Valley Green Inn, get a coffee, then wade across the creek at a shallow crossing before heading back, shoes optional.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Wissahickon+Valley+Gorge+Trail+Philadelphia+PA"
       },
@@ -824,7 +824,7 @@
       {
         "id": "PHL-C-11",
         "title": "Record Digging at Philadelphia Record Exchange",
-        "description": "PREX on Girard is the serious collector's destination — four floors of vinyl spanning every genre with staff who actually know what's in every crate.",
+        "description": "PREX on Girard is the serious collector's destination, four floors of vinyl spanning every genre with staff who actually know what's in every crate.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -832,14 +832,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a record you've never heard of based solely on the cover art — no previewing allowed.",
+        "bonus": "Buy a record you've never heard of based solely on the cover art, no previewing allowed.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Philadelphia+Record+Exchange+Girard+Avenue"
       },
       {
         "id": "PHL-C-8",
         "title": "Evening Stroll Through Rittenhouse Square",
-        "description": "Philadelphia's most civilized public square has been the city's living room since 1682 — at dusk, the dog walkers, chess players, and sidewalk musicians make it the best free show in Center City.",
+        "description": "Philadelphia's most civilized public square has been the city's living room since 1682: at dusk, the dog walkers, chess players, and sidewalk musicians make it the best free show in Center City.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 min",
@@ -862,7 +862,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Stay until the first star appears — no phone, no music, just the river.",
+        "bonus": "Stay until the first star appears: no phone, no music, just the river.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Penn+Treaty+Park+Fishtown+Philadelphia",
         "company": [
@@ -872,7 +872,7 @@
       {
         "id": "PHL-C-5",
         "title": "Walk Elfreth's Alley in Old City",
-        "description": "America's oldest continuously inhabited residential street has been lined with Federal-style rowhouses since 1702 — walking it at dusk feels genuinely removed from the modern city.",
+        "description": "America's oldest continuously inhabited residential street has been lined with Federal-style rowhouses since 1702. Walking it at dusk feels genuinely removed from the modern city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 min",
@@ -880,14 +880,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the house with the oldest date marker and photograph it — then look up who lived there.",
+        "bonus": "Find the house with the oldest date marker and photograph it, then look up who lived there.",
         "city": "Philadelphia, PA",
         "mapsUrl": "https://www.google.com/maps/search/Elfreth%27s+Alley+Philadelphia"
       },
       {
         "id": "PHL-C-2",
         "title": "Morning Coffee at La Colombe on Passyunk",
-        "description": "The original La Colombe flagship on Passyunk Avenue — where the draft latte was literally invented — is still the best single coffee experience in a city that takes its coffee seriously.",
+        "description": "The original La Colombe flagship on Passyunk Avenue, where the draft latte was literally invented, is still the best single coffee experience in a city that takes its coffee seriously.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–60 mins",

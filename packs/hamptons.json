@@ -24,7 +24,7 @@
       {
         "id": "HAMW-AD-01",
         "title": "Wertheim National Wildlife Refuge, Shirley",
-        "description": "The Carmans River refuge minutes west of Remsenburg — paddle the tidal river or hike the Black Tupelo and White Oak trails through untouched estuary.",
+        "description": "The Carmans River refuge minutes west of Remsenburg. Paddle the tidal river or hike the Black Tupelo and White Oak trails through untouched estuary.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -39,7 +39,7 @@
       {
         "id": "HAMW-A-04",
         "title": "Sears-Bellows County Park Trails, Hampton Bays",
-        "description": "Pine-barrens trails around a chain of freshwater ponds just north of Hampton Bays — hiking, a swimming pond, and almost no one there.",
+        "description": "Pine-barrens trails around a chain of freshwater ponds just north of Hampton Bays: hiking, a swimming pond, and almost no one there.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -54,7 +54,7 @@
       {
         "id": "HAMW-A-03",
         "title": "Shinnecock Canal Kayak, Hampton Bays",
-        "description": "Paddle the canal that links Shinnecock Bay to the Peconic — time it with the lock current and you barely have to paddle one direction.",
+        "description": "Paddle the canal that links Shinnecock Bay to the Peconic. Time it with the lock current and you barely have to paddle one direction.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -69,7 +69,7 @@
       {
         "id": "HAMW-A-02",
         "title": "Cupsogue Beach County Park",
-        "description": "The wild western tip of the barrier island past Westhampton — tidal flats, kayaking, and a clamming-and-seal-watching scene the East End never sees.",
+        "description": "The wild western tip of the barrier island past Westhampton: tidal flats, kayaking, and a clamming-and-seal-watching scene the East End never sees.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -84,7 +84,7 @@
       {
         "id": "HAMW-A-01",
         "title": "Dune Road Bike Ride, Westhampton Beach",
-        "description": "The flat barrier-beach road with the ocean on one side and the bay on the other — the definitive western Hamptons ride.",
+        "description": "The flat barrier-beach road with the ocean on one side and the bay on the other, the definitive western Hamptons ride.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -99,7 +99,7 @@
       {
         "id": "HAM-AC-102",
         "title": "Coopers Beach to Meadow Lane Bike Ride",
-        "description": "Bike Meadow Lane in Southampton between the ocean and Lake Agawam — the road is flanked by the most expensive real estate in America on one side and an open bay on the other. 6am, no traffic.",
+        "description": "Bike Meadow Lane in Southampton between the ocean and Lake Agawam. The road is flanked by the most expensive real estate in America on one side and an open bay on the other. 6am, no traffic.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -114,7 +114,7 @@
       {
         "id": "HAM-AC-101",
         "title": "Ditch Plains Surfing, Montauk",
-        "description": "The rocky point beach west of Montauk village breaks consistently and has been the East End surf scene since the '60s — rent a board from Pilgrim Surf + Supply and paddle out.",
+        "description": "The rocky point beach west of Montauk village breaks consistently and has been the East End surf scene since the '60s. Rent a board from Pilgrim Surf + Supply and paddle out.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -129,7 +129,7 @@
       {
         "id": "HAM-A-104",
         "title": "Elizabeth Morton National Wildlife Refuge",
-        "description": "The 187-acre Noyac refuge with a beach on Peconic Bay is one of the last undeveloped shorelines on the South Fork — shorebirds, horseshoe crabs in June, and the bay to yourself.",
+        "description": "The 187-acre Noyac refuge with a beach on Peconic Bay is one of the last undeveloped shorelines on the South Fork: shorebirds, horseshoe crabs in June, and the bay to yourself.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -143,8 +143,8 @@
       },
       {
         "id": "HAM-A-106",
-        "title": "Long Island Wine Trail — North Fork Loop",
-        "description": "Cross Peconic Bay to the North Fork and spend a day hitting five or six of the 60+ vineyards along the North Fork Wine Trail — Bedell, Channing Daughters, Shinn Estate — the Bordeaux varietals are the story.",
+        "title": "Long Island Wine Trail: North Fork Loop",
+        "description": "Cross Peconic Bay to the North Fork and spend a day hitting five or six of the 60+ vineyards along the North Fork Wine Trail (Bedell, Channing Daughters, Shinn Estate) the Bordeaux varietals are the story.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "6 hrs",
@@ -160,7 +160,7 @@
       {
         "id": "HAM-AC-107",
         "title": "Napeague Walking Dunes Hike",
-        "description": "The parabolic dunes in Napeague between Amagansett and Montauk shift 3 feet a year and bury trees from below — the 3-mile loop through the dunes is the strangest landscape in New York.",
+        "description": "The parabolic dunes in Napeague between Amagansett and Montauk shift 3 feet a year and bury trees from below. The 3-mile loop through the dunes is the strangest landscape in New York.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -175,7 +175,7 @@
       {
         "id": "HAM-A-101",
         "title": "Montauk Point Lighthouse Hike",
-        "description": "The 1796 lighthouse at the eastern tip of Long Island sits on bluffs above the rocky point where the Sound meets the Atlantic — climb the 137 steps to the light and see all the way to Block Island.",
+        "description": "The 1796 lighthouse at the eastern tip of Long Island sits on bluffs above the rocky point where the Sound meets the Atlantic. Climb the 137 steps to the light and see all the way to Block Island.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -190,7 +190,7 @@
       {
         "id": "HAM-AC-106",
         "title": "Springs Fireplace Road Running Trail",
-        "description": "The back-country roads of Springs, the artists' neighborhood of East Hampton, make the best morning run in the Hamptons — no traffic, Accabonac Harbor visible through the trees, Pollock's old neighborhood.",
+        "description": "The back-country roads of Springs, the artists' neighborhood of East Hampton, make the best morning run in the Hamptons: no traffic, Accabonac Harbor visible through the trees, Pollock's old neighborhood.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -205,7 +205,7 @@
       {
         "id": "HAM-AC-103",
         "title": "Paddleboard Lake Agawam, Southampton",
-        "description": "The freshwater lake in the middle of Southampton village is paddleboardable on calm mornings — the waterside mansions on one bank, the village park on the other, and total silence.",
+        "description": "The freshwater lake in the middle of Southampton village is paddleboardable on calm mornings: the waterside mansions on one bank, the village park on the other, and total silence.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -220,7 +220,7 @@
       {
         "id": "HAM-A-103",
         "title": "Hither Hills State Park Camping",
-        "description": "The campground between the ocean and Napeague Harbor is the only way to actually sleep in Montauk for under $100 — the walking dunes, the harbor kayaking, and the surf fishing are all from your campsite.",
+        "description": "The campground between the ocean and Napeague Harbor is the only way to actually sleep in Montauk for under $100: the walking dunes, the harbor kayaking, and the surf fishing are all from your campsite.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "24 hrs",
@@ -228,7 +228,7 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Book the ocean-side sites — wake up to the surf 200 yards from your tent.",
+        "bonus": "Book the ocean-side sites. Wake up to the surf 200 yards from your tent.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Hither+Hills+State+Park+Montauk+NY"
       },
@@ -250,7 +250,7 @@
       {
         "id": "HAM-AC-104",
         "title": "Sag Harbor Village Waterfront Bike Loop",
-        "description": "Bike the Sag Harbor village streets, the harbor waterfront, and the Eastville neighborhood loop — 5 miles of flat, the whaling-era architecture around every corner.",
+        "description": "Bike the Sag Harbor village streets, the harbor waterfront, and the Eastville neighborhood loop, 5 miles of flat, the whaling-era architecture around every corner.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -258,14 +258,14 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 15,
-        "bonus": "Find the oldest house in the village — the historical society marker is on the door.",
+        "bonus": "Find the oldest house in the village. The historical society marker is on the door.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Sag+Harbor+NY"
       },
       {
         "id": "HAM-AC-108",
         "title": "Kayak Accabonac Harbor, Springs",
-        "description": "The tidal harbor behind Springs empties into Gardiner's Bay — kayak the marsh channel at high tide past the osprey platforms and the salt marshes that the East Hampton artists painted for a hundred years.",
+        "description": "The tidal harbor behind Springs empties into Gardiner's Bay. Kayak the marsh channel at high tide past the osprey platforms and the salt marshes that the East Hampton artists painted for a hundred years.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -280,7 +280,7 @@
       {
         "id": "HAM-AC-105",
         "title": "Surf Fishing Montauk Point at Dawn",
-        "description": "The rocks below the Montauk lighthouse at dawn are where the striped bass and bluefish run in fall — local surf casters have been here before sunrise, and the rips off the point are legendary.",
+        "description": "The rocks below the Montauk lighthouse at dawn are where the striped bass and bluefish run in fall. Local surf casters have been here before sunrise, and the rips off the point are legendary.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -288,14 +288,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Talk to whoever was there before you — they know the spot.",
+        "bonus": "Talk to whoever was there before you. They know the spot.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Montauk+Point+State+Park+NY"
       },
       {
         "id": "HAM-A-105",
         "title": "Georgica Pond Kayak at Sunset",
-        "description": "The freshwater pond behind the East Hampton barrier beach is kayakable at high summer — put in from the town beach access and paddle the pond edge as the light drops over the dunes.",
+        "description": "The freshwater pond behind the East Hampton barrier beach is kayakable at high summer. Put in from the town beach access and paddle the pond edge as the light drops over the dunes.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -321,7 +321,7 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Challenge a stranger warming up on the next court to a tiebreaker set — winner owes nothing, loser buys the post-match coffee.",
+        "bonus": "Challenge a stranger warming up on the next court to a tiebreaker set, winner owes nothing, loser buys the post-match coffee.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Sportime+Amagansett+NY"
       },
@@ -336,7 +336,7 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 25,
-        "bonus": "Swim parallel to shore past three lifeguard stands without stopping — if the current runs against you, it counts double.",
+        "bonus": "Swim parallel to shore past three lifeguard stands without stopping. If the current runs against you, it counts double.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Two+Mile+Hollow+Beach+East+Hampton+NY"
       },
@@ -351,7 +351,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Complete the entire route without unclipping — no stopping, no foot on ground — and swim in the ocean at the finish as your reward.",
+        "bonus": "Complete the entire route without unclipping (no stopping, no foot on ground) and swim in the ocean at the finish as your reward.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Poxabogue+Pond+Bridgehampton+NY"
       },
@@ -366,7 +366,7 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 40,
-        "bonus": "Cross the sandbar channel into open Atlantic water on your board — if a wave knocks you off, you have to swim the board back before remounting.",
+        "bonus": "Cross the sandbar channel into open Atlantic water on your board. If a wave knocks you off, you have to swim the board back before remounting.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Sagg+Pond+Sagaponack+NY"
       },
@@ -381,7 +381,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Scramble down to the beach without using the main path — find the unofficial bluff descent and make it down without using your hands.",
+        "bonus": "Scramble down to the beach without using the main path. Find the unofficial bluff descent and make it down without using your hands.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Shadmoor+State+Park+Montauk+NY"
       },
@@ -396,7 +396,7 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Navigate into one tidal creek so narrow the reeds brush both sides of your kayak — if you can touch the shore without tipping, it counts.",
+        "bonus": "Navigate into one tidal creek so narrow the reeds brush both sides of your kayak. If you can touch the shore without tipping, it counts.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Mashomack+Preserve+Shelter+Island+NY"
       },
@@ -411,7 +411,7 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Catch a wave, ride it all the way to shore, and then go back out immediately — no celebrating on the beach until you've done it twice.",
+        "bonus": "Catch a wave, ride it all the way to shore, and then go back out immediately, no celebrating on the beach until you've done it twice.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Ditch+Plains+Beach+Montauk+NY"
       }
@@ -420,7 +420,7 @@
       {
         "id": "HAMW-S-03",
         "title": "Canoe Place Inn, Hampton Bays",
-        "description": "The historic 1920s roadhouse on the canal, reborn as a waterfront inn and event venue — the western gateway to the Hamptons since the steamship era.",
+        "description": "The historic 1920s roadhouse on the canal, reborn as a waterfront inn and event venue, the western gateway to the Hamptons since the steamship era.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -435,7 +435,7 @@
       {
         "id": "HAM-S-107",
         "title": "75 Main Southampton Late Night",
-        "description": "The Main Street Southampton supper club that turns into the Hamptons' social scene after 11pm — the dinner is fine, the crowd after midnight is the whole reason anyone stays that late.",
+        "description": "The Main Street Southampton supper club that turns into the Hamptons' social scene after 11pm. The dinner is fine, the crowd after midnight is the whole reason anyone stays that late.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -443,14 +443,14 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Don't arrive before 10:30pm — the room doesn't exist before then.",
+        "bonus": "Don't arrive before 10:30pm. The room doesn't exist before then.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=75+Main+Southampton+NY"
       },
       {
         "id": "HAM-S-105",
         "title": "Montauk Brewing Company Taproom",
-        "description": "The Montauk Brewing taproom on South Erie Street is the local's escape from the resort bars — the Summer Ale and the Wave Chaser IPA are both made here, and the patio is unpretentious.",
+        "description": "The Montauk Brewing taproom on South Erie Street is the local's escape from the resort bars, the Summer Ale and the Wave Chaser IPA are both made here, and the patio is unpretentious.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -466,7 +466,7 @@
       {
         "id": "HAM-S-104",
         "title": "Gurney's Montauk Pool Bar Day",
-        "description": "The Gurney's resort sits on the Montauk bluffs with an oceanfront pool and a bar that charges resort prices for the view — one day pass, one afternoon, worth every dollar of it.",
+        "description": "The Gurney's resort sits on the Montauk bluffs with an oceanfront pool and a bar that charges resort prices for the view: one day pass, one afternoon, worth every dollar of it.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "4 hrs",
@@ -482,7 +482,7 @@
       {
         "id": "HAM-S-101",
         "title": "Stephen Talkhouse Live Show, Amagansett",
-        "description": "The tiny Amagansett music venue has hosted Billy Joel, Paul McCartney, and every band that's ever summered here — 100 capacity, incredible sound, and a summer calendar that never disappoints.",
+        "description": "The tiny Amagansett music venue has hosted Billy Joel, Paul McCartney, and every band that's ever summered here: 100 capacity, incredible sound, and a summer calendar that never disappoints.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3 hrs",
@@ -505,7 +505,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order a bottle from the cellar, not the by-the-glass list — the cellar is the real reason to come.",
+        "bonus": "Order a bottle from the cellar, not the by-the-glass list. The cellar is the real reason to come.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=American+Hotel+Sag+Harbor+NY",
         "adult": true
@@ -521,7 +521,7 @@
         "time": "Evening",
         "season": "Jun–Sep",
         "spark": 40,
-        "bonus": "Dance on the sand directly in front of the stage for at least one full song — no phone out, no self-consciousness, all in.",
+        "bonus": "Dance on the sand directly in front of the stage for at least one full song: no phone out, no self-consciousness, all in.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Surf+Lodge+Montauk+NY"
       },
@@ -536,7 +536,7 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Start a conversation with the table next to you by asking them to recommend one dish — stay in conversation long enough to actually order it.",
+        "bonus": "Start a conversation with the table next to you by asking them to recommend one dish. Stay in conversation long enough to actually order it.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Tutto+Il+Giorno+Sag+Harbor+NY"
       }
@@ -545,7 +545,7 @@
       {
         "id": "HAMW-C-04",
         "title": "Ponquogue Beach, Hampton Bays",
-        "description": "The locals' ocean beach in Hampton Bays beneath the old bridge — surfers, fishermen and far fewer crowds than the East End.",
+        "description": "The locals' ocean beach in Hampton Bays beneath the old bridge, surfers, fishermen and far fewer crowds than the East End.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -560,7 +560,7 @@
       {
         "id": "HAMW-C-02",
         "title": "Rogers Beach, Westhampton Beach",
-        "description": "The main ocean beach for Westhampton Beach village — wide, pavilioned, and the easiest stretch of Atlantic to reach from Remsenburg.",
+        "description": "The main ocean beach for Westhampton Beach village: wide, pavilioned, and the easiest stretch of Atlantic to reach from Remsenburg.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -575,7 +575,7 @@
       {
         "id": "HAMW-C-01",
         "title": "Quogue Wildlife Refuge",
-        "description": "A 305-acre preserve of trails, ponds and a nature center with resident owls and hawks — the quietest place in the western Hamptons.",
+        "description": "A 305-acre preserve of trails, ponds and a nature center with resident owls and hawks, the quietest place in the western Hamptons.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -590,7 +590,7 @@
       {
         "id": "HAM-C-103",
         "title": "Pollock-Krasner House, Springs",
-        "description": "Jackson Pollock's farmhouse in Springs, East Hampton — the barn studio still has the paint drips on the floor from the years he invented Abstract Expressionism here. One of the most important art sites in America.",
+        "description": "Jackson Pollock's farmhouse in Springs, East Hampton. The barn studio still has the paint drips on the floor from the years he invented Abstract Expressionism here. One of the most important art sites in America.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -598,14 +598,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Stand in the barn studio and look at the floor — that's where the drip paintings happened.",
+        "bonus": "Stand in the barn studio and look at the floor, that's where the drip paintings happened.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Pollock-Krasner+House+Springs+East+Hampton+NY"
       },
       {
         "id": "HAM-C-101",
         "title": "Main Beach East Hampton Morning",
-        "description": "The voted-best-beach-in-America multiple times — at 7am it's empty, the sand is immaculate, the lifeguard stands aren't up yet, and the Atlantic is the only thing ahead of you.",
+        "description": "The voted-best-beach-in-America multiple times. At 7am it's empty, the sand is immaculate, the lifeguard stands aren't up yet, and the Atlantic is the only thing ahead of you.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -613,14 +613,14 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Swim before anyone else arrives — the beach belongs to you for about 45 minutes.",
+        "bonus": "Swim before anyone else arrives, the beach belongs to you for about 45 minutes.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Main+Beach+East+Hampton+NY"
       },
       {
         "id": "HAM-C-108",
         "title": "Quail Hill Farm Montauk Highway",
-        "description": "The organic community farm in Amagansett runs a farmstand and U-pick operation from June through October — the farm fields between the highway and the ocean are what the Hamptons looked like before the houses arrived.",
+        "description": "The organic community farm in Amagansett runs a farmstand and U-pick operation from June through October, the farm fields between the highway and the ocean are what the Hamptons looked like before the houses arrived.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -635,7 +635,7 @@
       {
         "id": "HAM-C-106",
         "title": "Peconic Bay Sunset Cruise from Greenport",
-        "description": "The evening sailing cruises on Peconic Bay out of Greenport put you on the water between the North and South Forks as the sun drops — the bay turns pink and the North Fork vineyards glow on the left bank.",
+        "description": "The evening sailing cruises on Peconic Bay out of Greenport put you on the water between the North and South Forks as the sun drops. The bay turns pink and the North Fork vineyards glow on the left bank.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -643,7 +643,7 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Bring a bottle of Wölffer rosé on board — most cruises allow it.",
+        "bonus": "Bring a bottle of Wölffer rosé on board, most cruises allow it.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Peconic+Bay+Greenport+NY",
         "company": [
@@ -653,7 +653,7 @@
       {
         "id": "HAM-C-107",
         "title": "Montauk Village Morning Coffee Loop",
-        "description": "Montauk village at 7am — the surfers are already in the water, the bait shop is open, and the diner has been serving the same egg sandwich since the '70s. The village at its most itself.",
+        "description": "Montauk village at 7am. The surfers are already in the water, the bait shop is open, and the diner has been serving the same egg sandwich since the '70s. The village at its most itself.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -668,7 +668,7 @@
       {
         "id": "HAMP-C-04",
         "title": "Wine and Twilight at Wölffer Estate Vineyard",
-        "description": "Sagaponack's most beautiful vineyard pours estate rosé on a terrace overlooking rows of vines as the light goes amber — this is what summer in the Hamptons actually looks like.",
+        "description": "Sagaponack's most beautiful vineyard pours estate rosé on a terrace overlooking rows of vines as the light goes amber. This is what summer in the Hamptons actually looks like.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -676,7 +676,7 @@
         "time": "Evening",
         "season": "May–Oct",
         "spark": 40,
-        "bonus": "Ask the sommelier to pour you something you can't pronounce — then guess the grape variety before they tell you.",
+        "bonus": "Ask the sommelier to pour you something you can't pronounce, then guess the grape variety before they tell you.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Wolffer+Estate+Vineyard+Sagaponack+NY",
         "adult": true
@@ -692,7 +692,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Put your phone away for the entire duration of sunset — not airplane mode, fully in your bag — and just watch it go down.",
+        "bonus": "Put your phone away for the entire duration of sunset (not airplane mode, fully in your bag) and just watch it go down.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Camp+Hero+State+Park+Montauk+NY",
         "company": [
@@ -722,7 +722,7 @@
       {
         "id": "HAMW-C-03",
         "title": "Westhampton Beach Performing Arts Center",
-        "description": "The restored 1930s theater on Main Street that anchors WHB's cultural scene — music, comedy and film a short drive from Remsenburg.",
+        "description": "The restored 1930s theater on Main Street that anchors WHB's cultural scene, music, comedy and film a short drive from Remsenburg.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -737,7 +737,7 @@
       {
         "id": "HAM-C-104",
         "title": "Sag Harbor Whaling Museum & Village Walk",
-        "description": "The 1845 Greek Revival mansion that houses the whaling museum anchors a village that was more important than Manhattan in 1850 — the Federal-style streetscape is the best-preserved in New York.",
+        "description": "The 1845 Greek Revival mansion that houses the whaling museum anchors a village that was more important than Manhattan in 1850. The Federal-style streetscape is the best-preserved in New York.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -752,7 +752,7 @@
       {
         "id": "HAM-C-105",
         "title": "Guild Hall East Hampton Gallery",
-        "description": "The East Hampton arts institution on Main Street has been showing the work of East End artists since 1931 — the summer exhibition program runs through October and always has at least one thing that stops you.",
+        "description": "The East Hampton arts institution on Main Street has been showing the work of East End artists since 1931. The summer exhibition program runs through October and always has at least one thing that stops you.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -784,7 +784,7 @@
       {
         "id": "HAMW-F-06",
         "title": "Oakland's Restaurant & Marina, Hampton Bays",
-        "description": "Right at the Shinnecock Inlet where the bay meets the ocean — lobster, a sand-floor tiki bar, and the best inlet sunset in the Hamptons.",
+        "description": "Right at the Shinnecock Inlet where the bay meets the ocean: lobster, a sand-floor tiki bar, and the best inlet sunset in the Hamptons.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -799,7 +799,7 @@
       {
         "id": "HAMW-F-05",
         "title": "Westhampton Bake Shoppe",
-        "description": "The Main Street bakery famous for its black-and-white cookies and crumb-topped everything — the morning line is the WHB social hour.",
+        "description": "The Main Street bakery famous for its black-and-white cookies and crumb-topped everything. The morning line is the WHB social hour.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -829,7 +829,7 @@
       {
         "id": "HAMW-F-02",
         "title": "Dockers Waterside, East Quogue",
-        "description": "The Shinnecock Bay waterfront restaurant where the entire western Hamptons turns up for the sunset — get there before the sun drops or you'll miss the whole point.",
+        "description": "The Shinnecock Bay waterfront restaurant where the entire western Hamptons turns up for the sunset. Get there before the sun drops or you'll miss the whole point.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -844,7 +844,7 @@
       {
         "id": "HAM-F-104",
         "title": "Sant Ambroeus Southampton Terrace",
-        "description": "The Milan-style coffee bar on Job's Lane does the best espresso in the Hamptons — the terrace scene on a Saturday morning is the entire social scene of Southampton compressed into one block.",
+        "description": "The Milan-style coffee bar on Job's Lane does the best espresso in the Hamptons, the terrace scene on a Saturday morning is the entire social scene of Southampton compressed into one block.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1 hr",
@@ -859,7 +859,7 @@
       {
         "id": "HAM-F-102",
         "title": "The Lobster Roll (LUNCH) on the Highway",
-        "description": "The roadside seafood shack in Napeague between Amagansett and Montauk that has been serving the cold mayo lobster roll since 1965 — the sign says LUNCH because the owner's wife's name is Lunch.",
+        "description": "The roadside seafood shack in Napeague between Amagansett and Montauk that has been serving the cold mayo lobster roll since 1965. The sign says LUNCH because the owner's wife's name is Lunch.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "45 min",
@@ -889,7 +889,7 @@
       {
         "id": "HAM-F-107",
         "title": "Topping Rose House Farm Dinner",
-        "description": "Tom Colicchio's Bridgehampton restaurant on the Topping Rose estate uses the on-site farm for the menu — the farm-to-table pitch is actually true here, and the terrace has the best view in Bridgehampton.",
+        "description": "Tom Colicchio's Bridgehampton restaurant on the Topping Rose estate uses the on-site farm for the menu. The farm-to-table pitch is actually true here, and the terrace has the best view in Bridgehampton.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -897,14 +897,14 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 40,
-        "bonus": "Order the farm vegetable plate whatever it is that night — don't skip it for protein.",
+        "bonus": "Order the farm vegetable plate whatever it is that night. Don't skip it for protein.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Topping+Rose+House+Bridgehampton+NY"
       },
       {
         "id": "HAM-F-101",
         "title": "Duryea's Lobster Deck, Montauk",
-        "description": "The lobster pound on Fort Pond Bay that got famous before it had a sign — whole lobsters, drawn butter, chilled rosé, picnic tables on the bay. Book weeks ahead or show up at 5pm and wait.",
+        "description": "The lobster pound on Fort Pond Bay that got famous before it had a sign: whole lobsters, drawn butter, chilled rosé, picnic tables on the bay. Book weeks ahead or show up at 5pm and wait.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -912,7 +912,7 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 40,
-        "bonus": "Order the full lobster, not the roll — crack it yourself.",
+        "bonus": "Order the full lobster, not the roll, crack it yourself.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Duryea%27s+Lobster+Deck+Montauk+NY",
         "company": [
@@ -922,7 +922,7 @@
       {
         "id": "HAM-F-105",
         "title": "La Fondita Tacos, East Hampton",
-        "description": "The walk-up taco window in the back of a parking lot on Newtown Lane — the best taco in the Hamptons costs $4 and has a longer line than any restaurant on Main Street.",
+        "description": "The walk-up taco window in the back of a parking lot on Newtown Lane. The best taco in the Hamptons costs $4 and has a longer line than any restaurant on Main Street.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -930,14 +930,14 @@
         "time": "Afternoon",
         "season": "Summer",
         "spark": 15,
-        "bonus": "Order at least five — you'll regret ordering fewer.",
+        "bonus": "Order at least five. You'll regret ordering fewer.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=La+Fondita+East+Hampton+NY"
       },
       {
         "id": "HAM-F-108",
         "title": "Sen Japanese, Southampton Village",
-        "description": "The Japanese restaurant in the village has held its reputation quietly for years — the omakase-style ordering approach gets you into territory that most Southampton visitors never find.",
+        "description": "The Japanese restaurant in the village has held its reputation quietly for years. The omakase-style ordering approach gets you into territory that most Southampton visitors never find.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -945,14 +945,14 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Let the chef choose every dish — don't look at the menu at all.",
+        "bonus": "Let the chef choose every dish. Don't look at the menu at all.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Sen+Restaurant+Southampton+NY"
       },
       {
         "id": "HAM-F-109",
         "title": "Scoop du Jour Ice Cream, Southampton",
-        "description": "The small-batch ice cream shop on Hampton Road has been the after-dinner tradition for Southampton locals for years — the seasonal flavors change weekly and the waffle cone is mandatory.",
+        "description": "The small-batch ice cream shop on Hampton Road has been the after-dinner tradition for Southampton locals for years, the seasonal flavors change weekly and the waffle cone is mandatory.",
         "rarity": "Common",
         "cost": "$",
         "duration": "20 min",
@@ -967,7 +967,7 @@
       {
         "id": "HAM-F-110",
         "title": "Sag Harbor Provisions Market Picnic",
-        "description": "The Sag Harbor village market makes the sandwiches and salads that end up on the harbor waterfront — build a picnic, walk to the wharf, eat looking at the boats.",
+        "description": "The Sag Harbor village market makes the sandwiches and salads that end up on the harbor waterfront. Build a picnic, walk to the wharf, eat looking at the boats.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -985,7 +985,7 @@
       {
         "id": "HAM-F-103",
         "title": "Nick & Toni's East Hampton",
-        "description": "The 35-year-old East Hampton institution where everyone who's been coming to the Hamptons longer than you has a regular table — wood-fired Tuscan cooking, local produce, the best pasta east of the city.",
+        "description": "The 35-year-old East Hampton institution where everyone who's been coming to the Hamptons longer than you has a regular table: wood-fired Tuscan cooking, local produce, the best pasta east of the city.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -993,14 +993,14 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 40,
-        "bonus": "Ask for a table by the fireplace even in summer — the room is better from that side.",
+        "bonus": "Ask for a table by the fireplace even in summer. The room is better from that side.",
         "city": "The Hamptons, NY",
         "mapsUrl": "https://maps.google.com/?q=Nick+%26+Toni%27s+East+Hampton+NY"
       },
       {
         "id": "HAMP-F-05",
         "title": "Early Breakfast at Candy Kitchen",
-        "description": "Bridgehampton's Greek-diner time capsule has served the same chrome-counter breakfast since 1956 — eggs, coffee, and zero pretension.",
+        "description": "Bridgehampton's Greek-diner time capsule has served the same chrome-counter breakfast since 1956: eggs, coffee, and zero pretension.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -1008,7 +1008,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sit at the counter, order off-menu by describing exactly what you want — if they make it without hesitation, you've found a local.",
+        "bonus": "Sit at the counter, order off-menu by describing exactly what you want, if they make it without hesitation, you've found a local.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Candy+Kitchen+Bridgehampton+NY"
       },
@@ -1023,7 +1023,7 @@
         "time": "Morning",
         "season": "Jul–Sep",
         "spark": 15,
-        "bonus": "Buy something from every stand you pass without spending more than $20 total — then build a meal from what you've collected.",
+        "bonus": "Buy something from every stand you pass without spending more than $20 total, then build a meal from what you've collected.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Sagg+Main+Street+Sagaponack+NY"
       },
@@ -1038,7 +1038,7 @@
         "time": "Evening",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Order a dish entirely in Greek — ask your server what it's called and pronounce it back to them before they put in the order.",
+        "bonus": "Order a dish entirely in Greek. Ask your server what it's called and pronounce it back to them before they put in the order.",
         "city": "The Hamptons, New York",
         "mapsUrl": "https://www.google.com/maps/search/Calissa+Water+Mill+NY"
       }

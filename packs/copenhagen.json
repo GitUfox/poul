@@ -54,7 +54,7 @@
       {
         "id": "CPH-CU-01",
         "title": "A Century of Chairs at Designmuseum Danmark",
-        "description": "The definitive collection of Danish modern design in an 18th-century former hospital — including a corridor lined with every chair that made the country famous.",
+        "description": "The definitive collection of Danish modern design in an 18th-century former hospital, including a corridor lined with every chair that made the country famous.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -99,7 +99,7 @@
       {
         "id": "CPH-CU-02",
         "title": "The Winter Garden at Ny Carlsberg Glyptotek",
-        "description": "A brewer's private collection of Roman marble and French sculpture arranged around a domed palm court with a fountain — the most beautiful room in Copenhagen.",
+        "description": "A brewer's private collection of Roman marble and French sculpture arranged around a domed palm court with a fountain, the most beautiful room in Copenhagen.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -245,7 +245,7 @@
       {
         "id": "CPH-S-09",
         "title": "Board Games and Beer at Bastard Café",
-        "description": "Several thousand board games, a bar, and staff whose actual job is to teach you the rules — a genuinely great way to spend a wet Copenhagen evening with strangers.",
+        "description": "Several thousand board games, a bar, and staff whose actual job is to teach you the rules, a genuinely great way to spend a wet Copenhagen evening with strangers.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -356,7 +356,7 @@
       {
         "id": "CPH-C-10",
         "title": "Sunset Swim at the Kastrup Sea Bath",
-        "description": "A spiralling wooden shell rising out of the Øresund at Kastrup, known as The Snail — a free, architecturally perfect place to sit, dive and watch the light go.",
+        "description": "A spiralling wooden shell rising out of the Øresund at Kastrup, known as The Snail: a free, architecturally perfect place to sit, dive and watch the light go.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -386,7 +386,7 @@
       {
         "id": "CPH-C-05",
         "title": "Picnic Among the Poets at Assistens Kirkegård",
-        "description": "Nørrebro treats its historic cemetery as a park — people sunbathe and picnic on the lawns between Hans Christian Andersen and Søren Kierkegaard, and nobody finds it strange.",
+        "description": "Nørrebro treats its historic cemetery as a park, people sunbathe and picnic on the lawns between Hans Christian Andersen and Søren Kierkegaard, and nobody finds it strange.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -401,7 +401,7 @@
       {
         "id": "CPH-C-07",
         "title": "Watch the Elephants from Frederiksberg Gardens",
-        "description": "The romantic landscape garden behind Frederiksberg Palace happens to look directly into the zoo's Norman Foster elephant house — a free view of elephants from a public park bench.",
+        "description": "The romantic landscape garden behind Frederiksberg Palace happens to look directly into the zoo's Norman Foster elephant house, a free view of elephants from a public park bench.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -493,7 +493,7 @@
       {
         "id": "CPH-A-08",
         "title": "Cross Every Bridge in the Inner Harbour",
-        "description": "Walk Olafur Eliasson's Cirkelbroen, then Lille Langebro and Inderhavnsbroen in one route — three pieces of design you can actually walk across.",
+        "description": "Walk Olafur Eliasson's Cirkelbroen, then Lille Langebro and Inderhavnsbroen in one route. Three pieces of design you can actually walk across.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -516,14 +516,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Get close enough to photograph a stag — then back off first.",
+        "bonus": "Get close enough to photograph a stag. Then back off first.",
         "city": "Copenhagen, Denmark",
         "mapsUrl": "https://maps.google.com/maps/search/Jaegersborg+Dyrehave+Klampenborg"
       },
       {
         "id": "CPH-A-05",
         "title": "Ski the Roof of a Power Plant at CopenHill",
-        "description": "Ride the lift to the summit of Amager Bakke — a working waste-to-energy plant with a year-round dry ski slope, the world's tallest climbing wall and a hiking trail down its green roof.",
+        "description": "Ride the lift to the summit of Amager Bakke, a working waste-to-energy plant with a year-round dry ski slope, the world's tallest climbing wall and a hiking trail down its green roof.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -538,7 +538,7 @@
       {
         "id": "CPH-A-09",
         "title": "Walk the Colour Strips of Superkilen",
-        "description": "Cut through Nørrebro's radical public park, built from objects sourced in the sixty nations its neighbours came from — a Moroccan fountain, Thai boxing ring and Japanese octopus slide in one strip.",
+        "description": "Cut through Nørrebro's radical public park, built from objects sourced in the sixty nations its neighbours came from, a Moroccan fountain, Thai boxing ring and Japanese octopus slide in one strip.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -568,7 +568,7 @@
       {
         "id": "CPH-A-11",
         "title": "Sauna and Cold Plunge at La Banchina",
-        "description": "Sweat in a tiny wood-fired harbour sauna on Refshaleøen, then drop straight off the jetty into the Øresund — the most Danish thing you can do to yourself.",
+        "description": "Sweat in a tiny wood-fired harbour sauna on Refshaleøen, then drop straight off the jetty into the Øresund. The most Danish thing you can do to yourself.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -826,7 +826,7 @@
       {
         "id": "CPH-F-05",
         "title": "The Full Experience at Alchemist",
-        "description": "Fifty 'impressions' across four hours in a converted naval theatre workshop, under a planetarium dome — the most theatrical meal in Northern Europe, and a genuine once-in-a-lifetime splurge.",
+        "description": "Fifty 'impressions' across four hours in a converted naval theatre workshop, under a planetarium dome, the most theatrical meal in Northern Europe, and a genuine once-in-a-lifetime splurge.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "5–6 hrs",
@@ -879,7 +879,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Split every plate instead of ordering your own — let one person choose everything.",
+        "bonus": "Split every plate instead of ordering your own. Let one person choose everything.",
         "city": "Copenhagen, Denmark",
         "mapsUrl": "https://maps.google.com/maps/search/Baest+Guldbergsgade+Copenhagen"
       },

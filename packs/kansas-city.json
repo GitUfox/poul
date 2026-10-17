@@ -86,7 +86,7 @@
       {
         "id": "KC-C-06",
         "title": "Fountain Walk on the Country Club Plaza",
-        "description": "A 1920s Spanish-style shopping district strung with tiled towers and fountains — one of the reasons KC calls itself the City of Fountains.",
+        "description": "A 1920s Spanish-style shopping district strung with tiled towers and fountains, one of the reasons KC calls itself the City of Fountains.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -207,7 +207,7 @@
       {
         "id": "KC-F-10",
         "title": "American Royal World Series of Barbecue",
-        "description": "The world's biggest barbecue contest — hundreds of teams, pits running all night, and a weekend where the whole city smells like smoke.",
+        "description": "The world's biggest barbecue contest: hundreds of teams, pits running all night, and a weekend where the whole city smells like smoke.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "Half day",
@@ -245,7 +245,7 @@
       {
         "id": "KC-F-09",
         "title": "Late-Night Burger at Town Topic",
-        "description": "A tiny counter diner cooking onion-smashed burgers since 1937 — still the best move after midnight.",
+        "description": "A tiny counter diner cooking onion-smashed burgers since 1937, still the best move after midnight.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -285,7 +285,7 @@
       {
         "id": "KC-F-11",
         "title": "The Freight House at Jack Stack",
-        "description": "The sit-down end of KC barbecue — crown prime beef ribs and cheesy corn bake in an old rail freight building by Union Station.",
+        "description": "The sit-down end of KC barbecue, crown prime beef ribs and cheesy corn bake in an old rail freight building by Union Station.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5–2 hrs",
@@ -304,7 +304,7 @@
       {
         "id": "KC-F-06",
         "title": "Hi, May I Help You at Gates Bar-B-Q",
-        "description": "The KC institution where staff shout the famous greeting before you reach the counter — have your order ready.",
+        "description": "The KC institution where staff shout the famous greeting before you reach the counter, have your order ready.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -324,7 +324,7 @@
       {
         "id": "KC-F-05",
         "title": "Burnt Ends at Q39",
-        "description": "Competition-BBQ pedigree in a sit-down room — burnt ends, brisket and a sausage sampler, with enough sides to feed a table twice over.",
+        "description": "Competition-BBQ pedigree in a sit-down room. Burnt ends, brisket and a sausage sampler, with enough sides to feed a table twice over.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -469,7 +469,7 @@
       {
         "id": "KC-A-10",
         "title": "Ride the Mamba at Worlds of Fun",
-        "description": "A day at Kansas City's big amusement park, anchored by the Mamba — a 200-foot hypercoaster with some serious airtime.",
+        "description": "A day at Kansas City's big amusement park, anchored by the Mamba, a 200-foot hypercoaster with some serious airtime.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "Full day",
@@ -548,7 +548,7 @@
       {
         "id": "KC-AC-03",
         "title": "Sunrise Lake Loop at Shawnee Mission Park",
-        "description": "Run or walk the 300-acre lake loop before the park fills in — best light of the day, guaranteed.",
+        "description": "Run or walk the 300-acre lake loop before the park fills in, best light of the day, guaranteed.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -601,7 +601,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 14,
-        "bonus": "Play your worst hole again for a mulligan — no judgment.",
+        "bonus": "Play your worst hole again for a mulligan, no judgment.",
         "city": "Kansas City, MO",
         "mapsUrl": "https://maps.google.com/maps/search/Minor+Park+Disc+Golf+Course+Kansas+City"
       },
@@ -631,7 +631,7 @@
         "time": "Evening",
         "season": "Nov–Mar",
         "spark": 18,
-        "bonus": "Skate one full lap holding hands with a stranger from your group — no falling allowed.",
+        "bonus": "Skate one full lap holding hands with a stranger from your group, no falling allowed.",
         "city": "Kansas City, MO",
         "mapsUrl": "https://maps.google.com/maps/search/Crown+Center+Ice+Terrace+Kansas+City"
       },
@@ -674,7 +674,7 @@
       {
         "id": "KC-S-10",
         "title": "Westport Bar Crawl",
-        "description": "Kansas City's oldest neighbourhood is its liveliest nightlife strip — dive bars, patios and live music within a few walkable blocks.",
+        "description": "Kansas City's oldest neighbourhood is its liveliest nightlife strip. Dive bars, patios and live music within a few walkable blocks.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -771,7 +771,7 @@
       {
         "id": "KC-S-05",
         "title": "Chiefs Game at Arrowhead",
-        "description": "A tailgate that starts at dawn, then one of the loudest stadiums in the NFL — a full sea of red.",
+        "description": "A tailgate that starts at dawn, then one of the loudest stadiums in the NFL, a full sea of red.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "Full day",
@@ -914,7 +914,7 @@
       {
         "id": "KC-CU-07",
         "title": "Arabia Steamboat Museum",
-        "description": "A steamboat that sank in 1856 and was dug out of a Kansas cornfield in 1988, with its whole cargo — boots, dishes and even pickles — on display.",
+        "description": "A steamboat that sank in 1856 and was dug out of a Kansas cornfield in 1988, with its whole cargo (boots, dishes and even pickles) on display.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -1014,7 +1014,7 @@
       {
         "id": "KC-8B-01",
         "title": "Order Whatever the Pitmaster Says",
-        "description": "Walk into a barbecue joint you have never been to and order exactly what the person at the counter recommends — no menu, no second-guessing.",
+        "description": "Walk into a barbecue joint you have never been to and order exactly what the person at the counter recommends: no menu, no second-guessing.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",

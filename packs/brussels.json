@@ -9,7 +9,7 @@
       {
         "id": "BRU-AC-201",
         "title": "Ice Skate at Patinoire Poseidon",
-        "description": "Woluwe's municipal rink runs public sessions year-round — cheap skate rental, questionable Eurodance on the speakers, and Brussels families wobbling alongside you like it's 1987.",
+        "description": "Woluwe's municipal rink runs public sessions year-round: cheap skate rental, questionable Eurodance on the speakers, and Brussels families wobbling alongside you like it's 1987.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -17,14 +17,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "One full lap skating backwards before you leave — falling counts as trying.",
+        "bonus": "One full lap skating backwards before you leave, falling counts as trying.",
         "city": "Brussels, Belgium",
         "mapsUrl": "https://www.google.com/maps/search/Patinoire+Poseidon+Woluwe+Brussels"
       },
       {
         "id": "BRU-A-201",
         "title": "Day Trip to the Villers Abbey Ruins",
-        "description": "Forty minutes by train, the roofless Gothic nave of Villers-la-Ville stands open to the sky — 800 years of Cistercian stone with vines growing through the windows and hardly anyone around on weekdays.",
+        "description": "Forty minutes by train, the roofless Gothic nave of Villers-la-Ville stands open to the sky, 800 years of Cistercian stone with vines growing through the windows and hardly anyone around on weekdays.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4–6 hrs",
@@ -39,7 +39,7 @@
       {
         "id": "BRU-AC-101",
         "title": "Swim Laps at the Néptunium, Schaerbeek",
-        "description": "Schaerbeek's restored Art Deco municipal bath has been splashing Brusselaers for generations — no-nonsense lane swimming under a soaring vaulted hall that most of the city forgot exists.",
+        "description": "Schaerbeek's restored Art Deco municipal bath has been splashing Brusselaers for generations, no-nonsense lane swimming under a soaring vaulted hall that most of the city forgot exists.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -54,7 +54,7 @@
       {
         "id": "BRU-S-101",
         "title": "Sundown Pétanque at Parc Josaphat, Schaerbeek",
-        "description": "Parc Josaphat's dedicated pétanque lanes fill with Schaerbeek locals every evening — join an ongoing game and you will drink, argue, and leave with friends.",
+        "description": "Parc Josaphat's dedicated pétanque lanes fill with Schaerbeek locals every evening. Join an ongoing game and you will drink, argue, and leave with friends.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -62,7 +62,7 @@
         "time": "Evening",
         "season": "Apr–Sep",
         "spark": 15,
-        "bonus": "Challenge the winning team immediately after their game ends — no introductions, just point at the court.",
+        "bonus": "Challenge the winning team immediately after their game ends, no introductions, just point at the court.",
         "city": "Brussels, Belgium",
         "mapsUrl": "https://www.google.com/maps/search/Parc+Josaphat+Schaerbeek+Brussels",
         "company": [
@@ -102,7 +102,7 @@
       {
         "id": "BRU-A-105",
         "title": "Walk the Sewers at the Musée des Égouts",
-        "description": "Brussels' Sewer Museum at Porte d'Anderlecht sends you down into the actual working 19th-century network under the Senne — Haussmann-scale infrastructure you walk through, smell included.",
+        "description": "Brussels' Sewer Museum at Porte d'Anderlecht sends you down into the actual working 19th-century network under the Senne, Haussmann-scale infrastructure you walk through, smell included.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -110,14 +110,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Go the entire tour without covering your nose — embrace it.",
+        "bonus": "Go the entire tour without covering your nose, embrace it.",
         "city": "Brussels, Belgium",
         "mapsUrl": "https://www.google.com/maps/search/Musée+des+Égouts+Porte+d'Anderlecht+Brussels"
       },
       {
         "id": "BRU-A-104",
         "title": "The Thousand Costumes at GardeRobe MannekenPis",
-        "description": "A dedicated museum on Rue du Chêne holds over 1,000 costumes belonging to the world's most absurd civic mascot — Elvis, samurai armor, national dress from a hundred countries — stranger and more compelling than it has any right to be.",
+        "description": "A dedicated museum on Rue du Chêne holds over 1,000 costumes belonging to the world's most absurd civic mascot (Elvis, samurai armor, national dress from a hundred countries) stranger and more compelling than it has any right to be.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -147,7 +147,7 @@
       {
         "id": "BRU-A-101",
         "title": "Royal Crypt and Laeken Cemetery",
-        "description": "Notre-Dame de Laeken guards the crypt of Belgium's kings, and the cemetery behind it — Brussels' Père-Lachaise — holds a cast of Rodin's Thinker brooding over the graves.",
+        "description": "Notre-Dame de Laeken guards the crypt of Belgium's kings, and the cemetery behind it, Brussels' Père-Lachaise, holds a cast of Rodin's Thinker brooding over the graves.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -155,14 +155,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Find and photograph the oldest legible inscription on a burial slab — share it with no caption.",
+        "bonus": "Find and photograph the oldest legible inscription on a burial slab. Share it with no caption.",
         "city": "Brussels, Belgium",
         "mapsUrl": "https://www.google.com/maps/search/Notre-Dame+de+Laeken+cemetery+Brussels"
       },
       {
         "id": "BRU-AC-08",
-        "title": "Morning swim at the Forest National pool",
-        "description": "The large public pool in Forest opens early and is mostly serious swimmers — go for a long-course 50m session and remember what good lane discipline feels like.",
+        "title": "Morning Swim at the Forest National Pool",
+        "description": "The large public pool in Forest opens early and is mostly serious swimmers. Go for a long-course 50m session and remember what good lane discipline feels like.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -176,8 +176,8 @@
       },
       {
         "id": "BRU-AC-02",
-        "title": "Friday Night Skate route through Brussels",
-        "description": "Every Friday night from May onward, hundreds of skaters take over Brussels' streets in a police-led 20km loop — rent blades, join the mass, and feel the city differently.",
+        "title": "Friday Night Skate Route Through Brussels",
+        "description": "Every Friday night from May onward, hundreds of skaters take over Brussels' streets in a police-led 20km loop. Rent blades, join the mass, and feel the city differently.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -192,7 +192,7 @@
       {
         "id": "BRU-AC-07",
         "title": "Tennis in the Parc du Cinquantenaire",
-        "description": "The triumphal arch park has bookable clay courts surrounded by green — a morning match in a European capital park is a very good way to start the day.",
+        "description": "The triumphal arch park has bookable clay courts surrounded by green, a morning match in a European capital park is a very good way to start the day.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -206,8 +206,8 @@
       },
       {
         "id": "BRU-AC-06",
-        "title": "Cycle the Brussels–Bruges canal towpath",
-        "description": "The flat canal towpath to Bruges is one of Europe's great cycling day trips — 100km of almost entirely traffic-free path through the Flemish countryside.",
+        "title": "Cycle the Brussels–Bruges Canal Towpath",
+        "description": "The flat canal towpath to Bruges is one of Europe's great cycling day trips, 100km of almost entirely traffic-free path through the Flemish countryside.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "5–8 hrs",
@@ -221,8 +221,8 @@
       },
       {
         "id": "BRU-A-05",
-        "title": "Ardennes forest day trip hike",
-        "description": "The Belgian Ardennes is 90 minutes south — forested valleys, castle ruins, and river gorges that feel nothing like a capital city weekend.",
+        "title": "Ardennes Forest Day Trip Hike",
+        "description": "The Belgian Ardennes is 90 minutes south: forested valleys, castle ruins, and river gorges that feel nothing like a capital city weekend.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "5–8 hrs",
@@ -236,8 +236,8 @@
       },
       {
         "id": "BRU-AC-01",
-        "title": "Run the perimeter of Bois de la Cambre",
-        "description": "The urban forest at the bottom of Avenue Louise has a flat perimeter loop beloved by Brussels runners — 5km through trees with a lake in the middle.",
+        "title": "Run the Perimeter of Bois de la Cambre",
+        "description": "The urban forest at the bottom of Avenue Louise has a flat perimeter loop beloved by Brussels runners, 5km through trees with a lake in the middle.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -251,8 +251,8 @@
       },
       {
         "id": "BRU-AC-03",
-        "title": "Bouldering at Arkose gym in Anderlecht",
-        "description": "Brussels' best bouldering gym is in a converted industrial building in Anderlecht — rent shoes at the desk and start on the green routes.",
+        "title": "Bouldering at Arkose Gym in Anderlecht",
+        "description": "Brussels' best bouldering gym is in a converted industrial building in Anderlecht. Rent shoes at the desk and start on the green routes.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -266,8 +266,8 @@
       },
       {
         "id": "BRU-AC-04",
-        "title": "Walk all the way around Laeken royal park",
-        "description": "The vast royal estate at Laeken has public perimeter trails through formal gardens, parkland, and the Atomium view — a full loop is about 8km.",
+        "title": "Walk All the Way Around Laeken Royal Park",
+        "description": "The vast royal estate at Laeken has public perimeter trails through formal gardens, parkland, and the Atomium view. A full loop is about 8km.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -290,7 +290,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Score a goal and celebrate it as if you've just won the World Cup — full performance, no apology.",
+        "bonus": "Score a goal and celebrate it as if you've just won the World Cup, full performance, no apology.",
         "city": "Brussels, Belgium",
         "mapsUrl": "https://www.google.com/maps/search/Aspria+Arts-Loi+Brussels"
       },
@@ -305,7 +305,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Complete the full 60km loop without using any navigation app — paper map or nothing.",
+        "bonus": "Complete the full 60km loop without using any navigation app, paper map or nothing.",
         "city": "Brussels, Belgium",
         "mapsUrl": "https://www.google.com/maps/search/Promenade+Verte+Brussels+cycling"
       },
@@ -327,7 +327,7 @@
       {
         "id": "BRUS-A-04",
         "title": "Urban Bouldering at Arkose Brussels",
-        "description": "Arkose in Molenbeek is the city's sharpest climbing gym — high-quality routes, a strong local scene, and a post-climb natural wine bar that makes the whole thing feel very Brussels.",
+        "description": "Arkose in Molenbeek is the city's sharpest climbing gym: high-quality routes, a strong local scene, and a post-climb natural wine bar that makes the whole thing feel very Brussels.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -372,7 +372,7 @@
       {
         "id": "BRUS-A-01",
         "title": "Rooftop Sprint at the Atomium",
-        "description": "Belgium's most surreal landmark earns its reputation up close — the panoramic top sphere at 92 meters reframes the entire city in steel and sky.",
+        "description": "Belgium's most surreal landmark earns its reputation up close, the panoramic top sphere at 92 meters reframes the entire city in steel and sky.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -389,7 +389,7 @@
       {
         "id": "BRU-C-201",
         "title": "The Three Weeks of the Serres Royales",
-        "description": "The royal greenhouses of Laeken — a glass city of domes and galleries dripping with century-old camellias — open to the public for only about three weeks each spring. Belgians plan around it.",
+        "description": "The royal greenhouses of Laeken, a glass city of domes and galleries dripping with century-old camellias, open to the public for only about three weeks each spring. Belgians plan around it.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -397,14 +397,14 @@
         "time": "Morning",
         "season": "Apr–May",
         "spark": 40,
-        "bonus": "Go on a weekday morning at opening and walk the full circuit twice — once for the plants, once for the glass.",
+        "bonus": "Go on a weekday morning at opening and walk the full circuit twice, once for the plants, once for the glass.",
         "city": "Brussels, Belgium",
         "mapsUrl": "https://www.google.com/maps/search/Serres+Royales+de+Laeken+Brussels"
       },
       {
         "id": "BRU-CH-05",
-        "title": "Magritte Museum morning",
-        "description": "The world's largest collection of Magritte works in a beautiful neoclassical building — go slow, read every caption, and pick one painting to sit in front of for ten minutes.",
+        "title": "Magritte Museum Morning",
+        "description": "The world's largest collection of Magritte works in a beautiful neoclassical building. Go slow, read every caption, and pick one painting to sit in front of for ten minutes.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -418,8 +418,8 @@
       },
       {
         "id": "BRU-CH-02",
-        "title": "Art Nouveau architecture walk in Ixelles",
-        "description": "Brussels has more Art Nouveau buildings per square kilometer than any city on earth — Ixelles is where Victor Horta's students went wild on private houses.",
+        "title": "Art Nouveau Architecture Walk in Ixelles",
+        "description": "Brussels has more Art Nouveau buildings per square kilometer than any city on earth. Ixelles is where Victor Horta's students went wild on private houses.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -433,8 +433,8 @@
       },
       {
         "id": "BRU-S-01",
-        "title": "Comic book mural hunt through the city center",
-        "description": "Brussels has 50+ officially sanctioned comic strip murals hidden on building walls across the city — get the map from the tourist office and find as many as you can.",
+        "title": "Comic Book Mural Hunt Through the City Center",
+        "description": "Brussels has 50+ officially sanctioned comic strip murals hidden on building walls across the city. Get the map from the tourist office and find as many as you can.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -450,8 +450,8 @@
     "foodie": [
       {
         "id": "BRU-F-03",
-        "title": "Single-origin chocolate tasting at Pierre Marcolini",
-        "description": "The Belgian chocolatier who sources cacao like a sommelier sources wine — sit at the tasting counter and work through origins from Peru to Madagascar.",
+        "title": "Single-Origin Chocolate Tasting at Pierre Marcolini",
+        "description": "The Belgian chocolatier who sources cacao like a sommelier sources wine. Sit at the tasting counter and work through origins from Peru to Madagascar.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1 hr",
@@ -465,8 +465,8 @@
       },
       {
         "id": "BRU-F-05",
-        "title": "Belgian beer flight at a brown café in the Pentagone",
-        "description": "Old Brussels cafés with dark wood, tiled floors, and a 200-beer menu are a category unto themselves — drink chronologically from blond to tripel to Gueuze.",
+        "title": "Belgian Beer Flight at a Brown Café in the Pentagone",
+        "description": "Old Brussels cafés with dark wood, tiled floors, and a 200-beer menu are a category unto themselves. Drink chronologically from blond to tripel to Gueuze.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -481,8 +481,8 @@
       },
       {
         "id": "BRU-F-01",
-        "title": "Belgian waffle at Gaufres de Bruxelles, Grand Place",
-        "description": "Liège waffles are chewy, caramelized, and built to be eaten standing — find one near the Matonge African quarter and eat it without toppings.",
+        "title": "Belgian Waffle at Gaufres de Bruxelles, Grand Place",
+        "description": "Liège waffles are chewy, caramelized, and built to be eaten standing. Find one near the Matonge African quarter and eat it without toppings.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -496,8 +496,8 @@
       },
       {
         "id": "BRU-F-10",
-        "title": "Tasting menu at Bon Bon, Uccle",
-        "description": "The Sablon district holds some of the most quietly serious cooking in Europe — book weeks ahead and eat somewhere that requires your full attention.",
+        "title": "Tasting Menu at Bon Bon, Uccle",
+        "description": "The Sablon district holds some of the most quietly serious cooking in Europe. Book weeks ahead and eat somewhere that requires your full attention.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -512,7 +512,7 @@
       {
         "id": "BRU-F-07",
         "title": "Waterzooi at De Ultieme Hallucinatie, Rue Royale",
-        "description": "The stew of the old Flemish cities — chicken or fish in a cream-vegetable broth — is Brussels comfort food at its most specific and uncompromising.",
+        "description": "The stew of the old Flemish cities, chicken or fish in a cream-vegetable broth, is Brussels comfort food at its most specific and uncompromising.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -527,7 +527,7 @@
       {
         "id": "BRU-F-08",
         "title": "Jenever at À la Mort Subite, Bruxelles",
-        "description": "The Dutch-Belgian grain spirit that predates gin by centuries comes young, old, and aged — a tasting flight is an hour of underrated pleasure.",
+        "description": "The Dutch-Belgian grain spirit that predates gin by centuries comes young, old, and aged. A tasting flight is an hour of underrated pleasure.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -541,8 +541,8 @@
       },
       {
         "id": "BRU-F-06",
-        "title": "Sunday brunch at Châtelain market",
-        "description": "The weekly market at Place du Châtelain fills with vendors, organic produce, and people eating on the square — show up late morning with no plan.",
+        "title": "Sunday Brunch at Châtelain Market",
+        "description": "The weekly market at Place du Châtelain fills with vendors, organic produce, and people eating on the square. Show up late morning with no plan.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -557,7 +557,7 @@
       {
         "id": "BRU-F-02",
         "title": "Moules-frites at Aux Armes de Bruxelles, Grand Place",
-        "description": "A pot of mussels in white wine, a cone of double-fried chips with mayo, and a glass of blonde — this is the brussels meal you do once and then always again.",
+        "description": "A pot of mussels in white wine, a cone of double-fried chips with mayo, and a glass of blonde. This is the brussels meal you do once and then always again.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -571,8 +571,8 @@
       },
       {
         "id": "BRU-F-09",
-        "title": "Trappist beer at In't Spinnekopke, Place du Jardin aux Fleurs",
-        "description": "Belgium has six Trappist breweries; Brussels has restaurants that pair every course with the monks' output — find one and let beer replace wine for a night.",
+        "title": "Trappist Beer at In't Spinnekopke, Place du Jardin aux Fleurs",
+        "description": "Belgium has six Trappist breweries; Brussels has restaurants that pair every course with the monks' output. Find one and let beer replace wine for a night.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -588,7 +588,7 @@
       {
         "id": "BRUS-F-05",
         "title": "Dim Sum Crawl in Quartier Chinois",
-        "description": "The blocks around Rue Sainte-Catherine hide a genuinely good Cantonese scene — dim sum carts, roast duck windows, and bubble tea joints that Brussels tourists almost never find.",
+        "description": "The blocks around Rue Sainte-Catherine hide a genuinely good Cantonese scene: dim sum carts, roast duck windows, and bubble tea joints that Brussels tourists almost never find.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -603,7 +603,7 @@
       {
         "id": "BRUS-F-04",
         "title": "Sunday Market Brunch at Flagey",
-        "description": "The Sunday organic market around Place Flagey in Ixelles pulls the best producers from across Belgium — graze on raw milk cheese, charcuterie, and sourdough while Ixelles slowly wakes up around you.",
+        "description": "The Sunday organic market around Place Flagey in Ixelles pulls the best producers from across Belgium: graze on raw milk cheese, charcuterie, and sourdough while Ixelles slowly wakes up around you.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -611,7 +611,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Spend exactly €15 and build the best possible picnic — no supermarket backup allowed.",
+        "bonus": "Spend exactly €15 and build the best possible picnic, no supermarket backup allowed.",
         "city": "Brussels, Belgium",
         "mapsUrl": "https://www.google.com/maps/search/Marché+Flagey+Brussels"
       },
@@ -665,8 +665,8 @@
     "social": [
       {
         "id": "BRU-S-06",
-        "title": "Night market at Tour & Taxis",
-        "description": "The vast former railway depot hosts Brussels' biggest night market events — food trucks, live music, design stalls, and the kind of crowd that makes you glad you came.",
+        "title": "Night Market at Tour & Taxis",
+        "description": "The vast former railway depot hosts Brussels' biggest night market events: food trucks, live music, design stalls, and the kind of crowd that makes you glad you came.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -680,7 +680,7 @@
       },
       {
         "id": "BRU-S-08",
-        "title": "Evening drinks on Place Luxembourg, EU Quarter",
+        "title": "Evening Drinks on Place Luxembourg, EU Quarter",
         "description": "Walk the EU institutions quarter, marvel at the density of bureaucracy in a single neighbourhood, and end at a café full of Eurocrats with their badges still on.",
         "rarity": "Common",
         "cost": "$",
@@ -697,7 +697,7 @@
       {
         "id": "BRU-S-05",
         "title": "Afternoon at KANAL-Centre Pompidou, Tour & Taxis",
-        "description": "Molenbeek has transformed into one of Brussels' most interesting art districts — check listings for opening nights and walk in cold.",
+        "description": "Molenbeek has transformed into one of Brussels' most interesting art districts. Check listings for opening nights and walk in cold.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -711,8 +711,8 @@
       },
       {
         "id": "BRU-S-04",
-        "title": "Aperitivo hour at Place du Châtelain",
-        "description": "Wednesday evenings the square fills with after-work Brussels — find a terrace table, order something Belgian, and let the evening happen without a plan.",
+        "title": "Aperitivo Hour at Place du Châtelain",
+        "description": "Wednesday evenings the square fills with after-work Brussels. Find a terrace table, order something Belgian, and let the evening happen without a plan.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -726,8 +726,8 @@
       },
       {
         "id": "BRU-S-02",
-        "title": "DJ night at Fuse Club, Ixelles",
-        "description": "Brussels has a genuinely good underground club scene concentrated in Ixelles — find a basement with no line and go in without knowing the artist.",
+        "title": "DJ Night at Fuse Club, Ixelles",
+        "description": "Brussels has a genuinely good underground club scene concentrated in Ixelles. Find a basement with no line and go in without knowing the artist.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -741,8 +741,8 @@
       },
       {
         "id": "BRU-S-03",
-        "title": "Craft beer at Moeder Lambic Fontainas, Place Fontainas",
-        "description": "Brussels has several bars with serious vintage pinball and arcade machine collections — challenge strangers to a game and work your way through the craft tap list.",
+        "title": "Craft Beer at Moeder Lambic Fontainas, Place Fontainas",
+        "description": "Brussels has several bars with serious vintage pinball and arcade machine collections. Challenge strangers to a game and work your way through the craft tap list.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -758,7 +758,7 @@
       {
         "id": "BRUS-S-04",
         "title": "Aperitivo Hour at Le Comptoir des Galeries",
-        "description": "The bar inside the Hotel des Galeries draws Brussels' creative and media crowd at golden hour — perfectly made Negronis, no tourists, sharp conversation.",
+        "description": "The bar inside the Hotel des Galeries draws Brussels' creative and media crowd at golden hour. Perfectly made Negronis, no tourists, sharp conversation.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1–2 hrs",
@@ -789,7 +789,7 @@
       {
         "id": "BRUS-S-02",
         "title": "Karaoke at Le You Club",
-        "description": "Le You is Brussels' most committed late-night karaoke bar — deep Ixelles, a crowd that treats every song like a finale, and enough Belgian beer to get you on stage.",
+        "description": "Le You is Brussels' most committed late-night karaoke bar: deep Ixelles, a crowd that treats every song like a finale, and enough Belgian beer to get you on stage.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–4 hrs",
@@ -808,7 +808,7 @@
       {
         "id": "BRUS-S-01",
         "title": "Late Night at Delirium Café",
-        "description": "Delirium holds a Guinness record for beer selection — 2,000+ labels — and its labyrinthine basement fills nightly with an international crowd that actually knows what they're ordering.",
+        "description": "Delirium holds a Guinness record for beer selection (2,000+ labels) and its labyrinthine basement fills nightly with an international crowd that actually knows what they're ordering.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–4 hrs",
@@ -825,8 +825,8 @@
     "chill": [
       {
         "id": "BRU-CH-04",
-        "title": "Antique flea market at Place du Jeu de Balle",
-        "description": "The daily Marolles flea market is the real Brussels — comic books, silverware, vintage cameras, and decades of city life piled on folding tables.",
+        "title": "Antique Flea Market at Place du Jeu de Balle",
+        "description": "The daily Marolles flea market is the real Brussels. Comic books, silverware, vintage cameras, and decades of city life piled on folding tables.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -840,8 +840,8 @@
       },
       {
         "id": "BRU-CH-03",
-        "title": "Slow morning coffee in a Saint-Boniface café",
-        "description": "Saint-Boniface square is Brussels at its most quietly livable — arrive before the lunch rush, order twice, and watch the neighbourhood come and go.",
+        "title": "Slow Morning Coffee in a Saint-Boniface Café",
+        "description": "Saint-Boniface square is Brussels at its most quietly livable. Arrive before the lunch rush, order twice, and watch the neighbourhood come and go.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -855,8 +855,8 @@
       },
       {
         "id": "BRU-CH-01",
-        "title": "Afternoon in the Jardin du Roi with frites",
-        "description": "The Botanical Garden-adjacent park south of the city is Brussels' quietest green space — get a cone of frites from a nearby friterie and eat on the grass.",
+        "title": "Afternoon in the Jardin du Roi with Frites",
+        "description": "The Botanical Garden-adjacent park south of the city is Brussels' quietest green space. Get a cone of frites from a nearby friterie and eat on the grass.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -870,8 +870,8 @@
       },
       {
         "id": "BRU-CH-08",
-        "title": "Comics hunt at Brüsel, Rue Fossé aux Loups",
-        "description": "Belgium invented the graphic novel as a serious medium — find a café that stocks them, order something Trappist, and read an entire Tintin or Blake & Mortimer volume.",
+        "title": "Comics Hunt at Brüsel, Rue Fossé aux Loups",
+        "description": "Belgium invented the graphic novel as a serious medium. Find a café that stocks them, order something Trappist, and read an entire Tintin or Blake & Mortimer volume.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -885,8 +885,8 @@
       },
       {
         "id": "BRU-CH-06",
-        "title": "Canal walk from Sainte-Catherine to Laeken",
-        "description": "The Brussels canal corridor has been quietly transformed into one of the best walks in the city — cafés, barges, and bridges the whole way.",
+        "title": "Canal Walk from Sainte-Catherine to Laeken",
+        "description": "The Brussels canal corridor has been quietly transformed into one of the best walks in the city: cafés, barges, and bridges the whole way.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -900,8 +900,8 @@
       },
       {
         "id": "BRU-CH-07",
-        "title": "Chocolate workshop at Planète Chocolat, Rue du Lombard",
-        "description": "Several Brussels chocolatiers run 90-minute workshops where you make your own pralines — you leave with a box of something genuinely excellent.",
+        "title": "Chocolate Workshop at Planète Chocolat, Rue du Lombard",
+        "description": "Several Brussels chocolatiers run 90-minute workshops where you make your own pralines. You leave with a box of something genuinely excellent.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -931,7 +931,7 @@
       {
         "id": "BRUS-C-03",
         "title": "Stroll and Sit in Parc du Cinquantenaire",
-        "description": "The Cinquantenaire's triumphal arch and manicured lawns are Brussels at its most imperial and unhurried — bring nothing and do absolutely nothing structured.",
+        "description": "The Cinquantenaire's triumphal arch and manicured lawns are Brussels at its most imperial and unhurried. Bring nothing and do absolutely nothing structured.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",

@@ -9,7 +9,7 @@
       {
         "id": "TOK-C-201",
         "title": "Circle the Pond at Kiyosumi Garden",
-        "description": "A Meiji-era shipping magnate collected famous stones from all over Japan and set them around this quiet Fukagawa stroll garden — cross the stepping-stone path while turtles watch you work it out.",
+        "description": "A Meiji-era shipping magnate collected famous stones from all over Japan and set them around this quiet Fukagawa stroll garden. Cross the stepping-stone path while turtles watch you work it out.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -17,13 +17,13 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the stone from your favorite prefecture on the markers — then sit on the pavilion bench for ten unhurried minutes.",
+        "bonus": "Find the stone from your favorite prefecture on the markers, then sit on the pavilion bench for ten unhurried minutes.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Kiyosumi+Garden+Tokyo"
       },
       {
         "id": "TOK-CH-08",
-        "title": "Afternoon in the covered arcades of Koenji",
+        "title": "Afternoon in the Covered Arcades of Koenji",
         "description": "Koenji's roofed shotengai shopping streets hold vintage clothing, used bookshops, cafés, and small live music venues in a neighbourhood that hasn't been gentrified yet.",
         "rarity": "Common",
         "cost": "$",
@@ -38,8 +38,8 @@
       },
       {
         "id": "TOK-CH-02",
-        "title": "Vinyl hunting at Disk Union Shimokitazawa",
-        "description": "Shimokitazawa has the best concentration of vinyl shops in Asia — find one that specializes in a genre you half-know and let an afternoon disappear in the stacks.",
+        "title": "Vinyl Hunting at Disk Union Shimokitazawa",
+        "description": "Shimokitazawa has the best concentration of vinyl shops in Asia. Find one that specializes in a genre you half-know and let an afternoon disappear in the stacks.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -53,8 +53,8 @@
       },
       {
         "id": "TOK-CH-03",
-        "title": "Tea ceremony in a Hamarikyu garden tea house",
-        "description": "The traditional tea house in Hamarikyu's garden sits in a tidal pond with skyscrapers behind it — a 500-year-old ritual surrounded by the 21st century.",
+        "title": "Tea Ceremony in a Hamarikyu Garden Tea House",
+        "description": "The traditional tea house in Hamarikyu's garden sits in a tidal pond with skyscrapers behind it, a 500-year-old ritual surrounded by the 21st century.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -68,8 +68,8 @@
       },
       {
         "id": "TOK-CH-04",
-        "title": "Read manga in Nakano Broadway café",
-        "description": "Nakano Broadway is Tokyo's most obsessive collector's mall — find the manga café inside, rent a cubicle, and read something you can't get in translation.",
+        "title": "Read Manga in Nakano Broadway Café",
+        "description": "Nakano Broadway is Tokyo's most obsessive collector's mall. Find the manga café inside, rent a cubicle, and read something you can't get in translation.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -83,8 +83,8 @@
       },
       {
         "id": "TOK-CH-06",
-        "title": "Wander Yanaka cemetery and old shitamachi at dawn",
-        "description": "Yanaka survived the war and the earthquakes — its cemetery and shopping street at dawn are the old Tokyo that most of the city has already lost.",
+        "title": "Wander Yanaka Cemetery and Old Shitamachi at Dawn",
+        "description": "Yanaka survived the war and the earthquakes, its cemetery and shopping street at dawn are the old Tokyo that most of the city has already lost.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -98,8 +98,8 @@
       },
       {
         "id": "TOK-CH-07",
-        "title": "Cherry blossoms in Shinjuku Gyoen in spring",
-        "description": "Shinjuku Gyoen has 1,000 cherry trees and bans alcohol — the result is a calm, beautiful hanami in the middle of the world's largest city that feels nothing like the chaos outside its walls.",
+        "title": "Cherry Blossoms in Shinjuku Gyoen in Spring",
+        "description": "Shinjuku Gyoen has 1,000 cherry trees and bans alcohol. The result is a calm, beautiful hanami in the middle of the world's largest city that feels nothing like the chaos outside its walls.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -114,7 +114,7 @@
       {
         "id": "TOKY-C-03",
         "title": "Onsen Soak at Thermae-Yu, Shinjuku",
-        "description": "A genuine hot-spring bathhouse in the heart of Shinjuku pulls real sodium bicarbonate water from 1,700 meters below — the silk-water feeling is addictive.",
+        "description": "A genuine hot-spring bathhouse in the heart of Shinjuku pulls real sodium bicarbonate water from 1,700 meters below, the silk-water feeling is addictive.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -122,14 +122,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Try the outdoor rotenburo even in winter — stay until your shoulders are completely loose.",
+        "bonus": "Try the outdoor rotenburo even in winter. Stay until your shoulders are completely loose.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Thermae-Yu+Shinjuku+Tokyo"
       },
       {
         "id": "TOKY-C-02",
         "title": "Golden Hour at Shinjuku Gyoen",
-        "description": "Tokyo's finest garden spreads 58 acres of French, English, and Japanese landscapes just minutes from Shinjuku's neon chaos — the contrast is the whole point.",
+        "description": "Tokyo's finest garden spreads 58 acres of French, English, and Japanese landscapes just minutes from Shinjuku's neon chaos. The contrast is the whole point.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -152,7 +152,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Leave your phone in your bag for the entire visit — observe the room instead.",
+        "bonus": "Leave your phone in your bag for the entire visit, observe the room instead.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Kayaba+Coffee+Yanaka+Tokyo"
       }
@@ -161,7 +161,7 @@
       {
         "id": "TOK-A-201",
         "title": "Climb Mount Mitake to the Rock Garden",
-        "description": "Ninety minutes west of Shinjuku, a cable car and a cedar-lined pilgrim path lead to Mitake's mountaintop shrine — then drop into the mossy Rock Garden gorge where the stream does the talking.",
+        "description": "Ninety minutes west of Shinjuku, a cable car and a cedar-lined pilgrim path lead to Mitake's mountaintop shrine, then drop into the mossy Rock Garden gorge where the stream does the talking.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "6–8 hrs",
@@ -169,7 +169,7 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 25,
-        "bonus": "Stand under the Ayahiro waterfall spray like the shrine ascetics do — thirty seconds minimum.",
+        "bonus": "Stand under the Ayahiro waterfall spray like the shrine ascetics do, thirty seconds minimum.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Mount+Mitake+Rock+Garden+Ome+Tokyo"
       },
@@ -184,14 +184,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask a senior student to demonstrate a throw on you — and receive it without flinching.",
+        "bonus": "Ask a senior student to demonstrate a throw on you, and receive it without flinching.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Aikikai+Hombu+Dojo+Shinjuku+Tokyo"
       },
       {
         "id": "TOK-AC-102",
         "title": "Swim Laps at the Tokyo Aquatics Centre",
-        "description": "The 2020 Olympic pool in Koto Ward opens its 50-meter lanes to the public at prices that feel like a misprint — swim where the medals were decided.",
+        "description": "The 2020 Olympic pool in Koto Ward opens its 50-meter lanes to the public at prices that feel like a misprint. Swim where the medals were decided.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -199,7 +199,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge a lane-mate to a silent race — no talking, just eye contact at the wall before you push off.",
+        "bonus": "Challenge a lane-mate to a silent race, no talking, just eye contact at the wall before you push off.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Tokyo+Aquatics+Centre+Koto"
       },
@@ -220,8 +220,8 @@
       },
       {
         "id": "TOK-AC-05",
-        "title": "Hike the Okutama trail west of Tokyo",
-        "description": "One hour west of Shinjuku by train, Okutama's gorge trails are serious hiking through cedar forest with rope bridges and river crossings — Tokyo day-trippers almost never make it this far.",
+        "title": "Hike the Okutama Trail West of Tokyo",
+        "description": "One hour west of Shinjuku by train, Okutama's gorge trails are serious hiking through cedar forest with rope bridges and river crossings, Tokyo day-trippers almost never make it this far.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "5–6 hrs",
@@ -235,7 +235,7 @@
       },
       {
         "id": "TOK-AC-04",
-        "title": "Cycle from Asakusa to Odaiba via the waterfront",
+        "title": "Cycle from Asakusa to Odaiba via the Waterfront",
         "description": "The 20km waterfront cycling route from Asakusa to Odaiba via Tsukishima passes through industrial ports, fish markets, and a giant Gundam statue with no traffic to worry about.",
         "rarity": "Rare",
         "cost": "$",
@@ -250,8 +250,8 @@
       },
       {
         "id": "TOK-A-04",
-        "title": "Midnight cycling from Shibuya to Odaiba bridge",
-        "description": "Tokyo at midnight by bike is a different city — empty roads, lit bridges, Rainbow Bridge glowing over the bay, and the whole thing yours for the cost of a rental.",
+        "title": "Midnight Cycling from Shibuya to Odaiba Bridge",
+        "description": "Tokyo at midnight by bike is a different city: empty roads, lit bridges, Rainbow Bridge glowing over the bay, and the whole thing yours for the cost of a rental.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -265,8 +265,8 @@
       },
       {
         "id": "TOK-AC-08",
-        "title": "Sunrise yoga at Shinjuku Gyoen",
-        "description": "The garden opens at 9am but the outer paths are accessible at first light — a sunrise yoga session in the Japanese garden before the day starts is one of Tokyo's great secrets.",
+        "title": "Sunrise Yoga at Shinjuku Gyoen",
+        "description": "The garden opens at 9am but the outer paths are accessible at first light, a sunrise yoga session in the Japanese garden before the day starts is one of Tokyo's great secrets.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -280,8 +280,8 @@
       },
       {
         "id": "TOK-AC-01",
-        "title": "Morning run around the Imperial Palace gardens",
-        "description": "The 5km outer loop of the Imperial Palace is Tokyo's most iconic running route — hundreds of runners go clockwise every morning in a silent, highly organized flow.",
+        "title": "Morning Run Around the Imperial Palace Gardens",
+        "description": "The 5km outer loop of the Imperial Palace is Tokyo's most iconic running route, hundreds of runners go clockwise every morning in a silent, highly organized flow.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -295,8 +295,8 @@
       },
       {
         "id": "TOK-A-01",
-        "title": "Climb Tokyo Skytree and spot a neighbourhood from 634m",
-        "description": "The world's second-tallest tower gives a 634-meter view over 38 million people — take the top deck, pick a neighbourhood you've been to, and try to find it in the sprawl.",
+        "title": "Climb Tokyo Skytree and Spot a Neighbourhood from 634m",
+        "description": "The world's second-tallest tower gives a 634-meter view over 38 million people. Take the top deck, pick a neighbourhood you've been to, and try to find it in the sprawl.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -311,7 +311,7 @@
       {
         "id": "TOK-A-05",
         "title": "SCRAP Real Escape Game, Akihabara",
-        "description": "Several Akihabara escape rooms run Japanese-only scenarios — the puzzle logic is universal even when the text isn't, and the panic is the same in any language.",
+        "description": "Several Akihabara escape rooms run Japanese-only scenarios. The puzzle logic is universal even when the text isn't, and the panic is the same in any language.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1 hr",
@@ -325,8 +325,8 @@
       },
       {
         "id": "TOK-A-02",
-        "title": "Mount Fuji day trip: Fuji Five Lakes trail",
-        "description": "Two hours west of Tokyo by bus, Fuji's trails range from lakeside walks to the crater climb — pick a trail above 2,000m and earn the view of the city you came from.",
+        "title": "Mount Fuji Day Trip: Fuji Five Lakes Trail",
+        "description": "Two hours west of Tokyo by bus, Fuji's trails range from lakeside walks to the crater climb. Pick a trail above 2,000m and earn the view of the city you came from.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "5–8 hrs",
@@ -341,7 +341,7 @@
       {
         "id": "TOKY-AC-04",
         "title": "Kendo Class at Kodokan Budokan",
-        "description": "Step onto the polished floor of the Kodokan — the global home of judo — and take a beginner's session in a martial art practiced here since 1882.",
+        "description": "Step onto the polished floor of the Kodokan, the global home of judo, and take a beginner's session in a martial art practiced here since 1882.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -349,14 +349,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Bow correctly every single time you enter and exit the mat — don't let a sensei have to remind you twice.",
+        "bonus": "Bow correctly every single time you enter and exit the mat. Don't let a sensei have to remind you twice.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Kodokan+Judo+Institute+Tokyo"
       },
       {
         "id": "TOKY-AC-03",
         "title": "Bouldering at B-PUMP Ogikubo",
-        "description": "Tokyo's climbing culture is fierce and technical — B-PUMP draws serious locals to one of the city's best bouldering walls, where the problem-setting is world class.",
+        "description": "Tokyo's climbing culture is fierce and technical. B-PUMP draws serious locals to one of the city's best bouldering walls, where the problem-setting is world class.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -364,14 +364,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the strongest person in the room to set you a project route — attempt it until your forearms give out.",
+        "bonus": "Ask the strongest person in the room to set you a project route, attempt it until your forearms give out.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/B-PUMP+Ogikubo+climbing+Tokyo"
       },
       {
         "id": "TOKY-AC-02",
         "title": "Cycle the Tamagawa Cycling Road",
-        "description": "Rent a road bike and follow the Tama River 20km from Futako-Tamagawa to the coast — Tokyo peels away and becomes something genuinely wild.",
+        "description": "Rent a road bike and follow the Tama River 20km from Futako-Tamagawa to the coast. Tokyo peels away and becomes something genuinely wild.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -379,7 +379,7 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Ride all the way to Tokyo Bay, touch the water, then turn back — no shortcuts.",
+        "bonus": "Ride all the way to Tokyo Bay, touch the water, then turn back, no shortcuts.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Tamagawa+Cycling+Road+Tokyo"
       },
@@ -394,7 +394,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Pick the most embarrassing costume available — bonus spark if it's a vegetable.",
+        "bonus": "Pick the most embarrassing costume available. Bonus spark if it's a vegetable.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Odaiba+street+kart+Tokyo"
       },
@@ -409,7 +409,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask a stranger at the summit to point out Mount Fuji — then buy them a cup of amazake from the stall.",
+        "bonus": "Ask a stranger at the summit to point out Mount Fuji, then buy them a cup of amazake from the stall.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Takao-san+Inariyama+Trail+Tokyo"
       },
@@ -424,7 +424,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Dip your hand in the Sumida and make a wish — then look up the river's transformation from open sewer to this.",
+        "bonus": "Dip your hand in the Sumida and make a wish, then look up the river's transformation from open sewer to this.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Sumida+River+Kayak+Tokyo"
       },
@@ -446,7 +446,7 @@
       {
         "id": "TKY-A-03",
         "title": "Day Trip to Nikko by Train",
-        "description": "The Tosho-gu shrine complex in Nikko is one of Japan's most elaborately carved sacred sites — gold leaf, cedar avenues, and the three wise monkeys original, two hours from Shinjuku on the Tobu Nikko Line.",
+        "description": "The Tosho-gu shrine complex in Nikko is one of Japan's most elaborately carved sacred sites: gold leaf, cedar avenues, and the three wise monkeys original, two hours from Shinjuku on the Tobu Nikko Line.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "Full day",
@@ -454,14 +454,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Find the sleeping cat carving (Nemuri-neko) above the inner shrine gates — it's small and most people walk past it.",
+        "bonus": "Find the sleeping cat carving (Nemuri-neko) above the inner shrine gates. It's small and most people walk past it.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://maps.google.com/maps/search/Toshogu+Shrine+Nikko+Japan"
       },
       {
         "id": "TKY-AC-03",
         "title": "Bouldering at Crux in Nakameguro",
-        "description": "A multi-level bouldering gym in a converted Nakameguro warehouse with a serious local climbing community — day passes include shoe rental and the route setters update problems on a regular rotation.",
+        "description": "A multi-level bouldering gym in a converted Nakameguro warehouse with a serious local climbing community. Day passes include shoe rental and the route setters update problems on a regular rotation.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -476,7 +476,7 @@
       {
         "id": "TKY-A-01",
         "title": "Cycle Through Yanaka Old Town",
-        "description": "Yanaka is what Tokyo looked like before the earthquakes and the bombs — narrow lanes, wooden shopfronts, and a cemetery full of Edo-period graves that locals use as a park on weekday mornings.",
+        "description": "Yanaka is what Tokyo looked like before the earthquakes and the bombs: narrow lanes, wooden shopfronts, and a cemetery full of Edo-period graves that locals use as a park on weekday mornings.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -491,7 +491,7 @@
       {
         "id": "TKY-A-02",
         "title": "Shimokitazawa Record Shops and Vintage Stores",
-        "description": "The neighbourhood that resisted Tokyo's development is a maze of vinyl shops, indie theater marquees, and thrift stores crammed into alleys too narrow for cars — best explored on foot with no plan.",
+        "description": "The neighbourhood that resisted Tokyo's development is a maze of vinyl shops, indie theater marquees, and thrift stores crammed into alleys too narrow for cars, best explored on foot with no plan.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -506,7 +506,7 @@
       {
         "id": "TKY-AC-02",
         "title": "Sumo Morning Practice at Arashio Stable",
-        "description": "Arashio is the only sumo stable in Tokyo that lets the public observe morning keiko (practice) through a street-facing window — arrive by 7:30am, stand in silence, and watch 300-pound athletes move with unsettling speed.",
+        "description": "Arashio is the only sumo stable in Tokyo that lets the public observe morning keiko (practice) through a street-facing window. Arrive by 7:30am, stand in silence, and watch 300-pound athletes move with unsettling speed.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -523,7 +523,7 @@
       {
         "id": "TOK-S-102",
         "title": "Sento Night at Daikoku-yu, Oshiage",
-        "description": "This beloved neighborhood bathhouse in Skytree's shadow pairs scalding tubs with a rooftop deck and a loyal local crowd — the kind of meditative reset a luxury onsen can't manufacture.",
+        "description": "This beloved neighborhood bathhouse in Skytree's shadow pairs scalding tubs with a rooftop deck and a loyal local crowd, the kind of meditative reset a luxury onsen can't manufacture.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -531,7 +531,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Strike up a conversation with an elderly regular in the changing room — any topic, even just the weather.",
+        "bonus": "Strike up a conversation with an elderly regular in the changing room, any topic, even just the weather.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Daikoku-yu+Oshiage+Sumida+Tokyo"
       },
@@ -556,7 +556,7 @@
       {
         "id": "TOK-S-03",
         "title": "Cosplay-spotting in Harajuku's Takeshita Street",
-        "description": "Takeshita-dori on a weekend is one of the most visually dense 350 meters in any city — crepes, vintage, Lolita fashion, and teenagers who committed entirely.",
+        "description": "Takeshita-dori on a weekend is one of the most visually dense 350 meters in any city: crepes, vintage, Lolita fashion, and teenagers who committed entirely.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -570,8 +570,8 @@
       },
       {
         "id": "TOK-S-01",
-        "title": "Golden Gai bar crawl: four bars in one night",
-        "description": "Six alleys, 200 bars, each seating eight to ten people — find ones with no cover charge, order whatever the master is drinking, and stay only until the conversation runs out.",
+        "title": "Golden Gai Bar Crawl: Four Bars in One Night",
+        "description": "Six alleys, 200 bars, each seating eight to ten people. Find ones with no cover charge, order whatever the master is drinking, and stay only until the conversation runs out.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -589,8 +589,8 @@
       },
       {
         "id": "TOK-S-07",
-        "title": "Craft beer at Yanaka Beer Hall",
-        "description": "Yanaka Brewery and a handful of similar operations have brought serious craft beer into Tokyo's most traditional neighbourhood — drink on the street outside if the weather allows.",
+        "title": "Craft Beer at Yanaka Beer Hall",
+        "description": "Yanaka Brewery and a handful of similar operations have brought serious craft beer into Tokyo's most traditional neighbourhood. Drink on the street outside if the weather allows.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -605,8 +605,8 @@
       },
       {
         "id": "TOK-S-06",
-        "title": "Purikura photo booth session in Akihabara",
-        "description": "Japan's photo booths are six-step productions with lighting rigs, makeup filters, and decoration tools — the results are art-directed nonsense and you'll keep them forever.",
+        "title": "Purikura Photo Booth Session in Akihabara",
+        "description": "Japan's photo booths are six-step productions with lighting rigs, makeup filters, and decoration tools. The results are art-directed nonsense and you'll keep them forever.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -621,7 +621,7 @@
       {
         "id": "TOK-S-04",
         "title": "Night at Womb Club, Shibuya",
-        "description": "Club Asia, Womb, or Contact — Tokyo's electronic music scene is technically excellent and the crowds are engaged in a way that disappears before midnight in most cities.",
+        "description": "Club Asia, Womb, or Contact. Tokyo's electronic music scene is technically excellent and the crowds are engaged in a way that disappears before midnight in most cities.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -636,7 +636,7 @@
       {
         "id": "TOKY-S-04",
         "title": "Jazz Night at Shinjuku Pit Inn",
-        "description": "Open since 1965, Pit Inn is Tokyo's most serious jazz room — a basement box where world-class musicians play two feet from your face.",
+        "description": "Open since 1965, Pit Inn is Tokyo's most serious jazz room, a basement box where world-class musicians play two feet from your face.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -644,14 +644,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Talk to the person next to you between sets — ask them their favorite record and actually listen.",
+        "bonus": "Talk to the person next to you between sets. Ask them their favorite record and actually listen.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Shinjuku+Pit+Inn+jazz+Tokyo"
       },
       {
         "id": "TKY-S-04",
         "title": "Kaiseki Dinner at Kikunoi Akasaka",
-        "description": "The Tokyo branch of Kyoto's most celebrated kaiseki house runs an eight-course seasonal menu through which the chef encodes the current month — cherry blossoms in the broth, autumn leaves in the plating, winter in the texture of every dish.",
+        "description": "The Tokyo branch of Kyoto's most celebrated kaiseki house runs an eight-course seasonal menu through which the chef encodes the current month. Cherry blossoms in the broth, autumn leaves in the plating, winter in the texture of every dish.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -666,7 +666,7 @@
       {
         "id": "TKY-S-01",
         "title": "Karaoke Private Room in Shinjuku",
-        "description": "Book a private booth at Big Echo or Karaoke Kan for two hours — the rooms soundproof everything, the tambourines are real, drinks come through a hatch, and it's impossible to have a bad time in a group of more than two.",
+        "description": "Book a private booth at Big Echo or Karaoke Kan for two hours. The rooms soundproof everything, the tambourines are real, drinks come through a hatch, and it's impossible to have a bad time in a group of more than two.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -684,7 +684,7 @@
       {
         "id": "TKY-S-03",
         "title": "Omoide Yokocho Memory Lane",
-        "description": "A narrow alley of post-war izakayas in West Shinjuku that have barely changed since 1946 — yakitori smoke, salarymen, and enough whisky highballs that the distinctions between strangers start to dissolve.",
+        "description": "A narrow alley of post-war izakayas in West Shinjuku that have barely changed since 1946: yakitori smoke, salarymen, and enough whisky highballs that the distinctions between strangers start to dissolve.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -702,7 +702,7 @@
       {
         "id": "TOK-F-03",
         "title": "Omakase at Kyubey, Ginza",
-        "description": "Surrender the meal entirely to the itamae — no menu, no preferences, no timeline — just 20 courses of whatever arrived from the sea this morning.",
+        "description": "Surrender the meal entirely to the itamae (no menu, no preferences, no timeline) just 20 courses of whatever arrived from the sea this morning.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -717,7 +717,7 @@
       {
         "id": "TOK-F-05",
         "title": "Tonkatsu at Tonki, Meguro",
-        "description": "Asakusa's oldest tonkatsu shops have been frying pork cutlet in the same oil, with the same recipe, since before WWII — eat the katsu curry and understand what institution means.",
+        "description": "Asakusa's oldest tonkatsu shops have been frying pork cutlet in the same oil, with the same recipe, since before WWII. Eat the katsu curry and understand what institution means.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -732,7 +732,7 @@
       {
         "id": "TOK-F-10",
         "title": "Kaiseki at Kagurazaka Ishikawa",
-        "description": "A full kaiseki progression through the seasons in a private tatami room — the most considered meal in Japanese food culture — reserve six weeks ahead and dress appropriately.",
+        "description": "A full kaiseki progression through the seasons in a private tatami room, the most considered meal in Japanese food culture, reserve six weeks ahead and dress appropriately.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -746,8 +746,8 @@
       },
       {
         "id": "TOK-F-08",
-        "title": "Morning mochi at Yanaka Matsunoya",
-        "description": "Yanaka's old shitamachi district has traditional wagashi shops making mochi fresh each morning — arrive early, buy three kinds, and eat them on the cemetery steps.",
+        "title": "Morning Mochi at Yanaka Matsunoya",
+        "description": "Yanaka's old shitamachi district has traditional wagashi shops making mochi fresh each morning. Arrive early, buy three kinds, and eat them on the cemetery steps.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–60 min",
@@ -762,7 +762,7 @@
       {
         "id": "TOK-F-09",
         "title": "Tempura at Tsunahachi, Shinjuku",
-        "description": "A great tempura counter serves each piece directly from the oil to your plate in sequence — eat immediately, one piece at a time, and don't drown it in sauce.",
+        "description": "A great tempura counter serves each piece directly from the oil to your plate in sequence. Eat immediately, one piece at a time, and don't drown it in sauce.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1 hr",
@@ -776,8 +776,8 @@
       },
       {
         "id": "TOK-F-01",
-        "title": "Ramen counter in Shinjuku's Omoide Yokocho",
-        "description": "Memory Lane's tiny yakitori and ramen counters seat six people and have been there since 1945 — squeeze in, order the tonkotsu, and let the smoke do the rest.",
+        "title": "Ramen Counter in Shinjuku's Omoide Yokocho",
+        "description": "Memory Lane's tiny yakitori and ramen counters seat six people and have been there since 1945. Squeeze in, order the tonkotsu, and let the smoke do the rest.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -792,7 +792,7 @@
       {
         "id": "TOKY-F-04",
         "title": "Depachika Deep Dive at Isetan Shinjuku B2",
-        "description": "The basement food hall of Isetan Shinjuku is Tokyo's most dazzling cathedral of food — every artisan confection, pickled thing, and lacquered bento has earned its place.",
+        "description": "The basement food hall of Isetan Shinjuku is Tokyo's most dazzling cathedral of food: every artisan confection, pickled thing, and lacquered bento has earned its place.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -800,14 +800,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Spend exactly ¥1,000 and make it count — one item, best possible choice, no hesitation.",
+        "bonus": "Spend exactly ¥1,000 and make it count: one item, best possible choice, no hesitation.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Isetan+Shinjuku+basement+food+hall"
       },
       {
         "id": "TOKY-F-03",
         "title": "Tonkatsu Lunch at Maisen, Omotesando",
-        "description": "A converted bathhouse in Omotesando serves Tokyo's most iconic tonkatsu — the kurobuta pork is impossibly tender inside a shard-crisp panko shell.",
+        "description": "A converted bathhouse in Omotesando serves Tokyo's most iconic tonkatsu. The kurobuta pork is impossibly tender inside a shard-crisp panko shell.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–1.5 hrs",
@@ -815,7 +815,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Grind your own sesame seeds in the stone mortar at the table before mixing your sauce — don't let anyone help you.",
+        "bonus": "Grind your own sesame seeds in the stone mortar at the table before mixing your sauce. Don't let anyone help you.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Maisen+Omotesando+Tokyo"
       },
@@ -830,14 +830,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask Saito-san which piece he is most proud of today — then eat it last.",
+        "bonus": "Ask Saito-san which piece he is most proud of today, then eat it last.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Sushi+Saito+Tokyo+Minato"
       },
       {
         "id": "TKY-F-06",
         "title": "Tsukemen at Fuunji in Shinjuku",
-        "description": "A 12-seat shop near Shinjuku that's earned a cult reputation for its thick pork-and-fish dipping broth — arrive when it opens or expect a 45-minute queue, and order the regular size your first time.",
+        "description": "A 12-seat shop near Shinjuku that's earned a cult reputation for its thick pork-and-fish dipping broth. Arrive when it opens or expect a 45-minute queue, and order the regular size your first time.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -852,7 +852,7 @@
       {
         "id": "TKY-F-01",
         "title": "Solo Ramen at Ichiran",
-        "description": "Ichiran's individual booths with a wooden privacy screen, a curtained hatch, and a flavour questionnaire let you design your exact bowl — the perfect ramen experience for one person in a city that rewards solitude.",
+        "description": "Ichiran's individual booths with a wooden privacy screen, a curtained hatch, and a flavour questionnaire let you design your exact bowl, the perfect ramen experience for one person in a city that rewards solitude.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -870,7 +870,7 @@
       {
         "id": "TKY-F-04",
         "title": "Yakitori and Highballs Under the Yurakucho Tracks",
-        "description": "The brick arches beneath the Yamanote Line at Yurakucho are home to six decades of yakitori stalls — order skewers, add a whisky highball, and sit under the tracks as the trains shake the ceiling every 90 seconds.",
+        "description": "The brick arches beneath the Yamanote Line at Yurakucho are home to six decades of yakitori stalls. Order skewers, add a whisky highball, and sit under the tracks as the trains shake the ceiling every 90 seconds.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -886,7 +886,7 @@
       {
         "id": "TKY-F-02",
         "title": "Tsukiji Outer Market Breakfast",
-        "description": "The market that fed Tokyo for 80 years still operates in the outer ring — arrive at 7am for tamagoyaki still on the grill, a cup of dashi broth, and the freshest tuna you'll ever eat standing up.",
+        "description": "The market that fed Tokyo for 80 years still operates in the outer ring. Arrive at 7am for tamagoyaki still on the grill, a cup of dashi broth, and the freshest tuna you'll ever eat standing up.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -894,7 +894,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy something from the fishmongers before you eat — even if it's just dried dashi. Talk to the vendors.",
+        "bonus": "Buy something from the fishmongers before you eat. Even if it's just dried dashi. Talk to the vendors.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://maps.google.com/maps/search/Tsukiji+Outer+Market+Tokyo+Japan"
       }
@@ -903,7 +903,7 @@
       {
         "id": "TOKY-S-03",
         "title": "Sumo Morning Practice at Tomozuna Stable",
-        "description": "Watch elite rikishi train in total silence at a real sumo stable in Ryogoku — an hour of controlled violence and ritual that no museum can replicate.",
+        "description": "Watch elite rikishi train in total silence at a real sumo stable in Ryogoku, an hour of controlled violence and ritual that no museum can replicate.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -911,14 +911,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Bow respectfully at the entrance, stay completely silent, and make eye contact with a wrestler — hold it without flinching.",
+        "bonus": "Bow respectfully at the entrance, stay completely silent, and make eye contact with a wrestler. Hold it without flinching.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Tomozuna+Stable+Ryogoku+Tokyo"
       },
       {
         "id": "TOKY-C-04",
         "title": "Sunrise at Senso-ji Before the Crowds",
-        "description": "Arrive at Asakusa's 1,400-year-old temple at 6am and you get incense smoke, orange lantern light, and almost no one — a version of Tokyo most visitors never see.",
+        "description": "Arrive at Asakusa's 1,400-year-old temple at 6am and you get incense smoke, orange lantern light, and almost no one, a version of Tokyo most visitors never see.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -926,14 +926,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Draw an omikuji fortune slip — if it's bad luck (kyō), tie it to the rack and walk away without looking back.",
+        "bonus": "Draw an omikuji fortune slip. If it's bad luck (kyō), tie it to the rack and walk away without looking back.",
         "city": "Tokyo, Japan",
         "mapsUrl": "https://www.google.com/maps/search/Senso-ji+Temple+Asakusa+Tokyo"
       },
       {
         "id": "TKY-C-01",
         "title": "teamLab Planets Digital Art Walk",
-        "description": "Four large-scale rooms you move through barefoot — mirrors, water, light, and projection that surround you on all sides in a way that photographs genuinely cannot capture.",
+        "description": "Four large-scale rooms you move through barefoot: mirrors, water, light, and projection that surround you on all sides in a way that photographs genuinely cannot capture.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",

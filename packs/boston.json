@@ -9,7 +9,7 @@
       {
         "id": "BOS-F-201",
         "title": "Dim Sum at Winsor Dim Sum Café",
-        "description": "Chinatown's made-to-order dim sum standard — no carts, just kitchen-fresh har gow, turnip cake, and sticky rice arriving hot to a room of families who've made it a weekend ritual.",
+        "description": "Chinatown's made-to-order dim sum standard: no carts, just kitchen-fresh har gow, turnip cake, and sticky rice arriving hot to a room of families who've made it a weekend ritual.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -40,7 +40,7 @@
       {
         "id": "BOS-F-11",
         "title": "Late-Night Pho at Pho Pasteur in Chinatown",
-        "description": "At the end of a long day the booths fill with cooks, students, and night owls all here for the same thing — a massive bowl of bone-broth pho that costs almost nothing.",
+        "description": "At the end of a long day the booths fill with cooks, students, and night owls all here for the same thing, a massive bowl of bone-broth pho that costs almost nothing.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -85,7 +85,7 @@
       {
         "id": "BOS-F-8",
         "title": "Chowder at Legal Sea Foods, Long Wharf",
-        "description": "New England clam chowder doesn't get more definitive than the bowl Legal's has served since 1950 — eat it on the harbor where the fish comes in.",
+        "description": "New England clam chowder doesn't get more definitive than the bowl Legal's has served since 1950. Eat it on the harbor where the fish comes in.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -115,7 +115,7 @@
       {
         "id": "BOS-F-5",
         "title": "Counter Seat at Eastern Standard",
-        "description": "The Kenmore Square brasserie institution — reborn steps from its original home — still pours serious cocktails at a bar that has anchored Boston's late-night food scene for two decades.",
+        "description": "The Kenmore Square brasserie institution, reborn steps from its original home, still pours serious cocktails at a bar that has anchored Boston's late-night food scene for two decades.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -153,14 +153,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Strike up a real conversation with whoever is sitting at the communal table — no phones as props.",
+        "bonus": "Strike up a real conversation with whoever is sitting at the communal table, no phones as props.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Flour+Bakery+Fort+Point+Boston+MA"
       },
       {
         "id": "BOS-F-2",
         "title": "Cannoli Crawl on Hanover Street",
-        "description": "Mike's Pastry and Modern Pastry sit two blocks apart in the North End and have been waging a cannoli war since 1946 — you are required to eat both and pick a side.",
+        "description": "Mike's Pastry and Modern Pastry sit two blocks apart in the North End and have been waging a cannoli war since 1946. You are required to eat both and pick a side.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -168,7 +168,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask five strangers on Hanover Street which one is better — tally the results and declare a winner publicly.",
+        "bonus": "Ask five strangers on Hanover Street which one is better, tally the results and declare a winner publicly.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Mike%27s+Pastry+Hanover+Street+Boston+MA"
       },
@@ -192,7 +192,7 @@
       {
         "id": "BOS-C-202",
         "title": "Reflect at the Christian Science Plaza",
-        "description": "The 670-foot reflecting pool beside the Mother Church is Back Bay's great open-air living room — architecture students sketching, office workers lunching, and the fountain roaring all summer.",
+        "description": "The 670-foot reflecting pool beside the Mother Church is Back Bay's great open-air living room: architecture students sketching, office workers lunching, and the fountain roaring all summer.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -207,7 +207,7 @@
       {
         "id": "BOS-C-201",
         "title": "Espresso at Caffè Vittoria",
-        "description": "The oldest Italian café in Boston — pouring on Hanover Street since 1929 — is all pressed tin, marble, and antique espresso machines, with a grappa list downstairs for later.",
+        "description": "The oldest Italian café in Boston, pouring on Hanover Street since 1929, is all pressed tin, marble, and antique espresso machines, with a grappa list downstairs for later.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins–1 hr",
@@ -222,7 +222,7 @@
       {
         "id": "BOS-C-11",
         "title": "Afternoon Nap in the Fenway Victory Gardens",
-        "description": "The oldest remaining WWII-era victory gardens in the US is a secret green labyrinth tucked behind the Fens — the most underrated quiet spot in Boston.",
+        "description": "The oldest remaining WWII-era victory gardens in the US is a secret green labyrinth tucked behind the Fens, the most underrated quiet spot in Boston.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -273,7 +273,7 @@
       {
         "id": "BOS-C-1",
         "title": "Sit on the Esplanade and Watch the Charles at Sunset",
-        "description": "The four-mile ribbon of parkland along the Boston side of the Charles River is where the city exhales — sailboats, rowers, dog walkers, and a sky that goes full orange every clear evening.",
+        "description": "The four-mile ribbon of parkland along the Boston side of the Charles River is where the city exhales: sailboats, rowers, dog walkers, and a sky that goes full orange every clear evening.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -301,14 +301,14 @@
         "time": "Afternoon",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Buy something you couldn't have predicted wanting when you arrived — make it under $20.",
+        "bonus": "Buy something you couldn't have predicted wanting when you arrived. Make it under $20.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/SoWa+Open+Market+South+End+Boston+MA"
       },
       {
         "id": "BOS-S-12",
         "title": "Friday Happy Hour at Drink in Fort Point",
-        "description": "Drink has no menu — bartenders craft something bespoke just for you after a brief conversation, and the Fort Point warehouse space makes every round feel like a ritual.",
+        "description": "Drink has no menu, bartenders craft something bespoke just for you after a brief conversation, and the Fort Point warehouse space makes every round feel like a ritual.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -316,7 +316,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Tell the bartender only your mood and a single flavor you hate — let them do the rest without any other input.",
+        "bonus": "Tell the bartender only your mood and a single flavor you hate. Let them do the rest without any other input.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Drink+Fort+Point+Boston+MA",
         "adult": true
@@ -332,7 +332,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the large scorpion bowl for two and finish it with a stranger — find your tablemate at the bar.",
+        "bonus": "Order the large scorpion bowl for two and finish it with a stranger. Find your tablemate at the bar.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Hong+Kong+Restaurant+Harvard+Square+Cambridge+MA",
         "adult": true
@@ -372,7 +372,7 @@
       {
         "id": "BOS-S-3",
         "title": "Private-Room Karaoke at Limelight",
-        "description": "Downtown's karaoke complex rents private rooms with serious sound systems and runs an open stage out front — the kind of night that bonds strangers into friends.",
+        "description": "Downtown's karaoke complex rents private rooms with serious sound systems and runs an open stage out front, the kind of night that bonds strangers into friends.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -380,7 +380,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Perform a song in a language you don't speak — phonetically, with full commitment.",
+        "bonus": "Perform a song in a language you don't speak, phonetically, with full commitment.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Limelight+Stage+and+Studios+Boston",
         "company": [
@@ -398,7 +398,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge the table next to you to a blind taste test — swap mystery pints and guess the style.",
+        "bonus": "Challenge the table next to you to a blind taste test, swap mystery pints and guess the style.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Trillium+Brewing+Fort+Point+Boston+MA",
         "adult": true
@@ -424,7 +424,7 @@
       {
         "id": "BOS-S-11",
         "title": "Celtics Game at TD Garden",
-        "description": "TD Garden during a Celtics home game is one of the loudest, most electric arenas in the NBA — Boston's basketball religion in full congregation.",
+        "description": "TD Garden during a Celtics home game is one of the loudest, most electric arenas in the NBA, Boston's basketball religion in full congregation.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -432,7 +432,7 @@
         "time": "Evening",
         "season": "Oct–Jun",
         "spark": 40,
-        "bonus": "Lead a chant in your section during a timeout — get at least two rows going.",
+        "bonus": "Lead a chant in your section during a timeout. Get at least two rows going.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/TD+Garden+Boston+MA"
       },
@@ -454,7 +454,7 @@
       {
         "id": "BOS-S-8",
         "title": "Comedy Night at the Wilbur Theatre",
-        "description": "The Wilbur is Boston's best mid-size comedy room — a restored 1914 theatre that books national headliners in a space intimate enough to catch every grimace.",
+        "description": "The Wilbur is Boston's best mid-size comedy room. A restored 1914 theatre that books national headliners in a space intimate enough to catch every grimace.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -484,7 +484,7 @@
       {
         "id": "BOS-C-9",
         "title": "Sunday Afternoon at the Harvard Museum of Natural History",
-        "description": "The Glass Flowers alone — 4,300 botanically perfect hand-blown specimens — justify crossing the river, but the gem and mineral halls are equally hypnotic.",
+        "description": "The Glass Flowers alone (4,300 botanically perfect hand-blown specimens) justify crossing the river, but the gem and mineral halls are equally hypnotic.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -510,7 +510,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sit in Bates Hall with a book for at least 30 minutes and pretend you belong there — because you do.",
+        "bonus": "Sit in Bates Hall with a book for at least 30 minutes and pretend you belong there. Because you do.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Boston+Public+Library+Copley+Square",
         "company": [
@@ -565,7 +565,7 @@
       {
         "id": "BOS-C-2",
         "title": "Afternoon at the Boston Athenaeum",
-        "description": "One of America's oldest private libraries opens its reading rooms and gallery to the public — five floors of leather armchairs, rare books, and the kind of quiet that rewires your brain.",
+        "description": "One of America's oldest private libraries opens its reading rooms and gallery to the public. Five floors of leather armchairs, rare books, and the kind of quiet that rewires your brain.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -590,7 +590,7 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Drop into the deep bowl from the top edge on your first try — commit fully.",
+        "bonus": "Drop into the deep bowl from the top edge on your first try. Commit fully.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Lynch+Family+Skate+Park+Cambridge+MA"
       },
@@ -611,8 +611,8 @@
       },
       {
         "id": "BOS-AC-10",
-        "title": "Run the entire Minuteman Bikeway from Cambridge to Bedford",
-        "description": "This 10-mile paved rail trail cuts through Arlington, Lexington, and Bedford on dead-flat pavement — the cleanest long run in Greater Boston.",
+        "title": "Run the Entire Minuteman Bikeway from Cambridge to Bedford",
+        "description": "This 10-mile paved rail trail cuts through Arlington, Lexington, and Bedford on dead-flat pavement, the cleanest long run in Greater Boston.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -620,14 +620,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Run the full 22-mile out-and-back without stopping for food or water — carry everything.",
+        "bonus": "Run the full 22-mile out-and-back without stopping for food or water. Carry everything.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Minuteman+Bikeway+Cambridge+MA"
       },
       {
         "id": "BOS-AC-9",
         "title": "Learn to Sail at Community Boating",
-        "description": "The oldest public sailing program in America — on the Esplanade since 1946 — puts beginners in real boats on the Charles for next to nothing, skyline dead ahead.",
+        "description": "The oldest public sailing program in America, on the Esplanade since 1946, puts beginners in real boats on the Charles for next to nothing, skyline dead ahead.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -660,7 +660,7 @@
       {
         "id": "BOS-AC-7",
         "title": "Stand-Up Paddleboard on the Mystic River from Blessing of the Bay",
-        "description": "Somerville's long-overlooked Mystic River corridor opens up beautifully from a paddleboard — flat water, skyline views, and almost no tourist traffic.",
+        "description": "Somerville's long-overlooked Mystic River corridor opens up beautifully from a paddleboard: flat water, skyline views, and almost no tourist traffic.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -683,7 +683,7 @@
         "time": "Afternoon",
         "season": "Apr–Nov",
         "spark": 25,
-        "bonus": "Free-solo the lowest beginner face without using a spotter — film it.",
+        "bonus": "Free-solo the lowest beginner face without using a spotter, film it.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Quincy+Quarries+Reservation+Quincy+MA"
       },
@@ -698,7 +698,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Do the full loop twice without breaking pace — that's 4.5 miles flat.",
+        "bonus": "Do the full loop twice without breaking pace, that's 4.5 miles flat.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Fresh+Pond+Reservation+Cambridge+MA"
       },
@@ -713,7 +713,7 @@
         "time": "Morning",
         "season": "May–Sep",
         "spark": 25,
-        "bonus": "Swim all the way to the far shore and back without stopping — no touching the bottom.",
+        "bonus": "Swim all the way to the far shore and back without stopping, no touching the bottom.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Walden+Pond+State+Reservation+Concord+MA"
       },
@@ -728,7 +728,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Stop at every named park along the route and take a single photo — no skipping.",
+        "bonus": "Stop at every named park along the route and take a single photo, no skipping.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Emerald+Necklace+Boston+MA"
       },
@@ -743,14 +743,14 @@
         "time": "Afternoon",
         "season": "Nov–Mar",
         "spark": 15,
-        "bonus": "Skate the full perimeter of the rink backwards — both directions — without stopping.",
+        "bonus": "Skate the full perimeter of the rink backwards, both directions, without stopping.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Frog+Pond+Boston+Common"
       },
       {
         "id": "BOS-AC-1",
         "title": "Dawn Run Along the Charles River Bike Path",
-        "description": "The seventeen-mile loop from Beacon Street to Watertown and back is Boston's premier morning run — empty at 6 a.m., flat, and bordered by water the whole way.",
+        "description": "The seventeen-mile loop from Beacon Street to Watertown and back is Boston's premier morning run: empty at 6 a.m., flat, and bordered by water the whole way.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -758,7 +758,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Run the full loop without stopping — no walk breaks, no earbuds — and sit at the water's edge for ten silent minutes when you finish.",
+        "bonus": "Run the full loop without stopping (no walk breaks, no earbuds) and sit at the water's edge for ten silent minutes when you finish.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Charles+River+Bike+Path+Boston+MA"
       },
@@ -773,7 +773,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stop at the Tea Party Ships replica on the Congress Street Bridge and throw something — anything — dramatically into the harbor.",
+        "bonus": "Stop at the Tea Party Ships replica on the Congress Street Bridge and throw something, anything, dramatically into the harbor.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Boston+Harborwalk+Fort+Point+MA"
       },
@@ -788,7 +788,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Stand in the Dutch Room and spend five minutes staring at the empty frames left after the 1990 heist — the greatest art theft in history, still unsolved.",
+        "bonus": "Stand in the Dutch Room and spend five minutes staring at the empty frames left after the 1990 heist, the greatest art theft in history, still unsolved.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Isabella+Stewart+Gardner+Museum+Boston+MA",
         "company": [
@@ -816,7 +816,7 @@
       {
         "id": "BOS-A-9",
         "title": "Ride a Swan Boat in the Public Garden",
-        "description": "Since 1877 the pedal-driven swans have circled the lagoon — absurd, charming, and non-negotiably Boston.",
+        "description": "Since 1877 the pedal-driven swans have circled the lagoon: absurd, charming, and non-negotiably Boston.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–60 mins",
@@ -831,7 +831,7 @@
       {
         "id": "BOS-A-8",
         "title": "Wander Copp's Hill Burying Ground",
-        "description": "Boston's second-oldest cemetery sits on a North End hillside where British soldiers used Patriot gravestones for target practice — the musket marks are still there. Gates close at five.",
+        "description": "Boston's second-oldest cemetery sits on a North End hillside where British soldiers used Patriot gravestones for target practice. The musket marks are still there. Gates close at five.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–60 mins",
@@ -861,7 +861,7 @@
       {
         "id": "BOS-A-6",
         "title": "Take the Ferry to Georges Island",
-        "description": "A Civil War-era fort sits abandoned on a harbor island thirty minutes from downtown — Fort Warren is eerie, massive, and almost always half-empty.",
+        "description": "A Civil War-era fort sits abandoned on a harbor island thirty minutes from downtown. Fort Warren is eerie, massive, and almost always half-empty.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4–5 hrs",
@@ -884,7 +884,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stop at the midpoint, face the water, and shout something you need to let go of — the wind carries it off.",
+        "bonus": "Stop at the midpoint, face the water, and shout something you need to let go of. The wind carries it off.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Longfellow+Bridge+Boston+MA"
       },
@@ -906,7 +906,7 @@
       {
         "id": "BOS-A-3",
         "title": "Walk the Entire Freedom Trail in One Shot",
-        "description": "Sixteen historic sites connected by a red brick line through downtown Boston — skip the tour group and follow the trail solo at your own pace.",
+        "description": "Sixteen historic sites connected by a red brick line through downtown Boston. Skip the tour group and follow the trail solo at your own pace.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -914,14 +914,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stop at every single site and read the full plaque — no skipping, no scrolling your phone.",
+        "bonus": "Stop at every single site and read the full plaque: no skipping, no scrolling your phone.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Freedom+Trail+Boston+MA"
       },
       {
         "id": "BOS-A-2",
         "title": "Kayak the Charles with Paddle Boston",
-        "description": "Paddle Boston's Kendall Square dock puts you on the river between MIT and the Esplanade — skyline ahead, sailboats crossing, Red Line rumbling over the Longfellow.",
+        "description": "Paddle Boston's Kendall Square dock puts you on the river between MIT and the Esplanade: skyline ahead, sailboats crossing, Red Line rumbling over the Longfellow.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -944,7 +944,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Race a stranger to the top — loser buys coffee at the café on Monument Square.",
+        "bonus": "Race a stranger to the top, loser buys coffee at the café on Monument Square.",
         "city": "Boston, MA",
         "mapsUrl": "https://www.google.com/maps/search/Bunker+Hill+Monument+Charlestown+Boston+MA"
       }

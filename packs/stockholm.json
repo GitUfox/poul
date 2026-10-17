@@ -9,7 +9,7 @@
       {
         "id": "STHLM-C-09",
         "title": "Art Nouveau Bathing at Centralbadet",
-        "description": "A 1904 Jugendstil bathhouse hidden behind a courtyard garden on Drottninggatan — stained glass, a colonnaded pool and saunas, with phones banned throughout.",
+        "description": "A 1904 Jugendstil bathhouse hidden behind a courtyard garden on Drottninggatan: stained glass, a colonnaded pool and saunas, with phones banned throughout.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -17,7 +17,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 24,
-        "bonus": "Do the full circuit — sauna, cold, pool, repeat — three times.",
+        "bonus": "Do the full circuit (sauna, cold, pool, repeat) three times.",
         "city": "Stockholm, Sweden",
         "mapsUrl": "https://maps.google.com/maps/search/Centralbadet+Drottninggatan+Stockholm"
       },
@@ -39,7 +39,7 @@
       {
         "id": "STHLM-C-05",
         "title": "An Afternoon in the Woodland Cemetery",
-        "description": "Skogskyrkogården is a UNESCO site and one of the great works of 20th-century architecture — pine forest, a grass hill and Asplund's chapels arranged for quiet.",
+        "description": "Skogskyrkogården is a UNESCO site and one of the great works of 20th-century architecture, pine forest, a grass hill and Asplund's chapels arranged for quiet.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -54,7 +54,7 @@
       {
         "id": "STHLM-C-06",
         "title": "A Slow Hour on Mariatorget",
-        "description": "A leafy Södermalm square with a fountain, benches and cafes on every side — the neighbourhood's living room, best used with a coffee and no plan.",
+        "description": "A leafy Södermalm square with a fountain, benches and cafes on every side. The neighbourhood's living room, best used with a coffee and no plan.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -84,7 +84,7 @@
       {
         "id": "STHLM_C_02",
         "title": "Coffee and the View from Montelivägen",
-        "description": "Walk up to the cliff-edge Monteliväsgen promenade in Södermalm and sit with a coffee — the view across Riddarfjärden and Gamla Stan's rooftops is quiet, available, and completely free.",
+        "description": "Walk up to the cliff-edge Monteliväsgen promenade in Södermalm and sit with a coffee: the view across Riddarfjärden and Gamla Stan's rooftops is quiet, available, and completely free.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -99,7 +99,7 @@
       {
         "id": "STHLM_C_01",
         "title": "Spend the Morning in the Vasa Museum",
-        "description": "The Vasa Museum houses a fully intact 17th-century warship raised after 333 years underwater — walk around it slowly, go upstairs, look down at something the 1600s actually built.",
+        "description": "The Vasa Museum houses a fully intact 17th-century warship raised after 333 years underwater. Walk around it slowly, go upstairs, look down at something the 1600s actually built.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -114,7 +114,7 @@
       {
         "id": "STHLM_C_03",
         "title": "Surrender to the ABBA Museum",
-        "description": "The ABBA Museum on Djúrgården lets you record yourself with the group's holograms and sing the piano parts in a private booth — surrender to it completely, it's the most joyful two hours in Stockholm.",
+        "description": "The ABBA Museum on Djúrgården lets you record yourself with the group's holograms and sing the piano parts in a private booth. Surrender to it completely, it's the most joyful two hours in Stockholm.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -139,14 +139,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the Sámi collection on the upper floor — most visitors miss it.",
+        "bonus": "Find the Sámi collection on the upper floor, most visitors miss it.",
         "city": "Stockholm, Sweden",
         "mapsUrl": "https://maps.google.com/maps/search/Nordiska+Museet+Djurgarden+Stockholm"
       },
       {
         "id": "STHLM-CU-04",
         "title": "Ride the Blue Line Art Gallery",
-        "description": "Stockholm's metro is the longest art gallery on earth — blasted rock caverns painted at Kungsträdgården, Solna Centrum and T-Centralen, all for the price of a ticket.",
+        "description": "Stockholm's metro is the longest art gallery on earth. Blasted rock caverns painted at Kungsträdgården, Solna Centrum and T-Centralen, all for the price of a ticket.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -191,7 +191,7 @@
       {
         "id": "STHLM-CU-01",
         "title": "Old Sweden Outdoors at Skansen",
-        "description": "The world's first open-air museum — 150 buildings moved here from across the country and staffed in period, plus bears, wolves and lynx in the Nordic zoo.",
+        "description": "The world's first open-air museum. 150 buildings moved here from across the country and staffed in period, plus bears, wolves and lynx in the Nordic zoo.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -206,7 +206,7 @@
       {
         "id": "STHLM-CU-03",
         "title": "The Nationalmuseum After Dark",
-        "description": "Sweden's national gallery reopened after a five-year restoration with its colours put back — Rembrandt, Swedish 19th-century painting and a famously good design collection.",
+        "description": "Sweden's national gallery reopened after a five-year restoration with its colours put back, Rembrandt, Swedish 19th-century painting and a famously good design collection.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -253,7 +253,7 @@
       {
         "id": "STHLM-S-07",
         "title": "Belgian Beer and Whisky at Akkurat",
-        "description": "A Hornsgatan institution with hundreds of bottles, a wall of single malts and a cellar of lambics — the bar Swedish beer nerds send everyone to first.",
+        "description": "A Hornsgatan institution with hundreds of bottles, a wall of single malts and a cellar of lambics, the bar Swedish beer nerds send everyone to first.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -348,7 +348,7 @@
       {
         "id": "STHLM-S-10",
         "title": "Cocktails and Late Tacos at Tjoget",
-        "description": "A Hornstull complex holding a serious cocktail bar, a wine room, a taqueria and a barber under one roof — the sort of place an evening accidentally lasts in.",
+        "description": "A Hornstull complex holding a serious cocktail bar, a wine room, a taqueria and a barber under one roof, the sort of place an evening accidentally lasts in.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -364,7 +364,7 @@
       {
         "id": "STHLM-S-05",
         "title": "A Full Night at Trädgården",
-        "description": "An enormous open-air club built under the concrete arches of Skanstullsbron each summer — several stages, table tennis, food trucks and the whole city's twenty-somethings.",
+        "description": "An enormous open-air club built under the concrete arches of Skanstullsbron each summer: several stages, table tennis, food trucks and the whole city's twenty-somethings.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "5–6 hrs",
@@ -380,7 +380,7 @@
       {
         "id": "STHLM_S_01",
         "title": "Spend an Afternoon in SoFo, Södermalm",
-        "description": "SoFo — the area south of Folkungagatan in Södermalm — is Stockholm's most design-literate neighbourhood: ceramics shops, record stores, and the kind of coffee bar where people stay for four hours.",
+        "description": "SoFo, the area south of Folkungagatan in Södermalm, is Stockholm's most design-literate neighbourhood: ceramics shops, record stores, and the kind of coffee bar where people stay for four hours.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -395,7 +395,7 @@
       {
         "id": "STHLM_S_02",
         "title": "Late Night on Nytorget Square",
-        "description": "Nytorget in Södermalm is Stockholm's best after-dark square — Urban Deli on one side, independent bars on another, and a crowd that looks like it designed its own apartment; arrive at 9pm, stay until you're asked to leave.",
+        "description": "Nytorget in Södermalm is Stockholm's best after-dark square: Urban Deli on one side, independent bars on another, and a crowd that looks like it designed its own apartment; arrive at 9pm, stay until you're asked to leave.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -410,7 +410,7 @@
       {
         "id": "STHLM_S_03",
         "title": "Guided Tour of the Stockholm City Hall",
-        "description": "The guided tour of Stockholms Stadshus takes you through the Blue Hall where Nobel Prize banquets happen and the Golden Hall's 18 million mosaic tiles — 45 minutes of architecture that earns its legend.",
+        "description": "The guided tour of Stockholms Stadshus takes you through the Blue Hall where Nobel Prize banquets happen and the Golden Hall's 18 million mosaic tiles, 45 minutes of architecture that earns its legend.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -425,7 +425,7 @@
       {
         "id": "STHLM_S_04",
         "title": "Evening at Fotografiska Gallery",
-        "description": "Fotografiska Stockholm is open until 11pm — take a companion, work through the current exhibition slowly, then stay for the rooftop restaurant and wine as the city lights come on across the water.",
+        "description": "Fotografiska Stockholm is open until 11pm. Take a companion, work through the current exhibition slowly, then stay for the rooftop restaurant and wine as the city lights come on across the water.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -442,7 +442,7 @@
       {
         "id": "STHLM-8B-02",
         "title": "Buy the Next Person's Fika",
-        "description": "Fika is not a coffee break, it is the social contract — so pay for whoever is behind you in the queue and see whether they will sit down with you.",
+        "description": "Fika is not a coffee break, it is the social contract. So pay for whoever is behind you in the queue and see whether they will sit down with you.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -458,7 +458,7 @@
       {
         "id": "STHLM-8B-01",
         "title": "Board the First Ferry That Docks",
-        "description": "Stockholm is fourteen islands and the boats are public transport — get on whichever one arrives first and disembark wherever it decides to put you.",
+        "description": "Stockholm is fourteen islands and the boats are public transport. Get on whichever one arrives first and disembark wherever it decides to put you.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–3 hrs",
@@ -506,7 +506,7 @@
       {
         "id": "STHLM-F-05",
         "title": "The Tasting Menu at Frantzén",
-        "description": "Three Michelin stars over three floors of a restored townhouse, beginning in the kitchen itself — Sweden's most decorated restaurant and a genuine event of a night.",
+        "description": "Three Michelin stars over three floors of a restored townhouse, beginning in the kitchen itself, Sweden's most decorated restaurant and a genuine event of a night.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "5 hrs",
@@ -521,7 +521,7 @@
       {
         "id": "STHLM-F-11",
         "title": "Everything Cooked Over Fire at Ekstedt",
-        "description": "A Michelin kitchen with no electricity in it — every course comes off a wood fire, a birch-fired oven, a flaming birch pit or a smoking chimney, in front of you.",
+        "description": "A Michelin kitchen with no electricity in it. Every course comes off a wood fire, a birch-fired oven, a flaming birch pit or a smoking chimney, in front of you.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -535,7 +535,7 @@
       },
       {
         "id": "STHLM-F-10",
-        "title": "Pizza and Sour Beer at Omnipollos hatt",
+        "title": "Pizza and Sour Beer at Omnipollos Hatt",
         "description": "Stockholm's cult brewery pairs its fruited sours and hazy IPAs with thin, blistered pizza in a small tiled room on Hornsgatan.",
         "rarity": "Common",
         "cost": "$$",
@@ -581,7 +581,7 @@
       {
         "id": "STHLM-F-12",
         "title": "Get a Table at Lilla Ego",
-        "description": "The hardest small booking in Stockholm — a Vasastan neighbourhood restaurant doing big, generous, unfussy Swedish cooking that locals plan their month around.",
+        "description": "The hardest small booking in Stockholm: a Vasastan neighbourhood restaurant doing big, generous, unfussy Swedish cooking that locals plan their month around.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -596,7 +596,7 @@
       {
         "id": "STHLM_F_01",
         "title": "Kanelbulle and Fika at Saturnus",
-        "description": "Order Stockholm's most famous cinnamon bun at Saturnus on Eriksbergsgatan — the size of a small pillow, cardamom-heavy, served with an oat milk flat white — this is what Swedish fika actually is.",
+        "description": "Order Stockholm's most famous cinnamon bun at Saturnus on Eriksbergsgatan (the size of a small pillow, cardamom-heavy, served with an oat milk flat white) this is what Swedish fika actually is.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 min",
@@ -611,7 +611,7 @@
       {
         "id": "STHLM_F_04",
         "title": "Dinner in the Historic Beer Hall at Pelikan",
-        "description": "Pelikan in Södermalm is a working-class beer hall from 1904 — long communal benches, ceiling frescoes, and the most honest Swedish home cooking in the city; arrive before 7pm for a table.",
+        "description": "Pelikan in Södermalm is a working-class beer hall from 1904: long communal benches, ceiling frescoes, and the most honest Swedish home cooking in the city; arrive before 7pm for a table.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -626,7 +626,7 @@
       {
         "id": "STHLM_F_03",
         "title": "Köttbullar at Tradition in Gamla Stan",
-        "description": "Tradition restaurant in Gamla Stan serves meatballs with lingonberry, pickled cucumber, and cream sauce exactly as your Swedish grandmother imagines — in a 17th-century cellar with candlelight.",
+        "description": "Tradition restaurant in Gamla Stan serves meatballs with lingonberry, pickled cucumber, and cream sauce exactly as your Swedish grandmother imagines, in a 17th-century cellar with candlelight.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -641,7 +641,7 @@
       {
         "id": "STHLM_F_02",
         "title": "Shrimp and Dill Lunch at Östermalms Saluhall",
-        "description": "Östermalms Saluhall is a food hall built in 1888 — eat freshly shelled shrimp with toast and dill at one of the market counters, surrounded by Stockholm's most extraordinary fish and charcuterie displays.",
+        "description": "Östermalms Saluhall is a food hall built in 1888. Eat freshly shelled shrimp with toast and dill at one of the market counters, surrounded by Stockholm's most extraordinary fish and charcuterie displays.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -778,7 +778,7 @@
       {
         "id": "STHLM_A_03",
         "title": "Kayak from Djúrgårdsbrunnsviken into the Archipelago",
-        "description": "Rent a kayak at Djúrgårdsbrunnsviken and paddle east through Ladugårdsviken and out toward the first archipelago islands — Stockholm slowly replaces itself with pine trees and open water.",
+        "description": "Rent a kayak at Djúrgårdsbrunnsviken and paddle east through Ladugårdsviken and out toward the first archipelago islands, Stockholm slowly replaces itself with pine trees and open water.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -793,7 +793,7 @@
       {
         "id": "STHLM_A_02",
         "title": "Get Lost in Gamla Stan's Medieval Lanes",
-        "description": "Walk Gamla Stan's medieval alley network without a map — find Mårten Trotzigs Gränd, Stockholm's narrowest street at 90cm, and turn whenever the stone lane changes tone.",
+        "description": "Walk Gamla Stan's medieval alley network without a map. Find Mårten Trotzigs Gränd, Stockholm's narrowest street at 90cm, and turn whenever the stone lane changes tone.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -808,7 +808,7 @@
       {
         "id": "STHLM_AC_01",
         "title": "Morning Swim at Långholmen Beach and Outdoor Pool",
-        "description": "Långholmen's outdoor pools open at 7am on the island that once held Stockholm's main prison — swim laps in open-air water before the day begins, then walk back through the birch forest.",
+        "description": "Långholmen's outdoor pools open at 7am on the island that once held Stockholm's main prison. Swim laps in open-air water before the day begins, then walk back through the birch forest.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -823,7 +823,7 @@
       {
         "id": "STHLM_AC_02",
         "title": "Bike Through Djúrgårdsvägen to Rosendal",
-        "description": "Grab a Donkey Republic bike and ride through royal Djúrgården park — flat, car-light, flanked by old-growth oaks — turning around only when you reach the Rosendal garden café.",
+        "description": "Grab a Donkey Republic bike and ride through royal Djúrgården park (flat, car-light, flanked by old-growth oaks) turning around only when you reach the Rosendal garden café.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -838,7 +838,7 @@
       {
         "id": "STHLM_A_01",
         "title": "Take the Ferry to Djúrgården Island",
-        "description": "Take the Djúrgårdslinjen ferry from Slussen across to Djúrgården — Stockholm's royal island full of cycling paths, wild deer, and the Vasa Museum — and spend the morning exploring without a plan.",
+        "description": "Take the Djúrgårdslinjen ferry from Slussen across to Djúrgården (Stockholm's royal island full of cycling paths, wild deer, and the Vasa Museum) and spend the morning exploring without a plan.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -853,7 +853,7 @@
       {
         "id": "STHLM_AC_04",
         "title": "Run the Gamla Stan Waterfront Loop",
-        "description": "Run the 7 km loop around Gamla Stan — past the Royal Palace, along Strömkajen's waterfront, across Skeppsholmen bridge — Stockholm at its most cinematic, on foot and moving.",
+        "description": "Run the 7 km loop around Gamla Stan (past the Royal Palace, along Strömkajen's waterfront, across Skeppsholmen bridge) Stockholm at its most cinematic, on foot and moving.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min–1 hr",
@@ -868,7 +868,7 @@
       {
         "id": "STHLM_AC_03",
         "title": "Stand-Up Paddleboard on Lake Mälaren",
-        "description": "Rent a SUP board and paddle Lake Mälaren — the vast freshwater lake that holds Stockholm on its eastern shore — with Gamla Stan's skyline behind you and open water ahead.",
+        "description": "Rent a SUP board and paddle Lake Mälaren, the vast freshwater lake that holds Stockholm on its eastern shore, with Gamla Stan's skyline behind you and open water ahead.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -883,7 +883,7 @@
       {
         "id": "STHLM_A_04",
         "title": "Hike Tyresta National Park (Full Day from the City)",
-        "description": "Take the bus south to Tyresta National Park — Stockholm's own wilderness 30 km from the city centre — and hike the 10 km Lake Stensjön loop through ancient pine forest and exposed granite outcrop.",
+        "description": "Take the bus south to Tyresta National Park, Stockholm's own wilderness 30 km from the city centre, and hike the 10 km Lake Stensjön loop through ancient pine forest and exposed granite outcrop.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "4–5 hrs",

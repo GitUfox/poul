@@ -9,7 +9,7 @@
       {
         "id": "LAX-A-204",
         "title": "Hike to the Bronson Caves",
-        "description": "A ten-minute walk up a Griffith Park fire road ends at the old quarry tunnel that played the Batcave — walk through it, frame the Hollywood Sign in the far opening, and keep exploring up the canyon.",
+        "description": "A ten-minute walk up a Griffith Park fire road ends at the old quarry tunnel that played the Batcave. Walk through it, frame the Hollywood Sign in the far opening, and keep exploring up the canyon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -17,14 +17,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Recreate the 1966 Batmobile exit shot on video — commitment required, dignity optional.",
+        "bonus": "Recreate the 1966 Batmobile exit shot on video, commitment required, dignity optional.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Bronson+Caves+Griffith+Park"
       },
       {
         "id": "LAX-A-203",
         "title": "Sunset Horseback Ride at Sunset Ranch Hollywood",
-        "description": "The stables at the top of Beachwood Canyon have run rides through Griffith Park for nearly a century — crest the ridge on horseback as the city lights come on below the Hollywood Sign.",
+        "description": "The stables at the top of Beachwood Canyon have run rides through Griffith Park for nearly a century, crest the ridge on horseback as the city lights come on below the Hollywood Sign.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -32,7 +32,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "No phone on the ridgeline stretch — the skyline at dusk from a saddle deserves your full attention.",
+        "bonus": "No phone on the ridgeline stretch, the skyline at dusk from a saddle deserves your full attention.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Sunset+Ranch+Hollywood",
         "company": [
@@ -42,7 +42,7 @@
       {
         "id": "LAX-A-202",
         "title": "Catalina Day Trip on the Express",
-        "description": "An hour across the channel from San Pedro or Long Beach and you are in Avalon — snorkel Lover's Cove, climb to the casino, rent a golf cart, and catch the last boat home salty.",
+        "description": "An hour across the channel from San Pedro or Long Beach and you are in Avalon. Snorkel Lover's Cove, climb to the casino, rent a golf cart, and catch the last boat home salty.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "10–12 hrs",
@@ -50,14 +50,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Jump off the Green Pleasure Pier swim step before you leave — the channel crossing home feels earned when your hair is still wet.",
+        "bonus": "Jump off the Green Pleasure Pier swim step before you leave. The channel crossing home feels earned when your hair is still wet.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Catalina+Express+San+Pedro"
       },
       {
         "id": "LAX-A-201",
         "title": "Sea Caves and Arches at El Matador Beach",
-        "description": "Descend the bluff stairs at low tide and thread through El Matador's sea stacks, arches, and caves — the most cinematic mile of sand in Malibu, best an hour before sunset.",
+        "description": "Descend the bluff stairs at low tide and thread through El Matador's sea stacks, arches, and caves, the most cinematic mile of sand in Malibu, best an hour before sunset.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -65,7 +65,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Check the tide chart yourself before you go — getting it right is part of the assignment.",
+        "bonus": "Check the tide chart yourself before you go. Getting it right is part of the assignment.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/El+Matador+State+Beach+Malibu",
         "company": [
@@ -75,7 +75,7 @@
       {
         "id": "LAX-AC-201",
         "title": "Run Pickup at the Venice Beach Courts",
-        "description": "The outdoor courts where White Men Can't Jump was filmed still run games all day — put your name in, respect the call, and earn your next.",
+        "description": "The outdoor courts where White Men Can't Jump was filmed still run games all day. Put your name in, respect the call, and earn your next.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -83,7 +83,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Stay on the court for at least two games — win or run it back.",
+        "bonus": "Stay on the court for at least two games, win or run it back.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Venice+Beach+Basketball+Courts",
         "company": [
@@ -116,14 +116,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Drop into the deepest bowl — no pushing, no hesitation.",
+        "bonus": "Drop into the deepest bowl: no pushing, no hesitation.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Venice+Beach+Skate+Park+Los+Angeles"
       },
       {
         "id": "LAX-AC-10",
         "title": "Rock Climb at Malibu Creek State Park",
-        "description": "The volcanic crags of Malibu Canyon offer legitimate outdoor routes in a setting that doubled as a Hollywood backlot — rope up where Planet of the Apes was filmed.",
+        "description": "The volcanic crags of Malibu Canyon offer legitimate outdoor routes in a setting that doubled as a Hollywood backlot, rope up where Planet of the Apes was filmed.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -146,7 +146,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run eight laps without walking — that's an honest two miles — and give a nod to whoever's keeping pace with you.",
+        "bonus": "Run eight laps without walking, that's an honest two miles, and give a nod to whoever's keeping pace with you.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Rose+Bowl+Track+Pasadena+Los+Angeles"
       },
@@ -191,14 +191,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Do three consecutive stair repeats without stopping — locals call that earning the view.",
+        "bonus": "Do three consecutive stair repeats without stopping, locals call that earning the view.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Baldwin+Hills+Scenic+Overlook+Los+Angeles"
       },
       {
         "id": "LAX-AC-3",
         "title": "Pedal a Swan Boat on Echo Park Lake",
-        "description": "Rent one of the pedal swans and cruise Echo Park Lake with the lotus beds and the downtown skyline as your backdrop — the city looks completely different from the water.",
+        "description": "Rent one of the pedal swans and cruise Echo Park Lake with the lotus beds and the downtown skyline as your backdrop. The city looks completely different from the water.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -213,7 +213,7 @@
       {
         "id": "LAX-AC-2",
         "title": "Morning Run on the Arroyo Seco Trail from Pasadena",
-        "description": "This riparian trail through the Arroyo Seco canyon is Pasadena's best-kept secret — shaded, quiet, and genuinely wild for the city.",
+        "description": "This riparian trail through the Arroyo Seco canyon is Pasadena's best-kept secret: shaded, quiet, and genuinely wild for the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -221,14 +221,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run the full 4-mile out-and-back without earbuds — just the creek and your breath.",
+        "bonus": "Run the full 4-mile out-and-back without earbuds, just the creek and your breath.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Arroyo+Seco+Trail+Pasadena+CA"
       },
       {
         "id": "LAX-AC-1",
         "title": "Morning Run on the Venice Beach Boardwalk to Will Rogers State Beach",
-        "description": "The unbroken concrete path from Venice to Will Rogers runs along the waterfront past weight pits, murals, and early morning lifeguards stacking towers — it's the most cinematic five miles in LA.",
+        "description": "The unbroken concrete path from Venice to Will Rogers runs along the waterfront past weight pits, murals, and early morning lifeguards stacking towers. It's the most cinematic five miles in LA.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -236,14 +236,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run the full out-and-back — Venice to Will Rogers and back — without stopping at the water fountain.",
+        "bonus": "Run the full out-and-back, Venice to Will Rogers and back, without stopping at the water fountain.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Venice+Beach+Boardwalk+to+Will+Rogers+State+Beach+Los+Angeles"
       },
       {
         "id": "LAX-A-11",
         "title": "Snorkel the Kelp Forests at Malaga Cove in Palos Verdes",
-        "description": "The protected cove at Malaga hides some of the clearest water and densest kelp forest accessible from the LA shore — bring a wetsuit and go early.",
+        "description": "The protected cove at Malaga hides some of the clearest water and densest kelp forest accessible from the LA shore. Bring a wetsuit and go early.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -251,14 +251,14 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Drop to the sandy bottom at the kelp edge — if you can touch it and surface clean, the viz is exceptional.",
+        "bonus": "Drop to the sandy bottom at the kelp edge. If you can touch it and surface clean, the viz is exceptional.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Malaga+Cove+Palos+Verdes+Los+Angeles"
       },
       {
         "id": "LAX-A-10",
         "title": "Skate the Culver City Bike Path to Marina del Rey",
-        "description": "The Ballona Creek bike path runs seven nearly unbroken miles from Culver City to the marina jetty — the fastest, flattest, most satisfying urban skate line in Southern California.",
+        "description": "The Ballona Creek bike path runs seven nearly unbroken miles from Culver City to the marina jetty: the fastest, flattest, most satisfying urban skate line in Southern California.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -266,14 +266,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Skate the entire stretch to Ballona Creek and back without stopping — no phone, no music.",
+        "bonus": "Skate the entire stretch to Ballona Creek and back without stopping: no phone, no music.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Ballona+Creek+Bike+Path+Culver+City+Los+Angeles"
       },
       {
         "id": "LAX-A-8",
         "title": "Learn to Paraglide at Dockweiler with Windsports",
-        "description": "Windsports has taught first flights off the Dockweiler Beach training bluff for decades — by the end of a beginner day you are gliding solo over the sand with LAX jets threading past offshore.",
+        "description": "Windsports has taught first flights off the Dockweiler Beach training bluff for decades, by the end of a beginner day you are gliding solo over the sand with LAX jets threading past offshore.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -281,7 +281,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask your pilot to do a 360-degree spiral turn over the water — if conditions allow, most will.",
+        "bonus": "Ask your pilot to do a 360-degree spiral turn over the water. If conditions allow, most will.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Windsports+Paragliding+Dockweiler+Beach+Los+Angeles"
       },
@@ -296,14 +296,14 @@
         "time": "Morning",
         "season": "Oct–May",
         "spark": 15,
-        "bonus": "Free-solo any route under V2 — no rope, no crash pad, just you and sandstone.",
+        "bonus": "Free-solo any route under V2: no rope, no crash pad, just you and sandstone.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Stoney+Point+Park+Chatsworth+Los+Angeles"
       },
       {
         "id": "LAX-A-6",
         "title": "Explore the Tide Pools at Leo Carrillo State Beach",
-        "description": "At low tide, the sea caves and rocky shelves at Leo Carrillo reveal a fully stocked aquarium — sea stars, hermit crabs, anemones — fifty miles from downtown.",
+        "description": "At low tide, the sea caves and rocky shelves at Leo Carrillo reveal a fully stocked aquarium (sea stars, hermit crabs, anemones) fifty miles from downtown.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -326,7 +326,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Ride a wave all the way to the shore break and walk out without falling — no holding the instructor's hand.",
+        "bonus": "Ride a wave all the way to the shore break and walk out without falling, no holding the instructor's hand.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Topanga+State+Beach+Los+Angeles"
       },
@@ -356,7 +356,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Touch the base of the letter H and take a photo facing away from the sign — no sign in frame.",
+        "bonus": "Touch the base of the letter H and take a photo facing away from the sign, no sign in frame.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Brush+Canyon+Trail+Hollywood+Sign+Los+Angeles"
       },
@@ -380,7 +380,7 @@
       {
         "id": "LAX-C-11",
         "title": "Afternoon Coffee at Cafe Tropical in Silver Lake",
-        "description": "This Cuban café on Sunset has barely changed since the 1970s — strong espresso, pan dulce, and a ceiling fan that makes you forget you're in LA.",
+        "description": "This Cuban café on Sunset has barely changed since the 1970s: strong espresso, pan dulce, and a ceiling fan that makes you forget you're in LA.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -388,7 +388,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order in Spanish — the full transaction — even if you have to practice beforehand.",
+        "bonus": "Order in Spanish, the full transaction, even if you have to practice beforehand.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Cafe+Tropical+Silver+Lake+Los+Angeles"
       },
@@ -403,7 +403,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order a drink you've never tried from the menu — no modifying it — and finish the whole thing.",
+        "bonus": "Order a drink you've never tried from the menu, no modifying it, and finish the whole thing.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Intelligentsia+Coffee+Silver+Lake+Los+Angeles"
       },
@@ -458,7 +458,7 @@
       {
         "id": "LAX-C-4",
         "title": "Bookshop Afternoon at The Last Bookstore Downtown",
-        "description": "A former bank vault turned labyrinthine used bookstore with tunnels of stacked spines — it rewards wandering with no agenda.",
+        "description": "A former bank vault turned labyrinthine used bookstore with tunnels of stacked spines. It rewards wandering with no agenda.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -466,7 +466,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a book chosen entirely by its cover — read the first chapter before you leave the building.",
+        "bonus": "Buy a book chosen entirely by its cover. Read the first chapter before you leave the building.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/The+Last+Bookstore+Los+Angeles",
         "company": [
@@ -476,7 +476,7 @@
       {
         "id": "LAX-C-2",
         "title": "Watch the Sunset from Point Dume State Preserve",
-        "description": "The clifftop bluff at Point Dume frames the Santa Monica Bay in a wide arc — show up thirty minutes before sunset and watch the marine layer ignite from the highest point on the Malibu coast.",
+        "description": "The clifftop bluff at Point Dume frames the Santa Monica Bay in a wide arc. Show up thirty minutes before sunset and watch the marine layer ignite from the highest point on the Malibu coast.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -494,7 +494,7 @@
       {
         "id": "LAX-A-2",
         "title": "Walk the Venice Canals at Golden Hour",
-        "description": "The original Venice canals — dug in 1905 — wind through a neighborhood of tilted footbridges, ducks, and absurd real estate, and the hour before sunset is when the water goes glassy.",
+        "description": "The original Venice canals, dug in 1905, wind through a neighborhood of tilted footbridges, ducks, and absurd real estate, and the hour before sunset is when the water goes glassy.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -514,7 +514,7 @@
       {
         "id": "LAX-S-13",
         "title": "Night at the Griffith Observatory Public Telescope",
-        "description": "On clear nights, the Zeiss telescope in the main dome opens to the public and lets you see Saturn's rings or a lunar crater with your own eye — no ticket required.",
+        "description": "On clear nights, the Zeiss telescope in the main dome opens to the public and lets you see Saturn's rings or a lunar crater with your own eye, no ticket required.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -522,7 +522,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the docent on duty to show you the most underrated object in the sky that night — not just the moon.",
+        "bonus": "Ask the docent on duty to show you the most underrated object in the sky that night, not just the moon.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Griffith+Observatory+Los+Angeles"
       },
@@ -544,7 +544,7 @@
       {
         "id": "LAX-C-8",
         "title": "Afternoon at LACMA's Permanent Collection",
-        "description": "The largest art museum in the western US holds Magritte, Basquiat, and ancient artifacts — most people never make it past the Broad.",
+        "description": "The largest art museum in the western US holds Magritte, Basquiat, and ancient artifacts, most people never make it past the Broad.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -559,7 +559,7 @@
       {
         "id": "LAX-C-3",
         "title": "Afternoon at the Huntington Library Gardens",
-        "description": "Two hundred acres of botanical gardens, a world-class art collection, and absolute quiet in San Marino — the ultimate slow afternoon.",
+        "description": "Two hundred acres of botanical gardens, a world-class art collection, and absolute quiet in San Marino, the ultimate slow afternoon.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -577,7 +577,7 @@
       {
         "id": "LAX-C-1",
         "title": "Read on the Lawn at the Getty Center",
-        "description": "The Getty sits on a Brentwood ridge with a view that makes every piece of art inside feel like an afterthought — pack a book, find a bench in the garden, and let the afternoon dissolve.",
+        "description": "The Getty sits on a Brentwood ridge with a view that makes every piece of art inside feel like an afterthought. Pack a book, find a bench in the garden, and let the afternoon dissolve.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–4 hrs",
@@ -617,7 +617,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sing a song solo in front of the full bar — no duet safety net.",
+        "bonus": "Sing a song solo in front of the full bar, no duet safety net.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Brass+Monkey+karaoke+Koreatown+Los+Angeles",
         "company": [
@@ -651,7 +651,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stay until you can see both the city lights fully lit and the last traces of sunset — don't leave early.",
+        "bonus": "Stay until you can see both the city lights fully lit and the last traces of sunset. Don't leave early.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Perch+rooftop+bar+Downtown+Los+Angeles",
         "adult": true
@@ -683,14 +683,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Request a song from the bandleader between sets — do it in person, not through the waiter.",
+        "bonus": "Request a song from the bandleader between sets. Do it in person, not through the waiter.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Vibrato+Grill+Jazz+Bel+Air+Los+Angeles"
       },
       {
         "id": "LAX-S-5",
         "title": "Legendary Taco Crawl on Whittier Boulevard in East LA",
-        "description": "Whittier Boulevard is LA's oldest taco corridor — a mile-long stretch of taquerias, carnicerias, and loncheras where the real Mexico City comparison holds up.",
+        "description": "Whittier Boulevard is LA's oldest taco corridor: a mile-long stretch of taquerias, carnicerias, and loncheras where the real Mexico City comparison holds up.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -705,7 +705,7 @@
       {
         "id": "LAX-S-4",
         "title": "Comedy Night at The Comedy Store on Sunset",
-        "description": "Legends were made on this stage and new ones are being made tonight — sit in the Original Room for the most unpredictable hour in Hollywood.",
+        "description": "Legends were made on this stage and new ones are being made tonight. Sit in the Original Room for the most unpredictable hour in Hollywood.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -713,14 +713,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Make eye contact with the comedian when they scan the room — don't look away first.",
+        "bonus": "Make eye contact with the comedian when they scan the room. Don't look away first.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/The+Comedy+Store+Sunset+Boulevard+Los+Angeles"
       },
       {
         "id": "LAX-S-3",
         "title": "Lounge Night at The Dresden in Los Feliz",
-        "description": "The Dresden's lounge has been a Los Feliz institution since 1954 — slide into a white leather booth, order a Blood & Sand, and let the room do the rest.",
+        "description": "The Dresden's lounge has been a Los Feliz institution since 1954. Slide into a white leather booth, order a Blood & Sand, and let the room do the rest.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -736,7 +736,7 @@
       {
         "id": "LAX-S-2",
         "title": "Cocktails at Tiki-Ti on Sunset",
-        "description": "Tiki-Ti is a twelve-stool family-run bar on Sunset that's been serving 94 cocktails off a handwritten menu since 1961 — show up when the neon flips on and surrender to the ritual.",
+        "description": "Tiki-Ti is a twelve-stool family-run bar on Sunset that's been serving 94 cocktails off a handwritten menu since 1961. Show up when the neon flips on and surrender to the ritual.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -744,7 +744,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Let the bartender pick your drink both rounds — no vetoes, no substitutions.",
+        "bonus": "Let the bartender pick your drink both rounds: no vetoes, no substitutions.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Tiki+Ti+Sunset+Boulevard+Los+Angeles",
         "adult": true
@@ -752,7 +752,7 @@
       {
         "id": "LAX-S-1",
         "title": "See a Show at the Hollywood Bowl",
-        "description": "The Hollywood Bowl has been staging concerts under the summer sky since 1922 — the acoustics, the wine, the canyon air, and whoever's playing make this the definitive LA evening.",
+        "description": "The Hollywood Bowl has been staging concerts under the summer sky since 1922: the acoustics, the wine, the canyon air, and whoever's playing make this the definitive LA evening.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -769,7 +769,7 @@
       {
         "id": "LAX-F-12",
         "title": "Omelet Breakfast at Du-par's in the Farmers Market",
-        "description": "The original Farmers Market diner has served fluffy omelets and fresh-squeezed OJ since 1938 — it still feels exactly right.",
+        "description": "The original Farmers Market diner has served fluffy omelets and fresh-squeezed OJ since 1938. It still feels exactly right.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -792,14 +792,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Tell the server to skip the menu description for every course — eat blind and guess the protein.",
+        "bonus": "Tell the server to skip the menu description for every course. Eat blind and guess the protein.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Providence+Restaurant+Melrose+Los+Angeles"
       },
       {
         "id": "LAX-F-9",
         "title": "Grand Central Market Deep Dive",
-        "description": "This 100-year-old downtown food hall packs Thai, Salvadoran, egg sandwiches, and oysters under one roof — graze like a local.",
+        "description": "This 100-year-old downtown food hall packs Thai, Salvadoran, egg sandwiches, and oysters under one roof, graze like a local.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -807,14 +807,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Eat from three different stalls without repeating a cuisine — no planning ahead.",
+        "bonus": "Eat from three different stalls without repeating a cuisine, no planning ahead.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Grand+Central+Market+Los+Angeles"
       },
       {
         "id": "LAX-F-8",
         "title": "Tacos at Guisados in Boyle Heights",
-        "description": "Braised-meat tacos on hand-pressed tortillas are the most underrated lunch in the city — every single option wins.",
+        "description": "Braised-meat tacos on hand-pressed tortillas are the most underrated lunch in the city. Every single option wins.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins–1 hr",
@@ -837,14 +837,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Sit at the mozzarella bar and let the bartender pick your antipasto — no substitutions.",
+        "bonus": "Sit at the mozzarella bar and let the bartender pick your antipasto, no substitutions.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Pizzeria+Mozza+Melrose+Los+Angeles"
       },
       {
         "id": "LAX-F-6",
         "title": "Late-Night Ramen at Daikokuya in Little Tokyo",
-        "description": "Rich tonkotsu broth that's been simmering for hours pulls you in off the street — the line is always worth it.",
+        "description": "Rich tonkotsu broth that's been simmering for hours pulls you in off the street. The line is always worth it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -852,7 +852,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Add extra chashu and eat at the counter solo — no phone for the entire meal.",
+        "bonus": "Add extra chashu and eat at the counter solo, no phone for the entire meal.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Daikokuya+Little+Tokyo+Los+Angeles"
       },
@@ -874,7 +874,7 @@
       {
         "id": "LAX-F-4",
         "title": "The #19 at Langer's Deli",
-        "description": "The #19 pastrami on rye at this MacArthur Park institution — open since 1947 — hits harder than anything in New York. Full stop.",
+        "description": "The #19 pastrami on rye at this MacArthur Park institution, open since 1947, hits harder than anything in New York. Full stop.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -882,14 +882,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the #19 and convince your table it's better than Katz's — defend your position to a stranger if one agrees.",
+        "bonus": "Order the #19 and convince your table it's better than Katz's, defend your position to a stranger if one agrees.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Langer%27s+Deli+Los+Angeles"
       },
       {
         "id": "LAX-F-3",
         "title": "Birria Tacos at Teddy's Red Tacos in Boyle Heights",
-        "description": "Teddy's sells the platonic LA birria taco — consommé-dunked, griddle-crisped, loaded with onion and cilantro — from a counter that's had a permanent line since it opened.",
+        "description": "Teddy's sells the platonic LA birria taco (consommé-dunked, griddle-crisped, loaded with onion and cilantro) from a counter that's had a permanent line since it opened.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -897,14 +897,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Drain the full cup of consommé before you leave — no leaving soup behind.",
+        "bonus": "Drain the full cup of consommé before you leave, no leaving soup behind.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Teddy's+Red+Tacos+Boyle+Heights+Los+Angeles"
       },
       {
         "id": "LAX-F-2",
         "title": "Omakase Counter Seat at Sushi Gen in Little Tokyo",
-        "description": "Sushi Gen has held down Little Tokyo since 1980, and the sashimi lunch special at the counter — slabs of tuna thick enough to embarrass every other sashimi you have had — is the best lunch deal in the city.",
+        "description": "Sushi Gen has held down Little Tokyo since 1980, and the sashimi lunch special at the counter, slabs of tuna thick enough to embarrass every other sashimi you have had, is the best lunch deal in the city.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -912,14 +912,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the chef what he'd eat tonight if he weren't working — order exactly that.",
+        "bonus": "Ask the chef what he'd eat tonight if he weren't working. Order exactly that.",
         "city": "Los Angeles, CA",
         "mapsUrl": "https://www.google.com/maps/search/Sushi+Gen+Little+Tokyo+Los+Angeles"
       },
       {
         "id": "LAX-F-1",
         "title": "Eat the Original French Dip at Philippe the Original",
-        "description": "Philippe's has been dipping French bread into roasting pan drippings in Chinatown since 1908 — order the double-dip lamb and eat standing at a sawdust-floor counter.",
+        "description": "Philippe's has been dipping French bread into roasting pan drippings in Chinatown since 1908. Order the double-dip lamb and eat standing at a sawdust-floor counter.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",

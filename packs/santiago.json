@@ -9,7 +9,7 @@
       {
         "id": "SCL-S-06",
         "title": "An Evening in Patio Bellavista",
-        "description": "An enclosed courtyard block at the foot of Cerro San Cristóbal packed with bars, terraces and craft stalls — the easiest possible first night out in Santiago.",
+        "description": "An enclosed courtyard block at the foot of Cerro San Cristóbal packed with bars, terraces and craft stalls, the easiest possible first night out in Santiago.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -68,7 +68,7 @@
       {
         "id": "SCL-S-10",
         "title": "See a Band at Teatro Caupolicán",
-        "description": "A 1930s downtown theatre that became the city's great rock room — steep balconies, terrible sightlines from the back, and a crowd that sings over the band.",
+        "description": "A 1930s downtown theatre that became the city's great rock room: steep balconies, terrible sightlines from the back, and a crowd that sings over the band.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -87,7 +87,7 @@
       {
         "id": "SCL-S-05",
         "title": "Match Day at the Estadio Nacional",
-        "description": "Universidad de Chile at the national stadium — flares, full-stadium songs and a level of noise that makes conversation pointless for ninety minutes.",
+        "description": "Universidad de Chile at the national stadium, flares, full-stadium songs and a level of noise that makes conversation pointless for ninety minutes.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -126,7 +126,7 @@
       {
         "id": "SCL-S-07",
         "title": "Bar-Hop the Corners of Barrio Brasil",
-        "description": "Faded mansions around Plaza Brasil turned into cheap student bars and schoperias — loud, unpolished, and where the city actually drinks midweek.",
+        "description": "Faded mansions around Plaza Brasil turned into cheap student bars and schoperias: loud, unpolished, and where the city actually drinks midweek.",
         "rarity": "Common",
         "cost": "$",
         "duration": "4 hrs",
@@ -248,7 +248,7 @@
       {
         "id": "SCL-CU-06",
         "title": "Twentieth-Century Clothes at the Museo de la Moda",
-        "description": "A modernist Vitacura house holding one of the world's great private fashion collections — including garments worn by Lady Diana, Marilyn Monroe and John Lennon.",
+        "description": "A modernist Vitacura house holding one of the world's great private fashion collections, including garments worn by Lady Diana, Marilyn Monroe and John Lennon.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -286,7 +286,7 @@
       {
         "id": "SCL-CU-04",
         "title": "Walk the Cementerio General",
-        "description": "Two million graves laid out in avenues — presidents, Victor Jara, and the memorial to the disappeared — a walk through the whole of modern Chilean history.",
+        "description": "Two million graves laid out in avenues (presidents, Victor Jara, and the memorial to the disappeared) a walk through the whole of modern Chilean history.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -325,7 +325,7 @@
       {
         "id": "SCL-CU-07",
         "title": "Fiestas Patrias in a Fonda",
-        "description": "Every September the country stops and builds fondas — temporary halls of cueca dancing, anticuchos, terremoto jugs and rodeo — the biggest in Parque O'Higgins.",
+        "description": "Every September the country stops and builds fondas (temporary halls of cueca dancing, anticuchos, terremoto jugs and rodeo) the biggest in Parque O'Higgins.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "8 hrs",
@@ -481,7 +481,7 @@
       {
         "id": "SCL-C-06",
         "title": "Wander the Faded Streets of Barrio Yungay",
-        "description": "The city's first designated heritage neighbourhood — crumbling 19th-century facades, muralled walls, and the Peluquería Francesa barbershop unchanged since 1868.",
+        "description": "The city's first designated heritage neighbourhood: crumbling 19th-century facades, muralled walls, and the Peluquería Francesa barbershop unchanged since 1868.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -530,7 +530,7 @@
       {
         "id": "SCL-C-03",
         "title": "Afternoon at the Museum of Memory and Human Rights",
-        "description": "Move slowly through this striking museum's account of Chile's recent history — quiet, powerful, worth the full visit.",
+        "description": "Move slowly through this striking museum's account of Chile's recent history: quiet, powerful, worth the full visit.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -606,7 +606,7 @@
       {
         "id": "SCL-F-06",
         "title": "Eat and Drink Your Way Down Barrio Italia",
-        "description": "Old furniture workshops off Avenida Italia now hold courtyard restaurants, coffee roasters and wine bars behind unmarked doors — wander until something looks right.",
+        "description": "Old furniture workshops off Avenida Italia now hold courtyard restaurants, coffee roasters and wine bars behind unmarked doors. Wander until something looks right.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -625,7 +625,7 @@
       {
         "id": "SCL-F-12",
         "title": "Pastel de Choclo at Galindo",
-        "description": "A loud, unfussy Bellavista picada that has been serving the same Chilean home cooking for decades — pastel de choclo in a clay dish, straight out of the oven.",
+        "description": "A loud, unfussy Bellavista picada that has been serving the same Chilean home cooking for decades, pastel de choclo in a clay dish, straight out of the oven.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -644,7 +644,7 @@
       {
         "id": "SCL-F-05",
         "title": "The Endemic Tasting Menu at Boragó",
-        "description": "Rodolfo Guzmán cooks only what grows wild in Chile — Patagonian seaweed, Atacama herbs, ants from the south — across a twenty-course menu found nowhere else on earth.",
+        "description": "Rodolfo Guzmán cooks only what grows wild in Chile (Patagonian seaweed, Atacama herbs, ants from the south) across a twenty-course menu found nowhere else on earth.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "4 hrs",
@@ -662,7 +662,7 @@
       {
         "id": "SCL-F-10",
         "title": "Empanadas at Emporio Zunino",
-        "description": "A counter beside the Mercado Central turning out empanadas de pino since 1930 — no seats, no menu beyond what is in the tray, and a queue out the door at noon.",
+        "description": "A counter beside the Mercado Central turning out empanadas de pino since 1930. No seats, no menu beyond what is in the tray, and a queue out the door at noon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -822,7 +822,7 @@
       {
         "id": "SCL-A-10",
         "title": "Spend a Day in Valparaíso",
-        "description": "Ninety minutes by bus to a port city built up forty-two hills — Victorian funiculars, murals on every wall, and Neruda's house at La Sebastiana on the way down.",
+        "description": "Ninety minutes by bus to a port city built up forty-two hills: Victorian funiculars, murals on every wall, and Neruda's house at La Sebastiana on the way down.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "Full day",
@@ -842,7 +842,7 @@
       {
         "id": "SCL-A-08",
         "title": "Summit Cerro Provincia in a Single Day",
-        "description": "Eighteen hundred metres of ascent from the Puente Ñilhue trailhead to a 2,750-metre summit — the classic Santiago day mountain, and a genuinely hard one.",
+        "description": "Eighteen hundred metres of ascent from the Puente Ñilhue trailhead to a 2,750-metre summit, the classic Santiago day mountain, and a genuinely hard one.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "9 hrs",
@@ -928,7 +928,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 14,
-        "bonus": "Get to the trailhead by eight — the park closes its gate early.",
+        "bonus": "Get to the trailhead by eight. The park closes its gate early.",
         "city": "Santiago, Chile",
         "mapsUrl": "https://maps.google.com/maps/search/Parque+Aguas+de+Ramon+Santiago",
         "company": [
@@ -959,7 +959,7 @@
       {
         "id": "SCL-A-09",
         "title": "Learn to Surf at Matanzas",
-        "description": "A wind-battered fishing village two hours southwest that became Chile's kitesurf and surf capital — board hire, wetsuits and lessons right on the sand.",
+        "description": "A wind-battered fishing village two hours southwest that became Chile's kitesurf and surf capital. Board hire, wetsuits and lessons right on the sand.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "Full day",

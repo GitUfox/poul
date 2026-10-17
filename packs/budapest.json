@@ -9,7 +9,7 @@
       {
         "id": "BUD-S-12",
         "title": "The Budapest Wine Festival at Buda Castle",
-        "description": "Every September the castle courtyards fill with a few hundred Hungarian producers — Tokaji, Egri Bikavér and furmint poured on a terrace above the whole city.",
+        "description": "Every September the castle courtyards fill with a few hundred Hungarian producers. Tokaji, Egri Bikavér and furmint poured on a terrace above the whole city.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "5 hrs",
@@ -125,7 +125,7 @@
       {
         "id": "BUD-S-09",
         "title": "Ruin Bar Crawl of the Seventh District",
-        "description": "Half a square kilometre of pre-war apartment blocks that were left to rot and then filled with bars — courtyard after courtyard, none of them resembling the last.",
+        "description": "Half a square kilometre of pre-war apartment blocks that were left to rot and then filled with bars, courtyard after courtyard, none of them resembling the last.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "5 hrs",
@@ -144,7 +144,7 @@
       {
         "id": "BUD-S-06",
         "title": "360 Bar on the Rooftop",
-        "description": "A full circle of skyline from a roof on Vörösmarty Square — Basilica, Parliament, Citadella and castle all at once, and heated glass igloos when it turns cold.",
+        "description": "A full circle of skyline from a roof on Vörösmarty Square: Basilica, Parliament, Citadella and castle all at once, and heated glass igloos when it turns cold.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -184,7 +184,7 @@
       {
         "id": "BUD-S-10",
         "title": "Live Music Night at Mazel Tov",
-        "description": "After dark the courtyard that does brunch turns into the quarter's best-looking bar — Mediterranean cocktails, a DJ or a live band, and olive trees strung with bulbs.",
+        "description": "After dark the courtyard that does brunch turns into the quarter's best-looking bar: Mediterranean cocktails, a DJ or a live band, and olive trees strung with bulbs.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -324,7 +324,7 @@
       {
         "id": "BUD-CU-08",
         "title": "The Museum of Fine Arts",
-        "description": "On Heroes' Square, holding the largest collection of Spanish painting outside Spain — seven El Grecos and five Goyas — plus a reconstructed Renaissance hall.",
+        "description": "On Heroes' Square, holding the largest collection of Spanish painting outside Spain, seven El Grecos and five Goyas, plus a reconstructed Renaissance hall.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -352,7 +352,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 26,
-        "bonus": "Count the cigar holders in the lobby — they are still numbered.",
+        "bonus": "Count the cigar holders in the lobby. They are still numbered.",
         "city": "Budapest, Hungary",
         "mapsUrl": "https://maps.google.com/maps/search/Hungarian+Parliament+Building+Budapest",
         "company": [
@@ -447,7 +447,7 @@
       {
         "id": "BUD-C-05",
         "title": "The Danube Promenade at Dusk",
-        "description": "Walk the Pest embankment from the Chain Bridge south as the castle hill goes gold and then floodlit on the far bank — the best free hour in the city.",
+        "description": "Walk the Pest embankment from the Chain Bridge south as the castle hill goes gold and then floodlit on the far bank, the best free hour in the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -487,7 +487,7 @@
       {
         "id": "BUD-C-08",
         "title": "Gül Baba's Tomb and Rose Garden",
-        "description": "The northernmost Islamic pilgrimage site in the world — a 16th-century Ottoman dervish's tomb up a steep cobbled lane in Buda, ringed by roses and almost always empty.",
+        "description": "The northernmost Islamic pilgrimage site in the world, a 16th-century Ottoman dervish's tomb up a steep cobbled lane in Buda, ringed by roses and almost always empty.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -526,7 +526,7 @@
       {
         "id": "BUD-C-10",
         "title": "The Ecseri Flea Market",
-        "description": "Acres of Habsburg silver, Soviet medals, folk embroidery and complete junk on the southern edge of the city — central Europe's best flea market, and haggling is expected.",
+        "description": "Acres of Habsburg silver, Soviet medals, folk embroidery and complete junk on the southern edge of the city, central Europe's best flea market, and haggling is expected.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -625,7 +625,7 @@
       {
         "id": "BUD-C-03",
         "title": "Lukács, the Locals' Bath",
-        "description": "The bath Budapest actually uses — no stag parties, a courtyard wall covered in marble plaques from people the water cured, and eleven saunas out the back.",
+        "description": "The bath Budapest actually uses: no stag parties, a courtyard wall covered in marble plaques from people the water cured, and eleven saunas out the back.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -686,7 +686,7 @@
       {
         "id": "BUD-F-10",
         "title": "Eight Food Trucks at Karaván",
-        "description": "Hungary's first street food court, wedged into a gap in the ruin-bar street — lángos burgers, Hungarian-Mexican crossovers and benches, right next door to Szimpla.",
+        "description": "Hungary's first street food court, wedged into a gap in the ruin-bar street: lángos burgers, Hungarian-Mexican crossovers and benches, right next door to Szimpla.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -705,7 +705,7 @@
       {
         "id": "BUD-F-12",
         "title": "Take Home Paprika from the Great Market Hall",
-        "description": "The ground floor of the market is strings of dried peppers, tins of sweet and hot paprika and jars of goose fat — the one souvenir from Budapest actually worth carrying.",
+        "description": "The ground floor of the market is strings of dried peppers, tins of sweet and hot paprika and jars of goose fat, the one souvenir from Budapest actually worth carrying.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -782,7 +782,7 @@
       {
         "id": "BUD-F-03",
         "title": "Kürtőskalács Straight Off the Spit",
-        "description": "A ribbon of sweet dough wound round a wooden cylinder, rolled in sugar and turned over coals until it caramelises — best eaten while it's still too hot to hold.",
+        "description": "A ribbon of sweet dough wound round a wooden cylinder, rolled in sugar and turned over coals until it caramelises. Best eaten while it's still too hot to hold.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 mins",
@@ -802,7 +802,7 @@
       {
         "id": "BUD-F-01",
         "title": "Goulash at Gettó Gulyás",
-        "description": "A Jewish-quarter kitchen that does nothing but Hungarian stews, properly — goulash as a soup, pörkölt as a stew, and the difference finally made obvious.",
+        "description": "A Jewish-quarter kitchen that does nothing but Hungarian stews, properly: goulash as a soup, pörkölt as a stew, and the difference finally made obvious.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -821,7 +821,7 @@
       {
         "id": "BUD-F-07",
         "title": "Coffee Under the Frescoes at the New York Café",
-        "description": "Open since 1894 and regularly called the most beautiful cafe in the world — Venetian chandeliers, marble columns, gilt everywhere, and a queue that starts outside.",
+        "description": "Open since 1894 and regularly called the most beautiful cafe in the world: Venetian chandeliers, marble columns, gilt everywhere, and a queue that starts outside.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1–2 hrs",
@@ -959,7 +959,7 @@
       {
         "id": "BUD-A-16",
         "title": "Ride the M1, the Oldest Metro on the Continent",
-        "description": "Opened in 1896 and barely changed — tiny yellow carriages running just under the pavement of Andrássy Avenue, through tiled stations with wooden ticket booths.",
+        "description": "Opened in 1896 and barely changed, tiny yellow carriages running just under the pavement of Andrássy Avenue, through tiled stations with wooden ticket booths.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -979,7 +979,7 @@
       {
         "id": "BUD-A-13",
         "title": "Swim Outdoors at Palatinus",
-        "description": "A 1919 riverside lido in the middle of Margaret Island — thermal pools, a wave pool, slides and a lot of grass to lie on, all fed by the island's own springs.",
+        "description": "A 1919 riverside lido in the middle of Margaret Island: thermal pools, a wave pool, slides and a lot of grass to lie on, all fed by the island's own springs.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -998,7 +998,7 @@
       {
         "id": "BUD-A-15",
         "title": "Lángos on the Riverbank at Római-part",
-        "description": "A strip of Danube bank in the far north where Budapest actually goes at the weekend — cycle path, rowing clubs, fried dough and no tourists at all.",
+        "description": "A strip of Danube bank in the far north where Budapest actually goes at the weekend. Cycle path, rowing clubs, fried dough and no tourists at all.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -1056,7 +1056,7 @@
       {
         "id": "BUD-A-03",
         "title": "Adventure Caving Under Buda",
-        "description": "Overalls, a helmet and a headlamp, then three hours crawling through unlit passages of Hungary's longest cave system — directly beneath a residential district.",
+        "description": "Overalls, a helmet and a headlamp, then three hours crawling through unlit passages of Hungary's longest cave system, directly beneath a residential district.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -1174,7 +1174,7 @@
       {
         "id": "BUD-A-07",
         "title": "The Children's Railway Through the Buda Hills",
-        "description": "Eleven kilometres of narrow-gauge forest railway where every job except driving the train — signals, tickets, station master — is done by children aged ten to fourteen.",
+        "description": "Eleven kilometres of narrow-gauge forest railway where every job except driving the train (signals, tickets, station master) is done by children aged ten to fourteen.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",

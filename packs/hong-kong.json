@@ -29,7 +29,7 @@
       {
         "id": "HKG-S-07",
         "title": "Cocktails at Felix, The Peninsula",
-        "description": "Philippe Starck's 1994 room on the 28th floor of The Peninsula — the first restaurant in Asia he designed, with floor-to-ceiling glass facing the island.",
+        "description": "Philippe Starck's 1994 room on the 28th floor of The Peninsula. The first restaurant in Asia he designed, with floor-to-ceiling glass facing the island.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -251,7 +251,7 @@
       {
         "id": "HKG-8B-02",
         "title": "Wildcard: Next Ferry Out of Central",
-        "description": "Walk to the Central piers, board whichever outlying-island ferry leaves next — Peng Chau, Lamma, Cheung Chau, Discovery Bay — and spend the afternoon wherever it puts you.",
+        "description": "Walk to the Central piers, board whichever outlying-island ferry leaves next (Peng Chau, Lamma, Cheung Chau, Discovery Bay) and spend the afternoon wherever it puts you.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "4 hrs",
@@ -272,7 +272,7 @@
       {
         "id": "HKG-8B-01",
         "title": "Wildcard: Cooked Food Centre Roulette",
-        "description": "Go up to the cooked food centre on the top floor of a municipal market building and each order from the stall with the longest local queue — no menu reading, no discussion.",
+        "description": "Go up to the cooked food centre on the top floor of a municipal market building and each order from the stall with the longest local queue: no menu reading, no discussion.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2 hrs",
@@ -432,7 +432,7 @@
       {
         "id": "HKG-CU-02",
         "title": "Hong Kong Palace Museum",
-        "description": "Rotating loans from Beijing's Forbidden City — imperial robes, jades and court paintings — inside a gold-toned building shaped like a ritual vessel.",
+        "description": "Rotating loans from Beijing's Forbidden City (imperial robes, jades and court paintings) inside a gold-toned building shaped like a ritual vessel.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -662,7 +662,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 24,
-        "bonus": "Eat it the local way — noodles first, before they soften, and do not add soy.",
+        "bonus": "Eat it the local way. Noodles first, before they soften, and do not add soy.",
         "city": "Hong Kong, China",
         "mapsUrl": "https://maps.google.com/maps/search/Mak's+Noodle+77+Wellington+Street+Central+Hong+Kong",
         "company": [
@@ -754,7 +754,7 @@
       {
         "id": "HKG-F-03",
         "title": "Scrambled Eggs at Australia Dairy Company",
-        "description": "The most famously brusque breakfast in Hong Kong — cloud-soft scrambled eggs, buttered toast and steamed milk pudding, served at a speed that borders on hostile.",
+        "description": "The most famously brusque breakfast in Hong Kong: cloud-soft scrambled eggs, buttered toast and steamed milk pudding, served at a speed that borders on hostile.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -813,7 +813,7 @@
       {
         "id": "HKG-F-04",
         "title": "Pineapple Bun and Milk Tea at Kam Wah Café",
-        "description": "The city's benchmark bo lo bao — a crackle-topped bun split around a cold slab of butter — at a cha chaan teng that has not changed since 1973.",
+        "description": "The city's benchmark bo lo bao, a crackle-topped bun split around a cold slab of butter, at a cha chaan teng that has not changed since 1973.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -953,7 +953,7 @@
       {
         "id": "HKG-A-10",
         "title": "The Twins Stairs on Wilson Trail Stage 1",
-        "description": "Over 1,100 stone steps straight up two peaks above Stanley — the cruellest staircase in Hong Kong, and the reason local hikers train here.",
+        "description": "Over 1,100 stone steps straight up two peaks above Stanley, the cruellest staircase in Hong Kong, and the reason local hikers train here.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "4 hrs",
@@ -1117,7 +1117,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 13,
-        "bonus": "Stand on the lion's nose for the photo — then put the phone away for ten minutes.",
+        "bonus": "Stand on the lion's nose for the photo. Then put the phone away for ten minutes.",
         "city": "Hong Kong, China",
         "mapsUrl": "https://maps.google.com/maps/search/Lion+Rock+Country+Park+Hong+Kong",
         "company": [
@@ -1149,7 +1149,7 @@
       {
         "id": "HKG-A-04",
         "title": "Old Peak Road Climb to Victoria Peak",
-        "description": "The 1860s sedan-chair route up the mountain — a relentless concrete ramp through the jungle that skips the tram queue entirely.",
+        "description": "The 1860s sedan-chair route up the mountain, a relentless concrete ramp through the jungle that skips the tram queue entirely.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",

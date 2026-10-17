@@ -9,7 +9,7 @@
       {
         "id": "TI-A-301",
         "title": "Climb the 1000 Islands Tower, Hill Island",
-        "description": "The 130-meter observation tower on the Canadian side has surveyed the whole archipelago since 1965 — on a clear day you can count islands until you lose track somewhere past forty.",
+        "description": "The 130-meter observation tower on the Canadian side has surveyed the whole archipelago since 1965. On a clear day you can count islands until you lose track somewhere past forty.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -17,7 +17,7 @@
         "time": "Afternoon",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Bring your passport for the bridge crossing — and actually try to count to forty islands.",
+        "bonus": "Bring your passport for the bridge crossing, and actually try to count to forty islands.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://www.google.com/maps/search/1000+Islands+Tower+Hill+Island"
       },
@@ -32,13 +32,13 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 15,
-        "bonus": "Catch and release a smallmouth over 18 inches — measure it against your rod and photograph the release before you move to the next drift.",
+        "bonus": "Catch and release a smallmouth over 18 inches, measure it against your rod and photograph the release before you move to the next drift.",
         "city": "Thousand Islands region, NY (Clayton, Alexandria Bay, Cape Vincent)",
         "mapsUrl": "https://www.google.com/maps/search/Chippewa+Bay+New+York+St+Lawrence+River"
       },
       {
         "id": "TI-AC-201",
-        "title": "Clayton Waterfront Bike Loop — Grindstone Island Ferry to Town Dock",
+        "title": "Clayton Waterfront Bike Loop: Grindstone Island Ferry to Town Dock",
         "description": "The Clayton waterfront loop from the municipal dock past the ferry landing and out toward Grindstone Island Road is a flat, river-hugging ride that puts the whole working waterfront in your face.",
         "rarity": "Common",
         "cost": "$",
@@ -62,7 +62,7 @@
         "time": "Evening",
         "season": "Jun–Sep",
         "spark": 40,
-        "bonus": "Land a fish within 60 seconds of a freighter passing — the pressure wave stirs baitfish and the window is real; time it and make it count.",
+        "bonus": "Land a fish within 60 seconds of a freighter passing, the pressure wave stirs baitfish and the window is real; time it and make it count.",
         "city": "Thousand Islands region, NY (Clayton, Alexandria Bay, Cape vincent)",
         "mapsUrl": "https://www.google.com/maps/search/Alexandria+Bay+Marina+Alexandria+Bay+NY"
       },
@@ -77,14 +77,14 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Touch the bridge abutment from your kayak and take a photo proving contact — bonus points if a freighter passes while you're under the span.",
+        "bonus": "Touch the bridge abutment from your kayak and take a photo proving contact. Bonus points if a freighter passes while you're under the span.",
         "city": "Thousand Islands region, NY (Clayton, Alexandria Bay, Cape Vincent)",
         "mapsUrl": "https://www.google.com/maps/search/Thousand+Islands+Bridge+Collins+Landing+NY"
       },
       {
         "id": "TIUS-AD-03",
         "title": "Cedar Point State Park Paddle, Clayton",
-        "description": "One of the oldest state parks in New York, on the St. Lawrence near Clayton — launch a kayak from the point and weave the nearest islands.",
+        "description": "One of the oldest state parks in New York, on the St. Lawrence near Clayton, launch a kayak from the point and weave the nearest islands.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -99,7 +99,7 @@
       {
         "id": "TIUS-AD-01",
         "title": "Salmon Charter, Henderson Harbor",
-        "description": "Henderson Harbor is the storied Lake Ontario fishing port south of Sackets — book a charter at dawn for trophy salmon, trout and bass.",
+        "description": "Henderson Harbor is the storied Lake Ontario fishing port south of Sackets. Book a charter at dawn for trophy salmon, trout and bass.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "5 hrs",
@@ -114,7 +114,7 @@
       {
         "id": "TIUS-A-03",
         "title": "Macsherry Trail Run, Sackets Harbor",
-        "description": "The crushed-stone rail trail running out of Sackets Harbor through fields and woods — flat, quiet, and perfect for a morning run or ride.",
+        "description": "The crushed-stone rail trail running out of Sackets Harbor through fields and woods: flat, quiet, and perfect for a morning run or ride.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -129,7 +129,7 @@
       {
         "id": "TIUS-A-02",
         "title": "Sackets Harbor Battlefield Walk",
-        "description": "The War of 1812 battlefield on the Lake Ontario shore at Sackets Harbor — a flat waterfront loop past cannons, ruins and the navy yard.",
+        "description": "The War of 1812 battlefield on the Lake Ontario shore at Sackets Harbor, a flat waterfront loop past cannons, ruins and the navy yard.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -144,7 +144,7 @@
       {
         "id": "TIUS-A-01",
         "title": "Black River Whitewater Rafting, Watertown",
-        "description": "The Black River below Watertown runs genuine Class III–IV rapids through a slate gorge — the best whitewater day trip in the North Country.",
+        "description": "The Black River below Watertown runs genuine Class III–IV rapids through a slate gorge, the best whitewater day trip in the North Country.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3 hrs",
@@ -159,7 +159,7 @@
       {
         "id": "TI-A-105",
         "title": "Fort Henry Living History, Kingston",
-        "description": "The 1830s British fortification on the limestone headland above Kingston does living history performances with uniforms, cannon fire, and soldiers drilling — the fort controls the entire St. Lawrence approach.",
+        "description": "The 1830s British fortification on the limestone headland above Kingston does living history performances with uniforms, cannon fire, and soldiers drilling, the fort controls the entire St. Lawrence approach.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -174,7 +174,7 @@
       {
         "id": "TI-AC-107",
         "title": "Canoe the Back Channels at Dawn",
-        "description": "The narrow channels between the smaller islands are only navigable by canoe or kayak — blue herons fish the shallows at dawn, bass hold in the lily pads, and the river traffic hasn't started yet.",
+        "description": "The narrow channels between the smaller islands are only navigable by canoe or kayak: blue herons fish the shallows at dawn, bass hold in the lily pads, and the river traffic hasn't started yet.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -182,14 +182,14 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Get on the water before 6am — the mist on the river channels at dawn is the whole thing.",
+        "bonus": "Get on the water before 6am, the mist on the river channels at dawn is the whole thing.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Canoe+NY"
       },
       {
         "id": "TI-A-104",
         "title": "Kayak the Admiralty Islands Group",
-        "description": "The cluster of state park islands in the American Narrows — Murray, Calumet, Wellesley Island — are connected by paddling routes through protected channels that cut you off from the river current.",
+        "description": "The cluster of state park islands in the American Narrows (Murray, Calumet, Wellesley Island) are connected by paddling routes through protected channels that cut you off from the river current.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -204,7 +204,7 @@
       {
         "id": "TI-AC-105",
         "title": "Wellesley Island State Park Trail System",
-        "description": "The 2,636-acre state park has 10 miles of hiking and biking trails through old-growth forest and along the river shore — the Eel Bay trail leads to a secluded rocky beach accessible only on foot.",
+        "description": "The 2,636-acre state park has 10 miles of hiking and biking trails through old-growth forest and along the river shore, the Eel Bay trail leads to a secluded rocky beach accessible only on foot.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -219,7 +219,7 @@
       {
         "id": "TI-A-103",
         "title": "Muskie Fishing the International Section",
-        "description": "The St. Lawrence International section between the islands produces the largest muskie in North America — hire a guide in Clayton or Alexandria Bay, use big bucktails, and hang on.",
+        "description": "The St. Lawrence International section between the islands produces the largest muskie in North America. Hire a guide in Clayton or Alexandria Bay, use big bucktails, and hang on.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "8 hrs",
@@ -227,14 +227,14 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Catch and release — the muskie fishery exists because of catch-and-release.",
+        "bonus": "Catch and release, the muskie fishery exists because of catch-and-release.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Muskie+Fishing+Clayton+NY"
       },
       {
         "id": "TI-AC-108",
-        "title": "Sunrise Run — Thousand Islands Bridge Span",
-        "description": "The annual Seaway Run lets you run across the Thousand Islands Bridge spans — the rest of the year you can drive across and park at Hill Island for a run along the Canadian shore with the bridge visible upstream.",
+        "title": "Sunrise Run: Thousand Islands Bridge Span",
+        "description": "The annual Seaway Run lets you run across the Thousand Islands Bridge spans. The rest of the year you can drive across and park at Hill Island for a run along the Canadian shore with the bridge visible upstream.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "1 hr",
@@ -242,14 +242,14 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 40,
-        "bonus": "Run to the midpoint of the bridge and stop to look at the river below — you can see the current splitting around the islands.",
+        "bonus": "Run to the midpoint of the bridge and stop to look at the river below. You can see the current splitting around the islands.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+International+Bridge+NY"
       },
       {
         "id": "TI-AC-101",
         "title": "Kayak Circumnavigation of Wellesley Island",
-        "description": "The full circumnavigation of Wellesley Island by kayak is 18 miles through island channels, past state park campgrounds, under the Thousand Islands Bridge, and back to the put-in — a full day on the water.",
+        "description": "The full circumnavigation of Wellesley Island by kayak is 18 miles through island channels, past state park campgrounds, under the Thousand Islands Bridge, and back to the put-in, a full day on the water.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "8 hrs",
@@ -264,7 +264,7 @@
       {
         "id": "TI-A-102",
         "title": "St. Lawrence River Scuba Wreck Dive",
-        "description": "The St. Lawrence has over 200 documented shipwrecks visible in its cold, clear water — the Robert Gaskin and the Keystorm both sit in 60 feet of water with intact hulls. The freshwater visibility is 30+ feet.",
+        "description": "The St. Lawrence has over 200 documented shipwrecks visible in its cold, clear water, the Robert Gaskin and the Keystorm both sit in 60 feet of water with intact hulls. The freshwater visibility is 30+ feet.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "4 hrs",
@@ -272,14 +272,14 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 40,
-        "bonus": "Dive the Keystorm — the steel freighter sits upright on the bottom with its superstructure intact.",
+        "bonus": "Dive the Keystorm. The steel freighter sits upright on the bottom with its superstructure intact.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Scuba+Diving+Brockville+Ontario"
       },
       {
         "id": "TI-AC-102",
         "title": "Walleye Fishing Charter, Clayton Marina",
-        "description": "The Clayton fishing charters run the international section for walleye from May through October — drift-jigging the rock structures in 20 feet of water at dawn with a guide who's fished this stretch for 30 years.",
+        "description": "The Clayton fishing charters run the international section for walleye from May through October, drift-jigging the rock structures in 20 feet of water at dawn with a guide who's fished this stretch for 30 years.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "6 hrs",
@@ -287,14 +287,14 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Keep two walleye and cook them that night — that's the point.",
+        "bonus": "Keep two walleye and cook them that night, that's the point.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Clayton+Marina+Clayton+NY"
       },
       {
         "id": "TI-AC-103",
-        "title": "Seaway Trail Bike Ride — River Road",
-        "description": "The Seaway Trail bike route from Cape Vincent east follows the river at water level — low traffic, river views on the left, farmland on the right, the Canadian shore visible across the current.",
+        "title": "Seaway Trail Bike Ride: River Road",
+        "description": "The Seaway Trail bike route from Cape Vincent east follows the river at water level. Low traffic, river views on the left, farmland on the right, the Canadian shore visible across the current.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",
@@ -302,14 +302,14 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Bike the full section without earphones — the river sounds change at every inlet.",
+        "bonus": "Bike the full section without earphones. The river sounds change at every inlet.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Seaway+Trail+Cape+Vincent+NY"
       },
       {
         "id": "TI-A-106",
-        "title": "Seaway Trail Scenic Drive — Cape Vincent to Alexandria Bay",
-        "description": "The 30-mile drive on the Seaway Trail along the American shore from Cape Vincent to Alexandria Bay passes every lighthouse, river access, and castle view on the US side — stop at every pull-off.",
+        "title": "Seaway Trail Scenic Drive: Cape Vincent to Alexandria Bay",
+        "description": "The 30-mile drive on the Seaway Trail along the American shore from Cape Vincent to Alexandria Bay passes every lighthouse, river access, and castle view on the US side. Stop at every pull-off.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -324,7 +324,7 @@
       {
         "id": "TI-AC-104",
         "title": "Stand-Up Paddleboard Between Islands",
-        "description": "The protected channels between the islands are ideal for SUP on calm mornings — the water clarity is 15+ feet, the current in the back channels is manageable, and no boat wake gets through.",
+        "description": "The protected channels between the islands are ideal for SUP on calm mornings. The water clarity is 15+ feet, the current in the back channels is manageable, and no boat wake gets through.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -339,7 +339,7 @@
       {
         "id": "TI-A-101",
         "title": "Island-Hopping by Pontoon Boat",
-        "description": "Rent a pontoon for the day and navigate the 1,864 islands yourself — through the American Narrows, past the castles, into the back channels where the osprey fish and the current runs cold.",
+        "description": "Rent a pontoon for the day and navigate the 1,864 islands yourself: through the American Narrows, past the castles, into the back channels where the osprey fish and the current runs cold.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "8 hrs",
@@ -354,7 +354,7 @@
       {
         "id": "TI-AC-106",
         "title": "Swim Off the Rocks on a Private Island",
-        "description": "The St. Lawrence runs 60–70 degrees in July with visibility to 20 feet — find a state park island, tie your boat, climb the granite rocks, and jump. There is no better swimming in New York.",
+        "description": "The St. Lawrence runs 60–70 degrees in July with visibility to 20 feet. Find a state park island, tie your boat, climb the granite rocks, and jump. There is no better swimming in New York.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -379,7 +379,7 @@
         "time": "Afternoon",
         "season": "Jul",
         "spark": 15,
-        "bonus": "Find someone wearing a Napoleon hat and convince them to pose back-to-back with you for a photo — post it before you leave the parade route.",
+        "bonus": "Find someone wearing a Napoleon hat and convince them to pose back-to-back with you for a photo. Post it before you leave the parade route.",
         "city": "Thousand Islands region, NY (Clayton, Alexandria Bay, Cape Vincent)",
         "mapsUrl": "https://www.google.com/maps/search/Cape+Vincent+French+Festival+Cape+Vincent+NY"
       },
@@ -404,7 +404,7 @@
       {
         "id": "TI-C-107",
         "title": "Fort Wellington National Historic Site",
-        "description": "The 1812-era British fort in Prescott, Ontario is one of the best-preserved military sites in Canada — the blockhouse, the defensive earthworks, and the view across the river to Ogdensburg, NY.",
+        "description": "The 1812-era British fort in Prescott, Ontario is one of the best-preserved military sites in Canada: the blockhouse, the defensive earthworks, and the view across the river to Ogdensburg, NY.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -419,7 +419,7 @@
       {
         "id": "TI-C-101",
         "title": "Boldt Castle Full Exploration, Heart Island",
-        "description": "George Boldt stopped construction in 1904 when his wife died and left 120 rooms unfinished for 73 years — the Thousand Islands Bridge Authority has been restoring it since 1977. Take the boat, take your time.",
+        "description": "George Boldt stopped construction in 1904 when his wife died and left 120 rooms unfinished for 73 years. The Thousand Islands Bridge Authority has been restoring it since 1977. Take the boat, take your time.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3 hrs",
@@ -434,7 +434,7 @@
       {
         "id": "TI-C-102",
         "title": "Singer Castle on Dark Island",
-        "description": "The 1905 castle on Dark Island was built for the Singer sewing machine heir and has underground tunnels, a dungeon, and a priest hole — guided tours only, absolutely worth it.",
+        "description": "The 1905 castle on Dark Island was built for the Singer sewing machine heir and has underground tunnels, a dungeon, and a priest hole, guided tours only, absolutely worth it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -442,14 +442,14 @@
         "time": "Afternoon",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Ask the guide to show you the tunnel system — it goes under the island.",
+        "bonus": "Ask the guide to show you the tunnel system. It goes under the island.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Singer+Castle+Dark+Island+NY"
       },
       {
         "id": "TI-S-101",
         "title": "Boldt Castle Night Tour, Heart Island",
-        "description": "George Boldt's uncompleted 120-room castle on Heart Island runs evening boat tours that put you on the island after the day crowds leave — the stone towers, the power house, the river at dusk.",
+        "description": "George Boldt's uncompleted 120-room castle on Heart Island runs evening boat tours that put you on the island after the day crowds leave: the stone towers, the power house, the river at dusk.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -457,14 +457,14 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 40,
-        "bonus": "Read the story of Boldt and his wife Louise before you go — the castle is a love story.",
+        "bonus": "Read the story of Boldt and his wife Louise before you go. The castle is a love story.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Boldt+Castle+Heart+Island+Alexandria+Bay+NY"
       },
       {
         "id": "TI-C-103",
         "title": "Antique Boat Museum, Clayton",
-        "description": "The Clayton museum has the world's largest freshwater antique boat collection — Gilded Age mahogany runabouts, St. Lawrence skiffs, and the 1923 houseboat La Duchesse that was never finished.",
+        "description": "The Clayton museum has the world's largest freshwater antique boat collection, Gilded Age mahogany runabouts, St. Lawrence skiffs, and the 1923 houseboat La Duchesse that was never finished.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -497,7 +497,7 @@
       {
         "id": "TIUS-S-02",
         "title": "1000 Islands Harbor Hotel Bar, Clayton",
-        "description": "The waterfront hotel bar and terrace at the center of Clayton — the prime spot to watch the sun drop over the river with a cocktail.",
+        "description": "The waterfront hotel bar and terrace at the center of Clayton, the prime spot to watch the sun drop over the river with a cocktail.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -513,7 +513,7 @@
       {
         "id": "TIUS-S-01",
         "title": "Wood Boat Brewery, Clayton",
-        "description": "Clayton's riverfront brewery and restaurant by the Antique Boat Museum — house beers, a deck on the St. Lawrence, and live music in season.",
+        "description": "Clayton's riverfront brewery and restaurant by the Antique Boat Museum, house beers, a deck on the St. Lawrence, and live music in season.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -529,7 +529,7 @@
       {
         "id": "TI-S-107",
         "title": "Sackets Harbor Brewpub Night",
-        "description": "The small Lake Ontario harbor town has a brewpub in the historic district with the harbor visible from the bar — cold pints, the battlefield two blocks away, and a summer night that goes quiet by 10.",
+        "description": "The small Lake Ontario harbor town has a brewpub in the historic district with the harbor visible from the bar: cold pints, the battlefield two blocks away, and a summer night that goes quiet by 10.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -545,7 +545,7 @@
       {
         "id": "TI-S-103",
         "title": "Dockside Pub, Gananoque Waterfront",
-        "description": "The Gananoque waterfront pub with live music on weekends and a deck that hangs over the marina — cold Molson, fish and chips, and the Canadian side of the river doing exactly what summer should do.",
+        "description": "The Gananoque waterfront pub with live music on weekends and a deck that hangs over the marina. Cold Molson, fish and chips, and the Canadian side of the river doing exactly what summer should do.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -561,7 +561,7 @@
       {
         "id": "TI-S-102",
         "title": "Sunset Dinner Cruise on the St. Lawrence",
-        "description": "The two-hour dinner cruise from Alexandria Bay or Gananoque threads through the island channels as the sun drops behind the Canadian shore — the islands glow orange and the river turns pink.",
+        "description": "The two-hour dinner cruise from Alexandria Bay or Gananoque threads through the island channels as the sun drops behind the Canadian shore, the islands glow orange and the river turns pink.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -569,7 +569,7 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Stand at the bow for the full sunset — don't stay at the dinner table for it.",
+        "bonus": "Stand at the bow for the full sunset. Don't stay at the dinner table for it.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+Cruise+Alexandria+Bay+NY",
         "company": [
@@ -579,7 +579,7 @@
       {
         "id": "TI-S-104",
         "title": "Bonnie Castle Resort River Bar",
-        "description": "The Alexandria Bay resort bar on the river with Boldt Castle across the water — the patio fills at sunset with people who've been on the water all day and have exactly nowhere to be tomorrow.",
+        "description": "The Alexandria Bay resort bar on the river with Boldt Castle across the water. The patio fills at sunset with people who've been on the water all day and have exactly nowhere to be tomorrow.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -610,8 +610,8 @@
       },
       {
         "id": "TI-S-108",
-        "title": "Island Bonfire Night — Private Rental Island",
-        "description": "Several of the smaller Thousand Islands are available for overnight rental through NY State Parks — camp on your own island, build a fire on the rock shore, watch the river traffic with a cold beer.",
+        "title": "Island Bonfire Night: Private Rental Island",
+        "description": "Several of the smaller Thousand Islands are available for overnight rental through NY State Parks. Camp on your own island, build a fire on the rock shore, watch the river traffic with a cold beer.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "12 hrs",
@@ -619,14 +619,14 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 40,
-        "bonus": "Stay awake long enough to see the stars over the river — there's almost no light pollution.",
+        "bonus": "Stay awake long enough to see the stars over the river. There's almost no light pollution.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Thousand+Islands+State+Park+NY"
       },
       {
         "id": "TI-S-105",
-        "title": "Kingston Pub Crawl — Princess Street",
-        "description": "Kingston's Princess Street has the densest concentration of bars and live music west of Montreal — the university town energy means the bars are good and the crowd is actually interesting.",
+        "title": "Kingston Pub Crawl: Princess Street",
+        "description": "Kingston's Princess Street has the densest concentration of bars and live music west of Montreal. The university town energy means the bars are good and the crowd is actually interesting.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -647,7 +647,7 @@
       {
         "id": "TIUS-S-03",
         "title": "Clipper Inn, Clayton",
-        "description": "The long-running Clayton supper club just off the water — old-school service, a deep wine list, and the kind of room locals book for every occasion.",
+        "description": "The long-running Clayton supper club just off the water: old-school service, a deep wine list, and the kind of room locals book for every occasion.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -662,7 +662,7 @@
       {
         "id": "TIUS-F-05",
         "title": "Lyric Coffee House & Bistro, Clayton",
-        "description": "Clayton's Riverside Drive coffee house — proper espresso, fresh pastries, and a window onto the St. Lawrence to start the day.",
+        "description": "Clayton's Riverside Drive coffee house: proper espresso, fresh pastries, and a window onto the St. Lawrence to start the day.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -677,7 +677,7 @@
       {
         "id": "TIUS-F-03",
         "title": "Art's Jug, Watertown",
-        "description": "The tiny tavern that has poured beer and slung Italian plates to Watertown since 1932 — a true North Country dive institution.",
+        "description": "The tiny tavern that has poured beer and slung Italian plates to Watertown since 1932, a true North Country dive institution.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -692,7 +692,7 @@
       {
         "id": "TIUS-F-02",
         "title": "Tin Pan Galley, Sackets Harbor",
-        "description": "Sackets Harbor's beloved garden-patio restaurant — string lights, a leafy courtyard, and a menu built on local lake fish and produce.",
+        "description": "Sackets Harbor's beloved garden-patio restaurant: string lights, a leafy courtyard, and a menu built on local lake fish and produce.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -707,7 +707,7 @@
       {
         "id": "TIUS-F-01",
         "title": "Crystal Restaurant, Watertown",
-        "description": "The 1920s landmark on Watertown's Public Square — pressed-tin ceilings, a back bar that hasn't changed in a century, and the most storied dining room in the North Country.",
+        "description": "The 1920s landmark on Watertown's Public Square. Pressed-tin ceilings, a back bar that hasn't changed in a century, and the most storied dining room in the North Country.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2 hrs",
@@ -722,7 +722,7 @@
       {
         "id": "TI-F-107",
         "title": "Kingston Public Market, Ontario",
-        "description": "The Kingston Farmers' Market has operated since 1801 in Springer Market Square — local cheese, Ontario produce, maple syrup, and the best butter tarts you will ever eat.",
+        "description": "The Kingston Farmers' Market has operated since 1801 in Springer Market Square: local cheese, Ontario produce, maple syrup, and the best butter tarts you will ever eat.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -737,7 +737,7 @@
       {
         "id": "TI-F-105",
         "title": "Fresh Walleye Dinner at a Riverside Camp",
-        "description": "The St. Lawrence runs the finest walleye fishery on the continent — catch them yourself or buy direct from a guide, pan-fry in butter with Old Bay, eat on a dock with the river moving past.",
+        "description": "The St. Lawrence runs the finest walleye fishery on the continent. Catch them yourself or buy direct from a guide, pan-fry in butter with Old Bay, eat on a dock with the river moving past.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -752,7 +752,7 @@
       {
         "id": "TI-F-101",
         "title": "Cavallario's Steak & Seafood, Alexandria Bay",
-        "description": "The waterfront institution in Alexandria Bay with Boldt Castle visible from the dining room — the walleye and the prime rib have been the move here since before anyone living can remember.",
+        "description": "The waterfront institution in Alexandria Bay with Boldt Castle visible from the dining room. The walleye and the prime rib have been the move here since before anyone living can remember.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -767,7 +767,7 @@
       {
         "id": "TI-F-108",
         "title": "Otter's Lakehouse, Clayton",
-        "description": "The casual waterfront bar and grill in Clayton with the best deck view of the river — the fish tacos and the cold draft in a plastic cup on the dock is the whole summer in one order.",
+        "description": "The casual waterfront bar and grill in Clayton with the best deck view of the river, the fish tacos and the cold draft in a plastic cup on the dock is the whole summer in one order.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -775,7 +775,7 @@
         "time": "Afternoon",
         "season": "Summer",
         "spark": 15,
-        "bonus": "Arrive by boat if possible — dock at the marina and walk up.",
+        "bonus": "Arrive by boat if possible, dock at the marina and walk up.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Otter%27s+Lakehouse+Clayton+NY"
       },
@@ -797,7 +797,7 @@
       {
         "id": "TI-F-103",
         "title": "Thousand Islands Winery, Cape Vincent",
-        "description": "The Cape Vincent winery on the shore of the St. Lawrence makes cold-climate wines from Niagara grapes with a tasting room overlooking the river — the ice wine and the Frontenac red are the keepers.",
+        "description": "The Cape Vincent winery on the shore of the St. Lawrence makes cold-climate wines from Niagara grapes with a tasting room overlooking the river, the ice wine and the Frontenac red are the keepers.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -828,7 +828,7 @@
       {
         "id": "TI-F-104",
         "title": "Koffee Kove Diner, Clayton Waterfront",
-        "description": "The Clayton waterfront diner with booths facing the river and a breakfast menu that hasn't changed in 30 years — the French toast and the egg sandwich are the order of everyone who's been coming here since childhood.",
+        "description": "The Clayton waterfront diner with booths facing the river and a breakfast menu that hasn't changed in 30 years, the French toast and the egg sandwich are the order of everyone who's been coming here since childhood.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -836,14 +836,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sit at the counter and talk to whoever's there — they'll know everyone.",
+        "bonus": "Sit at the counter and talk to whoever's there, they'll know everyone.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Koffee+Kove+Clayton+NY"
       },
       {
         "id": "TI-F-106",
         "title": "Gananoque Inn Waterfront Dinner",
-        "description": "The historic inn on the Gananoque River a block from the St. Lawrence does a waterfront dinner on the patio — the best table in Gananoque on a summer evening, local fish, Ontario wine.",
+        "description": "The historic inn on the Gananoque River a block from the St. Lawrence does a waterfront dinner on the patio: the best table in Gananoque on a summer evening, local fish, Ontario wine.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -851,7 +851,7 @@
         "time": "Evening",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Reserve the patio table closest to the river — the Gananoque flows past three feet away.",
+        "bonus": "Reserve the patio table closest to the river, the Gananoque flows past three feet away.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Gananoque+Inn+Ontario+Canada"
       }
@@ -860,7 +860,7 @@
       {
         "id": "TIUS-C-04",
         "title": "NY State Zoo at Thompson Park, Watertown",
-        "description": "The small, walkable zoo inside Thompson Park focused on North American wildlife native to the region — wolves, bears, otters and more.",
+        "description": "The small, walkable zoo inside Thompson Park focused on North American wildlife native to the region: wolves, bears, otters and more.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -875,7 +875,7 @@
       {
         "id": "TIUS-C-02",
         "title": "Thompson Park Overlook, Watertown",
-        "description": "The Olmsted-designed hilltop park above Watertown — sweeping views over the Black River valley toward the river and the start of the islands.",
+        "description": "The Olmsted-designed hilltop park above Watertown, sweeping views over the Black River valley toward the river and the start of the islands.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -890,7 +890,7 @@
       {
         "id": "TIUS-C-01",
         "title": "Tibbetts Point Lighthouse, Cape Vincent",
-        "description": "The 1854 lighthouse at the exact point where Lake Ontario empties into the St. Lawrence — the single best sunset vantage in the entire region.",
+        "description": "The 1854 lighthouse at the exact point where Lake Ontario empties into the St. Lawrence, the single best sunset vantage in the entire region.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -907,8 +907,8 @@
       },
       {
         "id": "TI-C-105",
-        "title": "Zavikon Island — World's Shortest International Bridge",
-        "description": "The 32-foot footbridge connecting two islands — one American, one Canadian — is the world's shortest international bridge. You need a boat to get there. It's worth it for the sheer absurdity alone.",
+        "title": "Zavikon Island: World's Shortest International Bridge",
+        "description": "The 32-foot footbridge connecting two islands (one American, one Canadian) is the world's shortest international bridge. You need a boat to get there. It's worth it for the sheer absurdity alone.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "1 hr",
@@ -923,7 +923,7 @@
       {
         "id": "TI-C-106",
         "title": "Wolfe Island Ferry + Sunset Walk",
-        "description": "The free ferry from Kingston to Wolfe Island takes 20 minutes and drops you on the largest of the Thousand Islands — flat farmland, wind turbines, a general store, and the river visible from every road.",
+        "description": "The free ferry from Kingston to Wolfe Island takes 20 minutes and drops you on the largest of the Thousand Islands: flat farmland, wind turbines, a general store, and the river visible from every road.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",
@@ -941,7 +941,7 @@
       {
         "id": "TI-C-104",
         "title": "Rock Island Lighthouse Boat Tour",
-        "description": "The 1847 lighthouse on Rock Island at the head of the Chippewa Bay has been restored and is open for tours by boat — the view from the top across the American channel is the whole Thousand Islands in one glance.",
+        "description": "The 1847 lighthouse on Rock Island at the head of the Chippewa Bay has been restored and is open for tours by boat, the view from the top across the American channel is the whole Thousand Islands in one glance.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -949,14 +949,14 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 25,
-        "bonus": "Climb the lighthouse stairs to the lamp room — count the islands you can identify by name.",
+        "bonus": "Climb the lighthouse stairs to the lamp room. Count the islands you can identify by name.",
         "city": "Thousand Islands, NY",
         "mapsUrl": "https://maps.google.com/?q=Rock+Island+Lighthouse+Fishers+Landing+NY"
       },
       {
         "id": "TI-C-108",
         "title": "Kingston's Limestone District Walk",
-        "description": "Kingston's entire downtown is built in 19th-century limestone — City Hall, Martello towers, Fort Henry, the waterfront market — the most historically intact city on the Great Lakes.",
+        "description": "Kingston's entire downtown is built in 19th-century limestone (City Hall, Martello towers, Fort Henry, the waterfront market) the most historically intact city on the Great Lakes.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2.5 hrs",

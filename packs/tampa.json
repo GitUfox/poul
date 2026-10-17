@@ -66,7 +66,7 @@
       {
         "id": "TPA-S-10",
         "title": "Cigar City Pints at the Arena Taproom",
-        "description": "Jai Alai IPA poured at the brewery's downtown taproom by the arena — the beer that put Tampa on the craft map, drunk where the crowds are.",
+        "description": "Jai Alai IPA poured at the brewery's downtown taproom by the arena. The beer that put Tampa on the craft map, drunk where the crowds are.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -624,7 +624,7 @@
       {
         "id": "TPA-C-01",
         "title": "Sunset on Bayshore Boulevard",
-        "description": "The longest continuous sidewalk in the world — four and a half miles of balustrade along Hillsborough Bay, with the city on one side and open water on the other.",
+        "description": "The longest continuous sidewalk in the world, four and a half miles of balustrade along Hillsborough Bay, with the city on one side and open water on the other.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -705,7 +705,7 @@
       {
         "id": "TPA-F-04",
         "title": "The Super Grouper at Frenchy's Rockaway",
-        "description": "Grouper landed locally, fried, and eaten at a beach shack with your feet basically in the sand — voted the best version of the sandwich again in 2026.",
+        "description": "Grouper landed locally, fried, and eaten at a beach shack with your feet basically in the sand, voted the best version of the sandwich again in 2026.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "90 mins",
@@ -724,7 +724,7 @@
       {
         "id": "TPA-F-10",
         "title": "Weekend Brunch at Oxford Exchange",
-        "description": "A bookshop, coffee bar, champagne counter and sunlit conservatory in one 1891 building across from the university's minarets — brunch here is an event.",
+        "description": "A bookshop, coffee bar, champagne counter and sunlit conservatory in one 1891 building across from the university's minarets, brunch here is an event.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -800,7 +800,7 @@
       {
         "id": "TPA-F-12",
         "title": "Cuban Sandwich Crawl Down 7th Avenue",
-        "description": "Ybor City invented the Tampa Cuban — no mayo, salami in the stack — and you can eat four versions of it in six blocks of brick street.",
+        "description": "Ybor City invented the Tampa Cuban (no mayo, salami in the stack) and you can eat four versions of it in six blocks of brick street.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -936,7 +936,7 @@
       },
       {
         "id": "TPA-A-11",
-        "title": "Sunset Sail off Clearwater Beach",
+        "title": "Sunset Sail Off Clearwater Beach",
         "description": "Out through Clearwater Pass onto the Gulf on a catamaran as the sun drops, usually with dolphins working the boat's wake on the way back in.",
         "rarity": "Common",
         "cost": "$$",
@@ -1034,7 +1034,7 @@
       {
         "id": "TPA-A-06",
         "title": "Ferry to Caladesi Island",
-        "description": "A short boat from Honeymoon Island to one of the last completely undeveloped barrier islands in Florida — no bridge, no road, three miles of empty sand.",
+        "description": "A short boat from Honeymoon Island to one of the last completely undeveloped barrier islands in Florida: no bridge, no road, three miles of empty sand.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "5 hrs",
@@ -1130,7 +1130,7 @@
       {
         "id": "TPA-A-10",
         "title": "Rapids and Suspension Bridge at Hillsborough River State Park",
-        "description": "One of Florida's original state parks, with a genuine set of Class II rapids — rare in a state this flat — crossed by a 1930s CCC suspension bridge.",
+        "description": "One of Florida's original state parks, with a genuine set of Class II rapids, rare in a state this flat, crossed by a 1930s CCC suspension bridge.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",

@@ -17,14 +17,14 @@
         "time": "Morning",
         "season": "Apr–Nov",
         "spark": 25,
-        "bonus": "Walk the steep section in silence like the pilgrims do — save the talking for the terrace at the top.",
+        "bonus": "Walk the steep section in silence like the pilgrims do, save the talking for the terrace at the top.",
         "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Aya+Yorgi+Church+Büyükada+Istanbul"
       },
       {
         "id": "IST-A-201",
         "title": "Ferry to Anadolu Kavağı and Climb to Yoros Castle",
-        "description": "Ride the Bosphorus ferry to its last stop — a fishing village at the mouth of the Black Sea — then climb to the ruined Byzantine castle where two continents and two seas meet below you.",
+        "description": "Ride the Bosphorus ferry to its last stop, a fishing village at the mouth of the Black Sea, then climb to the ruined Byzantine castle where two continents and two seas meet below you.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "5–6 hrs",
@@ -32,14 +32,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Eat fried hamsi in the village after the descent — at whichever place has the most locals.",
+        "bonus": "Eat fried hamsi in the village after the descent. At whichever place has the most locals.",
         "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Yoros+Castle+Anadolu+Kavağı+Istanbul"
       },
       {
         "id": "IST-AC-103",
         "title": "Open-Water Swim at Caddebostan Beach",
-        "description": "Caddebostan is the Asian side's urban swim — a real Marmara beach with a lido culture that feels more Riviera than tourist trap, and the skyline floating behind you as you float.",
+        "description": "Caddebostan is the Asian side's urban swim, a real Marmara beach with a lido culture that feels more Riviera than tourist trap, and the skyline floating behind you as you float.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -54,7 +54,7 @@
       {
         "id": "IST-AC-102",
         "title": "Run the Theodosian Land Walls, Edirnekapı to Yedikule",
-        "description": "The fifth-century walls that once held back entire empires stretch nearly seven kilometres through residential Istanbul — run the full length along the inside ditch path.",
+        "description": "The fifth-century walls that once held back entire empires stretch nearly seven kilometres through residential Istanbul. Run the full length along the inside ditch path.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -62,7 +62,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Tag every intact tower you pass — count them and post the number somewhere public.",
+        "bonus": "Tag every intact tower you pass. Count them and post the number somewhere public.",
         "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Theodosian+Walls+Edirnekapı+Istanbul"
       },
@@ -77,7 +77,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Ride the full Fenerbahçe peninsula loop without stopping — then lock the bike and walk back along the sea wall.",
+        "bonus": "Ride the full Fenerbahçe peninsula loop without stopping, then lock the bike and walk back along the sea wall.",
         "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Kadıköy+waterfront+bike+path+Istanbul"
       },
@@ -92,14 +92,14 @@
         "time": "Afternoon",
         "season": "Jun–Sep",
         "spark": 25,
-        "bonus": "Jump from the highest ledge you can reach — then swim out past the lighthouse buoy before turning back.",
+        "bonus": "Jump from the highest ledge you can reach, then swim out past the lighthouse buoy before turning back.",
         "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Rumeli+Feneri+Istanbul"
       },
       {
         "id": "IST-A-01",
-        "title": "Hike the Belgrad Forest trails",
-        "description": "A vast Ottoman reservoir forest 20km north of the city — get on a minibus, get off, and walk among 500-year-old dams with almost nobody around.",
+        "title": "Hike the Belgrad Forest Trails",
+        "description": "A vast Ottoman reservoir forest 20km north of the city. Get on a minibus, get off, and walk among 500-year-old dams with almost nobody around.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -113,7 +113,7 @@
       },
       {
         "id": "IST-AC-06",
-        "title": "Stand-up paddleboard on Büyükçekmece Lake",
+        "title": "Stand-up Paddleboard on Büyükçekmece Lake",
         "description": "A vast calm lagoon west of the city with SUP rentals, almost no crowds, and a 16th-century Suleiman bridge watching over the whole scene.",
         "rarity": "Rare",
         "cost": "$$",
@@ -128,8 +128,8 @@
       },
       {
         "id": "IST-A-04",
-        "title": "Sprint through the Grand Bazaar finding all gates",
-        "description": "The Grand Bazaar has 61 covered streets and 22 entrances — pick a gate, exit it, circle the outside, find the next gate, repeat until you've done them all.",
+        "title": "Sprint Through the Grand Bazaar Finding All Gates",
+        "description": "The Grand Bazaar has 61 covered streets and 22 entrances. Pick a gate, exit it, circle the outside, find the next gate, repeat until you've done them all.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -143,8 +143,8 @@
       },
       {
         "id": "IST-A-03",
-        "title": "Explore the Basilica Cistern underground",
-        "description": "A 6th-century underground reservoir built by Justinian — 336 marble columns rising from black water in permanent dim light, with a Medusa head at the corner.",
+        "title": "Explore the Basilica Cistern Underground",
+        "description": "A 6th-century underground reservoir built by Justinian, 336 marble columns rising from black water in permanent dim light, with a Medusa head at the corner.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -158,8 +158,8 @@
       },
       {
         "id": "IST-A-06",
-        "title": "Paraglide over the Bosphorus from the Asian side",
-        "description": "Launch from Büyük Çamlıca Hill with the city at your feet, two seas visible, and the bridge connecting them — this is what Istanbul looks like from the air.",
+        "title": "Paraglide Over the Bosphorus from the Asian Side",
+        "description": "Launch from Büyük Çamlıca Hill with the city at your feet, two seas visible, and the bridge connecting them. This is what Istanbul looks like from the air.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -173,8 +173,8 @@
       },
       {
         "id": "IST-AC-05",
-        "title": "Row a boat in the Sweet Waters of Asia",
-        "description": "Göksu Deresi, the Sweet Waters of Asia, is a reed-lined river where locals have picnicked for centuries — rent a rowboat and float through it.",
+        "title": "Row a Boat in the Sweet Waters of Asia",
+        "description": "Göksu Deresi, the Sweet Waters of Asia, is a reed-lined river where locals have picnicked for centuries. Rent a rowboat and float through it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -188,8 +188,8 @@
       },
       {
         "id": "IST-A-05",
-        "title": "Kayak the upper Bosphorus between continents",
-        "description": "Rent a sea kayak from the Rumeli side and paddle between Europe and Asia while tankers ghost past you — technically the same waterway, technically two worlds.",
+        "title": "Kayak the Upper Bosphorus Between Continents",
+        "description": "Rent a sea kayak from the Rumeli side and paddle between Europe and Asia while tankers ghost past you, technically the same waterway, technically two worlds.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -203,8 +203,8 @@
       },
       {
         "id": "IST-AC-07",
-        "title": "Walk the full length of İstiklal Caddesi to the tower",
-        "description": "The 1.4km pedestrian boulevard from Taksim to Galata Tower hums at all hours — do it end to end, then climb the tower for the view.",
+        "title": "Walk the Full Length of İstiklal Caddesi to the Tower",
+        "description": "The 1.4km pedestrian boulevard from Taksim to Galata Tower hums at all hours. Do it end to end, then climb the tower for the view.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -218,8 +218,8 @@
       },
       {
         "id": "IST-AC-08",
-        "title": "Cycle the Princes' Islands perimeter",
-        "description": "Büyükada's car-free perimeter road is a 10km loop through pine forest, Ottoman villas, and sea views — rent a bike off the ferry and ride the whole thing.",
+        "title": "Cycle the Princes' Islands Perimeter",
+        "description": "Büyükada's car-free perimeter road is a 10km loop through pine forest, Ottoman villas, and sea views. Rent a bike off the ferry and ride the whole thing.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -233,8 +233,8 @@
       },
       {
         "id": "IST-AC-02",
-        "title": "Swim at Kilyos Black Sea beach",
-        "description": "Take the bus north through the Belgrade Forest and hit the Black Sea — Kilyos is rough, cold, and perfect, with almost no tourists.",
+        "title": "Swim at Kilyos Black Sea Beach",
+        "description": "Take the bus north through the Belgrade Forest and hit the Black Sea. Kilyos is rough, cold, and perfect, with almost no tourists.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -248,8 +248,8 @@
       },
       {
         "id": "IST-A-02",
-        "title": "Take the morning ferry to Asia and walk back",
-        "description": "Catch the first ferry to the Asian side, walk the Kadıköy market, eat breakfast, then take the bridge back on foot — two continents before noon.",
+        "title": "Take the Morning Ferry to Asia and Walk Back",
+        "description": "Catch the first ferry to the Asian side, walk the Kadıköy market, eat breakfast, then take the bridge back on foot, two continents before noon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -263,7 +263,7 @@
       },
       {
         "id": "IST-AC-03",
-        "title": "Climb Çamlıca Hill for 360° city panorama",
+        "title": "Climb Çamlıca Hill for 360° City Panorama",
         "description": "Istanbul's highest point on the Asian side rewards a 30-minute hike with the full city skyline, both bridges, and two seas all at once.",
         "rarity": "Common",
         "cost": "$",
@@ -287,7 +287,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Time yourself from the tower base to the ferry terminal pier — beat twelve minutes.",
+        "bonus": "Time yourself from the tower base to the ferry terminal pier, beat twelve minutes.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Galata+Tower+Istanbul"
       },
@@ -309,7 +309,7 @@
       {
         "id": "ISTA-AC-01",
         "title": "Dawn Run Across the Bosphorus Bridge",
-        "description": "On race days the FSM Bridge closes to cars and runners own six kilometers of elevated highway over the strait — join the Vodafone 15K or show up for an open training run.",
+        "description": "On race days the FSM Bridge closes to cars and runners own six kilometers of elevated highway over the strait. Join the Vodafone 15K or show up for an open training run.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -365,7 +365,7 @@
         "time": "Morning",
         "season": "Jul–Sep",
         "spark": 40,
-        "bonus": "Touch the Asian shore and the European shore on the same day — document both with a wet hand on the wall.",
+        "bonus": "Touch the Asian shore and the European shore on the same day, document both with a wet hand on the wall.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Kız+Kulesi+Istanbul"
       }
@@ -374,7 +374,7 @@
       {
         "id": "IST-S-102",
         "title": "Hunt Antiques at Horhor Bazaar, Aksaray",
-        "description": "Istanbul's multi-story antiques warren in Aksaray stacks Ottoman bric-a-brac, Soviet cameras, and estate furniture across dozens of dealers — a true local institution with zero cruise-ship traffic.",
+        "description": "Istanbul's multi-story antiques warren in Aksaray stacks Ottoman bric-a-brac, Soviet cameras, and estate furniture across dozens of dealers, a true local institution with zero cruise-ship traffic.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -404,8 +404,8 @@
       },
       {
         "id": "IST-S-07",
-        "title": "Nargile session at a Tophane café",
-        "description": "Tophane's waterfront nargile cafés are an institution — order double-apple, recline, and watch ferries cross the Bosphorus all evening.",
+        "title": "Nargile Session at a Tophane Café",
+        "description": "Tophane's waterfront nargile cafés are an institution. Order double-apple, recline, and watch ferries cross the Bosphorus all evening.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -419,8 +419,8 @@
       },
       {
         "id": "IST-S-04",
-        "title": "Rooftop drinks at Neolokal, SALT Galata",
-        "description": "The Bosphorus turns molten at dusk — there are a dozen rooftop bars in Beyoğlu that cost nothing to sit in and everything to leave.",
+        "title": "Rooftop Drinks at Neolokal, SALT Galata",
+        "description": "The Bosphorus turns molten at dusk. There are a dozen rooftop bars in Beyoğlu that cost nothing to sit in and everything to leave.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -435,8 +435,8 @@
       },
       {
         "id": "IST-S-06",
-        "title": "Whirling dervish ceremony at a tekke",
-        "description": "A Sema ceremony is not a tourist show — it's a Sufi meditation in motion, and sitting in silence watching it rearranges something in your chest.",
+        "title": "Whirling Dervish Ceremony at a Tekke",
+        "description": "A Sema ceremony is not a tourist show. It's a Sufi meditation in motion, and sitting in silence watching it rearranges something in your chest.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -450,8 +450,8 @@
       },
       {
         "id": "IST-S-03",
-        "title": "Backgammon at a çay bahçesi in Üsküdar",
-        "description": "Cross to the Asian side, find a tea garden full of old men, and challenge someone to a game — no shared language required.",
+        "title": "Backgammon at a Çay Bahçesi in Üsküdar",
+        "description": "Cross to the Asian side, find a tea garden full of old men, and challenge someone to a game, no shared language required.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -465,7 +465,7 @@
       },
       {
         "id": "IST-S-05",
-        "title": "Grand Bazaar treasure hunt with a budget",
+        "title": "Grand Bazaar Treasure Hunt with a Budget",
         "description": "Set a 200 TL budget, enter at one gate, and don't leave until you've spent it all on something you didn't know you needed.",
         "rarity": "Common",
         "cost": "$",
@@ -489,7 +489,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Point out and name every landmark visible from the terrace to whoever you're with — Google nothing.",
+        "bonus": "Point out and name every landmark visible from the terrace to whoever you're with, Google nothing.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/360+Istanbul+Rooftop+Bar",
         "adult": true
@@ -497,7 +497,7 @@
       {
         "id": "ISTA-S-03",
         "title": "Backgammon at a Kıraathane in Fatih",
-        "description": "The old coffee houses of Fatih are strictly local — men play tavla over çay for hours and a foreigner pulling up a stool is the most interesting thing to happen all week.",
+        "description": "The old coffee houses of Fatih are strictly local, men play tavla over çay for hours and a foreigner pulling up a stool is the most interesting thing to happen all week.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -505,7 +505,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge someone to a game using only hand gestures — no translation apps allowed.",
+        "bonus": "Challenge someone to a game using only hand gestures, no translation apps allowed.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Kıraathane+Fatih+Istanbul"
       }
@@ -529,7 +529,7 @@
       {
         "id": "IST-F-101",
         "title": "Kumpir Crawl on Büyük Çarşı Sokak, Ortaköy",
-        "description": "Ortaköy's famous street serves Istanbul's definitive stuffed baked potato — loaded to obscenity with toppings from a dozen stalls competing inches apart.",
+        "description": "Ortaköy's famous street serves Istanbul's definitive stuffed baked potato, loaded to obscenity with toppings from a dozen stalls competing inches apart.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -543,8 +543,8 @@
       },
       {
         "id": "IST-F-10",
-        "title": "Kebap dinner at Hamdi Restaurant, Eminönü",
-        "description": "Doner over bread drowned in tomato sauce and hot butter — find the Istanbul outpost of the restaurant that invented it and pay your respects.",
+        "title": "Kebap Dinner at Hamdi Restaurant, Eminönü",
+        "description": "Doner over bread drowned in tomato sauce and hot butter. Find the Istanbul outpost of the restaurant that invented it and pay your respects.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -558,8 +558,8 @@
       },
       {
         "id": "IST-F-05",
-        "title": "Baklava tasting at Karaköy Güllüoğlu",
-        "description": "Work through at least four varieties — pistachio, walnut, fıstıklı, sütlü — and drink the strong tea they push without asking.",
+        "title": "Baklava Tasting at Karaköy Güllüoğlu",
+        "description": "Work through at least four varieties (pistachio, walnut, fıstıklı, sütlü) and drink the strong tea they push without asking.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -589,7 +589,7 @@
       {
         "id": "IST-F-02",
         "title": "Kokoreç at Meşhur Beşiktaş Kokoreçcisi",
-        "description": "Order the seasoned lamb intestine sandwich from the most smoke-blackened cart you can find — this is not the time for caution.",
+        "description": "Order the seasoned lamb intestine sandwich from the most smoke-blackened cart you can find. This is not the time for caution.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–60 min",
@@ -603,8 +603,8 @@
       },
       {
         "id": "IST-F-09",
-        "title": "Stuffed mussels from the midyecis of Rüstempaşa, Eminönü",
-        "description": "Midye dolma vendors haul trays of stuffed mussels along the waterfront — eat them one after another until you run out of lemon.",
+        "title": "Stuffed Mussels from the Midyecis of Rüstempaşa, Eminönü",
+        "description": "Midye dolma vendors haul trays of stuffed mussels along the waterfront. Eat them one after another until you run out of lemon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -619,7 +619,7 @@
       {
         "id": "IST-F-07",
         "title": "Dinner at Barba Restaurant, Balat",
-        "description": "Eat among faded mansions and minarets as the Golden Horn turns gold beneath you — Balat's rooftop restaurants deliver this for cheap.",
+        "description": "Eat among faded mansions and minarets as the Golden Horn turns gold beneath you, Balat's rooftop restaurants deliver this for cheap.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -642,7 +642,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Hit at least three different meyhanes and order rakı with a meze at each — finish every glass.",
+        "bonus": "Hit at least three different meyhanes and order rakı with a meze at each. Finish every glass.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Nevizade+Sokak+Beyoğlu+Istanbul",
         "company": [
@@ -660,7 +660,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask the sommelier to pair each course with only Turkish wine — no exceptions, even if they push back.",
+        "bonus": "Ask the sommelier to pair each course with only Turkish wine, no exceptions, even if they push back.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Mikla+Restaurant+Istanbul"
       },
@@ -675,7 +675,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Eat it standing on the bridge while a fisherman casts directly beside you — don't move for the whole sandwich.",
+        "bonus": "Eat it standing on the bridge while a fisherman casts directly beside you. Don't move for the whole sandwich.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Balık+Ekmek+Galata+Bridge+Istanbul"
       },
@@ -690,7 +690,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order çay refills until the waiter stops counting — try to hit seven glasses in one sitting.",
+        "bonus": "Order çay refills until the waiter stops counting. Try to hit seven glasses in one sitting.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Van+Kahvaltı+Evi+Cihangir+Istanbul"
       }
@@ -714,7 +714,7 @@
       {
         "id": "IST-C-102",
         "title": "Wander the Arasta Bazaar, Sultanahmet",
-        "description": "This Ottoman-era arcade behind the Blue Mosque is the city's most atmospheric covered market — all kilims, ceramics, and centuries-old stone arches without the Grand Bazaar crush.",
+        "description": "This Ottoman-era arcade behind the Blue Mosque is the city's most atmospheric covered market: all kilims, ceramics, and centuries-old stone arches without the Grand Bazaar crush.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -722,7 +722,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Bargain a shopkeeper down at least 30% on something you'd actually buy — then buy it.",
+        "bonus": "Bargain a shopkeeper down at least 30% on something you'd actually buy, then buy it.",
         "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Arasta+Bazaar+Sultanahmet+Istanbul"
       },
@@ -737,14 +737,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Strike up a conversation with the fisher next to you and ask what they've caught today — accept whatever snack they offer.",
+        "bonus": "Strike up a conversation with the fisher next to you and ask what they've caught today. Accept whatever snack they offer.",
         "city": "Istanbul, Türkiye",
         "mapsUrl": "https://www.google.com/maps/search/Galata+Bridge+Istanbul"
       },
       {
         "id": "IST-CH-01",
-        "title": "Morning quiet in the Blue Mosque courtyard",
-        "description": "Arrive before the tour groups and sit in the marble courtyard with the fountain at the center — this is what stillness looks like.",
+        "title": "Morning Quiet in the Blue Mosque Courtyard",
+        "description": "Arrive before the tour groups and sit in the marble courtyard with the fountain at the center. This is what stillness looks like.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -758,8 +758,8 @@
       },
       {
         "id": "IST-CH-06",
-        "title": "Tea at Çorlulu Ali Paşa Medresesi çayhane, Beyazıt",
-        "description": "A Turkish tea house costs almost nothing and gives you a front-row seat to the whole city — order a third tea and let the afternoon dissolve.",
+        "title": "Tea at Çorlulu Ali Paşa Medresesi Çayhane, Beyazıt",
+        "description": "A Turkish tea house costs almost nothing and gives you a front-row seat to the whole city. Order a third tea and let the afternoon dissolve.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -773,8 +773,8 @@
       },
       {
         "id": "IST-CH-05",
-        "title": "Golden-hour cruise on Şehir Hatları Bosphorus ferry",
-        "description": "Take the public ferry from Eminönü up the Bosphorus as the light goes golden — minarets, bridges, and tankers all at once for a few lira.",
+        "title": "Golden-Hour Cruise on Şehir Hatları Bosphorus Ferry",
+        "description": "Take the public ferry from Eminönü up the Bosphorus as the light goes golden: minarets, bridges, and tankers all at once for a few lira.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -788,8 +788,8 @@
       },
       {
         "id": "IST-CH-07",
-        "title": "Explore the Princes' Islands by bicycle",
-        "description": "An hour's ferry ride from Istanbul lies a car-free island where horse-drawn carriages and bicycles rule — Büyükada is a perfect day outside the city.",
+        "title": "Explore the Princes' Islands by Bicycle",
+        "description": "An hour's ferry ride from Istanbul lies a car-free island where horse-drawn carriages and bicycles rule. Büyükada is a perfect day outside the city.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "5–8 hrs",
@@ -803,8 +803,8 @@
       },
       {
         "id": "IST-CH-04",
-        "title": "Wander the painted houses of Balat",
-        "description": "Balat's cobblestone streets and faded Ottoman townhouses are one of Istanbul's great free pleasures — just walk without a map.",
+        "title": "Wander the Painted Houses of Balat",
+        "description": "Balat's cobblestone streets and faded Ottoman townhouses are one of Istanbul's great free pleasures, just walk without a map.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -819,7 +819,7 @@
       {
         "id": "ISTA-C-03",
         "title": "Sunset on the Walls at Yedikule Fortress",
-        "description": "Walk the surviving stretch of Theodosian land walls at Yedikule as the sun drops behind the Marmara and the city dims to amber — almost nobody is here.",
+        "description": "Walk the surviving stretch of Theodosian land walls at Yedikule as the sun drops behind the Marmara and the city dims to amber. Almost nobody is here.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -827,7 +827,7 @@
         "time": "Afternoon",
         "season": "Apr–Nov",
         "spark": 15,
-        "bonus": "Climb to the highest accessible tower and stay until the first star appears — name it.",
+        "bonus": "Climb to the highest accessible tower and stay until the first star appears. Name it.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Yedikule+Fortress+Istanbul",
         "company": [
@@ -845,7 +845,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Take the cable car up and walk the cemetery path down through the Ottoman tombstones — read one inscription aloud.",
+        "bonus": "Take the cable car up and walk the cemetery path down through the Ottoman tombstones. Read one inscription aloud.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Pierre+Loti+Cafe+Eyüp+Istanbul"
       },
@@ -860,7 +860,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Request the full kese scrub and kil soap massage — don't flinch when the tellak wrings the foam sack over your face.",
+        "bonus": "Request the full kese scrub and kil soap massage. Don't flinch when the tellak wrings the foam sack over your face.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Çemberlitaş+Hamamı+Istanbul"
       }
@@ -868,7 +868,7 @@
     "culture": [
       {
         "id": "IST-S-01",
-        "title": "Gallery crawl in Karaköy and Galata",
+        "title": "Gallery Crawl in Karaköy and Galata",
         "description": "The compact blocks between Karaköy and the Galata Tower are dense with contemporary art spaces, many free and unexpected.",
         "rarity": "Common",
         "cost": "$",
@@ -884,7 +884,7 @@
       {
         "id": "IST-CH-03",
         "title": "Browse the Istanbul Book Bazaar",
-        "description": "Sahaflar Çarşısı behind the Grand Bazaar sells Ottoman manuscripts, vintage maps, and secondhand novels — two hours will feel like twenty minutes.",
+        "description": "Sahaflar Çarşısı behind the Grand Bazaar sells Ottoman manuscripts, vintage maps, and secondhand novels. Two hours will feel like twenty minutes.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -907,7 +907,7 @@
         "time": "Evening",
         "season": "Aug–May",
         "spark": 40,
-        "bonus": "Learn the main Çarşı chant phonetically before kick-off and sing it in the stands — loudly, from the first minute.",
+        "bonus": "Learn the main Çarşı chant phonetically before kick-off and sing it in the stands, loudly, from the first minute.",
         "city": "Istanbul, Turkey",
         "mapsUrl": "https://www.google.com/maps/search/Vodafone+Park+Beşiktaş+Istanbul"
       }

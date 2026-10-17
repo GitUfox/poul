@@ -9,7 +9,7 @@
       {
         "id": "NOR-S-302",
         "title": "Weekend DJs at Café Opera",
-        "description": "Café Opera has anchored Bergen’s cultural life at Engen for over three decades — café by day, and on Friday and Saturday nights the floor fills with DJ sets and a crowd that spans art students to lifers.",
+        "description": "Café Opera has anchored Bergen’s cultural life at Engen for over three decades, café by day, and on Friday and Saturday nights the floor fills with DJ sets and a crowd that spans art students to lifers.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -17,14 +17,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order a cappuccino after midnight in honor of the first one ever poured in Bergen — then get back on the dance floor.",
+        "bonus": "Order a cappuccino after midnight in honor of the first one ever poured in Bergen, then get back on the dance floor.",
         "city": "Bergen, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Cafe+Opera+Engen+Bergen"
       },
       {
         "id": "NOR-S-109",
         "title": "Sailing Trip with Bergens Seilforening",
-        "description": "Join Bergen's sailing club for an open evening sail out of Marineholmen into the Byfjord — the mountains drop into the sea and the city disappears behind you in minutes.",
+        "description": "Join Bergen's sailing club for an open evening sail out of Marineholmen into the Byfjord, the mountains drop into the sea and the city disappears behind you in minutes.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -32,14 +32,14 @@
         "time": "Evening",
         "season": "May–Sep",
         "spark": 40,
-        "bonus": "Ask to take the helm for at least ten minutes — refuse any offer to take it back.",
+        "bonus": "Ask to take the helm for at least ten minutes. Refuse any offer to take it back.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Bergens+Seilforening+Marineholmen"
       },
       {
         "id": "NOR-S-107",
         "title": "Open Mic Night at Det Akademiske Kvarter",
-        "description": "Bergen's student culture house has been run by an army of 400 volunteers since 1995 — two thousand events a year, from debates to concerts to open mics, and the energy is electric and completely unfiltered.",
+        "description": "Bergen's student culture house has been run by an army of 400 volunteers since 1995: two thousand events a year, from debates to concerts to open mics, and the energy is electric and completely unfiltered.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–4 hrs",
@@ -47,14 +47,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Put your name on the list — even if you just read a poem you wrote on the bus here.",
+        "bonus": "Put your name on the list, even if you just read a poem you wrote on the bus here.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Det+Akademiske+Kvarter+Bergen"
       },
       {
         "id": "NOR-S-106",
         "title": "Weekend Market at Strandkaien",
-        "description": "Twice a month on Saturdays, Bondens Marked takes over the Strandkaien quay with west-coast farmers selling smoked salmon, cheese, and pastries — the city's social fabric at its most relaxed. Check the dates before you go.",
+        "description": "Twice a month on Saturdays, Bondens Marked takes over the Strandkaien quay with west-coast farmers selling smoked salmon, cheese, and pastries, the city's social fabric at its most relaxed. Check the dates before you go.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -85,7 +85,7 @@
       {
         "id": "NOR-S-104",
         "title": "Afternoon Drinks at Kulturhuset Bergen",
-        "description": "This 1890 neo-renaissance pile on Vaskerelven has been a print shop, a bakery, and an art school — now it is Bergen's cultural living room, with three stages, three bars, and a roof terrace where students and artists collide over cheap beers.",
+        "description": "This 1890 neo-renaissance pile on Vaskerelven has been a print shop, a bakery, and an art school. Now it is Bergen's cultural living room, with three stages, three bars, and a roof terrace where students and artists collide over cheap beers.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -101,7 +101,7 @@
       {
         "id": "NOR-S-103",
         "title": "Jazz Night at Sardinen USF",
-        "description": "Bergen Jazzforum has been packing Sardinen — the club stage inside the old sardine factory at USF Verftet — with local players and international jazz names for decades, and the room still runs on zero pretension.",
+        "description": "Bergen Jazzforum has been packing Sardinen, the club stage inside the old sardine factory at USF Verftet, with local players and international jazz names for decades, and the room still runs on zero pretension.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -109,7 +109,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Buy the musician a drink between sets and ask what they're working on — actually listen to the full answer.",
+        "bonus": "Buy the musician a drink between sets and ask what they're working on, actually listen to the full answer.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Sardinen+USF+Verftet+Bergen"
       },
@@ -124,7 +124,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order a glass of something you've never heard of — point at the list blind and commit.",
+        "bonus": "Order a glass of something you've never heard of, point at the list blind and commit.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Altona+Vinbar+Bergen+Norway",
         "adult": true
@@ -132,7 +132,7 @@
       {
         "id": "NOR-S-101",
         "title": "Late Set at Landmark Bergen",
-        "description": "Bergen Kunsthall's live wing is a café by day and one of the city's best rooms for jazz, electronic, and experimental sets by night — played to a crowd that actually listens.",
+        "description": "Bergen Kunsthall's live wing is a café by day and one of the city's best rooms for jazz, electronic, and experimental sets by night, played to a crowd that actually listens.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -140,14 +140,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Talk to the sound engineer between sets — ask what the strangest act they've ever miked was.",
+        "bonus": "Talk to the sound engineer between sets. Ask what the strangest act they've ever miked was.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Landmark+Bergen+Norway"
       },
       {
         "id": "NOR-S-02",
         "title": "Live Concert at Hulen",
-        "description": "One of the oldest underground rock clubs in Norway — built into a WWII bomb shelter beneath the University in 1968. Check the schedule before you go; the energy is better when you don't know the act.",
+        "description": "One of the oldest underground rock clubs in Norway, built into a WWII bomb shelter beneath the University in 1968. Check the schedule before you go; the energy is better when you don't know the act.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -162,7 +162,7 @@
       {
         "id": "NOR-S-01",
         "title": "Craft Beer at 7 Fjell Bryggeri Taproom",
-        "description": "Bergen's most respected microbrewery runs a city-centre taproom where the rotation changes monthly — seasonal ales, sours, and a Bavarian-style pilsner that holds up against anything Munich brews.",
+        "description": "Bergen's most respected microbrewery runs a city-centre taproom where the rotation changes monthly: seasonal ales, sours, and a Bavarian-style pilsner that holds up against anything Munich brews.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -178,7 +178,7 @@
       {
         "id": "NOR-S-03",
         "title": "Nygårdsgate Bar Crawl",
-        "description": "The strip of bars running from the student neighbourhood toward the waterfront is Bergen's most varied evening sequence — cocktail bars next to dive bars next to craft beer spots, all within a 600-metre walk.",
+        "description": "The strip of bars running from the student neighbourhood toward the waterfront is Bergen's most varied evening sequence, cocktail bars next to dive bars next to craft beer spots, all within a 600-metre walk.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -186,7 +186,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Have at least one real conversation with a stranger at every stop. Not small talk — something real.",
+        "bonus": "Have at least one real conversation with a stranger at every stop. Not small talk, something real.",
         "city": "Bergen, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Nygårdsgate+bar+strip+Bergen+Norway",
         "company": [
@@ -214,7 +214,7 @@
       {
         "id": "NOR-AC-202",
         "title": "Sauna and Lake Plunge at Wild Sauna Voss",
-        "description": "Wild Sauna sits right on Vangsvatnet in the heart of Voss — book the wood-panelled sauna by the hour, heat up behind the panoramic window, then walk thirty meters down the rocks and plunge straight into the lake.",
+        "description": "Wild Sauna sits right on Vangsvatnet in the heart of Voss. Book the wood-panelled sauna by the hour, heat up behind the panoramic window, then walk thirty meters down the rocks and plunge straight into the lake.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -229,7 +229,7 @@
       {
         "id": "NOR-AC-108",
         "title": "Winter Skin-Track Up Vikafjell, Voss",
-        "description": "Strap on skins at the Voss roadhead and earn your turns on Vikafjell's open snowfields — a backcountry ski tour that rewards with untouched powder and silence broken only by your own breathing.",
+        "description": "Strap on skins at the Voss roadhead and earn your turns on Vikafjell's open snowfields, a backcountry ski tour that rewards with untouched powder and silence broken only by your own breathing.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4–6 hrs",
@@ -237,7 +237,7 @@
         "time": "Morning",
         "season": "Jan–Mar",
         "spark": 25,
-        "bonus": "Stop at the top, take off your skis, and stand in the snow for two full minutes without moving — then drop in.",
+        "bonus": "Stop at the top, take off your skis, and stand in the snow for two full minutes without moving, then drop in.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Vikafjell+Voss+Norway"
       },
@@ -252,14 +252,14 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Eat your packed lunch sitting exactly on the summit cairn — no benches, no shelter, just the ridge.",
+        "bonus": "Eat your packed lunch sitting exactly on the summit cairn: no benches, no shelter, just the ridge.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Hangurstoppen+Voss+Norway"
       },
       {
         "id": "NOR-AC-106",
         "title": "Trail Run from Voss to Bordalen Valley",
-        "description": "This underrated trail drops from Voss station into the wild Bordalen valley — a technical single-track through birch forest, river crossings, and total mountain solitude.",
+        "description": "This underrated trail drops from Voss station into the wild Bordalen valley: a technical single-track through birch forest, river crossings, and total mountain solitude.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2.5–4 hrs",
@@ -267,14 +267,14 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Run the last kilometer at full sprint regardless of how your legs feel — then stop and listen.",
+        "bonus": "Run the last kilometer at full sprint regardless of how your legs feel, then stop and listen.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Bordalen+valley+trail+Voss+Norway"
       },
       {
         "id": "NOR-AC-105",
         "title": "Winter Ski at Myrkdalen Fjellandsby",
-        "description": "An hour from Bergen, Myrkdalen is Norway's snowiest ski resort — family-run, unhurried, with long groomed runs and backcountry access that the Voss crowds never quite reach.",
+        "description": "An hour from Bergen, Myrkdalen is Norway's snowiest ski resort. Family-run, unhurried, with long groomed runs and backcountry access that the Voss crowds never quite reach.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "5–7 hrs",
@@ -282,7 +282,7 @@
         "time": "Morning",
         "season": "Dec–Apr",
         "spark": 25,
-        "bonus": "Do one run without poles — keep them strapped to your pack the entire descent.",
+        "bonus": "Do one run without poles. Keep them strapped to your pack the entire descent.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Myrkdalen+Fjellandsby+ski+resort"
       },
@@ -312,7 +312,7 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Leave something small — a coin, a note — under the summit cairn and photograph the cairn before you descend.",
+        "bonus": "Leave something small (a coin, a note) under the summit cairn and photograph the cairn before you descend.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Blåmanen+Bergen+hike"
       },
@@ -334,7 +334,7 @@
       {
         "id": "NOR-A-107",
         "title": "Mountain Bike the Rallarvegen Descent to Voss",
-        "description": "The legendary railway workers' road drops from Myrdal through alpine tundra and sheer-sided valleys down to Voss — renting a bike in Finse and rolling 80 km of gravel is the greatest two-wheel day in Norway.",
+        "description": "The legendary railway workers' road drops from Myrdal through alpine tundra and sheer-sided valleys down to Voss, renting a bike in Finse and rolling 80 km of gravel is the greatest two-wheel day in Norway.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "6–8 hrs",
@@ -349,7 +349,7 @@
       {
         "id": "NOR-A-106",
         "title": "Night Hike to Tvindefossen Waterfall",
-        "description": "Norway's most dramatic curtain waterfall — 152 meters of unbroken white water — hits completely differently after dark when you have the misty basin entirely to yourself.",
+        "description": "Norway's most dramatic curtain waterfall, 152 meters of unbroken white water, hits completely differently after dark when you have the misty basin entirely to yourself.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -357,7 +357,7 @@
         "time": "Evening",
         "season": "Jun–Aug",
         "spark": 40,
-        "bonus": "Walk close enough to the mist to get genuinely soaked — then stand there for thirty seconds.",
+        "bonus": "Walk close enough to the mist to get genuinely soaked, then stand there for thirty seconds.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Tvindefossen+waterfall+Voss+Norway"
       },
@@ -379,7 +379,7 @@
       {
         "id": "NOR-A-104",
         "title": "Zip Line at Voss Resort",
-        "description": "Voss Resort's zip line sends you screaming over the Vangsvatnet valley at 80 km/h with the snowfields of Hanguren as your backdrop — the fastest two minutes in western Norway.",
+        "description": "Voss Resort's zip line sends you screaming over the Vangsvatnet valley at 80 km/h with the snowfields of Hanguren as your backdrop, the fastest two minutes in western Norway.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -387,14 +387,14 @@
         "time": "Afternoon",
         "season": "Jun–Aug",
         "spark": 15,
-        "bonus": "Keep your eyes open the entire descent — no squinting allowed.",
+        "bonus": "Keep your eyes open the entire descent, no squinting allowed.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Voss+Resort+zip+line+Norway"
       },
       {
         "id": "NOR-A-103",
         "title": "Kayak to Lysøen Island",
-        "description": "Paddle across the calm sound to Ole Bull's fantastical Victorian villa island, where a Moorish-spired concert hall sits hidden in birch forest — and you'll likely have the trails to yourself.",
+        "description": "Paddle across the calm sound to Ole Bull's fantastical Victorian villa island, where a Moorish-spired concert hall sits hidden in birch forest. And you'll likely have the trails to yourself.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4–5 hrs",
@@ -402,7 +402,7 @@
         "time": "Afternoon",
         "season": "May–Sep",
         "spark": 25,
-        "bonus": "Find the small bench where Ole Bull reportedly composed — sit in silence for two full minutes before moving on.",
+        "bonus": "Find the small bench where Ole Bull reportedly composed. Sit in silence for two full minutes before moving on.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Lysøen+island+Norway"
       },
@@ -432,14 +432,14 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Touch the old cannon barrel and name all seven mountains you can see — no map allowed.",
+        "bonus": "Touch the old cannon barrel and name all seven mountains you can see, no map allowed.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Rundemanen+Bergen+Norway"
       },
       {
         "id": "NOR-A-03",
         "title": "Sea Kayak the Osterfjord",
-        "description": "Paddle through one of Norway's deepest fjords on a guided half-day tour from Espeland — 30 minutes from Bergen. The water is arctic-clear and the cliffs on either side rise 300 metres straight up.",
+        "description": "Paddle through one of Norway's deepest fjords on a guided half-day tour from Espeland, 30 minutes from Bergen. The water is arctic-clear and the cliffs on either side rise 300 metres straight up.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -454,7 +454,7 @@
       {
         "id": "NOR-A-04",
         "title": "Tandem Paraglide Over Voss",
-        "description": "Voss Active launches tandem paragliding flights from the mountainside above town — you and a pilot clip in, run off a ridge, and spend 20 minutes suspended above a valley the Vikings named. Book at least a week ahead.",
+        "description": "Voss Active launches tandem paragliding flights from the mountainside above town. You and a pilot clip in, run off a ridge, and spend 20 minutes suspended above a valley the Vikings named. Book at least a week ahead.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -469,7 +469,7 @@
       {
         "id": "NOR-A-01",
         "title": "Climb Ulriken at First Light",
-        "description": "Bergen's tallest city mountain rises to 643 metres — the trail from the cable-car base cuts through birch forest to a summit with a 360-degree panorama over the seven mountains and the fjord below.",
+        "description": "Bergen's tallest city mountain rises to 643 metres. The trail from the cable-car base cuts through birch forest to a summit with a 360-degree panorama over the seven mountains and the fjord below.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -484,7 +484,7 @@
       {
         "id": "NOR-AC-01",
         "title": "Swim at Nordnes Sjøbad",
-        "description": "Bergen's historic outdoor saltwater pool on the tip of the Nordnes peninsula has been open since 1855 — 50-metre lanes, diving platforms, and cold North Sea water at the edge of the fjord.",
+        "description": "Bergen's historic outdoor saltwater pool on the tip of the Nordnes peninsula has been open since 1855: 50-metre lanes, diving platforms, and cold North Sea water at the edge of the fjord.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -499,7 +499,7 @@
       {
         "id": "NOR-AC-04",
         "title": "Bouldering at Klatresenteret Bergen",
-        "description": "Bergen's best bouldering gym has 1,200 sqm of routes from V0 to V11 with overhangs designed by a competition route-setter. No partner or gear required — rent shoes, buy a day pass, stay until your forearms have an opinion about it.",
+        "description": "Bergen's best bouldering gym has 1,200 sqm of routes from V0 to V11 with overhangs designed by a competition route-setter. No partner or gear required. Rent shoes, buy a day pass, stay until your forearms have an opinion about it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -529,7 +529,7 @@
       {
         "id": "NOR-AC-02",
         "title": "Run the Syv Fjell Ridge Segment",
-        "description": "Bergen is ringed by seven named mountains — the shortened Ulriken-to-Fløyen ridgeline run covers 15 km of trail with fjord views the entire route and one brutal descent that earns the beer waiting at the bottom.",
+        "description": "Bergen is ringed by seven named mountains, the shortened Ulriken-to-Fløyen ridgeline run covers 15 km of trail with fjord views the entire route and one brutal descent that earns the beer waiting at the bottom.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -544,7 +544,7 @@
       {
         "id": "NOR-A-02",
         "title": "Via Ferrata at Voss",
-        "description": "An hour by train from Bergen, Voss Active runs guided via ferrata routes on sheer rock faces above the valley — iron rungs and cables on near-vertical stone, no climbing experience required, full commitment needed.",
+        "description": "An hour by train from Bergen, Voss Active runs guided via ferrata routes on sheer rock faces above the valley: iron rungs and cables on near-vertical stone, no climbing experience required, full commitment needed.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -614,7 +614,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the waiter to name the exact boat that caught tonight's fish — the answer will surprise you.",
+        "bonus": "Ask the waiter to name the exact boat that caught tonight's fish. The answer will surprise you.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Enhjørningen+Restaurant+Bergen",
         "company": [
@@ -654,7 +654,7 @@
       {
         "id": "NOR-F-105",
         "title": "Traditional Meal at Bryggen Tracteursted",
-        "description": "Operating in a 1708 timber building on Bryggen, this is one of Bergen's oldest restaurants and still serves pinnekjøtt and raspeballer the way fishermen's wives made them — the creaking floorboards are half the experience.",
+        "description": "Operating in a 1708 timber building on Bryggen, this is one of Bergen's oldest restaurants and still serves pinnekjøtt and raspeballer the way fishermen's wives made them. The creaking floorboards are half the experience.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -662,14 +662,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask your server to name the fastest route through Bryggen's alleyways to the harbor — then walk it after dinner.",
+        "bonus": "Ask your server to name the fastest route through Bryggen's alleyways to the harbor, then walk it after dinner.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Bryggen+Tracteursted+Bergen+Norway"
       },
       {
         "id": "NOR-F-103",
         "title": "Coffee at Kafe Kippers",
-        "description": "Parked inside USF Verftet — the old United Sardine Factory on the Nøstet waterfront — Kippers pours serious coffee to a crowd of artists, students, and dockside regulars, with the fjord right off the terrace.",
+        "description": "Parked inside USF Verftet, the old United Sardine Factory on the Nøstet waterfront, Kippers pours serious coffee to a crowd of artists, students, and dockside regulars, with the fjord right off the terrace.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -677,14 +677,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Strike up a conversation with whoever is sitting at the communal table — introduce yourself in Norwegian.",
+        "bonus": "Strike up a conversation with whoever is sitting at the communal table. Introduce yourself in Norwegian.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Kafe+Kippers+Bergen+Norway"
       },
       {
         "id": "NOR-F-101",
         "title": "Dinner at Colonialen Litteraturhuset",
-        "description": "This handsome restaurant inside Bergen's literary house serves ingredient-driven Nordic cooking that walks the line between bistro warmth and serious technique — the wine list is one of Bergen's best.",
+        "description": "This handsome restaurant inside Bergen's literary house serves ingredient-driven Nordic cooking that walks the line between bistro warmth and serious technique. The wine list is one of Bergen's best.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -692,14 +692,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the sommelier to pair a glass with your main course without seeing the menu first — trust them.",
+        "bonus": "Ask the sommelier to pair a glass with your main course without seeing the menu first. Trust them.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Colonialen+Litteraturhuset+Bergen+Norway"
       },
       {
         "id": "NOR-F-02",
         "title": "Tasting Menu at Lysverket",
-        "description": "Christopher Haatuft's restaurant occupies the ground floor of the KODE museum — a New Nordic tasting menu built around what coastal Norway catches and grows, executed with the precision of a chef who left New York to cook this food specifically.",
+        "description": "Christopher Haatuft's restaurant occupies the ground floor of the KODE museum. A New Nordic tasting menu built around what coastal Norway catches and grows, executed with the precision of a chef who left New York to cook this food specifically.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -714,7 +714,7 @@
       {
         "id": "NOR-F-03",
         "title": "Lunch by Boat at Cornelius Seafood Restaurant",
-        "description": "The only way to Cornelius is a 20-minute complimentary boat ride from Bryggen pier — the restaurant sits on its own island in the Korsfjord with no road access. The seafood is whatever the fjord provided that morning.",
+        "description": "The only way to Cornelius is a 20-minute complimentary boat ride from Bryggen pier. The restaurant sits on its own island in the Korsfjord with no road access. The seafood is whatever the fjord provided that morning.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -729,7 +729,7 @@
       {
         "id": "NOR-F-01",
         "title": "Shrimp Cone at the Bergen Fish Market",
-        "description": "Fisketorget has sold fresh shrimp in cones since the city has been a city — buy one, eat it on the quay at the edge of the Vågen harbour, and don't photograph it until the third bite.",
+        "description": "Fisketorget has sold fresh shrimp in cones since the city has been a city. Buy one, eat it on the quay at the edge of the Vågen harbour, and don't photograph it until the third bite.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -746,7 +746,7 @@
       {
         "id": "NOR-C-109",
         "title": "Rain Walk Through Møhlenpris",
-        "description": "Bergen's most underrated neighborhood — a quiet grid of painted timber houses, corner shops, and cats on windowsills — is at its most honest and cinematic in the rain.",
+        "description": "Bergen's most underrated neighborhood (a quiet grid of painted timber houses, corner shops, and cats on windowsills) is at its most honest and cinematic in the rain.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -754,14 +754,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find a house with a hand-painted door and photograph it — no filters, publish it immediately.",
+        "bonus": "Find a house with a hand-painted door and photograph it, no filters, publish it immediately.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Møhlenpris+Bergen"
       },
       {
         "id": "NOR-C-108",
         "title": "Sunset from Stoltzekleiven Steps",
-        "description": "Bergen's steepest staircase — roughly 908 stone steps straight up Sandviksfjellet — delivers a raw, earned panorama over the city and the seven mountains that beats any cable car view.",
+        "description": "Bergen's steepest staircase, roughly 908 stone steps straight up Sandviksfjellet, delivers a raw, earned panorama over the city and the seven mountains that beats any cable car view.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -769,7 +769,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Count the exact number of steps on your way up — locals insist the official number is wrong.",
+        "bonus": "Count the exact number of steps on your way up. Locals insist the official number is wrong.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Stoltzekleiven+Bergen",
         "company": [
@@ -787,14 +787,14 @@
         "time": "Any",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Identify three plants using only the on-site labels — no Google — and write their names down.",
+        "bonus": "Identify three plants using only the on-site labels, no Google, and write their names down.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Arboretet+og+Botanisk+hage+Milde+Bergen"
       },
       {
         "id": "NOR-C-01",
         "title": "Fløibanen at Dusk, Walk Down",
-        "description": "The funicular to the Fløyen summit has run since 1918 — take it up at golden hour, walk the summit forest trails, then hike the 4 km path down through birch woods as the fjord city lights up below you.",
+        "description": "The funicular to the Fløyen summit has run since 1918. Take it up at golden hour, walk the summit forest trails, then hike the 4 km path down through birch woods as the fjord city lights up below you.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -809,7 +809,7 @@
       {
         "id": "NOR-C-02",
         "title": "Golden Hour Walk on Bryggen Wharf",
-        "description": "The 14th-century Hanseatic wooden wharf is Bergen's most photographed place for a reason — but it's the narrow alleys behind the painted facades, full of bookshops and silversmiths, that no postcard captures.",
+        "description": "The 14th-century Hanseatic wooden wharf is Bergen's most photographed place for a reason. But it's the narrow alleys behind the painted facades, full of bookshops and silversmiths, that no postcard captures.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -824,7 +824,7 @@
       {
         "id": "NOR-C-04",
         "title": "Slow Morning in the Nøstet Quarter",
-        "description": "Bergen's old fishermen's quarter is the city's most intact neighbourhood — painted wooden houses on a harbour promenade, a coffee shop every hundred metres, and zero tourists before 10am.",
+        "description": "Bergen's old fishermen's quarter is the city's most intact neighbourhood: painted wooden houses on a harbour promenade, a coffee shop every hundred metres, and zero tourists before 10am.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -849,7 +849,7 @@
         "time": "Afternoon",
         "season": "May–Sep",
         "spark": 25,
-        "bonus": "After the tour, find the exact entrance passage in Bryggen's alleyways without using a map — it takes most people three tries.",
+        "bonus": "After the tour, find the exact entrance passage in Bryggen's alleyways without using a map. It takes most people three tries.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Theta+Museum+Bryggen+Bergen"
       },
@@ -864,7 +864,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the oldest artifact on display and photograph only it — no context, just the object.",
+        "bonus": "Find the oldest artifact on display and photograph only it, no context, just the object.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Bergen+Maritime+Museum+Sjøfartsmuseum"
       },
@@ -879,7 +879,7 @@
         "time": "Afternoon",
         "season": "May–Sep",
         "spark": 15,
-        "bonus": "Sit on the wooden bench at the back of the grounds for ten full minutes in total silence — no phone.",
+        "bonus": "Sit on the wooden bench at the back of the grounds for ten full minutes in total silence, no phone.",
         "city": "Bergen & Voss, Norway",
         "mapsUrl": "https://www.google.com/maps/search/Fantoft+Stave+Church+Bergen"
       },
@@ -901,7 +901,7 @@
       {
         "id": "NOR-C-101",
         "title": "Afternoon at Gamle Bergen Museum",
-        "description": "This open-air collection of forty-plus period wooden houses reconstructs 18th and 19th century Bergen street life on the Elsero peninsula — completely free, almost always quiet, and startlingly beautiful.",
+        "description": "This open-air collection of forty-plus period wooden houses reconstructs 18th and 19th century Bergen street life on the Elsero peninsula: completely free, almost always quiet, and startlingly beautiful.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -916,7 +916,7 @@
       {
         "id": "NOR-C-03",
         "title": "Afternoon at KODE Art Museums",
-        "description": "Norway's largest art museum complex spreads across four buildings on the lakeside — the Edvard Munch collection in KODE 3 rivals Oslo's, and the design collection in KODE 2 rewards the kind of slow looking that galleries rarely get.",
+        "description": "Norway's largest art museum complex spreads across four buildings on the lakeside, the Edvard Munch collection in KODE 3 rivals Oslo's, and the design collection in KODE 2 rewards the kind of slow looking that galleries rarely get.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",

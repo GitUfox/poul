@@ -17,7 +17,7 @@
         "time": "Morning",
         "season": "Oct–Apr",
         "spark": 15,
-        "bonus": "Flow through your full sequence without checking the time once — guess how long it took when you finish.",
+        "bonus": "Flow through your full sequence without checking the time once. Guess how long it took when you finish.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Buffalo+Bayou+Park+Houston+TX"
       },
@@ -32,7 +32,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Request a standard from the bandleader between sets — make it something obscure and see if they know it.",
+        "bonus": "Request a standard from the bandleader between sets. Make it something obscure and see if they know it.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cezanne+Jazz+Bar+Houston+Montrose+TX",
         "adult": true
@@ -40,7 +40,7 @@
       {
         "id": "IAH-C-9",
         "title": "Vinyl Digging at Sig's Lagoon",
-        "description": "This beloved Montrose record shop has been the city's indie and jazz headquarters for decades — come with no list and leave with something you didn't know you needed.",
+        "description": "This beloved Montrose record shop has been the city's indie and jazz headquarters for decades. Come with no list and leave with something you didn't know you needed.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -48,7 +48,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy one record purely based on the cover art without reading the back — no streaming it first, just take the risk.",
+        "bonus": "Buy one record purely based on the cover art without reading the back, no streaming it first, just take the risk.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Sig%27s+Lagoon+Houston+TX"
       },
@@ -63,14 +63,14 @@
         "time": "Morning",
         "season": "Oct–Apr",
         "spark": 25,
-        "bonus": "Walk every named trail in the garden without backtracking — if you miss one loop, start over from the entrance.",
+        "bonus": "Walk every named trail in the garden without backtracking. If you miss one loop, start over from the entrance.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Houston+Botanic+Garden"
       },
       {
         "id": "IAH-C-7",
         "title": "Coffee and People-Watch at Agora on Westheimer",
-        "description": "This Montrose institution — part cafe, part wine bar, open until 2am — is the best place in Houston to nurse a drink and watch the neighborhood walk by.",
+        "description": "This Montrose institution (part cafe, part wine bar, open until 2am) is the best place in Houston to nurse a drink and watch the neighborhood walk by.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -126,7 +126,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a book solely based on the first sentence — read nothing else before committing.",
+        "bonus": "Buy a book solely based on the first sentence. Read nothing else before committing.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Brazos+Bookstore+Houston+TX",
         "company": [
@@ -144,7 +144,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the garden's highest terrace point and sketch the skyline view — even if it's terrible.",
+        "bonus": "Find the garden's highest terrace point and sketch the skyline view. Even if it's terrible.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/McGovern+Centennial+Gardens+Hermann+Park+Houston+TX"
       },
@@ -206,7 +206,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the bartender to make you something off-menu based on three ingredients you name — drink whatever they build.",
+        "bonus": "Ask the bartender to make you something off-menu based on three ingredients you name. Drink whatever they build.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anvil+Bar+and+Refuge+Houston+Westheimer+TX",
         "adult": true
@@ -214,7 +214,7 @@
       {
         "id": "IAH-S-10",
         "title": "Trivia Night at Axelrad Beer Garden",
-        "description": "Axelrad's sprawling outdoor beer garden in Midtown hosts some of the most competitive — and loudly friendly — trivia nights in the city.",
+        "description": "Axelrad's sprawling outdoor beer garden in Midtown hosts some of the most competitive, and loudly friendly, trivia nights in the city.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -241,7 +241,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Get to the outdoor stage early and stake out a spot front-left of the soundboard — the sweet spot.",
+        "bonus": "Get to the outdoor stage early and stake out a spot front-left of the soundboard, the sweet spot.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=White+Oak+Music+Hall+Houston+TX"
       },
@@ -256,7 +256,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Spend exactly $20 on ingredients for a meal you'll cook that afternoon — improvise the recipe entirely from what you find.",
+        "bonus": "Spend exactly $20 on ingredients for a meal you'll cook that afternoon, improvise the recipe entirely from what you find.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Urban+Harvest+Farmers+Market+Houston+TX"
       },
@@ -271,7 +271,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Strike up a conversation with a stranger about Houston — keep it going for at least five minutes.",
+        "bonus": "Strike up a conversation with a stranger about Houston. Keep it going for at least five minutes.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/8th+Wonder+Brewery+Houston+TX",
         "adult": true
@@ -324,7 +324,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Spend at least ten uninterrupted minutes with one single piece — no phone, no talking.",
+        "bonus": "Spend at least ten uninterrupted minutes with one single piece: no phone, no talking.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Contemporary+Arts+Museum+Houston+TX"
       },
@@ -339,7 +339,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Sit in the front three rows and make genuine eye contact with the opener — see if it lands you a bit.",
+        "bonus": "Sit in the front three rows and make genuine eye contact with the opener. See if it lands you a bit.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Improv+Houston+Greenway+Plaza+TX",
         "adult": true
@@ -355,14 +355,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Strike up a real conversation with an artist in one of the open studios — ask what they're working on next.",
+        "bonus": "Strike up a real conversation with an artist in one of the open studios. Ask what they're working on next.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=East+First+Street+EaDo+Houston+TX+art+galleries"
       },
       {
         "id": "IAH-C-6",
         "title": "Afternoon at the Houston Museum of Natural Science",
-        "description": "HMNS has housed one of the country's finest gem and mineral halls since 1909 — the Hall of Gems alone justifies the trip.",
+        "description": "HMNS has housed one of the country's finest gem and mineral halls since 1909, the Hall of Gems alone justifies the trip.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -438,7 +438,7 @@
         "time": "Morning",
         "season": "Oct–Apr",
         "spark": 15,
-        "bonus": "Lock up and walk into the Miller Outdoor Theatre grounds mid-route — bonus points if there's a rehearsal happening.",
+        "bonus": "Lock up and walk into the Miller Outdoor Theatre grounds mid-route. Bonus points if there's a rehearsal happening.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brays+Bayou+Greenway+Houston+TX"
       },
@@ -475,7 +475,7 @@
       {
         "id": "IAH-AC-2",
         "title": "Morning Run at Memorial Park's Seymour Lieberman Trail",
-        "description": "The 3-mile loop through Memorial Park's towering pines is Houston's great democratic running track — every pace, every age, every morning of the year.",
+        "description": "The 3-mile loop through Memorial Park's towering pines is Houston's great democratic running track: every pace, every age, every morning of the year.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 mins",
@@ -483,14 +483,14 @@
         "time": "Morning",
         "season": "Oct–Apr",
         "spark": 15,
-        "bonus": "Run the full 3-mile loop without stopping, then immediately do it again in the opposite direction — no walking allowed on the second lap.",
+        "bonus": "Run the full 3-mile loop without stopping, then immediately do it again in the opposite direction, no walking allowed on the second lap.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Seymour+Lieberman+Trail+Memorial+Park+Houston+TX"
       },
       {
         "id": "IAH-AC-1",
         "title": "Run the Buffalo Bayou Loop at Sunset",
-        "description": "The 10-mile bayou loop from Shepherd Drive to downtown is Houston's great equalizer — joggers, cyclists, and walkers all share the same golden-hour light on the water.",
+        "description": "The 10-mile bayou loop from Shepherd Drive to downtown is Houston's great equalizer: joggers, cyclists, and walkers all share the same golden-hour light on the water.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -513,7 +513,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Stand at the exact center, close your eyes, and clap once — then describe the echo to the next stranger you meet.",
+        "bonus": "Stand at the exact center, close your eyes, and clap once, then describe the echo to the next stranger you meet.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Buffalo+Bayou+Park+Cistern+Houston+TX"
       },
@@ -550,7 +550,7 @@
       {
         "id": "IAH-A-6",
         "title": "Night Tour at Space Center Houston",
-        "description": "NASA's official visitor center goes deep after dark — the Mission Control replica and actual Saturn V rocket hit different when the crowds thin out.",
+        "description": "NASA's official visitor center goes deep after dark, the Mission Control replica and actual Saturn V rocket hit different when the crowds thin out.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -618,7 +618,7 @@
         "time": "Evening",
         "season": "Mar–Oct",
         "spark": 25,
-        "bonus": "Count to ten before the last bat clears the bridge — if you can.",
+        "bonus": "Count to ten before the last bat clears the bridge. If you can.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Waugh+Drive+Bridge+Bat+Colony+Houston+TX"
       },
@@ -758,7 +758,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the server which pie just came out of the oven this morning and order a full slice alongside your eggs — no sharing allowed.",
+        "bonus": "Ask the server which pie just came out of the oven this morning and order a full slice alongside your eggs, no sharing allowed.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/House+of+Pies+Kirby+Houston+TX"
       },
@@ -773,7 +773,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Put yourself fully in the chef's hands by ordering only the omakase and refusing to look at the menu — trust every plate.",
+        "bonus": "Put yourself fully in the chef's hands by ordering only the omakase and refusing to look at the menu. Trust every plate.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Uchi+Houston+TX"
       },
@@ -788,14 +788,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Try the sambar straight from the pot before adding rice — if it clears your sinuses, you're eating it right.",
+        "bonus": "Try the sambar straight from the pot before adding rice. If it clears your sinuses, you're eating it right.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Udipi+Cafe+Houston+TX"
       },
       {
         "id": "IAH-F-8",
         "title": "Seafood at Goode Company Seafood",
-        "description": "Goode Company Seafood on Kirby has been serving mesquite-grilled Gulf fish and legendary campechana since 1986 — this is Houston on a plate.",
+        "description": "Goode Company Seafood on Kirby has been serving mesquite-grilled Gulf fish and legendary campechana since 1986. This is Houston on a plate.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -810,7 +810,7 @@
       {
         "id": "IAH-F-7",
         "title": "Kolaches at the Kolache Factory on Westheimer",
-        "description": "A Houston-born chain that does it better than anywhere else — these pillowy Czech-Texan pastries are the city's real breakfast religion.",
+        "description": "A Houston-born chain that does it better than anywhere else. These pillowy Czech-Texan pastries are the city's real breakfast religion.",
         "rarity": "Common",
         "cost": "$",
         "duration": "20–30 mins",
@@ -833,7 +833,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Get there when doors open and order the brisket fatty end — if they're sold out of burnt ends, you waited too long.",
+        "bonus": "Get there when doors open and order the brisket fatty end. If they're sold out of burnt ends, you waited too long.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Killen%27s+Barbecue+Pearland+TX"
       },
@@ -848,7 +848,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the large #1 with extra tendon and eat the whole bowl before it cools — no phone until you're done.",
+        "bonus": "Order the large #1 with extra tendon and eat the whole bowl before it cools. No phone until you're done.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Pho+Binh+Milam+Houston+TX"
       },
@@ -878,7 +878,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order in Spanish — your whole order, start to finish.",
+        "bonus": "Order in Spanish. Your whole order, start to finish.",
         "city": "Houston, TX",
         "mapsUrl": "https://www.google.com/maps/search/Laredo+Taqueria+Houston+TX"
       },

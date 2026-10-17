@@ -27,3 +27,7 @@ EXPANSION_PLAN.md
 # Card verification — local working files, not build output
 scripts/.places-cache.json
 *-verified.json
+
+# Card style cleanup — review output, not build output
+scripts/style-review.json
+scripts/style-fix-failures.json

@@ -150,7 +150,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 12,
-        "bonus": "Order the bacon naan roll and a chai — no menu-scrolling allowed.",
+        "bonus": "Order the bacon naan roll and a chai, no menu-scrolling allowed.",
         "city": "London, UK",
         "mapsUrl": "https://maps.google.com/maps/search/Dishoom+Covent+Garden+London"
       },
@@ -195,7 +195,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 28,
-        "bonus": "Take zero photos of the room — just be in it.",
+        "bonus": "Take zero photos of the room, just be in it.",
         "city": "London, UK",
         "mapsUrl": "https://maps.google.com/maps/search/Sketch+London"
       }
@@ -260,7 +260,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 23,
-        "bonus": "Find the oldest pot plant in the world — it's in there.",
+        "bonus": "Find the oldest pot plant in the world. It's in there.",
         "city": "London, UK",
         "mapsUrl": "https://maps.google.com/maps/search/Kew+Gardens+London"
       },
@@ -461,7 +461,7 @@
       {
         "id": "LDN-CU-02",
         "title": "Groundling Ticket at Shakespeare's Globe",
-        "description": "Stand in the yard for a fiver and watch the play the way the Elizabethans did — on your feet, open to the sky.",
+        "description": "Stand in the yard for a fiver and watch the play the way the Elizabethans did. On your feet, open to the sky.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",
@@ -594,7 +594,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 13,
-        "bonus": "Get a photo of a stag — from a respectful distance.",
+        "bonus": "Get a photo of a stag, from a respectful distance.",
         "city": "London, UK",
         "mapsUrl": "https://maps.google.com/maps/search/Richmond+Park+London"
       },

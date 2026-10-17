@@ -9,7 +9,7 @@
       {
         "id": "BOU-A-08",
         "title": "Ride the Boulder Creek Path End to End",
-        "description": "Six car-free miles tracing the creek from the mouth of the canyon out to the plains — the spine of how Boulder actually gets around.",
+        "description": "Six car-free miles tracing the creek from the mouth of the canyon out to the plains. The spine of how Boulder actually gets around.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -69,7 +69,7 @@
       {
         "id": "BOU-A-13",
         "title": "Ski Your Backyard Mountain at Eldora",
-        "description": "Twenty-one miles from Pearl Street — no I-70, no resort theatre, just Boulder County's own hill and a Woodward park to session.",
+        "description": "Twenty-one miles from Pearl Street: no I-70, no resort theatre, just Boulder County's own hill and a Woodward park to session.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "5–7 hrs",
@@ -109,7 +109,7 @@
       {
         "id": "BOU-A-09",
         "title": "Rip the Canyon Loop at Betasso Preserve",
-        "description": "Flowy singletrack through ponderosa above Boulder Canyon — the ride locals do after work and still rave about.",
+        "description": "Flowy singletrack through ponderosa above Boulder Canyon. The ride locals do after work and still rave about.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -187,7 +187,7 @@
       },
       {
         "id": "BOU-A-10",
-        "title": "Sunrise Balloon Flight over Boulder Valley",
+        "title": "Sunrise Balloon Flight Over Boulder Valley",
         "description": "Lift off before dawn and watch the Flatirons go from grey to burning orange from a thousand feet up, champagne waiting on landing.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -196,7 +196,7 @@
         "time": "Morning",
         "season": "May–Nov",
         "spark": 40,
-        "bonus": "Help pack the envelope away at the end — it's harder than it looks.",
+        "bonus": "Help pack the envelope away at the end. It's harder than it looks.",
         "city": "Boulder, CO",
         "mapsUrl": "https://maps.google.com/maps/search/Fair+Winds+Hot+Air+Balloon+Flights+Boulder+CO",
         "company": [
@@ -267,7 +267,7 @@
       {
         "id": "BOU-A-14",
         "title": "Loop Walker Ranch Above the Canyon",
-        "description": "A brutal, beautiful 7.6-mile loop that drops to South Boulder Creek and makes you earn every foot back — the local trail-runner's benchmark.",
+        "description": "A brutal, beautiful 7.6-mile loop that drops to South Boulder Creek and makes you earn every foot back, the local trail-runner's benchmark.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -287,7 +287,7 @@
       {
         "id": "BOU-A-03",
         "title": "Catch Sunrise on Mount Sanitas",
-        "description": "Boulder's lung-burning local favourite — a steep rock staircase that puts you on a ridgeline just as the plains light up.",
+        "description": "Boulder's lung-burning local favourite. A steep rock staircase that puts you on a ridgeline just as the plains light up.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -348,7 +348,7 @@
       {
         "id": "BOU-S-11",
         "title": "Rooftop Round at Avanti",
-        "description": "Two bars, a top deck over Pearl Street and six kitchens downstairs if anyone gets hungry — the easiest group plan in Boulder.",
+        "description": "Two bars, a top deck over Pearl Street and six kitchens downstairs if anyone gets hungry, the easiest group plan in Boulder.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -368,7 +368,7 @@
       {
         "id": "BOU-S-03",
         "title": "Sweaty Front Row at the Fox Theatre",
-        "description": "Five hundred capacity on The Hill, consistently rated one of the best-sounding rooms in America — close enough to the stage to get stepped on.",
+        "description": "Five hundred capacity on The Hill, consistently rated one of the best-sounding rooms in America, close enough to the stage to get stepped on.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -388,7 +388,7 @@
       {
         "id": "BOU-S-05",
         "title": "Living-Room Gig at Velvet Elk",
-        "description": "Plush seating, odd taxidermy, dim lamps and a band three feet away — the smallest good room in Boulder.",
+        "description": "Plush seating, odd taxidermy, dim lamps and a band three feet away, the smallest good room in Boulder.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -408,7 +408,7 @@
       {
         "id": "BOU-S-01",
         "title": "Cocktails in the Catacombs at License No. 1",
-        "description": "Down the stairs under the Hotel Boulderado into a brick cellar that held one of Colorado's first liquor licences — now a proper cocktail room with a jazz lounge.",
+        "description": "Down the stairs under the Hotel Boulderado into a brick cellar that held one of Colorado's first liquor licences, now a proper cocktail room with a jazz lounge.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -508,7 +508,7 @@
       {
         "id": "BOU-S-08",
         "title": "Stout Month at Mountain Sun",
-        "description": "Every February this Pearl Street institution turns its entire board over to stouts — no reservations, cash-friendly, deliberately stuck in 1993.",
+        "description": "Every February this Pearl Street institution turns its entire board over to stouts: no reservations, cash-friendly, deliberately stuck in 1993.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -528,7 +528,7 @@
       {
         "id": "BOU-S-06",
         "title": "Skee-Ball Tournament at Press Play",
-        "description": "Old cabinets, pinball, skee-ball, giant Jenga and a DJ three nights a week — competitive nostalgia with a full bar attached.",
+        "description": "Old cabinets, pinball, skee-ball, giant Jenga and a DJ three nights a week, competitive nostalgia with a full bar attached.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -569,7 +569,7 @@
       {
         "id": "BOU-CU-01",
         "title": "Free Factory Tour at Celestial Seasonings",
-        "description": "Hairnet on, forty-five minutes through a working tea factory, and a Mint Room so potent it makes your eyes water — all of it free.",
+        "description": "Hairnet on, forty-five minutes through a working tea factory, and a Mint Room so potent it makes your eyes water, all of it free.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -609,7 +609,7 @@
       {
         "id": "BOU-CU-06",
         "title": "Double Bill at the Dairy Arts Center",
-        "description": "A converted dairy that now holds three theatres, a cinema and gallery space — Boulder's one-stop shop for everything not on Pearl Street.",
+        "description": "A converted dairy that now holds three theatres, a cinema and gallery space, Boulder's one-stop shop for everything not on Pearl Street.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -647,7 +647,7 @@
       {
         "id": "BOU-CU-07",
         "title": "First Friday in the NoBo Art District",
-        "description": "North Broadway's warehouses and studios throw their doors open on the first Friday of the month — working artists, cheap wine, no velvet rope.",
+        "description": "North Broadway's warehouses and studios throw their doors open on the first Friday of the month: working artists, cheap wine, no velvet rope.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -686,7 +686,7 @@
       {
         "id": "BOU-CU-05",
         "title": "Fossils at the CU Museum of Natural History",
-        "description": "A free university collection heavy on Colorado paleontology — the dinosaurs that came out of the ground an hour from here.",
+        "description": "A free university collection heavy on Colorado paleontology. The dinosaurs that came out of the ground an hour from here.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -727,7 +727,7 @@
       {
         "id": "BOU-C-10",
         "title": "Brewery Tour at Upslope's Lee Hill",
-        "description": "The original North Boulder brewhouse where Upslope still runs its experiments — a short tour, then the odd stuff on tap.",
+        "description": "The original North Boulder brewhouse where Upslope still runs its experiments. A short tour, then the odd stuff on tap.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -786,7 +786,7 @@
       {
         "id": "BOU-C-09",
         "title": "Busker Roulette on Pearl Street Mall",
-        "description": "Four car-free blocks of street performers, zip-line bike kids and chalk artists — Boulder's living room, free of charge.",
+        "description": "Four car-free blocks of street performers, zip-line bike kids and chalk artists, Boulder's living room, free of charge.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -806,7 +806,7 @@
       {
         "id": "BOU-C-06",
         "title": "Sunset on the Chautauqua Lawn",
-        "description": "A sloping green at the foot of the Flatirons with a 19th-century auditorium behind you — the best free seat in Boulder.",
+        "description": "A sloping green at the foot of the Flatirons with a 19th-century auditorium behind you, the best free seat in Boulder.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -884,7 +884,7 @@
       {
         "id": "BOU-C-03",
         "title": "Chai and Used Paperbacks at Trident",
-        "description": "Employee-owned since 1980 — a cramped, perfect bookshop-café where Boulder goes to read alone in company.",
+        "description": "Employee-owned since 1980. A cramped, perfect bookshop-café where Boulder goes to read alone in company.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -903,7 +903,7 @@
       {
         "id": "BOU-C-01",
         "title": "Afternoon Tea at the Dushanbe Teahouse",
-        "description": "Hand-carved in Tajikistan, crated across the world and rebuilt beside Boulder Creek as a gift from a sister city — then filled with tea.",
+        "description": "Hand-carved in Tajikistan, crated across the world and rebuilt beside Boulder Creek as a gift from a sister city, then filled with tea.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -925,7 +925,7 @@
       {
         "id": "BOU-F-06",
         "title": "Wood-Fired Napoletana at Pizzeria Alberico",
-        "description": "The Frasca team's pizza room next door to the flagship — blistered Neapolitan pies out of a wood oven, at a fraction of the fine-dining bill.",
+        "description": "The Frasca team's pizza room next door to the flagship, blistered Neapolitan pies out of a wood oven, at a fraction of the fine-dining bill.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–1.5 hrs",
@@ -973,7 +973,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Let the sommelier pick every pour — no questions, no vetoes.",
+        "bonus": "Let the sommelier pick every pour: no questions, no vetoes.",
         "city": "Boulder, CO",
         "mapsUrl": "https://maps.google.com/maps/search/Frasca+Food+and+Wine+1738+Pearl+St+Boulder+CO",
         "company": [
@@ -985,7 +985,7 @@
       {
         "id": "BOU-F-05",
         "title": "Ugly Crust Pizza at The Sink",
-        "description": "A century of CU students have signed these walls and low ceilings — Obama ate here, Redford mopped the floors, and the pizza is deliberately misshapen.",
+        "description": "A century of CU students have signed these walls and low ceilings: Obama ate here, Redford mopped the floors, and the pizza is deliberately misshapen.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–1.5 hrs",
@@ -1004,7 +1004,7 @@
       {
         "id": "BOU-F-10",
         "title": "Stall Crawl at Avanti Boulder",
-        "description": "Six kitchens, two bars and a rooftop deck in the old Cheesecake Factory shell — arepas, Taiwanese, deli and pizza without anybody having to compromise.",
+        "description": "Six kitchens, two bars and a rooftop deck in the old Cheesecake Factory shell: arepas, Taiwanese, deli and pizza without anybody having to compromise.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -1023,7 +1023,7 @@
       {
         "id": "BOU-F-07",
         "title": "Build a Picnic Basket at Cured",
-        "description": "Eighty rotating cheeses, salumi off Frasca's old slicer, cheap good wine and a wicker basket — assembled for a hillside twenty minutes away.",
+        "description": "Eighty rotating cheeses, salumi off Frasca's old slicer, cheap good wine and a wicker basket, assembled for a hillside twenty minutes away.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "45 mins",
@@ -1100,7 +1100,7 @@
       {
         "id": "BOU-F-04",
         "title": "Breakfast Burrito at Santo",
-        "description": "Northern New Mexican cooking from a chef who grew up in Taos — roasted chile that actually tastes like somewhere, wrapped to go.",
+        "description": "Northern New Mexican cooking from a chef who grew up in Taos. Roasted chile that actually tastes like somewhere, wrapped to go.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -1108,7 +1108,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 14,
-        "bonus": "Order it Christmas — red and green — and pick a side by the last bite.",
+        "bonus": "Order it Christmas, red and green, and pick a side by the last bite.",
         "city": "Boulder, CO",
         "mapsUrl": "https://maps.google.com/maps/search/Santo+1265+Alpine+Ave+Boulder+CO",
         "company": [
@@ -1120,7 +1120,7 @@
       {
         "id": "BOU-F-12",
         "title": "Food Truck Roulette at the Rayback",
-        "description": "Four trucks that rotate twice a day, a thirty-tap bar and a huge lawn — Boulder's default answer to 'where should we go?'",
+        "description": "Four trucks that rotate twice a day, a thirty-tap bar and a huge lawn. Boulder's default answer to 'where should we go?'",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -1139,7 +1139,7 @@
       {
         "id": "BOU-F-09",
         "title": "Saturday Morning at the Boulder Farmers Market",
-        "description": "Forty years of Front Range growers lining 13th Street — breakfast from the vendors, live music, and the whole town out in running clothes.",
+        "description": "Forty years of Front Range growers lining 13th Street: breakfast from the vendors, live music, and the whole town out in running clothes.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -1161,7 +1161,7 @@
       {
         "id": "BOU-8B-02",
         "title": "Pearl Street Roulette",
-        "description": "Wildcard: walk the length of the Pearl Street Mall and let the first busker you stop for choose your night — their favourite bar, their favourite taco, their call.",
+        "description": "Wildcard: walk the length of the Pearl Street Mall and let the first busker you stop for choose your night: their favourite bar, their favourite taco, their call.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–5 hrs",

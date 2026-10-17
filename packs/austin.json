@@ -9,7 +9,7 @@
       {
         "id": "AUS-C-201",
         "title": "A Round at Peter Pan Mini-Golf",
-        "description": "Family-run since 1948, Peter Pan's hand-built concrete statues — the giant Peter, the T-rex — preside over two BYOB courses that are pure, unrenovated old Austin.",
+        "description": "Family-run since 1948, Peter Pan's hand-built concrete statues (the giant Peter, the T-rex) preside over two BYOB courses that are pure, unrenovated old Austin.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -17,7 +17,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Loser of the round buys the next one — and yes, BYOB means bring the cooler.",
+        "bonus": "Loser of the round buys the next one. And yes, BYOB means bring the cooler.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Peter+Pan+Mini+Golf+Austin"
       },
@@ -32,7 +32,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Get a peacock to approach within arm's reach — no food as bait, patience only.",
+        "bonus": "Get a peacock to approach within arm's reach, no food as bait, patience only.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Mayfield+Park+and+Preserve+Austin+TX",
         "company": [
@@ -42,7 +42,7 @@
       {
         "id": "AUS-C-9",
         "title": "Golden Hour at Mount Bonnell",
-        "description": "Mount Bonnell, Austin's highest point at 775 feet, has been the city's favorite sunset lookout since the 1850s — climb the 102 limestone steps and watch the Colorado River light up below.",
+        "description": "Mount Bonnell, Austin's highest point at 775 feet, has been the city's favorite sunset lookout since the 1850s. Climb the 102 limestone steps and watch the Colorado River light up below.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–90 mins",
@@ -60,7 +60,7 @@
       {
         "id": "AUS-C-8",
         "title": "Bookstore Afternoon at BookPeople",
-        "description": "BookPeople on North Lamar is the largest independent bookstore in Texas and has been Austin's literary gathering point since 1970 — give yourself two hours, no agenda, and a budget you're willing to blow.",
+        "description": "BookPeople on North Lamar is the largest independent bookstore in Texas and has been Austin's literary gathering point since 1970. Give yourself two hours, no agenda, and a budget you're willing to blow.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2.5 hrs",
@@ -93,7 +93,7 @@
       {
         "id": "AUS-C-6",
         "title": "Record Digging at Waterloo Records",
-        "description": "Waterloo Records on North Lamar has been Austin's independent record store since 1982 — browse without a list, let the staff picks section do the work, and leave with something you didn't know you needed.",
+        "description": "Waterloo Records on North Lamar has been Austin's independent record store since 1982. Browse without a list, let the staff picks section do the work, and leave with something you didn't know you needed.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -101,7 +101,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a record based only on its cover art — no listening, no looking it up.",
+        "bonus": "Buy a record based only on its cover art: no listening, no looking it up.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Waterloo+Records+Austin+TX"
       },
@@ -123,7 +123,7 @@
       {
         "id": "AUS-C-3",
         "title": "Coffee at Epoch Coffee",
-        "description": "North Loop's Epoch Coffee has been Austin's night-owl café since 2005 — a genuinely neighborhood institution where the city's writers and musicians caffeinate long after everyone else closes.",
+        "description": "North Loop's Epoch Coffee has been Austin's night-owl café since 2005, a genuinely neighborhood institution where the city's writers and musicians caffeinate long after everyone else closes.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -146,7 +146,7 @@
         "time": "Afternoon",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Nap for at least 30 minutes — no phone, no music.",
+        "bonus": "Nap for at least 30 minutes: no phone, no music.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Barton+Creek+Greenbelt+Austin+TX"
       },
@@ -178,7 +178,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find LBJ's actual Oval Office replica and sit in his chair — if a docent stops you, start a debate about the Civil Rights Act.",
+        "bonus": "Find LBJ's actual Oval Office replica and sit in his chair. If a docent stops you, start a debate about the Civil Rights Act.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/LBJ+Presidential+Library+Austin+TX",
         "company": [
@@ -188,7 +188,7 @@
       {
         "id": "AUS-C-1",
         "title": "Blanton Museum of Art at UT",
-        "description": "UT's Blanton holds 21,000 works and houses the sweeping Ellsworth Kelly Austin chapel — a meditative permanent installation that alone justifies the visit.",
+        "description": "UT's Blanton holds 21,000 works and houses the sweeping Ellsworth Kelly Austin chapel, a meditative permanent installation that alone justifies the visit.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -208,7 +208,7 @@
       {
         "id": "AUS-S-10",
         "title": "Pinball at Cidercade Austin",
-        "description": "Over 100 arcade machines and a full hard cider tap list in South Lamar — the adult arcade Austin didn't know it needed until it arrived.",
+        "description": "Over 100 arcade machines and a full hard cider tap list in South Lamar. The adult arcade Austin didn't know it needed until it arrived.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -216,7 +216,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge a stranger to a head-to-head tournament on any machine — loser buys the next round.",
+        "bonus": "Challenge a stranger to a head-to-head tournament on any machine, loser buys the next round.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Cidercade+Austin+TX",
         "adult": true
@@ -224,7 +224,7 @@
       {
         "id": "AUS-S-9",
         "title": "Sunday Funday on Rainey Street",
-        "description": "Austin's bungalow bar strip hits peak energy on Sunday afternoons — crawl from Banger's to Lustre Pearl and meet everyone doing the same.",
+        "description": "Austin's bungalow bar strip hits peak energy on Sunday afternoons, crawl from Banger's to Lustre Pearl and meet everyone doing the same.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -232,7 +232,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Get into a conversation at every single bar you enter — no phone allowed until you leave each one.",
+        "bonus": "Get into a conversation at every single bar you enter, no phone allowed until you leave each one.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Rainey+Street+Austin+TX",
         "company": [
@@ -243,7 +243,7 @@
       {
         "id": "AUS-S-8",
         "title": "Two-Step Lessons at White Horse",
-        "description": "East 6th Street's best honky-tonk runs free two-step lessons before live music kicks in — show up ignorant, leave dangerous.",
+        "description": "East 6th Street's best honky-tonk runs free two-step lessons before live music kicks in. Show up ignorant, leave dangerous.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -281,7 +281,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Convince a table of strangers to merge with your team — and win.",
+        "bonus": "Convince a table of strangers to merge with your team, and win.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/The+Highball+Austin+TX",
         "company": [
@@ -324,7 +324,7 @@
       {
         "id": "AUS-S-2",
         "title": "Dinner and a Movie at Alamo Drafthouse South Lamar",
-        "description": "The Austin institution that changed how America goes to the movies — craft beer and real food to your seat, and a no-talking, no-phones policy enforced with zero apology.",
+        "description": "The Austin institution that changed how America goes to the movies: craft beer and real food to your seat, and a no-talking, no-phones policy enforced with zero apology.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -332,14 +332,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Go to a film you've never heard of — no trailers, no research beforehand.",
+        "bonus": "Go to a film you've never heard of: no trailers, no research beforehand.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Alamo+Drafthouse+Cinema+Austin+TX"
       },
       {
         "id": "AUS-S-1",
         "title": "South Austin Club Crawl: Continental to C-Boy's",
-        "description": "Start at the Continental Club — holding down South Congress since 1955 — then walk to C-Boy's Heart & Soul for the late set, and understand why Austin still earns the Live Music Capital title it gave itself.",
+        "description": "Start at the Continental Club, holding down South Congress since 1955, then walk to C-Boy's Heart & Soul for the late set, and understand why Austin still earns the Live Music Capital title it gave itself.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–5 hrs",
@@ -347,7 +347,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Dance with a stranger at every bar you enter — no sitting out allowed.",
+        "bonus": "Dance with a stranger at every bar you enter, no sitting out allowed.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Continental+Club+South+Congress+Austin",
         "company": [
@@ -436,7 +436,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Send a V4 problem you've never tried before — no beta from anyone, figure it out yourself.",
+        "bonus": "Send a V4 problem you've never tried before, no beta from anyone, figure it out yourself.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Austin+Bouldering+Project+Austin+TX"
       },
@@ -458,7 +458,7 @@
       {
         "id": "AUS-AC-9",
         "title": "Tennis at Caswell Tennis Center",
-        "description": "Austin's historic public courts — swinging since 1946 just off Lamar — run cheap walk-on tennis under the pecans while the city hums past.",
+        "description": "Austin's historic public courts, swinging since 1946 just off Lamar, run cheap walk-on tennis under the pecans while the city hums past.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -466,7 +466,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge a stranger on the adjacent court to a tiebreak set — winner buys drinks.",
+        "bonus": "Challenge a stranger on the adjacent court to a tiebreak set, winner buys drinks.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Caswell+Tennis+Center+Austin"
       },
@@ -488,7 +488,7 @@
       {
         "id": "AUS-AC-7",
         "title": "Disc Golf at Roy G. Guerrero Park",
-        "description": "East Austin's riverside disc golf course throws long fairways under the cottonwoods along the Colorado — free, walkable from the trail, and busy every golden hour.",
+        "description": "East Austin's riverside disc golf course throws long fairways under the cottonwoods along the Colorado: free, walkable from the trail, and busy every golden hour.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -496,7 +496,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Birdie the notoriously tight Hole 7 — locals will know you earned it.",
+        "bonus": "Birdie the notoriously tight Hole 7. Locals will know you earned it.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Roy+G+Guerrero+disc+golf+Austin"
       },
@@ -518,7 +518,7 @@
       {
         "id": "AUS-AC-5",
         "title": "Lap Swim at Deep Eddy Pool",
-        "description": "Austin's oldest public pool — a WPA-era concrete classic in West Austin — is the most civilized way to beat the heat.",
+        "description": "Austin's oldest public pool, a WPA-era concrete classic in West Austin, is the most civilized way to beat the heat.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -541,7 +541,7 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 25,
-        "bonus": "Row the full length of the lake without stopping to rest — no breaks, no excuses.",
+        "bonus": "Row the full length of the lake without stopping to rest: no breaks, no excuses.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Austin+Rowing+Club+Lady+Bird+Lake+Austin+TX"
       },
@@ -574,7 +574,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Complete five consecutive laps without stopping — roughly 15 miles total.",
+        "bonus": "Complete five consecutive laps without stopping, roughly 15 miles total.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Veloway+Circle+C+Metropolitan+Park+Austin+TX"
       },
@@ -626,7 +626,7 @@
       {
         "id": "AUS-A-9",
         "title": "Inks Lake State Park",
-        "description": "Devil's Waterhole — a series of cliff jumps into clear granite-lined water at Inks Lake — is the Hill Country swimming experience that Austinites drive ninety minutes each way to repeat.",
+        "description": "Devil's Waterhole, a series of cliff jumps into clear granite-lined water at Inks Lake, is the Hill Country swimming experience that Austinites drive ninety minutes each way to repeat.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "4–6 hrs",
@@ -634,14 +634,14 @@
         "time": "Morning",
         "season": "May–Sep",
         "spark": 25,
-        "bonus": "Jump from the highest legal cliff at Devil's Waterhole — no hesitation.",
+        "bonus": "Jump from the highest legal cliff at Devil's Waterhole, no hesitation.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Inks+Lake+State+Park+Texas"
       },
       {
         "id": "AUS-A-8",
         "title": "Dawn Paddle on Lady Bird Lake",
-        "description": "Rent from the Rowing Dock and glide across flat water with the downtown skyline reflected around you — the version of Austin locals keep to themselves.",
+        "description": "Rent from the Rowing Dock and glide across flat water with the downtown skyline reflected around you, the version of Austin locals keep to themselves.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -671,7 +671,7 @@
       {
         "id": "AUS-A-6",
         "title": "Congress Avenue Bridge Bat Watching",
-        "description": "The world's largest urban bat colony — 1.5 million Mexican free-tailed bats — erupts from beneath the Congress Avenue Bridge every evening in a spectacle that stops traffic.",
+        "description": "The world's largest urban bat colony, 1.5 million Mexican free-tailed bats, erupts from beneath the Congress Avenue Bridge every evening in a spectacle that stops traffic.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -694,7 +694,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Jump from the Sculpture Falls ledge — at least five feet above the water.",
+        "bonus": "Jump from the Sculpture Falls ledge, at least five feet above the water.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Barton+Creek+Greenbelt+Austin+TX"
       },
@@ -786,7 +786,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Order the chef's tasting blind — tell the server you want them to choose everything and you have no dietary restrictions.",
+        "bonus": "Order the chef's tasting blind. Tell the server you want them to choose everything and you have no dietary restrictions.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Lenoir+Restaurant+Austin+TX"
       },
@@ -801,7 +801,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask the bartender for the most unusual agave varietal they have and drink it neat — no orange, no sal de gusano unless offered.",
+        "bonus": "Ask the bartender for the most unusual agave varietal they have and drink it neat: no orange, no sal de gusano unless offered.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Mezcaleria+Tobala+Austin+TX",
         "adult": true
@@ -809,7 +809,7 @@
       {
         "id": "AUS-F-10",
         "title": "Dinner at Fonda San Miguel",
-        "description": "Fonda San Miguel in Hyde Park has been serving interior Mexican cuisine — real Oaxacan mole, Veracruz-style fish, tableside guacamole — in a hacienda setting since 1975, and every meal feels like a special occasion.",
+        "description": "Fonda San Miguel in Hyde Park has been serving interior Mexican cuisine (real Oaxacan mole, Veracruz-style fish, tableside guacamole) in a hacienda setting since 1975, and every meal feels like a special occasion.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -869,7 +869,7 @@
       {
         "id": "AUS-F-4",
         "title": "Breakfast Tacos at Tacodeli",
-        "description": "Tacodeli's Eastside location serves the platonic ideal of the Austin breakfast taco — order the Frontera Fundido and eat it in the parking lot like a local.",
+        "description": "Tacodeli's Eastside location serves the platonic ideal of the Austin breakfast taco. Order the Frontera Fundido and eat it in the parking lot like a local.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -884,7 +884,7 @@
       {
         "id": "AUS-F-3",
         "title": "Juan in a Million",
-        "description": "The Don Juan Super Taco — a fist-sized monument of eggs, potato, bacon, and cheese — has been feeding East Austin since 1980 and remains the city's definitive breakfast taco.",
+        "description": "The Don Juan Super Taco (a fist-sized monument of eggs, potato, bacon, and cheese) has been feeding East Austin since 1980 and remains the city's definitive breakfast taco.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 mins",
@@ -899,7 +899,7 @@
       {
         "id": "AUS-F-2",
         "title": "Veracruz All Natural",
-        "description": "The migas taco from this East Austin trailer has been setting the local taco standard for over a decade — a fried-tortilla-and-egg masterpiece that costs less than a coffee.",
+        "description": "The migas taco from this East Austin trailer has been setting the local taco standard for over a decade. A fried-tortilla-and-egg masterpiece that costs less than a coffee.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -922,7 +922,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Order the fatty brisket only — no sides — and finish it in the parking lot standing up.",
+        "bonus": "Order the fatty brisket only, no sides, and finish it in the parking lot standing up.",
         "city": "Austin, TX",
         "mapsUrl": "https://www.google.com/maps/search/Franklin+Barbecue+Austin+TX"
       },

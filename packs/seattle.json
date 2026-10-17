@@ -9,7 +9,7 @@
       {
         "id": "SEA-A-203",
         "title": "Bonfire at Golden Gardens",
-        "description": "One of the last legal beach-fire beaches in the city — claim a pit at Golden Gardens, feed it driftwood-adjacent fuel from home, and watch the sun drop behind the Olympics.",
+        "description": "One of the last legal beach-fire beaches in the city: claim a pit at Golden Gardens, feed it driftwood-adjacent fuel from home, and watch the sun drop behind the Olympics.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -24,7 +24,7 @@
       {
         "id": "SEA-A-202",
         "title": "Bill Speidel's Underground Tour",
-        "description": "Since 1965 this irreverent tour has led people through the buried storefronts beneath Pioneer Square — the actual 1889 city, entombed when Seattle rebuilt itself one story up.",
+        "description": "Since 1965 this irreverent tour has led people through the buried storefronts beneath Pioneer Square, the actual 1889 city, entombed when Seattle rebuilt itself one story up.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -32,14 +32,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask your guide the one question the script doesn't cover — they always know more.",
+        "bonus": "Ask your guide the one question the script doesn't cover. They always know more.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Bill+Speidel+Underground+Tour+Pioneer+Square+Seattle"
       },
       {
         "id": "SEA-A-201",
         "title": "Discovery Park to the West Point Lighthouse",
-        "description": "Seattle's largest park drops from meadow bluffs through forest to a working 1881 lighthouse on a driftwood beach — Sound on three sides, Rainier floating to the south, city nowhere in sight.",
+        "description": "Seattle's largest park drops from meadow bluffs through forest to a working 1881 lighthouse on a driftwood beach: Sound on three sides, Rainier floating to the south, city nowhere in sight.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2.5–3.5 hrs",
@@ -54,7 +54,7 @@
       {
         "id": "SEA-AC-202",
         "title": "Beach Volleyball at Alki",
-        "description": "West Seattle's beach strip runs pickup volleyball all summer with the downtown skyline across Elliott Bay — the closest Seattle gets to California, and it knows it.",
+        "description": "West Seattle's beach strip runs pickup volleyball all summer with the downtown skyline across Elliott Bay. The closest Seattle gets to California, and it knows it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -72,7 +72,7 @@
       {
         "id": "SEA-AC-201",
         "title": "Loop Green Lake with the Regulars",
-        "description": "The 2.8-mile path around Green Lake is Seattle's communal treadmill — strollers, rollerbladers, crew teams on the water, and eagles in the cottonwoods, every single day of the year.",
+        "description": "The 2.8-mile path around Green Lake is Seattle's communal treadmill: strollers, rollerbladers, crew teams on the water, and eagles in the cottonwoods, every single day of the year.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins–1 hr",
@@ -80,7 +80,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Two laps — one easy, one at a pace you would not admit to.",
+        "bonus": "Two laps, one easy, one at a pace you would not admit to.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Green+Lake+Park+Seattle",
         "company": [
@@ -98,7 +98,7 @@
         "time": "Morning",
         "season": "Dec–Mar",
         "spark": 25,
-        "bonus": "Touch the frozen waterfall with your bare hand and hold it there for 10 seconds — no gloves for the dare.",
+        "bonus": "Touch the frozen waterfall with your bare hand and hold it there for 10 seconds, no gloves for the dare.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Franklin+Falls+Trailhead+Snoqualmie+Pass+WA"
       },
@@ -113,14 +113,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stop at a random houseboat dock and strike up a conversation with whoever's outside — ask how long they've lived on the water.",
+        "bonus": "Stop at a random houseboat dock and strike up a conversation with whoever's outside. Ask how long they've lived on the water.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Cheshiahud+Lake+Union+Loop+Seattle+WA"
       },
       {
         "id": "SEA-AC-8",
         "title": "Bike the Centennial Trail from Snohomish to Arlington",
-        "description": "This 30-mile paved rail-trail cuts through old farmland and riverside forest north of Seattle — flat, fast, and genuinely removed from the city.",
+        "description": "This 30-mile paved rail-trail cuts through old farmland and riverside forest north of Seattle: flat, fast, and genuinely removed from the city.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–5 hrs",
@@ -128,7 +128,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Ride the full 30-mile stretch one way and arrange a pickup — no turning back at the halfway point.",
+        "bonus": "Ride the full 30-mile stretch one way and arrange a pickup, no turning back at the halfway point.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Centennial+Trail+Snohomish+WA"
       },
@@ -143,7 +143,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the Coal Creek Trail sign and run the full loop without stopping to walk — even the muddy switchbacks.",
+        "bonus": "Find the Coal Creek Trail sign and run the full loop without stopping to walk, even the muddy switchbacks.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Cougar+Mountain+Regional+Wildland+Park+Bellevue+WA"
       },
@@ -158,14 +158,14 @@
         "time": "Morning",
         "season": "Dec–Apr",
         "spark": 40,
-        "bonus": "Ski at least one double-black run you've never done before — no sidestepping, no traversing out.",
+        "bonus": "Ski at least one double-black run you've never done before: no sidestepping, no traversing out.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Crystal+Mountain+Resort+Washington"
       },
       {
         "id": "SEA-AC-5",
         "title": "Cold Plunge at Madison Park Beach",
-        "description": "Madison Park's neighborhood beach on Lake Washington is Seattle's most civilized cold-water ritual — plunge, gasp, recover on the grassy bluff, repeat, then walk to coffee.",
+        "description": "Madison Park's neighborhood beach on Lake Washington is Seattle's most civilized cold-water ritual: plunge, gasp, recover on the grassy bluff, repeat, then walk to coffee.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -173,7 +173,7 @@
         "time": "Morning",
         "season": "May–Sep",
         "spark": 15,
-        "bonus": "Get in past your shoulders — no tiptoeing — and stay for a full 60 seconds before you're allowed out.",
+        "bonus": "Get in past your shoulders, no tiptoeing, and stay for a full 60 seconds before you're allowed out.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Madison+Park+Beach+Seattle+WA"
       },
@@ -188,14 +188,14 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Stay until you watch at least one paraglider launch off the edge — then count how many seconds before they catch the thermal.",
+        "bonus": "Stay until you watch at least one paraglider launch off the edge, then count how many seconds before they catch the thermal.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Poo+Poo+Point+Trailhead+Issaquah+WA"
       },
       {
         "id": "SEA-AC-3",
         "title": "Stand-Up Paddleboard on Green Lake",
-        "description": "Rent a board from Greenlake Boat Rentals and paddle the loop of Seattle's most beloved urban lake — it's deceptively meditative once you find your balance.",
+        "description": "Rent a board from Greenlake Boat Rentals and paddle the loop of Seattle's most beloved urban lake. It's deceptively meditative once you find your balance.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -210,7 +210,7 @@
       {
         "id": "SEA-AC-2",
         "title": "Run the Myrtle Edwards Park Trail",
-        "description": "This 1.25-mile waterfront trail hugging Elliott Bay gives you unobstructed views of the Olympics and the container port — best run in the city, full stop.",
+        "description": "This 1.25-mile waterfront trail hugging Elliott Bay gives you unobstructed views of the Olympics and the container port, best run in the city, full stop.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 min",
@@ -255,7 +255,7 @@
       {
         "id": "SEA-A-9",
         "title": "Raft the Skykomish Whitewater",
-        "description": "The Skykomish's Index-to-Baring stretch serves up Class III–IV rapids through a granite canyon 90 minutes from Capitol Hill — book with one of the long-running guide outfits and hold on.",
+        "description": "The Skykomish's Index-to-Baring stretch serves up Class III–IV rapids through a granite canyon 90 minutes from Capitol Hill. Book with one of the long-running guide outfits and hold on.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "5–6 hrs",
@@ -263,14 +263,14 @@
         "time": "Morning",
         "season": "May–Sep",
         "spark": 25,
-        "bonus": "Run the Boulder Drop rapid without bracing once — arms out, let the river do it.",
+        "bonus": "Run the Boulder Drop rapid without bracing once. Arms out, let the river do it.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Skykomish+River+rafting+Index+WA"
       },
       {
         "id": "SEA-A-8",
-        "title": "Paraglide off Tiger Mountain with Seattle Paragliding",
-        "description": "Tiger Mountain's west-facing launch is 30 minutes from downtown — Seattle Paragliding's tandem flights soar you over the Issaquah Alps until the skyline looks like a toy.",
+        "title": "Paraglide Off Tiger Mountain with Seattle Paragliding",
+        "description": "Tiger Mountain's west-facing launch is 30 minutes from downtown, Seattle Paragliding's tandem flights soar you over the Issaquah Alps until the skyline looks like a toy.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -285,7 +285,7 @@
       {
         "id": "SEA-A-6",
         "title": "Climb the Rattlesnake Ledge Loop",
-        "description": "Rattlesnake Ledge is the most climbed viewpoint in Washington for a reason — four miles round trip to a bare granite shelf with a straight-shot view down Rattlesnake Lake to Mount Rainier.",
+        "description": "Rattlesnake Ledge is the most climbed viewpoint in Washington for a reason, four miles round trip to a bare granite shelf with a straight-shot view down Rattlesnake Lake to Mount Rainier.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -380,7 +380,7 @@
       {
         "id": "SEA-S-203",
         "title": "Catch a Show at the Showbox",
-        "description": "Open since 1939 across from Pike Place, the Showbox's sprung dance floor has held everyone from Duke Ellington to Pearl Jam — the room every Seattle band dreams of headlining.",
+        "description": "Open since 1939 across from Pike Place, the Showbox's sprung dance floor has held everyone from Duke Ellington to Pearl Jam, the room every Seattle band dreams of headlining.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -395,7 +395,7 @@
       {
         "id": "SEA-S-202",
         "title": "Pinball and a Corn Dog at Shorty's",
-        "description": "Belltown's clown-themed pinball dive has poured cheap drinks and served corn dogs under carnival lights since 1997 — a perfect, deeply weird Seattle institution.",
+        "description": "Belltown's clown-themed pinball dive has poured cheap drinks and served corn dogs under carnival lights since 1997, a perfect, deeply weird Seattle institution.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -403,7 +403,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Put your initials on at least one machine's high-score board — any letters that fit.",
+        "bonus": "Put your initials on at least one machine's high-score board, any letters that fit.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Shorty's+Belltown+Seattle",
         "adult": true
@@ -419,7 +419,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Everyone in the room sings at least one solo — no duet hiding.",
+        "bonus": "Everyone in the room sings at least one solo, no duet hiding.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Rock+Box+Capitol+Hill+Seattle",
         "company": [
@@ -429,7 +429,7 @@
       {
         "id": "SEA-S-11",
         "title": "Ethiopian Feast at Jebena Café, Roosevelt",
-        "description": "This Roosevelt neighborhood gem does a communal injera spread that turns lunch into a two-hour table event — order the combination platter and eat with your hands.",
+        "description": "This Roosevelt neighborhood gem does a communal injera spread that turns lunch into a two-hour table event. Order the combination platter and eat with your hands.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -437,14 +437,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order a traditional Ethiopian coffee ceremony alongside your meal and stay for all three rounds — no skipping the third cup.",
+        "bonus": "Order a traditional Ethiopian coffee ceremony alongside your meal and stay for all three rounds, no skipping the third cup.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Jebena+Cafe+Roosevelt+Seattle+WA"
       },
       {
         "id": "SEA-S-10",
         "title": "Steak Night at Bateau, Capitol Hill",
-        "description": "Renée Erickson's Capitol Hill steakhouse dry-ages whole animals in-house and lists cuts on a chalkboard that changes as they sell — quiet confidence that makes a Tuesday feel like an occasion.",
+        "description": "Renée Erickson's Capitol Hill steakhouse dry-ages whole animals in-house and lists cuts on a chalkboard that changes as they sell. Quiet confidence that makes a Tuesday feel like an occasion.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -452,14 +452,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Order the butcher's cut — whatever they're featuring that night — and ask the server to explain exactly where on the animal it came from.",
+        "bonus": "Order the butcher's cut, whatever they're featuring that night, and ask the server to explain exactly where on the animal it came from.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Bateau+Capitol+Hill+Seattle"
       },
       {
         "id": "SEA-S-9",
         "title": "Afternoon Beer at Fremont Brewing Outdoor Beer Garden",
-        "description": "Fremont Brewing's Urban Beer Garden has been a neighborhood anchor since 2009 — picnic tables, no-frills pours, dogs welcome, and zero pretense.",
+        "description": "Fremont Brewing's Urban Beer Garden has been a neighborhood anchor since 2009. Picnic tables, no-frills pours, dogs welcome, and zero pretense.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -483,7 +483,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order nothing off the menu — give the bartender a single flavor word and let them build something from scratch.",
+        "bonus": "Order nothing off the menu. Give the bartender a single flavor word and let them build something from scratch.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Zig+Zag+Cafe+Pike+Place+Market+Seattle+WA",
         "adult": true
@@ -491,7 +491,7 @@
       {
         "id": "SEA-S-5",
         "title": "Sunday Brunch at Glo's, Capitol Hill",
-        "description": "This tiny, cash-only counter spot on 15th Avenue has served legendary eggs Benedict and pancakes since the 1980s — the line outside is part of the ritual.",
+        "description": "This tiny, cash-only counter spot on 15th Avenue has served legendary eggs Benedict and pancakes since the 1980s. The line outside is part of the ritual.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -499,7 +499,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Make friends with the couple next to you in line and offer to share a table — then actually do it.",
+        "bonus": "Make friends with the couple next to you in line and offer to share a table. Then actually do it.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Glo's+Capitol+Hill+Seattle+WA"
       },
@@ -514,7 +514,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Strike up a conversation with a stranger at the communal table and find out what they're working on — genuinely ask a follow-up question.",
+        "bonus": "Strike up a conversation with a stranger at the communal table and find out what they're working on, genuinely ask a follow-up question.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Zeitgeist+Coffee+Pioneer+Square+Seattle"
       },
@@ -529,14 +529,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Get to the floor before the headliner and introduce yourself to one person standing alone — find out what else they've seen here.",
+        "bonus": "Get to the floor before the headliner and introduce yourself to one person standing alone. Find out what else they've seen here.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/The+Crocodile+Belltown+Seattle"
       },
       {
         "id": "SEA-S-2",
         "title": "Sunday Morning at Ballard Farmers Market",
-        "description": "Ballard Farmers Market runs year-round on Sunday mornings and is the market Seattle locals actually shop at — no fish-throwing theatrics, just honest PNW produce, bread, and oysters.",
+        "description": "Ballard Farmers Market runs year-round on Sunday mornings and is the market Seattle locals actually shop at: no fish-throwing theatrics, just honest PNW produce, bread, and oysters.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -553,7 +553,7 @@
       {
         "id": "SEA-C-12",
         "title": "Coffee and a Book at Lighthouse Roasters, Fremont",
-        "description": "Fremont's wood-fired roaster has pulled no-nonsense espresso in the same corner house since the early nineties — a quiet reading den that rewards lingering.",
+        "description": "Fremont's wood-fired roaster has pulled no-nonsense espresso in the same corner house since the early nineties, a quiet reading den that rewards lingering.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -561,14 +561,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Leave the phone in your pocket for the entire visit — order, sit, and finish at least 30 pages before you look at it again.",
+        "bonus": "Leave the phone in your pocket for the entire visit. Order, sit, and finish at least 30 pages before you look at it again.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Lighthouse+Roasters+Fremont+Seattle"
       },
       {
         "id": "SEA-C-9",
         "title": "Browse Twice Sold Tales, Capitol Hill",
-        "description": "This eccentric used bookshop stuffed floor-to-ceiling with cats and paperbacks has been a Capitol Hill institution since 1984 — it has no system and that's the point.",
+        "description": "This eccentric used bookshop stuffed floor-to-ceiling with cats and paperbacks has been a Capitol Hill institution since 1984. It has no system and that's the point.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -576,14 +576,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a book you know nothing about based only on its first sentence — no reading the back cover.",
+        "bonus": "Buy a book you know nothing about based only on its first sentence, no reading the back cover.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Twice+Sold+Tales+Capitol+Hill+Seattle"
       },
       {
         "id": "SEA-C-8",
         "title": "Spend a Morning at Washington Park Arboretum",
-        "description": "This 230-acre living museum along the Montlake waterway has been maturing since 1934 — peak Japanese Garden season turns it into something otherworldly.",
+        "description": "This 230-acre living museum along the Montlake waterway has been maturing since 1934. Peak Japanese Garden season turns it into something otherworldly.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -591,7 +591,7 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Find a tree older than you by at least 50 years, sit underneath it, and read something — no scrolling.",
+        "bonus": "Find a tree older than you by at least 50 years, sit underneath it, and read something, no scrolling.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Washington+Park+Arboretum+Seattle"
       },
@@ -606,14 +606,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Find the installation where the ceiling meets the Space Needle — frame a photo where both overlap perfectly.",
+        "bonus": "Find the installation where the ceiling meets the Space Needle. Frame a photo where both overlap perfectly.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Chihuly+Garden+and+Glass+Seattle+Center"
       },
       {
         "id": "SEA-C-5",
         "title": "Coffee at Victrola Coffee Roasters, Capitol Hill",
-        "description": "Seattle's most beloved independent roaster has been at the center of Capitol Hill's creative life since 2000 — slow down, order a pour-over, and stay a while.",
+        "description": "Seattle's most beloved independent roaster has been at the center of Capitol Hill's creative life since 2000. Slow down, order a pour-over, and stay a while.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -621,7 +621,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order a single-origin you've never heard of and ask the barista exactly where the farm is — look it up on a map.",
+        "bonus": "Order a single-origin you've never heard of and ask the barista exactly where the farm is. Look it up on a map.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Victrola+Coffee+Roasters+Capitol+Hill+Seattle"
       },
@@ -671,7 +671,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the historic hotel room installation and spend at least 10 minutes inside it — alone, phone away.",
+        "bonus": "Find the historic hotel room installation and spend at least 10 minutes inside it. Alone, phone away.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Wing+Luke+Museum+International+District+Seattle+WA"
       },
@@ -693,7 +693,7 @@
       {
         "id": "SEA-S-12",
         "title": "Catch a Mariners Day Game at T-Mobile Park",
-        "description": "A sunny afternoon in the lower bowl at T-Mobile Park — with a Dungeness crab sandwich from the Edgar's Cantina concourse — is peak Seattle summer.",
+        "description": "A sunny afternoon in the lower bowl at T-Mobile Park, with a Dungeness crab sandwich from the Edgar's Cantina concourse, is peak Seattle summer.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -701,7 +701,7 @@
         "time": "Afternoon",
         "season": "Apr–Sep",
         "spark": 15,
-        "bonus": "Start a chant in your section — it has to spread to at least three rows before the inning ends.",
+        "bonus": "Start a chant in your section. It has to spread to at least three rows before the inning ends.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/T-Mobile+Park+Seattle+WA"
       },
@@ -723,7 +723,7 @@
       {
         "id": "SEA-C-4",
         "title": "Afternoon at the Seattle Art Museum",
-        "description": "SAM's permanent collection punches well above a city this size — the Northwest Coast Native art wing alone is worth the price of admission.",
+        "description": "SAM's permanent collection punches well above a city this size, the Northwest Coast Native art wing alone is worth the price of admission.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -731,7 +731,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find one piece that genuinely unsettles you and sit with it for five full minutes — no phone.",
+        "bonus": "Find one piece that genuinely unsettles you and sit with it for five full minutes, no phone.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Seattle+Art+Museum+Downtown",
         "company": [
@@ -749,7 +749,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a book chosen entirely by a staff recommendation card — no googling the author first.",
+        "bonus": "Buy a book chosen entirely by a staff recommendation card, no googling the author first.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Elliott+Bay+Book+Company+Capitol+Hill+Seattle"
       }
@@ -758,7 +758,7 @@
       {
         "id": "SEA-F-12",
         "title": "Lunch at Salumi Artisan Cured Meats, Pioneer Square",
-        "description": "Armandino Batali's legendary cured meat shop has been feeding Pioneer Square since 1999 — the muffuletta and lamb prosciutto are worth every minute of the line.",
+        "description": "Armandino Batali's legendary cured meat shop has been feeding Pioneer Square since 1999. The muffuletta and lamb prosciutto are worth every minute of the line.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "45–60 min",
@@ -766,14 +766,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Strike up a conversation with whoever is in line next to you — ask them what they always order and then get that exact thing.",
+        "bonus": "Strike up a conversation with whoever is in line next to you. Ask them what they always order and then get that exact thing.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Salumi+Artisan+Cured+Meats+Pioneer+Square+Seattle"
       },
       {
         "id": "SEA-F-11",
         "title": "Cocktails at Canon, Capitol Hill",
-        "description": "One of the most awarded whiskey bars in the country holds over 4,000 spirits — this is where serious drinkers come to get schooled.",
+        "description": "One of the most awarded whiskey bars in the country holds over 4,000 spirits. This is where serious drinkers come to get schooled.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5–2 hrs",
@@ -781,7 +781,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Tell the bartender your mood, not your usual drink, and let them build you something from scratch — no vetoing ingredients.",
+        "bonus": "Tell the bartender your mood, not your usual drink, and let them build you something from scratch, no vetoing ingredients.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Canon+Whiskey+and+Bitters+Emporium+Capitol+Hill+Seattle",
         "adult": true
@@ -797,14 +797,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Flag down every cart that passes and try at least one dish you can't identify — no asking, just pointing.",
+        "bonus": "Flag down every cart that passes and try at least one dish you can't identify, no asking, just pointing.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Harbor+City+Restaurant+International+District+Seattle"
       },
       {
         "id": "SEA-F-9",
         "title": "Pizza at Delancey, Ballard",
-        "description": "Brandon Pettit's wood-fired pies have been the gold standard of Seattle pizza since 2009 — thin, blistered, and absolutely worth the wait.",
+        "description": "Brandon Pettit's wood-fired pies have been the gold standard of Seattle pizza since 2009: thin, blistered, and absolutely worth the wait.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -812,14 +812,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sit at the bar and watch the oven — ask the cook what tonight's special rotation is before you order.",
+        "bonus": "Sit at the bar and watch the oven. Ask the cook what tonight's special rotation is before you order.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Delancey+Pizza+Ballard+Seattle"
       },
       {
         "id": "SEA-F-8",
         "title": "Pho at Pho Bắc Súp Shop, Little Saigon",
-        "description": "Third-generation family pho in the heart of Seattle's Vietnamese neighborhood — the broth is clear, complex, and deeply honest.",
+        "description": "Third-generation family pho in the heart of Seattle's Vietnamese neighborhood. The broth is clear, complex, and deeply honest.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 min",
@@ -827,7 +827,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Eat your pho with no condiments added — taste the broth as intended before you reach for the hoisin.",
+        "bonus": "Eat your pho with no condiments added. Taste the broth as intended before you reach for the hoisin.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Pho+Bac+Sup+Shop+Little+Saigon+Seattle"
       },
@@ -842,14 +842,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order an oyster you've never tried before and ask your server to describe exactly where it was harvested — then remember the name.",
+        "bonus": "Order an oyster you've never tried before and ask your server to describe exactly where it was harvested, then remember the name.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/The+Walrus+and+the+Carpenter+Ballard+Seattle"
       },
       {
         "id": "SEA-F-6",
         "title": "Ramen at Kizuki Ramen, University Village",
-        "description": "Rich Hakata-style tonkotsu simmered for hours hits different on a grey Seattle afternoon — the University Village room is the reliable fix.",
+        "description": "Rich Hakata-style tonkotsu simmered for hours hits different on a grey Seattle afternoon. The University Village room is the reliable fix.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -857,14 +857,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the spicy miso upgrade and challenge your table to finish the broth completely — no leaving a drop.",
+        "bonus": "Order the spicy miso upgrade and challenge your table to finish the broth completely, no leaving a drop.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Kizuki+Ramen+University+Village+Seattle"
       },
       {
         "id": "SEA-F-5",
         "title": "Breakfast at Café Besalu, Ballard",
-        "description": "This tiny French pastry shop in Ballard produces croissants and galettes that rival anything you'd find in Paris — arrive early or miss out.",
+        "description": "This tiny French pastry shop in Ballard produces croissants and galettes that rival anything you'd find in Paris. Arrive early or miss out.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 min",
@@ -872,7 +872,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Get the last croissant of the batch — ask the baker when the next tray comes out and time your order perfectly.",
+        "bonus": "Get the last croissant of the batch. Ask the baker when the next tray comes out and time your order perfectly.",
         "city": "Seattle, WA",
         "mapsUrl": "https://www.google.com/maps/search/Cafe+Besalu+Ballard+Seattle"
       },
@@ -894,7 +894,7 @@
       {
         "id": "SEA-F-3",
         "title": "Breakfast at The Crumpet Shop, Pike Place Market",
-        "description": "Open since 1976, The Crumpet Shop bakes its rounds to order and serves them with the kind of toppings — lemon curd, smoked salmon, local honey — that make Pike Place feel earned rather than toured.",
+        "description": "Open since 1976, The Crumpet Shop bakes its rounds to order and serves them with the kind of toppings (lemon curd, smoked salmon, local honey) that make Pike Place feel earned rather than toured.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -924,7 +924,7 @@
       {
         "id": "SEA-F-1",
         "title": "Lunch at Paseo Caribbean Restaurant, Fremont",
-        "description": "Paseo's Cuban roast sandwich — slow-cooked pork shoulder, pickled jalapeños, aioli, crusty bread — is the sandwich every Seattle local swears is worth the inevitable line.",
+        "description": "Paseo's Cuban roast sandwich (slow-cooked pork shoulder, pickled jalapeños, aioli, crusty bread) is the sandwich every Seattle local swears is worth the inevitable line.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",

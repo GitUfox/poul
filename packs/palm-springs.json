@@ -435,7 +435,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Do not use a map or a guide — only what you can see from the street.",
+        "bonus": "Do not use a map or a guide. Only what you can see from the street.",
         "city": "Palm Springs, CA",
         "mapsUrl": "https://maps.google.com/maps/search/Palm+Springs+Modernism+Neighborhoods",
         "filterExempt": true,

@@ -30,7 +30,7 @@
       {
         "id": "PWM-8B-02",
         "title": "Eat Only What the Counter Tells You To, All Day",
-        "description": "Three meals across Portland and no menus — at each place, ask whoever is behind the counter what you should order, and eat exactly that.",
+        "description": "Three meals across Portland and no menus. At each place, ask whoever is behind the counter what you should order, and eat exactly that.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "8 hrs",
@@ -72,7 +72,7 @@
       {
         "id": "PWM-S-08",
         "title": "Catch a Touring Band at the State Theatre",
-        "description": "See whoever is coming through the 1929 Congress Street movie palace — the best-sounding room of its size anywhere in Maine.",
+        "description": "See whoever is coming through the 1929 Congress Street movie palace, the best-sounding room of its size anywhere in Maine.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -267,7 +267,7 @@
       {
         "id": "PWM-S-03",
         "title": "Bounce Between Austin Street and Foundation",
-        "description": "Two of Maine's best breweries share one scruffy industrial yard at 1 Industrial Way — drink hoppy at Foundation, then walk thirty feet to Austin Street.",
+        "description": "Two of Maine's best breweries share one scruffy industrial yard at 1 Industrial Way. Drink hoppy at Foundation, then walk thirty feet to Austin Street.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -353,7 +353,7 @@
         "time": "Afternoon",
         "season": "May–Oct",
         "spark": 22,
-        "bonus": "Look up in every single room — the painted ceilings are the real show.",
+        "bonus": "Look up in every single room. The painted ceilings are the real show.",
         "city": "Portland, ME",
         "mapsUrl": "https://maps.google.com/maps/search/Victoria+Mansion+Portland+ME",
         "company": [
@@ -364,7 +364,7 @@
       {
         "id": "PWM-CU-04",
         "title": "Catch an Opening at SPACE on Congress Street",
-        "description": "Go to Portland's contemporary art and performance space for whatever is on — a show, a film, a band, usually all three in a week.",
+        "description": "Go to Portland's contemporary art and performance space for whatever is on: a show, a film, a band, usually all three in a week.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -383,7 +383,7 @@
       {
         "id": "PWM-CU-01",
         "title": "Stand in Front of the Winslow Homers at the PMA",
-        "description": "Work through Maine's best collection — Homer, the Wyeths, Marsden Hartley — in the museum at the top of Congress Square.",
+        "description": "Work through Maine's best collection (Homer, the Wyeths, Marsden Hartley) in the museum at the top of Congress Square.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -471,7 +471,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 14,
-        "bonus": "Get there before the biscuits sell out — they shut the doors at one.",
+        "bonus": "Get there before the biscuits sell out. They shut the doors at one.",
         "city": "Portland, ME",
         "mapsUrl": "https://maps.google.com/maps/search/Tandem+Coffee+and+Bakery+Portland+ME",
         "company": [
@@ -596,7 +596,7 @@
       {
         "id": "PWM-F-07",
         "title": "Eat a Maine Potato Doughnut at The Holy Donut",
-        "description": "Get a warm doughnut made with real Maine potato — dark chocolate sea salt, fresh lemon — from the Commercial Street waterfront shop.",
+        "description": "Get a warm doughnut made with real Maine potato (dark chocolate sea salt, fresh lemon) from the Commercial Street waterfront shop.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -616,7 +616,7 @@
       {
         "id": "PWM-F-10",
         "title": "Build a Lobster Grilled Cheese at Highroller",
-        "description": "Go sideways at Highroller Lobster Co. on Exchange Street — lobster grilled cheese, a cheese-crisp lobster taco, lobster tots, their own hot sauce.",
+        "description": "Go sideways at Highroller Lobster Co. on Exchange Street: lobster grilled cheese, a cheese-crisp lobster taco, lobster tots, their own hot sauce.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -771,7 +771,7 @@
       {
         "id": "PWM-C-09",
         "title": "Sit in the Longfellow Garden Off Congress Street",
-        "description": "Slip through to the walled garden behind the poet's childhood home — a pocket of complete quiet right off the busiest street in the city.",
+        "description": "Slip through to the walled garden behind the poet's childhood home, a pocket of complete quiet right off the busiest street in the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -938,7 +938,7 @@
         "time": "Afternoon",
         "season": "Jun–Sep",
         "spark": 13,
-        "bonus": "Get all the way under on the first attempt — no wading in.",
+        "bonus": "Get all the way under on the first attempt, no wading in.",
         "city": "Cape Elizabeth, ME",
         "mapsUrl": "https://maps.google.com/maps/search/Crescent+Beach+State+Park+Cape+Elizabeth+ME",
         "company": [
@@ -1066,7 +1066,7 @@
       {
         "id": "PWM-A-01",
         "title": "Climb the Portland Observatory on Munjoy Hill",
-        "description": "Haul yourself up seven flights of an 1807 signal tower — the last maritime one left in America — for the whole of Casco Bay through the windows.",
+        "description": "Haul yourself up seven flights of an 1807 signal tower, the last maritime one left in America, for the whole of Casco Bay through the windows.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -1125,7 +1125,7 @@
       {
         "id": "PWM-A-14",
         "title": "Book an L.L.Bean Outdoor Discovery Course in Freeport",
-        "description": "Sign up for a half-day clinic — fly casting, clay shooting, paddling, winter navigation — run by guides out of the flagship store.",
+        "description": "Sign up for a half-day clinic (fly casting, clay shooting, paddling, winter navigation) run by guides out of the flagship store.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",

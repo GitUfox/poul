@@ -9,7 +9,7 @@
       {
         "id": "BA-S-10",
         "title": "Cocktails Behind the Flower Shop at Florería Atlántico",
-        "description": "Walk through a working Retiro flower shop, down a staircase, into a basement bar built as an immigrant ship's hold — regularly ranked among the world's best.",
+        "description": "Walk through a working Retiro flower shop, down a staircase, into a basement bar built as an immigrant ship's hold, regularly ranked among the world's best.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -88,7 +88,7 @@
       {
         "id": "BA-S-07",
         "title": "Craft Beer Crawl Through Villa Crespo",
-        "description": "Argentina's craft beer boom has its centre of gravity here — a dozen cervecerías within a few blocks, all pouring their own, all open impossibly late.",
+        "description": "Argentina's craft beer boom has its centre of gravity here: a dozen cervecerías within a few blocks, all pouring their own, all open impossibly late.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -112,7 +112,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 13,
-        "bonus": "Learn the cabeceo — the eye-contact invitation — and use it once.",
+        "bonus": "Learn the cabeceo, the eye-contact invitation, and use it once.",
         "city": "Buenos Aires, Argentina",
         "mapsUrl": "https://maps.google.com/maps/search/Salon+Canning+Scalabrini+Ortiz+Buenos+Aires"
       },
@@ -181,7 +181,7 @@
       {
         "id": "BA-8B-02",
         "title": "Order the Cut You Have Never Heard Of",
-        "description": "Argentine butchery divides the animal differently to anywhere else — walk into any parrilla and order entraña, vacío, matambre or mollejas without looking it up first.",
+        "description": "Argentine butchery divides the animal differently to anywhere else. Walk into any parrilla and order entraña, vacío, matambre or mollejas without looking it up first.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -197,7 +197,7 @@
       {
         "id": "BA-8B-01",
         "title": "Ride the Subte to the End of Any Line",
-        "description": "Six lines, six terminuses, none of them anywhere a visitor would choose — pick one at random and see what neighbourhood is waiting at the end of it.",
+        "description": "Six lines, six terminuses, none of them anywhere a visitor would choose. Pick one at random and see what neighbourhood is waiting at the end of it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -245,7 +245,7 @@
       {
         "id": "BA-CU-01",
         "title": "Latin American Art at MALBA",
-        "description": "The best collection of 20th-century Latin American art anywhere — Frida Kahlo, Botero, Xul Solar — in a sharp glass building in Palermo with a good café attached.",
+        "description": "The best collection of 20th-century Latin American art anywhere (Frida Kahlo, Botero, Xul Solar) in a sharp glass building in Palermo with a good café attached.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -290,7 +290,7 @@
       {
         "id": "BA-CU-06",
         "title": "A Performance at Teatro Colón",
-        "description": "Opera, ballet or the resident orchestra in a hall Pavarotti called acoustically perfect — and the cheap upper galleries cost less than a pizza.",
+        "description": "Opera, ballet or the resident orchestra in a hall Pavarotti called acoustically perfect, and the cheap upper galleries cost less than a pizza.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -328,7 +328,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Skip the dinner package and take the show-only ticket — better seats, better value.",
+        "bonus": "Skip the dinner package and take the show-only ticket, better seats, better value.",
         "city": "Buenos Aires, Argentina",
         "mapsUrl": "https://maps.google.com/maps/search/Cafe+de+los+Angelitos+Buenos+Aires"
       }
@@ -382,7 +382,7 @@
       {
         "id": "BA-C-05",
         "title": "Afternoon in the Rosedal de Palermo",
-        "description": "Eighteen thousand rose bushes, a white pergola, a Greek bridge and pedal boats on the lake — the softest few hours available in the city.",
+        "description": "Eighteen thousand rose bushes, a white pergola, a Greek bridge and pedal boats on the lake, the softest few hours available in the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -412,7 +412,7 @@
       {
         "id": "BA-C-08",
         "title": "Antiques Under the Iron Roof at Mercado de San Telmo",
-        "description": "The covered 1897 market building, open all week rather than just Sunday — butchers and produce stalls on one side, antique dealers and coffee on the other.",
+        "description": "The covered 1897 market building, open all week rather than just Sunday, butchers and produce stalls on one side, antique dealers and coffee on the other.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -489,7 +489,7 @@
       {
         "id": "BA-A-09",
         "title": "Avenida Corrientes at Midnight",
-        "description": "The street that refuses to sleep — bookshops open past two in the morning, pizzerias with standing counters, theatres emptying and a whole city treating midnight as early.",
+        "description": "The street that refuses to sleep: bookshops open past two in the morning, pizzerias with standing counters, theatres emptying and a whole city treating midnight as early.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -519,7 +519,7 @@
       {
         "id": "BA-A-05",
         "title": "Ferry Across the River to Colonia, Uruguay",
-        "description": "An hour across the Río de la Plata puts you in a UNESCO-listed Portuguese colonial town of cobbles, sycamores and vintage cars — a different country, back the same night.",
+        "description": "An hour across the Río de la Plata puts you in a UNESCO-listed Portuguese colonial town of cobbles, sycamores and vintage cars, a different country, back the same night.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "Full day",
@@ -534,7 +534,7 @@
       {
         "id": "BA-A-10",
         "title": "Eat Your Way Through Barrio Chino",
-        "description": "Belgrano's four-block Chinatown under a red gate — Taiwanese bakeries, Peruvian-Chinese counters and supermarkets stocking things you will not find anywhere else in Argentina.",
+        "description": "Belgrano's four-block Chinatown under a red gate, Taiwanese bakeries, Peruvian-Chinese counters and supermarkets stocking things you will not find anywhere else in Argentina.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -549,7 +549,7 @@
       {
         "id": "BA-A-11",
         "title": "Gaucho Day in San Antonio de Areco",
-        "description": "Two hours out onto the pampas to the country's gaucho capital — silversmiths, an estancia asado, and horses ridden by people who genuinely work them.",
+        "description": "Two hours out onto the pampas to the country's gaucho capital: silversmiths, an estancia asado, and horses ridden by people who genuinely work them.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "Full day",
@@ -594,7 +594,7 @@
       {
         "id": "BA-A-08",
         "title": "Climb Palacio Barolo to the Lighthouse",
-        "description": "A 1923 tower on Avenida de Mayo built as an architectural model of Dante's Divine Comedy — hell in the basement, heaven in the lighthouse at the top.",
+        "description": "A 1923 tower on Avenida de Mayo built as an architectural model of Dante's Divine Comedy, hell in the basement, heaven in the lighthouse at the top.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -639,7 +639,7 @@
       {
         "id": "BA-AC-03",
         "title": "Pickup Fútbol at Parque Sarmiento",
-        "description": "Join a local five-a-side game on one of the city's public cage courts — no invitation needed, just show up.",
+        "description": "Join a local five-a-side game on one of the city's public cage courts, no invitation needed, just show up.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",

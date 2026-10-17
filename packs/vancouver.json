@@ -17,7 +17,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the sommelier to pair something unexpected with whatever you're eating — no vetoing the choice.",
+        "bonus": "Ask the sommelier to pair something unexpected with whatever you're eating, no vetoing the choice.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brix+and+Mortar+Yaletown+Vancouver",
         "adult": true
@@ -25,7 +25,7 @@
       {
         "id": "YVR-S-10",
         "title": "Catch a Show at the Rickshaw Theatre",
-        "description": "The Rickshaw is Vancouver's most lovably unpolished venue — a rescued 1971 movie palace on East Hastings where punk, hip-hop, and indie bills hit harder for the room they're in.",
+        "description": "The Rickshaw is Vancouver's most lovably unpolished venue: a rescued 1971 movie palace on East Hastings where punk, hip-hop, and indie bills hit harder for the room they're in.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -55,7 +55,7 @@
       {
         "id": "YVR-S-8",
         "title": "Afternoon Pint at The Alibi Room in Gastown",
-        "description": "Vancouver's original craft beer bar has been anchoring Gastown since 2006 with one of the best rotating tap lists in Western Canada — sit at the bar and let the bartender pick.",
+        "description": "Vancouver's original craft beer bar has been anchoring Gastown since 2006 with one of the best rotating tap lists in Western Canada. Sit at the bar and let the bartender pick.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -86,7 +86,7 @@
       {
         "id": "YVR-S-4",
         "title": "Sunday Afternoon at The Narrow Lounge",
-        "description": "Mount Pleasant's most charming dive bar is genuinely narrow — one long room, cheap drinks, pinball, and a jukebox that somehow always plays the right song.",
+        "description": "Mount Pleasant's most charming dive bar is genuinely narrow: one long room, cheap drinks, pinball, and a jukebox that somehow always plays the right song.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -94,7 +94,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge a stranger to a game of pinball — loser buys the next round.",
+        "bonus": "Challenge a stranger to a game of pinball, loser buys the next round.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/The+Narrow+Lounge+Vancouver",
         "adult": true
@@ -110,7 +110,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Dance to a genre you would never normally choose — no leaving the floor for the first 30 minutes.",
+        "bonus": "Dance to a genre you would never normally choose, no leaving the floor for the first 30 minutes.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Fortune+Sound+Club+Vancouver"
       },
@@ -125,7 +125,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Join a table of strangers instead of forming your own team — introduce yourself with a fake occupation.",
+        "bonus": "Join a table of strangers instead of forming your own team. Introduce yourself with a fake occupation.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/The+Bimini+Pub+Kitsilano+Vancouver+BC",
         "company": [
@@ -151,7 +151,7 @@
       {
         "id": "VAN-S-04",
         "title": "A Pint at The Irish Heather Shebeen",
-        "description": "After 24 years in Gastown the Heather decamped to Chinatown — the long-table gastropub and its whisky shebeen live on at East Georgia.",
+        "description": "After 24 years in Gastown the Heather decamped to Chinatown, the long-table gastropub and its whisky shebeen live on at East Georgia.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -215,7 +215,7 @@
       {
         "id": "YVR-C-8",
         "title": "Saturday Morning at Trout Lake Farmers Market",
-        "description": "The East Van Community Centre market at Trout Lake is the most neighbourhood-authentic farmers market in the city — mostly vendors you can actually talk to, zero corporate booths.",
+        "description": "The East Van Community Centre market at Trout Lake is the most neighbourhood-authentic farmers market in the city. Mostly vendors you can actually talk to, zero corporate booths.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -230,7 +230,7 @@
       {
         "id": "YVR-C-7",
         "title": "Wander the Bloedel Conservatory",
-        "description": "Inside this domed triodetic geodesic on top of QE Park, over 500 exotic birds fly free among tropical plants while Vancouver rain hammers the glass above you — it's absurdly peaceful.",
+        "description": "Inside this domed triodetic geodesic on top of QE Park, over 500 exotic birds fly free among tropical plants while Vancouver rain hammers the glass above you. It's absurdly peaceful.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 mins",
@@ -238,7 +238,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Get a free-roaming parrot to land on your arm — stand still and patient until it happens.",
+        "bonus": "Get a free-roaming parrot to land on your arm. Stand still and patient until it happens.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Bloedel+Conservatory+Vancouver"
       },
@@ -253,14 +253,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a book whose cover you like but whose plot you know nothing about — read the first page before you leave the store.",
+        "bonus": "Buy a book whose cover you like but whose plot you know nothing about. Read the first page before you leave the store.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Macleod's+Books+Vancouver"
       },
       {
         "id": "YVR-C-2",
         "title": "Sunset at Prospect Point in Stanley Park",
-        "description": "Watch the freighters queue under the Lions Gate Bridge at golden hour from the highest point in Stanley Park — it's the view that makes locals stop complaining about rent.",
+        "description": "Watch the freighters queue under the Lions Gate Bridge at golden hour from the highest point in Stanley Park. It's the view that makes locals stop complaining about rent.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -268,7 +268,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stay until the very last sliver of sun disappears behind Vancouver Island — not one minute before.",
+        "bonus": "Stay until the very last sliver of sun disappears behind Vancouver Island, not one minute before.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Prospect+Point+Stanley+Park+Vancouver+BC",
         "company": [
@@ -286,7 +286,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 10,
-        "bonus": "Stay until the mountains turn pink — no photos until then.",
+        "bonus": "Stay until the mountains turn pink, no photos until then.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://maps.google.com/maps/search/Kitsilano+Beach+Vancouver",
         "company": [
@@ -370,7 +370,7 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Land a trick on the manual pad that you've been avoiding — film it.",
+        "bonus": "Land a trick on the manual pad that you've been avoiding, film it.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hastings+Park+Skate+Plaza+Vancouver"
       },
@@ -400,7 +400,7 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Run the entire descent without walking — no stops, no excuses.",
+        "bonus": "Run the entire descent without walking. No stops, no excuses.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Baden-Powell+Trail+Deep+Cove+to+Mount+Seymour+Vancouver"
       },
@@ -430,14 +430,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Pick the hardest problem in the room and attempt it at least five times before moving on — no skipping.",
+        "bonus": "Pick the hardest problem in the room and attempt it at least five times before moving on, no skipping.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/The+Hive+Climbing+Gym+Vancouver"
       },
       {
         "id": "YVR-AC-2",
         "title": "Run the Seawall from Olympic Village to Granville Island",
-        "description": "This flat False Creek loop past houseboats, herons, and the Burrard Bridge is the city's best urban run — short enough to be casual, scenic enough to feel like a reward.",
+        "description": "This flat False Creek loop past houseboats, herons, and the Burrard Bridge is the city's best urban run, short enough to be casual, scenic enough to feel like a reward.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 mins",
@@ -445,7 +445,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run the whole thing without earbuds — stay aware of every sound the city makes.",
+        "bonus": "Run the whole thing without earbuds. Stay aware of every sound the city makes.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Olympic+Village+Seawall+Vancouver"
       },
@@ -460,7 +460,7 @@
         "time": "Morning",
         "season": "May–Sep",
         "spark": 25,
-        "bonus": "Swim the full length non-stop ten times — no touching the wall between laps.",
+        "bonus": "Swim the full length non-stop ten times, no touching the wall between laps.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Kitsilano+Pool+Vancouver+BC"
       },
@@ -505,7 +505,7 @@
         "time": "Afternoon",
         "season": "Jun–Sep",
         "spark": 15,
-        "bonus": "Go full clothing-optional for at least one swim — you'll understand the vibe immediately.",
+        "bonus": "Go full clothing-optional for at least one swim. You'll understand the vibe immediately.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Wreck+Beach+Vancouver+BC"
       },
@@ -637,7 +637,7 @@
       {
         "id": "YVR-C-9",
         "title": "Afternoon at the Vancouver Art Gallery",
-        "description": "The VAG's permanent Emily Carr collection — her towering Pacific forest canvases — is one of the most underrated art experiences in North America and hits differently every single time.",
+        "description": "The VAG's permanent Emily Carr collection, her towering Pacific forest canvases, is one of the most underrated art experiences in North America and hits differently every single time.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -660,7 +660,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Find a totem pole or sculpture that stops you completely — sit in front of it for ten full minutes without your phone.",
+        "bonus": "Find a totem pole or sculpture that stops you completely. Sit in front of it for ten full minutes without your phone.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Museum+of+Anthropology+UBC+Vancouver"
       },
@@ -771,7 +771,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the lengua taco — if it grosses you out, you have to order a second one.",
+        "bonus": "Order the lengua taco. If it grosses you out, you have to order a second one.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/La+Taqueria+Pinche+Taco+Shop+Vancouver"
       },
@@ -786,7 +786,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Let the bartender pick your drink — no input from you whatsoever.",
+        "bonus": "Let the bartender pick your drink, no input from you whatsoever.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/The+Keefer+Bar+Vancouver+Chinatown",
         "adult": true
@@ -839,7 +839,7 @@
       {
         "id": "YVR-F-3",
         "title": "Dim Sum at Sun Sui Wah on Main Street",
-        "description": "Vancouver has some of the best Cantonese food outside Hong Kong and this Main Street classic — open since 1984 — is where you go to understand why locals mean it.",
+        "description": "Vancouver has some of the best Cantonese food outside Hong Kong and this Main Street classic, open since 1984, is where you go to understand why locals mean it.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -847,7 +847,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order something from the cart you cannot identify by sight — no Googling before you eat it.",
+        "bonus": "Order something from the cart you cannot identify by sight, no Googling before you eat it.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Sun+Sui+Wah+Seafood+Restaurant+Main+Street+Vancouver+BC"
       },
@@ -862,14 +862,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the spicy miso with an extra chashu and finish every drop of broth — no shortcuts.",
+        "bonus": "Order the spicy miso with an extra chashu and finish every drop of broth, no shortcuts.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Motomachi+Shokudo+Vancouver+BC"
       },
       {
         "id": "YVR-F-1",
         "title": "Dinner at Hawksworth Restaurant",
-        "description": "David Hawksworth's flagship in the Hotel Georgia is Vancouver's most enduring power dining room — the kind of room where the food actually justifies the occasion.",
+        "description": "David Hawksworth's flagship in the Hotel Georgia is Vancouver's most enduring power dining room, the kind of room where the food actually justifies the occasion.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -877,14 +877,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order the tasting menu blind — tell the server your only two dislikes and let them handle everything else.",
+        "bonus": "Order the tasting menu blind. Tell the server your only two dislikes and let them handle everything else.",
         "city": "Vancouver, BC",
         "mapsUrl": "https://www.google.com/maps/search/Hawksworth+Restaurant+Vancouver+BC"
       },
       {
         "id": "VAN-F-02",
         "title": "Dim Sum Crawl in Richmond",
-        "description": "Hit two or three of Richmond's legendary dim sum houses back to back — some of the best outside Hong Kong.",
+        "description": "Hit two or three of Richmond's legendary dim sum houses back to back, some of the best outside Hong Kong.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",

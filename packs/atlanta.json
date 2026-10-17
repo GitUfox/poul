@@ -17,7 +17,7 @@
         "time": "Afternoon",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Bring a physical book — no phone, no podcasts — and finish at least 50 pages before you leave.",
+        "bonus": "Bring a physical book (no phone, no podcasts) and finish at least 50 pages before you leave.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Swan+House+Atlanta+History+Center+GA"
       },
@@ -65,7 +65,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy one book chosen entirely by the staff — no peeking at reviews first.",
+        "bonus": "Buy one book chosen entirely by the staff, no peeking at reviews first.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Charis+Books+and+More+Atlanta+GA",
         "company": [
@@ -75,7 +75,7 @@
       {
         "id": "ATL-C-2",
         "title": "Piedmont Park Afternoon Drift",
-        "description": "Piedmont Park has been Atlanta's backyard since 1904, and on any given afternoon it's the city's best cross-section — runners, picnics, skyline views, and pickup soccer all at once.",
+        "description": "Piedmont Park has been Atlanta's backyard since 1904, and on any given afternoon it's the city's best cross-section: runners, picnics, skyline views, and pickup soccer all at once.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–3 hrs",
@@ -83,7 +83,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Join whatever pickup game is happening — soccer, frisbee, volleyball — for at least fifteen minutes.",
+        "bonus": "Join whatever pickup game is happening (soccer, frisbee, volleyball) for at least fifteen minutes.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Piedmont+Park+Atlanta+GA"
       },
@@ -184,7 +184,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Volunteer if the performers ask for an audience member — no hesitating, hand up immediately.",
+        "bonus": "Volunteer if the performers ask for an audience member. No hesitating, hand up immediately.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Dads+Garage+Theatre+Atlanta+GA"
       },
@@ -199,7 +199,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Stand directly under the Argentinosaurus skeleton and take a photo looking straight up — the scale is disorienting in the best way.",
+        "bonus": "Stand directly under the Argentinosaurus skeleton and take a photo looking straight up. The scale is disorienting in the best way.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Fernbank+Museum+of+Natural+History+Atlanta+GA"
       },
@@ -277,7 +277,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the most unusual thing on the board — no settling for the easy IPA.",
+        "bonus": "Order the most unusual thing on the board, no settling for the easy IPA.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Monday+Night+Garage+Atlanta+GA",
         "adult": true
@@ -293,7 +293,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Strike up a real conversation with the table next to you — not small talk, actual conversation.",
+        "bonus": "Strike up a real conversation with the table next to you, not small talk, actual conversation.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Paschals+Restaurant+Atlanta+GA"
       },
@@ -308,7 +308,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge a stranger to best-of-three on any machine — loser buys the next round.",
+        "bonus": "Challenge a stranger to best-of-three on any machine, loser buys the next round.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Joystick+Gamebar+Atlanta+GA",
         "adult": true
@@ -324,7 +324,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stay until 2am without checking your phone — no excuses, no peeking.",
+        "bonus": "Stay until 2am without checking your phone: no excuses, no peeking.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/MJQ+Concourse+Atlanta+GA",
         "adult": true
@@ -340,7 +340,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order blind — ask the bartender to make you something they're personally proud of, no parameters.",
+        "bonus": "Order blind. Ask the bartender to make you something they're personally proud of, no parameters.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Ticonderoga+Club+Atlanta+GA",
         "adult": true
@@ -348,7 +348,7 @@
       {
         "id": "ATL-S-3",
         "title": "Night Out at Sister Louisa's Church",
-        "description": "Part dive bar, part outsider-art installation, part Sunday school fever dream — this Edgewood Avenue fixture is the most Atlanta bar in Atlanta and has been for over a decade.",
+        "description": "Part dive bar, part outsider-art installation, part Sunday school fever dream. This Edgewood Avenue fixture is the most Atlanta bar in Atlanta and has been for over a decade.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -387,7 +387,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Buy Blondie a beer, tip heavy, and stay for at least two of her sets — no phones.",
+        "bonus": "Buy Blondie a beer, tip heavy, and stay for at least two of her sets, no phones.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Clermont+Lounge+Atlanta+GA",
         "adult": true
@@ -441,7 +441,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Play the back nine with no rangefinder — trust your eyes and commit to every club choice.",
+        "bonus": "Play the back nine with no rangefinder. Trust your eyes and commit to every club choice.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Bobby+Jones+Golf+Course+Atlanta+GA"
       },
@@ -456,7 +456,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Paddle to an empty cove, anchor yourself, and jump in — no ladder, no steps.",
+        "bonus": "Paddle to an empty cove, anchor yourself, and jump in: no ladder, no steps.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Lake+Allatoona+Georgia+paddleboard+rental"
       },
@@ -486,14 +486,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Flash a V3 bouldering problem on your first try — no previewing other people's beta.",
+        "bonus": "Flash a V3 bouldering problem on your first try, no previewing other people's beta.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Stone+Summit+Climbing+Midtown+Atlanta+GA"
       },
       {
         "id": "ATL-AC-3",
         "title": "Cycle the Beltline Westside Trail",
-        "description": "The Westside Trail cuts through one of Atlanta's fastest-evolving neighborhoods — rent a Relay bike and cover four miles of fresh pavement past murals, community gardens, and the real working city.",
+        "description": "The Westside Trail cuts through one of Atlanta's fastest-evolving neighborhoods. Rent a Relay bike and cover four miles of fresh pavement past murals, community gardens, and the real working city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -516,14 +516,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run at least six miles out before turning back — the trail only gets better the further you go.",
+        "bonus": "Run at least six miles out before turning back. The trail only gets better the further you go.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Silver+Comet+Trail+Mavell+Road+Atlanta+GA"
       },
       {
         "id": "ATL-A-12",
         "title": "Oakland Cemetery Self-Guided Walk",
-        "description": "Founded in 1850, Oakland Cemetery holds six mayors, a golf legend, and a corner of the Civil War dead — and it's the most peaceful 88 acres in all of Atlanta.",
+        "description": "Founded in 1850, Oakland Cemetery holds six mayors, a golf legend, and a corner of the Civil War dead. And it's the most peaceful 88 acres in all of Atlanta.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -531,14 +531,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find Margaret Mitchell's grave and leave something — a flower, a note, a coin — before you go.",
+        "bonus": "Find Margaret Mitchell's grave and leave something (a flower, a note, a coin) before you go.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Oakland+Cemetery+Atlanta+GA"
       },
       {
         "id": "ATL-A-10",
         "title": "Explore Krog Street Tunnel",
-        "description": "Krog Street Tunnel is Atlanta's living gallery — a legal graffiti corridor that changes constantly and marks the seam between Inman Park and Cabbagetown.",
+        "description": "Krog Street Tunnel is Atlanta's living gallery, a legal graffiti corridor that changes constantly and marks the seam between Inman Park and Cabbagetown.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -546,14 +546,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Leave your mark — even if it's just a chalk outline of your hand on the wall.",
+        "bonus": "Leave your mark. Even if it's just a chalk outline of your hand on the wall.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Krog+Street+Tunnel+Atlanta+GA"
       },
       {
         "id": "ATL-A-8",
         "title": "Martin Luther King Jr. National Historic Site",
-        "description": "Sweet Auburn's two-block stretch holds MLK's birth home, Ebenezer Baptist Church, and his tomb — a pilgrimage that recalibrates your sense of what one city block can mean to history.",
+        "description": "Sweet Auburn's two-block stretch holds MLK's birth home, Ebenezer Baptist Church, and his tomb, a pilgrimage that recalibrates your sense of what one city block can mean to history.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -567,7 +567,7 @@
       },
       {
         "id": "ATL-A-6",
-        "title": "Zip-line at Treetop Quest Fowler Park",
+        "title": "Zip-Line at Treetop Quest Fowler Park",
         "description": "Treetop Quest's aerial obstacle course threads through the forest canopy north of the city and gives your grip strength and your nerve a real audit.",
         "rarity": "Common",
         "cost": "$$",
@@ -576,7 +576,7 @@
         "time": "Afternoon",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Take the highest course available — no skipping elements, no looking down more than once.",
+        "bonus": "Take the highest course available: no skipping elements, no looking down more than once.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Treetop+Quest+Fowler+Park+Cumming+GA"
       },
@@ -591,7 +591,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find a spot at the main viewing window and stay perfectly still for five full minutes — let the fish come to you.",
+        "bonus": "Find a spot at the main viewing window and stay perfectly still for five full minutes. Let the fish come to you.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Georgia+Aquarium+Atlanta+GA"
       },
@@ -606,14 +606,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Record a freestyle in the booth installation and post it unedited — no takes back.",
+        "bonus": "Record a freestyle in the booth installation and post it unedited, no takes back.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Trap+Music+Museum+Atlanta+GA"
       },
       {
         "id": "ATL-A-3",
         "title": "Beltline Eastside Trail at Night",
-        "description": "The Eastside Trail transforms after dark into a lit social corridor where the whole city — skaters, cyclists, dog walkers — moves together through Inman Park and Ponce City.",
+        "description": "The Eastside Trail transforms after dark into a lit social corridor where the whole city (skaters, cyclists, dog walkers) moves together through Inman Park and Ponce City.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -696,7 +696,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Skip the skyride — walk up both ways",
+        "bonus": "Skip the skyride. Walk up both ways",
         "city": "Atlanta, GA",
         "mapsUrl": "https://maps.google.com/maps/search/Stone+Mountain+Park+Atlanta"
       },
@@ -761,7 +761,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the staff about the restaurant's civil rights history — there's a story attached to almost every table.",
+        "bonus": "Ask the staff about the restaurant's civil rights history. There's a story attached to almost every table.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Busy+Bee+Cafe+Atlanta+GA"
       },
@@ -799,7 +799,7 @@
       {
         "id": "ATL-F-9",
         "title": "Pizza at Antico Pizza Napoletana",
-        "description": "Standing-room-only, wood-fired, and brutally authentic — Antico's communal tables and Neapolitan pies have made this Home Park spot a genuine Atlanta legend.",
+        "description": "Standing-room-only, wood-fired, and brutally authentic. Antico's communal tables and Neapolitan pies have made this Home Park spot a genuine Atlanta legend.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–1.5 hrs",
@@ -807,14 +807,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Share your table with a stranger and swap a slice — it's expected here.",
+        "bonus": "Share your table with a stranger and swap a slice. It's expected here.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/Antico+Pizza+Napoletana+Atlanta+GA"
       },
       {
         "id": "ATL-F-7",
         "title": "Tacos at Buford Highway Taqueria",
-        "description": "The stretch of Buford Highway that feeds Atlanta's soul — this no-frills counter serves birria and lengua tacos that locals will drive across town for.",
+        "description": "The stretch of Buford Highway that feeds Atlanta's soul. This no-frills counter serves birria and lengua tacos that locals will drive across town for.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 mins",
@@ -844,7 +844,7 @@
       {
         "id": "ATL-F-4",
         "title": "Lunch at Mary Mac's Tea Room",
-        "description": "Atlanta's oldest continually operating restaurant serves the definitive Southern lunch — fried chicken, pot likker, and cornbread that hasn't changed since 1945.",
+        "description": "Atlanta's oldest continually operating restaurant serves the definitive Southern lunch: fried chicken, pot likker, and cornbread that hasn't changed since 1945.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -859,7 +859,7 @@
       {
         "id": "ATL-F-2",
         "title": "Breakfast at The Varsity",
-        "description": "The world's largest drive-in, open since 1928, runs on controlled chaos — and a chili dog with a Frosted Orange at 8am is as Atlanta as it gets.",
+        "description": "The world's largest drive-in, open since 1928, runs on controlled chaos, and a chili dog with a Frosted Orange at 8am is as Atlanta as it gets.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 mins",
@@ -867,14 +867,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order by mimicking exactly how the counter staff shouts — 'What'll ya have?' — and don't break character.",
+        "bonus": "Order by mimicking exactly how the counter staff shouts, 'What'll ya have?', and don't break character.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/The+Varsity+Atlanta+GA"
       },
       {
         "id": "ATL-F-1",
         "title": "Dinner at The Colonnade Restaurant",
-        "description": "Open since 1927, The Colonnade serves the definitive Atlanta Sunday-supper plate — fried chicken, creamed corn, and yeast rolls — in a dining room that hasn't needed to change a thing.",
+        "description": "Open since 1927, The Colonnade serves the definitive Atlanta Sunday-supper plate (fried chicken, creamed corn, and yeast rolls) in a dining room that hasn't needed to change a thing.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -882,7 +882,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order the full fried chicken dinner and finish every side — ask your server which one most people leave behind.",
+        "bonus": "Order the full fried chicken dinner and finish every side. Ask your server which one most people leave behind.",
         "city": "Atlanta, GA",
         "mapsUrl": "https://www.google.com/maps/search/The+Colonnade+Restaurant+Atlanta+GA"
       },

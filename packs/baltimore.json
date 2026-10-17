@@ -9,7 +9,7 @@
       {
         "id": "BAL-C-301",
         "title": "Shoot Graffiti Alley",
-        "description": "Baltimore's only fully sanctioned graffiti space — an L-shaped alley off Howard Street repainted daily by writers who don't wait for permission — is never the same alley twice. Bring a camera.",
+        "description": "Baltimore's only fully sanctioned graffiti space, an L-shaped alley off Howard Street repainted daily by writers who don't wait for permission, is never the same alley twice. Bring a camera.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins–1 hr",
@@ -17,7 +17,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Come back a week later and photograph the exact same wall — diptych the change.",
+        "bonus": "Come back a week later and photograph the exact same wall, diptych the change.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://www.google.com/maps/search/Graffiti+Alley+Baltimore"
       },
@@ -42,7 +42,7 @@
       {
         "id": "BAL-C-104",
         "title": "Federal Hill Park Overlook",
-        "description": "The grass hill in South Baltimore with a full panoramic view of the Inner Harbor, the downtown skyline, and the Patapsco — best at sunset with something cold.",
+        "description": "The grass hill in South Baltimore with a full panoramic view of the Inner Harbor, the downtown skyline, and the Patapsco, best at sunset with something cold.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -60,7 +60,7 @@
       {
         "id": "BAL-C-106",
         "title": "Druid Hill Park Conservatory & Reservoir",
-        "description": "The Victorian park in Northwest Baltimore has a 19th-century glass conservatory, a reservoir loop road, and the city zoo — free to walk, wildly underappreciated.",
+        "description": "The Victorian park in Northwest Baltimore has a 19th-century glass conservatory, a reservoir loop road, and the city zoo, free to walk, wildly underappreciated.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -83,7 +83,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Count the distinct church steeples visible from the top of the pagoda — locals claim you can see at least seven.",
+        "bonus": "Count the distinct church steeples visible from the top of the pagoda. Locals claim you can see at least seven.",
         "city": "Baltimore, Maryland",
         "mapsUrl": "https://www.google.com/maps/search/Patterson+Park+Pagoda+Baltimore+MD"
       }
@@ -92,7 +92,7 @@
       {
         "id": "BAL-A-203",
         "title": "Sunrise Hike to the Top of Sugarloaf Mountain",
-        "description": "Sugarloaf is a privately owned monadnock rising 1,282 feet above the Maryland piedmont — hike to the summit before the crowds and you get the Chesapeake watershed in every direction.",
+        "description": "Sugarloaf is a privately owned monadnock rising 1,282 feet above the Maryland piedmont. Hike to the summit before the crowds and you get the Chesapeake watershed in every direction.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "4–5 hrs",
@@ -122,7 +122,7 @@
       {
         "id": "BAL-A-201",
         "title": "Canoeing at Loch Raven Reservoir",
-        "description": "Loch Raven's 2,400 acres of no-wake water and forested shoreline make it the most serene paddle within city limits — no motors, no crowds, just herons and quiet.",
+        "description": "Loch Raven's 2,400 acres of no-wake water and forested shoreline make it the most serene paddle within city limits: no motors, no crowds, just herons and quiet.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -136,7 +136,7 @@
       },
       {
         "id": "BAL-AC-201",
-        "title": "Clifton Park Golf Course — 9 Holes at Sunset",
+        "title": "Clifton Park Golf Course: 9 Holes at Sunset",
         "description": "Baltimore's oldest municipal course wraps around a Gilded Age mansion and plays best in the long light of a summer evening.",
         "rarity": "Common",
         "cost": "$",
@@ -152,7 +152,7 @@
       {
         "id": "BAL-A-103",
         "title": "National Aquarium Deep Dive",
-        "description": "The Inner Harbor's anchor institution has the Atlantic coral reef tank, the Amazon river forest, dolphins, and the jellyfish gallery — go on a weekday morning to own it.",
+        "description": "The Inner Harbor's anchor institution has the Atlantic coral reef tank, the Amazon river forest, dolphins, and the jellyfish gallery. Go on a weekday morning to own it.",
         "rarity": "Common",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -167,7 +167,7 @@
       {
         "id": "BAL-A-105",
         "title": "Chesapeake Bay Kayak from Canton",
-        "description": "Launch from the Canton waterfront and paddle the harbor — past the Domino Sugar sign, the shipyard cranes, and under the Key Bridge with the city skyline behind you.",
+        "description": "Launch from the Canton waterfront and paddle the harbor: past the Domino Sugar sign, the shipyard cranes, and under the Key Bridge with the city skyline behind you.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -181,8 +181,8 @@
       },
       {
         "id": "BAL-AC-106",
-        "title": "Herring Run Park Trail — Northeast Baltimore",
-        "description": "The 375-acre greenway in Northeast Baltimore follows Herring Run through forest and meadow — popular with birders, zero tourists, and genuinely wild for an urban park.",
+        "title": "Herring Run Park Trail: Northeast Baltimore",
+        "description": "The 375-acre greenway in Northeast Baltimore follows Herring Run through forest and meadow: popular with birders, zero tourists, and genuinely wild for an urban park.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -190,14 +190,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Count how many bird species you spot in one hour — the record is 47.",
+        "bonus": "Count how many bird species you spot in one hour. The record is 47.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Herring+Run+Park+Baltimore"
       },
       {
         "id": "BAL-AC-108",
         "title": "Inner Harbor Waterfront Bike Circuit",
-        "description": "Bike the full Inner Harbor loop from Canton to Federal Hill on the waterfront promenade — 5 miles, waterfront the entire way, and every Baltimore landmark passes by your left shoulder.",
+        "description": "Bike the full Inner Harbor loop from Canton to Federal Hill on the waterfront promenade: 5 miles, waterfront the entire way, and every Baltimore landmark passes by your left shoulder.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -212,7 +212,7 @@
       {
         "id": "BAL-AC-107",
         "title": "Wyman Park Strava Segment",
-        "description": "The loop through Wyman Park, past the BMA and Johns Hopkins Homewood campus, is Baltimore's best short urban run — 2.5 miles of tree cover, hills, and architecture.",
+        "description": "The loop through Wyman Park, past the BMA and Johns Hopkins Homewood campus, is Baltimore's best short urban run: 2.5 miles of tree cover, hills, and architecture.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -227,7 +227,7 @@
       {
         "id": "BAL-A-102",
         "title": "B&O Railroad Museum Roundhouse",
-        "description": "The birthplace of American railroading — the 1884 roundhouse still contains the original locomotives and the collection spans the entire history of American rail in one enormous building.",
+        "description": "The birthplace of American railroading, the 1884 roundhouse still contains the original locomotives and the collection spans the entire history of American rail in one enormous building.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -242,7 +242,7 @@
       {
         "id": "BAL-AC-102",
         "title": "Gwynns Falls Trail West Side Loop",
-        "description": "The 15-mile trail along Gwynns Falls through West Baltimore connects 30 neighborhoods and passes through some of the city's oldest parks — the forest sections feel nothing like Baltimore.",
+        "description": "The 15-mile trail along Gwynns Falls through West Baltimore connects 30 neighborhoods and passes through some of the city's oldest parks, the forest sections feel nothing like Baltimore.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -257,7 +257,7 @@
       {
         "id": "BAL-A-106",
         "title": "Edgar Allan Poe House & Grave",
-        "description": "The tiny rowhouse where Poe wrote 'Berenice' and 'Morella' is preserved exactly — then walk to Westminster Hall to find his grave and the mysterious Poe Toaster's cognac bottle.",
+        "description": "The tiny rowhouse where Poe wrote 'Berenice' and 'Morella' is preserved exactly, then walk to Westminster Hall to find his grave and the mysterious Poe Toaster's cognac bottle.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -265,14 +265,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Read one Poe story in the house before you leave — they keep copies.",
+        "bonus": "Read one Poe story in the house before you leave. They keep copies.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Edgar+Allan+Poe+House+Baltimore"
       },
       {
         "id": "BAL-A-104",
         "title": "Maryland Science Center IMAX Night",
-        "description": "The five-story IMAX at the Inner Harbor waterfront museum runs evening shows that fill the whole field of vision — go for something you'd never normally watch and let the screen take over.",
+        "description": "The five-story IMAX at the Inner Harbor waterfront museum runs evening shows that fill the whole field of vision. Go for something you'd never normally watch and let the screen take over.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -280,14 +280,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sit in the dead center of the middle row — the exact sweet spot for the screen geometry.",
+        "bonus": "Sit in the dead center of the middle row, the exact sweet spot for the screen geometry.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Maryland+Science+Center+Baltimore"
       },
       {
         "id": "BAL-AC-101",
-        "title": "Jones Falls Trail — Inner Harbor to Lake Roland",
-        "description": "The urban trail follows the Jones Falls stream 12 miles from the Inner Harbor north through Charles Village, Hampden, and Roland Park to Lake Roland — flat, continuous, and remarkable for a city trail.",
+        "title": "Jones Falls Trail: Inner Harbor to Lake Roland",
+        "description": "The urban trail follows the Jones Falls stream 12 miles from the Inner Harbor north through Charles Village, Hampden, and Roland Park to Lake Roland: flat, continuous, and remarkable for a city trail.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -301,8 +301,8 @@
       },
       {
         "id": "BAL-AC-103",
-        "title": "North Central Rail Trail — Ashland to NCR",
-        "description": "The 20-mile crushed limestone rail trail heading north from the city through the Gunpowder River valley — flat, tree-canopied, and so far removed from Baltimore it feels like a different state.",
+        "title": "North Central Rail Trail: Ashland to NCR",
+        "description": "The 20-mile crushed limestone rail trail heading north from the city through the Gunpowder River valley: flat, tree-canopied, and so far removed from Baltimore it feels like a different state.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "4 hrs",
@@ -310,14 +310,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ride the full length out and back — 40 miles, start before 7am.",
+        "bonus": "Ride the full length out and back. 40 miles, start before 7am.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=North+Central+Rail+Trail+Baltimore"
       },
       {
         "id": "BAL-AC-104",
         "title": "Hampden 36th Street Avenue Walk",
-        "description": "The Avenue in Hampden is Baltimore's most interesting block — vintage shops, independent bookstores, the hon culture in full effect, Cafe Hon, and Atomic Books where John Waters has a section.",
+        "description": "The Avenue in Hampden is Baltimore's most interesting block: vintage shops, independent bookstores, the hon culture in full effect, Cafe Hon, and Atomic Books where John Waters has a section.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -332,7 +332,7 @@
       {
         "id": "BAL-A-101",
         "title": "Fort McHenry at Dawn",
-        "description": "Where the Star-Spangled Banner was written — the star-shaped fort at the mouth of the harbor is best before 8am when the flag is raised and the harbor is empty.",
+        "description": "Where the Star-Spangled Banner was written, the star-shaped fort at the mouth of the harbor is best before 8am when the flag is raised and the harbor is empty.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -362,7 +362,7 @@
       {
         "id": "BALT-AC-04",
         "title": "Sunrise Rowing on the Patapsco with Baltimore Rowing Club",
-        "description": "Baltimore Rowing Club has been launching shells from Cherry Hill since 1982 — a 6am row on the Patapsco is the kind of morning that recalibrates everything.",
+        "description": "Baltimore Rowing Club has been launching shells from Cherry Hill since 1982. A 6am row on the Patapsco is the kind of morning that recalibrates everything.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -370,14 +370,14 @@
         "time": "Morning",
         "season": "Apr–Nov",
         "spark": 40,
-        "bonus": "Keep your blade catches clean for a full 500-meter stretch — if you splash, you owe the cox a coffee.",
+        "bonus": "Keep your blade catches clean for a full 500-meter stretch. If you splash, you owe the cox a coffee.",
         "city": "Baltimore, Maryland",
         "mapsUrl": "https://www.google.com/maps/search/Baltimore+Rowing+Club+MD"
       },
       {
         "id": "BALT-AC-03",
         "title": "Swim at Druid Hill Park Pool",
-        "description": "Druid Hill's massive outdoor public pool is the social hub of Baltimore summers — lanes for laps, open swim for everyone, and no pretense whatsoever.",
+        "description": "Druid Hill's massive outdoor public pool is the social hub of Baltimore summers: lanes for laps, open swim for everyone, and no pretense whatsoever.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -392,7 +392,7 @@
       {
         "id": "BALT-AC-02",
         "title": "Bike the Baltimore Waterfront Promenade",
-        "description": "The seven-mile Waterfront Promenade connects Fells Point to Locust Point along the harbor edge — rent a Citi Bike and ride it end to end without stopping.",
+        "description": "The seven-mile Waterfront Promenade connects Fells Point to Locust Point along the harbor edge. Rent a Citi Bike and ride it end to end without stopping.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -400,14 +400,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stop at the Living Classrooms dock in Fells Point and talk to whoever is working the water — ask them what they saw this morning.",
+        "bonus": "Stop at the Living Classrooms dock in Fells Point and talk to whoever is working the water. Ask them what they saw this morning.",
         "city": "Baltimore, Maryland",
         "mapsUrl": "https://www.google.com/maps/search/Baltimore+Waterfront+Promenade+MD"
       },
       {
         "id": "BALT-AC-01",
         "title": "Run the Lake Montebello Loop",
-        "description": "The 1.5-mile paved loop around Lake Montebello in Northeast Baltimore is where serious Baltimore runners train — it's flat, fast, and every lap feels like you belong here.",
+        "description": "The 1.5-mile paved loop around Lake Montebello in Northeast Baltimore is where serious Baltimore runners train. It's flat, fast, and every lap feels like you belong here.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–60 mins",
@@ -415,14 +415,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run three full laps without stopping and nod to every runner you pass — see how many nod back.",
+        "bonus": "Run three full laps without stopping and nod to every runner you pass. See how many nod back.",
         "city": "Baltimore, Maryland",
         "mapsUrl": "https://www.google.com/maps/search/Lake+Montebello+Baltimore+MD"
       },
       {
         "id": "BALT-A-03",
-        "title": "Climb at Movement Timonium — Baltimore's Home Wall",
-        "description": "Baltimore climbers have cut their teeth on these walls since 2002, when it opened as Earth Treks — now Movement, still the region's proving ground.",
+        "title": "Climb at Movement Timonium: Baltimore's Home Wall",
+        "description": "Baltimore climbers have cut their teeth on these walls since 2002, when it opened as Earth Treks, now Movement, still the region's proving ground.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -437,7 +437,7 @@
       {
         "id": "BALT-A-02",
         "title": "Hike the Gwynns Falls Trail Through Leakin Park",
-        "description": "Seven miles of forest trail inside city limits that somehow feels like the Appalachians — Baltimore's best-kept outdoor secret.",
+        "description": "Seven miles of forest trail inside city limits that somehow feels like the Appalachians, Baltimore's best-kept outdoor secret.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -452,7 +452,7 @@
       {
         "id": "BALT-A-01",
         "title": "Kayak the Inner Harbor with Waterfront Kayak",
-        "description": "Paddle past the USS Constellation and the skyline from water level — the city looks completely different from a kayak.",
+        "description": "Paddle past the USS Constellation and the skyline from water level. The city looks completely different from a kayak.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -469,7 +469,7 @@
       {
         "id": "BAL-S-202",
         "title": "Listening Room Show at An die Musik",
-        "description": "This intimate Charles Street record shop and live room books jazz, classical, and experimental acts in a space so small you can hear the performers breathe — buy a ticket, take a seat, actually listen.",
+        "description": "This intimate Charles Street record shop and live room books jazz, classical, and experimental acts in a space so small you can hear the performers breathe. Buy a ticket, take a seat, actually listen.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -484,7 +484,7 @@
       {
         "id": "BAL-S-201",
         "title": "A Pie at Matthew's Pizza, Highlandtown",
-        "description": "Open since 1943, Matthew's is Baltimore's oldest pizzeria — a tiny Eastern Avenue room turning out crispy, cheese-heavy pies and the crab pie that locals argue about with religious intensity.",
+        "description": "Open since 1943, Matthew's is Baltimore's oldest pizzeria, a tiny Eastern Avenue room turning out crispy, cheese-heavy pies and the crab pie that locals argue about with religious intensity.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -499,7 +499,7 @@
       {
         "id": "BAL-S-103",
         "title": "Ottobar Indie Show in Charles Village",
-        "description": "The storied indie rock venue on Howard Street books the artists two years before they're famous — small, sweaty, and the floor shakes when the bass drops.",
+        "description": "The storied indie rock venue on Howard Street books the artists two years before they're famous: small, sweaty, and the floor shakes when the bass drops.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -507,7 +507,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Talk to the opening band after their set — they're not famous yet and they'll remember you.",
+        "bonus": "Talk to the opening band after their set. They're not famous yet and they'll remember you.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=The+Ottobar+Baltimore"
       },
@@ -522,7 +522,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order something on cask — not the filtered stuff.",
+        "bonus": "Order something on cask, not the filtered stuff.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=The+Wharf+Rat+Fells+Point+Baltimore",
         "adult": true
@@ -530,7 +530,7 @@
       {
         "id": "BAL-S-102",
         "title": "Club Charles on Charles Street",
-        "description": "John Waters' regular bar, unchanged since the 1950s — neon Natty Boh sign, cheap drinks, taxidermy, the most interesting crowd in Baltimore at midnight on a Saturday.",
+        "description": "John Waters' regular bar, unchanged since the 1950s: neon Natty Boh sign, cheap drinks, taxidermy, the most interesting crowd in Baltimore at midnight on a Saturday.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -546,7 +546,7 @@
       {
         "id": "BAL-S-101",
         "title": "Max's Taphouse 100-Tap Beer Wall",
-        "description": "100+ taps in a Fells Point building that's been serving beer since before craft beer was a thing — the tap list is a document, the crowd is local, and nobody's pretending to be anything.",
+        "description": "100+ taps in a Fells Point building that's been serving beer since before craft beer was a thing. The tap list is a document, the crowd is local, and nobody's pretending to be anything.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -562,7 +562,7 @@
       {
         "id": "BAL-S-104",
         "title": "Bad Decisions Bar, Fells Point",
-        "description": "The neon-lit Fells Point dive that earns its name on weekend nights — cheap shots, loud music, and the kind of crowd that was definitely supposed to be somewhere else by now.",
+        "description": "The neon-lit Fells Point dive that earns its name on weekend nights: cheap shots, loud music, and the kind of crowd that was definitely supposed to be somewhere else by now.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -570,7 +570,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Make one genuinely bad decision — nothing illegal, just something you'll tell people about.",
+        "bonus": "Make one genuinely bad decision. Nothing illegal, just something you'll tell people about.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Bad+Decisions+Bar+Fells+Point+Baltimore",
         "adult": true
@@ -578,7 +578,7 @@
       {
         "id": "BAL-S-107",
         "title": "Soundstage at Power Plant Live",
-        "description": "The outdoor entertainment complex at the Inner Harbor comes alive on summer weekends — rooftop bars, live music on multiple stages, the whole city converging on one block.",
+        "description": "The outdoor entertainment complex at the Inner Harbor comes alive on summer weekends: rooftop bars, live music on multiple stages, the whole city converging on one block.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -594,7 +594,7 @@
       {
         "id": "BALT-S-04",
         "title": "Night Out on The Avenue in Hampden",
-        "description": "36th Street in Hampden is Baltimore's most authentically weird commercial strip — bar-hop from Golden West to Holy Frijoles and feel the city's actual personality.",
+        "description": "36th Street in Hampden is Baltimore's most authentically weird commercial strip, bar-hop from Golden West to Holy Frijoles and feel the city's actual personality.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–5 hrs",
@@ -610,7 +610,7 @@
       {
         "id": "BALT-S-01",
         "title": "Happy Hour at Mount Royal Tavern",
-        "description": "Mount Royal Tavern in Bolton Hill has been pouring cheap drinks to artists, students, and neighborhood regulars since 1966 — unpretentious, loud, and exactly right.",
+        "description": "Mount Royal Tavern in Bolton Hill has been pouring cheap drinks to artists, students, and neighborhood regulars since 1966: unpretentious, loud, and exactly right.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -643,7 +643,7 @@
       {
         "id": "BAL-C-101",
         "title": "American Visionary Art Museum",
-        "description": "The Federal Hill museum dedicated to self-taught and outsider art — the giant whirligig sculpture garden on the roof is free, the main collection is the most surprising museum in Maryland.",
+        "description": "The Federal Hill museum dedicated to self-taught and outsider art, the giant whirligig sculpture garden on the roof is free, the main collection is the most surprising museum in Maryland.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -658,7 +658,7 @@
       {
         "id": "BAL-S-108",
         "title": "Peabody Library Reading Room",
-        "description": "The George Peabody Library has a five-story atrium of cast iron balconies and 300,000 books — one of the most beautiful rooms in America, free to visit, consistently undervisited.",
+        "description": "The George Peabody Library has a five-story atrium of cast iron balconies and 300,000 books: one of the most beautiful rooms in America, free to visit, consistently undervisited.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "1 hr",
@@ -675,8 +675,8 @@
       },
       {
         "id": "BAL-C-102",
-        "title": "Baltimore Museum of Art — Matisse Vault",
-        "description": "Free always, the BMA holds the world's largest Matisse collection — the Cone Collection wing alone is worth the trip from anywhere on the East Coast.",
+        "title": "Baltimore Museum of Art: Matisse Vault",
+        "description": "Free always, the BMA holds the world's largest Matisse collection. The Cone Collection wing alone is worth the trip from anywhere on the East Coast.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -694,7 +694,7 @@
       {
         "id": "BAL-C-108",
         "title": "Mount Vernon Cultural Walk",
-        "description": "The Washington Monument predates DC's by 16 years — walk the four-block radius past the Peabody, the Walters, the clubs, and the 19th-century townhouses that define Baltimore's most beautiful neighborhood.",
+        "description": "The Washington Monument predates DC's by 16 years. Walk the four-block radius past the Peabody, the Walters, the clubs, and the 19th-century townhouses that define Baltimore's most beautiful neighborhood.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -702,14 +702,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Climb the Washington Monument column to the top — it's open on weekends for $6.",
+        "bonus": "Climb the Washington Monument column to the top. It's open on weekends for $6.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Mount+Vernon+Place+Baltimore"
       },
       {
         "id": "BALT-S-03",
         "title": "Orioles Game at Camden Yards",
-        "description": "Camden Yards opened in 1992 and instantly became the blueprint every new ballpark has chased since — baseball here still feels like baseball is supposed to feel.",
+        "description": "Camden Yards opened in 1992 and instantly became the blueprint every new ballpark has chased since. Baseball here still feels like baseball is supposed to feel.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -724,7 +724,7 @@
       {
         "id": "BALT-C-04",
         "title": "Walters Art Museum Free Admission Drop-In",
-        "description": "The Walters has been free and open to the public since 1934 — 55 centuries of art from Ancient Egypt to Art Nouveau in a pair of Renaissance palaces.",
+        "description": "The Walters has been free and open to the public since 1934, 55 centuries of art from Ancient Egypt to Art Nouveau in a pair of Renaissance palaces.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -739,7 +739,7 @@
       {
         "id": "BALT-C-03",
         "title": "Browse the Stacks at Normal's Book & Records",
-        "description": "Normal's in Station North has been stacking used books floor-to-ceiling alongside vinyl since 1984 — it smells like the best version of a rainy afternoon.",
+        "description": "Normal's in Station North has been stacking used books floor-to-ceiling alongside vinyl since 1984. It smells like the best version of a rainy afternoon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -774,7 +774,7 @@
       {
         "id": "BAL-F-104",
         "title": "Woodberry Kitchen in Clipper Mill",
-        "description": "Spike Gjerde's James Beard Award-winning farm-to-table landmark in a converted 19th-century mill — hyper-local sourcing, wood-fired everything, the menu changes with the season.",
+        "description": "Spike Gjerde's James Beard Award-winning farm-to-table landmark in a converted 19th-century mill: hyper-local sourcing, wood-fired everything, the menu changes with the season.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -782,7 +782,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask the server where every item on your plate came from — they'll know.",
+        "bonus": "Ask the server where every item on your plate came from, they'll know.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Woodberry+Kitchen+Baltimore"
       },
@@ -797,14 +797,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order something from the specials board only — nothing from the regular menu.",
+        "bonus": "Order something from the specials board only, nothing from the regular menu.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Ekiben+Baltimore"
       },
       {
         "id": "BAL-F-110",
         "title": "Pitango Gelato on Thames St",
-        "description": "Small-batch, ingredient-obsessed gelato made fresh daily in the Fells Point shop — the sea salt chocolate and seasonal sorbets are the reason the line stretches outside on summer nights.",
+        "description": "Small-batch, ingredient-obsessed gelato made fresh daily in the Fells Point shop, the sea salt chocolate and seasonal sorbets are the reason the line stretches outside on summer nights.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -819,7 +819,7 @@
       {
         "id": "BAL-F-101",
         "title": "Faidley's Crab Cake, Lexington Market",
-        "description": "The crab cake that wins every blind tasting — jumbo lump, almost no filler, broiled not fried — eaten at the standing counter at Lexington Market the way it's been done since 1886.",
+        "description": "The crab cake that wins every blind tasting (jumbo lump, almost no filler, broiled not fried) eaten at the standing counter at Lexington Market the way it's been done since 1886.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "45 min",
@@ -827,14 +827,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Order two and eat them both — no sides, no bread, just crab.",
+        "bonus": "Order two and eat them both: no sides, no bread, just crab.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Faidley%27s+Seafood+Lexington+Market+Baltimore"
       },
       {
         "id": "BAL-F-107",
         "title": "Thames Street Oyster House Raw Bar",
-        "description": "The serious oyster program in a cobblestone Fells Point building — a rotating selection of East and West Coast bivalves, ranked on a blackboard, eaten at the marble bar.",
+        "description": "The serious oyster program in a cobblestone Fells Point building: a rotating selection of East and West Coast bivalves, ranked on a blackboard, eaten at the marble bar.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5 hrs",
@@ -849,7 +849,7 @@
       {
         "id": "BAL-F-108",
         "title": "Nick's Fish House on the Patapsco",
-        "description": "The South Baltimore waterfront dive where steamed crabs land on newspaper and the deck hangs over the Patapsco — the view is better than the address suggests.",
+        "description": "The South Baltimore waterfront dive where steamed crabs land on newspaper and the deck hangs over the Patapsco. The view is better than the address suggests.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -857,14 +857,14 @@
         "time": "Afternoon",
         "season": "Summer",
         "spark": 15,
-        "bonus": "Eat the entire dozen without using any tools — hands only.",
+        "bonus": "Eat the entire dozen without using any tools, hands only.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Nick%27s+Fish+House+Baltimore"
       },
       {
         "id": "BAL-F-109",
         "title": "Brewer's Art Belgian Beer Mansion",
-        "description": "A Belgian beer bar and restaurant in a converted Charles Street mansion — the Resurrection double is brewed in-house, the upstairs dining room has exposed brick and dark wood.",
+        "description": "A Belgian beer bar and restaurant in a converted Charles Street mansion. The Resurrection double is brewed in-house, the upstairs dining room has exposed brick and dark wood.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -872,7 +872,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Drink the Resurrection on draft — don't substitute for a bottle.",
+        "bonus": "Drink the Resurrection on draft. Don't substitute for a bottle.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=Brewer%27s+Art+Baltimore",
         "adult": true
@@ -880,7 +880,7 @@
       {
         "id": "BAL-F-103",
         "title": "Bertha's Mussels in Fells Point",
-        "description": "The Fells Point bar that put the 'Eat Bertha's Mussels' bumper sticker on every car in Baltimore — 30+ mussel preparations, pints of Bertha's Best Bitter, live jazz on weekends.",
+        "description": "The Fells Point bar that put the 'Eat Bertha's Mussels' bumper sticker on every car in Baltimore: 30+ mussel preparations, pints of Bertha's Best Bitter, live jazz on weekends.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -895,7 +895,7 @@
       {
         "id": "BAL-F-105",
         "title": "The Helmand Afghan Restaurant",
-        "description": "The Afghan restaurant on Charles Street owned by Hamid Karzai's brother — the pumpkin with yogurt and meat sauce is the most famous dish in Baltimore that nobody outside Baltimore knows about.",
+        "description": "The Afghan restaurant on Charles Street owned by Hamid Karzai's brother, the pumpkin with yogurt and meat sauce is the most famous dish in Baltimore that nobody outside Baltimore knows about.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -903,14 +903,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order the aushak dumplings AND the pumpkin — not one or the other.",
+        "bonus": "Order the aushak dumplings AND the pumpkin, not one or the other.",
         "city": "Baltimore, MD",
         "mapsUrl": "https://maps.google.com/?q=The+Helmand+Restaurant+Baltimore"
       },
       {
         "id": "BALT-F-04",
         "title": "Tasting Menu at Charleston",
-        "description": "Charleston has anchored Baltimore's fine dining scene since 1997 with Cindy Wolf's Low Country–influenced cooking — this is the meal locals save for the moments that matter.",
+        "description": "Charleston has anchored Baltimore's fine dining scene since 1997 with Cindy Wolf's Low Country–influenced cooking. This is the meal locals save for the moments that matter.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -918,14 +918,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask the sommelier to pair one unexpected glass — something you've never heard of — and describe why it works before you taste it.",
+        "bonus": "Ask the sommelier to pair one unexpected glass, something you've never heard of, and describe why it works before you taste it.",
         "city": "Baltimore, Maryland",
         "mapsUrl": "https://www.google.com/maps/search/Charleston+Restaurant+Baltimore+MD"
       },
       {
         "id": "BALT-F-03",
         "title": "Steamed Crabs at LP Steamers",
-        "description": "LP Steamers in Locust Point has been piling Old Bay–drenched blue crabs on brown paper tables since the neighborhood was all dockworkers — eat with your hands, no apologies.",
+        "description": "LP Steamers in Locust Point has been piling Old Bay–drenched blue crabs on brown paper tables since the neighborhood was all dockworkers. Eat with your hands, no apologies.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -933,14 +933,14 @@
         "time": "Afternoon",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Ask the server to crack your first crab in front of you and watch closely — then crack the rest yourself without asking for help.",
+        "bonus": "Ask the server to crack your first crab in front of you and watch closely, then crack the rest yourself without asking for help.",
         "city": "Baltimore, Maryland",
         "mapsUrl": "https://www.google.com/maps/search/LP+Steamers+Baltimore+MD"
       },
       {
         "id": "BALT-F-02",
         "title": "Pit Beef at Chaps Charcoal Restaurant",
-        "description": "Chaps has been grilling beef over charcoal on Pulaski Highway since 1987 — this roadside institution is Baltimore's answer to BBQ and it beats anything with a Michelin star.",
+        "description": "Chaps has been grilling beef over charcoal on Pulaski Highway since 1987. This roadside institution is Baltimore's answer to BBQ and it beats anything with a Michelin star.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -955,7 +955,7 @@
       {
         "id": "BALT-F-01",
         "title": "Breakfast Sandwich at Atwater's Belvedere Square",
-        "description": "Atwater's has been baking sourdough and feeding Baltimore proper since 2001 — the egg sandwich on house-baked bread is the city's most underrated morning ritual.",
+        "description": "Atwater's has been baking sourdough and feeding Baltimore proper since 2001. The egg sandwich on house-baked bread is the city's most underrated morning ritual.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",

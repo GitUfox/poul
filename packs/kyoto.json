@@ -474,7 +474,7 @@
       {
         "id": "KYO-C-06",
         "title": "The Kamo River Bank at Dusk",
-        "description": "Between Shijo and Sanjo the whole city comes down to sit on the grass in an evenly spaced row and watch the light go — students, couples, salarymen, buskers.",
+        "description": "Between Shijo and Sanjo the whole city comes down to sit on the grass in an evenly spaced row and watch the light go: students, couples, salarymen, buskers.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -725,7 +725,7 @@
       {
         "id": "KYO-F-08",
         "title": "Eat at the Stall at Nishiki Market",
-        "description": "Four hundred years of covered market in a lane five metres wide — tamagoyaki, pickles, soy milk doughnuts, grilled eel — eaten standing at the counter you bought it from.",
+        "description": "Four hundred years of covered market in a lane five metres wide (tamagoyaki, pickles, soy milk doughnuts, grilled eel) eaten standing at the counter you bought it from.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -753,7 +753,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Do not ask what is coming next — let the whole set menu land unannounced.",
+        "bonus": "Do not ask what is coming next. Let the whole set menu land unannounced.",
         "city": "Kyoto, Japan",
         "mapsUrl": "https://maps.google.com/maps/search/Monk+restaurant+Philosophers+Path+Kyoto",
         "company": [
@@ -946,7 +946,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 13,
-        "bonus": "Find the small stone jizo figures hidden in the moss — there are more than you will spot first time.",
+        "bonus": "Find the small stone jizo figures hidden in the moss. There are more than you will spot first time.",
         "city": "Kyoto, Japan",
         "mapsUrl": "https://maps.google.com/maps/search/Sanzenin+Ohara+Kyoto",
         "company": [

@@ -72,7 +72,7 @@
       {
         "id": "CMH-S-08",
         "title": "A Gig at Ace of Cups",
-        "description": "A small Old North room with a big booking calendar — touring indie and punk acts playing close enough to hear the amps rather than the PA.",
+        "description": "A small Old North room with a big booking calendar, touring indie and punk acts playing close enough to hear the amps rather than the PA.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -152,7 +152,7 @@
       {
         "id": "CMH-S-01",
         "title": "Buckeyes Saturday in the Horseshoe",
-        "description": "One hundred thousand people in Ohio Stadium, the script Ohio at halftime, and a city that shuts down around it — the single biggest thing that happens in Columbus.",
+        "description": "One hundred thousand people in Ohio Stadium, the script Ohio at halftime, and a city that shuts down around it. The single biggest thing that happens in Columbus.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "5 hrs",
@@ -210,7 +210,7 @@
       {
         "id": "CMH-S-07",
         "title": "Duckpin Bowling at Pins Mechanical",
-        "description": "Duckpin lanes, pinball, foosball and a giant Jenga set across a cavernous Short North bar — the birthplace of a concept that spread to a dozen cities.",
+        "description": "Duckpin lanes, pinball, foosball and a giant Jenga set across a cavernous Short North bar, the birthplace of a concept that spread to a dozen cities.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -309,7 +309,7 @@
       {
         "id": "CMH-CU-02",
         "title": "Decode the Wexner Center Building",
-        "description": "Peter Eisenman's deconstructivist landmark on the Ohio State campus — a building of deliberately colliding grids that houses some of the most adventurous art programming in the Midwest.",
+        "description": "Peter Eisenman's deconstructivist landmark on the Ohio State campus, a building of deliberately colliding grids that houses some of the most adventurous art programming in the Midwest.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -387,7 +387,7 @@
       {
         "id": "CMH-CU-07",
         "title": "Columbus Symphony at the Ohio Theatre",
-        "description": "A 1928 Spanish-Baroque movie palace saved from demolition and restored to absurd gilded excess, now the symphony's home — the room is half the experience.",
+        "description": "A 1928 Spanish-Baroque movie palace saved from demolition and restored to absurd gilded excess, now the symphony's home. The room is half the experience.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -506,7 +506,7 @@
       {
         "id": "CMH-A-13",
         "title": "Hike the Ridge Trail at Clear Creek",
-        "description": "Ohio's largest nature preserve — a 5,000-acre valley of hemlock ravines and dry ridge prairie with far fewer people in it than Hocking Hills next door.",
+        "description": "Ohio's largest nature preserve, a 5,000-acre valley of hemlock ravines and dry ridge prairie with far fewer people in it than Hocking Hills next door.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -565,7 +565,7 @@
       {
         "id": "CMH-A-08",
         "title": "Hit the Bays at Topgolf Polaris",
-        "description": "Heated, climate-controlled hitting bays with self-scoring balls, food and a full bar — the plan that works whether or not anyone can actually golf.",
+        "description": "Heated, climate-controlled hitting bays with self-scoring balls, food and a full bar. The plan that works whether or not anyone can actually golf.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -682,7 +682,7 @@
       {
         "id": "CMH-A-04",
         "title": "Mountain Bike the Alum Creek Trail System",
-        "description": "Central Ohio's best singletrack — miles of stacked loops above Alum Creek Reservoir, graded so you can pick your own level of pain.",
+        "description": "Central Ohio's best singletrack, miles of stacked loops above Alum Creek Reservoir, graded so you can pick your own level of pain.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -781,7 +781,7 @@
       {
         "id": "CMH-F-04",
         "title": "Pancake Balls at Katalina's",
-        "description": "A converted 1920s filling station doing the city's signature breakfast — pancake balls filled with dulce de leche, plus Mexican-leaning plates alongside them.",
+        "description": "A converted 1920s filling station doing the city's signature breakfast, pancake balls filled with dulce de leche, plus Mexican-leaning plates alongside them.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -800,7 +800,7 @@
       {
         "id": "CMH-F-01",
         "title": "Graze Your Way Through North Market",
-        "description": "A public market running since 1876 where Jeni's started and thirty-odd merchants now share one floor — built for eating four small things instead of one big one.",
+        "description": "A public market running since 1876 where Jeni's started and thirty-odd merchants now share one floor, built for eating four small things instead of one big one.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -860,7 +860,7 @@
       {
         "id": "CMH-F-07",
         "title": "The Tasting Menu at Veritas",
-        "description": "Josh Dalton's downtown counter is the city's reference fine-dining room — a long, precise tasting menu and a wine list built to argue with it.",
+        "description": "Josh Dalton's downtown counter is the city's reference fine-dining room, a long, precise tasting menu and a wine list built to argue with it.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -878,7 +878,7 @@
       {
         "id": "CMH-F-06",
         "title": "Morning Bun at Fox in the Snow",
-        "description": "An Italian Village bakery with no wifi, no laptops and an open kitchen — just a case of egg sandwiches and morning buns that sell out before lunch.",
+        "description": "An Italian Village bakery with no wifi, no laptops and an open kitchen, just a case of egg sandwiches and morning buns that sell out before lunch.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -917,7 +917,7 @@
       {
         "id": "CMH-F-10",
         "title": "Beer-Paired Dinner at Wolf's Ridge",
-        "description": "One of the few breweries in the country whose dining room is the reason to go — a proper kitchen downtown building courses around its own beer.",
+        "description": "One of the few breweries in the country whose dining room is the reason to go, a proper kitchen downtown building courses around its own beer.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -936,7 +936,7 @@
       {
         "id": "CMH-F-08",
         "title": "Pasta and Amaro at Speck Italian Eatery",
-        "description": "The easier, louder sibling to Veritas from the same kitchen — handmade pasta, wood-fired plates and a bar list that leans hard into amari.",
+        "description": "The easier, louder sibling to Veritas from the same kitchen, handmade pasta, wood-fired plates and a bar list that leans hard into amari.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -955,7 +955,7 @@
       {
         "id": "CMH-F-09",
         "title": "Dinner at Watershed Kitchen + Bar",
-        "description": "The restaurant attached to the distillery — a seasonal menu built to sit beside the bourbon being made through the wall, in a big airy room off Grandview.",
+        "description": "The restaurant attached to the distillery. A seasonal menu built to sit beside the bourbon being made through the wall, in a big airy room off Grandview.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -1094,7 +1094,7 @@
       {
         "id": "CMH-C-10",
         "title": "Stand in the Field of Corn",
-        "description": "One hundred and nine six-foot concrete ears of corn standing in rows in a suburban park — the strangest and most beloved public artwork in central Ohio.",
+        "description": "One hundred and nine six-foot concrete ears of corn standing in rows in a suburban park, the strangest and most beloved public artwork in central Ohio.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -1114,7 +1114,7 @@
       {
         "id": "CMH-C-02",
         "title": "Find the Seurat Painting at the Topiary Park",
-        "description": "The only topiary interpretation of a painting in the world — Seurat's La Grande Jatte rebuilt in clipped yew, fifty-four figures standing on a lawn downtown.",
+        "description": "The only topiary interpretation of a painting in the world, Seurat's La Grande Jatte rebuilt in clipped yew, fifty-four figures standing on a lawn downtown.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",

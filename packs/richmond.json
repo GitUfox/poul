@@ -322,7 +322,7 @@
       {
         "id": "RVA-F-04",
         "title": "Order the Full Plate at Mama J's",
-        "description": "Velma Johnson's Jackson Ward soul food kitchen — fried catfish, candied yams, cornbread — cooked the way her mother taught her.",
+        "description": "Velma Johnson's Jackson Ward soul food kitchen (fried catfish, candied yams, cornbread) cooked the way her mother taught her.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -556,7 +556,7 @@
       {
         "id": "RVA-C-05",
         "title": "Do Carytown End to End on Foot",
-        "description": "Nine blocks of independent shops, vintage racks and coffee counters with almost no chains — the easiest low-effort afternoon in the city.",
+        "description": "Nine blocks of independent shops, vintage racks and coffee counters with almost no chains, the easiest low-effort afternoon in the city.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -954,7 +954,7 @@
       {
         "id": "RVA-A-10",
         "title": "Roam the Hundred Acres of Maymont",
-        "description": "A Gilded Age estate given to the city, with a Japanese garden, an Italian garden, a waterfall and a bear — all of it free to walk into.",
+        "description": "A Gilded Age estate given to the city, with a Japanese garden, an Italian garden, a waterfall and a bear, all of it free to walk into.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -1112,7 +1112,7 @@
       {
         "id": "RVA-A-06",
         "title": "Claim a Rock at Pony Pasture Rapids",
-        "description": "The city's favourite stretch of swimmable river — flat granite shelves, shallow rapids and a whole neighbourhood's worth of people doing nothing all afternoon.",
+        "description": "The city's favourite stretch of swimmable river, flat granite shelves, shallow rapids and a whole neighbourhood's worth of people doing nothing all afternoon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -1154,7 +1154,7 @@
       {
         "id": "RVA-8B-02",
         "title": "Eight Ball: Scott's Addition Until It Runs Out",
-        "description": "Start at any door in Scott's Addition and keep walking to the next producer until the neighbourhood closes on you — brewery, cidery, meadery, no skipping.",
+        "description": "Start at any door in Scott's Addition and keep walking to the next producer until the neighbourhood closes on you: brewery, cidery, meadery, no skipping.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "6 hrs",
@@ -1175,7 +1175,7 @@
       {
         "id": "RVA-8B-01",
         "title": "Eight Ball: River First, Decide Later",
-        "description": "Get on the James however you can — raft, tube, board or just a rock at Pony Pasture — then eat at the first place you find with a patio.",
+        "description": "Get on the James however you can (raft, tube, board or just a rock at Pony Pasture) then eat at the first place you find with a patio.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "5 hrs",

@@ -9,7 +9,7 @@
       {
         "id": "DUB-F-11",
         "title": "Whiskey Flight at Teeling Distillery",
-        "description": "The first new distillery to open in Dublin in over a century — walk the copper stills in the Liberties, then taste three side by side.",
+        "description": "The first new distillery to open in Dublin in over a century. Walk the copper stills in the Liberties, then taste three side by side.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -123,7 +123,7 @@
       {
         "id": "DUB-F-07",
         "title": "Coffee Nerdery at 3fe",
-        "description": "The roastery that dragged Irish coffee culture into the present — order the filter and let them talk you through it.",
+        "description": "The roastery that dragged Irish coffee culture into the present. Order the filter and let them talk you through it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -161,7 +161,7 @@
       },
       {
         "id": "DUB-F-01",
-        "title": "Oysters and a pint at The Brazen Head",
+        "title": "Oysters and a Pint at The Brazen Head",
         "description": "Crack open a dozen oysters at Ireland's oldest pub, pouring since 1198, with a stout to wash it down.",
         "rarity": "Common",
         "cost": "$$",
@@ -191,7 +191,7 @@
       },
       {
         "id": "DUB-F-03",
-        "title": "Cheese and charcuterie tasting at Sheridans Cheesemongers",
+        "title": "Cheese and Charcuterie Tasting at Sheridans Cheesemongers",
         "description": "Taste your way across a counter piled with Irish farmhouse cheeses and cured meats, one wedge at a time.",
         "rarity": "Common",
         "cost": "$$",
@@ -206,7 +206,7 @@
       },
       {
         "id": "DUB-F-04",
-        "title": "Tasting menu at Chapter One",
+        "title": "Tasting Menu at Chapter One",
         "description": "Sit down for a Michelin-starred tasting menu in a basement dining room beneath the Dublin Writers Museum.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -232,7 +232,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Book weeks ahead — it sells out constantly.",
+        "bonus": "Book weeks ahead. It sells out constantly.",
         "city": "Dublin, Ireland",
         "mapsUrl": "https://maps.google.com/maps/search/Kilmainham+Gaol+Dublin",
         "company": [
@@ -262,7 +262,7 @@
       {
         "id": "DUB-CU-06",
         "title": "Chained Books at Marsh's Library",
-        "description": "Ireland's first public library, opened 1707 and essentially unchanged — dark oak stalls, and wire cages readers were once locked into with the rare books.",
+        "description": "Ireland's first public library, opened 1707 and essentially unchanged, dark oak stalls, and wire cages readers were once locked into with the rare books.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -319,7 +319,7 @@
       {
         "id": "DUB-CU-07",
         "title": "The Glasnevin Cemetery Tour",
-        "description": "A genuinely gripping walk through 1.5 million graves — Collins, Parnell, de Valera — told as the history of modern Ireland in one field.",
+        "description": "A genuinely gripping walk through 1.5 million graves (Collins, Parnell, de Valera) told as the history of modern Ireland in one field.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -339,7 +339,7 @@
       {
         "id": "DUB-CU-08",
         "title": "Bloomsday in Costume",
-        "description": "Every 16 June the city re-enacts a single day in 1904 — straw hats, kidney for breakfast, and readings on the street corners where they happen in the book.",
+        "description": "Every 16 June the city re-enacts a single day in 1904: straw hats, kidney for breakfast, and readings on the street corners where they happen in the book.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "5 hrs",
@@ -532,7 +532,7 @@
       },
       {
         "id": "DUB-AC-03",
-        "title": "Indoor climb at Awesome Walls Climbing Centre",
+        "title": "Indoor Climb at Awesome Walls Climbing Centre",
         "description": "Work your way up bouldering walls and roped routes at one of Dublin's biggest climbing gyms.",
         "rarity": "Common",
         "cost": "$$",
@@ -562,7 +562,7 @@
       },
       {
         "id": "DUB-AC-04",
-        "title": "Run the full loop of Phoenix Park",
+        "title": "Run the Full Loop of Phoenix Park",
         "description": "Run the perimeter of one of Europe's largest enclosed city parks, past grazing deer and the President's residence.",
         "rarity": "Common",
         "cost": "$",
@@ -577,7 +577,7 @@
       },
       {
         "id": "DUB-A-02",
-        "title": "Kayak the River Liffey through the city center",
+        "title": "Kayak the River Liffey Through the City Center",
         "description": "Paddle a guided route straight through Dublin's docklands, gliding under bridges most tourists only ever see from above.",
         "rarity": "Rare",
         "cost": "$$",
@@ -592,7 +592,7 @@
       },
       {
         "id": "DUB-A-03",
-        "title": "Sunrise sea swim at the Forty Foot",
+        "title": "Sunrise Sea Swim at the Forty Foot",
         "description": "Join the locals who swim year-round off this famous rocky platform where the water is bracing no matter the season.",
         "rarity": "Rare",
         "cost": "$",
@@ -622,7 +622,7 @@
       },
       {
         "id": "DUB-A-01",
-        "title": "Walk the Howth Head cliff loop",
+        "title": "Walk the Howth Head Cliff Loop",
         "description": "Circle the rugged headland on a coastal trail with gorse-covered cliffs on one side and open Irish Sea on the other.",
         "rarity": "Common",
         "cost": "$",
@@ -659,7 +659,7 @@
       {
         "id": "DUB-S-07",
         "title": "Ring the Bell at the Vintage Cocktail Club",
-        "description": "An unmarked door in Crown Alley with a brass bell — ring it, get let in, and drink in a room that pretends the last sixty years did not happen.",
+        "description": "An unmarked door in Crown Alley with a brass bell. Ring it, get let in, and drink in a room that pretends the last sixty years did not happen.",
         "rarity": "Common",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -679,7 +679,7 @@
       {
         "id": "DUB-S-08",
         "title": "A Gig at Whelan's",
-        "description": "The Wexford Street venue every Irish band has played on the way up — buy a ticket for whoever is on without checking who they are.",
+        "description": "The Wexford Street venue every Irish band has played on the way up. Buy a ticket for whoever is on without checking who they are.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -797,7 +797,7 @@
       },
       {
         "id": "DUB-S-01",
-        "title": "Live trad session at The Cobblestone",
+        "title": "Live Trad Session at The Cobblestone",
         "description": "Squeeze into a packed corner of this Smithfield pub for an unamplified, unscripted traditional Irish music session.",
         "rarity": "Common",
         "cost": "$",
@@ -812,7 +812,7 @@
       },
       {
         "id": "DUB-S-04",
-        "title": "Match day at Croke Park for a GAA game",
+        "title": "Match Day at Croke Park for a GAA Game",
         "description": "Feel 80,000 fans roar at once inside Europe's third-largest stadium for a hurling or Gaelic football championship game.",
         "rarity": "Rare",
         "cost": "$$",
@@ -827,7 +827,7 @@
       },
       {
         "id": "DUB-S-02",
-        "title": "Pub crawl through Temple Bar",
+        "title": "Pub Crawl Through Temple Bar",
         "description": "Bounce between the cobblestone lanes of Dublin's liveliest district, live music spilling out of every doorway.",
         "rarity": "Rare",
         "cost": "$$",
@@ -938,7 +938,7 @@
       },
       {
         "id": "DUB-C-04",
-        "title": "Explore the Chester Beatty gallery and rooftop garden",
+        "title": "Explore the Chester Beatty Gallery and Rooftop Garden",
         "description": "Wander a free museum of illuminated manuscripts and ancient scrolls, then finish on its quiet rooftop garden overlooking Dublin Castle.",
         "rarity": "Common",
         "cost": "$",
@@ -953,7 +953,7 @@
       },
       {
         "id": "DUB-C-03",
-        "title": "Afternoon tea at The Shelbourne",
+        "title": "Afternoon Tea at The Shelbourne",
         "description": "Take a formal afternoon tea in one of Dublin's grandest hotels, tiered stands of scones and pastries included.",
         "rarity": "Rare",
         "cost": "$$$",
@@ -983,7 +983,7 @@
       },
       {
         "id": "DUB-C-02",
-        "title": "Wander St. Stephen's Green at golden hour",
+        "title": "Wander St. Stephen's Green at Golden Hour",
         "description": "Loop the paths of Dublin's best-loved city park as the light turns soft over the ponds and flowerbeds.",
         "rarity": "Common",
         "cost": "$",

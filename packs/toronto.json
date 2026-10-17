@@ -24,7 +24,7 @@
       {
         "id": "YYZ-C-10",
         "title": "Afternoon at Balzac's Coffee in the Distillery",
-        "description": "The former Corkin Gallery space inside the Distillery District turns a coffee break into something architectural — soaring ceilings, exposed brick, and a flat white worth the detour.",
+        "description": "The former Corkin Gallery space inside the Distillery District turns a coffee break into something architectural: soaring ceilings, exposed brick, and a flat white worth the detour.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -39,7 +39,7 @@
       {
         "id": "YYZ-C-9",
         "title": "Vinyl Dig at Rotate This on Ossington",
-        "description": "Toronto's most credible independent record shop has been the city's pulse for new and used vinyl since 1988 — every visit turns up something unexpected.",
+        "description": "Toronto's most credible independent record shop has been the city's pulse for new and used vinyl since 1988. Every visit turns up something unexpected.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -129,7 +129,7 @@
       {
         "id": "YYZ-C-2",
         "title": "Sit at the Tip of Trillium Park",
-        "description": "Ontario Place's neighbouring park on the western waterfront juts into the lake with sweeping 270-degree views of the harbour, islands, and skyline — and almost nobody goes there.",
+        "description": "Ontario Place's neighbouring park on the western waterfront juts into the lake with sweeping 270-degree views of the harbour, islands, and skyline, and almost nobody goes there.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -206,7 +206,7 @@
       {
         "id": "YYZ-C-1",
         "title": "Read for an Afternoon at the Toronto Reference Library",
-        "description": "Moriyama's soaring 1977 atrium library on Yonge Street is the finest public interior in Toronto — five floors of open light wells, real silence, and no agenda required.",
+        "description": "Moriyama's soaring 1977 atrium library on Yonge Street is the finest public interior in Toronto: five floors of open light wells, real silence, and no agenda required.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -214,7 +214,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Pick a book completely at random from the stacks — spine out, no reading the cover first — and read 20 pages.",
+        "bonus": "Pick a book completely at random from the stacks (spine out, no reading the cover first) and read 20 pages.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/Toronto+Reference+Library",
         "company": [
@@ -294,7 +294,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order a glass blind — tell them your budget and let the staff choose without giving them a single preference.",
+        "bonus": "Order a glass blind. Tell them your budget and let the staff choose without giving them a single preference.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grape+Witches+Toronto",
         "adult": true
@@ -302,7 +302,7 @@
       {
         "id": "YYZ-S-10",
         "title": "House Party Clubbing at Coda on Richmond",
-        "description": "Coda's underground room runs deep house and techno from serious DJs until well past 4 AM — the Toronto club night that actually measures up to its international reputation.",
+        "description": "Coda's underground room runs deep house and techno from serious DJs until well past 4 AM, the Toronto club night that actually measures up to its international reputation.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4–6 hrs",
@@ -310,7 +310,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Stay until the room is fully peak — after 2 AM — and dance to at least three consecutive tracks without leaving the floor.",
+        "bonus": "Stay until the room is fully peak, after 2 AM, and dance to at least three consecutive tracks without leaving the floor.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Coda+Nightclub+Toronto",
         "company": [
@@ -321,7 +321,7 @@
       {
         "id": "YYZ-S-9",
         "title": "Open Mic Night at The Rivoli on Queen West",
-        "description": "The Rivoli's back room has launched more Canadian careers than anywhere else on Queen West — show up on open mic night and you'll understand exactly why the city loves it.",
+        "description": "The Rivoli's back room has launched more Canadian careers than anywhere else on Queen West. Show up on open mic night and you'll understand exactly why the city loves it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -352,7 +352,7 @@
       {
         "id": "YYZ-S-6",
         "title": "Live Music at Horseshoe Tavern on Queen West",
-        "description": "Open since 1947, the Horseshoe is where The Tragically Hip and The Ramones both played small rooms — on any given Tuesday it still delivers the best live set in the city.",
+        "description": "Open since 1947, the Horseshoe is where The Tragically Hip and The Ramones both played small rooms, on any given Tuesday it still delivers the best live set in the city.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -367,7 +367,7 @@
       {
         "id": "YYZ-S-5",
         "title": "Beers at Get Well on Dundas West",
-        "description": "A Leslieville bar loaded with working arcade machines, a rotating craft tap list, and a crowd that never takes itself too seriously — the ideal neighbourhood detour.",
+        "description": "A Leslieville bar loaded with working arcade machines, a rotating craft tap list, and a crowd that never takes itself too seriously, the ideal neighbourhood detour.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -399,7 +399,7 @@
       {
         "id": "YYZ-S-1",
         "title": "Bar Night at Sweaty Betty's on Ossington",
-        "description": "This no-frills, cash-only dive bar in the Annex has been the neighbourhood's beating heart since 1996 — cheap beer, loud people, and zero pretension.",
+        "description": "This no-frills, cash-only dive bar in the Annex has been the neighbourhood's beating heart since 1996: cheap beer, loud people, and zero pretension.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -448,7 +448,7 @@
       {
         "id": "YYZ-AC-10",
         "title": "Pickup Basketball at Dufferin Grove Park",
-        "description": "The outdoor courts at Dufferin Grove are the most democratic basketball in the city — show up alone on a summer evening and you will be playing within five minutes.",
+        "description": "The outdoor courts at Dufferin Grove are the most democratic basketball in the city. Show up alone on a summer evening and you will be playing within five minutes.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -489,7 +489,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Swim a full kilometre — 40 lengths — without stopping at the wall for more than a breath.",
+        "bonus": "Swim a full kilometre, 40 lengths, without stopping at the wall for more than a breath.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Regent+Park+Aquatic+Centre+Toronto"
       },
@@ -504,7 +504,7 @@
         "time": "Evening",
         "season": "Jan–Mar",
         "spark": 15,
-        "bonus": "Do a full loop without stopping — including through the tightest curve beside the pillars.",
+        "bonus": "Do a full loop without stopping, including through the tightest curve beside the pillars.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Bentway+Toronto"
       },
@@ -534,14 +534,14 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 25,
-        "bonus": "Swim a full kilometre — 20 lengths — without stopping, then jump in the lake after.",
+        "bonus": "Swim a full kilometre, 20 lengths, without stopping, then jump in the lake after.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/Sunnyside+Gus+Ryder+Pool+Toronto"
       },
       {
         "id": "YYZ-AC-1",
         "title": "Run the Beltline Trail from Chaplin Crescent to Bayview",
-        "description": "The old Canadian Pacific rail corridor converted into a 9-kilometre midtown trail is the smoothest, most satisfying urban run in the city — flat, shaded, and completely car-free.",
+        "description": "The old Canadian Pacific rail corridor converted into a 9-kilometre midtown trail is the smoothest, most satisfying urban run in the city: flat, shaded, and completely car-free.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -556,7 +556,7 @@
       {
         "id": "YYZ-A-12",
         "title": "Storm the Graffiti Alley on Queen West",
-        "description": "The half-kilometre laneway running parallel to Queen West between Spadina and Portland is one long, open-air mural and it changes season to season — no two visits are the same.",
+        "description": "The half-kilometre laneway running parallel to Queen West between Spadina and Portland is one long, open-air mural and it changes season to season. No two visits are the same.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–60 mins",
@@ -571,7 +571,7 @@
       {
         "id": "YYZ-A-9",
         "title": "Wander the Underground PATH Network at Rush Hour",
-        "description": "The 30-kilometre underground pedestrian city beneath downtown Toronto is disorienting, maze-like, and completely surreal — navigating it without Google Maps is the real adventure.",
+        "description": "The 30-kilometre underground pedestrian city beneath downtown Toronto is disorienting, maze-like, and completely surreal. Navigating it without Google Maps is the real adventure.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -579,7 +579,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Get deliberately lost — put your phone away and find your way out using only the PATH signs.",
+        "bonus": "Get deliberately lost. Put your phone away and find your way out using only the PATH signs.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/Toronto+PATH+underground+walkway"
       },
@@ -594,7 +594,7 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 15,
-        "bonus": "Get in the water within five minutes of arriving — no warming up on the sand first.",
+        "bonus": "Get in the water within five minutes of arriving, no warming up on the sand first.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/Cherry+Beach+Toronto"
       },
@@ -631,7 +631,7 @@
       {
         "id": "YYZ-A-3",
         "title": "Explore the Don Valley Brick Works Trails",
-        "description": "Evergreen Brick Works sits inside a glacial ravine where heritage kilns, wetland ponds, and forest trails exist minutes from downtown — it's the city's best-kept green escape.",
+        "description": "Evergreen Brick Works sits inside a glacial ravine where heritage kilns, wetland ponds, and forest trails exist minutes from downtown. It's the city's best-kept green escape.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -738,7 +738,7 @@
       {
         "id": "YYZ-F-12",
         "title": "Omakase at Shoushin in Willowdale",
-        "description": "Chef Jackie Lin's intimate counter is Toronto's most quietly serious sushi experience — each piece lands like a small argument for perfection.",
+        "description": "Chef Jackie Lin's intimate counter is Toronto's most quietly serious sushi experience. Each piece lands like a small argument for perfection.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -753,7 +753,7 @@
       {
         "id": "YYZ-F-10",
         "title": "Late Dinner at Pai Northern Thai Kitchen",
-        "description": "The khao soi here — rich coconut curry broth, crispy noodles — is the dish that made Northern Thai cooking click for an entire generation of Toronto eaters.",
+        "description": "The khao soi here (rich coconut curry broth, crispy noodles) is the dish that made Northern Thai cooking click for an entire generation of Toronto eaters.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -792,14 +792,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask your server to pair every course with Canadian wine only — no imports.",
+        "bonus": "Ask your server to pair every course with Canadian wine only, no imports.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/Canoe+Restaurant+TD+Tower+Toronto"
       },
       {
         "id": "YYZ-F-6",
         "title": "Pizza at Pizzeria Libretto on Ossington",
-        "description": "Neapolitan-certified wood-fired pies in Ossington's coolest strip — the margherita here sets the Toronto standard.",
+        "description": "Neapolitan-certified wood-fired pies in Ossington's coolest strip. The margherita here sets the Toronto standard.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -837,14 +837,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order something off the cart you can't identify — eat it before you look it up.",
+        "bonus": "Order something off the cart you can't identify. Eat it before you look it up.",
         "city": "Toronto, ON",
         "mapsUrl": "https://maps.google.com/maps/search/Rol+San+388+Spadina+Ave+Toronto"
       },
       {
         "id": "YYZ-F-3",
         "title": "Late-Night Ramen at Sansotei on Dundas West",
-        "description": "Sansotei's tonkotsu is the benchmark ramen in Toronto — rich, porky, and calibrated perfectly — and it's best consumed after 10pm when the room finally quiets down.",
+        "description": "Sansotei's tonkotsu is the benchmark ramen in Toronto (rich, porky, and calibrated perfectly) and it's best consumed after 10pm when the room finally quiets down.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -859,7 +859,7 @@
       {
         "id": "YYZ-F-2",
         "title": "Dinner at Edulis on Niagara Street",
-        "description": "This 30-seat room in the Fashion District serves one of the most serious tasting menus in Canada — heavy on fungi, foraged ingredients, and quiet obsession.",
+        "description": "This 30-seat room in the Fashion District serves one of the most serious tasting menus in Canada: heavy on fungi, foraged ingredients, and quiet obsession.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -867,7 +867,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask the server to choose your wine pairing entirely blind — no descriptions, total trust.",
+        "bonus": "Ask the server to choose your wine pairing entirely blind, no descriptions, total trust.",
         "city": "Toronto, ON",
         "mapsUrl": "https://www.google.com/maps/search/Edulis+restaurant+Toronto"
       },

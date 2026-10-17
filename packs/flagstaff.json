@@ -9,7 +9,7 @@
       {
         "id": "FLG-AC-201",
         "title": "Public Skate at Jay Lively Activity Center",
-        "description": "Flagstaff's city ice rink runs cheap public-skate sessions year-round — wobble through your first laps or chase hockey-stop spray while the pines freeze outside.",
+        "description": "Flagstaff's city ice rink runs cheap public-skate sessions year-round, wobble through your first laps or chase hockey-stop spray while the pines freeze outside.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -17,14 +17,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Learn to skate backwards for one full lap — falling counts as trying.",
+        "bonus": "Learn to skate backwards for one full lap. Falling counts as trying.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Jay+Lively+Activity+Center+Flagstaff"
       },
       {
         "id": "FLG-A-203",
         "title": "Trail Ride at Hitchin' Post Stables",
-        "description": "This old-school outfit on Lake Mary Road has been putting riders on horseback through the pines and canyon country southeast of town for generations — no theatrics, just a real Western ride.",
+        "description": "This old-school outfit on Lake Mary Road has been putting riders on horseback through the pines and canyon country southeast of town for generations, no theatrics, just a real Western ride.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -39,7 +39,7 @@
       {
         "id": "FLG-A-202",
         "title": "Sycamore Falls at Paradise Forks",
-        "description": "This basalt gorge south of Williams pours snowmelt waterfalls in spring and draws Arizona's trad climbers year-round — walk the rim, watch the ropes go up, and peer into one of the state's least-known canyons.",
+        "description": "This basalt gorge south of Williams pours snowmelt waterfalls in spring and draws Arizona's trad climbers year-round. Walk the rim, watch the ropes go up, and peer into one of the state's least-known canyons.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -54,7 +54,7 @@
       {
         "id": "FLG-A-201",
         "title": "Red Mountain Trail",
-        "description": "Twenty-five minutes northwest of town, a short cinder trail walks you straight into the eroded amphitheater of a million-year-old volcano — hoodoos, black cinder, and geology that feels illegal to touch.",
+        "description": "Twenty-five minutes northwest of town, a short cinder trail walks you straight into the eroded amphitheater of a million-year-old volcano. Hoodoos, black cinder, and geology that feels illegal to touch.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -62,14 +62,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Scramble into the amphitheater's back bowl and find a hoodoo taller than you — stand next to it for scale.",
+        "bonus": "Scramble into the amphitheater's back bowl and find a hoodoo taller than you. Stand next to it for scale.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Red+Mountain+Trailhead+Flagstaff"
       },
       {
         "id": "FLG-AC-105",
         "title": "Disc Golf at Fox Glenn Park",
-        "description": "Fox Glenn's wooded course threads tight ponderosa corridors at 7,000 feet — precision throws, thin air, and a free round you'll feel in your lungs.",
+        "description": "Fox Glenn's wooded course threads tight ponderosa corridors at 7,000 feet: precision throws, thin air, and a free round you'll feel in your lungs.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -77,7 +77,7 @@
         "time": "Afternoon",
         "season": "Apr–Nov",
         "spark": 15,
-        "bonus": "Play the entire round with only one disc — driver, midrange, putter, pick one and commit.",
+        "bonus": "Play the entire round with only one disc: driver, midrange, putter, pick one and commit.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Fox+Glenn+Park+Disc+Golf+Flagstaff+AZ"
       },
@@ -114,7 +114,7 @@
       {
         "id": "FLG-A-104",
         "title": "Meteor Crater",
-        "description": "Stand at the rim of a 50,000-year-old asteroid impact site — the best-preserved impact crater on Earth — and try to comprehend the scale.",
+        "description": "Stand at the rim of a 50,000-year-old asteroid impact site, the best-preserved impact crater on Earth, and try to comprehend the scale.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -122,7 +122,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Spot the six-foot astronaut training marker on the crater floor with your naked eye — no binoculars allowed.",
+        "bonus": "Spot the six-foot astronaut training marker on the crater floor with your naked eye, no binoculars allowed.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Meteor+Crater+Winslow+AZ"
       },
@@ -159,7 +159,7 @@
       {
         "id": "FLG-A-08",
         "title": "Inner Basin Trail",
-        "description": "A climb into the collapsed caldera at the heart of the San Francisco Peaks through groves of aspen — peak foliage country in late September.",
+        "description": "A climb into the collapsed caldera at the heart of the San Francisco Peaks through groves of aspen, peak foliage country in late September.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3.5 hrs",
@@ -189,7 +189,7 @@
       {
         "id": "FLG-A-06",
         "title": "Schultz Creek Trail Mountain Bike",
-        "description": "The fast, flowy singletrack descent through aspen and pine off Schultz Pass — the ride that made Flagstaff a mountain-bike town.",
+        "description": "The fast, flowy singletrack descent through aspen and pine off Schultz Pass. The ride that made Flagstaff a mountain-bike town.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -204,7 +204,7 @@
       {
         "id": "FLG-A-05",
         "title": "Fatman's Loop Trail",
-        "description": "A rocky two-mile loop on the lower flank of Mount Elden, squeezing between giant boulders — short, scenic, and a real Flagstaff classic.",
+        "description": "A rocky two-mile loop on the lower flank of Mount Elden, squeezing between giant boulders: short, scenic, and a real Flagstaff classic.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -219,7 +219,7 @@
       {
         "id": "FLG-A-04",
         "title": "Lower Lake Mary Kayak",
-        "description": "A shallow grassland reservoir southeast of town ringed by pines — flat-water paddling, birdlife, and Peaks views from the seat of a kayak.",
+        "description": "A shallow grassland reservoir southeast of town ringed by pines: flat-water paddling, birdlife, and Peaks views from the seat of a kayak.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -234,7 +234,7 @@
       {
         "id": "FLG-A-03",
         "title": "Flagstaff Urban Trail System Ride",
-        "description": "The 50-plus-mile network of paved and unpaved paths linking the whole town — rent or bring a bike and connect downtown to the pines car-free.",
+        "description": "The 50-plus-mile network of paved and unpaved paths linking the whole town. Rent or bring a bike and connect downtown to the pines car-free.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -249,7 +249,7 @@
       {
         "id": "FLG-A-02",
         "title": "Mount Elden Lookout Trail",
-        "description": "A steep, switchbacking climb up the face of Mount Elden to the fire lookout at 9,300 feet — relentless up, enormous reward at the top.",
+        "description": "A steep, switchbacking climb up the face of Mount Elden to the fire lookout at 9,300 feet, relentless up, enormous reward at the top.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3.5 hrs",
@@ -264,7 +264,7 @@
       {
         "id": "FLG-A-01",
         "title": "Buffalo Park Loop",
-        "description": "A two-mile crushed-cinder loop across an open meadow on McMillan Mesa with a full-frame view of the San Francisco Peaks — the local morning ritual.",
+        "description": "A two-mile crushed-cinder loop across an open meadow on McMillan Mesa with a full-frame view of the San Francisco Peaks, the local morning ritual.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -279,7 +279,7 @@
       {
         "id": "FLG-AD-06",
         "title": "Lava River Cave",
-        "description": "A mile-long lava tube northwest of town, pitch black and cold year-round — bring real lights and walk into the earth where lava once flowed.",
+        "description": "A mile-long lava tube northwest of town, pitch black and cold year-round. Bring real lights and walk into the earth where lava once flowed.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -294,7 +294,7 @@
       {
         "id": "FLG-AD-05",
         "title": "Arizona Snowbowl",
-        "description": "The ski resort on the San Francisco Peaks — powder runs in winter, and a scenic chairlift to 11,500 feet for the views the rest of the year.",
+        "description": "The ski resort on the San Francisco Peaks. Powder runs in winter, and a scenic chairlift to 11,500 feet for the views the rest of the year.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -309,7 +309,7 @@
       {
         "id": "FLG-AD-04",
         "title": "Walnut Canyon National Monument",
-        "description": "Cliff dwellings tucked into a sheer limestone canyon just east of town — the Island Trail drops you right past 700-year-old rooms.",
+        "description": "Cliff dwellings tucked into a sheer limestone canyon just east of town. The Island Trail drops you right past 700-year-old rooms.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -324,7 +324,7 @@
       {
         "id": "FLG-AD-03",
         "title": "Sunset Crater & Wupatki Loop",
-        "description": "The 35-mile loop linking a young black cinder-cone volcano to ancestral Puebloan pueblos in red rock — two national monuments in one drive.",
+        "description": "The 35-mile loop linking a young black cinder-cone volcano to ancestral Puebloan pueblos in red rock, two national monuments in one drive.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "4 hrs",
@@ -339,7 +339,7 @@
       {
         "id": "FLG-AD-02",
         "title": "Grand Canyon South Rim Day Trip",
-        "description": "The South Rim is only about 90 minutes north — drive up for a rim walk, a stretch down the Bright Angel Trail, and sunset over the canyon.",
+        "description": "The South Rim is only about 90 minutes north. Drive up for a rim walk, a stretch down the Bright Angel Trail, and sunset over the canyon.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "8 hrs",
@@ -354,7 +354,7 @@
       {
         "id": "FLG-AD-01",
         "title": "Humphreys Peak Summit",
-        "description": "Arizona's highest point at 12,633 feet — a demanding climb through the San Francisco Peaks to a tundra summit with a hundred-mile view.",
+        "description": "Arizona's highest point at 12,633 feet, a demanding climb through the San Francisco Peaks to a tundra summit with a hundred-mile view.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "7 hrs",
@@ -371,7 +371,7 @@
       {
         "id": "FLG-S-201",
         "title": "Rack 'Em at Uptown Pubhouse",
-        "description": "Flagstaff's downtown billiards hall pairs full-size tables with a serious whiskey list and zero sports-bar noise — chalk up, order a round, and settle in for the evening.",
+        "description": "Flagstaff's downtown billiards hall pairs full-size tables with a serious whiskey list and zero sports-bar noise. Chalk up, order a round, and settle in for the evening.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -379,7 +379,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Play a stranger for the table — winner buys the round.",
+        "bonus": "Play a stranger for the table, winner buys the round.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Uptown+Pubhouse+Flagstaff",
         "adult": true
@@ -410,14 +410,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sign up and perform — one song, even if you haven't played in years.",
+        "bonus": "Sign up and perform. One song, even if you haven't played in years.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Firecreek+Coffee+Flagstaff+AZ"
       },
       {
         "id": "FLG-S-08",
         "title": "State Bar",
-        "description": "The downtown wine and craft-cocktail bar with a curated list and a calm, grown-up room — the antidote to the brewery circuit.",
+        "description": "The downtown wine and craft-cocktail bar with a curated list and a calm, grown-up room, the antidote to the brewery circuit.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -433,7 +433,7 @@
       {
         "id": "FLG-S-07",
         "title": "Monte Vista Cocktail Lounge",
-        "description": "The basement bar beneath the historic (and famously haunted) 1927 Hotel Monte Vista downtown — dim, vintage, and full of stories.",
+        "description": "The basement bar beneath the historic (and famously haunted) 1927 Hotel Monte Vista downtown: dim, vintage, and full of stories.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -449,7 +449,7 @@
       {
         "id": "FLG-S-06",
         "title": "The Museum Club",
-        "description": "The 1931 log-cabin roadhouse on Route 66 known as 'The Zoo' — a honky-tonk dance hall with a tree-trunk doorway and real country music history.",
+        "description": "The 1931 log-cabin roadhouse on Route 66 known as 'The Zoo', a honky-tonk dance hall with a tree-trunk doorway and real country music history.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -464,7 +464,7 @@
       {
         "id": "FLG-S-05",
         "title": "Hops on Birch",
-        "description": "The downtown beer bar on Birch Avenue with a wall of taps and a back patio — the reliable center of a Flagstaff night out.",
+        "description": "The downtown beer bar on Birch Avenue with a wall of taps and a back patio, the reliable center of a Flagstaff night out.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -480,7 +480,7 @@
       {
         "id": "FLG-S-04",
         "title": "Lumberyard Brewing Company",
-        "description": "A big, family-friendly brewpub in a converted lumber building by the tracks — house beers, bar games, and room for a crowd.",
+        "description": "A big, family-friendly brewpub in a converted lumber building by the tracks: house beers, bar games, and room for a crowd.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -512,7 +512,7 @@
       {
         "id": "FLG-S-02",
         "title": "Beaver Street Brewery",
-        "description": "The long-running brewpub just south of the tracks — wood-fired pizza, house beer, and a beer garden that has anchored Southside for decades.",
+        "description": "The long-running brewpub just south of the tracks: wood-fired pizza, house beer, and a beer garden that has anchored Southside for decades.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -546,7 +546,7 @@
       {
         "id": "FLG-F-201",
         "title": "Sandwiches at Proper Meats + Provisions",
-        "description": "Flagstaff's Southside whole-animal butcher shop stacks its counter sandwiches — porchetta, pastrami, banh mi — with meat cut a few feet from where you're standing.",
+        "description": "Flagstaff's Southside whole-animal butcher shop stacks its counter sandwiches (porchetta, pastrami, banh mi) with meat cut a few feet from where you're standing.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "45 mins–1 hr",
@@ -554,7 +554,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the butcher what they'd take home tonight — buy whatever they say.",
+        "bonus": "Ask the butcher what they'd take home tonight. Buy whatever they say.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Proper+Meats+Provisions+Flagstaff"
       },
@@ -569,14 +569,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Let the server choose your entire meal — tell them your only restriction and hand it over completely.",
+        "bonus": "Let the server choose your entire meal. Tell them your only restriction and hand it over completely.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Tinderbox+Kitchen+Flagstaff+AZ"
       },
       {
         "id": "FLG-F-10",
         "title": "Salsa Brava",
-        "description": "The Flagstaff Mexican standby famous for its fresh roasted-salsa bar and Sonoran-style green chile — bright, fast, and beloved by locals.",
+        "description": "The Flagstaff Mexican standby famous for its fresh roasted-salsa bar and Sonoran-style green chile: bright, fast, and beloved by locals.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -591,7 +591,7 @@
       {
         "id": "FLG-F-09",
         "title": "Josephine's Modern American Bistro",
-        "description": "Fine dining inside a 1911 Craftsman bungalow near downtown — a patio under the trees and a menu that quietly outclasses the whole town.",
+        "description": "Fine dining inside a 1911 Craftsman bungalow near downtown, a patio under the trees and a menu that quietly outclasses the whole town.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -606,7 +606,7 @@
       {
         "id": "FLG-F-08",
         "title": "Karma Sushi",
-        "description": "Downtown Flagstaff's go-to sushi bar on Aspen Avenue — surprisingly good fish for a high-desert mountain town, with a lively bar scene.",
+        "description": "Downtown Flagstaff's go-to sushi bar on Aspen Avenue, surprisingly good fish for a high-desert mountain town, with a lively bar scene.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -651,7 +651,7 @@
       {
         "id": "FLG-F-05",
         "title": "Brandy's Restaurant & Bakery",
-        "description": "The east-side breakfast institution where the baked goods come from the in-house bakery — eggs Benedict on a fresh croissant is the move.",
+        "description": "The east-side breakfast institution where the baked goods come from the in-house bakery. Eggs Benedict on a fresh croissant is the move.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -666,7 +666,7 @@
       {
         "id": "FLG-F-04",
         "title": "Macy's European Coffeehouse",
-        "description": "The vegetarian coffeehouse that has roasted its own beans and fed Flagstaff's students and climbers since 1980 — the steamers are legendary.",
+        "description": "The vegetarian coffeehouse that has roasted its own beans and fed Flagstaff's students and climbers since 1980. The steamers are legendary.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -696,7 +696,7 @@
       {
         "id": "FLG-F-02",
         "title": "MartAnne's Burrito Palace",
-        "description": "The wildly colorful downtown spot famous for chilaquiles and mole — the line out front on weekend mornings is a Flagstaff institution.",
+        "description": "The wildly colorful downtown spot famous for chilaquiles and mole, the line out front on weekend mornings is a Flagstaff institution.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1 hr",
@@ -711,7 +711,7 @@
       {
         "id": "FLG-F-01",
         "title": "Pizzicletta",
-        "description": "The tiny Southside pizzeria turning out blistered Neapolitan pies from a wood oven, with house gelato to finish — a national-caliber pizza in a mountain town.",
+        "description": "The tiny Southside pizzeria turning out blistered Neapolitan pies from a wood oven, with house gelato to finish, a national-caliber pizza in a mountain town.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -736,7 +736,7 @@
         "time": "Evening",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Buy something from every section of the market — produce, prepared food, and craft — spending under $20 total.",
+        "bonus": "Buy something from every section of the market (produce, prepared food, and craft) spending under $20 total.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Heritage+Square+Flagstaff"
       },
@@ -758,7 +758,7 @@
       {
         "id": "FLG-C-06",
         "title": "Pioneer Museum",
-        "description": "The Arizona Historical Society museum in an old stone hospital building on Fort Valley Road — logging, railroad and homestead history of the high country.",
+        "description": "The Arizona Historical Society museum in an old stone hospital building on Fort Valley Road, logging, railroad and homestead history of the high country.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -773,7 +773,7 @@
       {
         "id": "FLG-C-05",
         "title": "Historic Downtown & Heritage Square",
-        "description": "The walkable old railroad downtown around Heritage Square — brick storefronts, the train depot, buskers in summer, and the heart of Flagstaff.",
+        "description": "The walkable old railroad downtown around Heritage Square: brick storefronts, the train depot, buskers in summer, and the heart of Flagstaff.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -788,7 +788,7 @@
       {
         "id": "FLG-C-03",
         "title": "Museum of Northern Arizona",
-        "description": "The Fort Valley museum on the way to the Peaks covering the Colorado Plateau's geology, native cultures and art — the best primer on this whole region.",
+        "description": "The Fort Valley museum on the way to the Peaks covering the Colorado Plateau's geology, native cultures and art, the best primer on this whole region.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -803,7 +803,7 @@
       {
         "id": "FLG-C-02",
         "title": "Riordan Mansion State Historic Park",
-        "description": "A sprawling 1904 Arts and Crafts log mansion built for two lumber-baron brothers — original furnishings and a guided walk through Flagstaff's gilded age.",
+        "description": "A sprawling 1904 Arts and Crafts log mansion built for two lumber-baron brothers, original furnishings and a guided walk through Flagstaff's gilded age.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -818,7 +818,7 @@
       {
         "id": "FLG-C-01",
         "title": "Lowell Observatory",
-        "description": "The 1894 hilltop observatory where Pluto was discovered — tour the historic Clark Telescope and look through the scopes after dark in true dark sky.",
+        "description": "The 1894 hilltop observatory where Pluto was discovered, tour the historic Clark Telescope and look through the scopes after dark in true dark sky.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -835,7 +835,7 @@
       {
         "id": "FLG-C-104",
         "title": "Sunset at Fort Tuthill County Park",
-        "description": "Wander the ponderosa loops of this southern-edge county park as the evening light goes gold between the pines — trails, open air, and almost nobody around on a weeknight.",
+        "description": "Wander the ponderosa loops of this southern-edge county park as the evening light goes gold between the pines: trails, open air, and almost nobody around on a weeknight.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -888,14 +888,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a book chosen entirely by the staff recommendation shelf — no reading the back cover first.",
+        "bonus": "Buy a book chosen entirely by the staff recommendation shelf, no reading the back cover first.",
         "city": "Flagstaff, AZ",
         "mapsUrl": "https://www.google.com/maps/search/Bright+Side+Bookshop+Flagstaff+AZ"
       },
       {
         "id": "FLG-C-07",
         "title": "Bookmans Flagstaff",
-        "description": "The beloved used-everything emporium on Milton Road — books, vinyl, instruments and oddities, and an easy hour to lose on a cold afternoon.",
+        "description": "The beloved used-everything emporium on Milton Road: books, vinyl, instruments and oddities, and an easy hour to lose on a cold afternoon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",

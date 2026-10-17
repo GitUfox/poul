@@ -9,7 +9,7 @@
       {
         "id": "CUN-S-305",
         "title": "Cancún FC Under the Lights",
-        "description": "Second-division fútbol at the Andrés Quintana Roo — cheap seats, loud drums, and the city's actual sporting heart.",
+        "description": "Second-division fútbol at the Andrés Quintana Roo: cheap seats, loud drums, and the city's actual sporting heart.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -24,7 +24,7 @@
       {
         "id": "CUN-S-304",
         "title": "Dinner Show Chaos at Pericos",
-        "description": "Forty years of sombreros, conga lines, and tequila carts — Cancún's most gleefully over-the-top cantina show on Avenida Yaxchilán.",
+        "description": "Forty years of sombreros, conga lines, and tequila carts, Cancún's most gleefully over-the-top cantina show on Avenida Yaxchilán.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -39,7 +39,7 @@
       {
         "id": "CUN-S-203",
         "title": "Fiesta Barge Night at Xoximilco",
-        "description": "Cancún's answer to the trajineras — a floating dinner party down torch-lit canals with mariachi, cumbia, and tequila passed boat to boat.",
+        "description": "Cancún's answer to the trajineras: a floating dinner party down torch-lit canals with mariachi, cumbia, and tequila passed boat to boat.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "4 hrs",
@@ -73,7 +73,7 @@
       {
         "id": "CUN-S-201",
         "title": "Salsa Till Late at Grand Mambo Café",
-        "description": "Cancún's great live-orchestra salsa hall — locals dressed to kill, bands from Havana, and a floor that does not care if you're new.",
+        "description": "Cancún's great live-orchestra salsa hall: locals dressed to kill, bands from Havana, and a floor that does not care if you're new.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -88,7 +88,7 @@
       {
         "id": "CUN-S-10",
         "title": "Sunset Catamaran Party to Isla Mujeres",
-        "description": "The booze cruise to Isla Mujeres is unashamedly touristy and completely irresistible — open bar, Caribbean sunset, strangers who become your best friends for exactly four hours.",
+        "description": "The booze cruise to Isla Mujeres is unashamedly touristy and completely irresistible: open bar, Caribbean sunset, strangers who become your best friends for exactly four hours.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4–5 hrs",
@@ -96,7 +96,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Jump off the boat at the snorkel stop last — make it a moment, not a splash.",
+        "bonus": "Jump off the boat at the snorkel stop last. Make it a moment, not a splash.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/catamaran+tour+Isla+Mujeres+Cancun+Mexico",
         "company": [
@@ -107,7 +107,7 @@
       {
         "id": "CUN-S-7",
         "title": "Sunday Market at Mercado 23",
-        "description": "Mercado 23 is the oldest working market in Cancún — a chaotic, color-saturated maze of spice vendors, fresh tortilla stalls, and grandmothers who've been selling the same salsa for thirty years.",
+        "description": "Mercado 23 is the oldest working market in Cancún: a chaotic, color-saturated maze of spice vendors, fresh tortilla stalls, and grandmothers who've been selling the same salsa for thirty years.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -122,7 +122,7 @@
       {
         "id": "CUN-S-6",
         "title": "Bar Crawl Through Avenida Yaxchilán",
-        "description": "Cancún's local nightlife strip in El Centro has none of the tourist theater of the Hotel Zone and all of the actual fun — cantinas, mezcalerías, and live norteño.",
+        "description": "Cancún's local nightlife strip in El Centro has none of the tourist theater of the Hotel Zone and all of the actual fun: cantinas, mezcalerías, and live norteño.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -130,7 +130,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order whatever the person next to you is drinking at every stop — no questions asked.",
+        "bonus": "Order whatever the person next to you is drinking at every stop, no questions asked.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Avenida+Yaxchilan+Cancun+Mexico",
         "company": [
@@ -141,7 +141,7 @@
       {
         "id": "CUN-S-5",
         "title": "Rooftop Pre-Party at Coco Bongo Terrace",
-        "description": "Before the main show swallows you whole, the Coco Bongo terrace bar is where the city's nightlife really ignites — cheap drinks, city views, and no cover before midnight.",
+        "description": "Before the main show swallows you whole, the Coco Bongo terrace bar is where the city's nightlife really ignites: cheap drinks, city views, and no cover before midnight.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -176,7 +176,7 @@
       {
         "id": "CUN-S-1",
         "title": "Saturday Night at Parque Las Palapas",
-        "description": "Downtown Cancún's central plaza fills every weekend with local families, food vendors, cumbia blasting from competing speakers, and zero tourists — this is the real city.",
+        "description": "Downtown Cancún's central plaza fills every weekend with local families, food vendors, cumbia blasting from competing speakers, and zero tourists. This is the real city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -208,7 +208,7 @@
       {
         "id": "CUN-F-306",
         "title": "Ceviche Conga at El Cejas, Mercado 28",
-        "description": "The market's legendary marisquería where waiters break into conga lines between delivering towers of ceviche — lunch as floor show.",
+        "description": "The market's legendary marisquería where waiters break into conga lines between delivering towers of ceviche, lunch as floor show.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -231,7 +231,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Go after midnight — that's when it's itself.",
+        "bonus": "Go after midnight. That's when it's itself.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://maps.google.com/maps/search/The+Surfin+Burrito+Cancun"
       },
@@ -253,7 +253,7 @@
       {
         "id": "CUN-F-203",
         "title": "Seafood Lunch at El Fish Fritanga",
-        "description": "A locals' fritanga hidden mid-Hotel-Zone — plastic chairs, lagoon breeze, and aguachile that embarrasses the resort buffets uphill.",
+        "description": "A locals' fritanga hidden mid-Hotel-Zone: plastic chairs, lagoon breeze, and aguachile that embarrasses the resort buffets uphill.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -283,7 +283,7 @@
       {
         "id": "CUN-F-201",
         "title": "Marquesitas After Dark at Parque de las Palapas",
-        "description": "The crepe-crisp marquesita — Nutella, cheese, both — was born on the peninsula and the stands ringing Las Palapas make the definitive ones.",
+        "description": "The crepe-crisp marquesita (Nutella, cheese, both) was born on the peninsula and the stands ringing Las Palapas make the definitive ones.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -298,7 +298,7 @@
       {
         "id": "CUN-F-12",
         "title": "Tasting Menu at Tempo by Martín Berasategui",
-        "description": "The only Michelin-recognized kitchen in Cancún channels Basque precision into Caribbean ingredients — this is the meal that reframes everything you ate before it.",
+        "description": "The only Michelin-recognized kitchen in Cancún channels Basque precision into Caribbean ingredients. This is the meal that reframes everything you ate before it.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -306,7 +306,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Introduce yourself to the sommelier and ask them to pair every course with a different Mexican wine — no imported bottles.",
+        "bonus": "Introduce yourself to the sommelier and ask them to pair every course with a different Mexican wine, no imported bottles.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Tempo+Martin+Berasategui+Cancun"
       },
@@ -336,7 +336,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the waiter to recommend a dish that's not on the English menu — then order it without hesitation.",
+        "bonus": "Ask the waiter to recommend a dish that's not on the English menu, then order it without hesitation.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/La+Habichuela+Downtown+Cancun"
       },
@@ -351,7 +351,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order one of everything on the menu — if it comes to under 200 pesos you're obligated to tip 30%.",
+        "bonus": "Order one of everything on the menu. If it comes to under 200 pesos you're obligated to tip 30%.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/El+Pescado+Ciego+Cancun"
       }
@@ -360,7 +360,7 @@
       {
         "id": "CUN-C-304",
         "title": "Take the Last Ferry Back from Isla Mujeres",
-        "description": "The day-trippers leave by five — stay for the lights coming up across the bay and ride the near-empty ferry home.",
+        "description": "The day-trippers leave by five. Stay for the lights coming up across the bay and ride the near-empty ferry home.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -375,7 +375,7 @@
       {
         "id": "CUN-C-303",
         "title": "Coffee Crawl on Avenida Nader",
-        "description": "The leafy avenue behind Avenida Tulum is downtown's café row — specialty roasters, patio tables, and the Cancún that lives here year-round.",
+        "description": "The leafy avenue behind Avenida Tulum is downtown's café row: specialty roasters, patio tables, and the Cancún that lives here year-round.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -398,14 +398,14 @@
         "time": "Afternoon",
         "season": "Nov–Apr",
         "spark": 15,
-        "bonus": "Buy a coconut from a beach vendor and ask them to chop it with a machete tableside — then tip them well.",
+        "bonus": "Buy a coconut from a beach vendor and ask them to chop it with a machete tableside, then tip them well.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Playa+Chac+Mool+Cancun"
       },
       {
         "id": "CUN-C-203",
         "title": "Golf-Cart Loop of Isla Mujeres to Punta Sur",
-        "description": "Ferry over, rent a cart, and putter the island's one road to the sculpture-strewn cliffs of Punta Sur — the easternmost point of Mexico.",
+        "description": "Ferry over, rent a cart, and putter the island's one road to the sculpture-strewn cliffs of Punta Sur, the easternmost point of Mexico.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "Half day",
@@ -420,7 +420,7 @@
       {
         "id": "CUN-C-202",
         "title": "Sunset Walk on the Malecón Tajamar",
-        "description": "Downtown's lagoon-front boardwalk faces west over Nichupté — runners, families, and the day ending in orange behind the mangroves.",
+        "description": "Downtown's lagoon-front boardwalk faces west over Nichupté: runners, families, and the day ending in orange behind the mangroves.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -438,7 +438,7 @@
       {
         "id": "CUN-C-201",
         "title": "Morning Swim at Playa Langosta",
-        "description": "The Hotel Zone's calmest public bay — bath-warm, wave-free, and nearly empty before ten.",
+        "description": "The Hotel Zone's calmest public bay: bath-warm, wave-free, and nearly empty before ten.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -453,7 +453,7 @@
       {
         "id": "CUN-C-10",
         "title": "Afternoon in Parque de las Américas",
-        "description": "This grand Art Deco park in El Centro has been the city's civic heart since the 1940s — fountains, shade trees, chess tables, and no tourist in sight.",
+        "description": "This grand Art Deco park in El Centro has been the city's civic heart since the 1940s: fountains, shade trees, chess tables, and no tourist in sight.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -461,14 +461,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge one of the chess regulars to a game — if you lose in under ten moves, you buy them a paleta.",
+        "bonus": "Challenge one of the chess regulars to a game. If you lose in under ten moves, you buy them a paleta.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Parque+de+las+Americas+Cancun+Mexico"
       },
       {
         "id": "CUN-C-9",
         "title": "Dawn Watch at Punta Cancún Lookout",
-        "description": "The rocky point where the Hotel Zone curves north offers an unobstructed view of the Caribbean turning from black to violet to blinding gold — and you'll almost always have it alone.",
+        "description": "The rocky point where the Hotel Zone curves north offers an unobstructed view of the Caribbean turning from black to violet to blinding gold. And you'll almost always have it alone.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -476,7 +476,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Arrive before the sun and stay without taking a single photograph — just watch.",
+        "bonus": "Arrive before the sun and stay without taking a single photograph, just watch.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Punta+Cancun+lookout",
         "company": [
@@ -486,7 +486,7 @@
       {
         "id": "CUN-C-3",
         "title": "Read on the Quiet End of Playa Gaviota Azul",
-        "description": "The western stretch of this Hotel Zone beach stays uncrowded well into midday — white sand, turquoise water, and the kind of silence that makes a book feel like a luxury.",
+        "description": "The western stretch of this Hotel Zone beach stays uncrowded well into midday: white sand, turquoise water, and the kind of silence that makes a book feel like a luxury.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–4 hrs",
@@ -494,7 +494,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Leave your phone in your bag for the entire visit — no photos, no checking, nothing.",
+        "bonus": "Leave your phone in your bag for the entire visit: no photos, no checking, nothing.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Playa+Gaviota+Azul+Cancun"
       },
@@ -509,7 +509,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Stay in your hammock until you've watched at least three complete strangers walk past knee-deep with their phones held overhead — appreciate that you aren't them.",
+        "bonus": "Stay in your hammock until you've watched at least three complete strangers walk past knee-deep with their phones held overhead. Appreciate that you aren't them.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Playa+Norte+Isla+Mujeres"
       },
@@ -524,7 +524,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Leave your phone in your bag for the entire golden hour — no photos, just the actual sunset.",
+        "bonus": "Leave your phone in your bag for the entire golden hour, no photos, just the actual sunset.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Playa+Delfines+Cancun",
         "company": [
@@ -536,7 +536,7 @@
       {
         "id": "CUN-AC-306",
         "title": "Morning Loop of Parque Kabah",
-        "description": "Downtown's pocket of preserved jungle has a shaded running loop where coatis cross the path like they own it — because they do.",
+        "description": "Downtown's pocket of preserved jungle has a shaded running loop where coatis cross the path like they own it. Because they do.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -551,7 +551,7 @@
       {
         "id": "CUN-A-303",
         "title": "Drive the Ruta de los Cenotes",
-        "description": "From Puerto Morelos a jungle road strings together a dozen swimmable cenotes — pick two, swim both, and let the day disappear.",
+        "description": "From Puerto Morelos a jungle road strings together a dozen swimmable cenotes. Pick two, swim both, and let the day disappear.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "Half day",
@@ -574,7 +574,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Count the iguanas — first to twenty wins.",
+        "bonus": "Count the iguanas. First to twenty wins.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://maps.google.com/maps/search/Zona+Arqueologica+El+Meco+Cancun"
       },
@@ -596,7 +596,7 @@
       {
         "id": "CUN-AC-305",
         "title": "Cenote Kantun-Chi Snorkel and Cave Walk",
-        "description": "An hour south of Cancún, Kantun-Chi is a family of four connected cenotes — open sky, semi-cave, and full cave — where you can snorkel and walk through stalactite chambers that have been open to visitors for over 30 years.",
+        "description": "An hour south of Cancún, Kantun-Chi is a family of four connected cenotes (open sky, semi-cave, and full cave) where you can snorkel and walk through stalactite chambers that have been open to visitors for over 30 years.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -604,13 +604,13 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Float face-down in the darkest chamber of the cave cenote for 60 seconds — don't move, don't splash, just listen to the absolute silence.",
+        "bonus": "Float face-down in the darkest chamber of the cave cenote for 60 seconds. Don't move, don't splash, just listen to the absolute silence.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Cenote+Kantun+Chi+Riviera+Maya"
       },
       {
         "id": "CUN-AC-301",
-        "title": "Deep-Sea Fishing out of Puerto Juárez",
+        "title": "Deep-Sea Fishing Out of Puerto Juárez",
         "description": "Charter a panga from the working docks at Puerto Juárez and head into open Caribbean water for mahi-mahi, sailfish, and wahoo with crews who fish these waters every single day.",
         "rarity": "Rare",
         "cost": "$$$",
@@ -619,14 +619,14 @@
         "time": "Morning",
         "season": "Mar–Oct",
         "spark": 25,
-        "bonus": "If you catch something, negotiate with the captain to take it to a nearby restaurant and have it cooked — most will play along.",
+        "bonus": "If you catch something, negotiate with the captain to take it to a nearby restaurant and have it cooked. Most will play along.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Puerto+Juarez+fishing+charter+Cancun"
       },
       {
         "id": "CUN-A-201",
         "title": "Boat Out to the Bird Island of Isla Contoy",
-        "description": "Only two hundred visitors a day are allowed on this national-park island of frigatebirds and empty white sand — the Caribbean before anyone built anything.",
+        "description": "Only two hundred visitors a day are allowed on this national-park island of frigatebirds and empty white sand. The Caribbean before anyone built anything.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "Full day",
@@ -649,7 +649,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Count at least ten species before surfacing — moray, parrotfish, and barracuda are on the board.",
+        "bonus": "Count at least ten species before surfacing. Moray, parrotfish, and barracuda are on the board.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Puerto+Morelos+Reef+National+Park+Mexico"
       },
@@ -664,7 +664,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Stand at the base of El Castillo and clap once — listen for the quetzal echo that bounces back.",
+        "bonus": "Stand at the base of El Castillo and clap once. Listen for the quetzal echo that bounces back.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Chichen+Itza+Mexico"
       },
@@ -679,7 +679,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Take the final zip-line hands-free — both arms out, no gripping the harness straps.",
+        "bonus": "Take the final zip-line hands-free, both arms out, no gripping the harness straps.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Selvatica+Cancun+Mexico"
       },
@@ -709,7 +709,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Jump from the highest platform on your first try — no working up to it.",
+        "bonus": "Jump from the highest platform on your first try, no working up to it.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Cenote+Azul+Puerto+Morelos+Mexico"
       },
@@ -724,7 +724,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find and photograph a sea turtle — no points if it's a photo of someone else's turtle.",
+        "bonus": "Find and photograph a sea turtle. No points if it's a photo of someone else's turtle.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Punta+Nizuc+Reef+Cancun+Mexico"
       },
@@ -739,7 +739,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stop at every public beach access point along the route — touch the water at each one before moving on.",
+        "bonus": "Stop at every public beach access point along the route. Touch the water at each one before moving on.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Punta+Nizuc+Cancun+bike+lane"
       },
@@ -754,7 +754,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run the full 14km without stopping for a single photo — save the view for the turnaround point.",
+        "bonus": "Run the full 14km without stopping for a single photo, save the view for the turnaround point.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Boulevard+Kukulcan+Cancun+Hotel+Zone"
       },
@@ -769,7 +769,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Attempt a surface 180 turn — you won't stick it but you have to try at least twice.",
+        "bonus": "Attempt a surface 180 turn. You won't stick it but you have to try at least twice.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Aquaworld+Cancun"
       },
@@ -814,13 +814,13 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the largest iguana on site and sit close enough that it doesn't move — bonus if it climbs on you.",
+        "bonus": "Find the largest iguana on site and sit close enough that it doesn't move. Bonus if it climbs on you.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Ruinas+del+Rey+Cancun"
       },
       {
         "id": "CUN-A-8",
-        "title": "Parasail over the Hotel Zone",
+        "title": "Parasail Over the Hotel Zone",
         "description": "Three hundred feet up over the turquoise gradient between Cancún's lagoon and open Caribbean is the only view that makes sense of this city's layout.",
         "rarity": "Common",
         "cost": "$$",
@@ -829,7 +829,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Go tandem with a stranger you just met on the beach — introduce yourself only after you're airborne.",
+        "bonus": "Go tandem with a stranger you just met on the beach. Introduce yourself only after you're airborne.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/parasailing+Cancun+Hotel+Zone"
       },
@@ -844,7 +844,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Kill your paddle and drift in complete silence for two full minutes — no talking, no phone.",
+        "bonus": "Kill your paddle and drift in complete silence for two full minutes: no talking, no phone.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Laguna+Nichupte+mangrove+kayak+Cancun"
       },
@@ -874,14 +874,14 @@
         "time": "Afternoon",
         "season": "Nov–Apr",
         "spark": 25,
-        "bonus": "Signal your instructor you're ready to drop the training bar and ride unassisted — do it before the session ends.",
+        "bonus": "Signal your instructor you're ready to drop the training bar and ride unassisted. Do it before the session ends.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Laguna+Nichupte+kiteboarding+Cancun"
       },
       {
         "id": "CUN-A-2",
         "title": "Zipline Over the Reef at Garrafón Park",
-        "description": "Isla Mujeres' cliffside park strings its zipline out over turquoise reef water — the Caribbean under your feet at full speed.",
+        "description": "Isla Mujeres' cliffside park strings its zipline out over turquoise reef water, the Caribbean under your feet at full speed.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4–5 hrs",
@@ -889,7 +889,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Jump from the highest accessible ledge on your first attempt — no standing around deliberating.",
+        "bonus": "Jump from the highest accessible ledge on your first attempt, no standing around deliberating.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Garrafon+Natural+Reef+Park+Isla+Mujeres"
       },
@@ -904,7 +904,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Touch nothing, photograph everything — find the 'Silent Evolution' group and count how many sculptures have coral growing from their eyes.",
+        "bonus": "Touch nothing, photograph everything. Find the 'Silent Evolution' group and count how many sculptures have coral growing from their eyes.",
         "city": "Cancún, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/MUSA+Underwater+Museum+Cancun"
       }
@@ -913,7 +913,7 @@
       {
         "id": "CUN-C-204",
         "title": "See MUSA from a Glass-Bottom Boat",
-        "description": "The underwater museum without getting wet — five hundred silent statues slipping past under glass.",
+        "description": "The underwater museum without getting wet, five hundred silent statues slipping past under glass.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",

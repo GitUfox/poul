@@ -9,7 +9,7 @@
       {
         "id": "PHX-S-402",
         "title": "TopGolf Scottsdale",
-        "description": "TopGolf stacks four levels of lit-up golf bays against a mountain backdrop — the rare spot where your actual golf game is completely irrelevant.",
+        "description": "TopGolf stacks four levels of lit-up golf bays against a mountain backdrop, the rare spot where your actual golf game is completely irrelevant.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -17,14 +17,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Bet a round of drinks on whoever gets closest to the 100-yard target — first swing only.",
+        "bonus": "Bet a round of drinks on whoever gets closest to the 100-yard target, first swing only.",
         "city": "Scottsdale, AZ",
         "mapsUrl": "https://maps.google.com/maps/search/TopGolf+Scottsdale+AZ"
       },
       {
         "id": "PHX-S-401",
         "title": "Happy Hour at Carry On",
-        "description": "Carry On nails the neighborhood bar feel — cold drinks, no pretense, and the kind of crowd that makes staying for one more an easy call.",
+        "description": "Carry On nails the neighborhood bar feel: cold drinks, no pretense, and the kind of crowd that makes staying for one more an easy call.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -40,7 +40,7 @@
       {
         "id": "SC-S-04",
         "title": "Spring Training at Salt River Fields",
-        "description": "The Rockies and D-backs share the best spring training facility in baseball — 12,000 seats, short lines, and players close enough to hear warming up.",
+        "description": "The Rockies and D-backs share the best spring training facility in baseball: 12,000 seats, short lines, and players close enough to hear warming up.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -55,7 +55,7 @@
       {
         "id": "SC-S-03",
         "title": "Poker Night at Casino Arizona",
-        "description": "The closest card room to Scottsdale — sit-and-go tables run all night, the competition ranges from tourist to dangerous, and the stakes are yours to set.",
+        "description": "The closest card room to Scottsdale: sit-and-go tables run all night, the competition ranges from tourist to dangerous, and the stakes are yours to set.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–4 hrs",
@@ -63,7 +63,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Set a hard stop time before you sit. Play until exactly then — win or lose, that's the session.",
+        "bonus": "Set a hard stop time before you sit. Play until exactly then. Win or lose, that's the session.",
         "city": "Scottsdale, AZ",
         "mapsUrl": "https://maps.google.com/?q=Casino+Arizona+Scottsdale+AZ",
         "adult": true
@@ -71,7 +71,7 @@
       {
         "id": "SC-S-02",
         "title": "Rooftop Night at the W Scottsdale",
-        "description": "The W's rooftop pool deck is one of the most polished nightlife setups in the Valley — arrive early enough to watch the city lights come up.",
+        "description": "The W's rooftop pool deck is one of the most polished nightlife setups in the Valley. Arrive early enough to watch the city lights come up.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -87,7 +87,7 @@
       {
         "id": "SC-S-01",
         "title": "Whiskey Row in Old Town",
-        "description": "A strip of bars built for a crowd that came to be out — pick one end of Scottsdale Road, work toward the other, and decide nothing in advance.",
+        "description": "A strip of bars built for a crowd that came to be out. Pick one end of Scottsdale Road, work toward the other, and decide nothing in advance.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -95,7 +95,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Have one real conversation with a stranger at every stop. Not small talk — something real.",
+        "bonus": "Have one real conversation with a stranger at every stop. Not small talk, something real.",
         "city": "Scottsdale, AZ",
         "mapsUrl": "https://maps.google.com/?q=Whiskey+Row+Old+Town+Scottsdale+AZ",
         "adult": true
@@ -103,7 +103,7 @@
       {
         "id": "S-10",
         "title": "Sunset Drinks at Santisi Brothers Rooftop",
-        "description": "Old Town Scottsdale's rooftop bar scene at its most low-key — open air, solid cocktails, and a view of the McDowell Mountains going pink at dusk.",
+        "description": "Old Town Scottsdale's rooftop bar scene at its most low-key: open air, solid cocktails, and a view of the McDowell Mountains going pink at dusk.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -137,7 +137,7 @@
       {
         "id": "S-03",
         "title": "Night Out at Cobra Arcade Bar",
-        "description": "A bar stocked wall-to-wall with classic arcade games in central Phoenix — put quarters in machines you haven't touched since childhood and stay far too late.",
+        "description": "A bar stocked wall-to-wall with classic arcade games in central Phoenix. Put quarters in machines you haven't touched since childhood and stay far too late.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -153,7 +153,7 @@
       {
         "id": "S-02",
         "title": "Rooftop Happy Hour at Skyline at 1 Hotel",
-        "description": "The rooftop pool bar at 1 Hotel Scottsdale — desert views, craft cocktails, and a crowd that arrived with the same intention you did.",
+        "description": "The rooftop pool bar at 1 Hotel Scottsdale: desert views, craft cocktails, and a crowd that arrived with the same intention you did.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -189,7 +189,7 @@
       {
         "id": "PHX-A-401",
         "title": "Shooting at C2 Tactical",
-        "description": "C2 Tactical is the high-end shooting experience in Scottsdale — multiple lanes, rental guns from pistols to rifles, and staff who actually know what they're talking about.",
+        "description": "C2 Tactical is the high-end shooting experience in Scottsdale: multiple lanes, rental guns from pistols to rifles, and staff who actually know what they're talking about.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -212,14 +212,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Challenge a stranger to a match — winner buys a round.",
+        "bonus": "Challenge a stranger to a match, winner buys a round.",
         "city": "Phoenix, AZ",
         "mapsUrl": "https://maps.google.com/maps/search/Electric+Pickle+Phoenix+AZ"
       },
       {
         "id": "SC-AC-04",
         "title": "Early Lanes at Scottsdale Aquatic Center",
-        "description": "A world-class 50-meter public pool with open lanes every morning — show up, swim hard, and leave before most people have made coffee.",
+        "description": "A world-class 50-meter public pool with open lanes every morning. Show up, swim hard, and leave before most people have made coffee.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -227,14 +227,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Set a distance goal before you get in. Don't get out until you hit it — no negotiating mid-swim.",
+        "bonus": "Set a distance goal before you get in. Don't get out until you hit it, no negotiating mid-swim.",
         "city": "Scottsdale, AZ",
         "mapsUrl": "https://maps.google.com/?q=Scottsdale+Aquatic+Center+Scottsdale+AZ"
       },
       {
         "id": "SC-AC-03",
         "title": "Pickleball at Scottsdale Ranch Park",
-        "description": "Eight dedicated courts in North Scottsdale with drop-in play every morning — the regulars will make you better faster than any lesson.",
+        "description": "Eight dedicated courts in North Scottsdale with drop-in play every morning. The regulars will make you better faster than any lesson.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -249,7 +249,7 @@
       {
         "id": "SC-AC-02",
         "title": "Sunrise Run: Pinnacle Peak Loop",
-        "description": "A 3.5-mile trail circling the base of Pinnacle Peak through pristine Sonoran Desert — the city disappears completely and the mountain turns gold above you.",
+        "description": "A 3.5-mile trail circling the base of Pinnacle Peak through pristine Sonoran Desert, the city disappears completely and the mountain turns gold above you.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -264,7 +264,7 @@
       {
         "id": "SC-AC-01",
         "title": "Mountain Bike the Pemberton Trail",
-        "description": "20+ miles of technical desert singletrack at McDowell Mountain Regional Park — rent a hardtail, commit to the loop, and earn every descent.",
+        "description": "20+ miles of technical desert singletrack at McDowell Mountain Regional Park. Rent a hardtail, commit to the loop, and earn every descent.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -279,7 +279,7 @@
       {
         "id": "AC-10",
         "title": "Swim at Saguaro Lake Marina",
-        "description": "Drive 30 miles east of Phoenix to one of the clearest reservoirs in the state — cliff jumps, sandy entry points, and water cold enough to remind you you're alive.",
+        "description": "Drive 30 miles east of Phoenix to one of the clearest reservoirs in the state: cliff jumps, sandy entry points, and water cold enough to remind you you're alive.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -294,7 +294,7 @@
       {
         "id": "AC-09",
         "title": "Cycling the Desert Classic Trail",
-        "description": "A mountain bike loop in South Mountain Park — 17 miles of technical desert singletrack with enough elevation to make you earn the descent.",
+        "description": "A mountain bike loop in South Mountain Park, 17 miles of technical desert singletrack with enough elevation to make you earn the descent.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -309,7 +309,7 @@
       {
         "id": "AC-08",
         "title": "Swim at Saguaro Lake",
-        "description": "A reservoir 30 miles east of Phoenix with cliff jumps, clear water, and rental kayaks — drive out early before the boat traffic starts.",
+        "description": "A reservoir 30 miles east of Phoenix with cliff jumps, clear water, and rental kayaks. Drive out early before the boat traffic starts.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–5 hrs",
@@ -324,7 +324,7 @@
       {
         "id": "AC-07",
         "title": "Canal Path Run: Scottsdale to Central",
-        "description": "The Arizona Canal path cuts 15 miles through the city in a way no road does — flat, early, and yours alone at 6am.",
+        "description": "The Arizona Canal path cuts 15 miles through the city in a way no road does: flat, early, and yours alone at 6am.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–4 hrs",
@@ -342,7 +342,7 @@
       {
         "id": "AC-06",
         "title": "Outdoor Strength Session at Tempe Town Lake",
-        "description": "Take your training outside — run a full bodyweight circuit along the lake path, then walk the 2-mile loop to cool down.",
+        "description": "Take your training outside. Run a full bodyweight circuit along the lake path, then walk the 2-mile loop to cool down.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -372,7 +372,7 @@
       {
         "id": "AC-04",
         "title": "Pickup Basketball at Kiwanis Park",
-        "description": "The best outdoor pickup runs in the Valley — show up, get in line, play until your legs have something to say about it.",
+        "description": "The best outdoor pickup runs in the Valley. Show up, get in line, play until your legs have something to say about it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -390,7 +390,7 @@
       {
         "id": "AC-03",
         "title": "Trail Run: National Trail, South Mountain",
-        "description": "14 miles of rocky, technical singletrack at the southern edge of the city — run what you can, hike the rest, never think about email.",
+        "description": "14 miles of rocky, technical singletrack at the southern edge of the city. Run what you can, hike the rest, never think about email.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–4 hrs",
@@ -405,7 +405,7 @@
       {
         "id": "AC-02",
         "title": "Bouldering at Climbmax Climbing Center",
-        "description": "One of Phoenix's best dedicated climbing gyms — no gear or partner required, just rent shoes and work the problems until your forearms give out.",
+        "description": "One of Phoenix's best dedicated climbing gyms, no gear or partner required, just rent shoes and work the problems until your forearms give out.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -435,7 +435,7 @@
       {
         "id": "SC-A-04",
         "title": "Pinnacle Peak at Sunrise",
-        "description": "A short, sharp scramble in North Scottsdale with granite formations and saguaro forest — the 360-degree view from the top is yours alone before 7am.",
+        "description": "A short, sharp scramble in North Scottsdale with granite formations and saguaro forest. The 360-degree view from the top is yours alone before 7am.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -450,7 +450,7 @@
       {
         "id": "SC-A-03",
         "title": "Barrett-Jackson Day Pass",
-        "description": "The world's greatest collector car auction happens every January at WestWorld — floor access, nine-figure sales, and an energy unlike anything else in the Valley.",
+        "description": "The world's greatest collector car auction happens every January at WestWorld: floor access, nine-figure sales, and an energy unlike anything else in the Valley.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "4–6 hrs",
@@ -465,7 +465,7 @@
       {
         "id": "SC-A-02",
         "title": "Horseback Ride Through the McDowells",
-        "description": "Saddle up at MacDonald's Ranch and follow a guide into Sonoran terrain that hasn't changed in a hundred years — saguaros, silence, and no agenda.",
+        "description": "Saddle up at MacDonald's Ranch and follow a guide into Sonoran terrain that hasn't changed in a hundred years: saguaros, silence, and no agenda.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -510,7 +510,7 @@
       {
         "id": "A-09",
         "title": "Shoot at Rio Salado Sportsman's Club",
-        "description": "Phoenix's oldest shooting range — rent a lane, try a caliber you've never fired, and learn something about control under pressure.",
+        "description": "Phoenix's oldest shooting range. Rent a lane, try a caliber you've never fired, and learn something about control under pressure.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -525,7 +525,7 @@
       {
         "id": "A-08",
         "title": "Rappel into a Desert Canyon",
-        "description": "Book a guided rappelling session in the Superstition Wilderness — vertical sandstone walls, no experience required, full commitment needed.",
+        "description": "Book a guided rappelling session in the Superstition Wilderness: vertical sandstone walls, no experience required, full commitment needed.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -540,7 +540,7 @@
       {
         "id": "A-06",
         "title": "Skydive Over the East Valley",
-        "description": "13,000 feet above the desert grid, free-falling at 120mph — the Phoenix sprawl becomes abstract art on the way down.",
+        "description": "13,000 feet above the desert grid, free-falling at 120mph. The Phoenix sprawl becomes abstract art on the way down.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -635,7 +635,7 @@
       {
         "id": "PHX-F-403",
         "title": "Burgers and Wine at Zinburger",
-        "description": "Zinburger proves a proper glass of Tempranillo and a smash burger belong together — order both and don't argue with it.",
+        "description": "Zinburger proves a proper glass of Tempranillo and a smash burger belong together. Order both and don't argue with it.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -650,7 +650,7 @@
       {
         "id": "PHX-F-405",
         "title": "Wood-Fired Pizza at Craft 64",
-        "description": "Craft 64 fires Neapolitan pies in a wood-burning oven in the heart of Old Town — the kind of spot that turns a random Tuesday into a real night out.",
+        "description": "Craft 64 fires Neapolitan pies in a wood-burning oven in the heart of Old Town. The kind of spot that turns a random Tuesday into a real night out.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -658,7 +658,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Let someone else at the table pick your toppings — no veto allowed.",
+        "bonus": "Let someone else at the table pick your toppings, no veto allowed.",
         "city": "Scottsdale, AZ",
         "mapsUrl": "https://maps.google.com/maps/search/Craft+64+Scottsdale+AZ"
       },
@@ -673,7 +673,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the bartender to make you something off-menu based on your mood — no parameters.",
+        "bonus": "Ask the bartender to make you something off-menu based on your mood, no parameters.",
         "city": "Phoenix, AZ",
         "mapsUrl": "https://maps.google.com/maps/search/Wren+and+Wolf+Phoenix+AZ"
       },
@@ -688,7 +688,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order something you've never had for brunch before — no eggs Benedict safety net.",
+        "bonus": "Order something you've never had for brunch before, no eggs Benedict safety net.",
         "city": "Scottsdale, AZ",
         "mapsUrl": "https://maps.google.com/maps/search/The+Henry+Scottsdale+AZ"
       },
@@ -703,14 +703,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order one thing you've never eaten before — no defaulting to your usual.",
+        "bonus": "Order one thing you've never eaten before, no defaulting to your usual.",
         "city": "Scottsdale, AZ",
         "mapsUrl": "https://maps.google.com/maps/search/Culinary+Dropout+The+Yard+Scottsdale+AZ"
       },
       {
         "id": "SC-F-04",
         "title": "The IDGAF at Maple & Ash",
-        "description": "A wood-fire steakhouse in Old Town with a menu option where you hand total control to the kitchen — they pick everything. You show up and trust them.",
+        "description": "A wood-fire steakhouse in Old Town with a menu option where you hand total control to the kitchen. They pick everything. You show up and trust them.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -718,14 +718,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order the 'I Don't Give a F***' option. No substitutions, no questions — surrender the meal completely.",
+        "bonus": "Order the 'I Don't Give a F***' option. No substitutions, no questions, surrender the meal completely.",
         "city": "Scottsdale, AZ",
         "mapsUrl": "https://maps.google.com/?q=Maple+and+Ash+Scottsdale+AZ"
       },
       {
         "id": "SC-F-03",
         "title": "Brunch at Hash Kitchen",
-        "description": "North Scottsdale's most committed brunch spot — a 50-ingredient Bloody Mary bar, obscene plates, and a crowd that showed up dressed for the occasion.",
+        "description": "North Scottsdale's most committed brunch spot: a 50-ingredient Bloody Mary bar, obscene plates, and a crowd that showed up dressed for the occasion.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -740,7 +740,7 @@
       {
         "id": "SC-F-02",
         "title": "Sunday Brunch at El Chorro",
-        "description": "A Scottsdale institution since 1937 — mountain-view patio, bottomless mimosas, and sticky buns so good they justified the trip before the menu arrived.",
+        "description": "A Scottsdale institution since 1937: mountain-view patio, bottomless mimosas, and sticky buns so good they justified the trip before the menu arrived.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -755,7 +755,7 @@
       {
         "id": "SC-F-01",
         "title": "Dinner at FnB Restaurant",
-        "description": "Charleen Badman's James Beard Award-winning farm kitchen in Old Town — what's on the plate depends entirely on what arrived from the farm that morning.",
+        "description": "Charleen Badman's James Beard Award-winning farm kitchen in Old Town, what's on the plate depends entirely on what arrived from the farm that morning.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -785,7 +785,7 @@
       {
         "id": "F-08",
         "title": "Brunch at Postino Arcadia",
-        "description": "The definitive Phoenix brunch spot — bruschetta boards, bottomless mimosas, and a patio that makes a weekend morning feel like a vacation.",
+        "description": "The definitive Phoenix brunch spot: bruschetta boards, bottomless mimosas, and a patio that makes a weekend morning feel like a vacation.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -800,7 +800,7 @@
       {
         "id": "F-07",
         "title": "Cooking Class at Kai",
-        "description": "The only AAA Five Diamond restaurant in Arizona — Southwestern ingredients, Pima culinary traditions, world-class technique.",
+        "description": "The only AAA Five Diamond restaurant in Arizona: Southwestern ingredients, Pima culinary traditions, world-class technique.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -830,7 +830,7 @@
       {
         "id": "F-05",
         "title": "Dinner at Bacanora",
-        "description": "A small, wood-fired Sonoran kitchen in a converted house — the kind of restaurant that makes you feel like you found something.",
+        "description": "A small, wood-fired Sonoran kitchen in a converted house. The kind of restaurant that makes you feel like you found something.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -845,7 +845,7 @@
       {
         "id": "F-04",
         "title": "Food Truck Crawl on Roosevelt Row",
-        "description": "Park once, walk the Row, eat at three different trucks in one session — no planning, just whatever looks good.",
+        "description": "Park once, walk the Row, eat at three different trucks in one session. No planning, just whatever looks good.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -875,7 +875,7 @@
       {
         "id": "F-01",
         "title": "Breakfast at Matt's Big Breakfast",
-        "description": "The best diner in Phoenix with a line to prove it — farm-sourced, perfectly executed, worth every minute of the wait.",
+        "description": "The best diner in Phoenix with a line to prove it: farm-sourced, perfectly executed, worth every minute of the wait.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -908,7 +908,7 @@
       {
         "id": "8-09",
         "title": "Take a Class in Something You've Always Dismissed",
-        "description": "Pottery, salsa dancing, watercolor, improv, archery — whatever you've written off as \"not for me.\" One session. Go find out.",
+        "description": "Pottery, salsa dancing, watercolor, improv, archery, whatever you've written off as \"not for me.\" One session. Go find out.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -941,7 +941,7 @@
       {
         "id": "8-07",
         "title": "Go to the Next Event You See Advertised",
-        "description": "The next flyer, Instagram post, or roadside sign for a local event — that's where you're going. No vetting, no research, just show up.",
+        "description": "The next flyer, Instagram post, or roadside sign for a local event, that's where you're going. No vetting, no research, just show up.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -988,7 +988,7 @@
       {
         "id": "8-04",
         "title": "Find a View You've Never Seen",
-        "description": "Not Camelback. Not South Mountain. Search, ask a local, dig — find a viewpoint you didn't know existed and get there before dark.",
+        "description": "Not Camelback. Not South Mountain. Search, ask a local, dig. Find a viewpoint you didn't know existed and get there before dark.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -1003,7 +1003,7 @@
       {
         "id": "8-03",
         "title": "Learn Something Physical Today",
-        "description": "Find a class — any class — starting within the next 6 hours and show up. Pottery, boxing, salsa, archery. Whatever's available.",
+        "description": "Find a class, any class, starting within the next 6 hours and show up. Pottery, boxing, salsa, archery. Whatever's available.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -1051,7 +1051,7 @@
       {
         "id": "S-09",
         "title": "Improv Night at Torch Theatre",
-        "description": "Phoenix's dedicated improv comedy theatre — shows run Thursday through Saturday and every set is genuinely unrepeatable.",
+        "description": "Phoenix's dedicated improv comedy theatre, shows run Thursday through Saturday and every set is genuinely unrepeatable.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -1059,14 +1059,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Volunteer if they ask for audience participation. Don't think — just go.",
+        "bonus": "Volunteer if they ask for audience participation. Don't think, just go.",
         "city": null,
         "mapsUrl": "https://maps.google.com/?q=Torch+Theatre+Phoenix+AZ"
       },
       {
         "id": "S-08",
         "title": "Diamondbacks Game at Chase Field",
-        "description": "The only MLB park with a retractable roof and a pool in the outfield — show up for the game, stay for the atmosphere, and order the churro dog at least once.",
+        "description": "The only MLB park with a retractable roof and a pool in the outfield. Show up for the game, stay for the atmosphere, and order the churro dog at least once.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -1096,7 +1096,7 @@
       {
         "id": "S-05",
         "title": "Comedy Night at Stand Up Live",
-        "description": "Phoenix's premier comedy club books national touring acts weekly — arrive before showtime, stay for the set, leave with sore cheeks.",
+        "description": "Phoenix's premier comedy club books national touring acts weekly. Arrive before showtime, stay for the set, leave with sore cheeks.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -1127,7 +1127,7 @@
       {
         "id": "SC-C-04",
         "title": "Scottsdale Civic Center Sculpture Walk",
-        "description": "An outdoor public art collection winding through the civic campus — better than most museums, free, and completely empty on a weeknight.",
+        "description": "An outdoor public art collection winding through the civic campus: better than most museums, free, and completely empty on a weeknight.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -1142,7 +1142,7 @@
       {
         "id": "SC-C-02",
         "title": "Old Town Scottsdale ArtWalk",
-        "description": "Every Thursday evening, galleries along Marshall Way and Main Street open late — a self-guided walk through Southwestern art, sculpture, and cowboy modernism.",
+        "description": "Every Thursday evening, galleries along Marshall Way and Main Street open late: a self-guided walk through Southwestern art, sculpture, and cowboy modernism.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -1150,14 +1150,14 @@
         "time": "Evening",
         "season": "Oct–May",
         "spark": 25,
-        "bonus": "Walk into every open gallery — not just the ones that look interesting from outside. Reserve judgment until you're in.",
+        "bonus": "Walk into every open gallery, not just the ones that look interesting from outside. Reserve judgment until you're in.",
         "city": "Scottsdale, AZ",
         "mapsUrl": "https://maps.google.com/?q=Marshall+Way+Arts+District+Scottsdale+AZ"
       },
       {
         "id": "SC-C-01",
         "title": "SMoCA on a Free Thursday Night",
-        "description": "The Scottsdale Museum of Contemporary Art opens free every Thursday evening — a small museum that punches well above its weight, with a rooftop terrace nobody talks about.",
+        "description": "The Scottsdale Museum of Contemporary Art opens free every Thursday evening, a small museum that punches well above its weight, with a rooftop terrace nobody talks about.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -1172,7 +1172,7 @@
       {
         "id": "C-09",
         "title": "Gallery Hop in Old Town Scottsdale",
-        "description": "Old Town Scottsdale has more galleries per block than almost anywhere in the Southwest — pick a direction and let the art find you.",
+        "description": "Old Town Scottsdale has more galleries per block than almost anywhere in the Southwest. Pick a direction and let the art find you.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -1187,7 +1187,7 @@
       {
         "id": "C-07",
         "title": "Spend a Morning at Taliesin West",
-        "description": "Frank Lloyd Wright's desert camp in Scottsdale — still an active architecture school, still one of the most quietly extraordinary places in the state.",
+        "description": "Frank Lloyd Wright's desert camp in Scottsdale, still an active architecture school, still one of the most quietly extraordinary places in the state.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -1202,7 +1202,7 @@
       {
         "id": "C-04",
         "title": "Afternoon at the Heard Museum",
-        "description": "The finest collection of Native American art and history in the Southwest — thoughtfully curated, genuinely moving, criminally undervisited by locals.",
+        "description": "The finest collection of Native American art and history in the Southwest: thoughtfully curated, genuinely moving, criminally undervisited by locals.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -1210,7 +1210,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Spend at least 10 minutes with one piece. Not glancing — actually sitting with it.",
+        "bonus": "Spend at least 10 minutes with one piece. Not glancing, actually sitting with it.",
         "city": null,
         "mapsUrl": "https://maps.google.com/?q=Heard+Museum+Phoenix+AZ"
       }
@@ -1219,7 +1219,7 @@
       {
         "id": "SC-C-03",
         "title": "McCormick-Stillman Railroad Park",
-        "description": "A working 1:5-scale railroad in the middle of North Scottsdale, a vintage carousel, and a crowd that genuinely doesn't care how old you are — ride the train.",
+        "description": "A working 1:5-scale railroad in the middle of North Scottsdale, a vintage carousel, and a crowd that genuinely doesn't care how old you are. Ride the train.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -1234,7 +1234,7 @@
       {
         "id": "C-10",
         "title": "Coffee and a Book at Cartel Roasting Co.",
-        "description": "Phoenix's best specialty roaster, in a space designed for staying — order something you've never tried from the brew bar and disappear into a book for two hours.",
+        "description": "Phoenix's best specialty roaster, in a space designed for staying. Order something you've never tried from the brew bar and disappear into a book for two hours.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -1242,14 +1242,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Leave your phone in your bag the entire time. Not face-down — in your bag.",
+        "bonus": "Leave your phone in your bag the entire time. Not face-down, in your bag.",
         "city": null,
         "mapsUrl": "https://maps.google.com/?q=Cartel+Coffee+Lab+Phoenix+AZ"
       },
       {
         "id": "C-08",
         "title": "Drive the Apache Trail at Golden Hour",
-        "description": "A 40-mile stretch of unpaved desert highway through the Superstitions — canyon walls, reservoir views, and zero cell signal. Start before sunset.",
+        "description": "A 40-mile stretch of unpaved desert highway through the Superstitions: canyon walls, reservoir views, and zero cell signal. Start before sunset.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -1267,7 +1267,7 @@
       {
         "id": "C-06",
         "title": "Goldfield Ghost Town at Dusk",
-        "description": "A restored 1890s mining town at the base of the Superstitions — equal parts history, kitsch, and genuine desert atmosphere.",
+        "description": "A restored 1890s mining town at the base of the Superstitions: equal parts history, kitsch, and genuine desert atmosphere.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -1297,7 +1297,7 @@
       {
         "id": "C-03",
         "title": "Sunrise at South Mountain",
-        "description": "16,000 acres of preserved desert at the edge of the city — arrive before dawn and watch Phoenix emerge from darkness below you.",
+        "description": "16,000 acres of preserved desert at the edge of the city. Arrive before dawn and watch Phoenix emerge from darkness below you.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -1312,7 +1312,7 @@
       {
         "id": "C-02",
         "title": "Bookstore Crawl: Changing Hands to The Poisoned Pen",
-        "description": "Two of the best independent bookstores in America happen to be in the same city — give yourself two hours and no agenda.",
+        "description": "Two of the best independent bookstores in America happen to be in the same city. Give yourself two hours and no agenda.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -1330,7 +1330,7 @@
       {
         "id": "C-01",
         "title": "Wander the Desert Botanical Garden",
-        "description": "140 acres of curated desert — the saguaros alone are worth the trip, and the light at golden hour makes a photographer of everyone.",
+        "description": "140 acres of curated desert. The saguaros alone are worth the trip, and the light at golden hour makes a photographer of everyone.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",

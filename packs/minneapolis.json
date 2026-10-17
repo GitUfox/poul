@@ -86,7 +86,7 @@
       {
         "id": "MSP-F-12",
         "title": "Dinner at Owamni",
-        "description": "Sean Sherman's decolonized Indigenous kitchen above St. Anthony Falls — no dairy, wheat, cane sugar or pork, and a view straight down the river.",
+        "description": "Sean Sherman's decolonized Indigenous kitchen above St. Anthony Falls: no dairy, wheat, cane sugar or pork, and a view straight down the river.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -143,7 +143,7 @@
       {
         "id": "MSP-F-07",
         "title": "Vietnamese Night at Hai Hai",
-        "description": "Christina Nguyen's Northeast room serving Southeast Asian street food — bánh xèo, grilled skewers and tiki drinks under a lot of neon.",
+        "description": "Christina Nguyen's Northeast room serving Southeast Asian street food, bánh xèo, grilled skewers and tiki drinks under a lot of neon.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -177,7 +177,7 @@
       {
         "id": "MSP-F-01",
         "title": "Order a Jucy Lucy at Matt's Bar",
-        "description": "Bite into the original cheese-stuffed burger that put Minneapolis on the map — careful, the molten center is a trap for the unprepared.",
+        "description": "Bite into the original cheese-stuffed burger that put Minneapolis on the map. Careful, the molten center is a trap for the unprepared.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -300,7 +300,7 @@
       {
         "id": "MSP-S-08",
         "title": "An Evening at Palmer's Bar",
-        "description": "A West Bank dive that has been exactly itself since 1906 — cheap drinks, live music in the corner, and the best patio regulars in the city.",
+        "description": "A West Bank dive that has been exactly itself since 1906: cheap drinks, live music in the corner, and the best patio regulars in the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -379,7 +379,7 @@
       {
         "id": "MSP-S-04",
         "title": "Brewery Hop Through Northeast Minneapolis",
-        "description": "Walk between Indeed Brewing, Fair State, and Sociable Cider Werks — three taprooms within a few blocks of each other in the city's brewery district.",
+        "description": "Walk between Indeed Brewing, Fair State, and Sociable Cider Werks, three taprooms within a few blocks of each other in the city's brewery district.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -394,7 +394,7 @@
       {
         "id": "MSP-S-02",
         "title": "Catch a Show at First Avenue",
-        "description": "See a band play the legendary club where Prince filmed Purple Rain — the star-covered exterior alone is worth the trip.",
+        "description": "See a band play the legendary club where Prince filmed Purple Rain. The star-covered exterior alone is worth the trip.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -419,7 +419,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 12,
-        "bonus": "Stay for the late show — it's looser and usually better.",
+        "bonus": "Stay for the late show. It's looser and usually better.",
         "city": "Minneapolis, MN",
         "mapsUrl": "https://maps.google.com/maps/search/HUGE+Theater+Minneapolis+MN",
         "company": [
@@ -430,7 +430,7 @@
       {
         "id": "MSP-CU-03",
         "title": "Wild Game at Xcel Energy Center",
-        "description": "The State of Hockey at full volume — eighteen thousand people who genuinely understand the game, in a building made specifically for it.",
+        "description": "The State of Hockey at full volume, eighteen thousand people who genuinely understand the game, in a building made specifically for it.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3.5 hrs",
@@ -526,7 +526,7 @@
       {
         "id": "MSP-CU-07",
         "title": "The Minnesota State Fair",
-        "description": "The Great Minnesota Get-Together — twelve days, two million people, a butter sculpture of the dairy princess, and everything imaginable on a stick.",
+        "description": "The Great Minnesota Get-Together: twelve days, two million people, a butter sculpture of the dairy princess, and everything imaginable on a stick.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "Full day",
@@ -777,7 +777,7 @@
       {
         "id": "MSP-A-04",
         "title": "Fat-Tire Bike Across a Frozen Lake at Lake Nokomis",
-        "description": "Ride a rented fat-tire bike straight out onto the packed snow trails groomed across the ice — a distinctly Minneapolis winter tradition.",
+        "description": "Ride a rented fat-tire bike straight out onto the packed snow trails groomed across the ice, a distinctly Minneapolis winter tradition.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2 hrs",
@@ -867,7 +867,7 @@
       {
         "id": "MSP-A-03",
         "title": "Bike the Full Chain of Lakes Loop",
-        "description": "Ride the paved trail connecting Bde Maka Ska, Lake Harriet, and Lake of the Isles — 13 miles of urban lakes back to back.",
+        "description": "Ride the paved trail connecting Bde Maka Ska, Lake Harriet, and Lake of the Isles, 13 miles of urban lakes back to back.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -903,7 +903,7 @@
       {
         "id": "MSP-C-06",
         "title": "Slow Morning at Spyhouse Coffee",
-        "description": "High ceilings, mismatched furniture and serious coffee — the Northeast and Whittier rooms are both good places to lose an hour.",
+        "description": "High ceilings, mismatched furniture and serious coffee. The Northeast and Whittier rooms are both good places to lose an hour.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -1030,7 +1030,7 @@
       {
         "id": "MSP-C-01",
         "title": "Sit With the Sculpture Garden's Cherry Spoon",
-        "description": "Wander the Minneapolis Sculpture Garden and find the Spoonbridge and Cherry — the city's most photographed piece of public art.",
+        "description": "Wander the Minneapolis Sculpture Garden and find the Spoonbridge and Cherry, the city's most photographed piece of public art.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",

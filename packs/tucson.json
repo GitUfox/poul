@@ -29,7 +29,7 @@
       {
         "id": "TUS-CU-05",
         "title": "The Archives at the Center for Creative Photography",
-        "description": "Ansel Adams put his own archive here, and sixty other photographers followed — a working research collection on the university campus that mounts real exhibitions from it.",
+        "description": "Ansel Adams put his own archive here, and sixty other photographers followed, a working research collection on the university campus that mounts real exhibitions from it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -48,7 +48,7 @@
       {
         "id": "TUS-CU-04",
         "title": "Down the Silo at the Titan Missile Museum",
-        "description": "The only Titan II complex left open to the public — fifty-five steps down to a launch control centre where you sit at the console and turn the key.",
+        "description": "The only Titan II complex left open to the public, fifty-five steps down to a launch control centre where you sit at the console and turn the key.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -68,7 +68,7 @@
       {
         "id": "TUS-CU-03",
         "title": "Arizona-Sonora Desert Museum",
-        "description": "Neither quite a zoo nor quite a botanical garden — two miles of outdoor paths through the Sonoran Desert with the animals and plants that actually live in it.",
+        "description": "Neither quite a zoo nor quite a botanical garden, two miles of outdoor paths through the Sonoran Desert with the animals and plants that actually live in it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -88,7 +88,7 @@
       {
         "id": "TUS-CU-07",
         "title": "Walk in the All Souls Procession",
-        "description": "Two miles of downtown, once a year, with 150,000 people carrying photographs of their dead — no sponsors, no floats, and a giant urn burned at the finish holding everyone's written wishes.",
+        "description": "Two miles of downtown, once a year, with 150,000 people carrying photographs of their dead: no sponsors, no floats, and a giant urn burned at the finish holding everyone's written wishes.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "4 hrs",
@@ -147,7 +147,7 @@
       {
         "id": "TUS-CU-01",
         "title": "Mission San Xavier del Bac",
-        "description": "The White Dove of the Desert — a 1790s Spanish colonial church on the Tohono O'odham Nation, still an active parish, and the finest building of its kind in the United States.",
+        "description": "The White Dove of the Desert: a 1790s Spanish colonial church on the Tohono O'odham Nation, still an active parish, and the finest building of its kind in the United States.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -169,7 +169,7 @@
       {
         "id": "TUS-8B-02",
         "title": "Wildcard: Sonoran Hot Dog Showdown",
-        "description": "Bacon-wrapped, in a bolillo roll, buried under beans and salsa verde — eat one at three different stands in a single night and settle the argument.",
+        "description": "Bacon-wrapped, in a bolillo roll, buried under beans and salsa verde. Eat one at three different stands in a single night and settle the argument.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",
@@ -271,7 +271,7 @@
       {
         "id": "TUS-S-08",
         "title": "Down the Stairs to Tough Luck Club",
-        "description": "A cocktail bar in the old morgue beneath Reilly's pizza — volcanic rock walls, red leather booths and a menu that turns over every few months.",
+        "description": "A cocktail bar in the old morgue beneath Reilly's pizza, volcanic rock walls, red leather booths and a menu that turns over every few months.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -450,7 +450,7 @@
       {
         "id": "TUS-C-08",
         "title": "Sunset Picnic at Agua Caliente Park",
-        "description": "Spring-fed ponds and a stand of century-old palms on the far east side — an improbable oasis with herons in it, twenty minutes from downtown.",
+        "description": "Spring-fed ponds and a stand of century-old palms on the far east side, an improbable oasis with herons in it, twenty minutes from downtown.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -511,7 +511,7 @@
       {
         "id": "TUS-F-10",
         "title": "Whatever's on the Board at Tumerico",
-        "description": "A tiny vegetarian kitchen with no fixed menu — Wendy Garcia writes the day's dishes on a chalkboard and they're different tomorrow.",
+        "description": "A tiny vegetarian kitchen with no fixed menu, Wendy Garcia writes the day's dishes on a chalkboard and they're different tomorrow.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -670,7 +670,7 @@
       {
         "id": "TUS-A-05",
         "title": "Drive the Sky Island Highway to Summerhaven",
-        "description": "Twenty-seven miles of switchbacks that climb from saguaro desert to alpine pine forest — the ecological equivalent of driving from Mexico to Canada in an hour.",
+        "description": "Twenty-seven miles of switchbacks that climb from saguaro desert to alpine pine forest, the ecological equivalent of driving from Mexico to Canada in an hour.",
         "rarity": "Common",
         "cost": "$",
         "duration": "4–5 hrs",
@@ -769,7 +769,7 @@
       {
         "id": "TUS-A-07",
         "title": "Descend Into Kartchner Caverns",
-        "description": "A living wet cave that its discoverers kept secret for fourteen years — still growing, still dripping, and reached through airlock doors that hold the humidity in.",
+        "description": "A living wet cave that its discoverers kept secret for fourteen years: still growing, still dripping, and reached through airlock doors that hold the humidity in.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",

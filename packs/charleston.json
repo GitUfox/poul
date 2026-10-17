@@ -9,7 +9,7 @@
       {
         "id": "CHS-F-07",
         "title": "Brisket at Lewis Barbecue",
-        "description": "Central Texas method transplanted to the Lowcountry — post oak, custom-built pits, and a brisket that justifies the queue.",
+        "description": "Central Texas method transplanted to the Lowcountry: post oak, custom-built pits, and a brisket that justifies the queue.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -46,7 +46,7 @@
       {
         "id": "CHS-F-08",
         "title": "Lunch Line at Bertha's Kitchen",
-        "description": "A North Charleston cafeteria line run by the same family for decades — lima beans, fried chicken, okra soup and red rice, served on a tray.",
+        "description": "A North Charleston cafeteria line run by the same family for decades: lima beans, fried chicken, okra soup and red rice, served on a tray.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -66,7 +66,7 @@
       {
         "id": "CHS-F-05",
         "title": "Crab Rice at Hannibal's Kitchen",
-        "description": "A family soul-food kitchen off Upper King serving Gullah staples since 1985 — crab rice, shark steak and okra soup, from breakfast onward.",
+        "description": "A family soul-food kitchen off Upper King serving Gullah staples since 1985: crab rice, shark steak and okra soup, from breakfast onward.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -123,7 +123,7 @@
       {
         "id": "CHS-F-12",
         "title": "Dinner at FIG",
-        "description": "Food Is Good — a two-decade Charleston benchmark for Lowcountry ingredients cooked simply, and one of the hardest tables in the city to get.",
+        "description": "Food Is Good, a two-decade Charleston benchmark for Lowcountry ingredients cooked simply, and one of the hardest tables in the city to get.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -226,7 +226,7 @@
       {
         "id": "CHS-CU-04",
         "title": "Spoleto Festival USA",
-        "description": "For seventeen days the entire city becomes a venue — opera, chamber music, theatre and dance in churches, courtyards and the Dock Street Theatre.",
+        "description": "For seventeen days the entire city becomes a venue: opera, chamber music, theatre and dance in churches, courtyards and the Dock Street Theatre.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "Full day",
@@ -325,7 +325,7 @@
       {
         "id": "CHS-CU-03",
         "title": "Aiken-Rhett House Museum",
-        "description": "A townhouse preserved rather than restored — peeling wallpaper left as found, and the enslaved people's quarters, kitchen and stable yard still standing behind it.",
+        "description": "A townhouse preserved rather than restored. Peeling wallpaper left as found, and the enslaved people's quarters, kitchen and stable yard still standing behind it.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -352,7 +352,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 13,
-        "bonus": "Find the miniature portrait gallery — it's easy to walk straight past.",
+        "bonus": "Find the miniature portrait gallery. It's easy to walk straight past.",
         "city": "Charleston, SC",
         "mapsUrl": "https://maps.google.com/maps/search/Gibbes+Museum+of+Art+Charleston+SC",
         "company": [
@@ -664,7 +664,7 @@
       {
         "id": "CHS-S-11",
         "title": "Work Your Way Up King Street",
-        "description": "One of the densest bar strips in the Southeast — start below Calhoun and move north, one drink per room, until the crowd changes character.",
+        "description": "One of the densest bar strips in the Southeast. Start below Calhoun and move north, one drink per room, until the crowd changes character.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -844,7 +844,7 @@
       {
         "id": "CHS-A-06",
         "title": "Beach Day on Sullivan's Island",
-        "description": "Wide, uncrowded sand with no high-rises and no commercial strip — park on a residential street, walk over the dunes, and that is the day.",
+        "description": "Wide, uncrowded sand with no high-rises and no commercial strip. Park on a residential street, walk over the dunes, and that is the day.",
         "rarity": "Common",
         "cost": "$",
         "duration": "4 hrs",
@@ -941,7 +941,7 @@
       {
         "id": "CHS-A-09",
         "title": "Watch Dolphins Strand Feed at Kiawah",
-        "description": "Kiawah's bottlenose dolphins drive fish onto the mud bank and beach themselves to eat — a hunting behaviour practised almost nowhere else on earth.",
+        "description": "Kiawah's bottlenose dolphins drive fish onto the mud bank and beach themselves to eat, a hunting behaviour practised almost nowhere else on earth.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",

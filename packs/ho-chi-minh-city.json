@@ -188,7 +188,7 @@
       {
         "id": "SGN-8B-01",
         "title": "Wildcard: Ho Thi Ky Night Market Roulette",
-        "description": "Walk into the flower market alleys after dark and eat only from stalls you cannot name — each person orders from whichever stall has the most locals standing at it.",
+        "description": "Walk into the flower market alleys after dark and eat only from stalls you cannot name. Each person orders from whichever stall has the most locals standing at it.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "3 hrs",
@@ -470,7 +470,7 @@
       {
         "id": "SGN-C-10",
         "title": "Ca Phe Bet on the Palace Lawns",
-        "description": "Ca phe bet means coffee on the ground — the Sunday habit of buying an iced coffee from a cart and sitting on the grass opposite the Independence Palace with everyone else.",
+        "description": "Ca phe bet means coffee on the ground, the Sunday habit of buying an iced coffee from a cart and sitting on the grass opposite the Independence Palace with everyone else.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -684,7 +684,7 @@
       {
         "id": "SGN-F-02",
         "title": "Banh Mi Huynh Hoa",
-        "description": "The most overloaded banh mi in Vietnam — nine kinds of cold cut and a trowel of pate in one baguette — from a shop that has been doing one thing for 35 years.",
+        "description": "The most overloaded banh mi in Vietnam, nine kinds of cold cut and a trowel of pate in one baguette, from a shop that has been doing one thing for 35 years.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "45 mins",
@@ -812,7 +812,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 23,
-        "bonus": "Drink it black, no ice, no condensed milk — the way the sisters would have it.",
+        "bonus": "Drink it black, no ice, no condensed milk. The way the sisters would have it.",
         "city": "Ho Chi Minh City, Vietnam",
         "mapsUrl": "https://maps.google.com/maps/search/Cheo+Leo+Cafe+109+Nguyen+Thien+Thuat+Ho+Chi+Minh+City",
         "company": [
@@ -831,7 +831,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 14,
-        "bonus": "Wrap it properly in mustard leaf and herbs before the first bite — no cutlery.",
+        "bonus": "Wrap it properly in mustard leaf and herbs before the first bite, no cutlery.",
         "city": "Ho Chi Minh City, Vietnam",
         "mapsUrl": "https://maps.google.com/maps/search/Banh+Xeo+46A+Dinh+Cong+Trang+Ho+Chi+Minh+City",
         "company": [

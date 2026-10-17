@@ -17,14 +17,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Make a wish at the top — it's called Wish Hill for a reason — and tell no one what it was.",
+        "bonus": "Make a wish at the top, it's called Wish Hill for a reason, and tell no one what it was.",
         "city": "Ürgüp, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Temenni+Hill+Ürgüp"
       },
       {
         "id": "TUR-A-501",
         "title": "Dawn at the Balloon Launch Field",
-        "description": "Skip the basket and walk the launch fields outside Göreme at 5am instead — a hundred burners firing in the dark, envelopes rising like slow fireworks, and you standing in the middle of it for free.",
+        "description": "Skip the basket and walk the launch fields outside Göreme at 5am instead: a hundred burners firing in the dark, envelopes rising like slow fireworks, and you standing in the middle of it for free.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -32,14 +32,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Help a ground crew steady an envelope if they wave you over — then watch your balloon until it's a dot.",
+        "bonus": "Help a ground crew steady an envelope if they wave you over. Then watch your balloon until it's a dot.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/balloon+launch+field+Göreme+Cappadocia"
       },
       {
         "id": "TUR-AC-301",
         "title": "Hike the Zemi Valley",
-        "description": "The green, walled-in Zemi Valley runs quietly from Göreme toward Uçhisar past orchards, tunnels, and rock-cut chapels — the locals' pick for a crowd-free morning walk.",
+        "description": "The green, walled-in Zemi Valley runs quietly from Göreme toward Uçhisar past orchards, tunnels, and rock-cut chapels, the locals' pick for a crowd-free morning walk.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -47,14 +47,14 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Walk it one-way and take the dolmuş back — talk to whoever sits next to you.",
+        "bonus": "Walk it one-way and take the dolmuş back. Talk to whoever sits next to you.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Zemi+Valley+Göreme+Cappadocia"
       },
       {
         "id": "TUR-A-202",
         "title": "Hike the Soğanlı Valley",
-        "description": "An hour south of the center, Soğanlı's twin valleys hide rock-cut churches, dovecote cliffs, and a stream-threaded floor with no souvenir stands and no tour groups — Cappadocia before the balloons.",
+        "description": "An hour south of the center, Soğanlı's twin valleys hide rock-cut churches, dovecote cliffs, and a stream-threaded floor with no souvenir stands and no tour groups, Cappadocia before the balloons.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -62,7 +62,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Wade the stream barefoot to the valley's end church — mark your waterline on a rock with a wet finger.",
+        "bonus": "Wade the stream barefoot to the valley's end church, mark your waterline on a rock with a wet finger.",
         "city": "Soğanlı, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Soğanlı+Valley+Cappadocia"
       },
@@ -84,7 +84,7 @@
       {
         "id": "TUR-A-201",
         "title": "Visit the Kaymakli Underground City",
-        "description": "Kaymaklı is wider and more labyrinthine than Derinkuyu — level after level of tunnels, stables, and cellars where thousands once sheltered underground, and the claustrophobia is completely real.",
+        "description": "Kaymaklı is wider and more labyrinthine than Derinkuyu: level after level of tunnels, stables, and cellars where thousands once sheltered underground, and the claustrophobia is completely real.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -92,7 +92,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the ventilation shaft on level four and listen — you'll hear wind moving from 80 metres below.",
+        "bonus": "Find the ventilation shaft on level four and listen. You'll hear wind moving from 80 metres below.",
         "city": "Kaymaklı, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Kaymakli+Underground+City+Cappadocia"
       },
@@ -107,14 +107,14 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Reach the very top platform of Ortahisar Castle before 7am — photograph your shadow on the rock with the valley behind it.",
+        "bonus": "Reach the very top platform of Ortahisar Castle before 7am. Photograph your shadow on the rock with the valley behind it.",
         "city": "Ortahisar, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Ortahisar+Castle+Cappadocia"
       },
       {
         "id": "TUR-AC-106",
         "title": "Walk the Meskendir Valley Alone",
-        "description": "Sandwiched between Rose and Red Valley, Meskendir is the quietest of Cappadocia's central canyons — a 3km trail through press-houses, pigeon lofts, and vines with almost no other hikers.",
+        "description": "Sandwiched between Rose and Red Valley, Meskendir is the quietest of Cappadocia's central canyons: a 3km trail through press-houses, pigeon lofts, and vines with almost no other hikers.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -122,7 +122,7 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Identify and photograph three different active dovecote entrances — look for the whitewash splash patterns beneath the holes.",
+        "bonus": "Identify and photograph three different active dovecote entrances. Look for the whitewash splash patterns beneath the holes.",
         "city": "Çavuşin, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Meskendir+Valley+Cappadocia",
         "company": [
@@ -132,7 +132,7 @@
       {
         "id": "TUR-AC-105",
         "title": "Dawn Horse Trek to Çavuşin Old Village",
-        "description": "Dalton Brothers Horse Ranch in Göreme runs pre-sunrise rides that reach the abandoned cliff village of Çavuşin just as the first balloon shadows cross the valley — genuinely otherworldly.",
+        "description": "Dalton Brothers Horse Ranch in Göreme runs pre-sunrise rides that reach the abandoned cliff village of Çavuşin just as the first balloon shadows cross the valley, genuinely otherworldly.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -140,7 +140,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "At the Çavuşin cliff face, ask your guide for five unhurried minutes of silence before the ride back — no photos, just the view.",
+        "bonus": "At the Çavuşin cliff face, ask your guide for five unhurried minutes of silence before the ride back, no photos, just the view.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Dalton+Brothers+Horse+Ranch+Göreme+Cappadocia"
       },
@@ -155,14 +155,14 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 40,
-        "bonus": "Reach the crater rim and leave a small stone cairn — take a photo of it with the Cappadocia plateau visible below.",
+        "bonus": "Reach the crater rim and leave a small stone cairn. Take a photo of it with the Cappadocia plateau visible below.",
         "city": "Kayseri, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Mount+Erciyes+summit+hike+Kayseri"
       },
       {
         "id": "TUR-A-108",
         "title": "Visit the Avanos Hair Museum at Chez Galip",
-        "description": "Inside the pottery workshop of master ceramicist Galip Körükçü, a Guinness World Record-holding underground cave holds over 16,000 locks of hair donated by women from every country on earth — bizarre, intimate, and completely unforgettable.",
+        "description": "Inside the pottery workshop of master ceramicist Galip Körükçü, a Guinness World Record-holding underground cave holds over 16,000 locks of hair donated by women from every country on earth: bizarre, intimate, and completely unforgettable.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -170,14 +170,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Leave a lock — scissors are available and Galip will add your name and hometown to the wall.",
+        "bonus": "Leave a lock. Scissors are available and Galip will add your name and hometown to the wall.",
         "city": "Avanos, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Chez+Galip+Hair+Museum+Avanos"
       },
       {
         "id": "TUR-AC-101",
         "title": "Dawn Run Through Love Valley",
-        "description": "The phallic volcanic columns of Love Valley are best experienced at a jog before 7 a.m. — the light is low, the shadows long, and you'll have the entire 4 km trail to yourself.",
+        "description": "The phallic volcanic columns of Love Valley are best experienced at a jog before 7 a.m. The light is low, the shadows long, and you'll have the entire 4 km trail to yourself.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -185,14 +185,14 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Run the full out-and-back without stopping — if you have to walk, add five push-ups at each chimney you pause at.",
+        "bonus": "Run the full out-and-back without stopping. If you have to walk, add five push-ups at each chimney you pause at.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Love+Valley+Göreme+Cappadocia"
       },
       {
         "id": "TUR-A-106",
         "title": "Hike the Gomeda Valley",
-        "description": "The deep-cut Gomeda Valley south of Mustafapaşa hides rock-cut churches, dovecotes, and dry-waterfall scrambles on a trail that few tour operators even list — bring water and go early.",
+        "description": "The deep-cut Gomeda Valley south of Mustafapaşa hides rock-cut churches, dovecotes, and dry-waterfall scrambles on a trail that few tour operators even list. Bring water and go early.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -200,14 +200,14 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "At the deepest point of the canyon, shout at full volume — count the echoes.",
+        "bonus": "At the deepest point of the canyon, shout at full volume. Count the echoes.",
         "city": "Ürgüp, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Gomeda+Valley+Mustafapaşa+Cappadocia"
       },
       {
         "id": "TUR-A-104",
         "title": "Explore Zelve Open Air Museum Solo",
-        "description": "The abandoned troglodyte village of Zelve — occupied until 1952 — is a labyrinth of cave dwellings, chapels, and mill chambers that rewards anyone willing to duck into unmarked tunnels without a guide.",
+        "description": "The abandoned troglodyte village of Zelve, occupied until 1952, is a labyrinth of cave dwellings, chapels, and mill chambers that rewards anyone willing to duck into unmarked tunnels without a guide.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -215,7 +215,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the old flour mill room and turn your phone light off for sixty seconds — complete darkness.",
+        "bonus": "Find the old flour mill room and turn your phone light off for sixty seconds, complete darkness.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Zelve+Open+Air+Museum+Cappadocia",
         "company": [
@@ -225,7 +225,7 @@
       {
         "id": "TUR-A-103",
         "title": "Paragliding Launch from Uçhisar Summit",
-        "description": "Tandem paragliding from the ridge above Uçhisar gives you a bird's-eye read of every valley, fairy chimney, and vineyard terrace across the Cappadocian plateau — slower and quieter than any balloon.",
+        "description": "Tandem paragliding from the ridge above Uçhisar gives you a bird's-eye read of every valley, fairy chimney, and vineyard terrace across the Cappadocian plateau, slower and quieter than any balloon.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -233,7 +233,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 40,
-        "bonus": "Ask your pilot to fly directly over a hot air balloon — get the shot looking down into the basket.",
+        "bonus": "Ask your pilot to fly directly over a hot air balloon. Get the shot looking down into the basket.",
         "city": "Uçhisar, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/paragliding+Uçhisar+Cappadocia"
       },
@@ -248,14 +248,14 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 25,
-        "bonus": "Find the Sword Valley church and photograph a fresco without using your flash — see how far natural light gets you.",
+        "bonus": "Find the Sword Valley church and photograph a fresco without using your flash. See how far natural light gets you.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Kılıçlar+Valley+Göreme"
       },
       {
         "id": "TUR-AC-02",
         "title": "Sunset Horse Ride Through Pigeon Valley",
-        "description": "Dalton Brothers Ranch runs two-hour trail rides through Pigeon Valley and the White Valley at the hour the light turns golden — the horses know the trail better than the guide, and the route ends at a viewpoint earned entirely on horseback.",
+        "description": "Dalton Brothers Ranch runs two-hour trail rides through Pigeon Valley and the White Valley at the hour the light turns golden, the horses know the trail better than the guide, and the route ends at a viewpoint earned entirely on horseback.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -273,7 +273,7 @@
       {
         "id": "TUR-A-04",
         "title": "Scooter to Uçhisar Castle at Sunset",
-        "description": "Rent a scooter in Göreme and ride 4 km to Uçhisar — the highest naturally formed rock castle in Cappadocia — arriving with 30 minutes before dark. The 360-degree view from the summit puts the entire valley in frame as the light fails.",
+        "description": "Rent a scooter in Göreme and ride 4 km to Uçhisar, the highest naturally formed rock castle in Cappadocia, arriving with 30 minutes before dark. The 360-degree view from the summit puts the entire valley in frame as the light fails.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -290,8 +290,8 @@
       },
       {
         "id": "TUR-A-01",
-        "title": "Hot Air Balloon at Sunrise over Göreme Valley",
-        "description": "Royal Balloon launches before dawn and floats you above the fairy chimneys of the Göreme valley as the sun climbs over the horizon — the most photographed view in Turkey and the only one worth waking up at 4am for.",
+        "title": "Hot Air Balloon at Sunrise Over Göreme Valley",
+        "description": "Royal Balloon launches before dawn and floats you above the fairy chimneys of the Göreme valley as the sun climbs over the horizon, the most photographed view in Turkey and the only one worth waking up at 4am for.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -306,7 +306,7 @@
       {
         "id": "TUR-A-03",
         "title": "Hike the Ihlara Valley Gorge",
-        "description": "A 16 km canyon trail along the Melendiz River with Byzantine cave churches carved into the cliff walls at eye level — start at Selime Monastery, hike south to Ihlara village, and swim in the river when your legs say so.",
+        "description": "A 16 km canyon trail along the Melendiz River with Byzantine cave churches carved into the cliff walls at eye level. Start at Selime Monastery, hike south to Ihlara village, and swim in the river when your legs say so.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "4–5 hrs",
@@ -321,7 +321,7 @@
       {
         "id": "TUR-AC-04",
         "title": "Sunrise Hike: Çavuşin to Paşabağ via Zelve",
-        "description": "A 2-hour cross-country walk from the abandoned Greek village of Çavuşin through the Zelve Open Air Museum to the mushroom-shaped fairy chimneys at Paşabağ — best done before 7am when the rock carries its own orange light and no tour groups have arrived.",
+        "description": "A 2-hour cross-country walk from the abandoned Greek village of Çavuşin through the Zelve Open Air Museum to the mushroom-shaped fairy chimneys at Paşabağ, best done before 7am when the rock carries its own orange light and no tour groups have arrived.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -336,7 +336,7 @@
       {
         "id": "TUR-A-02",
         "title": "ATV Ride Through Rose Valley at Golden Hour",
-        "description": "Rent an ATV from the operators at the Göreme village entrance and ride the track through Rose Valley at 5pm when the volcanic rock turns terracotta — 8 km of trail through formations that were old when Constantinople was new.",
+        "description": "Rent an ATV from the operators at the Göreme village entrance and ride the track through Rose Valley at 5pm when the volcanic rock turns terracotta. 8 km of trail through formations that were old when Constantinople was new.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -351,7 +351,7 @@
       {
         "id": "TUR-AC-03",
         "title": "Explore Derinkuyu Underground City",
-        "description": "An 18-storey city built underground 3,000 years ago — the tunnels descend 85 metres and once housed 20,000 people. You crouch, crawl, and occasionally decide you trust the ceiling; the reward is a complete rethinking of what civilisation means.",
+        "description": "An 18-storey city built underground 3,000 years ago, the tunnels descend 85 metres and once housed 20,000 people. You crouch, crawl, and occasionally decide you trust the ceiling; the reward is a complete rethinking of what civilisation means.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -366,7 +366,7 @@
       {
         "id": "TUR-AC-01",
         "title": "Mountain Bike the Red and Rose Valley Loop",
-        "description": "Rent bikes in Göreme and ride the 14 km compacted dirt loop through Red Valley and Rose Valley — one demanding climb, two long descents, and formations looming overhead the entire route.",
+        "description": "Rent bikes in Göreme and ride the 14 km compacted dirt loop through Red Valley and Rose Valley: one demanding climb, two long descents, and formations looming overhead the entire route.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -391,7 +391,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Have the owner pick a bottle for someone back home — write down the story that comes with it.",
+        "bonus": "Have the owner pick a bottle for someone back home. Write down the story that comes with it.",
         "city": "Ürgüp, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Efendi+Şarapevi+Ürgüp",
         "adult": true
@@ -399,7 +399,7 @@
       {
         "id": "TUR-S-501",
         "title": "Turkish Night at Uranos Sarıkaya",
-        "description": "Carved into the rock outside Avanos, this 600-seat cave amphitheater runs a full-tilt Turkish night — folk dances from every region, a staged village wedding, belly dance, and an open bar that does not close.",
+        "description": "Carved into the rock outside Avanos, this 600-seat cave amphitheater runs a full-tilt Turkish night: folk dances from every region, a staged village wedding, belly dance, and an open bar that does not close.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -407,14 +407,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "When the dancers pull audience members onto the floor, be the first one up — not the last.",
+        "bonus": "When the dancers pull audience members onto the floor, be the first one up, not the last.",
         "city": "Avanos, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Uranos+Sarıkaya+Avanos"
       },
       {
         "id": "TUR-S-301",
         "title": "Cold Efes at Fat Boys Bar, Göreme",
-        "description": "Göreme's long-running travelers' bar pours cold Efes to a rotating cast of balloon pilots, guides, and backpackers — the closest thing the village has to a common room.",
+        "description": "Göreme's long-running travelers' bar pours cold Efes to a rotating cast of balloon pilots, guides, and backpackers. The closest thing the village has to a common room.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -422,7 +422,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find a balloon pilot at the bar and ask what the wind will do tomorrow — and whether they'd fly in it.",
+        "bonus": "Find a balloon pilot at the bar and ask what the wind will do tomorrow, and whether they'd fly in it.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Fat+Boys+Bar+Göreme",
         "adult": true
@@ -430,7 +430,7 @@
       {
         "id": "TUR-S-108",
         "title": "Underground Tasting at Turasan Winery, Ürgüp",
-        "description": "Turasan has been producing Cappadocian Öküzgözü and Narince in carved volcanic-rock cellars since 1943 — the underground barrel hall tasting is one of the most atmospheric wine experiences in Turkey.",
+        "description": "Turasan has been producing Cappadocian Öküzgözü and Narince in carved volcanic-rock cellars since 1943. The underground barrel hall tasting is one of the most atmospheric wine experiences in Turkey.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -438,7 +438,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the cellar master to pour you something not on the tasting menu — the older the better.",
+        "bonus": "Ask the cellar master to pour you something not on the tasting menu, the older the better.",
         "city": "Ürgüp, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Turasan+Winery+Ürgüp+Cappadocia",
         "adult": true
@@ -446,7 +446,7 @@
       {
         "id": "TUR-S-107",
         "title": "Attend a Friday Market in Avanos Town Square",
-        "description": "The weekly Friday farmers' market around Avanos's Kızılırmak riverfront is where Cappadocian locals actually shop — dried herbs, hand-rolled tarhana, clay pots, live chickens, and zero English menus.",
+        "description": "The weekly Friday farmers' market around Avanos's Kızılırmak riverfront is where Cappadocian locals actually shop: dried herbs, hand-rolled tarhana, clay pots, live chickens, and zero English menus.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -461,7 +461,7 @@
       {
         "id": "TUR-S-105",
         "title": "Sunset Aperitif at Lil'a, Museum Hotel",
-        "description": "The à-la-carte restaurant of Cappadocia's only Relais & Châteaux property sits on the Uçhisar ridge with the whole valley below — Michelin-selected farm-to-table cooking and a local wine list worth arriving early for.",
+        "description": "The à-la-carte restaurant of Cappadocia's only Relais & Châteaux property sits on the Uçhisar ridge with the whole valley below, Michelin-selected farm-to-table cooking and a local wine list worth arriving early for.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1–2 hrs",
@@ -488,14 +488,14 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Find the Milky Way core without help from your phone — if you can't, ask someone at the viewpoint to point it out and buy them a çay the next morning.",
+        "bonus": "Find the Milky Way core without help from your phone. If you can't, ask someone at the viewpoint to point it out and buy them a çay the next morning.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Kızılçukur+viewpoint+Red+Valley+Göreme"
       },
       {
         "id": "TUR-S-101",
         "title": "Join a Locals' Backgammon Night at a Ürgüp Kahvehane",
-        "description": "The traditional coffeehouse culture of Ürgüp's old quarter means any evening you can walk into a smoke-tinged kahvehane, order tea, and watch — or play — backgammon with regulars who've been coming since their teens.",
+        "description": "The traditional coffeehouse culture of Ürgüp's old quarter means any evening you can walk into a smoke-tinged kahvehane, order tea, and watch, or play, backgammon with regulars who've been coming since their teens.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -503,14 +503,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge a local to a game — if you lose, you pay for the next round of tea for the table.",
+        "bonus": "Challenge a local to a game. If you lose, you pay for the next round of tea for the table.",
         "city": "Ürgüp, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/kahvehane+Ürgüp+old+quarter"
       },
       {
         "id": "TUR-S-01",
         "title": "Rooftop Cocktails at Sultan Cave Suites",
-        "description": "The terrace bar at Sultan Cave Suites has an unobstructed view over the fairy chimney valley — spectacular at sunrise for balloon watching, equally good after dark when the formations are lit and the rooftop fills with people who made the right decision.",
+        "description": "The terrace bar at Sultan Cave Suites has an unobstructed view over the fairy chimney valley, spectacular at sunrise for balloon watching, equally good after dark when the formations are lit and the rooftop fills with people who made the right decision.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -526,7 +526,7 @@
       {
         "id": "TUR-S-02",
         "title": "Pottery Workshop in Avanos",
-        "description": "Avanos has produced red-clay pottery since the Hittites — the workshops on the main street give you access to a master potter and two hours on the wheel using the same terracotta technique practiced here for 4,000 years.",
+        "description": "Avanos has produced red-clay pottery since the Hittites, the workshops on the main street give you access to a master potter and two hours on the wheel using the same terracotta technique practiced here for 4,000 years.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -541,7 +541,7 @@
       {
         "id": "TUR-S-03",
         "title": "Cave Bar Night in ÜRGÜP Old Quarter",
-        "description": "ÜRGÜP’s old quarter has a cluster of wine bars and cocktail spots built into cave walls along cobblestone alleys — start at Karma Şarap Evi, work uphill through the neighbourhood, and end at whichever bar has the best terrace view at midnight.",
+        "description": "ÜRGÜP’s old quarter has a cluster of wine bars and cocktail spots built into cave walls along cobblestone alleys. Start at Karma Şarap Evi, work uphill through the neighbourhood, and end at whichever bar has the best terrace view at midnight.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -557,7 +557,7 @@
       {
         "id": "TUR-S-04",
         "title": "Whirling Dervish Ceremony in ÜRGÜP",
-        "description": "The Sema ceremony — the Sufi spinning meditation of the Mevlevi Order — is performed weekly in ÜRGÜP’s cultural centre. The 45-minute ceremony is not a performance; watch accordingly.",
+        "description": "The Sema ceremony, the Sufi spinning meditation of the Mevlevi Order, is performed weekly in ÜRGÜP’s cultural centre. The 45-minute ceremony is not a performance; watch accordingly.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -574,7 +574,7 @@
       {
         "id": "TUR-C-301",
         "title": "Sunset at Aşıklar Tepesi (Lover's Hill)",
-        "description": "Göreme's sunset hill fills every evening with a quiet crowd on blankets as the valley floods gold and the fairy chimneys go to silhouette — bring çay and claim a ledge early.",
+        "description": "Göreme's sunset hill fills every evening with a quiet crowd on blankets as the valley floods gold and the fairy chimneys go to silhouette. Bring çay and claim a ledge early.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -582,7 +582,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stay until the last light is completely gone — most people leave ten minutes too early.",
+        "bonus": "Stay until the last light is completely gone, most people leave ten minutes too early.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Sunset+Point+Aşıklar+Tepesi+Göreme",
         "company": [
@@ -592,7 +592,7 @@
       {
         "id": "TUR-C-108",
         "title": "Full Moon Walk Through the Fairy Chimneys of Göreme National Park",
-        "description": "On a full moon night, the tufa formations of Göreme valley cast sharp silver shadows with no artificial light needed — a completely free, completely disorienting, legitimately lunar experience.",
+        "description": "On a full moon night, the tufa formations of Göreme valley cast sharp silver shadows with no artificial light needed: a completely free, completely disorienting, legitimately lunar experience.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -600,7 +600,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 40,
-        "bonus": "Walk at least 1km into the valley with no torch and no phone screen — navigate by moonlight only for the full duration.",
+        "bonus": "Walk at least 1km into the valley with no torch and no phone screen, navigate by moonlight only for the full duration.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Göreme+National+Park+fairy+chimneys+Cappadocia"
       },
@@ -622,7 +622,7 @@
       {
         "id": "TUR-C-105",
         "title": "Sit at the Rim of Kızılçukur (Red Valley) at Golden Hour",
-        "description": "The unmarked viewpoint ledge above the Red Valley turns the landscape into a molten copper panorama for exactly twenty minutes before sunset — no signage, no crowds.",
+        "description": "The unmarked viewpoint ledge above the Red Valley turns the landscape into a molten copper panorama for exactly twenty minutes before sunset: no signage, no crowds.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -630,7 +630,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Arrive 30 minutes early and claim the furthest rock ledge — sit in complete silence until the last light fades.",
+        "bonus": "Arrive 30 minutes early and claim the furthest rock ledge. Sit in complete silence until the last light fades.",
         "city": "Çavuşin, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Kızılçukur+Red+Valley+viewpoint+Cappadocia",
         "company": [
@@ -648,14 +648,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask a local to show you inside one of the locked courtyard churches — knock on the nearest house door.",
+        "bonus": "Ask a local to show you inside one of the locked courtyard churches. Knock on the nearest house door.",
         "city": "Mustafapaşa, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Mustafapaşa+Sinasos+Ürgüp+Cappadocia"
       },
       {
         "id": "TUR-C-103",
         "title": "Walk the Güvercinlik (Pigeon Valley) Floor Trail Alone at Dusk",
-        "description": "After the tour groups clear out, the valley floor becomes a silent corridor of dovecotes and eroded chimneys glowing amber — one of Cappadocia's most cinematic twenty minutes.",
+        "description": "After the tour groups clear out, the valley floor becomes a silent corridor of dovecotes and eroded chimneys glowing amber, one of Cappadocia's most cinematic twenty minutes.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -663,7 +663,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Walk the entire floor trail without looking at your phone once — full sensory surrender.",
+        "bonus": "Walk the entire floor trail without looking at your phone once, full sensory surrender.",
         "city": "Uçhisar, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Pigeon+Valley+floor+trail+Uçhisar+Cappadocia",
         "company": [
@@ -681,14 +681,14 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Strike up a conversation with whoever's sitting next to you — ask them where they'd send a friend for dinner.",
+        "bonus": "Strike up a conversation with whoever's sitting next to you. Ask them where they'd send a friend for dinner.",
         "city": "Avanos, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Avanos+Kızılırmak+riverside+tea+garden"
       },
       {
         "id": "TUR-C-01",
         "title": "Watch the Balloons from Sunrise Hill",
-        "description": "A 20-minute walk from the centre of Göreme leads to the ridge above Love Valley — at 5am you stand above the launch field as 100 hot air balloons ascend through the valley below you. Watching them from above is better than riding one.",
+        "description": "A 20-minute walk from the centre of Göreme leads to the ridge above Love Valley, at 5am you stand above the launch field as 100 hot air balloons ascend through the valley below you. Watching them from above is better than riding one.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -703,7 +703,7 @@
       {
         "id": "TUR-C-04",
         "title": "Sunset Walk Through Devrent Valley",
-        "description": "Walk Devrent Valley in the late afternoon when the angle of low sun turns the volcanic formations from beige to orange to blood red — the landscape changes colour every 20 minutes and is best understood at walking pace.",
+        "description": "Walk Devrent Valley in the late afternoon when the angle of low sun turns the volcanic formations from beige to orange to blood red, the landscape changes colour every 20 minutes and is best understood at walking pace.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -721,7 +721,7 @@
       {
         "id": "TUR-C-03",
         "title": "Turkish Bath at Tarihî Göreme Hamamı",
-        "description": "The hammam sequence — hot room, kese exfoliation, foam massage, cold plunge — takes 90 minutes and leaves you loose-limbed in a way no modern spa can replicate. Tarihî Göreme Hamamı has been operating since the Ottoman period.",
+        "description": "The hammam sequence (hot room, kese exfoliation, foam massage, cold plunge) takes 90 minutes and leaves you loose-limbed in a way no modern spa can replicate. Tarihî Göreme Hamamı has been operating since the Ottoman period.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -729,7 +729,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Leave your phone outside the hammam entirely. Not in a locker — outside.",
+        "bonus": "Leave your phone outside the hammam entirely. Not in a locker, outside.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/G%C3%B6reme+Hamam+Turkish+Bath+Cappadocia"
       }
@@ -738,7 +738,7 @@
       {
         "id": "TUR-F-201",
         "title": "Anatolian Dinner at Seten Restaurant, Göreme",
-        "description": "Named for the old stone grain mills, Seten plates refined takes on Anatolian classics — slow-braised lamb, hand-rolled manti, proper mezze — in one of Göreme's most handsome cave dining rooms.",
+        "description": "Named for the old stone grain mills, Seten plates refined takes on Anatolian classics (slow-braised lamb, hand-rolled manti, proper mezze) in one of Göreme's most handsome cave dining rooms.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -746,7 +746,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the server to let you crack the pot yourself — most will hand over the mallet.",
+        "bonus": "Ask the server to let you crack the pot yourself. Most will hand over the mallet.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Seten+Restaurant+Goreme+Cappadocia"
       },
@@ -761,14 +761,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the testi kebab and smash your own clay pot at the table — don't let the waiter do it for you.",
+        "bonus": "Order the testi kebab and smash your own clay pot at the table. Don't let the waiter do it for you.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Pumpkin+Restaurant+Göreme+Cappadocia"
       },
       {
         "id": "TUR-F-108",
         "title": "Börek at Nazar Börek & Cafe",
-        "description": "Ten minutes from Göreme's center, this family-run kitchen set among the rock formations bakes börek and gözleme from ingredients the owner grows himself — cheap, honest, and the terrace view is absurd.",
+        "description": "Ten minutes from Göreme's center, this family-run kitchen set among the rock formations bakes börek and gözleme from ingredients the owner grows himself. Cheap, honest, and the terrace view is absurd.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 min",
@@ -776,7 +776,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order by pointing only — no translation apps, no English words.",
+        "bonus": "Order by pointing only: no translation apps, no English words.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Nazar+Borek+Cafe+Göreme"
       },
@@ -791,14 +791,14 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Let the dondurma vendor tease you with the sticky paddle trick — don't grab early.",
+        "bonus": "Let the dondurma vendor tease you with the sticky paddle trick. Don't grab early.",
         "city": "Uçhisar, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Uçhisar+village+square+tea+house"
       },
       {
         "id": "TUR-F-106",
         "title": "Cappadocian Wine at Mahzen Wine House, Ürgüp",
-        "description": "Carved into the volcanic rock on İstiklal Caddesi, this intimate Ürgüp cellar pours its own homemade Cappadocian wines — black mulberry and pomegranate included — alongside local Emir and Öküzgözü.",
+        "description": "Carved into the volcanic rock on İstiklal Caddesi, this intimate Ürgüp cellar pours its own homemade Cappadocian wines, black mulberry and pomegranate included, alongside local Emir and Öküzgözü.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -806,7 +806,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the sommelier to pour you something made from Emir grape — then argue about whether it beats Burgundy.",
+        "bonus": "Ask the sommelier to pour you something made from Emir grape, then argue about whether it beats Burgundy.",
         "city": "Ürgüp, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Mahzen+Wine+House+Ürgüp",
         "adult": true
@@ -814,7 +814,7 @@
       {
         "id": "TUR-F-105",
         "title": "Mezze Night at Ziggy Cafe, Ürgüp",
-        "description": "Ürgüp's beloved terraced institution serves its famous multi-course mezze sets — and hand-folded manti in garlic yogurt — to a devoted crowd that books the sunset tables days ahead.",
+        "description": "Ürgüp's beloved terraced institution serves its famous multi-course mezze sets, and hand-folded manti in garlic yogurt, to a devoted crowd that books the sunset tables days ahead.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -840,14 +840,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Eat your gözleme sitting on the river wall — no chair, no table, just the current below you.",
+        "bonus": "Eat your gözleme sitting on the river wall: no chair, no table, just the current below you.",
         "city": "Avanos, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Avanos+Kızılırmak+riverside+food"
       },
       {
         "id": "TUR-F-102",
         "title": "Breakfast at Dibek Traditional Coffee House",
-        "description": "A 475-year-old stone house in Göreme serves the region's most legendary village breakfast — hand-ground Dibek coffee, fresh-baked bread, and local cheese spreads on copper trays.",
+        "description": "A 475-year-old stone house in Göreme serves the region's most legendary village breakfast: hand-ground Dibek coffee, fresh-baked bread, and local cheese spreads on copper trays.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -855,7 +855,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the owner to show you the 475-year-old stone millstone — it's still in the back room.",
+        "bonus": "Ask the owner to show you the 475-year-old stone millstone. It's still in the back room.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Dibek+Traditional+Coffee+House+Göreme"
       },
@@ -870,14 +870,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the testi kebab and insist on cracking the clay pot yourself — get the photo.",
+        "bonus": "Order the testi kebab and insist on cracking the clay pot yourself. Get the photo.",
         "city": "Göreme, Cappadocia",
         "mapsUrl": "https://www.google.com/maps/search/Topdeck+Cave+Restaurant+Göreme"
       },
       {
         "id": "TUR-F-04",
         "title": "Village Cooking Class in Ortahisar",
-        "description": "One of the family-run cooking workshops in Ortahisar teaches a three-course traditional Cappadocian meal from scratch — mantı, gözleme, and a regional dessert — in a kitchen that’s been producing the same food for generations. You eat the result.",
+        "description": "One of the family-run cooking workshops in Ortahisar teaches a three-course traditional Cappadocian meal from scratch (mantı, gözleme, and a regional dessert) in a kitchen that’s been producing the same food for generations. You eat the result.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -892,7 +892,7 @@
       {
         "id": "TUR-F-02",
         "title": "Wine Tasting at Kocabağ Winery",
-        "description": "Cappadocia has been producing wine since 4000 BC. Kocabağ in ÜRGÜP is the most established local producer — the cellar tour takes 40 minutes, and the structured tasting of their Emir and Öküzgözü varietals requires no prior knowledge of Turkish wine to enjoy.",
+        "description": "Cappadocia has been producing wine since 4000 BC. Kocabağ in ÜRGÜP is the most established local producer. The cellar tour takes 40 minutes, and the structured tasting of their Emir and Öküzgözü varietals requires no prior knowledge of Turkish wine to enjoy.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -908,7 +908,7 @@
       {
         "id": "TUR-F-01",
         "title": "Cave Dinner at Seki Restaurant, Argos",
-        "description": "Seki occupies a wine cellar cut into the hillside at Argos in Cappadocia — a tasting menu built around Anatolian ingredients, an open kitchen, and a wine list sourced exclusively from Cappadocian vineyards.",
+        "description": "Seki occupies a wine cellar cut into the hillside at Argos in Cappadocia. A tasting menu built around Anatolian ingredients, an open kitchen, and a wine list sourced exclusively from Cappadocian vineyards.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -925,7 +925,7 @@
       {
         "id": "TUR-C-106",
         "title": "Cappadocia Art & History Museum, Mustafapaşa",
-        "description": "Inside a restored 170-year-old mansion in Mustafapaşa, some 3,000 handmade dolls act out Anatolian legends, village weddings, and everyday Cappadocian life — obscure, obsessive, and almost nobody visits.",
+        "description": "Inside a restored 170-year-old mansion in Mustafapaşa, some 3,000 handmade dolls act out Anatolian legends, village weddings, and everyday Cappadocian life: obscure, obsessive, and almost nobody visits.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -940,7 +940,7 @@
       {
         "id": "TUR-C-02",
         "title": "Göreme Open Air Museum in the Afternoon",
-        "description": "A 10th-century monastic settlement with Byzantine frescoes intact inside cave chapels — the apses still oriented east, the paint still vivid. Come after 2pm when the morning tour groups have cleared out and you can sit alone in a 1,000-year-old church.",
+        "description": "A 10th-century monastic settlement with Byzantine frescoes intact inside cave chapels, the apses still oriented east, the paint still vivid. Come after 2pm when the morning tour groups have cleared out and you can sit alone in a 1,000-year-old church.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",

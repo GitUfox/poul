@@ -9,7 +9,7 @@
       {
         "id": "DC-AC-302",
         "title": "Hill Repeats on the Exorcist Steps",
-        "description": "The seventy-five stone steps from M Street up to Prospect — made famous by the movie — double as Georgetown's most brutal free workout, with rowers on the Potomac below as your recovery view.",
+        "description": "The seventy-five stone steps from M Street up to Prospect, made famous by the movie, double as Georgetown's most brutal free workout, with rowers on the Potomac below as your recovery view.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins–1 hr",
@@ -17,14 +17,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Five rounds minimum — and walk down backwards once, just to say you did.",
+        "bonus": "Five rounds minimum, and walk down backwards once, just to say you did.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Exorcist+Steps+Georgetown+Washington+DC"
       },
       {
         "id": "DC-AC-301",
         "title": "Skate the Sculpture Garden Ice Rink",
-        "description": "Every winter the National Gallery's Sculpture Garden fountain freezes into DC's most elegant ice rink — laps under the Calder and Lichtenstein with hot chocolate waiting at the Pavilion Café.",
+        "description": "Every winter the National Gallery's Sculpture Garden fountain freezes into DC's most elegant ice rink, laps under the Calder and Lichtenstein with hot chocolate waiting at the Pavilion Café.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -32,14 +32,14 @@
         "time": "Evening",
         "season": "Nov–Mar",
         "spark": 15,
-        "bonus": "Skate until the lights come on — the sculptures change completely after dark.",
+        "bonus": "Skate until the lights come on, the sculptures change completely after dark.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/National+Gallery+Sculpture+Garden+Ice+Rink+Washington+DC"
       },
       {
         "id": "DC-A-204",
-        "title": "Monuments by Moonlight Paddle — Key Bridge Boathouse",
-        "description": "Key Bridge Boathouse's guided evening paddle puts you on the Potomac with the lit Lincoln and the Kennedy Center reflected across open water — the monuments the way almost nobody sees them.",
+        "title": "Monuments by Moonlight Paddle: Key Bridge Boathouse",
+        "description": "Key Bridge Boathouse's guided evening paddle puts you on the Potomac with the lit Lincoln and the Kennedy Center reflected across open water. The monuments the way almost nobody sees them.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -47,7 +47,7 @@
         "time": "Evening",
         "season": "May–Sep",
         "spark": 40,
-        "bonus": "Stop paddling mid-river, close your eyes for 30 seconds, then open them — no explanation, just do it.",
+        "bonus": "Stop paddling mid-river, close your eyes for 30 seconds, then open them. No explanation, just do it.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Key+Bridge+Boathouse+Georgetown+Washington+DC"
       },
@@ -62,7 +62,7 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Track an inbound flight on FlightAware and count down its approach — stand and wave as it thunders over.",
+        "bonus": "Track an inbound flight on FlightAware and count down its approach. Stand and wave as it thunders over.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Gravelly+Point+Park+Arlington+Virginia",
         "company": [
@@ -80,7 +80,7 @@
         "time": "Morning",
         "season": "Jun–Aug",
         "spark": 25,
-        "bonus": "Get a photo of a lotus bloom fully open — you have until 10 AM before they start closing.",
+        "bonus": "Get a photo of a lotus bloom fully open. You have until 10 AM before they start closing.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Kenilworth+Aquatic+Gardens+Washington+DC"
       },
@@ -101,8 +101,8 @@
       },
       {
         "id": "DC-AC-103",
-        "title": "National Mall Dawn Run — Monument Circuit",
-        "description": "The 4.5-mile loop past the Lincoln, Vietnam, Korea, FDR, MLK, and Jefferson memorials at dawn — the monuments at first light with no crowds is the best DC has to offer.",
+        "title": "National Mall Dawn Run: Monument Circuit",
+        "description": "The 4.5-mile loop past the Lincoln, Vietnam, Korea, FDR, MLK, and Jefferson memorials at dawn, the monuments at first light with no crowds is the best DC has to offer.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -116,8 +116,8 @@
       },
       {
         "id": "DC-A-103",
-        "title": "Great Falls Maryland — Billy Goat Trail A",
-        "description": "The Class A section of the Billy Goat Trail scrambles along the Mather Gorge above the Potomac falls — more technical than a hike, views that explain why people move to DC.",
+        "title": "Great Falls Maryland: Billy Goat Trail A",
+        "description": "The Class A section of the Billy Goat Trail scrambles along the Mather Gorge above the Potomac falls, more technical than a hike, views that explain why people move to DC.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",
@@ -131,8 +131,8 @@
       },
       {
         "id": "DC-A-104",
-        "title": "Capital One Arena — Caps or Wizards Night",
-        "description": "The F Street corridor before a game is DC's best sports energy — the arena is intimate, the city gets loud, and the pregame bar scene on 7th St NW is mandatory.",
+        "title": "Capital One Arena: Caps or Wizards Night",
+        "description": "The F Street corridor before a game is DC's best sports energy. The arena is intimate, the city gets loud, and the pregame bar scene on 7th St NW is mandatory.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -147,7 +147,7 @@
       {
         "id": "DC-A-102",
         "title": "National Museum of African American History",
-        "description": "Book timed-entry passes months in advance — the Smithsonian's bronze lattice-wrapped building on the Mall is the most important museum in DC and requires a full day.",
+        "description": "Book timed-entry passes months in advance, the Smithsonian's bronze lattice-wrapped building on the Mall is the most important museum in DC and requires a full day.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "5 hrs",
@@ -155,7 +155,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Start in the basement and work your way up chronologically — don't skip a floor.",
+        "bonus": "Start in the basement and work your way up chronologically. Don't skip a floor.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=National+Museum+of+African+American+History+and+Culture+Washington+DC"
       },
@@ -176,8 +176,8 @@
       },
       {
         "id": "DC-AC-102",
-        "title": "Capital Crescent Trail — Georgetown to Silver Spring",
-        "description": "11 miles of paved trail through Georgetown, Bethesda, and Silver Spring on the old B&O Railroad bed — flat, shaded, and the best bike commute in the metro area.",
+        "title": "Capital Crescent Trail: Georgetown to Silver Spring",
+        "description": "11 miles of paved trail through Georgetown, Bethesda, and Silver Spring on the old B&O Railroad bed: flat, shaded, and the best bike commute in the metro area.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -185,14 +185,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ride the full 11 miles without stopping — time yourself each direction.",
+        "bonus": "Ride the full 11 miles without stopping. Time yourself each direction.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Capital+Crescent+Trail+Georgetown+Washington+DC"
       },
       {
         "id": "DC-A-105",
         "title": "Mount Vernon by Boat from The Wharf",
-        "description": "Take the Spirit of Mount Vernon from Pier 4 at The Wharf — three hours on the Potomac, tour Washington's estate, sail back as the sun drops behind Virginia.",
+        "description": "Take the Spirit of Mount Vernon from Pier 4 at The Wharf: three hours on the Potomac, tour Washington's estate, sail back as the sun drops behind Virginia.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "8 hrs",
@@ -200,7 +200,7 @@
         "time": "Morning",
         "season": "Summer",
         "spark": 40,
-        "bonus": "Find the distillery on the estate grounds — it's operational and selling whiskey.",
+        "bonus": "Find the distillery on the estate grounds. It's operational and selling whiskey.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Spirit+of+Mount+Vernon+Pier+4+Washington+DC"
       },
@@ -221,8 +221,8 @@
       },
       {
         "id": "DC-AC-105",
-        "title": "Mount Vernon Trail Run — Key Bridge South",
-        "description": "Cross Key Bridge into Virginia and run south on the Mount Vernon Trail along the Potomac — airport views, Pentagon backdrop, 18 miles total if you push it.",
+        "title": "Mount Vernon Trail Run: Key Bridge South",
+        "description": "Cross Key Bridge into Virginia and run south on the Mount Vernon Trail along the Potomac: airport views, Pentagon backdrop, 18 miles total if you push it.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -252,7 +252,7 @@
       {
         "id": "DC-A-101",
         "title": "International Spy Museum Deep Dive",
-        "description": "The L'Enfant Plaza museum is genuinely excellent — actual tradecraft artifacts, real declassified ops, and an interactive cover assignment that runs through the whole visit.",
+        "description": "The L'Enfant Plaza museum is genuinely excellent: actual tradecraft artifacts, real declassified ops, and an interactive cover assignment that runs through the whole visit.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -266,8 +266,8 @@
       },
       {
         "id": "DC-A-106",
-        "title": "Library of Congress — Great Hall & Lantern",
-        "description": "The Jefferson Building's Great Hall is one of the most ornate interiors in America — go to the Visitor Gallery to see the original Gutenberg Bible and book the lantern dome tour.",
+        "title": "Library of Congress: Great Hall & Lantern",
+        "description": "The Jefferson Building's Great Hall is one of the most ornate interiors in America. Go to the Visitor Gallery to see the original Gutenberg Bible and book the lantern dome tour.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -275,7 +275,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Book the lantern dome tour to get to the top of the Reading Room dome — it fills fast.",
+        "bonus": "Book the lantern dome tour to get to the top of the Reading Room dome. It fills fast.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Library+of+Congress+Jefferson+Building+Washington+DC",
         "company": [
@@ -284,8 +284,8 @@
       },
       {
         "id": "DC-AC-101",
-        "title": "C&O Canal Towpath Bike — Georgetown to Great Falls",
-        "description": "14.3 miles of flat gravel towpath along the historic canal from Georgetown to the Great Falls overlook — no cars, no hills, pure DC history under your wheels.",
+        "title": "C&O Canal Towpath Bike: Georgetown to Great Falls",
+        "description": "14.3 miles of flat gravel towpath along the historic canal from Georgetown to the Great Falls overlook: no cars, no hills, pure DC history under your wheels.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",
@@ -300,7 +300,7 @@
       {
         "id": "DC_AC_04",
         "title": "Great Falls Park Hike, Virginia Side",
-        "description": "The Potomac drops 76 feet over jagged rocks fifteen miles from the Capitol — the overlooks on the Virginia side put you close enough to feel the spray in high water.",
+        "description": "The Potomac drops 76 feet over jagged rocks fifteen miles from the Capitol. The overlooks on the Virginia side put you close enough to feel the spray in high water.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -308,14 +308,14 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 40,
-        "bonus": "Hike down to the river's edge at Overlook 3 when water is high — get close enough that you can't hear the person next to you speak.",
+        "bonus": "Hike down to the river's edge at Overlook 3 when water is high. Get close enough that you can't hear the person next to you speak.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Great+Falls+Park+Virginia"
       },
       {
         "id": "DC_AC_03",
         "title": "Climb at Movement Crystal City",
-        "description": "Movement Crystal City — opened by Earth Treks as the largest climbing gym in the country — runs walls up to 50 feet with routes that humble anyone.",
+        "description": "Movement Crystal City, opened by Earth Treks as the largest climbing gym in the country, runs walls up to 50 feet with routes that humble anyone.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -323,14 +323,14 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Attempt the hardest bouldering problem rated on the board — one legitimate try, no beta from YouTube.",
+        "bonus": "Attempt the hardest bouldering problem rated on the board, one legitimate try, no beta from YouTube.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Movement%20Crystal%20City%20Arlington%20Virginia"
       },
       {
         "id": "DC_AC_02",
         "title": "Rock Creek Park Trail Run",
-        "description": "1,700 acres of forested trails running through the middle of the city — the Western Ridge and Valley trails feel genuinely remote for a place ten minutes from downtown.",
+        "description": "1,700 acres of forested trails running through the middle of the city, the Western Ridge and Valley trails feel genuinely remote for a place ten minutes from downtown.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -338,13 +338,13 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find Pulpit Rock — the actual boulder — and climb it. Post nothing about it.",
+        "bonus": "Find Pulpit Rock, the actual boulder, and climb it. Post nothing about it.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Rock+Creek+Park+trails+Washington+DC"
       },
       {
         "id": "DC_A_04",
-        "title": "Night Monuments Tour by Bike — Capital Bikeshare",
+        "title": "Night Monuments Tour by Bike: Capital Bikeshare",
         "description": "Every major monument is lit and almost empty after 10pm, and looping the Mall on a bikeshare at night is the closest DC gets to cinematic.",
         "rarity": "Legendary",
         "cost": "$",
@@ -353,14 +353,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Hit all five: Lincoln, Vietnam Wall, Korean War, FDR, and Jefferson memorials in one unbroken loop without stopping the clock — under 90 minutes.",
+        "bonus": "Hit all five: Lincoln, Vietnam Wall, Korean War, FDR, and Jefferson memorials in one unbroken loop without stopping the clock, under 90 minutes.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Capital+Bikeshare+National+Mall+Washington+DC"
       },
       {
         "id": "DC_A_01",
         "title": "Sunrise at the Lincoln Memorial Steps",
-        "description": "The Mall is deserted at dawn and the reflection pool turns the monument into something genuinely monumental — no crowds, no noise, just marble and light.",
+        "description": "The Mall is deserted at dawn and the reflection pool turns the monument into something genuinely monumental: no crowds, no noise, just marble and light.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -368,7 +368,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Sit exactly where MLK stood during the 'I Have a Dream' speech — the engraved marker is there. Read the full Gettysburg Address carved inside out loud.",
+        "bonus": "Sit exactly where MLK stood during the 'I Have a Dream' speech. The engraved marker is there. Read the full Gettysburg Address carved inside out loud.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Lincoln+Memorial+Washington+DC"
       }
@@ -377,7 +377,7 @@
       {
         "id": "DC-S-301",
         "title": "Show Night at Black Cat, 14th Street",
-        "description": "DC's indie rock institution has anchored 14th Street since 1993 — two stages, a red room bar with pinball, and a booking policy that still takes chances on weird.",
+        "description": "DC's indie rock institution has anchored 14th Street since 1993: two stages, a red room bar with pinball, and a booking policy that still takes chances on weird.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -385,7 +385,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Buy the opener's merch if they win you over — tell them which song did it.",
+        "bonus": "Buy the opener's merch if they win you over. Tell them which song did it.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Black+Cat+14th+Street+Washington+DC",
         "adult": true
@@ -393,7 +393,7 @@
       {
         "id": "DC-S-203",
         "title": "Sunday Afternoon at Bardo Brewpub, Ivy City",
-        "description": "Bardo's sprawling outdoor beer garden in Ivy City is the city's most comfortable Sunday sprawl — giant pours, food trucks, and a crowd that's entirely in on the secret.",
+        "description": "Bardo's sprawling outdoor beer garden in Ivy City is the city's most comfortable Sunday sprawl. Giant pours, food trucks, and a crowd that's entirely in on the secret.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -401,7 +401,7 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Challenge a stranger to a round of cornhole — loser buys the next round.",
+        "bonus": "Challenge a stranger to a round of cornhole, loser buys the next round.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Bardo+Brewpub+Ivy+City+Washington+DC",
         "adult": true
@@ -417,7 +417,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Identify three caricatures on the wall without using your phone — ask the bartender to settle any disputes.",
+        "bonus": "Identify three caricatures on the wall without using your phone. Ask the bartender to settle any disputes.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Off+the+Record+Bar+Hay-Adams+Hotel+Washington+DC",
         "adult": true
@@ -425,7 +425,7 @@
       {
         "id": "DC-S-103",
         "title": "9:30 Club Show on V Street",
-        "description": "Consistently voted the best live music venue in DC — standing room, great sightlines, the best sound system in a club this size, and a calendar that never disappoints.",
+        "description": "Consistently voted the best live music venue in DC: standing room, great sightlines, the best sound system in a club this size, and a calendar that never disappoints.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -440,7 +440,7 @@
       {
         "id": "DC-S-102",
         "title": "JFK's Booth at Martin's Tavern",
-        "description": "The Georgetown pub where JFK proposed to Jackie in 1953 — sit in Booth #3, order a Guinness, and appreciate that some places earn their mythology.",
+        "description": "The Georgetown pub where JFK proposed to Jackie in 1953. Sit in Booth #3, order a Guinness, and appreciate that some places earn their mythology.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -455,7 +455,7 @@
       {
         "id": "DC-S-105",
         "title": "Kramers Late Night, Dupont",
-        "description": "The only bookstore-cafe in DC open 24 hours on weekends — browse the shelves at midnight, order a glass of wine at the cafe, stay as long as you want.",
+        "description": "The only bookstore-cafe in DC open 24 hours on weekends. Browse the shelves at midnight, order a glass of wine at the cafe, stay as long as you want.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -482,7 +482,7 @@
         "time": "Afternoon",
         "season": "Summer",
         "spark": 15,
-        "bonus": "Introduce yourself to whoever is sharing your table — that's the point.",
+        "bonus": "Introduce yourself to whoever is sharing your table, that's the point.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Dacha+Beer+Garden+Shaw+Washington+DC",
         "adult": true
@@ -490,7 +490,7 @@
       {
         "id": "DC-S-101",
         "title": "Blues Alley Jazz Supper Club",
-        "description": "The legendary Georgetown jazz club in the alley off Wisconsin Ave has hosted every name worth knowing — dinner at a table, a show that goes until midnight.",
+        "description": "The legendary Georgetown jazz club in the alley off Wisconsin Ave has hosted every name worth knowing, dinner at a table, a show that goes until midnight.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -498,7 +498,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Go without looking up who's playing — let the night surprise you.",
+        "bonus": "Go without looking up who's playing. Let the night surprise you.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Blues+Alley+Georgetown+Washington+DC",
         "adult": true
@@ -506,7 +506,7 @@
       {
         "id": "DC_S_04",
         "title": "Late Night at The Hamilton Live",
-        "description": "The Hamilton is a massive subterranean music venue under a restaurant two blocks from the White House — the late sets run past midnight and the room sounds incredible.",
+        "description": "The Hamilton is a massive subterranean music venue under a restaurant two blocks from the White House. The late sets run past midnight and the room sounds incredible.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -514,14 +514,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Get to the front third of the standing area before the headliner — and introduce yourself to whoever ends up next to you.",
+        "bonus": "Get to the front third of the standing area before the headliner. And introduce yourself to whoever ends up next to you.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/The+Hamilton+Live+Washington+DC"
       },
       {
         "id": "DC_S_01",
         "title": "Bar Night at Round Robin Bar, Willard Hotel",
-        "description": "The circular bar inside the Willard InterContinental has been mixing drinks for senators and presidents since 1850 — order the Mint Julep and let the room do the work.",
+        "description": "The circular bar inside the Willard InterContinental has been mixing drinks for senators and presidents since 1850. Order the Mint Julep and let the room do the work.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5–2 hrs",
@@ -529,7 +529,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the bartender to name the most historically significant person who ever sat at your exact stool — then order whatever that person supposedly drank.",
+        "bonus": "Ask the bartender to name the most historically significant person who ever sat at your exact stool, then order whatever that person supposedly drank.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Round+Robin+Bar+Willard+Hotel+Washington+DC",
         "adult": true
@@ -539,7 +539,7 @@
       {
         "id": "DC-F-201",
         "title": "Soul Food Counter at Oohh's & Aahh's, U Street",
-        "description": "This unassuming U Street counter has heaped plates with catfish, candied yams, and the city's best mac and cheese for over two decades — sit down and order whatever the person next to you is having.",
+        "description": "This unassuming U Street counter has heaped plates with catfish, candied yams, and the city's best mac and cheese for over two decades. Sit down and order whatever the person next to you is having.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -547,14 +547,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask the cashier what they ate for lunch today — then order that.",
+        "bonus": "Ask the cashier what they ate for lunch today, then order that.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Oohh's+and+Aahh's+U+Street+Washington+DC"
       },
       {
         "id": "DC-F-103",
         "title": "Old Ebbitt Grill Oyster Bar",
-        "description": "DC's oldest saloon, two blocks from the White House — sit at the curved mahogany bar, order two dozen raw oysters, and a very cold martini.",
+        "description": "DC's oldest saloon, two blocks from the White House. Sit at the curved mahogany bar, order two dozen raw oysters, and a very cold martini.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5 hrs",
@@ -562,14 +562,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the shucker which oyster they'd eat twice — then order six of those.",
+        "bonus": "Ask the shucker which oyster they'd eat twice, then order six of those.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Old+Ebbitt+Grill+Washington+DC"
       },
       {
         "id": "DC-F-110",
         "title": "Half Smoke at Ben's Next Door",
-        "description": "The bar next door to the institution on U Street — same half smoke, cold beer, late hours, and a little more room to breathe than the original.",
+        "description": "The bar next door to the institution on U Street: same half smoke, cold beer, late hours, and a little more room to breathe than the original.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -584,7 +584,7 @@
       {
         "id": "DC-F-101",
         "title": "Call Your Mother Bagels, Capitol Hill",
-        "description": "The Capitol Hill bagel shop that became a DC institution — get the everything with smash smear and lox, eat it on the steps outside like everyone else does.",
+        "description": "The Capitol Hill bagel shop that became a DC institution. Get the everything with smash smear and lox, eat it on the steps outside like everyone else does.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -599,7 +599,7 @@
       {
         "id": "DC-F-105",
         "title": "Ambar Unlimited Tasting, Capitol Hill",
-        "description": "Balkan small plates on the Hill with an unlimited tasting menu that keeps coming until you stop asking — the rakija, the cevapi, the burek are all essential.",
+        "description": "Balkan small plates on the Hill with an unlimited tasting menu that keeps coming until you stop asking. The rakija, the cevapi, the burek are all essential.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -622,14 +622,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Get there at opening — the line by 10am is real.",
+        "bonus": "Get there at opening. The line by 10am is real.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Founding+Farmers+Washington+DC"
       },
       {
         "id": "DC-F-104",
         "title": "Rose's Luxury, Capitol Hill",
-        "description": "James Beard Award winner, no reservations — get there when the door opens, put your name in, drink somewhere nearby, and come back for the best dinner in DC.",
+        "description": "James Beard Award winner, no reservations. Get there when the door opens, put your name in, drink somewhere nearby, and come back for the best dinner in DC.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -637,14 +637,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Order the lychee and habanero salad even if it sounds wrong — it's not.",
+        "bonus": "Order the lychee and habanero salad even if it sounds wrong. It's not.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Rose%27s+Luxury+Capitol+Hill+Washington+DC"
       },
       {
         "id": "DC-F-106",
         "title": "Joe's Seafood Stone Crab Claws",
-        "description": "The DC outpost of the Miami stone crab institution — order the large claws in season (Oct–May) with the mustard sauce and nothing else.",
+        "description": "The DC outpost of the Miami stone crab institution. Order the large claws in season (Oct–May) with the mustard sauce and nothing else.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5 hrs",
@@ -652,14 +652,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Crack every claw yourself — no help, no tools, just the mallet.",
+        "bonus": "Crack every claw yourself: no help, no tools, just the mallet.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Joe%27s+Seafood+Prime+Steak+Stone+Crab+Washington+DC"
       },
       {
         "id": "DC_F_04",
         "title": "Eastern Market Saturday Morning Feed",
-        "description": "The South Hall vendors at Eastern Market have been feeding Capitol Hill since 1873 — grab a blueberry buckwheat pancake from Market Lunch and eat it on the outdoor steps.",
+        "description": "The South Hall vendors at Eastern Market have been feeding Capitol Hill since 1873. Grab a blueberry buckwheat pancake from Market Lunch and eat it on the outdoor steps.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -667,14 +667,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Join the Market Lunch line before 8am and talk to the person behind you — ask them what they're ordering and match it exactly.",
+        "bonus": "Join the Market Lunch line before 8am and talk to the person behind you. Ask them what they're ordering and match it exactly.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Eastern+Market+Washington+DC"
       },
       {
         "id": "DC_F_03",
         "title": "Dinner at Minibar by José Andrés",
-        "description": "Twenty-plus courses in a six-seat counter restaurant from the chef who invented DC's fine dining scene — this is the most technically ambitious meal in the city, full stop.",
+        "description": "Twenty-plus courses in a six-seat counter restaurant from the chef who invented DC's fine dining scene. This is the most technically ambitious meal in the city, full stop.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -682,14 +682,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask the chef staffing your counter to explain the most technically difficult dish of the night — and actually push them on the chemistry.",
+        "bonus": "Ask the chef staffing your counter to explain the most technically difficult dish of the night, and actually push them on the chemistry.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Minibar+Jose+Andres+Washington+DC"
       },
       {
         "id": "DC_F_02",
         "title": "Dim Sum Brunch at China Garden, Rockville Pike",
-        "description": "The cart-service dim sum at this massive Rockville institution draws the entire regional Chinese community on weekends — the har gow alone justifies the drive.",
+        "description": "The cart-service dim sum at this massive Rockville institution draws the entire regional Chinese community on weekends, the har gow alone justifies the drive.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -697,14 +697,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order entirely by pointing — no English menu — and eat whatever arrives without asking what it is first.",
+        "bonus": "Order entirely by pointing, no English menu, and eat whatever arrives without asking what it is first.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/China+Garden+Rockville+Maryland"
       },
       {
         "id": "DC_F_01",
         "title": "Lunch at Ben's Chili Bowl, U Street",
-        "description": "A half-smoke with mustard and chili at the counter of DC's most legendary diner — open since 1958 — is the one meal that explains this city's soul.",
+        "description": "A half-smoke with mustard and chili at the counter of DC's most legendary diner, open since 1958, is the one meal that explains this city's soul.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–60 mins",
@@ -712,7 +712,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order at the counter, sit on a stool, and strike up a conversation with whoever's next to you — then ask them the best thing they've eaten in DC this week.",
+        "bonus": "Order at the counter, sit on a stool, and strike up a conversation with whoever's next to you, then ask them the best thing they've eaten in DC this week.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Ben%27s+Chili+Bowl+U+Street+Washington+DC"
       }
@@ -721,7 +721,7 @@
       {
         "id": "DC-C-108",
         "title": "Tidal Basin at Cherry Blossom Peak",
-        "description": "Peak bloom around the Tidal Basin lasts exactly four to five days — go at 6am before the crowds arrive and the Jefferson Memorial and Washington Monument are framed in pink.",
+        "description": "Peak bloom around the Tidal Basin lasts exactly four to five days. Go at 6am before the crowds arrive and the Jefferson Memorial and Washington Monument are framed in pink.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2 hrs",
@@ -729,14 +729,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Come back at dusk on the same day — the light is completely different.",
+        "bonus": "Come back at dusk on the same day. The light is completely different.",
         "city": "Washington, DC",
         "mapsUrl": "https://maps.google.com/?q=Tidal+Basin+Washington+DC"
       },
       {
         "id": "DC-C-106",
         "title": "Georgetown C&O Canal Towpath Evening",
-        "description": "The flat canal towpath through Georgetown at golden hour — quiet, no cars, mule-drawn boat history in every lockhouse, and the Potomac visible through the trees.",
+        "description": "The flat canal towpath through Georgetown at golden hour: quiet, no cars, mule-drawn boat history in every lockhouse, and the Potomac visible through the trees.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -750,7 +750,7 @@
       },
       {
         "id": "DC-C-102",
-        "title": "National Arboretum — Bonsai & Capitol Columns",
+        "title": "National Arboretum: Bonsai & Capitol Columns",
         "description": "The free 446-acre botanical garden in NE DC has the national bonsai collection, the original Capitol columns reassembled on a hill, and zero tourists on a weekday.",
         "rarity": "Rare",
         "cost": "$",
@@ -781,7 +781,7 @@
       {
         "id": "DC-C-101",
         "title": "Theodore Roosevelt Island Trail",
-        "description": "The 88-acre wilderness island in the middle of the Potomac accessible only by footbridge from Rosslyn — 2.5 miles of trail, a memorial plaza, almost no one knows it exists.",
+        "description": "The 88-acre wilderness island in the middle of the Potomac accessible only by footbridge from Rosslyn: 2.5 miles of trail, a memorial plaza, almost no one knows it exists.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -796,7 +796,7 @@
       {
         "id": "DC-C-103",
         "title": "Meridian Hill Park Sunday Drumming",
-        "description": "Every Sunday afternoon the cascading fountain park in Columbia Heights hosts a community drumming circle that's been going since the 1950s — bring nothing, just show up.",
+        "description": "Every Sunday afternoon the cascading fountain park in Columbia Heights hosts a community drumming circle that's been going since the 1950s. Bring nothing, just show up.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -811,7 +811,7 @@
       {
         "id": "DC_C_03",
         "title": "Coffee at Tryst, Adams Morgan",
-        "description": "Tryst has been the living room of Adams Morgan since 1999 — mismatched couches, strong coffee, and zero pressure to leave at any point.",
+        "description": "Tryst has been the living room of Adams Morgan since 1999: mismatched couches, strong coffee, and zero pressure to leave at any point.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–3 hrs",
@@ -826,7 +826,7 @@
       {
         "id": "DC_C_02",
         "title": "Afternoon at Dumbarton Oaks Garden, Georgetown",
-        "description": "These ten acres of formal gardens hidden above Georgetown are the most quietly stunning outdoor space in DC — manicured for decades and almost always peaceful.",
+        "description": "These ten acres of formal gardens hidden above Georgetown are the most quietly stunning outdoor space in DC, manicured for decades and almost always peaceful.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -834,7 +834,7 @@
         "time": "Afternoon",
         "season": "Mar–Nov",
         "spark": 25,
-        "bonus": "Find the Pebble Garden — sit on the stone bench and stay completely silent for five full minutes.",
+        "bonus": "Find the Pebble Garden. Sit on the stone bench and stay completely silent for five full minutes.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Dumbarton+Oaks+Garden+Georgetown+Washington+DC"
       }
@@ -843,7 +843,7 @@
       {
         "id": "DC-C-104",
         "title": "National Cathedral Tower at Sunset",
-        "description": "Take the elevator to the top of the Gloria in Excelsis Tower for a 360-degree view of the city — the Washington Monument to the south, Maryland to the north, at golden hour.",
+        "description": "Take the elevator to the top of the Gloria in Excelsis Tower for a 360-degree view of the city: the Washington Monument to the south, Maryland to the north, at golden hour.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1 hr",
@@ -861,7 +861,7 @@
       {
         "id": "DC-S-107",
         "title": "Nationals Park Half Smoke & Rooftop",
-        "description": "The Navy Yard ballpark has the Capitol dome over center field, Ben's Chili Bowl in the concourse, and a rooftop bar in right field — buy the cheap ticket and upgrade your view.",
+        "description": "The Navy Yard ballpark has the Capitol dome over center field, Ben's Chili Bowl in the concourse, and a rooftop bar in right field. Buy the cheap ticket and upgrade your view.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -876,7 +876,7 @@
       {
         "id": "DC-C-107",
         "title": "National Portrait Gallery Free Night",
-        "description": "The Smithsonian American Art Museum and National Portrait Gallery share a building in Penn Quarter — free always, uncrowded on weeknights, the Lunder Conservation Center lets you watch art being restored.",
+        "description": "The Smithsonian American Art Museum and National Portrait Gallery share a building in Penn Quarter: free always, uncrowded on weeknights, the Lunder Conservation Center lets you watch art being restored.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -891,7 +891,7 @@
       {
         "id": "DC_S_03",
         "title": "Free Friday Night at the Hirshhorn Museum",
-        "description": "The Hirshhorn's contemporary art collection is massive and completely free — Friday evenings thin the crowds and the cylindrical building alone is worth the visit.",
+        "description": "The Hirshhorn's contemporary art collection is massive and completely free, Friday evenings thin the crowds and the cylindrical building alone is worth the visit.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -899,7 +899,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the most divisive piece in the current exhibition and defend it to whoever you're with — two minutes minimum.",
+        "bonus": "Find the most divisive piece in the current exhibition and defend it to whoever you're with, two minutes minimum.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Hirshhorn+Museum+Washington+DC",
         "company": [
@@ -917,7 +917,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Pick the sculpture you find least interesting and stand in front of it for ten full minutes — then decide if you still feel the same.",
+        "bonus": "Pick the sculpture you find least interesting and stand in front of it for ten full minutes, then decide if you still feel the same.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/National+Gallery+of+Art+Sculpture+Garden+Washington+DC"
       },
@@ -932,7 +932,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Request an actual book from the stacks — any book — and read a full chapter under that dome.",
+        "bonus": "Request an actual book from the stacks, any book, and read a full chapter under that dome.",
         "city": "Washington, DC",
         "mapsUrl": "https://www.google.com/maps/search/Library+of+Congress+Washington+DC",
         "company": [

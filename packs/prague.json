@@ -48,7 +48,7 @@
       {
         "id": "PRG-F-07",
         "title": "Chlebíčky at Sisters Bistro",
-        "description": "The Czech open-faced sandwich done properly — potato salad, egg, ham, herring — at a counter that treats it as a serious format.",
+        "description": "The Czech open-faced sandwich done properly (potato salad, egg, ham, herring) at a counter that treats it as a serious format.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -145,7 +145,7 @@
       {
         "id": "PRG-F-12",
         "title": "The Tasting Menu at Field",
-        "description": "A Michelin-starred room a block from the Old Town doing Czech ingredients with real wit — dishes arrive looking like the field they came out of.",
+        "description": "A Michelin-starred room a block from the Old Town doing Czech ingredients with real wit, dishes arrive looking like the field they came out of.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3.5 hrs",
@@ -282,7 +282,7 @@
       {
         "id": "PRG-C-10",
         "title": "Read Inside the Book Tower",
-        "description": "The Municipal Library's Idiom sculpture is a column of books with a mirror inside, making an infinite shaft of spines — then stay and read in the library itself.",
+        "description": "The Municipal Library's Idiom sculpture is a column of books with a mirror inside, making an infinite shaft of spines, then stay and read in the library itself.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -485,7 +485,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 40,
-        "bonus": "Do the gorge boats as well as the arch — most people skip them.",
+        "bonus": "Do the gorge boats as well as the arch, most people skip them.",
         "city": "Prague, Czech Republic",
         "mapsUrl": "https://maps.google.com/maps/search/Pravcicka+Brana+Hrensko+Czech+Republic",
         "company": [
@@ -553,7 +553,7 @@
       },
       {
         "id": "PRG-A-10",
-        "title": "Climb the Limestone at Prokopské údolí",
+        "title": "Climb the Limestone at Prokopské Údolí",
         "description": "A protected karst valley on the edge of Prague where Devonian limestone crags rise straight out of the woods and locals climb after work.",
         "rarity": "Rare",
         "cost": "$$",
@@ -753,7 +753,7 @@
       {
         "id": "PRG-S-09",
         "title": "Sparta Praha Ice Hockey Night",
-        "description": "Czech league hockey at full volume — organised chanting, a drum section, and beer sold by the metre in the concourse.",
+        "description": "Czech league hockey at full volume: organised chanting, a drum section, and beer sold by the metre in the concourse.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -898,7 +898,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 24,
-        "bonus": "Book the front table — the room is small enough that it matters.",
+        "bonus": "Book the front table. The room is small enough that it matters.",
         "city": "Prague, Czech Republic",
         "mapsUrl": "https://maps.google.com/maps/search/Reduta+Jazz+Club+Prague",
         "company": [
@@ -1040,7 +1040,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 26,
-        "bonus": "Do St. Barbara's as well — most day-trippers only do the bones.",
+        "bonus": "Do St. Barbara's as well. Most day-trippers only do the bones.",
         "city": "Prague, Czech Republic",
         "mapsUrl": "https://maps.google.com/maps/search/Sedlec+Ossuary+Kutna+Hora",
         "company": [
@@ -1088,7 +1088,7 @@
       {
         "id": "PRG-CU-06",
         "title": "The Strahov Library Halls",
-        "description": "Two baroque halls — Theological and Philosophical — with frescoed ceilings, globes and a cabinet of curiosities including a preserved narwhal tusk.",
+        "description": "Two baroque halls, Theological and Philosophical, with frescoed ceilings, globes and a cabinet of curiosities including a preserved narwhal tusk.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -1107,7 +1107,7 @@
       {
         "id": "PRG-CU-04",
         "title": "Modern Art in the Veletržní Palác",
-        "description": "A vast functionalist trade-fair building holding the National Gallery's modern collection — Czech cubism, plus a Picasso and a Klimt or two.",
+        "description": "A vast functionalist trade-fair building holding the National Gallery's modern collection, Czech cubism, plus a Picasso and a Klimt or two.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2.5 hrs",

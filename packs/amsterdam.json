@@ -448,7 +448,7 @@
       {
         "id": "AMS-A-11",
         "title": "Rent a Sloep and Drive It Yourself",
-        "description": "No licence, no crew — just a little open boat, a tiller and the Jordaan canals for the afternoon.",
+        "description": "No licence, no crew, just a little open boat, a tiller and the Jordaan canals for the afternoon.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -789,7 +789,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 18,
-        "bonus": "Book weeks ahead — tickets are timed and sell out.",
+        "bonus": "Book weeks ahead. Tickets are timed and sell out.",
         "city": "Amsterdam, Netherlands",
         "mapsUrl": "https://maps.google.com/maps/search/Anne+Frank+House+Amsterdam",
         "company": [
@@ -828,7 +828,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 12,
-        "bonus": "Order oorlog — war — and find out why.",
+        "bonus": "Order oorlog, war, and find out why.",
         "city": "Amsterdam, Netherlands",
         "mapsUrl": "https://maps.google.com/maps/search/Vleminckx+Sausmeesters+Amsterdam",
         "company": [
@@ -848,7 +848,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 16,
-        "bonus": "Do the bow — hands behind your back, mouth to the glass.",
+        "bonus": "Do the bow, hands behind your back, mouth to the glass.",
         "city": "Amsterdam, Netherlands",
         "mapsUrl": "https://maps.google.com/maps/search/Wynand+Fockink+Amsterdam",
         "company": [
@@ -879,7 +879,7 @@
       {
         "id": "AMS-F-11",
         "title": "Brunch at Bakers & Roasters",
-        "description": "Kiwi-Brazilian breakfasts in De Pijp — banana bread, chorizo hash, and coffee that takes itself seriously.",
+        "description": "Kiwi-Brazilian breakfasts in De Pijp: banana bread, chorizo hash, and coffee that takes itself seriously.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",

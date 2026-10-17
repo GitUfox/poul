@@ -108,7 +108,7 @@
       {
         "id": "SIN-CU-02",
         "title": "Peranakan Museum on Armenian Street",
-        "description": "A reopened museum of Straits-Chinese life — beadwork, wedding chambers, kitchens — in a 1912 school building, done at exactly the right scale.",
+        "description": "A reopened museum of Straits-Chinese life (beadwork, wedding chambers, kitchens) in a 1912 school building, done at exactly the right scale.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -128,7 +128,7 @@
       {
         "id": "SIN-CU-01",
         "title": "National Gallery in the Old Supreme Court",
-        "description": "Two linked colonial landmarks — City Hall and the Supreme Court — holding the world's largest public collection of Southeast Asian art.",
+        "description": "Two linked colonial landmarks, City Hall and the Supreme Court, holding the world's largest public collection of Southeast Asian art.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -415,7 +415,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 23,
-        "bonus": "Claim a teepee before sunset — there are only ten and they go fast.",
+        "bonus": "Claim a teepee before sunset. There are only ten and they go fast.",
         "city": "Singapore",
         "mapsUrl": "https://maps.google.com/maps/search/Mr+Stork+Andaz+Singapore",
         "company": [
@@ -447,7 +447,7 @@
       {
         "id": "SIN-S-04",
         "title": "Find the Unmarked Door at 28 HongKong Street",
-        "description": "No sign, no frontage, just a shophouse facade and a reservation — and behind it one of the most influential bars in Asia since 2011.",
+        "description": "No sign, no frontage, just a shophouse facade and a reservation, and behind it one of the most influential bars in Asia since 2011.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -545,7 +545,7 @@
       {
         "id": "SIN-S-03",
         "title": "Asian-Only Spirits at Native",
-        "description": "Three floors of an Amoy Street shophouse — restaurant, bar, fermentation lab — pouring cocktails built only from regional spirits and foraged ingredients.",
+        "description": "Three floors of an Amoy Street shophouse (restaurant, bar, fermentation lab) pouring cocktails built only from regional spirits and foraged ingredients.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -605,7 +605,7 @@
       {
         "id": "SIN-8B-01",
         "title": "Wildcard: Hawker Centre Roulette",
-        "description": "Pick a hawker centre none of you have been to, then each order from the stall with the longest queue — no discussion, no looking at what it is first.",
+        "description": "Pick a hawker centre none of you have been to, then each order from the stall with the longest queue: no discussion, no looking at what it is first.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "3 hrs",
@@ -1019,7 +1019,7 @@
       {
         "id": "SIN-F-05",
         "title": "Laksa at 328 Katong",
-        "description": "Thick coconut gravy, cockles and noodles cut short so you eat the whole bowl with a spoon — the Katong original on East Coast Road, walk-ins only.",
+        "description": "Thick coconut gravy, cockles and noodles cut short so you eat the whole bowl with a spoon, the Katong original on East Coast Road, walk-ins only.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -1047,7 +1047,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Get there before ten or budget an hour in the queue — everyone does.",
+        "bonus": "Get there before ten or budget an hour in the queue. Everyone does.",
         "city": "Singapore",
         "mapsUrl": "https://maps.google.com/maps/search/Hill+Street+Tai+Hwa+Pork+Noodle+Crawford+Lane+Singapore",
         "company": [
@@ -1097,7 +1097,7 @@
       {
         "id": "SIN-F-07",
         "title": "Prata Marathon at Springleaf Prata Place",
-        "description": "Twenty variations on roti prata, flipped to order and eaten with fish curry — a Michelin-listed local chain that does murtabak properly too.",
+        "description": "Twenty variations on roti prata, flipped to order and eaten with fish curry. A Michelin-listed local chain that does murtabak properly too.",
         "rarity": "Common",
         "cost": "$",
         "duration": "90 mins",
@@ -1154,7 +1154,7 @@
       {
         "id": "SIN-F-08",
         "title": "Nasi Lemak at The Coconut Club",
-        "description": "Coconut rice cooked with a specific varietal, sambal with real depth and a fried chicken thigh — the Bib Gourmand version of Singapore's default lunch, on Beach Road.",
+        "description": "Coconut rice cooked with a specific varietal, sambal with real depth and a fried chicken thigh, the Bib Gourmand version of Singapore's default lunch, on Beach Road.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "90 mins",

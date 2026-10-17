@@ -17,7 +17,7 @@
         "time": "Afternoon",
         "season": "May–Sep",
         "spark": 14,
-        "bonus": "Everyone ties their tubes together for the whole float — no breaking the chain.",
+        "bonus": "Everyone ties their tubes together for the whole float, no breaking the chain.",
         "city": "San Antonio, TX",
         "mapsUrl": "https://maps.google.com/maps/search/Rockin+R+River+Rides+Gruene+New+Braunfels",
         "company": [
@@ -28,7 +28,7 @@
       {
         "id": "SAT-A-09",
         "title": "Tube the Comal River in New Braunfels",
-        "description": "The shortest river in Texas is also the most fun — a fast, clear two-hour loop through Landa Park with a tube chute at the end.",
+        "description": "The shortest river in Texas is also the most fun, a fast, clear two-hour loop through Landa Park with a tube chute at the end.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -47,7 +47,7 @@
       {
         "id": "SAT-A-12",
         "title": "Wild Cave Tour at Natural Bridge Caverns",
-        "description": "Skip the paved walkway and crawl the undeveloped passages with a headlamp and knee pads — muddy, tight and unforgettable.",
+        "description": "Skip the paved walkway and crawl the undeveloped passages with a headlamp and knee pads, muddy, tight and unforgettable.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "4 hrs",
@@ -143,8 +143,8 @@
       },
       {
         "id": "SAT-AC-03",
-        "title": "Ride the coasters at Six Flags Fiesta Texas",
-        "description": "Spend the day chasing every major coaster — including the record-setting Wonder Woman Golden Lasso — at Six Flags Fiesta Texas.",
+        "title": "Ride the Coasters at Six Flags Fiesta Texas",
+        "description": "Spend the day chasing every major coaster, including the record-setting Wonder Woman Golden Lasso, at Six Flags Fiesta Texas.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "Full day",
@@ -158,7 +158,7 @@
       },
       {
         "id": "SAT-AC-02",
-        "title": "SUP paddleboard session at Woodlawn Lake",
+        "title": "SUP Paddleboard Session at Woodlawn Lake",
         "description": "Rent a stand-up paddleboard and work your balance and core on the calm water of Woodlawn Lake Park.",
         "rarity": "Rare",
         "cost": "$$",
@@ -173,7 +173,7 @@
       },
       {
         "id": "SAT-AC-04",
-        "title": "Drive-through wildlife safari at Natural Bridge Wildlife Ranch",
+        "title": "Drive-Through Wildlife Safari at Natural Bridge Wildlife Ranch",
         "description": "Roll down the windows and drive through free-roaming giraffes, zebras, and ostriches on a 400-acre exotic wildlife ranch.",
         "rarity": "Rare",
         "cost": "$$",
@@ -188,7 +188,7 @@
       },
       {
         "id": "SAT-A-02",
-        "title": "Hike the Mission Reach Trail — Mission Concepción to Mission San Juan",
+        "title": "Hike the Mission Reach Trail: Mission Concepción to Mission San Juan",
         "description": "Walk or jog the shaded riverside trail linking two 18th-century missions, with historic chapels as your turnaround point.",
         "rarity": "Common",
         "cost": "$",
@@ -203,7 +203,7 @@
       },
       {
         "id": "SAT-AC-01",
-        "title": "Bike the Mission Reach Greenway end to end",
+        "title": "Bike the Mission Reach Greenway End to End",
         "description": "Rent a bike and ride the full paved greenway connecting downtown to all four historic missions.",
         "rarity": "Common",
         "cost": "$",
@@ -218,7 +218,7 @@
       },
       {
         "id": "SAT-A-03",
-        "title": "Tour the underground caverns at Natural Bridge Caverns",
+        "title": "Tour the Underground Caverns at Natural Bridge Caverns",
         "description": "Descend beneath the Texas Hill Country on a guided walk through one of the largest commercial cave systems in the state.",
         "rarity": "Rare",
         "cost": "$$",
@@ -227,7 +227,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 26,
-        "bonus": "Find the formation that looks like something else — name it.",
+        "bonus": "Find the formation that looks like something else. Name it.",
         "city": "San Antonio, TX",
         "mapsUrl": "https://maps.google.com/maps/search/Natural+Bridge+Caverns+San+Antonio"
       }
@@ -276,7 +276,7 @@
       {
         "id": "SAT-CU-05",
         "title": "Fiesta San Antonio",
-        "description": "Eleven days of parades, oyster bakes, cascarones and Night in Old San Antonio — the whole city stops working and puts on a flower crown.",
+        "description": "Eleven days of parades, oyster bakes, cascarones and Night in Old San Antonio. The whole city stops working and puts on a flower crown.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "All day",
@@ -314,7 +314,7 @@
       {
         "id": "SAT-CU-06",
         "title": "Día de los Muertos at Hemisfair",
-        "description": "San Antonio throws one of the largest Day of the Dead celebrations in the US — altars, processions and marigolds across the downtown park.",
+        "description": "San Antonio throws one of the largest Day of the Dead celebrations in the US, altars, processions and marigolds across the downtown park.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -333,7 +333,7 @@
       {
         "id": "SAT-CU-08",
         "title": "Western Art at the Briscoe",
-        "description": "Santa Anna's sword, Pancho Villa's saddle and a riverside sculpture courtyard — the mythology of the West, assembled carefully and without kitsch.",
+        "description": "Santa Anna's sword, Pancho Villa's saddle and a riverside sculpture courtyard, the mythology of the West, assembled carefully and without kitsch.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -413,7 +413,7 @@
       {
         "id": "SAT-C-10",
         "title": "Golden Hour at Confluence Park",
-        "description": "Petal-shaped concrete vaults arc over the spot where San Pedro Creek meets the river — an architectural showpiece that almost nobody visits.",
+        "description": "Petal-shaped concrete vaults arc over the spot where San Pedro Creek meets the river, an architectural showpiece that almost nobody visits.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -469,7 +469,7 @@
       {
         "id": "SAT-C-07",
         "title": "River Barge at Dusk",
-        "description": "Let a GO RIO barge carry you under the cypress and stone bridges of the River Walk just as the lights come on — touristy, and completely worth it.",
+        "description": "Let a GO RIO barge carry you under the cypress and stone bridges of the River Walk just as the lights come on, touristy, and completely worth it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -488,7 +488,7 @@
       {
         "id": "SAT-C-08",
         "title": "Picnic Under the Oaks at Brackenridge Park",
-        "description": "343 acres of old oaks, river bends and stone footbridges — San Antonio's backyard since 1899, and still the easiest place in the city to do nothing.",
+        "description": "343 acres of old oaks, river bends and stone footbridges, San Antonio's backyard since 1899, and still the easiest place in the city to do nothing.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -521,7 +521,7 @@
       },
       {
         "id": "SAT-C-04",
-        "title": "Browse Ruby City contemporary art museum",
+        "title": "Browse Ruby City Contemporary Art Museum",
         "description": "Walk through Linda Pace's striking crimson-concrete art museum, free to enter and easy to lose an hour in.",
         "rarity": "Common",
         "cost": "$",
@@ -551,7 +551,7 @@
       },
       {
         "id": "SAT-C-03",
-        "title": "Sunset walk along the Museum Reach River Walk",
+        "title": "Sunset Walk Along the Museum Reach River Walk",
         "description": "Follow the quieter, art-lined northern stretch of the River Walk as the string lights flicker on at dusk.",
         "rarity": "Common",
         "cost": "$",
@@ -569,7 +569,7 @@
       {
         "id": "SAT-S-12",
         "title": "Two-Step at Cowboys Dancehall",
-        "description": "A vast honky-tonk with a mechanical bull, a live stage and a dance floor where everyone genuinely knows the steps — take the free lesson first.",
+        "description": "A vast honky-tonk with a mechanical bull, a live stage and a dance floor where everyone genuinely knows the steps. Take the free lesson first.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -648,7 +648,7 @@
       {
         "id": "SAT-S-08",
         "title": "Late Night at Hi-Tones",
-        "description": "A converted house with a patio, cheap drinks and a stage that books everything from cumbia to punk — San Antonio's most reliably fun dive.",
+        "description": "A converted house with a patio, cheap drinks and a stage that books everything from cumbia to punk, San Antonio's most reliably fun dive.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -668,7 +668,7 @@
       {
         "id": "SAT-S-06",
         "title": "Craft Cocktails at Bar 1919",
-        "description": "Tucked under the Blue Star Arts Complex, this is the bar that taught San Antonio to take cocktails seriously — dark, low-ceilinged and very good.",
+        "description": "Tucked under the Blue Star Arts Complex, this is the bar that taught San Antonio to take cocktails seriously, dark, low-ceilinged and very good.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -708,7 +708,7 @@
       {
         "id": "SAT-S-07",
         "title": "Pints at Weathered Souls Brewing",
-        "description": "The San Antonio taproom behind the Black Is Beautiful stout collaboration that went global — good beer, long tables, easy conversation.",
+        "description": "The San Antonio taproom behind the Black Is Beautiful stout collaboration that went global: good beer, long tables, easy conversation.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -727,7 +727,7 @@
       },
       {
         "id": "SAT-S-02",
-        "title": "Trivia night at The Friendly Spot Ice House",
+        "title": "Trivia Night at The Friendly Spot Ice House",
         "description": "Grab a picnic table in the open-air beer garden and battle it out at weekly trivia with a round of local craft beer.",
         "rarity": "Common",
         "cost": "$",
@@ -742,7 +742,7 @@
       },
       {
         "id": "SAT-S-01",
-        "title": "Live music night at Paper Tiger",
+        "title": "Live Music Night at Paper Tiger",
         "description": "Catch a touring band or local act at the Fredericksburg Road venue that anchors San Antonio's indie music scene.",
         "rarity": "Rare",
         "cost": "$$",
@@ -757,7 +757,7 @@
       },
       {
         "id": "SAT-S-03",
-        "title": "Saturday morning at Pearl Farmers Market",
+        "title": "Saturday Morning at Pearl Farmers Market",
         "description": "Browse local produce, tamales, and live music at the weekend market anchoring the Pearl District.",
         "rarity": "Common",
         "cost": "$",
@@ -772,7 +772,7 @@
       },
       {
         "id": "SAT-S-04",
-        "title": "Dinner and a movie at Alamo Drafthouse Park North",
+        "title": "Dinner and a Movie at Alamo Drafthouse Park North",
         "description": "Catch a new release with a full dinner and drink menu delivered straight to your seat.",
         "rarity": "Common",
         "cost": "$$",
@@ -830,7 +830,7 @@
       {
         "id": "SAT-F-05",
         "title": "Brisket at 2M Smokehouse",
-        "description": "South Side barbecue that put San Antonio on the Texas map — post oak brisket alongside sausage stuffed with Oaxaca cheese and serrano.",
+        "description": "South Side barbecue that put San Antonio on the Texas map, post oak brisket alongside sausage stuffed with Oaxaca cheese and serrano.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -907,7 +907,7 @@
       {
         "id": "SAT-F-10",
         "title": "Morning Pastry at Bakery Lorraine",
-        "description": "Macarons, kouign-amann and very good coffee in the old brewery courtyard at the Pearl — the best twenty minutes of a San Antonio morning.",
+        "description": "Macarons, kouign-amann and very good coffee in the old brewery courtyard at the Pearl, the best twenty minutes of a San Antonio morning.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -927,7 +927,7 @@
       {
         "id": "SAT-F-07",
         "title": "Tacos at Carnitas Lonja",
-        "description": "Michoacán-style carnitas cooked in a copper cazo and served on handmade tortillas at a converted house on the South Side — order by the pound.",
+        "description": "Michoacán-style carnitas cooked in a copper cazo and served on handmade tortillas at a converted house on the South Side. Order by the pound.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -946,8 +946,8 @@
       },
       {
         "id": "SAT-F-02",
-        "title": "Puffy tacos at Rays Drive Inn",
-        "description": "Bite into a San Antonio original — the puffy taco — at the family-run spot credited with inventing it.",
+        "title": "Puffy Tacos at Rays Drive Inn",
+        "description": "Bite into a San Antonio original, the puffy taco, at the family-run spot credited with inventing it.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -961,7 +961,7 @@
       },
       {
         "id": "SAT-F-01",
-        "title": "Breakfast tacos and pan dulce at Mi Tierra Café y Panadería",
+        "title": "Breakfast Tacos and Pan Dulce at Mi Tierra Café y Panadería",
         "description": "Order breakfast tacos and fresh pan dulce at this 24-hour Market Square institution strung with a thousand twinkling lights.",
         "rarity": "Common",
         "cost": "$",
@@ -994,7 +994,7 @@
       {
         "id": "SAT-8B-01",
         "title": "Wildcard: The Puffy Taco Pilgrimage",
-        "description": "San Antonio invented the puffy taco and two restaurants still argue over it — eat at Ray's Drive Inn and Henry's Puffy Tacos in one afternoon and settle it yourselves.",
+        "description": "San Antonio invented the puffy taco and two restaurants still argue over it. Eat at Ray's Drive Inn and Henry's Puffy Tacos in one afternoon and settle it yourselves.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3 hrs",

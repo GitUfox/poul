@@ -29,7 +29,7 @@
       {
         "id": "PIT-CU-01",
         "title": "The Andy Warhol Museum",
-        "description": "Seven floors on Pittsburgh's most famous son — the largest museum in North America devoted to a single artist.",
+        "description": "Seven floors on Pittsburgh's most famous son, the largest museum in North America devoted to a single artist.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -49,7 +49,7 @@
       {
         "id": "PIT-CU-07",
         "title": "The Frick Pittsburgh",
-        "description": "The Gilded Age estate of Henry Clay Frick in Point Breeze — the family mansion, a car and carriage museum and a small art museum across the lawn.",
+        "description": "The Gilded Age estate of Henry Clay Frick in Point Breeze, the family mansion, a car and carriage museum and a small art museum across the lawn.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -129,7 +129,7 @@
       {
         "id": "PIT-CU-04",
         "title": "Tour Frank Lloyd Wright's Fallingwater",
-        "description": "The house built over a waterfall — Frank Lloyd Wright's masterpiece, cantilevered over Bear Run in the Laurel Highlands.",
+        "description": "The house built over a waterfall, Frank Lloyd Wright's masterpiece, cantilevered over Bear Run in the Laurel Highlands.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "Half day",
@@ -272,7 +272,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 14,
-        "bonus": "Catch the opener — they're often the better band.",
+        "bonus": "Catch the opener. They're often the better band.",
         "city": "Millvale, PA",
         "mapsUrl": "https://maps.google.com/maps/search/Mr+Smalls+Theatre+Millvale+PA",
         "company": [
@@ -303,7 +303,7 @@
       {
         "id": "PIT-S-05",
         "title": "Steelers Game at Acrisure Stadium",
-        "description": "Tailgate on the North Shore, then a full stadium waving Terrible Towels by the rivers — Pittsburgh at full volume.",
+        "description": "Tailgate on the North Shore, then a full stadium waving Terrible Towels by the rivers, Pittsburgh at full volume.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "Full day",
@@ -509,7 +509,7 @@
         "time": "Afternoon",
         "season": "May–Oct",
         "spark": 25,
-        "bonus": "Ride the Jack Rabbit too — it's been running since 1920.",
+        "bonus": "Ride the Jack Rabbit too. It's been running since 1920.",
         "city": "West Mifflin, PA",
         "mapsUrl": "https://maps.google.com/maps/search/Kennywood+West+Mifflin+PA",
         "company": [
@@ -651,7 +651,7 @@
       {
         "id": "PIT-F-05",
         "title": "Pierogies at S&D Polish Deli",
-        "description": "A small Strip District deli selling homemade pierogies, kielbasa and Polish groceries — Pittsburgh's heritage food done properly.",
+        "description": "A small Strip District deli selling homemade pierogies, kielbasa and Polish groceries, Pittsburgh's heritage food done properly.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -691,7 +691,7 @@
       {
         "id": "PIT-F-10",
         "title": "Burnt Almond Torte at Prantl's",
-        "description": "Pittsburgh's most famous cake — layers of sponge and custard buried in a coat of toasted, sugared almonds.",
+        "description": "Pittsburgh's most famous cake, layers of sponge and custard buried in a coat of toasted, sugared almonds.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -770,7 +770,7 @@
       {
         "id": "PIT-F-08",
         "title": "Plant-Based Polish at Apteka",
-        "description": "A Bloomfield restaurant doing fully vegan Central and Eastern European food with national acclaim — a pierogi plate that changes minds.",
+        "description": "A Bloomfield restaurant doing fully vegan Central and Eastern European food with national acclaim, a pierogi plate that changes minds.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1.5–2 hrs",
@@ -819,7 +819,7 @@
       {
         "id": "PIT-F-01",
         "title": "Original Sandwich at Primanti Bros",
-        "description": "Order the classic at the Strip District original — fries and coleslaw piled right inside the sandwich, no substitutions.",
+        "description": "Order the classic at the Strip District original, fries and coleslaw piled right inside the sandwich, no substitutions.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -927,7 +927,7 @@
       {
         "id": "PIT-C-08",
         "title": "Sunset at the West End Overlook",
-        "description": "A quieter alternative to Mount Washington — a hilltop park looking straight up the Ohio River into downtown.",
+        "description": "A quieter alternative to Mount Washington, a hilltop park looking straight up the Ohio River into downtown.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -1027,7 +1027,7 @@
       {
         "id": "PIT-8B-02",
         "title": "Cross a Bridge You've Never Crossed",
-        "description": "The city of bridges has more than 400 of them — pick one you've never crossed on foot, walk to the far side, and spend the afternoon in whatever neighbourhood you land in.",
+        "description": "The city of bridges has more than 400 of them. Pick one you've never crossed on foot, walk to the far side, and spend the afternoon in whatever neighbourhood you land in.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",
@@ -1048,7 +1048,7 @@
       {
         "id": "PIT-8B-01",
         "title": "Take a Staircase You've Never Climbed",
-        "description": "Pittsburgh has more public staircases than any city in the country — pick one you've never taken, climb it, and go into the first bar or café at the top.",
+        "description": "Pittsburgh has more public staircases than any city in the country. Pick one you've never taken, climb it, and go into the first bar or café at the top.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",

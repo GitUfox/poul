@@ -495,7 +495,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 13,
-        "bonus": "Use the audio guide fully — there are over a hundred songs on it.",
+        "bonus": "Use the audio guide fully. There are over a hundred songs on it.",
         "city": "Memphis, TN",
         "mapsUrl": "https://maps.google.com/maps/search/Memphis+Rock+n+Soul+Museum+Beale+Street+Memphis+Tennessee",
         "company": [
@@ -609,7 +609,7 @@
       {
         "id": "MEM-8B-01",
         "title": "Wildcard: The Barbecue Bracket",
-        "description": "Four barbecue joints, one day, one item each — pick a winner by knockout and argue it out at every round.",
+        "description": "Four barbecue joints, one day, one item each. Pick a winner by knockout and argue it out at every round.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "8 hrs",
@@ -629,7 +629,7 @@
       {
         "id": "MEM-8B-02",
         "title": "Wildcard: Follow the Music",
-        "description": "Start on Beale and follow whatever music you can hear from the street — every time you can hear a different band, you have to go in.",
+        "description": "Start on Beale and follow whatever music you can hear from the street. Every time you can hear a different band, you have to go in.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "5 hrs",
@@ -924,7 +924,7 @@
       {
         "id": "MEM-A-15",
         "title": "The Lookout at the Pyramid",
-        "description": "A glass elevator up the inside of a 32-storey pyramid — once an arena, now a Bass Pro store with a cypress swamp in the lobby — to an observation deck over the river.",
+        "description": "A glass elevator up the inside of a 32-storey pyramid (once an arena, now a Bass Pro store with a cypress swamp in the lobby) to an observation deck over the river.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -1121,7 +1121,7 @@
       {
         "id": "MEM-F-08",
         "title": "Soul Food Plate at The Four Way",
-        "description": "Open since 1946 in Soulsville, a few blocks from Stax, and a meeting place during the civil rights movement — Dr. King ate here regularly.",
+        "description": "Open since 1946 in Soulsville, a few blocks from Stax, and a meeting place during the civil rights movement, Dr. King ate here regularly.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "90 mins",
@@ -1161,7 +1161,7 @@
       {
         "id": "MEM-F-04",
         "title": "Barbecue Cornish Hen at Cozy Corner",
-        "description": "A North Parkway room open since 1977 where the thing to order isn't ribs at all — it's a whole smoked Cornish game hen.",
+        "description": "A North Parkway room open since 1977 where the thing to order isn't ribs at all. It's a whole smoked Cornish game hen.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "90 mins",

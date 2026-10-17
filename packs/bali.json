@@ -166,7 +166,7 @@
       {
         "id": "DPS-8B-01",
         "title": "Wildcard: Most Motorbikes Wins",
-        "description": "Walk the length of the street and eat at whichever warung has the most motorbikes parked outside it — no reviews, no menus checked, no exceptions.",
+        "description": "Walk the length of the street and eat at whichever warung has the most motorbikes parked outside it: no reviews, no menus checked, no exceptions.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2 hrs",
@@ -186,7 +186,7 @@
       {
         "id": "DPS-8B-02",
         "title": "Wildcard: Scooter the Shortcut Blind",
-        "description": "Start at Echo Beach, take every left turn you can for 30 minutes without a map, then find your way back — the rice-field lanes behind Canggu are the entire point.",
+        "description": "Start at Echo Beach, take every left turn you can for 30 minutes without a map, then find your way back. The rice-field lanes behind Canggu are the entire point.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "4 hrs",
@@ -228,7 +228,7 @@
       {
         "id": "DPS-S-11",
         "title": "Live Band at Laughing Buddha, Ubud",
-        "description": "A small bar on Monkey Forest Road with a mini stage and a band almost every night — blues on Mondays, Latin at the weekend, no cover charge.",
+        "description": "A small bar on Monkey Forest Road with a mini stage and a band almost every night: blues on Mondays, Latin at the weekend, no cover charge.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -388,7 +388,7 @@
       {
         "id": "DPS-S-04",
         "title": "La Favela, Seminyak",
-        "description": "A series of rooms dressed as an overgrown colonial jungle house — antique furniture, vines through the ceiling, Latin music — that turns into a dance floor after midnight.",
+        "description": "A series of rooms dressed as an overgrown colonial jungle house (antique furniture, vines through the ceiling, Latin music) that turns into a dance floor after midnight.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -906,7 +906,7 @@
       {
         "id": "DPS-A-14",
         "title": "Sidemen Valley Walk",
-        "description": "Terraces, clove trees and palm-sugar tappers in the valley under Mount Agung, walked on village lanes — the Bali people claim Ubud used to be.",
+        "description": "Terraces, clove trees and palm-sugar tappers in the valley under Mount Agung, walked on village lanes. The Bali people claim Ubud used to be.",
         "rarity": "Common",
         "cost": "$",
         "duration": "5 hrs",

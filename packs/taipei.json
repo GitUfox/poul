@@ -29,7 +29,7 @@
       {
         "id": "TPE-C-07",
         "title": "Drift Through Songshan Creative Park",
-        "description": "A 1930s tobacco factory turned design campus — independent bookshops, small exhibitions, a baroque-style garden pond and an enormous bookstore at the back.",
+        "description": "A 1930s tobacco factory turned design campus: independent bookshops, small exhibitions, a baroque-style garden pond and an enormous bookstore at the back.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -49,7 +49,7 @@
       {
         "id": "TPE-C-09",
         "title": "Coffee and Nothing Else on Fujin Street",
-        "description": "A tree-lined street in Songshan lined with tiny roasters, ceramics studios and plant shops — the closest Taipei gets to a genuinely quiet morning.",
+        "description": "A tree-lined street in Songshan lined with tiny roasters, ceramics studios and plant shops. The closest Taipei gets to a genuinely quiet morning.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -106,7 +106,7 @@
       {
         "id": "TPE-C-05",
         "title": "Soak in the Sulphur Springs at Beitou",
-        "description": "Thirty minutes north on the MRT to a valley of sulphur hot springs — tiered public pools outdoors, or a private tub in one of the old Japanese bathhouses.",
+        "description": "Thirty minutes north on the MRT to a valley of sulphur hot springs, tiered public pools outdoors, or a private tub in one of the old Japanese bathhouses.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -188,7 +188,7 @@
       {
         "id": "TPE-CU-05",
         "title": "Contemporary Work at the Fine Arts Museum",
-        "description": "TFAM shows the living end of Taiwanese art — large-scale installation, video and the Taipei Biennial — in a stacked white modernist block in Zhongshan.",
+        "description": "TFAM shows the living end of Taiwanese art (large-scale installation, video and the Taipei Biennial) in a stacked white modernist block in Zhongshan.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -303,7 +303,7 @@
       {
         "id": "TPE-CU-07",
         "title": "Temple Carving at Baoan and the Confucius Temple",
-        "description": "Two temples facing each other in Dalongdong — Baoan's UNESCO-awarded restoration of its carving and murals, and the austere Confucian hall opposite.",
+        "description": "Two temples facing each other in Dalongdong, Baoan's UNESCO-awarded restoration of its carving and murals, and the austere Confucian hall opposite.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2.5 hrs",
@@ -344,7 +344,7 @@
       {
         "id": "TPE-S-08",
         "title": "Find the Door at Ounce",
-        "description": "A speakeasy behind a café counter in Da'an — you walk through what looks like a storeroom door into a dark, very serious little cocktail room.",
+        "description": "A speakeasy behind a café counter in Da'an. You walk through what looks like a storeroom door into a dark, very serious little cocktail room.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -363,7 +363,7 @@
       {
         "id": "TPE-S-07",
         "title": "Cocktails at Indulge Experimental Bistro",
-        "description": "The bar that put Taipei on the world cocktail map, building drinks around Taiwanese ingredients — aged oolong, sesame oil, local rice spirits.",
+        "description": "The bar that put Taipei on the world cocktail map, building drinks around Taiwanese ingredients: aged oolong, sesame oil, local rice spirits.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -383,7 +383,7 @@
       {
         "id": "TPE-S-05",
         "title": "CPBL Baseball at the Taipei Dome",
-        "description": "Taiwanese baseball is a continuous choreographed concert — team cheerleaders, a drum section and forty thousand people singing a different song for every batter.",
+        "description": "Taiwanese baseball is a continuous choreographed concert, team cheerleaders, a drum section and forty thousand people singing a different song for every batter.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -402,7 +402,7 @@
       {
         "id": "TPE-S-11",
         "title": "Arcades and Claw Machines in Ximending",
-        "description": "Taipei's neon pedestrian grid — multi-storey arcades, rows of claw machines, street performers and teenagers until well past midnight.",
+        "description": "Taipei's neon pedestrian grid: multi-storey arcades, rows of claw machines, street performers and teenagers until well past midnight.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -421,7 +421,7 @@
       {
         "id": "TPE-S-06",
         "title": "A Live House Night at Legacy Taipei",
-        "description": "A brick warehouse in the Huashan complex that is the main room for Mandopop, Taiwanese indie and touring acts — standing only, and loud.",
+        "description": "A brick warehouse in the Huashan complex that is the main room for Mandopop, Taiwanese indie and touring acts, standing only, and loud.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -440,7 +440,7 @@
       {
         "id": "TPE-S-12",
         "title": "Carnival Games at Shilin Night Market",
-        "description": "Past the food stalls at Shilin are the games — air-rifle balloon shooting, shrimp fishing with tiny rods, ring toss — run exactly as they were forty years ago.",
+        "description": "Past the food stalls at Shilin are the games (air-rifle balloon shooting, shrimp fishing with tiny rods, ring toss) run exactly as they were forty years ago.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -479,7 +479,7 @@
       {
         "id": "TPE-S-09",
         "title": "Cheap Rounds in Gongguan and Shida",
-        "description": "The student quarters around NTU and the old teachers' college — tiny bars, live acoustic sets, cheap beer and a crowd that is mostly under thirty.",
+        "description": "The student quarters around NTU and the old teachers' college. Tiny bars, live acoustic sets, cheap beer and a crowd that is mostly under thirty.",
         "rarity": "Common",
         "cost": "$",
         "duration": "4 hrs",
@@ -636,7 +636,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 23,
-        "bonus": "Take the train, not a car — the station is a five-minute walk from the sand.",
+        "bonus": "Take the train, not a car. The station is a five-minute walk from the sand.",
         "city": "Taipei, Taiwan",
         "mapsUrl": "https://maps.google.com/maps/search/Waiao+Beach+Yilan+Taiwan",
         "company": [
@@ -856,7 +856,7 @@
       {
         "id": "TPE-F-06",
         "title": "Eat Your Way Down Ningxia Night Market",
-        "description": "One short street, no souvenir stalls, and the highest concentration of proper Taiwanese street food in the city — oyster omelettes, taro balls, sesame oil chicken.",
+        "description": "One short street, no souvenir stalls, and the highest concentration of proper Taiwanese street food in the city: oyster omelettes, taro balls, sesame oil chicken.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -875,7 +875,7 @@
       {
         "id": "TPE-F-09",
         "title": "Sashimi at Addiction Aquatic Development",
-        "description": "A working fish market turned standing sushi bar, oyster counter and seafood grill — you eat off the top of the refrigerated cases with everyone else.",
+        "description": "A working fish market turned standing sushi bar, oyster counter and seafood grill. You eat off the top of the refrigerated cases with everyone else.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -894,7 +894,7 @@
       {
         "id": "TPE-F-08",
         "title": "The Kaiseki Counter at Shoun RyuGin",
-        "description": "Japanese kaiseki technique applied to Taiwanese produce across a long, precise tasting menu — one of the most decorated kitchens in Asia.",
+        "description": "Japanese kaiseki technique applied to Taiwanese produce across a long, precise tasting menu, one of the most decorated kitchens in Asia.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3.5 hrs",

@@ -9,7 +9,7 @@
       {
         "id": "MSY-A-201",
         "title": "Ferry to Algiers Point",
-        "description": "The Canal Street ferry crosses the Mississippi in five minutes for pocket change — wander Algiers Point's gingerbread cottages, grab a drink at the corner bar, and ride back at golden hour.",
+        "description": "The Canal Street ferry crosses the Mississippi in five minutes for pocket change. Wander Algiers Point's gingerbread cottages, grab a drink at the corner bar, and ride back at golden hour.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -17,14 +17,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Time the return crossing for sunset — the skyline from mid-river is the whole show.",
+        "bonus": "Time the return crossing for sunset. The skyline from mid-river is the whole show.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Canal+Street+Ferry+Algiers+Point+New+Orleans"
       },
       {
         "id": "MSY-AC-202",
         "title": "Sunset Pickup at The Fly",
-        "description": "The riverside meadow behind Audubon Zoo is where the whole city comes to throw frisbees, kick soccer balls, and watch ships slide past at eye level — join whatever game finds you.",
+        "description": "The riverside meadow behind Audubon Zoo is where the whole city comes to throw frisbees, kick soccer balls, and watch ships slide past at eye level. Join whatever game finds you.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2.5 hrs",
@@ -42,7 +42,7 @@
       {
         "id": "MSY-AC-201",
         "title": "Session at the New Orleans Boulder Lounge",
-        "description": "The city's dedicated bouldering gym packs problems into an old St. Claude warehouse with a tight, welcoming crew — chalk up and flail until something clicks.",
+        "description": "The city's dedicated bouldering gym packs problems into an old St. Claude warehouse with a tight, welcoming crew, chalk up and flail until something clicks.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5–2.5 hrs",
@@ -50,14 +50,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Finish one problem a full grade above your comfort zone — falling counts as research.",
+        "bonus": "Finish one problem a full grade above your comfort zone. Falling counts as research.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/New+Orleans+Boulder+Lounge"
       },
       {
         "id": "MSY-AC-12",
         "title": "Sunrise Fishing Off the Seabrook Bridge",
-        "description": "Local anglers have worked the tidal waters of Lake Pontchartrain from this bridge for generations — bring a rod, a cooler, and nothing pressing until noon.",
+        "description": "Local anglers have worked the tidal waters of Lake Pontchartrain from this bridge for generations. Bring a rod, a cooler, and nothing pressing until noon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -65,7 +65,7 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Ask the first fisherman you see what they're using for bait and copy their exact setup — compare catches by 8am.",
+        "bonus": "Ask the first fisherman you see what they're using for bait and copy their exact setup, compare catches by 8am.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Seabrook+Bridge+New+Orleans+fishing"
       },
@@ -90,7 +90,7 @@
       {
         "id": "MSY-AC-10",
         "title": "Climb the Monkey Hill at Audubon Zoo",
-        "description": "Audubon Zoo has been a Uptown anchor since 1884 and Monkey Hill — the highest natural point in New Orleans — gives kids and adults alike a ridiculous thrill for a city technically below sea level.",
+        "description": "Audubon Zoo has been a Uptown anchor since 1884 and Monkey Hill, the highest natural point in New Orleans, gives kids and adults alike a ridiculous thrill for a city technically below sea level.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -98,14 +98,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the Louisiana swamp exhibit and identify every native species on the signage before you leave — no looking them up beforehand.",
+        "bonus": "Find the Louisiana swamp exhibit and identify every native species on the signage before you leave, no looking them up beforehand.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Audubon+Zoo+New+Orleans"
       },
       {
         "id": "MSY-AC-9",
         "title": "Tennis at the City Park Tennis Center",
-        "description": "City Park's sprawling public tennis complex has been a neighborhood anchor for decades — book a court cheap and play in the shadow of ancient oaks.",
+        "description": "City Park's sprawling public tennis complex has been a neighborhood anchor for decades. Book a court cheap and play in the shadow of ancient oaks.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -113,7 +113,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Challenge a stranger on the next court to a single tiebreak set — loser buys a round at the nearest bar afterward.",
+        "bonus": "Challenge a stranger on the next court to a single tiebreak set, loser buys a round at the nearest bar afterward.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/City+Park+Tennis+Center+New+Orleans"
       },
@@ -128,14 +128,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask your guide the one neighborhood fact they never get to tell tourists — and verify it independently afterward.",
+        "bonus": "Ask your guide the one neighborhood fact they never get to tell tourists, and verify it independently afterward.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Confederacy+of+Cruisers+New+Orleans"
       },
       {
         "id": "MSY-AC-7",
         "title": "Run Audubon Park's 1.8-Mile Loop at Dawn",
-        "description": "The shaded 1.8-mile perimeter path of Audubon Park loops past ancient oaks and a lagoon patrolled by egrets and night herons — one of the best urban runs in the South.",
+        "description": "The shaded 1.8-mile perimeter path of Audubon Park loops past ancient oaks and a lagoon patrolled by egrets and night herons. One of the best urban runs in the South.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–60 mins",
@@ -150,7 +150,7 @@
       {
         "id": "MSY-AC-6",
         "title": "Wander Bywater on Foot at Golden Hour",
-        "description": "The Bywater neighborhood's blocks of rainbow-painted Creole cottages and shotgun doubles look best when late afternoon light hits them — no agenda required.",
+        "description": "The Bywater neighborhood's blocks of rainbow-painted Creole cottages and shotgun doubles look best when late afternoon light hits them, no agenda required.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -158,14 +158,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find a piece of public street art you've never seen photographed online and document it — extra points if the artist has signed it.",
+        "bonus": "Find a piece of public street art you've never seen photographed online and document it. Extra points if the artist has signed it.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Bywater+neighborhood+New+Orleans"
       },
       {
         "id": "MSY-AC-5",
         "title": "Canoe Rental Through City Park's Lagoons",
-        "description": "Rent a boat at the Big Lake boathouse and thread City Park's interconnected lagoons under ancient live oaks and past heron rookeries — a disappearing act in the middle of the city.",
+        "description": "Rent a boat at the Big Lake boathouse and thread City Park's interconnected lagoons under ancient live oaks and past heron rookeries, a disappearing act in the middle of the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -195,7 +195,7 @@
       {
         "id": "MSY-AC-1",
         "title": "Run the Levee Trail from The Fly",
-        "description": "The levee-top Mississippi River Trail heads upriver from the Audubon riverfront with unobstructed views of the bend, the barges, and zero tourists — the local runner's secret.",
+        "description": "The levee-top Mississippi River Trail heads upriver from the Audubon riverfront with unobstructed views of the bend, the barges, and zero tourists, the local runner's secret.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -203,14 +203,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run until you spot a pelican — Louisiana's state bird hunts this stretch of river — stop, photograph it, and don't move until it flies.",
+        "bonus": "Run until you spot a pelican, Louisiana's state bird hunts this stretch of river, stop, photograph it, and don't move until it flies.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Mississippi+River+Levee+Trail+New+Orleans+West+Bank"
       },
       {
         "id": "MSY-A-12",
         "title": "Walk the Moonwalk Along the Mississippi at Dusk",
-        "description": "The Moonwalk boardwalk just below Jackson Square puts you right at the river's edge as the tankers pass and the sky goes orange — it's free and it never gets old.",
+        "description": "The Moonwalk boardwalk just below Jackson Square puts you right at the river's edge as the tankers pass and the sky goes orange. It's free and it never gets old.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 mins",
@@ -225,7 +225,7 @@
       {
         "id": "MSY-A-11",
         "title": "Mardi Gras Indian Super Sunday in the Seventh Ward",
-        "description": "On the Sunday nearest St. Joseph's Day, the Mardi Gras Indians emerge in full hand-sewn suits of feathers and beads — it is the most visually overwhelming street spectacle in America.",
+        "description": "On the Sunday nearest St. Joseph's Day, the Mardi Gras Indians emerge in full hand-sewn suits of feathers and beads. It is the most visually overwhelming street spectacle in America.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "3–5 hrs",
@@ -233,14 +233,14 @@
         "time": "Afternoon",
         "season": "Mar",
         "spark": 40,
-        "bonus": "Get close enough to see the bead stitching on a chief's suit and ask him how many hours it took — chiefs almost always tell you.",
+        "bonus": "Get close enough to see the bead stitching on a chief's suit and ask him how many hours it took, chiefs almost always tell you.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Seventh+Ward+New+Orleans+Super+Sunday"
       },
       {
         "id": "MSY-A-10",
         "title": "Give the WWII Museum the Full Day",
-        "description": "The National WWII Museum is the best-reviewed museum in America for a reason — the immersive Road to Tokyo and Solomon Islands galleries alone deserve half a day, and the 4D film earns its hype.",
+        "description": "The National WWII Museum is the best-reviewed museum in America for a reason, the immersive Road to Tokyo and Solomon Islands galleries alone deserve half a day, and the 4D film earns its hype.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -273,7 +273,7 @@
       {
         "id": "MSY-A-8",
         "title": "Ghost Tour in the French Quarter with Haunted History Tours",
-        "description": "Haunted History Tours has been leading lantern-lit walks past the Lalaurie Mansion and the Sultan's Palace since 1994 — their guides actually know the history.",
+        "description": "Haunted History Tours has been leading lantern-lit walks past the Lalaurie Mansion and the Sultan's Palace since 1994, their guides actually know the history.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -281,7 +281,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Press your palm flat against the Lalaurie Mansion wall at 1140 Royal Street and hold it there for thirty seconds — report what you feel to the group.",
+        "bonus": "Press your palm flat against the Lalaurie Mansion wall at 1140 Royal Street and hold it there for thirty seconds, report what you feel to the group.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Haunted+History+Tours+New+Orleans"
       },
@@ -303,7 +303,7 @@
       {
         "id": "MSY-A-6",
         "title": "Gas-Lamp Stroll Through the Garden District",
-        "description": "After dinner, the grand antebellum mansions on Prytania and Coliseum go quiet — gas-lamp glow, jasmine-heavy air, and live oak shadows all the way to Lafayette Cemetery's walls.",
+        "description": "After dinner, the grand antebellum mansions on Prytania and Coliseum go quiet: gas-lamp glow, jasmine-heavy air, and live oak shadows all the way to Lafayette Cemetery's walls.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -318,7 +318,7 @@
       {
         "id": "MSY-A-4",
         "title": "Second Line on Sunday with the Tremé Sidewalk Steppers",
-        "description": "Every Sunday from fall through spring, a Social Aid and Pleasure Club parades through neighborhood streets and the whole city dances behind them — no ticket required.",
+        "description": "Every Sunday from fall through spring, a Social Aid and Pleasure Club parades through neighborhood streets and the whole city dances behind them, no ticket required.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2–4 hrs",
@@ -326,14 +326,14 @@
         "time": "Afternoon",
         "season": "Sep–May",
         "spark": 40,
-        "bonus": "Lock eyes with a brass band member and wave your handkerchief until they play a song just for you — then tip the band.",
+        "bonus": "Lock eyes with a brass band member and wave your handkerchief until they play a song just for you, then tip the band.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Treme+neighborhood+New+Orleans"
       },
       {
         "id": "MSY-A-3",
         "title": "Swamp Tour at Honey Island Swamp",
-        "description": "An hour east of the French Quarter, Honey Island is one of the least-altered river swamps in America — alligators surface close enough to make you flinch.",
+        "description": "An hour east of the French Quarter, Honey Island is one of the least-altered river swamps in America, alligators surface close enough to make you flinch.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -348,7 +348,7 @@
       {
         "id": "MSY-A-2",
         "title": "Tour St. Louis Cemetery No. 1",
-        "description": "The oldest above-ground cemetery in the country — Marie Laveau's tomb included — admits visitors only with a licensed guide these days, and the stories are worth every dollar of the ticket.",
+        "description": "The oldest above-ground cemetery in the country, Marie Laveau's tomb included, admits visitors only with a licensed guide these days, and the stories are worth every dollar of the ticket.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -356,14 +356,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find the tomb of Marie Laveau and leave an offering — a coin, a flower, anything — then make a wish out loud.",
+        "bonus": "Find the tomb of Marie Laveau and leave an offering (a coin, a flower, anything) then make a wish out loud.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/St+Louis+Cemetery+No+1+New+Orleans"
       },
       {
         "id": "MSY-A-1",
         "title": "Night Kayak on Bayou St. John",
-        "description": "Paddling through the dark cypress-lined bayou at night hits different — the city glows behind you and the water is dead quiet.",
+        "description": "Paddling through the dark cypress-lined bayou at night hits different, the city glows behind you and the water is dead quiet.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -380,7 +380,7 @@
       {
         "id": "MSY-C-201",
         "title": "Wander the Besthoff Sculpture Garden",
-        "description": "Eleven free acres of world-class sculpture — Rodin to Kusama — set among City Park's lagoons and 200-year-old oaks, with mirrored pavilions floating over the water.",
+        "description": "Eleven free acres of world-class sculpture, Rodin to Kusama, set among City Park's lagoons and 200-year-old oaks, with mirrored pavilions floating over the water.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -403,14 +403,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the curator or docent which tribe's suit took the most years to make — and find out what materials went into it.",
+        "bonus": "Ask the curator or docent which tribe's suit took the most years to make. And find out what materials went into it.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Backstreet+Cultural+Museum+Treme+New+Orleans"
       },
       {
         "id": "MSY-S-12",
         "title": "New Orleans Jazz and Heritage Festival at the Fairgrounds",
-        "description": "Jazz Fest is the single greatest American music and food festival — seven stages, hundreds of Louisiana food booths, and a lineup that reads like a hall-of-fame ballot, every late April and early May.",
+        "description": "Jazz Fest is the single greatest American music and food festival: seven stages, hundreds of Louisiana food booths, and a lineup that reads like a hall-of-fame ballot, every late April and early May.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "8–12 hrs",
@@ -418,14 +418,14 @@
         "time": "Morning",
         "season": "Apr–May",
         "spark": 40,
-        "bonus": "Skip the headliner set intentionally — find the smallest stage on the grounds during that slot and go all in on whoever is playing.",
+        "bonus": "Skip the headliner set intentionally. Find the smallest stage on the grounds during that slot and go all in on whoever is playing.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/New+Orleans+Fairgrounds+Jazz+Fest"
       },
       {
         "id": "MSY-C-11",
         "title": "Spend a Morning at the Historic New Orleans Collection on Royal Street",
-        "description": "This research center and museum complex in the heart of the French Quarter holds the city's most extraordinary archive of maps, photographs, and manuscripts — and it's free.",
+        "description": "This research center and museum complex in the heart of the French Quarter holds the city's most extraordinary archive of maps, photographs, and manuscripts. And it's free.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -433,14 +433,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask a staff member to show you the oldest document in the current exhibition — then find the same street on a modern map and walk it afterward.",
+        "bonus": "Ask a staff member to show you the oldest document in the current exhibition, then find the same street on a modern map and walk it afterward.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Historic+New+Orleans+Collection+Royal+Street"
       },
       {
         "id": "MSY-S-11",
         "title": "Catch a Pelicans Game at Smoothie King Center",
-        "description": "New Orleans goes loud for the Pelicans — the downtown arena sits right beside the Superdome, and the energy on a good night is an essential city experience most visitors skip entirely.",
+        "description": "New Orleans goes loud for the Pelicans. The downtown arena sits right beside the Superdome, and the energy on a good night is an essential city experience most visitors skip entirely.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -463,7 +463,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Stay after the service to speak with a parishioner and ask them what St. Augustine means to their family — really listen.",
+        "bonus": "Stay after the service to speak with a parishioner and ask them what St. Augustine means to their family, really listen.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/St+Augustine+Church+Treme+New+Orleans"
       },
@@ -478,14 +478,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Walk into at least three galleries and ask a gallerist which piece in the room is the most underrated — then buy a postcard or small print from your favorite.",
+        "bonus": "Walk into at least three galleries and ask a gallerist which piece in the room is the most underrated, then buy a postcard or small print from your favorite.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Julia+Street+Art+Galleries+New+Orleans"
       },
       {
         "id": "MSY-S-3",
         "title": "Jazz Brunch at Commander's Palace",
-        "description": "The weekend jazz brunch at this Garden District landmark has been the pinnacle of New Orleans dining since 1893 — white tablecloths, turtle soup, and a live trio working the dining room.",
+        "description": "The weekend jazz brunch at this Garden District landmark has been the pinnacle of New Orleans dining since 1893: white tablecloths, turtle soup, and a live trio working the dining room.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -500,7 +500,7 @@
       {
         "id": "MSY-C-8",
         "title": "Afternoon at the Ogden Museum of Southern Art",
-        "description": "The Ogden holds the most comprehensive collection of Southern art in the world and the building itself — a converted warehouse in the Warehouse District — is half the experience.",
+        "description": "The Ogden holds the most comprehensive collection of Southern art in the world and the building itself, a converted warehouse in the Warehouse District, is half the experience.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -523,7 +523,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Find one piece in the Newcomb pottery collection and sketch it in your phone notes — describe it like you're writing the wall card.",
+        "bonus": "Find one piece in the Newcomb pottery collection and sketch it in your phone notes. Describe it like you're writing the wall card.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/New+Orleans+Museum+of+Art+City+Park"
       }
@@ -540,7 +540,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Pay the extra fee to request a song — then dedicate it out loud to a stranger in the room.",
+        "bonus": "Pay the extra fee to request a song, then dedicate it out loud to a stranger in the room.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Preservation+Hall+New+Orleans"
       },
@@ -555,7 +555,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Bowl exactly one frame, then abandon your lane for the dancefloor — let a stranger teach you a zydeco step before the set ends.",
+        "bonus": "Bowl exactly one frame, then abandon your lane for the dancefloor. Let a stranger teach you a zydeco step before the set ends.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Rock+n+Bowl+New+Orleans"
       },
@@ -570,7 +570,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Strike up a conversation with a stranger at the bar and get a local restaurant recommendation you've never heard of — then write it down and actually go.",
+        "bonus": "Strike up a conversation with a stranger at the bar and get a local restaurant recommendation you've never heard of, then write it down and actually go.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Twelve+Mile+Limit+New+Orleans",
         "adult": true
@@ -578,7 +578,7 @@
       {
         "id": "MSY-S-4",
         "title": "Late Night at the Maple Leaf Bar for Rebirth Brass Band",
-        "description": "Every Tuesday for over 30 years Rebirth Brass Band has packed this Riverbend bar to the point of structural concern — it is the loudest, sweatiest, most joyful room in New Orleans.",
+        "description": "Every Tuesday for over 30 years Rebirth Brass Band has packed this Riverbend bar to the point of structural concern. It is the loudest, sweatiest, most joyful room in New Orleans.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -586,7 +586,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Get as close to the front as possible and dance without stopping for an entire song — no phones, no excuses.",
+        "bonus": "Get as close to the front as possible and dance without stopping for an entire song: no phones, no excuses.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Maple+Leaf+Bar+New+Orleans",
         "adult": true
@@ -594,7 +594,7 @@
       {
         "id": "MSY-C-4",
         "title": "Show Night at Tipitina's",
-        "description": "The legendary Uptown hall that Professor Longhair built still runs local bills early in the week when the crowd is entirely New Orleans — stand under the Fess bust and let the room do the rest.",
+        "description": "The legendary Uptown hall that Professor Longhair built still runs local bills early in the week when the crowd is entirely New Orleans. Stand under the Fess bust and let the room do the rest.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -617,7 +617,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order a Purple Drank, find a seat in the darkest corner, and introduce yourself to the next person who sits near you — tell them the bar's history.",
+        "bonus": "Order a Purple Drank, find a seat in the darkest corner, and introduce yourself to the next person who sits near you. Tell them the bar's history.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Lafitte's+Blacksmith+Shop+Bar+New+Orleans",
         "adult": true
@@ -625,7 +625,7 @@
       {
         "id": "MSY-S-1",
         "title": "Late Night at Frenchmen Street with No Plan",
-        "description": "Frenchmen Street in the Marigny is where New Orleans actually goes to hear live music — three blocks of bars spilling brass and jazz onto the sidewalk every single night.",
+        "description": "Frenchmen Street in the Marigny is where New Orleans actually goes to hear live music, three blocks of bars spilling brass and jazz onto the sidewalk every single night.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–4 hrs",
@@ -651,7 +651,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order whatever the bartender would drink on their night off — no second-guessing, whatever they say goes.",
+        "bonus": "Order whatever the bartender would drink on their night off. No second-guessing, whatever they say goes.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Bouligny+Tavern+New+Orleans",
         "adult": true
@@ -659,7 +659,7 @@
       {
         "id": "MSY-C-9",
         "title": "Morning Coffee at Spitfire Coffee on St. Peter",
-        "description": "This tiny French Quarter espresso bar has no seating, no Wi-Fi, and no nonsense — just properly pulled shots and a front-row view of the Quarter waking up.",
+        "description": "This tiny French Quarter espresso bar has no seating, no Wi-Fi, and no nonsense, just properly pulled shots and a front-row view of the Quarter waking up.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -667,7 +667,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Drink your espresso standing outside and say good morning to every local who walks past — count how many respond.",
+        "bonus": "Drink your espresso standing outside and say good morning to every local who walks past. Count how many respond.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Spitfire+Coffee+New+Orleans+French+Quarter"
       },
@@ -682,7 +682,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Let the shop staff choose your bottle completely blind — describe your night in one sentence and trust them.",
+        "bonus": "Let the shop staff choose your bottle completely blind, describe your night in one sentence and trust them.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Bacchanal+Fine+Wine+New+Orleans+Bywater",
         "adult": true
@@ -705,7 +705,7 @@
       {
         "id": "MSY-C-5",
         "title": "Drift Through the New Orleans Botanical Garden",
-        "description": "Tucked inside City Park, this WPA-built garden from the 1930s is one of the great undervisited spaces in the city — camellias, bromeliads, and ancient live oaks draped in Spanish moss.",
+        "description": "Tucked inside City Park, this WPA-built garden from the 1930s is one of the great undervisited spaces in the city: camellias, bromeliads, and ancient live oaks draped in Spanish moss.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -720,7 +720,7 @@
       {
         "id": "MSY-C-2",
         "title": "Browse the French Quarter's Faulkner House Books",
-        "description": "William Faulkner wrote his first novel in this townhouse at 624 Pirate's Alley — now it's an impossibly curated bookshop that smells like old paper and takes your whole afternoon.",
+        "description": "William Faulkner wrote his first novel in this townhouse at 624 Pirate's Alley. Now it's an impossibly curated bookshop that smells like old paper and takes your whole afternoon.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -735,7 +735,7 @@
       {
         "id": "MSY-C-1",
         "title": "Afternoon Read in Audubon Park Under the Oaks",
-        "description": "The ancient live oaks in Audubon Park have been arching over the lagoon since before the Civil War — bring a book and park yourself under one until the light goes gold.",
+        "description": "The ancient live oaks in Audubon Park have been arching over the lagoon since before the Civil War. Bring a book and park yourself under one until the light goes gold.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–3 hrs",
@@ -760,14 +760,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask the sommelier to pair each course with a Louisiana-made wine or spirit only — no imports tonight.",
+        "bonus": "Ask the sommelier to pair each course with a Louisiana-made wine or spirit only, no imports tonight.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Compère+Lapin+New+Orleans"
       },
       {
         "id": "MSY-F-11",
         "title": "Banh Mi at Dong Phuong, New Orleans East",
-        "description": "The James Beard-honored bakery at the heart of the Versailles Vietnamese community bakes the bread half the city's banh mi ride on — go early, buy pastries for later, thank yourself.",
+        "description": "The James Beard-honored bakery at the heart of the Versailles Vietnamese community bakes the bread half the city's banh mi ride on. Go early, buy pastries for later, thank yourself.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -790,7 +790,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Tell the bartender your mood in three words and let them build you something off-menu — no veto allowed.",
+        "bonus": "Tell the bartender your mood in three words and let them build you something off-menu, no veto allowed.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Cure+Bar+New+Orleans+Freret",
         "adult": true
@@ -798,7 +798,7 @@
       {
         "id": "MSY-F-9",
         "title": "Crawfish Boil at the Backyard of Middendorf's",
-        "description": "This Manchac institution an hour from the city has been piling boiled seafood on picnic tables over a cypress swamp since 1934 — the thin-fried catfish alone is worth the drive.",
+        "description": "This Manchac institution an hour from the city has been piling boiled seafood on picnic tables over a cypress swamp since 1934. The thin-fried catfish alone is worth the drive.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -813,7 +813,7 @@
       {
         "id": "MSY-F-8",
         "title": "Red Beans and Rice Monday at Liuzza's by the Track",
-        "description": "Every Monday the city eats red beans and rice, and Liuzza's version near the Fairgrounds is the benchmark — slow-cooked, smoky, and poured over rice in a bowl the size of your ambitions.",
+        "description": "Every Monday the city eats red beans and rice, and Liuzza's version near the Fairgrounds is the benchmark. Slow-cooked, smoky, and poured over rice in a bowl the size of your ambitions.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -836,7 +836,7 @@
         "time": "Afternoon",
         "season": "Sep–May",
         "spark": 15,
-        "bonus": "Eat a full dozen raw at the bar without adding any hot sauce — just lemon and let the Gulf do the talking.",
+        "bonus": "Eat a full dozen raw at the bar without adding any hot sauce. Just lemon and let the Gulf do the talking.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Casamento's+Restaurant+New+Orleans"
       },
@@ -866,14 +866,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the half-and-half dressed and eat it at the counter without using a single napkin — good luck.",
+        "bonus": "Order the half-and-half dressed and eat it at the counter without using a single napkin, good luck.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Domilise's+Po-Boy+New+Orleans"
       },
       {
         "id": "MSY-F-4",
         "title": "Lunch at Café Reconcile",
-        "description": "This Central City institution trains young people for hospitality careers while serving some of the most honest Southern lunch plates in the city — the shrimp Creole funds a future.",
+        "description": "This Central City institution trains young people for hospitality careers while serving some of the most honest Southern lunch plates in the city, the shrimp Creole funds a future.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -881,14 +881,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Strike up a real conversation with your server about the program — ask them what dish they're most proud of making.",
+        "bonus": "Strike up a real conversation with your server about the program. Ask them what dish they're most proud of making.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Café+Reconcile+New+Orleans"
       },
       {
         "id": "MSY-F-3",
         "title": "Dinner at Galatoire's on a Friday",
-        "description": "Friday lunch and dinner at Galatoire's on Bourbon Street is a city institution since 1905 — regulars in seersucker suits hold court for four hours and the waiter knows everyone's name.",
+        "description": "Friday lunch and dinner at Galatoire's on Bourbon Street is a city institution since 1905, regulars in seersucker suits hold court for four hours and the waiter knows everyone's name.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -903,7 +903,7 @@
       {
         "id": "MSY-F-2",
         "title": "Morning Beignets at Café Du Monde",
-        "description": "Open since 1862 and covered in powdered sugar before 8 a.m. — Café Du Monde on the edge of Jackson Square is the oldest ritual in the city and it earns the hype.",
+        "description": "Open since 1862 and covered in powdered sugar before 8 a.m. Café Du Monde on the edge of Jackson Square is the oldest ritual in the city and it earns the hype.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -911,14 +911,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Eat your beignets fast enough that you inhale the powdered sugar — you'll cough, the table will laugh, and you'll be doing it exactly right.",
+        "bonus": "Eat your beignets fast enough that you inhale the powdered sugar. You'll cough, the table will laugh, and you'll be doing it exactly right.",
         "city": "New Orleans, LA",
         "mapsUrl": "https://www.google.com/maps/search/Cafe+Du+Monde+New+Orleans"
       },
       {
         "id": "MSY-F-1",
         "title": "Lunch at Dooky Chase's Restaurant",
-        "description": "Leah Chase's Tremé institution has been feeding civil rights leaders, presidents, and neighborhood regulars since 1941 — the fried chicken and red beans are not negotiable.",
+        "description": "Leah Chase's Tremé institution has been feeding civil rights leaders, presidents, and neighborhood regulars since 1941. The fried chicken and red beans are not negotiable.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",

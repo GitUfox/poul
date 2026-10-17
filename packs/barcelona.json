@@ -17,7 +17,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 16,
-        "bonus": "Ride the Avió — the 1928 plane swing — before you leave.",
+        "bonus": "Ride the Avió, the 1928 plane swing, before you leave.",
         "city": "Barcelona, Spain",
         "mapsUrl": "https://maps.google.com/maps/search/Tibidabo+Amusement+Park+Barcelona",
         "company": [
@@ -159,7 +159,7 @@
       },
       {
         "id": "BCN-AC-04",
-        "title": "Sunrise Run up Montjuïc",
+        "title": "Sunrise Run Up Montjuïc",
         "description": "Run the winding paths up Montjuïc hill before the city wakes, finishing at a viewpoint over the harbor.",
         "rarity": "Rare",
         "cost": "$",
@@ -509,7 +509,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 13,
-        "bonus": "Get them amb toc — with the extra kick.",
+        "bonus": "Get them amb toc, with the extra kick.",
         "city": "Barcelona, Spain",
         "mapsUrl": "https://maps.google.com/maps/search/Bar+Tomas+de+Sarria+Barcelona",
         "company": [

@@ -184,7 +184,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 11,
-        "bonus": "Ask for it 'com elas' — with the cherries",
+        "bonus": "Ask for it 'com elas', with the cherries",
         "city": "Lisbon, Portugal",
         "mapsUrl": "https://maps.google.com/maps/search/A+Ginjinha+Largo+de+Sao+Domingos+Lisbon",
         "adult": true
@@ -482,7 +482,7 @@
       {
         "id": "LIS-CU-03",
         "title": "The Gulbenkian and Its Garden",
-        "description": "One man's private collection — Egyptian, Islamic, Rembrandt, and a whole room of Lalique — in a modernist building set in its own park.",
+        "description": "One man's private collection (Egyptian, Islamic, Rembrandt, and a whole room of Lalique) in a modernist building set in its own park.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -501,7 +501,7 @@
       {
         "id": "LIS-CU-07",
         "title": "The Museu do Fado in Alfama",
-        "description": "The history of saudade set to music — listening booths, guitars, and the story of how a dockside song became the national one.",
+        "description": "The history of saudade set to music: listening booths, guitars, and the story of how a dockside song became the national one.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -520,7 +520,7 @@
       {
         "id": "LIS-CU-05",
         "title": "The Bosch Triptych at the MNAA",
-        "description": "Portugal's national collection holds Bosch's Temptations of St. Anthony — a wall of nightmares in a quiet room almost nobody queues for.",
+        "description": "Portugal's national collection holds Bosch's Temptations of St. Anthony, a wall of nightmares in a quiet room almost nobody queues for.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -586,7 +586,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 13,
-        "bonus": "Go early — the spiral stair works on a one-way traffic light.",
+        "bonus": "Go early. The spiral stair works on a one-way traffic light.",
         "city": "Lisbon, Portugal",
         "mapsUrl": "https://maps.google.com/maps/search/Torre+de+Belem+Lisbon",
         "company": [

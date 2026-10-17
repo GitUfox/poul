@@ -9,7 +9,7 @@
       {
         "id": "YUL-A-203",
         "title": "Ride La Grande Roue at the Old Port",
-        "description": "Sixty metres over the St. Lawrence in a climate-controlled cabin — the wheel turns year-round and the skyline does the rest.",
+        "description": "Sixty metres over the St. Lawrence in a climate-controlled cabin. The wheel turns year-round and the skyline does the rest.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "45 min",
@@ -24,7 +24,7 @@
       {
         "id": "YUL-A-202",
         "title": "Lap the Circuit Gilles-Villeneuve by Bike",
-        "description": "When the F1 circus is away the Grand Prix track belongs to anyone on two wheels — roll onto Île Notre-Dame and take the Senna corner at your own top speed.",
+        "description": "When the F1 circus is away the Grand Prix track belongs to anyone on two wheels, roll onto Île Notre-Dame and take the Senna corner at your own top speed.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -39,7 +39,7 @@
       {
         "id": "YUL-A-201",
         "title": "Climb the Tour de Lévis on Île Sainte-Hélène",
-        "description": "A 1930s stone tower hides in plain sight at Parc Jean-Drapeau — climb the spiral stairs for a 360° river-and-skyline view most Montrealers have never seen.",
+        "description": "A 1930s stone tower hides in plain sight at Parc Jean-Drapeau. Climb the spiral stairs for a 360° river-and-skyline view most Montrealers have never seen.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -47,7 +47,7 @@
         "time": "Afternoon",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Count the steps on the way up — commit to a guess before you check.",
+        "bonus": "Count the steps on the way up. Commit to a guess before you check.",
         "city": "Montreal, QC",
         "mapsUrl": "https://maps.google.com/maps/search/Tour+de+Levis+Parc+Jean-Drapeau+Montreal"
       },
@@ -62,7 +62,7 @@
         "time": "Morning",
         "season": "Jan–Mar",
         "spark": 25,
-        "bonus": "Ski the full outer perimeter loop without consulting your phone once — use the trail markers only.",
+        "bonus": "Ski the full outer perimeter loop without consulting your phone once. Use the trail markers only.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/Mont-Royal+cross+country+ski+Montreal"
       },
@@ -152,7 +152,7 @@
         "time": "Morning",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Complete the full out-and-back without stopping — no walking sections allowed.",
+        "bonus": "Complete the full out-and-back without stopping, no walking sections allowed.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lachine+Canal+path+Atwater+Montreal"
       },
@@ -167,14 +167,14 @@
         "time": "Morning",
         "season": "Jun–Aug",
         "spark": 15,
-        "bonus": "Swim to the far buoy line and back without stopping — no floating allowed.",
+        "bonus": "Swim to the far buoy line and back without stopping, no floating allowed.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Plage+de+l%27%C3%8Ele+Notre-Dame+Montreal"
       },
       {
         "id": "YUL-AC-1",
         "title": "Sprint Intervals on the Mount Royal Running Loop",
-        "description": "The 5.5-kilometre perimeter trail around the mountain is the unofficial training ground of Montreal's endurance running community — everyone is faster here than they should be.",
+        "description": "The 5.5-kilometre perimeter trail around the mountain is the unofficial training ground of Montreal's endurance running community. Everyone is faster here than they should be.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45–90 mins",
@@ -182,14 +182,14 @@
         "time": "Morning",
         "season": "Apr–Nov",
         "spark": 15,
-        "bonus": "Race the next person who passes you — if they accept, you both go all out to the next lamppost.",
+        "bonus": "Race the next person who passes you. If they accept, you both go all out to the next lamppost.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/Mont+Royal+Running+Trail+Montreal"
       },
       {
         "id": "YUL-A-7",
         "title": "Rooftop Plunge at Bota Bota Spa",
-        "description": "This converted river ferry moored in the Old Port runs a Nordic circuit — steam, cold plunge, rest — with the St. Lawrence lapping the hull below you.",
+        "description": "This converted river ferry moored in the Old Port runs a Nordic circuit (steam, cold plunge, rest) with the St. Lawrence lapping the hull below you.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–4 hrs",
@@ -204,7 +204,7 @@
       {
         "id": "YUL-A-4",
         "title": "Explore the Underground City (RÉSO)",
-        "description": "Thirty-three kilometres of tunnels connect metro stations, malls, and office towers — a parallel city that Montrealers treat as a winter survival reflex.",
+        "description": "Thirty-three kilometres of tunnels connect metro stations, malls, and office towers, a parallel city that Montrealers treat as a winter survival reflex.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–3 hrs",
@@ -212,7 +212,7 @@
         "time": "Any",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Navigate from McGill station to Place des Arts using only underground corridors — no phone maps allowed.",
+        "bonus": "Navigate from McGill station to Place des Arts using only underground corridors, no phone maps allowed.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/RESO+Underground+City+Montreal"
       },
@@ -263,7 +263,7 @@
       },
       {
         "id": "MTL-A-04",
-        "title": "Kayak the St. Lawrence near Habitat 67",
+        "title": "Kayak the St. Lawrence Near Habitat 67",
         "description": "Launch a kayak into the current beside Moshe Safdie's iconic housing complex and the downtown skyline.",
         "rarity": "Rare",
         "cost": "$$",
@@ -326,7 +326,7 @@
       {
         "id": "YUL-S-102",
         "title": "Sunday Afternoon at Sala Rossa",
-        "description": "Sala Rossa is Mile End's most charming event hall — any given Sunday could mean a record fair, a film screening, or a world-music show you didn't expect to love.",
+        "description": "Sala Rossa is Mile End's most charming event hall. Any given Sunday could mean a record fair, a film screening, or a world-music show you didn't expect to love.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–4 hrs",
@@ -341,7 +341,7 @@
       {
         "id": "YUL-S-101",
         "title": "Friday Night at Quai des Brumes",
-        "description": "This Mile End bar has been the city's literary-bohemian living room since 1987 — come for a Boréale and stay until you've argued about something that matters.",
+        "description": "This Mile End bar has been the city's literary-bohemian living room since 1987. Come for a Boréale and stay until you've argued about something that matters.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -349,7 +349,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order in French the entire night — no switching to English no matter how easy it would be.",
+        "bonus": "Order in French the entire night, no switching to English no matter how easy it would be.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/Quai+des+Brumes+Montreal",
         "adult": true
@@ -357,7 +357,7 @@
       {
         "id": "YUL-A-106",
         "title": "Underground Show at L'Esco",
-        "description": "L'Escogriffe is the archetypal Montreal dive venue — tight room, cheap beer, local bands who actually rip — and it's been doing it since 1993.",
+        "description": "L'Escogriffe is the archetypal Montreal dive venue (tight room, cheap beer, local bands who actually rip) and it's been doing it since 1993.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -419,7 +419,7 @@
       {
         "id": "YUL-S-8",
         "title": "Terrasse Dîner at Fabergé",
-        "description": "The long sun-soaked terrasse on Bernard in Outremont is where the neighbourhood actually eats — good wine, shareable plates, and the kind of slow Tuesday lunch that feels stolen from another life.",
+        "description": "The long sun-soaked terrasse on Bernard in Outremont is where the neighbourhood actually eats: good wine, shareable plates, and the kind of slow Tuesday lunch that feels stolen from another life.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -499,7 +499,7 @@
       {
         "id": "YUL-A-105",
         "title": "Explore the Redpath Museum",
-        "description": "McGill's 1882 natural history cabinet — dinosaur bones, Egyptian mummies, and taxonomy drawers — is genuinely one of North America's most underrated museum rooms.",
+        "description": "McGill's 1882 natural history cabinet (dinosaur bones, Egyptian mummies, and taxonomy drawers) is genuinely one of North America's most underrated museum rooms.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -529,7 +529,7 @@
       {
         "id": "YUL-C-8",
         "title": "Spend an Hour at the Musée des Beaux-Arts",
-        "description": "The MBAM's permanent collection spans Inuit carvings to European masters and the building itself — five connected pavilions — is worth the walk-through alone.",
+        "description": "The MBAM's permanent collection spans Inuit carvings to European masters and the building itself, five connected pavilions, is worth the walk-through alone.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -602,7 +602,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Tell the server you want no menu — just let the kitchen send whatever they feel like tonight, and say yes to every wine pairing.",
+        "bonus": "Tell the server you want no menu, just let the kitchen send whatever they feel like tonight, and say yes to every wine pairing.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Vin+Papillon+Montreal",
         "adult": true
@@ -610,7 +610,7 @@
       {
         "id": "YUL-C-11",
         "title": "Sunday Reading at Café Cherrier",
-        "description": "The grande dame of Plateau terrasses has anchored the corner of Cherrier and Saint-Denis since 1983 — a Bloody Mary, a newspaper, and three hours with nowhere to be.",
+        "description": "The grande dame of Plateau terrasses has anchored the corner of Cherrier and Saint-Denis since 1983: a Bloody Mary, a newspaper, and three hours with nowhere to be.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -618,7 +618,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Leave your phone in your pocket for the entire visit — order, eat, read, and people-watch without unlocking it once.",
+        "bonus": "Leave your phone in your pocket for the entire visit. Order, eat, read, and people-watch without unlocking it once.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Café+Cherrier+Montreal"
       },
@@ -658,7 +658,7 @@
       {
         "id": "YUL-C-4",
         "title": "Browse Librairie Drawn & Quarterly",
-        "description": "This Mile End indie bookshop is the spiritual hub of Montreal's literary and comics scene — unhurried, beautifully curated, no hustle required.",
+        "description": "This Mile End indie bookshop is the spiritual hub of Montreal's literary and comics scene: unhurried, beautifully curated, no hustle required.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -681,7 +681,7 @@
         "time": "Afternoon",
         "season": "May–Oct",
         "spark": 15,
-        "bonus": "Rent a pedal boat and navigate to the center of the pond — no hands on the wheel for 60 seconds.",
+        "bonus": "Rent a pedal boat and navigate to the center of the pond, no hands on the wheel for 60 seconds.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parc+La+Fontaine+Montreal"
       },
@@ -696,7 +696,7 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Strike up a conversation with whoever's been there longest — they have stories.",
+        "bonus": "Strike up a conversation with whoever's been there longest. They have stories.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/Cafe+Olimpico+Montreal"
       },
@@ -753,7 +753,7 @@
       {
         "id": "YUL-F-12",
         "title": "Dim Sum at Maison Kam Fung",
-        "description": "Cart service, enormous dining room, and dumplings that have been pulling Chinatown families in since 1980 — this is the real Sunday ritual.",
+        "description": "Cart service, enormous dining room, and dumplings that have been pulling Chinatown families in since 1980. This is the real Sunday ritual.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -821,7 +821,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Order the PDC poutine AND the foie gras cromesquis in the same sitting — no regrets, no sharing.",
+        "bonus": "Order the PDC poutine AND the foie gras cromesquis in the same sitting: no regrets, no sharing.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Montreal"
       },
@@ -843,7 +843,7 @@
       {
         "id": "YUL-F-4",
         "title": "Lunch Counter at Wilensky's Light Lunch",
-        "description": "This Mile End institution has been grilling the same Special — salami and bologna on a pressed roll — since 1932, and the mustard is not optional.",
+        "description": "This Mile End institution has been grilling the same Special, salami and bologna on a pressed roll, since 1932, and the mustard is not optional.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "45–60 min",
@@ -866,7 +866,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Order without looking at the menu — tell the server your mood and let them decide.",
+        "bonus": "Order without looking at the menu. Tell the server your mood and let them decide.",
         "city": "Montreal, QC",
         "mapsUrl": "https://www.google.com/maps/search/Joe+Beef+Montreal"
       },

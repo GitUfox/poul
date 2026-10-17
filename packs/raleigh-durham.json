@@ -105,7 +105,7 @@
       },
       {
         "id": "RDU-C-07",
-        "title": "Build a Pastry Box at lucettegrace",
+        "title": "Build a Pastry Box at Lucettegrace",
         "description": "A contemporary patisserie downtown where the entremets and macarons look like jewellery and taste better than they look.",
         "rarity": "Rare",
         "cost": "$$",
@@ -601,7 +601,7 @@
       {
         "id": "RDU-S-08",
         "title": "Drink Southern at Fullsteam Tavern",
-        "description": "A brewery built on distinctly Southern ingredients — sweet potato, persimmon, foraged whatever — with a tavern that runs events most nights.",
+        "description": "A brewery built on distinctly Southern ingredients (sweet potato, persimmon, foraged whatever) with a tavern that runs events most nights.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -1153,7 +1153,7 @@
       {
         "id": "RDU-8B-02",
         "title": "Eight Ball: One Night, All Three Cities",
-        "description": "Drink in Raleigh, see a show in Durham, end the night at a Chapel Hill diner counter — the whole Triangle in one run, no backtracking allowed.",
+        "description": "Drink in Raleigh, see a show in Durham, end the night at a Chapel Hill diner counter, the whole Triangle in one run, no backtracking allowed.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "6–8 hrs",
@@ -1174,7 +1174,7 @@
       {
         "id": "RDU-8B-01",
         "title": "Eight Ball: Trail, Then Whatever Is Closest",
-        "description": "Ride the American Tobacco Trail as far as your legs allow, then eat at the first place you pass on the way back — no reviews, no debate.",
+        "description": "Ride the American Tobacco Trail as far as your legs allow, then eat at the first place you pass on the way back: no reviews, no debate.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",

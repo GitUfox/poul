@@ -67,7 +67,7 @@
       {
         "id": "CGY-A-05",
         "title": "Canoe Moraine Lake at First Light",
-        "description": "Push a canoe onto rock-flour blue water with the Valley of the Ten Peaks standing over you — the most photographed view in Canada, and worth every bit of the early start.",
+        "description": "Push a canoe onto rock-flour blue water with the Valley of the Ten Peaks standing over you, the most photographed view in Canada, and worth every bit of the early start.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "6 hrs",
@@ -85,8 +85,8 @@
       },
       {
         "id": "CGY-A-10",
-        "title": "Helicopter over the Rockies",
-        "description": "Lift out of Canmore and fly the ridgelines and glacier fields of the front ranges — twenty minutes that recalibrate your sense of scale.",
+        "title": "Helicopter Over the Rockies",
+        "description": "Lift out of Canmore and fly the ridgelines and glacier fields of the front ranges, twenty minutes that recalibrate your sense of scale.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -185,13 +185,13 @@
         "time": "Morning",
         "season": "Jun–Sep",
         "spark": 42,
-        "bonus": "Order tea at the teahouse — everything's packed in by mule, no road access.",
+        "bonus": "Order tea at the teahouse, everything's packed in by mule, no road access.",
         "city": "Lake Louise, AB",
         "mapsUrl": "https://maps.google.com/maps/search/Plain+of+Six+Glaciers+Teahouse+Lake+Louise"
       },
       {
         "id": "CGY-AC-03",
-        "title": "Hike the Sulphur Mountain summit trail",
+        "title": "Hike the Sulphur Mountain Summit Trail",
         "description": "Switchback up the full trail on foot to a ridge-top boardwalk with a 360-degree view of the Bow Valley.",
         "rarity": "Rare",
         "cost": "$",
@@ -221,7 +221,7 @@
       },
       {
         "id": "CGY-A-03",
-        "title": "Whitewater raft the Kananaskis River",
+        "title": "Whitewater Raft the Kananaskis River",
         "description": "Paddle a guided raft through churning rapids with the Rockies rising straight up on both sides.",
         "rarity": "Rare",
         "cost": "$$",
@@ -251,7 +251,7 @@
       },
       {
         "id": "CGY-AC-04",
-        "title": "Half-day ski or snowboard at Sunshine Village",
+        "title": "Half-Day Ski or Snowboard at Sunshine Village",
         "description": "Ride terrain spanning the Continental Divide at one of the Rockies' biggest resorts.",
         "rarity": "Rare",
         "cost": "$$$",
@@ -260,7 +260,7 @@
         "time": "Morning",
         "season": "Nov–Apr",
         "spark": 28,
-        "bonus": "Take one run you've never tried — moguls, trees, or a black diamond.",
+        "bonus": "Take one run you've never tried: moguls, trees, or a black diamond.",
         "city": "Banff, AB",
         "mapsUrl": "https://maps.google.com/maps/search/Sunshine+Village+Ski+Resort+Banff"
       }
@@ -269,7 +269,7 @@
       {
         "id": "CGY-CU-01",
         "title": "The Calgary Stampede",
-        "description": "Ten days in July when the entire city puts on a hat and boots — rodeo, chuckwagon races, midway, free pancake breakfasts on every corner.",
+        "description": "Ten days in July when the entire city puts on a hat and boots: rodeo, chuckwagon races, midway, free pancake breakfasts on every corner.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "All day",
@@ -288,7 +288,7 @@
       {
         "id": "CGY-CU-03",
         "title": "Contemporary Calgary in the Old Planetarium",
-        "description": "A brutalist 1967 science centre and dome theatre reborn as the city's contemporary art gallery — the building is half the exhibit.",
+        "description": "A brutalist 1967 science centre and dome theatre reborn as the city's contemporary art gallery. The building is half the exhibit.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -367,7 +367,7 @@
       {
         "id": "CGY-CU-06",
         "title": "Improv at the Loose Moose Theatre",
-        "description": "Keith Johnstone built Theatresports here, which means every improv show you've ever seen traces back to this room — Saturday night is still the best seat.",
+        "description": "Keith Johnstone built Theatresports here, which means every improv show you've ever seen traces back to this room. Saturday night is still the best seat.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -405,7 +405,7 @@
       {
         "id": "CGY-CU-05",
         "title": "The Banff Park Museum",
-        "description": "An 1903 log 'cathedral to nature' packed floor to ceiling with Victorian taxidermy — a perfectly preserved museum of how museums used to be.",
+        "description": "An 1903 log 'cathedral to nature' packed floor to ceiling with Victorian taxidermy, a perfectly preserved museum of how museums used to be.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -427,7 +427,7 @@
       {
         "id": "CGY-8B-01",
         "title": "Wildcard: The Icefields Parkway, No Plan",
-        "description": "Drive 230 km of the most spectacular road in North America from Lake Louise toward Jasper, and stop at every pullout that looks good — no itinerary, no reservations.",
+        "description": "Drive 230 km of the most spectacular road in North America from Lake Louise toward Jasper, and stop at every pullout that looks good: no itinerary, no reservations.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "All day",
@@ -488,7 +488,7 @@
       {
         "id": "CGY-F-07",
         "title": "Alberta Beef at CHARCUT Roast House",
-        "description": "Rotisserie and charcuterie in the heart of downtown, doing the thing Alberta is actually famous for — beef — with real technique.",
+        "description": "Rotisserie and charcuterie in the heart of downtown, doing the thing Alberta is actually famous for, beef, with real technique.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -527,7 +527,7 @@
       {
         "id": "CGY-F-08",
         "title": "Bakery Morning at Sidewalk Citizen",
-        "description": "Sourdough, babka and pistachio croissants in the brick Simmons Building on the river — the best possible start to a Calgary morning.",
+        "description": "Sourdough, babka and pistachio croissants in the brick Simmons Building on the river, the best possible start to a Calgary morning.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -547,7 +547,7 @@
       {
         "id": "CGY-F-05",
         "title": "Dinner at Ten Foot Henry",
-        "description": "Vegetable-forward sharing plates in a bright Beltline room — the restaurant that changed what Calgary expects from dinner.",
+        "description": "Vegetable-forward sharing plates in a bright Beltline room, the restaurant that changed what Calgary expects from dinner.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -585,7 +585,7 @@
       {
         "id": "CGY-F-10",
         "title": "Fondue at The Grizzly House",
-        "description": "A gloriously unchanged 1967 Banff fondue restaurant with rotary phones at every booth and exotic-meat hot rock plates — pure, committed kitsch.",
+        "description": "A gloriously unchanged 1967 Banff fondue restaurant with rotary phones at every booth and exotic-meat hot rock plates, pure, committed kitsch.",
         "rarity": "Common",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -604,7 +604,7 @@
       {
         "id": "CGY-F-06",
         "title": "Ramen at Shiki Menya",
-        "description": "A tiny Bridgeland counter doing one thing extremely well — house-made noodles in a shio broth people queue in the snow for.",
+        "description": "A tiny Bridgeland counter doing one thing extremely well, house-made noodles in a shio broth people queue in the snow for.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -622,7 +622,7 @@
       },
       {
         "id": "CGY-F-04",
-        "title": "Elk burger and a flight at Banff Ave Brewing Co.",
+        "title": "Elk Burger and a Flight at Banff Ave Brewing Co.",
         "description": "Pair a wild-game burger with a flight of four house beers on Banff's main strip after a day on the trails.",
         "rarity": "Common",
         "cost": "$$",
@@ -652,7 +652,7 @@
       },
       {
         "id": "CGY-F-03",
-        "title": "Tasting menu at Model Milk",
+        "title": "Tasting Menu at Model Milk",
         "description": "Settle in for a multi-course tasting menu inside a converted 1920s dairy building in Calgary's Beltline.",
         "rarity": "Rare",
         "cost": "$$$",
@@ -667,7 +667,7 @@
       },
       {
         "id": "CGY-F-01",
-        "title": "Cinnamon bun at Wild Flour Bakery",
+        "title": "Cinnamon Bun at Wild Flour Bakery",
         "description": "Grab a still-warm cinnamon bun from Banff's favorite bakery and eat it standing on the sidewalk before it cools.",
         "rarity": "Common",
         "cost": "$",
@@ -705,7 +705,7 @@
       {
         "id": "CGY-S-08",
         "title": "Live Music at the Palomino Smokehouse",
-        "description": "Barbecue upstairs, a sweaty basement venue downstairs booking punk, country and everything between — the heart of Calgary's live scene.",
+        "description": "Barbecue upstairs, a sweaty basement venue downstairs booking punk, country and everything between, the heart of Calgary's live scene.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -725,7 +725,7 @@
       {
         "id": "CGY-S-06",
         "title": "Beers at Cold Garden Beverage Company",
-        "description": "Inglewood's least serious and most fun taproom — thrifted couches, board games, a dog on every third seat and genuinely good beer.",
+        "description": "Inglewood's least serious and most fun taproom. Thrifted couches, board games, a dog on every third seat and genuinely good beer.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -804,7 +804,7 @@
       {
         "id": "CGY-S-11",
         "title": "Patio Evening on 17th Ave",
-        "description": "Calgary treats patio season as a competitive sport — start at Craft Beer Market's rooftop and work your way along the strip.",
+        "description": "Calgary treats patio season as a competitive sport. Start at Craft Beer Market's rooftop and work your way along the strip.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -824,7 +824,7 @@
       {
         "id": "CGY-S-09",
         "title": "Late Night at the Ship & Anchor",
-        "description": "The 17th Avenue corner pub that has been Calgary's default meeting point for thirty years — patio in summer, packed in every season.",
+        "description": "The 17th Avenue corner pub that has been Calgary's default meeting point for thirty years, patio in summer, packed in every season.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -843,7 +843,7 @@
       },
       {
         "id": "CGY-S-03",
-        "title": "Sunset gondola ride and dinner atop Sulphur Mountain",
+        "title": "Sunset Gondola Ride and Dinner Atop Sulphur Mountain",
         "description": "Ride the gondola up for dinner with the entire Bow Valley glowing gold and then blue beneath your table.",
         "rarity": "Legendary",
         "cost": "$$$",
@@ -858,7 +858,7 @@
       },
       {
         "id": "CGY-S-01",
-        "title": "Trivia night at National on 10th",
+        "title": "Trivia Night at National on 10th",
         "description": "Grab a table at this Calgary brewpub for a loud, competitive trivia night with beer flights on tap.",
         "rarity": "Common",
         "cost": "$",
@@ -873,7 +873,7 @@
       },
       {
         "id": "CGY-S-04",
-        "title": "Live music night at Ironwood Stage & Grill",
+        "title": "Live Music Night at Ironwood Stage & Grill",
         "description": "Catch a local band at this no-frills Inglewood venue where the music matters more than the room.",
         "rarity": "Common",
         "cost": "$",
@@ -888,7 +888,7 @@
       },
       {
         "id": "CGY-S-02",
-        "title": "Rooftop patio at Trolley 5 Restaurant & Brewery",
+        "title": "Rooftop Patio at Trolley 5 Restaurant & Brewery",
         "description": "Catch the evening sun on 17th Avenue's rooftop patio with a house beer flight and a crowd spilling onto the street below.",
         "rarity": "Common",
         "cost": "$$",
@@ -982,7 +982,7 @@
       {
         "id": "CGY-C-05",
         "title": "Soak at the Kananaskis Nordic Spa",
-        "description": "Hot pools, cold plunges, eucalyptus steam and hammocks, all outdoors in a mountain valley — and phones are banned throughout.",
+        "description": "Hot pools, cold plunges, eucalyptus steam and hammocks, all outdoors in a mountain valley, and phones are banned throughout.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "4 hrs",
@@ -1019,7 +1019,7 @@
       },
       {
         "id": "CGY-C-02",
-        "title": "Golden-hour walk through Prince's Island Park",
+        "title": "Golden-Hour Walk Through Prince's Island Park",
         "description": "Cross the footbridges onto Calgary's downtown island park as the light turns gold over the Bow River.",
         "rarity": "Common",
         "cost": "$",
@@ -1064,7 +1064,7 @@
       },
       {
         "id": "CGY-C-03",
-        "title": "Browse the galleries at Studio Bell",
+        "title": "Browse the Galleries at Studio Bell",
         "description": "Wander Canada's national music centre, where instruments from a legendary rock star's piano to century-old organs sit behind glass.",
         "rarity": "Common",
         "cost": "$",

@@ -204,7 +204,7 @@
       {
         "id": "ABQ-S-12",
         "title": "Cantina Night at El Pinto",
-        "description": "The cantina side of the North Valley institution — fire pits, string lights through the cottonwoods, and margaritas by the pitcher.",
+        "description": "The cantina side of the North Valley institution: fire pits, string lights through the cottonwoods, and margaritas by the pitcher.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -224,7 +224,7 @@
       {
         "id": "ABQ-S-02",
         "title": "Touring Band at Sister Bar",
-        "description": "Downtown's indie living room — local taps, a back patio, and a stage small enough that the band drinks at the bar afterwards.",
+        "description": "Downtown's indie living room: local taps, a back patio, and a stage small enough that the band drinks at the bar afterwards.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -267,7 +267,7 @@
       {
         "id": "ABQ-A-05",
         "title": "Read the Rock at Boca Negra Canyon",
-        "description": "Twenty-four thousand petroglyphs carved into volcanic escarpment by Ancestral Pueblo and early Spanish hands — a short scramble puts you face to face with them.",
+        "description": "Twenty-four thousand petroglyphs carved into volcanic escarpment by Ancestral Pueblo and early Spanish hands. A short scramble puts you face to face with them.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -307,7 +307,7 @@
       {
         "id": "ABQ-A-03",
         "title": "Sunrise Balloon Flight with Rainbow Ryders",
-        "description": "Albuquerque is the ballooning capital of the world for a reason — the box wind pattern lets a pilot steer you out over the Rio Grande and back again.",
+        "description": "Albuquerque is the ballooning capital of the world for a reason. The box wind pattern lets a pilot steer you out over the Rio Grande and back again.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -346,7 +346,7 @@
       {
         "id": "ABQ-A-09",
         "title": "Cruise the Paseo del Bosque Trail",
-        "description": "Sixteen uninterrupted miles under cottonwoods along the Rio Grande — no road crossings the entire way, which is the whole point.",
+        "description": "Sixteen uninterrupted miles under cottonwoods along the Rio Grande, no road crossings the entire way, which is the whole point.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -366,7 +366,7 @@
       {
         "id": "ABQ-A-15",
         "title": "Walk the Ruins at Salinas Pueblo Missions",
-        "description": "Three 17th-century Spanish mission churches standing roofless over abandoned Pueblo villages an hour south — enormous, silent, and almost always empty of people.",
+        "description": "Three 17th-century Spanish mission churches standing roofless over abandoned Pueblo villages an hour south: enormous, silent, and almost always empty of people.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "4–6 hrs",
@@ -406,7 +406,7 @@
       {
         "id": "ABQ-A-13",
         "title": "Breaking Bad RV Tour",
-        "description": "Three hours in a replica of that RV, hitting twenty-plus filming locations with lunch at the actual Los Pollos Hermanos — shameless and completely worth it.",
+        "description": "Three hours in a replica of that RV, hitting twenty-plus filming locations with lunch at the actual Los Pollos Hermanos, shameless and completely worth it.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -445,7 +445,7 @@
       {
         "id": "ABQ-A-04",
         "title": "Mass Ascension at the Balloon Fiesta",
-        "description": "Five hundred balloons inflating around you in the dark, then rising in waves over nine days every October — the largest ballooning event on earth, and you walk the field among them.",
+        "description": "Five hundred balloons inflating around you in the dark, then rising in waves over nine days every October, the largest ballooning event on earth, and you walk the field among them.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "5–6 hrs",
@@ -485,7 +485,7 @@
       {
         "id": "ABQ-A-02",
         "title": "Climb the La Luz Trail",
-        "description": "Eight miles and nearly 4,000 feet from desert scrub to alpine forest on the Sandias' west face — the hardest, most honest way to reach the crest.",
+        "description": "Eight miles and nearly 4,000 feet from desert scrub to alpine forest on the Sandias' west face, the hardest, most honest way to reach the crest.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "6–8 hrs",
@@ -524,7 +524,7 @@
       {
         "id": "ABQ-A-14",
         "title": "Climb the Crest Road on a Bike",
-        "description": "Thirteen and a half miles of switchbacks up NM-536 to the Sandia Crest — one of the great road climbs in the Southwest, topping out above ten thousand feet.",
+        "description": "Thirteen and a half miles of switchbacks up NM-536 to the Sandia Crest. One of the great road climbs in the Southwest, topping out above ten thousand feet.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–5 hrs",
@@ -585,7 +585,7 @@
       {
         "id": "ABQ-CU-01",
         "title": "Native Dances at the Indian Pueblo Cultural Center",
-        "description": "Owned and run by New Mexico's nineteen Pueblos — their own account of their own history, with live dance performances in the courtyard most weekends.",
+        "description": "Owned and run by New Mexico's nineteen Pueblos, their own account of their own history, with live dance performances in the courtyard most weekends.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -605,7 +605,7 @@
       {
         "id": "ABQ-CU-07",
         "title": "Hot Air History at the Balloon Museum",
-        "description": "A purpose-built museum beside Balloon Fiesta Park covering everything from the Montgolfiers to the gondolas flown across the Pacific — several of them hanging overhead.",
+        "description": "A purpose-built museum beside Balloon Fiesta Park covering everything from the Montgolfiers to the gondolas flown across the Pacific, several of them hanging overhead.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -645,7 +645,7 @@
       {
         "id": "ABQ-CU-03",
         "title": "The Torreón Fresco at the National Hispanic Cultural Center",
-        "description": "A concrete tower in Barelas holding one of the largest concave frescoes in North America — four thousand square feet of Hispanic history, painted over ten years.",
+        "description": "A concrete tower in Barelas holding one of the largest concave frescoes in North America, four thousand square feet of Hispanic history, painted over ten years.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -665,7 +665,7 @@
       {
         "id": "ABQ-CU-06",
         "title": "Pueblo Deco at the KiMo Theatre",
-        "description": "A 1927 picture palace built in the only architectural style native to New Mexico — buffalo skulls, Navajo motifs and air vents shaped like Zia symbols.",
+        "description": "A 1927 picture palace built in the only architectural style native to New Mexico, buffalo skulls, Navajo motifs and air vents shaped like Zia symbols.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -745,7 +745,7 @@
       {
         "id": "ABQ-C-09",
         "title": "Nob Hill Neon at Dusk",
-        "description": "A dense stretch of original Route 66 where the restored motel and shop neon comes on all at once — best walked slowly, with no destination.",
+        "description": "A dense stretch of original Route 66 where the restored motel and shop neon comes on all at once, best walked slowly, with no destination.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -864,7 +864,7 @@
       {
         "id": "ABQ-C-07",
         "title": "Picnic in the Cottonwood Bosque",
-        "description": "The Rio Grande's cottonwood forest runs the whole length of the city — step off the trail, find a clearing, and the town disappears entirely.",
+        "description": "The Rio Grande's cottonwood forest runs the whole length of the city. Step off the trail, find a clearing, and the town disappears entirely.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -925,7 +925,7 @@
       {
         "id": "ABQ-F-06",
         "title": "Brunch at The Grove Cafe & Market",
-        "description": "The bright, loud daytime anchor of the EDo district — farm eggs, good pastry and a market counter, all closed by two in the afternoon.",
+        "description": "The bright, loud daytime anchor of the EDo district: farm eggs, good pastry and a market counter, all closed by two in the afternoon.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–1.5 hrs",
@@ -972,7 +972,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order it both ways — plate and turnover — and settle it for yourself.",
+        "bonus": "Order it both ways, plate and turnover, and settle it for yourself.",
         "city": "Albuquerque, NM",
         "mapsUrl": "https://maps.google.com/maps/search/Mary+and+Titos+Cafe+2711+4th+St+NW+Albuquerque+NM",
         "company": [
@@ -1061,7 +1061,7 @@
       {
         "id": "ABQ-F-04",
         "title": "Stuffed Sopaipilla at Sadie's",
-        "description": "A New Mexican institution that started in a bowling alley — the salsa arrives hot enough to be a warning and the stuffed sopaipilla is the size of a shoebox.",
+        "description": "A New Mexican institution that started in a bowling alley. The salsa arrives hot enough to be a warning and the stuffed sopaipilla is the size of a shoebox.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -1162,7 +1162,7 @@
       {
         "id": "ABQ-8B-02",
         "title": "Red or Green",
-        "description": "Wildcard: New Mexico's official state question. Eat at three different places in one day and order red at one, green at the next, Christmas at the last — then pick a side for life.",
+        "description": "Wildcard: New Mexico's official state question. Eat at three different places in one day and order red at one, green at the next, Christmas at the last, then pick a side for life.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "All day",
@@ -1182,7 +1182,7 @@
       {
         "id": "ABQ-8B-01",
         "title": "Chase the Watermelon Light",
-        "description": "Wildcard: the Sandias turn deep pink for about ten minutes at sunset — sandia means watermelon. Find somewhere in the city you've never stood and be there for it.",
+        "description": "Wildcard: the Sandias turn deep pink for about ten minutes at sunset, sandia means watermelon. Find somewhere in the city you've never stood and be there for it.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "2–3 hrs",

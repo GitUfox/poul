@@ -24,7 +24,7 @@
       {
         "id": "BKK-A-204",
         "title": "Venom Hour at the Snake Farm",
-        "description": "The Queen Saovabha Memorial Institute — a working Red Cross research center — runs daily venom-milking demonstrations and cobra handling shows that are equal parts science lesson and heart-rate test.",
+        "description": "The Queen Saovabha Memorial Institute, a working Red Cross research center, runs daily venom-milking demonstrations and cobra handling shows that are equal parts science lesson and heart-rate test.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5–2 hrs",
@@ -32,14 +32,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Front row for the cobra demonstration — no flinching when the hood spreads.",
+        "bonus": "Front row for the cobra demonstration, no flinching when the hood spreads.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Queen+Saovabha+Memorial+Institute+Snake+Farm+Bangkok"
       },
       {
         "id": "BKK-A-203",
         "title": "Glass Floor at Mahanakhon SkyWalk",
-        "description": "Seventy-eight floors up King Power Mahanakhon, a glass tray juts over the edge of Thailand's pixelated skyscraper — step onto it and watch Bangkok's traffic crawl 314 meters below your feet.",
+        "description": "Seventy-eight floors up King Power Mahanakhon, a glass tray juts over the edge of Thailand's pixelated skyscraper, step onto it and watch Bangkok's traffic crawl 314 meters below your feet.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5–2 hrs",
@@ -47,14 +47,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Lie down flat on the glass for a photo — standing on it is only half the dare.",
+        "bonus": "Lie down flat on the glass for a photo. Standing on it is only half the dare.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Mahanakhon+SkyWalk+Bangkok"
       },
       {
         "id": "BKK-A-202",
         "title": "Ayutthaya Ruins by Train and Bicycle",
-        "description": "The third-class train from Hua Lamphong costs pocket change and drops you at the old capital — rent a bike at the station and spend the day weaving between 600-year-old prangs and headless Buddhas.",
+        "description": "The third-class train from Hua Lamphong costs pocket change and drops you at the old capital. Rent a bike at the station and spend the day weaving between 600-year-old prangs and headless Buddhas.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "8–10 hrs",
@@ -69,7 +69,7 @@
       {
         "id": "BKK-A-201",
         "title": "Train Through the Maeklong Railway Market",
-        "description": "Eight times a day a full-size train rolls directly through this market — awnings fold, baskets slide back, and thirty seconds later the vendors rebuild like nothing happened. Ride it in, then walk the tracks.",
+        "description": "Eight times a day a full-size train rolls directly through this market: awnings fold, baskets slide back, and thirty seconds later the vendors rebuild like nothing happened. Ride it in, then walk the tracks.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "5–7 hrs",
@@ -77,14 +77,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Buy something from a vendor whose stall folds for the train — right after it passes.",
+        "bonus": "Buy something from a vendor whose stall folds for the train. Right after it passes.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Maeklong+Railway+Market"
       },
       {
         "id": "BKK-AC-104",
         "title": "Evening Circuit at Saranrom Park",
-        "description": "After the heat breaks, locals descend on Rattanakosin's oldest public park for lakeside jogging loops, aerobics classes, and food carts — the kind of unhurried Bangkok evening tourists rarely see.",
+        "description": "After the heat breaks, locals descend on Rattanakosin's oldest public park for lakeside jogging loops, aerobics classes, and food carts, the kind of unhurried Bangkok evening tourists rarely see.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -92,14 +92,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy street corn from the cart by the east gate and finish it before you leave the park — no rush.",
+        "bonus": "Buy street corn from the cart by the east gate and finish it before you leave the park, no rush.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Saranrom+Park+Bangkok"
       },
       {
         "id": "BKK-AC-103",
         "title": "Krabi Krabong at the Buddhai Swan Institute",
-        "description": "Thailand's ancient weapons art — twin swords, staff, and shield — has been taught at this storied Nonthaburi institute for generations; an open-air session here is Muay Thai's older, sharper ancestor.",
+        "description": "Thailand's ancient weapons art (twin swords, staff, and shield) has been taught at this storied Nonthaburi institute for generations; an open-air session here is Muay Thai's older, sharper ancestor.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -107,7 +107,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Spar a full-contact round with padded swords against your instructor — do not flinch first.",
+        "bonus": "Spar a full-contact round with padded swords against your instructor. Do not flinch first.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Buddhai+Swan+Sword+Fighting+Institute+Nonthaburi"
       },
@@ -122,14 +122,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Hold your final savasana for a full five minutes without peeking at your phone — then reward yourself with a coconut from the park vendor.",
+        "bonus": "Hold your final savasana for a full five minutes without peeking at your phone, then reward yourself with a coconut from the park vendor.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Benchakitti+Forest+Park+Bangkok"
       },
       {
         "id": "BKK-A-06",
-        "title": "Sunrise at the Grand Palace complex",
-        "description": "Getting to the Grand Palace at 7am means being the first through the gates, before the heat and the tour buses — the gilt spires in early light are something entirely different.",
+        "title": "Sunrise at the Grand Palace Complex",
+        "description": "Getting to the Grand Palace at 7am means being the first through the gates, before the heat and the tour buses. The gilt spires in early light are something entirely different.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -143,8 +143,8 @@
       },
       {
         "id": "BKK-A-05",
-        "title": "White-water kayak on the Mae Klong River (day trip)",
-        "description": "Two hours west of Bangkok, the Mae Klong has class II–III rapids accessible for half-day guided kayak trips — the train market at the put-in point is a bonus.",
+        "title": "White-Water Kayak on the Mae Klong River (Day Trip)",
+        "description": "Two hours west of Bangkok, the Mae Klong has class II–III rapids accessible for half-day guided kayak trips, the train market at the put-in point is a bonus.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "5–6 hrs",
@@ -158,8 +158,8 @@
       },
       {
         "id": "BKK-AC-02",
-        "title": "Morning run along the Chao Phraya riverside promenade",
-        "description": "The river promenade from Saphan Taksin to Phra Arthit is 6km of riverside path, ferries, temples, and morning monks — run it before the heat arrives after 8am.",
+        "title": "Morning Run Along the Chao Phraya Riverside Promenade",
+        "description": "The river promenade from Saphan Taksin to Phra Arthit is 6km of riverside path, ferries, temples, and morning monks. Run it before the heat arrives after 8am.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -174,7 +174,7 @@
       {
         "id": "BKK-A-03",
         "title": "Bouldering at Bloc+ Bangkok, Sathorn",
-        "description": "Bangkok has a growing climbing gym scene in the old city area — the heat makes bouldering demanding in a different way, and the gyms stay open late.",
+        "description": "Bangkok has a growing climbing gym scene in the old city area. The heat makes bouldering demanding in a different way, and the gyms stay open late.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -188,8 +188,8 @@
       },
       {
         "id": "BKK-A-02",
-        "title": "Koh Kret island bicycle escape",
-        "description": "An island in the Chao Phraya north of Bangkok with no cars, Mon pottery villages, and a 7km loop — take the ferry and cycle until you've seen every corner.",
+        "title": "Koh Kret Island Bicycle Escape",
+        "description": "An island in the Chao Phraya north of Bangkok with no cars, Mon pottery villages, and a 7km loop. Take the ferry and cycle until you've seen every corner.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -204,7 +204,7 @@
       {
         "id": "BKK-AC-08",
         "title": "Wakeboard at Cable Ski Wake Board, Ramindra",
-        "description": "Cable wakeboard parks north of Bangkok run all day at a flat fee — no boat required, full circuit, and you'll fall off more times than you expect.",
+        "description": "Cable wakeboard parks north of Bangkok run all day at a flat fee. No boat required, full circuit, and you'll fall off more times than you expect.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -218,8 +218,8 @@
       },
       {
         "id": "BKK-AC-05",
-        "title": "Cycle the Bang Kachao green lung loop",
-        "description": "The 'green lung' opposite Klong Toei is a car-free peninsula of jungle, farms, and canals accessible by ferry — rent a bicycle and lose the city for a morning.",
+        "title": "Cycle the Bang Kachao Green Lung Loop",
+        "description": "The 'green lung' opposite Klong Toei is a car-free peninsula of jungle, farms, and canals accessible by ferry. Rent a bicycle and lose the city for a morning.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -242,7 +242,7 @@
         "time": "Morning",
         "season": "Nov–Apr",
         "spark": 40,
-        "bonus": "Paddle close enough to a passing rice barge to wave at the crew — and get a wave back.",
+        "bonus": "Paddle close enough to a passing rice barge to wave at the crew, and get a wave back.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Bangkok+SUP+paddleboard+Chao+Phraya"
       },
@@ -257,7 +257,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Ask your pad holder to call the combinations in Thai only — no English — after round two.",
+        "bonus": "Ask your pad holder to call the combinations in Thai only, no English, after round two.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Evolve+MMA+Bangkok+Sukhumvit"
       },
@@ -287,7 +287,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Tell the driver 'farang price' — then negotiate in Thai numbers only using your phone calculator.",
+        "bonus": "Tell the driver 'farang price', then negotiate in Thai numbers only using your phone calculator.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Chatuchak+Market+Bangkok"
       },
@@ -302,7 +302,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Climb to the highest accessible level and stay until the temple lights flick on — don't leave early.",
+        "bonus": "Climb to the highest accessible level and stay until the temple lights flick on. Don't leave early.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Wat+Arun+Bangkok"
       },
@@ -323,7 +323,7 @@
       },
       {
         "id": "BANG_A_01",
-        "title": "Long-tail Boat Through Thonburi Canals",
+        "title": "Long-Tail Boat Through Thonburi Canals",
         "description": "A deafening, spray-soaked ride through Bangkok's forgotten backwater villages reveals a city that still lives on the water.",
         "rarity": "Rare",
         "cost": "$",
@@ -339,7 +339,7 @@
       {
         "id": "BKK-AC-01",
         "title": "Muay Thai Morning Training at Sor Vorapin Gym",
-        "description": "One of Bangkok's oldest active training gyms near Rattanakosin has been running tourist sessions alongside professional fighters since the 1980s — 90 minutes of pads, bags, and clinch work that leaves you wrung out by 9am.",
+        "description": "One of Bangkok's oldest active training gyms near Rattanakosin has been running tourist sessions alongside professional fighters since the 1980s: 90 minutes of pads, bags, and clinch work that leaves you wrung out by 9am.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1.5 hrs",
@@ -347,14 +347,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Finish every round. Don't tap out early — the trainers respect the ones who last.",
+        "bonus": "Finish every round. Don't tap out early, the trainers respect the ones who last.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://maps.google.com/maps/search/Sor+Vorapin+Gym+Bangkok+Thailand"
       },
       {
         "id": "BKK-AC-03",
         "title": "Full-Day Muay Thai Camp Immersion at Fairtex",
-        "description": "Fairtex's Bangkok training center runs a fighter's full-day schedule — conditioning at 6am, technical pad work mid-morning, a light Thai lunch with the team, and live sparring in the afternoon with resident fighters who don't go easy.",
+        "description": "Fairtex's Bangkok training center runs a fighter's full-day schedule: conditioning at 6am, technical pad work mid-morning, a light Thai lunch with the team, and live sparring in the afternoon with resident fighters who don't go easy.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "Full day",
@@ -371,7 +371,7 @@
       {
         "id": "BKK-S-201",
         "title": "Ya Dong Rounds at Tep Bar, Chinatown",
-        "description": "Hidden in a Soi Nana shophouse, Tep pours Thai herbal spirits to live traditional music played like it's rock and roll — the room that made Bangkok proud of its own liquor again.",
+        "description": "Hidden in a Soi Nana shophouse, Tep pours Thai herbal spirits to live traditional music played like it's rock and roll. The room that made Bangkok proud of its own liquor again.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -395,7 +395,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Request a song from the band and stay until they play it — don't leave a tip until they do.",
+        "bonus": "Request a song from the band and stay until they play it. Don't leave a tip until they do.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Bamboo+Bar+Mandarin+Oriental+Bangkok",
         "adult": true
@@ -422,7 +422,7 @@
       {
         "id": "BKK-S-01",
         "title": "Rooftop at Above Eleven, Fraser Suites Sukhumvit",
-        "description": "Bangkok rooftops at sunset — Vertigo at Banyan Tree, Sky Bar at Lebua, or dozens of smaller options — the skyline here is genuinely dramatic in the orange light.",
+        "description": "Bangkok rooftops at sunset (Vertigo at Banyan Tree, Sky Bar at Lebua, or dozens of smaller options) the skyline here is genuinely dramatic in the orange light.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -441,7 +441,7 @@
       {
         "id": "BKK-S-04",
         "title": "Cocktails at Teens of Thailand, Chinatown",
-        "description": "Bangkok has a small but serious speakeasy scene in the Sukhumvit sois — a good one has no sign, great ice, and a bartender who's thought about every glass.",
+        "description": "Bangkok has a small but serious speakeasy scene in the Sukhumvit sois. A good one has no sign, great ice, and a bartender who's thought about every glass.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -456,8 +456,8 @@
       },
       {
         "id": "BKK-S-08",
-        "title": "Thai cooking class at Baipai Thai Cooking School",
-        "description": "Bangkok cooking classes start at a wet market, buy ingredients directly from vendors, then cook five dishes from scratch — the market portion is better than the cooking.",
+        "title": "Thai Cooking Class at Baipai Thai Cooking School",
+        "description": "Bangkok cooking classes start at a wet market, buy ingredients directly from vendors, then cook five dishes from scratch. The market portion is better than the cooking.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -535,8 +535,8 @@
     "culture": [
       {
         "id": "BKK-CH-03",
-        "title": "Morning alms-giving at Wat Yannawa, Silom",
-        "description": "At 6am, monks walk their alms routes through Bangkok's old neighbourhoods — buy prepared rice and offerings from a vendor, and give respectfully, quietly, without a camera out.",
+        "title": "Morning Alms-Giving at Wat Yannawa, Silom",
+        "description": "At 6am, monks walk their alms routes through Bangkok's old neighbourhoods. Buy prepared rice and offerings from a vendor, and give respectfully, quietly, without a camera out.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -550,8 +550,8 @@
       },
       {
         "id": "BKK-S-03",
-        "title": "Muay Thai fight night at Lumpinee Stadium",
-        "description": "Lumpinee is the most storied Muay Thai venue in the world — ringside seats are cheap by international standards and the crowd, the ritual, and the skill level are the real thing.",
+        "title": "Muay Thai Fight Night at Lumpinee Stadium",
+        "description": "Lumpinee is the most storied Muay Thai venue in the world. Ringside seats are cheap by international standards and the crowd, the ritual, and the skill level are the real thing.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -559,14 +559,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Bet on one fight — ₹100 with a stranger. Watch it differently after.",
+        "bonus": "Bet on one fight, ₹100 with a stranger. Watch it differently after.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Lumpinee+Stadium+Muay+Thai+Bangkok"
       },
       {
         "id": "BKK-CH-01",
-        "title": "Temple hop by riverboat: Wat Pho, Wat Arun, Wat Phra Kaew",
-        "description": "The three great temples of old Bangkok are connected by the Chao Phraya river express — a half-day circuit by boat sees the reclining Buddha, the demon guardian towers, and the Emerald Buddha.",
+        "title": "Temple Hop by Riverboat: Wat Pho, Wat Arun, Wat Phra Kaew",
+        "description": "The three great temples of old Bangkok are connected by the Chao Phraya river express. A half-day circuit by boat sees the reclining Buddha, the demon guardian towers, and the Emerald Buddha.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -581,7 +581,7 @@
       {
         "id": "BKK-C-04",
         "title": "Bangkok Art and Culture Centre",
-        "description": "Seven floors of rotating contemporary Thai art at the Siam BTS intersection — free entry, world-class work, and a bookshop in the basement that's better than most galleries.",
+        "description": "Seven floors of rotating contemporary Thai art at the Siam BTS intersection: free entry, world-class work, and a bookshop in the basement that's better than most galleries.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -596,7 +596,7 @@
       {
         "id": "BKK-S-02",
         "title": "Asiatique Riverfront Night Market",
-        "description": "A converted 1900s French-colonial warehouse on the Chao Phraya that transforms after dark into Bangkok's best open-air night market — riverside tables, a Ferris wheel, live theater, and a thousand stalls.",
+        "description": "A converted 1900s French-colonial warehouse on the Chao Phraya that transforms after dark into Bangkok's best open-air night market: riverside tables, a Ferris wheel, live theater, and a thousand stalls.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -612,8 +612,8 @@
     "foodie": [
       {
         "id": "BKK-F-07",
-        "title": "Boat noodles at Guay Tiew Reua Siam, Ari",
-        "description": "Boat noodles are a tiny bowl of pork blood broth with thin noodles and crispy pork — you order ten of them because they're the size of a cup and eat them at a canal-side table.",
+        "title": "Boat Noodles at Guay Tiew Reua Siam, Ari",
+        "description": "Boat noodles are a tiny bowl of pork blood broth with thin noodles and crispy pork. You order ten of them because they're the size of a cup and eat them at a canal-side table.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -627,8 +627,8 @@
       },
       {
         "id": "BKK-F-09",
-        "title": "Tasting menu at R-Haan, Din Daeng",
-        "description": "Bangkok's high-end Thai cooking scene — R-Haan, Sorn, Paste — is among the most serious in Asia; find a reservation and understand what Thai ingredients become when treated as fine dining.",
+        "title": "Tasting Menu at R-Haan, Din Daeng",
+        "description": "Bangkok's high-end Thai cooking scene (R-Haan, Sorn, Paste) is among the most serious in Asia; find a reservation and understand what Thai ingredients become when treated as fine dining.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -642,8 +642,8 @@
       },
       {
         "id": "BKK-F-04",
-        "title": "Late-night noodles at Jeh O Chula, Hua Lamphong",
-        "description": "Bangkok's 24-hour noodle shophouses peak between midnight and 3am — find one in Silom with fluorescent lights and plastic stools and let it save your evening.",
+        "title": "Late-Night Noodles at Jeh O Chula, Hua Lamphong",
+        "description": "Bangkok's 24-hour noodle shophouses peak between midnight and 3am. Find one in Silom with fluorescent lights and plastic stools and let it save your evening.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–60 min",
@@ -657,8 +657,8 @@
       },
       {
         "id": "BKK-F-06",
-        "title": "Som tam at Somtum Der, Saladaeng",
-        "description": "The northeastern Thai food of Isan — green papaya salad and minced meat salad with fish sauce and toasted rice — is Bangkok's most honest and punishing food.",
+        "title": "Som Tam at Somtum Der, Saladaeng",
+        "description": "The northeastern Thai food of Isan, green papaya salad and minced meat salad with fish sauce and toasted rice, is Bangkok's most honest and punishing food.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -672,8 +672,8 @@
       },
       {
         "id": "BKK-F-03",
-        "title": "Floating market feast at Damnoen Saduak",
-        "description": "Boat vendors selling pad see ew, mango sticky rice, and grilled corn from narrow canals — touristy, yes, but the food itself is genuinely excellent.",
+        "title": "Floating Market Feast at Damnoen Saduak",
+        "description": "Boat vendors selling pad see ew, mango sticky rice, and grilled corn from narrow canals. Touristy, yes, but the food itself is genuinely excellent.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -687,8 +687,8 @@
       },
       {
         "id": "BKK-F-02",
-        "title": "Khao man gai at Kuang Heng, Pratunam",
-        "description": "Poached chicken over rice with ginger sauce and a bowl of broth — Bangkok's best breakfast is also its cheapest and most forgiving morning-after meal.",
+        "title": "Khao Man Gai at Kuang Heng, Pratunam",
+        "description": "Poached chicken over rice with ginger sauce and a bowl of broth. Bangkok's best breakfast is also its cheapest and most forgiving morning-after meal.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -703,7 +703,7 @@
       {
         "id": "BKK-F-08",
         "title": "Sundowners at Vertigo and Moon Bar, Banyan Tree Bangkok",
-        "description": "Bangkok's rooftop bar scene ranges from tourist traps to genuinely excellent cocktail programs — find one in Silom with a serious menu and let sunset do the design work.",
+        "description": "Bangkok's rooftop bar scene ranges from tourist traps to genuinely excellent cocktail programs. Find one in Silom with a serious menu and let sunset do the design work.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2 hrs",
@@ -722,7 +722,7 @@
       {
         "id": "BANG_F_04",
         "title": "Mango Sticky Rice at Kor Panich on Tanao Road",
-        "description": "This 80-year-old shop on Tanao Road has been perfecting glutinous rice, fresh mango, and coconut cream since 1932 — and it still has a line.",
+        "description": "This 80-year-old shop on Tanao Road has been perfecting glutinous rice, fresh mango, and coconut cream since 1932. And it still has a line.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -737,7 +737,7 @@
       {
         "id": "BANG_F_03",
         "title": "Lunch at Jay Fai's Wok Kitchen on Mahachai Road",
-        "description": "Bangkok's most famous street cook — goggles on, two woks blazing — serves crab omelettes and drunken noodles worth every baht of the queue.",
+        "description": "Bangkok's most famous street cook (goggles on, two woks blazing) serves crab omelettes and drunken noodles worth every baht of the queue.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -767,7 +767,7 @@
       {
         "id": "BKK-F-01",
         "title": "Street Pad Thai at Thip Samai",
-        "description": "Bangkok's most famous pad thai kitchen wraps each plate in a paper-thin egg crepe — the line on Maha Chai Road moves fast and the result is worth every minute of the wait.",
+        "description": "Bangkok's most famous pad thai kitchen wraps each plate in a paper-thin egg crepe, the line on Maha Chai Road moves fast and the result is worth every minute of the wait.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -790,14 +790,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order five small bowls instead of one large — that's how locals eat them.",
+        "bonus": "Order five small bowls instead of one large, that's how locals eat them.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://maps.google.com/maps/search/Wang+Lang+Market+Bangkok+Thailand"
       },
       {
         "id": "BKK-F-04",
         "title": "Chef's Table at Le Normandie, Mandarin Oriental",
-        "description": "Bangkok's oldest fine-dining institution occupies a riverfront room at the Mandarin Oriental where the classical French menu has been evolving since 1958 — white gloves, a Michelin star, and a Chao Phraya view at the end of a meal that doesn't hurry.",
+        "description": "Bangkok's oldest fine-dining institution occupies a riverfront room at the Mandarin Oriental where the classical French menu has been evolving since 1958: white gloves, a Michelin star, and a Chao Phraya view at the end of a meal that doesn't hurry.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -813,8 +813,8 @@
     "chill": [
       {
         "id": "BKK-CH-06",
-        "title": "Golden hour longtail boat ride through the khlongs",
-        "description": "Charter a longtail for 90 minutes at golden hour to navigate Bangkok's canal network behind the Grand Palace — wooden houses, spirit houses, monks, and a city the tourists don't see.",
+        "title": "Golden Hour Longtail Boat Ride Through the Khlongs",
+        "description": "Charter a longtail for 90 minutes at golden hour to navigate Bangkok's canal network behind the Grand Palace: wooden houses, spirit houses, monks, and a city the tourists don't see.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -828,8 +828,8 @@
       },
       {
         "id": "BKK-CH-05",
-        "title": "Meditation session in the Wat Pho gardens",
-        "description": "Wat Pho is the temple that codified traditional Thai massage and still runs a meditation program in its garden courts — sit for an hour in a space that has been still since the 18th century.",
+        "title": "Meditation Session in the Wat Pho Gardens",
+        "description": "Wat Pho is the temple that codified traditional Thai massage and still runs a meditation program in its garden courts. Sit for an hour in a space that has been still since the 18th century.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -843,7 +843,7 @@
       },
       {
         "id": "BKK-CH-04",
-        "title": "Afternoon at Phra Athit Road riverside cafés",
+        "title": "Afternoon at Phra Athit Road Riverside Cafés",
         "description": "Bangkok's klhong-side cafés in Phra Nakhon and Thonburi offer hammocks over the water, slow WiFi, and the kind of afternoon that makes you miss your flight.",
         "rarity": "Common",
         "cost": "$",
@@ -858,8 +858,8 @@
       },
       {
         "id": "BKK-CH-08",
-        "title": "Cold brew at Roots Coffee Roasters, Ari",
-        "description": "Bangkok's specialty coffee scene has quietly become one of Asia's best — find a garden café in the Silom green belt, order cold brew, and stay until the evening air cools.",
+        "title": "Cold Brew at Roots Coffee Roasters, Ari",
+        "description": "Bangkok's specialty coffee scene has quietly become one of Asia's best. Find a garden café in the Silom green belt, order cold brew, and stay until the evening air cools.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -898,7 +898,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Spend 20 minutes in the gallery on the way up — pick one piece and write one sentence about why it works.",
+        "bonus": "Spend 20 minutes in the gallery on the way up. Pick one piece and write one sentence about why it works.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Bangkok+Arts+and+Culture+Centre+BACC"
       },
@@ -913,7 +913,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Book a 30-minute traditional Thai massage inside the temple — it's the original school.",
+        "bonus": "Book a 30-minute traditional Thai massage inside the temple. It's the original school.",
         "city": "Bangkok, Thailand",
         "mapsUrl": "https://www.google.com/maps/search/Wat+Pho+Bangkok"
       },
@@ -935,7 +935,7 @@
       {
         "id": "BKK-C-02",
         "title": "Afternoon at Jim Thompson House",
-        "description": "The teak compound of an American silk entrepreneur who vanished in the Malaysian jungle in 1967 — six traditional Thai structures with a world-class art collection and a canal garden that stops time.",
+        "description": "The teak compound of an American silk entrepreneur who vanished in the Malaysian jungle in 1967, six traditional Thai structures with a world-class art collection and a canal garden that stops time.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -950,7 +950,7 @@
       {
         "id": "BKK-C-03",
         "title": "Sunset Drinks at Octave Rooftop Lounge",
-        "description": "A three-level rooftop bar on floors 45–49 of the Marriott Sukhumvit offers a 360-degree panorama of Bangkok's grid as it goes orange, then purple, then neon — no reservations required, arrive before 6pm.",
+        "description": "A three-level rooftop bar on floors 45–49 of the Marriott Sukhumvit offers a 360-degree panorama of Bangkok's grid as it goes orange, then purple, then neon. No reservations required, arrive before 6pm.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -969,7 +969,7 @@
       {
         "id": "BKK-C-01",
         "title": "Thai Massage at Wat Pho School",
-        "description": "The oldest and most respected massage school in Thailand operates right next to the temple — 60 minutes of traditional northern-style Thai massage by certified students, for less than the cost of lunch back home.",
+        "description": "The oldest and most respected massage school in Thailand operates right next to the temple, 60 minutes of traditional northern-style Thai massage by certified students, for less than the cost of lunch back home.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",

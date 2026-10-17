@@ -17,7 +17,7 @@
         "time": "Evening",
         "season": "Jun–Jul",
         "spark": 25,
-        "bonus": "Find the cluster yourself before dawn — low in the northeast.",
+        "bonus": "Find the cluster yourself before dawn, low in the northeast.",
         "city": "Auckland, New Zealand",
         "mapsUrl": "https://maps.google.com/maps/search/Auckland+Domain",
         "company": [
@@ -67,7 +67,7 @@
       {
         "id": "AKL-CU-02",
         "title": "Climb Into a Flying Boat at MOTAT",
-        "description": "Two Western Springs sites full of working machinery — Pearse's 1903 aeroplane, a Solent flying boat you can walk through, and volunteers who restored most of it themselves.",
+        "description": "Two Western Springs sites full of working machinery: Pearse's 1903 aeroplane, a Solent flying boat you can walk through, and volunteers who restored most of it themselves.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -87,7 +87,7 @@
       {
         "id": "AKL-CU-07",
         "title": "Eat Your Way Through Pasifika Festival",
-        "description": "The largest Pacific festival on earth takes over Western Springs each March — island villages with their own stages, kitchens and kava, spread across the whole park.",
+        "description": "The largest Pacific festival on earth takes over Western Springs each March: island villages with their own stages, kitchens and kava, spread across the whole park.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "6 hrs",
@@ -114,7 +114,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 13,
-        "bonus": "Bring a torch — the tunnels are unlit and go a long way in.",
+        "bonus": "Bring a torch. The tunnels are unlit and go a long way in.",
         "city": "Auckland, New Zealand",
         "mapsUrl": "https://maps.google.com/maps/search/North+Head+Maungauika+Devonport",
         "company": [
@@ -126,7 +126,7 @@
       {
         "id": "AKL-CU-06",
         "title": "Hear the APO at the Aotea Centre",
-        "description": "The Auckland Philharmonia in the Aotea Centre — a full professional orchestra with student and under-30 tickets that cost less than a round of drinks.",
+        "description": "The Auckland Philharmonia in the Aotea Centre, a full professional orchestra with student and under-30 tickets that cost less than a round of drinks.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2.5 hrs",
@@ -144,7 +144,7 @@
       {
         "id": "AKL-CU-01",
         "title": "Meet Hotunui at the Auckland Museum",
-        "description": "Tāmaki Paenga Hira holds Hotunui, a carved meeting house from 1878, and Te Toki a Tāpiri, the last great Māori war canoe — both under one neoclassical roof in the Domain.",
+        "description": "Tāmaki Paenga Hira holds Hotunui, a carved meeting house from 1878, and Te Toki a Tāpiri, the last great Māori war canoe, both under one neoclassical roof in the Domain.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -166,7 +166,7 @@
       {
         "id": "AKL-C-09",
         "title": "Soak in the Geothermal Pools at Parakai",
-        "description": "Geothermal pools an hour northwest of the city where the water comes out of the ground at sixty degrees — deeply unglamorous and exactly right on a wet Sunday.",
+        "description": "Geothermal pools an hour northwest of the city where the water comes out of the ground at sixty degrees, deeply unglamorous and exactly right on a wet Sunday.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -204,7 +204,7 @@
       {
         "id": "AKL-C-10",
         "title": "Sunset on the Manukau at Ambury Farm",
-        "description": "A working farm on the Manukau foreshore twenty minutes from the CBD — sheep on the path, godwits on the mudflats, and a sunset over the Waitākeres with nobody else there.",
+        "description": "A working farm on the Manukau foreshore twenty minutes from the CBD: sheep on the path, godwits on the mudflats, and a sunset over the Waitākeres with nobody else there.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -224,7 +224,7 @@
       {
         "id": "AKL-C-08",
         "title": "A Slow Day on Onetangi Beach",
-        "description": "Waiheke's longest beach, forty minutes by ferry and a bus from the wharf — two kilometres of white sand, warm water and a bar at either end.",
+        "description": "Waiheke's longest beach, forty minutes by ferry and a bus from the wharf, two kilometres of white sand, warm water and a bar at either end.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "5 hrs",
@@ -264,7 +264,7 @@
       {
         "id": "AKL-C-06",
         "title": "Friday Night Film at Silo Park",
-        "description": "Summer Fridays in the shadow of a disused cement silo in Wynyard Quarter — food trucks, a record fair, and a film projected onto the silo wall once it is properly dark.",
+        "description": "Summer Fridays in the shadow of a disused cement silo in Wynyard Quarter: food trucks, a record fair, and a film projected onto the silo wall once it is properly dark.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -345,7 +345,7 @@
       {
         "id": "AKL-8B-01",
         "title": "Board Whichever Ferry Leaves Next",
-        "description": "Go to the Downtown Ferry Terminal, take whichever sailing departs next — Devonport, Bayswater, Half Moon Bay, Rakino — and give that place the rest of your afternoon.",
+        "description": "Go to the Downtown Ferry Terminal, take whichever sailing departs next (Devonport, Bayswater, Half Moon Bay, Rakino) and give that place the rest of your afternoon.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "4 hrs",
@@ -366,7 +366,7 @@
       {
         "id": "AKL-8B-02",
         "title": "Pick a Volcano You've Never Climbed",
-        "description": "Fifty-three volcanoes sit underneath this city. Pick a cone you have never been up — Māngere, Ōwairaka, Te Tātua-a-Riukiuta — and be on the summit for sunset.",
+        "description": "Fifty-three volcanoes sit underneath this city. Pick a cone you have never been up (Māngere, Ōwairaka, Te Tātua-a-Riukiuta) and be on the summit for sunset.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -389,7 +389,7 @@
       {
         "id": "AKL-S-12",
         "title": "Eat Standing Up at the Night Markets",
-        "description": "A different mall carpark fills with a hundred food stalls every night of the week — Malaysian, Korean, Uyghur, dessert trucks, and half of Auckland eating on its feet.",
+        "description": "A different mall carpark fills with a hundred food stalls every night of the week: Malaysian, Korean, Uyghur, dessert trucks, and half of Auckland eating on its feet.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -408,7 +408,7 @@
       {
         "id": "AKL-S-11",
         "title": "Carafes on the Kerb at Freida Margolis",
-        "description": "A former West Lynn butcher's shop turned tiny wine bar — Colombian playlists, cheap carafes, and the whole crowd spilling onto the footpath by six.",
+        "description": "A former West Lynn butcher's shop turned tiny wine bar: Colombian playlists, cheap carafes, and the whole crowd spilling onto the footpath by six.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3 hrs",
@@ -467,7 +467,7 @@
       {
         "id": "AKL-S-05",
         "title": "Super Rugby Under the Lights at Eden Park",
-        "description": "The Blues at Eden Park — fifty thousand people, a whole suburb emptying into the ground on foot, and the loudest stadium in New Zealand.",
+        "description": "The Blues at Eden Park: fifty thousand people, a whole suburb emptying into the ground on foot, and the loudest stadium in New Zealand.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3 hrs",
@@ -486,7 +486,7 @@
       {
         "id": "AKL-S-10",
         "title": "Catch a Gig at The Powerstation",
-        "description": "An old Mount Eden power substation turned 900-capacity live room — low ceiling, sticky floor, and the venue every touring band plays before they outgrow it.",
+        "description": "An old Mount Eden power substation turned 900-capacity live room: low ceiling, sticky floor, and the venue every touring band plays before they outgrow it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "4 hrs",
@@ -506,7 +506,7 @@
       {
         "id": "AKL-S-07",
         "title": "Order Off No Menu at Caretaker",
-        "description": "A dark basement bar under Britomart with no drinks list at all — you describe a mood or a spirit and the bartender builds something in front of you.",
+        "description": "A dark basement bar under Britomart with no drinks list at all. You describe a mood or a spirit and the bartender builds something in front of you.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -526,7 +526,7 @@
       {
         "id": "AKL-S-08",
         "title": "Work Your Way Around Ponsonby Central",
-        "description": "A converted warehouse block off Ponsonby Road holding a dozen kitchens and bars that open onto shared laneways — the default Friday for half the inner west.",
+        "description": "A converted warehouse block off Ponsonby Road holding a dozen kitchens and bars that open onto shared laneways, the default Friday for half the inner west.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -592,7 +592,7 @@
       {
         "id": "AKL-F-07",
         "title": "Dumpling Crawl Down Dominion Road",
-        "description": "Balmoral's stretch of Dominion Road is Auckland's Chinatown — start at Barilla Dumpling and work your way down the street until you physically cannot continue.",
+        "description": "Balmoral's stretch of Dominion Road is Auckland's Chinatown. Start at Barilla Dumpling and work your way down the street until you physically cannot continue.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -611,7 +611,7 @@
       {
         "id": "AKL-F-12",
         "title": "The Tasting Menu at Paris Butter",
-        "description": "A small Herne Bay villa doing the most precise cooking in the country — French technique, New Zealand produce, and a menu worth planning a whole evening around.",
+        "description": "A small Herne Bay villa doing the most precise cooking in the country: French technique, New Zealand produce, and a menu worth planning a whole evening around.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3 hrs",
@@ -629,7 +629,7 @@
       {
         "id": "AKL-F-06",
         "title": "Shuck-to-Order Oysters at Depot Eatery",
-        "description": "Al Brown's no-bookings Federal Street institution — oysters opened in front of you, wood-fired small plates, and a room that has been full every night for over a decade.",
+        "description": "Al Brown's no-bookings Federal Street institution. Oysters opened in front of you, wood-fired small plates, and a room that has been full every night for over a decade.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -687,7 +687,7 @@
       {
         "id": "AKL-F-11",
         "title": "Long Lunch in the Hallertau Beer Garden",
-        "description": "A brewery garden out at Riverhead, thirty minutes from town — long tables under the trees, a wood-fired kitchen and eight taps of beer brewed on site.",
+        "description": "A brewery garden out at Riverhead, thirty minutes from town, long tables under the trees, a wood-fired kitchen and eight taps of beer brewed on site.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -707,7 +707,7 @@
       {
         "id": "AKL-F-09",
         "title": "Fire-Cooked New Zealand Produce at Ahi",
-        "description": "Ben Bayly cooks a genuinely New Zealand menu over open fire — Te Matuku oysters, kelp, horopito, Hawke's Bay lamb — with the harbour through the glass at Commercial Bay.",
+        "description": "Ben Bayly cooks a genuinely New Zealand menu over open fire (Te Matuku oysters, kelp, horopito, Hawke's Bay lamb) with the harbour through the glass at Commercial Bay.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -726,7 +726,7 @@
       {
         "id": "AKL-F-10",
         "title": "Saturday Morning at Ōtara Flea Market",
-        "description": "The largest Pacific market in the country fills a South Auckland carpark every Saturday — Tongan ʻota ʻika, Samoan panipopo, umu cooking and a brass band by nine.",
+        "description": "The largest Pacific market in the country fills a South Auckland carpark every Saturday: Tongan ʻota ʻika, Samoan panipopo, umu cooking and a brass band by nine.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -778,7 +778,7 @@
       {
         "id": "AKL-A-06",
         "title": "Walk the Coast to Coast Across the Isthmus",
-        "description": "Sixteen kilometres from the Waitematā to the Manukau, straight over four volcanic cones and through the Domain — the whole isthmus on foot in a morning.",
+        "description": "Sixteen kilometres from the Waitematā to the Manukau, straight over four volcanic cones and through the Domain, the whole isthmus on foot in a morning.",
         "rarity": "Common",
         "cost": "$",
         "duration": "4–5 hrs",
@@ -798,7 +798,7 @@
       {
         "id": "AKL-A-11",
         "title": "Ocean-Touch Bungy Off the Harbour Bridge",
-        "description": "Forty metres off the Auckland Harbour Bridge on the only ocean-touch bungy in the world — ask for the dip and they drop you into the Waitematā to your shoulders.",
+        "description": "Forty metres off the Auckland Harbour Bridge on the only ocean-touch bungy in the world. Ask for the dip and they drop you into the Waitematā to your shoulders.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "1.5 hrs",
@@ -825,7 +825,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 24,
-        "bonus": "Spot a takahē — there are only a few hundred left alive.",
+        "bonus": "Spot a takahē. There are only a few hundred left alive.",
         "city": "Auckland, New Zealand",
         "mapsUrl": "https://maps.google.com/maps/search/Tiritiri+Matangi+Island+Auckland",
         "company": [
@@ -877,7 +877,7 @@
       {
         "id": "AKL-A-12",
         "title": "A Weekend Under the Great Barrier Dark Sky",
-        "description": "Aotea / Great Barrier is one of a handful of International Dark Sky Sanctuaries on earth — no streetlights, no power grid, and a Milky Way bright enough to cast shadows.",
+        "description": "Aotea / Great Barrier is one of a handful of International Dark Sky Sanctuaries on earth: no streetlights, no power grid, and a Milky Way bright enough to cast shadows.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "Weekend",
@@ -896,7 +896,7 @@
       {
         "id": "AKL-A-08",
         "title": "Snorkel the Kelp at Goat Island Marine Reserve",
-        "description": "New Zealand's first marine reserve, 90 minutes north — wade straight off the beach into kelp forest thick with snapper and blue maomao that have never been fished.",
+        "description": "New Zealand's first marine reserve, 90 minutes north, wade straight off the beach into kelp forest thick with snapper and blue maomao that have never been fished.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "3 hrs",
@@ -994,7 +994,7 @@
       {
         "id": "AKL-AC-02",
         "title": "SkyJump from the Sky Tower",
-        "description": "Step off a platform 192 metres up and free-fall on a wire above the CBD — Auckland's signature adrenaline rush.",
+        "description": "Step off a platform 192 metres up and free-fall on a wire above the CBD, Auckland's signature adrenaline rush.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "1–2 hrs",

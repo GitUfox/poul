@@ -9,7 +9,7 @@
       {
         "id": "PAR-S-201",
         "title": "Guinguette Night at Chez Gégène",
-        "description": "On the Marne at Joinville, this century-old guinguette still does what it's always done — accordion, dancing between courses, and carafes of wine on checked tablecloths until nobody remembers being a stranger.",
+        "description": "On the Marne at Joinville, this century-old guinguette still does what it's always done: accordion, dancing between courses, and carafes of wine on checked tablecloths until nobody remembers being a stranger.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -24,8 +24,8 @@
       },
       {
         "id": "PAR-S-08",
-        "title": "Late-night Pigalle bar crawl",
-        "description": "Pigalle SoPi (South Pigalle) is the most genuinely fun nightlife district in Paris — cramped bars, good music, late kitchens, and nobody going home before 2am.",
+        "title": "Late-Night Pigalle Bar Crawl",
+        "description": "Pigalle SoPi (South Pigalle) is the most genuinely fun nightlife district in Paris: cramped bars, good music, late kitchens, and nobody going home before 2am.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -44,7 +44,7 @@
       {
         "id": "PAR-S-02",
         "title": "Jazz at New Morning, Rue des Petites-Écuries",
-        "description": "The bare-brick hall on Rue des Petites-Écuries has hosted Chet Baker, Prince, and every serious jazz act passing through Paris since 1981 — check the bill, buy the ticket, stand close.",
+        "description": "The bare-brick hall on Rue des Petites-Écuries has hosted Chet Baker, Prince, and every serious jazz act passing through Paris since 1981. Check the bill, buy the ticket, stand close.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -58,8 +58,8 @@
       },
       {
         "id": "PAR-S-05",
-        "title": "Cocktails at Terrass Hotel rooftop, Montmartre",
-        "description": "Montmartre's rooftop bars at sunset — Sacré-Cœur glowing above and all of Paris below — are one of the great city-view experiences in the world.",
+        "title": "Cocktails at Terrass Hotel Rooftop, Montmartre",
+        "description": "Montmartre's rooftop bars at sunset, Sacré-Cœur glowing above and all of Paris below, are one of the great city-view experiences in the world.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -78,7 +78,7 @@
       {
         "id": "PARI_S_04",
         "title": "Sunday Afternoon at Rosa Bonheur",
-        "description": "Rosa Bonheur in the Parc des Buttes-Chaumont is Paris's best outdoor guinguette — a boules pitch, a bar, and 500 Parisians all in one green hillside clearing.",
+        "description": "Rosa Bonheur in the Parc des Buttes-Chaumont is Paris's best outdoor guinguette: a boules pitch, a bar, and 500 Parisians all in one green hillside clearing.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -86,7 +86,7 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Challenge a strangers' pétanque team to a game — loser buys a round.",
+        "bonus": "Challenge a strangers' pétanque team to a game, loser buys a round.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rosa+Bonheur+Buttes-Chaumont+Paris",
         "adult": true
@@ -94,7 +94,7 @@
       {
         "id": "PARI_S_03",
         "title": "Cocktails at Le Syndicat",
-        "description": "Le Syndicat on Rue du Faubourg Saint-Denis is a militant French spirits bar — every bottle on the back shelf is French, the cocktails are original, and the crowd knows exactly where they are.",
+        "description": "Le Syndicat on Rue du Faubourg Saint-Denis is a militant French spirits bar. Every bottle on the back shelf is French, the cocktails are original, and the crowd knows exactly where they are.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -102,7 +102,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Order whatever the bartender is personally drinking tonight — then actually finish it.",
+        "bonus": "Order whatever the bartender is personally drinking tonight, then actually finish it.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Syndicat+Paris",
         "adult": true
@@ -110,7 +110,7 @@
       {
         "id": "PARI_S_02",
         "title": "Late Night at Le Caveau de la Huchette",
-        "description": "This jazz and swing club in a medieval Latin Quarter cellar has been running continuous sessions since 1946 — the dance floor fills up and stays full until 2am.",
+        "description": "This jazz and swing club in a medieval Latin Quarter cellar has been running continuous sessions since 1946. The dance floor fills up and stays full until 2am.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–4 hrs",
@@ -118,7 +118,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask a stranger to dance during the first song — no experience required, no excuses accepted.",
+        "bonus": "Ask a stranger to dance during the first song: no experience required, no excuses accepted.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Caveau+de+la+Huchette+Paris"
       },
@@ -133,7 +133,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Strike up a conversation with the group next to you — in French — and get at least one local restaurant recommendation out of it.",
+        "bonus": "Strike up a conversation with the group next to you, in French, and get at least one local restaurant recommendation out of it.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Canal+Saint-Martin+Paris",
         "adult": true
@@ -143,7 +143,7 @@
       {
         "id": "PAR-A-202",
         "title": "Boulder the Fontainebleau Forest",
-        "description": "The birthplace of modern bouldering is forty minutes from Gare de Lyon — rent a crash pad, follow the painted circuit arrows through the pines at Bas Cuvier, and climb where every legend learned.",
+        "description": "The birthplace of modern bouldering is forty minutes from Gare de Lyon. Rent a crash pad, follow the painted circuit arrows through the pines at Bas Cuvier, and climb where every legend learned.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "6–8 hrs",
@@ -151,14 +151,14 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 25,
-        "bonus": "Complete one full colored circuit — even the kids' one counts if you finish every problem.",
+        "bonus": "Complete one full colored circuit. Even the kids' one counts if you finish every problem.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/Bas+Cuvier+bouldering+Fontainebleau"
       },
       {
         "id": "PAR-A-201",
         "title": "Climb the Arc de Triomphe at Dusk",
-        "description": "Two hundred and eighty-four spiral steps put you dead center of the twelve avenues as they light up — the only rooftop in Paris where the Eiffel Tower sparkles on the hour just for you.",
+        "description": "Two hundred and eighty-four spiral steps put you dead center of the twelve avenues as they light up, the only rooftop in Paris where the Eiffel Tower sparkles on the hour just for you.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–1.5 hrs",
@@ -166,14 +166,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Stay for the top of the hour — count the avenues out loud while the tower glitters.",
+        "bonus": "Stay for the top of the hour. Count the avenues out loud while the tower glitters.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/Arc+de+Triomphe+Paris"
       },
       {
         "id": "PAR-AC-102",
         "title": "Trail Run Through the Bois de Vincennes",
-        "description": "Paris's largest park serves up 995 hectares of actual forest trails, lake paths, and zero tourists — the eastern loop past Lac Daumesnil is genuinely wild feeling.",
+        "description": "Paris's largest park serves up 995 hectares of actual forest trails, lake paths, and zero tourists. The eastern loop past Lac Daumesnil is genuinely wild feeling.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -181,7 +181,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run the full perimeter of Lac Daumesnil without stopping — it's 3.5km and the path is uneven enough to keep you honest.",
+        "bonus": "Run the full perimeter of Lac Daumesnil without stopping. It's 3.5km and the path is uneven enough to keep you honest.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/Bois+de+Vincennes+Lac+Daumesnil+Paris"
       },
@@ -196,14 +196,14 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Do 10 pull-ups at the bars closest to the Eiffel Tower — with the tower in your eyeline the entire time.",
+        "bonus": "Do 10 pull-ups at the bars closest to the Eiffel Tower, with the tower in your eyeline the entire time.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/Berges+de+Seine+fitness+Paris+Pont+d'Iéna"
       },
       {
         "id": "PAR-A-105",
         "title": "Dawn Balloon Flight from Fontainebleau",
-        "description": "Lift off at first light with the operators who've flown the Fontainebleau forest for decades — château, treetops, and the Île-de-France unrolling in complete silence before the region wakes.",
+        "description": "Lift off at first light with the operators who've flown the Fontainebleau forest for decades: château, treetops, and the Île-de-France unrolling in complete silence before the region wakes.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -211,14 +211,14 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 40,
-        "bonus": "Keep your eyes open during the burner blast directly above your head — no looking away.",
+        "bonus": "Keep your eyes open during the burner blast directly above your head, no looking away.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/montgolfière+Fontainebleau"
       },
       {
         "id": "PAR-A-102",
         "title": "Wander the Palais Garnier",
-        "description": "The grand staircase, the Chagall ceiling, and the velvet-red auditorium of Paris's opera house — take the self-guided visit and find the box Leroux gave to the Phantom.",
+        "description": "The grand staircase, the Chagall ceiling, and the velvet-red auditorium of Paris's opera house. Take the self-guided visit and find the box Leroux gave to the Phantom.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -233,7 +233,7 @@
       {
         "id": "PAR-A-101",
         "title": "Paddle the Bassin de la Villette",
-        "description": "The municipal base nautique at La Villette puts you in a kayak on Paris's widest water — street art, barges, and the raw northeastern edge of the city gliding past at water level.",
+        "description": "The municipal base nautique at La Villette puts you in a kayak on Paris's widest water: street art, barges, and the raw northeastern edge of the city gliding past at water level.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -241,14 +241,14 @@
         "time": "Morning",
         "season": "Apr–Oct",
         "spark": 25,
-        "bonus": "Paddle all the way to the Parc de la Villette basin without stopping — buy a coffee from the floating café when you arrive.",
+        "bonus": "Paddle all the way to the Parc de la Villette basin without stopping. Buy a coffee from the floating café when you arrive.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/base+nautique+Bassin+de+la+Villette+Paris"
       },
       {
         "id": "PAR-A-04",
-        "title": "Night run along the Seine",
-        "description": "Paris at night on the quays — lamplit bridges, empty roads, the Eiffel Tower sparkling on the hour — is the best run in any city in the world.",
+        "title": "Night Run Along the Seine",
+        "description": "Paris at night on the quays (lamplit bridges, empty roads, the Eiffel Tower sparkling on the hour) is the best run in any city in the world.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -262,8 +262,8 @@
       },
       {
         "id": "PAR-AC-01",
-        "title": "Morning run along the Seine riverbanks",
-        "description": "The Berges de Seine, car-free since 2013, is 4.5km of riverside path from Pont de l'Alma to Pont de Sully — morning light, almost no one, cafes just opening.",
+        "title": "Morning Run Along the Seine Riverbanks",
+        "description": "The Berges de Seine, car-free since 2013, is 4.5km of riverside path from Pont de l'Alma to Pont de Sully: morning light, almost no one, cafes just opening.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -277,8 +277,8 @@
       },
       {
         "id": "PAR-A-06",
-        "title": "Rooftop drinks at Le Perchoir Ménilmontant",
-        "description": "Seven floors above the 11th, Le Perchoir's original rooftop pours cocktails with a 360° sweep from Sacré-Cœur to the Eiffel Tower — arrive before golden hour or expect the queue.",
+        "title": "Rooftop Drinks at Le Perchoir Ménilmontant",
+        "description": "Seven floors above the 11th, Le Perchoir's original rooftop pours cocktails with a 360° sweep from Sacré-Cœur to the Eiffel Tower. Arrive before golden hour or expect the queue.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -293,8 +293,8 @@
       },
       {
         "id": "PAR-AC-03",
-        "title": "SUP on the Marne river",
-        "description": "The Marne east of Paris has calm water, guinguettes on the banks, and SUP rental operators — an afternoon on the water feels nothing like being in a capital city.",
+        "title": "SUP on the Marne River",
+        "description": "The Marne east of Paris has calm water, guinguettes on the banks, and SUP rental operators. An afternoon on the water feels nothing like being in a capital city.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -308,8 +308,8 @@
       },
       {
         "id": "PAR-A-05",
-        "title": "Vélib cycle across all 20 arrondissements",
-        "description": "Paris is technically compact enough to cycle end-to-end in two hours on a Vélib — route yourself through all 20 arrondissements and touch a landmark in each.",
+        "title": "Vélib Cycle Across All 20 Arrondissements",
+        "description": "Paris is technically compact enough to cycle end-to-end in two hours on a Vélib, route yourself through all 20 arrondissements and touch a landmark in each.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -324,7 +324,7 @@
       {
         "id": "PAR-AC-02",
         "title": "Walk the Coulée Verte from Bastille to Vincennes",
-        "description": "The elevated Coulée Verte René-Dumont — the 1993 planted walkway that inspired New York's High Line — runs 4.5km from Bastille toward the Bois de Vincennes at treetop level.",
+        "description": "The elevated Coulée Verte René-Dumont, the 1993 planted walkway that inspired New York's High Line, runs 4.5km from Bastille toward the Bois de Vincennes at treetop level.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -339,7 +339,7 @@
       {
         "id": "PAR-S-01",
         "title": "Pétanque in the Jardins du Palais Royal",
-        "description": "The graveled gardens behind the Louvre are where Parisians play pétanque under the arcades — join a game, lose gracefully, and stay for another round.",
+        "description": "The graveled gardens behind the Louvre are where Parisians play pétanque under the arcades. Join a game, lose gracefully, and stay for another round.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -353,8 +353,8 @@
       },
       {
         "id": "PAR-A-01",
-        "title": "Catacombs tour after dark (guided)",
-        "description": "Six million Parisians are stacked in 300km of tunnels under your feet — a guided evening tour of the ossuary goes further than the public entrance and turns something grim into something genuinely astonishing.",
+        "title": "Catacombs Tour After Dark (Guided)",
+        "description": "Six million Parisians are stacked in 300km of tunnels under your feet, a guided evening tour of the ossuary goes further than the public entrance and turns something grim into something genuinely astonishing.",
         "rarity": "Legendary",
         "cost": "$$",
         "duration": "2 hrs",
@@ -368,8 +368,8 @@
       },
       {
         "id": "PAR-AC-07",
-        "title": "Climb at Block'Out bouldering gym",
-        "description": "Paris bouldering is quietly serious — Block'Out Saint-Ouen, just past the Périphérique, sets 1,200m² of modern problems weekly and keeps a terrace for recovery beers.",
+        "title": "Climb at Block'Out Bouldering Gym",
+        "description": "Paris bouldering is quietly serious. Block'Out Saint-Ouen, just past the Périphérique, sets 1,200m² of modern problems weekly and keeps a terrace for recovery beers.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "2 hrs",
@@ -384,7 +384,7 @@
       {
         "id": "PAR-AC-05",
         "title": "Swim at the Piscine Joséphine Baker on the Seine",
-        "description": "Paris's floating outdoor pool is moored on the Seine with a retractable glass roof — lap swimming on a river in the center of Paris is genuinely unusual.",
+        "description": "Paris's floating outdoor pool is moored on the Seine with a retractable glass roof, lap swimming on a river in the center of Paris is genuinely unusual.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1 hr",
@@ -398,8 +398,8 @@
       },
       {
         "id": "PAR-AC-06",
-        "title": "Nordic walk through the Bois de Boulogne",
-        "description": "The 846-hectare forest west of Paris has 37km of trails — rent poles at the gatehouse and do a full Nordic walk through to the Longchamp racecourse.",
+        "title": "Nordic Walk Through the Bois de Boulogne",
+        "description": "The 846-hectare forest west of Paris has 37km of trails. Rent poles at the gatehouse and do a full Nordic walk through to the Longchamp racecourse.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -414,7 +414,7 @@
       {
         "id": "PAR-AC-08",
         "title": "Cycle to Versailles on La Véloscénie",
-        "description": "The first leg of La Véloscénie greenway links Paris to Versailles on mostly traffic-free paths through the Meudon woods — a half-day out-and-back ending at the palace gates.",
+        "description": "The first leg of La Véloscénie greenway links Paris to Versailles on mostly traffic-free paths through the Meudon woods, a half-day out-and-back ending at the palace gates.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "5–6 hrs",
@@ -429,7 +429,7 @@
       {
         "id": "PARI_AC_04",
         "title": "Skate the Trocadéro Esplanade",
-        "description": "The marble esplanade in front of the Trocadéro with the Eiffel Tower dead ahead is where Paris's skate scene has held court for decades — bladers, skaters, and onlookers all day long.",
+        "description": "The marble esplanade in front of the Trocadéro with the Eiffel Tower dead ahead is where Paris's skate scene has held court for decades: bladers, skaters, and onlookers all day long.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -437,14 +437,14 @@
         "time": "Afternoon",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Borrow a skater's board for one run across the esplanade — negotiate it yourself, no money involved.",
+        "bonus": "Borrow a skater's board for one run across the esplanade, negotiate it yourself, no money involved.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trocadéro+Esplanade+Paris"
       },
       {
         "id": "PARI_AC_02",
         "title": "Climb to the Summit of the Eiffel Tower on Foot",
-        "description": "Taking the stairs to the second floor — and pushing on to the summit by lift — makes the Eiffel Tower a physical event, not a passive one.",
+        "description": "Taking the stairs to the second floor, and pushing on to the summit by lift, makes the Eiffel Tower a physical event, not a passive one.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -452,14 +452,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Walk every single stair to the second floor (674 steps) without using the elevator — time yourself.",
+        "bonus": "Walk every single stair to the second floor (674 steps) without using the elevator. Time yourself.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tour+Eiffel+Paris"
       },
       {
         "id": "PARI_AC_01",
         "title": "Run the Bois de Boulogne at Dawn",
-        "description": "The 845-hectare Bois de Boulogne in the early morning belongs to runners and cyclists — the lakes catch the mist and the city hasn't woken up yet.",
+        "description": "The 845-hectare Bois de Boulogne in the early morning belongs to runners and cyclists, the lakes catch the mist and the city hasn't woken up yet.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -467,7 +467,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Loop the Lac Inférieur without stopping — roughly 3.5km — and log your time.",
+        "bonus": "Loop the Lac Inférieur without stopping, roughly 3.5km, and log your time.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bois+de+Boulogne+Paris"
       },
@@ -482,7 +482,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Find Emmanuel the great bell and press your hand flat against the bronze — feel the history in the metal.",
+        "bonus": "Find Emmanuel the great bell and press your hand flat against the bronze. Feel the history in the metal.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tours+de+Notre-Dame+de+Paris"
       },
@@ -497,7 +497,7 @@
         "time": "Evening",
         "season": "Apr–Oct",
         "spark": 15,
-        "bonus": "Stop on Pont des Arts at midnight and yell something into the river — loud enough to echo.",
+        "bonus": "Stop on Pont des Arts at midnight and yell something into the river, loud enough to echo.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Velib+station+Pont+de+l%27Alma+Paris"
       },
@@ -512,7 +512,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Spot the Eiffel Tower, Sacré-Cœur, and the Pompidou from the same standing spot — snap them in one panoramic sweep.",
+        "bonus": "Spot the Eiffel Tower, Sacré-Cœur, and the Pompidou from the same standing spot, snap them in one panoramic sweep.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Galeries+Lafayette+Paris+Haussmann+rooftop"
       }
@@ -529,14 +529,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Negotiate a dealer down by at least 20% on something you actually want to buy — no walking away until you've tried.",
+        "bonus": "Negotiate a dealer down by at least 20% on something you actually want to buy, no walking away until you've tried.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/Marché+aux+Puces+de+Saint-Ouen+Paris"
       },
       {
         "id": "PAR-CH-01",
         "title": "Read in the Jardin du Luxembourg",
-        "description": "The metal chairs of the Luxembourg are a Paris institution — drag one to a sunny spot near the octagonal fountain, open a book, and don't move for two hours.",
+        "description": "The metal chairs of the Luxembourg are a Paris institution. Drag one to a sunny spot near the octagonal fountain, open a book, and don't move for two hours.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -550,8 +550,8 @@
       },
       {
         "id": "PAR-CH-07",
-        "title": "Golden hour picnic on the Seine quays",
-        "description": "The lower quays along the Seine between Pont de l'Alma and Pont d'Iena fill at dusk with Paris's best informal picnic culture — join it with wine and something from a market.",
+        "title": "Golden Hour Picnic on the Seine Quays",
+        "description": "The lower quays along the Seine between Pont de l'Alma and Pont d'Iena fill at dusk with Paris's best informal picnic culture. Join it with wine and something from a market.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2 hrs",
@@ -569,7 +569,7 @@
       {
         "id": "PAR-CH-03",
         "title": "Espresso at Café Procope, Saint-Germain-des-Prés",
-        "description": "Café Procope has poured coffee since 1686 — Voltaire ran a tab here. Order a café crème, take the chair facing Rue de l'Ancienne Comédie, and don't look at your phone for an hour.",
+        "description": "Café Procope has poured coffee since 1686. Voltaire ran a tab here. Order a café crème, take the chair facing Rue de l'Ancienne Comédie, and don't look at your phone for an hour.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -583,8 +583,8 @@
       },
       {
         "id": "PAR-CH-06",
-        "title": "Afternoon nap in the Tuileries garden chairs",
-        "description": "The Tuileries metal chairs are designed for lounging, positioned for people-watching, and available to drag wherever the sun is — the Louvre on one end, the Ferris wheel on the other.",
+        "title": "Afternoon Nap in the Tuileries Garden Chairs",
+        "description": "The Tuileries metal chairs are designed for lounging, positioned for people-watching, and available to drag wherever the sun is, the Louvre on one end, the Ferris wheel on the other.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -598,8 +598,8 @@
       },
       {
         "id": "PAR-CH-08",
-        "title": "Wander the covered passages of the 2nd arrondissement",
-        "description": "The 19th-century glass-roofed galeries — Vivénne, Colbert, Véro-Dodat — are intact shopping arcades preserved like time capsules from another Paris.",
+        "title": "Wander the Covered Passages of the 2nd Arrondissement",
+        "description": "The 19th-century glass-roofed galeries (Vivénne, Colbert, Véro-Dodat) are intact shopping arcades preserved like time capsules from another Paris.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -614,7 +614,7 @@
       {
         "id": "PARI_C_04",
         "title": "Sunset from Sacré-Cœur Steps",
-        "description": "The west-facing steps of Sacré-Cœur at golden hour turn the entire Paris basin amber — bring something to drink and stay until the Eiffel Tower lights up.",
+        "description": "The west-facing steps of Sacré-Cœur at golden hour turn the entire Paris basin amber. Bring something to drink and stay until the Eiffel Tower lights up.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -622,7 +622,7 @@
         "time": "Evening",
         "season": "Apr–Sep",
         "spark": 15,
-        "bonus": "Don't pull out your phone for the first 10 minutes after sitting down — just watch the city change color.",
+        "bonus": "Don't pull out your phone for the first 10 minutes after sitting down, just watch the city change color.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sacré-Cœur+Montmartre+Paris",
         "company": [
@@ -632,7 +632,7 @@
       {
         "id": "PARI_C_03",
         "title": "Wander Père Lachaise Cemetery",
-        "description": "Père Lachaise is the most beautiful urban cemetery in the world — 44 hectares of cobbled paths, crumbling mausoleums, and a cast of residents that reads like a syllabus.",
+        "description": "Père Lachaise is the most beautiful urban cemetery in the world: 44 hectares of cobbled paths, crumbling mausoleums, and a cast of residents that reads like a syllabus.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -640,14 +640,14 @@
         "time": "Afternoon",
         "season": "Mar–Nov",
         "spark": 25,
-        "bonus": "Find Jim Morrison's grave without using Google Maps — ask a groundskeeper or follow the handmade signs left by pilgrims.",
+        "bonus": "Find Jim Morrison's grave without using Google Maps. Ask a groundskeeper or follow the handmade signs left by pilgrims.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cimetière+du+Père+Lachaise+Paris"
       },
       {
         "id": "PARI_C_02",
         "title": "Afternoon Tea at Angélina",
-        "description": "The house hot chocolate at Angélina on Rue de Rivoli has been the thickest, most indulgent cup in Paris since 1903 — drink it slowly or not at all.",
+        "description": "The house hot chocolate at Angélina on Rue de Rivoli has been the thickest, most indulgent cup in Paris since 1903. Drink it slowly or not at all.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -655,14 +655,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the Mont-Blanc pastry alongside the hot chocolate and eat both in under 20 minutes — it's harder than it sounds.",
+        "bonus": "Order the Mont-Blanc pastry alongside the hot chocolate and eat both in under 20 minutes. It's harder than it sounds.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Angélina+Paris+Rivoli"
       },
       {
         "id": "PARI_C_01",
         "title": "Afternoon at Jardin du Palais Royal",
-        "description": "The arcaded gardens of the Palais Royal are one of Paris's great secret courtyards — calm, beautiful, and completely off the tourist radar.",
+        "description": "The arcaded gardens of the Palais Royal are one of Paris's great secret courtyards: calm, beautiful, and completely off the tourist radar.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -670,7 +670,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Sit on the same bench for 30 minutes without touching your phone — count how many languages you hear pass by.",
+        "bonus": "Sit on the same bench for 30 minutes without touching your phone. Count how many languages you hear pass by.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jardin+du+Palais+Royal+Paris"
       }
@@ -693,8 +693,8 @@
       },
       {
         "id": "PAR-CH-02",
-        "title": "Early morning at the Musée d'Orsay",
-        "description": "The Impressionist collection on the top floor at 9:31am, before any group tours arrive — you and the Monets in a converted train station with almost nobody else.",
+        "title": "Early Morning at the Musée d'Orsay",
+        "description": "The Impressionist collection on the top floor at 9:31am, before any group tours arrive. You and the Monets in a converted train station with almost nobody else.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -709,7 +709,7 @@
       {
         "id": "PAR-S-07",
         "title": "Film at Le Grand Rex, Grands Boulevards",
-        "description": "The Grands Boulevards district has the most beautiful old movie palaces in Europe — find a showing at Le Grand Rex or Max Linder and see something with the lights all the way up.",
+        "description": "The Grands Boulevards district has the most beautiful old movie palaces in Europe. Find a showing at Le Grand Rex or Max Linder and see something with the lights all the way up.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -723,8 +723,8 @@
       },
       {
         "id": "PAR-S-06",
-        "title": "Street-art walk with a guide in Belleville",
-        "description": "Belleville is the nerve center of Paris street art — self-guided or with a Visite Atelier guide, the murals range from political to absurd to enormous.",
+        "title": "Street-Art Walk with a Guide in Belleville",
+        "description": "Belleville is the nerve center of Paris street art, self-guided or with a Visite Atelier guide, the murals range from political to absurd to enormous.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -738,8 +738,8 @@
       },
       {
         "id": "PAR-S-04",
-        "title": "Sunday reading afternoon at Shakespeare and Company",
-        "description": "The legendary English-language bookshop on the Left Bank runs Sunday afternoon readings in its cramped upper library — show up without knowing who's speaking.",
+        "title": "Sunday Reading Afternoon at Shakespeare and Company",
+        "description": "The legendary English-language bookshop on the Left Bank runs Sunday afternoon readings in its cramped upper library. Show up without knowing who's speaking.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -758,8 +758,8 @@
     "foodie": [
       {
         "id": "PAR-F-04",
-        "title": "French onion soup at Au Pied de Cochon, Les Halles",
-        "description": "Gratinated, dark, deeply savory — Paris onion soup at a late-night brasserie is one of the great cheap meals in any city in the world.",
+        "title": "French Onion Soup at Au Pied de Cochon, Les Halles",
+        "description": "Gratinated, dark, deeply savory, Paris onion soup at a late-night brasserie is one of the great cheap meals in any city in the world.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -774,7 +774,7 @@
       {
         "id": "PAR-F-01",
         "title": "Croissant at Du Pain et des Idées, Canal Saint-Martin",
-        "description": "Christophe Vasseur's 1889-vintage boulangerie near Canal Saint-Martin bakes the most argued-about croissant in Paris — go on a weekday morning, add a pain des amis, and eat both on the canal.",
+        "description": "Christophe Vasseur's 1889-vintage boulangerie near Canal Saint-Martin bakes the most argued-about croissant in Paris. Go on a weekday morning, add a pain des amis, and eat both on the canal.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -788,8 +788,8 @@
       },
       {
         "id": "PAR-F-03",
-        "title": "Natural wine at La Cave de Belleville",
-        "description": "The Belleville cave à manger pours minimal-intervention wines by the glass with serious charcuterie boards — taste five things you've never heard of and be changed.",
+        "title": "Natural Wine at La Cave de Belleville",
+        "description": "The Belleville cave à manger pours minimal-intervention wines by the glass with serious charcuterie boards. Taste five things you've never heard of and be changed.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -805,7 +805,7 @@
       {
         "id": "PAR-F-09",
         "title": "Lunch at Frenchie, Rue du Nil, 2nd",
-        "description": "Grégory Marchand's Rue du Nil flagship anchors Paris's bistronomie movement — serious cooking at lunch prices; book ahead and give the afternoon to it.",
+        "description": "Grégory Marchand's Rue du Nil flagship anchors Paris's bistronomie movement, serious cooking at lunch prices; book ahead and give the afternoon to it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2–3 hrs",
@@ -820,7 +820,7 @@
       {
         "id": "PAR-F-05",
         "title": "Pâtisserie at Jacques Genin, Le Marais",
-        "description": "Jacques Genin's Rue de Turenne salon is the Marais's most serious sweet stop — mango-passion caramels, sculptural fruit jellies, and a Paris-Brest assembled when you order it.",
+        "description": "Jacques Genin's Rue de Turenne salon is the Marais's most serious sweet stop: mango-passion caramels, sculptural fruit jellies, and a Paris-Brest assembled when you order it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -835,7 +835,7 @@
       {
         "id": "PAR-F-02",
         "title": "Steak-frites at Bistrot Paul Bert, 11th",
-        "description": "The 11th arrondissement has a cluster of old-school zinc-bar bistros where steak-frites is still a serious act — sit at the bar and order it saignant.",
+        "description": "The 11th arrondissement has a cluster of old-school zinc-bar bistros where steak-frites is still a serious act. Sit at the bar and order it saignant.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -849,8 +849,8 @@
       },
       {
         "id": "PAR-F-10",
-        "title": "Tasting menu at Guy Savoy, Monnaie de Paris",
-        "description": "Guy Savoy's dining room inside the Monnaie de Paris looks over the Seine — the artichoke and black truffle soup with brioche has anchored the menu for decades. Give the table the evening.",
+        "title": "Tasting Menu at Guy Savoy, Monnaie de Paris",
+        "description": "Guy Savoy's dining room inside the Monnaie de Paris looks over the Seine, the artichoke and black truffle soup with brioche has anchored the menu for decades. Give the table the evening.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -864,7 +864,7 @@
       },
       {
         "id": "PAR-F-06",
-        "title": "Canal Saint-Martin picnic with market cheese and wine",
+        "title": "Canal Saint-Martin Picnic with Market Cheese and Wine",
         "description": "Buy cheese from a fromagerie, wine from a cave, bread from a boulangerie, and eat all of it on the canal bank while bikes and barges pass.",
         "rarity": "Common",
         "cost": "$",
@@ -883,7 +883,7 @@
       {
         "id": "PAR-F-07",
         "title": "Ramen at Kodawari Ramen, Rue Monsieur-le-Prince",
-        "description": "The original Kodawari counter on Rue Monsieur-le-Prince recreates a Tokyo yokocho down to the soundtrack — the line down the street knows exactly what it's waiting for.",
+        "description": "The original Kodawari counter on Rue Monsieur-le-Prince recreates a Tokyo yokocho down to the soundtrack. The line down the street knows exactly what it's waiting for.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -898,7 +898,7 @@
       {
         "id": "PAR-F-08",
         "title": "Crêpes at Breizh Café, Le Marais",
-        "description": "Cancale butter, buckwheat galettes, and a proper Breton cider list — Breizh Café's Marais dining room is the standing argument that a crêpe is cuisine, not street food.",
+        "description": "Cancale butter, buckwheat galettes, and a proper Breton cider list. Breizh Café's Marais dining room is the standing argument that a crêpe is cuisine, not street food.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30 min",
@@ -913,7 +913,7 @@
       {
         "id": "PARI_F_04",
         "title": "Wine Bar at Le Verre Volé",
-        "description": "This tiny canal-side cave à manger on Rue de Lancry has been the city's natural wine HQ since 2000 — small plates, great bottles, zero pretension.",
+        "description": "This tiny canal-side cave à manger on Rue de Lancry has been the city's natural wine HQ since 2000: small plates, great bottles, zero pretension.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -921,7 +921,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Pick a bottle blind from the back shelf — price under €30 — and commit to finishing it without checking the label first.",
+        "bonus": "Pick a bottle blind from the back shelf, price under €30, and commit to finishing it without checking the label first.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Verre+Volé+Paris",
         "adult": true
@@ -929,7 +929,7 @@
       {
         "id": "PARI_F_03",
         "title": "Market Lunch at Marché d'Aligre",
-        "description": "The Aligre market in the 12th is the most alive food market in Paris — cheap, loud, and stuffed with the best olives, charcuterie, and fresh bread in the city.",
+        "description": "The Aligre market in the 12th is the most alive food market in Paris: cheap, loud, and stuffed with the best olives, charcuterie, and fresh bread in the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -937,7 +937,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Build a full picnic lunch spending under €10 total — every item from a different stall.",
+        "bonus": "Build a full picnic lunch spending under €10 total, every item from a different stall.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Marché+d%27Aligre+Paris"
       },
@@ -952,7 +952,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask the sommelier to pair a natural wine you've never heard of with your main — then finish the entire glass before Googling the domaine.",
+        "bonus": "Ask the sommelier to pair a natural wine you've never heard of with your main, then finish the entire glass before Googling the domaine.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Septime+Restaurant+Paris"
       },
@@ -967,7 +967,7 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order in French only — no English, no pointing — and hold eye contact with the waiter through the whole exchange.",
+        "bonus": "Order in French only (no English, no pointing) and hold eye contact with the waiter through the whole exchange.",
         "city": "Paris, France",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Café+de+Flore+Paris"
       }

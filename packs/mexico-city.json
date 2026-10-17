@@ -9,7 +9,7 @@
       {
         "id": "MEX-S-202",
         "title": "Ballet Folclórico at the Palacio de Bellas Artes",
-        "description": "Amalia Hernández's company has filled the Tiffany-curtained hall with whirling folk ballet for seventy years — the most joyful two hours in the building.",
+        "description": "Amalia Hernández's company has filled the Tiffany-curtained hall with whirling folk ballet for seventy years, the most joyful two hours in the building.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2.5 hrs",
@@ -24,7 +24,7 @@
       {
         "id": "MEX-S-201",
         "title": "Mariachi Night at Plaza Garibaldi",
-        "description": "The mariachi mothership — dozens of bands in full traje working the square every night. Commission a song, learn the grito, repeat.",
+        "description": "The mariachi mothership, dozens of bands in full traje working the square every night. Commission a song, learn the grito, repeat.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -62,14 +62,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order a full dorado — a flattened, crisped quesadilla — in addition to your tacos, and eat the entire thing standing on the street.",
+        "bonus": "Order a full dorado (a flattened, crisped quesadilla) in addition to your tacos, and eat the entire thing standing on the street.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/El+Vilsito+tacos+Narvarte+Mexico+City"
       },
       {
         "id": "MEX-S-11",
         "title": "Long Lunch at Contramar, Colonia Roma",
-        "description": "The legendary seafood restaurant on Durango has been packing in architects, artists, and politicians since 1998 — the tuna tostadas and grilled fish are non-negotiable.",
+        "description": "The legendary seafood restaurant on Durango has been packing in architects, artists, and politicians since 1998. The tuna tostadas and grilled fish are non-negotiable.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -100,7 +100,7 @@
       {
         "id": "MEX-S-9",
         "title": "Mezcal and Botanas at Cantina El Centenario, Coyoacán",
-        "description": "This old-school cantina in Coyoacán serves complimentary botanas with every round in a tradition that most of the city has abandoned — Frida Kahlo drank in the neighborhood, not somewhere fancier.",
+        "description": "This old-school cantina in Coyoacán serves complimentary botanas with every round in a tradition that most of the city has abandoned, Frida Kahlo drank in the neighborhood, not somewhere fancier.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -108,7 +108,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Stay for three rounds without looking at your phone once — talk only to whoever is at the bar.",
+        "bonus": "Stay for three rounds without looking at your phone once. Talk only to whoever is at the bar.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Cantina+El+Centenario+Coyoacan+Mexico+City",
         "adult": true
@@ -147,7 +147,7 @@
       {
         "id": "MEX-S-4",
         "title": "Jazz Night at Zinco Jazz Club, Centro Histórico",
-        "description": "A 1930s bank vault converted into an underground jazz club — low ceilings, serious musicians, and mezcal cocktails in a room that feels like it was designed to make you stay until 3 a.m.",
+        "description": "A 1930s bank vault converted into an underground jazz club: low ceilings, serious musicians, and mezcal cocktails in a room that feels like it was designed to make you stay until 3 a.m.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "3–4 hrs",
@@ -155,7 +155,7 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Strike up a conversation with the person next to you at the bar before the first set ends — make sure they're a stranger.",
+        "bonus": "Strike up a conversation with the person next to you at the bar before the first set ends. Make sure they're a stranger.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Zinco+Jazz+Club+Centro+Historico+Mexico+City",
         "adult": true
@@ -163,7 +163,7 @@
       {
         "id": "MEX-S-3",
         "title": "Pulque at La Hija de los Apaches, Guerrero",
-        "description": "This century-old pulquería in Barrio de Guerrero pours thick, fermented agave sap straight from clay barrels into foam-flecked cups — the real Mexico City drink before mezcal was cool.",
+        "description": "This century-old pulquería in Barrio de Guerrero pours thick, fermented agave sap straight from clay barrels into foam-flecked cups, the real Mexico City drink before mezcal was cool.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -171,7 +171,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Ask the barman for a curado de apio — celery-cured pulque — and finish it before anyone at your table can try it.",
+        "bonus": "Ask the barman for a curado de apio, celery-cured pulque, and finish it before anyone at your table can try it.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/La+Hija+de+los+Apaches+pulqueria+Guerrero+Mexico+City",
         "adult": true
@@ -179,7 +179,7 @@
       {
         "id": "MEX-S-2",
         "title": "Friday Night at Patrick Miller Disco, Centro",
-        "description": "This legendary Friday-night hi-NRG dance hall in Centro has been running since the 1980s, and the regulars — dance-battling in circles for decades — will out-dance you without trying.",
+        "description": "This legendary Friday-night hi-NRG dance hall in Centro has been running since the 1980s, and the regulars, dance-battling in circles for decades, will out-dance you without trying.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -215,7 +215,7 @@
       {
         "id": "MEX-F-201",
         "title": "Churros and Hot Chocolate at El Moro, Centro",
-        "description": "Frying churros around the clock since 1935 — the tiled original on Eje Central at 2am is one of the city's great equalizers.",
+        "description": "Frying churros around the clock since 1935, the tiled original on Eje Central at 2am is one of the city's great equalizers.",
         "rarity": "Common",
         "cost": "$",
         "duration": "45 min",
@@ -238,14 +238,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Wander the full market before eating — find three ingredients you've never seen and ask a vendor what they're for.",
+        "bonus": "Wander the full market before eating. Find three ingredients you've never seen and ask a vendor what they're for.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Mercado+de+Medellin+Roma+Mexico+City"
       },
       {
         "id": "MEX-F-10",
         "title": "Tasting Counter at Sud 777, Pedregal",
-        "description": "Edgar Núñez's jungle-garden restaurant in Pedregal makes hyperlocal Mexican tasting menus that feel grown rather than cooked — vegetables, herbs, and fungi sourced within 150 km.",
+        "description": "Edgar Núñez's jungle-garden restaurant in Pedregal makes hyperlocal Mexican tasting menus that feel grown rather than cooked: vegetables, herbs, and fungi sourced within 150 km.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -253,14 +253,14 @@
         "time": "Evening",
         "season": "Year Round",
         "spark": 40,
-        "bonus": "Ask for the wine pairing, then tell the sommelier to swap any two pours for mezcal — see what they choose.",
+        "bonus": "Ask for the wine pairing, then tell the sommelier to swap any two pours for mezcal. See what they choose.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Sud+777+restaurante+Pedregal+Mexico+City"
       },
       {
         "id": "MEX-F-9",
         "title": "Torta at El Cuadrilátero, Centro Histórico",
-        "description": "A lucha libre–themed sandwich counter that has been slinging absurdly overstuffed tortas since 1993 — the Gladiador with milanesa, chorizo, and avocado is a city landmark in edible form.",
+        "description": "A lucha libre–themed sandwich counter that has been slinging absurdly overstuffed tortas since 1993: the Gladiador with milanesa, chorizo, and avocado is a city landmark in edible form.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -268,14 +268,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Order the largest torta on the menu and finish it solo in one sitting — no doggy bag.",
+        "bonus": "Order the largest torta on the menu and finish it solo in one sitting, no doggy bag.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/El+Cuadrilatero+tortas+Centro+Historico+Mexico+City"
       },
       {
         "id": "MEX-F-8",
         "title": "Breakfast Chilaquiles at Lalo!, Roma Norte",
-        "description": "Lalo! is the neighborhood breakfast institution that Roma Norte locals actually go to — loud, fast, perfectly executed chilaquiles with house salsa that hits every note.",
+        "description": "Lalo! is the neighborhood breakfast institution that Roma Norte locals actually go to: loud, fast, perfectly executed chilaquiles with house salsa that hits every note.",
         "rarity": "Common",
         "cost": "$$",
         "duration": "1 hr",
@@ -305,7 +305,7 @@
       {
         "id": "MEX-F-6",
         "title": "Tamales at Tamales Madre, Roma Norte",
-        "description": "Tamales Madre reinvents the tamale as a serious gastronomic object — masa ground fresh daily, fillings that rotate by season, eaten at a marble counter that feels more like a wine bar than a street stall.",
+        "description": "Tamales Madre reinvents the tamale as a serious gastronomic object: masa ground fresh daily, fillings that rotate by season, eaten at a marble counter that feels more like a wine bar than a street stall.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -320,7 +320,7 @@
       {
         "id": "MEX-F-5",
         "title": "Mole Negro at El Cardenal, Centro Histórico",
-        "description": "Since 1969, El Cardenal has served the most meticulously sourced traditional Mexican breakfast and lunch in the city — their mole negro is a three-day recipe and tastes like it.",
+        "description": "Since 1969, El Cardenal has served the most meticulously sourced traditional Mexican breakfast and lunch in the city. Their mole negro is a three-day recipe and tastes like it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "1–2 hrs",
@@ -350,7 +350,7 @@
       {
         "id": "MEX-F-3",
         "title": "Tasting Menu at Pujol",
-        "description": "Enrique Olvera's mole madre — some batches aged over 1,000 days — is one of the most discussed dishes in the world and you eat it here in Polanco.",
+        "description": "Enrique Olvera's mole madre (some batches aged over 1,000 days) is one of the most discussed dishes in the world and you eat it here in Polanco.",
         "rarity": "Legendary",
         "cost": "$$$",
         "duration": "2–3 hrs",
@@ -380,7 +380,7 @@
       {
         "id": "MEX-F-1",
         "title": "Eat Tacos de Canasta at El Farolito, Condesa",
-        "description": "El Farolito has been feeding Mexico City at 3am since 1952 and the tacos here — crispy, grease-edged, relentless — are what the city actually tastes like.",
+        "description": "El Farolito has been feeding Mexico City at 3am since 1952 and the tacos here (crispy, grease-edged, relentless) are what the city actually tastes like.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -397,7 +397,7 @@
       {
         "id": "MEX-C-202",
         "title": "Tour Casa Luis Barragán",
-        "description": "The UNESCO-listed house of Mexico's greatest architect is a masterclass in light, color, and silence — small guided groups only, and worth every peso of the booking hassle.",
+        "description": "The UNESCO-listed house of Mexico's greatest architect is a masterclass in light, color, and silence, small guided groups only, and worth every peso of the booking hassle.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "1.5 hrs",
@@ -412,7 +412,7 @@
       {
         "id": "MEX-C-11",
         "title": "Sit With the Murals at Palacio de Bellas Artes",
-        "description": "The interior of Mexico City's most beautiful building holds Rivera, Orozco, Siqueiros, and Tamayo murals within a single art deco marble hall — and almost nobody sits long enough to really look.",
+        "description": "The interior of Mexico City's most beautiful building holds Rivera, Orozco, Siqueiros, and Tamayo murals within a single art deco marble hall. And almost nobody sits long enough to really look.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -460,7 +460,7 @@
       {
         "id": "MEX-C-7",
         "title": "Slow Morning at Parque México, Condesa",
-        "description": "The oval Art Deco park at the heart of Colonia Condesa is a masterclass in civilized city life — fountains, fountains, art deco lamp posts, and the best people-watching in any colonia.",
+        "description": "The oval Art Deco park at the heart of Colonia Condesa is a masterclass in civilized city life: fountains, fountains, art deco lamp posts, and the best people-watching in any colonia.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -468,14 +468,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Buy a coffee from a passing vendor and claim a bench near the amphitheater — stay until you've heard at least three different languages.",
+        "bonus": "Buy a coffee from a passing vendor and claim a bench near the amphitheater. Stay until you've heard at least three different languages.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Parque+Mexico+Condesa+Mexico+City"
       },
       {
         "id": "MEX-C-6",
         "title": "Rooftop Sunset at Torre Latinoamericana, Centro",
-        "description": "The 44th-floor observation deck of this 1956 Art Deco skyscraper delivers a 360-degree panorama of the entire Valley of Mexico — smog permitting, you see five volcanoes at once.",
+        "description": "The 44th-floor observation deck of this 1956 Art Deco skyscraper delivers a 360-degree panorama of the entire Valley of Mexico. Smog permitting, you see five volcanoes at once.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1 hr",
@@ -493,7 +493,7 @@
       {
         "id": "MEX-C-5",
         "title": "Stroll Through the Viveros de Coyoacán",
-        "description": "This government tree nursery turned public park is where Coyoacán joggers, dog walkers, and elderly chess players live their best slow morning — massive ahuehuete trees shade paths that feel miles from the city.",
+        "description": "This government tree nursery turned public park is where Coyoacán joggers, dog walkers, and elderly chess players live their best slow morning, massive ahuehuete trees shade paths that feel miles from the city.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -508,7 +508,7 @@
       {
         "id": "MEX-C-4",
         "title": "Coffee at Café Avellaneda, Coyoacán",
-        "description": "This tiny specialty roaster tucked inside a Coyoacán courtyard pulls some of the most precise espresso in the city from single-origin Mexican beans — locals queue for it every morning.",
+        "description": "This tiny specialty roaster tucked inside a Coyoacán courtyard pulls some of the most precise espresso in the city from single-origin Mexican beans, locals queue for it every morning.",
         "rarity": "Common",
         "cost": "$",
         "duration": "30–45 mins",
@@ -523,7 +523,7 @@
       {
         "id": "MEX-C-1",
         "title": "Afternoon in the Jardín Centenario, Coyoacán",
-        "description": "Coyoacán's central plaza has been the neighborhood's living room for four centuries — sit under the laurel trees, buy an esquite, and let the afternoon collapse.",
+        "description": "Coyoacán's central plaza has been the neighborhood's living room for four centuries. Sit under the laurel trees, buy an esquite, and let the afternoon collapse.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -539,8 +539,8 @@
     "culture": [
       {
         "id": "MEX-C-201",
-        "title": "Morning at Casa Azul — the Frida Kahlo Museum",
-        "description": "Frida's cobalt-blue Coyoacán house holds her studio, her dresses, and her garden exactly as she left them — book the first slot and beat the world to it.",
+        "title": "Morning at Casa Azul: The Frida Kahlo Museum",
+        "description": "Frida's cobalt-blue Coyoacán house holds her studio, her dresses, and her garden exactly as she left them. Book the first slot and beat the world to it.",
         "rarity": "Rare",
         "cost": "$$",
         "duration": "2 hrs",
@@ -548,14 +548,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Buy tickets online days ahead — walk-ups get turned away.",
+        "bonus": "Buy tickets online days ahead. Walk-ups get turned away.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://maps.google.com/maps/search/Museo+Frida+Kahlo+Casa+Azul+Coyoacan"
       },
       {
         "id": "MEX-C-10",
         "title": "Afternoon at Museo Nacional de Antropología",
-        "description": "The greatest pre-Columbian collection on earth sits in Chapultepec and rewards slow, unguided wandering — the Aztec Sun Stone alone is worth the trip.",
+        "description": "The greatest pre-Columbian collection on earth sits in Chapultepec and rewards slow, unguided wandering. The Aztec Sun Stone alone is worth the trip.",
         "rarity": "Common",
         "cost": "$",
         "duration": "3–4 hrs",
@@ -588,7 +588,7 @@
       {
         "id": "MEX-C-8",
         "title": "Murals at the Secretaría de Educación Pública, Centro",
-        "description": "The SEP building holds 235 Diego Rivera murals painted between 1923 and 1928 — free to enter, almost never crowded, and arguably the most important mural cycle in Mexican history.",
+        "description": "The SEP building holds 235 Diego Rivera murals painted between 1923 and 1928: free to enter, almost never crowded, and arguably the most important mural cycle in Mexican history.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -603,7 +603,7 @@
       {
         "id": "MEX-C-3",
         "title": "Afternoon at Museo Dolores Olmedo, Xochimilco",
-        "description": "A colonial hacienda in Xochimilco housing the world's largest private collection of Diego Rivera and Frida Kahlo works — roamed by real peacocks and a colony of hairless Xoloitzcuintli dogs.",
+        "description": "A colonial hacienda in Xochimilco housing the world's largest private collection of Diego Rivera and Frida Kahlo works, roamed by real peacocks and a colony of hairless Xoloitzcuintli dogs.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -611,14 +611,14 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Find the Xolo dog and sit on the grass near it until it comes to you — no treats, no coaxing.",
+        "bonus": "Find the Xolo dog and sit on the grass near it until it comes to you: no treats, no coaxing.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Museo+Dolores+Olmedo+Xochimilco+Mexico+City"
       },
       {
         "id": "MEX-C-2",
         "title": "Read at Librería El Péndulo, Polanco",
-        "description": "This multi-story bookshop-café has been a Polanco institution since 1991 — the garden terrace, the coffee, and the complete lack of urgency are the whole point.",
+        "description": "This multi-story bookshop-café has been a Polanco institution since 1991: the garden terrace, the coffee, and the complete lack of urgency are the whole point.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -635,7 +635,7 @@
       {
         "id": "MEX-AC-202",
         "title": "Hike the River Canyon at Los Dinamos",
-        "description": "A protected canyon inside the city limits where the Magdalena — the capital's last living river — runs cold and clear under pine forest, with trout quesadillas at the trailhead.",
+        "description": "A protected canyon inside the city limits where the Magdalena, the capital's last living river, runs cold and clear under pine forest, with trout quesadillas at the trailhead.",
         "rarity": "Rare",
         "cost": "$",
         "duration": "3 hrs",
@@ -650,7 +650,7 @@
       {
         "id": "MEX-AC-201",
         "title": "Dance Danzón at Plaza de la Ciudadela",
-        "description": "Every Saturday afternoon the plaza fills with couples dancing danzón the way they have for fifty years — the regulars will teach you the steps if you stand still long enough.",
+        "description": "Every Saturday afternoon the plaza fills with couples dancing danzón the way they have for fifty years. The regulars will teach you the steps if you stand still long enough.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2 hrs",
@@ -683,7 +683,7 @@
       {
         "id": "MEX-A-202",
         "title": "Ride the Cablebús Over the Rooftops of Cuautepec",
-        "description": "Mexico City's cable car glides for miles over painted rooftops and mountainside barrios — the best civic-infrastructure joyride in the Americas costs less than a coffee.",
+        "description": "Mexico City's cable car glides for miles over painted rooftops and mountainside barrios, the best civic-infrastructure joyride in the Americas costs less than a coffee.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1.5 hrs",
@@ -706,7 +706,7 @@
         "time": "Afternoon",
         "season": "Year Round",
         "spark": 25,
-        "bonus": "Buy a song from a passing mariachi boat — full volume, no shame.",
+        "bonus": "Buy a song from a passing mariachi boat, full volume, no shame.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://maps.google.com/maps/search/Embarcadero+Nuevo+Nativitas+Xochimilco",
         "company": [
@@ -739,7 +739,7 @@
         "time": "Morning",
         "season": "Mar–Nov",
         "spark": 15,
-        "bonus": "Swim one full kilometer without stopping — that's 20 lengths of a 50m pool.",
+        "bonus": "Swim one full kilometer without stopping, that's 20 lengths of a 50m pool.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Alberca+Olimpica+Francisco+Marquez+Chapultepec+Mexico+City"
       },
@@ -791,7 +791,7 @@
       {
         "id": "MEX-AC-3",
         "title": "Outdoor Yoga at Parque Lincoln, Polanco",
-        "description": "Polanco's leafy Art Deco park hosts free outdoor yoga sessions under the jacaranda trees on weekend mornings — join locals who treat this as a non-negotiable weekly ritual.",
+        "description": "Polanco's leafy Art Deco park hosts free outdoor yoga sessions under the jacaranda trees on weekend mornings. Join locals who treat this as a non-negotiable weekly ritual.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–1.5 hrs",
@@ -799,14 +799,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Introduce yourself to the instructor after class and ask them to name one pose you did wrong — actually fix it.",
+        "bonus": "Introduce yourself to the instructor after class and ask them to name one pose you did wrong, actually fix it.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Parque+Lincoln+Polanco+Mexico+City"
       },
       {
         "id": "MEX-AC-2",
         "title": "Trail Run in Bosque de Tlalpan",
-        "description": "A vast semi-wild forest in the south of the city offers 20 km of unpaved trails through pine and oak — Mexico City's best urban escape for anyone who needs dirt under their shoes.",
+        "description": "A vast semi-wild forest in the south of the city offers 20 km of unpaved trails through pine and oak, Mexico City's best urban escape for anyone who needs dirt under their shoes.",
         "rarity": "Common",
         "cost": "$",
         "duration": "1–2 hrs",
@@ -814,14 +814,14 @@
         "time": "Morning",
         "season": "Year Round",
         "spark": 15,
-        "bonus": "Run without a GPS route — enter at the main gate and find your way back using only landmarks and trail signs.",
+        "bonus": "Run without a GPS route. Enter at the main gate and find your way back using only landmarks and trail signs.",
         "city": "Mexico City, Mexico",
         "mapsUrl": "https://www.google.com/maps/search/Bosque+de+Tlalpan+Mexico+City"
       },
       {
         "id": "MEX-AC-1",
         "title": "Cycle the Paseo de la Reforma on Sunday Morning",
-        "description": "Every Sunday the city closes its grandest boulevard to cars and cyclists take it over end-to-end — it's the fastest and most cinematic way to feel the scale of CDMX.",
+        "description": "Every Sunday the city closes its grandest boulevard to cars and cyclists take it over end-to-end. It's the fastest and most cinematic way to feel the scale of CDMX.",
         "rarity": "Common",
         "cost": "$",
         "duration": "2–3 hrs",
@@ -836,7 +836,7 @@
       {
         "id": "MEX-A-12",
         "title": "Take a Boat to Isla de las Muñecas, Xochimilco",
-        "description": "The Island of the Dolls is a genuine fever dream — thousands of decaying dolls hung in trees by a caretaker who believed they held a drowned girl's spirit.",
+        "description": "The Island of the Dolls is a genuine fever dream, thousands of decaying dolls hung in trees by a caretaker who believed they held a drowned girl's spirit.",
         "rarity": "Rare",
         "cost": "$$$",
         "duration": "3–4 hrs",
@@ -926,7 +926,7 @@
       {
         "id": "MEX-A-1",
         "title": "Walk the Avenue of the Dead at Teotihuacán",
-        "description": "One of the largest pyramids on earth rises over the Avenue of the Dead — the climb is closed these days, but standing beneath the Sun Pyramid at opening hour is still the most ancient thing you can do before lunch.",
+        "description": "One of the largest pyramids on earth rises over the Avenue of the Dead. The climb is closed these days, but standing beneath the Sun Pyramid at opening hour is still the most ancient thing you can do before lunch.",
         "rarity": "Legendary",
         "cost": "$",
         "duration": "4–5 hrs",
