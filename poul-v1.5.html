@@ -1429,11 +1429,14 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    gap: var(--sp-12);
   }
 
   .pool-title {
     font-family: 'Playfair Display', serif;
-    font-size: var(--fs-2xl);
+    /* Scales down on narrow phones so the title clears Reset and Back at
+       390px. At 28px it touched Reset with a 0px gap. */
+    font-size: clamp(22px, 6.4vw, var(--fs-2xl));
     font-weight: 700;
     letter-spacing: -1px;
     white-space: nowrap;
@@ -1805,6 +1808,10 @@
     bottom: 0;
     left: 0;
     right: 0;
+    /* Same column as the screens: full width on a phone, a centred 480px
+       sheet on a desktop instead of an edge-to-edge band. */
+    max-width: 480px;
+    margin: 0 auto;
     --rim-base: var(--border2);
     background:
       linear-gradient(var(--surface2), var(--surface2)) padding-box,
@@ -2842,7 +2849,11 @@
 
 <style id="v16-additions">
   /* Themed filter packs (quick vibes) */
-  .vibe-row{display:flex;gap: var(--sp-8);overflow-x:auto;margin: var(--sp-12) 0 var(--sp-2);padding-bottom: var(--sp-2);-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+  /* width:100% matters: .screen centres its children, and a flex row with no
+     width sizes to its chips (418px) and overhangs BOTH edges of the 342px
+     column, with the left overhang unreachable by scroll. Pinned to the column
+     it scrolls like it always meant to. (Sweep 2026-10-17, defect 3.) */
+  .vibe-row{display:flex;width:100%;max-width:480px;gap: var(--sp-8);overflow-x:auto;margin: var(--sp-12) 0 var(--sp-2);padding-bottom: var(--sp-2);-webkit-overflow-scrolling:touch;scrollbar-width:none;}
   .vibe-row::-webkit-scrollbar{display:none;}
   /* Squircle badges since 2026-08-06 — was the last component with hardcoded
      hex + 999px stadium pills. Translucent warm fill, tight radius. */
