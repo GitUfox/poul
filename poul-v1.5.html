@@ -4633,9 +4633,9 @@ function updateHomeUI() {
   if (state.activePack === 'phoenix') {
     packEl.innerHTML = packMark('phoenix', 15) + 'Phoenix · Scottsdale';
   } else {
-    const p = TRAVEL_PACKS[state.activePack];
-    packEl.innerHTML = p
-      ? packMark(p.id, 15) + escHtml(p.name)
+    const p = packMeta(state.activePack);
+    packEl.innerHTML = p.name
+      ? packMark(state.activePack, 15) + escHtml(p.name)
       : packMark('phoenix', 15) + 'Phoenix';
   }
 
@@ -5406,7 +5406,7 @@ function hexA(hex, a) {
 
 function activePackLabel() {
   return state.activePack === 'phoenix' ? 'Phoenix · Scottsdale'
-    : (TRAVEL_PACKS[state.activePack]?.name || 'Phoenix');
+    : (packMeta(state.activePack).name || 'Phoenix');
 }
 
 function rrPath(ctx, x, y, w, h, r) {
@@ -5882,20 +5882,29 @@ function filterPacks(query) {
 const REGION_ORDER = ['Arizona', 'West', 'Mountain', 'Midwest', 'South', 'Northeast', 'Mid-Atlantic', 'Canada', 'Mexico & Caribbean', 'South America', 'Europe', 'Africa & Middle East', 'Asia', 'Oceania', 'Events', 'More'];
 let _userCoords = null;
 
+// Pack metadata by id, from the index first (every pack, loaded or not), then
+// from a loaded pack file. Empty object when neither knows the id.
+function packMeta(id) {
+  return PACK_INDEX.find(p => p.id === id) || TRAVEL_PACKS[id] || {};
+}
+
 function packGeo(id) {
-  const m = PACK_INDEX.find(p => p.id === id) || TRAVEL_PACKS[id] || {};
+  const m = packMeta(id);
   return { region: m.region || 'More', coords: Array.isArray(m.coords) && m.coords.length === 2 ? m.coords : null };
 }
 
+// The selector lists every pack in the index, loaded or not. Counts match the
+// home season line: cards you can draw, which for a travel pack is its own
+// cards plus the universal 8-ball dares from the default deck, and for
+// Phoenix its deck minus the filter-exempt wildcards.
 function allPacksList() {
-  return [
-    { id: 'phoenix', name: 'Phoenix · Scottsdale', location: 'Arizona', emoji: '🌵',
-      count: Object.values(CARDS).flat().filter(c => !c.filterExempt).length, ...packGeo('phoenix') },
-    ...Object.values(TRAVEL_PACKS).map(p => ({
-      id: p.id, name: p.name, location: p.location, emoji: p.emoji,
-      count: Object.values(p.cards).flat().length, ...packGeo(p.id)
-    }))
-  ];
+  const dares = (CARDS['8ball'] || []).filter(c => !c.filterExempt).length;
+  const phoenixCount = Object.values(CARDS).flat().filter(c => !c.filterExempt).length;
+  return PACK_INDEX.map(p => ({
+    id: p.id, name: p.name, location: p.location, emoji: p.emoji,
+    count: p.id === 'phoenix' ? phoenixCount : (p.cardCount || 0) + dares,
+    ...packGeo(p.id)
+  }));
 }
 
 function packOptionHTML(p) {
@@ -5986,8 +5995,21 @@ function findNearby() {
   );
 }
 
-function selectPack(packId) {
+async function selectPack(packId) {
   packId = decodeURIComponent(packId);
+  const label = packId === 'phoenix' ? 'Phoenix · Scottsdale'
+    : (packMeta(packId).name || packId);
+  closePackSheet();
+
+  // Packs load on selection (startup fetches only the default and active
+  // decks). Nothing about the table changes until the file is here, so a
+  // failed load leaves the previous pack in play.
+  if (packId !== 'phoenix' && !TRAVEL_PACKS[packId]) {
+    showToast('Setting the table for ' + label + '…');
+    const pack = await fetchPack(packId);
+    if (!pack) { showToast("Couldn't load " + label + '. Check your connection.'); return; }
+  }
+
   const hadHouseRules = state.houseRules.active;
   if (hadHouseRules) state.houseRules = { active: false, ids: [] };
   state.activePack = packId;
@@ -5995,10 +6017,7 @@ function selectPack(packId) {
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
   saveState();
   track('pack_selected', { pack: packId });
-  closePackSheet();
   updateHomeUI();
-  const label = packId === 'phoenix' ? 'Phoenix · Scottsdale'
-    : (TRAVEL_PACKS[packId]?.name || packId);
   showToast('Now on the table: ' + label + '.' + (hadHouseRules ? ' House Rules cleared.' : ''));
 }
 
@@ -6185,6 +6204,38 @@ if ('serviceWorker' in navigator) {
 // Progressive enhancement — when served over HTTP(S), loads packs/*.json
 // and merges them over the bundled data. Falls back silently on file://.
 // ──────────────────────────────────────────
+// One pack file, fetched once. The default deck lands in CARDS, every other
+// pack in TRAVEL_PACKS. Returns the pack, or null when it cannot be reached
+// (offline and never cached). In-flight fetches are shared so a double tap
+// on the selector never downloads a pack twice.
+const _packLoads = {};
+function fetchPack(id) {
+  if (id === 'phoenix' && _phoenixLoaded) return Promise.resolve({ id, cards: CARDS });
+  if (TRAVEL_PACKS[id]) return Promise.resolve(TRAVEL_PACKS[id]);
+  if (_packLoads[id]) return _packLoads[id];
+  _packLoads[id] = (async () => {
+    try {
+      const pr = await fetch(`./packs/${id}.json`);
+      if (!pr.ok) return null;
+      const pack = await pr.json();
+      if (pack.isDefault) { CARDS = pack.cards; _phoenixLoaded = true; }
+      else TRAVEL_PACKS[pack.id] = pack;
+      return pack;
+    } catch (_) {
+      return null;
+    } finally {
+      delete _packLoads[id];
+    }
+  })();
+  return _packLoads[id];
+}
+let _phoenixLoaded = false;
+
+// Startup loads THREE files at most: the index (names, counts, regions for
+// the selector), the default deck (its 8-ball dares ride every pack, and it
+// is the offline fallback) and the active pack. Until 2026-10-27 this
+// fetched all 109 packs (4.6 MB) before the deck was ready; the other packs
+// now load on selection, and the service worker caches each on first use.
 async function loadExternalPacks() {
   try {
     const res = await fetch('./packs/index.json');
@@ -6193,20 +6244,17 @@ async function loadExternalPacks() {
     if (!Array.isArray(packs) || !packs.length) throw new Error('no packs');
     PACK_INDEX = packs;
 
-    await Promise.all(packs.map(async meta => {
-      try {
-        const pr = await fetch(`./packs/${meta.id}.json`);
-        if (!pr.ok) return;
-        const pack = await pr.json();
-        if (pack.isDefault) {
-          CARDS = pack.cards;
-        } else {
-          TRAVEL_PACKS[pack.id] = pack;
-        }
-      } catch (_) { /* skip bad pack */ }
-    }));
+    const wanted = state.activePack === 'phoenix' ? ['phoenix'] : ['phoenix', state.activePack];
+    const loaded = await Promise.all(wanted.map(fetchPack));
+    if (!_phoenixLoaded) throw new Error('default deck not reachable');
+    if (state.activePack !== 'phoenix' && !loaded[1]) {
+      // getActiveDeck() already falls back to the default deck when the pack
+      // is absent; say so instead of letting the table change silently.
+      const name = packMeta(state.activePack).name || state.activePack;
+      setTimeout(() => showToast("Couldn't load " + name + '. Phoenix is on the table for now.'), 1800);
+    }
 
-    console.log('Poul: packs loaded (' + packs.length + ')');
+    console.log('Poul: index loaded (' + packs.length + ' packs), deck ready');
   } catch (_) {
     // Fires on file:// AND on a real network failure, so this string reaches
     // players, not only whoever opened the file locally. It used to print a
