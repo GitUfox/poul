@@ -14,6 +14,7 @@ require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), 
 const { Client } = require('@notionhq/client');
 const { initPackType, readPack, packFilter } = require('./pack-prop');
 const { normalizeSeason, seasonParses } = require('./season');
+const { packGateProblems, idSchemeWarnings } = require('./pack-gates');
 const fs   = require('fs');
 const path = require('path');
 
@@ -210,11 +211,20 @@ function pageToCard(page) {
 
 // ── Export ─────────────────────────────────────────────────────────────────
 
-class SeasonGateError extends Error {
-  constructor(packId, cards) {
-    super(`season gate: ${cards.length} card${cards.length === 1 ? '' : 's'} in ${packId} with an unparsable season`);
+// A gate stops ONE pack from being written. Every gate throws a PackGateError
+// so the all-packs loop can skip that pack, keep going, and exit red at the end.
+class PackGateError extends Error {
+  constructor(packId, gate, cards) {
+    super(`${gate}: ${cards.length} card${cards.length === 1 ? '' : 's'} in ${packId}`);
     this.packId = packId;
+    this.gate = gate;
     this.cards = cards;
+  }
+}
+class SeasonGateError extends PackGateError {
+  constructor(packId, cards) {
+    super(packId, 'season gate', cards);
+    this.message = `season gate: ${cards.length} card${cards.length === 1 ? '' : 's'} in ${packId} with an unparsable season`;
   }
 }
 
@@ -251,6 +261,19 @@ async function exportPack(notion, packId) {
     for (const c of badSeasons) console.error(`  ✗ SEASON "${c.season}" on ${c.id} "${c.title}" is not in the season grammar`);
     throw new SeasonGateError(packId, badSeasons);
   }
+
+  // Card gates (2026-10-27, from the functional sweep): a duplicate Card ID
+  // leaves one card undrawable (the app's shuffle bag keys by id), and a title
+  // that ends in a lowercase connector or whitespace lost its venue in Notion.
+  // Either one stops the pack, like the season gate. A mixed id separator
+  // only warns. Fix the card in Notion and export again.
+  const flat = Object.values(cards).flat();
+  const problems = packGateProblems(flat);
+  if (problems.length) {
+    for (const p of problems) console.error(`  ✗ ${p.gate.toUpperCase()} ${p.id} "${p.title}": ${p.reason}`);
+    throw new PackGateError(packId, 'card gate', problems);
+  }
+  for (const w of idSchemeWarnings(flat)) console.warn(`  ⚠ ${w}`);
 
   const meta = PACK_META[packId] || { name: packId, location: '', emoji: '📍', isDefault: false };
   const output = { id: packId, ...meta, cards };
@@ -311,16 +334,16 @@ async function main() {
   } else {
     const allActive = await queryAll(notion, { property: 'Active', checkbox: { equals: true } });
     const packIds   = [...new Set(allActive.map(readPack).filter(Boolean))];
-    // One pack failing the season gate must not block the other 100+: skip it,
-    // keep going, and exit non-zero at the end so the Action shows red.
+    // One pack failing a gate must not block the other 100+: skip it, keep
+    // going, and exit non-zero at the end so the Action shows red.
     const failed = [];
     for (const id of packIds) {
       try { await exportPack(notion, id); }
-      catch (e) { if (e instanceof SeasonGateError) failed.push(e); else throw e; }
+      catch (e) { if (e instanceof PackGateError) failed.push(e); else throw e; }
     }
     await exportIndex(notion);
     if (failed.length) {
-      console.error(`\n✗ ${failed.length} pack${failed.length === 1 ? '' : 's'} not written (season gate): ${failed.map(f => f.packId).join(', ')}`);
+      console.error(`\n✗ ${failed.length} pack${failed.length === 1 ? '' : 's'} not written: ${failed.map(f => `${f.packId} (${f.gate})`).join(', ')}`);
       process.exit(1);
     }
   }
