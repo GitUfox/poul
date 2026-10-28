@@ -3998,6 +3998,65 @@ const DECLINE_MESSAGES = [
 ];
 
 // ──────────────────────────────────────────
+// DAY KEYS + THE RUN — the calendar day in the player's own time zone
+// ──────────────────────────────────────────
+// Every once-a-day rule (the Run, the daily chalk, the delta chip) keys on a
+// YYYY-MM-DD string. Until 2026-10-27 that string came from toISOString(),
+// which is UTC: in Phoenix the day flipped at 17:00, so an evening pocket and
+// the next morning's pocket counted as one day, and a morning pocket then an
+// evening pocket the next day counted as a two-day gap. The journal date was
+// local the whole time. One helper now, local, and no other date arithmetic.
+function dayKey(d) {
+  d = d || new Date();
+  const p = n => String(n).padStart(2, '0');
+  return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate());
+}
+
+// Whole days from one key to another. Parsed as local midnight so a DST
+// change never yields a fraction; Math.round absorbs the hour either way.
+function dayDiff(fromKey, toKey) {
+  const parse = k => { const [y, m, d] = String(k).split('-').map(Number); return new Date(y, m - 1, d); };
+  return Math.round((parse(toKey) - parse(fromKey)) / 864e5);
+}
+
+// Keys written before the local switch were UTC, and a UTC key can sit one
+// day AHEAD of the local day (any evening write in the Americas). A stored
+// day can never truly be in the future, so a future key is clamped to today.
+// That keeps the Run and the chalk whole across the upgrade: an evening
+// pocket keyed "tomorrow" becomes "today", and the next local day grows the
+// Run by one as it should. Runs once at load; after the next save every key
+// is local and this is a no-op.
+function clampDayKey(key, today) {
+  if (!key || !/^\d{4}-\d{2}-\d{2}$/.test(key)) return key || null;
+  return dayDiff(today, key) > 0 ? today : key;
+}
+
+// The Run, as a pure step: the previous run plus today's key in, the next run
+// plus any milestone out. commitCard() applies the result to state; nothing
+// else decides whether a day counts.
+const RUN_MILESTONES = [3, 7, 30];
+function advanceRun(run, todayKey) {
+  const next = { streak: run.streak || 0, bestStreak: run.bestStreak || 0, lastCommitDate: run.lastCommitDate || null, milestone: null };
+  if (!next.lastCommitDate) {
+    next.streak = 1;
+    next.bestStreak = Math.max(1, next.bestStreak);
+    next.lastCommitDate = todayKey;
+    return next;
+  }
+  const diff = dayDiff(next.lastCommitDate, todayKey);
+  if (diff === 0) return next;            // same day: the Run holds
+  if (diff === 1) {                        // consecutive day: the Run grows
+    next.streak += 1;
+    if (next.streak > next.bestStreak) next.bestStreak = next.streak;
+    if (RUN_MILESTONES.includes(next.streak)) next.milestone = next.streak;
+  } else {                                 // a gap: the Run restarts
+    next.streak = 1;
+  }
+  next.lastCommitDate = todayKey;
+  return next;
+}
+
+// ──────────────────────────────────────────
 // GAME STATE
 // ──────────────────────────────────────────
 // ──────────────────────────────────────────
@@ -4054,6 +4113,13 @@ function loadState() {
 }
 
 const _saved = loadState();
+const _today = dayKey();
+if (_saved) {
+  // Pre-2026-10-27 payloads hold UTC day keys; see clampDayKey.
+  _saved.lastCommitDate = clampDayKey(_saved.lastCommitDate, _today);
+  _saved.lastChalkDate  = clampDayKey(_saved.lastChalkDate,  _today);
+  _saved.lastDeltaDate  = clampDayKey(_saved.lastDeltaDate,  _today);
+}
 
 let state = {
   sparkScore: _saved ? _saved.sparkScore : 0,
@@ -4069,7 +4135,7 @@ let state = {
   // Last resolved draw's net Pocket Score change — powers the home delta chip.
   // Same-day only: yesterday's +40 greeting you this morning would be a lie.
   // Additive keys, so older poul_state_v1 payloads simply fall through to 0.
-  lastDelta: (_saved && _saved.lastDeltaDate === new Date().toISOString().split('T')[0])
+  lastDelta: (_saved && _saved.lastDeltaDate === _today)
     ? (_saved.lastDelta || 0) : 0,
   lastDeltaDate: _saved ? (_saved.lastDeltaDate || null) : null,
   houseRules: _saved && _saved.houseRules ? _saved.houseRules : { active: false, ids: [] },
@@ -4799,34 +4865,13 @@ function commitCard() {
   state.sparkScore += card.spark;
   state.drawCount++;
 
-  // ── STREAK LOGIC ──
-  const todayStr = new Date().toISOString().split('T')[0];
-  let streakMilestone = null;
-
-  if (state.lastCommitDate) {
-    const lastDate = new Date(state.lastCommitDate);
-    const todayDate = new Date(todayStr);
-    const diffDays = Math.round((todayDate - lastDate) / (1000 * 60 * 60 * 24));
-
-    if (diffDays === 0) {
-      // Same day — streak holds, no change
-    } else if (diffDays === 1) {
-      // Consecutive day — streak grows
-      state.streak++;
-      if (state.streak > state.bestStreak) state.bestStreak = state.streak;
-      if ([3, 7, 30].includes(state.streak)) streakMilestone = state.streak;
-      state.lastCommitDate = todayStr;
-    } else {
-      // Gap — streak broken
-      state.streak = 1;
-      state.lastCommitDate = todayStr;
-    }
-  } else {
-    // First commit ever
-    state.streak = 1;
-    state.bestStreak = 1;
-    state.lastCommitDate = todayStr;
-  }
+  // ── THE RUN ── (advanceRun is the one place a day is judged; local keys)
+  const todayStr = dayKey();
+  const run = advanceRun(state, todayStr);
+  state.streak = run.streak;
+  state.bestStreak = run.bestStreak;
+  state.lastCommitDate = run.lastCommitDate;
+  const streakMilestone = run.milestone;
 
   // ── MILESTONE REWARDS ──
   const STREAK_REWARDS = { 3: 25, 7: 50, 30: 100 };
@@ -4884,7 +4929,7 @@ function declineCard() {
   // clamp is real, so at a score of 3 a scratch costs 3, not 5. An
   // instrument shows what happened.
   state.lastDelta = state.sparkScore - scoreBefore;
-  state.lastDeltaDate = new Date().toISOString().split('T')[0];
+  state.lastDeltaDate = dayKey();
   state.drawCount++;
 
   saveState();
@@ -6235,7 +6280,7 @@ initSheetDrag('rules-sheet',  closeRulesSheet);
 
 // Daily chalk-up: +1 cube on the first visit of each day (cap maxTokens)
 (function dailyChalkUp() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = dayKey();   // local day; the stored key was clamped at load
   if (state.lastChalkDate === today) return;
   state.lastChalkDate = today;
   if (state.tokens < state.maxTokens) {
