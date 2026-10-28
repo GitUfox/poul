@@ -1442,6 +1442,9 @@
     white-space: nowrap;
   }
 
+  .btn-reset { color: var(--text-dim); border-color: var(--border); }
+  .btn-reset.armed { color: var(--danger); border-color: var(--danger); }
+
   .pool-count {
     font-size: var(--fs-micro);
     font-weight: 700;
@@ -3223,7 +3226,7 @@
       <div class="pool-count" id="pool-count-label">0 pocketed</div>
     </div>
     <div style="display:flex;gap:8px;align-items:center;">
-      <button class="btn-back" onclick="confirmReset()" style="color:var(--text-dim);border-color:var(--border);">Reset</button>
+      <button class="btn-back btn-reset" id="pool-reset-btn" onclick="confirmReset()">Reset</button>
       <button class="btn-back" onclick="showScreen('home')">← Back</button>
     </div>
   </div>
@@ -3275,7 +3278,7 @@
   </div>
 
   <div class="sheet-section-label" style="margin-top:18px;">House Rules</div>
-  <div class="rules-text" style="font-size:12.5px;margin-bottom:10px;">Hosting the night? Hand-pick a custom rack — the table draws only from your picks.</div>
+  <div class="rules-text" style="font-size:12.5px;margin-bottom:10px;">Hosting the night? Hand-pick a custom rack. The table draws only from your picks.</div>
   <button class="btn-clear-filters" style="width:100%;margin-bottom:4px;" onclick="closeFilters();openHouseSheet();">Build Tonight's Rack</button>
 
   <div class="sheet-actions">
@@ -3316,7 +3319,7 @@
     <div class="sheet-title">House Rules</div>
     <button class="btn-sheet-close" onclick="closeHouseSheet()">Done</button>
   </div>
-  <div class="rules-text" style="margin-bottom:10px;">Hand-pick tonight's rack. While House Rules are on, the table draws only from your picks — filters and season step aside.</div>
+  <div class="rules-text" style="margin-bottom:10px;">Hand-pick tonight's rack. While House Rules are on, the table draws only from your picks. Filters and season step aside.</div>
   <div id="house-list"></div>
   <div class="sheet-actions">
     <button class="btn-clear-filters" onclick="clearHouseRules(); closeHouseSheet();">Clear Rack</button>
@@ -3355,7 +3358,7 @@
         </div>
       </div>
       <div class="rules-text" style="margin-top:12px;">
-        Pick a category, draw a card, then <strong>Call Your Shot</strong> — Pocket it or Scratch.
+        Pick a category, draw a card, then <strong>Call Your Shot</strong>: Pocket it or Scratch.
         Pocketing a card grows your Pocket Score and keeps your Run alive. Scratching costs −5, and the card goes back in the pool.
       </div>
     </div>
@@ -3390,7 +3393,7 @@
         </div>
       </div>
       <div class="rules-text" style="margin-top:10px;">
-        The <strong>8-Ball</strong> is the wild draw — it ignores your Poul Filter and pulls from any category. Use it when you want the pool to decide everything.
+        The <strong>8-Ball</strong> is the wild draw. It ignores your Poul Filter and pulls from any category. Use it when you want the pool to decide everything.
       </div>
     </div>
 
@@ -3415,7 +3418,7 @@
         </div>
       </div>
       <div class="rules-text" style="margin-top:10px;">
-        The deck is weighted toward Common. Legendary draws are rare by design — when one shows up, you'll know. The higher the rarity, the more memorable (and usually more expensive) the card.
+        The deck is weighted toward Common. Legendary draws are rare by design. When one shows up, you'll know. The higher the rarity, the more memorable (and usually more expensive) the card.
       </div>
     </div>
 
@@ -3424,14 +3427,14 @@
       <div class="rules-section-title">Chalk</div>
       <div class="rules-text">
         You start with <strong>5 chalk cubes</strong>. Each redraw chalks up: 1 cube, <strong>−2 off your Pocket Score</strong>.
-        The penalty is intentional — it makes you think twice before waving off a card. You chalk up <strong>+1 cube</strong> on your first visit each day (max 5).
+        The penalty is intentional. It makes you think twice before waving off a card. You chalk up <strong>+1 cube</strong> on your first visit each day (max 5).
       </div>
     </div>
 
     <!-- POCKET SCORE & POUL TYPES -->
     <div class="rules-section">
       <div class="rules-section-title">Pocket Score &amp; Your Type</div>
-      <div class="rules-text" style="margin-bottom:10px;">Your accumulated Pocket Score determines your <strong>Poul Type</strong> — an honest read on how spontaneous you actually are.</div>
+      <div class="rules-text" style="margin-bottom:10px;">Your accumulated Pocket Score determines your <strong>Poul Type</strong>, an honest read on how spontaneous you actually are.</div>
       <div class="rules-type-list">
         <div class="rules-type-row">
           <div class="rules-type-emoji" data-type="igniter"></div>
@@ -3503,7 +3506,7 @@
     <div class="rules-section">
       <div class="rules-section-title">Poul Filter</div>
       <div class="rules-text">
-        Not cheating — scoping. Before you draw, filter by <strong>cost</strong>, <strong>time of day</strong>, or <strong>duration</strong>.
+        Not cheating, scoping. Before you draw, filter by <strong>cost</strong>, <strong>time of day</strong>, or <strong>duration</strong>.
         Cards outside your filter stay in the deck for later. The 8-Ball always ignores the filter.
       </div>
     </div>
@@ -3512,7 +3515,7 @@
     <div class="rules-section">
       <div class="rules-section-title">House Rules</div>
       <div class="rules-text">
-        Hosting the night? Build a custom rack — hand-pick cards and the table draws only from those.
+        Hosting the night? Build a custom rack. Hand-pick cards and the table draws only from those.
         Set it inside the <strong>Poul Filter</strong> sheet. Switching packs clears it.
       </div>
     </div>
@@ -3521,7 +3524,7 @@
     <div class="rules-section">
       <div class="rules-section-title">The Bonus Challenge</div>
       <div class="rules-text">
-        Every card has a micro-dare — something extra to do while you're there. It's optional.
+        Every card has a micro-dare, something extra to do while you're there. It's optional.
         But that's where the best stories come from.
       </div>
     </div>
@@ -3602,10 +3605,12 @@ function cardPassesFilters(card) {
   // Time filter: 'Any' cards pass all time filters
   if (filters.time.length > 0 && card.time !== 'Any' && !filters.time.includes(card.time)) return false;
 
-  // Duration filter: find the selected bucket and check card fits within it
+  // Duration filter: each chip is a RANGE that matches its label, and a card
+  // passes when it falls inside any selected range. It used to be "up to the
+  // largest selected bucket", which made "Half day+" admit every card and
+  // "2–4 hrs" admit a 20-minute stroll (sweep 2026-10-17, defect 9).
   if (filters.duration.length > 0) {
-    const maxAllowed = Math.max(...filters.duration.map(Number));
-    if (card.durationMins > maxAllowed) return false;
+    if (!filters.duration.some(b => inDurationBucket(card.durationMins, b))) return false;
   }
 
   // Company: tagged = "works especially well for" — a card tagged for someone
@@ -3617,6 +3622,18 @@ function cardPassesFilters(card) {
   if (filters.adult.length > 0 && !card.adult) return false;
 
   return true;
+}
+
+// Duration chips (chips-duration): the value is the bucket's upper bound in
+// minutes, the label is the range. 60 = under 1 hr, 120 = 1–2 hrs,
+// 240 = 2–4 hrs, 999 = half day and longer. A card with no durationMins
+// passes every bucket (the filter cannot judge it).
+const DURATION_BUCKETS = { '60': [0, 60], '120': [61, 120], '240': [121, 240], '999': [241, Infinity] };
+function inDurationBucket(mins, bucket) {
+  const b = DURATION_BUCKETS[String(bucket)];
+  if (!b) return true;
+  if (typeof mins !== 'number' || isNaN(mins)) return true;
+  return mins >= b[0] && mins <= b[1];
 }
 
 function getActiveDeck() {
@@ -3906,7 +3923,7 @@ function clearFilters() {
 const VIBES = {
   date:  { label: 'Date Night', icon: 'moon', f: { cost: [],    time: ['Evening'],               duration: [],      company: ['couple'], adult: [] } },
   cheap: { label: 'Under $20',  icon: 'tag',  f: { cost: ['$'], time: [],                        duration: [],      company: [],         adult: [] } },
-  quick: { label: 'Quick Hit',  icon: 'bolt', f: { cost: [],    time: [],                        duration: ['120'], company: [],         adult: [] } },
+  quick: { label: 'Quick Hit',  icon: 'bolt', f: { cost: [],    time: [],                        duration: ['60', '120'], company: [],   adult: [] } },
   day:   { label: 'Day Out',    icon: 'sun',  f: { cost: [],    time: ['Morning', 'Afternoon'],  duration: [],      company: [],         adult: [] } },
 };
 
@@ -4673,19 +4690,21 @@ function updateHomeUI() {
     const seasonFiltered = rawSize - poolSize;
 
     if (poolSize === 0) {
-      btn.textContent = "Table's Empty — Loosen Filter";
+      btn.textContent = "Table's Empty. Loosen the Filter";
       btn.classList.add('disabled');
       poolLabel.textContent = 'Nothing in the pool';
       poolLabel.className = 'pool-size-label thin';
     } else if (poolSize <= 2) {
       btn.textContent = 'Draw ' + CAT_LABELS[state.selectedCategory] + ' →';
       btn.classList.remove('disabled');
-      poolLabel.textContent = `Only ${poolSize} card${poolSize > 1 ? 's' : ''} left — loosen the filter?`;
+      poolLabel.textContent = `Only ${poolSize} card${poolSize > 1 ? 's' : ''} left. Loosen the filter?`;
       poolLabel.className = 'pool-size-label thin';
     } else {
       btn.textContent = 'Draw ' + CAT_LABELS[state.selectedCategory] + ' →';
       btn.classList.remove('disabled');
-      if (activeCount > 0) {
+      if (state.houseRules && state.houseRules.active) {
+        poolLabel.textContent = `${poolSize} in the rack`;   // House Rules ignore season and filters
+      } else if (activeCount > 0) {
         poolLabel.textContent = `${poolSize} in the pool`;
       } else if (seasonFiltered > 0) {
         poolLabel.innerHTML = `${icon(season.icon, '11px')} ${poolSize} in season`;
@@ -4727,6 +4746,7 @@ function selectCategory(cat) {
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById('screen-' + id).classList.add('active');
+  if (id !== 'pool' && typeof disarmReset === 'function') disarmReset();
 
   if (id === 'pool') renderPool();
 }
@@ -4847,7 +4867,9 @@ function redrawCard() {
   }
 
   state.tokens--;
+  const scoreBefore = state.sparkScore;
   state.sparkScore = Math.max(0, state.sparkScore - 2);
+  const charged = scoreBefore - state.sparkScore;   // the clamp is real: at 0 nothing is charged
   state.currentCard = card;
   // Same rule as startDraw: a redraw is a new card, so the receipt clears.
   // The −2 chalk cost is not a resolved draw; the toast reports it instead.
@@ -4863,7 +4885,7 @@ function redrawCard() {
   setTimeout(() => { revealCard(); }, 100);
 
   updateHomeUI();
-  showToast('Chalked up. One cube, −2 off the score.');
+  showToast(charged ? 'Chalked up. One cube, −' + charged + ' off the score.' : 'Chalked up. One cube. Score is already at zero.');
 }
 
 // ──────────────────────────────────────────
@@ -4975,7 +4997,10 @@ function showResult(committed, card) {
     icon.innerHTML = '<svg class="pi" width="58" height="58" viewBox="0 0 44 44" fill="none" stroke="var(--danger)" stroke-width="1.84" stroke-linecap="round" aria-hidden="true"><line x1="11" y1="11" x2="33" y2="33"/><line x1="33" y1="11" x2="11" y2="33"/></svg>';
     title.textContent = 'Scratch.';
     title.className = 'result-title decline';
-    delta.textContent = '−5';
+    // What was charged, not the nominal 5: the score clamps at 0 and
+    // declineCard() recorded the real move in lastDelta.
+    const charged = Math.abs(state.lastDelta || 0);
+    delta.textContent = charged ? '−' + charged : '0';
     delta.className = 'result-spark-delta neg';
     message.textContent = DECLINE_MESSAGES[Math.floor(Math.random() * DECLINE_MESSAGES.length)];
   }
@@ -5284,9 +5309,28 @@ function clearAllAppData() {
   return doomed.length;
 }
 
+// Two taps, in the app's own chrome: the first arms the button for four
+// seconds and says what goes, the second wipes. The native confirm() was the
+// one off-brand dialog in the app (and the artifact viewer cannot show it).
+let _resetArmed = null;
+function disarmReset() {
+  if (_resetArmed) clearTimeout(_resetArmed);
+  _resetArmed = null;
+  const btn = document.getElementById('pool-reset-btn');
+  if (btn) { btn.textContent = 'Reset'; btn.classList.remove('armed'); }
+}
 function confirmReset() {
-  if (!confirm('Wipe the table? Your Pocket Score, every pocketed card, your proof photos and your Run all go. This cannot be undone.')) return;
+  const btn = document.getElementById('pool-reset-btn');
+  if (!_resetArmed) {
+    _resetArmed = setTimeout(disarmReset, 4000);
+    if (btn) { btn.textContent = 'Wipe?'; btn.classList.add('armed'); }   // short: it shares a row with Back at 390px
+    showToast('Tap again to wipe: score, pocketed cards, photos and your Run. No undo.');
+    return;
+  }
+  disarmReset();
   clearAllAppData();
+  // The rack is table state too; without this the next save writes it back.
+  state.houseRules = { active: false, ids: [] };
   state.sparkScore = 0;
   state.tokens = 5;
   state.drawCount = 0;
@@ -5357,7 +5401,7 @@ function shareCard() {
   // The Igniter's emoji IS 🔥 — so an Igniter with a Run printed two of them.
   // Capital "Run" matches the vocabulary everywhere else in the app.
   const streak = state.streak > 0 ? ` · ${state.streak}-day Run` : '';
-  const text = `I'm ${type.emoji} ${type.name} on POUL — ${state.sparkScore} Pocket Score · ${state.completedCards.length} pocketed${streak}\n\nLuck favors the spontaneous.`;
+  const text = `I'm ${type.emoji} ${type.name} on POUL, ${state.sparkScore} Pocket Score · ${state.completedCards.length} pocketed${streak}\n\nLuck favors the spontaneous.`;
 
   if (navigator.share) {
     navigator.share({ text }).catch(() => copyShareText(text));
@@ -5772,7 +5816,7 @@ async function shareImage(payload, plainText, trackProps) {
 function sharePull() {
   if (!_lastPull) return;
   const c = _lastPull.card;
-  const text = 'Pocketed "' + c.title + '" on POUL — +' + c.spark + ' Pocket Score\n\nLuck favors the spontaneous.';
+  const text = 'Pocketed "' + c.title + '" on POUL, +' + c.spark + ' Pocket Score\n\nLuck favors the spontaneous.';
   shareImage(
     { kind: 'card', card: c, packId: _lastPull.packId, packName: _lastPull.packName },
     text,
@@ -5784,7 +5828,7 @@ function shareTrophyUnlock() {
   if (!_newTrophies.length) return;
   const t = _newTrophies[0];
   const done = t.req.replace(/^Pocket\b/, 'Pocketed').replace(/^Keep\b/, 'Kept');
-  const text = 'Trophy earned on POUL — ' + t.name + '. ' + done + '.\n\nLuck favors the spontaneous.';
+  const text = 'Trophy earned on POUL: ' + t.name + '. ' + done + '.\n\nLuck favors the spontaneous.';
   shareImage(
     { kind: 'trophy', trophy: t, packName: _lastPull ? _lastPull.packName : activePackLabel() },
     text,
@@ -6077,7 +6121,7 @@ function saveHouseRules() {
   track('house_rules_set', { count: pendingHouse.size, pack: state.activePack });
   closeHouseSheet();
   updateHomeUI();
-  showToast('House Rules on \u2014 ' + pendingHouse.size + ' cards in the rack.');
+  showToast('House Rules on: ' + pendingHouse.size + ' cards in the rack.');
 }
 
 function clearHouseRules() {
@@ -6260,7 +6304,7 @@ async function loadExternalPacks() {
     // players, not only whoever opened the file locally. It used to print a
     // shell command (`npx serve .`) straight into the UI. The dev hint now
     // lives in the console, where the only person who needs it will look.
-    console.warn('Poul: packs not reachable — serve over http(s), e.g. `npx serve .`');
+    console.warn('Poul: packs not reachable. Serve over http(s), e.g. `npx serve .`');
     document.getElementById('season-line').textContent =
       "Deck didn't load. Check your connection and reload.";
   } finally {
