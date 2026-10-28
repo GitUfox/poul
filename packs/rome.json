@@ -4,6 +4,11 @@
   "location": "Italy",
   "emoji": "🏛️",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    41.9,
+    12.5
+  ],
   "cards": {
     "chill": [
       {

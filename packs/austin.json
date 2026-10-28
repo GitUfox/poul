@@ -4,6 +4,11 @@
   "location": "Texas",
   "emoji": "🦇",
   "isDefault": false,
+  "region": "South",
+  "coords": [
+    30.27,
+    -97.74
+  ],
   "cards": {
     "chill": [
       {

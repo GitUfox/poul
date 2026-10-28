@@ -4,6 +4,11 @@
   "location": "Ireland",
   "emoji": "🍀",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    53.35,
+    -6.26
+  ],
   "cards": {
     "foodie": [
       {

@@ -4,6 +4,11 @@
   "location": "New York",
   "emoji": "⛵",
   "isDefault": false,
+  "region": "Northeast",
+  "coords": [
+    44.33,
+    -75.92
+  ],
   "cards": {
     "adventure": [
       {

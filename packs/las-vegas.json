@@ -4,6 +4,11 @@
   "location": "Nevada",
   "emoji": "🎰",
   "isDefault": false,
+  "region": "West",
+  "coords": [
+    36.17,
+    -115.14
+  ],
   "cards": {
     "adventure": [
       {

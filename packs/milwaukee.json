@@ -4,6 +4,11 @@
   "location": "Wisconsin",
   "emoji": "🍻",
   "isDefault": false,
+  "region": "Midwest",
+  "coords": [
+    43.04,
+    -87.91
+  ],
   "cards": {
     "adventure": [
       {

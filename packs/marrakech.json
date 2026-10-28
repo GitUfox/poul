@@ -4,6 +4,11 @@
   "location": "Morocco",
   "emoji": "🫖",
   "isDefault": false,
+  "region": "Africa & Middle East",
+  "coords": [
+    31.63,
+    -8.01
+  ],
   "cards": {
     "chill": [
       {

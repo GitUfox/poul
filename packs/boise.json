@@ -4,6 +4,11 @@
   "location": "Idaho",
   "emoji": "🥔",
   "isDefault": false,
+  "region": "Mountain",
+  "coords": [
+    43.62,
+    -116.21
+  ],
   "cards": {
     "social": [
       {

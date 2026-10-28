@@ -3567,6 +3567,9 @@ let CARDS = { adventure: [], foodie: [], chill: [], social: [], culture: [], '8b
 // TRAVEL PACKS (loaded from packs/*.json)
 // ──────────────────────────────────────────
 let TRAVEL_PACKS = {};
+// packs/index.json entries (id, name, location, emoji, cardCount, region,
+// coords). Filled by loadExternalPacks; the selector reads geo from here.
+let PACK_INDEX = [];
 // ──────────────────────────────────────────
 // FILTER STATE
 // ──────────────────────────────────────────
@@ -5870,31 +5873,27 @@ function filterPacks(query) {
 // ──────────────────────────────────────────
 // PACK SELECTOR V2 — region grouping + nearby
 // ──────────────────────────────────────────
-const PACK_REGIONS = {
-  phoenix: 'Arizona', flagstaff: 'Arizona', sedona: 'Arizona',
-  nyc: 'New York', hamptons: 'New York', 'thousand-islands': 'New York',
-  baltimore: 'Mid-Atlantic', 'ocean-city': 'Mid-Atlantic', dc: 'Mid-Atlantic',
-  brussels: 'Europe', paris: 'Europe', oslo: 'Europe', norway: 'Europe', istanbul: 'Europe', turkey: 'Europe',
-  tokyo: 'Asia', bangkok: 'Asia',
-};
-const REGION_ORDER = ['Arizona', 'New York', 'Mid-Atlantic', 'Europe', 'Asia', 'Events', 'More'];
-const PACK_COORDS = {
-  phoenix: [33.45, -112.07], flagstaff: [35.20, -111.65], sedona: [34.87, -111.76],
-  nyc: [40.71, -74.01], hamptons: [40.96, -72.18], 'thousand-islands': [44.33, -75.92],
-  baltimore: [39.29, -76.61], 'ocean-city': [38.34, -75.08], dc: [38.90, -77.04],
-  brussels: [50.85, 4.35], paris: [48.86, 2.35], oslo: [59.91, 10.75], norway: [60.39, 5.32],
-  istanbul: [41.01, 28.98], turkey: [38.64, 34.83],
-  tokyo: [35.68, 139.69], bangkok: [13.76, 100.50],
-};
+// Region and coordinates ride on the pack metadata (packs/index.json and each
+// pack file), written by the export from scripts/pack-geo.js. The two
+// hand-typed maps that lived here stopped at 17 packs while the deck grew to
+// 109: 92 packs sat under "More" and Nearby could only reach those 17 cities
+// (sweep 2026-10-17, defect 4). REGION_ORDER must match pack-geo.js
+// (pack-geo.test.js pins it); a pack with no region shows under "More".
+const REGION_ORDER = ['Arizona', 'West', 'Mountain', 'Midwest', 'South', 'Northeast', 'Mid-Atlantic', 'Canada', 'Mexico & Caribbean', 'South America', 'Europe', 'Africa & Middle East', 'Asia', 'Oceania', 'Events', 'More'];
 let _userCoords = null;
+
+function packGeo(id) {
+  const m = PACK_INDEX.find(p => p.id === id) || TRAVEL_PACKS[id] || {};
+  return { region: m.region || 'More', coords: Array.isArray(m.coords) && m.coords.length === 2 ? m.coords : null };
+}
 
 function allPacksList() {
   return [
     { id: 'phoenix', name: 'Phoenix · Scottsdale', location: 'Arizona', emoji: '🌵',
-      count: Object.values(CARDS).flat().filter(c => !c.filterExempt).length },
+      count: Object.values(CARDS).flat().filter(c => !c.filterExempt).length, ...packGeo('phoenix') },
     ...Object.values(TRAVEL_PACKS).map(p => ({
       id: p.id, name: p.name, location: p.location, emoji: p.emoji,
-      count: Object.values(p.cards).flat().length
+      count: Object.values(p.cards).flat().length, ...packGeo(p.id)
     }))
   ];
 }
@@ -5938,19 +5937,19 @@ function renderPackOptions() {
 
   const groups = {};
   packs.forEach(p => {
-    const r = PACK_REGIONS[p.id] || 'More';
+    const r = p.region || 'More';
     (groups[r] = groups[r] || []).push(p);
   });
   const regions = REGION_ORDER.filter(r => groups[r]);
   Object.keys(groups).forEach(r => { if (!regions.includes(r)) regions.push(r); });
 
-  const activeRegion = PACK_REGIONS[state.activePack] || 'More';
+  const activeRegion = packGeo(state.activePack).region;
   let html = '';
 
   // Nearby group (only once a location has been resolved this session)
   if (_userCoords) {
-    const nearby = packs.filter(p => PACK_COORDS[p.id])
-      .map(p => ({ p, d: haversine(_userCoords, PACK_COORDS[p.id]) }))
+    const nearby = packs.filter(p => p.coords)
+      .map(p => ({ p, d: haversine(_userCoords, p.coords) }))
       .sort((a, b) => a.d - b.d)
       .slice(0, 3)
       .map(x => x.p);
@@ -6192,6 +6191,7 @@ async function loadExternalPacks() {
     if (!res.ok) throw new Error('index not ok');
     const { packs } = await res.json();
     if (!Array.isArray(packs) || !packs.length) throw new Error('no packs');
+    PACK_INDEX = packs;
 
     await Promise.all(packs.map(async meta => {
       try {

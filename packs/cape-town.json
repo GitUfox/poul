@@ -4,6 +4,11 @@
   "location": "South Africa",
   "emoji": "🐧",
   "isDefault": false,
+  "region": "Africa & Middle East",
+  "coords": [
+    -33.92,
+    18.42
+  ],
   "cards": {
     "culture": [
       {

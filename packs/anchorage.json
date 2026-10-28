@@ -4,6 +4,11 @@
   "location": "Alaska",
   "emoji": "🐻",
   "isDefault": false,
+  "region": "West",
+  "coords": [
+    61.22,
+    -149.9
+  ],
   "cards": {
     "foodie": [
       {

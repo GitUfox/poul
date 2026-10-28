@@ -4,6 +4,11 @@
   "location": "Czech Republic",
   "emoji": "🏰",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    50.08,
+    14.44
+  ],
   "cards": {
     "foodie": [
       {

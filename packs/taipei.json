@@ -4,6 +4,11 @@
   "location": "Taiwan",
   "emoji": "🧋",
   "isDefault": false,
+  "region": "Asia",
+  "coords": [
+    25.03,
+    121.57
+  ],
   "cards": {
     "chill": [
       {

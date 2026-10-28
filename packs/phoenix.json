@@ -4,6 +4,11 @@
   "location": "Arizona",
   "emoji": "🌵",
   "isDefault": true,
+  "region": "Arizona",
+  "coords": [
+    33.45,
+    -112.07
+  ],
   "cards": {
     "social": [
       {

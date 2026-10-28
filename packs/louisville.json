@@ -4,6 +4,11 @@
   "location": "Kentucky",
   "emoji": "🥃",
   "isDefault": false,
+  "region": "South",
+  "coords": [
+    38.25,
+    -85.76
+  ],
   "cards": {
     "chill": [
       {

@@ -15,6 +15,7 @@ const { Client } = require('@notionhq/client');
 const { initPackType, readPack, packFilter } = require('./pack-prop');
 const { normalizeSeason, seasonParses } = require('./season');
 const { packGateProblems, idSchemeWarnings } = require('./pack-gates');
+const { geoFor } = require('./pack-geo');   // region + coords, the one home
 const fs   = require('fs');
 const path = require('path');
 
@@ -276,7 +277,7 @@ async function exportPack(notion, packId) {
   for (const w of idSchemeWarnings(flat)) console.warn(`  ⚠ ${w}`);
 
   const meta = PACK_META[packId] || { name: packId, location: '', emoji: '📍', isDefault: false };
-  const output = { id: packId, ...meta, cards };
+  const output = { id: packId, ...meta, ...geoFor(packId), cards };
 
   if (!fs.existsSync(PACKS_DIR)) fs.mkdirSync(PACKS_DIR, { recursive: true });
   fs.writeFileSync(path.join(PACKS_DIR, `${packId}.json`), JSON.stringify(output, null, 2));
@@ -295,7 +296,7 @@ function patchIndexCount(packId, cardCount) {
   if (entry && entry.cardCount === cardCount) return;
   if (!entry) {
     const m = PACK_META[packId] || { name: packId, location: '', emoji: '📍' };
-    entry = { id: packId, name: m.name, location: m.location, emoji: m.emoji, cardCount };
+    entry = { id: packId, name: m.name, location: m.location, emoji: m.emoji, cardCount, ...geoFor(packId) };
     idx.packs.push(entry);
     console.log(`  ✓ index.json: added new pack ${packId}`);
   }
@@ -313,7 +314,7 @@ async function exportIndex(notion) {
   }
   const packs = Object.entries(seen).map(([id, cardCount]) => {
     const m = PACK_META[id] || { name: id, location: '', emoji: '📍' };
-    return { id, name: m.name, location: m.location, emoji: m.emoji, cardCount };
+    return { id, name: m.name, location: m.location, emoji: m.emoji, cardCount, ...geoFor(id) };
   });
   fs.writeFileSync(path.join(PACKS_DIR, 'index.json'), JSON.stringify({ packs }, null, 2));
   console.log(`✓ index.json updated (${packs.length} packs)`);

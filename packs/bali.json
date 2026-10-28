@@ -4,6 +4,11 @@
   "location": "Canggu & Ubud · Indonesia",
   "emoji": "🌾",
   "isDefault": false,
+  "region": "Asia",
+  "coords": [
+    -8.51,
+    115.26
+  ],
   "cards": {
     "culture": [
       {

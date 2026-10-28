@@ -4,6 +4,11 @@
   "location": "Poland",
   "emoji": "🥟",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    50.06,
+    19.94
+  ],
   "cards": {
     "social": [
       {

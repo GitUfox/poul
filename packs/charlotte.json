@@ -4,6 +4,11 @@
   "location": "North Carolina",
   "emoji": "🏁",
   "isDefault": false,
+  "region": "South",
+  "coords": [
+    35.23,
+    -80.84
+  ],
   "cards": {
     "social": [
       {

@@ -4,6 +4,11 @@
   "location": "Singapore",
   "emoji": "🦁",
   "isDefault": false,
+  "region": "Asia",
+  "coords": [
+    1.35,
+    103.82
+  ],
   "cards": {
     "culture": [
       {

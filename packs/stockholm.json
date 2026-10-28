@@ -4,6 +4,11 @@
   "location": "Sweden",
   "emoji": "🛶",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    59.33,
+    18.07
+  ],
   "cards": {
     "chill": [
       {

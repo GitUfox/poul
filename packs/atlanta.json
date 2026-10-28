@@ -4,6 +4,11 @@
   "location": "Georgia",
   "emoji": "🍑",
   "isDefault": false,
+  "region": "South",
+  "coords": [
+    33.75,
+    -84.39
+  ],
   "cards": {
     "chill": [
       {

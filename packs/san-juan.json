@@ -4,6 +4,11 @@
   "location": "Puerto Rico",
   "emoji": "🐸",
   "isDefault": false,
+  "region": "Mexico & Caribbean",
+  "coords": [
+    18.47,
+    -66.11
+  ],
   "cards": {
     "culture": [
       {

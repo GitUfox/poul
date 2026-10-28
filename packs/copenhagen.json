@@ -4,6 +4,11 @@
   "location": "Denmark",
   "emoji": "🧜",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    55.68,
+    12.57
+  ],
   "cards": {
     "culture": [
       {

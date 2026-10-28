@@ -4,6 +4,11 @@
   "location": "New Zealand",
   "emoji": "🥝",
   "isDefault": false,
+  "region": "Oceania",
+  "coords": [
+    -36.85,
+    174.76
+  ],
   "cards": {
     "culture": [
       {

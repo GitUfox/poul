@@ -4,6 +4,11 @@
   "location": "Tennessee",
   "emoji": "🎸",
   "isDefault": false,
+  "region": "South",
+  "coords": [
+    36.16,
+    -86.78
+  ],
   "cards": {
     "adventure": [
       {

@@ -4,6 +4,11 @@
   "location": "Norway",
   "emoji": "🏔️",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    59.91,
+    10.75
+  ],
   "cards": {
     "social": [
       {

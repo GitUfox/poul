@@ -4,6 +4,11 @@
   "location": "West Virginia",
   "emoji": "🧗",
   "isDefault": false,
+  "region": "Mid-Atlantic",
+  "coords": [
+    38.07,
+    -81.08
+  ],
   "cards": {
     "adventure": [
       {

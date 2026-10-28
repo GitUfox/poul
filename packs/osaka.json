@@ -4,6 +4,11 @@
   "location": "Japan",
   "emoji": "🐙",
   "isDefault": false,
+  "region": "Asia",
+  "coords": [
+    34.69,
+    135.5
+  ],
   "cards": {
     "foodie": [
       {

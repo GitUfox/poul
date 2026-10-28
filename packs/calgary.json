@@ -4,6 +4,11 @@
   "location": "Alberta",
   "emoji": "🐎",
   "isDefault": false,
+  "region": "Canada",
+  "coords": [
+    51.05,
+    -114.07
+  ],
   "cards": {
     "adventure": [
       {

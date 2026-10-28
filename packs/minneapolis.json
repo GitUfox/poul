@@ -4,6 +4,11 @@
   "location": "Minnesota",
   "emoji": "❄️",
   "isDefault": false,
+  "region": "Midwest",
+  "coords": [
+    44.98,
+    -93.27
+  ],
   "cards": {
     "foodie": [
       {

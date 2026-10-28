@@ -4,6 +4,11 @@
   "location": "Türkiye",
   "emoji": "🎈",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    38.64,
+    34.83
+  ],
   "cards": {
     "adventure": [
       {

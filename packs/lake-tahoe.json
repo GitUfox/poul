@@ -4,6 +4,11 @@
   "location": "California · Nevada",
   "emoji": "🚤",
   "isDefault": false,
+  "region": "West",
+  "coords": [
+    39.1,
+    -120.03
+  ],
   "cards": {
     "8ball": [
       {

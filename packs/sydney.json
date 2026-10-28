@@ -4,6 +4,11 @@
   "location": "New South Wales · Australia",
   "emoji": "🦘",
   "isDefault": false,
+  "region": "Oceania",
+  "coords": [
+    -33.87,
+    151.21
+  ],
   "cards": {
     "foodie": [
       {

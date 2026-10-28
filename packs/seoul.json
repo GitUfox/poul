@@ -4,6 +4,11 @@
   "location": "South Korea",
   "emoji": "🏯",
   "isDefault": false,
+  "region": "Asia",
+  "coords": [
+    37.57,
+    126.98
+  ],
   "cards": {
     "chill": [
       {

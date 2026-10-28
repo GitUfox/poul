@@ -4,6 +4,11 @@
   "location": "New Mexico",
   "emoji": "🎈",
   "isDefault": false,
+  "region": "Mountain",
+  "coords": [
+    35.08,
+    -106.65
+  ],
   "cards": {
     "social": [
       {

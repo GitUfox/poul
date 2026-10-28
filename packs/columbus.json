@@ -4,6 +4,11 @@
   "location": "Ohio",
   "emoji": "🌰",
   "isDefault": false,
+  "region": "Midwest",
+  "coords": [
+    39.96,
+    -83
+  ],
   "cards": {
     "8ball": [
       {

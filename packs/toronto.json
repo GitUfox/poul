@@ -4,6 +4,11 @@
   "location": "Ontario",
   "emoji": "🍁",
   "isDefault": false,
+  "region": "Canada",
+  "coords": [
+    43.65,
+    -79.38
+  ],
   "cards": {
     "chill": [
       {

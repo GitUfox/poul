@@ -4,6 +4,11 @@
   "location": "Mexico",
   "emoji": "🦅",
   "isDefault": false,
+  "region": "Mexico & Caribbean",
+  "coords": [
+    19.43,
+    -99.13
+  ],
   "cards": {
     "social": [
       {

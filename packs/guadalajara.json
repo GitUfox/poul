@@ -4,6 +4,11 @@
   "location": "Jalisco · Mexico",
   "emoji": "🎺",
   "isDefault": false,
+  "region": "Mexico & Caribbean",
+  "coords": [
+    20.67,
+    -103.35
+  ],
   "cards": {
     "social": [
       {

@@ -4,6 +4,11 @@
   "location": "Chile",
   "emoji": "🍷",
   "isDefault": false,
+  "region": "South America",
+  "coords": [
+    -33.45,
+    -70.67
+  ],
   "cards": {
     "social": [
       {

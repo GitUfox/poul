@@ -4,6 +4,11 @@
   "location": "Washington",
   "emoji": "☕",
   "isDefault": false,
+  "region": "West",
+  "coords": [
+    47.61,
+    -122.33
+  ],
   "cards": {
     "adventure": [
       {

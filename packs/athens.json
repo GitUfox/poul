@@ -4,6 +4,11 @@
   "location": "Greece",
   "emoji": "🏺",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    37.98,
+    23.73
+  ],
   "cards": {
     "social": [
       {

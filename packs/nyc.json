@@ -4,6 +4,11 @@
   "location": "New York · New Jersey",
   "emoji": "🗽",
   "isDefault": false,
+  "region": "Northeast",
+  "coords": [
+    40.71,
+    -74.01
+  ],
   "cards": {
     "social": [
       {

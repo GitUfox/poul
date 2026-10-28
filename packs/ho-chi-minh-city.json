@@ -4,6 +4,11 @@
   "location": "Vietnam",
   "emoji": "🛵",
   "isDefault": false,
+  "region": "Asia",
+  "coords": [
+    10.78,
+    106.7
+  ],
   "cards": {
     "culture": [
       {

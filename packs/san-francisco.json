@@ -4,6 +4,11 @@
   "location": "California",
   "emoji": "🌉",
   "isDefault": false,
+  "region": "West",
+  "coords": [
+    37.77,
+    -122.42
+  ],
   "cards": {
     "adventure": [
       {

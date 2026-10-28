@@ -4,6 +4,11 @@
   "location": "British Columbia",
   "emoji": "🌲",
   "isDefault": false,
+  "region": "Canada",
+  "coords": [
+    49.28,
+    -123.12
+  ],
   "cards": {
     "social": [
       {

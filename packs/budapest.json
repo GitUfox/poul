@@ -4,6 +4,11 @@
   "location": "Hungary",
   "emoji": "♨️",
   "isDefault": false,
+  "region": "Europe",
+  "coords": [
+    47.5,
+    19.04
+  ],
   "cards": {
     "social": [
       {

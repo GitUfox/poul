@@ -4,6 +4,11 @@
   "location": "Illinois",
   "emoji": "🌭",
   "isDefault": false,
+  "region": "Midwest",
+  "coords": [
+    41.88,
+    -87.63
+  ],
   "cards": {
     "adventure": [
       {

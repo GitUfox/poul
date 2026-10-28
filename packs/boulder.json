@@ -4,6 +4,11 @@
   "location": "Colorado",
   "emoji": "🥾",
   "isDefault": false,
+  "region": "Mountain",
+  "coords": [
+    40.01,
+    -105.27
+  ],
   "cards": {
     "adventure": [
       {

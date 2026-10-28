@@ -4,6 +4,11 @@
   "location": "Maryland",
   "emoji": "🦀",
   "isDefault": false,
+  "region": "Mid-Atlantic",
+  "coords": [
+    39.29,
+    -76.61
+  ],
   "cards": {
     "chill": [
       {

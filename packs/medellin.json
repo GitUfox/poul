@@ -4,6 +4,11 @@
   "location": "Colombia",
   "emoji": "🚡",
   "isDefault": false,
+  "region": "South America",
+  "coords": [
+    6.25,
+    -75.56
+  ],
   "cards": {
     "chill": [
       {

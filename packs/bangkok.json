@@ -4,6 +4,11 @@
   "location": "Thailand",
   "emoji": "🛕",
   "isDefault": false,
+  "region": "Asia",
+  "coords": [
+    13.76,
+    100.5
+  ],
   "cards": {
     "adventure": [
       {

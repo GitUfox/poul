@@ -4,6 +4,11 @@
   "location": "Florida",
   "emoji": "🐬",
   "isDefault": false,
+  "region": "South",
+  "coords": [
+    27.95,
+    -82.46
+  ],
   "cards": {
     "social": [
       {

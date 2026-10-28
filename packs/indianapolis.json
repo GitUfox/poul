@@ -4,6 +4,11 @@
   "location": "Indiana",
   "emoji": "🏎️",
   "isDefault": false,
+  "region": "Midwest",
+  "coords": [
+    39.77,
+    -86.16
+  ],
   "cards": {
     "culture": [
       {

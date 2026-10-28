@@ -4,6 +4,11 @@
   "location": "Argentina",
   "emoji": "💃",
   "isDefault": false,
+  "region": "South America",
+  "coords": [
+    -34.6,
+    -58.38
+  ],
   "cards": {
     "social": [
       {

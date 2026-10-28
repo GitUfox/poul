@@ -4,6 +4,11 @@
   "location": "Hong Kong SAR",
   "emoji": "🏙️",
   "isDefault": false,
+  "region": "Asia",
+  "coords": [
+    22.32,
+    114.17
+  ],
   "cards": {
     "social": [
       {

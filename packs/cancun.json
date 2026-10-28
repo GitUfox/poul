@@ -4,6 +4,11 @@
   "location": "Quintana Roo · Mexico",
   "emoji": "🏝️",
   "isDefault": false,
+  "region": "Mexico & Caribbean",
+  "coords": [
+    21.16,
+    -86.85
+  ],
   "cards": {
     "social": [
       {

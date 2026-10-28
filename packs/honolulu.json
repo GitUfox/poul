@@ -4,6 +4,11 @@
   "location": "Hawaiʻi",
   "emoji": "🌺",
   "isDefault": false,
+  "region": "West",
+  "coords": [
+    21.31,
+    -157.86
+  ],
   "cards": {
     "adventure": [
       {

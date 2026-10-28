@@ -4,6 +4,11 @@
   "location": "Oregon",
   "emoji": "🌹",
   "isDefault": false,
+  "region": "West",
+  "coords": [
+    45.52,
+    -122.68
+  ],
   "cards": {
     "culture": [
       {

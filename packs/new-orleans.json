@@ -4,6 +4,11 @@
   "location": "Louisiana",
   "emoji": "⚜️",
   "isDefault": false,
+  "region": "South",
+  "coords": [
+    29.95,
+    -90.07
+  ],
   "cards": {
     "adventure": [
       {

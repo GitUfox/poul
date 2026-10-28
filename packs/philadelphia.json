@@ -4,6 +4,11 @@
   "location": "Pennsylvania",
   "emoji": "🔔",
   "isDefault": false,
+  "region": "Northeast",
+  "coords": [
+    39.95,
+    -75.17
+  ],
   "cards": {
     "culture": [
       {
