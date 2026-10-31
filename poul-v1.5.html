@@ -851,6 +851,33 @@
     background: transparent;   /* was var(--bg) — it covered the ambient pool */
   }
 
+  /* The exit on the draw and card screens (design pick 1A + 2A, 2026-10-30):
+     one quiet label, top-left on both, where the Trophy Room keeps Back.
+     44px target, text-dim at rest so Pocket or Scratch stays the decision. */
+  .exit-link {
+    position: absolute;
+    top: calc(var(--sp-8) + env(safe-area-inset-top, 0px));
+    left: var(--sp-12);
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-4);
+    padding: 0 var(--sp-12);
+    background: none;
+    border: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: var(--fs-micro);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    cursor: pointer;
+    z-index: 2;
+    transition: color 0.2s;
+  }
+  .exit-link:hover, .exit-link:focus-visible { color: var(--sage); outline: none; }
+  .exit-link .pi { width: 12px; height: 12px; }
+
   .draw-stage {
     display: flex;
     flex-direction: column;
@@ -3137,6 +3164,7 @@
 
 <!-- ── SCREEN 2: DRAW ANIMATION ── -->
 <div id="screen-draw" class="screen">
+  <button class="exit-link" onclick="leaveTable()" aria-label="Back to the table"><svg class="pi" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M27 10 L15 22 L27 34"/></svg> Table</button>
   <div class="draw-stage">
     <div class="draw-category-label" id="draw-category-label">Outdoors</div>
     <div class="ball-container">
@@ -3153,6 +3181,7 @@
 
 <!-- ── SCREEN 3: CARD REVEAL ── -->
 <div id="screen-card" class="screen">
+  <button class="exit-link" onclick="leaveTable()" aria-label="Back to the table"><svg class="pi" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M27 10 L15 22 L27 34"/></svg> Table</button>
   <div class="card-wrapper">
     <div class="card" id="active-card">
       <div class="card-stripe" id="card-stripe"></div>
@@ -4275,6 +4304,26 @@ function drawCard(category) {
   return byId.get(id) || pool[Math.floor(Math.random() * pool.length)];
 }
 
+// Leaving the table puts the drawn card back ON TOP of its bag, so the next
+// draw in that category shows the same card. That is what makes the exit a
+// retreat and not a free redraw: a new card still costs a cube. A pool of one
+// never touched the bag (drawCard returns it directly), so there is nothing
+// to put back. Returns true when the card went back on the bag.
+function returnCardToBag(card, category) {
+  if (!card || !category) return false;
+  const pool = getFilteredPool(category);
+  if (pool.length <= 1) return false;
+  const key = state.activePack + ':' + category + ':' + poolSignature(pool);
+  const bags = loadBags();
+  const entry = bags[key];
+  if (!entry || !Array.isArray(entry.b)) return false;
+  if (entry.b[entry.b.length - 1] !== card.id) entry.b.push(card.id);
+  entry.u = Date.now();
+  bags[key] = entry;
+  saveBags(bags);
+  return true;
+}
+
 // ──────────────────────────────────────────
 // CATEGORY COLORS
 // ──────────────────────────────────────────
@@ -5152,6 +5201,20 @@ function renderBookingCTA(card) {
 // ──────────────────────────────────────────
 // RETURN HOME
 // ──────────────────────────────────────────
+// The exit on the draw and card screens (pick 1A + 2A). No charge, no draw
+// counted, the card goes back on top of the bag, and the category stays
+// selected so a wrong tap is one tap to fix.
+function leaveTable() {
+  const card = state.currentCard;
+  const putBack = returnCardToBag(card, state.selectedCategory);
+  state.currentCard = null;
+  document.getElementById('active-card').classList.remove('revealed');
+  if (card) track('card_returned', { ...cardProps(card), put_back: putBack });
+  updateHomeUI();
+  showScreen('home');
+  if (card) showToast(putBack ? "Put back. It's still the top card." : 'Put back.');
+}
+
 function returnHome() {
   state.selectedCategory = null;
   state.currentCard = null;
