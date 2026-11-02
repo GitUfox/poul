@@ -23,7 +23,7 @@
 <link rel="icon" type="image/svg+xml" href="poul-icon.svg">
 <meta http-equiv="Content-Security-Policy"
   content="default-src 'self'; script-src 'self' 'unsafe-inline' https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://us.i.posthog.com https://us-assets.i.posthog.com">
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Alfa+Slab+One&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #070907;   /* deepened from #0a0c0a (2026-08-06 "lamp up") — more separation under the lit surfaces */
@@ -3049,6 +3049,160 @@
   .spark-delta.pos { color: var(--success); background: var(--success-dim); border-color: var(--success-edge); }
   .spark-delta.neg { color: var(--danger);  background: var(--danger-dim);  border-color: var(--danger-edge); }
 </style>
+<style id="v20-table">
+  /* ── THE TABLE (2026-11-01) ──
+     Redesign picks 1A 2A 3A 4A off the board
+     https://claude.ai/artifact/JMmJRf81qHYmeMEgaRuELK. The home screen stops
+     being a stack of rounded cards and becomes the object the vocabulary
+     already describes: a pool table under the one lamp. These rules override
+     the card-grid styles above by specificity; the originals stay so the
+     lamp/rim machinery and the other screens are untouched. Phase 2 carries
+     the display face and the objects to the draw, card and result screens. */
+  :root {
+    --font-display: 'Alfa Slab One', 'Playfair Display', serif;
+    /* True pool-ball colours, dimmed as if under the hall lamp. */
+    --ball-1: #d4a92a; --ball-2: #2b56a8; --ball-3: #b7382f; --ball-4: #5e2f8a;
+    --ball-5: #d2692b; --ball-6: #1f7a4a; --ball-7: #7a2432; --ball-8: #0d120d;
+    --rail: #221d18;        /* the one warm token: the wooden rail */
+    --felt-deep: #163f2a;   /* felt where the lamp does not reach */
+    --chalk-blue: #2b56a8;  /* a chalk cube is blue */
+    --cue: #efe9d8;
+    --gold: #e8a84d;        /* the trophy gold already used across the app */
+  }
+
+  #screen-home { justify-content: flex-start; gap: var(--sp-12); padding: var(--sp-32) var(--sp-24) var(--sp-24); overflow-x: hidden; }
+
+  /* Top row: wordmark hangs from the left edge, the table's city sits right. */
+  .home-top { flex-direction: row; align-items: flex-start; justify-content: space-between; width: 100%; max-width: 400px; }
+  .home-brand { display: flex; flex-direction: column; align-items: flex-start; flex: 0 1 auto; max-width: 42%; }
+  .home-wordmark { font-family: var(--font-display); font-weight: 400; font-size: var(--fs-3xl); letter-spacing: 0; align-items: center; gap: var(--sp-2); }
+  .wm-ball { display: inline-grid; place-items: center; width: .86em; height: .86em; border-radius: 50%; margin: 0 .03em; background: radial-gradient(circle at 40% 33%, #1e2c20, #0d120d 60%, #040607); border: 2px solid var(--felt-bright); box-shadow: calc(var(--cast-x) * 2px) calc(var(--cast-y) * 3px) 6px rgba(0,0,0,.5); }
+  .wm-ball i { font-style: normal; display: grid; place-items: center; width: 54%; height: 54%; border-radius: 50%; background: var(--ivory); color: var(--ball-8); font-size: var(--fs-micro); line-height: 1; }
+  .home-sub { margin-top: var(--sp-4); font-size: var(--fs-small); font-weight: 500; letter-spacing: 0; text-transform: none; color: var(--text-dim); line-height: 1.3; }
+  /* Starts below the ? button (absolute, top 22px + 30px), so the two never overlap. */
+  #screen-home .pack-indicator { align-items: flex-end; text-align: right; gap: var(--sp-2); margin: var(--sp-24) 0 0; padding: var(--sp-4) 0 var(--sp-4) var(--sp-8); flex: 0 1 auto; min-width: 0; }
+  #screen-home #pack-indicator-text { justify-content: flex-end; padding-right: 0; color: var(--text); font-size: var(--fs-body); }
+  #screen-home .season-line { display: block; text-align: right; color: var(--text-mid); line-height: 1.35; }
+  #screen-home .season-line svg { vertical-align: -3px; margin-right: var(--sp-4); }
+  #screen-home .pack-switch-hint { text-transform: none; letter-spacing: 0; }
+
+  /* THE WIRE (pick 3A) */
+  #screen-home .spark-display { background: none; border: 0; border-radius: 0; padding: 0; margin-top: var(--sp-8); gap: var(--sp-10); box-shadow: none; }
+  .wire { position: relative; display: flex; align-items: center; gap: var(--sp-12); min-height: 30px; }
+  .wire::before { content: ''; position: absolute; left: 0; right: 0; top: 50%; height: 2px; transform: translateY(-50%); border-radius: 1px; background: linear-gradient(90deg, #6a6050, #b8ad96 45%, #6a6050); }
+  .beads { position: relative; display: flex; align-items: center; gap: var(--sp-4); flex: 1; min-width: 0; }
+  .bead { width: 12px; height: 16px; border-radius: 4px; flex: 0 0 auto; background: radial-gradient(circle at 35% 30%, #fff8e6, var(--ivory) 45%, #a89a78); box-shadow: calc(var(--cast-x) * 2px) calc(var(--cast-y) * 3px) 6px rgba(0,0,0,.5); }
+  .bead.on { background: radial-gradient(circle at 35% 30%, #5fc08f, var(--felt-bright) 45%, var(--felt-deep)); }
+  .bead-gap { flex: 1; }
+  .bead.slide { animation: bead-slide .9s var(--ease-cloth) both; }
+  @keyframes bead-slide { from { transform: translateX(48px); } to { transform: none; } }
+  .wire .spark-type { position: relative; margin-left: 0; flex: 0 1 auto; max-width: 58%; padding: var(--sp-4) var(--sp-10); border-radius: 999px; background: var(--surface2); border: 1px solid var(--border2); text-align: left; }
+  .wire .spark-type-value { display: flex; align-items: center; gap: var(--sp-4); font-size: var(--fs-small); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .wire .spark-type-value::after { content: '↗'; color: var(--sage); }
+  .hud-stats { gap: var(--sp-24); align-items: flex-start; }
+  .spark-chalk { display: flex; flex-direction: column; }
+  .chalk-cubes { min-height: 28px; align-items: center; }
+  .chalk-cubes .token-dot { width: 12px; height: 12px; border-radius: 2px; opacity: 1; background: var(--chalk-blue); box-shadow: inset 0 -4px 0 rgba(0,0,0,.35), calc(var(--cast-x) * 1px) calc(var(--cast-y) * 2px) 3px rgba(0,0,0,.5); }
+  .chalk-cubes .token-dot.used { background: var(--surface3); box-shadow: none; opacity: .7; }
+
+  /* Vibe presets left-anchored, the filter at the right end of the same bar. */
+  .vibe-bar { display: flex; align-items: center; gap: var(--sp-8); width: 100%; max-width: 400px; }
+  .vibe-bar .vibe-row { flex: 1; min-width: 0; margin: 0; max-width: none; -webkit-mask-image: linear-gradient(90deg, #000 82%, transparent); mask-image: linear-gradient(90deg, #000 82%, transparent); }
+  .vibe-bar .btn-filter { flex: 0 0 auto; text-transform: none; letter-spacing: 0; font-size: var(--fs-small); border-radius: 6px; }
+  #screen-home .vibe-chip { background: none; border-radius: 6px; }
+
+  /* THE TABLE (pick 1A): rail with sights, felt lit from the lamp, six pockets. */
+  .table { width: 100%; max-width: 400px; border-radius: 22px; padding: var(--sp-16);
+    background:
+      radial-gradient(circle at 25% 8px, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at 50% 8px, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at 75% 8px, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at 25% calc(100% - 8px), rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at 50% calc(100% - 8px), rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at 75% calc(100% - 8px), rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at 8px 17%, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at 8px 33%, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at 8px 67%, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at 8px 83%, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at calc(100% - 8px) 17%, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at calc(100% - 8px) 33%, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at calc(100% - 8px) 67%, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      radial-gradient(circle at calc(100% - 8px) 83%, rgba(240,230,204,.8) 1.6px, transparent 2.6px),
+      var(--rail);
+    box-shadow: calc(var(--cast-x) * 6px) calc(var(--cast-y) * 14px) 36px rgba(0,0,0,.6), inset 0 1px 0 rgba(240,230,204,.08); }
+  .felt { position: relative; isolation: isolate; border-radius: 10px; overflow: hidden;
+    background:
+      radial-gradient(circle at 0 0, #000 14px, transparent 15px),
+      radial-gradient(circle at 100% 0, #000 14px, transparent 15px),
+      radial-gradient(circle at 0 50%, #000 12px, transparent 13px),
+      radial-gradient(circle at 100% 50%, #000 12px, transparent 13px),
+      radial-gradient(circle at 0 100%, #000 14px, transparent 15px),
+      radial-gradient(circle at 100% 100%, #000 14px, transparent 15px),
+      radial-gradient(140% 120% at var(--lamp-x) var(--lamp-y), var(--felt-mid) 0%, var(--felt) 42%, var(--felt-deep) 100%);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.35), inset 0 10px 28px rgba(0,0,0,.35); }
+  /* The lamp's hot spot on the cloth. It drifts a little: the fixture swings. */
+  .felt::before { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: radial-gradient(55% 45% at var(--lamp-x) var(--lamp-y), rgba(var(--lamp-hue), .13), transparent 70%); animation: lamp-sway 9s ease-in-out infinite alternate; }
+  @keyframes lamp-sway { from { transform: translate(0, 0); } to { transform: translate(14px, 8px); } }
+
+  /* THE RACK (pick 2A): the six .cat-btn tiles become balls in a 1-2-3 rack.
+     Markup order is unchanged; the grid places the 8 at the apex. */
+  .felt .category-grid { position: relative; z-index: 1; grid-template-columns: repeat(6, 1fr); gap: var(--sp-10) 0; max-width: none; padding: var(--sp-24) var(--sp-8) 0; }
+  .felt .cat-btn:nth-child(6) { grid-row: 1; grid-column: 3 / 5; }
+  .felt .cat-btn:nth-child(1) { grid-row: 2; grid-column: 2 / 4; }
+  .felt .cat-btn:nth-child(2) { grid-row: 2; grid-column: 4 / 6; }
+  .felt .cat-btn:nth-child(3) { grid-row: 3; grid-column: 1 / 3; }
+  .felt .cat-btn:nth-child(4) { grid-row: 3; grid-column: 3 / 5; }
+  .felt .cat-btn:nth-child(5) { grid-row: 3; grid-column: 5 / 7; }
+  .felt .cat-btn, .felt .cat-btn.eightball { background: none; border: 0; border-radius: 0; padding: var(--sp-4) 0; box-shadow: none; overflow: visible; gap: var(--sp-6); animation: none; transition: transform .2s var(--ease-cloth); }
+  .felt .cat-btn::before, .felt .cat-btn::after { display: none; }
+  .felt .cat-btn:hover { transform: translateY(-2px); }
+  .felt .cat-btn:active { transform: translateY(1px); box-shadow: none; }
+  .felt .cat-btn.selected { transform: none; box-shadow: none; }
+  .felt .cat-icon { width: 52px; height: 52px; }
+  .pball { position: relative; width: 52px; height: 52px; border-radius: 50%;
+    background:
+      radial-gradient(circle at 34% 28%, rgba(255,255,255,.42), rgba(255,255,255,0) 40%),
+      radial-gradient(circle at 68% 74%, rgba(0,0,0,.55), rgba(0,0,0,0) 72%),
+      var(--cc);
+    box-shadow: calc(var(--cast-x) * 6px) calc(var(--cast-y) * 8px) 14px rgba(0,0,0,.55), inset calc(var(--cast-x) * -3px) calc(var(--cast-y) * -4px) 8px rgba(0,0,0,.3);
+    transition: box-shadow .25s, transform .25s; }
+  .pball::after { content: ''; position: absolute; left: 20%; top: 12%; width: 28%; height: 14%; border-radius: 50%; background: rgba(255,255,255,.26); transform: rotate(-22deg); }
+  .pnum { position: absolute; inset: 26%; border-radius: 50%; background: var(--ivory); color: var(--ball-8); display: grid; place-items: center; font-family: var(--font-display); font-size: var(--fs-md); line-height: 1; }
+  .felt .cat-btn.selected .pball { box-shadow: 0 0 0 3px rgba(var(--lamp-hue), .9), 0 0 22px rgba(var(--lamp-hue), .5), calc(var(--cast-x) * 6px) calc(var(--cast-y) * 8px) 14px rgba(0,0,0,.55); animation: called-ring 1.8s ease-in-out infinite; }
+  @keyframes called-ring { 50% { box-shadow: 0 0 0 4px rgba(var(--lamp-hue), .6), 0 0 32px rgba(var(--lamp-hue), .7), calc(var(--cast-x) * 6px) calc(var(--cast-y) * 8px) 14px rgba(0,0,0,.55); } }
+  .felt .cat-name, .felt .cat-btn.eightball .cat-name { color: rgba(240,230,204,.8); letter-spacing: .04em; }
+  .felt .cat-btn.selected .cat-name { color: #fff; }
+  .felt .cat-count { top: 0; right: calc(50% - 34px); }
+
+  /* THE CUE: the draw trigger. Dim until a ball is called, then lit. */
+  .felt .draw-section { position: relative; z-index: 1; margin-top: var(--sp-16); padding-bottom: var(--sp-20); gap: var(--sp-6); max-width: none; }
+  .felt .draw-btn, .felt .draw-btn.disabled { width: auto; background: none; border: 0; border-radius: 0; padding: var(--sp-4) var(--sp-16); box-shadow: none; display: flex; flex-direction: column; align-items: center; gap: var(--sp-8); color: var(--ivory); overflow: visible; letter-spacing: .12em; font-size: var(--fs-body); transform: none; }
+  .felt .draw-btn::after { display: none; }
+  .felt .draw-btn.disabled { color: rgba(240,230,204,.55); cursor: default; }
+  .felt .draw-btn:hover, .felt .draw-btn:not(.disabled):active { box-shadow: none; transform: none; }
+  .cue-ball { width: 60px; height: 60px; border-radius: 50%; background: radial-gradient(circle at 34% 28%, #fff, var(--cue) 40%, #b9b09a 100%); box-shadow: calc(var(--cast-x) * 7px) calc(var(--cast-y) * 9px) 16px rgba(0,0,0,.55), inset calc(var(--cast-x) * -3px) calc(var(--cast-y) * -4px) 8px rgba(0,0,0,.18); transition: filter .3s, box-shadow .3s, transform .3s; }
+  .draw-btn.disabled .cue-ball { filter: saturate(.6) brightness(.72); }
+  .draw-btn:not(.disabled) .cue-ball { box-shadow: 0 0 0 2px rgba(var(--lamp-hue), .35), 0 0 28px rgba(61,153,112,.55), calc(var(--cast-x) * 7px) calc(var(--cast-y) * 9px) 16px rgba(0,0,0,.55); animation: cue-glint 3s ease-in-out infinite; }
+  @keyframes cue-glint { 50% { filter: brightness(1.1); } }
+  .draw-btn:not(.disabled):hover .cue-ball { transform: translateY(-2px); }
+  .draw-btn:not(.disabled):active .cue-ball { transform: translateY(1px); }
+  .felt .pool-size-label { color: rgba(240,230,204,.7); }
+  .felt .pool-size-label.thin { color: #ffb4c2; }
+
+  /* THE LEDGE: the Trophy Room strip. */
+  #screen-home .trophy-peek { display: flex; align-items: center; gap: var(--sp-8); background: none; border: 0; border-top: 1px solid var(--border); border-radius: 0; padding: var(--sp-12) 0 0; margin-top: var(--sp-4); width: 100%; max-width: 400px; min-width: 0; }
+  #screen-home .trophy-peek:hover { transform: none; }
+  .tp-title { font-family: var(--font-display); font-style: normal; font-weight: 400; font-size: var(--fs-body); color: var(--gold); white-space: nowrap; flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .tp-shelf { flex: 1; justify-content: center; gap: var(--sp-2); }
+  .tp-slot { width: 20px; height: 20px; border-radius: 50%; background: var(--surface2); border: 1px solid var(--border2); }
+  .tp-slot svg { width: 13px; height: 13px; }
+  .tp-slot.on { background: radial-gradient(circle at 40% 30%, #ffe9a6, #c9972a 55%, #6b4a0c); border-color: transparent; color: #2a1d05; box-shadow: calc(var(--cast-x) * 2px) calc(var(--cast-y) * 3px) 6px rgba(0,0,0,.5), 0 0 10px rgba(232,168,77,.25); }
+  .tp-count { flex: 0 0 auto; white-space: nowrap; text-transform: none; letter-spacing: 0; font-size: var(--fs-micro); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .felt::before, .bead.slide, .felt .cat-btn.selected .pball, .draw-btn:not(.disabled) .cue-ball { animation: none; }
+  }
+</style>
 <!-- Shared SVG defs — the pool-ball radial gradient, referenced document-wide by url(#pbg) -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <defs>
@@ -3062,14 +3216,37 @@
 <!-- ── SCREEN 1: HOME ── -->
 <div id="screen-home" class="screen active">
   <button class="btn-rules" onclick="openRulesSheet()" aria-label="How to play">?</button>
+  <!-- ── THE TABLE (2026-11-01, redesign picks 1A 2A 3A 4A) ──
+       The home screen is a pool table seen from above. The categories are
+       racked as numbered balls in true pool-ball colours, the cue ball is the
+       draw trigger ("Call your shot" → "Break"), the score is beads on a wire,
+       the Run is a numeral and Chalk is blue cubes. Every id and onclick below
+       is unchanged from the card-grid layout it replaced: the JS did not move.
+       Ball numbers: 6 Outdoors (green) · 5 Eat & Drink (orange) · 2 Chill
+       (blue) · 4 Nightlife (purple) · 1 Culture (yellow) · 8 wild. -->
   <div class="home-top">
-    <div class="home-wordmark">
-      P<svg class="wordmark-ball" viewBox="0 0 100 100" width="54" height="54" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="wbg" cx="40%" cy="33%" r="70%"><stop offset="0%" stop-color="#1e2c20"/><stop offset="60%" stop-color="#0d120d"/><stop offset="100%" stop-color="#040607"/></radialGradient></defs><circle cx="50" cy="50" r="45" fill="url(#wbg)" stroke="#3d9970" stroke-width="3.5"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg>UL
+    <div class="home-brand">
+      <div class="home-wordmark">P<span class="wm-ball" aria-hidden="true"><i>8</i></span>UL</div>
+      <div class="home-sub">Luck favors the spontaneous.</div>
     </div>
-    <div class="home-sub">Luck favors the spontaneous</div>
+    <div class="pack-indicator" onclick="openPackSheet()" role="button" tabindex="0"
+         onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openPackSheet();}">
+      <span id="pack-indicator-text">Phoenix · Scottsdale</span>
+      <div class="season-line" id="season-line"></div>
+      <span class="pack-switch-hint">Switch city ›</span>
+    </div>
   </div>
 
+  <!-- THE WIRE (pick 3A): the scoring string over the table. Lit beads are
+       progress from your current Poul Type to the next one (renderScoreWire);
+       the type pill at the right end is where the beads are heading. -->
   <div class="spark-display">
+    <div class="wire">
+      <div class="beads" id="score-beads" role="img" aria-label="Pocket score"></div>
+      <div class="spark-type spark-type-tappable" onclick="openShareCard()">
+        <span class="spark-type-value" id="poul-type-display">—</span>
+      </div>
+    </div>
     <div class="hud-stats">
       <div class="spark-info">
         <div class="spark-label">Pocket Score</div>
@@ -3085,80 +3262,69 @@
         <div class="spark-label">Run</div>
         <div class="streak-value" id="streak-value-display">—</div>
       </div>
-      <div class="spark-type spark-type-tappable" onclick="openShareCard()">
-        <div class="spark-type-label">Your Type ↗</div>
-        <div class="spark-type-value" id="poul-type-display">—</div>
+      <div class="spark-chalk">
+        <div class="spark-label">Chalk</div>
+        <div id="token-dots" class="chalk-cubes" style="display:flex;gap:4px;"></div>
       </div>
-    </div>
-    <div class="hud-divider"></div>
-    <div class="pack-indicator" onclick="openPackSheet()">
-      <div class="pack-indicator-inner">
-        <span id="pack-indicator-text">Phoenix · Scottsdale</span>
-        <div class="token-dots-chip">
-          <div id="token-dots" style="display:flex;gap:4px;"></div>
-          <span class="pack-switch-hint">Switch City ›</span>
-        </div>
-      </div>
-      <div class="season-line" id="season-line"></div>
     </div>
   </div>
   <div id="token-count-label" style="display:none;"></div>
 
-  <div class="vibe-row" id="vibe-row"></div>
-
-  <div class="filter-row">
-    <div class="category-label" style="margin-top:28px;margin-bottom:0;">Choose Your Draw</div>
-    <button class="btn-filter" id="filter-btn" onclick="openFilters()" style="margin-top:28px;">
+  <div class="vibe-bar">
+    <div class="vibe-row" id="vibe-row"></div>
+    <button class="btn-filter" id="filter-btn" onclick="openFilters()">
       <svg class="pi" width="13" height="13" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="4.46" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="12" x2="38" y2="12"/><line x1="6" y1="22" x2="38" y2="22"/><line x1="6" y1="32" x2="38" y2="32"/><circle cx="16" cy="12" r="4" fill="#131613"/><circle cx="28" cy="22" r="4" fill="#131613"/><circle cx="20" cy="32" r="4" fill="#131613"/></svg> Poul Filter
       <span class="filter-badge" id="filter-badge"></span>
     </button>
   </div>
 
-  <div style="height:16px;"></div>
-  <div class="category-grid">
-    <button class="cat-btn" data-category="adventure" style="--cc:var(--adventure)" onclick="selectCategory('adventure')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 40 L17 8 L26 24 L32 15 L41 40 Z" fill="currentColor" fill-opacity=".18"/><path d="M3 40 L17 8 L26 24 L32 15 L41 40" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" fill="none"/><path d="M17 8 L20.5 14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span>
-      <span class="cat-name">Outdoors</span>
-    </button>
-    <button class="cat-btn" data-category="foodie" style="--cc:var(--foodie)" onclick="selectCategory('foodie')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="14" y1="7" x2="14" y2="21" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><line x1="22" y1="7" x2="22" y2="21" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><line x1="30" y1="7" x2="30" y2="21" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><path d="M14 21 Q14 30 22 32 Q30 30 30 21" stroke="currentColor" stroke-width="2.3" fill="none" stroke-linecap="round"/><line x1="22" y1="32" x2="22" y2="40" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></span>
-      <span class="cat-name">Eat &amp; Drink</span>
-    </button>
-    <button class="cat-btn" data-category="chill" style="--cc:var(--chill)" onclick="selectCategory('chill')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="24" r="14" fill="currentColor"/><circle cx="27" cy="17" r="13" fill="#131613"/><circle cx="35" cy="10" r="2.2" fill="currentColor" fill-opacity=".7"/><circle cx="39" cy="20" r="1.4" fill="currentColor" fill-opacity=".45"/><circle cx="33" cy="24" r="1" fill="currentColor" fill-opacity=".3"/></svg></span>
-      <span class="cat-name">Chill</span>
-    </button>
-    <button class="cat-btn" data-category="social" style="--cc:var(--social)" onclick="selectCategory('social')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 8 L36 8 L22 25 Z" fill="currentColor" fill-opacity=".14"/><path d="M8 8 L36 8 L22 25 Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><line x1="22" y1="25" x2="22" y2="36" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><line x1="14" y1="38" x2="30" y2="38" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="27" cy="13" r="2.6" fill="currentColor" stroke="none"/></svg></span>
-      <span class="cat-name">Nightlife</span>
-    </button>
-    <button class="cat-btn" data-category="culture" style="--cc:var(--culture)" onclick="selectCategory('culture')">
-      <span class="cat-icon"><svg width="28" height="28" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 15 L22 5 L38 15 Z" fill="currentColor" fill-opacity=".14"/><path d="M6 15 L22 5 L38 15 Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><line x1="11" y1="19" x2="11" y2="32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><line x1="22" y1="19" x2="22" y2="32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><line x1="33" y1="19" x2="33" y2="32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><line x1="7" y1="36" x2="37" y2="36" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span>
-      <span class="cat-name">Culture</span>
-    </button>
-    <button class="cat-btn eightball" data-category="8ball" style="--cc:var(--ivory)" onclick="selectCategory('8ball')">
-      <span class="cat-icon"><svg viewBox="0 0 100 100" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="cbg" cx="40%" cy="33%" r="70%"><stop offset="0%" stop-color="#1e2c20"/><stop offset="60%" stop-color="#0d120d"/><stop offset="100%" stop-color="#040607"/></radialGradient></defs><circle cx="50" cy="50" r="47" fill="url(#cbg)"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></span>
-      <span class="cat-name">8-Ball</span>
-    </button>
+  <div class="table">
+    <div class="felt">
+      <div class="category-grid">
+        <button class="cat-btn" data-category="adventure" style="--cc:var(--ball-6)" onclick="selectCategory('adventure')">
+          <span class="cat-icon"><span class="pball" aria-hidden="true"><span class="pnum">6</span></span></span>
+          <span class="cat-name">Outdoors</span>
+        </button>
+        <button class="cat-btn" data-category="foodie" style="--cc:var(--ball-5)" onclick="selectCategory('foodie')">
+          <span class="cat-icon"><span class="pball" aria-hidden="true"><span class="pnum">5</span></span></span>
+          <span class="cat-name">Eat &amp; Drink</span>
+        </button>
+        <button class="cat-btn" data-category="chill" style="--cc:var(--ball-2)" onclick="selectCategory('chill')">
+          <span class="cat-icon"><span class="pball" aria-hidden="true"><span class="pnum">2</span></span></span>
+          <span class="cat-name">Chill</span>
+        </button>
+        <button class="cat-btn" data-category="social" style="--cc:var(--ball-4)" onclick="selectCategory('social')">
+          <span class="cat-icon"><span class="pball" aria-hidden="true"><span class="pnum">4</span></span></span>
+          <span class="cat-name">Nightlife</span>
+        </button>
+        <button class="cat-btn" data-category="culture" style="--cc:var(--ball-1)" onclick="selectCategory('culture')">
+          <span class="cat-icon"><span class="pball" aria-hidden="true"><span class="pnum">1</span></span></span>
+          <span class="cat-name">Culture</span>
+        </button>
+        <button class="cat-btn eightball" data-category="8ball" style="--cc:var(--ball-8)" onclick="selectCategory('8ball')">
+          <span class="cat-icon"><span class="pball" aria-hidden="true"><span class="pnum">8</span></span></span>
+          <span class="cat-name">8-Ball</span>
+        </button>
+      </div>
+
+      <div class="draw-section">
+        <button class="draw-btn disabled" id="draw-btn" onclick="startDraw()">
+          <span class="cue-ball" aria-hidden="true"></span>
+          <span class="draw-label" id="draw-label">Call your shot</span>
+        </button>
+        <div class="pool-size-row"><span class="pool-size-label" id="pool-size-label"></span></div>
+      </div>
+    </div>
   </div>
 
-  <div class="draw-section">
-    <button class="draw-btn disabled" id="draw-btn" onclick="startDraw()">
-      Pick a Category
-    </button>
-    <div class="pool-size-row"><span class="pool-size-label" id="pool-size-label"></span></div>
-    <!-- The shelf peek (design pick B, 2026-08-07): the user's actual trophies
-         on the home page — earned in gold, unearned as silhouettes. -->
-    <div class="trophy-peek" id="trophy-peek" role="button" tabindex="0"
-         onclick="showScreen('pool')"
-         onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showScreen('pool');}">
-      <div class="tp-head">
-        <span class="tp-title">The Trophy Room</span>
-        <span class="tp-count" id="tp-count"></span>
-      </div>
-      <div class="tp-shelf" id="tp-shelf"></div>
-      <div class="tp-ledge"></div>
-    </div>
+  <!-- The ledge: the Trophy Room's front porch. Earned trophies are lit gold,
+       the rest are dark glass. -->
+  <div class="trophy-peek" id="trophy-peek" role="button" tabindex="0"
+       onclick="showScreen('pool')"
+       onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showScreen('pool');}">
+    <span class="tp-title">The Trophy Room</span>
+    <div class="tp-shelf" id="tp-shelf"></div>
+    <span class="tp-count" id="tp-count"></span>
   </div>
 </div>
 
@@ -3984,7 +4150,7 @@ function renderVibes() {
   row.innerHTML = hrChip + Object.keys(VIBES).map(k => {
     const v = VIBES[k];
     const active = countActiveFilters() > 0 && vibeMatches(v);
-    return `<button class="vibe-chip${active ? ' active' : ''}" onclick="applyVibe('${k}')">${icon(v.icon, '12px')} ${v.label}</button>`;
+    return `<button class="vibe-chip${active ? ' active' : ''}" onclick="applyVibe('${k}')">${v.label}</button>`;
   }).join('');
 }
 
@@ -4617,9 +4783,8 @@ function typeEmblem(key, size) {
 function renderTrophyPeek() {
   const shelf = document.getElementById('tp-shelf');
   if (!shelf) return;
-  const n = state.completedCards.length;
-  document.getElementById('tp-count').textContent =
-    n === 0 ? 'The shelf is waiting ›' : n + ' pocketed ›';
+  const earned = TROPHIES.filter(t => t.earned()).length;
+  document.getElementById('tp-count').textContent = earned + ' of ' + TROPHIES.length + ' ›';
   shelf.innerHTML = TROPHIES.map(t => {
     const on = t.earned();
     return '<span class="tp-slot' + (on ? ' on' : '') + '" title="' + t.name + '">'
@@ -4651,6 +4816,7 @@ function renderTileCounts() {
 function updateHomeUI() {
   renderTrophyPeek();
   renderTileCounts();
+  renderScoreWire();
   // Spark score (animated counter)
   const scoreEl = document.getElementById('spark-score-display');
   animateCounter(scoreEl, state.sparkScore);
@@ -4713,7 +4879,7 @@ function updateHomeUI() {
   const totalCards    = deckCards.length;
   const seasonEl = document.getElementById('season-line');
   if (totalInSeason < totalCards) {
-    seasonEl.innerHTML = icon(season.icon, '15px') + season.label + ' · ' + totalInSeason + ' of ' + totalCards + ' cards active';
+    seasonEl.innerHTML = icon(season.icon, '15px') + season.label + '<br>' + totalInSeason + ' of ' + totalCards + ' active';
   } else {
     seasonEl.innerHTML = icon(season.icon, '15px') + season.label;
   }
@@ -4738,35 +4904,77 @@ function updateHomeUI() {
     const rawSize  = getCategoryDeck(state.selectedCategory).filter(c => c.filterExempt || isCardInSeason(c)).length;
     const seasonFiltered = rawSize - poolSize;
 
+    const called = CAT_LABELS[state.selectedCategory] + ' called';
+
     if (poolSize === 0) {
-      btn.textContent = "Table's Empty. Loosen the Filter";
+      setDrawLabel("Table's empty");
       btn.classList.add('disabled');
-      poolLabel.textContent = 'Nothing in the pool';
+      poolLabel.textContent = 'Nothing in the pool. Loosen the Poul Filter.';
       poolLabel.className = 'pool-size-label thin';
     } else if (poolSize <= 2) {
-      btn.textContent = 'Draw ' + CAT_LABELS[state.selectedCategory] + ' →';
+      setDrawLabel('Break');
       btn.classList.remove('disabled');
-      poolLabel.textContent = `Only ${poolSize} card${poolSize > 1 ? 's' : ''} left. Loosen the filter?`;
+      poolLabel.textContent = `${called} · only ${poolSize} left. Loosen the filter?`;
       poolLabel.className = 'pool-size-label thin';
     } else {
-      btn.textContent = 'Draw ' + CAT_LABELS[state.selectedCategory] + ' →';
+      setDrawLabel('Break');
       btn.classList.remove('disabled');
       if (state.houseRules && state.houseRules.active) {
-        poolLabel.textContent = `${poolSize} in the rack`;   // House Rules ignore season and filters
+        poolLabel.textContent = `${called} · ${poolSize} in the rack`;   // House Rules ignore season and filters
       } else if (activeCount > 0) {
-        poolLabel.textContent = `${poolSize} in the pool`;
+        poolLabel.textContent = `${called} · ${poolSize} in the pool`;
       } else if (seasonFiltered > 0) {
-        poolLabel.innerHTML = `${icon(season.icon, '11px')} ${poolSize} in season`;
+        poolLabel.innerHTML = `${escHtml(called)} · ${icon(season.icon, '11px')} ${poolSize} in season`;
       } else {
-        poolLabel.textContent = '';
+        poolLabel.textContent = `${called} · ${poolSize} racked`;
       }
       poolLabel.className = 'pool-size-label';
     }
   } else {
-    btn.textContent = 'Pick a Category';
+    setDrawLabel('Call your shot');
     btn.classList.add('disabled');
     poolLabel.textContent = '';
   }
+}
+
+// THE WIRE (2026-11-01). Lit beads = progress from the current Spark tier to
+// the next one, in tenths. The top tier lights the whole wire. Ghost is a
+// behaviour type, not a tier, so the beads keep reading the Spark tiers.
+function typeProgress() {
+  const tiers = POUL_TYPES.slice().sort((a, b) => a.min - b.min);
+  let cur = tiers[0], next = null;
+  for (let i = 0; i < tiers.length; i++) {
+    if (state.sparkScore >= tiers[i].min) { cur = tiers[i]; next = tiers[i + 1] || null; }
+  }
+  if (!next) return { lit: 10, next: null };
+  const lit = Math.min(9, Math.max(0, Math.floor((state.sparkScore - cur.min) / (next.min - cur.min) * 10)));
+  return { lit, next };
+}
+
+let wireLitBefore = null;   // module-level so a newly lit bead can slide in
+function renderScoreWire() {
+  const el = document.getElementById('score-beads');
+  if (!el) return;
+  const { lit, next } = typeProgress();
+  const fresh = wireLitBefore !== null && lit > wireLitBefore;
+  let html = '';
+  for (let i = 0; i < 10; i++) {
+    if (i === lit && lit > 0 && lit < 10) html += '<span class="bead-gap"></span>';
+    const slide = fresh && i >= wireLitBefore && i < lit ? ' slide' : '';
+    html += '<span class="bead' + (i < lit ? ' on' + slide : '') + '"></span>';
+  }
+  el.innerHTML = html;
+  el.setAttribute('aria-label', next
+    ? 'Pocket score ' + state.sparkScore + '. ' + lit + ' of 10 beads to ' + next.name + '.'
+    : 'Pocket score ' + state.sparkScore + '. Top of the table.');
+  wireLitBefore = lit;
+}
+
+// The cue label is the draw button's text. Writing it through this helper
+// keeps the cue ball span intact (textContent on the button would erase it).
+function setDrawLabel(text) {
+  const el = document.getElementById('draw-label');
+  if (el) el.textContent = text;
 }
 
 function getPoulType() {
@@ -6464,7 +6672,7 @@ document.querySelectorAll('.rules-type-emoji[data-type]').forEach(el => { el.inn
 // Show spark/streak from localStorage immediately, indicate packs loading
 updateHomeUI();
 document.getElementById('season-line').textContent = 'Setting the table…';
-document.getElementById('draw-btn').textContent    = 'Racking the Deck…';
+setDrawLabel('Racking the deck…');
 document.getElementById('draw-btn').classList.add('disabled');
 loadExternalPacks(); // parallel fetch, calls updateHomeUI() when done
 maybeShowRulesOnFirstLaunch();
