@@ -44,9 +44,9 @@ describe('legacy tolerance — old pocketed cards resolve forever', () => {
     const labels = extractObj('const CAT_LABELS = {');
     assert.equal(labels.active, 'Outdoors');
   });
-  test("CAT_COLORS['active'] resolves to the adventure hue", () => {
+  test("CAT_COLORS['active'] resolves to the same colour as adventure (the Outdoors ball since 2026-11-07)", () => {
     const colors = extractObj('const CAT_COLORS = {');
-    assert.equal(colors.active, 'var(--adventure)');
+    assert.equal(colors.active, colors.adventure);
     assert.ok(colors.culture, 'culture missing from CAT_COLORS');
   });
 });

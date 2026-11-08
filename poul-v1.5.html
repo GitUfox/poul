@@ -23,7 +23,7 @@
 <link rel="icon" type="image/svg+xml" href="poul-icon.svg">
 <meta http-equiv="Content-Security-Policy"
   content="default-src 'self'; script-src 'self' 'unsafe-inline' https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://us.i.posthog.com https://us-assets.i.posthog.com">
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Alfa+Slab+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Alfa+Slab+One&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #070907;   /* deepened from #0a0c0a (2026-08-06 "lamp up") — more separation under the lit surfaces */
@@ -352,10 +352,10 @@
   }
 
   .home-wordmark {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-display-3);
-    font-weight: 900;
-    letter-spacing: -3px;
+    font-weight: 400;
+    letter-spacing: 0;
     line-height: 1;
     color: var(--text);
     display: inline-flex;
@@ -419,9 +419,9 @@
   }
 
   .spark-value {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-2xl);
-    font-weight: 700;
+    font-weight: 400;
     color: var(--felt-bright);
     line-height: 1;
   }
@@ -433,9 +433,9 @@
   }
 
   .streak-value {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-xl);
-    font-weight: 700;
+    font-weight: 400;
     color: var(--ivory);
     line-height: 1;
   }
@@ -769,9 +769,9 @@
   }
 
   .tp-title {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-weight: 700;
+    font-family: var(--font-display);
+    font-style: normal;
+    font-weight: 400;
     font-size: var(--fs-md);
     color: #e8a84d;
   }
@@ -962,9 +962,9 @@
   }
 
   .ball-number {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-3xl);
-    font-weight: 900;
+    font-weight: 400;
     color: #0d120d;
     line-height: 1;
     position: relative;
@@ -1162,13 +1162,13 @@
   }
 
   .card-title {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-2xl);
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.1;
     color: var(--text);
     margin-bottom: var(--sp-10);
-    letter-spacing: -0.3px;
+    letter-spacing: 0;
   }
 
   .card-description {
@@ -1320,10 +1320,10 @@
   }
 
   .result-title {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-3xl);
-    font-weight: 900;
-    letter-spacing: -1px;
+    font-weight: 400;
+    letter-spacing: 0;
     text-align: center;
     animation: fadeUp 0.4s 0.1s ease both;
   }
@@ -1353,9 +1353,9 @@
   }
 
   .result-spark-delta {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-2xl);
-    font-weight: 700;
+    font-weight: 400;
   }
 
   .result-spark-delta.pos { color: var(--success); }
@@ -1460,13 +1460,18 @@
   }
 
   .pool-title {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     /* Scales down on narrow phones so the title clears Reset and Back at
        390px. At 28px it touched Reset with a 0px gap. */
-    font-size: clamp(22px, 6.4vw, var(--fs-2xl));
-    font-weight: 700;
-    letter-spacing: -1px;
+    /* Alfa Slab One runs wider than Playfair did: 4.8vw keeps the title,
+       Reset and Back on one line at 390px (6.4vw pushed Back off the edge). */
+    font-size: clamp(18px, 4.8vw, var(--fs-xl));
+    font-weight: 400;
+    letter-spacing: 0;
     white-space: nowrap;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .btn-reset { color: var(--text-dim); border-color: var(--border); }
@@ -1529,9 +1534,9 @@
   }
 
   .pool-empty-ball span {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-2xl);
-    font-weight: 900;
+    font-weight: 400;
     color: white;
     opacity: 0.5;
   }
@@ -1575,18 +1580,18 @@
   }
 
   .pool-card-title {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-lg);
-    font-weight: 700;
+    font-weight: 400;
     color: var(--text);
     line-height: 1.15;
-    letter-spacing: -0.2px;
+    letter-spacing: 0;
   }
 
   .pool-card-spark {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-xl);
-    font-weight: 700;
+    font-weight: 400;
     color: var(--felt-bright);
     flex-shrink: 0;
     line-height: 1;
@@ -1886,10 +1891,10 @@
   }
 
   .sheet-title {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-xl);
-    font-weight: 700;
-    letter-spacing: -0.3px;
+    font-weight: 400;
+    letter-spacing: 0;
   }
 
   .btn-sheet-close {
@@ -2091,9 +2096,9 @@
   }
 
   .share-card-logo {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-body);
-    font-weight: 900;
+    font-weight: 400;
     letter-spacing: 0.3em;
     color: var(--text-dim);
     text-transform: uppercase;
@@ -2107,12 +2112,12 @@
   }
 
   .share-card-type-name {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-2xl);
-    font-weight: 700;
+    font-weight: 400;
     color: var(--text);
     text-align: center;
-    letter-spacing: -0.5px;
+    letter-spacing: 0;
     margin-bottom: var(--sp-8);
   }
 
@@ -2147,9 +2152,9 @@
   }
 
   .share-stat-value {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-display);
     font-size: var(--fs-2xl);
-    font-weight: 700;
+    font-weight: 400;
     color: var(--felt-bright);
     line-height: 1;
   }
@@ -2865,8 +2870,8 @@
 
   .rules-footer {
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
+    font-family: var(--font-display);
+    font-style: normal;
     font-size: var(--fs-base);
     color: var(--text-dim);
     padding: var(--sp-10) 0 var(--sp-8);
@@ -2969,7 +2974,8 @@
 
      Manrope does have tnum (verified: every digit renders 24.8px at 40px with
      it on, vs 18.17-26.96px without). So the changing numerals move to Manrope
-     and get real tabular figures; Playfair keeps every other display role.
+     and get real tabular figures. (Playfair itself retired on 2026-11-07:
+     every display role now reads --font-display, Alfa Slab One.)
 
      Widths are reserved in em, not ch: `ch` is the advance of the DEFAULT "0",
      which in Manrope is 0.658em — 6% wider than the 0.620em tabular "0" that
@@ -3059,7 +3065,7 @@
      lamp/rim machinery and the other screens are untouched. Phase 2 carries
      the display face and the objects to the draw, card and result screens. */
   :root {
-    --font-display: 'Alfa Slab One', 'Playfair Display', serif;
+    --font-display: 'Alfa Slab One', 'Rockwell', Georgia, serif;
     /* True pool-ball colours, dimmed as if under the hall lamp. */
     --ball-1: #d4a92a; --ball-2: #2b56a8; --ball-3: #b7382f; --ball-4: #5e2f8a;
     --ball-5: #d2692b; --ball-6: #1f7a4a; --ball-7: #7a2432; --ball-8: #0d120d;
@@ -3198,6 +3204,34 @@
   .tp-slot svg { width: 13px; height: 13px; }
   .tp-slot.on { background: radial-gradient(circle at 40% 30%, #ffe9a6, #c9972a 55%, #6b4a0c); border-color: transparent; color: #2a1d05; box-shadow: calc(var(--cast-x) * 2px) calc(var(--cast-y) * 3px) 6px rgba(0,0,0,.5), 0 0 10px rgba(232,168,77,.25); }
   .tp-count { flex: 0 0 auto; white-space: nowrap; text-transform: none; letter-spacing: 0; font-size: var(--fs-micro); }
+
+  /* ── PHASE 2 (2026-11-07): the cloth continues onto the draw and card
+     screens. Break = zoom in on the felt; the ball you called sits on it, and
+     the card is dealt onto it. The result screen stays dark: it is the
+     receipt, not the table. */
+  #screen-draw, #screen-card { background: radial-gradient(140% 120% at var(--lamp-x) var(--lamp-y), var(--felt-mid) 0%, var(--felt) 42%, var(--felt-deep) 100%); }
+  #screen-draw .exit-link, #screen-card .exit-link { color: rgba(240,230,204,.72); }
+  #screen-draw .exit-link:hover, #screen-card .exit-link:hover,
+  #screen-draw .exit-link:focus-visible, #screen-card .exit-link:focus-visible { color: #fff; }
+  .draw-category-label { color: rgba(240,230,204,.78); letter-spacing: .14em; }
+  .draw-instruction { color: rgba(240,230,204,.72); }
+  /* The draw ball is the called ball: --cc comes from paintBall(). */
+  .ball { background:
+      radial-gradient(circle at 34% 28%, rgba(255,255,255,.42), rgba(255,255,255,0) 40%),
+      radial-gradient(circle at 68% 74%, rgba(0,0,0,.6), rgba(0,0,0,0) 72%),
+      var(--cc, var(--ball-8));
+    border-color: rgba(0,0,0,.25);
+    box-shadow: calc(var(--cast-x) * 12px) calc(var(--cast-y) * 18px) 40px rgba(0,0,0,.6), inset calc(var(--cast-x) * -6px) calc(var(--cast-y) * -8px) 18px rgba(0,0,0,.35); }
+  .ball.drawing { box-shadow: calc(var(--cast-x) * 12px) calc(var(--cast-y) * 18px) 40px rgba(0,0,0,.6), 0 0 60px rgba(var(--lamp-hue), .35), inset calc(var(--cast-x) * -6px) calc(var(--cast-y) * -8px) 18px rgba(0,0,0,.35); }
+  .ball-glow { background: radial-gradient(circle, rgba(var(--lamp-hue), .22) 0%, transparent 70%); }
+  /* Mini balls: card header, rules sheet. */
+  .pball.sm { width: 22px; height: 22px; box-shadow: calc(var(--cast-x) * 2px) calc(var(--cast-y) * 3px) 6px rgba(0,0,0,.5); }
+  .pball.sm .pnum { inset: 24%; font-size: var(--fs-micro); }
+  .pball.sm::after { display: none; }
+  .card-header { gap: var(--sp-8); align-items: center; }
+  .card-rarity-badge { margin-right: auto; }
+  .card-ball { flex: 0 0 auto; }
+  .pool-header .btn-back { white-space: nowrap; flex: 0 0 auto; }
 
   @media (prefers-reduced-motion: reduce) {
     .felt::before, .bead.slide, .felt .cat-btn.selected .pball, .draw-btn:not(.disabled) .cue-ball { animation: none; }
@@ -3352,6 +3386,7 @@
     <div class="card" id="active-card">
       <div class="card-stripe" id="card-stripe"></div>
       <div class="card-header">
+        <span class="pball sm card-ball" id="card-ball" aria-hidden="true"><span class="pnum">8</span></span>
         <div class="card-rarity-badge">
           <div class="rarity-dot" id="rarity-dot"></div>
           <span id="rarity-label"></span>
@@ -3538,7 +3573,7 @@
       <div class="rules-section-title">The Game</div>
       <div class="rules-loop">
         <div class="rules-loop-step">
-          <div class="rules-loop-icon"><svg class="pi" width="22" height="22" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></div>
+          <div class="rules-loop-icon"><svg class="pi" width="22" height="22" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Alfa Slab One', serif" font-weight="400" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></div>
           <div class="rules-loop-label">Draw</div>
         </div>
         <div class="rules-loop-arrow">›</div>
@@ -3563,27 +3598,27 @@
       <div class="rules-section-title">Categories</div>
       <div class="rules-cat-grid">
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:var(--adventure);"></div>
+          <span class="pball sm" style="--cc:var(--ball-6)" aria-hidden="true"><span class="pnum">6</span></span>
           <div class="rules-cat-name">Outdoors</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:var(--foodie);"></div>
+          <span class="pball sm" style="--cc:var(--ball-5)" aria-hidden="true"><span class="pnum">5</span></span>
           <div class="rules-cat-name">Eat &amp; Drink</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:var(--chill);"></div>
+          <span class="pball sm" style="--cc:var(--ball-2)" aria-hidden="true"><span class="pnum">2</span></span>
           <div class="rules-cat-name">Chill</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:var(--social);"></div>
+          <span class="pball sm" style="--cc:var(--ball-4)" aria-hidden="true"><span class="pnum">4</span></span>
           <div class="rules-cat-name">Nightlife</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:var(--culture);"></div>
+          <span class="pball sm" style="--cc:var(--ball-1)" aria-hidden="true"><span class="pnum">1</span></span>
           <div class="rules-cat-name">Culture</div>
         </div>
         <div class="rules-cat-row">
-          <div class="rules-cat-dot" style="background:var(--ivory);"></div>
+          <span class="pball sm" style="--cc:var(--ball-8)" aria-hidden="true"><span class="pnum">8</span></span>
           <div class="rules-cat-name">8-Ball</div>
         </div>
       </div>
@@ -3741,7 +3776,7 @@
 
 <!-- ── INSTALL PROMPT ── -->
 <div class="install-prompt" id="install-prompt">
-  <div class="install-prompt-icon"><svg class="pi" width="30" height="30" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Playfair Display', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></div>
+  <div class="install-prompt-icon"><svg class="pi" width="30" height="30" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="'Alfa Slab One', serif" font-weight="400" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg></div>
   <div class="install-prompt-text">
     <div class="install-prompt-title" id="install-prompt-title">Add Poul to Home Screen</div>
     <div class="install-prompt-sub" id="install-prompt-sub">Runs offline. No account.</div>
@@ -4493,14 +4528,28 @@ function returnCardToBag(card, category) {
 // ──────────────────────────────────────────
 // CATEGORY COLORS
 // ──────────────────────────────────────────
+// THE RACK (2026-11-01 redesign): every category IS a pool ball. This map is
+// the one source for the number — the home rack, the draw ball, the card header
+// and the rules sheet all read it (rack-balls.test.js pins the static markup
+// to it). True pool-ball colours live in :root as --ball-N.
+const CAT_BALL = {
+  adventure: 6,   // green
+  foodie: 5,      // orange
+  chill: 2,       // blue
+  social: 4,      // purple
+  culture: 1,     // yellow
+  '8ball': 8,
+  active: 6       // legacy — old pocketed 'active' cards are Outdoors
+};
+
 const CAT_COLORS = {
-  adventure: 'var(--adventure)',
-  foodie: 'var(--foodie)',
-  chill: 'var(--chill)',
-  social: 'var(--social)',
-  culture: 'var(--culture)',
-  active: 'var(--adventure)',   // legacy — old pocketed 'active' cards display as Outdoors
-  '8ball': 'var(--ivory)'
+  adventure: 'var(--ball-6)',
+  foodie: 'var(--ball-5)',
+  chill: 'var(--ball-2)',
+  social: 'var(--ball-4)',
+  culture: 'var(--ball-1)',
+  active: 'var(--ball-6)',      // legacy — old pocketed 'active' cards display as Outdoors
+  '8ball': 'var(--ivory)'       // the 8 is black; on dark surfaces its identity colour is the ivory numeral
 };
 
 const CAT_LABELS = {
@@ -4619,7 +4668,7 @@ function icon(name, size, style) {
 
 // Mini pool ball — shares the document-wide #pbg gradient
 function ballIcon(size) {
-  return '<svg class="pi" width="' + size + '" height="' + size + '" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="\'Playfair Display\', serif" font-weight="900" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg>';
+  return '<svg class="pi" width="' + size + '" height="' + size + '" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="url(#pbg)" stroke="#3d9970" stroke-width="3"/><circle cx="50" cy="46" r="20" fill="#f0e6cc"/><text x="50" y="46" text-anchor="middle" dominant-baseline="central" font-family="\'Alfa Slab One\', serif" font-weight="400" font-size="21" fill="#0d120d">8</text><ellipse cx="31" cy="27" rx="9" ry="6" fill="rgba(255,255,255,0.13)" transform="rotate(-20,31,27)"/></svg>';
 }
 
 // ── PACK FLAG MARKS ──
@@ -4970,6 +5019,21 @@ function renderScoreWire() {
   wireLitBefore = lit;
 }
 
+// Paints a ball element for a category: its --cc colour and its numeral.
+function paintBall(el, cat, numSel) {
+  if (!el) return;
+  const n = CAT_BALL[cat] || 8;
+  el.style.setProperty('--cc', 'var(--ball-' + n + ')');
+  const num = el.querySelector(numSel);
+  if (num) num.textContent = n;
+}
+
+// The home rack reads CAT_BALL at boot so the static markup can never drift
+// from the map (the HTML numbers are the no-JS fallback and are pinned equal).
+function applyRackBalls() {
+  document.querySelectorAll('#screen-home .cat-btn').forEach(btn => paintBall(btn, btn.dataset.category, '.pnum'));
+}
+
 // The cue label is the draw button's text. Writing it through this helper
 // keeps the cue ball span intact (textContent on the button would erase it).
 function setDrawLabel(text) {
@@ -5027,7 +5091,8 @@ function startDraw() {
   state.lastDeltaDate = null;
   saveState();
   track('card_drawn', cardProps(card));
-  document.getElementById('draw-category-label').textContent = CAT_LABELS[state.selectedCategory];
+  document.getElementById('draw-category-label').textContent = CAT_LABELS[state.selectedCategory] + ' called';
+  paintBall(document.getElementById('draw-ball'), state.selectedCategory, '.ball-number');
   showScreen('draw');
 
   setTimeout(() => {
@@ -5044,6 +5109,8 @@ function revealCard() {
   // Populate card
   const color = CAT_COLORS[state.selectedCategory];
   document.getElementById('card-stripe').style.background = color;
+  // An 8-ball break pulls from any category: the header ball is the card's own.
+  paintBall(document.getElementById('card-ball'), card.category || state.selectedCategory, '.pnum');
   const rarityBadge = document.querySelector('.card-rarity-badge');
   rarityBadge.className = 'card-rarity-badge badge-' + (card.rarity || 'Common').toLowerCase();
   document.getElementById('rarity-dot').style.background = RARITY_COLORS[card.rarity];
@@ -5841,7 +5908,7 @@ function wrapLines(ctx, text, maxW, maxLines) {
 }
 
 function renderShareCanvas(ctx, payload) {
-  const SERIF = '"Playfair Display", Georgia, serif';
+  const SERIF = '"Alfa Slab One", Georgia, serif';   // one weight, no italic
   const SANS = 'Manrope, sans-serif';
   const GOLD = '#e8a84d';
   const ivory = cssTok('--ivory'), sage = cssTok('--sage'), textMid = cssTok('--text-mid'),
@@ -5894,7 +5961,7 @@ function renderShareCanvas(ctx, payload) {
     const catColor = catHex(card.category);
     const legendary = card.rarity === 'Legendary';
 
-    ctx.font = '700 60px ' + SERIF;
+    ctx.font = '400 60px ' + SERIF;
     const titleLines = wrapLines(ctx, card.title, iw, 2);
     ctx.font = '400 30px ' + SANS;
     const descLines = wrapLines(ctx, card.description, iw, 3);
@@ -5937,7 +6004,7 @@ function renderShareCanvas(ctx, payload) {
     }
 
     cy += 26;
-    ctx.font = '700 60px ' + SERIF;
+    ctx.font = '400 60px ' + SERIF;
     ctx.fillStyle = ivory;
     for (const line of titleLines) { cy += 72; ctx.fillText(line, ix, cy); }
 
@@ -6004,7 +6071,7 @@ function renderShareCanvas(ctx, payload) {
     drawGlyph(ctx, TROPHY_ART[t.id], 540 - 125, cy, 250, GOLD);
     cy += 250 + 70;
     ctx.textAlign = 'center';
-    ctx.font = '700 66px ' + SERIF;
+    ctx.font = '400 66px ' + SERIF;
     ctx.fillStyle = ivory;
     ctx.fillText(t.name, 540, cy);
     cy += 34;
@@ -6024,9 +6091,9 @@ function renderShareCanvas(ctx, payload) {
 
   // Footer — the house signature
   ctx.fillStyle = ivory;
-  ctx.font = '900 52px ' + SERIF;
+  ctx.font = '400 52px ' + SERIF;
   drawTracked(ctx, 'POUL', 540, 1252, 24);
-  ctx.font = 'italic 700 27px ' + SERIF;
+  ctx.font = '400 27px ' + SERIF;
   ctx.fillStyle = textMid;
   ctx.textAlign = 'center';
   ctx.fillText('Luck favors the spontaneous.', 540, 1302);
@@ -6037,9 +6104,9 @@ async function shareImage(payload, plainText, trackProps) {
   try {
     try {
       await Promise.all([
-        document.fonts.load('700 60px "Playfair Display"'),
-        document.fonts.load('900 52px "Playfair Display"'),
-        document.fonts.load('italic 700 27px "Playfair Display"'),
+        document.fonts.load('400 60px "Alfa Slab One"'),
+        document.fonts.load('400 52px "Alfa Slab One"'),
+        document.fonts.load('400 27px "Alfa Slab One"'),
         document.fonts.load('800 30px Manrope'),
         document.fonts.load('700 26px Manrope'),
         document.fonts.load('400 30px Manrope'),
@@ -6670,6 +6737,7 @@ document.querySelectorAll('.spark-glyph').forEach(el => { el.innerHTML = icon('s
 document.querySelectorAll('.rules-type-emoji[data-type]').forEach(el => { el.innerHTML = typeEmblem(el.dataset.type, 30); });
 
 // Show spark/streak from localStorage immediately, indicate packs loading
+applyRackBalls();
 updateHomeUI();
 document.getElementById('season-line').textContent = 'Setting the table…';
 setDrawLabel('Racking the deck…');
